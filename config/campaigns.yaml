@@ -153,7 +153,7 @@ campaigns:
     partner: Spectrum
     series: Fueling Dreams
     series_italic: Dreams
-    type: content
+    type: social    # social-only — no episode breakdown, posts shown directly
     flight_start: 2026-05-01
     flight_end: 2026-06-30
     # Two-part campaign: NASCAR (5.75M / $17,525) + World Cup (4.5M / $12,125).

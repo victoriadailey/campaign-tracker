@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Literal
+from typing import Literal  # noqa: F401  (used by Literal types below)
 
 
 StatusKind = Literal["on", "warn", "watch", "danger"]
@@ -38,6 +38,10 @@ class CampaignSummary:
     episodes: int
     posts: int
     blurb: str
+    # Per-campaign breakdowns (used by campaign detail page)
+    channels: list = field(default_factory=list)            # list[Channel] for THIS campaign — YouTube split by subtype
+    top_posts: list = field(default_factory=list)            # list[TopPost] ranked by ER, this campaign only
+    top_posts_organic: list = field(default_factory=list)    # list[TopPostOrganic] ranked by organic reach, this campaign only
 
 
 @dataclass

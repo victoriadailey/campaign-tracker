@@ -6,7 +6,8 @@ from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date
 
-from app.parsers import Boosting, NormalizedPost, Platform
+from app.parsers import Boosting, NormalizedPost, Platform, Source
+from app.parsers.google_ads_campaign import youtube_ad_subtype
 from app.viewer.data_contract import (
     CampaignSummary,
     Channel,
@@ -205,6 +206,75 @@ def top_posts_by_organic_reach(
             url=p.post_url,
         ))
     return out
+
+
+def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
+    """Per-campaign channel rollup with YouTube split into In-feed and Pre-roll.
+
+    Uses Google Ads campaign-name subtype (`youtube_ad_subtype()`) to bucket YouTube
+    posts. MS-source YouTube posts (organic) bucket as "in-feed" since they show in
+    YouTube's feed/browse experience.
+    """
+    by_key: dict[str, dict[str, float]] = defaultdict(lambda: {
+        "impressions": 0, "eng": 0, "spend": 0.0, "paid_impressions": 0
+    })
+    for p in posts:
+        key = p.platform.value
+        if p.platform is Platform.YOUTUBE:
+            # Split YouTube into In-feed vs Pre-roll using the ad subtype
+            if p.source is Source.GOOGLE_ADS_CAMPAIGN:
+                subtype = youtube_ad_subtype(p.post_title or "")
+                if subtype == "in-stream":
+                    key = "youtube_preroll"
+                elif subtype == "shorts":
+                    key = "youtube_infeed"  # shorts roll up with in-feed for CPM purposes
+                else:
+                    key = "youtube_infeed"
+            else:
+                # MS organic / non-Google-Ads YT posts → in-feed bucket
+                key = "youtube_infeed"
+        by_key[key]["impressions"] += _pick_impressions(p) or 0
+        by_key[key]["eng"] += p.engagements_total or 0
+        by_key[key]["spend"] += p.ad_spend or 0
+        by_key[key]["paid_impressions"] += p.impressions_paid or 0
+
+    out: list[Channel] = []
+    for key, agg in by_key.items():
+        if key == "unknown":
+            continue
+        impressions = int(agg["impressions"])
+        eng = int(agg["eng"])
+        spend = agg["spend"]
+        paid = agg["paid_impressions"]
+        er = (eng / impressions * 100) if impressions else 0.0
+        cpm = (spend / paid * 1000) if paid else 0.0
+
+        display_name, italic, bench, color = _channel_display(key)
+        delta = round(((er - bench.er) / bench.er * 100) if bench.er else 0.0, 1)
+        out.append(Channel(
+            name=display_name, italic=italic,
+            impressions=impressions, eng=eng,
+            er=round(er, 2), cpm=round(cpm, 2),
+            color=color, delta=delta, bench=bench,
+        ))
+
+    out.sort(key=lambda c: c.impressions, reverse=True)
+    return out
+
+
+def _channel_display(key: str) -> tuple[str, str, ChannelBenchmark, str]:
+    """Map an internal channel key (with YouTube subtype) to display info + benchmark."""
+    # Default: platform-key lookup
+    if key == "youtube_infeed":
+        return ("YouTube In-feed", "In-feed", ChannelBenchmark(er=4.2, cpm=0.50), "#E00922")
+    if key == "youtube_preroll":
+        return ("YouTube Pre-roll", "Pre-roll", ChannelBenchmark(er=4.2, cpm=9.50), "#B0061B")
+    return (
+        PLATFORM_DISPLAY.get(key, key.title()),
+        PLATFORM_ITALIC.get(key, key.title()),
+        PLATFORM_BENCHMARKS.get(key, ChannelBenchmark(er=0.0, cpm=0.0)),
+        PLATFORM_COLORS.get(key, "#666666"),
+    )
 
 
 def channel_rollups(posts_by_campaign: dict[str, list[NormalizedPost]]) -> list[Channel]:

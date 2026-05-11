@@ -21,6 +21,7 @@ from app.compute.rollup import (
     CampaignConfig,
     channel_rollups,
     hero_post_from_top,
+    per_campaign_channels,
     rollup_campaign,
     top_posts_by_er,
     top_posts_by_organic_reach,
@@ -126,7 +127,13 @@ def main() -> int:
         )
         posts = posts_by_campaign.get(cc.id, [])
         if posts:
-            campaigns.append(rollup_campaign(cc, posts, today=today))
+            summary = rollup_campaign(cc, posts, today=today)
+            # Attach per-campaign channels + top posts
+            summary.channels = per_campaign_channels(posts)
+            partners_one = {cc.id: cc.partner}
+            summary.top_posts = top_posts_by_er({cc.id: posts}, partners_one, n=10)
+            summary.top_posts_organic = top_posts_by_organic_reach({cc.id: posts}, partners_one, n=10)
+            campaigns.append(summary)
         else:
             campaigns.append(_sample_campaign_or_compute(cc, sample, today))
 

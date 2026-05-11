@@ -20,13 +20,15 @@ function CampaignPage({ campaignId, onBack }) {
   const trackImp = paceHealth('Delivery', impVsTime);
   const trackBud = paceHealth('Budget', budVsTime);
 
-  // Build campaign-specific channel data
-  const scale = c.impressions.delivered / 13_780_000;
-  const channels = CHANNELS.map(ch => ({
-    ...ch,
-    impressions: Math.round(ch.impressions * scale),
-    eng: Math.round(ch.eng * scale)
-  }));
+  // Per-campaign channels (with YouTube split into In-feed + Pre-roll).
+  // Falls back to scaled cross-campaign data if the per-campaign rollup isn't populated.
+  const channels = (c.channels && c.channels.length > 0)
+    ? c.channels
+    : CHANNELS.map(ch => ({
+        ...ch,
+        impressions: Math.round(ch.impressions * (c.impressions.delivered / 13_780_000)),
+        eng: Math.round(ch.eng * (c.impressions.delivered / 13_780_000))
+      }));
 
   const totalPosts = c.episodes * 6 + 4;
 
@@ -207,7 +209,9 @@ function CampaignPage({ campaignId, onBack }) {
         <div style={{display:'grid', gridTemplateColumns:'repeat(5, 1fr)', gap:12, marginBottom:16}}>
           {channels.map(ch => {
             const erDiff = ch.er - ch.bench.er;
-            const cpmDiff = ch.bench.cpm > 0 ? ((ch.bench.cpm - ch.cpm) / ch.bench.cpm) * 100 : 0;
+            // CPM delta: positive means OVER benchmark (bad — paying more than expected).
+            // Negative means UNDER benchmark (good — efficient).
+            const cpmDiff = ch.bench.cpm > 0 ? ((ch.cpm - ch.bench.cpm) / ch.bench.cpm) * 100 : 0;
             return (
               <div key={ch.name} className="chan">
                 <div className="chan-h">
@@ -244,7 +248,7 @@ function CampaignPage({ campaignId, onBack }) {
                     <div style={{display:'flex', justifyContent:'space-between', fontSize: 11}}>
                       <span style={{color:'var(--ink-3)'}}>CPM bench</span>
                       <span style={{fontWeight:500, color:'var(--ink-2)'}}>
-                        ${ch.bench.cpm.toFixed(2)} <span style={{color: cpmDiff > 0 ? 'var(--positive)' : 'var(--danger)', fontWeight:600, marginLeft:4}}>
+                        ${ch.bench.cpm.toFixed(2)} <span style={{color: cpmDiff > 0 ? 'var(--danger)' : 'var(--positive)', fontWeight:600, marginLeft:4}}>
                           {cpmDiff > 0 ? '+' : ''}{cpmDiff.toFixed(0)}%
                         </span>
                       </span>
@@ -257,7 +261,8 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
       </div>
 
-      {/* PER-EPISODE PERFORMANCE — collapsible rich table */}
+      {/* PER-EPISODE PERFORMANCE — collapsible rich table (CONTENT campaigns only) */}
+      {c.type !== 'social' && EPISODES.length > 0 && (
       <div className="sec">
         <div className="sec-h">
           <div>
@@ -267,8 +272,10 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
         <EpisodePerformanceTable episodes={EPISODES} channels={channels}/>
       </div>
+      )}
 
-      {/* EPISODE COMPARISON CARDS */}
+      {/* EPISODE COMPARISON CARDS (CONTENT campaigns only) */}
+      {c.type !== 'social' && EPISODES.length > 0 && (
       <div className="sec">
         <div className="sec-h">
           <div>
@@ -355,45 +362,86 @@ function CampaignPage({ campaignId, onBack }) {
           })}
         </div>
       </div>
+      )}
 
-      {/* TOP POSTS — linkable */}
+      {/* TOP POSTS — per-campaign, two columns */}
       <div className="sec">
         <div className="sec-h">
           <div>
             <div className="sec-title">Top <em>posts</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Highest-engagement assets on this campaign. Click to open the original.</div>
+            <div className="sec-sub" style={{marginTop:6}}>Best-performing assets on this campaign. Click any row to open.</div>
           </div>
-          <a href="#" style={{fontSize:12, color:'var(--ink)', textDecoration:'none', fontWeight:500}}>See all posts →</a>
         </div>
-        <div className="card" style={{padding:0, overflow:'hidden'}}>
-          {TOP_POSTS.slice(0, 6).map((p, idx) => (
-            <a key={idx} href={p.url || '#'} target="_blank" rel="noreferrer"
-              style={{
-                display:'grid', gridTemplateColumns:'40px 1fr 140px 90px 90px 30px', gap:18,
-                padding:'16px 22px', alignItems:'center',
-                borderBottom: idx < 5 ? '1px solid var(--line)' : 'none',
-                textDecoration:'none', color:'inherit', cursor:'pointer',
-                transition:'background 0.15s'
-              }}
-              onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
-              onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
-              <div style={{fontFamily:'var(--serif)', fontStyle:'italic', fontSize:24, fontWeight:300, color:'var(--ink-3)'}}>{idx + 1}</div>
-              <div style={{minWidth:0}}>
-                <div style={{fontSize:14, fontWeight:500, marginBottom:4, lineHeight:1.4, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:1, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
-                <div style={{fontSize:11, color:'var(--ink-3)'}}>{p.format} · {p.partner}</div>
-              </div>
-              <div><PlatformPill name={p.platform}/></div>
-              <div style={{textAlign:'right'}}>
-                <div style={{fontFamily:'var(--serif)', fontSize:20, fontWeight:300}}>{fmt.num(p.reach)}</div>
-                <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>Reach</div>
-              </div>
-              <div style={{textAlign:'right'}}>
-                <div style={{fontFamily:'var(--serif)', fontSize:20, fontWeight:300}}>{p.er.toFixed(1)}<span style={{fontSize:12, color:'var(--ink-3)'}}>%</span></div>
-                <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>ER</div>
-              </div>
-              <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
-            </a>
-          ))}
+        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:14}}>
+          {/* By engagement rate */}
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
+              <div className="card-title-serif" style={{fontSize:20}}>By <em>engagement rate</em></div>
+              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Min 1K views — ranked by ER%</div>
+            </div>
+            {(c.topPosts && c.topPosts.length > 0 ? c.topPosts.slice(0, 5) : []).map((p, idx, arr) => (
+              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
+                style={{
+                  display:'grid', gridTemplateColumns:'28px 1fr 100px 70px 18px', gap:12,
+                  padding:'14px 22px', alignItems:'center',
+                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                  textDecoration:'none', color:'inherit', cursor:'pointer',
+                  transition:'background 0.15s'
+                }}
+                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
+                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
+                <div style={{fontFamily:'var(--serif)', fontStyle:'italic', fontSize:20, fontWeight:300, color:'var(--ink-3)'}}>{p.rank || idx + 1}</div>
+                <div style={{minWidth:0}}>
+                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
+                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format}</div>
+                </div>
+                <div><PlatformPill name={p.platform}/></div>
+                <div style={{textAlign:'right'}}>
+                  <div style={{fontFamily:'var(--serif)', fontSize:18, fontWeight:300}}>{p.er.toFixed(1)}<span style={{fontSize:11, color:'var(--ink-3)'}}>%</span></div>
+                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>ER</div>
+                </div>
+                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
+              </a>
+            ))}
+            {(!c.topPosts || c.topPosts.length === 0) && (
+              <div style={{padding:'22px', fontSize:12, color:'var(--ink-3)', textAlign:'center'}}>No posts with ER data yet.</div>
+            )}
+          </div>
+
+          {/* By organic reach */}
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
+              <div className="card-title-serif" style={{fontSize:20}}>By <em>organic reach</em></div>
+              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Highest raw organic impressions, this campaign</div>
+            </div>
+            {(c.topPostsOrganic && c.topPostsOrganic.length > 0 ? c.topPostsOrganic.slice(0, 5) : []).map((p, idx, arr) => (
+              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
+                style={{
+                  display:'grid', gridTemplateColumns:'28px 1fr 100px 90px 18px', gap:12,
+                  padding:'14px 22px', alignItems:'center',
+                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                  textDecoration:'none', color:'inherit', cursor:'pointer',
+                  transition:'background 0.15s'
+                }}
+                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
+                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
+                <div style={{fontFamily:'var(--serif)', fontStyle:'italic', fontSize:20, fontWeight:300, color:'var(--ink-3)'}}>{p.rank || idx + 1}</div>
+                <div style={{minWidth:0}}>
+                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
+                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format} · {p.organicPct}% organic</div>
+                </div>
+                <div><PlatformPill name={p.platform}/></div>
+                <div style={{textAlign:'right'}}>
+                  <div style={{fontFamily:'var(--serif)', fontSize:18, fontWeight:300}}>{fmt.num(p.organicReach)}</div>
+                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>Organic</div>
+                </div>
+                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
+              </a>
+            ))}
+            {(!c.topPostsOrganic || c.topPostsOrganic.length === 0) && (
+              <div style={{padding:'22px', fontSize:12, color:'var(--ink-3)', textAlign:'center'}}>No organic-reach data yet.</div>
+            )}
+          </div>
         </div>
       </div>
 
