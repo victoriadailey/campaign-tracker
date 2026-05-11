@@ -128,9 +128,21 @@ BOOSTING_MAP: dict[str, Boosting] = {
 }
 
 
-def parse(file: IO[bytes] | str | bytes) -> ParseResult:
+def parse(
+    file: IO[bytes] | str | bytes,
+    organic_only_for: set[Platform] | None = None,
+) -> ParseResult:
+    """Parse a Measure Studio CSV.
+
+    Args:
+        file: file path / bytes / file-like
+        organic_only_for: if provided, paid metrics are zeroed out for these platforms.
+            Used by the Portfolio Players pipeline where dedicated X Ads + YT Paid exports
+            provide the authoritative paid numbers — we don't want to double-count MS.
+    """
     warnings: list[str] = []
     errors: list[str] = []
+    organic_only_for = organic_only_for or set()
 
     df = _read_csv(file)
     if df is None:
@@ -157,7 +169,18 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
         if platform is Platform.UNKNOWN:
             skipped += 1
             continue
-        rows.append(_row_to_post(raw, platform))
+        post = _row_to_post(raw, platform)
+        if platform in organic_only_for:
+            # Zero out paid metrics; keep organic/total. Paid will come from dedicated source.
+            post.views_paid = None
+            post.impressions_paid = None
+            post.reach_paid = None
+            post.engagements_paid = None
+            post.ad_spend = None
+            post.cpm = None
+            post.cpv = None
+            post.cpc = None
+        rows.append(post)
 
     if skipped:
         warnings.append(f"Skipped {skipped} rows with unknown Post Platform")

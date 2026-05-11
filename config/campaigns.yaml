@@ -12,7 +12,7 @@ signals:
     body: "TastyTrade TikTok delivered 592K views on $267 in spend — 228% of contracted impressions. Should be a default channel for every package."
   - kind: watch
     title: "E*TRADE pacing watch"
-    body: "70% of flight elapsed but only 31% of impressions delivered. Mark Cuban episode launching this week should close the gap."
+    body: "72% of flight elapsed but only 11% of impressions delivered. Mark Cuban episode launching this week should close the gap."
 
 sources:
   - { name: "Measure Studio",   date: "May 5, 2026",  stale: false }
@@ -37,6 +37,7 @@ campaigns:
     blurb: "Three-episode interview series with HR & sports execs. Strong organic resonance on LinkedIn."
     ms_post_groups:
       - "Future of Sports"
+      - "Future of Sports: Full Ep"
       - "Future of Sports: Cutdowns"
     sources:
       measure_studio:
@@ -45,6 +46,28 @@ campaigns:
       google_ads_campaign:
         - adp_cutdown_gads_campaign.csv
         - adp_full_episode_gads_campaign.csv
+      x_ads:
+        - adp_cutdown_x_ads.csv
+        - adp_full_episode_x_ads.csv
+    episodes:
+      - id: ep1
+        n: "Ep. 01"
+        title: "Kim Ng on Building Competence"
+        date: "Mar 5"
+        match: ["Kim Ng"]
+        exclude: []
+      - id: ep2
+        n: "Ep. 02"
+        title: "Inside the League of Legends Esports Ecosystem"
+        date: "Mar 29"
+        match: ["Greeley", "League of Legends", "Riot Games"]
+        exclude: []
+      - id: ep3
+        n: "Ep. 03"
+        title: "Sarah Swanson on Women's Tennis at WTA"
+        date: "Apr 27"
+        match: ["Swanson", "WTA", "women's tennis"]
+        exclude: []
 
   - id: etrade
     partner: E*TRADE
@@ -61,9 +84,58 @@ campaigns:
     ms_post_groups:
       - "Portfolio Players S3"
       - "Portfolio Players S3 x E*TRADE"
+    # Don't double-count: dedicated X Ads + YouTube Paid exports are authoritative for paid.
+    # MS still provides organic/total for those platforms.
+    ms_organic_only_for:
+      - x
+      - youtube
     sources:
       measure_studio:
         - portfolio_players_ms.csv
+      youtube_paid:
+        - portfolio_players_yt_paid.csv
+      x_ads:
+        - portfolio_players_x_ads.csv
+    episodes:
+      - id: ep1
+        n: "Ep. 01"
+        title: "Mike Repole on Sports Ownership"
+        date: "Feb 3"
+        match: ["Repole"]
+        exclude: []
+      - id: ep2
+        n: "Ep. 02"
+        title: "Jon Patricof on Athletes Unlimited"
+        date: "Feb 12"
+        match: ["Patricof", "Athletes Unlimited"]
+        exclude: []
+      - id: ep3
+        n: "Ep. 03"
+        title: "Leslie Osborne on Women's Soccer"
+        date: "Feb 27"
+        match: ["Osborne"]
+        exclude: []
+      - id: ep4
+        n: "Ep. 04"
+        title: "Paul Rabil on PLL Ownership"
+        date: "Mar 31"
+        match: ["Rabil", "Premier Lacrosse"]
+        exclude: []
+      - id: ep5
+        n: "Ep. 05"
+        title: "Assia Grazioli-Venier on Women's Sports Investment"
+        date: "Apr 11"
+        match: ["Grazioli", "Muse Capital", "Assia"]
+        exclude: []
+      # Cuban episode hasn't aired — teaser mentions get matched but excluded from Repole.
+      # If Cuban airs and produces real posts, the rule below catches them while keeping
+      # any Repole-mentions-Cuban posts attributed to Repole (longest match wins on Repole side).
+      - id: ep6
+        n: "Ep. 06"
+        title: "Mark Cuban on Sports Ownership"
+        date: "TBD"
+        match: ["Mark Cuban"]
+        exclude: ["Repole"]   # Mike Repole episode mentions Cuban — don't double-attribute
 
   - id: tastytrade
     partner: TastyTrade

@@ -17,6 +17,7 @@ class Source(str, Enum):
     MEASURE_STUDIO = "measure_studio"
     GOOGLE_ADS_AD = "google_ads_ad"
     GOOGLE_ADS_CAMPAIGN = "google_ads_campaign"
+    YOUTUBE_PAID = "youtube_paid"           # alias for google_ads_campaign when used as YT paid source
     META_ADS = "meta_ads"
     TIKTOK_ADS = "tiktok_ads"
     X_ADS = "x_ads"

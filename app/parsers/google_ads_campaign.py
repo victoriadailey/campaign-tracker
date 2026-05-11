@@ -42,12 +42,13 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
             continue
 
         watch_time = _to_float(raw.get("Watch time"))
+        post_format = _detect_youtube_format(campaign_name)
         post = NormalizedPost(
             source=Source.GOOGLE_ADS_CAMPAIGN,
             platform=Platform.YOUTUBE,
             post_id_native=campaign_name,
             post_title=campaign_name,
-            post_format=PostFormat.OTHER,
+            post_format=post_format,
             boosting=Boosting.DARK,
             impressions_paid=_to_int(raw.get("Impr.")),
             ad_spend=_to_float(raw.get("Cost")),
@@ -61,6 +62,32 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
         rows.append(post)
 
     return ParseResult(rows=rows, detected_source=Source.GOOGLE_ADS_CAMPAIGN)
+
+
+def _detect_youtube_format(name: str) -> PostFormat:
+    """Infer ad format from the Google Ads campaign name suffix."""
+    lower = name.lower()
+    if "shorts" in lower or "cutdown" in lower or "trailer" in lower:
+        return PostFormat.REELS_SHORTS
+    if "(in-feed)" in lower or " in-feed" in lower or "_in-feed" in lower:
+        return PostFormat.YOUTUBE_LONG
+    if "(pre-roll)" in lower or "(preroll)" in lower or "pre-roll" in lower:
+        return PostFormat.YOUTUBE_LONG
+    return PostFormat.YOUTUBE_LONG
+
+
+def youtube_ad_subtype(name: str) -> str:
+    """Returns 'in-feed', 'in-stream', 'shorts', or 'other' for downstream channel split."""
+    lower = (name or "").lower()
+    if "(in-feed)" in lower or "_in-feed" in lower or " in-feed" in lower:
+        return "in-feed"
+    if "(pre-roll)" in lower or "(preroll)" in lower or "pre-roll" in lower or "in-stream" in lower:
+        return "in-stream"
+    if "shorts" in lower or "(shorts)" in lower:
+        return "shorts"
+    if "cutdown" in lower:
+        return "in-feed"  # cutdowns typically served as in-feed
+    return "in-feed"
 
 
 def _read_csv(file: IO[bytes] | str | bytes) -> pd.DataFrame | None:

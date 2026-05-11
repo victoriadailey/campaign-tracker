@@ -16,6 +16,7 @@ from typing import Any
 
 import yaml
 
+from app.compute.episodes import EpisodeDef, attribute_posts_to_episodes, rollup_episode
 from app.compute.rollup import (
     CampaignConfig,
     channel_rollups,
@@ -24,9 +25,10 @@ from app.compute.rollup import (
     top_posts_by_er,
     top_posts_by_organic_reach,
 )
-from app.parsers import NormalizedPost, ParseResult
+from app.parsers import NormalizedPost, ParseResult, Platform
 from app.parsers.google_ads_campaign import parse as parse_gads_campaign
 from app.parsers.measure_studio import parse as parse_ms
+from app.parsers.x_ads import parse as parse_x_ads
 from app.viewer.data_contract import (
     CampaignSummary,
     DataSource,
@@ -58,16 +60,19 @@ def main() -> int:
     posts_by_campaign: dict[str, list[NormalizedPost]] = defaultdict(list)
     parse_warnings: list[str] = []
 
+    _PLATFORM_FROM_KEY = {p.value: p for p in Platform}
     for c in cfg["campaigns"]:
         c_id = c["id"]
         match_groups = {g.lower() for g in c.get("ms_post_groups", [])}
+        organic_only = {_PLATFORM_FROM_KEY[k.lower()] for k in c.get("ms_organic_only_for", [])
+                        if k.lower() in _PLATFORM_FROM_KEY}
 
         for ms_file in c.get("sources", {}).get("measure_studio", []) or []:
             path = exports_root / ms_file
             if not path.exists():
                 parse_warnings.append(f"[{c_id}] missing MS file: {path}")
                 continue
-            result: ParseResult = parse_ms(str(path))
+            result: ParseResult = parse_ms(str(path), organic_only_for=organic_only)
             if not result.ok:
                 parse_warnings.extend(f"[{c_id}] {path.name}: {e}" for e in result.errors)
                 continue
@@ -80,6 +85,26 @@ def main() -> int:
                 parse_warnings.append(f"[{c_id}] missing Google Ads file: {path}")
                 continue
             result = parse_gads_campaign(str(path))
+            posts_by_campaign[c_id].extend(result.rows)
+
+        for yt_file in c.get("sources", {}).get("youtube_paid", []) or []:
+            path = exports_root / yt_file
+            if not path.exists():
+                parse_warnings.append(f"[{c_id}] missing YouTube Paid file: {path}")
+                continue
+            # Same format as google_ads_campaign export
+            result = parse_gads_campaign(str(path))
+            posts_by_campaign[c_id].extend(result.rows)
+
+        for x_file in c.get("sources", {}).get("x_ads", []) or []:
+            path = exports_root / x_file
+            if not path.exists():
+                parse_warnings.append(f"[{c_id}] missing X Ads file: {path}")
+                continue
+            result = parse_x_ads(str(path))
+            if not result.ok:
+                parse_warnings.extend(f"[{c_id}] {path.name}: {e}" for e in result.errors)
+                continue
             posts_by_campaign[c_id].extend(result.rows)
 
     # ---------- Campaign rollups (with sample fallback for empty campaigns) ----------
@@ -112,7 +137,30 @@ def main() -> int:
 
     # ---------- Passthrough from design sample ----------
     ub_components = sample.get("UB_COMPONENTS", [])
-    episodes_by_campaign = sample.get("EPISODES_BY_CAMPAIGN", {})
+
+    # ---------- Episode rollups ----------
+    # Compute per-campaign episodes from real posts using user-defined episode rules.
+    # Falls back to design sample for campaigns we can't compute.
+    sample_episodes = sample.get("EPISODES_BY_CAMPAIGN", {})
+    episodes_by_campaign: dict[str, list] = {}
+    for c in cfg["campaigns"]:
+        c_id = c["id"]
+        ep_defs = [
+            EpisodeDef(
+                id=e["id"], n=e["n"], title=e["title"], date=e.get("date", ""),
+                match=e.get("match", []), exclude=e.get("exclude", []),
+                all_match=e.get("all_match", False),
+            )
+            for e in c.get("episodes", []) or []
+        ]
+        posts = posts_by_campaign.get(c_id, [])
+        if ep_defs and posts:
+            attributed = attribute_posts_to_episodes(posts, ep_defs)
+            computed = [rollup_episode(ep, attributed[ep.id]) for ep in ep_defs]
+            episodes_by_campaign[c_id] = [e for e in computed if e]
+        else:
+            # Fallback: use sample (E*TRADE has Kim Ng/Repole/Osborne placeholders in design)
+            episodes_by_campaign[c_id] = sample_episodes.get(c_id, [])
 
     # Fallback hero / top posts from sample if we computed nothing real
     if not top_er:
