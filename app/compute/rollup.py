@@ -262,6 +262,90 @@ def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
     return out
 
 
+def compute_campaign_callouts(
+    summary: CampaignSummary,
+    channels: list[Channel],
+) -> list[dict]:
+    """Produce 3 simple rule-based callouts (WIN / OPPORTUNITY / WATCH) for one campaign.
+
+    Replaces the hardcoded mock callouts on the campaign detail page. As the team writes
+    real callouts manually (or AI-assisted later), these become editable in admin.
+    """
+    callouts: list[dict] = []
+
+    # ---------- WIN: best ER channel with non-trivial reach ----------
+    eligible = [c for c in channels if c.impressions >= 10_000 and c.er > 0]
+    if eligible:
+        best = max(eligible, key=lambda c: c.er)
+        callouts.append({
+            "tag": "WIN",
+            "kind": "pos",
+            "headline": f"{best.name} leading at {best.er:.1f}% ER.",
+            "body": (
+                f"{_short(best.impressions)} impressions with {_short(best.eng)} engagements "
+                f"({best.er:.1f}% ER) — strongest performer this campaign. "
+                f"Worth featuring in the weekly partner update."
+            ),
+            "meta": f"{summary.partner} · {best.name}",
+        })
+
+    # ---------- OPPORTUNITY: largest organic-leaning channel or biggest reach driver ----------
+    by_reach = sorted(channels, key=lambda c: c.impressions, reverse=True)
+    if by_reach:
+        top = by_reach[0]
+        callouts.append({
+            "tag": "OPPORTUNITY",
+            "kind": "info",
+            "headline": f"{top.name} is the top reach driver at {_short(top.impressions)} impressions.",
+            "body": (
+                f"{(top.impressions / max(summary.impressions.delivered, 1) * 100):.0f}% of campaign delivery "
+                f"comes from {top.name} at ${top.cpm:.2f} CPM. "
+                f"{'Lean in for catch-up pacing.' if summary.status_kind != 'on' else 'Continue the current allocation.'}"
+            ),
+            "meta": f"{summary.partner} · {top.name}",
+        })
+
+    # ---------- WATCH: pacing or CPM-over-benchmark issue ----------
+    pacing_ratio = (summary.impressions.delivered / summary.impressions.goal * 100) / max(summary.elapsed_pct, 1) if summary.impressions.goal else 1.0
+    over_bench = [c for c in channels if c.bench.cpm > 0 and c.cpm > c.bench.cpm * 1.2]
+    if pacing_ratio < 0.85:
+        gap = summary.impressions.goal - summary.impressions.delivered
+        callouts.append({
+            "tag": "WATCH",
+            "kind": "warn",
+            "headline": f"{(100 - pacing_ratio * 100):.0f}% behind impression pacing with {summary.days_left} days left.",
+            "body": (
+                f"{_short(gap)} impressions still needed to hit the {_short(summary.impressions.goal)} goal. "
+                f"Current trajectory ends below target — consider reallocating budget to highest-efficiency channels."
+            ),
+            "meta": f"{summary.partner} · Pacing",
+        })
+    elif over_bench:
+        worst = max(over_bench, key=lambda c: c.cpm / max(c.bench.cpm, 0.01))
+        over_pct = (worst.cpm - worst.bench.cpm) / worst.bench.cpm * 100
+        callouts.append({
+            "tag": "WATCH",
+            "kind": "warn",
+            "headline": f"{worst.name} CPM is {over_pct:+.0f}% over benchmark.",
+            "body": (
+                f"${worst.cpm:.2f} CPM vs. ${worst.bench.cpm:.2f} benchmark. "
+                f"Tighten targeting or pause under-performing creative."
+            ),
+            "meta": f"{summary.partner} · {worst.name}",
+        })
+
+    return callouts
+
+
+def _short(n: float) -> str:
+    n = int(n)
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.1f}M"
+    if n >= 1_000:
+        return f"{n / 1_000:.0f}K"
+    return str(n)
+
+
 def _channel_display(key: str) -> tuple[str, str, ChannelBenchmark, str]:
     """Map an internal channel key (with YouTube subtype) to display info + benchmark."""
     # Default: platform-key lookup

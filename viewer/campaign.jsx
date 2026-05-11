@@ -206,7 +206,7 @@ function CampaignPage({ campaignId, onBack }) {
           </div>
         </div>
 
-        <div style={{display:'grid', gridTemplateColumns:'repeat(5, 1fr)', gap:12, marginBottom:16}}>
+        <div style={{display:'grid', gridTemplateColumns:`repeat(${channels.length}, minmax(0, 1fr))`, gap:10, marginBottom:16}}>
           {channels.map(ch => {
             const erDiff = ch.er - ch.bench.er;
             // CPM delta: positive means OVER benchmark (bad — paying more than expected).
@@ -274,16 +274,28 @@ function CampaignPage({ campaignId, onBack }) {
       </div>
       )}
 
-      {/* EPISODE COMPARISON CARDS (CONTENT campaigns only) */}
-      {c.type !== 'social' && EPISODES.length > 0 && (
+      {/* EPISODE / TENTPOLE COMPARISON CARDS */}
+      {EPISODES.length > 0 && (
       <div className="sec">
         <div className="sec-h">
           <div>
-            <div className="sec-title">Episode <em>comparison</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>What worked, what didn't — episode by episode.</div>
+            <div className="sec-title">
+              {c.type === 'social' ? <>Tentpole <em>comparison</em></> : <>Episode <em>comparison</em></>}
+            </div>
+            <div className="sec-sub" style={{marginTop:6}}>
+              {c.type === 'social'
+                ? `What worked across the ${EPISODES.length} parts of this campaign.`
+                : "What worked, what didn't — episode by episode."}
+            </div>
           </div>
         </div>
-        <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:14}}>
+        <div style={{
+          display:'grid',
+          gridTemplateColumns: c.type === 'social'
+            ? `repeat(${Math.min(EPISODES.length, 2)}, minmax(0, 1fr))`
+            : 'repeat(3, minmax(0, 1fr))',
+          gap:14
+        }}>
           {EPISODES.map((e, idx) => {
             const tones = ['ft-3', 'ft-4', 'ft-2'];
             const bgs = { 'ft-3': 'var(--sky)', 'ft-4': 'var(--pear)', 'ft-2': 'var(--blossom)' };
@@ -445,7 +457,8 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
       </div>
 
-      {/* WHAT WE'RE SEEING — redesigned callouts */}
+      {/* WHAT WE'RE SEEING — per-campaign callouts */}
+      {(c.callouts && c.callouts.length > 0) && (
       <div className="sec">
         <div className="sec-h">
           <div>
@@ -453,12 +466,8 @@ function CampaignPage({ campaignId, onBack }) {
             <div className="sec-sub" style={{marginTop:6}}>Auto-flagged based on this campaign's recent activity.</div>
           </div>
         </div>
-        <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:14}}>
-          {[
-            { tag: 'WIN', kind: 'pos', headline: 'YouTube CPM is 25% under benchmark.', body: `All three episodes averaging $0.49 CPM vs. $0.65 platform benchmark. Reserve $2–3K of remaining budget for an in-feed extension.`, meta: '3 episodes · YouTube' },
-            { tag: 'OPPORTUNITY', kind: 'info', headline: 'LinkedIn organic ER averaging 5.4%.', body: `100% organic distribution across ${c.episodes * 3} posts. Increasing posting cadence is the highest-ROI lever for this flight.`, meta: 'LinkedIn · Organic' },
-            { tag: 'WATCH', kind: 'warn', headline: 'Instagram CPM is trending up.', body: 'Up to $5.25 from $4.10 in March — 17% above benchmark. Consider tightening audience targeting or pausing under-performing creative.', meta: 'Instagram · Paid' },
-          ].map((co, i) => {
+        <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(c.callouts.length, 3)}, minmax(0, 1fr))`, gap:14}}>
+          {c.callouts.map((co, i) => {
             const tone = co.kind === 'pos' ? { bar: 'var(--pear)', tag: '#2f7a3f' } :
               co.kind === 'warn' ? { bar: 'var(--orange)', tag: '#b8392b' } :
               { bar: 'var(--sky)', tag: 'var(--ink)' };
@@ -484,6 +493,7 @@ function CampaignPage({ campaignId, onBack }) {
           })}
         </div>
       </div>
+      )}
     </>
   );
 }

@@ -20,6 +20,7 @@ from app.compute.episodes import EpisodeDef, attribute_posts_to_episodes, rollup
 from app.compute.rollup import (
     CampaignConfig,
     channel_rollups,
+    compute_campaign_callouts,
     hero_post_from_top,
     per_campaign_channels,
     rollup_campaign,
@@ -128,11 +129,12 @@ def main() -> int:
         posts = posts_by_campaign.get(cc.id, [])
         if posts:
             summary = rollup_campaign(cc, posts, today=today)
-            # Attach per-campaign channels + top posts
+            # Attach per-campaign channels + top posts + auto-generated callouts
             summary.channels = per_campaign_channels(posts)
             partners_one = {cc.id: cc.partner}
             summary.top_posts = top_posts_by_er({cc.id: posts}, partners_one, n=10)
             summary.top_posts_organic = top_posts_by_organic_reach({cc.id: posts}, partners_one, n=10)
+            summary.callouts = compute_campaign_callouts(summary, summary.channels)
             campaigns.append(summary)
         else:
             campaigns.append(_sample_campaign_or_compute(cc, sample, today))

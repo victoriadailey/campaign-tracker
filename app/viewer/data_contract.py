@@ -42,6 +42,7 @@ class CampaignSummary:
     channels: list = field(default_factory=list)            # list[Channel] for THIS campaign — YouTube split by subtype
     top_posts: list = field(default_factory=list)            # list[TopPost] ranked by ER, this campaign only
     top_posts_organic: list = field(default_factory=list)    # list[TopPostOrganic] ranked by organic reach, this campaign only
+    callouts: list = field(default_factory=list)             # auto-generated WIN/OPPORTUNITY/WATCH for this campaign's What We're Seeing
 
 
 @dataclass
