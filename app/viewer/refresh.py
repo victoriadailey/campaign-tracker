@@ -134,7 +134,7 @@ def main() -> int:
             partners_one = {cc.id: cc.partner}
             summary.top_posts = top_posts_by_er({cc.id: posts}, partners_one, n=10)
             summary.top_posts_organic = top_posts_by_organic_reach({cc.id: posts}, partners_one, n=10)
-            summary.callouts = compute_campaign_callouts(summary, summary.channels)
+            summary.callouts = compute_campaign_callouts(summary, summary.channels, summary.top_posts)
             campaigns.append(summary)
         else:
             campaigns.append(_sample_campaign_or_compute(cc, sample, today))

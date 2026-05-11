@@ -265,31 +265,65 @@ def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
 def compute_campaign_callouts(
     summary: CampaignSummary,
     channels: list[Channel],
+    top_posts: list[TopPost] | None = None,
 ) -> list[dict]:
     """Produce 3 simple rule-based callouts (WIN / OPPORTUNITY / WATCH) for one campaign.
 
-    Replaces the hardcoded mock callouts on the campaign detail page. As the team writes
-    real callouts manually (or AI-assisted later), these become editable in admin.
+    WIN considers both:
+      (a) a single top post with very high ER (≥5%)
+      (b) the best ER channel with non-trivial reach
+    Whichever is more impressive wins the slot.
+
+    WATCH only fires past 25% flight elapsed — gives early flights time to ramp.
+
+    Replaces hardcoded design mocks. The team can override these later via admin.
     """
     callouts: list[dict] = []
+    top_posts = top_posts or []
 
-    # ---------- WIN: best ER channel with non-trivial reach ----------
-    eligible = [c for c in channels if c.impressions >= 10_000 and c.er > 0]
-    if eligible:
-        best = max(eligible, key=lambda c: c.er)
-        callouts.append({
+    # ---------- WIN: best single post by ER vs best channel by ER, pick stronger ----------
+    best_post = max(top_posts, key=lambda p: p.er) if top_posts else None
+    best_channel = (
+        max([c for c in channels if c.impressions >= 10_000 and c.er > 0], key=lambda c: c.er)
+        if any(c.impressions >= 10_000 and c.er > 0 for c in channels) else None
+    )
+
+    win_callout: dict | None = None
+    POST_ER_THRESHOLD = 5.0   # absolute ER% — anything above this is genuinely notable
+
+    if best_post and best_post.er >= POST_ER_THRESHOLD and (
+        not best_channel or best_post.er >= best_channel.er * 1.5
+    ):
+        # Top post is meaningfully stronger than the best channel ER — feature the post
+        quote = best_post.quote[:80] + ("…" if len(best_post.quote) > 80 else "")
+        win_callout = {
             "tag": "WIN",
             "kind": "pos",
-            "headline": f"{best.name} leading at {best.er:.1f}% ER.",
+            "headline": f"{best_post.platform} post at {best_post.er:.1f}% ER.",
             "body": (
-                f"{_short(best.impressions)} impressions with {_short(best.eng)} engagements "
-                f"({best.er:.1f}% ER) — strongest performer this campaign. "
+                f"\"{quote}\" — {_short(best_post.reach)} reach, "
+                f"{_short(best_post.eng)} engagements ({best_post.organic}% organic). "
+                f"Strongest single asset across the campaign."
+            ),
+            "meta": f"{summary.partner} · {best_post.platform} · {best_post.format}",
+        }
+    elif best_channel:
+        win_callout = {
+            "tag": "WIN",
+            "kind": "pos",
+            "headline": f"{best_channel.name} leading at {best_channel.er:.1f}% ER.",
+            "body": (
+                f"{_short(best_channel.impressions)} impressions with {_short(best_channel.eng)} engagements "
+                f"({best_channel.er:.1f}% ER) — strongest channel this campaign. "
                 f"Worth featuring in the weekly partner update."
             ),
-            "meta": f"{summary.partner} · {best.name}",
-        })
+            "meta": f"{summary.partner} · {best_channel.name}",
+        }
 
-    # ---------- OPPORTUNITY: largest organic-leaning channel or biggest reach driver ----------
+    if win_callout:
+        callouts.append(win_callout)
+
+    # ---------- OPPORTUNITY: top reach driver ----------
     by_reach = sorted(channels, key=lambda c: c.impressions, reverse=True)
     if by_reach:
         top = by_reach[0]
@@ -306,9 +340,11 @@ def compute_campaign_callouts(
         })
 
     # ---------- WATCH: pacing or CPM-over-benchmark issue ----------
+    # Pacing rule only triggers past 25% flight elapsed — too early to judge before that.
     pacing_ratio = (summary.impressions.delivered / summary.impressions.goal * 100) / max(summary.elapsed_pct, 1) if summary.impressions.goal else 1.0
     over_bench = [c for c in channels if c.bench.cpm > 0 and c.cpm > c.bench.cpm * 1.2]
-    if pacing_ratio < 0.85:
+
+    if summary.elapsed_pct >= 25 and pacing_ratio < 0.85:
         gap = summary.impressions.goal - summary.impressions.delivered
         callouts.append({
             "tag": "WATCH",
