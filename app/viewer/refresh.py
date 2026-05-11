@@ -19,6 +19,7 @@ import yaml
 from app.compute.episodes import EpisodeDef, attribute_posts_to_episodes, rollup_episode
 from app.compute.rollup import (
     CampaignConfig,
+    aggregate_portfolio_signals,
     channel_rollups,
     compute_campaign_callouts,
     hero_post_from_top,
@@ -146,9 +147,16 @@ def main() -> int:
     hero = hero_post_from_top(top_er)
     channels = channel_rollups(dict(posts_by_campaign))
 
-    # ---------- Static from config ----------
+    # ---------- Static from config + aggregated signals ----------
     sources = [DataSource(name=s["name"], date=s["date"], stale=bool(s.get("stale"))) for s in cfg.get("sources", [])]
-    signals = [Signal(kind=s["kind"], title=s["title"], body=s["body"]) for s in cfg.get("signals", [])]
+
+    # Pulse Check signals: aggregate the highest-impact WIN/OPPORTUNITY/WATCH from
+    # per-campaign callouts. Falls back to YAML-defined signals if no callouts computed.
+    aggregated = aggregate_portfolio_signals(campaigns)
+    if aggregated:
+        signals = aggregated
+    else:
+        signals = [Signal(kind=s["kind"], title=s["title"], body=s["body"]) for s in cfg.get("signals", [])]
 
     # ---------- Passthrough from design sample ----------
     ub_components = sample.get("UB_COMPONENTS", [])

@@ -21,12 +21,25 @@ from app.viewer.data_contract import (
 
 
 PLATFORM_BENCHMARKS: dict[str, ChannelBenchmark] = {
-    "youtube":   ChannelBenchmark(er=4.2, cpm=4.50),
-    "instagram": ChannelBenchmark(er=1.8, cpm=5.10),
-    "tiktok":    ChannelBenchmark(er=2.0, cpm=2.40),
-    "linkedin":  ChannelBenchmark(er=3.5, cpm=0.0),
-    "x":         ChannelBenchmark(er=1.1, cpm=1.10),
-    "facebook":  ChannelBenchmark(er=1.2, cpm=4.80),
+    # FOS Sponsored ER benchmarks (2025) — the "true" benchmark for FOS work.
+    # Source: Platform Benchmarks (2025), last updated 3/5 1pm EST.
+    # CPM benchmarks remain as prior estimates.
+    "youtube":   ChannelBenchmark(er=3.30, cpm=4.50),
+    "instagram": ChannelBenchmark(er=3.31, cpm=5.10),
+    "tiktok":    ChannelBenchmark(er=2.03, cpm=2.40),
+    "linkedin":  ChannelBenchmark(er=3.76, cpm=0.0),
+    "x":         ChannelBenchmark(er=0.92, cpm=1.10),
+    "facebook":  ChannelBenchmark(er=1.53, cpm=4.80),
+}
+
+# All-content benchmarks (organic + sponsored) — shown as secondary reference.
+PLATFORM_BENCHMARKS_ALL_CONTENT: dict[str, float] = {
+    "youtube":   1.00,
+    "instagram": 3.60,
+    "tiktok":    4.90,
+    "linkedin":  5.20,
+    "x":         2.30,
+    "facebook":  4.00,
 }
 
 PLATFORM_COLORS: dict[str, str] = {
@@ -384,17 +397,66 @@ def _short(n: float) -> str:
 
 def _channel_display(key: str) -> tuple[str, str, ChannelBenchmark, str]:
     """Map an internal channel key (with YouTube subtype) to display info + benchmark."""
-    # Default: platform-key lookup
     if key == "youtube_infeed":
-        return ("YouTube In-feed", "In-feed", ChannelBenchmark(er=4.2, cpm=0.50), "#E00922")
+        return ("YouTube In-feed", "In-feed", ChannelBenchmark(er=3.30, cpm=0.50), "#E00922")
     if key == "youtube_preroll":
-        return ("YouTube Pre-roll", "Pre-roll", ChannelBenchmark(er=4.2, cpm=9.50), "#B0061B")
+        return ("YouTube Pre-roll", "Pre-roll", ChannelBenchmark(er=3.30, cpm=9.50), "#B0061B")
     return (
         PLATFORM_DISPLAY.get(key, key.title()),
         PLATFORM_ITALIC.get(key, key.title()),
         PLATFORM_BENCHMARKS.get(key, ChannelBenchmark(er=0.0, cpm=0.0)),
         PLATFORM_COLORS.get(key, "#666666"),
     )
+
+
+def aggregate_portfolio_signals(campaigns: list[CampaignSummary]) -> list[dict]:
+    """Pick the most impactful WIN/OPPORTUNITY/WATCH across all campaigns for the
+    overview's Pulse Check strip. Each picked signal carries its campaign meta so
+    the UI can link out.
+    """
+    # Collect all campaign-level callouts, tagged with their campaign id
+    pool: dict[str, list[dict]] = {"WIN": [], "OPPORTUNITY": [], "WATCH": []}
+    for c in campaigns:
+        for co in (c.callouts or []):
+            tag = co.get("tag")
+            if tag in pool:
+                pool[tag].append({**co, "campaignId": c.id, "campaignPartner": c.partner})
+
+    # Heuristic ranking: pick the best of each kind.
+    # WIN — highest ER (extracted from headline or fallback by partner alphabetical)
+    def _win_score(co: dict) -> float:
+        # Extract a percentage from the headline if present (e.g., '6.2% ER')
+        import re
+        match = re.search(r"([\d.]+)\s*%", co.get("headline", ""))
+        return float(match.group(1)) if match else 0.0
+
+    # OPPORTUNITY — prefer the biggest reach number in the headline
+    def _opp_score(co: dict) -> float:
+        import re
+        match = re.search(r"([\d.]+)\s*([MK])", co.get("headline", ""))
+        if not match:
+            return 0.0
+        val = float(match.group(1))
+        return val * (1_000_000 if match.group(2) == "M" else 1_000)
+
+    # WATCH — biggest pacing gap (or worst CPM-over-bench)
+    def _watch_score(co: dict) -> float:
+        import re
+        match = re.search(r"(\d+)\s*%\s*(behind|over)", co.get("headline", "").lower())
+        return float(match.group(1)) if match else 0.0
+
+    out: list[dict] = []
+    if pool["WIN"]:
+        win = max(pool["WIN"], key=_win_score)
+        out.append(win)
+    if pool["OPPORTUNITY"]:
+        opp = max(pool["OPPORTUNITY"], key=_opp_score)
+        out.append(opp)
+    if pool["WATCH"]:
+        watch = max(pool["WATCH"], key=_watch_score)
+        out.append(watch)
+
+    return out
 
 
 def channel_rollups(posts_by_campaign: dict[str, list[NormalizedPost]]) -> list[Channel]:

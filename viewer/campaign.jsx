@@ -302,7 +302,8 @@ function CampaignPage({ campaignId, onBack }) {
             return (
               <div key={e.n} style={{
                 background: 'var(--surface)', border: '1px solid var(--line)',
-                borderRadius: 'var(--r-lg)', padding: 22, display:'flex', flexDirection:'column', gap: 14
+                borderRadius: 'var(--r-lg)', padding: 18, display:'flex', flexDirection:'column', gap: 12,
+                minWidth: 0, overflow: 'hidden'
               }}>
                 <div>
                   <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 10}}>
@@ -354,17 +355,16 @@ function CampaignPage({ campaignId, onBack }) {
                     {e.topPosts.map((p, i) => (
                       <a key={i} href="#" style={{
                         textDecoration:'none', color:'inherit',
-                        display:'flex', alignItems:'center', gap:10,
-                        padding:'8px 10px', borderRadius:6,
+                        display:'flex', alignItems:'center', gap:8,
+                        padding:'8px 10px', borderRadius:6, minWidth:0,
                         background:'var(--bg-soft)', border:'1px solid var(--line)'
                       }}>
                         <span style={{
-                          fontFamily:'var(--serif)', fontSize:18, fontWeight:300,
-                          color:'var(--ink)', minWidth:48, fontVariantNumeric:'tabular-nums'
-                        }}>{p.er.toFixed(2)}<span style={{fontSize:10, color:'var(--ink-3)'}}>%</span></span>
-                        <span style={{flex:1, fontSize:12, color:'var(--ink-2)', lineHeight:1.4, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}}>"{p.quote}"</span>
-                        <PlatformPill name={p.platform}/>
-                        <span style={{color:'var(--ink-3)', display:'inline-flex'}}><Ic.ext/></span>
+                          fontFamily:'var(--serif)', fontSize:16, fontWeight:300,
+                          color:'var(--ink)', minWidth:42, fontVariantNumeric:'tabular-nums', flexShrink:0
+                        }}>{p.er.toFixed(1)}<span style={{fontSize:10, color:'var(--ink-3)'}}>%</span></span>
+                        <span style={{flex:'1 1 0', minWidth:0, fontSize:11, color:'var(--ink-2)', lineHeight:1.3, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}}>"{p.quote}"</span>
+                        <span style={{flexShrink:0, color:'var(--ink-3)', display:'inline-flex'}}><Ic.ext/></span>
                       </a>
                     ))}
                   </div>

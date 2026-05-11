@@ -39,28 +39,28 @@ function OverviewPage({ onOpenCampaign }) {
         </>}
       />
 
-      {/* TOP-OF-DASH CALLOUTS — what to celebrate, fix, watch */}
+      {/* TOP-OF-DASH CALLOUTS — pulled from per-campaign auto-callouts */}
+      {(SIGNALS && SIGNALS.length > 0) && (
       <div className="sec" style={{marginTop: 4}}>
         <div className="sec-h">
           <div>
             <div className="sec-title">Pulse <em>check</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Three things to know before you dive in — a win to share, a problem to fix, a campaign to watch.</div>
+            <div className="sec-sub" style={{marginTop:6}}>The most important things to know across your active campaigns — auto-flagged from current performance.</div>
           </div>
         </div>
-        <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:14}}>
-          {[
-            { tag:'WIN', kind:'pos', headline:'McLaren ER leads the portfolio at 6.2% on TikTok.', body:'F1-adjacent youth content is over-indexing. Worth amplifying in your weekly partner update — strong proof point for renewal.', meta:'McLaren · TikTok', cta:'Open campaign' },
-            { tag:'OPPORTUNITY', kind:'info', headline:'X paid is the lowest social CPM at $0.71 blended.', body:'~12× more efficient than Instagram. Strong candidate for E*TRADE and ADP catch-up spend over the next two weeks.', meta:'Portfolio · X', cta:'See benchmarks' },
-            { tag:'WATCH', kind:'warn', headline:'E*TRADE is 39% behind impression pacing with 56 days left.', body:'31.2M impressions still needed with $27.2K budget remaining. Mark Cuban teaser is building organic — fast-track the YT launch.', meta:'E*TRADE · Behind', cta:'Open campaign' }
-          ].map((co, i) => {
-            const tone = co.kind === 'pos' ? { bar:'var(--pear)', tag:'#2f7a3f' } :
-              co.kind === 'warn' ? { bar:'var(--orange)', tag:'#b8392b' } :
+        <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(SIGNALS.length, 3)}, minmax(0, 1fr))`, gap:14}}>
+          {SIGNALS.map((co, i) => {
+            const kind = co.kind || (co.tag === 'WIN' ? 'pos' : co.tag === 'WATCH' ? 'warn' : 'info');
+            const tone = kind === 'pos' ? { bar:'var(--pear)', tag:'#2f7a3f' } :
+              kind === 'warn' ? { bar:'var(--orange)', tag:'#b8392b' } :
               { bar:'var(--sky)', tag:'var(--ink)' };
+            const tag = co.tag || (kind === 'pos' ? 'WIN' : kind === 'warn' ? 'WATCH' : 'OPPORTUNITY');
+            const headline = co.headline || co.title;
             return (
               <div key={i} style={{
                 background:'var(--surface)', border:'1px solid var(--line)', borderRadius:'var(--r-lg)',
                 padding: 22, position:'relative', overflow:'hidden',
-                display:'flex', flexDirection:'column', gap:10
+                display:'flex', flexDirection:'column', gap:10, minWidth: 0
               }}>
                 <div style={{position:'absolute', left:0, top:0, bottom:0, width:4, background: tone.bar}}/>
                 <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
@@ -68,17 +68,23 @@ function OverviewPage({ onOpenCampaign }) {
                     fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em',
                     fontWeight:600, color: tone.tag,
                     padding:'3px 8px', background: tone.bar+'33', borderRadius: 4
-                  }}>{co.tag}</span>
-                  <span style={{fontSize:10, color:'var(--ink-3)', fontFamily:'var(--mono)', letterSpacing:'0.06em'}}>{co.meta}</span>
+                  }}>{tag}</span>
+                  {co.meta && <span style={{fontSize:10, color:'var(--ink-3)', fontFamily:'var(--mono)', letterSpacing:'0.06em'}}>{co.meta}</span>}
                 </div>
-                <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{co.headline}</div>
+                <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{headline}</div>
                 <div style={{fontSize:13, lineHeight:1.5, color:'var(--ink-2)'}}>{co.body}</div>
-                <a href="#" style={{marginTop:'auto', fontSize:12, color:'var(--ink)', textDecoration:'none', display:'inline-flex', alignItems:'center', gap:6, fontWeight:500, paddingTop:6}}>{co.cta} <Ic.arrow/></a>
+                {co.campaignId && (
+                  <a href="#" onClick={(ev) => { ev.preventDefault(); onOpenCampaign(co.campaignId); }}
+                     style={{marginTop:'auto', fontSize:12, color:'var(--ink)', textDecoration:'none', display:'inline-flex', alignItems:'center', gap:6, fontWeight:500, paddingTop:6}}>
+                    Open {co.campaignPartner || 'campaign'} <Ic.arrow/>
+                  </a>
+                )}
               </div>
             );
           })}
         </div>
       </div>
+      )}
 
       {/* CAMPAIGN GRID */}
       <div className="sec">
@@ -86,12 +92,6 @@ function OverviewPage({ onOpenCampaign }) {
           <div>
             <div className="sec-title">Active <em>campaigns</em></div>
             <div className="sec-sub" style={{marginTop:6}}>Pacing across impressions and budget for every live flight.</div>
-          </div>
-          <div className="seg">
-            <button className="active">All</button>
-            <button>On track</button>
-            <button>Watch</button>
-            <button>Behind</button>
           </div>
         </div>
         <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:16}}>
@@ -243,23 +243,25 @@ function OverviewPage({ onOpenCampaign }) {
           </div>
         </div>
 
-        {/* ER BY CHANNEL */}
+        {/* ER BENCHMARKS BY CHANNEL — FOS 2025 sponsored + all-content reference */}
         <div className="card" style={{padding:24, marginBottom:14}}>
           <div className="card-h" style={{marginBottom: 18}}>
             <div>
-              <div className="card-title-serif">Average ER by channel</div>
-              <div className="card-sub">Engagement rate across all active campaigns by platform.</div>
+              <div className="card-title-serif">FOS ER benchmarks by channel</div>
+              <div className="card-sub">Sponsored is the true benchmark for these campaigns. All-content shown for reference.</div>
+            </div>
+            <div style={{fontSize:11, fontFamily:'var(--mono)', color:'var(--ink-3)', letterSpacing:'0.06em'}}>
+              SPONSORED AVG · 2.47%
             </div>
           </div>
-          <div style={{display:'grid', gridTemplateColumns:'repeat(7, 1fr)', gap:0, borderTop:'1px solid var(--line)'}}>
+          <div style={{display:'grid', gridTemplateColumns:'repeat(6, minmax(0, 1fr))', gap:0, borderTop:'1px solid var(--line)'}}>
             {[
-              { plat:'YT In-feed',   er:'0.8%',  color:'#E00922' },
-              { plat:'YT In-stream', er:'1.2%',  color:'#B0061B' },
-              { plat:'X',            er:'0.2%',  color:'#1d1d1f' },
-              { plat:'TikTok',       er:'3.8%',  color:'#000000' },
-              { plat:'LinkedIn',     er:'4.2%',  color:'#0A66C2' },
-              { plat:'Facebook',     er:'0.5%',  color:'#1877F2' },
-              { plat:'Instagram',    er:'2.1%',  color:'#E4405F' },
+              { plat:'YouTube',   sponsored:'3.30%', all:'1.00%', color:'#E00922' },
+              { plat:'Instagram', sponsored:'3.31%', all:'3.60%', color:'#E4405F' },
+              { plat:'Facebook',  sponsored:'1.53%', all:'4.00%', color:'#1877F2' },
+              { plat:'TikTok',    sponsored:'2.03%', all:'4.90%', color:'#000000' },
+              { plat:'LinkedIn',  sponsored:'3.76%', all:'5.20%', color:'#0A66C2' },
+              { plat:'X',         sponsored:'0.92%', all:'2.30%', color:'#1d1d1f' },
             ].map((r, i, arr) => (
               <div key={r.plat} style={{
                 padding:'18px 14px',
@@ -270,12 +272,16 @@ function OverviewPage({ onOpenCampaign }) {
                   <span style={{width:8, height:8, borderRadius:'50%', background:r.color}}/>
                   <span style={{fontSize:11, color:'var(--ink-2)', fontWeight:500}}>{r.plat}</span>
                 </div>
-                <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1}}>{r.er}</div>
+                <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1}}>{r.sponsored}</div>
+                <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.04em', color:'var(--ink-3)'}}>
+                  ALL · {r.all}
+                </div>
               </div>
             ))}
           </div>
-          <div style={{marginTop:12, fontSize:11, color:'var(--ink-3)', fontStyle:'italic'}}>
-            Note: these are not official benchmarks, just the current ER% for ongoing campaigns.
+          <div style={{marginTop:12, fontSize:11, color:'var(--ink-3)', fontStyle:'italic', display:'flex', justifyContent:'space-between'}}>
+            <span>Sponsored benchmark = sponsored-only. All-content benchmark = organic + sponsored (avg 3.50%).</span>
+            <span>Last updated: 3/5 1pm EST</span>
           </div>
         </div>
 
