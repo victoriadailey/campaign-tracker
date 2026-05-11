@@ -1,0 +1,101 @@
+# FOS Campaign Tracker — campaign config
+# Edit and run: python -m app.viewer.refresh
+
+exports_root: tests/fixtures
+
+signals:
+  - kind: opportunity
+    title: "LinkedIn = free engagement"
+    body: "TastyTrade, ADP, and E*TRADE all hit 4%+ ER on LinkedIn at $0 spend. Default-include in every content package."
+  - kind: win
+    title: "TikTok is your zero-cost reach engine"
+    body: "TastyTrade TikTok delivered 592K views on $267 in spend — 228% of contracted impressions. Should be a default channel for every package."
+  - kind: watch
+    title: "E*TRADE pacing watch"
+    body: "70% of flight elapsed but only 31% of impressions delivered. Mark Cuban episode launching this week should close the gap."
+
+sources:
+  - { name: "Measure Studio",   date: "May 5, 2026",  stale: false }
+  - { name: "Google Ads",       date: "May 5, 2026",  stale: false }
+  - { name: "X Ads Manager",    date: "May 5, 2026",  stale: false }
+  - { name: "Meta Business",    date: "May 4, 2026",  stale: false }
+  - { name: "TikTok Ads",       date: "May 1, 2026",  stale: true  }
+  - { name: "YouTube Studio",   date: "May 5, 2026",  stale: false }
+
+campaigns:
+  - id: adp
+    partner: ADP
+    series: Future of Sports
+    series_italic: Sports
+    type: content
+    flight_start: 2025-10-01
+    flight_end: 2026-05-31
+    impression_goal: 6_600_000
+    budget_goal: 10_916
+    color: ft-1
+    lead_format: Longform Video
+    blurb: "Three-episode interview series with HR & sports execs. Strong organic resonance on LinkedIn."
+    ms_post_groups:
+      - "Future of Sports"
+      - "Future of Sports: Cutdowns"
+    sources:
+      measure_studio:
+        - adp_cutdown_ms.csv
+        - adp_full_episode_ms.csv
+      google_ads_campaign:
+        - adp_cutdown_gads_campaign.csv
+        - adp_full_episode_gads_campaign.csv
+
+  - id: etrade
+    partner: E*TRADE
+    series: Portfolio Players
+    series_italic: Players
+    type: content
+    flight_start: 2026-01-01
+    flight_end: 2026-06-30
+    impression_goal: 45_000_000
+    budget_goal: 50_000
+    color: ft-3
+    lead_format: Longform Video
+    blurb: "Sports ownership & investing series. Mark Cuban teaser is generating organic buzz ahead of launch."
+    ms_post_groups:
+      - "Portfolio Players S3"
+      - "Portfolio Players S3 x E*TRADE"
+    sources:
+      measure_studio:
+        - portfolio_players_ms.csv
+
+  - id: tastytrade
+    partner: TastyTrade
+    series: The Come Up
+    series_italic: Come Up
+    type: content
+    flight_start: 2026-03-01
+    flight_end: 2026-04-20
+    impression_goal: 2_280_000
+    budget_goal: 8_500
+    color: ft-2
+    lead_format: Episodic Video
+    blurb: "March Madness episodic series across 5 platforms. Delivered 121% of goal on 95% of budget."
+    ms_post_groups:
+      - "The Come Up"
+      - "Tastytrade"
+    sources:
+      measure_studio: []
+
+  - id: usbank
+    partner: US Bank
+    series: NFL Draft
+    series_italic: Draft
+    type: social
+    flight_start: 2026-04-21
+    flight_end: 2026-04-27
+    impression_goal: 14_000_000
+    budget_goal: 31_375
+    color: ft-4
+    lead_format: Made for Social
+    blurb: "3 social components, 38 posts live across IG, FB, X, LinkedIn & YouTube Shorts. Delivered 103.6% of impression goal on 98.8% of budget."
+    ms_post_groups:
+      - "NFL Draft"
+    sources:
+      measure_studio: []

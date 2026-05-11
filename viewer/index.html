@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pulse — FOS Social Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+
+<script src="data.js"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="components.jsx"></script>
+<script type="text/babel" src="overview.jsx"></script>
+<script type="text/babel" src="campaign.jsx"></script>
+<script type="text/babel" src="usbank.jsx"></script>
+
+<script type="text/babel">
+const TWEAK_DEFAULTS = {
+  "palette": "flame",
+  "theme": "light",
+  "density": "balanced",
+  "serifHeadlines": true
+};
+
+function App() {
+  const [view, setView] = React.useState({ view: 'overview', id: null });
+  const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
+
+  window.__activeCampaignId = view.id;
+
+  React.useEffect(() => {
+    const root = document.documentElement;
+    root.setAttribute('data-theme', tweaks.theme);
+    root.setAttribute('data-density', tweaks.density);
+    const palMap = { flame: '', sky: 'sky', sunshine: 'sunshine', pear: 'pear' };
+    if (palMap[tweaks.palette]) {
+      root.setAttribute('data-palette', palMap[tweaks.palette]);
+    } else {
+      root.removeAttribute('data-palette');
+    }
+    if (!tweaks.serifHeadlines) {
+      root.style.setProperty('--serif', "'Inter', sans-serif");
+    } else {
+      root.style.removeProperty('--serif');
+    }
+  }, [tweaks]);
+
+  return (
+    <div className="app">
+      <Sidebar
+        active={view.view}
+        onNav={setView}
+        campaigns={CAMPAIGNS}
+      />
+      <main className="main" data-screen-label={view.view === 'overview' ? '01 Overview' : `02 Campaign — ${view.id}`}>
+        {view.view === 'overview'
+          ? <OverviewPage onOpenCampaign={(id) => setView({ view: 'campaign', id })}/>
+          : view.id === 'usbank'
+            ? <UsBankPage campaignId={view.id} onBack={() => setView({ view: 'overview' })}/>
+            : <CampaignPage campaignId={view.id} onBack={() => setView({ view: 'overview' })}/>}
+      </main>
+
+      <TweaksPanel>
+        <TweakSection label="Look"/>
+        <TweakRadio label="Theme" value={tweaks.theme}
+          options={['light','dark']}
+          onChange={v => setTweak('theme', v)}/>
+        <TweakColor label="Accent" value={tweaks.palette}
+          options={['#DE6B38','#5CB5F2','#8FC766','#A896F2']}
+          onChange={v => {
+            const map = {'#DE6B38':'flame','#5CB5F2':'sky','#8FC766':'pear','#A896F2':'lilac'};
+            setTweak('palette', map[v] || 'flame');
+          }}/>
+        <TweakSection label="Layout"/>
+        <TweakRadio label="Density" value={tweaks.density}
+          options={['compact','balanced','spacious']}
+          onChange={v => setTweak('density', v)}/>
+        <TweakToggle label="Serif headlines" value={tweaks.serifHeadlines}
+          onChange={v => setTweak('serifHeadlines', v)}/>
+      </TweaksPanel>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+
+</body>
+</html>
