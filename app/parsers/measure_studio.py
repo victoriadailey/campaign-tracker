@@ -152,11 +152,13 @@ def parse(
             errors=["Could not parse file as Measure Studio CSV"],
         )
 
-    required_cols = {
-        "Post Platform", "Post Type", "Post ID", "Date Published",
-        "Time Published", "Post Group(s)", "Organic / Boosted / Dark",
-    }
-    missing = required_cols - set(df.columns)
+    # MS exports come in two shapes:
+    #   - Wide (default): per-platform metric columns + Post Group(s) + Time Published + Post ID
+    #   - Simple summary: platform-agnostic Impressions/Reach/Views/Engagements columns
+    # Both have "Post Platform", "Post Title", and "Organic / Boosted / Dark".
+    is_wide = "Post Group(s)" in df.columns
+    minimum_required = {"Post Platform", "Post Title", "Organic / Boosted / Dark", "Date Published"}
+    missing = minimum_required - set(df.columns)
     if missing:
         errors.append(f"Missing required columns: {sorted(missing)}")
         return ParseResult(rows=[], detected_source=Source.MEASURE_STUDIO, errors=errors)
@@ -169,7 +171,7 @@ def parse(
         if platform is Platform.UNKNOWN:
             skipped += 1
             continue
-        post = _row_to_post(raw, platform)
+        post = _row_to_post(raw, platform) if is_wide else _row_to_post_simple(raw, platform)
         if platform in organic_only_for:
             # Zero out paid metrics; keep organic/total. Paid will come from dedicated source.
             post.views_paid = None
@@ -241,6 +243,62 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
         else:
             setattr(post, field_name, _to_int(value))
 
+    return post
+
+
+def _row_to_post_simple(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
+    """Parse a row from the SIMPLE MS export shape (no Post Group, no per-platform blocks).
+
+    Columns: Account Name, Account Handle, Post URL, Post Title, Post Platform, Post Type,
+             Organic / Boosted / Dark, Date Published, Impressions, Reach, Views, Engagements
+    """
+    posted_at = _parse_timestamp(raw.get("Date Published"), raw.get("Time Published"))
+    duration = _to_float(raw.get("Video Duration (seconds)"))
+    boosting_label = (raw.get("Organic / Boosted / Dark") or "").strip()
+    title = _str(raw.get("Post Title")) or ""
+    # Synthetic Post ID when missing (most simple exports drop it)
+    synthetic_id = _str(raw.get("Post ID")) or f"{platform.value}:{_str(raw.get('Post URL')) or title[:60]}"
+
+    impressions = _to_int(raw.get("Impressions"))
+    reach = _to_int(raw.get("Reach"))
+    views = _to_int(raw.get("Views"))
+    engagements = _to_int(raw.get("Engagements"))
+
+    boosting = BOOSTING_MAP.get(boosting_label, Boosting.UNKNOWN)
+
+    # Split into organic vs paid based on boosting state. The simple export doesn't
+    # break this out — we infer: organic posts contribute fully to organic columns,
+    # boosted/dark contribute fully to paid columns. Not perfectly accurate for
+    # boosted (which has BOTH), but the most reasonable default.
+    is_organic = boosting is Boosting.ORGANIC
+    is_paid = boosting in (Boosting.BOOSTED, Boosting.DARK)
+
+    post = NormalizedPost(
+        source=Source.MEASURE_STUDIO,
+        platform=platform,
+        post_id_native=synthetic_id,
+        post_url=_str(raw.get("Post URL")),
+        account_name=_str(raw.get("Account Name")),
+        account_handle=_str(raw.get("Account Handle")),
+        post_title=title,
+        posted_at=posted_at,
+        duration_sec=duration,
+        post_format=_classify_format(raw.get("Post Type"), duration, platform),
+        boosting=boosting,
+        post_groups=[],  # not in this export — caller filters by file, not by group
+        impressions_total=impressions,
+        impressions_organic=impressions if is_organic else None,
+        impressions_paid=impressions if is_paid else None,
+        reach_total=reach,
+        views_total=views,
+        views_organic=views if is_organic else None,
+        views_paid=views if is_paid else None,
+        engagements_total=engagements,
+        engagements_organic=engagements if is_organic else None,
+        engagements_paid=engagements if is_paid else None,
+        er=(engagements / impressions * 100) if engagements is not None and impressions else None,
+        raw=raw,
+    )
     return post
 
 

@@ -37,6 +37,8 @@ class EpisodeDef:
     match: list[str]                     # substrings — at least one must appear in title
     exclude: list[str]                   # if any of these appear in title, post is rejected
     all_match: bool = False              # if True, ALL match strings must appear (default: any)
+    impression_goal: int | None = None   # optional per-episode pacing target
+    budget_goal: float | None = None     # optional per-episode budget
 
 
 def attribute_posts_to_episodes(
@@ -161,7 +163,7 @@ def rollup_episode(
     # Auto-generate a couple of editorial callouts (best/worst channel by ER)
     callouts = _episode_callouts(per_channel)
 
-    return {
+    out = {
         "n": ep.n,
         "title": ep.title,
         "date": ep.date,
@@ -170,6 +172,11 @@ def rollup_episode(
         "topPosts": top_posts,
         "callouts": callouts,
     }
+    if ep.impression_goal is not None:
+        out["impressionGoal"] = ep.impression_goal
+    if ep.budget_goal is not None:
+        out["budgetGoal"] = ep.budget_goal
+    return out
 
 
 def _episode_callouts(per_channel: list[dict[str, Any]]) -> list[dict[str, str]]:

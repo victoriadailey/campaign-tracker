@@ -127,33 +127,61 @@ campaigns:
         date: "Apr 11"
         match: ["Grazioli", "Muse Capital", "Assia"]
         exclude: []
-      # Cuban episode hasn't aired — teaser mentions get matched but excluded from Repole.
-      # If Cuban airs and produces real posts, the rule below catches them while keeping
-      # any Repole-mentions-Cuban posts attributed to Repole (longest match wins on Repole side).
       - id: ep6
         n: "Ep. 06"
+        title: "Brandon Marshall on the Athlete Media Empire"
+        date: "Apr 21"
+        match: ["Brandon Marshall", "Marshall"]
+        exclude: []
+      - id: ep7
+        n: "Ep. 07"
         title: "Mark Cuban on Sports Ownership"
-        date: "TBD"
-        match: ["Mark Cuban"]
-        exclude: ["Repole"]   # Mike Repole episode mentions Cuban — don't double-attribute
+        date: "May 1"
+        match: ["Mark Cuban", "Cuban"]
+        exclude: ["Repole", "Marshall"]  # Cross-episode mentions stay with their own episode
+      - id: ep8
+        n: "Ep. 08"
+        title: "Dave Checketts on Sports Investing"
+        date: "May 5"
+        match: ["Checketts", "Former Knicks"]
+        exclude: []
 
-  - id: tastytrade
-    partner: TastyTrade
-    series: The Come Up
-    series_italic: Come Up
+  - id: spectrum
+    partner: Spectrum
+    series: Fueling Dreams
+    series_italic: Dreams
     type: content
-    flight_start: 2026-03-01
-    flight_end: 2026-04-20
-    impression_goal: 2_280_000
-    budget_goal: 8_500
+    flight_start: 2026-05-01
+    flight_end: 2026-06-30
+    # Two-part campaign: NASCAR (5.75M / $17,525) + World Cup (4.5M / $12,125).
+    # Campaign-level totals = sum across both parts.
+    impression_goal: 10_250_000
+    budget_goal: 29_650
     color: ft-2
-    lead_format: Episodic Video
-    blurb: "March Madness episodic series across 5 platforms. Delivered 121% of goal on 95% of budget."
+    lead_format: Made for Social
+    blurb: "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending."
     ms_post_groups:
-      - "The Come Up"
-      - "Tastytrade"
+      - "Spectrum"
     sources:
-      measure_studio: []
+      measure_studio:
+        - spectrum_ms.csv
+    episodes:
+      - id: nascar
+        n: "Part 01"
+        title: "NASCAR — Texas Motor Speedway"
+        date: "May 2026"
+        match: ["NASCAR", "Texas Motor", "Speedway", "pit road", "garage"]
+        exclude: []
+        impression_goal: 5_750_000
+        budget_goal: 17_525
+      - id: worldcup
+        n: "Part 02"
+        title: "World Cup"
+        date: "Pending"
+        match: ["World Cup"]
+        exclude: []
+        impression_goal: 4_500_000
+        budget_goal: 12_125
 
   - id: usbank
     partner: US Bank

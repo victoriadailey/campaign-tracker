@@ -65,10 +65,10 @@ def test_adp_cutdown_post_groups(adp_cutdown_result):
     assert any(token in combined for token in ("future of sports", "cutdown", "adp"))
 
 
-def test_portfolio_players_multi_group(portfolio_players_result):
+def test_portfolio_players_post_groups_field(portfolio_players_result):
+    """post_groups is always a list, even for the simple summary export."""
     for p in portfolio_players_result.rows:
         assert isinstance(p.post_groups, list)
-    assert any(p.post_groups for p in portfolio_players_result.rows)
 
 
 def test_identity_fields(adp_cutdown_result):

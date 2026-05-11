@@ -76,7 +76,13 @@ def main() -> int:
             if not result.ok:
                 parse_warnings.extend(f"[{c_id}] {path.name}: {e}" for e in result.errors)
                 continue
-            matched = [p for p in result.rows if any(g.lower() in match_groups for g in p.post_groups)]
+            # If the file has Post Group(s), filter by match_groups.
+            # If it doesn't (simple summary export), all posts in the file belong to this campaign.
+            has_groups = any(p.post_groups for p in result.rows)
+            if has_groups and match_groups:
+                matched = [p for p in result.rows if any(g.lower() in match_groups for g in p.post_groups)]
+            else:
+                matched = result.rows
             posts_by_campaign[c_id].extend(matched)
 
         for gads_file in c.get("sources", {}).get("google_ads_campaign", []) or []:
@@ -150,6 +156,8 @@ def main() -> int:
                 id=e["id"], n=e["n"], title=e["title"], date=e.get("date", ""),
                 match=e.get("match", []), exclude=e.get("exclude", []),
                 all_match=e.get("all_match", False),
+                impression_goal=e.get("impression_goal"),
+                budget_goal=e.get("budget_goal"),
             )
             for e in c.get("episodes", []) or []
         ]
