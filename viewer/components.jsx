@@ -54,7 +54,7 @@ function Sidebar({ active, onNav, campaigns }) {
       <button className={"sb-item " + (active === 'overview' ? 'active' : '')} onClick={() => onNav({ view: 'overview' })}>
         <Ic.grid/> Overview
       </button>
-      <button className="sb-item">
+      <button className={"sb-item " + (active === 'benchmarks' ? 'active' : '')} onClick={() => onNav({ view: 'benchmarks' })}>
         <Ic.bench/> Benchmarks
       </button>
 

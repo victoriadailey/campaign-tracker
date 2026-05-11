@@ -209,7 +209,17 @@ def main() -> int:
         ub_components=ub_components,
     )
 
-    out_path = write_data_js(payload, args.output)
+    # ---------- Benchmarks (optional) ----------
+    benchmarks_data = None
+    bench_csv = REPO_ROOT / "config" / "social_benchmarks.csv"
+    if bench_csv.exists():
+        try:
+            from app.compute.benchmarks import parse_benchmarks_csv
+            benchmarks_data = parse_benchmarks_csv(bench_csv)
+        except Exception as e:
+            parse_warnings.append(f"benchmarks CSV: {e}")
+
+    out_path = write_data_js(payload, args.output, benchmarks=benchmarks_data)
 
     print("=" * 60)
     print(f"  Pulse data refresh — {out_path}")
