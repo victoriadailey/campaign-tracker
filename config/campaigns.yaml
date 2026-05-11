@@ -135,16 +135,19 @@ campaigns:
         exclude: []
       - id: ep7
         n: "Ep. 07"
-        title: "Mark Cuban on Sports Ownership"
-        date: "May 1"
-        match: ["Mark Cuban", "Cuban"]
-        exclude: ["Repole", "Marshall"]  # Cross-episode mentions stay with their own episode
-      - id: ep8
-        n: "Ep. 08"
         title: "Dave Checketts on Sports Investing"
         date: "May 5"
         match: ["Checketts", "Former Knicks"]
         exclude: []
+      # Mark Cuban episode hasn't aired yet — only teasers are live. Real interview
+      # posts will land here once published. Excludes protect against Repole/Marshall/
+      # Checketts posts that mention Cuban being attributed to the wrong episode.
+      - id: ep8
+        n: "Ep. 08"
+        title: "Mark Cuban (teasers only — episode pending)"
+        date: "Coming soon"
+        match: ["Mark Cuban", "Cuban"]
+        exclude: ["Repole", "Marshall", "Checketts"]
 
   - id: spectrum
     partner: Spectrum
