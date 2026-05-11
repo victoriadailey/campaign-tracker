@@ -46,7 +46,9 @@ function Sidebar({ active, onNav, campaigns }) {
   return (
     <aside className="sidebar">
       <div className="sb-brand">
-        <span className="name" style={{fontFamily:'var(--serif)', fontSize:22, letterSpacing:'0.22em', fontWeight:400, textTransform:'uppercase', fontStyle:'normal'}}>PULSE</span>
+        <span className="name" style={{fontFamily:'var(--serif)', fontSize:20, letterSpacing:'0.18em', fontWeight:400, textTransform:'uppercase', fontStyle:'normal'}}>
+          <em style={{fontStyle:'italic', fontWeight:300}}>Campaign</em> Pulse
+        </span>
       </div>
 
       <button className={"sb-item " + (active === 'overview' ? 'active' : '')} onClick={() => onNav({ view: 'overview' })}>
@@ -73,13 +75,6 @@ function Sidebar({ active, onNav, campaigns }) {
       <button className="sb-item"><Ic.download/> Exports</button>
       <button className="sb-item"><Ic.settings/> Settings</button>
 
-      <div className="sb-foot">
-        <div className="sb-avatar">JG</div>
-        <div className="who">
-          <div className="nm">Jordan G.</div>
-          <div className="em">Branded Content</div>
-        </div>
-      </div>
     </aside>
   );
 }

@@ -53,30 +53,56 @@ function CampaignPage({ campaignId, onBack }) {
         </>}
         title={c.series.replace(c.seriesItalic, '').trim()}
         italic={c.seriesItalic}
-        sub={<>Partner: <strong>{c.partner}</strong> · Flight: {c.flight} · {c.episodes} episodes · Lead format: <strong>{c.leadFormat}</strong></>}
         actions={<>
-          <button className="btn btn-acc"><Ic.download/> Export</button>
+          <div className="card" style={{
+            padding:'14px 18px', minWidth:240, background:'var(--surface)',
+            border:'1px solid var(--line)', borderRadius:'var(--r-md)',
+            display:'flex', flexDirection:'column', gap:6
+          }}>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Partner</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.partner}</span>
+            </div>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.flight}</span>
+            </div>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Episodes</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.episodes} live</span>
+            </div>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Format</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.leadFormat}</span>
+            </div>
+          </div>
+          <button className="btn btn-acc" style={{marginLeft:12}}><Ic.download/> Export</button>
         </>}
       />
 
       {/* HERO PACING BANNER */}
       <div style={{
         background: cardTone.bg, color: cardTone.fg,
-        borderRadius: 'var(--r-lg)', padding: 28,
+        borderRadius: 'var(--r-lg)', padding: 22,
         marginBottom: 24, display: 'grid',
-        gridTemplateColumns: '1.2fr 1fr 1fr', gap: 24,
+        gridTemplateColumns: '1.1fr 1fr 1fr', gap: 24,
         alignItems: 'center', position: 'relative', overflow: 'hidden'
       }}>
         <div>
-          <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:8}}>Status</div>
-          <div style={{fontFamily:'var(--serif)', fontSize:44, lineHeight:1, fontWeight:300, letterSpacing:'-0.02em', marginBottom:14}}>
-            {c.status === 'On Track' ? <>Pacing <em>well.</em></> :
-             c.status === 'Behind Pace' ? <>Behind <em>pace.</em></> :
-             c.status === 'Watch' ? <>Watch <em>closely.</em></> :
-             <>Just <em>kicked off.</em></>}
+          <div style={{display:'flex', alignItems:'center', gap:8, marginBottom:10}}>
+            <span style={{fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', fontWeight:600, opacity:0.7}}>Status</span>
+            <span style={{
+              display:'inline-flex', alignItems:'center', gap:6,
+              padding:'3px 10px', borderRadius:999,
+              background: c.statusKind === 'on' ? 'rgba(255,255,255,0.85)' : 'rgba(31,26,21,0.18)',
+              color: c.statusKind === 'on' ? '#2f7a3f' : (c.statusKind === 'danger' ? '#b8392b' : '#6b2f06'),
+              fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.06em', fontWeight:600
+            }}>
+              <span style={{width:6, height:6, borderRadius:'50%', background: c.statusKind === 'on' ? '#2f7a3f' : (c.statusKind === 'danger' ? '#b8392b' : '#a06b14')}}/>
+              {c.status}
+            </span>
           </div>
-          <div style={{fontSize:14, lineHeight:1.5, maxWidth:380, opacity:0.85}}>{c.blurb}</div>
-          <div style={{marginTop:16, fontSize:12, opacity:0.75}}>{c.flight}</div>
+          <div style={{fontSize:13, lineHeight:1.5, opacity:0.88}}>{c.blurb}</div>
         </div>
         <div>
           <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Impression delivery</div>
@@ -107,7 +133,6 @@ function CampaignPage({ campaignId, onBack }) {
         <div className="card-h">
           <div>
             <div className="card-title-serif">Flight <em>tracker</em></div>
-            <div className="card-sub">Are time, delivery, and spend moving together?</div>
           </div>
           <span className="pill" style={{
             background: Math.abs(impVsTime) < 5 && Math.abs(budVsTime) < 5 ? 'rgba(143,199,102,0.18)' : 'rgba(255,153,71,0.18)',
@@ -147,28 +172,25 @@ function CampaignPage({ campaignId, onBack }) {
       {/* KPI ROW */}
       <div className="kpi-row">
         <div className="kpi">
-          <div className="kpi-lbl">Total Reach / Impressions</div>
+          <div className="kpi-lbl">Total Impressions</div>
           <div className="kpi-val">{fmt.num(c.impressions.delivered)}</div>
-          <div className="kpi-foot"><span className="kpi-delta up"><Ic.arrowUp/> 14%</span> last 30d</div>
+          <div className="kpi-foot"><span className="muted">{impPct.toFixed(1)}% to goal</span></div>
         </div>
         <div className="kpi">
           <div className="kpi-lbl">Engagements</div>
           <div className="kpi-val">{fmt.num(Math.round(c.impressions.delivered * c.er / 100))}</div>
-          <div className="kpi-foot"><span className="kpi-delta up"><Ic.arrowUp/> 18%</span> last 30d</div>
         </div>
         <div className="kpi">
           <div className="kpi-lbl">Engagement Rate</div>
           <div className="kpi-val">{c.er}<span className="unit">%</span></div>
-          <div className="kpi-foot"><span className="muted">benchmark: 4.0%</span></div>
         </div>
         <div className="kpi">
           <div className="kpi-lbl">Avg CPM</div>
           <div className="kpi-val">${c.cpm}</div>
-          <div className="kpi-foot"><span className="kpi-delta up"><Ic.arrowDn/> 8%</span> vs portfolio avg</div>
         </div>
         <div className="kpi">
           <div className="kpi-lbl">Episodes / Posts</div>
-          <div className="kpi-val">{c.episodes}<span className="unit" style={{margin:'0 6px', color:'var(--ink-3)'}}>/</span>{totalPosts}</div>
+          <div className="kpi-val">{c.episodes}<span className="unit" style={{margin:'0 6px', color:'var(--ink-3)'}}>/</span>{c.posts}</div>
           <div className="kpi-foot"><span className="muted">{c.topChannel} leading</span></div>
         </div>
       </div>
@@ -194,7 +216,9 @@ function CampaignPage({ campaignId, onBack }) {
                      ch.name === 'LinkedIn' ? <>Linked<em style={{fontStyle:'italic'}}>In</em></> :
                      ch.name === 'Instagram' ? <>Insta<em style={{fontStyle:'italic'}}>gram</em></> :
                      ch.name === 'TikTok' ? <>Tik<em style={{fontStyle:'italic'}}>Tok</em></> :
-                     <em style={{fontStyle:'italic'}}>X</em>}
+                     ch.name === 'Facebook' ? <>Face<em style={{fontStyle:'italic'}}>book</em></> :
+                     ch.name === 'X' ? <em style={{fontStyle:'italic'}}>X</em> :
+                     ch.name}
                   </div>
                   <span style={{ width: 12, height: 12, borderRadius: '50%', background: ch.color }}/>
                 </div>

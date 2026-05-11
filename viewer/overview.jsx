@@ -18,36 +18,26 @@ function OverviewPage({ onOpenCampaign }) {
     posts: 184
   };
 
+  // Time-based greeting — morning / afternoon / evening
+  const hour = new Date().getHours();
+  const greetItalic = hour < 12 ? 'morning.' : hour < 17 ? 'afternoon.' : 'evening.';
+  const activeCount = CAMPAIGNS.filter(c => c.statusKind !== 'on' || c.status !== 'Goal Exceeded').length;
+  const needsAttn = CAMPAIGNS.filter(c => c.statusKind === 'danger' || c.statusKind === 'warn').length;
+
   return (
     <>
       <PageHead
-        overline="Branded content · April 2026"
-        title="Good morning,"
-        italic="Jordan."
-        sub={<>You're tracking <strong>6 active campaigns</strong> across {CAMPAIGNS.reduce((s,c)=>s+c.episodes,0)} episodes. <strong>1 needs attention</strong> — E*TRADE is 39% behind impression pacing with 56 days left.</>}
+        overline={`Sponsored campaigns · ${new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' })}`}
+        title="Good"
+        italic={greetItalic}
+        sub={<>{CAMPAIGNS.length} active campaigns · <strong>{needsAttn} need{needsAttn === 1 ? 's' : ''} attention</strong>.</>}
         actions={<>
           <div className="search">
             <Ic.search/><input placeholder="Search campaigns, posts, partners…"/>
           </div>
-          <button className="btn btn-icon" title="Notifications"><Ic.bell/></button>
           <button className="btn btn-acc"><Ic.download/> Export</button>
         </>}
       />
-
-      {/* SOURCES STRIP */}
-      <div className="src-strip">
-        <span className="src-lbl">Data sources</span>
-        {SOURCES.map(s => (
-          <span className="src-item" key={s.name}>
-            <span className={"dot " + (s.stale ? 'stale' : '')}/>
-            <span className="nm">{s.name}</span>
-            <span className="dt">· {s.date}</span>
-          </span>
-        ))}
-        <span style={{marginLeft: 'auto', display:'flex', alignItems:'center', gap:6, fontSize:11, color:'var(--ink-3)'}}>
-          <Ic.dot/> All systems synced
-        </span>
-      </div>
 
       {/* TOP-OF-DASH CALLOUTS — what to celebrate, fix, watch */}
       <div className="sec" style={{marginTop: 4}}>
@@ -227,31 +217,65 @@ function OverviewPage({ onOpenCampaign }) {
               PORTFOLIO BLEND · $0.71
             </div>
           </div>
-          <div style={{display:'grid', gridTemplateColumns:'repeat(6, 1fr)', gap:0, borderTop:'1px solid var(--line)'}}>
+          <div style={{display:'grid', gridTemplateColumns:'repeat(7, 1fr)', gap:0, borderTop:'1px solid var(--line)'}}>
             {[
-              { plat:'YouTube', cpm:'$0.52', delta:'-12%', good:true, vol:'56% of imp.', color:'#E00922' },
-              { plat:'X', cpm:'$0.71', delta:'-8%', good:true, vol:'5% of imp.', color:'#1d1d1f' },
-              { plat:'TikTok', cpm:'$1.84', delta:'-3%', good:true, vol:'12% of imp.', color:'#000000' },
-              { plat:'LinkedIn', cpm:'$2.14', delta:'+2%', good:false, vol:'9% of imp.', color:'#0A66C2' },
-              { plat:'Facebook', cpm:'$3.92', delta:'+6%', good:false, vol:'—', color:'#1877F2' },
-              { plat:'Instagram', cpm:'$8.46', delta:'+11%', good:false, vol:'18% of imp.', color:'#E4405F' },
-            ].map((r, i) => (
+              { plat:'YT In-feed',   cpm:'$0.49', vol:'34% of imp.', color:'#E00922' },
+              { plat:'YT In-stream', cpm:'$9.20', vol:'22% of imp.', color:'#B0061B' },
+              { plat:'X',            cpm:'$0.71', vol:'5% of imp.',  color:'#1d1d1f' },
+              { plat:'TikTok',       cpm:'$1.84', vol:'12% of imp.', color:'#000000' },
+              { plat:'LinkedIn',     cpm:'$2.14', vol:'9% of imp.',  color:'#0A66C2' },
+              { plat:'Facebook',     cpm:'$3.92', vol:'—',           color:'#1877F2' },
+              { plat:'Instagram',    cpm:'$8.46', vol:'18% of imp.', color:'#E4405F' },
+            ].map((r, i, arr) => (
               <div key={r.plat} style={{
-                padding:'18px 16px',
-                borderRight: i < 5 ? '1px solid var(--line)' : 'none',
+                padding:'18px 14px',
+                borderRight: i < arr.length - 1 ? '1px solid var(--line)' : 'none',
                 display:'flex', flexDirection:'column', gap:6
               }}>
                 <div style={{display:'flex', alignItems:'center', gap:8}}>
                   <span style={{width:8, height:8, borderRadius:'50%', background:r.color}}/>
                   <span style={{fontSize:11, color:'var(--ink-2)', fontWeight:500}}>{r.plat}</span>
                 </div>
-                <div style={{fontFamily:'var(--serif)', fontSize:28, fontWeight:300, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1}}>{r.cpm}</div>
-                <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.04em'}}>
-                  <span style={{color: r.good ? '#2f7a3f' : '#b8392b', fontWeight:600}}>{r.delta} vs Q1</span>
-                  <span style={{color:'var(--ink-3)'}}>{r.vol}</span>
-                </div>
+                <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1}}>{r.cpm}</div>
+                <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.04em', color:'var(--ink-3)'}}>{r.vol}</div>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* ER BY CHANNEL */}
+        <div className="card" style={{padding:24, marginBottom:14}}>
+          <div className="card-h" style={{marginBottom: 18}}>
+            <div>
+              <div className="card-title-serif">Average ER by channel</div>
+              <div className="card-sub">Engagement rate across all active campaigns by platform.</div>
+            </div>
+          </div>
+          <div style={{display:'grid', gridTemplateColumns:'repeat(7, 1fr)', gap:0, borderTop:'1px solid var(--line)'}}>
+            {[
+              { plat:'YT In-feed',   er:'0.8%',  color:'#E00922' },
+              { plat:'YT In-stream', er:'1.2%',  color:'#B0061B' },
+              { plat:'X',            er:'0.2%',  color:'#1d1d1f' },
+              { plat:'TikTok',       er:'3.8%',  color:'#000000' },
+              { plat:'LinkedIn',     er:'4.2%',  color:'#0A66C2' },
+              { plat:'Facebook',     er:'0.5%',  color:'#1877F2' },
+              { plat:'Instagram',    er:'2.1%',  color:'#E4405F' },
+            ].map((r, i, arr) => (
+              <div key={r.plat} style={{
+                padding:'18px 14px',
+                borderRight: i < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                display:'flex', flexDirection:'column', gap:6
+              }}>
+                <div style={{display:'flex', alignItems:'center', gap:8}}>
+                  <span style={{width:8, height:8, borderRadius:'50%', background:r.color}}/>
+                  <span style={{fontSize:11, color:'var(--ink-2)', fontWeight:500}}>{r.plat}</span>
+                </div>
+                <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1}}>{r.er}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{marginTop:12, fontSize:11, color:'var(--ink-3)', fontStyle:'italic'}}>
+            Note: these are not official benchmarks, just the current ER% for ongoing campaigns.
           </div>
         </div>
 
@@ -286,6 +310,18 @@ function OverviewPage({ onOpenCampaign }) {
             );
           })}
         </div>
+      </div>
+
+      {/* SOURCES STRIP — moved to bottom, one line */}
+      <div className="src-strip" style={{marginTop:32, marginBottom:8, flexWrap:'nowrap', overflowX:'auto', fontSize:11}}>
+        <span className="src-lbl" style={{whiteSpace:'nowrap'}}>Data sources</span>
+        {SOURCES.map(s => (
+          <span className="src-item" key={s.name} style={{whiteSpace:'nowrap'}}>
+            <span className={"dot " + (s.stale ? 'stale' : '')}/>
+            <span className="nm">{s.name}</span>
+            <span className="dt">· {s.date}</span>
+          </span>
+        ))}
       </div>
     </>
   );
