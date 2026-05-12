@@ -89,8 +89,26 @@ def rollup_episode(
         "spend": 0.0, "posts": 0,
         "has_paid": False, "has_organic": False,
     })
+    # Lazy imports to keep the module otherwise dependency-free
+    from app.parsers import Platform, PostFormat, Source
+    from app.parsers.google_ads_campaign import youtube_ad_subtype
+
     for p in posts:
         key = p.platform.value
+        # Split YouTube into in-feed / pre-roll / shorts (same logic as
+        # per_campaign_channels in rollup.py). Keeps episode breakdown
+        # consistent with the channel tiles.
+        if p.platform is Platform.YOUTUBE:
+            if p.source is Source.GOOGLE_ADS_CAMPAIGN:
+                subtype = youtube_ad_subtype(p.post_title or "")
+                if subtype == "in-stream":
+                    key = "youtube_preroll"
+                elif subtype == "shorts":
+                    key = "youtube_shorts"
+                else:
+                    key = "youtube_infeed"
+            else:
+                key = "youtube_shorts" if p.post_format is PostFormat.REELS_SHORTS else "youtube_infeed"
         impr = _pick_impressions(p) or 0
         paid = p.impressions_paid or p.views_paid or 0
         organic = p.impressions_organic or p.views_organic or p.reach_organic or 0
@@ -224,6 +242,9 @@ def _pick_impressions(p: NormalizedPost) -> int | None:
 def _display_platform(key: str) -> str:
     return {
         "youtube": "YouTube",
+        "youtube_infeed": "YouTube In-feed",
+        "youtube_preroll": "YouTube Pre-roll",
+        "youtube_shorts": "YouTube Shorts",
         "instagram": "Instagram",
         "facebook": "Facebook",
         "tiktok": "TikTok",
