@@ -58,18 +58,29 @@ function Sidebar({ active, onNav, campaigns }) {
         <Ic.bench/> Benchmarks
       </button>
 
-      <div className="sb-section">Campaigns</div>
-      {campaigns.map(c => (
-        <button key={c.id}
-          className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
-          onClick={() => onNav({ view: 'campaign', id: c.id })}>
-          <Ic.campaign/>
-          <span style={{flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'}}>{c.partner}</span>
-          <span className="dot" style={{
-            background: c.statusKind === 'on' ? '#8FC766' : c.statusKind === 'warn' ? '#FF9947' : '#DE6B38'
-          }}/>
-        </button>
-      ))}
+      {(() => {
+        const content = campaigns.filter(c => c.type !== 'social');
+        const social = campaigns.filter(c => c.type === 'social');
+        const renderItem = (c) => (
+          <button key={c.id}
+            className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
+            onClick={() => onNav({ view: 'campaign', id: c.id })}>
+            <Ic.campaign/>
+            <span style={{flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'}}>{c.partner}</span>
+            <span className="dot" style={{
+              background: c.statusKind === 'on' ? '#8FC766' : c.statusKind === 'warn' ? '#FF9947' : '#DE6B38'
+            }}/>
+          </button>
+        );
+        return (
+          <>
+            {content.length > 0 && <div className="sb-section">Content</div>}
+            {content.map(renderItem)}
+            {social.length > 0 && <div className="sb-section">Social</div>}
+            {social.map(renderItem)}
+          </>
+        );
+      })()}
 
       <div className="sb-section">Workspace</div>
       <button className="sb-item"><Ic.download/> Exports</button>
@@ -140,7 +151,9 @@ function CampaignCard({ c, onClick }) {
           </span>
           <span className="pill" style={{
             background: 'rgba(36,28,23,0.08)', border: 'none', color: 'var(--liquorice)'
-          }}>{c.episodes} eps</span>
+          }}>{c.type === 'social'
+              ? `${c.posts} ${c.posts === 1 ? 'post' : 'posts'}`
+              : `${c.episodes} eps · ${c.posts} posts`}</span>
         </div>
       </div>
       <div className="cmp-pacing">

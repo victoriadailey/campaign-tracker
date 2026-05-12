@@ -190,36 +190,19 @@ campaigns:
     partner: Morgan & Morgan
     series: The Case Study
     series_italic: Case Study
-    type: content
+    type: social    # post-based tracking; no episode rollup
     flight_start: 2026-05-01
     flight_end: 2026-05-31
     impression_goal: 1_500_000
     budget_goal: 5_000
     color: ft-5
     lead_format: Made for Social
-    blurb: "Three-part Case Study series with Morgan & Morgan on NIL & college sports business. 2 videos live, 1 more coming + 2 static posts in progress."
+    blurb: "Case Study series with Morgan & Morgan on NIL & college sports business. 2 videos live + 1 more coming + 2 static posts in progress."
     ms_post_groups:
       - "Morgan & Morgan"
     sources:
       measure_studio:
         - morgan_morgan_ms.csv
-    episodes:
-      - id: ep1
-        n: "Ep. 01"
-        title: "Audi Crooks Transfer Portal Surprise"
-        date: "May 8"
-        match: ["Audi Crooks", "Transfer Portal", "Audi"]
-        exclude: []
-        impression_goal: 230_000
-        budget_goal: 1_428
-      - id: ep2
-        n: "Ep. 02"
-        title: "The Biggest Sports for NIL Value"
-        date: "TBD"
-        match: ["Biggest Sports", "NIL Value", "school has the dollars"]
-        exclude: []
-        impression_goal: 430_000
-        budget_goal: 1_428
 
   - id: usbank
     partner: US Bank
