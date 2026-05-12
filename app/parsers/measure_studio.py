@@ -173,7 +173,26 @@ def parse(
             continue
         post = _row_to_post(raw, platform) if is_wide else _row_to_post_simple(raw, platform)
         if platform in organic_only_for:
-            # Zero out paid metrics; keep organic/total. Paid will come from dedicated source.
+            # MS reports `*_total` as organic + paid combined. For platforms whose paid
+            # data we get from a dedicated source (X Ads, Google Ads YT), we have to
+            # also reduce `*_total` to the organic share — otherwise paid impressions
+            # get counted twice (once in MS total, once in the dedicated source).
+            if post.impressions_organic is not None:
+                post.impressions_total = post.impressions_organic
+            elif post.impressions_paid:
+                # No explicit organic but paid is set — total - paid = organic share
+                post.impressions_total = max(0, (post.impressions_total or 0) - post.impressions_paid)
+            if post.views_organic is not None:
+                post.views_total = post.views_organic
+            elif post.views_paid:
+                post.views_total = max(0, (post.views_total or 0) - post.views_paid)
+            if post.reach_organic is not None:
+                post.reach_total = post.reach_organic
+            if post.engagements_organic is not None:
+                post.engagements_total = post.engagements_organic
+            elif post.engagements_paid:
+                post.engagements_total = max(0, (post.engagements_total or 0) - post.engagements_paid)
+            # Now zero out the paid fields — they'll be supplied by the dedicated source.
             post.views_paid = None
             post.impressions_paid = None
             post.reach_paid = None

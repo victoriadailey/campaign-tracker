@@ -94,7 +94,9 @@ def rollup_campaign(
     today = today or date.today()
 
     total_impressions = sum(_pick_impressions(p) or 0 for p in posts)
-    total_engagements = sum(p.engagements_total or 0 for p in posts)
+    # Paid-only sources (Google Ads campaign, X Ads) set engagements_paid not _total;
+    # include them so campaign-level engagement totals aren't under-counted.
+    total_engagements = sum((p.engagements_total or p.engagements_paid or 0) for p in posts)
     total_spend = sum(p.ad_spend or 0 for p in posts)
     er = (total_engagements / total_impressions * 100) if total_impressions else 0.0
     paid_impressions = sum(p.impressions_paid or 0 for p in posts)
@@ -261,7 +263,7 @@ def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
             organic = _pick_impressions(p) or 0
 
         by_key[key]["impressions"] += _pick_impressions(p) or 0
-        by_key[key]["eng"] += p.engagements_total or 0
+        by_key[key]["eng"] += (p.engagements_total or p.engagements_paid or 0)
         by_key[key]["spend"] += p.ad_spend or 0
         by_key[key]["paid_impressions"] += p.impressions_paid or 0
         by_key[key]["organic_impressions"] += organic

@@ -78,7 +78,9 @@ def rollup_episode(
         return None
 
     total_impr = sum(_pick_impressions(p) or 0 for p in posts)
-    total_eng = sum(p.engagements_total or 0 for p in posts)
+    # Google Ads / X Ads sources only set engagements_paid (no engagements_total).
+    # Fall back so paid-only sources still contribute to the episode engagement total.
+    total_eng = sum((p.engagements_total or p.engagements_paid or 0) for p in posts)
     total_spend = round(sum(p.ad_spend or 0 for p in posts), 2)
     total_er = round((total_eng / total_impr * 100) if total_impr else 0.0, 2)
 
@@ -115,8 +117,8 @@ def rollup_episode(
         # Infer organic if not explicit: total minus paid
         if organic == 0 and impr > paid:
             organic = impr - paid
-        eng_total = p.engagements_total or 0
         eng_paid = p.engagements_paid or 0
+        eng_total = p.engagements_total or eng_paid or 0  # paid-only sources still count
         eng_org = p.engagements_organic or max(0, eng_total - eng_paid)
 
         by_channel[key]["impr"] += impr
