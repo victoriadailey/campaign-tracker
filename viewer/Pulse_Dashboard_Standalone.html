@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Pulse — FOS Social Dashboard</title>
@@ -684,16 +683,11 @@ a { color: inherit; }
 .serif { font-family: var(--serif); }
 .mono { font-family: var(--mono); font-size: 0.95em; }
 .tnum { font-variant-numeric: tabular-nums; }
-</style>
-</head>
-<body>
-
+</style></head><body>
 <div id="root"></div>
-
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
-
 <script>
 // ============================================================
 
@@ -1219,17 +1213,17 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 2578974,
-        "eng": 36614,
-        "er": 1.42,
+        "impressions": 3088811,
+        "eng": 51938,
+        "er": 1.68,
         "cpm": 5.22,
         "color": "#E4405F",
-        "delta": -57.1,
+        "delta": -49.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 316784
+        "organicImpressions": 826621
       },
       {
         "name": "X",
@@ -1260,21 +1254,6 @@ window.CAMPAIGNS = [
           "cpm": 2.5
         },
         "organicImpressions": 32708
-      },
-      {
-        "name": "Instagram Stories",
-        "italic": "Instagram Stories",
-        "impressions": 511956,
-        "eng": 15324,
-        "er": 2.99,
-        "cpm": 0.0,
-        "color": "#C13584",
-        "delta": -9.6,
-        "bench": {
-          "er": 3.31,
-          "cpm": 5.1
-        },
-        "organicImpressions": 511956
       },
       {
         "name": "LinkedIn",
@@ -1320,6 +1299,21 @@ window.CAMPAIGNS = [
           "cpm": 4.8
         },
         "organicImpressions": 8379
+      },
+      {
+        "name": "Instagram Stories",
+        "italic": "Instagram Stories",
+        "impressions": 2119,
+        "eng": 0,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#C13584",
+        "delta": -100.0,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 2119
       }
     ],
     "topPosts": [
@@ -1480,7 +1474,7 @@ window.CAMPAIGNS = [
         "rank": 1,
         "partner": "E*TRADE",
         "platform": "Instagram",
-        "format": "Story",
+        "format": "Image post",
         "quote": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying\u2026",
         "organicReach": 276645,
         "totalReach": 276645,
@@ -1494,7 +1488,7 @@ window.CAMPAIGNS = [
         "rank": 2,
         "partner": "E*TRADE",
         "platform": "Instagram",
-        "format": "Story",
+        "format": "Image post",
         "quote": "Exclusive: Mark Cuban says he paid for Indiana to sign Fernando Mendoza. Cuban revealed to FOS that\u2026",
         "organicReach": 233192,
         "totalReach": 233192,
@@ -1627,9 +1621,9 @@ window.CAMPAIGNS = [
       {
         "tag": "OPPORTUNITY",
         "kind": "info",
-        "headline": "X driving 635K organic impressions.",
-        "body": "Free reach we're not paying for. 0.3% ER, 33% of X's total delivery is organic. Lean into posting cadence here.",
-        "meta": "E*TRADE \u00b7 X"
+        "headline": "Instagram driving 827K organic impressions.",
+        "body": "Free reach we're not paying for. 1.7% ER, 27% of Instagram's total delivery is organic. Lean into posting cadence here.",
+        "meta": "E*TRADE \u00b7 Instagram"
       },
       {
         "tag": "WATCH",
@@ -2135,7 +2129,7 @@ window.TOP_POSTS_ORGANIC = [
     "rank": 1,
     "partner": "E*TRADE",
     "platform": "Instagram",
-    "format": "Story",
+    "format": "Image post",
     "quote": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying\u2026",
     "organicReach": 276645,
     "totalReach": 276645,
@@ -2149,7 +2143,7 @@ window.TOP_POSTS_ORGANIC = [
     "rank": 2,
     "partner": "E*TRADE",
     "platform": "Instagram",
-    "format": "Story",
+    "format": "Image post",
     "quote": "Exclusive: Mark Cuban says he paid for Indiana to sign Fernando Mendoza. Cuban revealed to FOS that\u2026",
     "organicReach": 233192,
     "totalReach": 233192,
@@ -2355,9 +2349,9 @@ window.SIGNALS = [
   {
     "tag": "OPPORTUNITY",
     "kind": "info",
-    "headline": "X driving 635K organic impressions.",
-    "body": "Free reach we're not paying for. 0.3% ER, 33% of X's total delivery is organic. Lean into posting cadence here.",
-    "meta": "E*TRADE \u00b7 X",
+    "headline": "Instagram driving 827K organic impressions.",
+    "body": "Free reach we're not paying for. 1.7% ER, 27% of Instagram's total delivery is organic. Lean into posting cadence here.",
+    "meta": "E*TRADE \u00b7 Instagram",
     "campaignId": "etrade",
     "campaignPartner": "E*TRADE"
   },
@@ -4344,7 +4338,7 @@ window.EPISODES_BY_CAMPAIGN = {
       },
       "perChannel": [
         {
-          "name": "Instagram Stories",
+          "name": "Instagram",
           "distKind": "organic",
           "impr": 509837,
           "paidImpr": 0,
@@ -5577,7 +5571,6 @@ window.fmt = {
 
 
 </script>
-
 <script type="text/babel">
 
 // tweaks-panel.jsx
@@ -6149,7 +6142,6 @@ Object.assign(window, {
 });
 
 </script>
-
 <script type="text/babel">
 /* global React, CAMPAIGNS, TOP_POSTS, HERO_POST, CHANNELS, FORMATS, MONTHLY_DELIVERY, SOURCES, fmt */
 // Use React.useState etc. directly — top-level destructuring collides across Babel scripts.
@@ -6567,7 +6559,6 @@ Object.assign(window, {
 });
 
 </script>
-
 <script type="text/babel">
 /* global React, CAMPAIGNS, TOP_POSTS, TOP_POSTS_ORGANIC, HERO_POST, CHANNELS, FORMATS, MONTHLY_DELIVERY, SOURCES, fmt,
    Ic, PlatformPill, PageHead, CampaignCard, MultiLineChart, Donut, BarChart, PLATFORM_COLORS, PaceBar */
@@ -6907,7 +6898,6 @@ function OverviewPage({ onOpenCampaign }) {
 window.OverviewPage = OverviewPage;
 
 </script>
-
 <script type="text/babel">
 /* global React, CAMPAIGNS, TOP_POSTS, CHANNELS, FORMATS, fmt,
    Ic, PlatformPill, PageHead, MultiLineChart, Donut, BarChart, PaceBar */
@@ -7460,7 +7450,6 @@ function DeliveryCurve({ campaign }) {
 window.CampaignPage = CampaignPage;
 
 </script>
-
 <script type="text/babel">
 /* global React, CAMPAIGNS, fmt, Ic, PlatformPill, PageHead */
 const { useState: useStateUB } = React;
@@ -8033,7 +8022,6 @@ function UsBankPage({ campaignId, onBack }) {
 window.UsBankPage = UsBankPage;
 
 </script>
-
 <script type="text/babel">
 /* global React, BENCHMARKS_DATA, PageHead */
 const { useState: useStateB } = React;
@@ -8269,7 +8257,6 @@ function shortCategoryName(name) {
 window.BenchmarksPage = BenchmarksPage;
 
 </script>
-
 <script type="text/babel">
 const TWEAK_DEFAULTS = {
   "palette": "flame",
@@ -8344,6 +8331,4 @@ function App() {
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 </script>
-
-</body>
-</html>
+</body></html>
