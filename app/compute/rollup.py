@@ -272,6 +272,17 @@ def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
         ))
 
     out.sort(key=lambda c: c.impressions, reverse=True)
+
+    # Keep YouTube In-feed + Pre-roll tiles adjacent in the by-channel grid.
+    infeed_idx = next((i for i, c in enumerate(out) if c.name == "YouTube In-feed"), None)
+    preroll_idx = next((i for i, c in enumerate(out) if c.name == "YouTube Pre-roll"), None)
+    if infeed_idx is not None and preroll_idx is not None and abs(infeed_idx - preroll_idx) > 1:
+        if infeed_idx < preroll_idx:
+            preroll = out.pop(preroll_idx)
+            out.insert(infeed_idx + 1, preroll)
+        else:
+            infeed = out.pop(infeed_idx)
+            out.insert(preroll_idx + 1, infeed)
     return out
 
 
@@ -496,7 +507,19 @@ def channel_rollups(posts_by_campaign: dict[str, list[NormalizedPost]]) -> list[
 # ---------- helpers ----------
 
 def _pick_impressions(p: NormalizedPost) -> int | None:
-    return p.impressions_total or p.views_total or p.reach_total
+    """Best-effort impression count.
+
+    For paid-only sources (Google Ads campaign reports, X Ads), `impressions_total`
+    is never set — only `impressions_paid`. Fall back so those posts contribute to
+    channel rollups instead of getting silently dropped (= 0 impressions in tile).
+    """
+    return (
+        p.impressions_total
+        or p.views_total
+        or p.reach_total
+        or p.impressions_paid
+        or p.views_paid
+    )
 
 
 def _organic_pct(p: NormalizedPost) -> int:
