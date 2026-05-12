@@ -348,18 +348,27 @@ def _str(value: Any) -> str | None:
 
 
 def _to_int(value: Any) -> int | None:
+    """Parse to int; take abs() to normalize MS export bug.
+
+    Measure Studio exports negative numbers in some YouTube columns (e.g.,
+    'YouTube Total Engagements - Organic = -6325'). These are data export bugs,
+    not real negative metrics. We flip all negatives to positives at parse time.
+    Metric values are inherently non-negative — views, impressions, engagements,
+    spend, etc. cannot meaningfully be negative.
+    """
     if value is None or value == "":
         return None
     try:
-        return int(float(str(value).replace(",", "")))
+        return abs(int(float(str(value).replace(",", ""))))
     except (ValueError, TypeError):
         return None
 
 
 def _to_float(value: Any) -> float | None:
+    """Parse to float; take abs() — see _to_int doc for rationale."""
     if value is None or value == "":
         return None
     try:
-        return float(str(value).replace(",", "").replace("%", ""))
+        return abs(float(str(value).replace(",", "").replace("%", "")))
     except (ValueError, TypeError):
         return None
