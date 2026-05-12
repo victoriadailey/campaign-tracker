@@ -106,3 +106,93 @@ def test_missing_columns_error():
 
 def test_empty_file_error():
     assert not parse(b"").ok
+
+
+# ============================================================
+# Regression: organic_only_for must reduce *_total to organic share
+# ============================================================
+# Why this matters: when we combine an MS export with a dedicated paid source
+# (X Ads, Google Ads YT), MS '*_Total' columns are organic+paid and the paid
+# portion would be counted twice — once by MS, again by the dedicated source.
+# This test guards against that regression. Real example: E*TRADE Repole X
+# posts where MS shows X Impressions - Total = 103,644, Organic = 11,878,
+# Paid = 91,766. After organic_only_for={X}, impressions_total must equal
+# 11,878 (organic), NOT 103,644.
+
+def test_organic_only_for_x_reduces_totals_to_organic_share():
+    """X posts under organic_only_for={Platform.X} must drop paid from totals."""
+    result_default = parse(str(FIXTURES / "portfolio_players_ms.csv"))
+    result_org_only = parse(
+        str(FIXTURES / "portfolio_players_ms.csv"),
+        organic_only_for={Platform.X},
+    )
+
+    # Find the same X post in both parses (deterministic via post_id_native)
+    def x_posts_with_paid(r):
+        return [
+            p for p in r.rows
+            if p.platform is Platform.X
+            and p.impressions_paid is not None
+            and p.impressions_paid > 0
+        ]
+
+    default_paid_posts = {p.post_id_native: p for p in x_posts_with_paid(result_default)}
+    assert default_paid_posts, "fixture should have at least one X paid post"
+
+    # In the organic-only result, find the same posts and verify totals dropped
+    for org_post in result_org_only.rows:
+        if org_post.platform is not Platform.X:
+            continue
+        if org_post.post_id_native not in default_paid_posts:
+            continue
+        default_post = default_paid_posts[org_post.post_id_native]
+        paid_share = default_post.impressions_paid or 0
+        if paid_share == 0:
+            continue
+        # The organic-only version must NOT include the paid portion
+        assert (org_post.impressions_total or 0) < (default_post.impressions_total or 0), (
+            f"organic_only_for didn't reduce impressions_total for X post "
+            f"{org_post.post_id_native!r}: "
+            f"default={default_post.impressions_total}, "
+            f"organic_only={org_post.impressions_total}"
+        )
+        # Paid fields must be zeroed
+        assert org_post.impressions_paid is None
+        assert org_post.ad_spend is None
+
+
+def test_organic_only_for_x_strips_paid_from_ms_totals():
+    """After organic_only_for={Platform.X}, the sum of MS X impressions_total
+    must equal the sum of MS X organic impressions — meaning all MS-reported
+    paid impressions have been removed. This is THE invariant that prevents
+    double-counting with the X Ads file."""
+    ms_org_only = parse(
+        str(FIXTURES / "portfolio_players_ms.csv"),
+        organic_only_for={Platform.X},
+    )
+    ms_default = parse(str(FIXTURES / "portfolio_players_ms.csv"))
+
+    org_only_x_total = sum(
+        p.impressions_total or 0
+        for p in ms_org_only.rows
+        if p.platform is Platform.X
+    )
+    default_x_organic = sum(
+        p.impressions_organic or 0
+        for p in ms_default.rows
+        if p.platform is Platform.X
+    )
+    default_x_paid = sum(
+        p.impressions_paid or 0
+        for p in ms_default.rows
+        if p.platform is Platform.X
+    )
+
+    # Critical: the organic_only totals must match the organic share — they
+    # must NOT include any of the paid share that's already captured by X Ads.
+    assert org_only_x_total == default_x_organic, (
+        f"organic_only_for didn't fully strip paid from totals. "
+        f"organic-only total: {org_only_x_total:,}, "
+        f"sum of organic: {default_x_organic:,}, "
+        f"sum of paid (should have been removed): {default_x_paid:,}."
+    )
