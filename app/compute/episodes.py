@@ -198,7 +198,27 @@ def _episode_callouts(per_channel: list[dict[str, Any]]) -> list[dict[str, str]]
 
 
 def _pick_impressions(p: NormalizedPost) -> int | None:
-    return p.impressions_total or p.views_total or p.reach_total
+    """Mirrors app.compute.rollup._pick_impressions — keep these in sync.
+
+    YouTube: prefer impressions_paid (ad-renders) over views_total (video plays).
+    Other platforms: prefer impressions_total → views_total → reach_total, then
+    fall back to paid columns for ad-only sources (Google Ads campaign reports).
+    """
+    from app.parsers import Platform
+    if p.platform is Platform.YOUTUBE:
+        return (
+            p.impressions_total
+            or p.impressions_paid
+            or p.views_total
+            or p.views_paid
+        )
+    return (
+        p.impressions_total
+        or p.views_total
+        or p.reach_total
+        or p.impressions_paid
+        or p.views_paid
+    )
 
 
 def _display_platform(key: str) -> str:
