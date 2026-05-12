@@ -22,7 +22,7 @@ Output is the rich Episode shape the Pulse viewer's campaign.jsx expects:
 from __future__ import annotations
 
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any
 
 from app.parsers import Boosting, NormalizedPost, Platform
