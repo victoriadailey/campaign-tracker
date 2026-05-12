@@ -84,13 +84,17 @@ campaigns:
     ms_post_groups:
       - "Portfolio Players S3"
       - "Portfolio Players S3 x E*TRADE"
-    # MS is the authoritative YT paid source — it has all 8 episodes (Google Ads YT
-    # export was missing Ep 8 Checketts). For X, the X Ads file is authoritative.
+    # Google Ads YT is authoritative for paid YT — provides the in-feed / pre-roll /
+    # shorts subtype breakdown via campaign-name suffix. MS contributes YT organic
+    # only. (Updated YT Paid export now includes Checketts.)
     ms_organic_only_for:
       - x
+      - youtube
     sources:
       measure_studio:
         - portfolio_players_ms.csv
+      youtube_paid:
+        - portfolio_players_yt_paid.csv
       x_ads:
         - portfolio_players_x_ads.csv
     episodes:
