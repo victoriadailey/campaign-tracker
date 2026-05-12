@@ -210,11 +210,31 @@ function CampaignPage({ campaignId, onBack }) {
           </div>
         </div>
 
-        <div style={{display:'grid', gridTemplateColumns:`repeat(${channels.length}, minmax(0, 1fr))`, gap:10, marginBottom:16}}>
-          {channels.map(ch => {
+        {(() => {
+          // Two rows for readability:
+          //   Row 1: YouTube subtypes + Instagram (feed + stories)
+          //   Row 2: X / LinkedIn / TikTok / Facebook / everything else
+          const ROW_1_ORDER = ['YouTube In-feed', 'YouTube Pre-roll', 'YouTube Shorts', 'Instagram', 'Instagram Stories'];
+          const ROW_2_ORDER = ['X', 'LinkedIn', 'TikTok', 'Facebook'];
+          const orderIndex = (arr, name) => {
+            const i = arr.indexOf(name);
+            return i === -1 ? 999 : i;
+          };
+          const row1 = channels
+            .filter(c => ROW_1_ORDER.includes(c.name))
+            .sort((a, b) => orderIndex(ROW_1_ORDER, a.name) - orderIndex(ROW_1_ORDER, b.name));
+          const row2Set = new Set(ROW_1_ORDER);
+          const row2 = channels
+            .filter(c => !row2Set.has(c.name))
+            .sort((a, b) => {
+              const ai = orderIndex(ROW_2_ORDER, a.name);
+              const bi = orderIndex(ROW_2_ORDER, b.name);
+              if (ai !== bi) return ai - bi;
+              return b.impressions - a.impressions;  // fallback for anything not in either list
+            });
+
+          const renderTile = (ch) => {
             const erDiff = ch.er - ch.bench.er;
-            // CPM delta: positive means OVER benchmark (bad — paying more than expected).
-            // Negative means UNDER benchmark (good — efficient).
             const cpmDiff = ch.bench.cpm > 0 ? ((ch.cpm - ch.bench.cpm) / ch.bench.cpm) * 100 : 0;
             return (
               <div key={ch.name} className="chan">
@@ -255,8 +275,23 @@ function CampaignPage({ campaignId, onBack }) {
                 </div>
               </div>
             );
-          })}
-        </div>
+          };
+
+          return (
+            <>
+              {row1.length > 0 && (
+                <div style={{display:'grid', gridTemplateColumns:`repeat(${row1.length}, minmax(0, 1fr))`, gap:10, marginBottom:10}}>
+                  {row1.map(renderTile)}
+                </div>
+              )}
+              {row2.length > 0 && (
+                <div style={{display:'grid', gridTemplateColumns:`repeat(${row2.length}, minmax(0, 1fr))`, gap:10, marginBottom:16}}>
+                  {row2.map(renderTile)}
+                </div>
+              )}
+            </>
+          );
+        })()}
       </div>
 
       {/* PER-EPISODE PERFORMANCE — collapsible rich table (CONTENT campaigns only) */}
