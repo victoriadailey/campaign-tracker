@@ -62,8 +62,19 @@ def attribute_posts_to_episodes(
     """Bucket each post into at most one episode. Posts that match no episode are dropped."""
     out: dict[str, list[NormalizedPost]] = {e.id: [] for e in episodes}
     for p in posts:
-        # Use title; fall back to description for posts with no title (some IG/X posts).
-        text = _normalize(p.post_title) or _normalize(p.post_description)
+        # Match against title + description + AI categories.
+        # Cross-posted media often has the host's name in the description even when
+        # the title is generic ('What's the 2nd Biggest Sport in the US?' →
+        # description mentions Mike Repole). And AI Categories give topical hints
+        # for posts that are otherwise text-empty.
+        ai_cats = ""
+        if isinstance(p.raw, dict):
+            ai_cats = p.raw.get("AI - Categories") or ""
+        text = " ".join(filter(None, [
+            _normalize(p.post_title),
+            _normalize(p.post_description),
+            _normalize(ai_cats),
+        ]))
         if not text:
             continue
         # Find all matching episodes
