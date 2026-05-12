@@ -6,7 +6,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date
 
-from app.parsers import Boosting, NormalizedPost, Platform, Source
+from app.parsers import Boosting, NormalizedPost, Platform, PostFormat, Source
 from app.parsers.google_ads_campaign import youtube_ad_subtype
 from app.viewer.data_contract import (
     CampaignSummary,
@@ -137,12 +137,19 @@ def top_posts_by_er(
     partners: dict[str, str],
     n: int = 8,
     min_views: int = 1000,
+    min_er: float = 1.0,
 ) -> list[TopPost]:
+    """Top posts ranked by ER. ER must be at or above min_er (in percentage points)
+    to count — a post with 0.0% ER isn't useful as a 'top performer'."""
     candidates = []
     for campaign_id, posts in posts_by_campaign.items():
         for p in posts:
             views = p.views_total or p.impressions_total or 0
             if p.er is None or views < min_views:
+                continue
+            # ER stored as 0.0-1.0 fraction OR 0-100 percent — handle both
+            er_pct = (p.er * 100) if p.er <= 1.0 else p.er
+            if er_pct < min_er:
                 continue
             candidates.append((campaign_id, p))
 
@@ -229,27 +236,35 @@ def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
     YouTube's feed/browse experience.
     """
     by_key: dict[str, dict[str, float]] = defaultdict(lambda: {
-        "impressions": 0, "eng": 0, "spend": 0.0, "paid_impressions": 0
+        "impressions": 0, "eng": 0, "spend": 0.0,
+        "paid_impressions": 0, "organic_impressions": 0,
     })
     for p in posts:
         key = p.platform.value
         if p.platform is Platform.YOUTUBE:
-            # Split YouTube into In-feed vs Pre-roll using the ad subtype
+            # Split YouTube into In-feed / Pre-roll / Shorts
             if p.source is Source.GOOGLE_ADS_CAMPAIGN:
                 subtype = youtube_ad_subtype(p.post_title or "")
                 if subtype == "in-stream":
                     key = "youtube_preroll"
                 elif subtype == "shorts":
-                    key = "youtube_infeed"  # shorts roll up with in-feed for CPM purposes
+                    key = "youtube_shorts"
                 else:
                     key = "youtube_infeed"
             else:
-                # MS organic / non-Google-Ads YT posts → in-feed bucket
-                key = "youtube_infeed"
+                # MS-source YT post — classify by post_format
+                key = "youtube_shorts" if p.post_format is PostFormat.REELS_SHORTS else "youtube_infeed"
+
+        organic = p.impressions_organic or p.views_organic or p.reach_organic or 0
+        # If we don't have an explicit organic field but the post is non-paid, total is organic
+        if not organic and not (p.impressions_paid or p.views_paid):
+            organic = _pick_impressions(p) or 0
+
         by_key[key]["impressions"] += _pick_impressions(p) or 0
         by_key[key]["eng"] += p.engagements_total or 0
         by_key[key]["spend"] += p.ad_spend or 0
         by_key[key]["paid_impressions"] += p.impressions_paid or 0
+        by_key[key]["organic_impressions"] += organic
 
     out: list[Channel] = []
     for key, agg in by_key.items():
@@ -269,6 +284,7 @@ def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
             impressions=impressions, eng=eng,
             er=round(er, 2), cpm=round(cpm, 2),
             color=color, delta=delta, bench=bench,
+            organic_impressions=int(agg["organic_impressions"]),
         ))
 
     out.sort(key=lambda c: c.impressions, reverse=True)
@@ -347,18 +363,23 @@ def compute_campaign_callouts(
     if win_callout:
         callouts.append(win_callout)
 
-    # ---------- OPPORTUNITY: top reach driver ----------
-    by_reach = sorted(channels, key=lambda c: c.impressions, reverse=True)
-    if by_reach:
-        top = by_reach[0]
+    # ---------- OPPORTUNITY: top ORGANIC reach driver ----------
+    # Calling out a channel where we're paying for reach isn't an opportunity — it's
+    # spend. Surface the channel driving the most ORGANIC impressions instead.
+    by_organic = sorted(
+        [c for c in channels if c.organic_impressions > 0],
+        key=lambda c: c.organic_impressions, reverse=True
+    )
+    if by_organic:
+        top = by_organic[0]
         callouts.append({
             "tag": "OPPORTUNITY",
             "kind": "info",
-            "headline": f"{top.name} is the top reach driver at {_short(top.impressions)} impressions.",
+            "headline": f"{top.name} driving {_short(top.organic_impressions)} organic impressions.",
             "body": (
-                f"{(top.impressions / max(summary.impressions.delivered, 1) * 100):.0f}% of campaign delivery "
-                f"comes from {top.name} at ${top.cpm:.2f} CPM. "
-                f"{'Lean in for catch-up pacing.' if summary.status_kind != 'on' else 'Continue the current allocation.'}"
+                f"Free reach we're not paying for. {top.er:.1f}% ER, "
+                f"{(top.organic_impressions / max(top.impressions, 1) * 100):.0f}% of {top.name}'s total delivery is organic. "
+                f"{'Lean into posting cadence here.' if summary.status_kind != 'on' else 'Keep the cadence steady.'}"
             ),
             "meta": f"{summary.partner} · {top.name}",
         })
@@ -409,9 +430,11 @@ def _short(n: float) -> str:
 def _channel_display(key: str) -> tuple[str, str, ChannelBenchmark, str]:
     """Map an internal channel key (with YouTube subtype) to display info + benchmark."""
     if key == "youtube_infeed":
-        return ("YouTube In-feed", "In-feed", ChannelBenchmark(er=3.30, cpm=0.50), "#E00922")
+        return ("YouTube In-feed", "YouTube In-feed", ChannelBenchmark(er=3.30, cpm=0.50), "#E00922")
     if key == "youtube_preroll":
-        return ("YouTube Pre-roll", "Pre-roll", ChannelBenchmark(er=3.30, cpm=9.50), "#B0061B")
+        return ("YouTube Pre-roll", "YouTube Pre-roll", ChannelBenchmark(er=3.30, cpm=9.50), "#B0061B")
+    if key == "youtube_shorts":
+        return ("YouTube Shorts", "YouTube Shorts", ChannelBenchmark(er=3.30, cpm=2.50), "#FF0033")
     return (
         PLATFORM_DISPLAY.get(key, key.title()),
         PLATFORM_ITALIC.get(key, key.title()),

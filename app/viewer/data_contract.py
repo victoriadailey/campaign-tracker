@@ -108,6 +108,7 @@ class Channel:
     color: str
     delta: float
     bench: ChannelBenchmark
+    organic_impressions: int = 0
 
 
 @dataclass

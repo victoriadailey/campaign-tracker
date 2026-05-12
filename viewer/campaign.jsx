@@ -96,8 +96,8 @@ function CampaignPage({ campaignId, onBack }) {
             <span style={{
               display:'inline-flex', alignItems:'center', gap:6,
               padding:'3px 10px', borderRadius:999,
-              background: c.statusKind === 'on' ? 'rgba(255,255,255,0.85)' : 'rgba(31,26,21,0.18)',
-              color: c.statusKind === 'on' ? '#2f7a3f' : (c.statusKind === 'danger' ? '#b8392b' : '#6b2f06'),
+              background: 'rgba(255,255,255,0.92)',
+              color: c.statusKind === 'on' ? '#2f7a3f' : c.statusKind === 'danger' ? '#b8392b' : '#a06b14',
               fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.06em', fontWeight:600
             }}>
               <span style={{width:6, height:6, borderRadius:'50%', background: c.statusKind === 'on' ? '#2f7a3f' : (c.statusKind === 'danger' ? '#b8392b' : '#a06b14')}}/>
@@ -191,8 +191,12 @@ function CampaignPage({ campaignId, onBack }) {
           <div className="kpi-val">${c.cpm}</div>
         </div>
         <div className="kpi">
-          <div className="kpi-lbl">Episodes / Posts</div>
-          <div className="kpi-val">{c.episodes}<span className="unit" style={{margin:'0 6px', color:'var(--ink-3)'}}>/</span>{c.posts}</div>
+          <div className="kpi-lbl">{c.type === 'social' ? 'Posts' : 'Episodes / Posts'}</div>
+          <div className="kpi-val">
+            {c.type === 'social'
+              ? c.posts
+              : <>{c.episodes}<span className="unit" style={{margin:'0 6px', color:'var(--ink-3)'}}>/</span>{c.posts}</>}
+          </div>
           <div className="kpi-foot"><span className="muted">{c.topChannel} leading</span></div>
         </div>
       </div>
@@ -216,13 +220,7 @@ function CampaignPage({ campaignId, onBack }) {
               <div key={ch.name} className="chan">
                 <div className="chan-h">
                   <div className="chan-name">
-                    {ch.name === 'YouTube' ? <>You<em style={{fontStyle:'italic'}}>Tube</em></> :
-                     ch.name === 'LinkedIn' ? <>Linked<em style={{fontStyle:'italic'}}>In</em></> :
-                     ch.name === 'Instagram' ? <>Insta<em style={{fontStyle:'italic'}}>gram</em></> :
-                     ch.name === 'TikTok' ? <>Tik<em style={{fontStyle:'italic'}}>Tok</em></> :
-                     ch.name === 'Facebook' ? <>Face<em style={{fontStyle:'italic'}}>book</em></> :
-                     ch.name === 'X' ? <em style={{fontStyle:'italic'}}>X</em> :
-                     ch.name}
+                    <em style={{fontStyle:'italic'}}>{ch.name}</em>
                   </div>
                   <span style={{ width: 12, height: 12, borderRadius: '50%', background: ch.color }}/>
                 </div>
@@ -309,7 +307,7 @@ function CampaignPage({ campaignId, onBack }) {
                   <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 10}}>
                     <span style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, color:'var(--ink-3)'}}>{e.n}</span>
                     <span style={{
-                      background: bgs[tones[idx]], padding:'3px 10px', borderRadius: 999,
+                      background: bgs[tones[idx % tones.length]], padding:'3px 10px', borderRadius: 999,
                       fontSize:11, fontWeight:600, color:'var(--liquorice)'
                     }}>{e.date}</span>
                   </div>
