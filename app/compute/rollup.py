@@ -534,8 +534,21 @@ def _pick_impressions(p: NormalizedPost) -> int | None:
 
     For paid-only sources (Google Ads campaign reports, X Ads), `impressions_total`
     is never set — only `impressions_paid`. Fall back so those posts contribute to
-    channel rollups instead of getting silently dropped (= 0 impressions in tile).
+    channel rollups instead of getting silently dropped.
+
+    YouTube special case: prefer `impressions_paid` over `views_total`. On YT, an
+    'impression' is an ad-render (how many times rendered); a 'view' is a video
+    play. Impressions >> views and campaign goals track impressions. MS Checketts
+    boosted Short has views_total=48K but impressions_paid=84K — the 84K is the
+    correct campaign-pacing number.
     """
+    if p.platform is Platform.YOUTUBE:
+        return (
+            p.impressions_total
+            or p.impressions_paid
+            or p.views_total
+            or p.views_paid
+        )
     return (
         p.impressions_total
         or p.views_total
