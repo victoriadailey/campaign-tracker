@@ -242,7 +242,7 @@ function CampaignPage({ campaignId, onBack }) {
                       </span>
                     </span>
                   </div>
-                  {ch.bench.cpm > 0 && (
+                  {ch.bench.cpm > 0 && ch.cpm > 0 && (
                     <div style={{display:'flex', justifyContent:'space-between', fontSize: 11}}>
                       <span style={{color:'var(--ink-3)'}}>CPM bench</span>
                       <span style={{fontWeight:500, color:'var(--ink-2)'}}>
