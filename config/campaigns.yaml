@@ -102,7 +102,7 @@ campaigns:
         n: "Ep. 01"
         title: "Mike Repole on Sports Ownership"
         date: "Feb 3"
-        match: ["Repole"]
+        match: ["Repole", "Tom Brady", "Billionaire Built Brands", "Kobe"]
         exclude: []
       - id: ep2
         n: "Ep. 02"
@@ -142,13 +142,13 @@ campaigns:
         n: "Ep. 07"
         title: "Brandon Marshall on the Athlete Media Empire"
         date: "Apr 21"
-        match: ["Brandon Marshall", "Marshall"]
+        match: ["Brandon Marshall", "Marshall", "TV networks", "Athlete Media", "active player to do TV"]
         exclude: []
       - id: ep8
         n: "Ep. 08"
         title: "Dave Checketts on Sports Investing"
         date: "May 5"
-        match: ["Checketts", "Former Knicks"]
+        match: ["Checketts", "Former Knicks", "Legendary NBA Exec", "Michael Jordan", "David Stern"]
         exclude: []
       # Mark Cuban episode hasn't aired yet — only teasers are live. Real interview
       # posts will land here once published. Excludes protect against other-episode

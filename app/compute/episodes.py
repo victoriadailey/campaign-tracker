@@ -41,21 +41,37 @@ class EpisodeDef:
     budget_goal: float | None = None     # optional per-episode budget
 
 
+def _normalize(s: str) -> str:
+    """Lowercase + replace curly quotes with straight ones. MS exports use curly
+    apostrophes ('Women's') while YAML config typically uses straight ('Women's')
+    — without normalization the substring match silently misses these posts.
+    """
+    return (
+        (s or "")
+        .lower()
+        .replace("’", "'")  # right single quote → '
+        .replace("‘", "'")  # left single quote
+        .replace("“", '"')  # left double quote
+        .replace("”", '"')  # right double quote
+    )
+
+
 def attribute_posts_to_episodes(
     posts: list[NormalizedPost], episodes: list[EpisodeDef]
 ) -> dict[str, list[NormalizedPost]]:
     """Bucket each post into at most one episode. Posts that match no episode are dropped."""
     out: dict[str, list[NormalizedPost]] = {e.id: [] for e in episodes}
     for p in posts:
-        title = (p.post_title or "").lower()
-        if not title:
+        # Use title; fall back to description for posts with no title (some IG/X posts).
+        text = _normalize(p.post_title) or _normalize(p.post_description)
+        if not text:
             continue
         # Find all matching episodes
         candidates = []
         for ep in episodes:
-            if any(ex.lower() in title for ex in ep.exclude):
+            if any(_normalize(ex) in text for ex in ep.exclude):
                 continue
-            matches = [m for m in ep.match if m.lower() in title]
+            matches = [m for m in ep.match if _normalize(m) in text]
             if ep.all_match:
                 if len(matches) == len(ep.match) and matches:
                     candidates.append((ep, sum(len(m) for m in matches)))
