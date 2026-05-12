@@ -182,10 +182,21 @@ def main() -> int:
         if ep_defs and posts:
             attributed = attribute_posts_to_episodes(posts, ep_defs)
             computed = [rollup_episode(ep, attributed[ep.id]) for ep in ep_defs]
-            episodes_by_campaign[c_id] = [e for e in computed if e]
+            real_episodes = [e for e in computed if e]
+            episodes_by_campaign[c_id] = real_episodes
+            # Reflect live episode count on the campaign card
+            for summary in campaigns:
+                if summary.id == c_id:
+                    summary.episodes = len(real_episodes)
+                    break
         else:
             # Fallback: use sample (E*TRADE has Kim Ng/Repole/Osborne placeholders in design)
             episodes_by_campaign[c_id] = sample_episodes.get(c_id, [])
+            # If using sample episodes (e.g., US Bank), reflect that count on the card too
+            for summary in campaigns:
+                if summary.id == c_id and episodes_by_campaign[c_id]:
+                    summary.episodes = len(episodes_by_campaign[c_id])
+                    break
 
     # Fallback hero / top posts from sample if we computed nothing real
     if not top_er:
