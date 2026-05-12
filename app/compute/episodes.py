@@ -39,6 +39,11 @@ class EpisodeDef:
     all_match: bool = False              # if True, ALL match strings must appear (default: any)
     impression_goal: int | None = None   # optional per-episode pacing target
     budget_goal: float | None = None     # optional per-episode budget
+    manual_posts: list[str] = field(default_factory=list)
+    # ↑ Explicit post_id_native values to force-attribute to this episode.
+    # Use for posts where MS title/description/AI categories don't carry the
+    # subject's name (e.g., a threaded tweet linking to the full episode, or
+    # a Story with no text). Manual attribution wins over keyword matching.
 
 
 def _normalize(s: str) -> str:
@@ -61,7 +66,18 @@ def attribute_posts_to_episodes(
 ) -> dict[str, list[NormalizedPost]]:
     """Bucket each post into at most one episode. Posts that match no episode are dropped."""
     out: dict[str, list[NormalizedPost]] = {e.id: [] for e in episodes}
+
+    # Build a lookup: post_id_native → episode_id (from manual_posts overrides).
+    manual_index: dict[str, str] = {}
+    for ep in episodes:
+        for pid in ep.manual_posts:
+            manual_index[str(pid)] = ep.id
+
     for p in posts:
+        # Manual override wins
+        if p.post_id_native and str(p.post_id_native) in manual_index:
+            out[manual_index[str(p.post_id_native)]].append(p)
+            continue
         # Match against title + description + AI categories.
         # Cross-posted media often has the host's name in the description even when
         # the title is generic ('What's the 2nd Biggest Sport in the US?' →
@@ -124,9 +140,7 @@ def rollup_episode(
 
     for p in posts:
         key = p.platform.value
-        # Split YouTube into in-feed / pre-roll / shorts (same logic as
-        # per_campaign_channels in rollup.py). Keeps episode breakdown
-        # consistent with the channel tiles.
+        # YouTube split + Instagram Stories — mirror per_campaign_channels in rollup.py
         if p.platform is Platform.YOUTUBE:
             if p.source is Source.GOOGLE_ADS_CAMPAIGN:
                 subtype = youtube_ad_subtype(p.post_title or "")
@@ -138,6 +152,8 @@ def rollup_episode(
                     key = "youtube_infeed"
             else:
                 key = "youtube_shorts" if p.post_format is PostFormat.REELS_SHORTS else "youtube_infeed"
+        elif p.platform is Platform.INSTAGRAM and p.post_format is PostFormat.STORY:
+            key = "instagram_stories"
         impr = _pick_impressions(p) or 0
         paid = p.impressions_paid or p.views_paid or 0
         organic = p.impressions_organic or p.views_organic or p.reach_organic or 0
@@ -275,6 +291,7 @@ def _display_platform(key: str) -> str:
         "youtube_preroll": "YouTube Pre-roll",
         "youtube_shorts": "YouTube Shorts",
         "instagram": "Instagram",
+        "instagram_stories": "Instagram Stories",
         "facebook": "Facebook",
         "tiktok": "TikTok",
         "x": "X",

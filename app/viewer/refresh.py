@@ -175,6 +175,7 @@ def main() -> int:
                 all_match=e.get("all_match", False),
                 impression_goal=e.get("impression_goal"),
                 budget_goal=e.get("budget_goal"),
+                manual_posts=[str(p) for p in (e.get("manual_posts") or [])],
             )
             for e in c.get("episodes", []) or []
         ]
@@ -249,6 +250,51 @@ def main() -> int:
         print("  Warnings:")
         for w in parse_warnings:
             print(f"    - {w}")
+
+    # ---------- Report unattributed posts per content campaign ----------
+    # MS posts that didn't match any episode (and aren't covered by manual_posts).
+    # We surface these prominently because the team's mandate is: every MS post
+    # must be accounted for.
+    unattrib_report: list[tuple[str, list[NormalizedPost]]] = []
+    for c in cfg["campaigns"]:
+        c_id = c["id"]
+        if not c.get("episodes"):
+            continue
+        posts = posts_by_campaign.get(c_id, [])
+        if not posts:
+            continue
+        # Only check MS-source posts (Google Ads / X Ads don't go through episode attribution
+        # the same way — their attribution comes from campaign-name patterns).
+        ms_posts = [p for p in posts if p.source.value == "measure_studio"]
+        if not ms_posts:
+            continue
+        ep_defs_for = [
+            EpisodeDef(
+                id=e["id"], n=e["n"], title=e["title"], date=e.get("date", ""),
+                match=e.get("match", []), exclude=e.get("exclude", []),
+                all_match=e.get("all_match", False),
+                manual_posts=[str(x) for x in (e.get("manual_posts") or [])],
+            )
+            for e in c["episodes"]
+        ]
+        attributed = attribute_posts_to_episodes(ms_posts, ep_defs_for)
+        attributed_ids = {p.post_id_native for posts in attributed.values() for p in posts}
+        missed = [p for p in ms_posts if p.post_id_native not in attributed_ids]
+        if missed:
+            unattrib_report.append((c["partner"], missed))
+
+    if unattrib_report:
+        print()
+        print("  ⚠  Unattributed MS posts (need manual_posts override or new keyword):")
+        for partner, missed in unattrib_report:
+            print(f"     [{partner}] {len(missed)} post(s):")
+            for p in missed:
+                title = (p.post_title or p.post_description or "(no text)")[:65].replace("\n", " ")
+                print(f"       · post_id={p.post_id_native}  platform={p.platform.value}  url={p.post_url}")
+                print(f"         title/desc: \"{title}\"")
+    else:
+        print()
+        print("  ✓ All MS posts attributed to an episode.")
     print(f"\n  Open viewer/index.html to view.")
     return 0
 

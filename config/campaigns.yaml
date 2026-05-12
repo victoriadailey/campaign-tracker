@@ -111,6 +111,8 @@ campaigns:
         # Cutdowns reference Patricof's businesses via @ handles + tags rather than his name
         match: ["Patricof", "Athletes Unlimited", "@AUProSports", "@theAUSLofficial", "AUSL", "Pro Softball"]
         exclude: []
+        manual_posts:
+          - "2024266065409098028"   # 2/18 threaded tweet linking to full Patricof episode
       - id: ep3
         n: "Ep. 03"
         title: "Leslie Osborne on Women's Soccer"
@@ -118,6 +120,8 @@ campaigns:
         # NWSL / Women's Soccer / Michele Kang cutdowns are part of this episode
         match: ["Osborne", "NWSL", "#nwsl", "Women's Soccer", "Female Messi", "Michele Kang"]
         exclude: []
+        manual_posts:
+          - "2026779233784136168"   # 2/25 threaded tweet linking to full Osborne episode
       - id: ep4
         n: "Ep. 04"
         title: "Paul Rabil on PLL Ownership"
@@ -138,6 +142,8 @@ campaigns:
         date: "Apr 15"
         match: ["Allyson Felix", "Allyson"]
         exclude: []
+        manual_posts:
+          - "3870854760043974001"   # 4/8 IG Story (Allyson Felix — no title/desc/cats)
       - id: ep7
         n: "Ep. 07"
         title: "Brandon Marshall on the Athlete Media Empire"

@@ -256,6 +256,10 @@ def per_campaign_channels(posts: list[NormalizedPost]) -> list[Channel]:
             else:
                 # MS-source YT post — classify by post_format
                 key = "youtube_shorts" if p.post_format is PostFormat.REELS_SHORTS else "youtube_infeed"
+        elif p.platform is Platform.INSTAGRAM and p.post_format is PostFormat.STORY:
+            # Instagram Stories tracked separately from feed posts (different format,
+            # different audience behavior, different metrics — auto-expire, no reach).
+            key = "instagram_stories"
 
         organic = p.impressions_organic or p.views_organic or p.reach_organic or 0
         # If we don't have an explicit organic field but the post is non-paid, total is organic
@@ -437,6 +441,8 @@ def _channel_display(key: str) -> tuple[str, str, ChannelBenchmark, str]:
         return ("YouTube Pre-roll", "YouTube Pre-roll", ChannelBenchmark(er=3.30, cpm=9.50), "#B0061B")
     if key == "youtube_shorts":
         return ("YouTube Shorts", "YouTube Shorts", ChannelBenchmark(er=3.30, cpm=2.50), "#FF0033")
+    if key == "instagram_stories":
+        return ("Instagram Stories", "Instagram Stories", ChannelBenchmark(er=3.31, cpm=5.10), "#C13584")
     return (
         PLATFORM_DISPLAY.get(key, key.title()),
         PLATFORM_ITALIC.get(key, key.title()),
