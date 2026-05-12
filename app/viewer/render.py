@@ -20,7 +20,8 @@ window.fmt = {
   pct(n, d = 1) { return n.toFixed(d) + '%'; },
   money(n) {
     if (n >= 1_000) return '$' + (n / 1_000).toFixed(1) + 'K';
-    return '$' + n.toLocaleString();
+    // Sub-thousand: whole dollars, no cents. Cents on spend add no useful info.
+    return '$' + Math.round(n).toLocaleString();
   }
 };
 """.strip()
