@@ -325,10 +325,13 @@ def _classify_format(post_type: str | None, duration_sec: float | None, platform
     pt = (post_type or "").lower()
     if "reel" in pt or "short" in pt or "spotlight" in pt:
         return PostFormat.REELS_SHORTS
+    # Check carousel/photo BEFORE story. MS uses 'Carousels & Saved Stories' for
+    # carousel posts that allow Story-style attachments — those are feed carousels,
+    # not Stories. The substring 'stories' would otherwise mis-bucket them.
+    if "carousel" in pt or "photo" in pt or "image" in pt:
+        return PostFormat.STATIC
     if "story" in pt or "stories" in pt:
         return PostFormat.STORY
-    if "photo" in pt or "carousel" in pt or "image" in pt:
-        return PostFormat.STATIC
     if "text" in pt:
         return PostFormat.TEXT
     if "video" in pt:
