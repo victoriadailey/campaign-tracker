@@ -348,14 +348,16 @@ function EpisodePerformanceTable({ episodes, channels }) {
               <div style={{ borderTop: '1px solid var(--line)' }}>
                 <div style={{
                   display: 'grid',
-                  gridTemplateColumns: '180px 140px 110px 110px 90px 90px 90px 100px',
-                  gap: 14, padding: '14px 24px 12px 64px',
+                  gridTemplateColumns: '160px 130px 60px 100px 100px 100px 80px 80px 80px 90px',
+                  gap: 12, padding: '14px 24px 12px 64px',
                   fontSize: 10, fontFamily: 'var(--mono)', color: 'var(--ink-3)',
                   letterSpacing: '0.1em', fontWeight: 600, textTransform: 'uppercase',
                   borderBottom: '1px solid var(--line)', background: 'var(--bg-soft)'
                 }}>
                   <div>Platform</div>
                   <div>Distribution</div>
+                  <div style={{ textAlign: 'right' }}>Posts</div>
+                  <div style={{ textAlign: 'right' }}>Total impr.</div>
                   <div style={{ textAlign: 'right' }}>Paid impr.</div>
                   <div style={{ textAlign: 'right' }}>Organic impr.</div>
                   <div style={{ textAlign: 'right' }}>% Organic</div>
@@ -370,8 +372,8 @@ function EpisodePerformanceTable({ episodes, channels }) {
                   return (
                     <div key={p.name} style={{
                       display: 'grid',
-                      gridTemplateColumns: '180px 140px 110px 110px 90px 90px 90px 100px',
-                      gap: 14, padding: '14px 24px 14px 64px', alignItems: 'center',
+                      gridTemplateColumns: '160px 130px 60px 100px 100px 100px 80px 80px 80px 90px',
+                      gap: 12, padding: '14px 24px 14px 64px', alignItems: 'center',
                       borderBottom: '1px solid var(--line)',
                       fontSize: 13, background: 'var(--bg)'
                     }}>
@@ -385,6 +387,8 @@ function EpisodePerformanceTable({ episodes, channels }) {
                         fontWeight: 600, padding: '3px 7px', borderRadius: 3,
                         justifySelf: 'start', textTransform: 'uppercase'
                       }}>{dist.txt}</span>
+                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.posts}</div>
+                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}>{p.impr ? fmt.num(p.impr) : '—'}</div>
                       <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.paidImpr ? fmt.num(p.paidImpr) : '—'}</div>
                       <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500, color: '#2f7a3f' }}>{p.orgImpr ? fmt.num(p.orgImpr) : '—'}</div>
                       <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{total ? orgPct.toFixed(0) + '%' : '—'}</div>

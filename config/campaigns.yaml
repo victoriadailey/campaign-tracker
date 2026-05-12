@@ -108,25 +108,29 @@ campaigns:
         n: "Ep. 02"
         title: "Jon Patricof on Athletes Unlimited"
         date: "Feb 12"
-        match: ["Patricof", "Athletes Unlimited"]
+        # Cutdowns reference Patricof's businesses via @ handles + tags rather than his name
+        match: ["Patricof", "Athletes Unlimited", "@AUProSports", "@theAUSLofficial", "AUSL", "Pro Softball"]
         exclude: []
       - id: ep3
         n: "Ep. 03"
         title: "Leslie Osborne on Women's Soccer"
         date: "Feb 27"
-        match: ["Osborne"]
+        # NWSL / Women's Soccer / Michele Kang cutdowns are part of this episode
+        match: ["Osborne", "NWSL", "#nwsl", "Women's Soccer", "Female Messi", "Michele Kang"]
         exclude: []
       - id: ep4
         n: "Ep. 04"
         title: "Paul Rabil on PLL Ownership"
         date: "Mar 31"
-        match: ["Rabil", "Premier Lacrosse"]
+        # PLL Founder / Capital Is Flooding cutdowns are Rabil's content
+        match: ["Rabil", "Premier Lacrosse", "PLL", "Capital Is Flooding"]
         exclude: []
       - id: ep5
         n: "Ep. 05"
         title: "Assia Grazioli-Venier on Women's Sports Investment"
         date: "Apr 11"
-        match: ["Grazioli", "Muse Capital", "Assia"]
+        # AI officiating + sports investment bubble cutdowns
+        match: ["Grazioli", "Muse Capital", "Muse Sport", "Assia", "AI officiating", "investment bubble"]
         exclude: []
       - id: ep6
         n: "Ep. 06"
