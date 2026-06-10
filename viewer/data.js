@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-10T17:18:38Z";
+window.LAST_REFRESHED = "2026-06-10T18:00:06Z";
 
 
 
@@ -12943,6 +12943,94 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://x.com/FOS/status/1999199883388129714",
       "postedAt": null
+    }
+  ]
+};
+
+window.UPLOAD_TARGETS = {
+  "adp": [
+    {
+      "file": "adp_cutdown_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "adp_full_episode_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "adp_cutdown_x_ads.csv",
+      "label": "X Ads"
+    },
+    {
+      "file": "adp_full_episode_x_ads.csv",
+      "label": "X Ads"
+    }
+  ],
+  "etrade": [
+    {
+      "file": "portfolio_players_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "portfolio_players_x_ads.csv",
+      "label": "X Ads"
+    }
+  ],
+  "spectrum": [
+    {
+      "file": "spectrum_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "spectrum_x_ads.csv",
+      "label": "X Ads"
+    }
+  ],
+  "etrade_brandx": [],
+  "mm": [
+    {
+      "file": "morgan_morgan_yt_paid.csv",
+      "label": "Google Ads"
+    }
+  ],
+  "onlocation": [
+    {
+      "file": "onlocation_fifa_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "onlocation_fifa_x_ads.csv",
+      "label": "X Ads"
+    },
+    {
+      "file": "onlocation_fifa_meta_ads.csv",
+      "label": "Meta Ads"
+    },
+    {
+      "file": "onlocation_fifa_linkedin_ads.csv",
+      "label": "LinkedIn Ads"
+    }
+  ],
+  "heineken": [
+    {
+      "file": "heineken_yt_paid.csv",
+      "label": "Google Ads"
+    }
+  ],
+  "rbc_tst": [
+    {
+      "file": "rbc_tst_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "rbc_tst_x_ads.csv",
+      "label": "X Ads"
+    }
+  ],
+  "thrivent": [
+    {
+      "file": "thrivent_x_ads.csv",
+      "label": "X Ads"
     }
   ]
 };
