@@ -335,6 +335,31 @@ def main() -> int:
         if Platform.FACEBOOK in platforms_added:
             posts_by_campaign[c_id] = _merge_facebook_organic_paid_pairs(posts_by_campaign[c_id])
 
+    # ---------- Campaign-level exclude ----------
+    # Drop posts matching a campaign's `exclude` keyword list from the campaign
+    # entirely — totals, per-post table, and episode rollups alike. Used to keep
+    # stray campaigns out (e.g. Spectrum's X "Branded article Promo"). Applied
+    # after all sources, merges, and cross-group pins are assembled, and matches
+    # against post title + native id (case-insensitive substring).
+    for c in cfg["campaigns"]:
+        _ex = [str(x).strip().lower() for x in (c.get("exclude") or []) if str(x).strip()]
+        if not _ex:
+            continue
+        _cid = c["id"]
+        _before = posts_by_campaign.get(_cid, [])
+        _kept = [
+            p for p in _before
+            if not any(
+                k in f"{getattr(p, 'post_title', None) or ''} {getattr(p, 'post_id_native', None) or ''}".lower()
+                for k in _ex
+            )
+        ]
+        if len(_kept) != len(_before):
+            posts_by_campaign[_cid] = _kept
+            parse_warnings.append(
+                f"[{_cid}] excluded {len(_before) - len(_kept)} post(s) via campaign exclude {c.get('exclude')}"
+            )
+
     # ---------- Campaign rollups (with sample fallback for empty campaigns) ----------
     campaigns: list[CampaignSummary] = []
     for c in cfg["campaigns"]:

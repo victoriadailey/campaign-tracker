@@ -360,6 +360,12 @@ campaigns:
     paid_only_post_ids:
       - "1481331077339811"   # FB 5/29 — "Go behind the scenes with the Vintage Flying Museum… Spectrum Business powers…"
       - "1479528744186711"   # FB 5/27 — "From the hangar to race day, see how Spectrum Business helps keep the Vintage Flying Museum…"
+    # Drop the stray X "Branded article Promo" campaign entirely — it was tied to
+    # a (since-removed) component by mistake and isn't part of Spectrum's report.
+    # Campaign-level exclude survives X Ads re-uploads (lives in config, applied
+    # every refresh).
+    exclude:
+      - "Branded article"
     sources:
       measure_studio_group_id: 7172         # Spectrum
       youtube_paid:                         # supplements MS's YT in-feed gap
@@ -398,24 +404,6 @@ campaigns:
         exclude: []
         impression_goal: 4_500_000
         budget_goal: 12_125
-      - id: branded_article
-        n: "Part 03"
-        title: "Branded Article Promotion"
-        date: "Jun 2026"
-        # Bucket holds the X Branded Article promo (keyword-matched from
-        # the X Ads campaign name). MS-side organic posts about the article
-        # were removed from the Spectrum MS group, so the manual_posts pins
-        # we used previously (FB {{product.name}} placeholder + LinkedIn
-        # share) are now inert — left out to keep the YAML clean.
-        # The GAds Demand Gen row was also removed from spectrum_yt_paid.csv
-        # since it's not a true YT video placement (Demand Gen format).
-        match: ["Branded Article", "Branded article", "Branded article Promo"]
-        exclude: []
-        # Goals TBD — share of the overall Spectrum budget hasn't been split
-        # out yet. Goal cells render as "—" in the per-bucket comparison
-        # until set.
-        impression_goal: 0
-        budget_goal: 0
 
   # ============== BrandX campaigns (paid-social performance) ==============
   # BrandX = paid-only, dark social campaigns optimized for clicks +
