@@ -1,6 +1,6 @@
 // Netlify Function: trigger the dashboard refresh GitHub Action immediately
 // (workflow_dispatch event). Used by the "Refresh now" button in the
-// dashboard header so the team doesn't have to wait for the next 15-min cron.
+// dashboard header so the team doesn't have to wait for the next 2-hourly cron.
 //
 // Required env vars:
 //   GITHUB_TOKEN     — same fine-grained PAT as upload-csv (needs `Actions: Read & write`)

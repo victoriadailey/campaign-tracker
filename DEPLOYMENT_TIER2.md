@@ -1,18 +1,20 @@
 # Pulse — Tier 2 deployment guide
 
 How to take the dashboard from "Victoria runs refresh.sh locally" to a live,
-team-accessible site with self-serve CSV uploads and a 15-minute MS data
+team-accessible site with self-serve CSV uploads and a 2-hourly MS data
 refresh cycle.
 
 End-to-end round trip after a CSV upload: **~2 minutes**.
-Background MS API refresh: **every 15 minutes**.
+Background MS API refresh: **every 2 hours** (keeps the repo under GitHub's
+2,000-min/month free Actions cap for private repos; on-demand triggers are
+unaffected).
 
 ---
 
 ## Architecture (one paragraph)
 
 The React dashboard is a static site on Netlify. A GitHub Action runs every
-15 min, calls the Measure Studio API, regenerates `viewer/data.js` +
+2 hours, calls the Measure Studio API, regenerates `viewer/data.js` +
 `viewer/Pulse_Dashboard_Standalone.html`, and commits them back to the repo.
 Netlify auto-deploys on commit. For CSV uploads, a Netlify Function
 (`netlify/functions/upload-csv.js`) accepts a file from the dashboard form,
@@ -103,7 +105,7 @@ again on the next attempt.
 
 ### Forcing an immediate refresh
 Sidebar footer → click **Refresh now**. Useful when they know MS just got
-fresh data and don't want to wait up to 15 min for the next cron run.
+fresh data and don't want to wait up to 2 hours for the next cron run.
 
 The "Last refresh" timestamp in the sidebar footer shows when the dashboard
 data was last regenerated (UTC).
@@ -116,7 +118,7 @@ data was last regenerated (UTC).
 - Check Actions tab → look for a red run
 - Most common cause: MS API returned a 5xx that didn't recover within 4
   retries. The workflow exits non-zero and skips the commit, so the
-  dashboard keeps the last-good data. Next 15-min run will retry.
+  dashboard keeps the last-good data. Next 2-hourly run will retry.
 
 ### Upload returns "Wrong password"
 - Password mismatch. Refresh the page, try again. The function clears the
@@ -139,7 +141,7 @@ data was last regenerated (UTC).
 
 - `netlify/functions/upload-csv.js` — accepts dashboard uploads, commits to repo
 - `netlify/functions/refresh-now.js` — triggers workflow_dispatch
-- `.github/workflows/refresh.yml` — 15-min cron + dispatch + on-push refresh
+- `.github/workflows/refresh.yml` — 2-hourly cron + dispatch + on-push refresh
 - `netlify.toml` — Netlify build + function config
 - `requirements.txt` — Python deps for the CI workflow
 - `viewer/inputs.jsx` — `SubmitQueueRow` + real file-content upload logic

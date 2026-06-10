@@ -104,7 +104,7 @@ function Sidebar({ active, onNav, campaigns }) {
 
       {/* Sidebar footer — last-refreshed timestamp + manual trigger.
           Anyone on the team can click Refresh now without bothering the
-          operator; it just triggers the GitHub Action that the 15-min cron
+          operator; it just triggers the GitHub Action that the 2-hourly cron
           would have run anyway. */}
       <RefreshFooter/>
 

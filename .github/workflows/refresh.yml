@@ -1,7 +1,7 @@
 name: Refresh Pulse dashboard
 
 # Three trigger modes:
-#   1. Every 15 minutes  — keeps MS API data current without anyone clicking
+#   1. Every 2 hours     — keeps MS API data current without anyone clicking
 #   2. workflow_dispatch — fired by the "Refresh now" button on the dashboard
 #                          (via netlify/functions/refresh-now.js)
 #   3. push to tests/fixtures/ — fires automatically right after a CSV upload
@@ -12,7 +12,7 @@ name: Refresh Pulse dashboard
 
 on:
   schedule:
-    - cron: '*/15 * * * *'      # every 15 min (GitHub min granularity, free)
+    - cron: '0 */2 * * *'       # every 2 hours (~720 min/mo, under the 2,000 free private-repo cap)
   workflow_dispatch:             # "Refresh now" button
   push:
     paths:
