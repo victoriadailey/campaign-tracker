@@ -282,6 +282,11 @@ def main() -> int:
         # Platform hints by native-ID shape — speeds up the per-account scan.
         import re as _re
         def _platform_hint(pid: str) -> Platform | None:
+            # LinkedIn URNs are the one id the MS query index doesn't match
+            # (they resolve via URL, not platform_id), so they hit the account
+            # scan — hint LinkedIn so that scan stays narrow.
+            if pid.startswith("urn:li:"):
+                return Platform.LINKEDIN
             # YT video IDs are 11 chars of [A-Za-z0-9_-].
             if _re.fullmatch(r"[A-Za-z0-9_-]{11}", pid):
                 return Platform.YOUTUBE

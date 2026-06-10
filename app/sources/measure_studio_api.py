@@ -286,24 +286,43 @@ class MeasureStudioClient:
         self,
         native_id: str,
         platform_hint: Platform | None = None,
+        lookback_days: int = 365,
     ) -> NormalizedPost | None:
-        """Cross-account lookup for a post that may not be in any group.
+        """Resolve a single post by its platform-native id (tweet id, YT video
+        id, IG shortcode, LinkedIn URN, …).
 
         Used by manual_posts pins where the operator wants to attach a post
         from a different MS group (e.g. a FOS-main YT Short being promoted by
         a partner campaign whose MS group only tracks IG/FB).
 
-        Caches the per-account post list for the lifetime of the client so a
-        second lookup doesn't refetch. With a platform_hint (e.g. YOUTUBE),
-        only that platform's accounts get scanned — much faster than scanning
-        everything.
+        Fast path: MS indexes `platform_id`, so `/posts?query=<id>` returns the
+        post in one sub-second request. Fallback (e.g. LinkedIn URNs, which
+        match via URL not platform_id): scan the relevant accounts — windowed to
+        `lookback_days` and cached so many pins share one scan per account. The
+        original implementation scanned every account's ENTIRE lifetime history
+        per pin, so 19 pins took ~18 min and blew the CI refresh budget.
         """
         account_names = self._account_uid_to_name()
-        cache = getattr(self, "_xacct_post_cache", None)
-        if cache is None:
-            cache = {}
-            self._xacct_post_cache = cache
 
+        # ---- fast path: direct text query (MS indexes platform_id) ----
+        # Resolves the vast majority of pins (YT / X / FB / IG / …) in one
+        # sub-second request. We still require an exact native-id match so a
+        # fuzzy content hit can't return the wrong post.
+        try:
+            page = self._get("/posts", query=native_id, period=DEFAULT_PERIOD,
+                             max_results=PAGE_SIZE)
+            posts = page.get("posts", []) if isinstance(page, dict) else (page or [])
+            for raw in posts:
+                if _native_post_id(raw) == native_id:
+                    try:
+                        return _to_normalized_post(raw, account_names=account_names)
+                    except Exception:  # noqa: BLE001
+                        logger.exception("Failed to normalise queried post %s", native_id)
+                        return None
+        except Exception:  # noqa: BLE001
+            logger.exception("MS query lookup failed for %s; falling back to scan", native_id)
+
+        # ---- fallback: windowed, cached account scan ----
         # Decide which accounts to scan. With a hint we filter to that
         # platform only; without it we scan every account that's authorised.
         try:
@@ -316,17 +335,47 @@ class MeasureStudioClient:
             wanted_types = {k for k, v in _PLATFORM_FROM_MS.items() if v is platform_hint}
             accounts = [a for a in accounts if (a.get("account_type") or "").lower() in wanted_types]
 
+        # Bound how far back we paginate so a missing or old pin can't trigger a
+        # full lifetime-history scan of every account.
+        published_after = None
+        if lookback_days:
+            from datetime import datetime, timedelta, timezone
+            published_after = (
+                datetime.now(timezone.utc) - timedelta(days=lookback_days)
+            ).strftime("%Y-%m-%d")
+
+        # Per-account cache (keyed by account + window) so resolving many pins
+        # in one run scans each account at most once, instead of re-paginating
+        # it per pin. Persists for the client's lifetime.
+        cache = getattr(self, "_xacct_post_cache", None)
+        if cache is None:
+            cache = {}
+            self._xacct_post_cache = cache
+
+        # Pre-warm: fetch (windowed) and cache every candidate account up front,
+        # THEN search. Returning on the first match would leave later accounts
+        # unscanned, so the next pin whose post lives in a later account would
+        # rescan from scratch — that's what made resolving 19 pins take ~18 min.
+        # Pre-warming makes the first lookup pay for each account once and every
+        # later pin an O(1) cache hit.
+        ckeys: list[tuple] = []
         for acct in accounts:
             acct_id = acct.get("id")
             if acct_id is None:
                 continue
-            if acct_id not in cache:
+            ckey = (acct_id, published_after)
+            ckeys.append(ckey)
+            if ckey not in cache:
                 try:
-                    cache[acct_id] = list(self.search_posts(account_ids=[acct_id]))
+                    cache[ckey] = list(
+                        self.search_posts(account_ids=[acct_id], published_after=published_after)
+                    )
                 except Exception:  # noqa: BLE001
                     logger.exception("Cross-account fetch failed for MS account %s", acct_id)
-                    cache[acct_id] = []
-            for raw in cache[acct_id]:
+                    cache[ckey] = []
+
+        for ckey in ckeys:
+            for raw in cache[ckey]:
                 # Match against the native ID used in NormalizedPost — must
                 # mirror _native_post_id's logic since pinned IDs are written
                 # against that representation.
