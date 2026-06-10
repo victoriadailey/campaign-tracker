@@ -66,11 +66,20 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
 
     rows: list[NormalizedPost] = []
     derived_count = 0  # count rows where we had to derive impressions
+    skipped_demand_gen: list[str] = []
     for raw in df.to_dict("records"):
         campaign_name = (raw.get("Campaign") or "").strip()
         # Skip empty rows, the "Total" footer row, and the " --" placeholder Google
         # Ads inserts for portfolio-budget summary lines.
         if not campaign_name or campaign_name.lower() == "total" or campaign_name == "--":
+            continue
+
+        # Demand Gen is not a YouTube/video placement and must NOT be counted in
+        # these social/video campaign dashboards. Exclude it and flag it so the
+        # operator knows it was dropped (rather than silently counted as video).
+        campaign_type = (raw.get("Campaign type") or "").strip()
+        if campaign_type.lower().replace(" ", "") == "demandgen":
+            skipped_demand_gen.append(campaign_name)
             continue
 
         views_paid = _to_int(raw.get("TrueView views") or raw.get("YouTube public views"))
@@ -121,6 +130,13 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
         rows.append(post)
 
     warnings: list[str] = []
+    if skipped_demand_gen:
+        warnings.append(
+            "⚠ Excluded {n} Demand Gen campaign(s) — Demand Gen is not a "
+            "video/social post and is not counted in this campaign: {names}".format(
+                n=len(skipped_demand_gen), names=", ".join(skipped_demand_gen)
+            )
+        )
     if derived_count > 0:
         warnings.append(
             f"Google Ads export missing 'Impressions' column — derived from "

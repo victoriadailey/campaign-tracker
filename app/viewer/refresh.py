@@ -1760,8 +1760,8 @@ def _build_data_archive(cfg: dict, exports_root: Path, posts_by_campaign: dict,
     )
     SOURCE_LABEL = {
         "measure_studio":      "Measure Studio",
-        "google_ads_campaign": "Google Ads",
-        "youtube_paid":        "Google Ads",
+        "google_ads_campaign": "Google Ads (YT Paid)",
+        "youtube_paid":        "Google Ads (YT Paid)",
         "x_ads":               "X Ads",
         "meta_ads":            "Meta Ads",
         "tiktok_ads":          "TikTok Ads",
