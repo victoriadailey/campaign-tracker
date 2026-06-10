@@ -4,8 +4,15 @@ const { useState: useStateC } = React;
 
 function CampaignPage({ campaignId, onBack }) {
   const c = CAMPAIGNS.find(x => x.id === campaignId) || CAMPAIGNS[0];
-  const impPct = (c.impressions.delivered / c.impressions.goal) * 100;
-  const budPct = (c.budget.delivered / c.budget.goal) * 100;
+  // BrandX campaigns (paid-social performance) get a totally different page
+  // treatment — different KPIs, different table columns, no episode rollup.
+  if (c.type === 'brandx') return <BrandXCampaignPage c={c} onBack={onBack}/>;
+  // Flight-TBD campaigns: goals haven't been set yet, so impPct / budPct
+  // would divide by zero. Guard against it so they render as "TBD" later
+  // without breaking downstream math.
+  const flightTbd = c.flight === 'TBD' || (c.impressions.goal === 0 && c.budget.goal === 0);
+  const impPct = c.impressions.goal > 0 ? (c.impressions.delivered / c.impressions.goal) * 100 : 0;
+  const budPct = c.budget.goal > 0 ? (c.budget.delivered / c.budget.goal) * 100 : 0;
   const elapsedPct = c.elapsedPct;
 
   // Pacing health: are delivery + budget tracking with time elapsed?
@@ -69,16 +76,24 @@ function CampaignPage({ campaignId, onBack }) {
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
               <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.flight}</span>
             </div>
-            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Episodes</span>
-              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.episodes} live</span>
-            </div>
+            {/* Episode count is only meaningful for content campaigns — social
+                campaigns are post-based and the "episodes" field there is just
+                a count of content components, which doesn't read naturally. */}
+            {c.type !== 'social' && (
+              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+                <span style={{color:'var(--ink-3)', fontWeight:500}}>Episodes</span>
+                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.episodes} live</span>
+              </div>
+            )}
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Format</span>
               <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.leadFormat}</span>
             </div>
           </div>
-          <button className="btn btn-acc" style={{marginLeft:12}}><Ic.download/> Export</button>
+          <div style={{display:'flex', flexDirection:'column', gap:8, marginLeft:12}}>
+            <button className="btn btn-acc"><Ic.download/> Export</button>
+            <WrapCampaignButton campaign={c}/>
+          </div>
         </>}
       />
 
@@ -110,23 +125,33 @@ function CampaignPage({ campaignId, onBack }) {
           <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Impression delivery</div>
           <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
             <span style={{fontFamily:'var(--serif)', fontSize:48, lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{fmt.num(c.impressions.delivered)}</span>
-            <span style={{fontSize:14, opacity:0.7}}>of {fmt.num(c.impressions.goal)}</span>
+            <span style={{fontSize:14, opacity:0.7}}>{c.impressions.goal > 0 ? `of ${fmt.num(c.impressions.goal)}` : 'goal TBD'}</span>
           </div>
           <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
             <div style={{height:'100%', width: Math.min(100,impPct)+'%', background: cardTone.fill, borderRadius:999}}/>
           </div>
-          <div style={{fontSize:12, opacity:0.7}}>{impPct.toFixed(1)}% delivered · {elapsedPct.toFixed(0)}% time elapsed</div>
+          <div style={{fontSize:12, opacity:0.7}}>
+            {c.impressions.goal > 0
+              ? `${impPct.toFixed(1)}% delivered · ${elapsedPct.toFixed(0)}% time elapsed`
+              : flightTbd ? 'Pacing pending — flight & goal TBD' : 'No impression goal set'}
+          </div>
         </div>
         <div>
           <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Budget</div>
           <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
             <span style={{fontFamily:'var(--serif)', fontSize:48, lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{fmt.money(c.budget.delivered)}</span>
-            <span style={{fontSize:14, opacity:0.7}}>of {fmt.money(c.budget.goal)}</span>
+            <span style={{fontSize:14, opacity:0.7}}>{c.budget.goal > 0 ? `of ${fmt.money(c.budget.goal)}` : 'budget TBD'}</span>
           </div>
           <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
             <div style={{height:'100%', width: Math.min(100,budPct)+'%', background: cardTone.fill, borderRadius:999}}/>
           </div>
-          <div style={{fontSize:12, opacity:0.7}}>{budPct.toFixed(1)}% spent · {fmt.money(c.budget.goal - c.budget.delivered)} remaining</div>
+          <div style={{fontSize:12, opacity:0.7}}>
+            {c.budget.goal > 0
+              ? `${budPct.toFixed(1)}% spent · ${fmt.money(c.budget.goal - c.budget.delivered)} remaining`
+              : c.budget.delivered > 0
+                ? `${fmt.money(c.budget.delivered)} delivered · budget cap pending`
+                : flightTbd ? 'Awaiting budget confirmation' : 'No budget set'}
+          </div>
         </div>
       </div>
 
@@ -171,28 +196,31 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
       </div>
 
-      {/* KPI ROW */}
-      <div className="kpi-row">
+      {/* KPI ROW — 5 tiles on one row.
+          Avg CPM was dropped (it's still surfaced per-channel in the By Channel
+          section). Number sizing scales with viewport but caps lower so long
+          full-integer values like "15,279,181" stay readable. */}
+      <div className="kpi-row" style={{gridTemplateColumns:'repeat(5, minmax(0, 1fr))'}}>
         <div className="kpi">
           <div className="kpi-lbl">Total Impressions</div>
-          <div className="kpi-val">{fmt.num(c.impressions.delivered)}</div>
+          <div className="kpi-val" style={{fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1}}>{fmt.numFull(c.impressions.delivered)}</div>
           <div className="kpi-foot"><span className="muted">{impPct.toFixed(1)}% to goal</span></div>
         </div>
         <div className="kpi">
+          <div className="kpi-lbl">Total Views</div>
+          <div className="kpi-val" style={{fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1}}>{fmt.numFull(c.views || 0)}</div>
+        </div>
+        <div className="kpi">
           <div className="kpi-lbl">Engagements</div>
-          <div className="kpi-val">{fmt.num(Math.round(c.impressions.delivered * c.er / 100))}</div>
+          <div className="kpi-val" style={{fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1}}>{fmt.numFull(Math.round(c.impressions.delivered * c.er / 100))}</div>
         </div>
         <div className="kpi">
           <div className="kpi-lbl">Engagement Rate</div>
-          <div className="kpi-val">{c.er}<span className="unit">%</span></div>
-        </div>
-        <div className="kpi">
-          <div className="kpi-lbl">Avg CPM</div>
-          <div className="kpi-val">${c.cpm}</div>
+          <div className="kpi-val" style={{fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1}}>{c.er}<span className="unit">%</span></div>
         </div>
         <div className="kpi">
           <div className="kpi-lbl">{c.type === 'social' ? 'Posts' : 'Episodes / Posts'}</div>
-          <div className="kpi-val">
+          <div className="kpi-val" style={{fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1}}>
             {c.type === 'social'
               ? c.posts
               : <>{c.episodes}<span className="unit" style={{margin:'0 6px', color:'var(--ink-3)'}}>/</span>{c.posts}</>}
@@ -201,7 +229,358 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
       </div>
 
-      {/* CHANNELS */}
+      {/* PULSE CHECK — was "What we're seeing", moved up per request.
+          Always renders on active campaigns so the section has a stable home
+          even when no callouts have fired yet. */}
+      {(c.lifecycle || 'active') === 'active' && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">Pulse <em>check</em></div>
+            <div className="sec-sub" style={{marginTop:6}}>Auto-flagged based on this campaign's recent activity.</div>
+          </div>
+        </div>
+        {(c.callouts && c.callouts.length > 0) ? (
+          <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(c.callouts.length, 3)}, minmax(0, 1fr))`, gap:14}}>
+            {c.callouts.map((co, i) => {
+              const tone = co.kind === 'pos' ? { bar: 'var(--pear)', tag: '#2f7a3f' } :
+                co.kind === 'warn' ? { bar: 'var(--orange)', tag: '#b8392b' } :
+                { bar: 'var(--sky)', tag: 'var(--ink)' };
+              return (
+                <div key={i} style={{
+                  background:'var(--surface)', border:'1px solid var(--line)', borderRadius:'var(--r-lg)',
+                  padding: 22, position:'relative', overflow:'hidden',
+                  display:'flex', flexDirection:'column', gap:10
+                }}>
+                  <div style={{position:'absolute', left:0, top:0, bottom:0, width:4, background: tone.bar}}/>
+                  <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                    <span style={{
+                      fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em',
+                      fontWeight:600, color: tone.tag,
+                      padding:'3px 8px', background: tone.bar+'33', borderRadius: 4
+                    }}>{co.tag}</span>
+                    <span style={{fontSize:10, color:'var(--ink-3)', fontFamily:'var(--mono)', letterSpacing:'0.06em'}}>{co.meta}</span>
+                  </div>
+                  <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{co.headline}</div>
+                  <div style={{fontSize:13, lineHeight:1.5, color:'var(--ink-2)'}}>{co.body}</div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="card" style={{padding:'22px', textAlign:'center', fontSize:13, color:'var(--ink-3)'}}>
+            No flags yet — this campaign is performing in line with benchmarks.
+          </div>
+        )}
+      </div>
+      )}
+
+      {/* FULL EPISODES vs CUTDOWNS — only renders when YAML defines
+          goal_split_full_ep + goal_split_cutdowns for the campaign. Two
+          side-by-side cards with separate impression + budget goals so
+          partners can see how each tier is tracking. */}
+      {c.goalSplit && c.goalSplit.length === 2 && (
+        <div className="sec">
+          <div className="sec-h">
+            <div>
+              <div className="sec-title">Full episodes <em>vs</em> cutdowns</div>
+              <div className="sec-sub" style={{marginTop:6}}>Separate impression and budget targets for the long-form content and the cutdown rollout.</div>
+            </div>
+          </div>
+          <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:14}}>
+            {c.goalSplit.map((tier) => {
+              const impPct = tier.impressions.goal ? (tier.impressions.delivered / tier.impressions.goal) * 100 : 0;
+              const budPct = tier.budget.goal ? (tier.budget.delivered / tier.budget.goal) * 100 : 0;
+              return (
+                <div key={tier.label} className="card" style={{padding:22}}>
+                  <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--ink-3)', fontWeight:600, marginBottom:8}}>
+                    {tier.label} · <span style={{color:'var(--ink-2)'}}>{tier.posts} {tier.posts === 1 ? 'post' : 'posts'}</span>
+                  </div>
+                  <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:18}}>
+                    <div>
+                      <div style={{fontSize:10, color:'var(--ink-3)', letterSpacing:'0.08em', textTransform:'uppercase', fontWeight:600, marginBottom:6}}>Impressions</div>
+                      <div style={{display:'flex', alignItems:'baseline', gap:6, marginBottom:8}}>
+                        <span style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300}}>{fmt.numFull(tier.impressions.delivered)}</span>
+                      </div>
+                      <div style={{height:5, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden', marginBottom:5}}>
+                        <div style={{height:'100%', width: Math.min(100, impPct) + '%', background: cardTone.bg === 'var(--liquorice)' ? 'var(--ink)' : cardTone.bg}}/>
+                      </div>
+                      <div style={{fontSize:11, color:'var(--ink-3)'}}>{impPct.toFixed(1)}% of {fmt.numFull(tier.impressions.goal)} goal</div>
+                    </div>
+                    <div>
+                      <div style={{fontSize:10, color:'var(--ink-3)', letterSpacing:'0.08em', textTransform:'uppercase', fontWeight:600, marginBottom:6}}>Spend</div>
+                      <div style={{display:'flex', alignItems:'baseline', gap:6, marginBottom:8}}>
+                        <span style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300}}>{fmt.moneyFull(tier.budget.delivered)}</span>
+                      </div>
+                      <div style={{height:5, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden', marginBottom:5}}>
+                        <div style={{height:'100%', width: Math.min(100, budPct) + '%', background:'var(--pear)'}}/>
+                      </div>
+                      <div style={{fontSize:11, color:'var(--ink-3)'}}>{budPct.toFixed(1)}% of {fmt.moneyFull(tier.budget.goal)} budget</div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* PER-EPISODE PERFORMANCE — content campaigns only. Each episode row is
+          clickable and expands to show every individual POST in that episode
+          (not aggregated per platform — the By Channel section already does that). */}
+      {c.type !== 'social' && EPISODES.length > 0 && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">Per-episode <em>performance</em></div>
+            <div className="sec-sub" style={{marginTop:6}}>Click any episode row to expand the post-by-post breakdown — every individual post on every platform, with distribution, paid vs organic split, spend, and ER.</div>
+          </div>
+        </div>
+        <EpisodePerformanceTable episodes={EPISODES} channels={channels}/>
+      </div>
+      )}
+
+      {/* POST-LEVEL PERFORMANCE — social campaigns only. Flat table of every
+          post in the campaign (no episode wrapper). */}
+      {c.type === 'social' && (() => {
+        const rows = (window.POSTS_BY_CAMPAIGN || {})[campaignId] || [];
+        if (!rows.length) return null;
+        const distLabel = (k) =>
+          k === 'organic' ? { txt: 'Organic only', bg: 'rgba(143,199,102,0.18)', fg: '#2f7a3f' } :
+          k === 'paid'    ? { txt: 'Paid only',    bg: 'rgba(36,28,23,0.10)',    fg: 'var(--liquorice)' } :
+                            { txt: 'Organic + Boosted', bg: 'rgba(92,181,242,0.20)', fg: '#0a4f7a' };
+        const chColor = (name) => (channels.find(c => c.name === name) || {}).color || '#666';
+        return (
+          <div className="sec">
+            <div className="sec-h">
+              <div>
+                <div className="sec-title">Post-level <em>performance</em></div>
+                <div className="sec-sub" style={{marginTop:6}}>Every post in this campaign, broken out individually. Distribution, paid vs organic split, spend, and ER per row.</div>
+              </div>
+            </div>
+            <PerPostTable rows={rows} distLabel={distLabel} chColor={chColor}/>
+          </div>
+        );
+      })()}
+
+      {/* EPISODE / COMPONENT COMPARISON CARDS — hidden for single-component
+          campaigns since the side-by-side cards collapse to just one and
+          duplicate what the per-episode performance section already shows.
+          For social campaigns these are framed as "components" (e.g. RBC's
+          Heather/DITL/Panel buckets, Heineken's Editorial/Red Card pieces,
+          Spectrum's NASCAR/World Cup/Branded Article parts) rather than
+          episodes — they're parallel pieces of one campaign, not a series. */}
+      {EPISODES.length > 1 && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">
+              {c.type === 'social' ? <>Component <em>comparison</em></> : <>Episode <em>comparison</em></>}
+            </div>
+            <div className="sec-sub" style={{marginTop:6}}>
+              {c.type === 'social'
+                ? `Side-by-side across the ${EPISODES.length} components of this campaign.`
+                : "What worked, what didn't — episode by episode."}
+            </div>
+          </div>
+        </div>
+        <div style={{
+          display:'grid',
+          gridTemplateColumns: c.type === 'social'
+            // Social campaigns can have up to 3 components shown side-by-side
+            // (RBC TST = 3 buckets, Heineken = 2 videos, Spectrum = 3 parts).
+            // Anything beyond 3 wraps to a second row at 3 cols wide.
+            ? `repeat(${Math.min(EPISODES.length, 3)}, minmax(0, 1fr))`
+            : 'repeat(3, minmax(0, 1fr))',
+          gap:14
+        }}>
+          {EPISODES.map((e, idx) => {
+            const tones = ['ft-3', 'ft-4', 'ft-2'];
+            const bgs = { 'ft-3': 'var(--sky)', 'ft-4': 'var(--pear)', 'ft-2': 'var(--blossom)' };
+            return (
+              <div key={e.n} style={{
+                background: 'var(--surface)', border: '1px solid var(--line)',
+                borderRadius: 'var(--r-lg)', padding: 18, display:'flex', flexDirection:'column', gap: 12,
+                minWidth: 0, overflow: 'hidden'
+              }}>
+                <div>
+                  <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 10}}>
+                    <span style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, color:'var(--ink-3)'}}>{e.n}</span>
+                    <span style={{
+                      background: bgs[tones[idx % tones.length]], padding:'3px 10px', borderRadius: 999,
+                      fontSize:11, fontWeight:600, color:'var(--liquorice)'
+                    }}>{e.date}</span>
+                  </div>
+                  <div style={{fontFamily:'var(--serif)', fontSize:20, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{e.title}</div>
+                </div>
+                <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr 1fr', gap:8, paddingTop:12, borderTop:'1px solid var(--line)'}}>
+                  <div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, color:'var(--ink)'}}>{fmt.num(e.total.impr)}</div>
+                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>Impr.</div>
+                  </div>
+                  <div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, color:'var(--ink)'}}>{fmt.num(e.total.views || 0)}</div>
+                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>Views</div>
+                  </div>
+                  <div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, color:'var(--ink)'}}>{e.total.er}<span style={{fontSize:12, color:'var(--ink-3)'}}>%</span></div>
+                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>ER</div>
+                  </div>
+                  <div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, color:'var(--ink)'}}>{fmt.num(e.total.eng)}</div>
+                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>Eng.</div>
+                  </div>
+                </div>
+                <div style={{display:'flex', flexDirection:'column', gap:8}}>
+                  {e.callouts.map((co, i) => (
+                    <div key={i} style={{
+                      display:'flex', gap: 10, padding: '10px 12px',
+                      background: co.kind === 'pos' ? 'rgba(143,199,102,0.12)' : 'rgba(255,153,71,0.14)',
+                      borderRadius: 8, fontSize: 12, lineHeight: 1.45
+                    }}>
+                      <span style={{
+                        fontFamily:'var(--mono)', fontSize:10, fontWeight:600,
+                        color: co.kind === 'pos' ? '#2f7a3f' : '#b8392b',
+                        flexShrink: 0, marginTop: 1, letterSpacing: '0.04em'
+                      }}>{co.kind === 'pos' ? '↑ WIN' : '! WATCH'}</span>
+                      <span style={{color:'var(--ink-2)'}}>{co.text}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* TOP POSTS for this episode — hidden entirely when no post
+                    crosses the ER ≥ 2% threshold (no point showing weak ER as
+                    a "top post"). */}
+                {e.topPosts && e.topPosts.length > 0 && (
+                <div style={{paddingTop:14, borderTop:'1px solid var(--line)'}}>
+                  <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.12em', fontWeight:600, color:'var(--ink-3)', marginBottom:10, textTransform:'uppercase'}}>
+                    Top posts · this episode
+                  </div>
+                  <div style={{display:'flex', flexDirection:'column', gap:8}}>
+                    {e.topPosts.map((p, i) => (
+                      <a key={i}
+                        href={p.url || '#'}
+                        target={p.url ? '_blank' : undefined}
+                        rel={p.url ? 'noreferrer' : undefined}
+                        style={{
+                        textDecoration:'none', color:'inherit',
+                        display:'flex', alignItems:'center', gap:8,
+                        padding:'8px 10px', borderRadius:6, minWidth:0,
+                        background:'var(--bg-soft)', border:'1px solid var(--line)',
+                        cursor: p.url ? 'pointer' : 'default'
+                      }}>
+                        <span style={{
+                          fontFamily:'var(--serif)', fontSize:16, fontWeight:300,
+                          color:'var(--ink)', minWidth:42, fontVariantNumeric:'tabular-nums', flexShrink:0
+                        }}>{p.er.toFixed(1)}<span style={{fontSize:10, color:'var(--ink-3)'}}>%</span></span>
+                        <span style={{flex:'1 1 0', minWidth:0, fontSize:11, color:'var(--ink-2)', lineHeight:1.3, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}}>"{p.quote}"</span>
+                        <span style={{flexShrink:0, color:'var(--ink-3)', display:'inline-flex'}}><Ic.ext/></span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      )}
+
+      {/* TOP POSTS — per-campaign. Hidden entirely when neither list has a
+          qualifier (no posts ≥2% ER OR no posts ≥100K organic reach), since
+          showing empty tiles with placeholder copy adds noise. The visible
+          column count adapts to whichever side has data. */}
+      {((c.topPosts && c.topPosts.length > 0) || (c.topPostsOrganic && c.topPostsOrganic.length > 0)) && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">Top <em>posts</em></div>
+            <div className="sec-sub" style={{marginTop:6}}>Best-performing assets on this campaign. Click any row to open.</div>
+          </div>
+        </div>
+        {(() => {
+          const showEr = c.topPosts && c.topPosts.length > 0;
+          const showOrg = c.topPostsOrganic && c.topPostsOrganic.length > 0;
+          const cols = (showEr && showOrg) ? '1fr 1fr' : '1fr';
+          return (
+        <div style={{display:'grid', gridTemplateColumns:cols, gap:14}}>
+          {/* By engagement rate — only when at least one qualifier exists */}
+          {showEr && (
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
+              <div className="card-title-serif" style={{fontSize:20}}>By <em>engagement rate</em></div>
+              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Min 1K views, ER ≥ 2% — ranked by ER%</div>
+            </div>
+            {c.topPosts.slice(0, 5).map((p, idx, arr) => (
+              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
+                style={{
+                  display:'grid', gridTemplateColumns:'28px 1fr 100px 70px 18px', gap:12,
+                  padding:'14px 22px', alignItems:'center',
+                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                  textDecoration:'none', color:'inherit', cursor:'pointer',
+                  transition:'background 0.15s'
+                }}
+                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
+                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
+                <div style={{fontFamily:'var(--mono)', fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.04em'}}>{String(p.rank || idx + 1).padStart(2,'0')}</div>
+                <div style={{minWidth:0}}>
+                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
+                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format}</div>
+                </div>
+                <div><PlatformPill name={p.platform}/></div>
+                <div style={{textAlign:'right'}}>
+                  <div style={{fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:15}}>{p.er.toFixed(2)}<span style={{fontSize:10, color:'var(--ink-3)'}}>%</span></div>
+                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>ER</div>
+                </div>
+                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
+              </a>
+            ))}
+          </div>
+          )}
+
+          {/* By organic reach — only when at least one qualifier exists */}
+          {showOrg && (
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
+              <div className="card-title-serif" style={{fontSize:20}}>By <em>organic reach</em></div>
+              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Min 100K organic — ranked by organic reach</div>
+            </div>
+            {c.topPostsOrganic.slice(0, 5).map((p, idx, arr) => (
+              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
+                style={{
+                  display:'grid', gridTemplateColumns:'28px 1fr 100px 90px 18px', gap:12,
+                  padding:'14px 22px', alignItems:'center',
+                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                  textDecoration:'none', color:'inherit', cursor:'pointer',
+                  transition:'background 0.15s'
+                }}
+                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
+                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
+                <div style={{fontFamily:'var(--mono)', fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.04em'}}>{String(p.rank || idx + 1).padStart(2,'0')}</div>
+                <div style={{minWidth:0}}>
+                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
+                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format} · {p.organicPct}% organic</div>
+                </div>
+                <div><PlatformPill name={p.platform}/></div>
+                <div style={{textAlign:'right'}}>
+                  <div style={{fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:15, color:'#2f7a3f'}}>{fmt.num(p.organicReach)}</div>
+                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>Organic</div>
+                </div>
+                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
+              </a>
+            ))}
+          </div>
+          )}
+        </div>
+          );
+        })()}
+      </div>
+      )}
+
+      {/* CHANNELS — moved to bottom per spec. Layout:
+            ≤4 channels  → single row (one per column)
+            ≥5 channels  → two rows, YT/IG family on top, others below */}
       <div className="sec">
         <div className="sec-h">
           <div>
@@ -211,27 +590,12 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
 
         {(() => {
-          // Two rows for readability:
-          //   Row 1: YouTube subtypes + Instagram (feed + stories)
-          //   Row 2: X / LinkedIn / TikTok / Facebook / everything else
           const ROW_1_ORDER = ['YouTube In-feed', 'YouTube Pre-roll', 'YouTube Shorts', 'Instagram', 'Instagram Stories'];
           const ROW_2_ORDER = ['X', 'LinkedIn', 'TikTok', 'Facebook'];
           const orderIndex = (arr, name) => {
             const i = arr.indexOf(name);
             return i === -1 ? 999 : i;
           };
-          const row1 = channels
-            .filter(c => ROW_1_ORDER.includes(c.name))
-            .sort((a, b) => orderIndex(ROW_1_ORDER, a.name) - orderIndex(ROW_1_ORDER, b.name));
-          const row2Set = new Set(ROW_1_ORDER);
-          const row2 = channels
-            .filter(c => !row2Set.has(c.name))
-            .sort((a, b) => {
-              const ai = orderIndex(ROW_2_ORDER, a.name);
-              const bi = orderIndex(ROW_2_ORDER, b.name);
-              if (ai !== bi) return ai - bi;
-              return b.impressions - a.impressions;  // fallback for anything not in either list
-            });
 
           const renderTile = (ch) => {
             const erDiff = ch.er - ch.bench.er;
@@ -277,6 +641,37 @@ function CampaignPage({ campaignId, onBack }) {
             );
           };
 
+          // ≤4 channels: render all on one row, sorted by ROW_1_ORDER then ROW_2_ORDER then impressions
+          if (channels.length <= 4) {
+            const ordered = [...channels].sort((a, b) => {
+              const ai = orderIndex(ROW_1_ORDER, a.name);
+              const bi = orderIndex(ROW_1_ORDER, b.name);
+              if (ai !== bi) return ai - bi;
+              const aj = orderIndex(ROW_2_ORDER, a.name);
+              const bj = orderIndex(ROW_2_ORDER, b.name);
+              if (aj !== bj) return aj - bj;
+              return b.impressions - a.impressions;
+            });
+            return (
+              <div style={{display:'grid', gridTemplateColumns:`repeat(${ordered.length}, minmax(0, 1fr))`, gap:10}}>
+                {ordered.map(renderTile)}
+              </div>
+            );
+          }
+
+          // ≥5 channels: split into two rows (YouTube/Instagram family on top, rest below)
+          const row1 = channels
+            .filter(c => ROW_1_ORDER.includes(c.name))
+            .sort((a, b) => orderIndex(ROW_1_ORDER, a.name) - orderIndex(ROW_1_ORDER, b.name));
+          const row2Set = new Set(ROW_1_ORDER);
+          const row2 = channels
+            .filter(c => !row2Set.has(c.name))
+            .sort((a, b) => {
+              const ai = orderIndex(ROW_2_ORDER, a.name);
+              const bi = orderIndex(ROW_2_ORDER, b.name);
+              if (ai !== bi) return ai - bi;
+              return b.impressions - a.impressions;
+            });
           return (
             <>
               {row1.length > 0 && (
@@ -293,240 +688,6 @@ function CampaignPage({ campaignId, onBack }) {
           );
         })()}
       </div>
-
-      {/* PER-EPISODE PERFORMANCE — collapsible rich table (CONTENT campaigns only) */}
-      {c.type !== 'social' && EPISODES.length > 0 && (
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div className="sec-title">Per-episode <em>performance</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Click any episode row to expand the full platform breakdown — distribution type, paid vs organic split, spend, and ER.</div>
-          </div>
-        </div>
-        <EpisodePerformanceTable episodes={EPISODES} channels={channels}/>
-      </div>
-      )}
-
-      {/* EPISODE / TENTPOLE COMPARISON CARDS */}
-      {EPISODES.length > 0 && (
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div className="sec-title">
-              {c.type === 'social' ? <>Tentpole <em>comparison</em></> : <>Episode <em>comparison</em></>}
-            </div>
-            <div className="sec-sub" style={{marginTop:6}}>
-              {c.type === 'social'
-                ? `What worked across the ${EPISODES.length} parts of this campaign.`
-                : "What worked, what didn't — episode by episode."}
-            </div>
-          </div>
-        </div>
-        <div style={{
-          display:'grid',
-          gridTemplateColumns: c.type === 'social'
-            ? `repeat(${Math.min(EPISODES.length, 2)}, minmax(0, 1fr))`
-            : 'repeat(3, minmax(0, 1fr))',
-          gap:14
-        }}>
-          {EPISODES.map((e, idx) => {
-            const tones = ['ft-3', 'ft-4', 'ft-2'];
-            const bgs = { 'ft-3': 'var(--sky)', 'ft-4': 'var(--pear)', 'ft-2': 'var(--blossom)' };
-            return (
-              <div key={e.n} style={{
-                background: 'var(--surface)', border: '1px solid var(--line)',
-                borderRadius: 'var(--r-lg)', padding: 18, display:'flex', flexDirection:'column', gap: 12,
-                minWidth: 0, overflow: 'hidden'
-              }}>
-                <div>
-                  <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 10}}>
-                    <span style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, color:'var(--ink-3)'}}>{e.n}</span>
-                    <span style={{
-                      background: bgs[tones[idx % tones.length]], padding:'3px 10px', borderRadius: 999,
-                      fontSize:11, fontWeight:600, color:'var(--liquorice)'
-                    }}>{e.date}</span>
-                  </div>
-                  <div style={{fontFamily:'var(--serif)', fontSize:20, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{e.title}</div>
-                </div>
-                <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8, paddingTop:12, borderTop:'1px solid var(--line)'}}>
-                  <div>
-                    <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300, color:'var(--ink)'}}>{fmt.num(e.total.impr)}</div>
-                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>Impr.</div>
-                  </div>
-                  <div>
-                    <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300, color:'var(--ink)'}}>{e.total.er}<span style={{fontSize:13, color:'var(--ink-3)'}}>%</span></div>
-                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>ER</div>
-                  </div>
-                  <div>
-                    <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300, color:'var(--ink)'}}>{fmt.num(e.total.eng)}</div>
-                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>Eng.</div>
-                  </div>
-                </div>
-                <div style={{display:'flex', flexDirection:'column', gap:8}}>
-                  {e.callouts.map((co, i) => (
-                    <div key={i} style={{
-                      display:'flex', gap: 10, padding: '10px 12px',
-                      background: co.kind === 'pos' ? 'rgba(143,199,102,0.12)' : 'rgba(255,153,71,0.14)',
-                      borderRadius: 8, fontSize: 12, lineHeight: 1.45
-                    }}>
-                      <span style={{
-                        fontFamily:'var(--mono)', fontSize:10, fontWeight:600,
-                        color: co.kind === 'pos' ? '#2f7a3f' : '#b8392b',
-                        flexShrink: 0, marginTop: 1, letterSpacing: '0.04em'
-                      }}>{co.kind === 'pos' ? '↑ WIN' : '! WATCH'}</span>
-                      <span style={{color:'var(--ink-2)'}}>{co.text}</span>
-                    </div>
-                  ))}
-                </div>
-
-                {/* TOP POSTS for this episode */}
-                <div style={{paddingTop:14, borderTop:'1px solid var(--line)'}}>
-                  <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.12em', fontWeight:600, color:'var(--ink-3)', marginBottom:10, textTransform:'uppercase'}}>
-                    Top posts · this episode
-                  </div>
-                  <div style={{display:'flex', flexDirection:'column', gap:8}}>
-                    {e.topPosts.map((p, i) => (
-                      <a key={i} href="#" style={{
-                        textDecoration:'none', color:'inherit',
-                        display:'flex', alignItems:'center', gap:8,
-                        padding:'8px 10px', borderRadius:6, minWidth:0,
-                        background:'var(--bg-soft)', border:'1px solid var(--line)'
-                      }}>
-                        <span style={{
-                          fontFamily:'var(--serif)', fontSize:16, fontWeight:300,
-                          color:'var(--ink)', minWidth:42, fontVariantNumeric:'tabular-nums', flexShrink:0
-                        }}>{p.er.toFixed(1)}<span style={{fontSize:10, color:'var(--ink-3)'}}>%</span></span>
-                        <span style={{flex:'1 1 0', minWidth:0, fontSize:11, color:'var(--ink-2)', lineHeight:1.3, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}}>"{p.quote}"</span>
-                        <span style={{flexShrink:0, color:'var(--ink-3)', display:'inline-flex'}}><Ic.ext/></span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-      )}
-
-      {/* TOP POSTS — per-campaign, two columns */}
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div className="sec-title">Top <em>posts</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Best-performing assets on this campaign. Click any row to open.</div>
-          </div>
-        </div>
-        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:14}}>
-          {/* By engagement rate */}
-          <div className="card" style={{padding:0, overflow:'hidden'}}>
-            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
-              <div className="card-title-serif" style={{fontSize:20}}>By <em>engagement rate</em></div>
-              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Min 1K views — ranked by ER%</div>
-            </div>
-            {(c.topPosts && c.topPosts.length > 0 ? c.topPosts.slice(0, 5) : []).map((p, idx, arr) => (
-              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
-                style={{
-                  display:'grid', gridTemplateColumns:'28px 1fr 100px 70px 18px', gap:12,
-                  padding:'14px 22px', alignItems:'center',
-                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
-                  textDecoration:'none', color:'inherit', cursor:'pointer',
-                  transition:'background 0.15s'
-                }}
-                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
-                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
-                <div style={{fontFamily:'var(--serif)', fontStyle:'italic', fontSize:20, fontWeight:300, color:'var(--ink-3)'}}>{p.rank || idx + 1}</div>
-                <div style={{minWidth:0}}>
-                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
-                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format}</div>
-                </div>
-                <div><PlatformPill name={p.platform}/></div>
-                <div style={{textAlign:'right'}}>
-                  <div style={{fontFamily:'var(--serif)', fontSize:18, fontWeight:300}}>{p.er.toFixed(1)}<span style={{fontSize:11, color:'var(--ink-3)'}}>%</span></div>
-                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>ER</div>
-                </div>
-                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
-              </a>
-            ))}
-            {(!c.topPosts || c.topPosts.length === 0) && (
-              <div style={{padding:'22px', fontSize:12, color:'var(--ink-3)', textAlign:'center'}}>No posts with ER data yet.</div>
-            )}
-          </div>
-
-          {/* By organic reach */}
-          <div className="card" style={{padding:0, overflow:'hidden'}}>
-            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
-              <div className="card-title-serif" style={{fontSize:20}}>By <em>organic reach</em></div>
-              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Highest raw organic impressions, this campaign</div>
-            </div>
-            {(c.topPostsOrganic && c.topPostsOrganic.length > 0 ? c.topPostsOrganic.slice(0, 5) : []).map((p, idx, arr) => (
-              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
-                style={{
-                  display:'grid', gridTemplateColumns:'28px 1fr 100px 90px 18px', gap:12,
-                  padding:'14px 22px', alignItems:'center',
-                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
-                  textDecoration:'none', color:'inherit', cursor:'pointer',
-                  transition:'background 0.15s'
-                }}
-                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
-                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
-                <div style={{fontFamily:'var(--serif)', fontStyle:'italic', fontSize:20, fontWeight:300, color:'var(--ink-3)'}}>{p.rank || idx + 1}</div>
-                <div style={{minWidth:0}}>
-                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
-                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format} · {p.organicPct}% organic</div>
-                </div>
-                <div><PlatformPill name={p.platform}/></div>
-                <div style={{textAlign:'right'}}>
-                  <div style={{fontFamily:'var(--serif)', fontSize:18, fontWeight:300}}>{fmt.num(p.organicReach)}</div>
-                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>Organic</div>
-                </div>
-                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
-              </a>
-            ))}
-            {(!c.topPostsOrganic || c.topPostsOrganic.length === 0) && (
-              <div style={{padding:'22px', fontSize:12, color:'var(--ink-3)', textAlign:'center'}}>No organic-reach data yet.</div>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* WHAT WE'RE SEEING — per-campaign callouts */}
-      {(c.callouts && c.callouts.length > 0) && (
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div className="sec-title">What we're <em>seeing</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Auto-flagged based on this campaign's recent activity.</div>
-          </div>
-        </div>
-        <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(c.callouts.length, 3)}, minmax(0, 1fr))`, gap:14}}>
-          {c.callouts.map((co, i) => {
-            const tone = co.kind === 'pos' ? { bar: 'var(--pear)', tag: '#2f7a3f' } :
-              co.kind === 'warn' ? { bar: 'var(--orange)', tag: '#b8392b' } :
-              { bar: 'var(--sky)', tag: 'var(--ink)' };
-            return (
-              <div key={i} style={{
-                background:'var(--surface)', border:'1px solid var(--line)', borderRadius:'var(--r-lg)',
-                padding: 22, position:'relative', overflow:'hidden',
-                display:'flex', flexDirection:'column', gap:10
-              }}>
-                <div style={{position:'absolute', left:0, top:0, bottom:0, width:4, background: tone.bar}}/>
-                <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
-                  <span style={{
-                    fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em',
-                    fontWeight:600, color: tone.tag,
-                    padding:'3px 8px', background: tone.bar+'33', borderRadius: 4
-                  }}>{co.tag}</span>
-                  <span style={{fontSize:10, color:'var(--ink-3)', fontFamily:'var(--mono)', letterSpacing:'0.06em'}}>{co.meta}</span>
-                </div>
-                <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{co.headline}</div>
-                <div style={{fontSize:13, lineHeight:1.5, color:'var(--ink-2)'}}>{co.body}</div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-      )}
     </>
   );
 }
@@ -578,6 +739,466 @@ function DeliveryCurve({ campaign }) {
       ))}
       <text x={x(weeks * elapsed)} y={P.t-2} fontSize="9" textAnchor="middle" fill="currentColor" fontWeight="600">Today</text>
     </svg>
+  );
+}
+
+
+// =============================================================================
+// BrandXCampaignPage — paid-social performance campaigns
+// =============================================================================
+// Optimization target is efficiency + clicks, not engagement or organic reach.
+// Page layout:
+//   1. Hero card with the headline KPIs: impressions, ad spend, clicks
+//   2. By-channel breakdown (CPM / CTR / CPC efficiency per platform)
+//   3. Per-post performance table — every paid asset, sortable columns
+// No episodes, no episode comparison, no organic-reach signals.
+
+function BrandXCampaignPage({ c, onBack }) {
+  const posts = (window.POSTS_BY_CAMPAIGN || {})[c.id] || [];
+  const channels = c.channels || [];
+
+  // Aggregate KPIs across all posts in the campaign
+  const totalImpr = posts.reduce((s, p) => s + (p.impr || 0), 0);
+  const totalSpend = posts.reduce((s, p) => s + (p.spend || 0), 0);
+  const totalClicks = posts.reduce((s, p) => s + (p.clicks || 0), 0);
+  const blendedCPM = totalImpr ? (totalSpend / totalImpr * 1000) : 0;
+  const blendedCPC = totalClicks ? (totalSpend / totalClicks) : 0;
+  const blendedCTR = totalImpr ? (totalClicks / totalImpr * 100) : 0;
+
+  const impPct = c.impressions.goal ? (totalImpr / c.impressions.goal * 100) : 0;
+  const budPct = c.budget.goal ? (totalSpend / c.budget.goal * 100) : 0;
+  const elapsedPct = c.elapsedPct || 0;
+
+  // Card tone — same mapping used on the regular CampaignPage so the BrandX
+  // banner picks up its campaign's brand color (sky for E*TRADE).
+  const cardTone =
+    c.color === 'ft-ink' ? { bg: 'var(--liquorice)', fg: 'var(--cream)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' } :
+    c.color === 'ft-1'   ? { bg: 'var(--orange)',  fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-2'   ? { bg: 'var(--blossom)', fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-3'   ? { bg: 'var(--sky)',     fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-4'   ? { bg: 'var(--pear)',    fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-5'   ? { bg: 'var(--lilac)',   fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-6'   ? { bg: 'var(--flame)',   fg: 'var(--paper)',     track: 'rgba(250,247,239,0.2)', fill: 'var(--paper)' } :
+                           { bg: 'var(--liquorice)', fg: 'var(--cream)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' };
+
+  // Money / number formatters that handle None gracefully.
+  // Money: 2 decimals under $100 (so per-click cost reads as $1.50 not $1.5),
+  // no decimals at $100+ (so total spend reads as $4,789 not $4,789.00).
+  const fmtNum = (n) => (n == null ? '—' : window.fmt.num(n));
+  const fmtMoney = (n) => {
+    if (n == null || isNaN(Number(n))) return '—';
+    const num = Number(n);
+    if (Math.abs(num) >= 100) return `$${Math.round(num).toLocaleString('en-US')}`;
+    return `$${num.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+  };
+  const fmtPct = (n) => (n == null ? '—' : `${Number(n).toFixed(2)}%`);
+
+  return (
+    <>
+      <PageHead
+        overline={<>
+          <span style={{cursor:'pointer'}} onClick={onBack}><Ic.back/> Overview</span>
+          <span style={{margin:'0 8px', opacity:0.4}}>/</span>
+          <span>{c.partner}</span>
+          <span style={{margin:'0 8px', opacity:0.4}}>·</span>
+          <span style={{
+            background:'var(--liquorice)', color:'var(--paper)',
+            padding:'2px 8px', borderRadius:4, fontSize:10, fontWeight:600,
+            letterSpacing:'0.06em', textTransform:'uppercase'
+          }}>BrandX</span>
+          {c.brandxObjective && (
+            <>
+              <span style={{margin:'0 8px', opacity:0.4}}>·</span>
+              <span style={{fontSize:10, fontFamily:'var(--mono)', color:'var(--ink-3)', letterSpacing:'0.06em', textTransform:'uppercase'}}>
+                Primary: <strong style={{color:'var(--ink-2)'}}>{c.brandxObjective.replace('_',' ')}</strong>
+                {c.brandxSecondaryObjective && (
+                  <> · Secondary: <strong style={{color:'var(--ink-2)'}}>{c.brandxSecondaryObjective.replace('_',' ')}</strong></>
+                )}
+              </span>
+            </>
+          )}
+        </>}
+        title={c.series.replace(c.seriesItalic, '').trim()}
+        italic={c.seriesItalic}
+        actions={
+          <div className="card" style={{
+            padding:'14px 18px', minWidth:240, background:'var(--surface)',
+            border:'1px solid var(--line)', borderRadius:'var(--r-md)',
+            display:'flex', flexDirection:'column', gap:6
+          }}>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Partner</span>
+              <span style={{color:'var(--ink)', fontWeight:600}}>{c.partner}</span>
+            </div>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
+              <span style={{color:'var(--ink)', fontWeight:600}}>{c.flight}</span>
+            </div>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Posts</span>
+              <span style={{color:'var(--ink)', fontWeight:600}}>{posts.length}</span>
+            </div>
+          </div>
+        }
+      />
+
+      {/* HERO KPI TILES — three primary numbers, three secondary metrics
+          shown as a tighter strip below. Layout is one card per row so all
+          tiles share the same visual rhythm. */}
+      <div className="sec">
+        {(() => {
+          // Pre-compute everything once so the markup stays clean
+          const bx = window.BRANDX_BENCHMARKS || {};
+          const obj = c.brandxObjective;
+          const ctrBench = (obj && bx.ctrByObjective && bx.ctrByObjective[obj] != null)
+            ? bx.ctrByObjective[obj]
+            : bx.ctrOverall;
+          const ctrDelta = ctrBench ? (blendedCTR - ctrBench) / ctrBench * 100 : null;
+          const ctrGood = ctrDelta != null && ctrDelta >= 0;
+          const totalReach = posts.reduce((s, p) => s + (p.reach || 0), 0);
+          const frequency = totalReach > 0 ? totalImpr / totalReach : null;
+          // Video Completion Rate = 100%-watched views / video views started.
+          // "Started" = Meta's 3-second video view (paid `three_second_views`),
+          // which is the industry-standard VCR denominator. Using impressions
+          // would dilute the rate with static creative + scroll-pasts that
+          // never started the video. Static IG posts contribute 0 in both
+          // numerator AND denominator, so they correctly drop out of the mix.
+          const totalP100 = posts.reduce((s, p) => s + (p.videoViews100Pct || 0), 0);
+          const totalVideoStarts = posts.reduce((s, p) => s + (p.videoViews3s || 0), 0);
+          const vcr = totalVideoStarts > 0 ? (totalP100 / totalVideoStarts * 100) : null;
+          // Avg view duration = total watch time across all paid posts
+          //   ÷ total video starts (3-sec views / paid plays).
+          // FB Reels: watch time comes from MS directly (watch_time_minutes_paid).
+          // IG ads: MS doesn't report watch time, so refresh.py estimates it
+          // by integrating the p25/p50/p75/p95/p100 retention curve × video
+          // duration. Approximate but close enough for blended messaging.
+          const totalWatchMin = posts.reduce((s, p) => s + (p.watchTimeMin || 0), 0);
+          const avgViewSec = totalVideoStarts > 0 ? (totalWatchMin * 60 / totalVideoStarts) : null;
+          // Note: bx.vcrOverall is an impressions-based dark-posts benchmark
+          // (~0.36%). Comparing it to a video-starts-based VCR is apples to
+          // oranges, so we drop the delta and just surface the absolute rate
+          // + total full-views count.
+          const vcrBench = null;
+          const vcrDelta = null;
+          const vcrGood = false;
+
+          // Shared tile styles — defined once so all six tiles match
+          const tileBase = {padding:'22px 24px'};
+          const tileLbl = {
+            fontSize:10, color:'var(--ink-3)', letterSpacing:'0.1em',
+            fontWeight:600, textTransform:'uppercase', marginBottom:10,
+          };
+          const tileNum = {
+            fontFamily:'var(--serif)', fontSize:'clamp(28px, 2.6vw, 36px)',
+            fontWeight:300, color:'var(--ink)', lineHeight:1,
+            letterSpacing:'-0.02em', fontVariantNumeric:'tabular-nums',
+          };
+          const tileSub = {
+            marginTop:10, fontSize:11, color:'var(--ink-3)',
+            fontFamily:'var(--mono)', letterSpacing:'0.04em',
+            minHeight:16,  // keep all tiles the same height
+          };
+          const progressBar = (pct, show) => show ? (
+            <div style={{height:3, background:'var(--line)', borderRadius:2, marginTop:8, overflow:'hidden'}}>
+              <div style={{height:'100%', width:`${Math.min(100, pct)}%`, background:'var(--accent)'}}/>
+            </div>
+          ) : <div style={{height:3, marginTop:8}}/>;
+
+          return (
+            <>
+              {/* HERO PACING BANNER — mirrors the status banner on the regular
+                  CampaignPage but expanded to three metric columns: impressions
+                  (vs goal), spend (vs budget), and clicks (no goal, so the
+                  subline shows CTR + CPC instead). Status pill sits in a
+                  narrow leftmost column — no longer-form description, per the
+                  team's preference for BrandX pages. */}
+              <div style={{
+                background: cardTone.bg, color: cardTone.fg,
+                borderRadius: 'var(--r-lg)', padding: 22, marginBottom: 18,
+                display: 'grid',
+                gridTemplateColumns: '0.45fr 1fr 1fr 1fr', gap: 24,
+                alignItems: 'center', position: 'relative', overflow: 'hidden'
+              }}>
+                <div>
+                  <div style={{fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Status</div>
+                  <span style={{
+                    display:'inline-flex', alignItems:'center', gap:6,
+                    padding:'4px 12px', borderRadius:999,
+                    background: 'rgba(255,255,255,0.92)',
+                    color: c.statusKind === 'on' ? '#2f7a3f' : c.statusKind === 'danger' ? '#b8392b' : '#a06b14',
+                    fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.06em', fontWeight:600
+                  }}>
+                    <span style={{
+                      width:6, height:6, borderRadius:'50%',
+                      background: c.statusKind === 'on' ? '#2f7a3f' : (c.statusKind === 'danger' ? '#b8392b' : '#a06b14')
+                    }}/>
+                    {c.status}
+                  </span>
+                  <div style={{fontSize:11, opacity:0.7, marginTop:10, fontFamily:'var(--mono)', letterSpacing:'0.04em'}}>
+                    {c.daysLeft} days left · {elapsedPct.toFixed(0)}% time elapsed
+                  </div>
+                </div>
+
+                <div>
+                  <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Impression delivery</div>
+                  <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
+                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.num(totalImpr)}</span>
+                    <span style={{fontSize:14, opacity:0.7}}>of {window.fmt.num(c.impressions.goal)}</span>
+                  </div>
+                  <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
+                    <div style={{height:'100%', width: Math.min(100, impPct) + '%', background: cardTone.fill, borderRadius:999}}/>
+                  </div>
+                  <div style={{fontSize:12, opacity:0.7}}>
+                    {impPct.toFixed(1)}% delivered · {elapsedPct.toFixed(0)}% time elapsed
+                  </div>
+                </div>
+
+                <div>
+                  <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Budget</div>
+                  <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
+                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{fmtMoney(totalSpend)}</span>
+                    <span style={{fontSize:14, opacity:0.7}}>of {fmtMoney(c.budget.goal)}</span>
+                  </div>
+                  <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
+                    <div style={{height:'100%', width: Math.min(100, budPct) + '%', background: cardTone.fill, borderRadius:999}}/>
+                  </div>
+                  <div style={{fontSize:12, opacity:0.7}}>
+                    {budPct.toFixed(1)}% spent · {fmtMoney(Math.max(0, c.budget.goal - totalSpend))} remaining
+                  </div>
+                </div>
+
+                <div>
+                  <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Total clicks</div>
+                  <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
+                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.num(totalClicks)}</span>
+                  </div>
+                  {/* No goal for clicks — leave the bar slot empty so the
+                      sublines on all three columns line up vertically. */}
+                  <div style={{height:6, marginBottom:6}}/>
+                  <div style={{fontSize:12, opacity:0.7}}>
+                    {fmtPct(blendedCTR)} CTR · {fmtMoney(blendedCPC)} CPC
+                  </div>
+                </div>
+              </div>
+
+              {/* SECONDARY ROW — Blended CPC, Blended CTR, VCR, Avg View
+                  Duration, Frequency. Five columns at smaller numeral size
+                  than the banner above, so visual hierarchy reads top →
+                  bottom. VCR = `video_views_p100` / 3-second video starts
+                  across all paid posts (Meta-standard denominator — see
+                  comment above the calc). */}
+              <div style={{display:'grid', gridTemplateColumns:'repeat(5, 1fr)', gap:14, marginBottom:14}}>
+                <div className="card" style={tileBase}>
+                  <div style={tileLbl}>Blended CPC</div>
+                  <div style={{...tileNum, fontSize:'clamp(22px, 2vw, 28px)'}}>{fmtMoney(blendedCPC)}</div>
+                  <div style={tileSub}>across all paid clicks</div>
+                </div>
+
+                <div className="card" style={tileBase}>
+                  <div style={tileLbl}>Blended CTR</div>
+                  <div style={{...tileNum, fontSize:'clamp(22px, 2vw, 28px)'}}>{fmtPct(blendedCTR)}</div>
+                  <div style={{...tileSub,
+                    color: ctrDelta == null ? 'var(--ink-3)'
+                      : ctrGood ? 'var(--positive)' : 'var(--danger)'
+                  }}>
+                    {ctrDelta == null
+                      ? 'no benchmark set'
+                      : `${ctrDelta > 0 ? '+' : ''}${ctrDelta.toFixed(0)}% vs ${ctrBench.toFixed(2)}% bench`}
+                  </div>
+                </div>
+
+                <div className="card" style={tileBase}>
+                  <div style={tileLbl}>Video Completion</div>
+                  <div style={{...tileNum, fontSize:'clamp(22px, 2vw, 28px)'}}>
+                    {vcr != null ? fmtPct(vcr) : '—'}
+                  </div>
+                  <div style={tileSub}>
+                    {vcr == null
+                      ? 'no video starts yet'
+                      : `${window.fmt.num(totalP100)} of ${window.fmt.num(totalVideoStarts)} starts`}
+                  </div>
+                </div>
+
+                <div className="card" style={tileBase}>
+                  <div style={tileLbl}>Avg View Duration</div>
+                  <div style={{...tileNum, fontSize:'clamp(22px, 2vw, 28px)'}}>
+                    {avgViewSec != null ? `${avgViewSec.toFixed(1)}s` : '—'}
+                  </div>
+                  <div style={tileSub}>
+                    {avgViewSec != null
+                      ? `${window.fmt.num(Math.round(totalWatchMin))} min watched`
+                      : '—'}
+                  </div>
+                </div>
+
+                <div className="card" style={tileBase}>
+                  <div style={tileLbl}>Frequency</div>
+                  <div style={{...tileNum, fontSize:'clamp(22px, 2vw, 28px)'}}>
+                    {frequency != null ? `${frequency.toFixed(2)}×` : '—'}
+                  </div>
+                  <div style={tileSub}>
+                    {frequency != null ? `avg views per reached user` : '—'}
+                  </div>
+                </div>
+              </div>
+            </>
+          );
+        })()}
+      </div>
+
+      {/* BY CHANNEL — paid efficiency per platform */}
+      {channels.length > 0 && (
+        <div className="sec">
+          <div className="sec-h" style={{marginBottom:14}}>
+            <div>
+              <div className="sec-title">By <em>channel</em></div>
+              <div className="sec-sub" style={{marginTop:4}}>
+                Per-platform efficiency. CTR and CPC are the headline numbers for paid performance.
+              </div>
+            </div>
+          </div>
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{
+              display:'grid',
+              gridTemplateColumns:'1.4fr 100px 90px 90px 130px 90px',
+              gap:14, padding:'14px 22px',
+              fontSize:10, fontFamily:'var(--mono)', color:'var(--ink-3)',
+              letterSpacing:'0.1em', fontWeight:600, textTransform:'uppercase',
+              borderBottom:'1px solid var(--line)', background:'var(--bg-soft)'
+            }}>
+              <div>Channel</div>
+              <div style={{textAlign:'right'}}>Impr.</div>
+              <div style={{textAlign:'right'}}>Spend</div>
+              <div style={{textAlign:'right'}}>CPM</div>
+              <div style={{textAlign:'right'}}>vs BrandX bench</div>
+              <div style={{textAlign:'right'}}>ER</div>
+            </div>
+            {channels.map((ch, i) => {
+              // Look up the BrandX per-platform CPM benchmark. Match by the
+              // lowercased channel name with a couple of normalizations
+              // (the channel name is "Facebook" / "Instagram"; benchmark
+              // keys are lowercased).
+              const bxBench = (window.BRANDX_BENCHMARKS || {}).cpmByPlatform || {};
+              // Normalize "YouTube Shorts" → "youtubeShorts", "Facebook" →
+              // "facebook" to match the camelCased benchmark keys.
+              const lower = ch.name.toLowerCase();
+              const snake = lower.replace(/\s+/g, '_');
+              const camel = lower.replace(/\s+(.)/g, (_, c) => c.toUpperCase());
+              const benchCpm = bxBench[camel] != null ? bxBench[camel] : bxBench[snake];
+              const cpmDelta = (benchCpm && ch.cpm > 0) ? (ch.cpm - benchCpm) / benchCpm * 100 : null;
+              const good = cpmDelta != null && cpmDelta <= 0;
+              return (
+              <div key={ch.name} style={{
+                display:'grid',
+                gridTemplateColumns:'1.4fr 100px 90px 90px 130px 90px',
+                gap:14, padding:'14px 22px', alignItems:'center', fontSize:13,
+                borderBottom: i < channels.length - 1 ? '1px solid var(--line)' : 'none'
+              }}>
+                <div style={{display:'flex', alignItems:'center', gap:8}}>
+                  <span style={{width:8, height:8, borderRadius:'50%', background:ch.color}}/>
+                  <span style={{fontWeight:500}}>{ch.name}</span>
+                </div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{window.fmt.num(ch.impressions)}</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmtMoney(((ch.cpm || 0) * ch.impressions / 1000).toFixed(0))}</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{ch.cpm > 0 ? fmtMoney(ch.cpm.toFixed(2)) : '—'}</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontSize:11,
+                  color: cpmDelta == null ? 'var(--ink-3)' : (good ? 'var(--positive)' : 'var(--danger)')}}>
+                  {benchCpm == null
+                    ? '—'
+                    : cpmDelta == null
+                      ? `$${benchCpm.toFixed(2)} bench`
+                      : `${cpmDelta > 0 ? '+' : ''}${cpmDelta.toFixed(0)}% vs $${benchCpm.toFixed(2)}`}
+                </div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmtPct(ch.er)}</div>
+              </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* POST-LEVEL PERFORMANCE — every paid asset */}
+      {posts.length > 0 && (
+        <div className="sec">
+          <div className="sec-h" style={{marginBottom:14}}>
+            <div>
+              <div className="sec-title">Post-level <em>performance</em></div>
+              <div className="sec-sub" style={{marginTop:4}}>
+                Every paid asset in the campaign. Sortable columns coming next pass — for now sorted by impressions descending.
+              </div>
+            </div>
+          </div>
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{overflowX:'auto'}}>
+              <div style={{minWidth: 1220}}>
+                {/* Header. Watch min was dropped (only FB Reels populate it
+                    natively; IG is estimated and the raw min count isn't
+                    useful at the per-post grain). 100% Vw was replaced with
+                    AVD — the per-post average view duration in seconds,
+                    derived from watchTimeMin * 60 / videoViews3s. */}
+                <div style={{
+                  display:'grid',
+                  gridTemplateColumns:'2fr 100px 70px 70px 70px 80px 70px 70px 70px 70px',
+                  gap:10, padding:'12px 22px',
+                  fontSize:10, fontFamily:'var(--mono)', color:'var(--ink-3)',
+                  letterSpacing:'0.08em', fontWeight:600, textTransform:'uppercase',
+                  borderBottom:'1px solid var(--line)', background:'var(--bg-soft)'
+                }}>
+                  <div>Post</div>
+                  <div>Platform</div>
+                  <div style={{textAlign:'right'}}>Impr.</div>
+                  <div style={{textAlign:'right'}}>Views</div>
+                  <div style={{textAlign:'right'}}>Reach</div>
+                  <div style={{textAlign:'right'}}>Spend</div>
+                  <div style={{textAlign:'right'}}>AVD</div>
+                  <div style={{textAlign:'right'}}>Clicks</div>
+                  <div style={{textAlign:'right'}}>CTR</div>
+                  <div style={{textAlign:'right'}}>CPC / CPM</div>
+                </div>
+                {[...posts]
+                  .sort((a, b) => (b.impr || 0) - (a.impr || 0))
+                  .map((p, i, arr) => {
+                    const title = p.title || '(no text)';
+                    const clip = title.length > 95 ? title.slice(0, 95) + '…' : title;
+                    const postAvd = (p.watchTimeMin && p.videoViews3s)
+                      ? (p.watchTimeMin * 60 / p.videoViews3s)
+                      : null;
+                    return (
+                      <a key={i}
+                         href={p.url || '#'}
+                         target={p.url ? '_blank' : undefined}
+                         rel={p.url ? 'noopener noreferrer' : undefined}
+                         style={{
+                           display:'grid',
+                           gridTemplateColumns:'2fr 100px 70px 70px 70px 80px 70px 70px 70px 70px',
+                           gap:10, padding:'14px 22px', alignItems:'center', fontSize:12,
+                           textDecoration:'none', color:'inherit',
+                           borderBottom: i < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                           cursor: p.url ? 'pointer' : 'default'
+                         }}>
+                        <div style={{minWidth:0, overflow:'hidden', textOverflow:'ellipsis'}}>{clip}</div>
+                        <div><PlatformPill name={p.platform}/></div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{fmtNum(p.impr)}</div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmtNum(p.views)}</div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmtNum(p.reach)}</div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmtMoney(p.spend && p.spend.toFixed(2))}</div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{postAvd != null ? `${postAvd.toFixed(1)}s` : '—'}</div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{fmtNum(p.clicks)}</div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{p.ctr != null ? fmtPct(p.ctr) : '—'}</div>
+                        <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontSize:11, color:'var(--ink-2)'}}>
+                          {p.cpc != null ? `${fmtMoney(p.cpc.toFixed(2))}` : '—'}
+                          <span style={{color:'var(--ink-3)'}}> · </span>
+                          {p.cpm != null ? `${fmtMoney(p.cpm.toFixed(2))}` : '—'}
+                        </div>
+                      </a>
+                    );
+                  })}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 

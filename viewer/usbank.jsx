@@ -504,11 +504,20 @@ function UsBankPage({ campaignId, onBack }) {
   return (
     <>
       <PageHead
-        overline={<>
-          <span style={{cursor:'pointer'}} onClick={onBack}><Ic.back/> Overview</span>
-          <span style={{margin:'0 8px', opacity:0.4}}>/</span>
-          <span>{c.partner}</span>
-        </>}
+        overline={onBack ? (
+          <>
+            <span style={{cursor:'pointer'}} onClick={onBack}><Ic.back/> Overview</span>
+            <span style={{margin:'0 8px', opacity:0.4}}>/</span>
+            <span>{c.partner}</span>
+          </>
+        ) : (
+          // Standalone US Bank document — no Overview to navigate back to.
+          // Show the partner alone, no breadcrumb.
+          <span style={{
+            fontSize:11, letterSpacing:'0.16em', textTransform:'uppercase',
+            fontWeight:600, color:'var(--ink-3)'
+          }}>{c.partner}</span>
+        )}
         title="NFL"
         italic="Draft"
         sub={<>Partner: <strong>US Bank</strong> · Flight: {c.flight} · 3 social components · <strong>38 posts live</strong> across IG, FB, X, LinkedIn, YouTube Shorts</>}

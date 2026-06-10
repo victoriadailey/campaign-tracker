@@ -1,0 +1,70 @@
+name: Refresh Pulse dashboard
+
+# Three trigger modes:
+#   1. Every 15 minutes  — keeps MS API data current without anyone clicking
+#   2. workflow_dispatch — fired by the "Refresh now" button on the dashboard
+#                          (via netlify/functions/refresh-now.js)
+#   3. push to tests/fixtures/ — fires automatically right after a CSV upload
+#                                lands via the dashboard upload form
+#
+# Concurrency is set so two refreshes can't run simultaneously and stomp on
+# each other's commit.
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'      # every 15 min (GitHub min granularity, free)
+  workflow_dispatch:             # "Refresh now" button
+  push:
+    paths:
+      - 'tests/fixtures/**'      # CSV upload landed → rebuild immediately
+      - 'config/campaigns.yaml'  # campaign config edit → rebuild immediately
+
+concurrency:
+  group: pulse-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write                # so the workflow can commit data.js back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Use a token with push rights so the auto-commit step can push.
+          # GITHUB_TOKEN works by default; if you self-host or restrict perms,
+          # swap to a dedicated PAT here.
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install deps
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install --upgrade pip
+          .venv/bin/pip install -r requirements.txt
+
+      - name: Refresh dashboard data
+        env:
+          MEASURE_STUDIO_API_TOKEN: ${{ secrets.MEASURE_STUDIO_API_TOKEN }}
+          MEASURE_STUDIO_API_BASE: ${{ secrets.MEASURE_STUDIO_API_BASE }}
+        run: |
+          .venv/bin/python -m app.viewer.refresh --exclude usbank --output viewer/data.js
+          .venv/bin/python -m app.viewer.bundle
+
+      - name: Commit if data changed
+        run: |
+          git config user.name "pulse-bot"
+          git config user.email "pulse-bot@users.noreply.github.com"
+          git add viewer/data.js viewer/Pulse_Dashboard_Standalone.html
+          if git diff --cached --quiet; then
+            echo "No data changes — skipping commit."
+            exit 0
+          fi
+          git commit -m "auto-refresh: $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          git push

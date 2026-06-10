@@ -1,0 +1,10 @@
+# Pulse dashboard backend dependencies. Used by both local refresh.sh and
+# the GitHub Actions auto-refresh workflow (.github/workflows/refresh.yml).
+#
+# Versions pinned to the major to keep CI reproducible without locking
+# ourselves out of patch fixes. Bump explicitly when needed.
+
+pandas>=2.0,<3.0
+pyyaml>=6.0,<7.0
+python-dotenv>=1.0,<2.0
+requests>=2.31,<3.0

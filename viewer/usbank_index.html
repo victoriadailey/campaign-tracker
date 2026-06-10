@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pulse — US Bank x NFL Draft</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<style>
+  /* Standalone-only — no sidebar, so the main column expands to full width.
+     The grid `.app { grid-template-columns: 240px 1fr; }` rule in styles.css
+     would otherwise leave a 240px gap on the left. */
+  body { background: var(--cream); }
+  .app.standalone {
+    display: block;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 28px 32px;
+  }
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+
+<!-- US Bank-only data payload -->
+<script src="usbank_data.js"></script>
+
+<!-- Only the components the US Bank page actually needs. No sidebar/Overview/Benchmarks/Inputs/Archive. -->
+<script type="text/babel" src="components.jsx"></script>
+<script type="text/babel" src="campaign.jsx"></script>
+<script type="text/babel" src="usbank.jsx"></script>
+
+<script type="text/babel">
+// Minimal app shell — boots directly into the US Bank page with no sidebar
+// and no view router. This is a single-purpose standalone document for sharing
+// the US Bank case study independently of the main 4-campaign dashboard.
+function App() {
+  return (
+    <div className="app standalone">
+      <main className="main" data-screen-label="US Bank x NFL Draft">
+        <UsBankPage campaignId="usbank" />
+      </main>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+
+</body>
+</html>

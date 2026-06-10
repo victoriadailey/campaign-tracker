@@ -12,7 +12,7 @@ signals:
     body: "TastyTrade TikTok delivered 592K views on $267 in spend — 228% of contracted impressions. Should be a default channel for every package."
   - kind: watch
     title: "E*TRADE pacing watch"
-    body: "72% of flight elapsed but only 11% of impressions delivered. Mark Cuban episode launching this week should close the gap."
+    body: "77% of flight elapsed but tracking behind on impressions. Cuban episode is now live — boost the cutdowns to close the gap."
 
 sources:
   - { name: "Measure Studio",   date: "May 5, 2026",  stale: false }
@@ -28,149 +28,321 @@ campaigns:
     series: Future of Sports
     series_italic: Sports
     type: content
+    benchmark_category: "Original Content"
+    lifecycle: active
+    # ADP's GAds + X Ads campaigns are named by episode number, not guest.
+    # When the auto-matcher can't pair by guest + paid_impr, fall back to
+    # pairing MS↔ads rows by sorted-impression rank within each subtype.
+    # Safe here because there's exactly one of each per episode.
+    yt_paired_by_sort: true
     flight_start: 2025-10-01
     flight_end: 2026-05-31
     impression_goal: 6_600_000
     budget_goal: 10_916
+    # Full Episodes (YT long-form + YT pre-roll + any post titled "Full Episode")
+    # vs Cutdowns (everything else). Placeholder goals — update with the real
+    # split once available. Sum should equal the campaign-level goals above.
+    goal_split_full_ep:
+      label: "Full Episodes"
+      impression_goal: 3_400_000
+      budget_goal: 5_500
+    goal_split_cutdowns:
+      label: "Cutdowns"
+      impression_goal: 3_200_000
+      budget_goal: 5_416
     color: ft-1
     lead_format: Longform Video
     blurb: "Three-episode interview series with HR & sports execs. Strong organic resonance on LinkedIn."
-    ms_post_groups:
-      - "Future of Sports"
-      - "Future of Sports: Full Ep"
-      - "Future of Sports: Cutdowns"
     sources:
-      measure_studio:
-        - adp_cutdown_ms.csv
-        - adp_full_episode_ms.csv
-      google_ads_campaign:
-        - adp_cutdown_gads_campaign.csv
-        - adp_full_episode_gads_campaign.csv
+      # MS API = base layer (organic + paid across IG/FB/TT/LI/X/YT).
+      measure_studio_group_ids: [6217, 6111]   # Cutdowns + Full Episodes
+      # GAds CSV supplements YT paid (MS under-counts YT in-feed paid impressions).
+      youtube_paid:
+        - adp_cutdown_yt_paid.csv
+        - adp_full_episode_yt_paid.csv
+      # X Ads CSV supplements X paid (MS doesn't track X paid at all).
       x_ads:
         - adp_cutdown_x_ads.csv
         - adp_full_episode_x_ads.csv
+      # CSV fallback only kicks in if the API call fails:
+      # measure_studio: [adp_cutdown_ms.csv, adp_full_episode_ms.csv]
+    # yt_organic_impressions = hardcoded from YouTube Studio (MS/GAds don't
+    # surface this reliably for YT long-form). Same pattern as PFP.
     episodes:
       - id: ep1
         n: "Ep. 01"
         title: "Kim Ng on Building Competence"
         date: "Mar 5"
-        match: ["Kim Ng"]
+        # ADP GAds + X Ads campaign names use "Episode 1 / Full Episode 1"
+        # pattern instead of guest name. Include both so the attribution
+        # picks up GAds in-feed/pre-roll + X Ads cutdowns.
+        match: ["Kim Ng", "Full Episode 1", "Episode 1 Cutdown"]
         exclude: []
+        yt_organic_impressions: 755
       - id: ep2
         n: "Ep. 02"
         title: "Inside the League of Legends Esports Ecosystem"
         date: "Mar 29"
-        match: ["Greeley", "League of Legends", "Riot Games"]
+        match: ["Greeley", "League of Legends", "Riot Games",
+                "Full Episode 2", "Episode 2 Cutdown"]
         exclude: []
+        yt_organic_impressions: 1069
       - id: ep3
         n: "Ep. 03"
         title: "Sarah Swanson on Women's Tennis at WTA"
         date: "Apr 27"
-        match: ["Swanson", "WTA", "women's tennis"]
+        match: ["Swanson", "WTA", "women's tennis",
+                "Full Episode 3", "Episode 3 Cutdown"]
         exclude: []
+        yt_organic_impressions: 7319
+      - id: ep4
+        n: "Ep. 04"
+        title: "Inside Fastbreak AI's Schedule Engine"
+        date: "May 18"
+        match: ["Fastbreak", "Chris Groer", "John Stewart", "Groer", "Stewart",
+                "Full Episode 4", "Episode 4 Cutdown"]
+        exclude: []
+        yt_organic_impressions: 5
 
   - id: etrade
     partner: E*TRADE
     series: Portfolio Players
     series_italic: Players
     type: content
+    benchmark_category: "Original Content"
+    lifecycle: active
     flight_start: 2026-01-01
     flight_end: 2026-06-30
-    impression_goal: 45_000_000
+    impression_goal: 41_700_000
     budget_goal: 50_000
     color: ft-3
     lead_format: Longform Video
-    blurb: "Sports ownership & investing series. Mark Cuban teaser is generating organic buzz ahead of launch."
-    ms_post_groups:
-      - "Portfolio Players S3"
-      - "Portfolio Players S3 x E*TRADE"
-    # Google Ads YT is authoritative for paid YT — provides the in-feed / pre-roll /
-    # shorts subtype breakdown via campaign-name suffix. MS contributes YT organic
-    # only. (Updated YT Paid export now includes Checketts.)
-    ms_organic_only_for:
-      - x
-      - youtube
+    blurb: "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched — Cuban + Donovan upcoming will round out the season."
+    # E*TRADE forbids paid boosting on TikTok — all TT delivery is organic
+    # by contract. Suppress the "TikTok resonating" OPPORTUNITY callout so
+    # it doesn't read as an algorithmic signal when it's actually a
+    # client mandate.
+    organic_by_design_for: ["tiktok"]
+    # MS provides the full performance numbers for every platform (organic +
+    # paid combined). Paid sources (X Ads, Google Ads YT) supply only the
+    # spend — refresh.py's merge step pairs each ads row with its matching
+    # MS post by impressions_paid value, copies the spend over, drops the
+    # ads row, and uses MS's descriptive title for display.
+    #
+    # Empty list means no platform is reduced to organic-only at parse time.
+    # This works because the merge step prevents double-counting downstream.
+    ms_organic_only_for: []
+    # Manual X Ads ↔ MS pairings. When the auto-matcher can't pair a campaign
+    # (impressions_paid drift too large, etc.) drop the X Ads campaign-name
+    # substring + the MS tweet ID here. Substring is case-insensitive. These
+    # pairings run BEFORE the exact/closest auto-match passes.
+    # The needle (left side) is matched as a case-insensitive SUBSTRING against
+    # the X Ads campaign name. Keys MUST be substrings of the actual campaign
+    # names in the X Ads export — not the social team's preferred labeling.
+    # e.g. social calls a video "Allyson Cutdown 2" but X Ads names it
+    # "PFP_S3Ep6_AllysonFelix_Cutdown1" → needle must be `AllysonFelix_Cutdown1`.
+    x_ads_pairings:
+      "Checketts_Cutdown1":         "2052093377298997683"
+      "Marshall_Cutdown 1":         "2047056447112986902"
+      "Marshall_Cutdown 2":         "2049569125958066285"
+      "Assia_Cutdown1":             "2036911003083170204"
+      "Assia_Cutdown2":             "2039459036244942917"
+      "Rabil_Cutdown1":             "2031837566417113541"
+      "Osborne_SocialCutdown1":     "2026779162187329718"
+      "Patricof Cutdown 2":         "2024265914258948319"
+      "AllysonFelix_Cutdown1":      "2041622050297516271"
     sources:
-      measure_studio:
-        - portfolio_players_ms.csv
+      # MS API = base layer (organic + paid across IG/FB/TT/LI/X/YT).
+      measure_studio_group_id: 6197         # Portfolio Players S3 x E*TRADE
+      # GAds CSV supplements YT paid (MS under-counts YT in-feed).
       youtube_paid:
         - portfolio_players_yt_paid.csv
+      # X Ads CSV supplements X paid (MS doesn't track X paid at all).
       x_ads:
         - portfolio_players_x_ads.csv
+      # CSV fallback only if the API call fails:
+      # measure_studio: [portfolio_players_ms.csv]
+    # Most reliable attribution signal: MS column M ("User Tags") is tagged by
+    # the social team with `PP Episode N - <Guest>`. Putting that string in the
+    # match list wins on length/specificity vs any name-based keyword, so cross-
+    # posts that use generic narratives still land on the right episode.
     episodes:
+      # Generic Season 3 trailer / promo content — not tied to a specific guest.
+      # Lives ahead of Ep. 01 in the list so it appears first on the campaign page.
+      - id: trailer
+        n: "Trailer"
+        title: "Season 3 Trailer"
+        date: "Jan 27"
+        match: ["This is Portfolio Players"]
+        exclude: []
+        # Three trailer posts whose copy is generic ("Who are the athletes...",
+        # "Who are the minds..."). They used to keyword-match into Ep. 01 Repole
+        # via the description mentioning him as a guest — pin them here explicitly.
+        manual_posts:
+          - "LWtCVt9KnqY"                       # YT Shorts — "Who are the athletes…"
+          - "3816686919355582288"               # IG — "Who are the minds…"
+          - "urn:li:ugcPost:7420570894995005441" # LinkedIn — "This is Portfolio Players"
+      # yt_organic_impressions = hardcoded from YouTube Studio. MS/GAds don't
+      # reliably report organic impressions for YT long-form; the operator
+      # supplies the number directly here and the dashboard never zeroes it.
       - id: ep1
         n: "Ep. 01"
         title: "Mike Repole on Sports Ownership"
         date: "Feb 3"
-        match: ["Repole", "Tom Brady", "Billionaire Built Brands", "Kobe"]
+        match: ["PP Episode 1 -", "Repole", "Tom Brady", "Billionaire Built Brands", "Kobe"]
         exclude: []
+        manual_posts:
+          - "xW3fz52xFVg"   # YT Short "Women's Volleyball is THE Next Big Sports Investment #lovb"
+                            #   — clip from Repole episode discussing LOVB / women's volleyball
+                            #   investment. MS reports views=1,145 (used as impressions via the
+                            #   YT-Shorts views-as-impressions floor).
+        yt_organic_impressions: 2147
       - id: ep2
         n: "Ep. 02"
         title: "Jon Patricof on Athletes Unlimited"
         date: "Feb 12"
         # Cutdowns reference Patricof's businesses via @ handles + tags rather than his name
-        match: ["Patricof", "Athletes Unlimited", "@AUProSports", "@theAUSLofficial", "AUSL", "Pro Softball"]
+        match: ["PP Episode 2 -", "Patricof", "Athletes Unlimited", "@AUProSports", "@theAUSLofficial", "AUSL", "Pro Softball"]
         exclude: []
         manual_posts:
           - "2024266065409098028"   # 2/18 threaded tweet linking to full Patricof episode
+        yt_organic_impressions: 593
       - id: ep3
         n: "Ep. 03"
         title: "Leslie Osborne on Women's Soccer"
         date: "Feb 27"
-        # NWSL / Women's Soccer / Michele Kang cutdowns are part of this episode
-        match: ["Osborne", "NWSL", "#nwsl", "Women's Soccer", "Female Messi", "Michele Kang"]
+        match: ["PP Episode 3 -", "Osborne", "@LeslieOsborne12", "@leslieosborne12", "Bay FC", "@wearebayfc", "Female Messi"]
         exclude: []
         manual_posts:
           - "2026779233784136168"   # 2/25 threaded tweet linking to full Osborne episode
+        yt_organic_impressions: 587
       - id: ep4
         n: "Ep. 04"
         title: "Paul Rabil on PLL Ownership"
         date: "Mar 31"
-        # PLL Founder / Capital Is Flooding cutdowns are Rabil's content
-        match: ["Rabil", "Premier Lacrosse", "PLL", "Capital Is Flooding"]
+        match: ["PP Episode 4 -", "Rabil", "Premier Lacrosse", "PLL", "Capital Is Flooding"]
         exclude: []
+        yt_organic_impressions: 1446
       - id: ep5
         n: "Ep. 05"
         title: "Assia Grazioli-Venier on Women's Sports Investment"
         date: "Apr 11"
-        # AI officiating + sports investment bubble cutdowns
-        match: ["Grazioli", "Muse Capital", "Muse Sport", "Assia", "AI officiating", "investment bubble"]
+        match: [
+          "PP Episode 5 -",
+          "Grazioli", "Muse Capital", "Muse Sport", "Assia", "@assiagrazioli",
+          "AI officiating", "investment bubble", "Michele Kang", "Washington Spirit",
+        ]
         exclude: []
+        # Belt-and-suspenders for the 2 high-spend IG paid cross-posts.
+        manual_posts:
+          - "3865980741240680183"   # IG "If you use that narrative... no woman that's ever..." ($698.80)
+          - "3860862608219404966"   # IG "interest in soccer in this country" ($798.52)
+        yt_organic_impressions: 1306
       - id: ep6
         n: "Ep. 06"
         title: "Allyson Felix on Women's Sports Investment"
         date: "Apr 15"
-        match: ["Allyson Felix", "Allyson"]
+        match: ["PP Episode 6 -", "Allyson Felix", "Allyson"]
         exclude: []
         manual_posts:
           - "3870854760043974001"   # 4/8 IG Story (Allyson Felix — no title/desc/cats)
+          - "dSVJU1eYBmI"           # YT longform "From Olympic Gold to Founder:
+                                    # Allyson Felix's Next Chapter" — description
+                                    # has chapter timestamps mentioning Assia/Michele
+                                    # Kang/Washington Spirit (topics Allyson discusses)
+                                    # which scored higher than Ep 6's keywords. The
+                                    # User Tags column unambiguously says
+                                    # "PP Episode 6 - Allyson Felix" — pin it here.
+        yt_organic_impressions: 1885
       - id: ep7
         n: "Ep. 07"
         title: "Brandon Marshall on the Athlete Media Empire"
         date: "Apr 21"
-        match: ["Brandon Marshall", "Marshall", "TV networks", "Athlete Media", "active player to do TV"]
+        match: ["PP Episode 7 -", "Brandon Marshall", "Marshall", "TV networks", "Athlete Media", "active player to do TV"]
         exclude: []
+        yt_organic_impressions: 6361
       - id: ep8
         n: "Ep. 08"
         title: "Dave Checketts on Sports Investing"
         date: "May 5"
-        match: ["Checketts", "Former Knicks", "Legendary NBA Exec", "Michael Jordan", "David Stern"]
+        match: ["PP Episode 8 -", "Checketts", "Former Knicks", "Legendary NBA Exec", "Michael Jordan", "David Stern"]
         exclude: []
-      # Mark Cuban episode hasn't aired yet — only teasers are live. Real interview
-      # posts will land here once published. Excludes protect against other-episode
-      # posts that mention Cuban being attributed to the wrong episode.
+        yt_organic_impressions: 10962
       - id: ep9
         n: "Ep. 09"
-        title: "Mark Cuban (teasers only — episode pending)"
-        date: "Coming soon"
-        match: ["Mark Cuban", "Cuban"]
-        exclude: ["Repole", "Marshall", "Checketts", "Allyson"]
+        title: "Mark Cuban Explains The Business of Owning an NBA Team"
+        date: "May 20"
+        match: ["PP Episode 9 -", "Mark Cuban", "Cuban"]
+        # Excludes still protect against cross-episode posts mentioning Cuban
+        # — those land in their original episode (e.g. Repole talking about
+        # how he's given more NIL money "than Mark Cuban gives to Indiana").
+        exclude: ["Repole", "Marshall", "Checketts", "Allyson", "PP Episode 1", "PP Episode 7", "PP Episode 8", "PP Episode 6"]
+        # Posts pinned to Cuban by native ID. The keyword matcher misses
+        # them because:
+        #   • Snapchat: empty title/description on MS — only `user_tags`
+        #     identifies the episode, which the matcher doesn't read.
+        #   • IG Stories: stories have no caption text, so nothing for the
+        #     matcher to grip onto. Three stories from the Cuban launch week
+        #     (5/19 – 5/21) — views (4288, 2413, 3783) count as impressions
+        #     via the IG views-as-impressions fallback.
+        #   • X teaser: "Full episode of Portfolio Players ... coming next
+        #     week" posted 5/12, teasing Cuban's 5/20 launch. 4,456 impr.
+        manual_posts:
+          - "W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw"  # SC Spotlight 5/21 — 7,176 impr
+          - "a0cf513e-a9f7-5958-8ba1-d2dbc38a097f"                          # SC Highlight 5/06
+          - "W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw"  # SC Spotlight 5/05 — 4,303 impr
+          - "3902135684652405748"   # IG Story 5/21 — 4,288 views (no caption)
+          - "3901528950736512749"   # IG Story 5/20 — 2,413 views (no caption)
+          - "3900714239756695378"   # IG Story 5/19 — 3,783 views (no caption)
+          - "2054307306662138269"   # X teaser 5/12 — 4,456 impr ("Full episode coming next week")
+        yt_organic_impressions: 5768
+      - id: ep10
+        n: "Ep. 10"
+        title: "Landon Donovan on Soccer in America"
+        date: "Jun 5"
+        match: ["PP Episode 10 -", "Landon Donovan", "@landondonovan", "landon donovan"]
+        exclude: []
+      # Upcoming episodes — placeholders so the schedule shows on the campaign card.
+      # No keyword matching yet; posts will be added once they go live.
+      - id: ep11
+        n: "Ep. 11"
+        title: "Midge Purce"
+        date: "Jun 16"
+        match: ["PP Episode 11 -", "Midge Purce", "@midgepurce"]
+        exclude: []
+      - id: ep12
+        n: "Ep. 12"
+        title: "Josh Childress"
+        date: "Jun 30"
+        match: ["PP Episode 12 -", "Josh Childress", "@joshchildress"]
+        exclude: []
+      - id: ep13
+        n: "Ep. 13"
+        title: "Arturo Lomeli"
+        date: "Jul 14"
+        match: ["PP Episode 13 -", "Arturo Lomeli", "@arturolomeli"]
+        exclude: []
 
   - id: spectrum
     partner: Spectrum
     series: Fueling Dreams
     series_italic: Dreams
     type: social    # social-only — no episode breakdown, posts shown directly
+    benchmark_category: "Custom Social"
+    lifecycle: active
+    # YouTube on this campaign runs paid via Google Ads. Reduce MS YT to its
+    # organic share so MS + Google Ads don't double-count the boosted impressions.
+    ms_organic_only_for:
+      - youtube
+    # YT Shorts pairing: Spectrum's GAds campaigns ("NASCAR DITL", "NASCAR -
+    # Small Biz") boost the same FOS YT Shorts that MS tracks organically.
+    # MS post titles ("From the garage...", "From the hangar...") share no
+    # word tokens with the GAds names, so guest-matching can't pair them.
+    # Opt into sorted-position pairing (Pass 5) — within the Shorts subtype,
+    # MS + GAds are sorted by impressions_paid desc and zipped 1:1. Both sides
+    # only have 2 posts each, both close-matched on paid_impr, so the sort
+    # pairs DITL↔DITL and Small Biz↔Small Biz cleanly.
+    yt_paired_by_sort: true
     flight_start: 2026-05-01
     flight_end: 2026-06-30
     # Two-part campaign: NASCAR (5.75M / $17,525) + World Cup (4.5M / $12,125).
@@ -180,18 +352,42 @@ campaigns:
     color: ft-2
     lead_format: Made for Social
     blurb: "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending."
-    ms_post_groups:
-      - "Spectrum"
+    # Two Vintage Flying Museum FB Reels render as "organic+boosted" against
+    # token noise (org=2 and org=5 against ~300K paid impressions each).
+    # Force them to paid-only so the table reads cleanly. These platform_ids
+    # come from MS — see the FB Reels with the "Vintage Flying Museum"
+    # description.
+    paid_only_post_ids:
+      - "1481331077339811"   # FB 5/29 — "Go behind the scenes with the Vintage Flying Museum… Spectrum Business powers…"
+      - "1479528744186711"   # FB 5/27 — "From the hangar to race day, see how Spectrum Business helps keep the Vintage Flying Museum…"
     sources:
-      measure_studio:
-        - spectrum_ms.csv
+      measure_studio_group_id: 7172         # Spectrum
+      youtube_paid:                         # supplements MS's YT in-feed gap
+        - spectrum_yt_paid.csv
+      x_ads:                                # paid X (Spectrum: NASCAR - Small Biz)
+        - spectrum_x_ads.csv
+      # CSV fallback only if the API call fails:
+      # measure_studio: [spectrum_ms.csv]
     episodes:
       - id: nascar
         n: "Part 01"
         title: "NASCAR — Texas Motor Speedway"
         date: "May 2026"
-        match: ["NASCAR", "Texas Motor", "Speedway", "pit road", "garage"]
-        exclude: []
+        # Match keywords cover both the on-track NASCAR content and the
+        # small-business spotlights featured alongside it. "Vintage Flying
+        # Museum" + "hangar" + "race track" + "Fueling Dreams" catch the
+        # 5/25 spotlight cross-posts about the Museum that don't mention
+        # NASCAR directly.
+        match: [
+          "NASCAR", "Texas Motor", "Speedway", "pit road", "garage",
+          "Vintage Flying Museum", "hangar", "race track", "Fueling Dreams",
+        ]
+        # The MS LinkedIn Branded Article post happens to start with "biggest
+        # sports weekends..." and mentions racing — exclude its specific
+        # platform_id from NASCAR so it doesn't double-claim with the new
+        # branded_article bucket. (Exclude works on text — also catch its
+        # opening line just in case.)
+        exclude: ["biggest sports weekends"]
         impression_goal: 5_750_000
         budget_goal: 17_525
       - id: worldcup
@@ -202,12 +398,63 @@ campaigns:
         exclude: []
         impression_goal: 4_500_000
         budget_goal: 12_125
+      - id: branded_article
+        n: "Part 03"
+        title: "Branded Article Promotion"
+        date: "Jun 2026"
+        # Bucket holds the X Branded Article promo (keyword-matched from
+        # the X Ads campaign name). MS-side organic posts about the article
+        # were removed from the Spectrum MS group, so the manual_posts pins
+        # we used previously (FB {{product.name}} placeholder + LinkedIn
+        # share) are now inert — left out to keep the YAML clean.
+        # The GAds Demand Gen row was also removed from spectrum_yt_paid.csv
+        # since it's not a true YT video placement (Demand Gen format).
+        match: ["Branded Article", "Branded article", "Branded article Promo"]
+        exclude: []
+        # Goals TBD — share of the overall Spectrum budget hasn't been split
+        # out yet. Goal cells render as "—" in the per-bucket comparison
+        # until set.
+        impression_goal: 0
+        budget_goal: 0
+
+  # ============== BrandX campaigns (paid-social performance) ==============
+  # BrandX = paid-only, dark social campaigns optimized for clicks +
+  # efficiency rather than engagement / organic reach. Different page
+  # treatment in the dashboard: top KPIs are impressions / ad spend / clicks
+  # and the per-post table foregrounds CTR / CPC / CPM.
+
+  - id: etrade_brandx
+    partner: E*TRADE
+    series: Portfolio Players — BrandX
+    series_italic: BrandX
+    type: brandx
+    benchmark_category: "Paid Social - Performance"
+    lifecycle: active
+    flight_start: 2026-05-13
+    flight_end: 2026-06-30
+    impression_goal: 3_400_000
+    budget_goal: 30_000
+    color: ft-3                      # match E*TRADE parent
+    lead_format: Paid Social
+    blurb: "Performance-focused paid social with E*TRADE. Awareness primary; clicks secondary."
+    # Objective drives which BrandX benchmark applies:
+    #   awareness/impressions  → $2.63 CPM / 0.04% CTR
+    #   clicks                 → $5.46 CPM / 2.14% CTR
+    #   app_install            → no benchmark yet (falls back to overall)
+    # Secondary objective is what the team is also tracking (no thresholds
+    # fire on the secondary; it just gets surfaced in the page subheader).
+    brandx_objective: awareness
+    brandx_secondary_objective: clicks
+    sources:
+      measure_studio_group_id: 7445  # Portfolio Players S3 - BrandX
 
   - id: mm
     partner: Morgan & Morgan
     series: The Case Study
     series_italic: Case Study
     type: social    # post-based tracking; no episode rollup
+    benchmark_category: "Social - IP/Franchise"
+    lifecycle: active
     flight_start: 2026-05-01
     flight_end: 2026-05-31
     impression_goal: 1_500_000
@@ -215,25 +462,256 @@ campaigns:
     color: ft-5
     lead_format: Made for Social
     blurb: "Case Study series with Morgan & Morgan on NIL & college sports business. 2 videos live + 1 more coming + 2 static posts in progress."
-    ms_post_groups:
-      - "Morgan & Morgan"
     sources:
-      measure_studio:
-        - morgan_morgan_ms.csv
+      measure_studio_group_id: 7176         # Morgan & Morgan
+      youtube_paid:                         # supplements MS's YT in-feed gap
+        - morgan_morgan_yt_paid.csv
+      # CSV fallback only if the API call fails:
+      # measure_studio: [morgan_morgan_ms.csv]
+
+  - id: onlocation
+    partner: On Location
+    series: "FIFA World Cup: FOS Explains"
+    series_italic: Explains
+    # Fully dark / paid-only campaign — no organic posts exist for these
+    # videos, so there's no Measure Studio source. Delivery comes entirely
+    # from ad-platform exports (YouTube Paid + X Ads / Meta / LinkedIn).
+    # Classified as `content` (lives in the Content section of the sidebar)
+    # because the core asset is a FOS Explains YouTube video, not a social
+    # post series.
+    type: content
+    benchmark_category: "Original Content"
+    lifecycle: active
+    # YT merge: GAds row "On Location FOS Explains: Cutdown 3" doesn't pair
+    # via guest-matching because its `_gads_guest` resolves to "" (after the
+    # ":" the only remaining segment is "Cutdown 3", which strips to empty).
+    # MS Cutdown 3 ("The live sports experience economy is evolving") has
+    # an identical 114,760 paid_impr but no shared title token, so Pass 1-4
+    # can't connect them. Opt into Pass 5 sorted-position pairing within
+    # the Shorts subtype — pairs Cutdown 3 cleanly and leaves Cutdown 2
+    # alone (no live GAds counterpart, dead row dropped earlier).
+    yt_paired_by_sort: true
+    flight_start: 2026-05-01
+    flight_end: 2026-06-30
+    impression_goal: 5_500_000
+    budget_goal: 15_750
+    color: ft-6
+    lead_format: Longform Video
+    blurb: "FIFA World Cup FOS Explains video + 3 cutdowns. Fully dark — paid-only campaign with On Location."
+    # 100% paid — zero out any incidental organic exposure (e.g. someone
+    # finding a dark FB ad via a shared link). Also suppresses OPPORTUNITY
+    # callouts since "X% organic resonance" doesn't apply to a dark campaign.
+    paid_only: true
+    episodes:
+      - id: explains
+        n: "Video"
+        title: "FOS Explains: FIFA World Cup hospitality with On Location"
+        date: "May 2026"
+        # All current dark ads promote the single FOS Explains video; once
+        # the 2 cutdowns launch, add per-episode entries here for each.
+        match: ["FOS Explains", "On Location", "FIFA", "World Cup", "Hospitality"]
+        exclude: []
+        # Fully dark campaign — no organic YT post on the channel, so org = 0.
+        yt_organic_impressions: 0
+    sources:
+      # MS API base. For a fully-dark campaign MS still surfaces what it can
+      # see (a YT and a LinkedIn post here); the ad-platform CSVs below fill
+      # the gaps MS misses (X paid, true-dark Meta + LinkedIn ads).
+      measure_studio_group_id: 7433         # On Location x FIFA
+      youtube_paid:
+        - onlocation_fifa_yt_paid.csv
+      meta_ads:
+        - onlocation_fifa_meta_ads.csv
+      linkedin_ads:
+        - onlocation_fifa_linkedin_ads.csv
+      x_ads:
+        - onlocation_fifa_x_ads.csv
 
   - id: usbank
     partner: US Bank
     series: NFL Draft
     series_italic: Draft
     type: social
+    benchmark_category: "Social Coverage Partner"
+    lifecycle: wrapped       # campaign has ended — appears in Recently Wrapped
     flight_start: 2026-04-21
-    flight_end: 2026-04-27
+    flight_end: 2026-05-15
     impression_goal: 14_000_000
     budget_goal: 31_375
     color: ft-4
     lead_format: Made for Social
     blurb: "3 social components, 38 posts live across IG, FB, X, LinkedIn & YouTube Shorts. Delivered 103.6% of impression goal on 98.8% of budget."
-    ms_post_groups:
-      - "NFL Draft"
     sources:
+      # measure_studio_group_id: 6494       # Native Social Coverage - 2026 NFL Draft
       measure_studio: []
+      meta_ads:
+        - usbank_meta_ads.csv
+    # Map raw export campaign/ad names → human-friendly titles used in the dash.
+    # Substring match — both (IG) and (FB) variants of the same Come Up video
+    # get the same friendly name. Add a new entry whenever a fresh export comes
+    # in with a generic "Video N" placeholder name.
+    ad_title_overrides:
+      "US Bank_NFL Draft_The Come Up_Video 1": "Mauigoa"
+      "US Bank_NFL Draft_The Come Up_Video 2": "Mendoza"
+      "US Bank_NFL Draft_The Come Up_Video 3": "Tate"
+      "US Bank_NFL Draft_The Come Up_Video 4": "Downs"
+      "US Bank_NFL Draft_Red Carpet_Video 1": "Cars, homes, watches…"
+
+  # ============== New campaigns (June 2026 add) ==============
+
+  - id: heineken
+    partner: Heineken
+    series: "World Cup"
+    series_italic: "World Cup"
+    # Heineken is a 2-component social-style campaign (Editorial Video for
+    # FOSN + Red Card / Green Flag for FOS Main), not an episodic series.
+    # Categorized under Social so it lives in the sidebar's Social group;
+    # the two `episodes:` entries below render as side-by-side "component
+    # comparison" cards via the social-type rendering path in campaign.jsx
+    # rather than as a vertical per-episode performance table.
+    type: social
+    benchmark_category: "Original Content"
+    lifecycle: active
+    flight_start: 2026-05-18
+    flight_end: 2026-07-31
+    # Sum of both editorial pieces — primary goals live on each episode entry below.
+    impression_goal: 3_500_000
+    budget_goal: 13_900
+    color: ft-4
+    lead_format: Longform Video
+    blurb: "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main)."
+    episodes:
+      - id: editorial_fosn
+        n: "Video 1"
+        title: "Editorial Video — FOS NEWS"
+        date: "May 2026"
+        # GAds names this "Heineken: UEFA (FOSN)". FOSN = FOS NEWS.
+        # Native social cutdowns use "Champions League" in copy (the
+        # UEFA tournament being discussed) — add as a match keyword so
+        # cross-platform IG/FB posts also land on this episode.
+        match: ["FOSN", "FOS NEWS", "UEFA", "Editorial", "Champions League", "Heineken"]
+        exclude: []
+        # Posts pinned by native ID because the keyword matcher can't reach
+        # them (empty/template descriptions, mostly Stories).
+        # The old Y1A4YYmNyc0 cross-group pin (FOS main YT) is removed —
+        # MS now exposes a dedicated "Front Office Sports News" YT account
+        # whose Heineken Short ("Baker Machado breaks down the growth of
+        # European soccer…") sits in group 7587 natively and absorbs the
+        # GAds spend via the standard YT merge. The cross-group post was a
+        # duplicate of the same Champions League creative.
+        manual_posts:
+          - "3908614570004578420"   # IG Story 5/30 — 66 views, no caption
+          - "978645078355801"       # FB Story 5/30 — no caption, FB cross-post of the IG story
+        impression_goal: 2_000_000
+        budget_goal: 7_500
+      - id: red_card_green_flag
+        n: "Video 2"
+        title: "Red Card / Green Flag — FOS Main"
+        date: "Pending"
+        match: ["Red Card", "Green Flag"]
+        exclude: []
+        impression_goal: 1_500_000
+        budget_goal: 6_400
+    sources:
+      measure_studio_group_id: 7587         # Heineken x FOSN
+      youtube_paid:
+        - heineken_yt_paid.csv
+
+  - id: rbc_tst
+    partner: RBC
+    series: "TST"
+    series_italic: "TST"
+    # RBC TST is a 3-component social campaign (Heather O'Reilly longform +
+    # DITL/Cabana series + Panel/Event coverage), not an episodic series.
+    # Categorized under Social so it lives in the sidebar's Social group;
+    # the three `episodes:` entries below render as side-by-side "component
+    # comparison" cards via the social-type rendering path in campaign.jsx
+    # rather than as a vertical per-episode performance table.
+    type: social
+    benchmark_category: "Original Content"
+    lifecycle: active
+    # YT merge: RBC's GAds names ("RBC_TST_Social1_ChrisPaul", "RBC_TST_Cabana",
+    # "RBC_TST_Panel Content1") and MS post titles ("When it comes to legacy
+    # planning…", "Evelyn Shores went from scoring…", "TST brought that joy…")
+    # share no clean tokens for guest-matching to grip on. With each GAds row
+    # marked `(shorts)` (in the CSV) so they bucket as Shorts subtype, this
+    # opt-in enables Pass 5 sorted-position pairing — MS+GAds sorted by paid
+    # impressions desc and zipped 1:1 within the Shorts bucket. Pairs:
+    #   • MS Evelyn (~970K) ↔ GAds Panel Content (970K) — via Pass 2 ±5%
+    #   • MS Legacy Planning (907K) ↔ GAds Social1 ChrisPaul (974K) — Pass 5
+    #   • MS "TST brought that joy" (154K) ↔ GAds Cabana (339K) — Pass 5
+    yt_paired_by_sort: true
+    # Flight TBD — using a generous Apr → Sep window so date-range filters
+    # don't accidentally drop the campaign. Tighten once dates are confirmed.
+    flight_start: 2026-04-15
+    flight_end: 2026-09-30
+    # Sum of the three sub-buckets — 3M + 3M + 6M = 12M.
+    impression_goal: 12_000_000
+    # Total campaign budget confirmed by client.
+    budget_goal: 30_000
+    color: ft-1
+    lead_format: Mixed
+    blurb: "RBC x TST — multi-component campaign: Heather O'Reilly longform + 2 cutdowns, DITL / Cabana series, and Panel / event coverage (Chris Paul + Panel Content)."
+    episodes:
+      - id: oreilly
+        n: "Bucket 01"
+        title: "Heather O'Reilly — Longform + Cutdowns"
+        date: "Pending"
+        match: ["Heather", "O'Reilly", "OReilly"]
+        exclude: []
+        impression_goal: 3_000_000
+        budget_goal: 0
+      - id: ditl_cabana
+        n: "Bucket 02"
+        title: "Day in the Life + Cabana"
+        date: "Pending"
+        match: ["DITL", "Day in the Life", "Day In The Life", "Cabana"]
+        exclude: []
+        impression_goal: 3_000_000
+        budget_goal: 0
+      - id: panel_event
+        n: "Bucket 03"
+        title: "Panel & Event Coverage"
+        date: "May 2026"
+        # Chris Paul attended the TST event — both his Social1 spot and the
+        # Panel Content cutdown go in this bucket. Evelyn Shores (TST7v
+        # player) coverage also lives here. "TST" alone is too broad (would
+        # match every TST-related post across all buckets), so we use the
+        # @-handle form "@TST7v" and specific player/event names instead.
+        # "@CP3" catches Chris Paul X cutdowns that don't say his full name.
+        match: ["Chris Paul", "Panel", "Event", "TST event", "@TST7v", "@CP3", "Evelyn Shores"]
+        exclude: []
+        impression_goal: 6_000_000
+        budget_goal: 0
+    sources:
+      measure_studio_group_id: 7565         # RBC
+      youtube_paid:
+        - rbc_tst_yt_paid.csv
+      x_ads:
+        - rbc_tst_x_ads.csv
+
+  - id: thrivent
+    partner: Thrivent
+    series: "AFHU"
+    series_italic: "AFHU"
+    type: social    # placeholder — refine to content/brandx once scope is clearer
+    benchmark_category: "Custom Social"
+    lifecycle: active
+    # Net-new campaign — flight dates still pending client confirmation, but
+    # goals are now set: 900K impressions / $1K spend. The `flight_tbd: true`
+    # flag keeps the flight label rendering as "TBD" and suppresses elapsed-
+    # time pacing math (which would otherwise spike "Behind Pace" against a
+    # date range we don't actually own). Status is still derived from the
+    # impression-goal pace once we know the timeline.
+    flight_tbd: true
+    flight_start: 2026-05-29
+    flight_end: 2026-08-31
+    impression_goal: 900_000
+    budget_goal: 1_000
+    color: ft-5
+    lead_format: Made for Social
+    blurb: "Thrivent x AFHU — net-new campaign. 900K impression goal · $1K budget. Flight dates TBD."
+    sources:
+      measure_studio_group_id: 7515         # Thrivent
+      x_ads:
+        - thrivent_x_ads.csv

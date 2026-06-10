@@ -1,5 +1,5 @@
 /* global React, CAMPAIGNS, TOP_POSTS, TOP_POSTS_ORGANIC, HERO_POST, CHANNELS, FORMATS, MONTHLY_DELIVERY, SOURCES, fmt,
-   Ic, PlatformPill, PageHead, CampaignCard, MultiLineChart, Donut, BarChart, PLATFORM_COLORS, PaceBar */
+   Ic, PlatformPill, PageHead, CampaignCard, WrappedCard, MultiLineChart, Donut, BarChart, PLATFORM_COLORS, PaceBar */
 const { useState: useStateO } = React;
 
 // ============================================================
@@ -21,8 +21,12 @@ function OverviewPage({ onOpenCampaign }) {
   // Time-based greeting — morning / afternoon / evening
   const hour = new Date().getHours();
   const greetItalic = hour < 12 ? 'morning.' : hour < 17 ? 'afternoon.' : 'evening.';
-  const activeCount = CAMPAIGNS.filter(c => c.statusKind !== 'on' || c.status !== 'Goal Exceeded').length;
-  const needsAttn = CAMPAIGNS.filter(c => c.statusKind === 'danger' || c.statusKind === 'warn').length;
+  // Wrapped campaigns are not part of the "active" cohort — they have their own
+  // Recently Wrapped section. Header counts and "needs attention" pulls only
+  // from active campaigns.
+  const activeOnly = CAMPAIGNS.filter(c => (c.lifecycle || 'active') === 'active');
+  const activeCount = activeOnly.length;
+  const needsAttn = activeOnly.filter(c => c.statusKind === 'danger' || c.statusKind === 'warn').length;
 
   return (
     <>
@@ -30,7 +34,7 @@ function OverviewPage({ onOpenCampaign }) {
         overline={`Sponsored campaigns · ${new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' })}`}
         title="Good"
         italic={greetItalic}
-        sub={<>{CAMPAIGNS.length} active campaigns · <strong>{needsAttn} need{needsAttn === 1 ? 's' : ''} attention</strong>.</>}
+        sub={<>{activeCount} active campaign{activeCount === 1 ? '' : 's'} · <strong>{needsAttn} need{needsAttn === 1 ? 's' : ''} attention</strong>.</>}
         actions={<>
           <div className="search">
             <Ic.search/><input placeholder="Search campaigns, posts, partners…"/>
@@ -86,20 +90,44 @@ function OverviewPage({ onOpenCampaign }) {
       </div>
       )}
 
-      {/* CAMPAIGN GRID */}
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div className="sec-title">Active <em>campaigns</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Pacing across impressions and budget for every live flight.</div>
-          </div>
-        </div>
-        <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:16}}>
-          {CAMPAIGNS.map(c => (
-            <CampaignCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
-          ))}
-        </div>
-      </div>
+      {/* CAMPAIGN GRID — active + recently wrapped */}
+      {(() => {
+        const activeCampaigns = CAMPAIGNS.filter(c => (c.lifecycle || 'active') === 'active');
+        const wrappedCampaigns = CAMPAIGNS.filter(c => c.lifecycle === 'wrapped');
+        return (
+          <>
+            <div className="sec">
+              <div className="sec-h">
+                <div>
+                  <div className="sec-title">Active <em>campaigns</em></div>
+                  <div className="sec-sub" style={{marginTop:6}}>Pacing across impressions and budget for every live flight.</div>
+                </div>
+              </div>
+              <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:16}}>
+                {activeCampaigns.map(c => (
+                  <CampaignCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
+                ))}
+              </div>
+            </div>
+
+            {wrappedCampaigns.length > 0 && (
+              <div className="sec">
+                <div className="sec-h">
+                  <div>
+                    <div className="sec-title">Recently <em>wrapped</em></div>
+                    <div className="sec-sub" style={{marginTop:6}}>Campaigns that have ended — final delivery only.</div>
+                  </div>
+                </div>
+                <div style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:14}}>
+                  {wrappedCampaigns.map(c => (
+                    <WrappedCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
+                  ))}
+                </div>
+              </div>
+            )}
+          </>
+        );
+      })()}
 
 
 
@@ -133,12 +161,16 @@ function OverviewPage({ onOpenCampaign }) {
               <div style={{textAlign:'right'}}>ER</div>
             </div>
             {TOP_POSTS.slice(0, 6).map(p => (
-              <a key={p.id} href="#" style={{
+              <a key={p.id} href={p.url || '#'}
+                 target={p.url ? '_blank' : undefined}
+                 rel={p.url ? 'noopener noreferrer' : undefined}
+                 style={{
                 display:'grid',
                 gridTemplateColumns:'24px 1fr 90px 70px',
                 gap:10, padding:'14px 24px', alignItems:'center',
                 borderBottom:'1px solid var(--line)',
-                textDecoration:'none', color:'inherit', fontSize:13
+                textDecoration:'none', color:'inherit', fontSize:13,
+                cursor: p.url ? 'pointer' : 'default'
               }}>
                 <div style={{fontFamily:'var(--mono)', fontSize:11, color:'var(--ink-3)', fontWeight:600}}>{String(p.rank).padStart(2,'0')}</div>
                 <div style={{display:'flex', flexDirection:'column', gap:4, minWidth:0}}>
@@ -148,8 +180,8 @@ function OverviewPage({ onOpenCampaign }) {
                   </div>
                   <div style={{fontSize:12, color:'var(--ink-2)', lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
                 </div>
-                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:500}}>{fmt.num(p.reach)}</div>
-                <div style={{textAlign:'right', fontFamily:'var(--serif)', fontSize:18, fontWeight:300, color:'var(--flame)'}}>{p.er.toFixed(2)}<span style={{fontSize:11, color:'var(--ink-3)'}}>%</span></div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:13}}>{fmt.num(p.reach)}</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:13}}>{p.er.toFixed(2)}<span style={{fontSize:10, color:'var(--ink-3)', marginLeft:1}}>%</span></div>
               </a>
             ))}
           </div>
@@ -174,12 +206,16 @@ function OverviewPage({ onOpenCampaign }) {
               <div style={{textAlign:'right'}}>% Org</div>
             </div>
             {TOP_POSTS_ORGANIC.slice(0, 6).map(p => (
-              <a key={p.id} href="#" style={{
+              <a key={p.id} href={p.url || '#'}
+                 target={p.url ? '_blank' : undefined}
+                 rel={p.url ? 'noopener noreferrer' : undefined}
+                 style={{
                 display:'grid',
                 gridTemplateColumns:'24px 1fr 100px 70px',
                 gap:10, padding:'14px 24px', alignItems:'center',
                 borderBottom:'1px solid var(--line)',
-                textDecoration:'none', color:'inherit', fontSize:13
+                textDecoration:'none', color:'inherit', fontSize:13,
+                cursor: p.url ? 'pointer' : 'default'
               }}>
                 <div style={{fontFamily:'var(--mono)', fontSize:11, color:'var(--ink-3)', fontWeight:600}}>{String(p.rank).padStart(2,'0')}</div>
                 <div style={{display:'flex', flexDirection:'column', gap:4, minWidth:0}}>
@@ -189,8 +225,8 @@ function OverviewPage({ onOpenCampaign }) {
                   </div>
                   <div style={{fontSize:12, color:'var(--ink-2)', lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
                 </div>
-                <div style={{textAlign:'right', fontFamily:'var(--serif)', fontSize:18, fontWeight:300}}>{fmt.num(p.organicReach)}</div>
-                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:500, color:'#2f7a3f'}}>{p.organicPct.toFixed(0)}%</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:13}}>{fmt.num(p.organicReach)}</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:13, color:'#2f7a3f'}}>{p.organicPct.toFixed(0)}%</div>
               </a>
             ))}
           </div>
@@ -206,42 +242,123 @@ function OverviewPage({ onOpenCampaign }) {
           </div>
         </div>
 
-        {/* CPM BY CHANNEL — bench strip */}
-        <div className="card" style={{padding:24, marginBottom:14}}>
-          <div className="card-h" style={{marginBottom: 18}}>
-            <div>
-              <div className="card-title-serif">Average CPM by channel</div>
-              <div className="card-sub">Blended across all active campaigns. Lower is more efficient.</div>
-            </div>
-            <div style={{fontSize:11, fontFamily:'var(--mono)', color:'var(--ink-3)', letterSpacing:'0.06em'}}>
-              PORTFOLIO BLEND · $0.71
-            </div>
-          </div>
-          <div style={{display:'grid', gridTemplateColumns:'repeat(7, 1fr)', gap:0, borderTop:'1px solid var(--line)'}}>
-            {[
-              { plat:'YT In-feed',   cpm:'$0.49', vol:'34% of imp.', color:'#E00922' },
-              { plat:'YT In-stream', cpm:'$9.20', vol:'22% of imp.', color:'#B0061B' },
-              { plat:'X',            cpm:'$0.71', vol:'5% of imp.',  color:'#1d1d1f' },
-              { plat:'TikTok',       cpm:'$1.84', vol:'12% of imp.', color:'#000000' },
-              { plat:'LinkedIn',     cpm:'$2.14', vol:'9% of imp.',  color:'#0A66C2' },
-              { plat:'Facebook',     cpm:'$3.92', vol:'—',           color:'#1877F2' },
-              { plat:'Instagram',    cpm:'$8.46', vol:'18% of imp.', color:'#E4405F' },
-            ].map((r, i, arr) => (
-              <div key={r.plat} style={{
-                padding:'18px 14px',
-                borderRight: i < arr.length - 1 ? '1px solid var(--line)' : 'none',
-                display:'flex', flexDirection:'column', gap:6
-              }}>
-                <div style={{display:'flex', alignItems:'center', gap:8}}>
-                  <span style={{width:8, height:8, borderRadius:'50%', background:r.color}}/>
-                  <span style={{fontSize:11, color:'var(--ink-2)', fontWeight:500}}>{r.plat}</span>
+        {/* CPM BY CHANNEL — bench strip. Data from window.PORTFOLIO_CPM_BY_CHANNEL
+            (live, recomputed on every refresh; YouTube subtype-split). */}
+        {(() => {
+          const cpmRows = (window.PORTFOLIO_CPM_BY_CHANNEL || []).filter(r => r.impressions > 0);
+          const blend = window.PORTFOLIO_CPM_BLEND || 0;
+          if (!cpmRows.length) return null;
+          // Friendlier short names for the YT subtypes
+          const shortName = (n) => n
+            .replace('YouTube In-feed', 'YT In-feed')
+            .replace('YouTube Pre-roll', 'YT In-stream')
+            .replace('YouTube Shorts', 'YT Shorts');
+          return (
+            <div className="card" style={{padding:24, marginBottom:14}}>
+              <div className="card-h" style={{marginBottom: 18}}>
+                <div>
+                  <div className="card-title-serif">Average CPM by channel</div>
+                  <div className="card-sub">Blended across all active campaigns vs. Media Valuation Model benchmarks. Green = under MVM (more efficient than projected).</div>
                 </div>
-                <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1}}>{r.cpm}</div>
-                <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.04em', color:'var(--ink-3)'}}>{r.vol}</div>
+                <div style={{fontSize:11, fontFamily:'var(--mono)', color:'var(--ink-3)', letterSpacing:'0.06em'}}>
+                  PORTFOLIO BLEND · ${blend.toFixed(2)}
+                </div>
               </div>
-            ))}
-          </div>
-        </div>
+              <div style={{display:'grid', gridTemplateColumns:`repeat(${cpmRows.length}, 1fr)`, gap:0, borderTop:'1px solid var(--line)'}}>
+                {cpmRows.map((r, i, arr) => (
+                  <div key={r.name} style={{
+                    padding:'18px 14px',
+                    borderRight: i < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                    display:'flex', flexDirection:'column', gap:6
+                  }}>
+                    <div style={{display:'flex', alignItems:'center', gap:8}}>
+                      <span style={{width:8, height:8, borderRadius:'50%', background:r.color}}/>
+                      <span style={{fontSize:11, color:'var(--ink-2)', fontWeight:500}}>{shortName(r.name)}</span>
+                    </div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1}}>
+                      {r.cpm > 0 ? `$${r.cpm.toFixed(2)}` : '—'}
+                    </div>
+                    {/* vs Media Valuation Model benchmark — green = under
+                        (more efficient than projected), red = over budget. */}
+                    {r.mvmCpm != null && r.mvmDeltaPct != null ? (
+                      <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.04em',
+                        color: r.mvmDeltaPct <= 0 ? 'var(--positive)' : 'var(--danger)'}}>
+                        {r.mvmDeltaPct > 0 ? '+' : ''}{r.mvmDeltaPct.toFixed(0)}% vs MVM (${r.mvmCpm.toFixed(2)})
+                      </div>
+                    ) : r.mvmCpm != null ? (
+                      <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.04em', color:'var(--ink-3)'}}>
+                        MVM target ${r.mvmCpm.toFixed(2)}
+                      </div>
+                    ) : (
+                      <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.04em', color:'var(--ink-3)'}}>—</div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
+
+        {/* MVM TUNING SUGGESTIONS — flags platforms where the actual CPM has
+            drifted enough from the MVM benchmark that the model should be
+            refreshed for the next proposal cycle. Card only renders when at
+            least one channel is materially off-target. */}
+        {(() => {
+          const rows = (window.PORTFOLIO_CPM_BY_CHANNEL || [])
+            // Material drift: abs(delta) ≥ 15% AND ≥ 100K paid impressions
+            // (volume floor — small samples drift too easily)
+            .filter(r => r.mvmCpm != null
+              && r.mvmDeltaPct != null
+              && Math.abs(r.mvmDeltaPct) >= 15
+              && (r.paidImpressions || 0) >= 100_000)
+            .sort((a, b) => Math.abs(b.mvmDeltaPct) - Math.abs(a.mvmDeltaPct));
+          if (!rows.length) return null;
+          const shortName = (n) => n
+            .replace('YouTube In-feed', 'YT In-feed')
+            .replace('YouTube Pre-roll', 'YT In-stream')
+            .replace('YouTube Shorts', 'YT Shorts');
+          return (
+            <div className="card" style={{padding:24, marginBottom:14, borderLeft:'3px solid var(--accent)'}}>
+              <div className="card-h" style={{marginBottom: 14}}>
+                <div>
+                  <div className="card-title-serif">MVM tuning suggestions</div>
+                  <div className="card-sub">
+                    Channels where actual delivery has drifted ≥ 15% from the Media Valuation Model benchmark on ≥ 100K paid impressions.
+                    Refresh these rates in the MVM so the next proposal projects accurately.
+                  </div>
+                </div>
+              </div>
+              <div style={{display:'flex', flexDirection:'column', gap:10}}>
+                {rows.map(r => {
+                  const direction = r.mvmDeltaPct < 0 ? 'below' : 'above';
+                  const directionColor = r.mvmDeltaPct < 0 ? 'var(--positive)' : 'var(--danger)';
+                  const absPct = Math.abs(r.mvmDeltaPct).toFixed(0);
+                  const imprFmt = (window.fmt && window.fmt.num) ? window.fmt.num(r.paidImpressions) : r.paidImpressions.toLocaleString();
+                  return (
+                    <div key={r.name} style={{
+                      display:'grid',
+                      gridTemplateColumns:'140px 1fr',
+                      gap:14, padding:'12px 14px',
+                      background:'var(--bg-soft)',
+                      borderRadius:6
+                    }}>
+                      <div style={{display:'flex', alignItems:'center', gap:8}}>
+                        <span style={{width:8, height:8, borderRadius:'50%', background:r.color}}/>
+                        <span style={{fontSize:13, fontWeight:600, color:'var(--ink)'}}>{shortName(r.name)}</span>
+                      </div>
+                      <div style={{fontSize:13, color:'var(--ink-2)', lineHeight:1.45}}>
+                        Update from <strong style={{color:'var(--ink)'}}>${r.mvmCpm.toFixed(2)}</strong>
+                        {' → '}
+                        <strong style={{color:'var(--ink)'}}>${r.cpm.toFixed(2)}</strong>.
+                        Tracking <span style={{color:directionColor, fontWeight:600}}>{absPct}% {direction}</span> projection on {imprFmt} paid impressions.
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })()}
 
         {/* ER BENCHMARKS BY CHANNEL — FOS 2025 sponsored + all-content reference */}
         <div className="card" style={{padding:24, marginBottom:14}}>

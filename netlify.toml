@@ -1,0 +1,41 @@
+# Netlify deploy config for the Pulse campaign-pulse dashboard.
+#
+# Layout:
+#   • Static site: served from viewer/ — campaign-pulse.html is the entry point
+#   • Functions: netlify/functions/ — upload-csv, refresh-now
+#
+# Required env vars (Site settings → Environment variables):
+#   GITHUB_TOKEN     — fine-grained PAT with Contents R/W + Actions R/W
+#   GITHUB_REPO      — "owner/repo" (e.g. "fos-team/campaign-tracker")
+#   GITHUB_BRANCH    — typically "main"
+#   UPLOAD_PASSWORD  — shared password the team types in the upload form
+#
+# After changing this file, trigger a "Deploy with cleared cache" once so
+# Netlify picks up the new functions directory.
+
+[build]
+  publish    = "viewer"
+  functions  = "netlify/functions"
+  # No build command — viewer/ is already a static bundle plus jsx that
+  # browsers compile at runtime via the standalone Babel script.
+  command    = "echo 'Static site, no build step.'"
+
+# Serve the standalone bundle at the root for shareable links, and keep the
+# split-file React app at /app/ for the team's normal view.
+[[redirects]]
+  from   = "/"
+  to    = "/Pulse_Dashboard_Standalone.html"
+  status = 200
+
+# Functions are auto-discovered, but pin the runtime explicitly so we don't
+# get surprises on Node version bumps.
+[functions]
+  node_bundler = "esbuild"
+
+# Security headers — useful even on internal tools.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options       = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy       = "strict-origin-when-cross-origin"

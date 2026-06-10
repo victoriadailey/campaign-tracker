@@ -24,6 +24,8 @@
 <script type="text/babel" src="campaign.jsx"></script>
 <script type="text/babel" src="usbank.jsx"></script>
 <script type="text/babel" src="benchmarks.jsx"></script>
+<script type="text/babel" src="inputs.jsx"></script>
+<script type="text/babel" src="archive.jsx"></script>
 
 <script type="text/babel">
 const TWEAK_DEFAULTS = {
@@ -63,11 +65,21 @@ function App() {
         onNav={setView}
         campaigns={CAMPAIGNS}
       />
-      <main className="main" data-screen-label={view.view === 'overview' ? '01 Overview' : view.view === 'benchmarks' ? '02 Benchmarks' : `03 Campaign — ${view.id}`}>
+      <main className="main" data-screen-label={
+        view.view === 'overview'    ? '01 Overview'
+          : view.view === 'benchmarks' ? '02 Benchmarks'
+          : view.view === 'inputs'     ? '03 Add Campaign Data'
+          : view.view === 'archive'    ? '04 Data Archive'
+          : `05 Campaign — ${view.id}`
+      }>
         {view.view === 'overview' ? (
           <OverviewPage onOpenCampaign={(id) => setView({ view: 'campaign', id })}/>
         ) : view.view === 'benchmarks' ? (
           <BenchmarksPage/>
+        ) : view.view === 'inputs' ? (
+          <InputsPage/>
+        ) : view.view === 'archive' ? (
+          <DataArchivePage/>
         ) : view.id === 'usbank' ? (
           <UsBankPage campaignId={view.id} onBack={() => setView({ view: 'overview' })}/>
         ) : (

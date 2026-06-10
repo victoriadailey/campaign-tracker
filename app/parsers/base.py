@@ -21,6 +21,7 @@ class Source(str, Enum):
     META_ADS = "meta_ads"
     TIKTOK_ADS = "tiktok_ads"
     X_ADS = "x_ads"
+    LINKEDIN_ADS = "linkedin_ads"           # paid LinkedIn (Campaign Manager export)
     NATIVE_LINKEDIN = "native_linkedin"
     NATIVE_INSTAGRAM = "native_instagram"
     NATIVE_FACEBOOK = "native_facebook"
@@ -99,6 +100,14 @@ class NormalizedPost:
     cpv: float | None = None
     cpc: float | None = None
     ctr: float | None = None
+
+    # Click + completion metrics — primary signals for paid-performance
+    # (BrandX) campaigns. Click counts are paid-side only since organic
+    # platforms either don't track them or aren't comparable.
+    clicks_paid: int | None = None           # generic paid click count (all click types)
+    link_clicks_paid: int | None = None      # link-out clicks specifically
+    video_views_p100_paid: int | None = None # paid video views that watched to completion
+    video_views_3s_paid: int | None = None   # paid 3-second video views (Meta's "view started" denominator for VCR)
 
     raw: dict[str, Any] = field(default_factory=dict)
 

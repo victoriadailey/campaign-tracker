@@ -1,0 +1,5031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pulse — US Bank x NFL Draft</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+/* ============================================================
+   FOS SOCIAL DASHBOARD — DESIGN SYSTEM
+   Editorial proprietary feel: Liquorice + Sunshine + Cream
+   ============================================================ */
+
+:root {
+  /* Palette — Editorial (default) */
+  --liquorice: #1F1A15;
+  --liquorice-2: #15110d;
+  --sunshine: #FFE019;
+  --cream: #F5F1E8;
+  --cream-2: #ECE6D6;
+  --paper: #FAF7EF;
+  --blossom: #F2A6A8;
+  --flame: #DE6B38;
+  --orange: #FF9947;
+  --pear: #8FC766;
+  --sky: #5CB5F2;
+  --lilac: #A896F2;
+
+  /* Semantic */
+  --bg: var(--cream);
+  --bg-soft: var(--cream-2);
+  --surface: var(--paper);
+  --ink: var(--liquorice);
+  --ink-2: #443c33;
+  --ink-3: #857d70;
+  --line: rgba(31, 26, 21, 0.10);
+  --line-2: rgba(31, 26, 21, 0.18);
+  --accent: var(--flame);
+  --accent-ink: var(--paper);
+  --positive: #2f7a3f;
+  --warning: var(--orange);
+  --danger: #b8392b;
+
+  /* Type */
+  --serif: 'Newsreader', 'Source Serif 4', 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+
+  /* Spacing scale */
+  --pad-xs: 8px;
+  --pad-sm: 12px;
+  --pad-md: 16px;
+  --pad-lg: 24px;
+  --pad-xl: 32px;
+
+  /* Radius */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+
+  /* Shadows */
+  --sh-1: 0 1px 0 rgba(36,28,23,0.06), 0 1px 2px rgba(36,28,23,0.04);
+  --sh-2: 0 4px 20px -8px rgba(36,28,23,0.18);
+
+  /* Density */
+  --row-h: 44px;
+  --card-pad: 22px;
+}
+
+[data-density="compact"] {
+  --pad-md: 12px;
+  --pad-lg: 18px;
+  --pad-xl: 24px;
+  --row-h: 36px;
+  --card-pad: 16px;
+}
+
+[data-density="spacious"] {
+  --pad-md: 20px;
+  --pad-lg: 32px;
+  --pad-xl: 44px;
+  --row-h: 52px;
+  --card-pad: 28px;
+}
+
+/* DARK */
+[data-theme="dark"] {
+  --bg: #18130f;
+  --bg-soft: #201914;
+  --surface: #2a221c;
+  --ink: #f7eecf;
+  --ink-2: #cbbfa5;
+  --ink-3: #8a7e6a;
+  --line: rgba(247, 238, 207, 0.10);
+  --line-2: rgba(247, 238, 207, 0.18);
+}
+
+/* PALETTE: Sky */
+[data-palette="sky"] {
+  --accent: var(--sky);
+  --accent-ink: #082c46;
+}
+/* PALETTE: Sunshine */
+[data-palette="sunshine"] {
+  --accent: var(--sunshine);
+  --accent-ink: var(--liquorice);
+}
+/* PALETTE: Flame */
+[data-palette="flame"] {
+  --accent: var(--flame);
+  --accent-ink: #fff7ee;
+}
+/* PALETTE: Pear */
+[data-palette="pear"] {
+  --accent: var(--pear);
+  --accent-ink: #1d3a10;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "cv11";
+}
+
+a { color: inherit; }
+
+/* ============================================================
+   APP SHELL
+   ============================================================ */
+.app {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  background: var(--liquorice);
+  color: var(--cream);
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.sb-brand {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 4px 8px 22px;
+  border-bottom: 1px solid rgba(252,247,219,0.12);
+  margin-bottom: 18px;
+}
+.sb-brand .mark {
+  width: 28px; height: 28px; border-radius: 6px;
+  background: var(--cream); color: var(--liquorice);
+  display: grid; place-items: center;
+  font-family: var(--serif); font-size: 22px; font-weight: 300; line-height: 1;
+  flex-shrink: 0; align-self: center;
+}
+.sb-brand .name {
+  font-family: var(--serif); font-size: 22px; line-height: 1;
+  font-weight: 300; letter-spacing: -0.01em;
+}
+.sb-brand .name em { font-style: italic; color: var(--cream); }
+
+.sb-section {
+  text-transform: uppercase;
+  font-size: 10px; letter-spacing: 0.12em;
+  color: rgba(252,247,219,0.4);
+  padding: 14px 10px 6px;
+  font-weight: 600;
+}
+.sb-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 10px; border-radius: 8px;
+  font-size: 13px; font-weight: 500;
+  color: rgba(252,247,219,0.78);
+  cursor: pointer; transition: all .15s;
+  border: none; background: none;
+  width: 100%; text-align: left;
+  font-family: inherit;
+}
+.sb-item:hover { background: rgba(252,247,219,0.06); color: var(--cream); }
+.sb-item.active {
+  background: var(--cream); color: var(--liquorice);
+  font-weight: 600;
+}
+.sb-item .ic { width: 16px; height: 16px; flex-shrink: 0; }
+.sb-item .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  margin-left: auto;
+}
+.sb-foot {
+  margin-top: auto;
+  padding: 14px 10px;
+  border-top: 1px solid rgba(252,247,219,0.12);
+  display: flex; align-items: center; gap: 10px;
+}
+.sb-avatar {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: var(--blossom); color: var(--liquorice);
+  display: grid; place-items: center;
+  font-weight: 600; font-size: 12px;
+}
+.sb-foot .who { font-size: 12px; line-height: 1.3; }
+.sb-foot .who .nm { color: var(--cream); font-weight: 600; }
+.sb-foot .who .em { color: rgba(252,247,219,0.5); }
+
+/* MAIN */
+.main {
+  padding: 28px 36px 60px;
+  min-width: 0;
+}
+
+/* HEADER */
+.head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+.head-title {
+  font-family: var(--serif);
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+.head-title em { font-style: italic; }
+.head-sub { font-size: 13px; color: var(--ink-3); max-width: 520px; }
+.head-sub strong { color: var(--ink); font-weight: 600; }
+.head-actions { display: flex; gap: 10px; align-items: center; }
+
+/* BUTTONS */
+.btn {
+  font-family: var(--sans);
+  font-size: 13px; font-weight: 500;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line-2);
+  background: transparent; color: var(--ink);
+  cursor: pointer;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.btn:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.btn-pri {
+  background: var(--liquorice); color: var(--cream);
+  border-color: var(--liquorice);
+}
+.btn-pri:hover { background: var(--ink-2); border-color: var(--ink-2); }
+.btn-acc {
+  background: var(--accent); color: var(--accent-ink);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.btn-acc:hover { background: var(--ink); color: var(--accent); border-color: var(--ink); }
+.btn-icon {
+  width: 36px; height: 36px; padding: 0;
+  display: grid; place-items: center;
+  border-radius: 50%;
+}
+
+/* SEARCH */
+.search {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  width: 240px;
+  font-size: 13px;
+}
+.search input {
+  border: none; outline: none; background: none;
+  flex: 1; font: inherit; color: inherit;
+}
+.search input::placeholder { color: var(--ink-3); }
+
+/* CARDS */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: var(--card-pad);
+  position: relative;
+}
+.card-h {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 12px; margin-bottom: 14px;
+}
+.card-title {
+  font-size: 13px; font-weight: 600; color: var(--ink);
+  display: flex; align-items: center; gap: 8px;
+}
+.card-title-serif {
+  font-family: var(--serif); font-weight: 300;
+  font-size: 22px; letter-spacing: -0.01em;
+}
+.card-sub { font-size: 12px; color: var(--ink-3); margin-top: 2px; }
+
+/* SECTION */
+.sec { margin-bottom: 28px; }
+.sec-h {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 14px; gap: 16px;
+}
+.sec-title {
+  font-family: var(--serif);
+  font-size: 28px; line-height: 1;
+  font-weight: 300; letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.sec-title em { font-style: italic; }
+.sec-sub { font-size: 12px; color: var(--ink-3); }
+
+/* PILLS */
+.pill {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.01em;
+  border: 1px solid var(--line-2);
+}
+.pill .dot { width: 6px; height: 6px; border-radius: 50%; }
+.pill-on { background: rgba(143,199,102,0.18); color: #1d4a14; border-color: rgba(143,199,102,0.4); }
+.pill-on .dot { background: var(--positive); }
+.pill-warn { background: rgba(255,153,71,0.18); color: #6b2f06; border-color: rgba(255,153,71,0.4); }
+.pill-warn .dot { background: var(--warning); }
+.pill-danger { background: rgba(184,57,43,0.12); color: var(--danger); border-color: rgba(184,57,43,0.3); }
+.pill-danger .dot { background: var(--danger); }
+.pill-ghost { background: transparent; color: var(--ink-2); }
+.pill-ink { background: var(--liquorice); color: var(--cream); border-color: var(--liquorice); }
+.pill-acc { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+[data-theme="dark"] .pill-on { background: rgba(143,199,102,0.18); color: #b6e29a; }
+[data-theme="dark"] .pill-warn { background: rgba(255,153,71,0.18); color: #f3b07a; }
+[data-theme="dark"] .pill-danger { background: rgba(242,166,168,0.18); color: #f2a6a8; }
+
+/* KPI */
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+.kpi {
+  background: var(--surface);
+  padding: 18px 20px 16px;
+}
+.kpi-lbl {
+  font-size: 10px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-3); margin-bottom: 10px;
+}
+.kpi-val {
+  font-family: var(--serif);
+  font-size: 36px; line-height: 1;
+  font-weight: 300; letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.kpi-val .unit { font-size: 18px; color: var(--ink-3); margin-left: 2px; }
+.kpi-foot {
+  margin-top: 8px;
+  display: flex; align-items: center; gap: 6px;
+  font-size: 11px; color: var(--ink-3);
+}
+.kpi-delta { font-weight: 600; }
+.kpi-delta.up { color: var(--positive); }
+.kpi-delta.dn { color: var(--danger); }
+
+/* GRID */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.grid-12 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+.grid-21 { display: grid; grid-template-columns: 1fr 2fr; gap: 16px; }
+
+/* CAMPAIGN CARD (big, on overview) */
+.cmp-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 24px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all .18s;
+  display: flex; flex-direction: column;
+  min-height: 280px;
+}
+.cmp-card:hover { transform: translateY(-2px); box-shadow: var(--sh-2); }
+.cmp-card.ft-1 { background: var(--orange); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-2 { background: var(--blossom); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-3 { background: var(--sky); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-4 { background: var(--pear); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-5 { background: var(--lilac); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-6 { background: var(--orange); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-ink { background: var(--liquorice); color: var(--cream); border-color: transparent; }
+
+.cmp-card .partner-row {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 4px;
+}
+.cmp-card .partner {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  opacity: 0.75;
+}
+.cmp-card .series {
+  font-family: var(--serif); font-size: 32px;
+  line-height: 1; font-weight: 300;
+  letter-spacing: -0.015em;
+  margin: 8px 0 16px;
+}
+.cmp-card .series em { font-style: italic; }
+.cmp-pacing { display: flex; flex-direction: column; gap: 12px; margin-top: auto; }
+.pace-row { display: flex; flex-direction: column; gap: 6px; }
+.pace-meta {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 12px; font-weight: 500;
+}
+.pace-meta .pl { opacity: 0.7; }
+.pace-meta .pv { font-weight: 600; }
+.pace-bar {
+  height: 4px; background: rgba(36,28,23,0.18);
+  border-radius: 999px; overflow: hidden;
+  position: relative;
+}
+.pace-bar > i {
+  display: block; height: 100%;
+  background: var(--liquorice);
+  border-radius: 999px;
+}
+.pace-bar.on-light > i { background: var(--liquorice); }
+.cmp-card .meta-foot {
+  display: flex; justify-content: space-between;
+  font-size: 11px; opacity: 0.7;
+  padding-top: 14px; margin-top: 14px;
+  border-top: 1px solid rgba(36,28,23,0.15);
+}
+.cmp-card .arrow {
+  position: absolute; top: 22px; right: 22px;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: var(--liquorice); color: var(--cream);
+  display: grid; place-items: center;
+  transition: transform .18s;
+}
+.cmp-card.ft-ink .arrow { background: var(--cream); color: var(--liquorice); }
+.cmp-card:hover .arrow { transform: translate(2px, -2px) rotate(-10deg); }
+
+/* TOP POSTS */
+.posts {
+  display: flex; flex-direction: column;
+}
+.post {
+  display: grid;
+  grid-template-columns: 28px 1fr 100px 100px 100px 80px;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 4px;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  transition: background .12s;
+}
+.post:hover { background: var(--bg-soft); }
+.post:last-child { border-bottom: none; }
+.post .rank {
+  font-family: var(--serif); font-size: 22px;
+  font-weight: 400; color: var(--ink-3);
+  font-style: italic;
+}
+.post-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.post-meta { display: flex; gap: 8px; align-items: center; font-size: 11px; color: var(--ink-3); }
+.post-quote {
+  font-size: 14px; font-weight: 500; color: var(--ink);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.post-num { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 13px; }
+.post-num .lbl { display: block; font-size: 10px; color: var(--ink-3); font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 2px; }
+
+.post-plat {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 3px 9px; border-radius: 999px;
+  background: var(--bg-soft); color: var(--ink);
+  font-size: 11px; font-weight: 600;
+  border: 1px solid var(--line);
+}
+
+/* CHARTS */
+.chart-wrap {
+  height: 220px;
+  position: relative;
+}
+.chart-tall { height: 280px; }
+.chart-short { height: 140px; }
+
+/* CALLOUT */
+.callout {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--r-md);
+  padding: 16px 18px;
+}
+.callout.pos { border-left-color: var(--positive); }
+.callout.warn { border-left-color: var(--warning); }
+.callout.neg { border-left-color: var(--danger); }
+.callout.info { border-left-color: var(--sky); }
+.callout-title { font-size: 13px; font-weight: 600; margin-bottom: 4px; color: var(--ink); }
+.callout-body { font-size: 12.5px; color: var(--ink-2); line-height: 1.55; }
+
+/* SOURCES */
+.src-strip {
+  display: flex; gap: 24px; flex-wrap: wrap;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  margin-bottom: 28px;
+  font-size: 11px;
+}
+.src-strip .src-lbl {
+  font-size: 10px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--ink-3);
+  align-self: center;
+}
+.src-item { display: flex; align-items: center; gap: 6px; }
+.src-item .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--positive); }
+.src-item .dot.stale { background: var(--warning); }
+.src-item .nm { font-weight: 500; color: var(--ink); }
+.src-item .dt { color: var(--ink-3); }
+
+/* TABS / SEGMENTS */
+.seg {
+  display: inline-flex;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 2px;
+}
+.seg button {
+  border: none; background: none; color: var(--ink-3);
+  font: inherit; font-size: 12px; font-weight: 500;
+  padding: 6px 14px; border-radius: 999px; cursor: pointer;
+  transition: all .15s;
+}
+.seg button.active { background: var(--liquorice); color: var(--cream); }
+.seg button:hover:not(.active) { color: var(--ink); }
+
+/* TABLES */
+.tbl {
+  width: 100%; border-collapse: collapse;
+  font-size: 13px;
+}
+.tbl th {
+  text-align: left;
+  font-size: 10px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-3);
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.tbl td {
+  padding: 12px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+}
+.tbl tr:last-child td { border-bottom: none; }
+.tbl .num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* CHANNEL TILE */
+.chan {
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface);
+}
+.chan-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.chan-name {
+  font-family: var(--serif); font-size: 22px;
+  font-weight: 300; line-height: 1; letter-spacing: -0.01em;
+}
+.chan-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; margin-top: 8px; }
+.chan-stat .v { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.chan-stat .l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); font-weight: 500; }
+
+/* FORMAT BARS */
+.fbar { display: flex; flex-direction: column; gap: 12px; }
+.fbar-row {
+  display: grid; grid-template-columns: 110px 1fr 90px;
+  align-items: center; gap: 12px;
+}
+.fbar-name { font-size: 13px; font-weight: 500; }
+.fbar-track { height: 8px; background: var(--bg-soft); border-radius: 999px; overflow: hidden; position: relative; }
+.fbar-fill { height: 100%; border-radius: 999px; }
+.fbar-num { font-size: 13px; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* HERO POST CARD */
+.hero-post {
+  background: var(--liquorice);
+  color: var(--cream);
+  border-radius: var(--r-lg);
+  padding: 28px;
+  display: flex; flex-direction: column; gap: 16px;
+  position: relative; overflow: hidden;
+}
+.hero-post::after {
+  content: '';
+  position: absolute; right: -40px; top: -40px;
+  width: 200px; height: 200px;
+  background: var(--accent);
+  border-radius: 50%;
+  opacity: 0.1;
+}
+.hero-post .badge {
+  display: inline-flex; align-self: flex-start;
+  gap: 6px; align-items: center;
+  background: var(--accent); color: var(--accent-ink);
+  padding: 4px 10px; border-radius: 999px;
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.hero-post .quote {
+  font-family: var(--serif);
+  font-size: 28px; line-height: 1.15;
+  font-weight: 300; letter-spacing: -0.01em;
+}
+.hero-post .quote em { font-style: italic; }
+.hero-post .meta-row { display: flex; gap: 24px; font-size: 12px; color: rgba(252,247,219,0.7); }
+.hero-post .stats {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1px; background: rgba(252,247,219,0.15);
+  border-radius: var(--r-sm); overflow: hidden;
+  margin-top: auto;
+}
+.hero-post .stat { background: var(--liquorice); padding: 12px 14px; }
+.hero-post .stat .v { font-family: var(--serif); font-size: 22px; line-height: 1; }
+.hero-post .stat .l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(252,247,219,0.6); margin-top: 6px; }
+
+/* DARK ADJUSTMENTS */
+[data-theme="dark"] .post:hover { background: rgba(247,238,207,0.04); }
+[data-theme="dark"] .seg button.active { background: var(--accent); color: var(--accent-ink); }
+[data-theme="dark"] .post-plat { background: var(--bg-soft); }
+[data-theme="dark"] .btn:hover { background: var(--cream); color: var(--liquorice); border-color: var(--cream); }
+
+/* utility */
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: 8px; }
+.gap-3 { gap: 12px; }
+.gap-4 { gap: 16px; }
+.mb-2 { margin-bottom: 8px; }
+.mb-3 { margin-bottom: 12px; }
+.mb-4 { margin-bottom: 16px; }
+.mb-6 { margin-bottom: 24px; }
+.mt-auto { margin-top: auto; }
+.muted { color: var(--ink-3); }
+.serif { font-family: var(--serif); }
+.mono { font-family: var(--mono); font-size: 0.95em; }
+.tnum { font-variant-numeric: tabular-nums; }
+</style>
+<style>
+  /* Standalone-only — no sidebar, so the main column expands to full width.
+     The grid `.app { grid-template-columns: 240px 1fr; }` rule in styles.css
+     would otherwise leave a 240px gap on the left. */
+  body { background: var(--cream); }
+  .app.standalone {
+    display: block;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 28px 32px;
+  }
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+
+<!-- US Bank-only data payload -->
+<script>
+// ============================================================
+
+// Generated by app/viewer/refresh.py — do not edit by hand.
+
+// Regenerate with: python -m app.viewer.refresh
+
+// ============================================================
+
+
+
+window.CAMPAIGNS = [
+  {
+    "id": "usbank",
+    "partner": "US Bank",
+    "series": "NFL Draft",
+    "seriesItalic": "Draft",
+    "type": "social",
+    "flight": "Apr 21 \u2014 May 15, 2026",
+    "elapsedPct": 95.8,
+    "daysLeft": 1,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 3728374,
+      "goal": 14000000
+    },
+    "budget": {
+      "delivered": 17064.84,
+      "goal": 31375.0
+    },
+    "color": "ft-4",
+    "leadFormat": "Made for Social",
+    "topChannel": "Instagram",
+    "er": 56.5,
+    "cpm": 4.58,
+    "episodes": 0,
+    "posts": 10,
+    "blurb": "3 social components, 38 posts live across IG, FB, X, LinkedIn & YouTube Shorts. Delivered 103.6% of impression goal on 98.8% of budget.",
+    "benchmarkCategory": "Social Coverage Partner",
+    "lifecycle": "wrapped",
+    "channels": [
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 2791202,
+        "eng": 1478285,
+        "er": 52.96,
+        "cpm": 4.5,
+        "color": "#E4405F",
+        "delta": 1500.1,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 0
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 937172,
+        "eng": 629425,
+        "er": 67.16,
+        "cpm": 4.82,
+        "color": "#1877F2",
+        "delta": 4289.7,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 0
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "US Bank_NFL Draft_Red Carpet_Video 1",
+        "rank": 1,
+        "partner": "US Bank",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "Cars, homes, watches\u2026",
+        "er": 76.83,
+        "eng": 336080,
+        "reach": 437411,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 4 (FB)",
+        "rank": 2,
+        "partner": "US Bank",
+        "platform": "Facebook",
+        "format": "Feed video",
+        "quote": "Downs",
+        "er": 68.95,
+        "eng": 155485,
+        "reach": 206515,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 3 (FB)",
+        "rank": 3,
+        "partner": "US Bank",
+        "platform": "Facebook",
+        "format": "Feed video",
+        "quote": "Tate",
+        "er": 67.84,
+        "eng": 156334,
+        "reach": 217470,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 2 (FB)",
+        "rank": 4,
+        "partner": "US Bank",
+        "platform": "Facebook",
+        "format": "Feed video",
+        "quote": "Mendoza",
+        "er": 66.54,
+        "eng": 162580,
+        "reach": 228241,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 2 (IG)",
+        "rank": 5,
+        "partner": "US Bank",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "Mendoza",
+        "er": 66.02,
+        "eng": 310405,
+        "reach": 464655,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 1 (FB)",
+        "rank": 6,
+        "partner": "US Bank",
+        "platform": "Facebook",
+        "format": "Feed video",
+        "quote": "Mauigoa",
+        "er": 65.45,
+        "eng": 155026,
+        "reach": 218245,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 4 (IG)",
+        "rank": 7,
+        "partner": "US Bank",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "Downs",
+        "er": 63.05,
+        "eng": 272125,
+        "reach": 390982,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 1 (IG)",
+        "rank": 8,
+        "partner": "US Bank",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "Mauigoa",
+        "er": 61.06,
+        "eng": 259516,
+        "reach": 367160,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_The Come Up_Video 3 (IG)",
+        "rank": 9,
+        "partner": "US Bank",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "Tate",
+        "er": 60.11,
+        "eng": 234622,
+        "reach": 361026,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      },
+      {
+        "id": "US Bank_NFL Draft_Red Carpet_Video 2",
+        "rank": 10,
+        "partner": "US Bank",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "US Bank_NFL Draft_Red Carpet_Video 2",
+        "er": 10.29,
+        "eng": 65537,
+        "reach": 523547,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null
+      }
+    ],
+    "topPostsOrganic": [],
+    "callouts": [
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "Facebook post at 69.0% ER \u2014 45.1\u00d7 the benchmark.",
+        "body": "\"Downs\" \u2014 207K reach, 155K engagements (0% organic). Strongest single asset on the campaign and well clear of the Facebook benchmark. Feature it in the partner update.",
+        "meta": "US Bank \u00b7 Facebook"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "72% behind pacing with 1 days left.",
+        "body": "10.3M impressions still needed to hit the 14.0M goal. Needs immediate optimization \u2014 reallocate budget to the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "US Bank \u00b7 Pacing"
+      }
+    ]
+  }
+];
+
+window.TOP_POSTS = [
+  {
+    "id": "US Bank_NFL Draft_Red Carpet_Video 1",
+    "rank": 1,
+    "partner": "US Bank",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "Cars, homes, watches\u2026",
+    "er": 76.83,
+    "eng": 336080,
+    "reach": 437411,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  },
+  {
+    "id": "US Bank_NFL Draft_The Come Up_Video 4 (FB)",
+    "rank": 2,
+    "partner": "US Bank",
+    "platform": "Facebook",
+    "format": "Feed video",
+    "quote": "Downs",
+    "er": 68.95,
+    "eng": 155485,
+    "reach": 206515,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  },
+  {
+    "id": "US Bank_NFL Draft_The Come Up_Video 3 (FB)",
+    "rank": 3,
+    "partner": "US Bank",
+    "platform": "Facebook",
+    "format": "Feed video",
+    "quote": "Tate",
+    "er": 67.84,
+    "eng": 156334,
+    "reach": 217470,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  },
+  {
+    "id": "US Bank_NFL Draft_The Come Up_Video 2 (FB)",
+    "rank": 4,
+    "partner": "US Bank",
+    "platform": "Facebook",
+    "format": "Feed video",
+    "quote": "Mendoza",
+    "er": 66.54,
+    "eng": 162580,
+    "reach": 228241,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  },
+  {
+    "id": "US Bank_NFL Draft_The Come Up_Video 2 (IG)",
+    "rank": 5,
+    "partner": "US Bank",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "Mendoza",
+    "er": 66.02,
+    "eng": 310405,
+    "reach": 464655,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  },
+  {
+    "id": "US Bank_NFL Draft_The Come Up_Video 1 (FB)",
+    "rank": 6,
+    "partner": "US Bank",
+    "platform": "Facebook",
+    "format": "Feed video",
+    "quote": "Mauigoa",
+    "er": 65.45,
+    "eng": 155026,
+    "reach": 218245,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  },
+  {
+    "id": "US Bank_NFL Draft_The Come Up_Video 4 (IG)",
+    "rank": 7,
+    "partner": "US Bank",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "Downs",
+    "er": 63.05,
+    "eng": 272125,
+    "reach": 390982,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  },
+  {
+    "id": "US Bank_NFL Draft_The Come Up_Video 1 (IG)",
+    "rank": 8,
+    "partner": "US Bank",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "Mauigoa",
+    "er": 61.06,
+    "eng": 259516,
+    "reach": 367160,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null
+  }
+];
+
+window.HERO_POST = {
+  "partner": "US Bank",
+  "platform": "Instagram",
+  "format": "0% organic feed video",
+  "quote": "Cars, homes, watches\u2026",
+  "attribution": "US Bank \u2014 top performer",
+  "er": "76.83%",
+  "eng": "336,080",
+  "reach": "437,411",
+  "organic": "0%"
+};
+
+window.TOP_POSTS_ORGANIC = [];
+
+window.CHANNELS = [
+  {
+    "name": "Instagram",
+    "italic": "gram",
+    "impressions": 2791202,
+    "eng": 1478285,
+    "er": 52.96,
+    "cpm": 4.5,
+    "color": "#E4405F",
+    "delta": 1500.1,
+    "bench": {
+      "er": 3.31,
+      "cpm": 5.1
+    },
+    "organicImpressions": 0
+  },
+  {
+    "name": "Facebook",
+    "italic": "book",
+    "impressions": 937172,
+    "eng": 629425,
+    "er": 67.16,
+    "cpm": 4.82,
+    "color": "#1877F2",
+    "delta": 4289.7,
+    "bench": {
+      "er": 1.53,
+      "cpm": 4.8
+    },
+    "organicImpressions": 0
+  }
+];
+
+window.SOURCES = [
+  {
+    "name": "Measure Studio",
+    "date": "May 5, 2026",
+    "stale": false
+  },
+  {
+    "name": "Google Ads",
+    "date": "May 5, 2026",
+    "stale": false
+  },
+  {
+    "name": "X Ads Manager",
+    "date": "May 5, 2026",
+    "stale": false
+  },
+  {
+    "name": "Meta Business",
+    "date": "May 4, 2026",
+    "stale": false
+  },
+  {
+    "name": "TikTok Ads",
+    "date": "May 1, 2026",
+    "stale": true
+  },
+  {
+    "name": "YouTube Studio",
+    "date": "May 5, 2026",
+    "stale": false
+  }
+];
+
+window.SIGNALS = [
+  {
+    "kind": "opportunity",
+    "title": "LinkedIn = free engagement",
+    "body": "TastyTrade, ADP, and E*TRADE all hit 4%+ ER on LinkedIn at $0 spend. Default-include in every content package."
+  },
+  {
+    "kind": "win",
+    "title": "TikTok is your zero-cost reach engine",
+    "body": "TastyTrade TikTok delivered 592K views on $267 in spend \u2014 228% of contracted impressions. Should be a default channel for every package."
+  },
+  {
+    "kind": "watch",
+    "title": "E*TRADE pacing watch",
+    "body": "72% of flight elapsed but only 11% of impressions delivered. Mark Cuban episode launching this week should close the gap."
+  }
+];
+
+window.UB_COMPONENTS = [
+  {
+    "id": "comeup",
+    "n": "01",
+    "title": "The Come Up",
+    "italic": "Up",
+    "sub": "4 Athlete Stories \u00d7 5 Platforms \u00b7 20 Posts Live",
+    "status": "Goal Exceeded",
+    "statusKind": "on",
+    "color": "var(--orange)",
+    "fg": "var(--liquorice)",
+    "accent": "ft-1",
+    "impressions": {
+      "delivered": 8410825,
+      "goal": 8000000
+    },
+    "budget": {
+      "delivered": 22743,
+      "goal": 16875
+    },
+    "engagements": 306409,
+    "er": 3.6,
+    "posts": 20,
+    "blurb": "X paid drove 4.65M impressions at $1.54 CPM \u2014 the dominant reach driver. Meta delivered 2.65M IG+FB. YT Shorts 25.0% blended ER.",
+    "budgetNote": "Budget reallocated from Native Social to support paid amplification after CPMs ran elevated during the busy draft window.",
+    "platforms": [
+      {
+        "name": "Instagram",
+        "posts": 4,
+        "organic": 50803,
+        "paid": 1717115,
+        "total": 1767918,
+        "eng": 139158,
+        "er": 7.9,
+        "spend": 8664.43,
+        "est": 7102,
+        "pct": 122.0
+      },
+      {
+        "name": "Facebook",
+        "posts": 4,
+        "organic": 35023,
+        "paid": 936646,
+        "total": 971669,
+        "eng": 16177,
+        "er": 1.7,
+        "spend": 4512.05,
+        "est": 3721,
+        "pct": 121.3
+      },
+      {
+        "name": "X",
+        "posts": 4,
+        "organic": 253827,
+        "paid": 4653038,
+        "total": 4906865,
+        "eng": 4938,
+        "er": 0.1,
+        "spend": 7180.0,
+        "est": 2500,
+        "pct": 287.2
+      },
+      {
+        "name": "LinkedIn",
+        "posts": 4,
+        "organic": 187787,
+        "paid": null,
+        "total": 187787,
+        "eng": 2046,
+        "er": 1.1,
+        "spend": 0,
+        "est": 0,
+        "pct": null
+      },
+      {
+        "name": "YouTube Shorts",
+        "posts": 4,
+        "organic": 179914,
+        "paid": 396672,
+        "total": 576586,
+        "eng": 144090,
+        "er": 25.0,
+        "spend": 2386.88,
+        "est": 3592,
+        "pct": 66.5
+      }
+    ],
+    "stories": [
+      {
+        "name": "Mauigoa",
+        "kind": "Non-Collab",
+        "published": "4/22",
+        "sub": "OL \u00b7 American Samoa \u2192 5-Star IMG Prospect",
+        "reach": 2747650,
+        "eng": 76932,
+        "spend": 6235,
+        "rows": [
+          {
+            "plat": "Instagram",
+            "dist": "organic+paid",
+            "impr": 484628,
+            "eng": 39924,
+            "er": 8.2,
+            "spend": 2163.3
+          },
+          {
+            "plat": "Facebook",
+            "dist": "organic+paid",
+            "impr": 271956,
+            "eng": 5417,
+            "er": 2.0,
+            "spend": 1129.95
+          },
+          {
+            "plat": "X",
+            "dist": "organic+paid",
+            "impr": 1775698,
+            "eng": 2244,
+            "er": 0.13,
+            "spend": 2345.0
+          },
+          {
+            "plat": "LinkedIn",
+            "dist": "organic",
+            "impr": 84358,
+            "eng": 733,
+            "er": 0.9,
+            "spend": 0
+          },
+          {
+            "plat": "YouTube Shorts",
+            "dist": "organic+paid",
+            "impr": 131010,
+            "eng": 28614,
+            "er": 21.8,
+            "spend": 596.82
+          }
+        ],
+        "highlight": "Highest reach story (2.75M). X paid delivered 1.64M at $1.43 CPM. IG at 8.2% ER. Non-collab leader."
+      },
+      {
+        "name": "Tate",
+        "kind": "Non-Collab",
+        "published": "4/23",
+        "sub": "WR \u00b7 Tragedy \u2192 NFL Draft",
+        "reach": 1974102,
+        "eng": 92016,
+        "spend": 5537,
+        "rows": [
+          {
+            "plat": "Instagram",
+            "dist": "organic+paid",
+            "impr": 446436,
+            "eng": 35221,
+            "er": 7.9,
+            "spend": 2165.46
+          },
+          {
+            "plat": "Facebook",
+            "dist": "organic+paid",
+            "impr": 229036,
+            "eng": 5251,
+            "er": 2.3,
+            "spend": 1129.98
+          },
+          {
+            "plat": "X",
+            "dist": "organic+paid",
+            "impr": 1087225,
+            "eng": 770,
+            "er": 0.07,
+            "spend": 1645.0
+          },
+          {
+            "plat": "LinkedIn",
+            "dist": "organic",
+            "impr": 17061,
+            "eng": 85,
+            "er": 0.5,
+            "spend": 0
+          },
+          {
+            "plat": "YouTube Shorts",
+            "dist": "organic+paid",
+            "impr": 194344,
+            "eng": 50689,
+            "er": 26.1,
+            "spend": 596.17
+          }
+        ],
+        "highlight": "Highest engagement story (92K). YT Shorts 26.1% ER. IG 7.9%. Strongest emotional resonance."
+      },
+      {
+        "name": "Downs",
+        "kind": "Collab",
+        "published": "4/23",
+        "sub": "DB \u00b7 Family of Pros \u2192 Carving His Own Name",
+        "reach": 1919294,
+        "eng": 52634,
+        "spend": 5542,
+        "rows": [
+          {
+            "plat": "Instagram",
+            "dist": "organic+paid",
+            "impr": 401309,
+            "eng": 11778,
+            "er": 2.9,
+            "spend": 2167.7
+          },
+          {
+            "plat": "Facebook",
+            "dist": "organic+paid",
+            "impr": 232187,
+            "eng": 2300,
+            "er": 1.0,
+            "spend": 1129.98
+          },
+          {
+            "plat": "X",
+            "dist": "organic+paid",
+            "impr": 1106334,
+            "eng": 725,
+            "er": 0.07,
+            "spend": 1645.0
+          },
+          {
+            "plat": "LinkedIn",
+            "dist": "organic",
+            "impr": 13948,
+            "eng": 44,
+            "er": 0.3,
+            "spend": 0
+          },
+          {
+            "plat": "YouTube Shorts",
+            "dist": "organic+paid",
+            "impr": 165516,
+            "eng": 37787,
+            "er": 22.8,
+            "spend": 599.51
+          }
+        ],
+        "highlight": "X paid at 1.1M impr. YT Shorts 22.8% ER. IG ER lower at 2.9% \u2014 collab format underperforming here."
+      },
+      {
+        "name": "Mendoza",
+        "kind": "Collab",
+        "published": "4/21",
+        "sub": "QB \u00b7 Overlooked \u2192 Probable No. 1 Pick",
+        "reach": 1769779,
+        "eng": 84827,
+        "spend": 5429,
+        "rows": [
+          {
+            "plat": "Instagram",
+            "dist": "organic+paid",
+            "impr": 435545,
+            "eng": 52235,
+            "er": 12.0,
+            "spend": 2167.97
+          },
+          {
+            "plat": "Facebook",
+            "dist": "organic+paid",
+            "impr": 238490,
+            "eng": 3209,
+            "er": 1.3,
+            "spend": 1122.14
+          },
+          {
+            "plat": "X",
+            "dist": "organic+paid",
+            "impr": 937608,
+            "eng": 1199,
+            "er": 0.13,
+            "spend": 1545.0
+          },
+          {
+            "plat": "LinkedIn",
+            "dist": "organic",
+            "impr": 72420,
+            "eng": 1184,
+            "er": 1.6,
+            "spend": 0
+          },
+          {
+            "plat": "YouTube Shorts",
+            "dist": "organic+paid",
+            "impr": 85716,
+            "eng": 27000,
+            "er": 31.5,
+            "spend": 594.38
+          }
+        ],
+        "highlight": "Highest IG ER (12.0% \u2014 52K eng). YT Shorts 31.5% ER. Strongest collab story by engagement quality."
+      }
+    ],
+    "callouts": [
+      {
+        "kind": "pos",
+        "tag": "GOAL EXCEEDED",
+        "headline": "8.41M impressions delivered against 8M target (105.1%).",
+        "body": "All 4 stories above 1.7M. X paid drove 4.65M (55%); Meta delivered 2.65M IG+FB. 3.6% blended ER, 306K total engagements."
+      },
+      {
+        "kind": "warn",
+        "tag": "BUDGET OVERSPEND",
+        "headline": "$22,743 spent of $16,875 contracted (134.8%). X at 287% of allocation.",
+        "body": "X spent $7,180 vs $2,500 allocated. IG at 122%, FB 121%. YT Shorts only platform under at 66.5%. Flag X overspend & 0.10% ER for future learnings."
+      },
+      {
+        "kind": "pos",
+        "tag": "ENGAGEMENT LEADER",
+        "headline": "Tate is the engagement leader (92K) despite being last to publish.",
+        "body": "Driven by YT Shorts (51K eng, 26.1% ER) and IG (35K eng, 7.9% ER). Mauigoa leads reach at 2.75M via X paid. Both formats \u2014 collab and non-collab \u2014 worked for different reasons."
+      }
+    ]
+  },
+  {
+    "id": "native",
+    "n": "02",
+    "title": "Native Social Coverage",
+    "italic": "Coverage",
+    "sub": "Draft Day editorial \u00b7 10 Posts Live \u00b7 4 Platforms",
+    "status": "In Flight",
+    "statusKind": "watch",
+    "color": "var(--pear)",
+    "fg": "var(--liquorice)",
+    "accent": "ft-4",
+    "impressions": {
+      "delivered": 1964772,
+      "goal": 2500000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 6000
+    },
+    "engagements": 72579,
+    "er": 3.7,
+    "posts": 10,
+    "blurb": "Organic momentum strong \u2014 78.6% of goal reached with $0 paid spend. IG is the powerhouse at 1.41M (72%, 4.0% ER). LinkedIn at 3.95% ER on 382K impr.",
+    "platforms": [
+      {
+        "name": "Instagram",
+        "posts": 3,
+        "organic": 1412517,
+        "paid": 0,
+        "total": 1412517,
+        "eng": 56796,
+        "er": 4.02,
+        "spend": 0,
+        "est": null,
+        "pct": null
+      },
+      {
+        "name": "Facebook",
+        "posts": 1,
+        "organic": 135356,
+        "paid": 0,
+        "total": 135356,
+        "eng": 254,
+        "er": 0.19,
+        "spend": 0,
+        "est": null,
+        "pct": null
+      },
+      {
+        "name": "LinkedIn",
+        "posts": 3,
+        "organic": 382247,
+        "paid": 0,
+        "total": 382247,
+        "eng": 15087,
+        "er": 3.95,
+        "spend": 0,
+        "est": null,
+        "pct": null
+      },
+      {
+        "name": "X",
+        "posts": 3,
+        "organic": 34652,
+        "paid": 0,
+        "total": 34652,
+        "eng": 442,
+        "er": 1.28,
+        "spend": 0,
+        "est": null,
+        "pct": null
+      }
+    ],
+    "callouts": [
+      {
+        "kind": "pos",
+        "tag": "ORGANIC MOMENTUM",
+        "headline": "1.96M impressions from 10 posts on $0 spend (78.6% of 2.5M goal).",
+        "body": "Instagram is the powerhouse \u2014 1.41M impr, 72% of total, 4.0% ER. LinkedIn delivering strong engagement at 3.95% ER. Continued organic posting through May 15 should close the 536K gap without deploying paid."
+      }
+    ]
+  },
+  {
+    "id": "redcarpet",
+    "n": "03",
+    "title": "Red Carpet with Baker Machado",
+    "italic": "Machado",
+    "sub": "NFL Draft Red Carpet interviews \u00b7 2 Videos \u00b7 8 Posts Live",
+    "status": "Goal Exceeded",
+    "statusKind": "on",
+    "color": "var(--flame)",
+    "fg": "var(--paper)",
+    "accent": "ft-6",
+    "impressions": {
+      "delivered": 4130182,
+      "goal": 3500000
+    },
+    "budget": {
+      "delivered": 8242,
+      "goal": 8500
+    },
+    "engagements": 195662,
+    "er": 4.7,
+    "posts": 8,
+    "blurb": "Red Carpet smashed its 3.5M goal with 4.13M delivered at 97% budget. X top reach (1.78M). YT Shorts strongest engagement (167K eng, 19.1% ER).",
+    "budgetNote": "Budget reallocated from Native Social Coverage to support paid amplification after organic came in lower than expected.",
+    "videos": [
+      {
+        "name": "Video 1",
+        "dist": "Organic + Paid",
+        "quote": "\"Cars, homes, watches\u2026\"",
+        "rows": [
+          {
+            "plat": "Instagram",
+            "dist": "organic+paid",
+            "impr": 774249,
+            "eng": 25546,
+            "er": 3.3,
+            "spend": 1887.11
+          },
+          {
+            "plat": "Facebook",
+            "dist": "organic",
+            "impr": 6327,
+            "eng": 51,
+            "er": 0.8,
+            "spend": 0
+          },
+          {
+            "plat": "X",
+            "dist": "organic+paid",
+            "impr": 864430,
+            "eng": 1454,
+            "er": 0.17,
+            "spend": 861.24
+          },
+          {
+            "plat": "LinkedIn",
+            "dist": "organic",
+            "impr": 59423,
+            "eng": 294,
+            "er": 0.5,
+            "spend": 0
+          },
+          {
+            "plat": "YouTube Shorts",
+            "dist": "organic+paid",
+            "impr": 327627,
+            "eng": 114309,
+            "er": 34.9,
+            "spend": 1300.28
+          }
+        ],
+        "subtotal": {
+          "impr": 2032056,
+          "eng": 141654,
+          "er": 7.0,
+          "spend": 4048.63
+        }
+      },
+      {
+        "name": "Video 2",
+        "dist": "Paid Only (Dark)",
+        "quote": "\"Best financial advice\u2026\"",
+        "rows": [
+          {
+            "plat": "Instagram",
+            "dist": "paid",
+            "impr": 636674,
+            "eng": 497,
+            "er": 0.08,
+            "spend": 1999.96
+          },
+          {
+            "plat": "X",
+            "dist": "paid",
+            "impr": 916140,
+            "eng": 712,
+            "er": 0.08,
+            "spend": 900.0
+          },
+          {
+            "plat": "YouTube Shorts",
+            "dist": "paid",
+            "impr": 545312,
+            "eng": 52799,
+            "er": 9.7,
+            "spend": 1293.86
+          }
+        ],
+        "subtotal": {
+          "impr": 2098126,
+          "eng": 54008,
+          "er": 2.6,
+          "spend": 4193.82
+        }
+      }
+    ],
+    "callouts": [
+      {
+        "kind": "pos",
+        "tag": "GOAL EXCEEDED",
+        "headline": "4.13M impressions on $8,242 (118% of 3.5M target, 97% budget).",
+        "body": "X top reach driver (1.78M, 43%). YT Shorts strongest engagement at 167K / 19.1% ER. IG organic drove 336K views with 25.5K engagements. Blended CPM $2.00."
+      }
+    ]
+  }
+];
+
+window.EPISODES_BY_CAMPAIGN = {
+  "usbank": []
+};
+
+window.POSTS_BY_CAMPAIGN = {
+  "usbank": [
+    {
+      "title": "US Bank_NFL Draft_Red Carpet_Video 2",
+      "platform": "Instagram",
+      "distKind": "paid",
+      "impr": 636675,
+      "paidImpr": 636675,
+      "orgImpr": 0,
+      "eng": 65537,
+      "er": 10.29,
+      "spend": 1999.96,
+      "url": null
+    },
+    {
+      "title": "Mendoza",
+      "platform": "Instagram",
+      "distKind": "paid",
+      "impr": 470158,
+      "paidImpr": 470158,
+      "orgImpr": 0,
+      "eng": 310405,
+      "er": 66.02,
+      "spend": 2163.3,
+      "url": null
+    },
+    {
+      "title": "Cars, homes, watches\u2026",
+      "platform": "Instagram",
+      "distKind": "paid",
+      "impr": 437411,
+      "paidImpr": 437411,
+      "orgImpr": 0,
+      "eng": 336080,
+      "er": 76.83,
+      "spend": 1887.12,
+      "url": null
+    },
+    {
+      "title": "Downs",
+      "platform": "Instagram",
+      "distKind": "paid",
+      "impr": 431607,
+      "paidImpr": 431607,
+      "orgImpr": 0,
+      "eng": 272125,
+      "er": 63.05,
+      "spend": 2165.46,
+      "url": null
+    },
+    {
+      "title": "Mauigoa",
+      "platform": "Instagram",
+      "distKind": "paid",
+      "impr": 425037,
+      "paidImpr": 425037,
+      "orgImpr": 0,
+      "eng": 259516,
+      "er": 61.06,
+      "spend": 2167.97,
+      "url": null
+    },
+    {
+      "title": "Tate",
+      "platform": "Instagram",
+      "distKind": "paid",
+      "impr": 390314,
+      "paidImpr": 390314,
+      "orgImpr": 0,
+      "eng": 234622,
+      "er": 60.11,
+      "spend": 2167.7,
+      "url": null
+    },
+    {
+      "title": "Mendoza",
+      "platform": "Facebook",
+      "distKind": "paid",
+      "impr": 244345,
+      "paidImpr": 244345,
+      "orgImpr": 0,
+      "eng": 162580,
+      "er": 66.54,
+      "spend": 1129.99,
+      "url": null
+    },
+    {
+      "title": "Mauigoa",
+      "platform": "Facebook",
+      "distKind": "paid",
+      "impr": 236867,
+      "paidImpr": 236867,
+      "orgImpr": 0,
+      "eng": 155026,
+      "er": 65.45,
+      "spend": 1123.38,
+      "url": null
+    },
+    {
+      "title": "Tate",
+      "platform": "Facebook",
+      "distKind": "paid",
+      "impr": 230455,
+      "paidImpr": 230455,
+      "orgImpr": 0,
+      "eng": 156334,
+      "er": 67.84,
+      "spend": 1129.98,
+      "url": null
+    },
+    {
+      "title": "Downs",
+      "platform": "Facebook",
+      "distKind": "paid",
+      "impr": 225505,
+      "paidImpr": 225505,
+      "orgImpr": 0,
+      "eng": 155485,
+      "er": 68.95,
+      "spend": 1129.98,
+      "url": null
+    }
+  ]
+};
+
+window.DATA_ARCHIVE = [
+  {
+    "campaignId": "usbank",
+    "partner": "US Bank",
+    "sourceKind": "meta_ads",
+    "sourceLabel": "Meta Ads",
+    "filename": "usbank_meta_ads.csv",
+    "fileSizeKb": 2.2,
+    "lastModified": "2026-05-13",
+    "exists": true,
+    "postsContributed": 10
+  }
+];
+
+window.BENCHMARKS_DATA = {
+  "lastUpdated": "3/5 @1pm EST",
+  "platformSummary": [
+    {
+      "row": "All Content",
+      "platforms": {
+        "Instagram": 3.6,
+        "Facebook": 4.0,
+        "X": 2.3,
+        "TikTok": 4.9,
+        "LinkedIn": 5.2,
+        "YouTube": 1.0
+      },
+      "allAvg": 3.5
+    },
+    {
+      "row": "Sponsored (Sprout, No Paid)",
+      "platforms": {
+        "Instagram": 3.8,
+        "Facebook": 2.6,
+        "X": 1.1,
+        "TikTok": 0.9,
+        "LinkedIn": 2.4,
+        "YouTube": 1.0
+      },
+      "allAvg": 1.97
+    },
+    {
+      "row": "Sponsored (All content in this doc)",
+      "platforms": {
+        "Instagram": 3.29,
+        "Facebook": 1.91,
+        "X": 0.88,
+        "TikTok": 1.84,
+        "LinkedIn": 3.68,
+        "YouTube": 3.17
+      },
+      "allAvg": 2.46
+    }
+  ],
+  "categories": [
+    {
+      "name": "Social Coverage Partner",
+      "overall": {
+        "Instagram": 6.82,
+        "Facebook": 1.63,
+        "X": 1.3,
+        "TikTok": 3.29,
+        "LinkedIn": 5.56,
+        "Shorts": 0.75,
+        "All": 4.6
+      },
+      "campaigns": [
+        {
+          "name": "Acura x Business of the Madness (2024)",
+          "platforms": {
+            "Instagram": 11.32,
+            "Facebook": 4.34,
+            "TikTok": 3.95,
+            "LinkedIn": 3.63
+          },
+          "all": 6.34,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x Golf",
+          "platforms": {
+            "Instagram": 11.52,
+            "X": 1.97,
+            "TikTok": 4.13,
+            "LinkedIn": 4.75
+          },
+          "all": 6.43,
+          "spend": ""
+        },
+        {
+          "name": "Upper Deck x NHL Draft",
+          "platforms": {
+            "Instagram": 3.06,
+            "Facebook": 0.37,
+            "X": 0.64,
+            "TikTok": 1.8,
+            "LinkedIn": 11.08,
+            "Shorts": 0.75
+          },
+          "all": 2.32,
+          "spend": ""
+        },
+        {
+          "name": "Invesco QQQ x Busines of Bowl Season",
+          "platforms": {
+            "Instagram": 4.19,
+            "LinkedIn": 4.38
+          },
+          "all": 4.2,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x 2026 NFL Draft",
+          "platforms": {
+            "Instagram": 4.02,
+            "Facebook": 0.19,
+            "X": 1.28,
+            "LinkedIn": 3.95
+          },
+          "all": 3.69,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Social - IP/Franchise",
+      "overall": {
+        "Instagram": 4.59,
+        "Facebook": 4.22,
+        "X": 0.46,
+        "TikTok": 4.5,
+        "LinkedIn": 3.44,
+        "Shorts": null,
+        "All": 3.44
+      },
+      "campaigns": [
+        {
+          "name": "TickPick x Big Ticket (9/24 - 2/25)",
+          "platforms": {
+            "Instagram": 7.37,
+            "X": 0.81,
+            "TikTok": 4.82
+          },
+          "all": 7.17,
+          "spend": ""
+        },
+        {
+          "name": "Daktronics x Stadium Status (12/24 - 4/25)",
+          "platforms": {
+            "Instagram": 1.46,
+            "LinkedIn": 4.38
+          },
+          "all": 1.56,
+          "spend": ""
+        },
+        {
+          "name": "AT&T x Stadium Status",
+          "platforms": {
+            "Instagram": 1.29,
+            "X": 0.45,
+            "TikTok": 6.0,
+            "LinkedIn": 4.76
+          },
+          "all": 1.39,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge x The Come Up (Napheesa Collier)",
+          "platforms": {
+            "Instagram": 3.46,
+            "TikTok": 5.31,
+            "LinkedIn": 3.26
+          },
+          "all": 4.85,
+          "spend": ""
+        },
+        {
+          "name": "RBC x Second Acts",
+          "platforms": {
+            "Instagram": 5.68,
+            "Facebook": 0.75,
+            "LinkedIn": 1.9
+          },
+          "all": 3.6,
+          "spend": ""
+        },
+        {
+          "name": "Dealmaker x Asset Class",
+          "platforms": {
+            "Instagram": 1.25,
+            "Facebook": 0.19,
+            "X": 0.32,
+            "LinkedIn": 1.22
+          },
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Pepsi x Stadium Eats",
+          "platforms": {
+            "Instagram": 2.59,
+            "Facebook": 1.98,
+            "X": 0.24,
+            "TikTok": 1.88,
+            "LinkedIn": 6.84
+          },
+          "all": 1.19,
+          "spend": ""
+        },
+        {
+          "name": "Toyota x Winter Olympics",
+          "platforms": {
+            "Instagram": 13.61,
+            "Facebook": 13.95,
+            "LinkedIn": 1.73
+          },
+          "all": 13.42,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Social",
+      "overall": {
+        "Instagram": 5.07,
+        "Facebook": 4.56,
+        "X": 0.91,
+        "TikTok": 0.7,
+        "LinkedIn": 3.6,
+        "Shorts": null,
+        "All": 2.97
+      },
+      "campaigns": [
+        {
+          "name": "Gainbridge x Parity Week 2024",
+          "platforms": {
+            "Instagram": 7.47,
+            "X": 1.13,
+            "LinkedIn": 1.59
+          },
+          "all": 3.46,
+          "spend": ""
+        },
+        {
+          "name": "Laver Cup",
+          "platforms": {
+            "Instagram": 4.03,
+            "Facebook": 0.09,
+            "X": 1.26,
+            "LinkedIn": 2.79
+          },
+          "all": 2.45,
+          "spend": ""
+        },
+        {
+          "name": "LOVB",
+          "platforms": {
+            "Instagram": 8.5,
+            "X": 0.63,
+            "LinkedIn": 4.91
+          },
+          "all": 6.15,
+          "spend": ""
+        },
+        {
+          "name": "Wilson x Super Bowl, ASG, Caitlin Clark",
+          "platforms": {
+            "Instagram": 1.71,
+            "TikTok": 0.13
+          },
+          "all": 0.89,
+          "spend": ""
+        },
+        {
+          "name": "Comcast Business x The Players",
+          "platforms": {
+            "Instagram": 0.15,
+            "LinkedIn": 9.69
+          },
+          "all": 0.24,
+          "spend": ""
+        },
+        {
+          "name": "Champs Sports CSG x Brock Bowers",
+          "platforms": {
+            "Instagram": 8.95,
+            "X": 0.37,
+            "TikTok": 0.06,
+            "LinkedIn": 2.45
+          },
+          "all": 3.27,
+          "spend": ""
+        },
+        {
+          "name": "Atlassian x Australian Grand Prix",
+          "platforms": {
+            "Instagram": 0.29,
+            "X": 0.43,
+            "LinkedIn": 2.05
+          },
+          "all": 0.33,
+          "spend": ""
+        },
+        {
+          "name": "Champs x Fall Football",
+          "platforms": {
+            "Instagram": 3.06,
+            "TikTok": 0.54
+          },
+          "all": 1.76,
+          "spend": ""
+        },
+        {
+          "name": "Nuveen x Bobby Bonilla",
+          "platforms": {
+            "Instagram": 11.09,
+            "X": 1.72,
+            "LinkedIn": 2.26
+          },
+          "all": 5.14,
+          "spend": ""
+        },
+        {
+          "name": "Gatorade x Modern Origins",
+          "platforms": {
+            "Instagram": 3.18,
+            "TikTok": 0.25,
+            "LinkedIn": 2.77
+          },
+          "all": 1.94,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge x WNBA All-Star",
+          "platforms": {
+            "Instagram": 8.88,
+            "Facebook": 15.69,
+            "TikTok": 3.08,
+            "LinkedIn": 4.92
+          },
+          "all": 11.43,
+          "spend": ""
+        },
+        {
+          "name": "Tissot x NBA",
+          "platforms": {
+            "Instagram": 6.56
+          },
+          "all": 6.56,
+          "spend": ""
+        },
+        {
+          "name": "Healthy Paws x Globetrotting",
+          "platforms": {
+            "Instagram": 3.89,
+            "Facebook": 0.26,
+            "X": 1.46
+          },
+          "all": 2.28,
+          "spend": ""
+        },
+        {
+          "name": "Professional Fighters League",
+          "platforms": {
+            "Instagram": 3.21,
+            "Facebook": 2.19,
+            "X": 0.27,
+            "TikTok": 0.14,
+            "LinkedIn": 2.56
+          },
+          "all": 1.2,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Multimedia Reporter-Led - IP/Franchise",
+      "overall": {
+        "Instagram": 3.0,
+        "Facebook": 1.65,
+        "X": 0.39,
+        "TikTok": 1.94,
+        "LinkedIn": 3.75,
+        "Shorts": 2.73,
+        "All": 2.24
+      },
+      "campaigns": [
+        {
+          "name": "Kaiser Permanante x Stadium Status",
+          "platforms": {
+            "Instagram": 1.16,
+            "X": 0.66,
+            "TikTok": 0.07,
+            "LinkedIn": 4.99,
+            "Shorts": 5.16
+          },
+          "all": 0.54,
+          "spend": ""
+        },
+        {
+          "name": "Daktronics x Stadium Status (Lindsay)",
+          "platforms": {
+            "Instagram": 1.64,
+            "TikTok": 1.64,
+            "LinkedIn": 0.99
+          },
+          "all": 1.05,
+          "spend": ""
+        },
+        {
+          "name": "AT&T x Stadium Status (Intuit Dome)",
+          "platforms": {
+            "Instagram": 1.29,
+            "X": 0.45,
+            "TikTok": 6.0,
+            "LinkedIn": 4.76
+          },
+          "all": 1.39,
+          "spend": ""
+        },
+        {
+          "name": "Fanatics x Stadium Status",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Elevate Stadium Status",
+          "platforms": {
+            "Instagram": 3.18,
+            "X": 0.06,
+            "TikTok": 0.06,
+            "LinkedIn": 4.26,
+            "Shorts": 0.29
+          },
+          "all": 0.96,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x The Come Up",
+          "platforms": {
+            "Instagram": 7.75,
+            "Facebook": 1.65,
+            "X": 0.1,
+            "LinkedIn": 3.32,
+            "Shorts": 25.5
+          },
+          "all": 7.18,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Multimedia Reporter-Led (Tentpole Event, Custom Series, etc.)",
+      "overall": {
+        "Instagram": 2.31,
+        "Facebook": 0.0,
+        "X": 0.37,
+        "TikTok": 0.45,
+        "LinkedIn": 2.98,
+        "Shorts": 3.97,
+        "All": 1.68
+      },
+      "campaigns": [
+        {
+          "name": "Gainbridge x Parity Week (2024) (Lindsay)",
+          "platforms": {
+            "Instagram": 5.02,
+            "X": 0.35,
+            "TikTok": 0.12
+          },
+          "all": 1.64,
+          "spend": ""
+        },
+        {
+          "name": "EA Sports x College Football (Lindsay & Derryl)",
+          "platforms": {
+            "Instagram": 1.01,
+            "X": 1.01,
+            "TikTok": 0.32
+          },
+          "all": 0.69,
+          "spend": ""
+        },
+        {
+          "name": "AWS x NFL Women's Forum (Lindsay)",
+          "platforms": {
+            "Instagram": 0.11,
+            "X": 0.3,
+            "TikTok": 0.03,
+            "LinkedIn": 3.95
+          },
+          "all": 0.15,
+          "spend": ""
+        },
+        {
+          "name": "Invesco x Under Review (Lindsay)",
+          "platforms": {
+            "Instagram": 2.51,
+            "TikTok": 0.05,
+            "Shorts": 2.69
+          },
+          "all": 1.23,
+          "spend": ""
+        },
+        {
+          "name": "Champs Sports x Apparel Playmakers (Derryl)",
+          "platforms": {
+            "Instagram": 1.5,
+            "TikTok": 0.38
+          },
+          "all": 0.96,
+          "spend": ""
+        },
+        {
+          "name": "Tissot x NBA (Derryl)",
+          "platforms": {
+            "Instagram": 1.06,
+            "X": 0.3,
+            "TikTok": 0.03,
+            "LinkedIn": 3.47
+          },
+          "all": 0.48,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x PLL Championship",
+          "platforms": {
+            "Instagram": 3.35,
+            "X": 0.31,
+            "TikTok": 0.4,
+            "Shorts": 9.1
+          },
+          "all": 3.3,
+          "spend": ""
+        },
+        {
+          "name": "PGA Tour x BMW Championship (Derryl)",
+          "platforms": {
+            "Instagram": 1.63,
+            "TikTok": 2.75
+          },
+          "all": 2.37,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge x WNBA All-Star (Lindsay)",
+          "platforms": {
+            "Instagram": 4.75,
+            "X": 0.24,
+            "TikTok": 0.29,
+            "LinkedIn": 1.53
+          },
+          "all": 1.74,
+          "spend": ""
+        },
+        {
+          "name": "Swag Golf x Ryder Cup",
+          "platforms": {
+            "Instagram": 2.15,
+            "X": 0.11,
+            "TikTok": 0.1,
+            "Shorts": 0.12
+          },
+          "all": 0.5,
+          "spend": ""
+        },
+        {
+          "name": "Laver Cup",
+          "platforms": {
+            "Instagram": 0.3,
+            "X": 7.37,
+            "TikTok": 3.24,
+            "LinkedIn": 1.07
+          },
+          "all": 5.45,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge Parity Week (2025)",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Creator-Led - IP/Franchise",
+      "overall": {
+        "Instagram": 3.8,
+        "Facebook": 5.19,
+        "X": null,
+        "TikTok": 0.51,
+        "LinkedIn": null,
+        "Shorts": null,
+        "All": 1.58
+      },
+      "campaigns": [
+        {
+          "name": "DIRECTV x The Come Up",
+          "platforms": {
+            "Instagram": 3.8,
+            "Facebook": 5.19,
+            "TikTok": 0.51
+          },
+          "all": 1.58,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Creator-Led",
+      "overall": {
+        "Instagram": 3.91,
+        "Facebook": 0.14,
+        "X": 0.45,
+        "TikTok": 1.31,
+        "LinkedIn": 4.58,
+        "Shorts": 4.67,
+        "All": 2.51
+      },
+      "campaigns": [
+        {
+          "name": "Invesco x Under Review 2023 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 5.62,
+            "TikTok": 2.84,
+            "LinkedIn": 3.25,
+            "Shorts": 1.96
+          },
+          "all": 7.0,
+          "spend": ""
+        },
+        {
+          "name": "Invesco x Under Review 2024 (Jordan Rogers MM)",
+          "platforms": {
+            "Instagram": 0.59,
+            "TikTok": 1.08,
+            "Shorts": 2.23
+          },
+          "all": 0.72,
+          "spend": ""
+        },
+        {
+          "name": "Champs x Off the Pitch (Eli Lesser)",
+          "platforms": {
+            "Instagram": 1.3,
+            "TikTok": 7.2,
+            "Shorts": 3.83
+          },
+          "all": 3.37,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge x Parity Week (2024)",
+          "platforms": {
+            "Instagram": 5.16,
+            "X": 0.43,
+            "TikTok": 0.11
+          },
+          "all": 1.19,
+          "spend": ""
+        },
+        {
+          "name": "Invesco x Under Review 2024 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 1.76,
+            "TikTok": 0.2,
+            "LinkedIn": 0.4
+          },
+          "all": 0.89,
+          "spend": ""
+        },
+        {
+          "name": "Comcast Business x PLAYERS (Bradford Wilson)",
+          "platforms": {
+            "Instagram": 12.2,
+            "X": 0.29,
+            "TikTok": 0.02,
+            "LinkedIn": 10.09
+          },
+          "all": 2.74,
+          "spend": ""
+        },
+        {
+          "name": "Johnnie O x Under Review 2025 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 6.57,
+            "X": 0.18,
+            "TikTok": 0.22,
+            "Shorts": 0.94
+          },
+          "all": 1.46,
+          "spend": ""
+        },
+        {
+          "name": "Comcast x PLAYERS 2026 (Lauren & Bailey)",
+          "platforms": {
+            "Instagram": 0.88,
+            "Facebook": 0.05,
+            "TikTok": 0.04,
+            "Shorts": 6.15
+          },
+          "all": 2.12,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x 2026 Super Bowl Activation",
+          "platforms": {
+            "Instagram": 1.11,
+            "Facebook": 0.24,
+            "X": 0.88,
+            "TikTok": 0.05,
+            "Shorts": 12.88
+          },
+          "all": 0.75,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Shows (Cutdowns & Custom Integrations)",
+      "overall": {
+        "YouTube": 2.8,
+        "Instagram": 1.44,
+        "Facebook": 0.0,
+        "X": 0.32,
+        "TikTok": 2.16,
+        "LinkedIn": null,
+        "Shorts": 1.38
+      },
+      "campaigns": [
+        {
+          "name": "LYCRA x Redefined",
+          "platforms": {
+            "YouTube": 1.74,
+            "Instagram": 0.58,
+            "Facebook": 0.0,
+            "TikTok": 7.65,
+            "Shorts": 1.38
+          },
+          "all": 1.37,
+          "spend": ""
+        },
+        {
+          "name": "Nike x NILOSOPHY",
+          "platforms": {
+            "Instagram": 1.85,
+            "TikTok": 0.08
+          },
+          "all": 0.92,
+          "spend": ""
+        },
+        {
+          "name": "OLIPOP x NILOSOPHY",
+          "platforms": {
+            "YouTube": 3.87,
+            "Instagram": 2.23,
+            "TikTok": 0.86
+          },
+          "all": 2.96,
+          "spend": ""
+        },
+        {
+          "name": "RBC House x Redefined",
+          "platforms": {
+            "Instagram": 1.1,
+            "TikTok": 0.05
+          },
+          "all": 0.48,
+          "spend": ""
+        },
+        {
+          "name": "RBC House x FOS Today",
+          "platforms": {
+            "X": 0.32
+          },
+          "all": 0.32,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Original Content",
+      "overall": {
+        "YouTube": 1.61,
+        "Instagram": 2.32,
+        "Facebook": 0.89,
+        "X": 1.56,
+        "TikTok": 0.97,
+        "LinkedIn": 3.57,
+        "Shorts": 6.42
+      },
+      "campaigns": [
+        {
+          "name": "Gatorade x FOS Explains: Women Fueling Football",
+          "platforms": {
+            "YouTube": 1.62,
+            "Instagram": 2.04,
+            "X": 9.08,
+            "TikTok": 2.18,
+            "LinkedIn": 2.7
+          },
+          "all": 2.75,
+          "spend": ""
+        },
+        {
+          "name": "Wilson x FOS Explains",
+          "platforms": {
+            "YouTube": 2.41,
+            "Instagram": 0.77,
+            "X": 0.24,
+            "TikTok": 0.03,
+            "LinkedIn": 2.43
+          },
+          "all": 1.17,
+          "spend": ""
+        },
+        {
+          "name": "FOS Explains x PGA Tour",
+          "platforms": {
+            "YouTube": 1.79,
+            "Instagram": 6.25,
+            "X": 0.24,
+            "TikTok": 0.07,
+            "LinkedIn": 4.32
+          },
+          "all": 1.56,
+          "spend": ""
+        },
+        {
+          "name": "E*TRADE x Portfolio Players (Season 1)",
+          "platforms": {
+            "YouTube": 1.5,
+            "Instagram": 2.39,
+            "Facebook": 0.09,
+            "X": 0.59,
+            "TikTok": 0.07,
+            "LinkedIn": 1.33
+          },
+          "all": 1.2,
+          "spend": ""
+        },
+        {
+          "name": "Pepsi x Stadium Eats",
+          "platforms": {
+            "YouTube": 1.01,
+            "Instagram": 2.59,
+            "Facebook": 1.98,
+            "X": 0.24,
+            "TikTok": 1.88,
+            "LinkedIn": 6.84
+          },
+          "all": 1.19,
+          "spend": ""
+        },
+        {
+          "name": "E*TRADE x Portfolio Players (Season 2)",
+          "platforms": {
+            "YouTube": 1.32,
+            "Instagram": 1.61,
+            "Facebook": 0.61,
+            "X": 0.25,
+            "TikTok": 2.51,
+            "LinkedIn": 3.07,
+            "Shorts": 7.42
+          },
+          "all": 1.42,
+          "spend": ""
+        },
+        {
+          "name": "Bet MGM FOS Explains - Winter Olympics",
+          "platforms": {
+            "YouTube": 1.63,
+            "Instagram": 0.59,
+            "X": 0.28,
+            "TikTok": 0.05,
+            "LinkedIn": 4.27,
+            "Shorts": 5.43
+          },
+          "all": 1.32,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Branded Content",
+      "overall": {
+        "YouTube": 3.17,
+        "Instagram": 2.58,
+        "Facebook": 0.25,
+        "X": 2.79,
+        "TikTok": 0.94,
+        "LinkedIn": 3.47,
+        "Shorts": 2.46
+      },
+      "campaigns": [
+        {
+          "name": "Rocket Mortgage x A Dreammate Story",
+          "platforms": {
+            "YouTube": 2.1,
+            "Instagram": 0.82,
+            "Facebook": 0.61,
+            "TikTok": 1.25,
+            "LinkedIn": 2.86,
+            "Shorts": 2.42
+          },
+          "all": 2.23,
+          "spend": ""
+        },
+        {
+          "name": "Dick's Sporting Goods x Boston Bound",
+          "platforms": {
+            "YouTube": 4.79,
+            "Instagram": 0.37,
+            "X": 4.58,
+            "TikTok": 1.46,
+            "LinkedIn": 3.01,
+            "Shorts": 3.54
+          },
+          "all": 3.18,
+          "spend": ""
+        },
+        {
+          "name": "Upper Deck x Athlete Archives",
+          "platforms": {
+            "YouTube": 3.46,
+            "Instagram": 2.29,
+            "Facebook": 0.2,
+            "X": 4.15,
+            "TikTok": 1.13,
+            "LinkedIn": 3.5,
+            "Shorts": 3.88
+          },
+          "all": 3.26,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x Untold Team",
+          "platforms": {
+            "YouTube": 2.16,
+            "Instagram": 4.18,
+            "Facebook": 0.16,
+            "X": 5.68,
+            "LinkedIn": 3.31
+          },
+          "all": 3.41,
+          "spend": ""
+        },
+        {
+          "name": "Wells Fargo x Breaking Barriers",
+          "platforms": {
+            "YouTube": 7.32,
+            "Instagram": 2.84,
+            "TikTok": 0.17,
+            "LinkedIn": 3.18,
+            "Shorts": 0.06
+          },
+          "all": 0.62,
+          "spend": ""
+        },
+        {
+          "name": "LYCRA x Redefined Launch",
+          "platforms": {
+            "YouTube": 2.14,
+            "Instagram": 3.12,
+            "X": 1.29,
+            "TikTok": 2.23,
+            "LinkedIn": 4.39,
+            "Shorts": 2.39
+          },
+          "all": 2.45,
+          "spend": ""
+        },
+        {
+          "name": "Nuveen x The Big Deal (Bobby Bonilla)",
+          "platforms": {
+            "YouTube": 2.03,
+            "Instagram": 3.45,
+            "X": 0.69,
+            "TikTok": 0.25,
+            "LinkedIn": 3.55
+          },
+          "all": 1.65,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge x USL",
+          "platforms": {
+            "YouTube": 1.35,
+            "Instagram": 3.58,
+            "Facebook": 0.04,
+            "X": 0.36,
+            "TikTok": 0.06,
+            "LinkedIn": 3.94
+          },
+          "all": 1.05,
+          "spend": ""
+        },
+        {
+          "name": "State Farm the Family Assist",
+          "platforms": {
+            "YouTube": 3.14,
+            "Instagram": 2.7,
+            "X": 0.03,
+            "TikTok": 0.15,
+            "LinkedIn": 3.77
+          },
+          "all": 1.8,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "FOS Event - Custom Social",
+      "overall": {
+        "Instagram": 1.67,
+        "Facebook": 4.29,
+        "X": 0.5,
+        "TikTok": 0.15,
+        "LinkedIn": 3.46,
+        "Shorts": 4.86,
+        "All": 1.92
+      },
+      "campaigns": [
+        {
+          "name": "Raising Cane's x The Breakfast Ball 2025",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Polestar x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 0.81,
+            "X": 0.2,
+            "TikTok": 0.02,
+            "LinkedIn": 3.64
+          },
+          "all": 0.42,
+          "spend": ""
+        },
+        {
+          "name": "AG1 x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 1.1,
+            "Facebook": 7.93,
+            "X": 1.28,
+            "TikTok": 0.05,
+            "LinkedIn": 1.39,
+            "Shorts": 1.36
+          },
+          "all": 2.15,
+          "spend": ""
+        },
+        {
+          "name": "Tommy John x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 0.19,
+            "X": 0.13,
+            "TikTok": 0.06,
+            "LinkedIn": 4.1
+          },
+          "all": 0.16,
+          "spend": ""
+        },
+        {
+          "name": "RBC House",
+          "platforms": {
+            "Instagram": 2.67,
+            "Facebook": 0.65,
+            "LinkedIn": 3.44
+          },
+          "all": 1.44,
+          "spend": ""
+        },
+        {
+          "name": "Eli Lilly x Courtside Collective",
+          "platforms": {
+            "Instagram": 1.85,
+            "TikTok": 0.04
+          },
+          "all": 1.0,
+          "spend": ""
+        },
+        {
+          "name": "Second Acts Live (Sue Bird) x Ally",
+          "platforms": {
+            "Instagram": 1.98,
+            "X": 0.38,
+            "TikTok": 0.77,
+            "Shorts": 0.15
+          },
+          "all": 0.68,
+          "spend": ""
+        },
+        {
+          "name": "Thomas's Bagels x The Breakfast Ball 2026",
+          "platforms": {
+            "Instagram": 3.5,
+            "TikTok": 0.05,
+            "Shorts": 11.82
+          },
+          "all": 6.33,
+          "spend": ""
+        },
+        {
+          "name": "Raising Cane's x The Breakfast Ball 2026",
+          "platforms": {
+            "Instagram": 1.29,
+            "TikTok": 0.03,
+            "LinkedIn": 4.72,
+            "Shorts": 6.09
+          },
+          "all": 3.15,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "FOS Event - Presenting Partner",
+      "overall": {
+        "Instagram": 1.92,
+        "Facebook": 0.1,
+        "X": 0.6,
+        "TikTok": 5.13,
+        "LinkedIn": 2.4,
+        "Shorts": null,
+        "All": 2.03
+      },
+      "campaigns": [
+        {
+          "name": "Elevate x Tuned In",
+          "platforms": {
+            "Instagram": 2.58,
+            "Facebook": 0.0,
+            "X": 0.88,
+            "TikTok": 5.13,
+            "LinkedIn": 3.59
+          },
+          "all": 2.85,
+          "spend": ""
+        },
+        {
+          "name": "Dealmaker x Asset Class",
+          "platforms": {
+            "Instagram": 1.25,
+            "Facebook": 0.19,
+            "X": 0.32,
+            "LinkedIn": 1.22
+          },
+          "all": 0.68,
+          "spend": ""
+        }
+      ]
+    }
+  ]
+};
+
+
+
+window.fmt = {
+  num(n) {
+    if (n >= 1_000_000) return (n / 1_000_000).toFixed(n >= 10_000_000 ? 0 : 1) + 'M';
+    if (n >= 1_000) return (n / 1_000).toFixed(n >= 10_000 ? 0 : 1) + 'K';
+    return n.toString();
+  },
+  // Full integer with thousands separators (no K/M abbreviation).
+  numFull(n) { return Math.round(Number(n) || 0).toLocaleString('en-US'); },
+  pct(n, d = 1) { return n.toFixed(d) + '%'; },
+  money(n) {
+    if (n >= 1_000) return '$' + (n / 1_000).toFixed(1) + 'K';
+    // Sub-thousand: whole dollars, no cents. Cents on spend add no useful info.
+    return '$' + Math.round(n).toLocaleString();
+  },
+  // Full dollar amount with cents (e.g. $1,497.32). Used in episode breakdowns
+  // where precise per-platform spend matters.
+  moneyFull(n) {
+    const v = Number(n) || 0;
+    return '$' + v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+};
+
+
+</script>
+
+<!-- Only the components the US Bank page actually needs. No sidebar/Overview/Benchmarks/Inputs/Archive. -->
+<script type="text/babel">
+/* global React, CAMPAIGNS, TOP_POSTS, HERO_POST, CHANNELS, FORMATS, MONTHLY_DELIVERY, SOURCES, fmt */
+// Use React.useState etc. directly — top-level destructuring collides across Babel scripts.
+
+// ============================================================
+// ICONS (minimal, hand-drawn vibe)
+// ============================================================
+const Ic = {
+  arrow: (p) => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M3 8h10M9 4l4 4-4 4"/></svg>,
+  arrowUp: (p) => <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M3 12l5-5 3 3 2-2"/><path d="M10 8h3v3"/></svg>,
+  arrowDn: (p) => <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M3 4l5 5 3-3 2 2"/><path d="M10 8h3v-3"/></svg>,
+  search: (p) => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" {...p}><circle cx="7" cy="7" r="4.5"/><path d="M11 11l3 3" strokeLinecap="round"/></svg>,
+  bell: (p) => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" {...p}><path d="M4 11h8l-1-2V7a3 3 0 0 0-6 0v2L4 11z"/><path d="M7 13a1 1 0 0 0 2 0"/></svg>,
+  cal: (p) => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" {...p}><rect x="2" y="3" width="12" height="11" rx="1.5"/><path d="M2 6h12M5 1.5v3M11 1.5v3" strokeLinecap="round"/></svg>,
+  download: (p) => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M8 2v8M5 7l3 3 3-3M3 13h10"/></svg>,
+  filter: (p) => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" {...p}><path d="M2 4h12M4 8h8M6 12h4"/></svg>,
+  back: (p) => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M13 8H3M7 4L3 8l4 4"/></svg>,
+  dot: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><circle cx="8" cy="8" r="3"/></svg>,
+  grid: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4"><rect x="2" y="2" width="5" height="5"/><rect x="9" y="2" width="5" height="5"/><rect x="2" y="9" width="5" height="5"/><rect x="9" y="9" width="5" height="5"/></svg>,
+  campaign: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"><path d="M2 6l11-3v10L2 10V6z"/><path d="M5 11v2"/></svg>,
+  posts: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4"><rect x="2" y="2" width="12" height="12" rx="1.5"/><path d="M2 6h12M5 9h6M5 11h4"/></svg>,
+  bench: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"><path d="M2 13h12M4 13V8M7 13V5M10 13V9M13 13V3"/></svg>,
+  ext: () => <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3H3v10h10V10"/><path d="M9 3h4v4M13 3l-6 6"/></svg>,
+  settings: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4"><circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M3.5 3.5l1.4 1.4M11.1 11.1l1.4 1.4M1 8h2M13 8h2M3.5 12.5l1.4-1.4M11.1 4.9l1.4-1.4"/></svg>,
+  plus: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"><path d="M8 3v10M3 8h10"/></svg>,
+  upload: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M8 11V3M5 6l3-3 3 3M3 13h10"/></svg>,
+  trash: () => <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 4h10M6 4V2.5h4V4M5 4l1 9h4l1-9"/></svg>,
+  copy: () => <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="5" width="9" height="9" rx="1.5"/><path d="M11 5V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2"/></svg>,
+};
+
+// ============================================================
+// PLATFORM PILLS
+// ============================================================
+const PLATFORM_COLORS = {
+  'LinkedIn': '#0A66C2', 'Instagram': '#E4405F', 'TikTok': '#000000',
+  'X': '#1d1d1f', 'YouTube': '#E00922', 'Facebook': '#1877F2'
+};
+function PlatformPill({ name }) {
+  return (
+    <span className="post-plat">
+      <span style={{ width: 6, height: 6, borderRadius: '50%', background: PLATFORM_COLORS[name] || '#666' }}/>
+      {name}
+    </span>
+  );
+}
+
+// ============================================================
+// SIDEBAR
+// ============================================================
+function Sidebar({ active, onNav, campaigns }) {
+  return (
+    <aside className="sidebar">
+      <div className="sb-brand">
+        <span className="name" style={{fontFamily:'var(--serif)', fontSize:20, letterSpacing:'0.18em', fontWeight:400, textTransform:'uppercase', fontStyle:'normal'}}>
+          <em style={{fontStyle:'italic', fontWeight:300}}>Campaign</em> Pulse
+        </span>
+      </div>
+
+      <button className={"sb-item " + (active === 'overview' ? 'active' : '')} onClick={() => onNav({ view: 'overview' })}>
+        <Ic.grid/> Overview
+      </button>
+      <button className={"sb-item " + (active === 'benchmarks' ? 'active' : '')} onClick={() => onNav({ view: 'benchmarks' })}>
+        <Ic.bench/> Benchmarks
+      </button>
+      <button className={"sb-item " + (active === 'inputs' ? 'active' : '')} onClick={() => onNav({ view: 'inputs' })}>
+        <Ic.plus/> Add Campaign Data
+      </button>
+      <button className={"sb-item " + (active === 'archive' ? 'active' : '')} onClick={() => onNav({ view: 'archive' })}>
+        <Ic.posts/> Data Archive
+      </button>
+
+      {(() => {
+        const active_only = campaigns.filter(c => (c.lifecycle || 'active') === 'active');
+        const wrapped = campaigns.filter(c => c.lifecycle === 'wrapped');
+        const content = active_only.filter(c => c.type !== 'social');
+        const social = active_only.filter(c => c.type === 'social');
+        const renderItem = (c) => (
+          <button key={c.id}
+            className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
+            onClick={() => onNav({ view: 'campaign', id: c.id })}>
+            <Ic.campaign/>
+            <span style={{flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'}}>{c.partner}</span>
+            <span className="dot" style={{
+              background: c.statusKind === 'on' ? '#8FC766' : c.statusKind === 'warn' ? '#FF9947' : '#DE6B38'
+            }}/>
+          </button>
+        );
+        return (
+          <>
+            {content.length > 0 && <div className="sb-section">Content</div>}
+            {content.map(renderItem)}
+            {social.length > 0 && <div className="sb-section">Social</div>}
+            {social.map(renderItem)}
+            {wrapped.length > 0 && <div className="sb-section">Wrapped</div>}
+            {wrapped.map(renderItem)}
+          </>
+        );
+      })()}
+
+    </aside>
+  );
+}
+
+// ============================================================
+// HEADER
+// ============================================================
+function PageHead({ overline, title, italic, sub, actions }) {
+  return (
+    <div className="head">
+      <div>
+        {overline && <div style={{
+          fontSize: 11, letterSpacing: '0.12em', textTransform: 'uppercase',
+          color: 'var(--ink-3)', fontWeight: 600, marginBottom: 12
+        }}>{overline}</div>}
+        <h1 className="head-title">
+          {title}{italic && <> <em>{italic}</em></>}
+        </h1>
+        {sub && <div className="head-sub" style={{marginTop: 10}}>{sub}</div>}
+      </div>
+      <div className="head-actions">{actions}</div>
+    </div>
+  );
+}
+
+// ============================================================
+// PROGRESS BAR (svg)
+// ============================================================
+function PaceBar({ pct, onLight = true }) {
+  return (
+    <div className="pace-bar" style={{ background: onLight ? 'rgba(36,28,23,0.18)' : 'rgba(252,247,219,0.2)' }}>
+      <i style={{ width: Math.min(100, pct) + '%', background: onLight ? 'var(--liquorice)' : 'var(--cream)' }}/>
+    </div>
+  );
+}
+
+// ============================================================
+// WRAP-CAMPAIGN BUTTON — pinned to the campaign detail header. The viewer
+// is read-only (can't write to YAML directly), so this button:
+//   • toggles a pending "wrap" intent in localStorage
+//   • shows a modal explaining what will change + the YAML edits required
+//   • surfaces a copy-paste YAML snippet so the operator can apply the change
+//
+// On the next refresh the operator updates campaigns.yaml manually and the
+// dashboard re-renders with the campaign in the Wrapped section.
+// ============================================================
+function WrapCampaignButton({ campaign }) {
+  const c = campaign;
+  const isWrapped = c.lifecycle === 'wrapped';
+  const [open, setOpen] = React.useState(false);
+  const [endDate, setEndDate] = React.useState(() => new Date().toISOString().slice(0, 10));
+
+  if (isWrapped) {
+    return (
+      <div style={{
+        padding:'8px 12px', borderRadius:'var(--r-md)',
+        background:'var(--liquorice)', color:'var(--cream)',
+        fontSize:11, letterSpacing:'0.06em', fontFamily:'var(--mono)',
+        textAlign:'center', fontWeight:600, textTransform:'uppercase'
+      }}>
+        ✓ Wrapped
+      </div>
+    );
+  }
+
+  // Generate the YAML edit instructions
+  const snippet =
+    `# Edit config/campaigns.yaml — find the entry for id: ${c.id}\n` +
+    `# Change these two lines:\n` +
+    `\n` +
+    `    lifecycle: wrapped       # was: active\n` +
+    `    flight_end: ${endDate}   # set to actual end date\n` +
+    `\n` +
+    `# Then run: python -m app.viewer.refresh`;
+
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(snippet);
+      alert('Copied to clipboard. Paste into config/campaigns.yaml.');
+    } catch {
+      // ignore
+    }
+  };
+
+  return (
+    <>
+      <button onClick={() => setOpen(true)} style={{
+        padding:'8px 14px', borderRadius:'var(--r-md)',
+        background:'var(--bg)', border:'1px solid var(--line)',
+        color:'var(--ink-2)', fontSize:12, fontFamily:'inherit', fontWeight:500,
+        cursor:'pointer', display:'inline-flex', alignItems:'center', gap:6,
+        justifyContent:'center'
+      }}>
+        Mark as wrapped
+      </button>
+
+      {open && (
+        <div style={{
+          position:'fixed', inset:0, zIndex:9999,
+          background:'rgba(31,26,21,0.55)', backdropFilter:'blur(4px)',
+          display:'flex', alignItems:'center', justifyContent:'center', padding:24
+        }} onClick={() => setOpen(false)}>
+          <div onClick={(e) => e.stopPropagation()} style={{
+            background:'var(--surface)', borderRadius:12, padding:28,
+            maxWidth:560, width:'100%', boxShadow:'0 20px 60px rgba(0,0,0,0.3)'
+          }}>
+            <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--ink-3)', fontWeight:600, marginBottom:8}}>
+              Wrap campaign
+            </div>
+            <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, letterSpacing:'-0.01em', marginBottom:14}}>
+              Mark <em>{c.partner}</em> as wrapped?
+            </div>
+            <div style={{fontSize:13, color:'var(--ink-2)', lineHeight:1.6, marginBottom:18}}>
+              The dashboard is read-only, so it can't edit the config file directly.
+              When you confirm, we'll generate the exact two-line YAML edit for you to
+              paste into <code>config/campaigns.yaml</code>. On the next refresh,
+              this campaign moves from <strong>Active</strong> to <strong>Recently wrapped</strong>:
+              the sidebar groups it under Wrapped, and Overview shows a smaller black card
+              with only final delivery numbers.
+            </div>
+
+            <div style={{
+              display:'flex', alignItems:'center', gap:10, marginBottom:18,
+              padding:'12px 14px', background:'var(--bg-soft)',
+              border:'1px solid var(--line)', borderRadius:8
+            }}>
+              <span style={{fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.06em', textTransform:'uppercase', fontFamily:'var(--mono)'}}>Actual end date</span>
+              <input type="date" value={endDate} onChange={e => setEndDate(e.target.value)}
+                style={{
+                  flex:1, padding:'6px 10px', border:'1px solid var(--line)',
+                  borderRadius:6, fontSize:13, fontFamily:'inherit', background:'var(--bg)'
+                }}/>
+            </div>
+
+            <pre style={{
+              background:'var(--liquorice)', color:'var(--cream)',
+              padding:16, borderRadius:8, fontSize:11, lineHeight:1.55,
+              fontFamily:'var(--mono)', whiteSpace:'pre-wrap', wordBreak:'break-word',
+              margin:'0 0 18px 0', maxHeight:200, overflowY:'auto'
+            }}>{snippet}</pre>
+
+            <div style={{display:'flex', gap:10, justifyContent:'flex-end'}}>
+              <button onClick={() => setOpen(false)} style={{
+                background:'transparent', border:'1px solid var(--line)', borderRadius:6,
+                padding:'9px 16px', fontSize:13, fontFamily:'inherit', cursor:'pointer',
+                color:'var(--ink-2)'
+              }}>Cancel</button>
+              <button onClick={copy} className="btn btn-acc">
+                <Ic.copy/> Copy YAML edit
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+// ============================================================
+// WRAPPED CAMPAIGN CARD — compact black card for Recently Wrapped section.
+// Shows partner / series / status / posts / impressions / flight only.
+// ============================================================
+function WrappedCard({ c, onClick }) {
+  const dateRangeFromFlight = (flight) => {
+    // The flight label is already formatted (e.g., "Apr 21 — May 15, 2026"). Use as-is.
+    return flight;
+  };
+  return (
+    <div
+      onClick={onClick}
+      style={{
+        background: 'var(--liquorice)', color: 'var(--cream)',
+        borderRadius: 'var(--r-md)', padding: '20px 22px',
+        cursor: 'pointer', display: 'flex', flexDirection: 'column', gap: 12,
+        transition: 'transform 0.15s, box-shadow 0.15s',
+        border: '1px solid rgba(252,247,219,0.08)',
+        minHeight: 0,
+      }}
+      onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 6px 18px rgba(0,0,0,0.18)'; }}
+      onMouseLeave={(e) => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
+    >
+      <div>
+        <div style={{
+          fontSize: 13, fontWeight: 600, letterSpacing: '0.04em',
+          color: 'var(--cream)', textTransform: 'uppercase', marginBottom: 2
+        }}>{c.partner}</div>
+        <div style={{
+          fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300,
+          letterSpacing: '-0.01em', lineHeight: 1.15, color: 'var(--cream)'
+        }}>
+          {c.series.replace(c.seriesItalic, '')}<em>{c.seriesItalic}</em>
+        </div>
+      </div>
+      <div style={{
+        display: 'inline-flex', alignItems: 'center', gap: 6, alignSelf: 'flex-start',
+        padding: '4px 10px', borderRadius: 999,
+        background: 'rgba(143,199,102,0.16)', color: '#a4d77e',
+        fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.06em', fontWeight: 600
+      }}>
+        <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#a4d77e' }}/>
+        {c.status}
+      </div>
+      <div style={{ display: 'flex', gap: 24, marginTop: 4 }}>
+        <div>
+          <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300, color: 'var(--cream)' }}>
+            {c.posts}
+          </div>
+          <div style={{ fontSize: 9, color: 'rgba(252,247,219,0.55)', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600 }}>Posts</div>
+        </div>
+        <div>
+          <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300, color: 'var(--cream)' }}>
+            {fmt.num(c.impressions.delivered)}
+          </div>
+          <div style={{ fontSize: 9, color: 'rgba(252,247,219,0.55)', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600 }}>Impressions</div>
+        </div>
+      </div>
+      <div style={{
+        fontSize: 10, fontFamily: 'var(--mono)', color: 'rgba(252,247,219,0.45)',
+        letterSpacing: '0.06em', marginTop: 4
+      }}>{dateRangeFromFlight(c.flight)}</div>
+    </div>
+  );
+}
+
+// ============================================================
+// CAMPAIGN CARD (overview)
+// ============================================================
+function CampaignCard({ c, onClick }) {
+  const impPct = (c.impressions.delivered / c.impressions.goal) * 100;
+  const budPct = (c.budget.delivered / c.budget.goal) * 100;
+  return (
+    <div className={"cmp-card " + c.color} onClick={onClick}>
+      <div className="arrow"><Ic.arrow/></div>
+      <div>
+        <div className="partner-row">
+          <span className="partner">{c.partner}</span>
+        </div>
+        <div className="series">
+          {c.series.replace(c.seriesItalic, '')}
+          <em>{c.seriesItalic}</em>
+        </div>
+        <div style={{ display: 'flex', gap: 8, marginBottom: 4, flexWrap: 'wrap' }}>
+          <span className="pill" style={{
+            background: 'rgba(36,28,23,0.12)', border: 'none', color: 'var(--liquorice)',
+            fontWeight: 600
+          }}>
+            <span className="dot" style={{
+              background: c.statusKind === 'on' ? '#2f7a3f' : c.statusKind === 'warn' ? '#b8392b' : '#b8392b'
+            }}/>
+            {c.status}
+          </span>
+          <span className="pill" style={{
+            background: 'rgba(36,28,23,0.08)', border: 'none', color: 'var(--liquorice)'
+          }}>{c.type === 'social'
+              ? `${c.posts} ${c.posts === 1 ? 'post' : 'posts'}`
+              : `${c.episodes} eps · ${c.posts} posts`}</span>
+        </div>
+      </div>
+      <div className="cmp-pacing">
+        <div className="pace-row">
+          <div className="pace-meta">
+            <span className="pl">Impressions</span>
+            <span className="pv">{fmt.num(c.impressions.delivered)} / {fmt.num(c.impressions.goal)}</span>
+          </div>
+          <PaceBar pct={impPct} onLight={c.color !== 'ft-ink'}/>
+        </div>
+        <div className="pace-row">
+          <div className="pace-meta">
+            <span className="pl">Budget</span>
+            <span className="pv">{fmt.money(c.budget.delivered)} / {fmt.money(c.budget.goal)}</span>
+          </div>
+          <PaceBar pct={budPct} onLight={c.color !== 'ft-ink'}/>
+        </div>
+      </div>
+      <div className="meta-foot">
+        <span>{c.flight}</span>
+        <span>{c.elapsedPct.toFixed(0)}% elapsed · {c.daysLeft}d left</span>
+      </div>
+    </div>
+  );
+}
+
+// ============================================================
+// SVG LINE CHART
+// ============================================================
+function MultiLineChart({ data, series, height = 220 }) {
+  const W = 760, H = height, P = { t: 18, r: 18, b: 28, l: 36 };
+  const xs = data.map((_, i) => i);
+  const allVals = data.flatMap(d => series.map(s => d[s.key]));
+  const yMax = Math.max(...allVals) * 1.12;
+  const x = (i) => P.l + (i * (W - P.l - P.r)) / Math.max(1, data.length - 1);
+  const y = (v) => H - P.b - (v / yMax) * (H - P.t - P.b);
+
+  const yTicks = 4;
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" style={{width:'100%',height:'100%',display:'block'}}>
+      {/* gridlines */}
+      {[...Array(yTicks + 1)].map((_, i) => {
+        const v = (yMax / yTicks) * i;
+        const yy = y(v);
+        return (
+          <g key={i}>
+            <line x1={P.l} x2={W - P.r} y1={yy} y2={yy} stroke="currentColor" strokeOpacity="0.08"/>
+            <text x={P.l - 8} y={yy + 3} fontSize="9" textAnchor="end" fill="currentColor" opacity="0.5">{fmt.num(v)}</text>
+          </g>
+        );
+      })}
+      {/* x labels */}
+      {data.map((d, i) => (
+        <text key={i} x={x(i)} y={H - 8} fontSize="10" textAnchor="middle" fill="currentColor" opacity="0.6">{d.m}</text>
+      ))}
+      {/* lines */}
+      {series.map(s => {
+        const pts = data.map((d, i) => `${x(i)},${y(d[s.key])}`).join(' ');
+        return (
+          <g key={s.key}>
+            <polyline points={pts} fill="none" stroke={s.color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            {data.map((d, i) => (
+              <circle key={i} cx={x(i)} cy={y(d[s.key])} r="3" fill={s.color}/>
+            ))}
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+// ============================================================
+// SVG DONUT
+// ============================================================
+function Donut({ data, size = 180, thickness = 28, centerLabel, centerValue }) {
+  const total = data.reduce((s, d) => s + d.value, 0);
+  const r = (size - thickness) / 2;
+  const C = 2 * Math.PI * r;
+  let acc = 0;
+  return (
+    <svg viewBox={`0 0 ${size} ${size}`} width={size} height={size}>
+      <g transform={`translate(${size/2},${size/2}) rotate(-90)`}>
+        {data.map((d, i) => {
+          const len = (d.value / total) * C;
+          const dasharray = `${len} ${C - len}`;
+          const dashoffset = -acc;
+          acc += len;
+          return (
+            <circle key={i} r={r} fill="none" stroke={d.color}
+              strokeWidth={thickness} strokeDasharray={dasharray} strokeDashoffset={dashoffset}/>
+          );
+        })}
+      </g>
+      <text x={size/2} y={size/2 - 4} textAnchor="middle"
+        fontFamily="var(--serif)" fontSize="32" fill="currentColor">{centerValue}</text>
+      <text x={size/2} y={size/2 + 16} textAnchor="middle"
+        fontSize="10" fill="currentColor" opacity="0.6"
+        style={{textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>{centerLabel}</text>
+    </svg>
+  );
+}
+
+// ============================================================
+// SVG BAR CHART
+// ============================================================
+function BarChart({ data, height = 220, valKey = 'value' }) {
+  const W = 600, H = height, P = { t: 16, r: 16, b: 36, l: 16 };
+  const max = Math.max(...data.map(d => d[valKey])) * 1.1;
+  const bw = (W - P.l - P.r) / data.length - 8;
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" style={{width:'100%',height:'100%',display:'block'}}>
+      {data.map((d, i) => {
+        const x = P.l + i * ((W - P.l - P.r) / data.length) + 4;
+        const h = (d[valKey] / max) * (H - P.t - P.b);
+        const y = H - P.b - h;
+        return (
+          <g key={i}>
+            <rect x={x} y={y} width={bw} height={h} rx="6" fill={d.color || 'var(--ink)'} opacity={d.dim ? 0.3 : 1}/>
+            <text x={x + bw/2} y={H - 18} fontSize="11" textAnchor="middle" fill="currentColor" opacity="0.7">{d.label}</text>
+            <text x={x + bw/2} y={H - 6} fontSize="10" textAnchor="middle" fill="currentColor" opacity="0.5">{d.sub || ''}</text>
+            <text x={x + bw/2} y={y - 6} fontSize="11" textAnchor="middle" fill="currentColor" fontWeight="600">{fmt.num(d[valKey])}</text>
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+// ============================================================
+// EPISODE PERFORMANCE TABLE — collapsible per-platform breakdown
+// ============================================================
+function EpisodePerformanceTable({ episodes, channels }) {
+  const [open, setOpen] = React.useState(null); // episode index
+
+  const distLabel = (k) =>
+    k === 'organic' ? { txt: 'Organic only', bg: 'rgba(143,199,102,0.18)', fg: '#2f7a3f' } :
+    k === 'paid'    ? { txt: 'Paid only',    bg: 'rgba(36,28,23,0.10)',    fg: 'var(--liquorice)' } :
+                      { txt: 'Organic + Boosted', bg: 'rgba(92,181,242,0.20)', fg: '#0a4f7a' };
+
+  const chColor = (name) => (channels.find(c => c.name === name) || {}).color || '#666';
+
+  return (
+    // overflow-x:auto lets the per-channel detail table scroll horizontally
+    // on narrow viewports rather than clipping the Spend column.
+    <div className="card" style={{ padding: 0, overflow: 'hidden', overflowX: 'auto' }}>
+      {episodes.map((e, idx) => {
+        const isOpen = open === idx;
+        return (
+          <div key={e.n} style={{ borderBottom: idx < episodes.length - 1 ? '1px solid var(--line)' : 'none' }}>
+            {/* Summary row */}
+            <button
+              onClick={() => setOpen(isOpen ? null : idx)}
+              style={{
+                width: '100%', background: 'transparent', border: 'none',
+                cursor: 'pointer', textAlign: 'left',
+                display: 'grid', gridTemplateColumns: '24px 1fr repeat(4, 110px) 30px',
+                gap: 18, padding: '20px 24px', alignItems: 'center', fontFamily: 'inherit',
+                color: 'inherit', borderTop: idx === 0 ? 'none' : '1px solid transparent'
+              }}
+            >
+              <span style={{
+                width: 22, height: 22, borderRadius: '50%',
+                border: '1px solid var(--line-2)',
+                display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                fontSize: 11, transition: 'transform 0.2s',
+                transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)',
+                color: 'var(--ink-3)'
+              }}>›</span>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+                <span style={{ fontSize: 11, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>{e.n} · {e.date}</span>
+                <span style={{ fontFamily: 'var(--serif)', fontSize: 19, fontWeight: 300, letterSpacing: '-0.01em' }}>{e.title}</span>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300 }}>{fmt.num(e.total.impr)}</div>
+                <div style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>Impr.</div>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300 }}>{fmt.num(e.total.eng)}</div>
+                <div style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>Eng.</div>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300 }}>{e.total.er}<span style={{ fontSize: 13, color: 'var(--ink-3)' }}>%</span></div>
+                <div style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>ER</div>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300 }}>${fmt.num(e.total.spend)}</div>
+                <div style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>Spend</div>
+              </div>
+              <span/>
+            </button>
+
+            {/* Detail rows — every individual post in this episode (not
+                aggregated per platform; the by-channel section already does
+                that). POST column shows the post title/quote. */}
+            {isOpen && (
+              <PerPostRows
+                rows={e.posts || []}
+                total={e.total}
+                distLabel={distLabel}
+                chColor={chColor}
+              />
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ============================================================
+// PER-POST ROWS — used both inside EpisodePerformanceTable expansions and
+// as a standalone table for social campaigns.
+//
+// Columns: POST | Platform | Distribution | Total impr | Paid impr |
+//          Organic impr | % Organic | Eng | ER | Spend
+//
+// Note: no "Posts" column (every row IS one post, so count is implicit).
+// The Total row at the bottom shows aggregates; ER uses backend total.er
+// when available (Pre-roll-excluded) else recomputed locally.
+// ============================================================
+const PER_POST_GRID = '1.4fr 130px 140px 92px 88px 88px 68px 72px 64px 96px';
+
+function PerPostRows({ rows, total, distLabel, chColor }) {
+  if (!rows || rows.length === 0) {
+    return (
+      <div style={{
+        borderTop:'1px solid var(--line)', padding:'24px',
+        textAlign:'center', fontSize:13, color:'var(--ink-3)'
+      }}>No post-level data available for this episode.</div>
+    );
+  }
+  return (
+    <div style={{ borderTop: '1px solid var(--line)' }}>
+      <PerPostHeader/>
+      {rows.map((p, idx) => (
+        <PerPostRow key={idx} p={p} distLabel={distLabel} chColor={chColor}/>
+      ))}
+      <PerPostTotal rows={rows} total={total}/>
+    </div>
+  );
+}
+
+function PerPostTable({ rows, distLabel, chColor }) {
+  // Standalone version used by social campaigns. No outer card here — caller wraps.
+  if (!rows || rows.length === 0) {
+    return (
+      <div className="card" style={{padding:'24px', textAlign:'center', fontSize:13, color:'var(--ink-3)'}}>
+        No posts loaded yet for this campaign.
+      </div>
+    );
+  }
+  // Compute synthetic total (eng/impr) since there's no episode-level total here.
+  const sum = (k) => rows.reduce((a, r) => a + (r[k] || 0), 0);
+  const totalImpr = sum('impr');
+  const totalEng = sum('eng');
+  const total = {
+    impr: totalImpr,
+    eng: totalEng,
+    spend: sum('spend'),
+    er: totalImpr ? (totalEng / totalImpr * 100) : 0,
+  };
+  return (
+    <div className="card" style={{ padding: 0, overflow: 'hidden', overflowX: 'auto' }}>
+      <PerPostHeader/>
+      {rows.map((p, idx) => (
+        <PerPostRow key={idx} p={p} distLabel={distLabel} chColor={chColor}/>
+      ))}
+      <PerPostTotal rows={rows} total={total}/>
+    </div>
+  );
+}
+
+function PerPostHeader() {
+  return (
+    <div style={{
+      display: 'grid', gridTemplateColumns: PER_POST_GRID,
+      gap: 10, padding: '14px 16px 12px 24px',
+      fontSize: 10, fontFamily: 'var(--mono)', color: 'var(--ink-3)',
+      letterSpacing: '0.1em', fontWeight: 600, textTransform: 'uppercase',
+      borderBottom: '1px solid var(--line)', background: 'var(--bg-soft)'
+    }}>
+      <div>Post</div>
+      <div>Platform</div>
+      <div>Distribution</div>
+      <div style={{ textAlign: 'right' }}>Total impr.</div>
+      <div style={{ textAlign: 'right' }}>Paid impr.</div>
+      <div style={{ textAlign: 'right' }}>Organic impr.</div>
+      <div style={{ textAlign: 'right' }}>% Organic</div>
+      <div style={{ textAlign: 'right' }}>Eng.</div>
+      <div style={{ textAlign: 'right' }}>ER</div>
+      <div style={{ textAlign: 'right' }}>Spend</div>
+    </div>
+  );
+}
+
+function PerPostRow({ p, distLabel, chColor }) {
+  const dist = distLabel(p.distKind);
+  const totalSplit = (p.paidImpr || 0) + (p.orgImpr || 0);
+  const orgPct = totalSplit ? (p.orgImpr / totalSplit) * 100 : 0;
+  const TitleCell = p.url ? (
+    <a href={p.url} target="_blank" rel="noreferrer"
+      style={{
+        color:'inherit', textDecoration:'none',
+        overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box',
+        WebkitLineClamp:2, WebkitBoxOrient:'vertical',
+        fontSize:12, fontWeight:500, lineHeight:1.35, paddingRight:8,
+      }}
+      title={p.title}>
+      {p.title || '—'}
+    </a>
+  ) : (
+    <div style={{
+      overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box',
+      WebkitLineClamp:2, WebkitBoxOrient:'vertical',
+      fontSize:12, fontWeight:500, lineHeight:1.35, paddingRight:8,
+    }} title={p.title}>{p.title || '—'}</div>
+  );
+  return (
+    <div style={{
+      display: 'grid', gridTemplateColumns: PER_POST_GRID,
+      gap: 10, padding: '12px 16px 12px 24px', alignItems: 'center',
+      borderBottom: '1px solid var(--line)',
+      fontSize: 13, background: 'var(--bg)'
+    }}>
+      {TitleCell}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
+        <span style={{ width: 8, height: 8, borderRadius: '50%', background: chColor(p.platform), flexShrink:0 }}/>
+        <span style={{ fontSize:12, fontWeight: 500, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{p.platform}</span>
+      </div>
+      <span style={{
+        background: dist.bg, color: dist.fg,
+        fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.06em',
+        fontWeight: 600, padding: '3px 7px', borderRadius: 3,
+        justifySelf: 'start', textTransform: 'uppercase', whiteSpace:'nowrap'
+      }}>{dist.txt}</span>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}>{p.impr ? fmt.numFull(p.impr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.paidImpr ? fmt.numFull(p.paidImpr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500, color: '#2f7a3f' }}>{p.orgImpr ? fmt.numFull(p.orgImpr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{totalSplit ? orgPct.toFixed(0) + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.eng ? fmt.numFull(p.eng) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.er ? p.er + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.spend ? fmt.moneyFull(p.spend) : '—'}</div>
+    </div>
+  );
+}
+
+function PerPostTotal({ rows, total }) {
+  const sum = (k) => rows.reduce((a, r) => a + (r[k] || 0), 0);
+  const totalImpr = sum('impr');
+  const totalPaid = sum('paidImpr');
+  const totalOrg = sum('orgImpr');
+  const totalEng = sum('eng');
+  const totalSpend = sum('spend');
+  const denom = totalPaid + totalOrg;
+  const orgPct = denom ? (totalOrg / denom) * 100 : 0;
+  const totalEr = total?.er ?? (totalImpr ? (totalEng / totalImpr) * 100 : 0);
+  return (
+    <div style={{
+      display: 'grid', gridTemplateColumns: PER_POST_GRID,
+      gap: 10, padding: '16px 16px 16px 24px', alignItems: 'center',
+      fontSize: 13, background: 'var(--bg-soft)',
+      borderTop: '2px solid var(--liquorice)',
+      fontWeight: 700
+    }}>
+      <div style={{
+        fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em',
+        textTransform: 'uppercase', color: 'var(--ink-2)', fontWeight: 700
+      }}>Total ({rows.length} post{rows.length === 1 ? '' : 's'})</div>
+      <div/>
+      <div/>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 700 }}>{totalImpr ? fmt.numFull(totalImpr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalPaid ? fmt.numFull(totalPaid) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', color: '#2f7a3f' }}>{totalOrg ? fmt.numFull(totalOrg) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{denom ? orgPct.toFixed(0) + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalEng ? fmt.numFull(totalEng) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalImpr ? totalEr.toFixed(2) + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalSpend ? fmt.moneyFull(totalSpend) : '—'}</div>
+    </div>
+  );
+}
+
+// expose
+Object.assign(window, {
+  Ic, PlatformPill, Sidebar, PageHead, PaceBar, CampaignCard, WrappedCard,
+  WrapCampaignButton, MultiLineChart, Donut, BarChart, PLATFORM_COLORS,
+  EpisodePerformanceTable, PerPostTable
+});
+
+</script>
+<script type="text/babel">
+/* global React, CAMPAIGNS, TOP_POSTS, CHANNELS, FORMATS, fmt,
+   Ic, PlatformPill, PageHead, MultiLineChart, Donut, BarChart, PaceBar */
+const { useState: useStateC } = React;
+
+function CampaignPage({ campaignId, onBack }) {
+  const c = CAMPAIGNS.find(x => x.id === campaignId) || CAMPAIGNS[0];
+  const impPct = (c.impressions.delivered / c.impressions.goal) * 100;
+  const budPct = (c.budget.delivered / c.budget.goal) * 100;
+  const elapsedPct = c.elapsedPct;
+
+  // Pacing health: are delivery + budget tracking with time elapsed?
+  const impVsTime = impPct - elapsedPct;
+  const budVsTime = budPct - elapsedPct;
+  const paceHealth = (label, diff) => {
+    if (diff > 5) return { label, status: 'ahead', text: `+${diff.toFixed(0)}% vs time` };
+    if (diff < -5) return { label, status: 'behind', text: `${diff.toFixed(0)}% vs time` };
+    return { label, status: 'on', text: 'in sync' };
+  };
+  const trackTime = paceHealth('Time', 0);
+  const trackImp = paceHealth('Delivery', impVsTime);
+  const trackBud = paceHealth('Budget', budVsTime);
+
+  // Per-campaign channels (with YouTube split into In-feed + Pre-roll).
+  // Falls back to scaled cross-campaign data if the per-campaign rollup isn't populated.
+  const channels = (c.channels && c.channels.length > 0)
+    ? c.channels
+    : CHANNELS.map(ch => ({
+        ...ch,
+        impressions: Math.round(ch.impressions * (c.impressions.delivered / 13_780_000)),
+        eng: Math.round(ch.eng * (c.impressions.delivered / 13_780_000))
+      }));
+
+  const totalPosts = c.episodes * 6 + 4;
+
+  // Episode breakdown by channel
+  // distKind: 'organic' | 'organic+boosted' | 'paid'
+  const EPISODES = (window.EPISODES_BY_CAMPAIGN || {})[campaignId] || [];
+
+  const cardTone = c.color === 'ft-ink' ? { bg: 'var(--liquorice)', fg: 'var(--cream)', dim: 'rgba(245,241,232,0.7)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' } :
+    c.color === 'ft-1' ? { bg: 'var(--orange)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-2' ? { bg: 'var(--blossom)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-3' ? { bg: 'var(--sky)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-4' ? { bg: 'var(--pear)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-5' ? { bg: 'var(--lilac)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
+    c.color === 'ft-6' ? { bg: 'var(--flame)', fg: 'var(--paper)', dim: 'rgba(250,247,239,0.75)', track: 'rgba(250,247,239,0.2)', fill: 'var(--paper)' } :
+    { bg: 'var(--liquorice)', fg: 'var(--cream)', dim: 'rgba(245,241,232,0.7)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' };
+
+  return (
+    <>
+      <PageHead
+        overline={<>
+          <span style={{cursor:'pointer'}} onClick={onBack}><Ic.back/> Overview</span>
+          <span style={{margin:'0 8px', opacity:0.4}}>/</span>
+          <span>{c.partner}</span>
+        </>}
+        title={c.series.replace(c.seriesItalic, '').trim()}
+        italic={c.seriesItalic}
+        actions={<>
+          <div className="card" style={{
+            padding:'14px 18px', minWidth:240, background:'var(--surface)',
+            border:'1px solid var(--line)', borderRadius:'var(--r-md)',
+            display:'flex', flexDirection:'column', gap:6
+          }}>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Partner</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.partner}</span>
+            </div>
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.flight}</span>
+            </div>
+            {/* Episode count is only meaningful for content campaigns — social
+                campaigns are post-based and the "episodes" field there is just
+                a count of content components, which doesn't read naturally. */}
+            {c.type !== 'social' && (
+              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+                <span style={{color:'var(--ink-3)', fontWeight:500}}>Episodes</span>
+                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.episodes} live</span>
+              </div>
+            )}
+            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Format</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.leadFormat}</span>
+            </div>
+          </div>
+          <div style={{display:'flex', flexDirection:'column', gap:8, marginLeft:12}}>
+            <button className="btn btn-acc"><Ic.download/> Export</button>
+            <WrapCampaignButton campaign={c}/>
+          </div>
+        </>}
+      />
+
+      {/* HERO PACING BANNER */}
+      <div style={{
+        background: cardTone.bg, color: cardTone.fg,
+        borderRadius: 'var(--r-lg)', padding: 22,
+        marginBottom: 24, display: 'grid',
+        gridTemplateColumns: '1.1fr 1fr 1fr', gap: 24,
+        alignItems: 'center', position: 'relative', overflow: 'hidden'
+      }}>
+        <div>
+          <div style={{display:'flex', alignItems:'center', gap:8, marginBottom:10}}>
+            <span style={{fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', fontWeight:600, opacity:0.7}}>Status</span>
+            <span style={{
+              display:'inline-flex', alignItems:'center', gap:6,
+              padding:'3px 10px', borderRadius:999,
+              background: 'rgba(255,255,255,0.92)',
+              color: c.statusKind === 'on' ? '#2f7a3f' : c.statusKind === 'danger' ? '#b8392b' : '#a06b14',
+              fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.06em', fontWeight:600
+            }}>
+              <span style={{width:6, height:6, borderRadius:'50%', background: c.statusKind === 'on' ? '#2f7a3f' : (c.statusKind === 'danger' ? '#b8392b' : '#a06b14')}}/>
+              {c.status}
+            </span>
+          </div>
+          <div style={{fontSize:13, lineHeight:1.5, opacity:0.88}}>{c.blurb}</div>
+        </div>
+        <div>
+          <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Impression delivery</div>
+          <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
+            <span style={{fontFamily:'var(--serif)', fontSize:48, lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{fmt.num(c.impressions.delivered)}</span>
+            <span style={{fontSize:14, opacity:0.7}}>of {fmt.num(c.impressions.goal)}</span>
+          </div>
+          <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
+            <div style={{height:'100%', width: Math.min(100,impPct)+'%', background: cardTone.fill, borderRadius:999}}/>
+          </div>
+          <div style={{fontSize:12, opacity:0.7}}>{impPct.toFixed(1)}% delivered · {elapsedPct.toFixed(0)}% time elapsed</div>
+        </div>
+        <div>
+          <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Budget</div>
+          <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
+            <span style={{fontFamily:'var(--serif)', fontSize:48, lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{fmt.money(c.budget.delivered)}</span>
+            <span style={{fontSize:14, opacity:0.7}}>of {fmt.money(c.budget.goal)}</span>
+          </div>
+          <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
+            <div style={{height:'100%', width: Math.min(100,budPct)+'%', background: cardTone.fill, borderRadius:999}}/>
+          </div>
+          <div style={{fontSize:12, opacity:0.7}}>{budPct.toFixed(1)}% spent · {fmt.money(c.budget.goal - c.budget.delivered)} remaining</div>
+        </div>
+      </div>
+
+      {/* FLIGHT TRACKER — three-bar pacing alignment */}
+      <div className="card" style={{marginBottom: 24}}>
+        <div className="card-h">
+          <div>
+            <div className="card-title-serif">Flight <em>tracker</em></div>
+          </div>
+          <span className="pill" style={{
+            background: Math.abs(impVsTime) < 5 && Math.abs(budVsTime) < 5 ? 'rgba(143,199,102,0.18)' : 'rgba(255,153,71,0.18)',
+            color: Math.abs(impVsTime) < 5 && Math.abs(budVsTime) < 5 ? '#2f7a3f' : '#b8392b',
+            border:'none', fontWeight:600
+          }}>
+            <span className="dot" style={{background: Math.abs(impVsTime) < 5 && Math.abs(budVsTime) < 5 ? '#2f7a3f' : '#b8392b'}}/>
+            {Math.abs(impVsTime) < 5 && Math.abs(budVsTime) < 5 ? 'Aligned' : impVsTime < -5 ? 'Delivery lagging' : budVsTime > 5 ? 'Spend ahead' : 'Watch'}
+          </span>
+        </div>
+        <div style={{display:'flex', flexDirection:'column', gap:18, marginTop:8}}>
+          {[
+            { lbl: 'Time elapsed', pct: elapsedPct, sub: `${c.daysLeft} days remaining`, color: 'var(--ink-3)' },
+            { lbl: 'Impressions delivered', pct: impPct, sub: `${impPct.toFixed(0)}% of ${fmt.num(c.impressions.goal)} goal`, color: cardTone.bg === 'var(--liquorice)' ? 'var(--ink)' : cardTone.bg },
+            { lbl: 'Budget spent', pct: budPct, sub: `${budPct.toFixed(0)}% of ${fmt.money(c.budget.goal)}`, color: 'var(--pear)' },
+          ].map(row => (
+            <div key={row.lbl} style={{display:'grid', gridTemplateColumns:'180px 1fr 220px', gap:16, alignItems:'center'}}>
+              <div>
+                <div style={{fontSize:13, fontWeight:500, color:'var(--ink)'}}>{row.lbl}</div>
+                <div style={{fontSize:11, color:'var(--ink-3)', marginTop:2}}>{row.sub}</div>
+              </div>
+              <div style={{position:'relative', height:10, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden'}}>
+                <div style={{position:'absolute', inset:0, width: row.pct + '%', background: row.color, borderRadius:999, transition:'width 0.4s'}}/>
+                {/* time elapsed marker */}
+                {row.lbl !== 'Time elapsed' && (
+                  <div style={{position:'absolute', top:-3, bottom:-3, left: `calc(${elapsedPct}% - 1px)`, width:2, background:'var(--ink)', opacity:0.5}}/>
+                )}
+              </div>
+              <div style={{textAlign:'right', fontFamily:'var(--serif)', fontSize:24, fontWeight:300, color:'var(--ink)'}}>
+                {row.pct.toFixed(0)}<span style={{fontSize:13, color:'var(--ink-3)'}}>%</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* KPI ROW */}
+      <div className="kpi-row">
+        <div className="kpi">
+          <div className="kpi-lbl">Total Impressions</div>
+          {/* Full integer (1,234,567) instead of abbreviated (1.2M) — this is
+              the single source of truth on the final delivery number. */}
+          <div className="kpi-val" style={{fontSize:'clamp(28px, 3vw, 42px)'}}>{fmt.numFull(c.impressions.delivered)}</div>
+          <div className="kpi-foot"><span className="muted">{impPct.toFixed(1)}% to goal</span></div>
+        </div>
+        <div className="kpi">
+          <div className="kpi-lbl">Engagements</div>
+          {/* Full integer to match Total Impressions — these are the headline
+              numbers and people will read them as exact. */}
+          <div className="kpi-val" style={{fontSize:'clamp(28px, 3vw, 42px)'}}>{fmt.numFull(Math.round(c.impressions.delivered * c.er / 100))}</div>
+        </div>
+        <div className="kpi">
+          <div className="kpi-lbl">Engagement Rate</div>
+          <div className="kpi-val">{c.er}<span className="unit">%</span></div>
+        </div>
+        <div className="kpi">
+          <div className="kpi-lbl">Avg CPM</div>
+          <div className="kpi-val">${c.cpm}</div>
+        </div>
+        <div className="kpi">
+          <div className="kpi-lbl">{c.type === 'social' ? 'Posts' : 'Episodes / Posts'}</div>
+          <div className="kpi-val">
+            {c.type === 'social'
+              ? c.posts
+              : <>{c.episodes}<span className="unit" style={{margin:'0 6px', color:'var(--ink-3)'}}>/</span>{c.posts}</>}
+          </div>
+          <div className="kpi-foot"><span className="muted">{c.topChannel} leading</span></div>
+        </div>
+      </div>
+
+      {/* PULSE CHECK — was "What we're seeing", moved up per request.
+          Always renders on active campaigns so the section has a stable home
+          even when no callouts have fired yet. */}
+      {(c.lifecycle || 'active') === 'active' && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">Pulse <em>check</em></div>
+            <div className="sec-sub" style={{marginTop:6}}>Auto-flagged based on this campaign's recent activity.</div>
+          </div>
+        </div>
+        {(c.callouts && c.callouts.length > 0) ? (
+          <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(c.callouts.length, 3)}, minmax(0, 1fr))`, gap:14}}>
+            {c.callouts.map((co, i) => {
+              const tone = co.kind === 'pos' ? { bar: 'var(--pear)', tag: '#2f7a3f' } :
+                co.kind === 'warn' ? { bar: 'var(--orange)', tag: '#b8392b' } :
+                { bar: 'var(--sky)', tag: 'var(--ink)' };
+              return (
+                <div key={i} style={{
+                  background:'var(--surface)', border:'1px solid var(--line)', borderRadius:'var(--r-lg)',
+                  padding: 22, position:'relative', overflow:'hidden',
+                  display:'flex', flexDirection:'column', gap:10
+                }}>
+                  <div style={{position:'absolute', left:0, top:0, bottom:0, width:4, background: tone.bar}}/>
+                  <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                    <span style={{
+                      fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em',
+                      fontWeight:600, color: tone.tag,
+                      padding:'3px 8px', background: tone.bar+'33', borderRadius: 4
+                    }}>{co.tag}</span>
+                    <span style={{fontSize:10, color:'var(--ink-3)', fontFamily:'var(--mono)', letterSpacing:'0.06em'}}>{co.meta}</span>
+                  </div>
+                  <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{co.headline}</div>
+                  <div style={{fontSize:13, lineHeight:1.5, color:'var(--ink-2)'}}>{co.body}</div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="card" style={{padding:'22px', textAlign:'center', fontSize:13, color:'var(--ink-3)'}}>
+            No flags yet — this campaign is performing in line with benchmarks.
+          </div>
+        )}
+      </div>
+      )}
+
+      {/* PER-EPISODE PERFORMANCE — content campaigns only. Each episode row is
+          clickable and expands to show every individual POST in that episode
+          (not aggregated per platform — the By Channel section already does that). */}
+      {c.type !== 'social' && EPISODES.length > 0 && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">Per-episode <em>performance</em></div>
+            <div className="sec-sub" style={{marginTop:6}}>Click any episode row to expand the post-by-post breakdown — every individual post on every platform, with distribution, paid vs organic split, spend, and ER.</div>
+          </div>
+        </div>
+        <EpisodePerformanceTable episodes={EPISODES} channels={channels}/>
+      </div>
+      )}
+
+      {/* POST-LEVEL PERFORMANCE — social campaigns only. Flat table of every
+          post in the campaign (no episode wrapper). */}
+      {c.type === 'social' && (() => {
+        const rows = (window.POSTS_BY_CAMPAIGN || {})[campaignId] || [];
+        if (!rows.length) return null;
+        const distLabel = (k) =>
+          k === 'organic' ? { txt: 'Organic only', bg: 'rgba(143,199,102,0.18)', fg: '#2f7a3f' } :
+          k === 'paid'    ? { txt: 'Paid only',    bg: 'rgba(36,28,23,0.10)',    fg: 'var(--liquorice)' } :
+                            { txt: 'Organic + Boosted', bg: 'rgba(92,181,242,0.20)', fg: '#0a4f7a' };
+        const chColor = (name) => (channels.find(c => c.name === name) || {}).color || '#666';
+        return (
+          <div className="sec">
+            <div className="sec-h">
+              <div>
+                <div className="sec-title">Post-level <em>performance</em></div>
+                <div className="sec-sub" style={{marginTop:6}}>Every post in this campaign, broken out individually. Distribution, paid vs organic split, spend, and ER per row.</div>
+              </div>
+            </div>
+            <PerPostTable rows={rows} distLabel={distLabel} chColor={chColor}/>
+          </div>
+        );
+      })()}
+
+      {/* EPISODE / TENTPOLE COMPARISON CARDS */}
+      {EPISODES.length > 0 && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">
+              {c.type === 'social' ? <>Tentpole <em>comparison</em></> : <>Episode <em>comparison</em></>}
+            </div>
+            <div className="sec-sub" style={{marginTop:6}}>
+              {c.type === 'social'
+                ? `What worked across the ${EPISODES.length} parts of this campaign.`
+                : "What worked, what didn't — episode by episode."}
+            </div>
+          </div>
+        </div>
+        <div style={{
+          display:'grid',
+          gridTemplateColumns: c.type === 'social'
+            ? `repeat(${Math.min(EPISODES.length, 2)}, minmax(0, 1fr))`
+            : 'repeat(3, minmax(0, 1fr))',
+          gap:14
+        }}>
+          {EPISODES.map((e, idx) => {
+            const tones = ['ft-3', 'ft-4', 'ft-2'];
+            const bgs = { 'ft-3': 'var(--sky)', 'ft-4': 'var(--pear)', 'ft-2': 'var(--blossom)' };
+            return (
+              <div key={e.n} style={{
+                background: 'var(--surface)', border: '1px solid var(--line)',
+                borderRadius: 'var(--r-lg)', padding: 18, display:'flex', flexDirection:'column', gap: 12,
+                minWidth: 0, overflow: 'hidden'
+              }}>
+                <div>
+                  <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 10}}>
+                    <span style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, color:'var(--ink-3)'}}>{e.n}</span>
+                    <span style={{
+                      background: bgs[tones[idx % tones.length]], padding:'3px 10px', borderRadius: 999,
+                      fontSize:11, fontWeight:600, color:'var(--liquorice)'
+                    }}>{e.date}</span>
+                  </div>
+                  <div style={{fontFamily:'var(--serif)', fontSize:20, fontWeight:300, lineHeight:1.2, letterSpacing:'-0.01em', color:'var(--ink)'}}>{e.title}</div>
+                </div>
+                <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8, paddingTop:12, borderTop:'1px solid var(--line)'}}>
+                  <div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300, color:'var(--ink)'}}>{fmt.num(e.total.impr)}</div>
+                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>Impr.</div>
+                  </div>
+                  <div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300, color:'var(--ink)'}}>{e.total.er}<span style={{fontSize:13, color:'var(--ink-3)'}}>%</span></div>
+                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>ER</div>
+                  </div>
+                  <div>
+                    <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300, color:'var(--ink)'}}>{fmt.num(e.total.eng)}</div>
+                    <div style={{fontSize:10, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600, marginTop:2}}>Eng.</div>
+                  </div>
+                </div>
+                <div style={{display:'flex', flexDirection:'column', gap:8}}>
+                  {e.callouts.map((co, i) => (
+                    <div key={i} style={{
+                      display:'flex', gap: 10, padding: '10px 12px',
+                      background: co.kind === 'pos' ? 'rgba(143,199,102,0.12)' : 'rgba(255,153,71,0.14)',
+                      borderRadius: 8, fontSize: 12, lineHeight: 1.45
+                    }}>
+                      <span style={{
+                        fontFamily:'var(--mono)', fontSize:10, fontWeight:600,
+                        color: co.kind === 'pos' ? '#2f7a3f' : '#b8392b',
+                        flexShrink: 0, marginTop: 1, letterSpacing: '0.04em'
+                      }}>{co.kind === 'pos' ? '↑ WIN' : '! WATCH'}</span>
+                      <span style={{color:'var(--ink-2)'}}>{co.text}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* TOP POSTS for this episode — hidden entirely when no post
+                    crosses the ER ≥ 2% threshold (no point showing weak ER as
+                    a "top post"). */}
+                {e.topPosts && e.topPosts.length > 0 && (
+                <div style={{paddingTop:14, borderTop:'1px solid var(--line)'}}>
+                  <div style={{fontSize:10, fontFamily:'var(--mono)', letterSpacing:'0.12em', fontWeight:600, color:'var(--ink-3)', marginBottom:10, textTransform:'uppercase'}}>
+                    Top posts · this episode
+                  </div>
+                  <div style={{display:'flex', flexDirection:'column', gap:8}}>
+                    {e.topPosts.map((p, i) => (
+                      <a key={i}
+                        href={p.url || '#'}
+                        target={p.url ? '_blank' : undefined}
+                        rel={p.url ? 'noreferrer' : undefined}
+                        style={{
+                        textDecoration:'none', color:'inherit',
+                        display:'flex', alignItems:'center', gap:8,
+                        padding:'8px 10px', borderRadius:6, minWidth:0,
+                        background:'var(--bg-soft)', border:'1px solid var(--line)',
+                        cursor: p.url ? 'pointer' : 'default'
+                      }}>
+                        <span style={{
+                          fontFamily:'var(--serif)', fontSize:16, fontWeight:300,
+                          color:'var(--ink)', minWidth:42, fontVariantNumeric:'tabular-nums', flexShrink:0
+                        }}>{p.er.toFixed(1)}<span style={{fontSize:10, color:'var(--ink-3)'}}>%</span></span>
+                        <span style={{flex:'1 1 0', minWidth:0, fontSize:11, color:'var(--ink-2)', lineHeight:1.3, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}}>"{p.quote}"</span>
+                        <span style={{flexShrink:0, color:'var(--ink-3)', display:'inline-flex'}}><Ic.ext/></span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      )}
+
+      {/* TOP POSTS — per-campaign. Hidden entirely when neither list has a
+          qualifier (no posts ≥2% ER OR no posts ≥100K organic reach), since
+          showing empty tiles with placeholder copy adds noise. The visible
+          column count adapts to whichever side has data. */}
+      {((c.topPosts && c.topPosts.length > 0) || (c.topPostsOrganic && c.topPostsOrganic.length > 0)) && (
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">Top <em>posts</em></div>
+            <div className="sec-sub" style={{marginTop:6}}>Best-performing assets on this campaign. Click any row to open.</div>
+          </div>
+        </div>
+        {(() => {
+          const showEr = c.topPosts && c.topPosts.length > 0;
+          const showOrg = c.topPostsOrganic && c.topPostsOrganic.length > 0;
+          const cols = (showEr && showOrg) ? '1fr 1fr' : '1fr';
+          return (
+        <div style={{display:'grid', gridTemplateColumns:cols, gap:14}}>
+          {/* By engagement rate — only when at least one qualifier exists */}
+          {showEr && (
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
+              <div className="card-title-serif" style={{fontSize:20}}>By <em>engagement rate</em></div>
+              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Min 1K views, ER ≥ 2% — ranked by ER%</div>
+            </div>
+            {c.topPosts.slice(0, 5).map((p, idx, arr) => (
+              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
+                style={{
+                  display:'grid', gridTemplateColumns:'28px 1fr 100px 70px 18px', gap:12,
+                  padding:'14px 22px', alignItems:'center',
+                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                  textDecoration:'none', color:'inherit', cursor:'pointer',
+                  transition:'background 0.15s'
+                }}
+                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
+                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
+                <div style={{fontFamily:'var(--mono)', fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.04em'}}>{String(p.rank || idx + 1).padStart(2,'0')}</div>
+                <div style={{minWidth:0}}>
+                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
+                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format}</div>
+                </div>
+                <div><PlatformPill name={p.platform}/></div>
+                <div style={{textAlign:'right'}}>
+                  <div style={{fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:15}}>{p.er.toFixed(2)}<span style={{fontSize:10, color:'var(--ink-3)'}}>%</span></div>
+                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>ER</div>
+                </div>
+                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
+              </a>
+            ))}
+          </div>
+          )}
+
+          {/* By organic reach — only when at least one qualifier exists */}
+          {showOrg && (
+          <div className="card" style={{padding:0, overflow:'hidden'}}>
+            <div style={{padding:'18px 22px 14px', borderBottom:'1px solid var(--line)'}}>
+              <div className="card-title-serif" style={{fontSize:20}}>By <em>organic reach</em></div>
+              <div style={{fontSize:11, color:'var(--ink-3)', marginTop:4}}>Min 100K organic — ranked by organic reach</div>
+            </div>
+            {c.topPostsOrganic.slice(0, 5).map((p, idx, arr) => (
+              <a key={p.id || idx} href={p.url || '#'} target="_blank" rel="noreferrer"
+                style={{
+                  display:'grid', gridTemplateColumns:'28px 1fr 100px 90px 18px', gap:12,
+                  padding:'14px 22px', alignItems:'center',
+                  borderBottom: idx < arr.length - 1 ? '1px solid var(--line)' : 'none',
+                  textDecoration:'none', color:'inherit', cursor:'pointer',
+                  transition:'background 0.15s'
+                }}
+                onMouseEnter={(ev) => ev.currentTarget.style.background = 'var(--bg-soft)'}
+                onMouseLeave={(ev) => ev.currentTarget.style.background = ''}>
+                <div style={{fontFamily:'var(--mono)', fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.04em'}}>{String(p.rank || idx + 1).padStart(2,'0')}</div>
+                <div style={{minWidth:0}}>
+                  <div style={{fontSize:13, fontWeight:500, marginBottom:3, lineHeight:1.35, overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>{p.quote}</div>
+                  <div style={{fontSize:10, color:'var(--ink-3)'}}>{p.format} · {p.organicPct}% organic</div>
+                </div>
+                <div><PlatformPill name={p.platform}/></div>
+                <div style={{textAlign:'right'}}>
+                  <div style={{fontVariantNumeric:'tabular-nums', fontWeight:600, fontSize:15, color:'#2f7a3f'}}>{fmt.num(p.organicReach)}</div>
+                  <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.08em', fontWeight:600}}>Organic</div>
+                </div>
+                <div style={{color:'var(--ink-3)', display:'flex', justifyContent:'flex-end'}}><Ic.ext/></div>
+              </a>
+            ))}
+          </div>
+          )}
+        </div>
+          );
+        })()}
+      </div>
+      )}
+
+      {/* CHANNELS — moved to bottom per spec. Layout:
+            ≤4 channels  → single row (one per column)
+            ≥5 channels  → two rows, YT/IG family on top, others below */}
+      <div className="sec">
+        <div className="sec-h">
+          <div>
+            <div className="sec-title">By <em>channel</em></div>
+            <div className="sec-sub" style={{marginTop:6}}>Reach, engagement, and CPM with platform benchmarks.</div>
+          </div>
+        </div>
+
+        {(() => {
+          const ROW_1_ORDER = ['YouTube In-feed', 'YouTube Pre-roll', 'YouTube Shorts', 'Instagram', 'Instagram Stories'];
+          const ROW_2_ORDER = ['X', 'LinkedIn', 'TikTok', 'Facebook'];
+          const orderIndex = (arr, name) => {
+            const i = arr.indexOf(name);
+            return i === -1 ? 999 : i;
+          };
+
+          const renderTile = (ch) => {
+            const erDiff = ch.er - ch.bench.er;
+            const cpmDiff = ch.bench.cpm > 0 ? ((ch.cpm - ch.bench.cpm) / ch.bench.cpm) * 100 : 0;
+            return (
+              <div key={ch.name} className="chan">
+                <div className="chan-h">
+                  <div className="chan-name">
+                    <em style={{fontStyle:'italic'}}>{ch.name}</em>
+                  </div>
+                  <span style={{ width: 12, height: 12, borderRadius: '50%', background: ch.color }}/>
+                </div>
+                <div className="chan-stats">
+                  <div className="chan-stat"><div className="v">{fmt.num(ch.impressions)}</div><div className="l">Impr.</div></div>
+                  <div className="chan-stat"><div className="v">{fmt.num(ch.eng)}</div><div className="l">Eng.</div></div>
+                  <div className="chan-stat"><div className="v">{ch.er}<span style={{fontSize:11, color:'var(--ink-3)'}}>%</span></div><div className="l">ER</div></div>
+                  <div className="chan-stat"><div className="v">{ch.cpm === 0 ? '—' : '$'+ch.cpm}</div><div className="l">CPM</div></div>
+                </div>
+                <div style={{
+                  marginTop: 10, paddingTop: 10, borderTop: '1px solid var(--line)',
+                  display:'flex', flexDirection:'column', gap: 5
+                }}>
+                  <div style={{display:'flex', justifyContent:'space-between', fontSize: 11}}>
+                    <span style={{color:'var(--ink-3)'}}>ER bench</span>
+                    <span style={{fontWeight:500, color:'var(--ink-2)'}}>
+                      {ch.bench.er}% <span style={{color: erDiff > 0 ? 'var(--positive)' : 'var(--danger)', fontWeight:600, marginLeft:4}}>
+                        {erDiff > 0 ? '+' : ''}{erDiff.toFixed(1)}
+                      </span>
+                    </span>
+                  </div>
+                  {ch.bench.cpm > 0 && ch.cpm > 0 && (
+                    <div style={{display:'flex', justifyContent:'space-between', fontSize: 11}}>
+                      <span style={{color:'var(--ink-3)'}}>CPM bench</span>
+                      <span style={{fontWeight:500, color:'var(--ink-2)'}}>
+                        ${ch.bench.cpm.toFixed(2)} <span style={{color: cpmDiff > 0 ? 'var(--danger)' : 'var(--positive)', fontWeight:600, marginLeft:4}}>
+                          {cpmDiff > 0 ? '+' : ''}{cpmDiff.toFixed(0)}%
+                        </span>
+                      </span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          };
+
+          // ≤4 channels: render all on one row, sorted by ROW_1_ORDER then ROW_2_ORDER then impressions
+          if (channels.length <= 4) {
+            const ordered = [...channels].sort((a, b) => {
+              const ai = orderIndex(ROW_1_ORDER, a.name);
+              const bi = orderIndex(ROW_1_ORDER, b.name);
+              if (ai !== bi) return ai - bi;
+              const aj = orderIndex(ROW_2_ORDER, a.name);
+              const bj = orderIndex(ROW_2_ORDER, b.name);
+              if (aj !== bj) return aj - bj;
+              return b.impressions - a.impressions;
+            });
+            return (
+              <div style={{display:'grid', gridTemplateColumns:`repeat(${ordered.length}, minmax(0, 1fr))`, gap:10}}>
+                {ordered.map(renderTile)}
+              </div>
+            );
+          }
+
+          // ≥5 channels: split into two rows (YouTube/Instagram family on top, rest below)
+          const row1 = channels
+            .filter(c => ROW_1_ORDER.includes(c.name))
+            .sort((a, b) => orderIndex(ROW_1_ORDER, a.name) - orderIndex(ROW_1_ORDER, b.name));
+          const row2Set = new Set(ROW_1_ORDER);
+          const row2 = channels
+            .filter(c => !row2Set.has(c.name))
+            .sort((a, b) => {
+              const ai = orderIndex(ROW_2_ORDER, a.name);
+              const bi = orderIndex(ROW_2_ORDER, b.name);
+              if (ai !== bi) return ai - bi;
+              return b.impressions - a.impressions;
+            });
+          return (
+            <>
+              {row1.length > 0 && (
+                <div style={{display:'grid', gridTemplateColumns:`repeat(${row1.length}, minmax(0, 1fr))`, gap:10, marginBottom:10}}>
+                  {row1.map(renderTile)}
+                </div>
+              )}
+              {row2.length > 0 && (
+                <div style={{display:'grid', gridTemplateColumns:`repeat(${row2.length}, minmax(0, 1fr))`, gap:10, marginBottom:16}}>
+                  {row2.map(renderTile)}
+                </div>
+              )}
+            </>
+          );
+        })()}
+      </div>
+    </>
+  );
+}
+
+// Tiny custom curve chart with goal line
+function DeliveryCurve({ campaign }) {
+  const W = 600, H = 240, P = { t: 16, r: 16, b: 30, l: 32 };
+  const weeks = 16;
+  const goal = campaign.impressions.goal;
+  const progress = campaign.impressions.delivered / goal;
+  const elapsed = campaign.elapsedPct / 100;
+
+  const ideal = Array.from({length: weeks + 1}, (_, i) => (i / weeks) * goal);
+  const actual = Array.from({length: weeks + 1}, (_, i) => {
+    if (i / weeks > elapsed + 0.05) return null;
+    const t = i / weeks / Math.max(0.01, elapsed);
+    const noise = Math.sin(i * 1.3) * 0.04;
+    return Math.min(goal, t * progress * goal + noise * goal);
+  });
+
+  const yMax = goal * 1.05;
+  const x = (i) => P.l + (i * (W - P.l - P.r)) / weeks;
+  const y = (v) => H - P.b - (v / yMax) * (H - P.t - P.b);
+
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" style={{width:'100%',height:'100%',display:'block'}}>
+      {[0, 0.25, 0.5, 0.75, 1].map((p, i) => {
+        const v = p * yMax;
+        const yy = y(v);
+        return (
+          <g key={i}>
+            <line x1={P.l} x2={W-P.r} y1={yy} y2={yy} stroke="currentColor" strokeOpacity="0.08"/>
+            <text x={P.l-6} y={yy+3} fontSize="9" textAnchor="end" fill="currentColor" opacity="0.5">{fmt.num(v)}</text>
+          </g>
+        );
+      })}
+      <line x1={P.l} x2={W-P.r} y1={y(goal)} y2={y(goal)} stroke="var(--ink)" strokeWidth="1" strokeDasharray="3 3" opacity="0.5"/>
+      <text x={W-P.r} y={y(goal)-6} fontSize="10" textAnchor="end" fill="currentColor" fontWeight="600">Goal {fmt.num(goal)}</text>
+      <polyline points={ideal.map((v,i) => `${x(i)},${y(v)}`).join(' ')}
+        fill="none" stroke="var(--ink-3)" strokeWidth="1.5" strokeDasharray="4 4" opacity="0.6"/>
+      <polyline points={actual.filter(v => v !== null).map((v,i) => `${x(i)},${y(v)}`).join(' ')}
+        fill="none" stroke="var(--flame)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <line x1={x(weeks * elapsed)} x2={x(weeks * elapsed)}
+        y1={P.t} y2={H-P.b} stroke="var(--ink)" strokeWidth="1" opacity="0.4"/>
+      <circle cx={x(weeks * elapsed)} cy={y(progress * goal)} r="5" fill="var(--flame)"/>
+      <circle cx={x(weeks * elapsed)} cy={y(progress * goal)} r="9" fill="var(--flame)" opacity="0.2"/>
+      {[0, 4, 8, 12, 16].map(w => (
+        <text key={w} x={x(w)} y={H-12} fontSize="10" textAnchor="middle" fill="currentColor" opacity="0.6">W{w + 1}</text>
+      ))}
+      <text x={x(weeks * elapsed)} y={P.t-2} fontSize="9" textAnchor="middle" fill="currentColor" fontWeight="600">Today</text>
+    </svg>
+  );
+}
+
+window.CampaignPage = CampaignPage;
+
+</script>
+<script type="text/babel">
+/* global React, CAMPAIGNS, fmt, Ic, PlatformPill, PageHead */
+const { useState: useStateUB } = React;
+
+// ============================================================
+// US BANK x NFL DRAFT — bespoke layout
+// 3 social components, no episodes/cutdowns
+// ============================================================
+
+const UB_COMPONENTS = window.UB_COMPONENTS || [];
+
+const PLATFORM_CPMS = window.UB_PLATFORM_CPMS || [];
+
+// ── Distribution badge ─────────────────────────────────────
+function DistBadge({ kind }) {
+  const styles = {
+    'organic+paid': { bg:'rgba(80,135,230,0.16)', fg:'#3450a8', label:'ORGANIC + PAID' },
+    'organic':      { bg:'rgba(143,199,102,0.18)', fg:'#2f7a3f', label:'ORGANIC' },
+    'paid':         { bg:'rgba(255,153,71,0.22)',  fg:'#a04a14', label:'PAID' },
+  };
+  const s = styles[kind] || styles.organic;
+  return (
+    <span style={{
+      background: s.bg, color: s.fg, padding:'2px 8px', borderRadius:999,
+      fontSize:9, fontFamily:'var(--mono)', fontWeight:600, letterSpacing:'0.06em', whiteSpace:'nowrap'
+    }}>{s.label}</span>
+  );
+}
+
+// ── Component summary card (top-of-page) ─────────────────────
+function ComponentCard({ comp, onClick, active }) {
+  const impPct = (comp.impressions.delivered / comp.impressions.goal) * 100;
+  const budPct = (comp.budget.delivered / comp.budget.goal) * 100 || 0;
+  return (
+    <div onClick={onClick} style={{
+      background: comp.color, color: comp.fg,
+      borderRadius: 'var(--r-lg)', padding: 22, cursor:'pointer',
+      border: active ? '2px solid var(--ink)' : '2px solid transparent',
+      display:'flex', flexDirection:'column', gap:14,
+      transition:'transform .15s', transform: active ? 'translateY(-2px)' : 'none',
+      position:'relative', overflow:'hidden'
+    }}>
+      <div style={{display:'flex', justifyContent:'space-between', alignItems:'flex-start'}}>
+        <div style={{
+          fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em',
+          fontWeight:600, opacity:0.7
+        }}>COMPONENT {comp.n}</div>
+        <span style={{
+          background: comp.statusKind==='on' ? 'rgba(255,255,255,0.85)' : 'rgba(31,26,21,0.12)',
+          color: comp.statusKind==='on' ? '#2f7a3f' : comp.fg,
+          padding:'3px 10px', borderRadius: 999, fontSize: 10, fontFamily:'var(--mono)',
+          fontWeight:600, letterSpacing:'0.06em'
+        }}>{comp.status}</span>
+      </div>
+      <div>
+        <div style={{fontFamily:'var(--serif)', fontSize:30, fontWeight:300, lineHeight:1.05, letterSpacing:'-0.02em'}}>
+          {comp.title.replace(comp.italic, '').trim()} <em style={{fontStyle:'italic'}}>{comp.italic}</em>
+        </div>
+        <div style={{fontSize:12, opacity:0.75, marginTop:6}}>{comp.sub}</div>
+      </div>
+      <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, paddingTop:14, borderTop:`1px solid ${comp.fg === 'var(--paper)' ? 'rgba(250,247,239,0.2)' : 'rgba(31,26,21,0.18)'}`}}>
+        <div>
+          <div style={{fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:4}}>Impressions</div>
+          <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, lineHeight:1}}>{fmt.num(comp.impressions.delivered)}</div>
+          <div style={{fontSize:11, opacity:0.7, marginTop:4}}>{impPct.toFixed(1)}% of {fmt.num(comp.impressions.goal)}</div>
+        </div>
+        <div>
+          <div style={{fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:4}}>Spend</div>
+          <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, lineHeight:1}}>{fmt.money(comp.budget.delivered)}</div>
+          <div style={{fontSize:11, opacity:0.7, marginTop:4}}>{budPct.toFixed(1)}% of {fmt.money(comp.budget.goal)}</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── Pacing pill ─────────────────────────────────────────────
+function PaceBarUB({ pct, color, track }) {
+  return (
+    <div style={{height:8, background: track || 'rgba(31,26,21,0.12)', borderRadius:999, overflow:'hidden', position:'relative'}}>
+      <div style={{height:'100%', width: Math.min(100,pct)+'%', background: color, borderRadius:999}}/>
+      {pct > 100 && (
+        <div style={{position:'absolute', top:0, right:0, height:'100%', width:'4px', background:'var(--liquorice)'}}/>
+      )}
+    </div>
+  );
+}
+
+// ── Master pacing — stacked bar ─────────────────────────────
+function MasterPacing() {
+  const total = UB_COMPONENTS.reduce((s,c) => s + c.impressions.delivered, 0);
+  const goal = UB_COMPONENTS.reduce((s,c) => s + c.impressions.goal, 0);
+  const spent = UB_COMPONENTS.reduce((s,c) => s + c.budget.delivered, 0);
+  const budget = UB_COMPONENTS.reduce((s,c) => s + c.budget.goal, 0);
+  const overall = (total / goal) * 100;
+  const overallBud = (spent / budget) * 100;
+
+  return (
+    <div className="card" style={{marginBottom:24, padding:28}}>
+      <div className="card-h" style={{marginBottom:18}}>
+        <div>
+          <div className="card-title-serif">Total <em>campaign pacing</em></div>
+          <div className="card-sub">Combined progress across all 3 social components toward 14M impression goal.</div>
+        </div>
+        <span className="pill" style={{
+          background:'rgba(143,199,102,0.18)', color:'#2f7a3f', border:'none', fontWeight:600
+        }}>
+          <span className="dot" style={{background:'#2f7a3f'}}/>Goal Exceeded
+        </span>
+      </div>
+
+      {/* Stacked bar */}
+      <div style={{position:'relative', marginBottom:10}}>
+        <div style={{height:36, background:'var(--bg-soft)', borderRadius:8, overflow:'hidden', display:'flex'}}>
+          {UB_COMPONENTS.map(c => {
+            const pct = (c.impressions.delivered / goal) * 100;
+            return (
+              <div key={c.id} style={{width: pct+'%', background: c.color, height:'100%', position:'relative'}}>
+                {pct > 8 && (
+                  <div style={{
+                    position:'absolute', inset:0, display:'flex', alignItems:'center', padding:'0 12px',
+                    color: c.fg, fontSize: 11, fontWeight:600, fontFamily:'var(--mono)', letterSpacing:'0.05em'
+                  }}>{fmt.num(c.impressions.delivered)}</div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+        {/* Goal marker */}
+        <div style={{position:'absolute', top:-6, bottom:-6, left:'100%', width:2, background:'var(--ink)', opacity:0.7}}>
+          <span style={{position:'absolute', top:-18, right:0, fontSize:10, fontFamily:'var(--mono)', fontWeight:600, color:'var(--ink)', whiteSpace:'nowrap'}}>14M GOAL</span>
+        </div>
+      </div>
+
+      <div style={{display:'flex', justifyContent:'space-between', fontSize:12, color:'var(--ink-2)', marginBottom:18}}>
+        <span><strong style={{color:'var(--ink)'}}>{fmt.num(total)}</strong> of {fmt.num(goal)} impressions
+          (<strong style={{color:'#2f7a3f'}}>{overall.toFixed(1)}% — Goal Exceeded</strong>)</span>
+        <span style={{color:'var(--ink-3)'}}>{fmt.money(spent)} of {fmt.money(budget)} spent · {overallBud.toFixed(1)}%</span>
+      </div>
+
+      {/* Legend */}
+      <div style={{display:'flex', gap:20, flexWrap:'wrap', fontSize:12, paddingTop:16, borderTop:'1px solid var(--line)'}}>
+        {UB_COMPONENTS.map(c => (
+          <div key={c.id} style={{display:'flex', alignItems:'center', gap:8}}>
+            <div style={{width:12, height:12, borderRadius:3, background:c.color}}/>
+            <span><strong style={{color:'var(--ink)'}}>Component {c.n}:</strong> {c.title} — {fmt.num(c.impressions.delivered)}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── Platform performance table ──────────────────────────────
+function PlatformTable({ comp }) {
+  const totals = comp.platforms.reduce((acc, p) => ({
+    posts: acc.posts + p.posts,
+    organic: acc.organic + (p.organic || 0),
+    paid: acc.paid + (p.paid || 0),
+    total: acc.total + p.total,
+    eng: acc.eng + p.eng,
+    spend: acc.spend + p.spend,
+    est: acc.est + (p.est || 0)
+  }), { posts:0, organic:0, paid:0, total:0, eng:0, spend:0, est:0 });
+  const totalEr = (totals.eng / totals.total) * 100;
+  const totalPct = totals.est > 0 ? (totals.spend / totals.est) * 100 : null;
+
+  return (
+    <div style={{overflowX:'auto', border:'1px solid var(--line)', borderRadius:'var(--r-lg)', background:'var(--surface)'}}>
+      <table style={{width:'100%', borderCollapse:'collapse', fontSize:12}}>
+        <thead>
+          <tr style={{background:'var(--bg-soft)', borderBottom:'1px solid var(--line)'}}>
+            {['Platform','Posts','Organic','Paid','Total','Eng.','ER','Spend','Est.','% Spent'].map((h, i) => (
+              <th key={h} style={{
+                padding:'12px 14px', textAlign: i === 0 ? 'left' : 'right',
+                fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase',
+                fontWeight:600, color:'var(--ink-3)'
+              }}>{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {comp.platforms.map((p, idx) => (
+            <tr key={p.name} style={{borderBottom:'1px solid var(--line)'}}>
+              <td style={{padding:'12px 14px', fontWeight:500}}>{p.name}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{p.posts}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', color:'var(--ink-2)'}}>{fmt.num(p.organic)}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', color:'var(--ink-2)'}}>{p.paid === null ? '—' : fmt.num(p.paid)}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{fmt.num(p.total)}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(p.eng)}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', color: p.er >= 5 ? '#2f7a3f' : 'var(--ink-2)', fontWeight: p.er >= 5 ? 600 : 400}}>{p.er.toFixed(p.er < 1 ? 2 : 1)}%</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{p.spend === 0 ? '—' : '$'+fmt.num(Math.round(p.spend))}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', color:'var(--ink-3)'}}>{!p.est ? '—' : '$'+fmt.num(p.est)}</td>
+              <td style={{padding:'12px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', color: p.pct === null ? 'var(--ink-3)' : p.pct > 110 ? '#b8392b' : p.pct < 80 ? '#a06b14' : 'var(--ink-2)', fontWeight: p.pct !== null && (p.pct > 110 || p.pct < 80) ? 600 : 400}}>{p.pct === null ? '—' : p.pct.toFixed(1)+'%'}</td>
+            </tr>
+          ))}
+          <tr style={{background:'var(--liquorice)', color:'var(--cream)'}}>
+            <td style={{padding:'14px', fontWeight:600, fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.08em', textTransform:'uppercase'}}>Total</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{totals.posts}</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(totals.organic)}</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(totals.paid)}</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{fmt.num(totals.total)}</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(totals.eng)}</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{totalEr.toFixed(1)}%</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>${fmt.num(Math.round(totals.spend))}</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{totals.est === 0 ? '—' : '$'+fmt.num(totals.est)}</td>
+            <td style={{padding:'14px', textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600, color: totalPct && totalPct > 110 ? '#ffcccb' : 'var(--cream)'}}>{totalPct === null ? '—' : totalPct.toFixed(1)+'%'}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+// ── Story card with expandable platform rows ──────────────
+function StoryCard({ story, accentColor }) {
+  const [open, setOpen] = useStateUB(false);
+  return (
+    <div style={{
+      background:'var(--surface)', border:'1px solid var(--line)',
+      borderRadius:'var(--r-lg)', overflow:'hidden'
+    }}>
+      <div onClick={() => setOpen(!open)} style={{
+        padding:'18px 22px', cursor:'pointer', display:'grid',
+        gridTemplateColumns:'1fr 110px 110px 110px 30px', gap:16, alignItems:'center'
+      }}>
+        <div>
+          <div style={{display:'flex', alignItems:'center', gap:10, marginBottom:4}}>
+            <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300, letterSpacing:'-0.01em'}}>{story.name}</div>
+            <span style={{
+              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', fontWeight:600,
+              padding:'2px 8px', borderRadius:999,
+              background: story.kind === 'Collab' ? 'rgba(80,135,230,0.16)' : 'rgba(31,26,21,0.08)',
+              color: story.kind === 'Collab' ? '#3450a8' : 'var(--ink-2)'
+            }}>{story.kind.toUpperCase()}</span>
+            <span style={{fontSize:10, color:'var(--ink-3)', fontFamily:'var(--mono)'}}>· Pub {story.published}</span>
+          </div>
+          <div style={{fontSize:12, color:'var(--ink-3)'}}>{story.sub}</div>
+        </div>
+        <div style={{textAlign:'right'}}>
+          <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, color: accentColor}}>{fmt.num(story.reach)}</div>
+          <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>Reach</div>
+        </div>
+        <div style={{textAlign:'right'}}>
+          <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300}}>{fmt.num(story.eng)}</div>
+          <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>Eng.</div>
+        </div>
+        <div style={{textAlign:'right'}}>
+          <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300}}>${fmt.num(Math.round(story.spend))}</div>
+          <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>Spend</div>
+        </div>
+        <div style={{color:'var(--ink-3)', textAlign:'right', transform: open ? 'rotate(180deg)' : 'none', transition:'transform .2s'}}>▾</div>
+      </div>
+      {open && (
+        <div style={{borderTop:'1px solid var(--line)', background:'var(--bg-soft)'}}>
+          <table style={{width:'100%', borderCollapse:'collapse', fontSize:12}}>
+            <thead>
+              <tr>
+                {['Platform','Type','Impressions','Engagements','ER','Spend'].map((h, i) => (
+                  <th key={h} style={{
+                    padding:'10px 14px', textAlign: i < 2 ? 'left' : 'right',
+                    fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase',
+                    fontWeight:600, color:'var(--ink-3)'
+                  }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {story.rows.map(r => (
+                <tr key={r.plat} style={{borderTop:'1px solid var(--line)'}}>
+                  <td style={{padding:'10px 14px', fontWeight:500}}>{r.plat}</td>
+                  <td style={{padding:'10px 14px'}}><DistBadge kind={r.dist}/></td>
+                  <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(r.impr)}</td>
+                  <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(r.eng)}</td>
+                  <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', color: r.er >= 5 ? '#2f7a3f' : 'var(--ink-2)', fontWeight: r.er >= 5 ? 600 : 400}}>{r.er.toFixed(r.er < 1 ? 2 : 1)}%</td>
+                  <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{r.spend === 0 ? '—' : '$'+fmt.num(Math.round(r.spend))}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <div style={{padding:'14px 22px', background:'rgba(255,153,71,0.10)', borderTop:'1px solid var(--line)', fontSize:12, color:'var(--ink-2)', lineHeight:1.5}}>
+            <strong style={{color:'var(--ink)'}}>Highlight: </strong>{story.highlight}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── Video card (Red Carpet) ─────────────────────────────────
+function VideoCard({ video, accentColor }) {
+  return (
+    <div style={{
+      background:'var(--surface)', border:'1px solid var(--line)',
+      borderRadius:'var(--r-lg)', overflow:'hidden'
+    }}>
+      <div style={{padding:'18px 22px', borderBottom:'1px solid var(--line)', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+        <div>
+          <div style={{display:'flex', alignItems:'center', gap:10, marginBottom:4}}>
+            <div style={{fontFamily:'var(--serif)', fontSize:24, fontWeight:300}}>{video.name}</div>
+            <span style={{
+              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', fontWeight:600,
+              padding:'2px 8px', borderRadius:999,
+              background: video.dist.includes('Paid Only') ? 'rgba(255,153,71,0.22)' : 'rgba(80,135,230,0.16)',
+              color: video.dist.includes('Paid Only') ? '#a04a14' : '#3450a8'
+            }}>{video.dist.toUpperCase()}</span>
+          </div>
+          <div style={{fontSize:13, color:'var(--ink-2)', fontStyle:'italic'}}>{video.quote}</div>
+        </div>
+        <div style={{display:'grid', gridTemplateColumns:'repeat(4, auto)', gap:24}}>
+          <div style={{textAlign:'right'}}>
+            <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, color: accentColor}}>{fmt.num(video.subtotal.impr)}</div>
+            <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>Impr.</div>
+          </div>
+          <div style={{textAlign:'right'}}>
+            <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300}}>{fmt.num(video.subtotal.eng)}</div>
+            <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>Eng.</div>
+          </div>
+          <div style={{textAlign:'right'}}>
+            <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300}}>{video.subtotal.er.toFixed(1)}<span style={{fontSize:13, color:'var(--ink-3)'}}>%</span></div>
+            <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>ER</div>
+          </div>
+          <div style={{textAlign:'right'}}>
+            <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300}}>${fmt.num(Math.round(video.subtotal.spend))}</div>
+            <div style={{fontSize:9, color:'var(--ink-3)', textTransform:'uppercase', letterSpacing:'0.1em', fontWeight:600}}>Spend</div>
+          </div>
+        </div>
+      </div>
+      <table style={{width:'100%', borderCollapse:'collapse', fontSize:12}}>
+        <thead>
+          <tr style={{background:'var(--bg-soft)'}}>
+            {['Platform','Type','Impressions','Engagements','ER','Spend'].map((h, i) => (
+              <th key={h} style={{
+                padding:'10px 14px', textAlign: i < 2 ? 'left' : 'right',
+                fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase',
+                fontWeight:600, color:'var(--ink-3)'
+              }}>{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {video.rows.map(r => (
+            <tr key={r.plat} style={{borderTop:'1px solid var(--line)'}}>
+              <td style={{padding:'10px 14px', fontWeight:500}}>{r.plat}</td>
+              <td style={{padding:'10px 14px'}}><DistBadge kind={r.dist}/></td>
+              <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(r.impr)}</td>
+              <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmt.num(r.eng)}</td>
+              <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums', color: r.er >= 5 ? '#2f7a3f' : 'var(--ink-2)', fontWeight: r.er >= 5 ? 600 : 400}}>{r.er.toFixed(r.er < 1 ? 2 : 1)}%</td>
+              <td style={{padding:'10px 14px', textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{r.spend === 0 ? '—' : '$'+fmt.num(Math.round(r.spend))}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+// ── Callout block (Win / Watch / Opportunity) ──────────────
+function Callout({ co }) {
+  const tone = co.kind === 'pos' ? { bar: 'var(--pear)', tag: '#2f7a3f', bg:'rgba(143,199,102,0.12)' } :
+    co.kind === 'warn' ? { bar: 'var(--orange)', tag: '#b8392b', bg:'rgba(255,153,71,0.14)' } :
+    { bar: 'var(--sky)', tag: 'var(--ink)', bg:'rgba(80,135,230,0.08)' };
+  return (
+    <div style={{
+      background:'var(--surface)', border:'1px solid var(--line)', borderRadius:'var(--r-lg)',
+      padding: 22, position:'relative', overflow:'hidden',
+      display:'flex', flexDirection:'column', gap:10
+    }}>
+      <div style={{position:'absolute', left:0, top:0, bottom:0, width:4, background: tone.bar}}/>
+      <span style={{
+        fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em',
+        fontWeight:600, color: tone.tag, alignSelf:'flex-start',
+        padding:'3px 8px', background: tone.bg, borderRadius: 4
+      }}>{co.tag}</span>
+      <div style={{fontFamily:'var(--serif)', fontSize:20, fontWeight:300, lineHeight:1.25, letterSpacing:'-0.01em', color:'var(--ink)'}}>{co.headline}</div>
+      <div style={{fontSize:13, lineHeight:1.55, color:'var(--ink-2)'}}>{co.body}</div>
+    </div>
+  );
+}
+
+// ── Component section (full detail per component) ─────────
+function ComponentSection({ comp }) {
+  const impPct = (comp.impressions.delivered / comp.impressions.goal) * 100;
+  const budPct = comp.budget.goal > 0 ? (comp.budget.delivered / comp.budget.goal) * 100 : 0;
+  const accentColor = comp.color;
+
+  return (
+    <div id={`comp-${comp.id}`} className="sec" style={{scrollMarginTop:24}}>
+      <div className="sec-h">
+        <div>
+          <div style={{fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.16em', fontWeight:600, color:'var(--ink-3)', marginBottom:8, textTransform:'uppercase'}}>
+            Social Component {comp.n}
+          </div>
+          <div className="sec-title">{comp.title.replace(comp.italic, '').trim()} <em>{comp.italic}</em></div>
+          <div className="sec-sub" style={{marginTop:6}}>{comp.sub} · Goal: {fmt.num(comp.impressions.goal)} impr · Budget: {fmt.money(comp.budget.goal)}</div>
+        </div>
+        <span className="pill" style={{
+          background: comp.statusKind === 'on' ? 'rgba(143,199,102,0.18)' : 'rgba(255,153,71,0.18)',
+          color: comp.statusKind === 'on' ? '#2f7a3f' : '#b8392b',
+          border:'none', fontWeight:600
+        }}>
+          <span className="dot" style={{background: comp.statusKind === 'on' ? '#2f7a3f' : '#b8392b'}}/>
+          {comp.status}{comp.statusKind === 'watch' ? ` — ${impPct.toFixed(1)}%` : ''}
+        </span>
+      </div>
+
+      {/* Pacing strip — 2 bars */}
+      <div className="card" style={{marginBottom:18, padding:22}}>
+        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:24}}>
+          <div>
+            <div style={{display:'flex', justifyContent:'space-between', marginBottom:8}}>
+              <span style={{fontSize:11, fontFamily:'var(--mono)', letterSpacing:'0.1em', textTransform:'uppercase', fontWeight:600, color:'var(--ink-3)'}}>Impressions</span>
+              <span style={{fontSize:12, color:'var(--ink-2)'}}>
+                <strong style={{color:'var(--ink)'}}>{fmt.num(comp.impressions.delivered)}</strong> of {fmt.num(comp.impressions.goal)}
+                <span style={{marginLeft:8, color: impPct >= 100 ? '#2f7a3f' : '#a06b14', fontWeight:600}}>{impPct.toFixed(1)}%</span>
+              </span>
+            </div>
+            <PaceBarUB pct={impPct} color={accentColor}/>
+          </div>
+          <div>
+            <div style={{display:'flex', justifyContent:'space-between', marginBottom:8}}>
+              <span style={{fontSize:11, fontFamily:'var(--mono)', letterSpacing:'0.1em', textTransform:'uppercase', fontWeight:600, color:'var(--ink-3)'}}>Spend</span>
+              <span style={{fontSize:12, color:'var(--ink-2)'}}>
+                <strong style={{color:'var(--ink)'}}>{fmt.money(comp.budget.delivered)}</strong> of {fmt.money(comp.budget.goal)}
+                <span style={{marginLeft:8, color: budPct > 110 ? '#b8392b' : budPct < 50 ? '#a06b14' : 'var(--ink-2)', fontWeight:600}}>{budPct.toFixed(1)}%</span>
+              </span>
+            </div>
+            <PaceBarUB pct={budPct} color={budPct > 110 ? 'var(--flame)' : 'var(--liquorice)'}/>
+          </div>
+        </div>
+        {comp.budgetNote && (
+          <div style={{
+            marginTop:14, padding:'10px 14px',
+            background:'rgba(255,206,0,0.14)', border:'1px solid rgba(255,206,0,0.3)',
+            borderRadius:8, fontSize:12, color:'var(--ink-2)', lineHeight:1.5
+          }}>
+            <strong style={{color:'var(--ink)'}}>Budget note: </strong>{comp.budgetNote}
+          </div>
+        )}
+      </div>
+
+      {/* KPIs */}
+      <div className="kpi-row" style={{gridTemplateColumns:'repeat(5, 1fr)'}}>
+        <div className="kpi"><div className="kpi-lbl">Posts Live</div><div className="kpi-val">{comp.posts}</div><div className="kpi-foot"><span className="muted">{comp.sub.split('·')[0].trim().toLowerCase()}</span></div></div>
+        <div className="kpi"><div className="kpi-lbl">Impressions</div><div className="kpi-val">{fmt.num(comp.impressions.delivered)}</div><div className="kpi-foot"><span className="muted">{impPct.toFixed(1)}% of goal</span></div></div>
+        <div className="kpi"><div className="kpi-lbl">Engagements</div><div className="kpi-val">{fmt.num(comp.engagements)}</div><div className="kpi-foot"><span className="muted">cross-platform</span></div></div>
+        <div className="kpi"><div className="kpi-lbl">Eng. Rate</div><div className="kpi-val">{comp.er}<span className="unit">%</span></div><div className="kpi-foot"><span className="muted">blended</span></div></div>
+        <div className="kpi"><div className="kpi-lbl">Spend</div><div className="kpi-val">{fmt.money(comp.budget.delivered)}</div><div className="kpi-foot"><span className="muted">of {fmt.money(comp.budget.goal)} ({budPct.toFixed(0)}%)</span></div></div>
+      </div>
+
+      {/* Platform performance table */}
+      {comp.platforms && (
+        <div style={{marginTop:24, marginBottom:18}}>
+          <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, marginBottom:6}}>Platform <em>performance</em></div>
+          <div style={{fontSize:12, color:'var(--ink-3)', marginBottom:14, maxWidth:720, lineHeight:1.5}}>
+            Engagements = MS social engagements + Google Ads YT Shorts engagements combined. Paid impressions sourced from Meta Ads Manager (IG/FB), X Ads Manager, and Google Ads (YT Shorts). Organic from Measure Studio.
+          </div>
+          <PlatformTable comp={comp}/>
+        </div>
+      )}
+
+      {/* Stories (Come Up) or Videos (Red Carpet) */}
+      {comp.stories && (
+        <div style={{marginTop:24}}>
+          <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, marginBottom:6}}>Story <em>performance</em></div>
+          <div style={{fontSize:12, color:'var(--ink-3)', marginBottom:14}}>4 stories × 5 platforms = 20 posts. Click any row to see the platform breakdown.</div>
+          <div style={{display:'flex', flexDirection:'column', gap:10}}>
+            {comp.stories.map(s => <StoryCard key={s.name} story={s} accentColor={accentColor}/>)}
+          </div>
+        </div>
+      )}
+
+      {comp.videos && (
+        <div style={{marginTop:24}}>
+          <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, marginBottom:6}}>Per-video <em>detail</em></div>
+          <div style={{fontSize:12, color:'var(--ink-3)', marginBottom:14, maxWidth:720, lineHeight:1.5}}>2 videos across 5 platforms. Video 1 is organic boosted with paid amplification. Video 2 is paid-only (dark) — no organic delivery anywhere.</div>
+          <div style={{display:'flex', flexDirection:'column', gap:14}}>
+            {comp.videos.map(v => <VideoCard key={v.name} video={v} accentColor={accentColor}/>)}
+          </div>
+        </div>
+      )}
+
+      {/* Callouts */}
+      <div style={{marginTop:24}}>
+        <div style={{fontFamily:'var(--serif)', fontSize:22, fontWeight:300, marginBottom:14}}>What we're <em>seeing</em></div>
+        <div style={{display:'grid', gridTemplateColumns: comp.callouts.length === 1 ? '1fr' : `repeat(${comp.callouts.length}, 1fr)`, gap:14}}>
+          {comp.callouts.map((co, i) => <Callout key={i} co={co}/>)}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── Main page ───────────────────────────────────────────────
+function UsBankPage({ campaignId, onBack }) {
+  const c = CAMPAIGNS.find(x => x.id === 'usbank');
+  const [activeComp, setActiveComp] = useStateUB(null);
+
+  const scrollTo = (id) => {
+    const el = document.getElementById(`comp-${id}`);
+    if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+    setActiveComp(id);
+  };
+
+  return (
+    <>
+      <PageHead
+        overline={onBack ? (
+          <>
+            <span style={{cursor:'pointer'}} onClick={onBack}><Ic.back/> Overview</span>
+            <span style={{margin:'0 8px', opacity:0.4}}>/</span>
+            <span>{c.partner}</span>
+          </>
+        ) : (
+          // Standalone US Bank document — no Overview to navigate back to.
+          // Show the partner alone, no breadcrumb.
+          <span style={{
+            fontSize:11, letterSpacing:'0.16em', textTransform:'uppercase',
+            fontWeight:600, color:'var(--ink-3)'
+          }}>{c.partner}</span>
+        )}
+        title="NFL"
+        italic="Draft"
+        sub={<>Partner: <strong>US Bank</strong> · Flight: {c.flight} · 3 social components · <strong>38 posts live</strong> across IG, FB, X, LinkedIn, YouTube Shorts</>}
+        actions={<>
+          <button className="btn btn-acc"><Ic.download/> Export</button>
+        </>}
+      />
+
+      {/* Hero — 3-component overview */}
+      <div style={{marginBottom:24}}>
+        <div style={{display:'flex', justifyContent:'space-between', alignItems:'flex-end', marginBottom:14}}>
+          <div>
+            <div style={{fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.16em', fontWeight:600, color:'var(--ink-3)', marginBottom:6, textTransform:'uppercase'}}>
+              Three Social Components
+            </div>
+            <div style={{fontFamily:'var(--serif)', fontSize:28, fontWeight:300, letterSpacing:'-0.01em'}}>
+              Each tracked <em>independently.</em>
+            </div>
+          </div>
+          <div style={{fontSize:12, color:'var(--ink-3)', maxWidth:380, textAlign:'right', lineHeight:1.5}}>
+            Click a component to jump to its full breakdown. Each has its own goal, budget, and post inventory.
+          </div>
+        </div>
+        <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:14}}>
+          {UB_COMPONENTS.map(comp => (
+            <ComponentCard key={comp.id} comp={comp} active={activeComp === comp.id} onClick={() => scrollTo(comp.id)}/>
+          ))}
+        </div>
+      </div>
+
+      {/* Master pacing — stacked */}
+      <MasterPacing/>
+
+      {/* Component sections */}
+      {UB_COMPONENTS.map((comp, idx) => (
+        <React.Fragment key={comp.id}>
+          {idx > 0 && <div style={{height:1, background:'var(--line)', margin:'32px 0'}}/>}
+          <ComponentSection comp={comp}/>
+        </React.Fragment>
+      ))}
+
+      {/* Data sources footer */}
+      <div className="sec" style={{marginTop:32}}>
+        <div className="card" style={{padding:22, background:'var(--bg-soft)'}}>
+          <div style={{fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.16em', fontWeight:600, color:'var(--ink-3)', marginBottom:8, textTransform:'uppercase'}}>Data Sources</div>
+          <div style={{fontSize:12, color:'var(--ink-2)', lineHeight:1.6}}>
+            Social metrics from Measure Studio export (April 27, 2026) — 20 Come Up posts, 10 Native Social Coverage posts, 6 Red Carpet posts (+ 2 dark posts via Ads Managers).
+            Paid data from Meta Ads Manager (IG/FB), X Ads Manager, Google Ads (YT Shorts). Organic from Measure Studio.
+            Total spend: <strong style={{color:'var(--ink)'}}>$30,986 of $31,375 (98.8%)</strong>.
+            Total delivery: <strong style={{color:'var(--ink)'}}>14.51M of 14.0M (103.6% — Goal Exceeded)</strong>.
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+window.UsBankPage = UsBankPage;
+
+</script>
+
+<script type="text/babel">
+// Minimal app shell — boots directly into the US Bank page with no sidebar
+// and no view router. This is a single-purpose standalone document for sharing
+// the US Bank case study independently of the main 4-campaign dashboard.
+function App() {
+  return (
+    <div className="app standalone">
+      <main className="main" data-screen-label="US Bank x NFL Draft">
+        <UsBankPage campaignId="usbank" />
+      </main>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+
+</body>
+</html>

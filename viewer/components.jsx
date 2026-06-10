@@ -21,6 +21,10 @@ const Ic = {
   bench: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"><path d="M2 13h12M4 13V8M7 13V5M10 13V9M13 13V3"/></svg>,
   ext: () => <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3H3v10h10V10"/><path d="M9 3h4v4M13 3l-6 6"/></svg>,
   settings: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4"><circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M3.5 3.5l1.4 1.4M11.1 11.1l1.4 1.4M1 8h2M13 8h2M3.5 12.5l1.4-1.4M11.1 4.9l1.4-1.4"/></svg>,
+  plus: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"><path d="M8 3v10M3 8h10"/></svg>,
+  upload: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M8 11V3M5 6l3-3 3 3M3 13h10"/></svg>,
+  trash: () => <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 4h10M6 4V2.5h4V4M5 4l1 9h4l1-9"/></svg>,
+  copy: () => <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="5" width="9" height="9" rx="1.5"/><path d="M11 5V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2"/></svg>,
 };
 
 // ============================================================
@@ -28,7 +32,8 @@ const Ic = {
 // ============================================================
 const PLATFORM_COLORS = {
   'LinkedIn': '#0A66C2', 'Instagram': '#E4405F', 'TikTok': '#000000',
-  'X': '#1d1d1f', 'YouTube': '#E00922', 'Facebook': '#1877F2'
+  'X': '#1d1d1f', 'YouTube': '#E00922', 'Facebook': '#1877F2',
+  'Snapchat': '#FFFC00',
 };
 function PlatformPill({ name }) {
   return (
@@ -57,10 +62,21 @@ function Sidebar({ active, onNav, campaigns }) {
       <button className={"sb-item " + (active === 'benchmarks' ? 'active' : '')} onClick={() => onNav({ view: 'benchmarks' })}>
         <Ic.bench/> Benchmarks
       </button>
+      <button className={"sb-item " + (active === 'inputs' ? 'active' : '')} onClick={() => onNav({ view: 'inputs' })}>
+        <Ic.plus/> Add Campaign Data
+      </button>
+      <button className={"sb-item " + (active === 'archive' ? 'active' : '')} onClick={() => onNav({ view: 'archive' })}>
+        <Ic.posts/> Data Archive
+      </button>
 
       {(() => {
-        const content = campaigns.filter(c => c.type !== 'social');
-        const social = campaigns.filter(c => c.type === 'social');
+        const active_only = campaigns.filter(c => (c.lifecycle || 'active') === 'active');
+        const wrapped = campaigns.filter(c => c.lifecycle === 'wrapped');
+        // Three buckets — Content (longform / series), Social (post-driven),
+        // BrandX (paid-performance dark social).
+        const content = active_only.filter(c => c.type === 'content');
+        const social  = active_only.filter(c => c.type === 'social');
+        const brandx  = active_only.filter(c => c.type === 'brandx');
         const renderItem = (c) => (
           <button key={c.id}
             className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
@@ -78,15 +94,104 @@ function Sidebar({ active, onNav, campaigns }) {
             {content.map(renderItem)}
             {social.length > 0 && <div className="sb-section">Social</div>}
             {social.map(renderItem)}
+            {brandx.length > 0 && <div className="sb-section">BrandX</div>}
+            {brandx.map(renderItem)}
+            {wrapped.length > 0 && <div className="sb-section">Wrapped</div>}
+            {wrapped.map(renderItem)}
           </>
         );
       })()}
 
-      <div className="sb-section">Workspace</div>
-      <button className="sb-item"><Ic.download/> Exports</button>
-      <button className="sb-item"><Ic.settings/> Settings</button>
+      {/* Sidebar footer — last-refreshed timestamp + manual trigger.
+          Anyone on the team can click Refresh now without bothering the
+          operator; it just triggers the GitHub Action that the 15-min cron
+          would have run anyway. */}
+      <RefreshFooter/>
 
     </aside>
+  );
+}
+
+// ============================================================
+// REFRESH FOOTER — shows last refresh time + "Refresh now" button
+// ============================================================
+function RefreshFooter() {
+  const [status, setStatus] = React.useState({ kind: 'idle' });
+  const last = window.LAST_REFRESHED || null;
+
+  // Render an absolute timestamp like "Jun 3, 8:47pm UTC" — relative
+  // ("2 min ago") is friendlier but stale after page-load, and the team
+  // shares this dashboard across timezones so an explicit timezone helps.
+  const lastLabel = (() => {
+    if (!last) return 'Last refresh: unknown';
+    try {
+      const d = new Date(last);
+      const opts = { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'UTC' };
+      return `Last refresh: ${d.toLocaleString('en-US', opts)} UTC`;
+    } catch {
+      return 'Last refresh: ' + String(last);
+    }
+  })();
+
+  const trigger = async () => {
+    let password = sessionStorage.getItem('inputs.upload.password');
+    if (!password) {
+      password = window.prompt('Team refresh password:') || '';
+      if (!password) return;
+      sessionStorage.setItem('inputs.upload.password', password);
+    }
+    setStatus({ kind: 'pending' });
+    try {
+      const res = await fetch('/.netlify/functions/refresh-now', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password }),
+      });
+      const j = await res.json().catch(() => ({}));
+      if (res.ok) {
+        setStatus({ kind: 'queued', message: j.message || 'Refresh queued.' });
+      } else {
+        if (res.status === 401) sessionStorage.removeItem('inputs.upload.password');
+        setStatus({ kind: 'error', message: j.error || `HTTP ${res.status}` });
+      }
+    } catch (e) {
+      setStatus({ kind: 'error', message: String(e?.message || e) });
+    }
+  };
+
+  return (
+    <div style={{
+      marginTop: 'auto',
+      padding: '14px 16px 12px',
+      borderTop: '1px solid var(--line)',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 8,
+    }}>
+      <div style={{fontSize: 10, fontFamily: 'var(--mono)', color: 'var(--ink-3)', letterSpacing: '0.04em'}}>
+        {lastLabel}
+      </div>
+      <button
+        onClick={trigger}
+        disabled={status.kind === 'pending'}
+        style={{
+          background: status.kind === 'pending' ? 'var(--ink-3)' : 'var(--liquorice)',
+          color: 'var(--cream)',
+          border: 'none', borderRadius: 6,
+          padding: '7px 12px', fontSize: 11, fontWeight: 600,
+          fontFamily: 'inherit', letterSpacing: '0.04em',
+          cursor: status.kind === 'pending' ? 'wait' : 'pointer',
+          width: '100%',
+        }}>
+        {status.kind === 'pending' ? 'Triggering…'
+          : status.kind === 'queued' ? '✓ Queued — ~2 min'
+          : status.kind === 'error' ? '⚠ Try again'
+          : 'Refresh now'}
+      </button>
+      {status.kind === 'error' && (
+        <div style={{fontSize: 10, color: 'var(--danger, #b8392b)', lineHeight: 1.3}}>{status.message}</div>
+      )}
+    </div>
   );
 }
 
@@ -118,6 +223,194 @@ function PaceBar({ pct, onLight = true }) {
   return (
     <div className="pace-bar" style={{ background: onLight ? 'rgba(36,28,23,0.18)' : 'rgba(252,247,219,0.2)' }}>
       <i style={{ width: Math.min(100, pct) + '%', background: onLight ? 'var(--liquorice)' : 'var(--cream)' }}/>
+    </div>
+  );
+}
+
+// ============================================================
+// WRAP-CAMPAIGN BUTTON — pinned to the campaign detail header. The viewer
+// is read-only (can't write to YAML directly), so this button:
+//   • toggles a pending "wrap" intent in localStorage
+//   • shows a modal explaining what will change + the YAML edits required
+//   • surfaces a copy-paste YAML snippet so the operator can apply the change
+//
+// On the next refresh the operator updates campaigns.yaml manually and the
+// dashboard re-renders with the campaign in the Wrapped section.
+// ============================================================
+function WrapCampaignButton({ campaign }) {
+  const c = campaign;
+  const isWrapped = c.lifecycle === 'wrapped';
+  const [open, setOpen] = React.useState(false);
+  const [endDate, setEndDate] = React.useState(() => new Date().toISOString().slice(0, 10));
+
+  if (isWrapped) {
+    return (
+      <div style={{
+        padding:'8px 12px', borderRadius:'var(--r-md)',
+        background:'var(--liquorice)', color:'var(--cream)',
+        fontSize:11, letterSpacing:'0.06em', fontFamily:'var(--mono)',
+        textAlign:'center', fontWeight:600, textTransform:'uppercase'
+      }}>
+        ✓ Wrapped
+      </div>
+    );
+  }
+
+  // Generate the YAML edit instructions
+  const snippet =
+    `# Edit config/campaigns.yaml — find the entry for id: ${c.id}\n` +
+    `# Change these two lines:\n` +
+    `\n` +
+    `    lifecycle: wrapped       # was: active\n` +
+    `    flight_end: ${endDate}   # set to actual end date\n` +
+    `\n` +
+    `# Then run: python -m app.viewer.refresh`;
+
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(snippet);
+      alert('Copied to clipboard. Paste into config/campaigns.yaml.');
+    } catch {
+      // ignore
+    }
+  };
+
+  return (
+    <>
+      <button onClick={() => setOpen(true)} style={{
+        padding:'8px 14px', borderRadius:'var(--r-md)',
+        background:'var(--bg)', border:'1px solid var(--line)',
+        color:'var(--ink-2)', fontSize:12, fontFamily:'inherit', fontWeight:500,
+        cursor:'pointer', display:'inline-flex', alignItems:'center', gap:6,
+        justifyContent:'center'
+      }}>
+        Mark as wrapped
+      </button>
+
+      {open && (
+        <div style={{
+          position:'fixed', inset:0, zIndex:9999,
+          background:'rgba(31,26,21,0.55)', backdropFilter:'blur(4px)',
+          display:'flex', alignItems:'center', justifyContent:'center', padding:24
+        }} onClick={() => setOpen(false)}>
+          <div onClick={(e) => e.stopPropagation()} style={{
+            background:'var(--surface)', borderRadius:12, padding:28,
+            maxWidth:560, width:'100%', boxShadow:'0 20px 60px rgba(0,0,0,0.3)'
+          }}>
+            <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--ink-3)', fontWeight:600, marginBottom:8}}>
+              Wrap campaign
+            </div>
+            <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, letterSpacing:'-0.01em', marginBottom:14}}>
+              Mark <em>{c.partner}</em> as wrapped?
+            </div>
+            <div style={{fontSize:13, color:'var(--ink-2)', lineHeight:1.6, marginBottom:18}}>
+              The dashboard is read-only, so it can't edit the config file directly.
+              When you confirm, we'll generate the exact two-line YAML edit for you to
+              paste into <code>config/campaigns.yaml</code>. On the next refresh,
+              this campaign moves from <strong>Active</strong> to <strong>Recently wrapped</strong>:
+              the sidebar groups it under Wrapped, and Overview shows a smaller black card
+              with only final delivery numbers.
+            </div>
+
+            <div style={{
+              display:'flex', alignItems:'center', gap:10, marginBottom:18,
+              padding:'12px 14px', background:'var(--bg-soft)',
+              border:'1px solid var(--line)', borderRadius:8
+            }}>
+              <span style={{fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.06em', textTransform:'uppercase', fontFamily:'var(--mono)'}}>Actual end date</span>
+              <input type="date" value={endDate} onChange={e => setEndDate(e.target.value)}
+                style={{
+                  flex:1, padding:'6px 10px', border:'1px solid var(--line)',
+                  borderRadius:6, fontSize:13, fontFamily:'inherit', background:'var(--bg)'
+                }}/>
+            </div>
+
+            <pre style={{
+              background:'var(--liquorice)', color:'var(--cream)',
+              padding:16, borderRadius:8, fontSize:11, lineHeight:1.55,
+              fontFamily:'var(--mono)', whiteSpace:'pre-wrap', wordBreak:'break-word',
+              margin:'0 0 18px 0', maxHeight:200, overflowY:'auto'
+            }}>{snippet}</pre>
+
+            <div style={{display:'flex', gap:10, justifyContent:'flex-end'}}>
+              <button onClick={() => setOpen(false)} style={{
+                background:'transparent', border:'1px solid var(--line)', borderRadius:6,
+                padding:'9px 16px', fontSize:13, fontFamily:'inherit', cursor:'pointer',
+                color:'var(--ink-2)'
+              }}>Cancel</button>
+              <button onClick={copy} className="btn btn-acc">
+                <Ic.copy/> Copy YAML edit
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+// ============================================================
+// WRAPPED CAMPAIGN CARD — compact black card for Recently Wrapped section.
+// Shows partner / series / status / posts / impressions / flight only.
+// ============================================================
+function WrappedCard({ c, onClick }) {
+  const dateRangeFromFlight = (flight) => {
+    // The flight label is already formatted (e.g., "Apr 21 — May 15, 2026"). Use as-is.
+    return flight;
+  };
+  return (
+    <div
+      onClick={onClick}
+      style={{
+        background: 'var(--liquorice)', color: 'var(--cream)',
+        borderRadius: 'var(--r-md)', padding: '20px 22px',
+        cursor: 'pointer', display: 'flex', flexDirection: 'column', gap: 12,
+        transition: 'transform 0.15s, box-shadow 0.15s',
+        border: '1px solid rgba(252,247,219,0.08)',
+        minHeight: 0,
+      }}
+      onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 6px 18px rgba(0,0,0,0.18)'; }}
+      onMouseLeave={(e) => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
+    >
+      <div>
+        <div style={{
+          fontSize: 13, fontWeight: 600, letterSpacing: '0.04em',
+          color: 'var(--cream)', textTransform: 'uppercase', marginBottom: 2
+        }}>{c.partner}</div>
+        <div style={{
+          fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300,
+          letterSpacing: '-0.01em', lineHeight: 1.15, color: 'var(--cream)'
+        }}>
+          {c.series.replace(c.seriesItalic, '')}<em>{c.seriesItalic}</em>
+        </div>
+      </div>
+      <div style={{
+        display: 'inline-flex', alignItems: 'center', gap: 6, alignSelf: 'flex-start',
+        padding: '4px 10px', borderRadius: 999,
+        background: 'rgba(143,199,102,0.16)', color: '#a4d77e',
+        fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.06em', fontWeight: 600
+      }}>
+        <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#a4d77e' }}/>
+        {c.status}
+      </div>
+      <div style={{ display: 'flex', gap: 24, marginTop: 4 }}>
+        <div>
+          <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300, color: 'var(--cream)' }}>
+            {c.posts}
+          </div>
+          <div style={{ fontSize: 9, color: 'rgba(252,247,219,0.55)', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600 }}>Posts</div>
+        </div>
+        <div>
+          <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300, color: 'var(--cream)' }}>
+            {fmt.num(c.impressions.delivered)}
+          </div>
+          <div style={{ fontSize: 9, color: 'rgba(252,247,219,0.55)', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600 }}>Impressions</div>
+        </div>
+      </div>
+      <div style={{
+        fontSize: 10, fontFamily: 'var(--mono)', color: 'rgba(252,247,219,0.45)',
+        letterSpacing: '0.06em', marginTop: 4
+      }}>{dateRangeFromFlight(c.flight)}</div>
     </div>
   );
 }
@@ -296,7 +589,9 @@ function EpisodePerformanceTable({ episodes, channels }) {
   const chColor = (name) => (channels.find(c => c.name === name) || {}).color || '#666';
 
   return (
-    <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+    // overflow-x:auto lets the per-channel detail table scroll horizontally
+    // on narrow viewports rather than clipping the Spend column.
+    <div className="card" style={{ padding: 0, overflow: 'hidden', overflowX: 'auto' }}>
       {episodes.map((e, idx) => {
         const isOpen = open === idx;
         return (
@@ -307,8 +602,8 @@ function EpisodePerformanceTable({ episodes, channels }) {
               style={{
                 width: '100%', background: 'transparent', border: 'none',
                 cursor: 'pointer', textAlign: 'left',
-                display: 'grid', gridTemplateColumns: '24px 1fr repeat(4, 110px) 30px',
-                gap: 18, padding: '20px 24px', alignItems: 'center', fontFamily: 'inherit',
+                display: 'grid', gridTemplateColumns: '24px 1fr repeat(5, 100px) 30px',
+                gap: 14, padding: '20px 24px', alignItems: 'center', fontFamily: 'inherit',
                 color: 'inherit', borderTop: idx === 0 ? 'none' : '1px solid transparent'
               }}
             >
@@ -329,6 +624,10 @@ function EpisodePerformanceTable({ episodes, channels }) {
                 <div style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>Impr.</div>
               </div>
               <div style={{ textAlign: 'right' }}>
+                <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300 }}>{fmt.num(e.total.views || 0)}</div>
+                <div style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>Views</div>
+              </div>
+              <div style={{ textAlign: 'right' }}>
                 <div style={{ fontFamily: 'var(--serif)', fontSize: 22, fontWeight: 300 }}>{fmt.num(e.total.eng)}</div>
                 <div style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>Eng.</div>
               </div>
@@ -343,62 +642,16 @@ function EpisodePerformanceTable({ episodes, channels }) {
               <span/>
             </button>
 
-            {/* Detail rows — clean tabular style matching the dashboard */}
+            {/* Detail rows — every individual post in this episode (not
+                aggregated per platform; the by-channel section already does
+                that). POST column shows the post title/quote. */}
             {isOpen && (
-              <div style={{ borderTop: '1px solid var(--line)' }}>
-                <div style={{
-                  display: 'grid',
-                  gridTemplateColumns: '160px 130px 60px 100px 100px 100px 80px 80px 80px 90px',
-                  gap: 12, padding: '14px 24px 12px 64px',
-                  fontSize: 10, fontFamily: 'var(--mono)', color: 'var(--ink-3)',
-                  letterSpacing: '0.1em', fontWeight: 600, textTransform: 'uppercase',
-                  borderBottom: '1px solid var(--line)', background: 'var(--bg-soft)'
-                }}>
-                  <div>Platform</div>
-                  <div>Distribution</div>
-                  <div style={{ textAlign: 'right' }}>Posts</div>
-                  <div style={{ textAlign: 'right' }}>Total impr.</div>
-                  <div style={{ textAlign: 'right' }}>Paid impr.</div>
-                  <div style={{ textAlign: 'right' }}>Organic impr.</div>
-                  <div style={{ textAlign: 'right' }}>% Organic</div>
-                  <div style={{ textAlign: 'right' }}>Eng.</div>
-                  <div style={{ textAlign: 'right' }}>ER</div>
-                  <div style={{ textAlign: 'right' }}>Spend</div>
-                </div>
-                {e.perChannel.map(p => {
-                  const dist = distLabel(p.distKind);
-                  const total = p.paidImpr + p.orgImpr;
-                  const orgPct = total ? (p.orgImpr / total) * 100 : 0;
-                  return (
-                    <div key={p.name} style={{
-                      display: 'grid',
-                      gridTemplateColumns: '160px 130px 60px 100px 100px 100px 80px 80px 80px 90px',
-                      gap: 12, padding: '14px 24px 14px 64px', alignItems: 'center',
-                      borderBottom: '1px solid var(--line)',
-                      fontSize: 13, background: 'var(--bg)'
-                    }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                        <span style={{ width: 8, height: 8, borderRadius: '50%', background: chColor(p.name) }}/>
-                        <span style={{ fontWeight: 500 }}>{p.name}</span>
-                      </div>
-                      <span style={{
-                        background: dist.bg, color: dist.fg,
-                        fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.08em',
-                        fontWeight: 600, padding: '3px 7px', borderRadius: 3,
-                        justifySelf: 'start', textTransform: 'uppercase'
-                      }}>{dist.txt}</span>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.posts}</div>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}>{p.impr ? fmt.num(p.impr) : '—'}</div>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.paidImpr ? fmt.num(p.paidImpr) : '—'}</div>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500, color: '#2f7a3f' }}>{p.orgImpr ? fmt.num(p.orgImpr) : '—'}</div>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{total ? orgPct.toFixed(0) + '%' : '—'}</div>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{fmt.num(p.eng)}</div>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.er}%</div>
-                      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.spend ? '$' + fmt.num(p.spend) : '—'}</div>
-                    </div>
-                  );
-                })}
-              </div>
+              <PerPostRows
+                rows={e.posts || []}
+                total={e.total}
+                distLabel={distLabel}
+                chColor={chColor}
+              />
             )}
           </div>
         );
@@ -407,8 +660,204 @@ function EpisodePerformanceTable({ episodes, channels }) {
   );
 }
 
+// ============================================================
+// PER-POST ROWS — used both inside EpisodePerformanceTable expansions and
+// as a standalone table for social campaigns.
+//
+// Columns: POST | Platform | Distribution | Total impr | Paid impr |
+//          Organic impr | % Organic | Eng | ER | Spend
+//
+// Note: no "Posts" column (every row IS one post, so count is implicit).
+// The Total row at the bottom shows aggregates; ER uses backend total.er
+// when available (Pre-roll-excluded) else recomputed locally.
+// ============================================================
+// Column layout: Post | Platform | Distribution | Total impr | Views | Paid impr | Organic impr | % Org | Eng | ER | Spend
+const PER_POST_GRID = '1.4fr 120px 130px 88px 84px 84px 84px 60px 70px 62px 92px';
+
+function PerPostRows({ rows, total, distLabel, chColor }) {
+  if (!rows || rows.length === 0) {
+    return (
+      <div style={{
+        borderTop:'1px solid var(--line)', padding:'24px',
+        textAlign:'center', fontSize:13, color:'var(--ink-3)'
+      }}>No post-level data available for this episode.</div>
+    );
+  }
+  return (
+    <div style={{ borderTop: '1px solid var(--line)' }}>
+      <PerPostHeader/>
+      {rows.map((p, idx) => (
+        <PerPostRow key={idx} p={p} distLabel={distLabel} chColor={chColor}/>
+      ))}
+      <PerPostTotal rows={rows} total={total}/>
+    </div>
+  );
+}
+
+function PerPostTable({ rows, distLabel, chColor }) {
+  // Standalone version used by social campaigns. No outer card here — caller wraps.
+  if (!rows || rows.length === 0) {
+    return (
+      <div className="card" style={{padding:'24px', textAlign:'center', fontSize:13, color:'var(--ink-3)'}}>
+        No posts loaded yet for this campaign.
+      </div>
+    );
+  }
+  // Compute synthetic total (eng/impr) since there's no episode-level total here.
+  const sum = (k) => rows.reduce((a, r) => a + (r[k] || 0), 0);
+  const totalImpr = sum('impr');
+  const totalEng = sum('eng');
+  const total = {
+    impr: totalImpr,
+    eng: totalEng,
+    spend: sum('spend'),
+    er: totalImpr ? (totalEng / totalImpr * 100) : 0,
+  };
+  return (
+    <div className="card" style={{ padding: 0, overflow: 'hidden', overflowX: 'auto' }}>
+      <PerPostHeader/>
+      {rows.map((p, idx) => (
+        <PerPostRow key={idx} p={p} distLabel={distLabel} chColor={chColor}/>
+      ))}
+      <PerPostTotal rows={rows} total={total}/>
+    </div>
+  );
+}
+
+function PerPostHeader() {
+  return (
+    <div style={{
+      display: 'grid', gridTemplateColumns: PER_POST_GRID,
+      gap: 10, padding: '14px 16px 12px 24px',
+      fontSize: 10, fontFamily: 'var(--mono)', color: 'var(--ink-3)',
+      letterSpacing: '0.1em', fontWeight: 600, textTransform: 'uppercase',
+      borderBottom: '1px solid var(--line)', background: 'var(--bg-soft)'
+    }}>
+      <div>Post</div>
+      <div>Platform</div>
+      <div>Distribution</div>
+      <div style={{ textAlign: 'right' }}>Total impr.</div>
+      <div style={{ textAlign: 'right' }}>Views</div>
+      <div style={{ textAlign: 'right' }}>Paid impr.</div>
+      <div style={{ textAlign: 'right' }}>Organic impr.</div>
+      <div style={{ textAlign: 'right' }}>% Org</div>
+      <div style={{ textAlign: 'right' }}>Eng.</div>
+      <div style={{ textAlign: 'right' }}>ER</div>
+      <div style={{ textAlign: 'right' }}>Spend</div>
+    </div>
+  );
+}
+
+function PerPostRow({ p, distLabel, chColor }) {
+  const dist = distLabel(p.distKind);
+  const totalSplit = (p.paidImpr || 0) + (p.orgImpr || 0);
+  const orgPct = totalSplit ? (p.orgImpr / totalSplit) * 100 : 0;
+  // Account-name subline. Distinguishes posts that share the same copy but
+  // ran from different FOS pages (e.g. Heineken Champions League content
+  // on the main FOS FB page vs. FOS Today). Only shown when MS resolved a
+  // display name (ad-platform-only rows fall through to no subline).
+  const accountSubline = p.accountName ? (
+    <div style={{
+      fontSize: 10, color: 'var(--ink-3)',
+      fontFamily: 'var(--mono)', letterSpacing: '0.04em',
+      marginTop: 2, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'
+    }} title={`Posted from: ${p.accountName}`}>
+      @ {p.accountName}
+    </div>
+  ) : null;
+  const TitleInner = (
+    <>
+      <div style={{
+        overflow:'hidden', textOverflow:'ellipsis', display:'-webkit-box',
+        WebkitLineClamp:2, WebkitBoxOrient:'vertical',
+        fontSize:12, fontWeight:500, lineHeight:1.35,
+      }} title={p.title}>
+        {p.title || '—'}
+      </div>
+      {accountSubline}
+    </>
+  );
+  const TitleCell = p.url ? (
+    <a href={p.url} target="_blank" rel="noreferrer"
+      style={{
+        color:'inherit', textDecoration:'none',
+        minWidth: 0, paddingRight: 8, display: 'block',
+      }}>
+      {TitleInner}
+    </a>
+  ) : (
+    <div style={{minWidth: 0, paddingRight: 8}}>{TitleInner}</div>
+  );
+  return (
+    <div style={{
+      display: 'grid', gridTemplateColumns: PER_POST_GRID,
+      gap: 10, padding: '12px 16px 12px 24px', alignItems: 'center',
+      borderBottom: '1px solid var(--line)',
+      fontSize: 13, background: 'var(--bg)'
+    }}>
+      {TitleCell}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
+        <span style={{ width: 8, height: 8, borderRadius: '50%', background: chColor(p.platform), flexShrink:0 }}/>
+        <span style={{ fontSize:12, fontWeight: 500, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{p.platform}</span>
+      </div>
+      <span style={{
+        background: dist.bg, color: dist.fg,
+        fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.06em',
+        fontWeight: 600, padding: '3px 7px', borderRadius: 3,
+        justifySelf: 'start', textTransform: 'uppercase', whiteSpace:'nowrap'
+      }}>{dist.txt}</span>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}>{p.impr ? fmt.numFull(p.impr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.views ? fmt.numFull(p.views) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.paidImpr ? fmt.numFull(p.paidImpr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500, color: '#2f7a3f' }}>{p.orgImpr ? fmt.numFull(p.orgImpr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{totalSplit ? orgPct.toFixed(0) + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.eng ? fmt.numFull(p.eng) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.er ? p.er + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 500 }}>{p.spend ? fmt.moneyFull(p.spend) : '—'}</div>
+    </div>
+  );
+}
+
+function PerPostTotal({ rows, total }) {
+  const sum = (k) => rows.reduce((a, r) => a + (r[k] || 0), 0);
+  const totalImpr = sum('impr');
+  const totalViews = sum('views');
+  const totalPaid = sum('paidImpr');
+  const totalOrg = sum('orgImpr');
+  const totalEng = sum('eng');
+  const totalSpend = sum('spend');
+  const denom = totalPaid + totalOrg;
+  const orgPct = denom ? (totalOrg / denom) * 100 : 0;
+  const totalEr = total?.er ?? (totalImpr ? (totalEng / totalImpr) * 100 : 0);
+  return (
+    <div style={{
+      display: 'grid', gridTemplateColumns: PER_POST_GRID,
+      gap: 10, padding: '16px 16px 16px 24px', alignItems: 'center',
+      fontSize: 13, background: 'var(--bg-soft)',
+      borderTop: '2px solid var(--liquorice)',
+      fontWeight: 700
+    }}>
+      <div style={{
+        fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em',
+        textTransform: 'uppercase', color: 'var(--ink-2)', fontWeight: 700
+      }}>Total ({rows.length} post{rows.length === 1 ? '' : 's'})</div>
+      <div/>
+      <div/>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 700 }}>{totalImpr ? fmt.numFull(totalImpr) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalViews ? fmt.numFull(totalViews) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalPaid ? fmt.numFull(totalPaid) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', color: '#2f7a3f' }}>{totalOrg ? fmt.numFull(totalOrg) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{denom ? orgPct.toFixed(0) + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalEng ? fmt.numFull(totalEng) : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalImpr ? totalEr.toFixed(2) + '%' : '—'}</div>
+      <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{totalSpend ? fmt.moneyFull(totalSpend) : '—'}</div>
+    </div>
+  );
+}
+
 // expose
 Object.assign(window, {
-  Ic, PlatformPill, Sidebar, PageHead, PaceBar, CampaignCard,
-  MultiLineChart, Donut, BarChart, PLATFORM_COLORS, EpisodePerformanceTable
+  Ic, PlatformPill, Sidebar, PageHead, PaceBar, CampaignCard, WrappedCard,
+  WrapCampaignButton, MultiLineChart, Donut, BarChart, PLATFORM_COLORS,
+  EpisodePerformanceTable, PerPostTable
 });

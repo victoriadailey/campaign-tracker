@@ -70,12 +70,12 @@ window.CAMPAIGNS = [
     partner: 'US Bank',
     series: 'NFL Draft',
     seriesItalic: 'Draft',
-    flight: 'Apr 21 — Apr 27, 2026',
+    flight: 'Apr 21 — May 15, 2026',
     elapsedPct: 100,
     daysLeft: 0,
     status: 'Goal Exceeded',
     statusKind: 'on',
-    impressions: { delivered: 14_510_000, goal: 14_000_000 },
+    impressions: { delivered: 15_000_000, goal: 14_000_000 },
     budget: { delivered: 30986, goal: 31375 },
     color: 'ft-4',
     leadFormat: 'Made for Social',
@@ -258,10 +258,15 @@ window.fmt = {
     if (n >= 1_000) return (n / 1_000).toFixed(n >= 10_000 ? 0 : 1) + 'K';
     return n.toString();
   },
+  numFull(n) { return Math.round(Number(n) || 0).toLocaleString('en-US'); },
   pct(n, d = 1) { return n.toFixed(d) + '%'; },
   money(n) {
     if (n >= 1_000) return '$' + (n / 1_000).toFixed(1) + 'K';
     return '$' + n.toLocaleString();
+  },
+  moneyFull(n) {
+    const v = Number(n) || 0;
+    return '$' + v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   }
 };
 

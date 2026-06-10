@@ -28,6 +28,7 @@ PLATFORM_LABEL_MAP: dict[str, Platform] = {
     "Twitter": Platform.X,
     "LinkedIn": Platform.LINKEDIN,
     "Snapchat": Platform.SNAPCHAT,
+    "Snapchat Profile": Platform.SNAPCHAT,  # MS export uses this label for the profile feed
 }
 
 PLATFORM_METRIC_MAPS: dict[Platform, dict[str, str]] = {
@@ -114,9 +115,17 @@ PLATFORM_METRIC_MAPS: dict[Platform, dict[str, str]] = {
         "er": "LinkedIn Engagement Rate - Total",
     },
     Platform.SNAPCHAT: {
-        "views_total": "Snapchat Publisher Views - Total",
-        "engagements_total": "Snapchat Publisher Total Engagements - Total",
-        "er": "Snapchat Publisher Engagement Rate - Total",
+        # MS export uses "Snapchat Profile" prefix (not "Snapchat Publisher").
+        # Snapchat has no separate impressions metric — views ARE the
+        # impression count on Snapchat. `_pick_impressions()` falls back from
+        # impressions_total → views_total, so mapping views here gives us a
+        # working impression number downstream.
+        "views_total": "Snapchat Profile Views - Total",
+        "views_organic": "Snapchat Profile Spotlight Views - Organic",
+        "views_paid": "Snapchat Profile Spotlight Views - Paid",
+        "reach_total": "Snapchat Profile Unique Viewers - Total",
+        "engagements_total": "Snapchat Profile Total Engagements - Total",
+        "er": "Snapchat Profile Engagement Rate - Total",
     },
 }
 
@@ -188,10 +197,21 @@ def parse(
                 post.views_total = max(0, (post.views_total or 0) - post.views_paid)
             if post.reach_organic is not None:
                 post.reach_total = post.reach_organic
-            if post.engagements_organic is not None:
+            # YouTube engagement quirk: MS exports `Engagements - Organic` as
+            # `Total - Paid`, but the "Paid" column on cross-posted videos
+            # contains Google Ads' interaction count (clicks + watch progress)
+            # which is much larger than the real L+C+S total. That makes Organic
+            # negative on export; _to_int() abs()'s it into a bogus huge positive
+            # (e.g. -17805 → 17805 when the real total is 105). Trust the
+            # `engagements_total` column directly — it's the genuine L+C+S sum.
+            # Only believe `engagements_organic` if it's sane (≤ total).
+            if (
+                post.engagements_organic is not None
+                and post.engagements_total is not None
+                and post.engagements_organic <= post.engagements_total
+            ):
                 post.engagements_total = post.engagements_organic
-            elif post.engagements_paid:
-                post.engagements_total = max(0, (post.engagements_total or 0) - post.engagements_paid)
+            # else: keep engagements_total as MS reported it (real L+C+S sum).
             # Now zero out the paid fields — they'll be supplied by the dedicated source.
             post.views_paid = None
             post.impressions_paid = None
