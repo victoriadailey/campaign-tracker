@@ -35,7 +35,7 @@ window.fmt = {
 """.strip()
 
 
-def serialize(payload: PulsePayload, benchmarks: dict | None = None) -> str:
+def serialize(payload: PulsePayload, benchmarks: dict | None = None, upload_targets: dict | None = None) -> str:
     # ISO-8601 UTC timestamp the dashboard sidebar footer reads via
     # `window.LAST_REFRESHED`. Captured here (not in refresh.py) so any code
     # path that emits data.js gets a fresh timestamp — including CI auto-
@@ -61,6 +61,10 @@ def serialize(payload: PulsePayload, benchmarks: dict | None = None) -> str:
         _emit("UB_COMPONENTS", payload.ub_components),
         _emit("EPISODES_BY_CAMPAIGN", payload.episodes_by_campaign),
         _emit("POSTS_BY_CAMPAIGN", payload.posts_by_campaign),
+        # Per-campaign configured source files, so the upload form can target
+        # the exact filename refresh.py reads (instead of guessing a name that
+        # silently no-ops). See _emit's id_keyed handling.
+        _emit("UPLOAD_TARGETS", upload_targets or {}),
         _emit("DATA_ARCHIVE", payload.data_archive),
         _emit("BENCHMARKS_DATA", benchmarks or {}),
         _emit("PORTFOLIO_CPM_BY_CHANNEL", payload.portfolio_cpm_by_channel),
@@ -96,11 +100,11 @@ def _brandx_benchmarks_payload() -> dict:
     }
 
 
-def write_data_js(payload: PulsePayload, target: Path | str, benchmarks: dict | None = None) -> Path:
+def write_data_js(payload: PulsePayload, target: Path | str, benchmarks: dict | None = None, upload_targets: dict | None = None) -> Path:
     p = Path(target)
     p.parent.mkdir(parents=True, exist_ok=True)
     tmp = p.with_suffix(p.suffix + ".tmp")
-    tmp.write_text(serialize(payload, benchmarks=benchmarks))
+    tmp.write_text(serialize(payload, benchmarks=benchmarks, upload_targets=upload_targets))
     tmp.replace(p)
     return p
 
@@ -110,7 +114,7 @@ def _emit(name: str, value: Any) -> str:
     # must preserve their keys as-is — c.id is the string field used for
     # lookup on the JSX side, and converting `etrade_brandx` to `etradeBrandx`
     # breaks `(window.POSTS_BY_CAMPAIGN || {})[c.id]`.
-    id_keyed = name in ("POSTS_BY_CAMPAIGN", "EPISODES_BY_CAMPAIGN")
+    id_keyed = name in ("POSTS_BY_CAMPAIGN", "EPISODES_BY_CAMPAIGN", "UPLOAD_TARGETS")
     return f"window.{name} = {json.dumps(to_js(value, preserve_top_keys=id_keyed), indent=2, default=_fallback)};"
 
 

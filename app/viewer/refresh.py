@@ -683,7 +683,31 @@ def main() -> int:
         except Exception as e:
             parse_warnings.append(f"benchmarks CSV: {e}")
 
-    out_path = write_data_js(payload, args.output, benchmarks=benchmarks_data)
+    # ---------- Upload targets ----------
+    # Per-campaign list of configured file sources, so the dashboard upload
+    # form can target the exact filename refresh.py reads (e.g. E*TRADE's file
+    # is portfolio_players_x_ads.csv, not etrade_x_ads.csv; ADP has two yt_paid
+    # files). Without this the form guessed a name that silently no-ops.
+    _FILE_SOURCE_LABELS = {
+        "measure_studio": "Measure Studio (CSV)",
+        "youtube_paid":   "Google Ads (YT Paid)",
+        "x_ads":          "X Ads",
+        "meta_ads":       "Meta Ads",
+        "tiktok_ads":     "TikTok Ads",
+        "linkedin_ads":   "LinkedIn Ads",
+    }
+    upload_targets: dict[str, list[dict]] = {}
+    for c in cfg["campaigns"]:
+        files: list[dict] = []
+        srcs = c.get("sources", {}) or {}
+        for key, label in _FILE_SOURCE_LABELS.items():
+            for fn in (srcs.get(key) or []):
+                files.append({"file": fn, "label": label})
+        upload_targets[c["id"]] = files
+
+    out_path = write_data_js(
+        payload, args.output, benchmarks=benchmarks_data, upload_targets=upload_targets
+    )
 
     print("=" * 60)
     print(f"  Pulse data refresh — {out_path}")
