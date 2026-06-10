@@ -572,7 +572,7 @@ function UploadGrid({ draft, setDraft }) {
   const sources = draft.type === 'content'
     ? [
         { id:'measure_studio',      label:'Measure Studio',        hint:'Wide export (.csv) — all platforms, all post groups' },
-        { id:'youtube_paid',        label:'Google Ads (YT Paid)',  hint:'Campaign report (.tsv) — TrueView views + Engagement rate' },
+        { id:'youtube_paid',        label:'Google Ads',            hint:'Google Ads campaign report — YouTube/Video + Demand Gen, etc.' },
         { id:'x_ads',               label:'X Ads',                 hint:'Apple Numbers export — full + cutdown sheets combined' },
         { id:'meta_ads',            label:'Meta Ads',              hint:'Ads Manager CSV — for dark posts MS can\'t see' },
         { id:'tiktok_ads',          label:'TikTok Ads',            hint:'TikTok Ads Manager export — coming soon' },
