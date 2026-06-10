@@ -666,7 +666,7 @@ function DropZone({ label, hint, files, onAdd, onRemove }) {
               border:'1px solid var(--line)', borderRadius:5
             }}>
               <span style={{overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap', minWidth:0}}>{f.name}</span>
-              <span style={{color:'var(--ink-3)', whiteSpace:'nowrap', fontSize:10}}>{(f.size/1024).toFixed(0)} KB</span>
+              <span style={{color:'var(--ink-3)', whiteSpace:'nowrap', fontSize:10}}>{f.size < 1024 ? `${f.size} B` : `${(f.size/1024).toFixed(0)} KB`}</span>
               <button onClick={() => onRemove(i)} style={{
                 background:'transparent', border:'none', cursor:'pointer',
                 color:'var(--ink-3)', padding:0, display:'inline-flex'
@@ -774,7 +774,7 @@ function CompactDropZone({ queue, onChange, sources }) {
             }}>
               <span style={{overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap', minWidth:0}}>{f.name}</span>
               <span style={{color:'var(--ink-3)', fontSize:10}}>{f.target}</span>
-              <span style={{color:'var(--ink-3)', fontSize:10}}>{(f.size/1024).toFixed(0)} KB</span>
+              <span style={{color:'var(--ink-3)', fontSize:10}}>{f.size < 1024 ? `${f.size} B` : `${(f.size/1024).toFixed(0)} KB`}</span>
               <button onClick={() => onChange(queue.filter((_, j) => j !== i))} style={{
                 background:'transparent', border:'none', cursor:'pointer',
                 color:'var(--ink-3)', padding:0, display:'inline-flex', justifyContent:'flex-end'
