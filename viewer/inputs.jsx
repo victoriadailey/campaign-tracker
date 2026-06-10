@@ -341,7 +341,7 @@ function OngoingCampaignForm() {
                 <CompactDropZone
                   queue={queues[c.id] || []}
                   onChange={q => setQueue(c.id, q)}
-                  sources={uploadSourcesFor(c.id)}
+                  sources={['Measure Studio', 'Google Ads', 'X Ads', 'Meta Ads', 'TikTok Ads', 'LinkedIn Ads', 'Other']}
                 />
               </div>
               <div style={{padding:20}}>
@@ -414,14 +414,20 @@ function SubmitQueueRow({ campaignId, queue, onClear }) {
         setStatus({ kind: 'uploading', done: i + 1, total: queue.length });
         continue;
       }
-      // file.target is now the EXACT configured filename to overwrite (chosen
-      // from UPLOAD_TARGETS), so the upload lands where refresh.py actually
-      // reads it. Only the "other" escape hatch falls back to the file's own
-      // (backend-namespaced) name — those are genuinely new sources that still
-      // need wiring into config/campaigns.yaml before they'll be parsed.
-      const filename = (file.target && file.target !== 'other')
-        ? file.target
-        : file.name;
+      // Resolve the chosen platform (file.target, e.g. "Google Ads") to the
+      // campaign's ACTUAL configured filename via UPLOAD_TARGETS, so the upload
+      // overwrites the file refresh.py reads — including cases where the name
+      // doesn't follow <campaign>_<kind> (e.g. E*TRADE → portfolio_players_*).
+      // If the campaign has no configured file for that platform, fall back to
+      // a new <campaign>_<kind>.csv (which then needs wiring into the config).
+      const targets = (window.UPLOAD_TARGETS || {})[campaignId] || [];
+      const match = targets.find(t => t.label === file.target);
+      const kind = SOURCE_KIND_FOR[file.target] || 'other';
+      const filename = match
+        ? match.file
+        : (file.name.toLowerCase().startsWith(campaignId.toLowerCase())
+            ? file.name
+            : `${campaignId}_${kind}.csv`);
 
       try {
         const res = await fetch('/.netlify/functions/upload-csv', {
@@ -680,7 +686,7 @@ function DropZone({ label, hint, files, onAdd, onRemove }) {
 // Keep in sync with config/campaigns.yaml `sources:` keys.
 const SOURCE_KIND_FOR = {
   'Measure Studio':       'ms',          // rarely used (MS is API-driven), kept for manual CSV fallback
-  'Google Ads (YT Paid)': 'yt_paid',
+  'Google Ads':           'yt_paid',
   'X Ads':                'x_ads',
   'Meta Ads':             'meta_ads',
   'TikTok Ads':           'tiktok_ads',
@@ -703,21 +709,9 @@ function readFileAsBase64(file) {
   });
 }
 
-// Build the upload-source dropdown for a campaign from its ACTUAL configured
-// files (window.UPLOAD_TARGETS, emitted by refresh.py). Each option's value is
-// the exact filename the refresh reads, so an upload overwrites the right file
-// instead of guessing a name that silently no-ops. "Other" stays as an escape
-// hatch for genuinely new files (which still need wiring into campaigns.yaml).
-function uploadSourcesFor(campaignId) {
-  const targets = (window.UPLOAD_TARGETS || {})[campaignId] || [];
-  const opts = targets.map(t => ({ v: t.file, l: `${t.label} · ${t.file}` }));
-  opts.push({ v: 'other', l: 'Other — new file (needs config wiring)' });
-  return opts;
-}
-
 function CompactDropZone({ queue, onChange, sources }) {
   const [over, setOver] = React.useState(false);
-  const [target, setTarget] = React.useState(sources[0]?.v);
+  const [target, setTarget] = React.useState(sources[0]);
   const inputRef = React.useRef(null);
 
   const addFiles = async (fl) => {
@@ -746,7 +740,7 @@ function CompactDropZone({ queue, onChange, sources }) {
   return (
     <>
       <div style={{display:'flex', alignItems:'center', gap:8, marginBottom:10}}>
-        <Select value={target} onChange={setTarget} options={sources}/>
+        <Select value={target} onChange={setTarget} options={sources.map(s => ({ v:s, l:s }))}/>
       </div>
       <div style={{
         border: `2px dashed ${over ? 'var(--liquorice)' : 'var(--line-2)'}`,

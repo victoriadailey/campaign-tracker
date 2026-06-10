@@ -714,7 +714,7 @@ def main() -> int:
     # is portfolio_players_x_ads.csv, not etrade_x_ads.csv; ADP has two yt_paid
     # files). Without this the form guessed a name that silently no-ops.
     _FILE_SOURCE_LABELS = {
-        "measure_studio": "Measure Studio (CSV)",
+        "measure_studio": "Measure Studio",
         "youtube_paid":   "Google Ads",
         "x_ads":          "X Ads",
         "meta_ads":       "Meta Ads",
