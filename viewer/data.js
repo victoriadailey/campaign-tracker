@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-11T15:55:09Z";
+window.LAST_REFRESHED = "2026-06-11T17:33:47Z";
 
 
 
@@ -839,42 +839,26 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 5554094,
+      "delivered": 2997087,
       "goal": 10250000
     },
     "budget": {
-      "delivered": 18153.45,
+      "delivered": 9908.43,
       "goal": 29650.0
     },
     "color": "ft-2",
     "leadFormat": "Made for Social",
-    "topChannel": "TikTok",
-    "er": 1.6,
-    "cpm": 3.42,
+    "topChannel": "YouTube",
+    "er": 2.7,
+    "cpm": 3.34,
     "episodes": 1,
-    "posts": 12,
+    "posts": 5,
     "blurb": "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending.",
-    "views": 4186410,
+    "views": 1423591,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
     "channels": [
-      {
-        "name": "TikTok",
-        "italic": "Tok",
-        "impressions": 1728404,
-        "eng": 688,
-        "er": 0.04,
-        "cpm": 2.54,
-        "color": "#000000",
-        "delta": -98.0,
-        "bench": {
-          "er": 2.03,
-          "cpm": 2.4
-        },
-        "organicImpressions": 169052,
-        "views": 1714388
-      },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
@@ -889,97 +873,65 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 765,
-        "views": 938117
-      },
-      {
-        "name": "Instagram",
-        "italic": "gram",
-        "impressions": 886636,
-        "eng": 13135,
-        "er": 1.48,
-        "cpm": 6.95,
-        "color": "#E4405F",
-        "delta": -55.2,
-        "bench": {
-          "er": 3.31,
-          "cpm": 5.1
-        },
-        "organicImpressions": 27077,
-        "views": 886636
-      },
-      {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 854520,
-        "eng": 778,
-        "er": 0.09,
-        "cpm": 3.54,
-        "color": "#1877F2",
-        "delta": -94.0,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 512,
-        "views": 645175
+        "views": 464198
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 596105,
-        "eng": 173,
-        "er": 0.03,
+        "impressions": 546107,
+        "eng": 130,
+        "er": 0.02,
         "cpm": 2.78,
         "color": "#1d1d1f",
-        "delta": -96.8,
+        "delta": -97.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 49998,
-        "views": 2094
-      }
-    ],
-    "topPosts": [
+        "organicImpressions": 0,
+        "views": 0
+      },
       {
-        "id": "3905073361164670830",
-        "rank": 1,
-        "partner": "Spectrum",
-        "platform": "Instagram",
-        "format": "Reels/Shorts",
-        "quote": "From the hangar to the race track, go behind the scenes to see how @getspectrumbusiness keeps small\u2026",
-        "er": 2.85,
-        "eng": 5530,
-        "reach": 193789,
-        "organic": 7,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.instagram.com/p/DYxm4gyD5du/",
-        "postedAt": "2026-05-25T13:33:09-07:00"
-      }
-    ],
-    "topPostsOrganic": [
-      {
-        "id": "o1",
-        "rank": 1,
-        "partner": "Spectrum",
-        "platform": "TikTok",
-        "format": "Reels/Shorts",
-        "quote": "From the hangar to the race track, go behind the scenes to see how @spectrumbusiness keeps small\u2026",
-        "organicReach": 147626,
-        "totalReach": 1223875,
-        "organicPct": 12.1,
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 493671,
+        "eng": 206,
         "er": 0.04,
-        "insight": "",
-        "url": "https://tiktok.com/@frontofficesports/video/7642876525888507150"
+        "cpm": 1.97,
+        "color": "#000000",
+        "delta": -97.9,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 21426,
+        "views": 490513
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 468880,
+        "eng": 7553,
+        "er": 1.61,
+        "cpm": 8.28,
+        "color": "#E4405F",
+        "delta": -51.3,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 12546,
+        "views": 468880
       }
     ],
+    "topPosts": [],
+    "topPostsOrganic": [],
     "callouts": [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 79% of goal (8.1M of 10.2M) with 19 days left.",
-        "body": "At the current rate the campaign will fall ~2.1M impressions short of the 10.2M goal. Need to deliver 247K impr/day (1.8\u00d7 the current 136K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 43% of goal (4.4M of 10.2M) with 19 days left.",
+        "body": "At the current rate the campaign will fall ~5.9M impressions short of the 10.2M goal. Need to deliver 382K impr/day (5.2\u00d7 the current 73K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Spectrum \u00b7 Pacing"
       }
     ],
@@ -1189,7 +1141,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 127873,
+      "delivered": 134294,
       "goal": 1500000
     },
     "budget": {
@@ -1199,10 +1151,10 @@ window.CAMPAIGNS = [
     "color": "ft-6",
     "leadFormat": "Made for Social",
     "topChannel": "Instagram",
-    "er": 3.0,
+    "er": 2.9,
     "cpm": 0.0,
     "episodes": 0,
-    "posts": 5,
+    "posts": 6,
     "blurb": "The Case Study (Redo) \u2014 Fernando Tatis Jr. NIL story. Re-run of the Morgan & Morgan Case Study, carrying the original goals.",
     "views": 121010,
     "goalSplit": [],
@@ -1240,6 +1192,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 14305,
         "views": 7029
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 6421,
+        "eng": 14,
+        "er": 0.22,
+        "cpm": 0.0,
+        "color": "#1d1d1f",
+        "delta": -76.3,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 6421,
+        "views": 0
       },
       {
         "name": "TikTok",
@@ -2334,13 +2302,13 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 6721697
+    "views": 6247778
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 12355702,
-    "eng": 9799,
+    "impressions": 12312125,
+    "eng": 9770,
     "er": 0.08,
     "cpm": 1.28,
     "color": "#1d1d1f",
@@ -2350,55 +2318,55 @@ window.CHANNELS = [
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 396929
+    "views": 394835
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 8785788,
-    "eng": 173244,
-    "er": 1.97,
-    "cpm": 4.98,
+    "impressions": 8368032,
+    "eng": 167662,
+    "er": 2.0,
+    "cpm": 4.95,
     "color": "#E4405F",
-    "delta": -40.4,
+    "delta": -39.5,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 8785788
+    "views": 8368032
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 6453618,
-    "eng": 39619,
-    "er": 0.61,
-    "cpm": 2.47,
+    "impressions": 5218885,
+    "eng": 39137,
+    "er": 0.75,
+    "cpm": 2.37,
     "color": "#000000",
-    "delta": -69.8,
+    "delta": -63.1,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 6411062
+    "views": 5187187
   },
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 4551283,
-    "eng": 2639,
-    "er": 0.06,
-    "cpm": 2.64,
+    "impressions": 3696763,
+    "eng": 1861,
+    "er": 0.05,
+    "cpm": 2.43,
     "color": "#1877F2",
-    "delta": -96.2,
+    "delta": -96.7,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 3491289
+    "views": 2846114
   },
   {
     "name": "LinkedIn",
@@ -2498,20 +2466,20 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
+    "headline": "On pace for 43% of goal (4.4M of 10.2M) with 19 days left.",
+    "body": "At the current rate the campaign will fall ~5.9M impressions short of the 10.2M goal. Need to deliver 382K impr/day (5.2\u00d7 the current 73K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Spectrum \u00b7 Pacing",
+    "campaignId": "spectrum",
+    "campaignPartner": "Spectrum"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
     "headline": "On pace for 64% of goal (26.5M of 41.7M) with 19 days left.",
     "body": "At the current rate the campaign will fall ~15.2M impressions short of the 41.7M goal. Need to deliver 946K impr/day (6.4\u00d7 the current 148K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "E*TRADE \u00b7 Pacing",
     "campaignId": "etrade",
     "campaignPartner": "E*TRADE"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 79% of goal (8.1M of 10.2M) with 19 days left.",
-    "body": "At the current rate the campaign will fall ~2.1M impressions short of the 10.2M goal. Need to deliver 247K impr/day (1.8\u00d7 the current 136K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Spectrum \u00b7 Pacing",
-    "campaignId": "spectrum",
-    "campaignPartner": "Spectrum"
   },
   {
     "tag": "WATCH",
@@ -9694,35 +9662,20 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "NASCAR \u2014 Texas Motor Speedway",
       "date": "May 2026",
       "total": {
-        "impr": 5554094,
-        "views": 4186410,
-        "er": 1.6,
-        "eng": 88868,
-        "spend": 18153.45
+        "impr": 2997087,
+        "views": 1423591,
+        "er": 2.74,
+        "eng": 81983,
+        "spend": 9908.43
       },
       "perChannel": [
-        {
-          "name": "TikTok",
-          "distKind": "organic+boosted",
-          "impr": 1728404,
-          "paidImpr": 1559352,
-          "orgImpr": 169052,
-          "views": 1714388,
-          "eng": 688,
-          "paidEng": 573,
-          "orgEng": 115,
-          "er": 0.04,
-          "cpm": 2.54,
-          "spend": 3957.71,
-          "posts": 2
-        },
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
           "impr": 1488429,
           "paidImpr": 1487664,
-          "orgImpr": 39497,
-          "views": 938117,
+          "orgImpr": 765,
+          "views": 464198,
           "eng": 74094,
           "paidEng": 74094,
           "orgEng": 0,
@@ -9732,48 +9685,48 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 2
         },
         {
-          "name": "Instagram",
-          "distKind": "organic+boosted",
-          "impr": 886636,
-          "paidImpr": 859559,
-          "orgImpr": 27077,
-          "views": 886636,
-          "eng": 13135,
-          "paidEng": 0,
-          "orgEng": 13135,
-          "er": 1.48,
-          "cpm": 6.95,
-          "spend": 5970.74,
-          "posts": 4
-        },
-        {
-          "name": "Facebook",
-          "distKind": "organic+boosted",
-          "impr": 854520,
-          "paidImpr": 854008,
-          "orgImpr": 512,
-          "views": 645175,
-          "eng": 778,
-          "paidEng": 115,
-          "orgEng": 663,
-          "er": 0.09,
-          "cpm": 3.54,
-          "spend": 3025.39,
-          "posts": 3
-        },
-        {
           "name": "X",
-          "distKind": "organic+boosted",
-          "impr": 596105,
+          "distKind": "paid",
+          "impr": 546107,
           "paidImpr": 546107,
-          "orgImpr": 49998,
-          "views": 2094,
-          "eng": 173,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 130,
           "paidEng": 130,
-          "orgEng": 43,
-          "er": 0.03,
+          "orgEng": 0,
+          "er": 0.02,
           "cpm": 2.78,
           "spend": 1519.0,
+          "posts": 1
+        },
+        {
+          "name": "TikTok",
+          "distKind": "organic+boosted",
+          "impr": 493671,
+          "paidImpr": 472245,
+          "orgImpr": 21426,
+          "views": 490513,
+          "eng": 206,
+          "paidEng": 164,
+          "orgEng": 42,
+          "er": 0.04,
+          "cpm": 1.97,
+          "spend": 929.28,
+          "posts": 1
+        },
+        {
+          "name": "Instagram",
+          "distKind": "organic+boosted",
+          "impr": 468880,
+          "paidImpr": 456334,
+          "orgImpr": 12546,
+          "views": 468880,
+          "eng": 7553,
+          "paidEng": 0,
+          "orgEng": 7553,
+          "er": 1.61,
+          "cpm": 8.28,
+          "spend": 3779.54,
           "posts": 1
         }
       ],
@@ -9798,13 +9751,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 461783,
-          "paidImpr": 461018,
+          "impr": 1027411,
+          "paidImpr": 1026646,
           "orgImpr": 765,
           "views": 454961,
-          "eng": 19993,
-          "er": 4.33,
-          "spend": 1343.86,
+          "eng": 54101,
+          "er": 5.27,
+          "spend": 2336.75,
           "url": "https://www.youtube.com/shorts/3m9vdSIFQIs",
           "postedAt": "2026-05-08T08:30:06-07:00"
         },
@@ -9824,150 +9777,37 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-05-08T15:50:42-07:00"
         },
         {
-          "title": "From the hangar to the race track, go behind the scenes to see how @spectrumbusiness keeps small businesses like the Vin",
-          "platform": "TikTok",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 1234733,
-          "paidImpr": 1087107,
-          "orgImpr": 147626,
-          "views": 1223875,
-          "eng": 482,
-          "er": 0.04,
-          "spend": 3028.43,
-          "url": "https://tiktok.com/@frontofficesports/video/7642876525888507150",
-          "postedAt": "2026-05-25T13:30:00-07:00"
-        },
-        {
-          "title": "From the hangar to the race track, go behind the scenes at the Vintage Flying Museum.",
-          "platform": "YouTube Shorts",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 1026646,
-          "paidImpr": 1026646,
-          "orgImpr": 0,
-          "views": 483156,
-          "eng": 54101,
-          "er": 5.27,
-          "spend": 2336.75,
-          "url": "https://www.youtube.com/shorts/2wkMiBX3fn0",
-          "postedAt": "2026-05-25T13:30:00-07:00"
-        },
-        {
-          "title": "From the hangar to the race track, go behind the scenes to see how @SpectrumBiz keeps small businesses like the Vintage ",
+          "title": "Spectrum: NASCAR - Small Biz",
           "platform": "X",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 596105,
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 546107,
           "paidImpr": 546107,
-          "orgImpr": 49998,
-          "views": 2094,
-          "eng": 173,
-          "er": 0.03,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 130,
+          "er": 0.02,
           "spend": 1519.0,
-          "url": "https://twitter.com/FOS/status/2059009107718185383",
-          "postedAt": "2026-05-25T13:30:00-07:00"
+          "url": "https://x.com/FOS/status/2059009107718185383",
+          "postedAt": null
         },
         {
-          "title": "From the hangar to the race track, go behind the scenes to see how Spectrum Business keeps small businesses like the Vin",
-          "platform": "Facebook",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 258436,
-          "paidImpr": 257924,
-          "orgImpr": 512,
-          "views": 237175,
-          "eng": 663,
-          "er": 0.26,
-          "spend": 1729.55,
-          "url": "https://www.facebook.com/1477737501032502/",
-          "postedAt": "2026-05-25T13:31:03-07:00"
-        },
-        {
-          "title": "From the hangar to the race track, go behind the scenes to see how @getspectrumbusiness keeps small businesses like the ",
-          "platform": "Instagram",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 193789,
-          "paidImpr": 179258,
-          "orgImpr": 14531,
-          "views": 193789,
-          "eng": 5530,
-          "er": 2.85,
-          "spend": 1487.12,
-          "url": "https://www.instagram.com/p/DYxm4gyD5du/",
-          "postedAt": "2026-05-25T13:33:09-07:00"
-        },
-        {
-          "title": "From the hangar to race day, see how Spectrum Business helps keep the Vintage Flying Museum connected while fueling big ",
-          "platform": "Facebook",
-          "accountName": "Front Office Sports",
+          "title": "Spectrum: NASCAR DITL (shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
           "distKind": "paid",
-          "impr": 295423,
-          "paidImpr": 295423,
+          "impr": 461018,
+          "paidImpr": 461018,
           "orgImpr": 0,
-          "views": 177452,
-          "eng": 47,
-          "er": 0.02,
-          "spend": 558.55,
-          "url": "https://www.facebook.com/1479528744186711/",
-          "postedAt": "2026-05-27T12:55:56-07:00"
-        },
-        {
-          "title": "From the hangar to race day, see how Spectrum Business helps keep the Vintage Flying Museum connected while fueling big ",
-          "platform": "Instagram",
-          "accountName": "Front Office Sports",
-          "distKind": "paid",
-          "impr": 141764,
-          "paidImpr": 141764,
-          "orgImpr": 0,
-          "views": 141764,
-          "eng": 34,
-          "er": 0.02,
-          "spend": 441.41,
-          "url": "https://www.instagram.com/p/DY2shSYAP6t/",
-          "postedAt": "2026-05-27T12:56:10-07:00"
-        },
-        {
-          "title": "Go behind the scenes with the Vintage Flying Museum and see how Spectrum Business powers the speed, reliability, and con",
-          "platform": "Facebook",
-          "accountName": "Front Office Sports",
-          "distKind": "paid",
-          "impr": 300661,
-          "paidImpr": 300661,
-          "orgImpr": 0,
-          "views": 230548,
-          "eng": 68,
-          "er": 0.02,
-          "spend": 737.3,
-          "url": "https://www.facebook.com/1481331077339811/",
-          "postedAt": "2026-05-29T11:25:54-07:00"
-        },
-        {
-          "title": "Go behind the scenes with the Vintage Flying Museum and see how Spectrum Business powers the speed, reliability, and con",
-          "platform": "Instagram",
-          "accountName": "Front Office Sports",
-          "distKind": "paid",
-          "impr": 82203,
-          "paidImpr": 82203,
-          "orgImpr": 0,
-          "views": 82203,
-          "eng": 18,
-          "er": 0.02,
-          "spend": 262.66,
-          "url": "https://www.instagram.com/p/DY7rzctgMsD/",
-          "postedAt": "2026-05-29T11:26:07-07:00"
+          "views": 9237,
+          "eng": 19993,
+          "er": 4.34,
+          "spend": 1343.86,
+          "url": null,
+          "postedAt": null
         }
       ],
-      "topPosts": [
-        {
-          "quote": "From the hangar to the race track, go behind the scenes to see how @getspectrumbusiness ke",
-          "platform": "Instagram",
-          "er": 2.85,
-          "reach": 193789,
-          "url": "https://www.instagram.com/p/DYxm4gyD5du/"
-        }
-      ],
+      "topPosts": [],
       "callouts": [],
       "impressionGoal": 5750000,
       "budgetGoal": 17525
@@ -11345,14 +11185,14 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 765,
       "views": 454961,
       "reach": 0,
-      "eng": 19993,
-      "er": 4.33,
-      "spend": 1343.86,
+      "eng": 74094,
+      "er": 16.05,
+      "spend": 3680.61,
       "watchTimeMin": 36040.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.91,
+      "cpm": 2.28,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/3m9vdSIFQIs",
@@ -11382,211 +11222,27 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-05-08T15:50:42-07:00"
     },
     {
-      "title": "From the hangar to the race track, go behind the scenes to see how @spectrumbusiness keeps small businesses like the Vin",
-      "platform": "TikTok",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 1234733,
-      "paidImpr": 1087107,
-      "orgImpr": 147626,
-      "views": 1223875,
-      "reach": 558660,
-      "eng": 482,
-      "er": 0.04,
-      "spend": 3028.43,
-      "watchTimeMin": 13619.0,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": 0.0,
-      "cpm": 2.79,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://tiktok.com/@frontofficesports/video/7642876525888507150",
-      "postedAt": "2026-05-25T13:30:00-07:00"
-    },
-    {
-      "title": "From the hangar to the race track, go behind the scenes at the Vintage Flying Museum.",
-      "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 1026646,
-      "paidImpr": 1026646,
-      "orgImpr": 0,
-      "views": 483156,
-      "reach": 0,
-      "eng": 54101,
-      "er": 5.27,
-      "spend": 2336.75,
-      "watchTimeMin": 42419.8,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": 0.0,
-      "cpm": 2.28,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/shorts/2wkMiBX3fn0",
-      "postedAt": "2026-05-25T13:30:00-07:00"
-    },
-    {
-      "title": "From the hangar to the race track, go behind the scenes to see how @SpectrumBiz keeps small businesses like the Vintage ",
+      "title": "Spectrum: NASCAR - Small Biz",
       "platform": "X",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 596105,
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 546107,
       "paidImpr": 546107,
-      "orgImpr": 49998,
-      "views": 2094,
+      "orgImpr": 0,
+      "views": 0,
       "reach": 0,
-      "eng": 173,
-      "er": 0.03,
+      "eng": 130,
+      "er": 0.02,
       "spend": 1519.0,
       "watchTimeMin": null,
       "clicks": null,
-      "ctr": null,
+      "ctr": 0.0,
       "cpc": null,
       "cpm": 2.78,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": "https://twitter.com/FOS/status/2059009107718185383",
-      "postedAt": "2026-05-25T13:30:00-07:00"
-    },
-    {
-      "title": "From the hangar to the race track, go behind the scenes to see how Spectrum Business keeps small businesses like the Vin",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 258436,
-      "paidImpr": 257924,
-      "orgImpr": 512,
-      "views": 237175,
-      "reach": 192335,
-      "eng": 663,
-      "er": 0.26,
-      "spend": 1729.55,
-      "watchTimeMin": 46290.7,
-      "clicks": 1372,
-      "ctr": 56.86,
-      "cpc": 1.26,
-      "cpm": 7.17,
-      "videoViews100Pct": 4812,
-      "videoViews3s": 237175,
-      "url": "https://www.facebook.com/1477737501032502/",
-      "postedAt": "2026-05-25T13:31:03-07:00"
-    },
-    {
-      "title": "From the hangar to the race track, go behind the scenes to see how @getspectrumbusiness keeps small businesses like the ",
-      "platform": "Instagram",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 193789,
-      "paidImpr": 179258,
-      "orgImpr": 14531,
-      "views": 193789,
-      "reach": 187278,
-      "eng": 5530,
-      "er": 2.85,
-      "spend": 1487.12,
-      "watchTimeMin": 12.1,
-      "clicks": 165,
-      "ctr": 9.2,
-      "cpc": 9.01,
-      "cpm": 8.3,
-      "videoViews100Pct": 1263,
-      "videoViews3s": 174499,
-      "url": "https://www.instagram.com/p/DYxm4gyD5du/",
-      "postedAt": "2026-05-25T13:33:09-07:00"
-    },
-    {
-      "title": "From the hangar to race day, see how Spectrum Business helps keep the Vintage Flying Museum connected while fueling big ",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 295423,
-      "paidImpr": 295423,
-      "orgImpr": 0,
-      "views": 177452,
-      "reach": 120664,
-      "eng": 47,
-      "er": 0.02,
-      "spend": 558.55,
-      "watchTimeMin": 6201.1,
-      "clicks": 96,
-      "ctr": 5.28,
-      "cpc": 5.82,
-      "cpm": 3.07,
-      "videoViews100Pct": 600,
-      "videoViews3s": 177452,
-      "url": "https://www.facebook.com/1479528744186711/",
-      "postedAt": "2026-05-27T12:55:56-07:00"
-    },
-    {
-      "title": "From the hangar to race day, see how Spectrum Business helps keep the Vintage Flying Museum connected while fueling big ",
-      "platform": "Instagram",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 141764,
-      "paidImpr": 141764,
-      "orgImpr": 0,
-      "views": 141764,
-      "reach": 130124,
-      "eng": 34,
-      "er": 0.02,
-      "spend": 441.41,
-      "watchTimeMin": 603.6,
-      "clicks": 18,
-      "ctr": 1.27,
-      "cpc": 24.52,
-      "cpm": 3.11,
-      "videoViews100Pct": 419,
-      "videoViews3s": 5265,
-      "url": "https://www.instagram.com/p/DY2shSYAP6t/",
-      "postedAt": "2026-05-27T12:56:10-07:00"
-    },
-    {
-      "title": "Go behind the scenes with the Vintage Flying Museum and see how Spectrum Business powers the speed, reliability, and con",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 300661,
-      "paidImpr": 300661,
-      "orgImpr": 0,
-      "views": 230548,
-      "reach": 156633,
-      "eng": 68,
-      "er": 0.02,
-      "spend": 737.3,
-      "watchTimeMin": 6635.7,
-      "clicks": 143,
-      "ctr": 6.07,
-      "cpc": 5.16,
-      "cpm": 3.13,
-      "videoViews100Pct": 1115,
-      "videoViews3s": 230548,
-      "url": "https://www.facebook.com/1481331077339811/",
-      "postedAt": "2026-05-29T11:25:54-07:00"
-    },
-    {
-      "title": "Go behind the scenes with the Vintage Flying Museum and see how Spectrum Business powers the speed, reliability, and con",
-      "platform": "Instagram",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 82203,
-      "paidImpr": 82203,
-      "orgImpr": 0,
-      "views": 82203,
-      "reach": 77668,
-      "eng": 18,
-      "er": 0.02,
-      "spend": 262.66,
-      "watchTimeMin": 335.3,
-      "clicks": 13,
-      "ctr": 1.58,
-      "cpc": 20.2,
-      "cpm": 3.2,
-      "videoViews100Pct": 346,
-      "videoViews3s": 2965,
-      "url": "https://www.instagram.com/p/DY7rzctgMsD/",
-      "postedAt": "2026-05-29T11:26:07-07:00"
+      "url": "https://x.com/FOS/status/2059009107718185383",
+      "postedAt": null
     }
   ],
   "etrade_brandx": [
@@ -12168,6 +11824,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DZafeM3jhfR/",
       "postedAt": "2026-06-10T10:34:48-07:00"
+    },
+    {
+      "title": "\u201cThere's a name for this \u2014 predatory lending.\u201d \u2014 Dan Morgan, @ForThePeople  At 18, Tatis signed away 10% of future earni",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6421,
+      "paidImpr": 0,
+      "orgImpr": 6421,
+      "views": 0,
+      "reach": 0,
+      "eng": 14,
+      "er": 0.22,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2064776861616623640",
+      "postedAt": "2026-06-10T11:29:00-07:00"
     }
   ],
   "heineken": [
@@ -13332,7 +13011,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-06-11",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "spectrum",
@@ -13343,7 +13022,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-06-11",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "mm",
@@ -13454,7 +13133,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.55,
     "impressions": 17600012,
     "paidImpressions": 17559809,
-    "pctOfTotal": 29.7,
+    "pctOfTotal": 31.1,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 4.6,
     "color": "#E00922"
@@ -13462,21 +13141,21 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.28,
-    "impressions": 12355702,
+    "impressions": 12312125,
     "paidImpressions": 10714303,
-    "pctOfTotal": 20.9,
+    "pctOfTotal": 21.7,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 2.9,
     "color": "#1d1d1f"
   },
   {
     "name": "Instagram",
-    "cpm": 4.98,
-    "impressions": 8773119,
-    "paidImpressions": 6889130,
-    "pctOfTotal": 14.8,
+    "cpm": 4.95,
+    "impressions": 8355363,
+    "paidImpressions": 6485905,
+    "pctOfTotal": 14.7,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -11.4,
+    "mvmDeltaPct": -11.9,
     "color": "#E4405F"
   },
   {
@@ -13484,29 +13163,29 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.62,
     "impressions": 7573509,
     "paidImpressions": 7485568,
-    "pctOfTotal": 12.8,
+    "pctOfTotal": 13.4,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -18.0,
     "color": "#FF0033"
   },
   {
     "name": "TikTok",
-    "cpm": 2.47,
-    "impressions": 6453618,
-    "paidImpressions": 4434824,
-    "pctOfTotal": 10.9,
+    "cpm": 2.37,
+    "impressions": 5218885,
+    "paidImpressions": 3347717,
+    "pctOfTotal": 9.2,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 10.3,
+    "mvmDeltaPct": 5.7,
     "color": "#000000"
   },
   {
     "name": "Facebook",
-    "cpm": 2.64,
-    "impressions": 4551283,
-    "paidImpressions": 4530691,
-    "pctOfTotal": 7.7,
+    "cpm": 2.43,
+    "impressions": 3696763,
+    "paidImpressions": 3676683,
+    "pctOfTotal": 6.5,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -37.1,
+    "mvmDeltaPct": -42.0,
     "color": "#1877F2"
   },
   {
@@ -13514,7 +13193,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 8.66,
     "impressions": 1282731,
     "paidImpressions": 57706,
-    "pctOfTotal": 2.2,
+    "pctOfTotal": 2.3,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
@@ -13524,14 +13203,14 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 14.46,
     "impressions": 617644,
     "paidImpressions": 617644,
-    "pctOfTotal": 1.0,
+    "pctOfTotal": 1.1,
     "mvmCpm": 11.91,
     "mvmDeltaPct": 21.4,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.1;
+window.PORTFOLIO_CPM_BLEND = 2.03;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
