@@ -445,39 +445,47 @@ campaigns:
     partner: Morgan & Morgan
     series: The Case Study
     series_italic: Case Study
-    type: social    # post-based tracking; no episode rollup
+    type: social    # one campaign, two components compared side-by-side
     benchmark_category: "Social - IP/Franchise"
     lifecycle: active
-    flight_start: 2026-05-01
-    flight_end: 2026-05-31
-    impression_goal: 0      # split out — active goals moved to "The Case Study (Redo)"
-    budget_goal: 0
+    flight_start: 2026-05-01      # spans both parts (original May + Redo Jun–Jul)
+    flight_end: 2026-07-30
+    impression_goal: 1_500_000    # campaign total — carried by the Redo component
+    budget_goal: 5_000
     color: ft-5
     lead_format: Made for Social
-    blurb: "Original Case Study run (Dan Morgan — NIL & college sports). Measured on its own with no goal; the active goals now live on The Case Study (Redo)."
+    blurb: "Morgan & Morgan Case Study, split into two components in one campaign: the original Dan Morgan run (added value, no goal) and The Case Study (Redo) with Fernando Tatis Jr. carrying the goals."
+    # The Google Ads "Video 1" promo is a YouTube Short (export drops the tag),
+    # so flag it — otherwise it won't merge onto its organic Shorts post and its
+    # paid impressions double-count.
+    youtube_paid_shorts:
+      - "Video 1"
+    # The GAds "Video 1" and its organic MS post share no title token, so pair
+    # the YT paid row to its MS post by sorted rank (top-impr ↔ top-impr).
+    yt_paired_by_sort: true
     sources:
-      measure_studio_group_id: 7176         # Morgan & Morgan (Dan Morgan / Video 1)
-      youtube_paid:                         # Google Ads "Video 1" promo (lives in group 7176)
+      measure_studio_group_ids:             # both M&M sub-campaign post groups
+        - 7176                              # Morgan & Morgan (Dan Morgan / Video 1)
+        - 7711                              # The Case Study (redo) — Fernando Tatis Jr.
+      youtube_paid:                         # Google Ads "Video 1" promo (group 7176)
         - morgan_morgan_yt_paid.csv
-      # CSV fallback only if the API call fails:
-      # measure_studio: [morgan_morgan_ms.csv]
-
-  - id: mm_redo
-    partner: Morgan & Morgan
-    series: The Case Study (Redo)
-    series_italic: Case Study (Redo)
-    type: social    # post-based tracking; no episode rollup
-    benchmark_category: "Social - IP/Franchise"
-    lifecycle: active
-    flight_start: 2026-06-01
-    flight_end: 2026-07-30
-    impression_goal: 1_500_000    # inherited from the original Case Study run
-    budget_goal: 5_000
-    color: ft-6
-    lead_format: Made for Social
-    blurb: "The Case Study (Redo) — Fernando Tatis Jr. NIL story. Re-run of the Morgan & Morgan Case Study, carrying the original goals."
-    sources:
-      measure_studio_group_id: 7711         # The Case Study (redo)
+    episodes:
+      - id: mm_original
+        n: "Part 01"
+        title: "Morgan & Morgan"
+        date: "May 2026"
+        match: ["Dan Morgan", "school has the dollars", "Managing Partner", "Video 1"]
+        exclude: []
+        impression_goal: 0       # added value — no target; impressions still counted
+        budget_goal: 0
+      - id: case_study_redo
+        n: "Part 02"
+        title: "The Case Study (Redo)"
+        date: "Jun 2026"
+        match: ["Tatis", "Fernando", "future earnings", "signed away"]
+        exclude: []
+        impression_goal: 1_500_000
+        budget_goal: 5_000
 
   - id: onlocation
     partner: On Location
