@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-10T23:19:52Z";
+window.LAST_REFRESHED = "2026-06-11T02:43:17Z";
 
 
 
@@ -381,8 +381,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Players",
     "type": "content",
     "flight": "Jan 1 \u2014 Jun 30, 2026",
-    "elapsedPct": 88.9,
-    "daysLeft": 20,
+    "elapsedPct": 89.4,
+    "daysLeft": 19,
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
@@ -819,8 +819,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 64% of goal (26.7M of 41.7M) with 20 days left.",
-        "body": "At the current rate the campaign will fall ~15.0M impressions short of the 41.7M goal. Need to deliver 899K impr/day (6.1\u00d7 the current 148K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 64% of goal (26.5M of 41.7M) with 19 days left.",
+        "body": "At the current rate the campaign will fall ~15.2M impressions short of the 41.7M goal. Need to deliver 947K impr/day (6.4\u00d7 the current 148K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "E*TRADE \u00b7 Pacing"
       }
     ],
@@ -834,8 +834,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Dreams",
     "type": "social",
     "flight": "May 1 \u2014 Jun 30, 2026",
-    "elapsedPct": 66.7,
-    "daysLeft": 20,
+    "elapsedPct": 68.3,
+    "daysLeft": 19,
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
@@ -978,8 +978,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 74% of goal (7.6M of 10.2M) with 20 days left.",
-        "body": "At the current rate the campaign will fall ~2.7M impressions short of the 10.2M goal. Need to deliver 261K impr/day (2.1\u00d7 the current 126K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 72% of goal (7.4M of 10.2M) with 19 days left.",
+        "body": "At the current rate the campaign will fall ~2.9M impressions short of the 10.2M goal. Need to deliver 274K impr/day (2.2\u00d7 the current 123K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Spectrum \u00b7 Pacing"
       }
     ],
@@ -993,8 +993,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "BrandX",
     "type": "brandx",
     "flight": "May 13 \u2014 Jun 30, 2026",
-    "elapsedPct": 58.3,
-    "daysLeft": 20,
+    "elapsedPct": 60.4,
+    "daysLeft": 19,
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
@@ -1192,8 +1192,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Explains",
     "type": "content",
     "flight": "May 1 \u2014 Jun 30, 2026",
-    "elapsedPct": 66.7,
-    "daysLeft": 20,
+    "elapsedPct": 68.3,
+    "daysLeft": 19,
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
@@ -1335,8 +1335,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "World Cup",
     "type": "social",
     "flight": "May 18 \u2014 Jul 31, 2026",
-    "elapsedPct": 31.1,
-    "daysLeft": 51,
+    "elapsedPct": 32.4,
+    "daysLeft": 50,
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
@@ -1431,8 +1431,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 42% of goal (1.5M of 3.5M) with 51 days left.",
-        "body": "At the current rate the campaign will fall ~2.0M impressions short of the 3.5M goal. Need to deliver 60K impr/day (3.0\u00d7 the current 20K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 41% of goal (1.4M of 3.5M) with 50 days left.",
+        "body": "At the current rate the campaign will fall ~2.1M impressions short of the 3.5M goal. Need to deliver 61K impr/day (3.1\u00d7 the current 19K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Heineken \u00b7 Pacing"
       }
     ],
@@ -1446,8 +1446,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "TST",
     "type": "social",
     "flight": "Apr 15 \u2014 Sep 30, 2026",
-    "elapsedPct": 33.3,
-    "daysLeft": 112,
+    "elapsedPct": 33.9,
+    "daysLeft": 111,
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
@@ -2314,8 +2314,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 42% of goal (1.5M of 3.5M) with 51 days left.",
-    "body": "At the current rate the campaign will fall ~2.0M impressions short of the 3.5M goal. Need to deliver 60K impr/day (3.0\u00d7 the current 20K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 41% of goal (1.4M of 3.5M) with 50 days left.",
+    "body": "At the current rate the campaign will fall ~2.1M impressions short of the 3.5M goal. Need to deliver 61K impr/day (3.1\u00d7 the current 19K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
@@ -2323,8 +2323,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 64% of goal (26.7M of 41.7M) with 20 days left.",
-    "body": "At the current rate the campaign will fall ~15.0M impressions short of the 41.7M goal. Need to deliver 899K impr/day (6.1\u00d7 the current 148K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 64% of goal (26.5M of 41.7M) with 19 days left.",
+    "body": "At the current rate the campaign will fall ~15.2M impressions short of the 41.7M goal. Need to deliver 947K impr/day (6.4\u00d7 the current 148K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "E*TRADE \u00b7 Pacing",
     "campaignId": "etrade",
     "campaignPartner": "E*TRADE"
@@ -2332,8 +2332,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 74% of goal (7.6M of 10.2M) with 20 days left.",
-    "body": "At the current rate the campaign will fall ~2.7M impressions short of the 10.2M goal. Need to deliver 261K impr/day (2.1\u00d7 the current 126K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 72% of goal (7.4M of 10.2M) with 19 days left.",
+    "body": "At the current rate the campaign will fall ~2.9M impressions short of the 10.2M goal. Need to deliver 274K impr/day (2.2\u00d7 the current 123K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Spectrum \u00b7 Pacing",
     "campaignId": "spectrum",
     "campaignPartner": "Spectrum"
@@ -12970,7 +12970,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 4
   },
@@ -12981,7 +12981,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 4
   },
@@ -12992,7 +12992,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 4
   },
@@ -13003,7 +13003,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 4
   },
@@ -13014,7 +13014,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "portfolio_players_yt_paid.csv",
     "fileSizeKb": 4.9,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 10
   },
@@ -13025,7 +13025,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
     "fileSizeKb": 4.5,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13036,7 +13036,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13047,7 +13047,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13058,7 +13058,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13069,7 +13069,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 1
   },
@@ -13080,7 +13080,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 4
   },
@@ -13091,7 +13091,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 1
   },
@@ -13102,7 +13102,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13113,7 +13113,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "heineken_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13124,7 +13124,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13135,7 +13135,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.4,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 0
   },
@@ -13146,7 +13146,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-10",
+    "lastModified": "2026-06-11",
     "exists": true,
     "postsContributed": 1
   }
