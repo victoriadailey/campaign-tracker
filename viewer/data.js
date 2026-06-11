@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-11T13:54:09Z";
+window.LAST_REFRESHED = "2026-06-11T15:32:00Z";
 
 
 
@@ -836,10 +836,10 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jun 30, 2026",
     "elapsedPct": 68.3,
     "daysLeft": 19,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "Behind Pace",
+    "statusKind": "danger",
     "impressions": {
-      "delivered": 7001951,
+      "delivered": 5554094,
       "goal": 10250000
     },
     "budget": {
@@ -848,13 +848,13 @@ window.CAMPAIGNS = [
     },
     "color": "ft-2",
     "leadFormat": "Made for Social",
-    "topChannel": "YouTube",
-    "er": 1.3,
-    "cpm": 2.69,
+    "topChannel": "TikTok",
+    "er": 1.6,
+    "cpm": 3.42,
     "episodes": 1,
-    "posts": 14,
+    "posts": 12,
     "blurb": "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending.",
-    "views": 4233587,
+    "views": 4186410,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -876,30 +876,14 @@ window.CAMPAIGNS = [
         "views": 1714388
       },
       {
-        "name": "YouTube In-feed",
-        "italic": "YouTube In-feed",
-        "impressions": 1487664,
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 1488429,
         "eng": 74094,
         "er": 4.98,
         "cpm": 2.47,
-        "color": "#E00922",
-        "delta": 896.1,
-        "bench": {
-          "er": 0.5,
-          "cpm": 0.55
-        },
-        "organicImpressions": 0,
-        "views": 47177
-      },
-      {
-        "name": "YouTube Shorts",
-        "italic": "YouTube Shorts",
-        "impressions": 1448622,
-        "eng": 453,
-        "er": 0.03,
-        "cpm": 0.0,
         "color": "#FF0033",
-        "delta": -99.8,
+        "delta": -75.1,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -994,9 +978,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "YouTube In-feed CPM at $2.47 \u2014 4.5\u00d7 the benchmark.",
-        "body": "$2.47 CPM vs. $0.55 FOS benchmark. At 4.5\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "Spectrum \u00b7 YouTube In-feed"
+        "headline": "On pace for 79% of goal (8.1M of 10.2M) with 19 days left.",
+        "body": "At the current rate the campaign will fall ~2.1M impressions short of the 10.2M goal. Need to deliver 247K impr/day (1.8\u00d7 the current 136K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "Spectrum \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
@@ -2164,18 +2148,18 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 26701192,
-    "eng": 769888,
-    "er": 2.88,
-    "cpm": 1.11,
+    "impressions": 25253335,
+    "eng": 769435,
+    "er": 3.05,
+    "cpm": 1.17,
     "color": "#E00922",
-    "delta": -85.6,
+    "delta": -84.8,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 6768014
+    "views": 6720837
   },
   {
     "name": "X",
@@ -2348,11 +2332,20 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "YouTube In-feed CPM at $2.47 \u2014 4.5\u00d7 the benchmark.",
-    "body": "$2.47 CPM vs. $0.55 FOS benchmark. At 4.5\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "Spectrum \u00b7 YouTube In-feed",
+    "headline": "On pace for 79% of goal (8.1M of 10.2M) with 19 days left.",
+    "body": "At the current rate the campaign will fall ~2.1M impressions short of the 10.2M goal. Need to deliver 247K impr/day (1.8\u00d7 the current 136K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Spectrum \u00b7 Pacing",
     "campaignId": "spectrum",
     "campaignPartner": "Spectrum"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace to over-deliver \u2014 $1K (11%) of budget unspent with 0 days left.",
+    "body": "Impressions are 113% delivered while only 89% of budget has been spent \u2014 already 13% past the goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+    "meta": "ADP \u00b7 Budget surplus",
+    "campaignId": "adp",
+    "campaignPartner": "ADP"
   }
 ];
 
@@ -9526,10 +9519,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "NASCAR \u2014 Texas Motor Speedway",
       "date": "May 2026",
       "total": {
-        "impr": 7001951,
-        "views": 4233587,
-        "er": 1.28,
-        "eng": 89321,
+        "impr": 5554094,
+        "views": 4186410,
+        "er": 1.6,
+        "eng": 88868,
         "spend": 18153.45
       },
       "perChannel": [
@@ -9549,33 +9542,18 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 2
         },
         {
-          "name": "YouTube In-feed",
-          "distKind": "paid",
-          "impr": 1487664,
+          "name": "YouTube Shorts",
+          "distKind": "organic+boosted",
+          "impr": 1488429,
           "paidImpr": 1487664,
-          "orgImpr": 0,
-          "views": 47177,
+          "orgImpr": 39497,
+          "views": 938117,
           "eng": 74094,
           "paidEng": 74094,
           "orgEng": 0,
           "er": 4.98,
           "cpm": 2.47,
           "spend": 3680.61,
-          "posts": 2
-        },
-        {
-          "name": "YouTube Shorts",
-          "distKind": "organic+boosted",
-          "impr": 1448622,
-          "paidImpr": 1447857,
-          "orgImpr": 39497,
-          "views": 938117,
-          "eng": 453,
-          "paidEng": 72318,
-          "orgEng": 0,
-          "er": 0.03,
-          "cpm": 0.0,
-          "spend": 0.0,
           "posts": 2
         },
         {
@@ -9626,36 +9604,6 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "posts": [
         {
-          "title": "Spectrum: NASCAR DITL",
-          "platform": "YouTube In-feed",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 461018,
-          "paidImpr": 461018,
-          "orgImpr": 0,
-          "views": 9237,
-          "eng": 19993,
-          "er": 4.34,
-          "spend": 1343.86,
-          "url": null,
-          "postedAt": null
-        },
-        {
-          "title": "Spectrum: NASCAR - Small Biz",
-          "platform": "YouTube In-feed",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 1026646,
-          "paidImpr": 1026646,
-          "orgImpr": 0,
-          "views": 37940,
-          "eng": 54101,
-          "er": 5.27,
-          "spend": 2336.75,
-          "url": null,
-          "postedAt": null
-        },
-        {
           "title": "From the garage to pit road\u2014here\u2019s what a day at Texas Motor Speedway looks like \ud83c\udfc1   Come along and see how @getspectrum",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
@@ -9679,9 +9627,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 461018,
           "orgImpr": 765,
           "views": 454961,
-          "eng": 204,
-          "er": 0.04,
-          "spend": 0,
+          "eng": 19993,
+          "er": 4.33,
+          "spend": 1343.86,
           "url": "https://www.youtube.com/shorts/3m9vdSIFQIs",
           "postedAt": "2026-05-08T08:30:06-07:00"
         },
@@ -9720,13 +9668,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 986839,
-          "paidImpr": 986839,
+          "impr": 1026646,
+          "paidImpr": 1026646,
           "orgImpr": 0,
           "views": 483156,
-          "eng": 249,
-          "er": 0.03,
-          "spend": 0,
+          "eng": 54101,
+          "er": 5.27,
+          "spend": 2336.75,
           "url": "https://www.youtube.com/shorts/2wkMiBX3fn0",
           "postedAt": "2026-05-25T13:30:00-07:00"
         },
@@ -11189,52 +11137,6 @@ window.EPISODES_BY_CAMPAIGN = {
 window.POSTS_BY_CAMPAIGN = {
   "spectrum": [
     {
-      "title": "Spectrum: NASCAR DITL",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 461018,
-      "paidImpr": 461018,
-      "orgImpr": 0,
-      "views": 9237,
-      "reach": 0,
-      "eng": 19993,
-      "er": 4.34,
-      "spend": 1343.86,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.91,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Spectrum: NASCAR - Small Biz",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 1026646,
-      "paidImpr": 1026646,
-      "orgImpr": 0,
-      "views": 37940,
-      "reach": 0,
-      "eng": 54101,
-      "er": 5.27,
-      "spend": 2336.75,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.28,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
       "title": "From the garage to pit road\u2014here\u2019s what a day at Texas Motor Speedway looks like \ud83c\udfc1   Come along and see how @getspectrum",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
@@ -11267,9 +11169,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 765,
       "views": 454961,
       "reach": 0,
-      "eng": 204,
-      "er": 0.04,
-      "spend": 0,
+      "eng": 19993,
+      "er": 4.33,
+      "spend": 1343.86,
       "watchTimeMin": 36040.0,
       "clicks": null,
       "ctr": 0.0,
@@ -11331,14 +11233,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 986839,
-      "paidImpr": 986839,
+      "impr": 1026646,
+      "paidImpr": 1026646,
       "orgImpr": 0,
       "views": 483156,
       "reach": 0,
-      "eng": 249,
-      "er": 0.03,
-      "spend": 0,
+      "eng": 54101,
+      "er": 5.27,
+      "spend": 2336.75,
       "watchTimeMin": 42419.8,
       "clicks": null,
       "ctr": 0.0,
@@ -13136,7 +13038,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-06-11",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 0
   },
   {
     "campaignId": "spectrum",
@@ -13255,12 +13157,12 @@ window.BENCHMARKS_DATA = {};
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.7,
-    "impressions": 19087676,
-    "paidImpressions": 19047473,
-    "pctOfTotal": 31.5,
+    "cpm": 0.55,
+    "impressions": 17600012,
+    "paidImpressions": 17559809,
+    "pctOfTotal": 29.8,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 32.9,
+    "mvmDeltaPct": 4.6,
     "color": "#E00922"
   },
   {
@@ -13268,7 +13170,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.28,
     "impressions": 12355702,
     "paidImpressions": 10714303,
-    "pctOfTotal": 20.4,
+    "pctOfTotal": 20.9,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 2.9,
     "color": "#1d1d1f"
@@ -13278,19 +13180,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.98,
     "impressions": 8662029,
     "paidImpressions": 6889130,
-    "pctOfTotal": 14.3,
+    "pctOfTotal": 14.7,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -11.4,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.14,
-    "impressions": 7533255,
-    "paidImpressions": 7445761,
-    "pctOfTotal": 12.4,
+    "cpm": 2.62,
+    "impressions": 7573062,
+    "paidImpressions": 7485568,
+    "pctOfTotal": 12.8,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -33.0,
+    "mvmDeltaPct": -18.0,
     "color": "#FF0033"
   },
   {
@@ -13298,7 +13200,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.47,
     "impressions": 6451587,
     "paidImpressions": 4434824,
-    "pctOfTotal": 10.7,
+    "pctOfTotal": 10.9,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 10.3,
     "color": "#000000"
@@ -13308,7 +13210,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.64,
     "impressions": 4551283,
     "paidImpressions": 4530691,
-    "pctOfTotal": 7.5,
+    "pctOfTotal": 7.7,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -37.1,
     "color": "#1877F2"
@@ -13335,7 +13237,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.04;
+window.PORTFOLIO_CPM_BLEND = 2.1;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
