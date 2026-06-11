@@ -709,9 +709,23 @@ function readFileAsBase64(file) {
   });
 }
 
+// Guess a file's platform from its name so a multi-file drop can auto-route
+// each file. The per-file dropdown lets the operator correct any wrong guess.
+function detectPlatform(filename, sources) {
+  const n = (filename || '').toLowerCase();
+  const has = (...kw) => kw.some(k => n.includes(k));
+  let label = 'Other';
+  if (has('tiktok', 'tt ads', 'tt_ads')) label = 'TikTok Ads';
+  else if (has('linkedin', 'li ads', 'li_ads', 'urn:li')) label = 'LinkedIn Ads';
+  else if (has('google', 'youtube', 'yt_paid', 'yt paid', 'trueview', 'gads', 'demand gen')) label = 'Google Ads';
+  else if (has('meta', 'facebook', 'fb ', 'fb_', '_fb', 'instagram', 'ig ', 'ig_', 'ads manager')) label = 'Meta Ads';
+  else if (has(' x ', 'x ads', 'x_ads', 'x export', 'x-export', 'twitter', '_x_', '_x.')) label = 'X Ads';
+  else if (has('measure studio', 'measure_studio', '_ms', ' ms ')) label = 'Measure Studio';
+  return sources.includes(label) ? label : 'Other';
+}
+
 function CompactDropZone({ queue, onChange, sources }) {
   const [over, setOver] = React.useState(false);
-  const [target, setTarget] = React.useState(sources[0]);
   const inputRef = React.useRef(null);
 
   const addFiles = async (fl) => {
@@ -723,11 +737,9 @@ function CompactDropZone({ queue, onChange, sources }) {
         next.push({
           name: f.name,
           size: f.size,
-          target,
+          target: detectPlatform(f.name, sources),  // auto-detected; editable per row below
           added: new Date().toISOString().slice(0, 10),
           // Stash the content base64 so the Submit button can POST it.
-          // localStorage caps at ~5 MB so very large files won't survive a
-          // page reload — but they're fine for the in-session upload path.
           content_base64: b64,
         });
       } catch (e) {
@@ -739,9 +751,6 @@ function CompactDropZone({ queue, onChange, sources }) {
 
   return (
     <>
-      <div style={{display:'flex', alignItems:'center', gap:8, marginBottom:10}}>
-        <Select value={target} onChange={setTarget} options={sources.map(s => ({ v:s, l:s }))}/>
-      </div>
       <div style={{
         border: `2px dashed ${over ? 'var(--liquorice)' : 'var(--line-2)'}`,
         background: over ? 'rgba(36,28,23,0.04)' : 'var(--bg-soft)',
@@ -758,7 +767,7 @@ function CompactDropZone({ queue, onChange, sources }) {
         }}
       >
         <div style={{fontSize:12, color:'var(--ink-2)', display:'inline-flex', alignItems:'center', gap:6}}>
-          <Ic.upload/> Drop file or click to browse
+          <Ic.upload/> Drop files or click to browse — X, Google, TikTok, etc. all at once
         </div>
         <input
           ref={inputRef} type="file" multiple
@@ -776,7 +785,15 @@ function CompactDropZone({ queue, onChange, sources }) {
               border:'1px solid var(--line)', borderRadius:5
             }}>
               <span style={{overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap', minWidth:0}}>{f.name}</span>
-              <span style={{color:'var(--ink-3)', fontSize:10}}>{f.target}</span>
+              <select
+                value={f.target}
+                onChange={e => onChange(queue.map((q, j) => j === i ? { ...q, target: e.target.value } : q))}
+                title="Detected platform — change if wrong"
+                style={{fontSize:10, padding:'2px 6px', border:'1px solid var(--line-2)',
+                        borderRadius:4, background:'var(--bg-soft)', color:'var(--ink-2)', cursor:'pointer'}}
+              >
+                {sources.map(s => <option key={s} value={s}>{s}</option>)}
+              </select>
               <span style={{color:'var(--ink-3)', fontSize:10}}>{f.size < 1024 ? `${f.size} B` : `${(f.size/1024).toFixed(0)} KB`}</span>
               <button onClick={() => onChange(queue.filter((_, j) => j !== i))} style={{
                 background:'transparent', border:'none', cursor:'pointer',
