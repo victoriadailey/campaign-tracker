@@ -450,17 +450,34 @@ campaigns:
     lifecycle: active
     flight_start: 2026-05-01
     flight_end: 2026-05-31
-    impression_goal: 1_500_000
-    budget_goal: 5_000
+    impression_goal: 0      # split out — active goals moved to "The Case Study (Redo)"
+    budget_goal: 0
     color: ft-5
     lead_format: Made for Social
-    blurb: "Case Study series with Morgan & Morgan on NIL & college sports business. 2 videos live + 1 more coming + 2 static posts in progress."
+    blurb: "Original Case Study run (Dan Morgan — NIL & college sports). Measured on its own with no goal; the active goals now live on The Case Study (Redo)."
     sources:
-      measure_studio_group_id: 7176         # Morgan & Morgan
-      youtube_paid:                         # supplements MS's YT in-feed gap
+      measure_studio_group_id: 7176         # Morgan & Morgan (Dan Morgan / Video 1)
+      youtube_paid:                         # Google Ads "Video 1" promo (lives in group 7176)
         - morgan_morgan_yt_paid.csv
       # CSV fallback only if the API call fails:
       # measure_studio: [morgan_morgan_ms.csv]
+
+  - id: mm_redo
+    partner: Morgan & Morgan
+    series: The Case Study (Redo)
+    series_italic: Case Study (Redo)
+    type: social    # post-based tracking; no episode rollup
+    benchmark_category: "Social - IP/Franchise"
+    lifecycle: active
+    flight_start: 2026-06-09      # content launched 6/9
+    flight_end: 2026-07-09        # 30-day default from launch — adjust to the real end date
+    impression_goal: 1_500_000    # inherited from the original Case Study run
+    budget_goal: 5_000
+    color: ft-6
+    lead_format: Made for Social
+    blurb: "The Case Study (Redo) — Fernando Tatis Jr. NIL story. Re-run of the Morgan & Morgan Case Study, carrying the original goals."
+    sources:
+      measure_studio_group_id: 7711         # The Case Study (redo)
 
   - id: onlocation
     partner: On Location

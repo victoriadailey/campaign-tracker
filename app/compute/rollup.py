@@ -262,8 +262,14 @@ def rollup_campaign(
     else:
         elapsed_pct = _elapsed_pct(config.flight_start, config.flight_end, today)
         days_left = max(0, (config.flight_end - today).days)
-        impressions_pct = (total_impressions / config.impression_goal * 100) if config.impression_goal else 0.0
-        status_kind, status_label = _status(elapsed_pct, impressions_pct)
+        if not config.impression_goal:
+            # No impression goal set — campaign tracked without a target (e.g.
+            # the split-out Morgan & Morgan). Don't score it as "Goal Missed";
+            # show a neutral "No goal" status instead.
+            status_kind, status_label = "tbd", "No goal"
+        else:
+            impressions_pct = total_impressions / config.impression_goal * 100
+            status_kind, status_label = _status(elapsed_pct, impressions_pct)
 
     by_platform = _group_impressions_by_platform(posts)
     top_channel = max(by_platform.items(), key=lambda kv: kv[1])[0] if by_platform else "unknown"
