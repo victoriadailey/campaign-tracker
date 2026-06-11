@@ -366,6 +366,11 @@ campaigns:
     # every refresh).
     exclude:
       - "Branded article"
+    # Google Ads exports drop the "(shorts)" tag from campaign names, so mark
+    # which Spectrum Google Ads campaigns are YT Shorts — their paid spend then
+    # merges onto the right Shorts post instead of floating as in-feed.
+    youtube_paid_shorts:
+      - "NASCAR"
     sources:
       measure_studio_group_id: 7172         # Spectrum
       youtube_paid:                         # supplements MS's YT in-feed gap

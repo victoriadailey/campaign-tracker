@@ -176,6 +176,29 @@ def main() -> int:
                 parse_warnings.extend(f"[{c_id}] {path.name}: {w}" for w in result.warnings)
             posts_by_campaign[c_id].extend(result.rows)
 
+        # Some Google Ads exports drop the "(shorts)" tag from campaign names,
+        # so the parser can't tell a Shorts placement from in-feed. A
+        # campaign-level `youtube_paid_shorts` keyword list lets the operator
+        # mark which Google Ads campaigns are Shorts; force those posts to
+        # REELS_SHORTS here (before the YT-paid → MS merge) so their paid spend
+        # attaches to the matching Shorts post instead of floating as in-feed.
+        _shorts_kw = [str(k).strip().lower() for k in (c.get("youtube_paid_shorts") or []) if str(k).strip()]
+        if _shorts_kw:
+            for _p in posts_by_campaign[c_id]:
+                if _p.source is not Source.GOOGLE_ADS_CAMPAIGN:
+                    continue
+                _low = (_p.post_title or _p.post_id_native or "").lower()
+                if "short" in _low or not any(k in _low for k in _shorts_kw):
+                    continue
+                # The export dropped the operator's "(shorts)" tag; re-append it
+                # so the YT-paid → MS merge (which derives subtype from the name,
+                # not post_format) classifies the campaign as Shorts and merges
+                # its spend onto the matching Shorts post.
+                if _p.post_title:
+                    _p.post_title = f"{_p.post_title} (shorts)"
+                if _p.post_id_native:
+                    _p.post_id_native = f"{_p.post_id_native} (shorts)"
+
         for x_file in c.get("sources", {}).get("x_ads", []) or []:
             path = exports_root / x_file
             if not path.exists():
