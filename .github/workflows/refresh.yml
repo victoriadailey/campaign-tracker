@@ -66,5 +66,10 @@ jobs:
             echo "No data changes — skipping commit."
             exit 0
           fi
-          git commit -m "auto-refresh: $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          # NOTE: do NOT put "[skip ci]" in this message — Netlify honors it and
+          # would skip deploying the regenerated data, so fresh data would never
+          # reach the live site. We don't need it to prevent a workflow loop:
+          # this commit is pushed with GITHUB_TOKEN (whose pushes don't trigger
+          # workflows) and only touches viewer/* (outside the on-push path filter).
+          git commit -m "auto-refresh: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
