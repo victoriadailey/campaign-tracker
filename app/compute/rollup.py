@@ -263,10 +263,11 @@ def rollup_campaign(
         elapsed_pct = _elapsed_pct(config.flight_start, config.flight_end, today)
         days_left = max(0, (config.flight_end - today).days)
         if not config.impression_goal:
-            # No impression goal set — campaign tracked without a target (e.g.
-            # the split-out Morgan & Morgan). Don't score it as "Goal Missed";
-            # show a neutral "No goal" status instead.
-            status_kind, status_label = "tbd", "No goal"
+            # No impression goal set — campaign tracked as added-value delivery
+            # (e.g. the split-out Morgan & Morgan). Impressions still count in
+            # totals/per-post; we just don't score it against a target or flag
+            # it "Goal Missed".
+            status_kind, status_label = "tbd", "Added Value"
         else:
             impressions_pct = total_impressions / config.impression_goal * 100
             status_kind, status_label = _status(elapsed_pct, impressions_pct)

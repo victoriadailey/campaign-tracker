@@ -469,8 +469,8 @@ campaigns:
     type: social    # post-based tracking; no episode rollup
     benchmark_category: "Social - IP/Franchise"
     lifecycle: active
-    flight_start: 2026-06-09      # content launched 6/9
-    flight_end: 2026-07-09        # 30-day default from launch — adjust to the real end date
+    flight_start: 2026-06-01
+    flight_end: 2026-07-30
     impression_goal: 1_500_000    # inherited from the original Case Study run
     budget_goal: 5_000
     color: ft-6
