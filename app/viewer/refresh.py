@@ -310,6 +310,43 @@ def main() -> int:
         # then drop the ad row. Posts show as a single row in the per-episode
         # table using MS's descriptive title. Unmatched ad rows (true dark
         # posts MS can't see) stay as their own row.
+        # ---------- Operator-defined post merges ----------
+        # `merge_posts` combines several MS posts into one display post — e.g.
+        # Sport Clips runs the same dark TikTok creative as 3 ad variants that
+        # MS reports as 3 separate posts. Stats are summed, identity comes from
+        # the first listed id, and the configured title replaces the post text.
+        #   merge_posts:
+        #     - ids: [111, 222, 333]
+        #       title: "Off the Pitch Video 1 — TikTok"
+        for spec in c.get("merge_posts") or []:
+            _ids = {str(x) for x in (spec.get("ids") or [])}
+            if not _ids:
+                continue
+            bucket = [p for p in posts_by_campaign[c_id] if str(p.post_id_native) in _ids]
+            if len(bucket) < 2:
+                continue
+            rest = [p for p in posts_by_campaign[c_id] if str(p.post_id_native) not in _ids]
+            base = bucket[0]
+            def _sum(attr):
+                vals = [getattr(p, attr) or 0 for p in bucket]
+                return sum(vals) if any(getattr(p, attr) is not None for p in bucket) else None
+            for attr in ("impressions_total", "impressions_paid", "impressions_organic",
+                         "views_total", "views_paid", "views_organic",
+                         "reach_total", "reach_paid", "reach_organic",
+                         "engagements_total", "engagements_paid", "engagements_organic",
+                         "clicks_paid", "link_clicks_paid", "ad_spend",
+                         "video_views_p100_paid", "video_views_3s_paid"):
+                setattr(base, attr, _sum(attr))
+            if spec.get("title"):
+                base.post_title = str(spec["title"])
+            base.posted_at = min((p.posted_at for p in bucket if p.posted_at), default=base.posted_at)
+            base.er = ((base.engagements_total / base.impressions_total)
+                       if base.engagements_total and base.impressions_total else None)
+            base.cpm = ((base.ad_spend / base.impressions_paid * 1000)
+                        if base.ad_spend and base.impressions_paid else None)
+            base.post_groups = sorted({g for p in bucket for g in (p.post_groups or [])})
+            posts_by_campaign[c_id] = rest + [base]
+
         x_pairings = c.get("x_ads_pairings") or {}
         posts_by_campaign[c_id] = _merge_x_ads_spend_into_ms(posts_by_campaign[c_id], manual_pairings=x_pairings)
         posts_by_campaign[c_id] = _merge_youtube_paid_spend_into_ms(
@@ -562,7 +599,7 @@ def main() -> int:
     from app.parsers.google_ads_campaign import youtube_subtype_from_post
     from app.parsers import Platform as _Plat, PostFormat as _PF, Source as _Src, Boosting as _Boost
 
-    def _post_rows_for(posts_list):
+    def _post_rows_for(posts_list, ep_defs_order=None):
         """Build display rows for one campaign's posts.
 
         For social campaigns with both MS-organic and Google-Ads-paid coverage of
@@ -578,6 +615,17 @@ def main() -> int:
         number of GAds campaigns matches the number of MS boosted videos on that
         subtype (the common case for social campaigns).
         """
+        # Component ordering: when the campaign defines episodes/components,
+        # attribute each post and stamp its component index so the table groups
+        # MLB Minute first, then Off the Pitch, etc. (YAML order). Posts that
+        # match no component sort last.
+        ep_rank: dict[int, int] = {}
+        if ep_defs_order:
+            _rank_of = {e.id: i for i, e in enumerate(ep_defs_order)}
+            for ep_id, ep_posts in attribute_posts_to_episodes(posts_list, ep_defs_order).items():
+                for p in ep_posts:
+                    ep_rank[id(p)] = _rank_of.get(ep_id, 998)
+
         rows = []
         for p in posts_list:
             if p.platform is _Plat.YOUTUBE:
@@ -679,6 +727,7 @@ def main() -> int:
                 "_source":  p.source.value,
                 "_plat_key": plat_key,
                 "_boost":   p.boosting.value if p.boosting else None,
+                "_ep_rank": ep_rank.get(id(p), 999),
             })
 
         # ---- Merge MS-organic + GAds-paid for the same underlying post ----
@@ -745,7 +794,11 @@ def main() -> int:
             if name == "YouTube Pre-roll":
                 return (0, 1, date)
             return (1, 0, date, -r["impr"])
-        rows.sort(key=_sort_key)
+        # Component index leads the sort (MLB Minute before Off the Pitch, etc.);
+        # within a component, the platform/date ordering above applies.
+        rows.sort(key=lambda r: (r.get("_ep_rank", 999),) + _sort_key(r))
+        for r in rows:
+            r.pop("_ep_rank", None)
         return rows
 
     posts_by_campaign_display: dict[str, list] = {}
@@ -753,7 +806,18 @@ def main() -> int:
         # Social + BrandX campaigns are post-driven (no episode rollup);
         # surface per-post rows so the campaign page can render its table.
         if c["type"] in ("social", "brandx"):
-            posts_by_campaign_display[c["id"]] = _post_rows_for(posts_by_campaign.get(c["id"], []))
+            _ep_order = [
+                EpisodeDef(
+                    id=e["id"], n=e["n"], title=e["title"], date=e.get("date", ""),
+                    match=e.get("match", []), exclude=e.get("exclude", []),
+                    all_match=e.get("all_match", False),
+                    group_ids=[int(g) for g in (e.get("group_ids") or [])],
+                    manual_posts=[str(x) for x in (e.get("manual_posts") or [])],
+                )
+                for e in (c.get("episodes") or [])
+            ]
+            posts_by_campaign_display[c["id"]] = _post_rows_for(
+                posts_by_campaign.get(c["id"], []), ep_defs_order=_ep_order or None)
 
     # Data archive manifest — one row per source file actually loaded, for the
     # Data Archive page. Audit trail of what's flowing into the dashboard.

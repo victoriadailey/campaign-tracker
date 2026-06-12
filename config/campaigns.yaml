@@ -512,6 +512,15 @@ campaigns:
     lead_format: Made for Social
     paid_only: true   # all dark, fully paid — no organic posts
     blurb: "Sport Clips dark-social program in two components: MLB Minute (Mar 23 – Apr 21, wrapped — 1.1M goal exceeded) and Off the Pitch (Jun 11–28, live) with Baker Machado breaking down World Cup stories."
+    # MS reports the dark TikTok creative as 3 separate ad-variant posts —
+    # combine them into one display post.
+    merge_posts:
+      - ids: [1867731290586129, 1867725845630338, 1867725558126769]
+        title: "Off the Pitch Video 1 — TikTok"
+    # The GAds Shorts row ("Sport Clips: Off the Pitch Video 1 (Shorts)") and
+    # the MS dark YT short ("Four of the top ranked…") share no title token —
+    # pair by sorted rank so they render as one organic+boosted row.
+    yt_paired_by_sort: true
     sources:
       measure_studio_group_id: 7729         # Sport Clips - Off the Pitch (dark posts)
       youtube_paid:
