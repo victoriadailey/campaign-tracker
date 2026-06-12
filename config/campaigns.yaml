@@ -474,15 +474,18 @@ campaigns:
         n: "Part 01"
         title: "Morgan & Morgan"
         date: "May 2026"
-        match: ["Dan Morgan", "school has the dollars", "Managing Partner", "Video 1"]
+        group_ids: [7176]        # MS post group — definitive component split
+        match: ["Dan Morgan", "school has the dollars", "Managing Partner", "Video 1"]  # fallback for groupless ad rows
         exclude: []
         impression_goal: 0       # added value — no target; impressions still counted
         budget_goal: 0
+        added_value: true        # excluded from the campaign's goal-delivered total
       - id: case_study_redo
         n: "Part 02"
         title: "The Case Study (Redo)"
         date: "Jun 2026"
-        match: ["Tatis", "Fernando", "future earnings", "signed away"]
+        group_ids: [7711]        # MS post group — definitive component split
+        match: ["Tatis", "Fernando", "future earnings", "signed away"]  # fallback for groupless ad rows
         exclude: []
         impression_goal: 1_500_000
         budget_goal: 5_000

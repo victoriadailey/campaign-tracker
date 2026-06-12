@@ -37,6 +37,13 @@ class EpisodeDef:
     match: list[str]                     # substrings — at least one must appear in title
     exclude: list[str]                   # if any of these appear in title, post is rejected
     all_match: bool = False              # if True, ALL match strings must appear (default: any)
+    group_ids: list[int] = field(default_factory=list)
+    # ↑ MS post-group IDs that define this component. When set, a post is
+    # attributed to this component if its `post_groups` includes one of these
+    # IDs — a definitive signal that beats keyword matching (used when a
+    # campaign is split into sub-groups in Measure Studio, e.g. Morgan &
+    # Morgan: 7176 = original / 7711 = Case Study Redo). `match` keywords still
+    # serve as a fallback for posts with no group (e.g. unmerged ad rows).
     impression_goal: int | None = None   # optional per-episode pacing target
     budget_goal: float | None = None     # optional per-episode budget
     manual_posts: list[str] = field(default_factory=list)
@@ -80,11 +87,25 @@ def attribute_posts_to_episodes(
         for pid in ep.manual_posts:
             manual_index[str(pid)] = ep.id
 
+    # Episodes can be defined by MS post-group (group_ids). Build a lookup so a
+    # post lands in the component whose group it belongs to — definitive, and
+    # avoids keyword cross-talk when sub-campaigns share boilerplate text.
+    group_index: dict[str, str] = {}
+    for ep in episodes:
+        for gid in ep.group_ids:
+            group_index[str(gid)] = ep.id
+
     for p in posts:
         # Manual override wins
         if p.post_id_native and str(p.post_id_native) in manual_index:
             out[manual_index[str(p.post_id_native)]].append(p)
             continue
+        # Group membership is the next-strongest signal (beats keywords).
+        if group_index and p.post_groups:
+            gid = next((str(g) for g in p.post_groups if str(g) in group_index), None)
+            if gid is not None:
+                out[group_index[gid]].append(p)
+                continue
         # Match against title + description + AI categories + User Tags + Post Tags.
         # Cross-posted media often has the host's name in the description even when
         # the title is generic ('What's the 2nd Biggest Sport in the US?' →

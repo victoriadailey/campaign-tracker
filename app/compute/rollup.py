@@ -134,6 +134,18 @@ class CampaignConfig:
     # on the overview with whatever delivery numbers are in flight, but pacing
     # math is suppressed because there's no goal to pace against.
     flight_tbd: bool = False
+    # Component-comparison campaigns can mark a component as "added value": its
+    # impressions/spend still show in the component cards + per-post table, but
+    # are EXCLUDED from the campaign's goal-delivered totals (so the headline
+    # tracks only goal-bearing delivery). Holds the match keywords of any
+    # component flagged `added_value: true` — e.g. Morgan & Morgan's original
+    # Dan Morgan run, which is added value against the Case Study (Redo) goal.
+    added_value_match: list[str] = field(default_factory=list)
+    # MS post-group IDs of added-value components (group-based campaigns like
+    # Morgan & Morgan). A post in one of these groups is excluded from the
+    # goal-delivered totals. Preferred over `added_value_match` since it can't
+    # over-match on shared boilerplate text.
+    added_value_groups: list[int] = field(default_factory=list)
 
 
 _BRANDX_OBJECTIVE_SYNONYMS = {
@@ -238,6 +250,34 @@ def rollup_campaign(
     # include them so campaign-level engagement totals aren't under-counted.
     total_engagements = sum((p.engagements_total or p.engagements_paid or 0) for p in posts)
     total_spend = sum(p.ad_spend or 0 for p in posts)
+
+    # Added-value components count in the per-post + component views but NOT
+    # toward the campaign goal. Compute goal-delivered totals that exclude them
+    # so the card headline tracks only goal-bearing delivery (e.g. Morgan &
+    # Morgan: only "The Case Study (Redo)" counts against the 1.5M, not the
+    # added-value Dan Morgan run). Falls back to the full totals when no
+    # added-value keywords are configured.
+    _av = [k.strip().lower() for k in (config.added_value_match or []) if k.strip()]
+    _av_groups = {str(g) for g in (config.added_value_groups or [])}
+    def _is_added_value(p) -> bool:
+        # Group membership is the precise signal (Morgan & Morgan's Dan Morgan
+        # group 7176). Keyword fallback for keyword-defined added-value parts.
+        if _av_groups and getattr(p, "post_groups", None):
+            if any(str(g) in _av_groups for g in p.post_groups):
+                return True
+        if not _av:
+            return False
+        # Match the same fields episode attribution uses (title + description),
+        # since social posts often carry the identifying text in the
+        # description, not the title. Plus native id for id-based pins.
+        text = " ".join(filter(None, [
+            getattr(p, "post_title", None),
+            getattr(p, "post_description", None),
+            getattr(p, "post_id_native", None),
+        ])).lower()
+        return any(k in text for k in _av)
+    goal_impressions = sum(_pick_impressions(p) or 0 for p in posts if not _is_added_value(p))
+    goal_spend = sum((p.ad_spend or 0) for p in posts if not _is_added_value(p))
     # ER: total eng ÷ total impressions across all posts, EXCLUDING YT Pre-roll
     # (its eng/impr is a watch-progress metric, not social engagement — see
     # `_is_yt_preroll_post`). Pre-roll's impr and eng are still in the headline
@@ -269,7 +309,7 @@ def rollup_campaign(
             # it "Goal Missed".
             status_kind, status_label = "tbd", "Added Value"
         else:
-            impressions_pct = total_impressions / config.impression_goal * 100
+            impressions_pct = goal_impressions / config.impression_goal * 100
             status_kind, status_label = _status(elapsed_pct, impressions_pct)
 
     by_platform = _group_impressions_by_platform(posts)
@@ -311,8 +351,8 @@ def rollup_campaign(
         days_left=days_left,
         status=status_label,
         status_kind=status_kind,
-        impressions=Goal(delivered=total_impressions, goal=config.impression_goal),
-        budget=Goal(delivered=round(total_spend, 2), goal=config.budget_goal),
+        impressions=Goal(delivered=goal_impressions, goal=config.impression_goal),
+        budget=Goal(delivered=round(goal_spend, 2), goal=config.budget_goal),
         color=config.color,
         lead_format=config.lead_format,
         top_channel=PLATFORM_DISPLAY.get(top_channel, top_channel.title()),

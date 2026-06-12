@@ -402,6 +402,23 @@ def main() -> int:
             paid_only=bool(c.get("paid_only", False)),
             paid_only_post_ids=[str(x) for x in (c.get("paid_only_post_ids") or [])],
             flight_tbd=bool(c.get("flight_tbd", False)),
+            # Match keywords of any component flagged `added_value: true` —
+            # excluded from the campaign's goal-delivered totals (still shown
+            # in the component cards + per-post table).
+            # Group-defined added-value components contribute their group IDs
+            # (precise); keyword-defined ones contribute their match keywords.
+            added_value_match=[
+                kw
+                for ep in (c.get("episodes") or [])
+                if ep.get("added_value") and not ep.get("group_ids")
+                for kw in (ep.get("match") or [])
+            ],
+            added_value_groups=[
+                int(g)
+                for ep in (c.get("episodes") or [])
+                if ep.get("added_value")
+                for g in (ep.get("group_ids") or [])
+            ],
         )
         posts = posts_by_campaign.get(cc.id, [])
         if posts:
@@ -455,6 +472,7 @@ def main() -> int:
                 id=e["id"], n=e["n"], title=e["title"], date=e.get("date", ""),
                 match=e.get("match", []), exclude=e.get("exclude", []),
                 all_match=e.get("all_match", False),
+                group_ids=[int(g) for g in (e.get("group_ids") or [])],
                 impression_goal=e.get("impression_goal"),
                 budget_goal=e.get("budget_goal"),
                 manual_posts=[str(p) for p in (e.get("manual_posts") or [])],
