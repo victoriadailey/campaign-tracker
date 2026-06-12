@@ -66,6 +66,12 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
             errors=["Could not parse Meta Ads export — file empty or unreadable."],
         )
 
+    # Ad-level exports name their row column "Ad name" instead of
+    # "Campaign name" (e.g. Sport Clips Off the Pitch). Same shape otherwise —
+    # normalize the column so both export levels parse.
+    if "Campaign name" not in df.columns and "Ad name" in df.columns:
+        df = df.rename(columns={"Ad name": "Campaign name"})
+
     missing = REQUIRED_COLS - set(df.columns)
     if missing:
         return ParseResult(

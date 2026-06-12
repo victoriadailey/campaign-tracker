@@ -372,7 +372,11 @@ campaigns:
     youtube_paid_shorts:
       - "NASCAR"
     sources:
-      measure_studio_group_id: 7172         # Spectrum
+      # Spectrum was restructured into three MS post groups (June '26):
+      measure_studio_group_ids:
+        - 7172                              # Spectrum x NASCAR - DITL
+        - 7722                              # Spectrum x NASCAR - Small Business Highlight
+        - 7723                              # Spectrum x NASCAR - Small business (dark) cutdowns
       youtube_paid:                         # supplements MS's YT in-feed gap
         - spectrum_yt_paid.csv
       x_ads:                                # paid X (Spectrum: NASCAR - Small Biz)
@@ -489,6 +493,63 @@ campaigns:
         exclude: []
         impression_goal: 1_500_000
         budget_goal: 5_000
+
+  - id: sportclips
+    partner: Sport Clips
+    series: "MLB Minute + Off the Pitch"
+    series_italic: "Off the Pitch"
+    type: social    # two components compared side-by-side
+    benchmark_category: "Custom Social"
+    lifecycle: active
+    # Headline flight + goals = the current Off the Pitch run (June). The
+    # MLB Minute component is a wrapped earlier flight with its own goal,
+    # excluded from the headline goal-delivered totals (added_value).
+    flight_start: 2026-06-11
+    flight_end: 2026-06-28
+    impression_goal: 1_650_000
+    budget_goal: 3_900
+    color: ft-2
+    lead_format: Made for Social
+    paid_only: true   # all dark, fully paid — no organic posts
+    blurb: "Sport Clips dark-social program in two components: MLB Minute (Mar 23 – Apr 21, wrapped — 1.1M goal exceeded) and Off the Pitch (Jun 11–28, live) with Baker Machado breaking down World Cup stories."
+    sources:
+      measure_studio_group_id: 7729         # Sport Clips - Off the Pitch (dark posts)
+      youtube_paid:
+        - sportclips_yt_paid.csv
+      x_ads:
+        - sportclips_x_ads.csv
+      meta_ads:
+        - sportclips_meta_ads.csv
+      # MLB Minute actuals — per-platform totals from the 4/21 wrap report
+      # (docs/reference/Sport_Clips_MLBMinute_Report4.21.xlsx). No exports
+      # exist for this flight; numbers are final.
+      manual_rows:
+        - { title: "MLB Minute Video 1 — Instagram",  platform: instagram, impressions: 80633,   views: 77023, clicks: 35,   spend: 239.17 }
+        - { title: "MLB Minute Video 1 — YouTube Shorts", platform: youtube, impressions: 36903, views: 525,   clicks: 0,    spend: 108.97 }
+        - { title: "MLB Minute Video 1 — TikTok",     platform: tiktok,    impressions: 98849,   views: 97360, clicks: 90,   spend: 260.93 }
+        - { title: "MLB Minute Video 1 — X",          platform: x,         impressions: 1479849,               clicks: 1048, spend: 518.75 }
+        - { title: "MLB Minute Video 2 — Instagram",  platform: instagram, impressions: 38711,   views: 796,   clicks: 93,   spend: 110.78 }
+        - { title: "MLB Minute Video 2 — YouTube Shorts", platform: youtube, impressions: 20325, views: 343,   clicks: 0,    spend: 60.28 }
+        - { title: "MLB Minute Video 2 — TikTok",     platform: tiktok,    impressions: 31500,   views: 31112, clicks: 45,   spend: 70.80 }
+    episodes:
+      - id: mlb_minute
+        n: "Part 01"
+        title: "MLB Minute"
+        date: "Mar–Apr 2026"
+        match: ["MLB Minute"]
+        exclude: []
+        impression_goal: 1_100_000    # exceeded: 1,786,770 delivered (154%)
+        budget_goal: 2_500            # per the 4/21 wrap report
+        added_value: true             # wrapped flight — not counted toward the June headline goal
+      - id: off_the_pitch
+        n: "Part 02"
+        title: "Off the Pitch"
+        date: "Jun 2026"
+        group_ids: [7729]             # MS post group — definitive component split
+        match: ["Off the Pitch"]      # fallback for ad rows (GAds / X / Meta)
+        exclude: []
+        impression_goal: 1_650_000
+        budget_goal: 3_900
 
   - id: onlocation
     partner: On Location
@@ -651,6 +712,11 @@ campaigns:
     type: social
     benchmark_category: "Original Content"
     lifecycle: active
+    # Every RBC GAds campaign is a YouTube Short, but exports keep dropping the
+    # "(shorts)" suffix on some rows (Cabana, ChrisPaul in the 6/12 pull).
+    # Match the prefix so classification never depends on the suffix.
+    youtube_paid_shorts:
+      - "RBC_TST"
     # YT merge: RBC's GAds names ("RBC_TST_Social1_ChrisPaul", "RBC_TST_Cabana",
     # "RBC_TST_Panel Content1") and MS post titles ("When it comes to legacy
     # planning…", "Evelyn Shores went from scoring…", "TST brought that joy…")

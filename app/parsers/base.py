@@ -22,6 +22,7 @@ class Source(str, Enum):
     TIKTOK_ADS = "tiktok_ads"
     X_ADS = "x_ads"
     LINKEDIN_ADS = "linkedin_ads"           # paid LinkedIn (Campaign Manager export)
+    MANUAL = "manual"                       # operator-entered rows from config (sources.manual_rows)
     NATIVE_LINKEDIN = "native_linkedin"
     NATIVE_INSTAGRAM = "native_instagram"
     NATIVE_FACEBOOK = "native_facebook"

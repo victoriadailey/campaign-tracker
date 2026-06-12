@@ -221,6 +221,45 @@ def main() -> int:
                 continue
             posts_by_campaign[c_id].extend(result.rows)
 
+        # ---------- Manual rows (operator-entered performance) ----------
+        # For components whose actuals live in a wrap report rather than an
+        # export (e.g. Sport Clips MLB Minute — per-platform totals from the
+        # 4/21 report). Each YAML row becomes a dark/paid NormalizedPost:
+        #   - title: "MLB Minute Video 1 — Instagram"
+        #     platform: instagram          # Platform enum value
+        #     format: reels_shorts         # PostFormat value (default reels_shorts)
+        #     impressions: 80633
+        #     views: 77023                 # optional
+        #     clicks: 35                   # optional
+        #     spend: 239.17                # optional
+        for row in c.get("sources", {}).get("manual_rows", []) or []:
+            from app.parsers.base import Boosting as _MB, PostFormat as _MPF
+            _impr = int(row.get("impressions") or 0)
+            _spend = float(row.get("spend") or 0)
+            _views = row.get("views")
+            _clicks = row.get("clicks")
+            _plat = {p.value: p for p in Platform}.get(
+                str(row.get("platform", "")).strip().lower(), Platform.UNKNOWN)
+            _fmt = {f.value: f for f in _MPF}.get(
+                str(row.get("format", "reels_shorts")).strip().lower(), _MPF.OTHER)
+            posts_by_campaign[c_id].append(NormalizedPost(
+                source=Source.MANUAL,
+                platform=_plat,
+                post_id_native=f"manual:{c_id}:{row.get('title', '')}",
+                post_title=str(row.get("title") or ""),
+                post_format=_fmt,
+                boosting=_MB.DARK,
+                impressions_total=_impr or None,
+                impressions_paid=_impr or None,
+                views_total=int(_views) if _views is not None else None,
+                views_paid=int(_views) if _views is not None else None,
+                clicks_paid=int(_clicks) if _clicks is not None else None,
+                ad_spend=_spend or None,
+                cpm=(_spend / _impr * 1000) if _impr and _spend else None,
+                ctr=(int(_clicks) / _impr) if _impr and _clicks is not None else None,
+                raw=dict(row),
+            ))
+
         for tt_file in c.get("sources", {}).get("tiktok_ads", []) or []:
             path = exports_root / tt_file
             if not path.exists():
@@ -827,6 +866,10 @@ def main() -> int:
                 id=e["id"], n=e["n"], title=e["title"], date=e.get("date", ""),
                 match=e.get("match", []), exclude=e.get("exclude", []),
                 all_match=e.get("all_match", False),
+                # Keep group-based attribution in sync with the real episode
+                # build — without this, group-attributed posts false-flag as
+                # unattributed (e.g. Sport Clips' no-text TikTok dark posts).
+                group_ids=[int(g) for g in (e.get("group_ids") or [])],
                 manual_posts=[str(x) for x in (e.get("manual_posts") or [])],
             )
             for e in c["episodes"]
