@@ -384,35 +384,53 @@ campaigns:
       # CSV fallback only if the API call fails:
       # measure_studio: [spectrum_ms.csv]
     episodes:
-      - id: nascar
+      # Five components mirroring the MS post-group restructure (June '26).
+      # NASCAR components attribute by group (definitive); keywords are the
+      # fallback for any unmerged ad rows. World Cup components are defined
+      # ahead of launch — they render once posts exist.
+      - id: nascar_ditl
         n: "Part 01"
-        title: "NASCAR — Texas Motor Speedway"
+        title: "NASCAR — Day in the Life"
         date: "May 2026"
-        # Match keywords cover both the on-track NASCAR content and the
-        # small-business spotlights featured alongside it. "Vintage Flying
-        # Museum" + "hangar" + "race track" + "Fueling Dreams" catch the
-        # 5/25 spotlight cross-posts about the Museum that don't mention
-        # NASCAR directly.
-        match: [
-          "NASCAR", "Texas Motor", "Speedway", "pit road", "garage",
-          "Vintage Flying Museum", "hangar", "race track", "Fueling Dreams",
-        ]
-        # The MS LinkedIn Branded Article post happens to start with "biggest
-        # sports weekends..." and mentions racing — exclude its specific
-        # platform_id from NASCAR so it doesn't double-claim with the new
-        # branded_article bucket. (Exclude works on text — also catch its
-        # opening line just in case.)
-        exclude: ["biggest sports weekends"]
-        impression_goal: 5_750_000
-        budget_goal: 17_525
-      - id: worldcup
+        group_ids: [7172]               # Spectrum x NASCAR - DITL
+        match: ["DITL", "garage", "pit road"]
+        exclude: []
+        impression_goal: 1_250_000
+        budget_goal: 5_400
+      - id: nascar_smb_highlight
         n: "Part 02"
-        title: "World Cup"
+        title: "NASCAR — Small Business Highlight"
+        date: "May 2026"
+        group_ids: [7722]               # Spectrum x NASCAR - Small Business Highlight
+        match: ["Small Biz", "hangar to the race track"]
+        exclude: []
+        impression_goal: 4_000_000
+        budget_goal: 10_125
+      - id: nascar_smb_cutdowns
+        n: "Part 03"
+        title: "NASCAR — Small Business Cutdowns"
+        date: "May 2026"
+        group_ids: [7723]               # Spectrum x NASCAR - Small business (dark) cutdowns
+        match: ["Vintage Flying Museum", "hangar to race day"]
+        exclude: []
+        impression_goal: 500_000
+        budget_goal: 2_000
+      - id: wc_smb_highlight
+        n: "Part 04"
+        title: "World Cup — Small Business Highlight"
         date: "Pending"
         match: ["World Cup"]
         exclude: []
-        impression_goal: 4_500_000
-        budget_goal: 12_125
+        impression_goal: 4_000_000
+        budget_goal: 10_125
+      - id: wc_smb_cutdowns
+        n: "Part 05"
+        title: "World Cup — Small Business Cutdowns"
+        date: "Pending"
+        match: ["World Cup Cutdown"]    # placeholder — point at the MS group when it exists
+        exclude: []
+        impression_goal: 500_000
+        budget_goal: 2_000
 
   # ============== BrandX campaigns (paid-social performance) ==============
   # BrandX = paid-only, dark social campaigns optimized for clicks +
