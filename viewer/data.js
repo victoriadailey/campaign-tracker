@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-13T17:12:29Z";
+window.LAST_REFRESHED = "2026-06-13T19:09:39Z";
 
 
 
@@ -386,7 +386,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 24254621,
+      "delivered": 24265694,
       "goal": 41700000
     },
     "budget": {
@@ -473,17 +473,17 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1529914,
+        "impressions": 1540987,
         "eng": 277313,
-        "er": 18.13,
-        "cpm": 2.94,
+        "er": 18.0,
+        "cpm": 2.91,
         "color": "#FF0033",
-        "delta": -9.4,
+        "delta": -10.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 67958,
+        "organicImpressions": 66974,
         "views": 1398926
       },
       {
@@ -2384,7 +2384,7 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 25995506,
+    "impressions": 26006579,
     "eng": 785657,
     "er": 3.02,
     "cpm": 1.18,
@@ -9409,7 +9409,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Landon Donovan on Soccer in America",
       "date": "Jun 5",
       "total": {
-        "impr": 1992731,
+        "impr": 2003804,
         "views": 388345,
         "er": 0.99,
         "eng": 49063,
@@ -9464,15 +9464,15 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 72076,
-          "paidImpr": 68079,
-          "orgImpr": 6869,
+          "impr": 83149,
+          "paidImpr": 80136,
+          "orgImpr": 7118,
           "views": 72185,
           "eng": 3687,
-          "paidEng": 3650,
-          "orgEng": 37,
-          "er": 5.12,
-          "cpm": 2.19,
+          "paidEng": 4175,
+          "orgEng": 23,
+          "er": 4.43,
+          "cpm": 1.86,
           "spend": 149.36,
           "posts": 3
         },
@@ -9812,13 +9812,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "Landon Donovan explains what sports ownership groups are missing",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 984,
-          "paidImpr": 0,
-          "orgImpr": 984,
+          "distKind": "organic+boosted",
+          "impr": 12057,
+          "paidImpr": 12057,
+          "orgImpr": 0,
           "views": 1233,
           "eng": 14,
-          "er": 1.42,
+          "er": 0.12,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/iy5DuxneGJE",
           "postedAt": "2026-06-10T17:00:13-07:00"
@@ -14800,11 +14800,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.61,
-    "impressions": 7867549,
-    "paidImpressions": 7778892,
+    "impressions": 7878622,
+    "paidImpressions": 7790949,
     "pctOfTotal": 12.6,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -18.3,
+    "mvmDeltaPct": -18.5,
     "color": "#FF0033"
   },
   {
