@@ -394,7 +394,7 @@ campaigns:
         date: "May 2026"
         group_ids: [7172]               # Spectrum x NASCAR - DITL
         match: ["DITL", "garage", "pit road"]
-        exclude: []
+        exclude: ["World Cup"]           # keep World Cup ad rows out of NASCAR
         impression_goal: 1_250_000
         budget_goal: 5_400
       - id: nascar_smb_highlight
@@ -403,7 +403,7 @@ campaigns:
         date: "May 2026"
         group_ids: [7722]               # Spectrum x NASCAR - Small Business Highlight
         match: ["Small Biz", "hangar to the race track"]
-        exclude: []
+        exclude: ["World Cup"]           # "Small Biz" also appears in the WC rows
         impression_goal: 4_000_000
         budget_goal: 10_125
       - id: nascar_smb_cutdowns
@@ -412,7 +412,7 @@ campaigns:
         date: "May 2026"
         group_ids: [7723]               # Spectrum x NASCAR - Small business (dark) cutdowns
         match: ["Vintage Flying Museum", "hangar to race day"]
-        exclude: []
+        exclude: ["World Cup"]
         impression_goal: 500_000
         budget_goal: 2_000
       - id: wc_smb_highlight
@@ -491,6 +491,8 @@ campaigns:
         - 7711                              # The Case Study (redo) — Fernando Tatis Jr.
       youtube_paid:                         # Google Ads "Video 1" promo (group 7176)
         - morgan_morgan_yt_paid.csv
+      x_ads:                                # paid X — Tatis Static (Case Study Redo)
+        - morgan_morgan_x_ads.csv
     episodes:
       - id: mm_original
         n: "Part 01"
@@ -829,3 +831,29 @@ campaigns:
       measure_studio_group_id: 7515         # Thrivent
       x_ads:
         - thrivent_x_ads.csv
+
+  - id: betmgm
+    partner: BetMGM
+    series: World Cup
+    series_italic: World Cup
+    type: social
+    benchmark_category: "Custom Social"
+    lifecycle: active
+    # Flight not yet set — like Thrivent, status comes from impression-goal
+    # pace once the timeline is known. flight_tbd surfaces "Flight TBD".
+    flight_tbd: true
+    flight_start: 2026-06-12      # first post launched (Native Social 1)
+    flight_end: 2026-08-31        # placeholder until flight is confirmed
+    impression_goal: 1_800_000
+    budget_goal: 2_500
+    color: ft-6
+    lead_format: Made for Social
+    paid_only: true   # dark social — all paid, no organic posts
+    blurb: "BetMGM World Cup dark-social program — three native social posts running paid on Instagram and X. 1 of 3 live (Native Social 1)."
+    # These dark posts do NOT appear in Measure Studio, so there's no MS post
+    # group — performance comes solely from the ad-platform exports below.
+    sources:
+      meta_ads:
+        - betmgm_meta_ads.csv     # Instagram (Native Social 1)
+      x_ads:
+        - betmgm_x_ads.csv        # X (Native Social 1 v3)
