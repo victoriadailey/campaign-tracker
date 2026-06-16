@@ -378,6 +378,11 @@ campaigns:
         - 7722                              # Spectrum x NASCAR - Small Business Highlight
         - 7723                              # Spectrum x NASCAR - Small business (dark) cutdowns
         - 7759                              # Spectrum x World Cup - Small Business Highlight
+      meta_ads:
+        # World Cup dark cutdown only. The NASCAR dark cutdowns are already in
+        # MS group 7723 (spend matches to the cent) — including them here would
+        # double-count, so they're deliberately excluded from this fixture.
+        - spectrum_meta_ads.csv
       youtube_paid:                         # supplements MS's YT in-feed gap
         - spectrum_yt_paid.csv
       x_ads:                                # paid X (Spectrum: NASCAR - Small Biz)
@@ -404,7 +409,9 @@ campaigns:
         date: "May 2026"
         group_ids: [7722]               # Spectrum x NASCAR - Small Business Highlight
         match: ["Small Biz", "hangar to the race track"]
-        exclude: ["World Cup"]           # "Small Biz" also appears in the WC rows
+        # "Small Biz" also appears in the World Cup rows ("World Cup" with a
+        # space, "WorldCup" without — the Meta cutdown uses the latter).
+        exclude: ["World Cup", "WorldCup"]
         impression_goal: 4_000_000
         budget_goal: 10_125
       - id: nascar_smb_cutdowns
@@ -428,8 +435,10 @@ campaigns:
       - id: wc_smb_cutdowns
         n: "Part 05"
         title: "World Cup — Small Business Cutdowns"
-        date: "Pending"
-        match: ["World Cup Cutdown"]    # placeholder — point at the MS group when it exists
+        date: "Jun 2026"
+        # Meta dark cutdown campaign name: "Spectrum_WorldCup_Small Biz Cutdown1".
+        # No MS group yet — attributes by name. Add group_ids when one exists.
+        match: ["WorldCup_Small Biz Cutdown", "World Cup Cutdown"]
         exclude: []
         impression_goal: 500_000
         budget_goal: 2_000
