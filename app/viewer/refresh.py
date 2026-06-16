@@ -1032,6 +1032,31 @@ def _merge_x_ads_spend_into_ms(
     drop_ids: set[int] = set()
     matched_ms_ids: set[int] = set()
 
+    # Pre-aggregate X Ads rows that share the SAME tweet URL. Some exports emit
+    # one row per ad flight even when several flights boost the same organic
+    # tweet (e.g. PFP Donovan Cutdown1 + Cutdown2 both point at tweet …506).
+    # Folding is single-shot per MS post, so without this only the first flight
+    # merges and the rest are orphaned (their paid impressions + spend vanish).
+    # Sum the duplicates into the first row; mark the others for removal.
+    def _tweet_id(p):
+        return (p.raw or {}).get("_tweet_id") if isinstance(p.raw, dict) else None
+
+    _by_tweet: dict[str, list] = {}
+    for xa in x_ads:
+        tid = _tweet_id(xa)
+        if tid:
+            _by_tweet.setdefault(str(tid), []).append(xa)
+    for tid, group in _by_tweet.items():
+        if len(group) < 2:
+            continue
+        base = group[0]
+        for dup in group[1:]:
+            for attr in ("impressions_paid", "impressions_total",
+                         "engagements_paid", "engagements_total", "ad_spend"):
+                if getattr(dup, attr) is not None:
+                    setattr(base, attr, (getattr(base, attr) or 0) + getattr(dup, attr))
+            drop_ids.add(id(dup))   # remove the now-folded duplicate from output
+
     def _fold_x_ads_into_ms(t, xa) -> None:
         """Merge an X Ads campaign row's delivery numbers into MS post `t`.
 
@@ -1106,6 +1131,8 @@ def _merge_x_ads_spend_into_ms(
     # directly to the MS post with that same post_id_native (tweet ID).
     # No guessing, no manual YAML pairings needed.
     for xa in x_ads:
+        if id(xa) in drop_ids:          # skip duplicates already folded above
+            continue
         tweet_id = (xa.raw or {}).get("_tweet_id") if isinstance(xa.raw, dict) else None
         if not tweet_id:
             continue

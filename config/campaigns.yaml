@@ -377,6 +377,7 @@ campaigns:
         - 7172                              # Spectrum x NASCAR - DITL
         - 7722                              # Spectrum x NASCAR - Small Business Highlight
         - 7723                              # Spectrum x NASCAR - Small business (dark) cutdowns
+        - 7759                              # Spectrum x World Cup - Small Business Highlight
       youtube_paid:                         # supplements MS's YT in-feed gap
         - spectrum_yt_paid.csv
       x_ads:                                # paid X (Spectrum: NASCAR - Small Biz)
@@ -418,8 +419,9 @@ campaigns:
       - id: wc_smb_highlight
         n: "Part 04"
         title: "World Cup — Small Business Highlight"
-        date: "Pending"
-        match: ["World Cup"]
+        date: "Jun 2026"
+        group_ids: [7759]               # Spectrum x World Cup - Small Business Highlight
+        match: ["World Cup"]            # fallback for groupless ad rows
         exclude: []
         impression_goal: 4_000_000
         budget_goal: 10_125
