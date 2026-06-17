@@ -66,11 +66,14 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
             errors=["Could not parse Meta Ads export — file empty or unreadable."],
         )
 
-    # Ad-level exports name their row column "Ad name" instead of
-    # "Campaign name" (e.g. Sport Clips Off the Pitch). Same shape otherwise —
-    # normalize the column so both export levels parse.
-    if "Campaign name" not in df.columns and "Ad name" in df.columns:
-        df = df.rename(columns={"Ad name": "Campaign name"})
+    # Different export levels name the row column differently: ad-level uses
+    # "Ad name" (e.g. Sport Clips Off the Pitch), platform-broken-out ad-set
+    # exports use "Ad set name". Normalize any of them to "Campaign name".
+    if "Campaign name" not in df.columns:
+        for _alt in ("Ad name", "Ad set name"):
+            if _alt in df.columns:
+                df = df.rename(columns={_alt: "Campaign name"})
+                break
 
     missing = REQUIRED_COLS - set(df.columns)
     if missing:
@@ -104,7 +107,19 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
         if not impressions and not spend:
             continue
 
-        platform = _detect_platform(campaign_name)
+        # Platform-broken-out exports carry an explicit "Platform" column
+        # (Facebook / Instagram) — one row per platform per ad set. Prefer it
+        # over guessing from the name suffix.
+        plat_col = str(raw.get("Platform") or "").strip().lower()
+        if plat_col == "facebook":
+            platform = Platform.FACEBOOK
+        elif plat_col == "instagram":
+            platform = Platform.INSTAGRAM
+        else:
+            platform = _detect_platform(campaign_name)
+        # With a platform split, two rows share the same ad-set name — make
+        # the native id unique per platform so they stay distinct posts.
+        post_id = f"{campaign_name} ({platform.value})" if plat_col else campaign_name
 
         er = None
         if engagements is not None and impressions:
@@ -113,7 +128,7 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
         post = NormalizedPost(
             source=Source.META_ADS,
             platform=platform,
-            post_id_native=campaign_name,
+            post_id_native=post_id,
             post_title=campaign_name,
             post_format=_detect_format(campaign_name),
             boosting=Boosting.DARK,  # Meta Ads = dark/paid by definition
