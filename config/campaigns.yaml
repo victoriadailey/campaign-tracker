@@ -29,7 +29,7 @@ campaigns:
     series_italic: Sports
     type: content
     benchmark_category: "Original Content"
-    lifecycle: active
+    lifecycle: wrapped     # was: active — wrapped 2026-06-18
     # ADP's GAds + X Ads campaigns are named by episode number, not guest.
     # When the auto-matcher can't pair by guest + paid_impr, fall back to
     # pairing MS↔ads rows by sorted-impression rank within each subtype.
@@ -310,6 +310,12 @@ campaigns:
         date: "Jun 16"
         match: ["PP Episode 11 -", "Midge Purce", "@midgepurce"]
         exclude: []
+        # LinkedIn cutdowns whose copy quotes Midge ("I was envious…", "To give
+        # publications like ESPN…") without naming her, so the keyword matcher
+        # misses them (the X/IG/TikTok versions match fine). Pin by native ID.
+        manual_posts:
+          - "urn:li:ugcPost:7472761999580463104"   # LI "I was envious… in my sport…"
+          - "urn:li:ugcPost:7473079538042826752"   # LI "To give publications like ESPN…"
       - id: ep12
         n: "Ep. 12"
         title: "Josh Childress"
@@ -485,6 +491,12 @@ campaigns:
     flight_end: 2026-07-30
     impression_goal: 1_500_000    # campaign total — carried by the Redo component
     budget_goal: 5_000
+    # The Dan Morgan / Audi Crooks run is "added value" — its IMPRESSIONS stay
+    # out of the goal-delivered total (only the Case Study / Tatis run counts
+    # toward the 1.5M). But we still spent real money boosting those posts, so
+    # that spend DOES count against the $5K budget. This flag keeps impressions
+    # goal-only while rolling ALL spend (incl. added value) into budget delivered.
+    budget_includes_added_value: true
     color: ft-5
     lead_format: Made for Social
     blurb: "Morgan & Morgan Case Study, split into two components in one campaign: the original Dan Morgan run (added value, no goal) and The Case Study (Redo) with Fernando Tatis Jr. carrying the goals."
@@ -539,7 +551,7 @@ campaigns:
     flight_end: 2026-06-28
     impression_goal: 1_650_000
     budget_goal: 3_900
-    color: ft-2
+    color: ft-7        # sunflower — distinct from Spectrum's coral
     lead_format: Made for Social
     paid_only: true   # all dark, fully paid — no organic posts
     blurb: "Sport Clips dark-social program in two components: MLB Minute (Mar 23 – Apr 21, wrapped — 1.1M goal exceeded) and Off the Pitch (Jun 11–28, live) with Baker Machado breaking down World Cup stories."
@@ -603,7 +615,7 @@ campaigns:
     # post series.
     type: content
     benchmark_category: "Original Content"
-    lifecycle: active
+    lifecycle: wrapped     # was: active — wrapped 2026-06-18
     # YT merge: GAds row "On Location FOS Explains: Cutdown 3" doesn't pair
     # via guest-matching because its `_gads_guest` resolves to "" (after the
     # ":" the only remaining segment is "Cutdown 3", which strips to empty).
@@ -660,7 +672,7 @@ campaigns:
     flight_end: 2026-05-15
     impression_goal: 14_000_000
     budget_goal: 31_375
-    color: ft-4
+    color: ft-11       # fern
     lead_format: Made for Social
     blurb: "3 social components, 38 posts live across IG, FB, X, LinkedIn & YouTube Shorts. Delivered 103.6% of impression goal on 98.8% of budget."
     sources:
@@ -776,7 +788,7 @@ campaigns:
     impression_goal: 12_000_000
     # Total campaign budget confirmed by client.
     budget_goal: 30_000
-    color: ft-1
+    color: ft-10       # denim — RBC blue
     lead_format: Mixed
     blurb: "RBC x TST — multi-component campaign: Heather O'Reilly longform + 2 cutdowns, DITL / Cabana series, and Panel / event coverage (Chris Paul + Panel Content)."
     episodes:
@@ -823,7 +835,7 @@ campaigns:
     series_italic: "AFHU"
     type: social    # placeholder — refine to content/brandx once scope is clearer
     benchmark_category: "Custom Social"
-    lifecycle: active
+    lifecycle: wrapped     # was: active — wrapped 2026-06-18
     # Net-new campaign — flight dates still pending client confirmation, but
     # goals are now set: 900K impressions / $1K spend. The `flight_tbd: true`
     # flag keeps the flight label rendering as "TBD" and suppresses elapsed-
@@ -835,7 +847,7 @@ campaigns:
     flight_end: 2026-08-31
     impression_goal: 900_000
     budget_goal: 1_000
-    color: ft-5
+    color: ft-9        # orchid
     lead_format: Made for Social
     blurb: "Thrivent x AFHU — net-new campaign. 900K impression goal · $1K budget. Flight dates TBD."
     sources:
@@ -857,7 +869,7 @@ campaigns:
     flight_end: 2026-08-31        # placeholder until flight is confirmed
     impression_goal: 1_800_000
     budget_goal: 2_500
-    color: ft-6
+    color: ft-8        # aqua
     lead_format: Made for Social
     paid_only: true   # dark social — all paid, no organic posts
     blurb: "BetMGM World Cup dark-social program — three native social posts running paid on Instagram and X. 1 of 3 live (Native Social 1)."

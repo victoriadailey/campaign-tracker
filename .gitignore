@@ -32,3 +32,7 @@ gcp-key*.json
 data/
 *.csv
 !tests/fixtures/*.csv
+# The social benchmarks table drives the Benchmarks page and must travel with
+# the repo so the CI refresh (and a fresh clone) can render it. Internal data,
+# same sensitivity as config/campaigns.yaml — keep the repo private.
+!config/social_benchmarks.csv

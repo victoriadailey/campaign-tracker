@@ -146,6 +146,12 @@ class CampaignConfig:
     # goal-delivered totals. Preferred over `added_value_match` since it can't
     # over-match on shared boilerplate text.
     added_value_groups: list[int] = field(default_factory=list)
+    # When True, added-value components stay EXCLUDED from goal-delivered
+    # impressions, but their spend IS rolled into the campaign's budget
+    # delivered (we paid to boost them, so it counts against the budget cap).
+    # Morgan & Morgan: the Dan Morgan / Audi Crooks run is added value on
+    # impressions but its boost spend still draws down the $5K budget.
+    budget_includes_added_value: bool = False
 
 
 _BRANDX_OBJECTIVE_SYNONYMS = {
@@ -277,7 +283,14 @@ def rollup_campaign(
         ])).lower()
         return any(k in text for k in _av)
     goal_impressions = sum(_pick_impressions(p) or 0 for p in posts if not _is_added_value(p))
-    goal_spend = sum((p.ad_spend or 0) for p in posts if not _is_added_value(p))
+    # Budget delivered normally excludes added-value spend, but when
+    # `budget_includes_added_value` is set we count ALL spend against the
+    # budget (we paid to boost the added-value posts) while keeping
+    # impressions goal-only. See Morgan & Morgan.
+    if config.budget_includes_added_value:
+        goal_spend = sum((p.ad_spend or 0) for p in posts)
+    else:
+        goal_spend = sum((p.ad_spend or 0) for p in posts if not _is_added_value(p))
     # ER: total eng ÷ total impressions across all posts, EXCLUDING YT Pre-roll
     # (its eng/impr is a watch-progress metric, not social engagement — see
     # `_is_yt_preroll_post`). Pre-roll's impr and eng are still in the headline
@@ -801,6 +814,39 @@ def compute_campaign_callouts(
                 "meta": f"{summary.partner} · {obj.name}",  # type: ignore[union-attr]
             })
 
+    # ---------- WIN (milestone): goal hit with budget still in hand ----------
+    # Hitting the impression goal while a meaningful chunk of budget is unspent
+    # is a genuine win — those savings can be redeployed or banked. Fires the
+    # moment delivery crosses the goal (no need to wait for flight end) as long
+    # as there's real budget left over. Flagged `milestone` so the portfolio
+    # aggregator always surfaces it (it has no "N× benchmark" score to rank on).
+    if summary.impressions.goal > 0 and summary.budget.goal > 0:
+        _impr_pct = summary.impressions.delivered / summary.impressions.goal * 100
+        _budget_left = summary.budget.goal - summary.budget.delivered
+        _budget_left_pct = _budget_left / summary.budget.goal * 100
+        if _impr_pct >= 100 and _budget_left > 1_000 and _budget_left_pct >= 15:
+            _over = _impr_pct - 100
+            _over_phrase = (
+                f"{_impr_pct:.0f}% of the {_short(summary.impressions.goal)} impression goal"
+                if _over >= 1 else f"the {_short(summary.impressions.goal)} impression goal"
+            )
+            callouts.append({
+                "tag": "WIN",
+                "kind": "pos",
+                "milestone": True,
+                "headline": (
+                    f"Goal hit with ${_short(_budget_left)} ({_budget_left_pct:.0f}%) "
+                    f"of budget still unspent."
+                ),
+                "body": (
+                    f"Delivered {_over_phrase} on only {100 - _budget_left_pct:.0f}% of the "
+                    f"${_short(summary.budget.goal)} budget — ${_short(_budget_left)} in savings "
+                    f"that can shift to other components of the campaign or be banked. "
+                    f"Strong efficiency win; call it out in the partner update."
+                ),
+                "meta": f"{summary.partner} · Goal hit",
+            })
+
     # ---------- OPPORTUNITY: audience-resonance signal (high % organic on volume) ----------
     # The algorithm is rewarding this content — high organic delivery on real
     # volume means the platform's recommendation surface is picking it up
@@ -912,7 +958,7 @@ def compute_campaign_callouts(
     # is reached to bank the surplus instead of overspending into surplus.
     elif (
         summary.elapsed_pct >= 75
-        and impr_pct >= 85
+        and 85 <= impr_pct < 100         # approaching goal but not yet hit
         and budget_pct + 10 < impr_pct   # at least 10 pp gap between impressions% and budget%
         and (summary.budget.goal - summary.budget.delivered) > 500  # > $500 leftover to be worth flagging
     ):
@@ -1240,8 +1286,13 @@ def aggregate_portfolio_signals(campaigns: list[CampaignSummary]) -> list[dict]:
         return float(m_cpm.group(1)) if m_cpm else 0.0
 
     out: list[dict] = []
-    if pool["WIN"]:
-        out.append(max(pool["WIN"], key=_win_score))
+    # Milestone WINs (e.g. goal hit with budget banked) always surface — they
+    # have no "N× benchmark" score to compete on but are high-value news.
+    milestone_wins = [co for co in pool["WIN"] if co.get("milestone")]
+    benchmark_wins = [co for co in pool["WIN"] if not co.get("milestone")]
+    out.extend(milestone_wins)
+    if benchmark_wins:
+        out.append(max(benchmark_wins, key=_win_score))
     if pool["OPPORTUNITY"]:
         out.append(max(pool["OPPORTUNITY"], key=_opp_score))
 
@@ -1381,12 +1432,19 @@ def _status(elapsed_pct: float, impressions_pct: float) -> tuple[StatusKind, str
     equivalent). If the projection is ≥ 100% we're on track; under 85% means
     we'd need a meaningful course-correction to land at goal.
     """
-    if elapsed_pct >= 100 and impressions_pct >= 100:
+    # Goal already reached — celebrate it regardless of how much flight is
+    # left. Hitting the impression goal early (with budget still in hand) is a
+    # win, not an "on track". E*TRADE BrandX hit 124% of goal mid-flight.
+    if impressions_pct >= 100:
         return ("on", "Goal Exceeded" if impressions_pct > 105 else "Goal Hit")
     if elapsed_pct >= 100:
         return ("danger", "Goal Missed")
     # forecast_pct = projected_final / goal
     forecast_pct = (impressions_pct / elapsed_pct) if elapsed_pct else 1.0
+    # Comfortably ahead of pace — distinct from a bare "On Track" so strong
+    # performers read as the good news they are (e.g. Morgan & Morgan).
+    if forecast_pct >= 1.25:
+        return ("on", "Pacing Ahead")
     if forecast_pct >= 1.0:
         return ("on", "On Track")
     if forecast_pct >= 0.85:

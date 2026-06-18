@@ -77,17 +77,24 @@ function Sidebar({ active, onNav, campaigns }) {
         const content = active_only.filter(c => c.type === 'content');
         const social  = active_only.filter(c => c.type === 'social');
         const brandx  = active_only.filter(c => c.type === 'brandx');
-        const renderItem = (c) => (
-          <button key={c.id}
-            className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
-            onClick={() => onNav({ view: 'campaign', id: c.id })}>
-            <Ic.campaign/>
-            <span style={{flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'}}>{c.partner}</span>
-            <span className="dot" style={{
-              background: c.statusKind === 'on' ? '#8FC766' : c.statusKind === 'warn' ? '#FF9947' : '#DE6B38'
-            }}/>
-          </button>
-        );
+        const renderItem = (c) => {
+          // Wrapped campaigns have ended — no live pacing to signal, so the
+          // status dot is dropped entirely for them.
+          const isWrapped = c.lifecycle === 'wrapped';
+          return (
+            <button key={c.id}
+              className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
+              onClick={() => onNav({ view: 'campaign', id: c.id })}>
+              <Ic.campaign/>
+              <span style={{flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'}}>{c.partner}</span>
+              {!isWrapped && (
+                <span className="dot" style={{
+                  background: c.statusKind === 'on' ? '#8FC766' : c.statusKind === 'warn' ? '#FF9947' : '#DE6B38'
+                }}/>
+              )}
+            </button>
+          );
+        };
         return (
           <>
             {content.length > 0 && <div className="sb-section">Content</div>}
@@ -230,18 +237,21 @@ function PaceBar({ pct, onLight = true }) {
 // ============================================================
 // WRAP-CAMPAIGN BUTTON — pinned to the campaign detail header. The viewer
 // is read-only (can't write to YAML directly), so this button:
-//   • toggles a pending "wrap" intent in localStorage
-//   • shows a modal explaining what will change + the YAML edits required
-//   • surfaces a copy-paste YAML snippet so the operator can apply the change
+//   • POSTs { campaign_id, password } to /.netlify/functions/wrap-campaign
+//   • that function flips `lifecycle: wrapped` in config/campaigns.yaml and
+//     commits it; the commit triggers the refresh workflow, which regenerates
+//     the data and Netlify redeploys (~2 min)
 //
-// On the next refresh the operator updates campaigns.yaml manually and the
-// dashboard re-renders with the campaign in the Wrapped section.
+// True one-click: a click arms a 4s inline confirm (so it can't fire by
+// accident), a second click commits the wrap. Falls back to the password
+// prompt the upload form / Refresh-now button already use.
 // ============================================================
 function WrapCampaignButton({ campaign }) {
   const c = campaign;
   const isWrapped = c.lifecycle === 'wrapped';
-  const [open, setOpen] = React.useState(false);
-  const [endDate, setEndDate] = React.useState(() => new Date().toISOString().slice(0, 10));
+  // 'idle' | 'confirm' | 'pending' | 'done' | 'error'
+  const [state, setState] = React.useState('idle');
+  const [msg, setMsg] = React.useState('');
 
   if (isWrapped) {
     return (
@@ -256,96 +266,74 @@ function WrapCampaignButton({ campaign }) {
     );
   }
 
-  // Generate the YAML edit instructions
-  const snippet =
-    `# Edit config/campaigns.yaml — find the entry for id: ${c.id}\n` +
-    `# Change these two lines:\n` +
-    `\n` +
-    `    lifecycle: wrapped       # was: active\n` +
-    `    flight_end: ${endDate}   # set to actual end date\n` +
-    `\n` +
-    `# Then run: python -m app.viewer.refresh`;
-
-  const copy = async () => {
+  const commit = async () => {
+    let password = sessionStorage.getItem('inputs.upload.password');
+    if (!password) {
+      password = window.prompt('Team password:') || '';
+      if (!password) { setState('idle'); return; }
+      sessionStorage.setItem('inputs.upload.password', password);
+    }
+    setState('pending');
     try {
-      await navigator.clipboard.writeText(snippet);
-      alert('Copied to clipboard. Paste into config/campaigns.yaml.');
-    } catch {
-      // ignore
+      const res = await fetch('/.netlify/functions/wrap-campaign', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password, campaign_id: c.id }),
+      });
+      const j = await res.json().catch(() => ({}));
+      if (res.ok) {
+        setState('done');
+        setMsg(j.already ? 'Already wrapped' : 'Wrapping — live in ~2 min');
+      } else {
+        if (res.status === 401) sessionStorage.removeItem('inputs.upload.password');
+        setState('error');
+        setMsg(j.error || `HTTP ${res.status}`);
+      }
+    } catch (e) {
+      setState('error');
+      setMsg(String(e?.message || e));
     }
   };
 
+  const onClick = () => {
+    if (state === 'confirm') { commit(); return; }
+    if (state === 'idle' || state === 'error') {
+      setState('confirm');
+      setTimeout(() => setState(s => (s === 'confirm' ? 'idle' : s)), 4000);
+    }
+  };
+
+  const label =
+    state === 'pending' ? 'Wrapping…' :
+    state === 'done'    ? `✓ ${msg}` :
+    state === 'confirm' ? 'Click again to confirm' :
+    state === 'error'   ? '⚠ Try again' :
+    'Mark as wrapped';
+
+  const armed = state === 'confirm' || state === 'done';
+
   return (
-    <>
-      <button onClick={() => setOpen(true)} style={{
-        padding:'8px 14px', borderRadius:'var(--r-md)',
-        background:'var(--bg)', border:'1px solid var(--line)',
-        color:'var(--ink-2)', fontSize:12, fontFamily:'inherit', fontWeight:500,
-        cursor:'pointer', display:'inline-flex', alignItems:'center', gap:6,
-        justifyContent:'center'
-      }}>
-        Mark as wrapped
+    <div style={{display:'flex', flexDirection:'column', gap:4, alignItems:'flex-end'}}>
+      <button
+        onClick={onClick}
+        disabled={state === 'pending' || state === 'done'}
+        title={'Marks this campaign wrapped — commits the config change and redeploys (~2 min)'}
+        style={{
+          padding:'8px 14px', borderRadius:'var(--r-md)',
+          background: armed ? 'var(--liquorice)' : 'var(--bg)',
+          border:'1px solid var(--line)',
+          color: armed ? 'var(--cream)' : 'var(--ink-2)',
+          fontSize:12, fontFamily:'inherit', fontWeight:500,
+          cursor: state === 'pending' ? 'wait' : 'pointer',
+          display:'inline-flex', alignItems:'center', gap:6,
+          justifyContent:'center', transition:'background 0.15s, color 0.15s', width:'100%'
+        }}>
+        {state === 'idle' && <Ic.campaign/>}{label}
       </button>
-
-      {open && (
-        <div style={{
-          position:'fixed', inset:0, zIndex:9999,
-          background:'rgba(31,26,21,0.55)', backdropFilter:'blur(4px)',
-          display:'flex', alignItems:'center', justifyContent:'center', padding:24
-        }} onClick={() => setOpen(false)}>
-          <div onClick={(e) => e.stopPropagation()} style={{
-            background:'var(--surface)', borderRadius:12, padding:28,
-            maxWidth:560, width:'100%', boxShadow:'0 20px 60px rgba(0,0,0,0.3)'
-          }}>
-            <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--ink-3)', fontWeight:600, marginBottom:8}}>
-              Wrap campaign
-            </div>
-            <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, letterSpacing:'-0.01em', marginBottom:14}}>
-              Mark <em>{c.partner}</em> as wrapped?
-            </div>
-            <div style={{fontSize:13, color:'var(--ink-2)', lineHeight:1.6, marginBottom:18}}>
-              The dashboard is read-only, so it can't edit the config file directly.
-              When you confirm, we'll generate the exact two-line YAML edit for you to
-              paste into <code>config/campaigns.yaml</code>. On the next refresh,
-              this campaign moves from <strong>Active</strong> to <strong>Recently wrapped</strong>:
-              the sidebar groups it under Wrapped, and Overview shows a smaller black card
-              with only final delivery numbers.
-            </div>
-
-            <div style={{
-              display:'flex', alignItems:'center', gap:10, marginBottom:18,
-              padding:'12px 14px', background:'var(--bg-soft)',
-              border:'1px solid var(--line)', borderRadius:8
-            }}>
-              <span style={{fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.06em', textTransform:'uppercase', fontFamily:'var(--mono)'}}>Actual end date</span>
-              <input type="date" value={endDate} onChange={e => setEndDate(e.target.value)}
-                style={{
-                  flex:1, padding:'6px 10px', border:'1px solid var(--line)',
-                  borderRadius:6, fontSize:13, fontFamily:'inherit', background:'var(--bg)'
-                }}/>
-            </div>
-
-            <pre style={{
-              background:'var(--liquorice)', color:'var(--cream)',
-              padding:16, borderRadius:8, fontSize:11, lineHeight:1.55,
-              fontFamily:'var(--mono)', whiteSpace:'pre-wrap', wordBreak:'break-word',
-              margin:'0 0 18px 0', maxHeight:200, overflowY:'auto'
-            }}>{snippet}</pre>
-
-            <div style={{display:'flex', gap:10, justifyContent:'flex-end'}}>
-              <button onClick={() => setOpen(false)} style={{
-                background:'transparent', border:'1px solid var(--line)', borderRadius:6,
-                padding:'9px 16px', fontSize:13, fontFamily:'inherit', cursor:'pointer',
-                color:'var(--ink-2)'
-              }}>Cancel</button>
-              <button onClick={copy} className="btn btn-acc">
-                <Ic.copy/> Copy YAML edit
-              </button>
-            </div>
-          </div>
-        </div>
+      {state === 'error' && (
+        <div style={{fontSize:10, color:'var(--danger, #b8392b)', lineHeight:1.3, maxWidth:200, textAlign:'right'}}>{msg}</div>
       )}
-    </>
+    </div>
   );
 }
 
@@ -421,6 +409,10 @@ function WrappedCard({ c, onClick }) {
 function CampaignCard({ c, onClick }) {
   const impPct = (c.impressions.delivered / c.impressions.goal) * 100;
   const budPct = (c.budget.delivered / c.budget.goal) * 100;
+  // Dark-background cards (ink + denim) need light-tinted pills + light pace
+  // bars so the text/track stay legible against the dark fill.
+  const darkBg = c.color === 'ft-ink' || c.color === 'ft-10';
+  const pillText = darkBg ? 'var(--cream)' : 'var(--liquorice)';
   return (
     <div className={"cmp-card " + c.color} onClick={onClick}>
       <div className="arrow"><Ic.arrow/></div>
@@ -434,16 +426,16 @@ function CampaignCard({ c, onClick }) {
         </div>
         <div style={{ display: 'flex', gap: 8, marginBottom: 4, flexWrap: 'wrap' }}>
           <span className="pill" style={{
-            background: 'rgba(36,28,23,0.12)', border: 'none', color: 'var(--liquorice)',
+            background: darkBg ? 'rgba(245,241,232,0.18)' : 'rgba(36,28,23,0.12)', border: 'none', color: pillText,
             fontWeight: 600
           }}>
             <span className="dot" style={{
-              background: c.statusKind === 'on' ? '#2f7a3f' : c.statusKind === 'warn' ? '#b8392b' : '#b8392b'
+              background: c.statusKind === 'on' ? (darkBg ? '#a4d77e' : '#2f7a3f') : (darkBg ? '#ffb4a3' : '#b8392b')
             }}/>
             {c.status}
           </span>
           <span className="pill" style={{
-            background: 'rgba(36,28,23,0.08)', border: 'none', color: 'var(--liquorice)'
+            background: darkBg ? 'rgba(245,241,232,0.12)' : 'rgba(36,28,23,0.08)', border: 'none', color: pillText
           }}>{c.type === 'social'
               ? `${c.posts} ${c.posts === 1 ? 'post' : 'posts'}`
               : `${c.episodes} eps · ${c.posts} posts`}</span>
@@ -455,14 +447,14 @@ function CampaignCard({ c, onClick }) {
             <span className="pl">Impressions</span>
             <span className="pv">{fmt.num(c.impressions.delivered)} / {fmt.num(c.impressions.goal)}</span>
           </div>
-          <PaceBar pct={impPct} onLight={c.color !== 'ft-ink'}/>
+          <PaceBar pct={impPct} onLight={!darkBg}/>
         </div>
         <div className="pace-row">
           <div className="pace-meta">
             <span className="pl">Budget</span>
             <span className="pv">{fmt.money(c.budget.delivered)} / {fmt.money(c.budget.goal)}</span>
           </div>
-          <PaceBar pct={budPct} onLight={c.color !== 'ft-ink'}/>
+          <PaceBar pct={budPct} onLight={!darkBg}/>
         </div>
       </div>
       <div className="meta-foot">

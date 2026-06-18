@@ -149,11 +149,17 @@ function NewCampaignForm() {
             </Field>
             <Field label="Accent color">
               <Select value={draft.color} onChange={v => set('color', v)} options={[
-                { v:'ft-1', l:'Flame (orange)' },
-                { v:'ft-2', l:'Pear (green)' },
-                { v:'ft-3', l:'Sky (blue)' },
-                { v:'ft-4', l:'Sunshine (yellow)' },
-                { v:'ft-5', l:'Lilac (purple)' },
+                { v:'ft-1',  l:'Orange' },
+                { v:'ft-2',  l:'Coral' },
+                { v:'ft-3',  l:'Sky (E*TRADE)' },
+                { v:'ft-4',  l:'Lime' },
+                { v:'ft-5',  l:'Periwinkle' },
+                { v:'ft-6',  l:'Terracotta' },
+                { v:'ft-7',  l:'Sunflower' },
+                { v:'ft-8',  l:'Aqua' },
+                { v:'ft-9',  l:'Orchid' },
+                { v:'ft-10', l:'Denim' },
+                { v:'ft-11', l:'Fern' },
               ]}/>
             </Field>
             <Field label="Flight start" required>

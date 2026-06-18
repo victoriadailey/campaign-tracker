@@ -2,6 +2,41 @@
    Ic, PlatformPill, PageHead, MultiLineChart, Donut, BarChart, PaceBar */
 const { useState: useStateC } = React;
 
+// "Last Updated" label for the campaign header — when this campaign's freshest
+// export was provided (c.lastUpdated, ISO UTC from the pipeline). Renders date
+// + time so the team can see data recency at a glance.
+function fmtLastUpdated(iso) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    const opts = { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'UTC' };
+    return d.toLocaleString('en-US', opts) + ' UTC';
+  } catch {
+    return String(iso);
+  }
+}
+
+// Campaign card colours — one distinct hue per client (see styles.css
+// --pal-* + .cmp-card.ft-*). Dark fills (denim, ink) use light text + tracks;
+// the rest use dark text on the colour. Shared by the regular + BrandX heroes.
+const _toneDark = (v) => ({ bg:`var(${v})`, fg:'var(--liquorice)', dim:'rgba(31,26,21,0.7)', track:'rgba(31,26,21,0.18)', fill:'var(--liquorice)' });
+const _toneLight = (v) => ({ bg:`var(${v})`, fg:'var(--paper)', dim:'rgba(250,247,239,0.75)', track:'rgba(250,247,239,0.2)', fill:'var(--paper)' });
+const CARD_TONES = {
+  'ft-1':  _toneDark('--pal-orange'),
+  'ft-2':  _toneDark('--pal-coral'),
+  'ft-3':  _toneDark('--pal-sky'),
+  'ft-4':  _toneDark('--pal-lime'),
+  'ft-5':  _toneDark('--pal-periwinkle'),
+  'ft-6':  _toneDark('--pal-terracotta'),
+  'ft-7':  _toneDark('--pal-sunflower'),
+  'ft-8':  _toneDark('--pal-aqua'),
+  'ft-9':  _toneDark('--pal-orchid'),
+  'ft-10': _toneLight('--pal-denim'),
+  'ft-11': _toneDark('--pal-fern'),
+  'ft-ink': { bg:'var(--liquorice)', fg:'var(--cream)', dim:'rgba(245,241,232,0.7)', track:'rgba(245,241,232,0.2)', fill:'var(--cream)' },
+};
+function cardToneFor(color) { return CARD_TONES[color] || CARD_TONES['ft-ink']; }
+
 function CampaignPage({ campaignId, onBack }) {
   const c = CAMPAIGNS.find(x => x.id === campaignId) || CAMPAIGNS[0];
   // BrandX campaigns (paid-social performance) get a totally different page
@@ -43,14 +78,7 @@ function CampaignPage({ campaignId, onBack }) {
   // distKind: 'organic' | 'organic+boosted' | 'paid'
   const EPISODES = (window.EPISODES_BY_CAMPAIGN || {})[campaignId] || [];
 
-  const cardTone = c.color === 'ft-ink' ? { bg: 'var(--liquorice)', fg: 'var(--cream)', dim: 'rgba(245,241,232,0.7)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' } :
-    c.color === 'ft-1' ? { bg: 'var(--orange)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-2' ? { bg: 'var(--blossom)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-3' ? { bg: 'var(--sky)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-4' ? { bg: 'var(--pear)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-5' ? { bg: 'var(--lilac)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-6' ? { bg: 'var(--flame)', fg: 'var(--paper)', dim: 'rgba(250,247,239,0.75)', track: 'rgba(250,247,239,0.2)', fill: 'var(--paper)' } :
-    { bg: 'var(--liquorice)', fg: 'var(--cream)', dim: 'rgba(245,241,232,0.7)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' };
+  const cardTone = cardToneFor(c.color);
 
   return (
     <>
@@ -69,25 +97,12 @@ function CampaignPage({ campaignId, onBack }) {
             display:'flex', flexDirection:'column', gap:6
           }}>
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Partner</span>
-              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.partner}</span>
-            </div>
-            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
               <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.flight}</span>
             </div>
-            {/* Episode count is only meaningful for content campaigns — social
-                campaigns are post-based and the "episodes" field there is just
-                a count of content components, which doesn't read naturally. */}
-            {c.type !== 'social' && (
-              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-                <span style={{color:'var(--ink-3)', fontWeight:500}}>Episodes</span>
-                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.episodes} live</span>
-              </div>
-            )}
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Format</span>
-              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.leadFormat}</span>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Last Updated</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdated)}</span>
             </div>
           </div>
           <div style={{display:'flex', flexDirection:'column', gap:8, marginLeft:12}}>
@@ -771,20 +786,14 @@ function BrandXCampaignPage({ c, onBack }) {
 
   // Card tone — same mapping used on the regular CampaignPage so the BrandX
   // banner picks up its campaign's brand color (sky for E*TRADE).
-  const cardTone =
-    c.color === 'ft-ink' ? { bg: 'var(--liquorice)', fg: 'var(--cream)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' } :
-    c.color === 'ft-1'   ? { bg: 'var(--orange)',  fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-2'   ? { bg: 'var(--blossom)', fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-3'   ? { bg: 'var(--sky)',     fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-4'   ? { bg: 'var(--pear)',    fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-5'   ? { bg: 'var(--lilac)',   fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-6'   ? { bg: 'var(--flame)',   fg: 'var(--paper)',     track: 'rgba(250,247,239,0.2)', fill: 'var(--paper)' } :
-                           { bg: 'var(--liquorice)', fg: 'var(--cream)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' };
+  const cardTone = cardToneFor(c.color);
 
   // Money / number formatters that handle None gracefully.
   // Money: 2 decimals under $100 (so per-click cost reads as $1.50 not $1.5),
   // no decimals at $100+ (so total spend reads as $4,789 not $4,789.00).
-  const fmtNum = (n) => (n == null ? '—' : window.fmt.num(n));
+  // BrandX shows full, comma-separated numbers everywhere (no 2.0M / 1.6M
+  // abbreviation) so the partner sees exact delivery figures.
+  const fmtNum = (n) => (n == null ? '—' : window.fmt.numFull(n));
   const fmtMoney = (n) => {
     if (n == null || isNaN(Number(n))) return '—';
     const num = Number(n);
@@ -827,16 +836,12 @@ function BrandXCampaignPage({ c, onBack }) {
             display:'flex', flexDirection:'column', gap:6
           }}>
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Partner</span>
-              <span style={{color:'var(--ink)', fontWeight:600}}>{c.partner}</span>
-            </div>
-            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
               <span style={{color:'var(--ink)', fontWeight:600}}>{c.flight}</span>
             </div>
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Posts</span>
-              <span style={{color:'var(--ink)', fontWeight:600}}>{posts.length}</span>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Last Updated</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdated)}</span>
             </div>
           </div>
         }
@@ -942,8 +947,8 @@ function BrandXCampaignPage({ c, onBack }) {
                 <div>
                   <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Impression delivery</div>
                   <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
-                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.num(totalImpr)}</span>
-                    <span style={{fontSize:14, opacity:0.7}}>of {window.fmt.num(c.impressions.goal)}</span>
+                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.numFull(totalImpr)}</span>
+                    <span style={{fontSize:14, opacity:0.7}}>of {window.fmt.numFull(c.impressions.goal)}</span>
                   </div>
                   <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
                     <div style={{height:'100%', width: Math.min(100, impPct) + '%', background: cardTone.fill, borderRadius:999}}/>
@@ -970,7 +975,7 @@ function BrandXCampaignPage({ c, onBack }) {
                 <div>
                   <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Total clicks</div>
                   <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
-                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.num(totalClicks)}</span>
+                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.numFull(totalClicks)}</span>
                   </div>
                   {/* No goal for clicks — leave the bar slot empty so the
                       sublines on all three columns line up vertically. */}
@@ -1015,7 +1020,7 @@ function BrandXCampaignPage({ c, onBack }) {
                   <div style={tileSub}>
                     {vcr == null
                       ? 'no video starts yet'
-                      : `${window.fmt.num(totalP100)} of ${window.fmt.num(totalVideoStarts)} starts`}
+                      : `${window.fmt.numFull(totalP100)} of ${window.fmt.numFull(totalVideoStarts)} starts`}
                   </div>
                 </div>
 
@@ -1026,7 +1031,7 @@ function BrandXCampaignPage({ c, onBack }) {
                   </div>
                   <div style={tileSub}>
                     {avgViewSec != null
-                      ? `${window.fmt.num(Math.round(totalWatchMin))} min watched`
+                      ? `${window.fmt.numFull(Math.round(totalWatchMin))} min watched`
                       : '—'}
                   </div>
                 </div>
@@ -1098,7 +1103,7 @@ function BrandXCampaignPage({ c, onBack }) {
                   <span style={{width:8, height:8, borderRadius:'50%', background:ch.color}}/>
                   <span style={{fontWeight:500}}>{ch.name}</span>
                 </div>
-                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{window.fmt.num(ch.impressions)}</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{window.fmt.numFull(ch.impressions)}</div>
                 <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmtMoney(((ch.cpm || 0) * ch.impressions / 1000).toFixed(0))}</div>
                 <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{ch.cpm > 0 ? fmtMoney(ch.cpm.toFixed(2)) : '—'}</div>
                 <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontSize:11,

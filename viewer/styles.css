@@ -18,6 +18,21 @@
   --sky: #5CB5F2;
   --lilac: #A896F2;
 
+  /* --- Extended campaign palette (Q2 2026) — one distinct hue per client so
+         campaigns are easy to tell apart. Drives .cmp-card.ft-* below and the
+         cardTone map in campaign.jsx. --- */
+  --pal-orange:     #F5A23A;
+  --pal-coral:      #F1A9AF;
+  --pal-sky:        #5FB4E8;
+  --pal-lime:       #8DC95C;
+  --pal-periwinkle: #9D8CF0;
+  --pal-terracotta: #EE7B5E;
+  --pal-sunflower:  #F2C84B;
+  --pal-aqua:       #57C2A7;
+  --pal-orchid:     #C878A9;
+  --pal-denim:      #2E7CB5;
+  --pal-fern:       #4FA869;
+
   /* Semantic */
   --bg: var(--cream);
   --bg-soft: var(--cream-2);
@@ -401,12 +416,17 @@ a { color: inherit; }
   min-height: 280px;
 }
 .cmp-card:hover { transform: translateY(-2px); box-shadow: var(--sh-2); }
-.cmp-card.ft-1 { background: var(--orange); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-2 { background: var(--blossom); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-3 { background: var(--sky); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-4 { background: var(--pear); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-5 { background: var(--lilac); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-6 { background: var(--orange); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-1  { background: var(--pal-orange);     color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-2  { background: var(--pal-coral);      color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-3  { background: var(--pal-sky);        color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-4  { background: var(--pal-lime);       color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-5  { background: var(--pal-periwinkle); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-6  { background: var(--pal-terracotta); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-7  { background: var(--pal-sunflower);  color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-8  { background: var(--pal-aqua);       color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-9  { background: var(--pal-orchid);     color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-10 { background: var(--pal-denim);      color: var(--cream);     border-color: transparent; }
+.cmp-card.ft-11 { background: var(--pal-fern);       color: var(--liquorice); border-color: transparent; }
 .cmp-card.ft-ink { background: var(--liquorice); color: var(--cream); border-color: transparent; }
 
 .cmp-card .partner-row {

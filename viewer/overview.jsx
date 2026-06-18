@@ -43,8 +43,14 @@ function OverviewPage({ onOpenCampaign }) {
         </>}
       />
 
-      {/* TOP-OF-DASH CALLOUTS — pulled from per-campaign auto-callouts */}
-      {(SIGNALS && SIGNALS.length > 0) && (
+      {/* TOP-OF-DASH CALLOUTS — pulled from per-campaign auto-callouts.
+          Capped at the top 4 (already ranked by the pipeline) so the strip
+          stays a single clean 4-wide row instead of wrapping a lone tile to a
+          second row. Lower-priority callouts still surface on each campaign's
+          own page. */}
+      {(SIGNALS && SIGNALS.length > 0) && (() => {
+      const shownSignals = SIGNALS.slice(0, 4);
+      return (
       <div className="sec" style={{marginTop: 4}}>
         <div className="sec-h">
           <div>
@@ -52,8 +58,8 @@ function OverviewPage({ onOpenCampaign }) {
             <div className="sec-sub" style={{marginTop:6}}>The most important things to know across your active campaigns — auto-flagged from current performance.</div>
           </div>
         </div>
-        <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(SIGNALS.length, 3)}, minmax(0, 1fr))`, gap:14}}>
-          {SIGNALS.map((co, i) => {
+        <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(shownSignals.length, 4)}, minmax(0, 1fr))`, gap:14}}>
+          {shownSignals.map((co, i) => {
             const kind = co.kind || (co.tag === 'WIN' ? 'pos' : co.tag === 'WATCH' ? 'warn' : 'info');
             const tone = kind === 'pos' ? { bar:'var(--pear)', tag:'#2f7a3f' } :
               kind === 'warn' ? { bar:'var(--orange)', tag:'#b8392b' } :
@@ -88,7 +94,8 @@ function OverviewPage({ onOpenCampaign }) {
           })}
         </div>
       </div>
-      )}
+      );
+      })()}
 
       {/* CAMPAIGN GRID — active + recently wrapped */}
       {(() => {

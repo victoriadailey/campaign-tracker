@@ -495,10 +495,13 @@ def main() -> int:
                 if ep.get("added_value")
                 for g in (ep.get("group_ids") or [])
             ],
+            budget_includes_added_value=bool(c.get("budget_includes_added_value", False)),
         )
+        last_updated = _campaign_last_updated(c, exports_root)
         posts = posts_by_campaign.get(cc.id, [])
         if posts:
             summary = rollup_campaign(cc, posts, today=today)
+            summary.last_updated = last_updated
             # Attach per-campaign channels + top posts + auto-generated callouts
             summary.channels = per_campaign_channels(posts)
             partners_one = {cc.id: cc.partner}
@@ -513,7 +516,9 @@ def main() -> int:
             )
             campaigns.append(summary)
         else:
-            campaigns.append(_sample_campaign_or_compute(cc, sample, today))
+            _sample_summary = _sample_campaign_or_compute(cc, sample, today)
+            _sample_summary.last_updated = last_updated
+            campaigns.append(_sample_summary)
 
     # ---------- Cross-campaign ----------
     partners = {c.id: c.partner for c in campaigns}
@@ -1938,6 +1943,44 @@ def _merge_youtube_paid_spend_into_ms(
     # Drop matched GAds rows AND any dead GAds rows (0 impressions + 0 spend).
     skip = drop_ids | dead_gads
     return [p for p in posts if id(p) not in skip]
+
+
+def _campaign_last_updated(c: dict, exports_root: Path) -> str:
+    """When this campaign's freshest data was provided, as an ISO 8601 UTC string.
+
+    Takes the most recent of:
+      - the file mtime of every configured ad-platform export that exists
+        (X Ads / Google Ads / Meta / TikTok / LinkedIn / manual MS CSVs), and
+      - the current run time, IF the campaign pulls from Measure Studio live
+        (an MS group id) — that data is re-fetched fresh on every refresh.
+
+    Returns "" when no datable source exists.
+    """
+    from datetime import datetime as _dt, timezone as _tz
+
+    sources_cfg = c.get("sources", {}) or {}
+    file_kinds = (
+        "measure_studio", "google_ads_campaign", "youtube_paid",
+        "x_ads", "meta_ads", "tiktok_ads", "linkedin_ads",
+    )
+    candidates: list[_dt] = []
+    for kind in file_kinds:
+        for fname in sources_cfg.get(kind, []) or []:
+            path = exports_root / fname
+            if path.exists():
+                candidates.append(_dt.fromtimestamp(path.stat().st_mtime, tz=_tz.utc))
+
+    # Live Measure Studio source → its data is as fresh as this refresh.
+    has_ms_live = bool(
+        sources_cfg.get("measure_studio_group_id")
+        or sources_cfg.get("measure_studio_group_ids")
+    )
+    if has_ms_live:
+        candidates.append(_dt.now(_tz.utc))
+
+    if not candidates:
+        return ""
+    return max(candidates).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def _build_data_archive(cfg: dict, exports_root: Path, posts_by_campaign: dict,

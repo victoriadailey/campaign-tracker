@@ -150,8 +150,12 @@ def _parse_section(name: str, section: list[list[str]]) -> dict:
         if first.startswith("Benchmark Category:"):
             continue
         if first == "Overall":
-            # This is the platform header row for the Overall section
-            overall_headers = [_clean(c) for c in r[2:9]]
+            # This is the platform header row for the Overall section.
+            # Read the full platform span (r[2:10], same width as the By
+            # Campaign headers) — some categories (Original Content, Branded
+            # Content) carry an extra YouTube column that pushes "All" out to
+            # column J. Reading only r[2:9] dropped their "All" value.
+            overall_headers = [_clean(c) for c in r[2:10]]
             state = "overall-headers-seen"
             continue
         if first == "Engagement Rate" and state == "overall-headers-seen":

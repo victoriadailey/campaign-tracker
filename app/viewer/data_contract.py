@@ -70,6 +70,11 @@ class CampaignSummary:
     # campaigns are primarily measured on impressions but clicks matter too).
     brandx_objective: str = ""           # awareness | clicks | app_install | etc.
     brandx_secondary_objective: str = ""
+    # When the freshest data for this campaign was provided — the most recent
+    # of its source-export file mtimes (and the refresh time for live
+    # Measure-Studio-sourced campaigns). ISO 8601 UTC. Shown as "Last Updated"
+    # in the campaign header. Empty when no datable source exists.
+    last_updated: str = ""
 
 
 @dataclass

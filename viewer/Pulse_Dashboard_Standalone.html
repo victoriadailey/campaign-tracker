@@ -28,6 +28,21 @@
   --sky: #5CB5F2;
   --lilac: #A896F2;
 
+  /* --- Extended campaign palette (Q2 2026) — one distinct hue per client so
+         campaigns are easy to tell apart. Drives .cmp-card.ft-* below and the
+         cardTone map in campaign.jsx. --- */
+  --pal-orange:     #F5A23A;
+  --pal-coral:      #F1A9AF;
+  --pal-sky:        #5FB4E8;
+  --pal-lime:       #8DC95C;
+  --pal-periwinkle: #9D8CF0;
+  --pal-terracotta: #EE7B5E;
+  --pal-sunflower:  #F2C84B;
+  --pal-aqua:       #57C2A7;
+  --pal-orchid:     #C878A9;
+  --pal-denim:      #2E7CB5;
+  --pal-fern:       #4FA869;
+
   /* Semantic */
   --bg: var(--cream);
   --bg-soft: var(--cream-2);
@@ -411,12 +426,17 @@ a { color: inherit; }
   min-height: 280px;
 }
 .cmp-card:hover { transform: translateY(-2px); box-shadow: var(--sh-2); }
-.cmp-card.ft-1 { background: var(--orange); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-2 { background: var(--blossom); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-3 { background: var(--sky); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-4 { background: var(--pear); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-5 { background: var(--lilac); color: var(--liquorice); border-color: transparent; }
-.cmp-card.ft-6 { background: var(--orange); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-1  { background: var(--pal-orange);     color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-2  { background: var(--pal-coral);      color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-3  { background: var(--pal-sky);        color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-4  { background: var(--pal-lime);       color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-5  { background: var(--pal-periwinkle); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-6  { background: var(--pal-terracotta); color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-7  { background: var(--pal-sunflower);  color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-8  { background: var(--pal-aqua);       color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-9  { background: var(--pal-orchid);     color: var(--liquorice); border-color: transparent; }
+.cmp-card.ft-10 { background: var(--pal-denim);      color: var(--cream);     border-color: transparent; }
+.cmp-card.ft-11 { background: var(--pal-fern);       color: var(--liquorice); border-color: transparent; }
 .cmp-card.ft-ink { background: var(--liquorice); color: var(--cream); border-color: transparent; }
 
 .cmp-card .partner-row {
@@ -705,7 +725,7 @@ a { color: inherit; }
 
 
 
-window.LAST_REFRESHED = "2026-06-18T12:46:22Z";
+window.LAST_REFRESHED = "2026-06-18T12:37:19Z";
 
 
 
@@ -758,14 +778,14 @@ window.CAMPAIGNS = [
           "goal": 3200000
         },
         "budget": {
-          "delivered": 5447.09,
+          "delivered": 5447.1,
           "goal": 5416.0
         },
         "posts": 44
       }
     ],
     "benchmarkCategory": "Original Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube In-feed",
@@ -1059,17 +1079,10 @@ window.CAMPAIGNS = [
       }
     ],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $1K (11%) of budget unspent with 0 days left.",
-        "body": "Impressions are 113% delivered while only 89% of budget has been spent \u2014 already 13% past the goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
-        "meta": "ADP \u00b7 Budget surplus"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "etrade",
@@ -1522,7 +1535,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "spectrum",
@@ -1734,7 +1748,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "etrade_brandx",
@@ -1745,7 +1760,7 @@ window.CAMPAIGNS = [
     "flight": "May 13 \u2014 Jun 30, 2026",
     "elapsedPct": 75.0,
     "daysLeft": 12,
-    "status": "On Track",
+    "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
       "delivered": 4216779,
@@ -1805,15 +1820,17 @@ window.CAMPAIGNS = [
     "topPostsOrganic": [],
     "callouts": [
       {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $20K (66%) of budget unspent with 12 days left.",
-        "body": "Impressions are 124% delivered while only 34% of budget has been spent \u2014 already 24% past the goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
-        "meta": "E*TRADE \u00b7 Budget surplus"
+        "tag": "WIN",
+        "kind": "pos",
+        "milestone": true,
+        "headline": "Goal hit with $20K (66%) of budget still unspent.",
+        "body": "Delivered 124% of the 3.4M impression goal on only 34% of the $30K budget \u2014 $20K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "meta": "E*TRADE \u00b7 Goal hit"
       }
     ],
     "brandxObjective": "impressions",
-    "brandxSecondaryObjective": "clicks"
+    "brandxSecondaryObjective": "clicks",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "mm",
@@ -1824,14 +1841,14 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jul 30, 2026",
     "elapsedPct": 53.3,
     "daysLeft": 42,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
       "delivered": 1360453,
       "goal": 1500000
     },
     "budget": {
-      "delivered": 1824.59,
+      "delivered": 3146.68,
       "goal": 5000.0
     },
     "color": "ft-5",
@@ -2010,7 +2027,8 @@ window.CAMPAIGNS = [
     ],
     "callouts": [],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "sportclips",
@@ -2031,7 +2049,7 @@ window.CAMPAIGNS = [
       "delivered": 1645.91,
       "goal": 3900.0
     },
-    "color": "ft-2",
+    "color": "ft-7",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 1.0,
@@ -2113,7 +2131,8 @@ window.CAMPAIGNS = [
     "topPostsOrganic": [],
     "callouts": [],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "onlocation",
@@ -2124,7 +2143,7 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jun 30, 2026",
     "elapsedPct": 80.0,
     "daysLeft": 12,
-    "status": "On Track",
+    "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
       "delivered": 5660047,
@@ -2145,7 +2164,7 @@ window.CAMPAIGNS = [
     "views": 635587,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "X",
@@ -2248,11 +2267,12 @@ window.CAMPAIGNS = [
     "topPostsOrganic": [],
     "callouts": [
       {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $7K (45%) of budget unspent with 12 days left.",
-        "body": "Impressions are 103% delivered while only 55% of budget has been spent \u2014 already 3% past the goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
-        "meta": "On Location \u00b7 Budget surplus"
+        "tag": "WIN",
+        "kind": "pos",
+        "milestone": true,
+        "headline": "Goal hit with $7K (45%) of budget still unspent.",
+        "body": "Delivered 103% of the 5.5M impression goal on only 55% of the $16K budget \u2014 $7K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "meta": "On Location \u00b7 Goal hit"
       },
       {
         "tag": "WATCH",
@@ -2263,7 +2283,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "heineken",
@@ -2391,7 +2412,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "rbc_tst",
@@ -2402,7 +2424,7 @@ window.CAMPAIGNS = [
     "flight": "Apr 15 \u2014 Sep 30, 2026",
     "elapsedPct": 38.1,
     "daysLeft": 104,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
       "delivered": 10708005,
@@ -2412,7 +2434,7 @@ window.CAMPAIGNS = [
       "delivered": 24358.04,
       "goal": 30000.0
     },
-    "color": "ft-1",
+    "color": "ft-10",
     "leadFormat": "Mixed",
     "topChannel": "YouTube",
     "er": 5.8,
@@ -2736,7 +2758,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "thrivent",
@@ -2757,7 +2780,7 @@ window.CAMPAIGNS = [
       "delivered": 1249.83,
       "goal": 1000.0
     },
-    "color": "ft-5",
+    "color": "ft-9",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 3.2,
@@ -2768,7 +2791,7 @@ window.CAMPAIGNS = [
     "views": 108697,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "X",
@@ -2880,7 +2903,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "betmgm",
@@ -2901,7 +2925,7 @@ window.CAMPAIGNS = [
       "delivered": 832.66,
       "goal": 2500.0
     },
-    "color": "ft-6",
+    "color": "ft-8",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 0.2,
@@ -2959,7 +2983,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T09:57:35Z"
   }
 ];
 
@@ -3342,6 +3367,16 @@ window.SOURCES = [
 ];
 
 window.SIGNALS = [
+  {
+    "tag": "WIN",
+    "kind": "pos",
+    "milestone": true,
+    "headline": "Goal hit with $20K (66%) of budget still unspent.",
+    "body": "Delivered 124% of the 3.4M impression goal on only 34% of the $30K budget \u2014 $20K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "meta": "E*TRADE \u00b7 Goal hit",
+    "campaignId": "etrade_brandx",
+    "campaignPartner": "E*TRADE"
+  },
   {
     "tag": "WIN",
     "kind": "pos",
@@ -10668,10 +10703,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Midge Purce",
       "date": "Jun 16",
       "total": {
-        "impr": 183085,
-        "views": 31321,
-        "er": 1.44,
-        "eng": 2629,
+        "impr": 197726,
+        "views": 36550,
+        "er": 1.71,
+        "eng": 3376,
         "spend": 0
       },
       "perChannel": [
@@ -10716,6 +10751,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 636,
           "er": 2.69,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 2
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 14641,
+          "paidImpr": 0,
+          "orgImpr": 14641,
+          "views": 5229,
+          "eng": 747,
+          "paidEng": 0,
+          "orgEng": 747,
+          "er": 5.1,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -10796,6 +10846,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2066994673206341659",
           "postedAt": "2026-06-16T14:21:47-07:00"
+        },
+        {
+          "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 8248,
+          "paidImpr": 0,
+          "orgImpr": 8248,
+          "views": 3542,
+          "eng": 390,
+          "er": 4.73,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472761999580463104",
+          "postedAt": "2026-06-16T14:28:38-07:00"
         },
         {
           "title": "NWSL star Midge Purce says she was \u201cenvious\u201d of WNBA CBA deal",
@@ -10888,6 +10953,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-06-17T12:36:23-07:00"
         },
         {
+          "title": "\"To give publications like ESPN \\[and others\\] the authority to decide who's worth being paid in a league they don't cov",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6393,
+          "paidImpr": 0,
+          "orgImpr": 6393,
+          "views": 1687,
+          "eng": 357,
+          "er": 5.58,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473079538042826752",
+          "postedAt": "2026-06-17T13:30:01-07:00"
+        },
+        {
           "title": "NWSL star Midge Purce doesn\u2019t think media should decide player pay",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
@@ -10905,24 +10985,24 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\"To give publications like ESPN [and others] the authority to decide who's worth being pai",
-          "platform": "Instagram",
-          "er": 3.9,
-          "reach": 12280,
-          "url": "https://www.instagram.com/p/DZsuPnem-OQ/"
+          "quote": "\"To give publications like ESPN \\[and others\\] the authority to decide who's worth being p",
+          "platform": "LinkedIn",
+          "er": 5.58,
+          "reach": 1687,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473079538042826752"
         },
         {
           "quote": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re",
-          "platform": "TikTok",
-          "er": 3.42,
-          "reach": 1258,
-          "url": "https://tiktok.com/@frontofficesports/video/7652124139129425166"
+          "platform": "LinkedIn",
+          "er": 4.73,
+          "reach": 3542,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472761999580463104"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 3.4% ER on 1.3K impr."
+          "text": "LinkedIn leading with 5.1% ER on 14.6K impr."
         },
         {
           "kind": "pos",
@@ -16595,74 +16675,1157 @@ window.DATA_ARCHIVE = [
   }
 ];
 
-window.BENCHMARKS_DATA = {};
+window.BENCHMARKS_DATA = {
+  "lastUpdated": "3/5 @1pm EST",
+  "platformSummary": [
+    {
+      "row": "All Content",
+      "platforms": {
+        "Instagram": 3.6,
+        "Facebook": 4.0,
+        "X": 2.3,
+        "TikTok": 4.9,
+        "LinkedIn": 5.2,
+        "YouTube": 1.0
+      },
+      "allAvg": 3.5
+    },
+    {
+      "row": "Sponsored (Sprout, No Paid)",
+      "platforms": {
+        "Instagram": 3.8,
+        "Facebook": 2.6,
+        "X": 1.1,
+        "TikTok": 0.9,
+        "LinkedIn": 2.4,
+        "YouTube": 1.0
+      },
+      "allAvg": 1.97
+    },
+    {
+      "row": "Sponsored (All content in this doc)",
+      "platforms": {
+        "Instagram": 3.45,
+        "Facebook": 2.08,
+        "X": 0.93,
+        "TikTok": 1.81,
+        "LinkedIn": 3.68,
+        "YouTube": 3.69
+      },
+      "allAvg": 2.52
+    }
+  ],
+  "categories": [
+    {
+      "name": "Social Coverage Partner",
+      "overall": {
+        "Instagram": 6.82,
+        "Facebook": 1.63,
+        "X": 1.3,
+        "TikTok": 3.29,
+        "LinkedIn": 5.56,
+        "Shorts": 0.75,
+        "All": 4.6
+      },
+      "campaigns": [
+        {
+          "name": "Acura x Business of the Madness (2024)",
+          "platforms": {
+            "Instagram": 11.32,
+            "Facebook": 4.34,
+            "TikTok": 3.95,
+            "LinkedIn": 3.63
+          },
+          "all": 6.34,
+          "spend": "$0"
+        },
+        {
+          "name": "US Bank x Golf",
+          "platforms": {
+            "Instagram": 11.52,
+            "X": 1.97,
+            "TikTok": 4.13,
+            "LinkedIn": 4.75
+          },
+          "all": 6.43,
+          "spend": "$0"
+        },
+        {
+          "name": "Upper Deck x NHL Draft",
+          "platforms": {
+            "Instagram": 3.06,
+            "Facebook": 0.37,
+            "X": 0.64,
+            "TikTok": 1.8,
+            "LinkedIn": 11.08,
+            "Shorts": 0.75
+          },
+          "all": 2.32,
+          "spend": "$2508"
+        },
+        {
+          "name": "Invesco QQQ x Busines of Bowl Season",
+          "platforms": {
+            "Instagram": 4.19,
+            "LinkedIn": 4.38
+          },
+          "all": 4.2,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x 2026 NFL Draft",
+          "platforms": {
+            "Instagram": 4.02,
+            "Facebook": 0.19,
+            "X": 1.28,
+            "LinkedIn": 3.95
+          },
+          "all": 3.69,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Social - Franchise (Non-Correspondent)",
+      "overall": {
+        "Instagram": 4.59,
+        "Facebook": 4.22,
+        "X": 0.46,
+        "TikTok": 4.5,
+        "LinkedIn": 3.44,
+        "Shorts": null,
+        "All": 3.44
+      },
+      "campaigns": [
+        {
+          "name": "TickPick x Big Ticket (9/24 - 2/25)",
+          "platforms": {
+            "Instagram": 7.37,
+            "X": 0.81,
+            "TikTok": 4.82
+          },
+          "all": 7.17,
+          "spend": "$0"
+        },
+        {
+          "name": "Daktronics x Stadium Status (12/24 - 4/25)",
+          "platforms": {
+            "Instagram": 1.46,
+            "LinkedIn": 4.38
+          },
+          "all": 1.56,
+          "spend": "$5000"
+        },
+        {
+          "name": "AT&T x Stadium Status",
+          "platforms": {
+            "Instagram": 1.29,
+            "X": 0.45,
+            "TikTok": 6.0,
+            "LinkedIn": 4.76
+          },
+          "all": 1.39,
+          "spend": "$16992"
+        },
+        {
+          "name": "Gainbridge x The Come Up (Napheesa Collier)",
+          "platforms": {
+            "Instagram": 3.46,
+            "TikTok": 5.31,
+            "LinkedIn": 3.26
+          },
+          "all": 4.85,
+          "spend": "$996"
+        },
+        {
+          "name": "RBC x Second Acts",
+          "platforms": {
+            "Instagram": 5.68,
+            "Facebook": 0.75,
+            "LinkedIn": 1.9
+          },
+          "all": 3.6,
+          "spend": "$2794"
+        },
+        {
+          "name": "Dealmaker x Asset Class",
+          "platforms": {
+            "Instagram": 1.25,
+            "Facebook": 0.19,
+            "X": 0.32,
+            "LinkedIn": 1.22
+          },
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Pepsi x Stadium Eats",
+          "platforms": {
+            "Instagram": 2.59,
+            "Facebook": 1.98,
+            "X": 0.24,
+            "TikTok": 1.88,
+            "LinkedIn": 6.84
+          },
+          "all": 1.19,
+          "spend": ""
+        },
+        {
+          "name": "Toyota x Winter Olympics",
+          "platforms": {
+            "Instagram": 13.61,
+            "Facebook": 13.95,
+            "LinkedIn": 1.73
+          },
+          "all": 13.42,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Social - Non-Franchise (Event Coverage, Custom Shoot, etc.)",
+      "overall": {
+        "Instagram": 5.07,
+        "Facebook": 4.56,
+        "X": 0.91,
+        "TikTok": 0.7,
+        "LinkedIn": 3.6,
+        "Shorts": null,
+        "All": 2.97
+      },
+      "campaigns": [
+        {
+          "name": "Gainbridge x Parity Week 2024",
+          "platforms": {
+            "Instagram": 7.47,
+            "X": 1.13,
+            "LinkedIn": 1.59
+          },
+          "all": 3.46,
+          "spend": "$1198"
+        },
+        {
+          "name": "Laver Cup",
+          "platforms": {
+            "Instagram": 4.03,
+            "Facebook": 0.09,
+            "X": 1.26,
+            "LinkedIn": 2.79
+          },
+          "all": 2.45,
+          "spend": "$2464"
+        },
+        {
+          "name": "LOVB",
+          "platforms": {
+            "Instagram": 8.5,
+            "X": 0.63,
+            "LinkedIn": 4.91
+          },
+          "all": 6.15,
+          "spend": "$1581"
+        },
+        {
+          "name": "Wilson x Super Bowl, ASG, Caitlin Clark",
+          "platforms": {
+            "Instagram": 1.71,
+            "TikTok": 0.13
+          },
+          "all": 0.89,
+          "spend": "$2500"
+        },
+        {
+          "name": "Comcast Business x The Players",
+          "platforms": {
+            "Instagram": 0.15,
+            "LinkedIn": 9.69
+          },
+          "all": 0.24,
+          "spend": "$4996"
+        },
+        {
+          "name": "Champs Sports CSG x Brock Bowers",
+          "platforms": {
+            "Instagram": 8.95,
+            "X": 0.37,
+            "TikTok": 0.06,
+            "LinkedIn": 2.45
+          },
+          "all": 3.27,
+          "spend": "$1791"
+        },
+        {
+          "name": "Atlassian x Australian Grand Prix",
+          "platforms": {
+            "Instagram": 0.29,
+            "X": 0.43,
+            "LinkedIn": 2.05
+          },
+          "all": 0.33,
+          "spend": "$4999"
+        },
+        {
+          "name": "Champs x Fall Football",
+          "platforms": {
+            "Instagram": 3.06,
+            "TikTok": 0.54
+          },
+          "all": 1.76,
+          "spend": "$3972"
+        },
+        {
+          "name": "Nuveen x Bobby Bonilla",
+          "platforms": {
+            "Instagram": 11.09,
+            "X": 1.72,
+            "LinkedIn": 2.26
+          },
+          "all": 5.14,
+          "spend": "$1796"
+        },
+        {
+          "name": "Gatorade x Modern Origins",
+          "platforms": {
+            "Instagram": 3.18,
+            "TikTok": 0.25,
+            "LinkedIn": 2.77
+          },
+          "all": 1.94,
+          "spend": "$12261"
+        },
+        {
+          "name": "Gainbridge x WNBA All-Star",
+          "platforms": {
+            "Instagram": 8.88,
+            "Facebook": 15.69,
+            "TikTok": 3.08,
+            "LinkedIn": 4.92
+          },
+          "all": 11.43,
+          "spend": "$2431"
+        },
+        {
+          "name": "Tissot x NBA",
+          "platforms": {
+            "Instagram": 6.56
+          },
+          "all": 6.56,
+          "spend": "$1299"
+        },
+        {
+          "name": "Healthy Paws x Globetrotting",
+          "platforms": {
+            "Instagram": 3.89,
+            "Facebook": 0.26,
+            "X": 1.46
+          },
+          "all": 2.28,
+          "spend": ""
+        },
+        {
+          "name": "Professional Fighters League",
+          "platforms": {
+            "Instagram": 3.21,
+            "Facebook": 2.19,
+            "X": 0.27,
+            "TikTok": 0.14,
+            "LinkedIn": 2.56
+          },
+          "all": 1.2,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Multimedia Reporter-Led - Franchise",
+      "overall": {
+        "Instagram": 3.0,
+        "Facebook": 1.65,
+        "X": 0.39,
+        "TikTok": 1.94,
+        "LinkedIn": 3.75,
+        "Shorts": 2.73,
+        "All": 2.24
+      },
+      "campaigns": [
+        {
+          "name": "Kaiser Permanante x Stadium Status",
+          "platforms": {
+            "Instagram": 1.16,
+            "X": 0.66,
+            "TikTok": 0.07,
+            "LinkedIn": 4.99,
+            "Shorts": 5.16
+          },
+          "all": 0.54,
+          "spend": "$12214"
+        },
+        {
+          "name": "Daktronics x Stadium Status (Lindsay)",
+          "platforms": {
+            "Instagram": 1.64,
+            "TikTok": 1.64,
+            "LinkedIn": 0.99
+          },
+          "all": 1.05,
+          "spend": "$1200"
+        },
+        {
+          "name": "AT&T x Stadium Status (Intuit Dome)",
+          "platforms": {
+            "Instagram": 1.29,
+            "X": 0.45,
+            "TikTok": 6.0,
+            "LinkedIn": 4.76
+          },
+          "all": 1.39,
+          "spend": "$16992"
+        },
+        {
+          "name": "Fanatics x Stadium Status",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Elevate Stadium Status",
+          "platforms": {
+            "Instagram": 3.18,
+            "X": 0.06,
+            "TikTok": 0.06,
+            "LinkedIn": 4.26,
+            "Shorts": 0.29
+          },
+          "all": 0.96,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x The Come Up",
+          "platforms": {
+            "Instagram": 7.75,
+            "Facebook": 1.65,
+            "X": 0.1,
+            "LinkedIn": 3.32,
+            "Shorts": 25.5
+          },
+          "all": 7.18,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
+      "overall": {
+        "Instagram": 2.31,
+        "Facebook": 0.0,
+        "X": 0.37,
+        "TikTok": 0.45,
+        "LinkedIn": 2.98,
+        "Shorts": 3.97,
+        "All": 1.68
+      },
+      "campaigns": [
+        {
+          "name": "Gainbridge x Parity Week (2024) (Lindsay)",
+          "platforms": {
+            "Instagram": 5.02,
+            "X": 0.35,
+            "TikTok": 0.12
+          },
+          "all": 1.64,
+          "spend": "$898"
+        },
+        {
+          "name": "EA Sports x College Football (Lindsay & Derryl)",
+          "platforms": {
+            "Instagram": 1.01,
+            "X": 1.01,
+            "TikTok": 0.32
+          },
+          "all": 0.69,
+          "spend": "$15417"
+        },
+        {
+          "name": "AWS x NFL Women's Forum (Lindsay)",
+          "platforms": {
+            "Instagram": 0.11,
+            "X": 0.3,
+            "TikTok": 0.03,
+            "LinkedIn": 3.95
+          },
+          "all": 0.15,
+          "spend": "$2499"
+        },
+        {
+          "name": "Invesco x Under Review (Lindsay)",
+          "platforms": {
+            "Instagram": 2.51,
+            "TikTok": 0.05,
+            "Shorts": 2.69
+          },
+          "all": 1.23,
+          "spend": "$21464"
+        },
+        {
+          "name": "Champs Sports x Apparel Playmakers (Derryl)",
+          "platforms": {
+            "Instagram": 1.5,
+            "TikTok": 0.38
+          },
+          "all": 0.96,
+          "spend": "$7940"
+        },
+        {
+          "name": "Tissot x NBA (Derryl)",
+          "platforms": {
+            "Instagram": 1.06,
+            "X": 0.3,
+            "TikTok": 0.03,
+            "LinkedIn": 3.47
+          },
+          "all": 0.48,
+          "spend": "$4041"
+        },
+        {
+          "name": "US Bank x PLL Championship",
+          "platforms": {
+            "Instagram": 3.35,
+            "X": 0.31,
+            "TikTok": 0.4,
+            "Shorts": 9.1
+          },
+          "all": 3.3,
+          "spend": "$1601"
+        },
+        {
+          "name": "PGA Tour x BMW Championship (Derryl)",
+          "platforms": {
+            "Instagram": 1.63,
+            "TikTok": 2.75
+          },
+          "all": 2.37,
+          "spend": "$2524"
+        },
+        {
+          "name": "Gainbridge x WNBA All-Star (Lindsay)",
+          "platforms": {
+            "Instagram": 4.75,
+            "X": 0.24,
+            "TikTok": 0.29,
+            "LinkedIn": 1.53
+          },
+          "all": 1.74,
+          "spend": "$4468"
+        },
+        {
+          "name": "Swag Golf x Ryder Cup",
+          "platforms": {
+            "Instagram": 2.15,
+            "X": 0.11,
+            "TikTok": 0.1,
+            "Shorts": 0.12
+          },
+          "all": 0.5,
+          "spend": "$3080"
+        },
+        {
+          "name": "Laver Cup",
+          "platforms": {
+            "Instagram": 0.3,
+            "X": 7.37,
+            "TikTok": 3.24,
+            "LinkedIn": 1.07
+          },
+          "all": 5.45,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge Parity Week (2025)",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Creator-Led - Franchise",
+      "overall": {
+        "Instagram": 3.8,
+        "Facebook": 5.19,
+        "X": null,
+        "TikTok": 0.51,
+        "LinkedIn": null,
+        "Shorts": null,
+        "All": 1.58
+      },
+      "campaigns": [
+        {
+          "name": "DIRECTV x The Come Up",
+          "platforms": {
+            "Instagram": 3.8,
+            "Facebook": 5.19,
+            "TikTok": 0.51
+          },
+          "all": 1.58,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Creator-Led - Non-Franchise",
+      "overall": {
+        "Instagram": 3.91,
+        "Facebook": 0.14,
+        "X": 0.45,
+        "TikTok": 1.31,
+        "LinkedIn": 4.58,
+        "Shorts": 4.67,
+        "All": 2.51
+      },
+      "campaigns": [
+        {
+          "name": "Invesco x Under Review 2023 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 5.62,
+            "TikTok": 2.84,
+            "LinkedIn": 3.25,
+            "Shorts": 1.96
+          },
+          "all": 7.0,
+          "spend": "$4914"
+        },
+        {
+          "name": "Invesco x Under Review 2024 (Jordan Rogers MM)",
+          "platforms": {
+            "Instagram": 0.59,
+            "TikTok": 1.08,
+            "Shorts": 2.23
+          },
+          "all": 0.72,
+          "spend": "$8857"
+        },
+        {
+          "name": "Champs x Off the Pitch (Eli Lesser)",
+          "platforms": {
+            "Instagram": 1.3,
+            "TikTok": 7.2,
+            "Shorts": 3.83
+          },
+          "all": 3.37,
+          "spend": "$5646"
+        },
+        {
+          "name": "Gainbridge x Parity Week (2024)",
+          "platforms": {
+            "Instagram": 5.16,
+            "X": 0.43,
+            "TikTok": 0.11
+          },
+          "all": 1.19,
+          "spend": "$2996"
+        },
+        {
+          "name": "Invesco x Under Review 2024 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 1.76,
+            "TikTok": 0.2,
+            "LinkedIn": 0.4
+          },
+          "all": 0.89,
+          "spend": "$29000"
+        },
+        {
+          "name": "Comcast Business x PLAYERS (Bradford Wilson)",
+          "platforms": {
+            "Instagram": 12.2,
+            "X": 0.29,
+            "TikTok": 0.02,
+            "LinkedIn": 10.09
+          },
+          "all": 2.74,
+          "spend": "$5316"
+        },
+        {
+          "name": "Johnnie O x Under Review 2025 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 6.57,
+            "X": 0.18,
+            "TikTok": 0.22,
+            "Shorts": 0.94
+          },
+          "all": 1.46,
+          "spend": ""
+        },
+        {
+          "name": "Comcast x PLAYERS 2026 (Lauren & Bailey)",
+          "platforms": {
+            "Instagram": 0.88,
+            "Facebook": 0.05,
+            "TikTok": 0.04,
+            "Shorts": 6.15
+          },
+          "all": 2.12,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x 2026 Super Bowl Activation",
+          "platforms": {
+            "Instagram": 1.11,
+            "Facebook": 0.24,
+            "X": 0.88,
+            "TikTok": 0.05,
+            "Shorts": 12.88
+          },
+          "all": 0.75,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Original Content",
+      "overall": {
+        "YouTube": 1.61,
+        "Instagram": 2.32,
+        "Facebook": 0.89,
+        "X": 1.56,
+        "TikTok": 0.97,
+        "LinkedIn": 3.57,
+        "Shorts": 6.42,
+        "All": 2.48
+      },
+      "campaigns": [
+        {
+          "name": "Gatorade x FOS Explains: Women Fueling Football",
+          "platforms": {
+            "YouTube": 1.62,
+            "Instagram": 2.04,
+            "X": 9.08,
+            "TikTok": 2.18,
+            "LinkedIn": 2.7
+          },
+          "all": 2.75,
+          "spend": "$6674"
+        },
+        {
+          "name": "Wilson x FOS Explains",
+          "platforms": {
+            "YouTube": 2.41,
+            "Instagram": 0.77,
+            "X": 0.24,
+            "TikTok": 0.03,
+            "LinkedIn": 2.43
+          },
+          "all": 1.17,
+          "spend": "$8206"
+        },
+        {
+          "name": "FOS Explains x PGA Tour",
+          "platforms": {
+            "YouTube": 1.79,
+            "Instagram": 6.25,
+            "X": 0.24,
+            "TikTok": 0.07,
+            "LinkedIn": 4.32
+          },
+          "all": 1.56,
+          "spend": "$4358"
+        },
+        {
+          "name": "E*TRADE x Portfolio Players (Season 1)",
+          "platforms": {
+            "YouTube": 1.5,
+            "Instagram": 2.39,
+            "Facebook": 0.09,
+            "X": 0.59,
+            "TikTok": 0.07,
+            "LinkedIn": 1.33
+          },
+          "all": 1.2,
+          "spend": "$35522"
+        },
+        {
+          "name": "Pepsi x Stadium Eats",
+          "platforms": {
+            "YouTube": 1.01,
+            "Instagram": 2.59,
+            "Facebook": 1.98,
+            "X": 0.24,
+            "TikTok": 1.88,
+            "LinkedIn": 6.84
+          },
+          "all": 1.19,
+          "spend": ""
+        },
+        {
+          "name": "E*TRADE x Portfolio Players (Season 2)",
+          "platforms": {
+            "YouTube": 1.32,
+            "Instagram": 1.61,
+            "Facebook": 0.61,
+            "X": 0.25,
+            "TikTok": 2.51,
+            "LinkedIn": 3.07,
+            "Shorts": 7.42
+          },
+          "all": 1.42,
+          "spend": "$19064"
+        },
+        {
+          "name": "Bet MGM FOS Explains - Winter Olympics",
+          "platforms": {
+            "YouTube": 1.63,
+            "Instagram": 0.59,
+            "X": 0.28,
+            "TikTok": 0.05,
+            "LinkedIn": 4.27,
+            "Shorts": 5.43
+          },
+          "all": 1.32,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Branded Content",
+      "overall": {
+        "YouTube": 3.17,
+        "Instagram": 2.58,
+        "Facebook": 0.25,
+        "X": 2.79,
+        "TikTok": 0.94,
+        "LinkedIn": 3.47,
+        "Shorts": 2.46,
+        "All": 2.24
+      },
+      "campaigns": [
+        {
+          "name": "Rocket Mortgage x A Dreammate Story",
+          "platforms": {
+            "YouTube": 2.1,
+            "Instagram": 0.82,
+            "Facebook": 0.61,
+            "TikTok": 1.25,
+            "LinkedIn": 2.86,
+            "Shorts": 2.42
+          },
+          "all": 2.23,
+          "spend": ""
+        },
+        {
+          "name": "Dick's Sporting Goods x Boston Bound",
+          "platforms": {
+            "YouTube": 4.79,
+            "Instagram": 0.37,
+            "X": 4.58,
+            "TikTok": 1.46,
+            "LinkedIn": 3.01,
+            "Shorts": 3.54
+          },
+          "all": 3.18,
+          "spend": "$14903"
+        },
+        {
+          "name": "Upper Deck x Athlete Archives",
+          "platforms": {
+            "YouTube": 3.46,
+            "Instagram": 2.29,
+            "Facebook": 0.2,
+            "X": 4.15,
+            "TikTok": 1.13,
+            "LinkedIn": 3.5,
+            "Shorts": 3.88
+          },
+          "all": 3.26,
+          "spend": "$14149"
+        },
+        {
+          "name": "US Bank x Untold Team",
+          "platforms": {
+            "YouTube": 2.16,
+            "Instagram": 4.18,
+            "Facebook": 0.16,
+            "X": 5.68,
+            "LinkedIn": 3.31
+          },
+          "all": 3.41,
+          "spend": "$65548"
+        },
+        {
+          "name": "Wells Fargo x Breaking Barriers",
+          "platforms": {
+            "YouTube": 7.32,
+            "Instagram": 2.84,
+            "TikTok": 0.17,
+            "LinkedIn": 3.18,
+            "Shorts": 0.06
+          },
+          "all": 0.62,
+          "spend": "$20260"
+        },
+        {
+          "name": "LYCRA x Redefined Launch",
+          "platforms": {
+            "YouTube": 2.14,
+            "Instagram": 3.12,
+            "X": 1.29,
+            "TikTok": 2.23,
+            "LinkedIn": 4.39,
+            "Shorts": 2.39
+          },
+          "all": 2.45,
+          "spend": "$14428"
+        },
+        {
+          "name": "Nuveen x The Big Deal (Bobby Bonilla)",
+          "platforms": {
+            "YouTube": 2.03,
+            "Instagram": 3.45,
+            "X": 0.69,
+            "TikTok": 0.25,
+            "LinkedIn": 3.55
+          },
+          "all": 1.65,
+          "spend": "$26885"
+        },
+        {
+          "name": "Gainbridge x USL",
+          "platforms": {
+            "YouTube": 1.35,
+            "Instagram": 3.58,
+            "Facebook": 0.04,
+            "X": 0.36,
+            "TikTok": 0.06,
+            "LinkedIn": 3.94
+          },
+          "all": 1.05,
+          "spend": "$9046"
+        },
+        {
+          "name": "State Farm the Family Assist",
+          "platforms": {
+            "YouTube": 3.14,
+            "Instagram": 2.7,
+            "X": 0.03,
+            "TikTok": 0.15,
+            "LinkedIn": 3.77
+          },
+          "all": 1.8,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "FOS Event - Custom Social",
+      "overall": {
+        "Instagram": 1.67,
+        "Facebook": 4.29,
+        "X": 0.5,
+        "TikTok": 0.15,
+        "LinkedIn": 3.46,
+        "Shorts": 4.86,
+        "All": 1.92
+      },
+      "campaigns": [
+        {
+          "name": "Raising Cane's x The Breakfast Ball 2025",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Polestar x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 0.81,
+            "X": 0.2,
+            "TikTok": 0.02,
+            "LinkedIn": 3.64
+          },
+          "all": 0.42,
+          "spend": "$1011"
+        },
+        {
+          "name": "AG1 x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 1.1,
+            "Facebook": 7.93,
+            "X": 1.28,
+            "TikTok": 0.05,
+            "LinkedIn": 1.39,
+            "Shorts": 1.36
+          },
+          "all": 2.15,
+          "spend": "$1615"
+        },
+        {
+          "name": "Tommy John x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 0.19,
+            "X": 0.13,
+            "TikTok": 0.06,
+            "LinkedIn": 4.1
+          },
+          "all": 0.16,
+          "spend": "$994"
+        },
+        {
+          "name": "RBC House",
+          "platforms": {
+            "Instagram": 2.67,
+            "Facebook": 0.65,
+            "LinkedIn": 3.44
+          },
+          "all": 1.44,
+          "spend": "$10276"
+        },
+        {
+          "name": "Eli Lilly x Courtside Collective",
+          "platforms": {
+            "Instagram": 1.85,
+            "TikTok": 0.04
+          },
+          "all": 1.0,
+          "spend": "$484"
+        },
+        {
+          "name": "Second Acts Live (Sue Bird) x Ally",
+          "platforms": {
+            "Instagram": 1.98,
+            "X": 0.38,
+            "TikTok": 0.77,
+            "Shorts": 0.15
+          },
+          "all": 0.68,
+          "spend": ""
+        },
+        {
+          "name": "Thomas's Bagels x The Breakfast Ball 2026",
+          "platforms": {
+            "Instagram": 3.5,
+            "TikTok": 0.05,
+            "Shorts": 11.82
+          },
+          "all": 6.33,
+          "spend": ""
+        },
+        {
+          "name": "Raising Cane's x The Breakfast Ball 2026",
+          "platforms": {
+            "Instagram": 1.29,
+            "TikTok": 0.03,
+            "LinkedIn": 4.72,
+            "Shorts": 6.09
+          },
+          "all": 3.15,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "FOS Event - Presenting Partner",
+      "overall": {
+        "Instagram": 1.92,
+        "Facebook": 0.1,
+        "X": 0.6,
+        "TikTok": 5.13,
+        "LinkedIn": 2.4,
+        "Shorts": null,
+        "All": 2.03
+      },
+      "campaigns": [
+        {
+          "name": "Elevate x Tuned In",
+          "platforms": {
+            "Instagram": 2.58,
+            "Facebook": 0.0,
+            "X": 0.88,
+            "TikTok": 5.13,
+            "LinkedIn": 3.59
+          },
+          "all": 2.85,
+          "spend": ""
+        },
+        {
+          "name": "Dealmaker x Asset Class",
+          "platforms": {
+            "Instagram": 1.25,
+            "Facebook": 0.19,
+            "X": 0.32,
+            "LinkedIn": 1.22
+          },
+          "all": 0.68,
+          "spend": ""
+        }
+      ]
+    }
+  ]
+};
 
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.55,
-    "impressions": 18148638,
-    "paidImpressions": 18108435,
-    "pctOfTotal": 26.5,
+    "impressions": 13074290,
+    "paidImpressions": 13043235,
+    "pctOfTotal": 24.0,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 4.1,
+    "mvmDeltaPct": 3.2,
     "color": "#E00922"
   },
   {
     "name": "X",
-    "cpm": 1.26,
-    "impressions": 15946021,
-    "paidImpressions": 14215006,
-    "pctOfTotal": 23.3,
+    "cpm": 1.43,
+    "impressions": 10384630,
+    "paidImpressions": 8825240,
+    "pctOfTotal": 19.0,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 1.5,
+    "mvmDeltaPct": 15.7,
     "color": "#1d1d1f"
   },
   {
     "name": "Instagram",
-    "cpm": 5.08,
-    "impressions": 9791447,
-    "paidImpressions": 7731650,
-    "pctOfTotal": 14.3,
+    "cpm": 5.26,
+    "impressions": 8641957,
+    "paidImpressions": 6782199,
+    "pctOfTotal": 15.8,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -9.6,
+    "mvmDeltaPct": -6.3,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.54,
-    "impressions": 8976411,
-    "paidImpressions": 8884530,
-    "pctOfTotal": 13.1,
+    "cpm": 2.49,
+    "impressions": 8034590,
+    "paidImpressions": 7950859,
+    "pctOfTotal": 14.7,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -20.6,
+    "mvmDeltaPct": -22.3,
     "color": "#FF0033"
   },
   {
     "name": "TikTok",
-    "cpm": 2.49,
-    "impressions": 8669492,
-    "paidImpressions": 6199974,
-    "pctOfTotal": 12.6,
+    "cpm": 2.53,
+    "impressions": 8003936,
+    "paidImpressions": 5652018,
+    "pctOfTotal": 14.7,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 11.3,
+    "mvmDeltaPct": 12.9,
     "color": "#000000"
   },
   {
     "name": "Facebook",
-    "cpm": 2.77,
-    "impressions": 5048165,
-    "paidImpressions": 5026178,
-    "pctOfTotal": 7.4,
+    "cpm": 2.81,
+    "impressions": 4911147,
+    "paidImpressions": 4898709,
+    "pctOfTotal": 9.0,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -34.1,
+    "mvmDeltaPct": -33.1,
     "color": "#1877F2"
   },
   {
     "name": "LinkedIn",
-    "cpm": 8.66,
-    "impressions": 1352425,
-    "paidImpressions": 57706,
+    "cpm": 0.0,
+    "impressions": 1073998,
+    "paidImpressions": 0,
     "pctOfTotal": 2.0,
     "mvmCpm": null,
     "mvmDeltaPct": null,
@@ -16670,17 +17833,17 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 14.42,
-    "impressions": 629811,
-    "paidImpressions": 629811,
-    "pctOfTotal": 0.9,
+    "cpm": 13.81,
+    "impressions": 411304,
+    "paidImpressions": 411304,
+    "pctOfTotal": 0.8,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 21.1,
+    "mvmDeltaPct": 15.9,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.12;
+window.PORTFOLIO_CPM_BLEND = 2.29;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
@@ -17381,17 +18544,24 @@ function Sidebar({ active, onNav, campaigns }) {
         const content = active_only.filter(c => c.type === 'content');
         const social  = active_only.filter(c => c.type === 'social');
         const brandx  = active_only.filter(c => c.type === 'brandx');
-        const renderItem = (c) => (
-          <button key={c.id}
-            className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
-            onClick={() => onNav({ view: 'campaign', id: c.id })}>
-            <Ic.campaign/>
-            <span style={{flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'}}>{c.partner}</span>
-            <span className="dot" style={{
-              background: c.statusKind === 'on' ? '#8FC766' : c.statusKind === 'warn' ? '#FF9947' : '#DE6B38'
-            }}/>
-          </button>
-        );
+        const renderItem = (c) => {
+          // Wrapped campaigns have ended — no live pacing to signal, so the
+          // status dot is dropped entirely for them.
+          const isWrapped = c.lifecycle === 'wrapped';
+          return (
+            <button key={c.id}
+              className={"sb-item " + (active === 'campaign' && window.__activeCampaignId === c.id ? 'active' : '')}
+              onClick={() => onNav({ view: 'campaign', id: c.id })}>
+              <Ic.campaign/>
+              <span style={{flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'}}>{c.partner}</span>
+              {!isWrapped && (
+                <span className="dot" style={{
+                  background: c.statusKind === 'on' ? '#8FC766' : c.statusKind === 'warn' ? '#FF9947' : '#DE6B38'
+                }}/>
+              )}
+            </button>
+          );
+        };
         return (
           <>
             {content.length > 0 && <div className="sb-section">Content</div>}
@@ -17534,18 +18704,21 @@ function PaceBar({ pct, onLight = true }) {
 // ============================================================
 // WRAP-CAMPAIGN BUTTON — pinned to the campaign detail header. The viewer
 // is read-only (can't write to YAML directly), so this button:
-//   • toggles a pending "wrap" intent in localStorage
-//   • shows a modal explaining what will change + the YAML edits required
-//   • surfaces a copy-paste YAML snippet so the operator can apply the change
+//   • POSTs { campaign_id, password } to /.netlify/functions/wrap-campaign
+//   • that function flips `lifecycle: wrapped` in config/campaigns.yaml and
+//     commits it; the commit triggers the refresh workflow, which regenerates
+//     the data and Netlify redeploys (~2 min)
 //
-// On the next refresh the operator updates campaigns.yaml manually and the
-// dashboard re-renders with the campaign in the Wrapped section.
+// True one-click: a click arms a 4s inline confirm (so it can't fire by
+// accident), a second click commits the wrap. Falls back to the password
+// prompt the upload form / Refresh-now button already use.
 // ============================================================
 function WrapCampaignButton({ campaign }) {
   const c = campaign;
   const isWrapped = c.lifecycle === 'wrapped';
-  const [open, setOpen] = React.useState(false);
-  const [endDate, setEndDate] = React.useState(() => new Date().toISOString().slice(0, 10));
+  // 'idle' | 'confirm' | 'pending' | 'done' | 'error'
+  const [state, setState] = React.useState('idle');
+  const [msg, setMsg] = React.useState('');
 
   if (isWrapped) {
     return (
@@ -17560,96 +18733,74 @@ function WrapCampaignButton({ campaign }) {
     );
   }
 
-  // Generate the YAML edit instructions
-  const snippet =
-    `# Edit config/campaigns.yaml — find the entry for id: ${c.id}\n` +
-    `# Change these two lines:\n` +
-    `\n` +
-    `    lifecycle: wrapped       # was: active\n` +
-    `    flight_end: ${endDate}   # set to actual end date\n` +
-    `\n` +
-    `# Then run: python -m app.viewer.refresh`;
-
-  const copy = async () => {
+  const commit = async () => {
+    let password = sessionStorage.getItem('inputs.upload.password');
+    if (!password) {
+      password = window.prompt('Team password:') || '';
+      if (!password) { setState('idle'); return; }
+      sessionStorage.setItem('inputs.upload.password', password);
+    }
+    setState('pending');
     try {
-      await navigator.clipboard.writeText(snippet);
-      alert('Copied to clipboard. Paste into config/campaigns.yaml.');
-    } catch {
-      // ignore
+      const res = await fetch('/.netlify/functions/wrap-campaign', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password, campaign_id: c.id }),
+      });
+      const j = await res.json().catch(() => ({}));
+      if (res.ok) {
+        setState('done');
+        setMsg(j.already ? 'Already wrapped' : 'Wrapping — live in ~2 min');
+      } else {
+        if (res.status === 401) sessionStorage.removeItem('inputs.upload.password');
+        setState('error');
+        setMsg(j.error || `HTTP ${res.status}`);
+      }
+    } catch (e) {
+      setState('error');
+      setMsg(String(e?.message || e));
     }
   };
 
+  const onClick = () => {
+    if (state === 'confirm') { commit(); return; }
+    if (state === 'idle' || state === 'error') {
+      setState('confirm');
+      setTimeout(() => setState(s => (s === 'confirm' ? 'idle' : s)), 4000);
+    }
+  };
+
+  const label =
+    state === 'pending' ? 'Wrapping…' :
+    state === 'done'    ? `✓ ${msg}` :
+    state === 'confirm' ? 'Click again to confirm' :
+    state === 'error'   ? '⚠ Try again' :
+    'Mark as wrapped';
+
+  const armed = state === 'confirm' || state === 'done';
+
   return (
-    <>
-      <button onClick={() => setOpen(true)} style={{
-        padding:'8px 14px', borderRadius:'var(--r-md)',
-        background:'var(--bg)', border:'1px solid var(--line)',
-        color:'var(--ink-2)', fontSize:12, fontFamily:'inherit', fontWeight:500,
-        cursor:'pointer', display:'inline-flex', alignItems:'center', gap:6,
-        justifyContent:'center'
-      }}>
-        Mark as wrapped
+    <div style={{display:'flex', flexDirection:'column', gap:4, alignItems:'flex-end'}}>
+      <button
+        onClick={onClick}
+        disabled={state === 'pending' || state === 'done'}
+        title={'Marks this campaign wrapped — commits the config change and redeploys (~2 min)'}
+        style={{
+          padding:'8px 14px', borderRadius:'var(--r-md)',
+          background: armed ? 'var(--liquorice)' : 'var(--bg)',
+          border:'1px solid var(--line)',
+          color: armed ? 'var(--cream)' : 'var(--ink-2)',
+          fontSize:12, fontFamily:'inherit', fontWeight:500,
+          cursor: state === 'pending' ? 'wait' : 'pointer',
+          display:'inline-flex', alignItems:'center', gap:6,
+          justifyContent:'center', transition:'background 0.15s, color 0.15s', width:'100%'
+        }}>
+        {state === 'idle' && <Ic.campaign/>}{label}
       </button>
-
-      {open && (
-        <div style={{
-          position:'fixed', inset:0, zIndex:9999,
-          background:'rgba(31,26,21,0.55)', backdropFilter:'blur(4px)',
-          display:'flex', alignItems:'center', justifyContent:'center', padding:24
-        }} onClick={() => setOpen(false)}>
-          <div onClick={(e) => e.stopPropagation()} style={{
-            background:'var(--surface)', borderRadius:12, padding:28,
-            maxWidth:560, width:'100%', boxShadow:'0 20px 60px rgba(0,0,0,0.3)'
-          }}>
-            <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--ink-3)', fontWeight:600, marginBottom:8}}>
-              Wrap campaign
-            </div>
-            <div style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300, letterSpacing:'-0.01em', marginBottom:14}}>
-              Mark <em>{c.partner}</em> as wrapped?
-            </div>
-            <div style={{fontSize:13, color:'var(--ink-2)', lineHeight:1.6, marginBottom:18}}>
-              The dashboard is read-only, so it can't edit the config file directly.
-              When you confirm, we'll generate the exact two-line YAML edit for you to
-              paste into <code>config/campaigns.yaml</code>. On the next refresh,
-              this campaign moves from <strong>Active</strong> to <strong>Recently wrapped</strong>:
-              the sidebar groups it under Wrapped, and Overview shows a smaller black card
-              with only final delivery numbers.
-            </div>
-
-            <div style={{
-              display:'flex', alignItems:'center', gap:10, marginBottom:18,
-              padding:'12px 14px', background:'var(--bg-soft)',
-              border:'1px solid var(--line)', borderRadius:8
-            }}>
-              <span style={{fontSize:11, fontWeight:600, color:'var(--ink-3)', letterSpacing:'0.06em', textTransform:'uppercase', fontFamily:'var(--mono)'}}>Actual end date</span>
-              <input type="date" value={endDate} onChange={e => setEndDate(e.target.value)}
-                style={{
-                  flex:1, padding:'6px 10px', border:'1px solid var(--line)',
-                  borderRadius:6, fontSize:13, fontFamily:'inherit', background:'var(--bg)'
-                }}/>
-            </div>
-
-            <pre style={{
-              background:'var(--liquorice)', color:'var(--cream)',
-              padding:16, borderRadius:8, fontSize:11, lineHeight:1.55,
-              fontFamily:'var(--mono)', whiteSpace:'pre-wrap', wordBreak:'break-word',
-              margin:'0 0 18px 0', maxHeight:200, overflowY:'auto'
-            }}>{snippet}</pre>
-
-            <div style={{display:'flex', gap:10, justifyContent:'flex-end'}}>
-              <button onClick={() => setOpen(false)} style={{
-                background:'transparent', border:'1px solid var(--line)', borderRadius:6,
-                padding:'9px 16px', fontSize:13, fontFamily:'inherit', cursor:'pointer',
-                color:'var(--ink-2)'
-              }}>Cancel</button>
-              <button onClick={copy} className="btn btn-acc">
-                <Ic.copy/> Copy YAML edit
-              </button>
-            </div>
-          </div>
-        </div>
+      {state === 'error' && (
+        <div style={{fontSize:10, color:'var(--danger, #b8392b)', lineHeight:1.3, maxWidth:200, textAlign:'right'}}>{msg}</div>
       )}
-    </>
+    </div>
   );
 }
 
@@ -17725,6 +18876,10 @@ function WrappedCard({ c, onClick }) {
 function CampaignCard({ c, onClick }) {
   const impPct = (c.impressions.delivered / c.impressions.goal) * 100;
   const budPct = (c.budget.delivered / c.budget.goal) * 100;
+  // Dark-background cards (ink + denim) need light-tinted pills + light pace
+  // bars so the text/track stay legible against the dark fill.
+  const darkBg = c.color === 'ft-ink' || c.color === 'ft-10';
+  const pillText = darkBg ? 'var(--cream)' : 'var(--liquorice)';
   return (
     <div className={"cmp-card " + c.color} onClick={onClick}>
       <div className="arrow"><Ic.arrow/></div>
@@ -17738,16 +18893,16 @@ function CampaignCard({ c, onClick }) {
         </div>
         <div style={{ display: 'flex', gap: 8, marginBottom: 4, flexWrap: 'wrap' }}>
           <span className="pill" style={{
-            background: 'rgba(36,28,23,0.12)', border: 'none', color: 'var(--liquorice)',
+            background: darkBg ? 'rgba(245,241,232,0.18)' : 'rgba(36,28,23,0.12)', border: 'none', color: pillText,
             fontWeight: 600
           }}>
             <span className="dot" style={{
-              background: c.statusKind === 'on' ? '#2f7a3f' : c.statusKind === 'warn' ? '#b8392b' : '#b8392b'
+              background: c.statusKind === 'on' ? (darkBg ? '#a4d77e' : '#2f7a3f') : (darkBg ? '#ffb4a3' : '#b8392b')
             }}/>
             {c.status}
           </span>
           <span className="pill" style={{
-            background: 'rgba(36,28,23,0.08)', border: 'none', color: 'var(--liquorice)'
+            background: darkBg ? 'rgba(245,241,232,0.12)' : 'rgba(36,28,23,0.08)', border: 'none', color: pillText
           }}>{c.type === 'social'
               ? `${c.posts} ${c.posts === 1 ? 'post' : 'posts'}`
               : `${c.episodes} eps · ${c.posts} posts`}</span>
@@ -17759,14 +18914,14 @@ function CampaignCard({ c, onClick }) {
             <span className="pl">Impressions</span>
             <span className="pv">{fmt.num(c.impressions.delivered)} / {fmt.num(c.impressions.goal)}</span>
           </div>
-          <PaceBar pct={impPct} onLight={c.color !== 'ft-ink'}/>
+          <PaceBar pct={impPct} onLight={!darkBg}/>
         </div>
         <div className="pace-row">
           <div className="pace-meta">
             <span className="pl">Budget</span>
             <span className="pv">{fmt.money(c.budget.delivered)} / {fmt.money(c.budget.goal)}</span>
           </div>
-          <PaceBar pct={budPct} onLight={c.color !== 'ft-ink'}/>
+          <PaceBar pct={budPct} onLight={!darkBg}/>
         </div>
       </div>
       <div className="meta-foot">
@@ -18213,8 +19368,14 @@ function OverviewPage({ onOpenCampaign }) {
         </>}
       />
 
-      {/* TOP-OF-DASH CALLOUTS — pulled from per-campaign auto-callouts */}
-      {(SIGNALS && SIGNALS.length > 0) && (
+      {/* TOP-OF-DASH CALLOUTS — pulled from per-campaign auto-callouts.
+          Capped at the top 4 (already ranked by the pipeline) so the strip
+          stays a single clean 4-wide row instead of wrapping a lone tile to a
+          second row. Lower-priority callouts still surface on each campaign's
+          own page. */}
+      {(SIGNALS && SIGNALS.length > 0) && (() => {
+      const shownSignals = SIGNALS.slice(0, 4);
+      return (
       <div className="sec" style={{marginTop: 4}}>
         <div className="sec-h">
           <div>
@@ -18222,8 +19383,8 @@ function OverviewPage({ onOpenCampaign }) {
             <div className="sec-sub" style={{marginTop:6}}>The most important things to know across your active campaigns — auto-flagged from current performance.</div>
           </div>
         </div>
-        <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(SIGNALS.length, 3)}, minmax(0, 1fr))`, gap:14}}>
-          {SIGNALS.map((co, i) => {
+        <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(shownSignals.length, 4)}, minmax(0, 1fr))`, gap:14}}>
+          {shownSignals.map((co, i) => {
             const kind = co.kind || (co.tag === 'WIN' ? 'pos' : co.tag === 'WATCH' ? 'warn' : 'info');
             const tone = kind === 'pos' ? { bar:'var(--pear)', tag:'#2f7a3f' } :
               kind === 'warn' ? { bar:'var(--orange)', tag:'#b8392b' } :
@@ -18258,7 +19419,8 @@ function OverviewPage({ onOpenCampaign }) {
           })}
         </div>
       </div>
-      )}
+      );
+      })()}
 
       {/* CAMPAIGN GRID — active + recently wrapped */}
       {(() => {
@@ -18628,6 +19790,41 @@ window.OverviewPage = OverviewPage;
    Ic, PlatformPill, PageHead, MultiLineChart, Donut, BarChart, PaceBar */
 const { useState: useStateC } = React;
 
+// "Last Updated" label for the campaign header — when this campaign's freshest
+// export was provided (c.lastUpdated, ISO UTC from the pipeline). Renders date
+// + time so the team can see data recency at a glance.
+function fmtLastUpdated(iso) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    const opts = { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'UTC' };
+    return d.toLocaleString('en-US', opts) + ' UTC';
+  } catch {
+    return String(iso);
+  }
+}
+
+// Campaign card colours — one distinct hue per client (see styles.css
+// --pal-* + .cmp-card.ft-*). Dark fills (denim, ink) use light text + tracks;
+// the rest use dark text on the colour. Shared by the regular + BrandX heroes.
+const _toneDark = (v) => ({ bg:`var(${v})`, fg:'var(--liquorice)', dim:'rgba(31,26,21,0.7)', track:'rgba(31,26,21,0.18)', fill:'var(--liquorice)' });
+const _toneLight = (v) => ({ bg:`var(${v})`, fg:'var(--paper)', dim:'rgba(250,247,239,0.75)', track:'rgba(250,247,239,0.2)', fill:'var(--paper)' });
+const CARD_TONES = {
+  'ft-1':  _toneDark('--pal-orange'),
+  'ft-2':  _toneDark('--pal-coral'),
+  'ft-3':  _toneDark('--pal-sky'),
+  'ft-4':  _toneDark('--pal-lime'),
+  'ft-5':  _toneDark('--pal-periwinkle'),
+  'ft-6':  _toneDark('--pal-terracotta'),
+  'ft-7':  _toneDark('--pal-sunflower'),
+  'ft-8':  _toneDark('--pal-aqua'),
+  'ft-9':  _toneDark('--pal-orchid'),
+  'ft-10': _toneLight('--pal-denim'),
+  'ft-11': _toneDark('--pal-fern'),
+  'ft-ink': { bg:'var(--liquorice)', fg:'var(--cream)', dim:'rgba(245,241,232,0.7)', track:'rgba(245,241,232,0.2)', fill:'var(--cream)' },
+};
+function cardToneFor(color) { return CARD_TONES[color] || CARD_TONES['ft-ink']; }
+
 function CampaignPage({ campaignId, onBack }) {
   const c = CAMPAIGNS.find(x => x.id === campaignId) || CAMPAIGNS[0];
   // BrandX campaigns (paid-social performance) get a totally different page
@@ -18669,14 +19866,7 @@ function CampaignPage({ campaignId, onBack }) {
   // distKind: 'organic' | 'organic+boosted' | 'paid'
   const EPISODES = (window.EPISODES_BY_CAMPAIGN || {})[campaignId] || [];
 
-  const cardTone = c.color === 'ft-ink' ? { bg: 'var(--liquorice)', fg: 'var(--cream)', dim: 'rgba(245,241,232,0.7)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' } :
-    c.color === 'ft-1' ? { bg: 'var(--orange)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-2' ? { bg: 'var(--blossom)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-3' ? { bg: 'var(--sky)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-4' ? { bg: 'var(--pear)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-5' ? { bg: 'var(--lilac)', fg: 'var(--liquorice)', dim: 'rgba(31,26,21,0.7)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-6' ? { bg: 'var(--flame)', fg: 'var(--paper)', dim: 'rgba(250,247,239,0.75)', track: 'rgba(250,247,239,0.2)', fill: 'var(--paper)' } :
-    { bg: 'var(--liquorice)', fg: 'var(--cream)', dim: 'rgba(245,241,232,0.7)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' };
+  const cardTone = cardToneFor(c.color);
 
   return (
     <>
@@ -18695,25 +19885,12 @@ function CampaignPage({ campaignId, onBack }) {
             display:'flex', flexDirection:'column', gap:6
           }}>
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Partner</span>
-              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.partner}</span>
-            </div>
-            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
               <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.flight}</span>
             </div>
-            {/* Episode count is only meaningful for content campaigns — social
-                campaigns are post-based and the "episodes" field there is just
-                a count of content components, which doesn't read naturally. */}
-            {c.type !== 'social' && (
-              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-                <span style={{color:'var(--ink-3)', fontWeight:500}}>Episodes</span>
-                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.episodes} live</span>
-              </div>
-            )}
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Format</span>
-              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.leadFormat}</span>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Last Updated</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdated)}</span>
             </div>
           </div>
           <div style={{display:'flex', flexDirection:'column', gap:8, marginLeft:12}}>
@@ -19397,20 +20574,14 @@ function BrandXCampaignPage({ c, onBack }) {
 
   // Card tone — same mapping used on the regular CampaignPage so the BrandX
   // banner picks up its campaign's brand color (sky for E*TRADE).
-  const cardTone =
-    c.color === 'ft-ink' ? { bg: 'var(--liquorice)', fg: 'var(--cream)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' } :
-    c.color === 'ft-1'   ? { bg: 'var(--orange)',  fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-2'   ? { bg: 'var(--blossom)', fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-3'   ? { bg: 'var(--sky)',     fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-4'   ? { bg: 'var(--pear)',    fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-5'   ? { bg: 'var(--lilac)',   fg: 'var(--liquorice)', track: 'rgba(31,26,21,0.18)', fill: 'var(--liquorice)' } :
-    c.color === 'ft-6'   ? { bg: 'var(--flame)',   fg: 'var(--paper)',     track: 'rgba(250,247,239,0.2)', fill: 'var(--paper)' } :
-                           { bg: 'var(--liquorice)', fg: 'var(--cream)', track: 'rgba(245,241,232,0.2)', fill: 'var(--cream)' };
+  const cardTone = cardToneFor(c.color);
 
   // Money / number formatters that handle None gracefully.
   // Money: 2 decimals under $100 (so per-click cost reads as $1.50 not $1.5),
   // no decimals at $100+ (so total spend reads as $4,789 not $4,789.00).
-  const fmtNum = (n) => (n == null ? '—' : window.fmt.num(n));
+  // BrandX shows full, comma-separated numbers everywhere (no 2.0M / 1.6M
+  // abbreviation) so the partner sees exact delivery figures.
+  const fmtNum = (n) => (n == null ? '—' : window.fmt.numFull(n));
   const fmtMoney = (n) => {
     if (n == null || isNaN(Number(n))) return '—';
     const num = Number(n);
@@ -19453,16 +20624,12 @@ function BrandXCampaignPage({ c, onBack }) {
             display:'flex', flexDirection:'column', gap:6
           }}>
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Partner</span>
-              <span style={{color:'var(--ink)', fontWeight:600}}>{c.partner}</span>
-            </div>
-            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
               <span style={{color:'var(--ink)', fontWeight:600}}>{c.flight}</span>
             </div>
             <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Posts</span>
-              <span style={{color:'var(--ink)', fontWeight:600}}>{posts.length}</span>
+              <span style={{color:'var(--ink-3)', fontWeight:500}}>Last Updated</span>
+              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdated)}</span>
             </div>
           </div>
         }
@@ -19568,8 +20735,8 @@ function BrandXCampaignPage({ c, onBack }) {
                 <div>
                   <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Impression delivery</div>
                   <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
-                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.num(totalImpr)}</span>
-                    <span style={{fontSize:14, opacity:0.7}}>of {window.fmt.num(c.impressions.goal)}</span>
+                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.numFull(totalImpr)}</span>
+                    <span style={{fontSize:14, opacity:0.7}}>of {window.fmt.numFull(c.impressions.goal)}</span>
                   </div>
                   <div style={{height:6, background: cardTone.track, borderRadius:999, overflow:'hidden', marginBottom:6}}>
                     <div style={{height:'100%', width: Math.min(100, impPct) + '%', background: cardTone.fill, borderRadius:999}}/>
@@ -19596,7 +20763,7 @@ function BrandXCampaignPage({ c, onBack }) {
                 <div>
                   <div style={{fontSize:11, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600, opacity:0.7, marginBottom:10}}>Total clicks</div>
                   <div style={{display:'flex', alignItems:'baseline', gap:8, marginBottom:8}}>
-                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.num(totalClicks)}</span>
+                    <span style={{fontFamily:'var(--serif)', fontSize:'clamp(34px, 3.4vw, 48px)', lineHeight:1, letterSpacing:'-0.02em', fontWeight:300}}>{window.fmt.numFull(totalClicks)}</span>
                   </div>
                   {/* No goal for clicks — leave the bar slot empty so the
                       sublines on all three columns line up vertically. */}
@@ -19641,7 +20808,7 @@ function BrandXCampaignPage({ c, onBack }) {
                   <div style={tileSub}>
                     {vcr == null
                       ? 'no video starts yet'
-                      : `${window.fmt.num(totalP100)} of ${window.fmt.num(totalVideoStarts)} starts`}
+                      : `${window.fmt.numFull(totalP100)} of ${window.fmt.numFull(totalVideoStarts)} starts`}
                   </div>
                 </div>
 
@@ -19652,7 +20819,7 @@ function BrandXCampaignPage({ c, onBack }) {
                   </div>
                   <div style={tileSub}>
                     {avgViewSec != null
-                      ? `${window.fmt.num(Math.round(totalWatchMin))} min watched`
+                      ? `${window.fmt.numFull(Math.round(totalWatchMin))} min watched`
                       : '—'}
                   </div>
                 </div>
@@ -19724,7 +20891,7 @@ function BrandXCampaignPage({ c, onBack }) {
                   <span style={{width:8, height:8, borderRadius:'50%', background:ch.color}}/>
                   <span style={{fontWeight:500}}>{ch.name}</span>
                 </div>
-                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{window.fmt.num(ch.impressions)}</div>
+                <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontWeight:600}}>{window.fmt.numFull(ch.impressions)}</div>
                 <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{fmtMoney(((ch.cpm || 0) * ch.impressions / 1000).toFixed(0))}</div>
                 <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums'}}>{ch.cpm > 0 ? fmtMoney(ch.cpm.toFixed(2)) : '—'}</div>
                 <div style={{textAlign:'right', fontVariantNumeric:'tabular-nums', fontSize:11,
@@ -20799,11 +21966,17 @@ function NewCampaignForm() {
             </Field>
             <Field label="Accent color">
               <Select value={draft.color} onChange={v => set('color', v)} options={[
-                { v:'ft-1', l:'Flame (orange)' },
-                { v:'ft-2', l:'Pear (green)' },
-                { v:'ft-3', l:'Sky (blue)' },
-                { v:'ft-4', l:'Sunshine (yellow)' },
-                { v:'ft-5', l:'Lilac (purple)' },
+                { v:'ft-1',  l:'Orange' },
+                { v:'ft-2',  l:'Coral' },
+                { v:'ft-3',  l:'Sky (E*TRADE)' },
+                { v:'ft-4',  l:'Lime' },
+                { v:'ft-5',  l:'Periwinkle' },
+                { v:'ft-6',  l:'Terracotta' },
+                { v:'ft-7',  l:'Sunflower' },
+                { v:'ft-8',  l:'Aqua' },
+                { v:'ft-9',  l:'Orchid' },
+                { v:'ft-10', l:'Denim' },
+                { v:'ft-11', l:'Fern' },
               ]}/>
             </Field>
             <Field label="Flight start" required>

@@ -141,6 +141,9 @@ data was last regenerated (UTC).
 
 - `netlify/functions/upload-csv.js` — accepts dashboard uploads, commits to repo
 - `netlify/functions/refresh-now.js` — triggers workflow_dispatch
+- `netlify/functions/wrap-campaign.js` — one-click "Mark as wrapped": commits a
+  `lifecycle: wrapped` edit to `config/campaigns.yaml`, which auto-triggers the
+  refresh workflow (that path is in refresh.yml's on-push filter)
 - `.github/workflows/refresh.yml` — 2-hourly cron + dispatch + on-push refresh
 - `netlify.toml` — Netlify build + function config
 - `requirements.txt` — Python deps for the CI workflow

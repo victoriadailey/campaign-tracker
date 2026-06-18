@@ -2,7 +2,7 @@
 #
 # Layout:
 #   • Static site: served from viewer/ — campaign-pulse.html is the entry point
-#   • Functions: netlify/functions/ — upload-csv, refresh-now
+#   • Functions: netlify/functions/ — upload-csv, refresh-now, wrap-campaign
 #
 # Required env vars (Site settings → Environment variables):
 #   GITHUB_TOKEN     — fine-grained PAT with Contents R/W + Actions R/W

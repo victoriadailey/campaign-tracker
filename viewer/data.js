@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-18T12:46:22Z";
+window.LAST_REFRESHED = "2026-06-18T12:37:19Z";
 
 
 
@@ -61,14 +61,14 @@ window.CAMPAIGNS = [
           "goal": 3200000
         },
         "budget": {
-          "delivered": 5447.09,
+          "delivered": 5447.1,
           "goal": 5416.0
         },
         "posts": 44
       }
     ],
     "benchmarkCategory": "Original Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube In-feed",
@@ -362,17 +362,10 @@ window.CAMPAIGNS = [
       }
     ],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $1K (11%) of budget unspent with 0 days left.",
-        "body": "Impressions are 113% delivered while only 89% of budget has been spent \u2014 already 13% past the goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
-        "meta": "ADP \u00b7 Budget surplus"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "etrade",
@@ -825,7 +818,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "spectrum",
@@ -1037,7 +1031,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "etrade_brandx",
@@ -1048,7 +1043,7 @@ window.CAMPAIGNS = [
     "flight": "May 13 \u2014 Jun 30, 2026",
     "elapsedPct": 75.0,
     "daysLeft": 12,
-    "status": "On Track",
+    "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
       "delivered": 4216779,
@@ -1108,15 +1103,17 @@ window.CAMPAIGNS = [
     "topPostsOrganic": [],
     "callouts": [
       {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $20K (66%) of budget unspent with 12 days left.",
-        "body": "Impressions are 124% delivered while only 34% of budget has been spent \u2014 already 24% past the goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
-        "meta": "E*TRADE \u00b7 Budget surplus"
+        "tag": "WIN",
+        "kind": "pos",
+        "milestone": true,
+        "headline": "Goal hit with $20K (66%) of budget still unspent.",
+        "body": "Delivered 124% of the 3.4M impression goal on only 34% of the $30K budget \u2014 $20K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "meta": "E*TRADE \u00b7 Goal hit"
       }
     ],
     "brandxObjective": "impressions",
-    "brandxSecondaryObjective": "clicks"
+    "brandxSecondaryObjective": "clicks",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "mm",
@@ -1127,14 +1124,14 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jul 30, 2026",
     "elapsedPct": 53.3,
     "daysLeft": 42,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
       "delivered": 1360453,
       "goal": 1500000
     },
     "budget": {
-      "delivered": 1824.59,
+      "delivered": 3146.68,
       "goal": 5000.0
     },
     "color": "ft-5",
@@ -1313,7 +1310,8 @@ window.CAMPAIGNS = [
     ],
     "callouts": [],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "sportclips",
@@ -1334,7 +1332,7 @@ window.CAMPAIGNS = [
       "delivered": 1645.91,
       "goal": 3900.0
     },
-    "color": "ft-2",
+    "color": "ft-7",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 1.0,
@@ -1416,7 +1414,8 @@ window.CAMPAIGNS = [
     "topPostsOrganic": [],
     "callouts": [],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "onlocation",
@@ -1427,7 +1426,7 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jun 30, 2026",
     "elapsedPct": 80.0,
     "daysLeft": 12,
-    "status": "On Track",
+    "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
       "delivered": 5660047,
@@ -1448,7 +1447,7 @@ window.CAMPAIGNS = [
     "views": 635587,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "X",
@@ -1551,11 +1550,12 @@ window.CAMPAIGNS = [
     "topPostsOrganic": [],
     "callouts": [
       {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $7K (45%) of budget unspent with 12 days left.",
-        "body": "Impressions are 103% delivered while only 55% of budget has been spent \u2014 already 3% past the goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
-        "meta": "On Location \u00b7 Budget surplus"
+        "tag": "WIN",
+        "kind": "pos",
+        "milestone": true,
+        "headline": "Goal hit with $7K (45%) of budget still unspent.",
+        "body": "Delivered 103% of the 5.5M impression goal on only 55% of the $16K budget \u2014 $7K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "meta": "On Location \u00b7 Goal hit"
       },
       {
         "tag": "WATCH",
@@ -1566,7 +1566,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "heineken",
@@ -1694,7 +1695,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "rbc_tst",
@@ -1705,7 +1707,7 @@ window.CAMPAIGNS = [
     "flight": "Apr 15 \u2014 Sep 30, 2026",
     "elapsedPct": 38.1,
     "daysLeft": 104,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
       "delivered": 10708005,
@@ -1715,7 +1717,7 @@ window.CAMPAIGNS = [
       "delivered": 24358.04,
       "goal": 30000.0
     },
-    "color": "ft-1",
+    "color": "ft-10",
     "leadFormat": "Mixed",
     "topChannel": "YouTube",
     "er": 5.8,
@@ -2039,7 +2041,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "thrivent",
@@ -2060,7 +2063,7 @@ window.CAMPAIGNS = [
       "delivered": 1249.83,
       "goal": 1000.0
     },
-    "color": "ft-5",
+    "color": "ft-9",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 3.2,
@@ -2071,7 +2074,7 @@ window.CAMPAIGNS = [
     "views": 108697,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "X",
@@ -2183,7 +2186,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T12:37:19Z"
   },
   {
     "id": "betmgm",
@@ -2204,7 +2208,7 @@ window.CAMPAIGNS = [
       "delivered": 832.66,
       "goal": 2500.0
     },
-    "color": "ft-6",
+    "color": "ft-8",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 0.2,
@@ -2262,7 +2266,8 @@ window.CAMPAIGNS = [
       }
     ],
     "brandxObjective": "",
-    "brandxSecondaryObjective": ""
+    "brandxSecondaryObjective": "",
+    "lastUpdated": "2026-06-18T09:57:35Z"
   }
 ];
 
@@ -2645,6 +2650,16 @@ window.SOURCES = [
 ];
 
 window.SIGNALS = [
+  {
+    "tag": "WIN",
+    "kind": "pos",
+    "milestone": true,
+    "headline": "Goal hit with $20K (66%) of budget still unspent.",
+    "body": "Delivered 124% of the 3.4M impression goal on only 34% of the $30K budget \u2014 $20K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "meta": "E*TRADE \u00b7 Goal hit",
+    "campaignId": "etrade_brandx",
+    "campaignPartner": "E*TRADE"
+  },
   {
     "tag": "WIN",
     "kind": "pos",
@@ -9971,10 +9986,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Midge Purce",
       "date": "Jun 16",
       "total": {
-        "impr": 183085,
-        "views": 31321,
-        "er": 1.44,
-        "eng": 2629,
+        "impr": 197726,
+        "views": 36550,
+        "er": 1.71,
+        "eng": 3376,
         "spend": 0
       },
       "perChannel": [
@@ -10019,6 +10034,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 636,
           "er": 2.69,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 2
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 14641,
+          "paidImpr": 0,
+          "orgImpr": 14641,
+          "views": 5229,
+          "eng": 747,
+          "paidEng": 0,
+          "orgEng": 747,
+          "er": 5.1,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -10099,6 +10129,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2066994673206341659",
           "postedAt": "2026-06-16T14:21:47-07:00"
+        },
+        {
+          "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 8248,
+          "paidImpr": 0,
+          "orgImpr": 8248,
+          "views": 3542,
+          "eng": 390,
+          "er": 4.73,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472761999580463104",
+          "postedAt": "2026-06-16T14:28:38-07:00"
         },
         {
           "title": "NWSL star Midge Purce says she was \u201cenvious\u201d of WNBA CBA deal",
@@ -10191,6 +10236,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-06-17T12:36:23-07:00"
         },
         {
+          "title": "\"To give publications like ESPN \\[and others\\] the authority to decide who's worth being paid in a league they don't cov",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6393,
+          "paidImpr": 0,
+          "orgImpr": 6393,
+          "views": 1687,
+          "eng": 357,
+          "er": 5.58,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473079538042826752",
+          "postedAt": "2026-06-17T13:30:01-07:00"
+        },
+        {
           "title": "NWSL star Midge Purce doesn\u2019t think media should decide player pay",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
@@ -10208,24 +10268,24 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\"To give publications like ESPN [and others] the authority to decide who's worth being pai",
-          "platform": "Instagram",
-          "er": 3.9,
-          "reach": 12280,
-          "url": "https://www.instagram.com/p/DZsuPnem-OQ/"
+          "quote": "\"To give publications like ESPN \\[and others\\] the authority to decide who's worth being p",
+          "platform": "LinkedIn",
+          "er": 5.58,
+          "reach": 1687,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473079538042826752"
         },
         {
           "quote": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re",
-          "platform": "TikTok",
-          "er": 3.42,
-          "reach": 1258,
-          "url": "https://tiktok.com/@frontofficesports/video/7652124139129425166"
+          "platform": "LinkedIn",
+          "er": 4.73,
+          "reach": 3542,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472761999580463104"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 3.4% ER on 1.3K impr."
+          "text": "LinkedIn leading with 5.1% ER on 14.6K impr."
         },
         {
           "kind": "pos",
@@ -15898,74 +15958,1157 @@ window.DATA_ARCHIVE = [
   }
 ];
 
-window.BENCHMARKS_DATA = {};
+window.BENCHMARKS_DATA = {
+  "lastUpdated": "3/5 @1pm EST",
+  "platformSummary": [
+    {
+      "row": "All Content",
+      "platforms": {
+        "Instagram": 3.6,
+        "Facebook": 4.0,
+        "X": 2.3,
+        "TikTok": 4.9,
+        "LinkedIn": 5.2,
+        "YouTube": 1.0
+      },
+      "allAvg": 3.5
+    },
+    {
+      "row": "Sponsored (Sprout, No Paid)",
+      "platforms": {
+        "Instagram": 3.8,
+        "Facebook": 2.6,
+        "X": 1.1,
+        "TikTok": 0.9,
+        "LinkedIn": 2.4,
+        "YouTube": 1.0
+      },
+      "allAvg": 1.97
+    },
+    {
+      "row": "Sponsored (All content in this doc)",
+      "platforms": {
+        "Instagram": 3.45,
+        "Facebook": 2.08,
+        "X": 0.93,
+        "TikTok": 1.81,
+        "LinkedIn": 3.68,
+        "YouTube": 3.69
+      },
+      "allAvg": 2.52
+    }
+  ],
+  "categories": [
+    {
+      "name": "Social Coverage Partner",
+      "overall": {
+        "Instagram": 6.82,
+        "Facebook": 1.63,
+        "X": 1.3,
+        "TikTok": 3.29,
+        "LinkedIn": 5.56,
+        "Shorts": 0.75,
+        "All": 4.6
+      },
+      "campaigns": [
+        {
+          "name": "Acura x Business of the Madness (2024)",
+          "platforms": {
+            "Instagram": 11.32,
+            "Facebook": 4.34,
+            "TikTok": 3.95,
+            "LinkedIn": 3.63
+          },
+          "all": 6.34,
+          "spend": "$0"
+        },
+        {
+          "name": "US Bank x Golf",
+          "platforms": {
+            "Instagram": 11.52,
+            "X": 1.97,
+            "TikTok": 4.13,
+            "LinkedIn": 4.75
+          },
+          "all": 6.43,
+          "spend": "$0"
+        },
+        {
+          "name": "Upper Deck x NHL Draft",
+          "platforms": {
+            "Instagram": 3.06,
+            "Facebook": 0.37,
+            "X": 0.64,
+            "TikTok": 1.8,
+            "LinkedIn": 11.08,
+            "Shorts": 0.75
+          },
+          "all": 2.32,
+          "spend": "$2508"
+        },
+        {
+          "name": "Invesco QQQ x Busines of Bowl Season",
+          "platforms": {
+            "Instagram": 4.19,
+            "LinkedIn": 4.38
+          },
+          "all": 4.2,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x 2026 NFL Draft",
+          "platforms": {
+            "Instagram": 4.02,
+            "Facebook": 0.19,
+            "X": 1.28,
+            "LinkedIn": 3.95
+          },
+          "all": 3.69,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Social - Franchise (Non-Correspondent)",
+      "overall": {
+        "Instagram": 4.59,
+        "Facebook": 4.22,
+        "X": 0.46,
+        "TikTok": 4.5,
+        "LinkedIn": 3.44,
+        "Shorts": null,
+        "All": 3.44
+      },
+      "campaigns": [
+        {
+          "name": "TickPick x Big Ticket (9/24 - 2/25)",
+          "platforms": {
+            "Instagram": 7.37,
+            "X": 0.81,
+            "TikTok": 4.82
+          },
+          "all": 7.17,
+          "spend": "$0"
+        },
+        {
+          "name": "Daktronics x Stadium Status (12/24 - 4/25)",
+          "platforms": {
+            "Instagram": 1.46,
+            "LinkedIn": 4.38
+          },
+          "all": 1.56,
+          "spend": "$5000"
+        },
+        {
+          "name": "AT&T x Stadium Status",
+          "platforms": {
+            "Instagram": 1.29,
+            "X": 0.45,
+            "TikTok": 6.0,
+            "LinkedIn": 4.76
+          },
+          "all": 1.39,
+          "spend": "$16992"
+        },
+        {
+          "name": "Gainbridge x The Come Up (Napheesa Collier)",
+          "platforms": {
+            "Instagram": 3.46,
+            "TikTok": 5.31,
+            "LinkedIn": 3.26
+          },
+          "all": 4.85,
+          "spend": "$996"
+        },
+        {
+          "name": "RBC x Second Acts",
+          "platforms": {
+            "Instagram": 5.68,
+            "Facebook": 0.75,
+            "LinkedIn": 1.9
+          },
+          "all": 3.6,
+          "spend": "$2794"
+        },
+        {
+          "name": "Dealmaker x Asset Class",
+          "platforms": {
+            "Instagram": 1.25,
+            "Facebook": 0.19,
+            "X": 0.32,
+            "LinkedIn": 1.22
+          },
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Pepsi x Stadium Eats",
+          "platforms": {
+            "Instagram": 2.59,
+            "Facebook": 1.98,
+            "X": 0.24,
+            "TikTok": 1.88,
+            "LinkedIn": 6.84
+          },
+          "all": 1.19,
+          "spend": ""
+        },
+        {
+          "name": "Toyota x Winter Olympics",
+          "platforms": {
+            "Instagram": 13.61,
+            "Facebook": 13.95,
+            "LinkedIn": 1.73
+          },
+          "all": 13.42,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Social - Non-Franchise (Event Coverage, Custom Shoot, etc.)",
+      "overall": {
+        "Instagram": 5.07,
+        "Facebook": 4.56,
+        "X": 0.91,
+        "TikTok": 0.7,
+        "LinkedIn": 3.6,
+        "Shorts": null,
+        "All": 2.97
+      },
+      "campaigns": [
+        {
+          "name": "Gainbridge x Parity Week 2024",
+          "platforms": {
+            "Instagram": 7.47,
+            "X": 1.13,
+            "LinkedIn": 1.59
+          },
+          "all": 3.46,
+          "spend": "$1198"
+        },
+        {
+          "name": "Laver Cup",
+          "platforms": {
+            "Instagram": 4.03,
+            "Facebook": 0.09,
+            "X": 1.26,
+            "LinkedIn": 2.79
+          },
+          "all": 2.45,
+          "spend": "$2464"
+        },
+        {
+          "name": "LOVB",
+          "platforms": {
+            "Instagram": 8.5,
+            "X": 0.63,
+            "LinkedIn": 4.91
+          },
+          "all": 6.15,
+          "spend": "$1581"
+        },
+        {
+          "name": "Wilson x Super Bowl, ASG, Caitlin Clark",
+          "platforms": {
+            "Instagram": 1.71,
+            "TikTok": 0.13
+          },
+          "all": 0.89,
+          "spend": "$2500"
+        },
+        {
+          "name": "Comcast Business x The Players",
+          "platforms": {
+            "Instagram": 0.15,
+            "LinkedIn": 9.69
+          },
+          "all": 0.24,
+          "spend": "$4996"
+        },
+        {
+          "name": "Champs Sports CSG x Brock Bowers",
+          "platforms": {
+            "Instagram": 8.95,
+            "X": 0.37,
+            "TikTok": 0.06,
+            "LinkedIn": 2.45
+          },
+          "all": 3.27,
+          "spend": "$1791"
+        },
+        {
+          "name": "Atlassian x Australian Grand Prix",
+          "platforms": {
+            "Instagram": 0.29,
+            "X": 0.43,
+            "LinkedIn": 2.05
+          },
+          "all": 0.33,
+          "spend": "$4999"
+        },
+        {
+          "name": "Champs x Fall Football",
+          "platforms": {
+            "Instagram": 3.06,
+            "TikTok": 0.54
+          },
+          "all": 1.76,
+          "spend": "$3972"
+        },
+        {
+          "name": "Nuveen x Bobby Bonilla",
+          "platforms": {
+            "Instagram": 11.09,
+            "X": 1.72,
+            "LinkedIn": 2.26
+          },
+          "all": 5.14,
+          "spend": "$1796"
+        },
+        {
+          "name": "Gatorade x Modern Origins",
+          "platforms": {
+            "Instagram": 3.18,
+            "TikTok": 0.25,
+            "LinkedIn": 2.77
+          },
+          "all": 1.94,
+          "spend": "$12261"
+        },
+        {
+          "name": "Gainbridge x WNBA All-Star",
+          "platforms": {
+            "Instagram": 8.88,
+            "Facebook": 15.69,
+            "TikTok": 3.08,
+            "LinkedIn": 4.92
+          },
+          "all": 11.43,
+          "spend": "$2431"
+        },
+        {
+          "name": "Tissot x NBA",
+          "platforms": {
+            "Instagram": 6.56
+          },
+          "all": 6.56,
+          "spend": "$1299"
+        },
+        {
+          "name": "Healthy Paws x Globetrotting",
+          "platforms": {
+            "Instagram": 3.89,
+            "Facebook": 0.26,
+            "X": 1.46
+          },
+          "all": 2.28,
+          "spend": ""
+        },
+        {
+          "name": "Professional Fighters League",
+          "platforms": {
+            "Instagram": 3.21,
+            "Facebook": 2.19,
+            "X": 0.27,
+            "TikTok": 0.14,
+            "LinkedIn": 2.56
+          },
+          "all": 1.2,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Multimedia Reporter-Led - Franchise",
+      "overall": {
+        "Instagram": 3.0,
+        "Facebook": 1.65,
+        "X": 0.39,
+        "TikTok": 1.94,
+        "LinkedIn": 3.75,
+        "Shorts": 2.73,
+        "All": 2.24
+      },
+      "campaigns": [
+        {
+          "name": "Kaiser Permanante x Stadium Status",
+          "platforms": {
+            "Instagram": 1.16,
+            "X": 0.66,
+            "TikTok": 0.07,
+            "LinkedIn": 4.99,
+            "Shorts": 5.16
+          },
+          "all": 0.54,
+          "spend": "$12214"
+        },
+        {
+          "name": "Daktronics x Stadium Status (Lindsay)",
+          "platforms": {
+            "Instagram": 1.64,
+            "TikTok": 1.64,
+            "LinkedIn": 0.99
+          },
+          "all": 1.05,
+          "spend": "$1200"
+        },
+        {
+          "name": "AT&T x Stadium Status (Intuit Dome)",
+          "platforms": {
+            "Instagram": 1.29,
+            "X": 0.45,
+            "TikTok": 6.0,
+            "LinkedIn": 4.76
+          },
+          "all": 1.39,
+          "spend": "$16992"
+        },
+        {
+          "name": "Fanatics x Stadium Status",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Elevate Stadium Status",
+          "platforms": {
+            "Instagram": 3.18,
+            "X": 0.06,
+            "TikTok": 0.06,
+            "LinkedIn": 4.26,
+            "Shorts": 0.29
+          },
+          "all": 0.96,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x The Come Up",
+          "platforms": {
+            "Instagram": 7.75,
+            "Facebook": 1.65,
+            "X": 0.1,
+            "LinkedIn": 3.32,
+            "Shorts": 25.5
+          },
+          "all": 7.18,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
+      "overall": {
+        "Instagram": 2.31,
+        "Facebook": 0.0,
+        "X": 0.37,
+        "TikTok": 0.45,
+        "LinkedIn": 2.98,
+        "Shorts": 3.97,
+        "All": 1.68
+      },
+      "campaigns": [
+        {
+          "name": "Gainbridge x Parity Week (2024) (Lindsay)",
+          "platforms": {
+            "Instagram": 5.02,
+            "X": 0.35,
+            "TikTok": 0.12
+          },
+          "all": 1.64,
+          "spend": "$898"
+        },
+        {
+          "name": "EA Sports x College Football (Lindsay & Derryl)",
+          "platforms": {
+            "Instagram": 1.01,
+            "X": 1.01,
+            "TikTok": 0.32
+          },
+          "all": 0.69,
+          "spend": "$15417"
+        },
+        {
+          "name": "AWS x NFL Women's Forum (Lindsay)",
+          "platforms": {
+            "Instagram": 0.11,
+            "X": 0.3,
+            "TikTok": 0.03,
+            "LinkedIn": 3.95
+          },
+          "all": 0.15,
+          "spend": "$2499"
+        },
+        {
+          "name": "Invesco x Under Review (Lindsay)",
+          "platforms": {
+            "Instagram": 2.51,
+            "TikTok": 0.05,
+            "Shorts": 2.69
+          },
+          "all": 1.23,
+          "spend": "$21464"
+        },
+        {
+          "name": "Champs Sports x Apparel Playmakers (Derryl)",
+          "platforms": {
+            "Instagram": 1.5,
+            "TikTok": 0.38
+          },
+          "all": 0.96,
+          "spend": "$7940"
+        },
+        {
+          "name": "Tissot x NBA (Derryl)",
+          "platforms": {
+            "Instagram": 1.06,
+            "X": 0.3,
+            "TikTok": 0.03,
+            "LinkedIn": 3.47
+          },
+          "all": 0.48,
+          "spend": "$4041"
+        },
+        {
+          "name": "US Bank x PLL Championship",
+          "platforms": {
+            "Instagram": 3.35,
+            "X": 0.31,
+            "TikTok": 0.4,
+            "Shorts": 9.1
+          },
+          "all": 3.3,
+          "spend": "$1601"
+        },
+        {
+          "name": "PGA Tour x BMW Championship (Derryl)",
+          "platforms": {
+            "Instagram": 1.63,
+            "TikTok": 2.75
+          },
+          "all": 2.37,
+          "spend": "$2524"
+        },
+        {
+          "name": "Gainbridge x WNBA All-Star (Lindsay)",
+          "platforms": {
+            "Instagram": 4.75,
+            "X": 0.24,
+            "TikTok": 0.29,
+            "LinkedIn": 1.53
+          },
+          "all": 1.74,
+          "spend": "$4468"
+        },
+        {
+          "name": "Swag Golf x Ryder Cup",
+          "platforms": {
+            "Instagram": 2.15,
+            "X": 0.11,
+            "TikTok": 0.1,
+            "Shorts": 0.12
+          },
+          "all": 0.5,
+          "spend": "$3080"
+        },
+        {
+          "name": "Laver Cup",
+          "platforms": {
+            "Instagram": 0.3,
+            "X": 7.37,
+            "TikTok": 3.24,
+            "LinkedIn": 1.07
+          },
+          "all": 5.45,
+          "spend": ""
+        },
+        {
+          "name": "Gainbridge Parity Week (2025)",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Creator-Led - Franchise",
+      "overall": {
+        "Instagram": 3.8,
+        "Facebook": 5.19,
+        "X": null,
+        "TikTok": 0.51,
+        "LinkedIn": null,
+        "Shorts": null,
+        "All": 1.58
+      },
+      "campaigns": [
+        {
+          "name": "DIRECTV x The Come Up",
+          "platforms": {
+            "Instagram": 3.8,
+            "Facebook": 5.19,
+            "TikTok": 0.51
+          },
+          "all": 1.58,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Custom Creator-Led - Non-Franchise",
+      "overall": {
+        "Instagram": 3.91,
+        "Facebook": 0.14,
+        "X": 0.45,
+        "TikTok": 1.31,
+        "LinkedIn": 4.58,
+        "Shorts": 4.67,
+        "All": 2.51
+      },
+      "campaigns": [
+        {
+          "name": "Invesco x Under Review 2023 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 5.62,
+            "TikTok": 2.84,
+            "LinkedIn": 3.25,
+            "Shorts": 1.96
+          },
+          "all": 7.0,
+          "spend": "$4914"
+        },
+        {
+          "name": "Invesco x Under Review 2024 (Jordan Rogers MM)",
+          "platforms": {
+            "Instagram": 0.59,
+            "TikTok": 1.08,
+            "Shorts": 2.23
+          },
+          "all": 0.72,
+          "spend": "$8857"
+        },
+        {
+          "name": "Champs x Off the Pitch (Eli Lesser)",
+          "platforms": {
+            "Instagram": 1.3,
+            "TikTok": 7.2,
+            "Shorts": 3.83
+          },
+          "all": 3.37,
+          "spend": "$5646"
+        },
+        {
+          "name": "Gainbridge x Parity Week (2024)",
+          "platforms": {
+            "Instagram": 5.16,
+            "X": 0.43,
+            "TikTok": 0.11
+          },
+          "all": 1.19,
+          "spend": "$2996"
+        },
+        {
+          "name": "Invesco x Under Review 2024 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 1.76,
+            "TikTok": 0.2,
+            "LinkedIn": 0.4
+          },
+          "all": 0.89,
+          "spend": "$29000"
+        },
+        {
+          "name": "Comcast Business x PLAYERS (Bradford Wilson)",
+          "platforms": {
+            "Instagram": 12.2,
+            "X": 0.29,
+            "TikTok": 0.02,
+            "LinkedIn": 10.09
+          },
+          "all": 2.74,
+          "spend": "$5316"
+        },
+        {
+          "name": "Johnnie O x Under Review 2025 (Breneman CFB)",
+          "platforms": {
+            "Instagram": 6.57,
+            "X": 0.18,
+            "TikTok": 0.22,
+            "Shorts": 0.94
+          },
+          "all": 1.46,
+          "spend": ""
+        },
+        {
+          "name": "Comcast x PLAYERS 2026 (Lauren & Bailey)",
+          "platforms": {
+            "Instagram": 0.88,
+            "Facebook": 0.05,
+            "TikTok": 0.04,
+            "Shorts": 6.15
+          },
+          "all": 2.12,
+          "spend": ""
+        },
+        {
+          "name": "US Bank x 2026 Super Bowl Activation",
+          "platforms": {
+            "Instagram": 1.11,
+            "Facebook": 0.24,
+            "X": 0.88,
+            "TikTok": 0.05,
+            "Shorts": 12.88
+          },
+          "all": 0.75,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Original Content",
+      "overall": {
+        "YouTube": 1.61,
+        "Instagram": 2.32,
+        "Facebook": 0.89,
+        "X": 1.56,
+        "TikTok": 0.97,
+        "LinkedIn": 3.57,
+        "Shorts": 6.42,
+        "All": 2.48
+      },
+      "campaigns": [
+        {
+          "name": "Gatorade x FOS Explains: Women Fueling Football",
+          "platforms": {
+            "YouTube": 1.62,
+            "Instagram": 2.04,
+            "X": 9.08,
+            "TikTok": 2.18,
+            "LinkedIn": 2.7
+          },
+          "all": 2.75,
+          "spend": "$6674"
+        },
+        {
+          "name": "Wilson x FOS Explains",
+          "platforms": {
+            "YouTube": 2.41,
+            "Instagram": 0.77,
+            "X": 0.24,
+            "TikTok": 0.03,
+            "LinkedIn": 2.43
+          },
+          "all": 1.17,
+          "spend": "$8206"
+        },
+        {
+          "name": "FOS Explains x PGA Tour",
+          "platforms": {
+            "YouTube": 1.79,
+            "Instagram": 6.25,
+            "X": 0.24,
+            "TikTok": 0.07,
+            "LinkedIn": 4.32
+          },
+          "all": 1.56,
+          "spend": "$4358"
+        },
+        {
+          "name": "E*TRADE x Portfolio Players (Season 1)",
+          "platforms": {
+            "YouTube": 1.5,
+            "Instagram": 2.39,
+            "Facebook": 0.09,
+            "X": 0.59,
+            "TikTok": 0.07,
+            "LinkedIn": 1.33
+          },
+          "all": 1.2,
+          "spend": "$35522"
+        },
+        {
+          "name": "Pepsi x Stadium Eats",
+          "platforms": {
+            "YouTube": 1.01,
+            "Instagram": 2.59,
+            "Facebook": 1.98,
+            "X": 0.24,
+            "TikTok": 1.88,
+            "LinkedIn": 6.84
+          },
+          "all": 1.19,
+          "spend": ""
+        },
+        {
+          "name": "E*TRADE x Portfolio Players (Season 2)",
+          "platforms": {
+            "YouTube": 1.32,
+            "Instagram": 1.61,
+            "Facebook": 0.61,
+            "X": 0.25,
+            "TikTok": 2.51,
+            "LinkedIn": 3.07,
+            "Shorts": 7.42
+          },
+          "all": 1.42,
+          "spend": "$19064"
+        },
+        {
+          "name": "Bet MGM FOS Explains - Winter Olympics",
+          "platforms": {
+            "YouTube": 1.63,
+            "Instagram": 0.59,
+            "X": 0.28,
+            "TikTok": 0.05,
+            "LinkedIn": 4.27,
+            "Shorts": 5.43
+          },
+          "all": 1.32,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "Branded Content",
+      "overall": {
+        "YouTube": 3.17,
+        "Instagram": 2.58,
+        "Facebook": 0.25,
+        "X": 2.79,
+        "TikTok": 0.94,
+        "LinkedIn": 3.47,
+        "Shorts": 2.46,
+        "All": 2.24
+      },
+      "campaigns": [
+        {
+          "name": "Rocket Mortgage x A Dreammate Story",
+          "platforms": {
+            "YouTube": 2.1,
+            "Instagram": 0.82,
+            "Facebook": 0.61,
+            "TikTok": 1.25,
+            "LinkedIn": 2.86,
+            "Shorts": 2.42
+          },
+          "all": 2.23,
+          "spend": ""
+        },
+        {
+          "name": "Dick's Sporting Goods x Boston Bound",
+          "platforms": {
+            "YouTube": 4.79,
+            "Instagram": 0.37,
+            "X": 4.58,
+            "TikTok": 1.46,
+            "LinkedIn": 3.01,
+            "Shorts": 3.54
+          },
+          "all": 3.18,
+          "spend": "$14903"
+        },
+        {
+          "name": "Upper Deck x Athlete Archives",
+          "platforms": {
+            "YouTube": 3.46,
+            "Instagram": 2.29,
+            "Facebook": 0.2,
+            "X": 4.15,
+            "TikTok": 1.13,
+            "LinkedIn": 3.5,
+            "Shorts": 3.88
+          },
+          "all": 3.26,
+          "spend": "$14149"
+        },
+        {
+          "name": "US Bank x Untold Team",
+          "platforms": {
+            "YouTube": 2.16,
+            "Instagram": 4.18,
+            "Facebook": 0.16,
+            "X": 5.68,
+            "LinkedIn": 3.31
+          },
+          "all": 3.41,
+          "spend": "$65548"
+        },
+        {
+          "name": "Wells Fargo x Breaking Barriers",
+          "platforms": {
+            "YouTube": 7.32,
+            "Instagram": 2.84,
+            "TikTok": 0.17,
+            "LinkedIn": 3.18,
+            "Shorts": 0.06
+          },
+          "all": 0.62,
+          "spend": "$20260"
+        },
+        {
+          "name": "LYCRA x Redefined Launch",
+          "platforms": {
+            "YouTube": 2.14,
+            "Instagram": 3.12,
+            "X": 1.29,
+            "TikTok": 2.23,
+            "LinkedIn": 4.39,
+            "Shorts": 2.39
+          },
+          "all": 2.45,
+          "spend": "$14428"
+        },
+        {
+          "name": "Nuveen x The Big Deal (Bobby Bonilla)",
+          "platforms": {
+            "YouTube": 2.03,
+            "Instagram": 3.45,
+            "X": 0.69,
+            "TikTok": 0.25,
+            "LinkedIn": 3.55
+          },
+          "all": 1.65,
+          "spend": "$26885"
+        },
+        {
+          "name": "Gainbridge x USL",
+          "platforms": {
+            "YouTube": 1.35,
+            "Instagram": 3.58,
+            "Facebook": 0.04,
+            "X": 0.36,
+            "TikTok": 0.06,
+            "LinkedIn": 3.94
+          },
+          "all": 1.05,
+          "spend": "$9046"
+        },
+        {
+          "name": "State Farm the Family Assist",
+          "platforms": {
+            "YouTube": 3.14,
+            "Instagram": 2.7,
+            "X": 0.03,
+            "TikTok": 0.15,
+            "LinkedIn": 3.77
+          },
+          "all": 1.8,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "FOS Event - Custom Social",
+      "overall": {
+        "Instagram": 1.67,
+        "Facebook": 4.29,
+        "X": 0.5,
+        "TikTok": 0.15,
+        "LinkedIn": 3.46,
+        "Shorts": 4.86,
+        "All": 1.92
+      },
+      "campaigns": [
+        {
+          "name": "Raising Cane's x The Breakfast Ball 2025",
+          "platforms": {},
+          "all": null,
+          "spend": ""
+        },
+        {
+          "name": "Polestar x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 0.81,
+            "X": 0.2,
+            "TikTok": 0.02,
+            "LinkedIn": 3.64
+          },
+          "all": 0.42,
+          "spend": "$1011"
+        },
+        {
+          "name": "AG1 x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 1.1,
+            "Facebook": 7.93,
+            "X": 1.28,
+            "TikTok": 0.05,
+            "LinkedIn": 1.39,
+            "Shorts": 1.36
+          },
+          "all": 2.15,
+          "spend": "$1615"
+        },
+        {
+          "name": "Tommy John x The Breakfast Ball 2025",
+          "platforms": {
+            "Instagram": 0.19,
+            "X": 0.13,
+            "TikTok": 0.06,
+            "LinkedIn": 4.1
+          },
+          "all": 0.16,
+          "spend": "$994"
+        },
+        {
+          "name": "RBC House",
+          "platforms": {
+            "Instagram": 2.67,
+            "Facebook": 0.65,
+            "LinkedIn": 3.44
+          },
+          "all": 1.44,
+          "spend": "$10276"
+        },
+        {
+          "name": "Eli Lilly x Courtside Collective",
+          "platforms": {
+            "Instagram": 1.85,
+            "TikTok": 0.04
+          },
+          "all": 1.0,
+          "spend": "$484"
+        },
+        {
+          "name": "Second Acts Live (Sue Bird) x Ally",
+          "platforms": {
+            "Instagram": 1.98,
+            "X": 0.38,
+            "TikTok": 0.77,
+            "Shorts": 0.15
+          },
+          "all": 0.68,
+          "spend": ""
+        },
+        {
+          "name": "Thomas's Bagels x The Breakfast Ball 2026",
+          "platforms": {
+            "Instagram": 3.5,
+            "TikTok": 0.05,
+            "Shorts": 11.82
+          },
+          "all": 6.33,
+          "spend": ""
+        },
+        {
+          "name": "Raising Cane's x The Breakfast Ball 2026",
+          "platforms": {
+            "Instagram": 1.29,
+            "TikTok": 0.03,
+            "LinkedIn": 4.72,
+            "Shorts": 6.09
+          },
+          "all": 3.15,
+          "spend": ""
+        }
+      ]
+    },
+    {
+      "name": "FOS Event - Presenting Partner",
+      "overall": {
+        "Instagram": 1.92,
+        "Facebook": 0.1,
+        "X": 0.6,
+        "TikTok": 5.13,
+        "LinkedIn": 2.4,
+        "Shorts": null,
+        "All": 2.03
+      },
+      "campaigns": [
+        {
+          "name": "Elevate x Tuned In",
+          "platforms": {
+            "Instagram": 2.58,
+            "Facebook": 0.0,
+            "X": 0.88,
+            "TikTok": 5.13,
+            "LinkedIn": 3.59
+          },
+          "all": 2.85,
+          "spend": ""
+        },
+        {
+          "name": "Dealmaker x Asset Class",
+          "platforms": {
+            "Instagram": 1.25,
+            "Facebook": 0.19,
+            "X": 0.32,
+            "LinkedIn": 1.22
+          },
+          "all": 0.68,
+          "spend": ""
+        }
+      ]
+    }
+  ]
+};
 
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.55,
-    "impressions": 18148638,
-    "paidImpressions": 18108435,
-    "pctOfTotal": 26.5,
+    "impressions": 13074290,
+    "paidImpressions": 13043235,
+    "pctOfTotal": 24.0,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 4.1,
+    "mvmDeltaPct": 3.2,
     "color": "#E00922"
   },
   {
     "name": "X",
-    "cpm": 1.26,
-    "impressions": 15946021,
-    "paidImpressions": 14215006,
-    "pctOfTotal": 23.3,
+    "cpm": 1.43,
+    "impressions": 10384630,
+    "paidImpressions": 8825240,
+    "pctOfTotal": 19.0,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 1.5,
+    "mvmDeltaPct": 15.7,
     "color": "#1d1d1f"
   },
   {
     "name": "Instagram",
-    "cpm": 5.08,
-    "impressions": 9791447,
-    "paidImpressions": 7731650,
-    "pctOfTotal": 14.3,
+    "cpm": 5.26,
+    "impressions": 8641957,
+    "paidImpressions": 6782199,
+    "pctOfTotal": 15.8,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -9.6,
+    "mvmDeltaPct": -6.3,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.54,
-    "impressions": 8976411,
-    "paidImpressions": 8884530,
-    "pctOfTotal": 13.1,
+    "cpm": 2.49,
+    "impressions": 8034590,
+    "paidImpressions": 7950859,
+    "pctOfTotal": 14.7,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -20.6,
+    "mvmDeltaPct": -22.3,
     "color": "#FF0033"
   },
   {
     "name": "TikTok",
-    "cpm": 2.49,
-    "impressions": 8669492,
-    "paidImpressions": 6199974,
-    "pctOfTotal": 12.6,
+    "cpm": 2.53,
+    "impressions": 8003936,
+    "paidImpressions": 5652018,
+    "pctOfTotal": 14.7,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 11.3,
+    "mvmDeltaPct": 12.9,
     "color": "#000000"
   },
   {
     "name": "Facebook",
-    "cpm": 2.77,
-    "impressions": 5048165,
-    "paidImpressions": 5026178,
-    "pctOfTotal": 7.4,
+    "cpm": 2.81,
+    "impressions": 4911147,
+    "paidImpressions": 4898709,
+    "pctOfTotal": 9.0,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -34.1,
+    "mvmDeltaPct": -33.1,
     "color": "#1877F2"
   },
   {
     "name": "LinkedIn",
-    "cpm": 8.66,
-    "impressions": 1352425,
-    "paidImpressions": 57706,
+    "cpm": 0.0,
+    "impressions": 1073998,
+    "paidImpressions": 0,
     "pctOfTotal": 2.0,
     "mvmCpm": null,
     "mvmDeltaPct": null,
@@ -15973,17 +17116,17 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 14.42,
-    "impressions": 629811,
-    "paidImpressions": 629811,
-    "pctOfTotal": 0.9,
+    "cpm": 13.81,
+    "impressions": 411304,
+    "paidImpressions": 411304,
+    "pctOfTotal": 0.8,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 21.1,
+    "mvmDeltaPct": 15.9,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.12;
+window.PORTFOLIO_CPM_BLEND = 2.29;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
