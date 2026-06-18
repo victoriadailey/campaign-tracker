@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-18T12:37:19Z";
+window.LAST_REFRESHED = "2026-06-18T14:40:11Z";
 
 
 
@@ -365,7 +365,7 @@ window.CAMPAIGNS = [
     "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "etrade",
@@ -373,18 +373,18 @@ window.CAMPAIGNS = [
     "series": "Portfolio Players",
     "seriesItalic": "Players",
     "type": "content",
-    "flight": "Jan 1 \u2014 Jun 30, 2026",
-    "elapsedPct": 93.3,
-    "daysLeft": 12,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "flight": "Jan 1 \u2014 Dec 31, 2026",
+    "elapsedPct": 46.2,
+    "daysLeft": 196,
+    "status": "Pacing Ahead",
+    "statusKind": "on",
     "impressions": {
       "delivered": 24894226,
       "goal": 41700000
     },
     "budget": {
       "delivered": 35803.74,
-      "goal": 50000.0
+      "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
@@ -808,18 +808,10 @@ window.CAMPAIGNS = [
         "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573"
       }
     ],
-    "callouts": [
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace for 64% of goal (26.7M of 41.7M) with 12 days left.",
-        "body": "At the current rate the campaign will fall ~15.0M impressions short of the 41.7M goal. Need to deliver 1.4M impr/day (9.4\u00d7 the current 149K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "E*TRADE \u00b7 Pacing"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "spectrum",
@@ -1032,7 +1024,7 @@ window.CAMPAIGNS = [
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "etrade_brandx",
@@ -1113,7 +1105,7 @@ window.CAMPAIGNS = [
     ],
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "mm",
@@ -1311,7 +1303,7 @@ window.CAMPAIGNS = [
     "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "sportclips",
@@ -1415,7 +1407,7 @@ window.CAMPAIGNS = [
     "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "onlocation",
@@ -1567,7 +1559,7 @@ window.CAMPAIGNS = [
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "heineken",
@@ -1696,7 +1688,7 @@ window.CAMPAIGNS = [
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "rbc_tst",
@@ -2042,7 +2034,7 @@ window.CAMPAIGNS = [
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "thrivent",
@@ -2187,7 +2179,7 @@ window.CAMPAIGNS = [
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "lastUpdated": "2026-06-18T12:37:19Z"
+    "lastUpdated": "2026-06-18T14:40:11Z"
   },
   {
     "id": "betmgm",
@@ -2677,15 +2669,6 @@ window.SIGNALS = [
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 64% of goal (26.7M of 41.7M) with 12 days left.",
-    "body": "At the current rate the campaign will fall ~15.0M impressions short of the 41.7M goal. Need to deliver 1.4M impr/day (9.4\u00d7 the current 149K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "E*TRADE \u00b7 Pacing",
-    "campaignId": "etrade",
-    "campaignPartner": "E*TRADE"
   },
   {
     "tag": "WATCH",

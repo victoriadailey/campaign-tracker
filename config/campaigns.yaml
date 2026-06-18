@@ -112,9 +112,9 @@ campaigns:
     benchmark_category: "Original Content"
     lifecycle: active
     flight_start: 2026-01-01
-    flight_end: 2026-06-30
+    flight_end: 2026-12-31
     impression_goal: 41_700_000
-    budget_goal: 50_000
+    budget_goal: 70_000
     color: ft-3
     lead_format: Longform Video
     blurb: "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched — Cuban + Donovan upcoming will round out the season."
