@@ -1,0 +1,9 @@
+- [Project overview](project_overview.md) — Internal campaign performance tracker for FOS sponsored campaigns; 50+ campaigns/year across paid social, longform content, and cutdowns; replaces hand-edited HTML + GitHub + Netlify workflow
+- [Users & viewers](users.md) — Active editors: Content Strategist, Social Analyst, Victoria (oversight). Viewers: AM, Sales, Partnership Marketing
+- [Data sources](data_sources.md) — Measure Studio CSV exports (primary, 401-col wide format); Google Ads exports (consistent #2 because MS doesn't show YouTube paid); Meta/TikTok/X Ads as fallbacks; benchmarks xlsx
+- [Architecture v3](architecture.md) — **Hybrid**: Streamlit (admin/upload) + Pulse static React (viewer), both on Cloud Run + IAP. Pivoted from Streamlit-only after Claude Design produced the polished Pulse dashboard.
+- [Pulse design spec](pulse_design.md) — Canonical visual identity, page structure, components, palette, typography. The viewer files live at `viewer/` in the repo.
+- [Data model](data_model.md) — Campaigns, normalized posts (melted from MS wide format), snapshots, benchmarks. JSON contract for Pulse viewer in `app/viewer/data_contract.py`.
+- [Measure Studio API status](measure_studio_api.md) — Enterprise tier, API access in progress; Comscore-gated docs at core.comscore.com/api/docs/v1.4/; tool designed so MS parser becomes API client without changing user workflow
+- [MVP scope & roadmap](roadmap.md) — 3-week v1 build; deferred features (recommendations engine, recap export, MS API swap, trends)
+- [Open decisions](open_decisions.md) — Locked: new GCP project, IAP scope = frontofficesports.com only, mine HTML for design. Still open: custom domain, editor/viewer role split
