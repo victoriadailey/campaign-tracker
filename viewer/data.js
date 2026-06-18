@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-18T19:55:16Z";
+window.LAST_REFRESHED = "2026-06-18T20:11:04Z";
 
 
 
@@ -61,7 +61,7 @@ window.CAMPAIGNS = [
           "goal": 3200000
         },
         "budget": {
-          "delivered": 5447.09,
+          "delivered": 5447.1,
           "goal": 5416.0
         },
         "posts": 44
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "etrade",
@@ -813,7 +813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "spectrum",
@@ -1024,7 +1024,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "etrade_brandx",
@@ -1106,7 +1106,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "mm",
@@ -1305,7 +1305,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "sportclips",
@@ -1316,23 +1316,23 @@ window.CAMPAIGNS = [
     "flight": "Jun 11 \u2014 Jun 28, 2026",
     "elapsedPct": 41.2,
     "daysLeft": 10,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 497513,
+      "delivered": 747216,
       "goal": 1650000
     },
     "budget": {
-      "delivered": 1245.02,
+      "delivered": 1732.43,
       "goal": 3900.0
     },
     "color": "ft-7",
     "leadFormat": "Made for Social",
     "topChannel": "X",
-    "er": 0.6,
-    "cpm": 1.23,
+    "er": 0.5,
+    "cpm": 1.3,
     "episodes": 2,
-    "posts": 11,
+    "posts": 12,
     "blurb": "Sport Clips dark-social program in two components: MLB Minute (Mar 23 \u2013 Apr 21, wrapped \u2014 1.1M goal exceeded) and Off the Pitch (Jun 11\u201328, live) with Baker Machado breaking down World Cup stories.",
     "views": 635047,
     "goalSplit": [],
@@ -1342,10 +1342,10 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 1479849,
+        "impressions": 1729552,
         "eng": 0,
         "er": 0.0,
-        "cpm": 0.35,
+        "cpm": 0.58,
         "color": "#1d1d1f",
         "delta": -100.0,
         "bench": {
@@ -1410,22 +1410,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 73% of goal (1.2M of 1.6M) with 10 days left.",
-        "body": "At the current rate the campaign will fall ~442K impressions short of the 1.6M goal. Need to deliver 115K impr/day (1.6\u00d7 the current 71K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "Sport Clips \u00b7 Pacing"
-      },
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "Campaign averaging 0.60% ER \u2014 below the 1% floor.",
-        "body": "0.60% engagement rate across 498K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "headline": "Campaign averaging 0.50% ER \u2014 below the 1% floor.",
+        "body": "0.50% engagement rate across 747K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Sport Clips \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "onlocation",
@@ -1578,7 +1571,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "heineken",
@@ -1708,7 +1701,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "rbc_tst",
@@ -2055,7 +2048,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "thrivent",
@@ -2201,7 +2194,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:55:16Z"
+    "lastUpdated": "2026-06-18T20:11:04Z"
   },
   {
     "id": "betmgm",
@@ -2282,7 +2275,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T19:54:41Z"
+    "lastUpdated": "2026-06-18T09:57:35Z"
   }
 ];
 
@@ -2536,12 +2529,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 15887929,
+    "impressions": 16137632,
     "eng": 378689,
-    "er": 2.38,
-    "cpm": 1.28,
+    "er": 2.35,
+    "cpm": 1.29,
     "color": "#1d1d1f",
-    "delta": 159.1,
+    "delta": 155.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -2692,15 +2685,6 @@ window.SIGNALS = [
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 73% of goal (1.2M of 1.6M) with 10 days left.",
-    "body": "At the current rate the campaign will fall ~442K impressions short of the 1.6M goal. Need to deliver 115K impr/day (1.6\u00d7 the current 71K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Sport Clips \u00b7 Pacing",
-    "campaignId": "sportclips",
-    "campaignPartner": "Sport Clips"
   },
   {
     "tag": "WATCH",
@@ -11535,13 +11519,28 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Off the Pitch",
       "date": "Jun 2026",
       "total": {
-        "impr": 497513,
+        "impr": 747216,
         "views": 308544,
-        "er": 2.74,
+        "er": 1.82,
         "eng": 13616,
-        "spend": 1245.02
+        "spend": 1732.43
       },
       "perChannel": [
+        {
+          "name": "X",
+          "distKind": "paid",
+          "impr": 249703,
+          "paidImpr": 249703,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "paidEng": 0,
+          "orgEng": 0,
+          "er": 0.0,
+          "cpm": 1.95,
+          "spend": 487.41,
+          "posts": 1
+        },
         {
           "name": "TikTok",
           "distKind": "paid",
@@ -11618,6 +11617,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 495.3,
           "url": null,
           "postedAt": "2026-06-11T18:23:35-07:00"
+        },
+        {
+          "title": "Sport Clips: Off the Pitch Video 1",
+          "platform": "X",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 249703,
+          "paidImpr": 249703,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 487.41,
+          "url": null,
+          "postedAt": null
         },
         {
           "title": "Sport Clips: Off the Pitch Video 1",
@@ -14334,6 +14348,29 @@ window.POSTS_BY_CAMPAIGN = {
     },
     {
       "title": "Sport Clips: Off the Pitch Video 1",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 249703,
+      "paidImpr": 249703,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 487.41,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": null,
+      "cpm": 1.95,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Sport Clips: Off the Pitch Video 1",
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
@@ -15732,7 +15769,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 5.8,
     "lastModified": "2026-06-18",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "sportclips",
@@ -16948,19 +16985,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.55,
     "impressions": 13074290,
     "paidImpressions": 13043235,
-    "pctOfTotal": 23.8,
+    "pctOfTotal": 23.7,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 3.2,
     "color": "#E00922"
   },
   {
     "name": "X",
-    "cpm": 1.47,
-    "impressions": 10326538,
-    "paidImpressions": 8767148,
-    "pctOfTotal": 18.8,
+    "cpm": 1.48,
+    "impressions": 10576241,
+    "paidImpressions": 9016851,
+    "pctOfTotal": 19.1,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 18.3,
+    "mvmDeltaPct": 19.4,
     "color": "#1d1d1f"
   },
   {
@@ -16988,7 +17025,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.53,
     "impressions": 8003936,
     "paidImpressions": 5652018,
-    "pctOfTotal": 14.6,
+    "pctOfTotal": 14.5,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 12.9,
     "color": "#000000"
@@ -16998,7 +17035,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.82,
     "impressions": 4991170,
     "paidImpressions": 4978732,
-    "pctOfTotal": 9.1,
+    "pctOfTotal": 9.0,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -32.9,
     "color": "#1877F2"
@@ -17008,7 +17045,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.0,
     "impressions": 1073998,
     "paidImpressions": 0,
-    "pctOfTotal": 2.0,
+    "pctOfTotal": 1.9,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"

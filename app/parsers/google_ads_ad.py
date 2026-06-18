@@ -68,12 +68,10 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
 
 
 def _read_csv(file: IO[bytes] | str | bytes) -> pd.DataFrame | None:
-    if isinstance(file, bytes):
-        file = io.BytesIO(file)
-    try:
-        return pd.read_csv(file, skiprows=METADATA_ROWS, dtype=str, keep_default_na=False, low_memory=False)
-    except Exception:
-        return None
+    # Shared reader also handles exports saved as Excel (.xlsx) but uploaded
+    # with a .csv name — a common Ads Manager mistake.
+    from app.parsers.base import read_ads_table
+    return read_ads_table(file, skiprows=METADATA_ROWS)
 
 
 def _str(value: Any) -> str | None:

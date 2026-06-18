@@ -7,10 +7,58 @@ auto-selects which FOS campaign(s) the upload belongs to.
 
 from __future__ import annotations
 
+import io
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
-from typing import Any
+from typing import IO, Any
+
+import pandas as pd
+
+# ZIP / XLSX local-file-header magic. Ad-platform exports are sometimes saved
+# as Excel and uploaded with a .csv name (a common Ads Manager mistake) — every
+# .xlsx is a zip, so it starts with these bytes.
+_XLSX_MAGIC = b"PK\x03\x04"
+
+
+def _materialize_bytes(file: IO[bytes] | str | bytes) -> bytes | None:
+    """Resolve a parser `file` arg (path / bytes / file-like) to raw bytes."""
+    if isinstance(file, str):
+        try:
+            with open(file, "rb") as fh:
+                return fh.read()
+        except OSError:
+            return None
+    if isinstance(file, (bytes, bytearray)):
+        return bytes(file)
+    data = file.read()
+    return data.encode("utf-8", "replace") if isinstance(data, str) else data
+
+
+def read_ads_table(file: IO[bytes] | str | bytes, *, skiprows: int = 0) -> "pd.DataFrame | None":
+    """Read a delimited ad-platform export into a DataFrame.
+
+    Tolerates files that were exported as Excel (.xlsx) but uploaded with a
+    .csv name — detects the XLSX zip signature and routes to ``read_excel``,
+    otherwise reads as comma-delimited text. Both paths use ``dtype=str`` +
+    ``keep_default_na=False`` so blank cells stay empty strings, matching what
+    the downstream parsers expect. Returns None if the file can't be read.
+    """
+    data = _materialize_bytes(file)
+    if not data:
+        return None
+    try:
+        if data[:4] == _XLSX_MAGIC:
+            return pd.read_excel(
+                io.BytesIO(data), skiprows=skiprows, dtype=str,
+                keep_default_na=False, engine="openpyxl",
+            )
+        return pd.read_csv(
+            io.BytesIO(data), skiprows=skiprows, dtype=str,
+            keep_default_na=False, low_memory=False,
+        )
+    except Exception:
+        return None
 
 
 class Source(str, Enum):

@@ -250,6 +250,17 @@ def _read_table(file: IO[bytes] | str | bytes) -> pd.DataFrame | None:
         if isinstance(data, str):
             data = data.encode("utf-8")
 
+    # Exported as Excel (.xlsx) but uploaded as .csv — read it as a workbook,
+    # skipping the same metadata preamble rows the CSV path skips.
+    if data[:4] == b"PK\x03\x04":
+        try:
+            return pd.read_excel(
+                io.BytesIO(data), skiprows=METADATA_ROWS, dtype=str,
+                keep_default_na=False, engine="openpyxl",
+            )
+        except Exception:
+            return None
+
     # Encoding: UTF-16 if BOM, else UTF-8 with BOM-tolerant decode.
     if data.startswith(b"\xff\xfe") or data.startswith(b"\xfe\xff"):
         encoding = "utf-16"
