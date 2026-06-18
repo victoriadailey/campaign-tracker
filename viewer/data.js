@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-18T20:12:49Z";
+window.LAST_REFRESHED = "2026-06-18T20:35:13Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "etrade",
@@ -813,7 +813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "spectrum",
@@ -824,25 +824,25 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jun 30, 2026",
     "elapsedPct": 80.0,
     "daysLeft": 12,
-    "status": "On Track",
+    "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 9986752,
+      "delivered": 10708125,
       "goal": 10250000
     },
     "budget": {
-      "delivered": 31474.56,
+      "delivered": 33688.79,
       "goal": 29650.0
     },
     "color": "ft-2",
     "leadFormat": "Made for Social",
     "topChannel": "TikTok",
-    "er": 1.4,
-    "cpm": 3.35,
+    "er": 2.6,
+    "cpm": 3.33,
     "episodes": 5,
-    "posts": 19,
+    "posts": 25,
     "blurb": "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending.",
-    "views": 6781152,
+    "views": 7433232,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -866,8 +866,8 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 2554281,
-        "eng": 115555,
+        "impressions": 2593111,
+        "eng": 117174,
         "er": 4.52,
         "cpm": 2.44,
         "color": "#FF0033",
@@ -880,14 +880,30 @@ window.CAMPAIGNS = [
         "views": 1226561
       },
       {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 1719825,
+        "eng": 2610,
+        "er": 0.15,
+        "cpm": 3.81,
+        "color": "#1877F2",
+        "delta": -90.1,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 1215,
+        "views": 1488041
+      },
+      {
         "name": "X",
         "italic": "X",
-        "impressions": 1619377,
-        "eng": 63,
-        "er": 0.0,
-        "cpm": 2.59,
+        "impressions": 1649840,
+        "eng": 141098,
+        "er": 8.55,
+        "cpm": 2.6,
         "color": "#1d1d1f",
-        "delta": -99.6,
+        "delta": 829.6,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -896,42 +912,58 @@ window.CAMPAIGNS = [
         "views": 3808
       },
       {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 1292398,
-        "eng": 2358,
-        "er": 0.18,
-        "cpm": 4.04,
-        "color": "#1877F2",
-        "delta": -88.1,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 1215,
-        "views": 1060614
-      },
-      {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1217804,
-        "eng": 20835,
-        "er": 1.71,
-        "cpm": 7.34,
+        "impressions": 1442457,
+        "eng": 20866,
+        "er": 1.45,
+        "cpm": 6.66,
         "color": "#E4405F",
-        "delta": -48.3,
+        "delta": -56.3,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 40597,
-        "views": 1217804
+        "views": 1442457
       }
     ],
     "topPosts": [
       {
-        "id": "3905073361164670830",
+        "id": "2059009107718185383",
         "rank": 1,
+        "partner": "Spectrum",
+        "platform": "X",
+        "format": "Feed video",
+        "quote": "From the hangar to the race track, go behind the scenes to see how @SpectrumBiz keeps small\u2026",
+        "er": 10.61,
+        "eng": 94570,
+        "reach": 2094,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://twitter.com/FOS/status/2059009107718185383",
+        "postedAt": "2026-05-25T13:30:00-07:00"
+      },
+      {
+        "id": "2065532088074596386",
+        "rank": 2,
+        "partner": "Spectrum",
+        "platform": "X",
+        "format": "Feed video",
+        "quote": "Soccer\u2019s biggest moment has landed in New York and bars across the city are feeling the energy. We\u2026",
+        "er": 6.13,
+        "eng": 46528,
+        "reach": 1714,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://twitter.com/FOS/status/2065532088074596386",
+        "postedAt": "2026-06-12T13:30:00-07:00"
+      },
+      {
+        "id": "3905073361164670830",
+        "rank": 3,
         "partner": "Spectrum",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -978,10 +1010,17 @@ window.CAMPAIGNS = [
     ],
     "callouts": [
       {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "X at 8.6% ER \u2014 9.3\u00d7 the benchmark.",
+        "body": "1.6M impressions, 141K engagements at 8.6% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "meta": "Spectrum \u00b7 X"
+      },
+      {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.59 \u2014 2.4\u00d7 the benchmark.",
-        "body": "$2.59 CPM vs. $1.10 FOS benchmark. At 2.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $2.60 \u2014 2.4\u00d7 the benchmark.",
+        "body": "$2.60 CPM vs. $1.10 FOS benchmark. At 2.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "Spectrum \u00b7 X"
       }
     ],
@@ -998,14 +1037,14 @@ window.CAMPAIGNS = [
       {
         "label": "Small Business Highlights \u2014 NASCAR",
         "impressions": {
-          "delivered": 4108077,
+          "delivered": 4749398,
           "goal": 4000000
         }
       },
       {
         "label": "Small Business Highlights \u2014 World Cup",
         "impressions": {
-          "delivered": 3427838,
+          "delivered": 3497131,
           "goal": 4000000
         }
       },
@@ -1019,12 +1058,12 @@ window.CAMPAIGNS = [
       {
         "label": "Small Business Cutdowns \u2014 World Cup",
         "impressions": {
-          "delivered": 206255,
+          "delivered": 217014,
           "goal": 500000
         }
       }
     ],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "etrade_brandx",
@@ -1106,7 +1145,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "mm",
@@ -1305,7 +1344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "sportclips",
@@ -1418,7 +1457,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "onlocation",
@@ -1571,7 +1610,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "heineken",
@@ -1701,7 +1740,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "rbc_tst",
@@ -2048,7 +2087,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "thrivent",
@@ -2194,7 +2233,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:49Z"
+    "lastUpdated": "2026-06-18T20:35:13Z"
   },
   {
     "id": "betmgm",
@@ -2275,7 +2314,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T20:12:06Z"
+    "lastUpdated": "2026-06-18T20:34:34Z"
   }
 ];
 
@@ -2361,8 +2400,24 @@ window.TOP_POSTS = [
     "postedAt": "2026-06-02T14:30:00-07:00"
   },
   {
-    "id": "2060436014204600769",
+    "id": "2059009107718185383",
     "rank": 6,
+    "partner": "Spectrum",
+    "platform": "X",
+    "format": "Feed video",
+    "quote": "From the hangar to the race track, go behind the scenes to see how @SpectrumBiz keeps small\u2026",
+    "er": 10.61,
+    "eng": 94570,
+    "reach": 2094,
+    "organic": 100,
+    "metric": "er",
+    "insight": "",
+    "url": "https://twitter.com/FOS/status/2059009107718185383",
+    "postedAt": "2026-05-25T13:30:00-07:00"
+  },
+  {
+    "id": "2060436014204600769",
+    "rank": 7,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -2378,7 +2433,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2062610338995179527",
-    "rank": 7,
+    "rank": 8,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -2391,22 +2446,6 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://twitter.com/FOS/status/2062610338995179527",
     "postedAt": "2026-06-04T12:00:00-07:00"
-  },
-  {
-    "id": "2062300799728808408",
-    "rank": 8,
-    "partner": "RBC",
-    "platform": "X",
-    "format": "Feed video",
-    "quote": "Come behind the scenes at @TST7v7 with the back-to-back champion U.S. Women\u2019s Team\u2014featuring\u2026",
-    "er": 8.42,
-    "eng": 16828,
-    "reach": 1495,
-    "organic": 100,
-    "metric": "er",
-    "insight": "",
-    "url": "https://twitter.com/FOS/status/2062300799728808408",
-    "postedAt": "2026-06-03T15:30:01-07:00"
   }
 ];
 
@@ -2513,8 +2552,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 27501432,
-    "eng": 841129,
+    "impressions": 27540262,
+    "eng": 842748,
     "er": 3.06,
     "cpm": 1.22,
     "color": "#E00922",
@@ -2529,12 +2568,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 16137632,
-    "eng": 378689,
-    "er": 2.35,
+    "impressions": 16168095,
+    "eng": 519724,
+    "er": 3.21,
     "cpm": 1.29,
     "color": "#1d1d1f",
-    "delta": 155.1,
+    "delta": 249.4,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -2545,18 +2584,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 9930050,
-    "eng": 187978,
-    "er": 1.89,
-    "cpm": 5.05,
+    "impressions": 10154703,
+    "eng": 188009,
+    "er": 1.85,
+    "cpm": 5.0,
     "color": "#E4405F",
-    "delta": -42.8,
+    "delta": -44.1,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 9888525
+    "views": 10113178
   },
   {
     "name": "TikTok",
@@ -2577,18 +2616,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 5128188,
-    "eng": 4226,
+    "impressions": 5555615,
+    "eng": 4478,
     "er": 0.08,
-    "cpm": 2.78,
+    "cpm": 2.8,
     "color": "#1877F2",
-    "delta": -94.6,
+    "delta": -94.7,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 3992437
+    "views": 4419864
   },
   {
     "name": "LinkedIn",
@@ -2689,8 +2728,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "X CPM at $2.59 \u2014 2.4\u00d7 the benchmark.",
-    "body": "$2.59 CPM vs. $1.10 FOS benchmark. At 2.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "headline": "X CPM at $2.60 \u2014 2.4\u00d7 the benchmark.",
+    "body": "$2.60 CPM vs. $1.10 FOS benchmark. At 2.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
     "meta": "Spectrum \u00b7 X",
     "campaignId": "spectrum",
     "campaignPartner": "Spectrum"
@@ -10409,11 +10448,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "NASCAR \u2014 Small Business Highlight",
       "date": "May 2026",
       "total": {
-        "impr": 4108077,
-        "views": 2532749,
-        "er": 1.83,
-        "eng": 75339,
-        "spend": 12669.33
+        "impr": 4749398,
+        "views": 3174070,
+        "er": 3.58,
+        "eng": 170136,
+        "spend": 14669.25
       },
       "perChannel": [
         {
@@ -10453,43 +10492,43 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 841050,
           "orgImpr": 49998,
           "views": 2094,
-          "eng": 43,
-          "paidEng": 0,
+          "eng": 94570,
+          "paidEng": 94527,
           "orgEng": 43,
-          "er": 0.0,
+          "er": 10.61,
           "cpm": 2.46,
           "spend": 2069.0,
           "posts": 1
         },
         {
-          "name": "Instagram",
-          "distKind": "organic+boosted",
-          "impr": 278651,
-          "paidImpr": 264092,
-          "orgImpr": 14559,
-          "views": 278651,
-          "eng": 8899,
-          "paidEng": 0,
-          "orgEng": 8899,
-          "er": 3.19,
-          "cpm": 8.76,
-          "spend": 2313.44,
-          "posts": 1
-        },
-        {
           "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 269529,
-          "paidImpr": 268861,
+          "impr": 686883,
+          "paidImpr": 686215,
           "orgImpr": 668,
-          "views": 249165,
-          "eng": 714,
-          "paidEng": 0,
+          "views": 666519,
+          "eng": 953,
+          "paidEng": 239,
           "orgEng": 714,
-          "er": 0.26,
-          "cpm": 6.75,
-          "spend": 1815.17,
-          "posts": 1
+          "er": 0.14,
+          "cpm": 4.53,
+          "spend": 3111.01,
+          "posts": 3
+        },
+        {
+          "name": "Instagram",
+          "distKind": "organic+boosted",
+          "impr": 502618,
+          "paidImpr": 488059,
+          "orgImpr": 14559,
+          "views": 502618,
+          "eng": 8930,
+          "paidEng": 31,
+          "orgEng": 8899,
+          "er": 1.78,
+          "cpm": 6.18,
+          "spend": 3017.52,
+          "posts": 3
         }
       ],
       "posts": [
@@ -10532,8 +10571,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 841050,
           "orgImpr": 49998,
           "views": 2094,
-          "eng": 43,
-          "er": 0.0,
+          "eng": 94570,
+          "er": 10.61,
           "spend": 2069.0,
           "url": "https://twitter.com/FOS/status/2059009107718185383",
           "postedAt": "2026-05-25T13:30:00-07:00"
@@ -10567,9 +10606,76 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 2313.44,
           "url": "https://www.instagram.com/p/DYxm4gyD5du/",
           "postedAt": "2026-05-25T13:33:09-07:00"
+        },
+        {
+          "title": "Spectrum_NASCAR_Small Biz Cutdown2",
+          "platform": "Facebook",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 235431,
+          "paidImpr": 235431,
+          "orgImpr": 0,
+          "views": 235431,
+          "eng": 143,
+          "er": 0.06,
+          "spend": 737.3,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "Spectrum_NASCAR_Small Biz Cutdown1",
+          "platform": "Facebook",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 181923,
+          "paidImpr": 181923,
+          "orgImpr": 0,
+          "views": 181923,
+          "eng": 96,
+          "er": 0.05,
+          "spend": 558.55,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "Spectrum_NASCAR_Small Biz Cutdown1",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 141764,
+          "paidImpr": 141764,
+          "orgImpr": 0,
+          "views": 141764,
+          "eng": 18,
+          "er": 0.01,
+          "spend": 441.41,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "Spectrum_NASCAR_Small Biz Cutdown2",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 82203,
+          "paidImpr": 82203,
+          "orgImpr": 0,
+          "views": 82203,
+          "eng": 13,
+          "er": 0.02,
+          "spend": 262.66,
+          "url": null,
+          "postedAt": null
         }
       ],
       "topPosts": [
+        {
+          "quote": "From the hangar to the race track, go behind the scenes to see how @SpectrumBiz keeps smal",
+          "platform": "X",
+          "er": 10.61,
+          "reach": 2094,
+          "url": "https://twitter.com/FOS/status/2059009107718185383"
+        },
         {
           "quote": "From the hangar to the race track, go behind the scenes to see how @getspectrumbusiness ke",
           "platform": "Instagram",
@@ -10581,7 +10687,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "Instagram leading with 3.2% ER on 278.7K impr."
+          "text": "X leading with 10.6% ER on 891.0K impr."
         }
       ],
       "impressionGoal": 4000000,
@@ -10702,11 +10808,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "World Cup \u2014 Small Business Highlight",
       "date": "Jun 2026",
       "total": {
-        "impr": 3427838,
+        "impr": 3497131,
         "views": 1995628,
-        "er": 1.07,
-        "eng": 36580,
-        "spend": 10093.64
+        "er": 2.42,
+        "eng": 84707,
+        "spend": 10273.55
       },
       "perChannel": [
         {
@@ -10727,31 +10833,31 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 814104,
-          "paidImpr": 814104,
+          "impr": 852934,
+          "paidImpr": 852934,
           "orgImpr": 682,
           "views": 146462,
-          "eng": 30443,
-          "paidEng": 30443,
+          "eng": 32062,
+          "paidEng": 32062,
           "orgEng": 0,
-          "er": 3.74,
-          "cpm": 2.46,
-          "spend": 2005.26,
+          "er": 3.76,
+          "cpm": 2.45,
+          "spend": 2092.48,
           "posts": 1
         },
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 728329,
-          "paidImpr": 721554,
+          "impr": 758792,
+          "paidImpr": 752017,
           "orgImpr": 6775,
           "views": 1714,
-          "eng": 20,
-          "paidEng": 0,
+          "eng": 46528,
+          "paidEng": 46508,
           "orgEng": 20,
-          "er": 0.0,
-          "cpm": 2.74,
-          "spend": 1974.99,
+          "er": 6.13,
+          "cpm": 2.75,
+          "spend": 2067.68,
           "posts": 1
         },
         {
@@ -10806,13 +10912,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 728329,
-          "paidImpr": 721554,
+          "impr": 758792,
+          "paidImpr": 752017,
           "orgImpr": 6775,
           "views": 1714,
-          "eng": 20,
-          "er": 0.0,
-          "spend": 1974.99,
+          "eng": 46528,
+          "er": 6.13,
+          "spend": 2067.68,
           "url": "https://twitter.com/FOS/status/2065532088074596386",
           "postedAt": "2026-06-12T13:30:00-07:00"
         },
@@ -10821,13 +10927,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 814104,
-          "paidImpr": 814104,
+          "impr": 852934,
+          "paidImpr": 852934,
           "orgImpr": 0,
           "views": 146462,
-          "eng": 30443,
-          "er": 3.74,
-          "spend": 2005.26,
+          "eng": 32062,
+          "er": 3.76,
+          "spend": 2092.48,
           "url": "https://www.youtube.com/shorts/rYVcjIc1Tpc",
           "postedAt": "2026-06-12T13:30:20-07:00"
         },
@@ -10862,8 +10968,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-06-12T13:33:07-07:00"
         }
       ],
-      "topPosts": [],
-      "callouts": [],
+      "topPosts": [
+        {
+          "quote": "Soccer\u2019s biggest moment has landed in New York and bars across the city are feeling the en",
+          "platform": "X",
+          "er": 6.13,
+          "reach": 1714,
+          "url": "https://twitter.com/FOS/status/2065532088074596386"
+        }
+      ],
+      "callouts": [
+        {
+          "kind": "pos",
+          "text": "X leading with 6.1% ER on 758.8K impr."
+        }
+      ],
       "impressionGoal": 4000000,
       "budgetGoal": 10125
     },
@@ -10872,72 +10991,102 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "World Cup \u2014 Small Business Cutdowns",
       "date": "Jun 2026",
       "total": {
-        "impr": 206255,
-        "views": 206255,
+        "impr": 217014,
+        "views": 217014,
         "er": 0.07,
-        "eng": 149,
-        "spend": 658.99
+        "eng": 162,
+        "spend": 693.39
       },
       "perChannel": [
         {
           "name": "Facebook",
           "distKind": "paid",
-          "impr": 194744,
-          "paidImpr": 194744,
+          "impr": 204817,
+          "paidImpr": 204817,
           "orgImpr": 0,
-          "views": 194744,
-          "eng": 147,
-          "paidEng": 147,
+          "views": 204817,
+          "eng": 160,
+          "paidEng": 160,
           "orgEng": 0,
           "er": 0.08,
           "cpm": 3.19,
-          "spend": 621.43,
-          "posts": 1
+          "spend": 653.61,
+          "posts": 2
         },
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 11511,
-          "paidImpr": 11511,
+          "impr": 12197,
+          "paidImpr": 12197,
           "orgImpr": 0,
-          "views": 11511,
+          "views": 12197,
           "eng": 2,
           "paidEng": 2,
           "orgEng": 0,
           "er": 0.02,
           "cpm": 3.26,
-          "spend": 37.56,
-          "posts": 1
+          "spend": 39.78,
+          "posts": 2
         }
       ],
       "posts": [
         {
-          "title": "Spectrum_WorldCup_Small Biz Cutdowns",
+          "title": "Spectrum_WorldCup_Small Biz Cutdown 2",
           "platform": "Facebook",
           "accountName": null,
           "distKind": "paid",
-          "impr": 194744,
-          "paidImpr": 194744,
+          "impr": 109428,
+          "paidImpr": 109428,
           "orgImpr": 0,
-          "views": 194744,
-          "eng": 147,
-          "er": 0.08,
-          "spend": 621.43,
+          "views": 109428,
+          "eng": 80,
+          "er": 0.07,
+          "spend": 348.05,
           "url": null,
           "postedAt": null
         },
         {
-          "title": "Spectrum_WorldCup_Small Biz Cutdowns",
+          "title": "Spectrum_WorldCup_Small Biz Cutdown1",
+          "platform": "Facebook",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 95389,
+          "paidImpr": 95389,
+          "orgImpr": 0,
+          "views": 95389,
+          "eng": 80,
+          "er": 0.08,
+          "spend": 305.56,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "Spectrum_WorldCup_Small Biz Cutdown1",
           "platform": "Instagram",
           "accountName": null,
           "distKind": "paid",
-          "impr": 11511,
-          "paidImpr": 11511,
+          "impr": 8560,
+          "paidImpr": 8560,
           "orgImpr": 0,
-          "views": 11511,
+          "views": 8560,
           "eng": 2,
           "er": 0.02,
-          "spend": 37.56,
+          "spend": 28.05,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "Spectrum_WorldCup_Small Biz Cutdown 2",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 3637,
+          "paidImpr": 3637,
+          "orgImpr": 0,
+          "views": 3637,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 11.73,
           "url": null,
           "postedAt": null
         }
@@ -13200,8 +13349,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 49998,
       "views": 2094,
       "reach": 0,
-      "eng": 43,
-      "er": 0.0,
+      "eng": 94570,
+      "er": 10.61,
       "spend": 2069.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -13258,6 +13407,98 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 255592,
       "url": "https://www.instagram.com/p/DYxm4gyD5du/",
       "postedAt": "2026-05-25T13:33:09-07:00"
+    },
+    {
+      "title": "Spectrum_NASCAR_Small Biz Cutdown2",
+      "platform": "Facebook",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 235431,
+      "paidImpr": 235431,
+      "orgImpr": 0,
+      "views": 235431,
+      "reach": 100675,
+      "eng": 143,
+      "er": 0.06,
+      "spend": 737.3,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.13,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Spectrum_NASCAR_Small Biz Cutdown1",
+      "platform": "Facebook",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 181923,
+      "paidImpr": 181923,
+      "orgImpr": 0,
+      "views": 181923,
+      "reach": 73985,
+      "eng": 96,
+      "er": 0.05,
+      "spend": 558.55,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.07,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Spectrum_NASCAR_Small Biz Cutdown1",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 141764,
+      "paidImpr": 141764,
+      "orgImpr": 0,
+      "views": 141764,
+      "reach": 88514,
+      "eng": 18,
+      "er": 0.01,
+      "spend": 441.41,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.11,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Spectrum_NASCAR_Small Biz Cutdown2",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 82203,
+      "paidImpr": 82203,
+      "orgImpr": 0,
+      "views": 82203,
+      "reach": 63132,
+      "eng": 13,
+      "er": 0.02,
+      "spend": 262.66,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.2,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     },
     {
       "title": "From the hangar to race day, see how Spectrum Business helps keep the Vintage Flying Museum connected while fueling big ",
@@ -13379,19 +13620,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 728329,
-      "paidImpr": 721554,
+      "impr": 758792,
+      "paidImpr": 752017,
       "orgImpr": 6775,
       "views": 1714,
       "reach": 0,
-      "eng": 20,
-      "er": 0.0,
-      "spend": 1974.99,
+      "eng": 46528,
+      "er": 6.13,
+      "spend": 2067.68,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.74,
+      "cpm": 2.75,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2065532088074596386",
@@ -13402,19 +13643,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 814104,
-      "paidImpr": 814104,
+      "impr": 852934,
+      "paidImpr": 852934,
       "orgImpr": 0,
       "views": 146462,
       "reach": 0,
-      "eng": 30443,
-      "er": 3.74,
-      "spend": 2005.26,
+      "eng": 32062,
+      "er": 3.76,
+      "spend": 2092.48,
       "watchTimeMin": 6606.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.46,
+      "cpm": 2.45,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/rYVcjIc1Tpc",
@@ -13467,46 +13708,92 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-06-12T13:33:07-07:00"
     },
     {
-      "title": "Spectrum_WorldCup_Small Biz Cutdowns",
+      "title": "Spectrum_WorldCup_Small Biz Cutdown 2",
       "platform": "Facebook",
       "accountName": null,
       "distKind": "paid",
-      "impr": 194744,
-      "paidImpr": 194744,
+      "impr": 109428,
+      "paidImpr": 109428,
       "orgImpr": 0,
-      "views": 194744,
-      "reach": 81515,
-      "eng": 147,
-      "er": 0.08,
-      "spend": 621.43,
+      "views": 109428,
+      "reach": 54189,
+      "eng": 80,
+      "er": 0.07,
+      "spend": 348.05,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.19,
+      "cpm": 3.18,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
       "postedAt": null
     },
     {
-      "title": "Spectrum_WorldCup_Small Biz Cutdowns",
-      "platform": "Instagram",
+      "title": "Spectrum_WorldCup_Small Biz Cutdown1",
+      "platform": "Facebook",
       "accountName": null,
       "distKind": "paid",
-      "impr": 11511,
-      "paidImpr": 11511,
+      "impr": 95389,
+      "paidImpr": 95389,
       "orgImpr": 0,
-      "views": 11511,
-      "reach": 10018,
-      "eng": 2,
-      "er": 0.02,
-      "spend": 37.56,
+      "views": 95389,
+      "reach": 47189,
+      "eng": 80,
+      "er": 0.08,
+      "spend": 305.56,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.26,
+      "cpm": 3.2,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Spectrum_WorldCup_Small Biz Cutdown1",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 8560,
+      "paidImpr": 8560,
+      "orgImpr": 0,
+      "views": 8560,
+      "reach": 7399,
+      "eng": 2,
+      "er": 0.02,
+      "spend": 28.05,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.28,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Spectrum_WorldCup_Small Biz Cutdown 2",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 3637,
+      "paidImpr": 3637,
+      "orgImpr": 0,
+      "views": 3637,
+      "reach": 3308,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 11.73,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.23,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -15700,7 +15987,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
-    "fileSizeKb": 0.5,
+    "fileSizeKb": 0.4,
     "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
@@ -15722,10 +16009,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
-    "fileSizeKb": 3.3,
+    "fileSizeKb": 2.5,
     "lastModified": "2026-06-18",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 8
   },
   {
     "campaignId": "mm",
@@ -16985,37 +17272,37 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.55,
     "impressions": 13074290,
     "paidImpressions": 13043235,
-    "pctOfTotal": 23.7,
+    "pctOfTotal": 23.4,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 3.2,
     "color": "#E00922"
   },
   {
     "name": "X",
-    "cpm": 1.48,
-    "impressions": 10576241,
-    "paidImpressions": 9016851,
-    "pctOfTotal": 19.1,
+    "cpm": 1.49,
+    "impressions": 10606704,
+    "paidImpressions": 9047314,
+    "pctOfTotal": 19.0,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 19.4,
+    "mvmDeltaPct": 19.8,
     "color": "#1d1d1f"
   },
   {
     "name": "Instagram",
-    "cpm": 5.22,
-    "impressions": 8767891,
-    "paidImpressions": 6908133,
-    "pctOfTotal": 15.9,
+    "cpm": 5.16,
+    "impressions": 8992544,
+    "paidImpressions": 7132786,
+    "pctOfTotal": 16.1,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -7.1,
+    "mvmDeltaPct": -8.3,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
     "cpm": 2.48,
-    "impressions": 8330712,
-    "paidImpressions": 8246981,
-    "pctOfTotal": 15.1,
+    "impressions": 8369542,
+    "paidImpressions": 8285811,
+    "pctOfTotal": 15.0,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -22.5,
     "color": "#FF0033"
@@ -17025,19 +17312,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.53,
     "impressions": 8003936,
     "paidImpressions": 5652018,
-    "pctOfTotal": 14.5,
+    "pctOfTotal": 14.3,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 12.9,
     "color": "#000000"
   },
   {
     "name": "Facebook",
-    "cpm": 2.82,
-    "impressions": 4991170,
-    "paidImpressions": 4978732,
-    "pctOfTotal": 9.0,
+    "cpm": 2.84,
+    "impressions": 5418597,
+    "paidImpressions": 5406159,
+    "pctOfTotal": 9.7,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -32.9,
+    "mvmDeltaPct": -32.4,
     "color": "#1877F2"
   },
   {
@@ -17062,7 +17349,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.3;
+window.PORTFOLIO_CPM_BLEND = 2.31;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
