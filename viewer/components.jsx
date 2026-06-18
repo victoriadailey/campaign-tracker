@@ -126,6 +126,44 @@ function RefreshFooter() {
   const [status, setStatus] = React.useState({ kind: 'idle' });
   const last = window.LAST_REFRESHED || null;
 
+  // Poll the deployed /data.js for a newer LAST_REFRESHED than the one this
+  // page loaded with. When it advances, the refresh has landed + redeployed,
+  // so we flip to "Updated" and reload to show the fresh data. Times out so
+  // the button can't hang forever (e.g. when MS returns no new data and the
+  // workflow skips the commit — nothing to update).
+  const pollRef = React.useRef(null);
+  React.useEffect(() => () => { if (pollRef.current) clearInterval(pollRef.current); }, []);
+
+  const fetchLastRefreshed = async () => {
+    try {
+      const res = await fetch('/data.js?_=' + Date.now(), {
+        headers: { Range: 'bytes=0-8191' },  // LAST_REFRESHED sits at the top
+        cache: 'no-store',
+      });
+      const txt = await res.text();
+      const m = txt.match(/LAST_REFRESHED\s*=\s*"([^"]+)"/);
+      return m ? m[1] : null;
+    } catch { return null; }
+  };
+
+  const startPolling = (baseline) => {
+    const deadline = Date.now() + 6 * 60 * 1000;  // 6 min cap
+    if (pollRef.current) clearInterval(pollRef.current);
+    pollRef.current = setInterval(async () => {
+      if (Date.now() > deadline) {
+        clearInterval(pollRef.current); pollRef.current = null;
+        setStatus({ kind: 'stale' });
+        return;
+      }
+      const lr = await fetchLastRefreshed();
+      if (lr && lr !== baseline) {
+        clearInterval(pollRef.current); pollRef.current = null;
+        setStatus({ kind: 'updated' });
+        setTimeout(() => window.location.reload(), 1500);
+      }
+    }, 15000);
+  };
+
   // Render an absolute timestamp like "Jun 3, 8:47pm UTC" — relative
   // ("2 min ago") is friendlier but stale after page-load, and the team
   // shares this dashboard across timezones so an explicit timezone helps.
@@ -147,6 +185,7 @@ function RefreshFooter() {
       if (!password) return;
       sessionStorage.setItem('inputs.upload.password', password);
     }
+    const baseline = window.LAST_REFRESHED || '';
     setStatus({ kind: 'pending' });
     try {
       const res = await fetch('/.netlify/functions/refresh-now', {
@@ -157,6 +196,7 @@ function RefreshFooter() {
       const j = await res.json().catch(() => ({}));
       if (res.ok) {
         setStatus({ kind: 'queued', message: j.message || 'Refresh queued.' });
+        startPolling(baseline);  // flip to "Updated" once /data.js advances
       } else {
         if (res.status === 401) sessionStorage.removeItem('inputs.upload.password');
         setStatus({ kind: 'error', message: j.error || `HTTP ${res.status}` });
@@ -178,23 +218,31 @@ function RefreshFooter() {
       <div style={{fontSize: 10, fontFamily: 'var(--mono)', color: 'var(--ink-3)', letterSpacing: '0.04em'}}>
         {lastLabel}
       </div>
-      <button
-        onClick={trigger}
-        disabled={status.kind === 'pending'}
-        style={{
-          background: status.kind === 'pending' ? 'var(--ink-3)' : 'var(--liquorice)',
-          color: 'var(--cream)',
-          border: 'none', borderRadius: 6,
-          padding: '7px 12px', fontSize: 11, fontWeight: 600,
-          fontFamily: 'inherit', letterSpacing: '0.04em',
-          cursor: status.kind === 'pending' ? 'wait' : 'pointer',
-          width: '100%',
-        }}>
-        {status.kind === 'pending' ? 'Triggering…'
-          : status.kind === 'queued' ? '✓ Queued — ~2 min'
-          : status.kind === 'error' ? '⚠ Try again'
-          : 'Refresh now'}
-      </button>
+      {(() => {
+        const busy = status.kind === 'pending' || status.kind === 'queued' || status.kind === 'updated';
+        return (
+          <button
+            onClick={trigger}
+            disabled={busy}
+            style={{
+              background: status.kind === 'updated' ? '#2f7a3f'
+                : busy ? 'var(--ink-3)' : 'var(--liquorice)',
+              color: 'var(--cream)',
+              border: 'none', borderRadius: 6,
+              padding: '7px 12px', fontSize: 11, fontWeight: 600,
+              fontFamily: 'inherit', letterSpacing: '0.04em',
+              cursor: busy ? 'wait' : 'pointer',
+              width: '100%',
+            }}>
+            {status.kind === 'pending' ? 'Triggering…'
+              : status.kind === 'queued' ? 'Refreshing… ~2 min'
+              : status.kind === 'updated' ? '✓ Updated — reloading…'
+              : status.kind === 'stale' ? '✓ Up to date — refresh again'
+              : status.kind === 'error' ? '⚠ Try again'
+              : 'Refresh now'}
+          </button>
+        );
+      })()}
       {status.kind === 'error' && (
         <div style={{fontSize: 10, color: 'var(--danger, #b8392b)', lineHeight: 1.3}}>{status.message}</div>
       )}
