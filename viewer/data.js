@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-18T15:22:31Z";
+window.LAST_REFRESHED = "2026-06-18T15:23:16Z";
 
 
 
@@ -61,7 +61,7 @@ window.CAMPAIGNS = [
           "goal": 3200000
         },
         "budget": {
-          "delivered": 5447.09,
+          "delivered": 5447.1,
           "goal": 5416.0
         },
         "posts": 44
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "etrade",
@@ -813,7 +813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "spectrum",
@@ -1038,18 +1038,18 @@ window.CAMPAIGNS = [
         "label": "Small Business Highlights (NASCAR & World Cup)",
         "impressions": {
           "delivered": 7076591,
-          "goal": 4000000
+          "goal": 8000000
         }
       },
       {
         "label": "Small Business Cutdowns (NASCAR & World Cup)",
         "impressions": {
           "delivered": 943314,
-          "goal": 500000
+          "goal": 1000000
         }
       }
     ],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "etrade_brandx",
@@ -1131,7 +1131,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "mm",
@@ -1330,7 +1330,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "sportclips",
@@ -1435,7 +1435,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "onlocation",
@@ -1588,7 +1588,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "heineken",
@@ -1718,7 +1718,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "rbc_tst",
@@ -2065,7 +2065,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "thrivent",
@@ -2211,7 +2211,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:22:31Z"
+    "lastUpdated": "2026-06-18T15:23:16Z"
   },
   {
     "id": "betmgm",
@@ -2292,7 +2292,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-18T15:21:53Z"
+    "lastUpdated": "2026-06-18T09:57:35Z"
   }
 ];
 
