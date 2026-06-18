@@ -355,6 +355,20 @@ campaigns:
     # Campaign-level totals = sum across both parts.
     impression_goal: 10_250_000
     budget_goal: 29_650
+    # Pacing-by-component view (rendered as its own section on the campaign
+    # page). Each bucket aggregates one or more of the 5 episode components and
+    # tracks delivery against its own impression goal. NASCAR + World Cup share
+    # a single goal within Highlights and within Cutdowns.
+    pacing_components:
+      - label: "Day in the Life"
+        impression_goal: 1_250_000
+        episode_ids: [nascar_ditl]
+      - label: "Small Business Highlights (NASCAR & World Cup)"
+        impression_goal: 4_000_000
+        episode_ids: [nascar_smb_highlight, wc_smb_highlight]
+      - label: "Small Business Cutdowns (NASCAR & World Cup)"
+        impression_goal: 500_000
+        episode_ids: [nascar_smb_cutdowns, wc_smb_cutdowns]
     color: ft-2
     lead_format: Made for Social
     blurb: "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending."

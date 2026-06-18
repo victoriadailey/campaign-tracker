@@ -578,6 +578,26 @@ def main() -> int:
                 if summary.id == c_id:
                     summary.episodes = len(real_episodes)
                     break
+
+            # Pacing-by-component buckets: aggregate episode delivery into the
+            # configured buckets and track each vs its own impression goal.
+            pc_cfg = c.get("pacing_components") or []
+            if pc_cfg:
+                delivered_by_ep = {
+                    ep.id: int((comp or {}).get("total", {}).get("impr", 0))
+                    for ep, comp in zip(ep_defs, computed)
+                }
+                buckets = []
+                for b in pc_cfg:
+                    delivered = sum(delivered_by_ep.get(eid, 0) for eid in (b.get("episode_ids") or []))
+                    buckets.append({
+                        "label": b["label"],
+                        "impressions": {"delivered": int(delivered), "goal": int(b.get("impression_goal", 0))},
+                    })
+                for summary in campaigns:
+                    if summary.id == c_id:
+                        summary.pacing_components = buckets
+                        break
         else:
             # Fallback: use sample (E*TRADE has Kim Ng/Repole/Osborne placeholders in design)
             episodes_by_campaign[c_id] = sample_episodes.get(c_id, [])

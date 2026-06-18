@@ -70,6 +70,11 @@ class CampaignSummary:
     # campaigns are primarily measured on impressions but clicks matter too).
     brandx_objective: str = ""           # awareness | clicks | app_install | etc.
     brandx_secondary_objective: str = ""
+    # Pacing-by-component buckets (Spectrum). Each entry aggregates one or more
+    # episode components and tracks delivery vs its own impression goal:
+    #   {label: str, impressions: {delivered: int, goal: int}}
+    # Rendered as a dedicated "pacing by component" section on the campaign page.
+    pacing_components: list = field(default_factory=list)
     # When the freshest data for this campaign was provided — the most recent
     # of its source-export file mtimes (and the refresh time for live
     # Measure-Studio-sourced campaigns). ISO 8601 UTC. Shown as "Last Updated"

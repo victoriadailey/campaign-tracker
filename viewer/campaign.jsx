@@ -290,6 +290,46 @@ function CampaignPage({ campaignId, onBack }) {
       </div>
       )}
 
+      {/* PACING BY COMPONENT — per-bucket delivery vs each component's own
+          impression goal (Spectrum: Day in the Life / SB Highlights / SB
+          Cutdowns). Renders when the campaign defines pacing_components. */}
+      {c.pacingComponents && c.pacingComponents.length > 0 && (
+        <div className="sec">
+          <div className="sec-h">
+            <div>
+              <div className="sec-title">Pacing by <em>component</em></div>
+              <div className="sec-sub" style={{marginTop:6}}>Each component tracked against its own impression goal.</div>
+            </div>
+          </div>
+          <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(c.pacingComponents.length, 3)}, minmax(0, 1fr))`, gap:14}}>
+            {c.pacingComponents.map((b) => {
+              const pct = b.impressions.goal ? (b.impressions.delivered / b.impressions.goal) * 100 : 0;
+              const done = pct >= 100;
+              const barCol = cardTone.bg === 'var(--liquorice)' ? 'var(--ink)' : cardTone.bg;
+              const tag = pct >= 105 ? 'Goal exceeded' : pct >= 100 ? 'Goal hit' : 'In progress';
+              const tagColor = done ? '#2f7a3f' : 'var(--ink-3)';
+              const tagBg = done ? 'rgba(143,199,102,0.18)' : 'var(--bg-soft)';
+              return (
+                <div key={b.label} className="card" style={{padding:22, display:'flex', flexDirection:'column', gap:10}}>
+                  <div style={{fontSize:12, fontWeight:600, color:'var(--ink)', lineHeight:1.35, minHeight:34}}>{b.label}</div>
+                  <div style={{display:'flex', alignItems:'baseline', gap:8}}>
+                    <span style={{fontFamily:'var(--serif)', fontSize:30, fontWeight:300, letterSpacing:'-0.01em'}}>{fmt.numFull(b.impressions.delivered)}</span>
+                    <span style={{fontSize:12, color:'var(--ink-3)'}}>of {fmt.numFull(b.impressions.goal)}</span>
+                  </div>
+                  <div style={{height:6, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden'}}>
+                    <div style={{height:'100%', width: Math.min(100, pct) + '%', background: barCol, borderRadius:999}}/>
+                  </div>
+                  <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                    <span style={{fontSize:13, fontWeight:600, color:'var(--ink)'}}>{pct.toFixed(0)}%<span style={{fontSize:11, color:'var(--ink-3)', fontWeight:400}}> to goal</span></span>
+                    <span style={{fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', fontWeight:600, color:tagColor, background:tagBg, padding:'3px 8px', borderRadius:4, textTransform:'uppercase'}}>{done ? '✓ ' : ''}{tag}</span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* FULL EPISODES vs CUTDOWNS — only renders when YAML defines
           goal_split_full_ep + goal_split_cutdowns for the campaign. Two
           side-by-side cards with separate impression + budget goals so
