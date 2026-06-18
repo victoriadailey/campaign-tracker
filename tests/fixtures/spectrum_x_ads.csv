@@ -1,3 +1,3 @@
-Time period,On/Off,Campaign ID,Campaign name,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,CTR,CPM,Cost per link click,Engagements,Post Link
-2026-04-05 - 2026-06-04,On,41465158,Spectrum: NASCAR - Small Biz,Reach,Expired,2026-05-26 14:05:27,2026-05-29 00:00:00,841050,2069.0,1,1.188989953034897e-06,2.460020212829201,2069,94527,https://x.com/FOS/status/2059009107718185383
-2026-04-05 - 2026-06-16,On,41661877,Spectrum_World Cup_Small Biz Highlight,Reach,Active,2026-06-15 11:09:30,2026-06-17 14:00:00,530013,1289.56782,0,0.0,2.43308715069253,-,35628,https://x.com/FOS/status/2065532088074596386
+Time period,On/Off,Campaign ID,Campaign name,Post Link,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,CTR,CPM,Cost per link click
+2026-04-05 - 2026-06-18,On,41661877,Spectrum_World Cup_Small Biz Highlight,https://x.com/FOS/status/2065532088074596386,Reach,Active,2026-06-15 11:09:30,2026-06-19 14:00:00,721554,1974.99,0,0.00%,2.74,-
+2026-04-05 - 2026-06-18,On,41465158,Spectrum: NASCAR - Small Biz,https://x.com/FOS/status/2059009107718185383,Reach,Expired,2026-05-26 14:05:27,2026-06-11 00:00:00,841050,2069.00,1,0.00%,2.46,2069.00
