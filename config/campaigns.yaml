@@ -362,16 +362,25 @@ campaigns:
     # NASCAR + World Cup each carry their own goal within Highlights (4M each →
     # 8M) and Cutdowns (500K each → 1M). DITL is NASCAR-only (1.25M). The three
     # buckets sum to the 10.25M campaign headline goal.
+    # NASCAR and World Cup are tracked separately — each Highlights flight must
+    # hit its own 4M and each Cutdowns flight its own 500K (DITL is NASCAR-only,
+    # 1.25M). Five buckets summing to the 10.25M campaign headline goal.
     pacing_components:
       - label: "Day in the Life"
         impression_goal: 1_250_000
         episode_ids: [nascar_ditl]
-      - label: "Small Business Highlights (NASCAR & World Cup)"
-        impression_goal: 8_000_000
-        episode_ids: [nascar_smb_highlight, wc_smb_highlight]
-      - label: "Small Business Cutdowns (NASCAR & World Cup)"
-        impression_goal: 1_000_000
-        episode_ids: [nascar_smb_cutdowns, wc_smb_cutdowns]
+      - label: "Small Business Highlights — NASCAR"
+        impression_goal: 4_000_000
+        episode_ids: [nascar_smb_highlight]
+      - label: "Small Business Highlights — World Cup"
+        impression_goal: 4_000_000
+        episode_ids: [wc_smb_highlight]
+      - label: "Small Business Cutdowns — NASCAR"
+        impression_goal: 500_000
+        episode_ids: [nascar_smb_cutdowns]
+      - label: "Small Business Cutdowns — World Cup"
+        impression_goal: 500_000
+        episode_ids: [wc_smb_cutdowns]
     color: ft-2
     lead_format: Made for Social
     blurb: "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending."
