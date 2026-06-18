@@ -145,7 +145,60 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
         )
         rows.append(post)
 
+    rows = _consolidate_placements(rows)
     return ParseResult(rows=rows, detected_source=Source.META_ADS)
+
+
+def _consolidate_placements(rows: list[NormalizedPost]) -> list[NormalizedPost]:
+    """Collapse placement/device-broken rows back into one post per ad+platform.
+
+    Meta Ads Manager can export with a "Placement & Device" (or "Day")
+    breakdown turned on, which splits a single creative into one row per
+    placement/device combo (Facebook Reels, IG Feed, IG Stories, …) — most of
+    them trivial slivers. That inflates the post count and litters the table.
+
+    Every row already carries a `post_id_native` that encodes ad name +
+    platform, so we group on it and sum the additive metrics. Groups of one
+    (a normal, un-broken export) pass through unchanged — so this is a no-op
+    for correctly-exported files and only kicks in when a breakdown was left on.
+
+    Note: impressions / views / engagements / spend are additive and stay
+    exact. Reach is summed too, which slightly over-counts unique reach across
+    placements — there's no way to recover the de-duplicated figure from a
+    broken export, and reach isn't a headline metric for these dark posts.
+    """
+    from collections import OrderedDict
+
+    groups: "OrderedDict[str, list[NormalizedPost]]" = OrderedDict()
+    for p in rows:
+        groups.setdefault(p.post_id_native, []).append(p)
+
+    out: list[NormalizedPost] = []
+    for grp in groups.values():
+        if len(grp) == 1:
+            out.append(grp[0])
+            continue
+
+        def _sum(attr: str) -> int | float | None:
+            vals = [getattr(g, attr) for g in grp]
+            nonnull = [v for v in vals if v is not None]
+            return sum(nonnull) if nonnull else None
+
+        base = grp[0]
+        base.impressions_paid = _sum("impressions_paid")
+        base.impressions_total = _sum("impressions_total")
+        base.reach_paid = _sum("reach_paid")
+        base.reach_total = _sum("reach_total")
+        base.views_paid = _sum("views_paid")
+        base.engagements_paid = _sum("engagements_paid")
+        base.engagements_total = _sum("engagements_total")
+        base.ad_spend = _sum("ad_spend")
+        impr = base.impressions_paid
+        eng = base.engagements_paid
+        base.er = (eng / impr) if (eng is not None and impr) else None
+        out.append(base)
+
+    return out
 
 
 def _detect_platform(name: str) -> Platform:
