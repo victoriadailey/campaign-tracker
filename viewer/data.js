@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-20T10:27:38Z";
+window.LAST_REFRESHED = "2026-06-20T13:28:58Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "etrade",
@@ -380,7 +380,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 25175295,
+      "delivered": 25382905,
       "goal": 41700000
     },
     "budget": {
@@ -391,7 +391,7 @@ window.CAMPAIGNS = [
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 2.0,
-    "cpm": 1.75,
+    "cpm": 1.73,
     "episodes": 12,
     "posts": 259,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
@@ -403,12 +403,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 13334644,
+        "impressions": 13527986,
         "eng": 62307,
-        "er": 0.47,
-        "cpm": 0.54,
+        "er": 0.46,
+        "cpm": 0.53,
         "color": "#E00922",
-        "delta": -6.5,
+        "delta": -7.9,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
@@ -467,17 +467,17 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1596729,
+        "impressions": 1610997,
         "eng": 279803,
-        "er": 17.52,
-        "cpm": 2.91,
+        "er": 17.37,
+        "cpm": 2.88,
         "color": "#FF0033",
-        "delta": -12.4,
+        "delta": -13.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 68442,
+        "organicImpressions": 67826,
         "views": 1434517
       },
       {
@@ -821,7 +821,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "spectrum",
@@ -835,7 +835,7 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 11725979,
+      "delivered": 11725972,
       "goal": 10250000
     },
     "budget": {
@@ -874,7 +874,7 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 2792596,
+        "impressions": 2792589,
         "eng": 40593,
         "er": 1.45,
         "cpm": 0.92,
@@ -1045,7 +1045,7 @@ window.CAMPAIGNS = [
       {
         "label": "Small Business Highlights \u2014 NASCAR",
         "impressions": {
-          "delivered": 4108117,
+          "delivered": 4108110,
           "goal": 4000000
         }
       },
@@ -1071,7 +1071,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "etrade_brandx",
@@ -1153,7 +1153,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "mm",
@@ -1352,7 +1352,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "sportclips",
@@ -1465,7 +1465,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "onlocation",
@@ -1618,7 +1618,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "heineken",
@@ -1632,7 +1632,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 763308,
+      "delivered": 806569,
       "goal": 3500000
     },
     "budget": {
@@ -1642,8 +1642,8 @@ window.CAMPAIGNS = [
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.9,
-    "cpm": 3.14,
+    "er": 2.7,
+    "cpm": 2.97,
     "episodes": 1,
     "posts": 10,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
@@ -1655,12 +1655,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 405350,
+        "impressions": 448611,
         "eng": 15733,
-        "er": 3.88,
-        "cpm": 1.23,
+        "er": 3.51,
+        "cpm": 1.11,
         "color": "#FF0033",
-        "delta": -80.6,
+        "delta": -82.5,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -1756,15 +1756,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 49% of goal (1.7M of 3.5M) with 41 days left.",
-        "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 67K impr/day (2.9\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 52% of goal (1.8M of 3.5M) with 41 days left.",
+        "body": "At the current rate the campaign will fall ~1.7M impressions short of the 3.5M goal. Need to deliver 66K impr/day (2.7\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Heineken \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "rbc_tst",
@@ -2111,7 +2111,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "thrivent",
@@ -2257,7 +2257,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:27:38Z"
+    "lastUpdated": "2026-06-20T13:28:58Z"
   },
   {
     "id": "betmgm",
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-20T10:26:38Z"
+    "lastUpdated": "2026-06-20T13:28:10Z"
   }
 ];
 
@@ -2576,12 +2576,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 27960800,
+    "impressions": 28211664,
     "eng": 764377,
-    "er": 2.73,
-    "cpm": 1.07,
+    "er": 2.71,
+    "cpm": 1.06,
     "color": "#E00922",
-    "delta": -86.3,
+    "delta": -86.5,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -2743,8 +2743,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 49% of goal (1.7M of 3.5M) with 41 days left.",
-    "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 67K impr/day (2.9\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 52% of goal (1.8M of 3.5M) with 41 days left.",
+    "body": "At the current rate the campaign will fall ~1.7M impressions short of the 3.5M goal. Need to deliver 66K impr/day (2.7\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
@@ -10048,9 +10048,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Midge Purce",
       "date": "Jun 16",
       "total": {
-        "impr": 465321,
+        "impr": 672931,
         "views": 111387,
-        "er": 0.83,
+        "er": 0.57,
         "eng": 3869,
         "spend": 257.31
       },
@@ -10058,14 +10058,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 299949,
-          "paidImpr": 299949,
+          "impr": 493291,
+          "paidImpr": 493291,
           "orgImpr": 6240,
           "views": 9032,
           "eng": 21,
-          "paidEng": 7623,
+          "paidEng": 14074,
           "orgEng": 0,
-          "er": 0.01,
+          "er": 0.0,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 1
@@ -10118,14 +10118,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 4227,
-          "paidImpr": 3611,
-          "orgImpr": 3668,
+          "impr": 18495,
+          "paidImpr": 18495,
+          "orgImpr": 3805,
           "views": 3805,
           "eng": 35,
-          "paidEng": 178,
-          "orgEng": 20,
-          "er": 0.83,
+          "paidEng": 999,
+          "orgEng": 0,
+          "er": 0.19,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -10152,12 +10152,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 299949,
-          "paidImpr": 299949,
+          "impr": 493291,
+          "paidImpr": 493291,
           "orgImpr": 0,
           "views": 9032,
           "eng": 21,
-          "er": 0.01,
+          "er": 0.0,
           "spend": 0,
           "url": "https://youtu.be/e1XMuNPB57s",
           "postedAt": "2026-06-16T07:00:08-07:00"
@@ -10212,12 +10212,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 3611,
-          "paidImpr": 3611,
+          "impr": 10605,
+          "paidImpr": 10605,
           "orgImpr": 0,
           "views": 3052,
           "eng": 15,
-          "er": 0.42,
+          "er": 0.14,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/rzxjU-VvxCc",
           "postedAt": "2026-06-16T14:33:11-07:00"
@@ -10316,13 +10316,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "NWSL star Midge Purce doesn\u2019t think media should decide player pay",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 616,
-          "paidImpr": 0,
-          "orgImpr": 616,
+          "distKind": "organic+boosted",
+          "impr": 7890,
+          "paidImpr": 7890,
+          "orgImpr": 0,
           "views": 753,
           "eng": 20,
-          "er": 3.25,
+          "er": 0.25,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/WbIN8qEHs5c",
           "postedAt": "2026-06-17T13:30:36-07:00"
@@ -10472,7 +10472,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "NASCAR \u2014 Small Business Highlight",
       "date": "May 2026",
       "total": {
-        "impr": 4108117,
+        "impr": 4108110,
         "views": 2532762,
         "er": 2.56,
         "eng": 105003,
@@ -10497,8 +10497,8 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 1278387,
-          "paidImpr": 1278387,
+          "impr": 1278380,
+          "paidImpr": 1278380,
           "orgImpr": 2490,
           "views": 625140,
           "eng": 257,
@@ -10576,8 +10576,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 1278387,
-          "paidImpr": 1278387,
+          "impr": 1278380,
+          "paidImpr": 1278380,
           "orgImpr": 0,
           "views": 625140,
           "eng": 257,
@@ -12139,9 +12139,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Editorial Video \u2014 FOS NEWS",
       "date": "May 2026",
       "total": {
-        "impr": 763308,
+        "impr": 806569,
         "views": 563094,
-        "er": 2.87,
+        "er": 2.72,
         "eng": 21913,
         "spend": 2348.67
       },
@@ -12149,15 +12149,15 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 405350,
-          "paidImpr": 405350,
+          "impr": 448611,
+          "paidImpr": 448611,
           "orgImpr": 24577,
           "views": 221418,
           "eng": 15733,
-          "paidEng": 32107,
+          "paidEng": 33644,
           "orgEng": 0,
-          "er": 3.88,
-          "cpm": 1.23,
+          "er": 3.51,
+          "cpm": 1.11,
           "spend": 499.86,
           "posts": 3
         },
@@ -12303,12 +12303,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 22247,
-          "paidImpr": 22247,
+          "impr": 65508,
+          "paidImpr": 65508,
           "orgImpr": 0,
           "views": 23095,
           "eng": 29,
-          "er": 0.13,
+          "er": 0.04,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/5K2Ao9Vo5mU",
           "postedAt": "2026-06-15T14:41:22-07:00"
@@ -13297,8 +13297,8 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1278387,
-      "paidImpr": 1278387,
+      "impr": 1278380,
+      "paidImpr": 1278380,
       "orgImpr": 0,
       "views": 625140,
       "reach": 0,
@@ -14708,19 +14708,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 22247,
-      "paidImpr": 22247,
+      "impr": 65508,
+      "paidImpr": 65508,
       "orgImpr": 0,
       "views": 23095,
       "reach": 0,
       "eng": 29,
-      "er": 0.13,
+      "er": 0.04,
       "spend": 0,
       "watchTimeMin": 1216.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.03,
+      "cpm": 2.63,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/5K2Ao9Vo5mU",
@@ -17153,12 +17153,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.54,
-    "impressions": 13272256,
-    "paidImpressions": 13241201,
-    "pctOfTotal": 23.1,
+    "cpm": 0.53,
+    "impressions": 13465598,
+    "paidImpressions": 13434543,
+    "pctOfTotal": 23.4,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 1.7,
+    "mvmDeltaPct": 0.2,
     "color": "#E00922"
   },
   {
@@ -17176,19 +17176,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.42,
     "impressions": 9388482,
     "paidImpressions": 7502899,
-    "pctOfTotal": 16.4,
+    "pctOfTotal": 16.3,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -3.6,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.97,
-    "impressions": 8592114,
-    "paidImpressions": 8511154,
+    "cpm": 1.96,
+    "impressions": 8649636,
+    "paidImpressions": 8569292,
     "pctOfTotal": 15.0,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -38.4,
+    "mvmDeltaPct": -38.8,
     "color": "#FF0033"
   },
   {
@@ -17233,7 +17233,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.32;
+window.PORTFOLIO_CPM_BLEND = 2.31;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
