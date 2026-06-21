@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-21T12:05:41Z";
+window.LAST_REFRESHED = "2026-06-21T15:46:51Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "etrade",
@@ -821,7 +821,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "spectrum",
@@ -1071,7 +1071,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "etrade_brandx",
@@ -1153,7 +1153,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "mm",
@@ -1352,7 +1352,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "sportclips",
@@ -1472,7 +1472,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "onlocation",
@@ -1625,7 +1625,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "heineken",
@@ -1771,7 +1771,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "rbc_tst",
@@ -2118,7 +2118,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "thrivent",
@@ -2264,7 +2264,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:05:41Z"
+    "lastUpdated": "2026-06-21T15:46:51Z"
   },
   {
     "id": "betmgm",
@@ -2345,7 +2345,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-21T12:04:58Z"
+    "lastUpdated": "2026-06-21T15:46:17Z"
   }
 ];
 
