@@ -931,3 +931,38 @@ campaigns:
         - state_farm_yt_paid.csv
       x_ads:
         - state_farm_x_ads.csv
+
+  - id: microsoft
+    partner: Microsoft
+    series: "FOS Explains"
+    series_italic: "Explains"
+    type: content
+    benchmark_category: "Original Content"
+    lifecycle: active
+    flight_start: 2026-06-18
+    flight_end: 2026-06-30
+    # Two goal tiers: 2 longform FOS Explains videos (26M) + 4 cutdowns (4.5M).
+    # Campaign total = sum. Rendered as the Full-Episodes-vs-Cutdowns split.
+    impression_goal: 30_500_000
+    budget_goal: 32_250
+    goal_split_full_ep:
+      label: "FOS Explains Longform (2 videos)"
+      impression_goal: 26_000_000
+    goal_split_cutdowns:
+      label: "FOS Explains Cutdowns (4)"
+      impression_goal: 4_500_000
+    color: ft-1        # orange (freed up — ADP is wrapped)
+    lead_format: Longform Video
+    blurb: "Microsoft x FOS Explains — two longform FOS Explains videos on the business of global sports fandom plus four social cutdowns, distributed paid across YouTube, X, Meta, and TikTok."
+    sources:
+      # MS API base layer. Group 7863 = "FOS Explains 1" (the Microsoft FOS
+      # Explains organic posts).
+      measure_studio_group_id: 7863
+      youtube_paid:
+        - microsoft_yt_paid.csv
+      x_ads:
+        - microsoft_x_ads.csv
+      meta_ads:
+        - microsoft_meta_ads.csv
+      tiktok_ads:
+        - microsoft_tiktok_ads.csv

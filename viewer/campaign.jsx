@@ -367,10 +367,18 @@ function CampaignPage({ campaignId, onBack }) {
                       <div style={{display:'flex', alignItems:'baseline', gap:6, marginBottom:8}}>
                         <span style={{fontFamily:'var(--serif)', fontSize:26, fontWeight:300}}>{fmt.moneyFull(tier.budget.delivered)}</span>
                       </div>
-                      <div style={{height:5, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden', marginBottom:5}}>
-                        <div style={{height:'100%', width: Math.min(100, budPct) + '%', background:'var(--pear)'}}/>
-                      </div>
-                      <div style={{fontSize:11, color:'var(--ink-3)'}}>{budPct.toFixed(1)}% of {fmt.moneyFull(tier.budget.goal)} budget</div>
+                      {tier.budget.goal > 0 ? (
+                        <>
+                          <div style={{height:5, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden', marginBottom:5}}>
+                            <div style={{height:'100%', width: Math.min(100, budPct) + '%', background:'var(--pear)'}}/>
+                          </div>
+                          <div style={{fontSize:11, color:'var(--ink-3)'}}>{budPct.toFixed(1)}% of {fmt.moneyFull(tier.budget.goal)} budget</div>
+                        </>
+                      ) : (
+                        // No per-tier budget split configured (only impression
+                        // goals differ) — show delivered spend without a goal bar.
+                        <div style={{fontSize:11, color:'var(--ink-3)'}}>spend delivered · no per-tier budget</div>
+                      )}
                     </div>
                   </div>
                 </div>
