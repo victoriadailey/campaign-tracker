@@ -962,11 +962,15 @@ campaigns:
       impression_goal: 4_500_000
     color: ft-1        # orange (freed up — ADP is wrapped)
     lead_format: Longform Video
+    # Fully dark / paid-only campaign — every placement is a paid promotion of
+    # the FOS Explains videos. Measure Studio also surfaces these same dark
+    # posts, which double-counted against the X / Meta / TikTok / YT exports
+    # (the exports are the authoritative, higher source for the paid delivery).
+    # So we source delivery from the ad-platform exports only — no MS group —
+    # and mark paid_only so any incidental organic is zeroed.
+    paid_only: true
     blurb: "Microsoft x FOS Explains — two longform FOS Explains videos on the business of global sports fandom plus four social cutdowns, distributed paid across YouTube, X, Meta, and TikTok."
     sources:
-      # MS API base layer. Group 7863 = "FOS Explains 1" (the Microsoft FOS
-      # Explains organic posts).
-      measure_studio_group_id: 7863
       youtube_paid:
         - microsoft_yt_paid.csv
       x_ads:

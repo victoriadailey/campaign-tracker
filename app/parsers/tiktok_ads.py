@@ -25,6 +25,7 @@ Output post shape:
 from __future__ import annotations
 
 import io
+import re
 from typing import IO, Any
 
 import pandas as pd
@@ -77,6 +78,10 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
     for raw in df.to_dict("records"):
         name = (raw.get(cols["name"]) or "").strip()
         if not name:
+            continue
+        # TikTok Ads exports append a summary row ("Total of N results") that
+        # duplicates the sum of the real rows — skip it so it isn't counted.
+        if re.match(r"^total of \d+ results?$", name, re.I):
             continue
         impressions = _to_int(raw.get(cols["impressions"]))
         views = _to_int(raw.get(cols["views"])) if cols["views"] else None
