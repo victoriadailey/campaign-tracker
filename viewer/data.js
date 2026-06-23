@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-23T16:03:06Z";
+window.LAST_REFRESHED = "2026-06-23T16:09:48Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "etrade",
@@ -813,7 +813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "spectrum",
@@ -1063,7 +1063,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "etrade_brandx",
@@ -1145,7 +1145,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "mm",
@@ -1352,7 +1352,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "sportclips",
@@ -1472,7 +1472,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "onlocation",
@@ -1625,7 +1625,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "heineken",
@@ -1662,18 +1662,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 577167,
-        "eng": 7798,
-        "er": 1.35,
-        "cpm": 0.87,
+        "impressions": 768709,
+        "eng": 23389,
+        "er": 3.04,
+        "cpm": 1.3,
         "color": "#FF0033",
-        "delta": -93.2,
+        "delta": -84.8,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 0,
-        "views": 346566
+        "views": 354392
       },
       {
         "name": "Instagram",
@@ -1690,22 +1690,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 13194,
         "views": 347571
-      },
-      {
-        "name": "YouTube In-feed",
-        "italic": "YouTube In-feed",
-        "impressions": 191542,
-        "eng": 15591,
-        "er": 8.14,
-        "cpm": 2.61,
-        "color": "#E00922",
-        "delta": 1527.9,
-        "bench": {
-          "er": 0.5,
-          "cpm": 0.55
-        },
-        "organicImpressions": 0,
-        "views": 7826
       },
       {
         "name": "Facebook",
@@ -1787,7 +1771,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "rbc_tst",
@@ -2134,7 +2118,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "thrivent",
@@ -2280,7 +2264,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:03:06Z"
+    "lastUpdated": "2026-06-23T16:09:48Z"
   },
   {
     "id": "betmgm",
@@ -2361,7 +2345,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T16:02:30Z"
+    "lastUpdated": "2026-06-23T16:09:08Z"
   }
 ];
 
@@ -12175,17 +12159,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 577167,
-          "paidImpr": 577167,
+          "impr": 768709,
+          "paidImpr": 768709,
           "orgImpr": 45716,
-          "views": 346566,
-          "eng": 7798,
-          "paidEng": 30846,
+          "views": 354392,
+          "eng": 23389,
+          "paidEng": 46437,
           "orgEng": 0,
-          "er": 1.35,
-          "cpm": 0.87,
-          "spend": 499.91,
-          "posts": 3
+          "er": 3.04,
+          "cpm": 1.3,
+          "spend": 999.72,
+          "posts": 4
         },
         {
           "name": "Instagram",
@@ -12201,21 +12185,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 5.82,
           "spend": 1945.68,
           "posts": 2
-        },
-        {
-          "name": "YouTube In-feed",
-          "distKind": "paid",
-          "impr": 191542,
-          "paidImpr": 191542,
-          "orgImpr": 0,
-          "views": 7826,
-          "eng": 15591,
-          "paidEng": 15591,
-          "orgEng": 0,
-          "er": 8.14,
-          "cpm": 2.61,
-          "spend": 499.81,
-          "posts": 1
         },
         {
           "name": "Facebook",
@@ -12249,21 +12218,6 @@ window.EPISODES_BY_CAMPAIGN = {
         }
       ],
       "posts": [
-        {
-          "title": "Heineken: UEFA (FOSN) - Video 1",
-          "platform": "YouTube In-feed",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 191542,
-          "paidImpr": 191542,
-          "orgImpr": 0,
-          "views": 7826,
-          "eng": 15591,
-          "er": 8.14,
-          "spend": 499.81,
-          "url": null,
-          "postedAt": null
-        },
         {
           "title": "Baker Machado breaks down the growth of European soccer in America",
           "platform": "YouTube Shorts",
@@ -12411,6 +12365,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "eng": 7630,
           "er": 3.96,
           "spend": 499.91,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "Heineken: UEFA (FOSN) - Video 1 (shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 191542,
+          "paidImpr": 191542,
+          "orgImpr": 0,
+          "views": 7826,
+          "eng": 15591,
+          "er": 8.14,
+          "spend": 499.81,
           "url": null,
           "postedAt": null
         }
@@ -14599,29 +14568,6 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "heineken": [
     {
-      "title": "Heineken: UEFA (FOSN) - Video 1",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 191542,
-      "paidImpr": 191542,
-      "orgImpr": 0,
-      "views": 7826,
-      "reach": 0,
-      "eng": 15591,
-      "er": 8.14,
-      "spend": 499.81,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.61,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
       "title": "Baker Machado breaks down the growth of European soccer in America",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
@@ -14631,9 +14577,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 190498,
       "reach": 0,
-      "eng": 113,
-      "er": 0.06,
-      "spend": 0,
+      "eng": 15704,
+      "er": 8.2,
+      "spend": 499.81,
       "watchTimeMin": 17037.9,
       "clicks": null,
       "ctr": 0.0,
@@ -17209,12 +17155,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.54,
-    "impressions": 14253903,
-    "paidImpressions": 14222848,
-    "pctOfTotal": 24.1,
+    "cpm": 0.51,
+    "impressions": 14062361,
+    "paidImpressions": 14031306,
+    "pctOfTotal": 23.8,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 1.3,
+    "mvmDeltaPct": -4.0,
     "color": "#E00922"
   },
   {
@@ -17239,12 +17185,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.92,
-    "impressions": 8822034,
-    "paidImpressions": 8741453,
-    "pctOfTotal": 14.9,
+    "cpm": 1.93,
+    "impressions": 9013576,
+    "paidImpressions": 8932995,
+    "pctOfTotal": 15.2,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -40.0,
+    "mvmDeltaPct": -39.6,
     "color": "#FF0033"
   },
   {
