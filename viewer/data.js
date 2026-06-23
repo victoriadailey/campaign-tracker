@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-23T10:56:01Z";
+window.LAST_REFRESHED = "2026-06-23T13:46:48Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "etrade",
@@ -813,7 +813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "spectrum",
@@ -827,11 +827,11 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 11727731,
+      "delivered": 11967783,
       "goal": 10250000
     },
     "budget": {
-      "delivered": 36635.5,
+      "delivered": 37439.77,
       "goal": 29650.0
     },
     "color": "ft-2",
@@ -842,7 +842,7 @@ window.CAMPAIGNS = [
     "episodes": 5,
     "posts": 21,
     "blurb": "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending.",
-    "views": 9103767,
+    "views": 9343819,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -882,34 +882,34 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 1854894,
-        "eng": 7121,
-        "er": 0.38,
-        "cpm": 4.86,
+        "impressions": 2065871,
+        "eng": 7305,
+        "er": 0.35,
+        "cpm": 4.71,
         "color": "#1877F2",
-        "delta": -74.9,
+        "delta": -76.9,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
         "organicImpressions": 1534,
-        "views": 1623856
+        "views": 1834833
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1713274,
-        "eng": 22987,
-        "er": 1.34,
-        "cpm": 7.55,
+        "impressions": 1742349,
+        "eng": 22996,
+        "er": 1.32,
+        "cpm": 7.48,
         "color": "#E4405F",
-        "delta": -59.5,
+        "delta": -60.1,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 41281,
-        "views": 1713274
+        "views": 1742349
       },
       {
         "name": "X",
@@ -1044,7 +1044,7 @@ window.CAMPAIGNS = [
       {
         "label": "Small Business Highlights \u2014 World Cup",
         "impressions": {
-          "delivered": 5100265,
+          "delivered": 5101995,
           "goal": 4000000
         }
       },
@@ -1058,12 +1058,12 @@ window.CAMPAIGNS = [
       {
         "label": "Small Business Cutdowns \u2014 World Cup",
         "impressions": {
-          "delivered": 273604,
+          "delivered": 511926,
           "goal": 500000
         }
       }
     ],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "etrade_brandx",
@@ -1145,7 +1145,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "mm",
@@ -1352,7 +1352,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "sportclips",
@@ -1472,7 +1472,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "onlocation",
@@ -1625,7 +1625,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "heineken",
@@ -1771,7 +1771,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "rbc_tst",
@@ -2118,7 +2118,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "thrivent",
@@ -2264,7 +2264,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:56:01Z"
+    "lastUpdated": "2026-06-23T13:46:48Z"
   },
   {
     "id": "betmgm",
@@ -2345,7 +2345,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T10:54:55Z"
+    "lastUpdated": "2026-06-23T13:46:03Z"
   }
 ];
 
@@ -2615,18 +2615,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 10730093,
-    "eng": 199454,
-    "er": 1.86,
+    "impressions": 10759168,
+    "eng": 199463,
+    "er": 1.85,
     "cpm": 5.28,
     "color": "#E4405F",
-    "delta": -43.8,
+    "delta": -44.0,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 10688568
+    "views": 10717643
   },
   {
     "name": "TikTok",
@@ -2647,18 +2647,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 5768850,
-    "eng": 10916,
+    "impressions": 5979827,
+    "eng": 11100,
     "er": 0.19,
-    "cpm": 3.19,
+    "cpm": 3.2,
     "color": "#1877F2",
-    "delta": -87.6,
+    "delta": -87.9,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 4626948
+    "views": 4837925
   },
   {
     "name": "LinkedIn",
@@ -10797,11 +10797,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "World Cup \u2014 Small Business Highlight",
       "date": "Jun 2026",
       "total": {
-        "impr": 5100265,
-        "views": 4250810,
+        "impr": 5101995,
+        "views": 4252540,
         "er": 1.99,
-        "eng": 101330,
-        "spend": 19269.21
+        "eng": 101341,
+        "spend": 19282.51
       },
       "perChannel": [
         {
@@ -10852,31 +10852,31 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 733843,
-          "paidImpr": 733060,
+          "impr": 735030,
+          "paidImpr": 734247,
           "orgImpr": 783,
-          "views": 711336,
-          "eng": 6094,
-          "paidEng": 3683,
+          "views": 712523,
+          "eng": 6104,
+          "paidEng": 3693,
           "orgEng": 2411,
           "er": 0.83,
           "cpm": 6.93,
-          "spend": 5081.35,
+          "spend": 5089.89,
           "posts": 2
         },
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 723346,
-          "paidImpr": 709351,
+          "impr": 723889,
+          "paidImpr": 709894,
           "orgImpr": 13995,
-          "views": 723346,
-          "eng": 6473,
-          "paidEng": 327,
+          "views": 723889,
+          "eng": 6474,
+          "paidEng": 328,
           "orgEng": 6146,
           "er": 0.89,
           "cpm": 8.13,
-          "spend": 5769.26,
+          "spend": 5774.02,
           "posts": 2
         }
       ],
@@ -10961,13 +10961,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Facebook",
           "accountName": null,
           "distKind": "paid",
-          "impr": 357214,
-          "paidImpr": 357214,
+          "impr": 358401,
+          "paidImpr": 358401,
           "orgImpr": 0,
-          "views": 357214,
-          "eng": 3683,
+          "views": 358401,
+          "eng": 3693,
           "er": 1.03,
-          "spend": 2537.14,
+          "spend": 2545.68,
           "url": null,
           "postedAt": null
         },
@@ -10976,13 +10976,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": null,
           "distKind": "paid",
-          "impr": 354404,
-          "paidImpr": 354404,
+          "impr": 354947,
+          "paidImpr": 354947,
           "orgImpr": 0,
-          "views": 354404,
-          "eng": 327,
+          "views": 354947,
+          "eng": 328,
           "er": 0.09,
-          "spend": 2882.25,
+          "spend": 2887.01,
           "url": null,
           "postedAt": null
         }
@@ -11010,41 +11010,41 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "World Cup \u2014 Small Business Cutdowns",
       "date": "Jun 2026",
       "total": {
-        "impr": 273604,
-        "views": 273604,
-        "er": 0.07,
-        "eng": 203,
-        "spend": 879.22
+        "impr": 511926,
+        "views": 511926,
+        "er": 0.08,
+        "eng": 385,
+        "spend": 1670.19
       },
       "perChannel": [
         {
           "name": "Facebook",
           "distKind": "paid",
-          "impr": 255355,
-          "paidImpr": 255355,
+          "impr": 465145,
+          "paidImpr": 465145,
           "orgImpr": 0,
-          "views": 255355,
-          "eng": 198,
-          "paidEng": 198,
+          "views": 465145,
+          "eng": 372,
+          "paidEng": 372,
           "orgEng": 0,
           "er": 0.08,
-          "cpm": 3.21,
-          "spend": 818.95,
+          "cpm": 3.26,
+          "spend": 1514.52,
           "posts": 1
         },
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 18249,
-          "paidImpr": 18249,
+          "impr": 46781,
+          "paidImpr": 46781,
           "orgImpr": 0,
-          "views": 18249,
-          "eng": 5,
-          "paidEng": 5,
+          "views": 46781,
+          "eng": 13,
+          "paidEng": 13,
           "orgEng": 0,
           "er": 0.03,
-          "cpm": 3.3,
-          "spend": 60.27,
+          "cpm": 3.33,
+          "spend": 155.67,
           "posts": 1
         }
       ],
@@ -11054,13 +11054,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Facebook",
           "accountName": null,
           "distKind": "paid",
-          "impr": 255355,
-          "paidImpr": 255355,
+          "impr": 465145,
+          "paidImpr": 465145,
           "orgImpr": 0,
-          "views": 255355,
-          "eng": 198,
+          "views": 465145,
+          "eng": 372,
           "er": 0.08,
-          "spend": 818.95,
+          "spend": 1514.52,
           "url": null,
           "postedAt": null
         },
@@ -11069,13 +11069,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": null,
           "distKind": "paid",
-          "impr": 18249,
-          "paidImpr": 18249,
+          "impr": 46781,
+          "paidImpr": 46781,
           "orgImpr": 0,
-          "views": 18249,
-          "eng": 5,
+          "views": 46781,
+          "eng": 13,
           "er": 0.03,
-          "spend": 60.27,
+          "spend": 155.67,
           "url": null,
           "postedAt": null
         }
@@ -13606,14 +13606,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Facebook",
       "accountName": null,
       "distKind": "paid",
-      "impr": 357214,
-      "paidImpr": 357214,
+      "impr": 358401,
+      "paidImpr": 358401,
       "orgImpr": 0,
-      "views": 357214,
-      "reach": 263127,
-      "eng": 3683,
+      "views": 358401,
+      "reach": 264096,
+      "eng": 3693,
       "er": 1.03,
-      "spend": 2537.14,
+      "spend": 2545.68,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
@@ -13629,14 +13629,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 354404,
-      "paidImpr": 354404,
+      "impr": 354947,
+      "paidImpr": 354947,
       "orgImpr": 0,
-      "views": 354404,
-      "reach": 286295,
-      "eng": 327,
+      "views": 354947,
+      "reach": 287098,
+      "eng": 328,
       "er": 0.09,
-      "spend": 2882.25,
+      "spend": 2887.01,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
@@ -13652,19 +13652,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Facebook",
       "accountName": null,
       "distKind": "paid",
-      "impr": 255355,
-      "paidImpr": 255355,
+      "impr": 465145,
+      "paidImpr": 465145,
       "orgImpr": 0,
-      "views": 255355,
-      "reach": 98950,
-      "eng": 198,
+      "views": 465145,
+      "reach": 144257,
+      "eng": 372,
       "er": 0.08,
-      "spend": 818.95,
+      "spend": 1514.52,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.21,
+      "cpm": 3.26,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -13675,19 +13675,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 18249,
-      "paidImpr": 18249,
+      "impr": 46781,
+      "paidImpr": 46781,
       "orgImpr": 0,
-      "views": 18249,
-      "reach": 14426,
-      "eng": 5,
+      "views": 46781,
+      "reach": 30155,
+      "eng": 13,
       "er": 0.03,
-      "spend": 60.27,
+      "spend": 155.67,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.3,
+      "cpm": 3.33,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -17143,7 +17143,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.51,
     "impressions": 14062361,
     "paidImpressions": 14031306,
-    "pctOfTotal": 24.0,
+    "pctOfTotal": 23.9,
     "mvmCpm": 0.53,
     "mvmDeltaPct": -4.0,
     "color": "#E00922"
@@ -17153,19 +17153,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.5,
     "impressions": 10682551,
     "paidImpressions": 9120083,
-    "pctOfTotal": 18.2,
+    "pctOfTotal": 18.1,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 20.7,
     "color": "#1d1d1f"
   },
   {
     "name": "Instagram",
-    "cpm": 5.47,
-    "impressions": 9567905,
-    "paidImpressions": 7655785,
+    "cpm": 5.46,
+    "impressions": 9596980,
+    "paidImpressions": 7684860,
     "pctOfTotal": 16.3,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -2.7,
+    "mvmDeltaPct": -2.9,
     "color": "#E4405F"
   },
   {
@@ -17183,7 +17183,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.51,
     "impressions": 8389461,
     "paidImpressions": 6022237,
-    "pctOfTotal": 14.3,
+    "pctOfTotal": 14.2,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 12.1,
     "color": "#000000"
@@ -17191,9 +17191,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Facebook",
     "cpm": 3.24,
-    "impressions": 5631822,
-    "paidImpressions": 5618684,
-    "pctOfTotal": 9.6,
+    "impressions": 5842799,
+    "paidImpressions": 5829661,
+    "pctOfTotal": 9.9,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -22.8,
     "color": "#1877F2"
@@ -17220,7 +17220,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.29;
+window.PORTFOLIO_CPM_BLEND = 2.3;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
