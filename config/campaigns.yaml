@@ -913,7 +913,7 @@ campaigns:
     series_italic: Family Assist
     type: content
     benchmark_category: "Branded Content"
-    lifecycle: active
+    lifecycle: wrapped     # flight ended 2026-05-31 — final reporting
     flight_start: 2026-03-25
     flight_end: 2026-05-31
     impression_goal: 11_000_000
