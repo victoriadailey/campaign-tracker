@@ -740,6 +740,15 @@ campaigns:
     color: ft-4
     lead_format: Longform Video
     blurb: "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main)."
+    # Track the two pieces against their own impression goals (like Spectrum).
+    # All current delivery is FOSN; Red Card / Green Flag hasn't posted yet.
+    pacing_components:
+      - label: "FOSN x Heineken"
+        impression_goal: 2_000_000
+        episode_ids: [editorial_fosn]
+      - label: "Red Card / Green Flag"
+        impression_goal: 1_500_000
+        episode_ids: [red_card_green_flag]
     episodes:
       - id: editorial_fosn
         n: "Video 1"

@@ -830,7 +830,9 @@ def main() -> int:
     for c in cfg["campaigns"]:
         # Social + BrandX campaigns are post-driven (no episode rollup);
         # surface per-post rows so the campaign page can render its table.
-        if c["type"] in ("social", "brandx"):
+        # Content campaigns get it too — the page shows the flat post table when
+        # a content campaign has no episode breakdown (e.g. Microsoft, State Farm).
+        if c["type"] in ("social", "brandx", "content"):
             _ep_order = [
                 EpisodeDef(
                     id=e["id"], n=e["n"], title=e["title"], date=e.get("date", ""),

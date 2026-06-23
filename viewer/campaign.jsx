@@ -403,9 +403,12 @@ function CampaignPage({ campaignId, onBack }) {
       </div>
       )}
 
-      {/* POST-LEVEL PERFORMANCE — social campaigns only. Flat table of every
-          post in the campaign (no episode wrapper). */}
-      {c.type === 'social' && (() => {
+      {/* POST-LEVEL PERFORMANCE — flat table of every post in the campaign
+          (no episode wrapper). Always shown for social; also shown for content
+          campaigns that have no episode breakdown (e.g. Microsoft, State Farm),
+          where it's the only post-by-post view. Content campaigns WITH episodes
+          use the per-episode table above instead. */}
+      {(c.type === 'social' || EPISODES.length === 0) && (() => {
         const rows = (window.POSTS_BY_CAMPAIGN || {})[campaignId] || [];
         if (!rows.length) return null;
         const distLabel = (k) =>
