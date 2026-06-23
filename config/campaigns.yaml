@@ -906,3 +906,28 @@ campaigns:
         - betmgm_meta_ads.csv     # Instagram (Native Social 1)
       x_ads:
         - betmgm_x_ads.csv        # X (Native Social 1 v3)
+
+  - id: state_farm
+    partner: State Farm
+    series: The Family Assist
+    series_italic: Family Assist
+    type: content
+    benchmark_category: "Branded Content"
+    lifecycle: active
+    flight_start: 2026-03-25
+    flight_end: 2026-05-31
+    impression_goal: 11_000_000
+    budget_goal: 29_500
+    color: ft-6        # terracotta (freed up — On Location is wrapped)
+    lead_format: Longform Video
+    blurb: "We developed “The Family Assist,” a doc-style content series featuring two NBA brothers and the ways they support each other on and off the court. The campaign centers on a 3–4 minute hero film that blends interviews, lifestyle footage, and game action, supported by two social-first extensions (60–90 seconds each) that further amplify the story."
+    sources:
+      # MS API base layer (organic + paid across platforms). Group 6236 =
+      # "State Farm: The Family Assist".
+      measure_studio_group_id: 6236
+      # Paid supplements. Files are uploaded via the dashboard's State Farm
+      # card (Google Ads → state_farm_yt_paid.csv, X Ads → state_farm_x_ads.csv).
+      youtube_paid:
+        - state_farm_yt_paid.csv
+      x_ads:
+        - state_farm_x_ads.csv

@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-23T17:45:24Z";
+window.LAST_REFRESHED = "2026-06-23T18:52:26Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "etrade",
@@ -813,7 +813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "spectrum",
@@ -1063,7 +1063,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "etrade_brandx",
@@ -1145,7 +1145,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "mm",
@@ -1352,7 +1352,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "sportclips",
@@ -1472,7 +1472,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "onlocation",
@@ -1625,7 +1625,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "heineken",
@@ -1771,7 +1771,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "rbc_tst",
@@ -2118,7 +2118,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "thrivent",
@@ -2264,7 +2264,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:45:24Z"
+    "lastUpdated": "2026-06-23T18:52:25Z"
   },
   {
     "id": "betmgm",
@@ -2352,7 +2352,263 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdated": "2026-06-23T17:44:43Z"
+    "lastUpdated": "2026-06-23T18:02:25Z"
+  },
+  {
+    "id": "state_farm",
+    "partner": "State Farm",
+    "series": "The Family Assist",
+    "seriesItalic": "Family Assist",
+    "type": "content",
+    "flight": "Mar 25 \u2014 May 31, 2026",
+    "elapsedPct": 100.0,
+    "daysLeft": 0,
+    "status": "Goal Missed",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 9163716,
+      "goal": 11000000
+    },
+    "budget": {
+      "delivered": 4222.02,
+      "goal": 29500.0
+    },
+    "color": "ft-6",
+    "leadFormat": "Longform Video",
+    "topChannel": "YouTube",
+    "er": 0.2,
+    "cpm": 0.49,
+    "episodes": 0,
+    "posts": 18,
+    "blurb": "We developed \u201cThe Family Assist,\u201d a doc-style content series featuring two NBA brothers and the ways they support each other on and off the court. The campaign centers on a 3\u20134 minute hero film that blends interviews, lifestyle footage, and game action, supported by two social-first extensions (60\u201390 seconds each) that further amplify the story.",
+    "views": 2298936,
+    "goalSplit": [],
+    "benchmarkCategory": "Branded Content",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "YouTube In-feed",
+        "italic": "YouTube In-feed",
+        "impressions": 7146599,
+        "eng": 192,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#E00922",
+        "delta": -99.5,
+        "bench": {
+          "er": 0.5,
+          "cpm": 0.55
+        },
+        "organicImpressions": 12125,
+        "views": 518464
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 740220,
+        "eng": 1072,
+        "er": 0.14,
+        "cpm": 2.28,
+        "color": "#000000",
+        "delta": -92.9,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 92851,
+        "views": 730946
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 581298,
+        "eng": 15670,
+        "er": 2.7,
+        "cpm": 5.31,
+        "color": "#E4405F",
+        "delta": -18.6,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 63684,
+        "views": 581298
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 433269,
+        "eng": 1213,
+        "er": 0.28,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -98.6,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 29206,
+        "views": 432423
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 180233,
+        "eng": 873,
+        "er": 0.48,
+        "cpm": 0.0,
+        "color": "#1d1d1f",
+        "delta": -47.4,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 180233,
+        "views": 1506
+      },
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 82097,
+        "eng": 2961,
+        "er": 3.61,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -4.1,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 82097,
+        "views": 34299
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "urn:li:ugcPost:7442572142547963905",
+        "rank": 1,
+        "partner": "State Farm",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "In a new era of college athletics defined by pressure, visibility, and expectation, Cameron and\u2026",
+        "er": 3.92,
+        "eng": 1132,
+        "reach": 12834,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442572142547963905",
+        "postedAt": "2026-03-25T11:30:01-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7443368617968218112",
+        "rank": 2,
+        "partner": "State Farm",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "How does Cam Boozer rank these Duke legends? Presented by Statefarm Insurance",
+        "er": 3.9,
+        "eng": 1221,
+        "reach": 13361,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7443368617968218112",
+        "postedAt": "2026-03-27T13:30:03-07:00"
+      },
+      {
+        "id": "3860769807700768638",
+        "rank": 3,
+        "partner": "State Farm",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "In a new era of college athletics defined by pressure, visibility, and expectation, Cameron and\u2026",
+        "er": 2.84,
+        "eng": 6982,
+        "reach": 245717,
+        "organic": 4,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DWUNa9Tjrd-/",
+        "postedAt": "2026-03-25T10:28:26-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7442982142437056514",
+        "rank": 4,
+        "partner": "State Farm",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "The Boozer twins know each other better than anyone, so we put it to the test \ud83d\udc40 Presented by\u2026",
+        "er": 2.78,
+        "eng": 608,
+        "reach": 8104,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442982142437056514",
+        "postedAt": "2026-03-26T11:30:02-07:00"
+      },
+      {
+        "id": "3861646217209558174",
+        "rank": 5,
+        "partner": "State Farm",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "The Boozer twins know each other better than anyone, so we put it to the test \ud83d\udc40 Presented by\u2026",
+        "er": 2.71,
+        "eng": 5944,
+        "reach": 219302,
+        "organic": 4,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DWXUsZRAbSe/",
+        "postedAt": "2026-03-26T15:30:09-07:00"
+      },
+      {
+        "id": "3862344964230959685",
+        "rank": 6,
+        "partner": "State Farm",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "How does Cam Boozer rank these Duke legends? Presented by @statefarm",
+        "er": 2.51,
+        "eng": 2311,
+        "reach": 91922,
+        "organic": 21,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DWZzkgJAVJF/",
+        "postedAt": "2026-03-27T14:42:01-07:00"
+      }
+    ],
+    "topPostsOrganic": [],
+    "callouts": [
+      {
+        "tag": "OPPORTUNITY",
+        "kind": "info",
+        "headline": "X resonating \u2014 100% of delivery is organic.",
+        "body": "180K organic impressions on X (0.5% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit X; lean into more of the same.",
+        "meta": "State Farm \u00b7 X"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 83% of goal (9.2M of 11.0M) with 0 days left.",
+        "body": "At the current rate the campaign will fall ~1.8M impressions short of the 11.0M goal. Need to ramp delivery significantly to hit the 11.0M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "State Farm \u00b7 Pacing"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.20% ER \u2014 below the 1% floor.",
+        "body": "0.20% engagement rate across 9.2M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "State Farm \u00b7 Engagement"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdated": "2026-06-23T18:52:25Z"
   }
 ];
 
@@ -2590,66 +2846,66 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 29172367,
-    "eng": 772054,
-    "er": 2.65,
-    "cpm": 1.04,
+    "impressions": 36752235,
+    "eng": 773459,
+    "er": 2.1,
+    "cpm": 0.82,
     "color": "#E00922",
-    "delta": -86.8,
+    "delta": -89.5,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 8334678
+    "views": 9285565
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 16541261,
-    "eng": 522624,
-    "er": 3.16,
+    "impressions": 16721494,
+    "eng": 523497,
+    "er": 3.13,
     "cpm": 1.33,
     "color": "#1d1d1f",
-    "delta": 243.4,
+    "delta": 240.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 407245
+    "views": 408751
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 10839105,
-    "eng": 199492,
-    "er": 1.84,
+    "impressions": 11420403,
+    "eng": 215162,
+    "er": 1.88,
     "cpm": 5.27,
     "color": "#E4405F",
-    "delta": -44.4,
+    "delta": -43.1,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 10797580
+    "views": 11378878
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 9055030,
-    "eng": 42055,
-    "er": 0.46,
-    "cpm": 2.48,
+    "impressions": 9795250,
+    "eng": 43127,
+    "er": 0.44,
+    "cpm": 2.46,
     "color": "#000000",
-    "delta": -77.1,
+    "delta": -78.3,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 8983719
+    "views": 9714665
   },
   {
     "name": "Facebook",
@@ -2670,18 +2926,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 1387869,
-    "eng": 54280,
-    "er": 3.91,
+    "impressions": 1469966,
+    "eng": 57241,
+    "er": 3.89,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": 4.0,
+    "delta": 3.6,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 544984
+    "views": 579283
   },
   {
     "name": "Snapchat",
@@ -2757,11 +3013,11 @@ window.SIGNALS = [
   {
     "tag": "OPPORTUNITY",
     "kind": "info",
-    "headline": "Instagram resonating \u2014 60% of delivery is organic.",
-    "body": "277K organic impressions on Instagram (2.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
-    "meta": "Morgan & Morgan \u00b7 Instagram",
-    "campaignId": "mm",
-    "campaignPartner": "Morgan & Morgan"
+    "headline": "X resonating \u2014 100% of delivery is organic.",
+    "body": "180K organic impressions on X (0.5% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit X; lean into more of the same.",
+    "meta": "State Farm \u00b7 X",
+    "campaignId": "state_farm",
+    "campaignPartner": "State Farm"
   },
   {
     "tag": "WATCH",
@@ -2780,6 +3036,15 @@ window.SIGNALS = [
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 83% of goal (9.2M of 11.0M) with 0 days left.",
+    "body": "At the current rate the campaign will fall ~1.8M impressions short of the 11.0M goal. Need to ramp delivery significantly to hit the 11.0M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "State Farm \u00b7 Pacing",
+    "campaignId": "state_farm",
+    "campaignPartner": "State Farm"
   },
   {
     "tag": "WATCH",
@@ -13227,7 +13492,8 @@ window.EPISODES_BY_CAMPAIGN = {
     }
   ],
   "thrivent": [],
-  "betmgm": []
+  "betmgm": [],
+  "state_farm": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -15850,6 +16116,16 @@ window.UPLOAD_TARGETS = {
       "file": "betmgm_meta_ads.csv",
       "label": "Meta Ads"
     }
+  ],
+  "state_farm": [
+    {
+      "file": "state_farm_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "state_farm_x_ads.csv",
+      "label": "X Ads"
+    }
   ]
 };
 
@@ -15861,7 +16137,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -15872,7 +16148,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -15883,7 +16159,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -15894,7 +16170,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -15905,7 +16181,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "portfolio_players_yt_paid.csv",
     "fileSizeKb": 5.1,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 10
   },
@@ -15916,7 +16192,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
     "fileSizeKb": 4.7,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -15960,7 +16236,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -15971,7 +16247,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -16015,7 +16291,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -16026,7 +16302,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -16037,7 +16313,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -16048,7 +16324,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -16070,7 +16346,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -16081,7 +16357,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.4,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -16092,7 +16368,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -16117,6 +16393,28 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 2
+  },
+  {
+    "campaignId": "state_farm",
+    "partner": "State Farm",
+    "sourceKind": "youtube_paid",
+    "sourceLabel": "Google Ads (YT Paid)",
+    "filename": "state_farm_yt_paid.csv",
+    "fileSizeKb": null,
+    "lastModified": "missing",
+    "exists": false,
+    "postsContributed": 0
+  },
+  {
+    "campaignId": "state_farm",
+    "partner": "State Farm",
+    "sourceKind": "x_ads",
+    "sourceLabel": "X Ads",
+    "filename": "state_farm_x_ads.csv",
+    "fileSizeKb": null,
+    "lastModified": "missing",
+    "exists": false,
+    "postsContributed": 0
   }
 ];
 
@@ -17208,52 +17506,52 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.51,
-    "impressions": 14062361,
-    "paidImpressions": 14031306,
-    "pctOfTotal": 23.6,
+    "cpm": 0.34,
+    "impressions": 21208960,
+    "paidImpressions": 21165780,
+    "pctOfTotal": 30.9,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": -4.0,
+    "mvmDeltaPct": -36.4,
     "color": "#E00922"
   },
   {
     "name": "X",
     "cpm": 1.54,
-    "impressions": 10979870,
+    "impressions": 11160103,
     "paidImpressions": 9417402,
-    "pctOfTotal": 18.5,
+    "pctOfTotal": 16.3,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 24.1,
     "color": "#1d1d1f"
   },
   {
     "name": "Instagram",
-    "cpm": 5.45,
-    "impressions": 9676917,
-    "paidImpressions": 7764797,
-    "pctOfTotal": 16.3,
+    "cpm": 5.44,
+    "impressions": 10258215,
+    "paidImpressions": 8282411,
+    "pctOfTotal": 14.9,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -3.1,
+    "mvmDeltaPct": -3.3,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.93,
-    "impressions": 9013576,
-    "paidImpressions": 8932995,
-    "pctOfTotal": 15.1,
+    "cpm": 1.85,
+    "impressions": 9446845,
+    "paidImpressions": 9337058,
+    "pctOfTotal": 13.8,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -39.6,
+    "mvmDeltaPct": -42.2,
     "color": "#FF0033"
   },
   {
     "name": "TikTok",
-    "cpm": 2.51,
-    "impressions": 8389461,
-    "paidImpressions": 6022237,
-    "pctOfTotal": 14.1,
+    "cpm": 2.49,
+    "impressions": 9129681,
+    "paidImpressions": 6669606,
+    "pctOfTotal": 13.3,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 12.1,
+    "mvmDeltaPct": 11.1,
     "color": "#000000"
   },
   {
@@ -17261,7 +17559,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.24,
     "impressions": 5842799,
     "paidImpressions": 5829661,
-    "pctOfTotal": 9.8,
+    "pctOfTotal": 8.5,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -22.8,
     "color": "#1877F2"
@@ -17269,9 +17567,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1108839,
+    "impressions": 1190936,
     "paidImpressions": 0,
-    "pctOfTotal": 1.9,
+    "pctOfTotal": 1.7,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
@@ -17281,14 +17579,14 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 13.81,
     "impressions": 411304,
     "paidImpressions": 411304,
-    "pctOfTotal": 0.7,
+    "pctOfTotal": 0.6,
     "mvmCpm": 11.91,
     "mvmDeltaPct": 15.9,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.31;
+window.PORTFOLIO_CPM_BLEND = 2.05;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
