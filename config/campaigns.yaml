@@ -969,7 +969,7 @@ campaigns:
     # So we source delivery from the ad-platform exports only — no MS group —
     # and mark paid_only so any incidental organic is zeroed.
     paid_only: true
-    blurb: "Microsoft x FOS Explains — two longform FOS Explains videos on the business of global sports fandom plus four social cutdowns, distributed paid across YouTube, X, Meta, and TikTok."
+    blurb: "Microsoft x FOS Explains — two longform FOS Explains videos on the business of global sports fandom plus four social cutdowns, dark/paid across YouTube, X, Meta & TikTok. Only FOS Explains #1 is live so far; #2 is approved and launching ~6/23, so delivery is still ramping toward the 30.5M goal."
     sources:
       youtube_paid:
         - microsoft_yt_paid.csv
