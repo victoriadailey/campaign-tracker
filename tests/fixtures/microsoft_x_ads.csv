@@ -1,4 +1,5 @@
-Time period,On/Off,Campaign ID,Campaign name,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,CTR,CPM,Cost per link click,Video views 3s,Engagements
-2026-06-17 - 2026-06-23,On,41712978,Microsoft FOS Explains 1 - Full ep,Reach,Active,2026-06-22 07:58:31,2026-06-26 00:00:00,289372,853.16,1,0.00%,2.95,853.16,34670,377
-2026-06-17 - 2026-06-23,On,665008908,Microsoft_FOS Explains 1_Cutdown 2,Reach,Active,2026-06-22 07:58:31,2026-06-26 00:00:00,90627,276.39,0,0.00%,3.05,-,5354,101
-2026-06-17 - 2026-06-23,On,665008907,Microsoft_FOS Explains 1_Cutdown 1,Reach,Active,2026-06-22 07:58:31,2026-06-26 00:00:00,75464,242.11,1,0.00%,3.21,242.11,4511,88
+Time period,On/Off,Ad ID,Ad name,Delivery status,Impressions,Spend,Link clicks,CTR,CPM,Cost per link click,Engagements
+2026-06-01 - 2026-06-24,On,665382905,Microsoft_FOS Explains 2_Full ep,Active,1,0.00,0,0.00%,0.47,-,0
+2026-06-01 - 2026-06-24,On,665008908,Microsoft_FOS Explains 1_Cutdown 2,Active,145126,491.34,0,0.00%,3.39,-,649
+2026-06-01 - 2026-06-24,On,665008907,Microsoft_FOS Explains 1_Cutdown 1,Active,169742,607.60,1,0.00%,3.58,607.60,1540
+2026-06-01 - 2026-06-24,On,665008071,Microsoft FOS Explains 1 - Full ep,Active,543233,1702.95,1,0.00%,3.13,1702.95,2288
