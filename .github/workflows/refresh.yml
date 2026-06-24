@@ -1,18 +1,21 @@
 name: Refresh Pulse dashboard
 
 # Three trigger modes:
-#   1. Every 2 hours     — keeps MS API data current without anyone clicking
+#   1. Once daily (~7am ET) — keeps MS API data current without anyone clicking.
+#                          Kept to 1×/day to minimize Netlify deploys (each push
+#                          to main is a production deploy); the team uses the
+#                          "Refresh now" button for an immediate intraday pull.
 #   2. workflow_dispatch — fired by the "Refresh now" button on the dashboard
 #                          (via netlify/functions/refresh-now.js)
-#   3. push to tests/fixtures/ — fires automatically right after a CSV upload
-#                                lands via the dashboard upload form
+#   3. push to tests/fixtures/ or config/campaigns.yaml — fires automatically
+#                                right after a CSV upload or campaign edit lands
 #
 # Concurrency is set so two refreshes can't run simultaneously and stomp on
 # each other's commit.
 
 on:
   schedule:
-    - cron: '0 */2 * * *'       # every 2 hours (~720 min/mo, under the 2,000 free private-repo cap)
+    - cron: '0 11 * * *'        # once daily ~7am ET — keeps Netlify deploys low; team hits "Refresh now" for intraday pulls
   workflow_dispatch:             # "Refresh now" button
   push:
     paths:
