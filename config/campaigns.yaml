@@ -581,40 +581,33 @@ campaigns:
     lead_format: Made for Social
     paid_only: true   # all dark, fully paid — no organic posts
     blurb: "Sport Clips dark-social program in two components: MLB Minute (Mar 23 – Apr 21, wrapped — 1.1M goal exceeded) and Off the Pitch (Jun 11–28, live) with Baker Machado breaking down World Cup stories."
-    # MS reports the dark TikTok creative as 3 separate ad-variant posts —
-    # combine them into one display post.
-    merge_posts:
-      - ids: [1867731290586129, 1867725845630338, 1867725558126769]
-        title: "Off the Pitch Video 1 — TikTok"
+    # YouTube Shorts + Instagram come from Measure Studio (accurate for both
+    # components). TikTok + X come ONLY from their ad-platform exports — MS
+    # surfaces the same dark posts, so drop MS TikTok/X to avoid double-counting.
+    ms_exclude_platforms: ["tiktok", "x"]
     # The GAds Shorts row ("Sport Clips: Off the Pitch Video 1 (Shorts)") and
     # the MS dark YT short ("Four of the top ranked…") share no title token —
     # pair by sorted rank so they render as one organic+boosted row.
     yt_paired_by_sort: true
     sources:
-      measure_studio_group_id: 7729         # Sport Clips - Off the Pitch (dark posts)
+      measure_studio_group_ids:
+        - 6235                              # Sport Clips - MLB Minute (YT Shorts + IG)
+        - 7729                              # Sport Clips - Off the Pitch (YT Shorts + IG)
       youtube_paid:
         - sportclips_yt_paid.csv
+      tiktok_ads:
+        - sportclips_tiktok_ads.csv         # TikTok: all 4 videos (MLB V1/V2, OTP V1/V2)
       x_ads:
-        - sportclips_x_ads.csv
+        - sportclips_x_ads.csv              # X: MLB V1, OTP V1, OTP V2
       meta_ads:
         - sportclips_meta_ads.csv
-      # MLB Minute actuals — per-platform totals from the 4/21 wrap report
-      # (docs/reference/Sport_Clips_MLBMinute_Report4.21.xlsx). No exports
-      # exist for this flight; numbers are final.
-      manual_rows:
-        - { title: "MLB Minute Video 1 — Instagram",  platform: instagram, impressions: 80633,   views: 77023, clicks: 35,   spend: 239.17 }
-        - { title: "MLB Minute Video 1 — YouTube Shorts", platform: youtube, impressions: 36903, views: 525,   clicks: 0,    spend: 108.97 }
-        - { title: "MLB Minute Video 1 — TikTok",     platform: tiktok,    impressions: 98849,   views: 97360, clicks: 90,   spend: 260.93 }
-        - { title: "MLB Minute Video 1 — X",          platform: x,         impressions: 1479849,               clicks: 1048, spend: 518.75 }
-        - { title: "MLB Minute Video 2 — Instagram",  platform: instagram, impressions: 38711,   views: 796,   clicks: 93,   spend: 110.78 }
-        - { title: "MLB Minute Video 2 — YouTube Shorts", platform: youtube, impressions: 20325, views: 343,   clicks: 0,    spend: 60.28 }
-        - { title: "MLB Minute Video 2 — TikTok",     platform: tiktok,    impressions: 31500,   views: 31112, clicks: 45,   spend: 70.80 }
     episodes:
       - id: mlb_minute
         n: "Part 01"
         title: "MLB Minute"
         date: "Mar–Apr 2026"
-        match: ["MLB Minute"]
+        group_ids: [6235]             # MS post group — definitive component split
+        match: ["MLB Minute"]         # fallback for ad rows (TikTok / X)
         exclude: []
         impression_goal: 1_100_000    # exceeded: 1,786,770 delivered (154%)
         budget_goal: 2_500            # per the 4/21 wrap report

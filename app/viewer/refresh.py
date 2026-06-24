@@ -109,6 +109,11 @@ def main() -> int:
         c_id = c["id"]
         organic_only = {_PLATFORM_FROM_KEY[k.lower()] for k in c.get("ms_organic_only_for", [])
                         if k.lower() in _PLATFORM_FROM_KEY}
+        # Platforms to drop entirely from Measure Studio for this campaign —
+        # used when an ad-platform export is the authoritative source for that
+        # platform and MS would otherwise double-count the same dark posts
+        # (e.g. Sport Clips: TikTok + X come from their exports, not MS).
+        ms_exclude = {k.lower() for k in (c.get("ms_exclude_platforms") or [])}
 
         # ---------- Measure Studio ----------
         # When `measure_studio_group_id(s)` is configured the API IS the
@@ -133,6 +138,8 @@ def main() -> int:
                 try:
                     for gid in group_ids:
                         rows = ms_client.fetch_group(gid)
+                        if ms_exclude:
+                            rows = [p for p in rows if p.platform.value not in ms_exclude]
                         posts_by_campaign[c_id].extend(rows)
                 except Exception as e:  # noqa: BLE001
                     ms_fetch_errors.append(
