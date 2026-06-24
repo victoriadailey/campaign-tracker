@@ -19,6 +19,13 @@
   # No build command — viewer/ is already a static bundle plus jsx that
   # browsers compile at runtime via the standalone Babel script.
   command    = "echo 'Static site, no build step.'"
+  # Skip the deploy entirely unless something we actually serve changed —
+  # the published site (viewer/), the functions (netlify/), or this config.
+  # Netlify bills a flat 15 credits per production deploy, and most commits
+  # only touch data sources / app code (tests/fixtures/, config/, app/) that
+  # don't affect served files. `git diff --quiet` exits 0 (→ Netlify cancels
+  # the build) when none of these paths changed since the last deploy.
+  ignore     = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- viewer/ netlify/ netlify.toml"
 
 # Serve the standalone bundle at the root for shareable links, and keep the
 # split-file React app at /app/ for the team's normal view.
