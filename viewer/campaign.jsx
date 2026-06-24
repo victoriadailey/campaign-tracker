@@ -100,10 +100,18 @@ function CampaignPage({ campaignId, onBack }) {
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
               <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{c.flight}</span>
             </div>
-            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Last Updated</span>
-              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdated)}</span>
-            </div>
+            {c.lastUpdatedMs && (
+              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+                <span style={{color:'var(--ink-3)', fontWeight:500}}>Measure Studio</span>
+                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdatedMs)}</span>
+              </div>
+            )}
+            {c.lastUpdatedExports && (
+              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+                <span style={{color:'var(--ink-3)', fontWeight:500}}>Additional data</span>
+                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdatedExports)}</span>
+              </div>
+            )}
           </div>
           <div style={{display:'flex', flexDirection:'column', gap:8, marginLeft:12}}>
             <button className="btn btn-acc"><Ic.download/> Export</button>
@@ -890,10 +898,18 @@ function BrandXCampaignPage({ c, onBack }) {
               <span style={{color:'var(--ink-3)', fontWeight:500}}>Flight</span>
               <span style={{color:'var(--ink)', fontWeight:600}}>{c.flight}</span>
             </div>
-            <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
-              <span style={{color:'var(--ink-3)', fontWeight:500}}>Last Updated</span>
-              <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdated)}</span>
-            </div>
+            {c.lastUpdatedMs && (
+              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+                <span style={{color:'var(--ink-3)', fontWeight:500}}>Measure Studio</span>
+                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdatedMs)}</span>
+              </div>
+            )}
+            {c.lastUpdatedExports && (
+              <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
+                <span style={{color:'var(--ink-3)', fontWeight:500}}>Additional data</span>
+                <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdatedExports)}</span>
+              </div>
+            )}
           </div>
         }
       />

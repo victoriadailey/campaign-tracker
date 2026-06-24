@@ -497,11 +497,12 @@ def main() -> int:
             ],
             budget_includes_added_value=bool(c.get("budget_includes_added_value", False)),
         )
-        last_updated = _campaign_last_updated(c, exports_root)
+        ms_ts, exports_ts = _campaign_last_updated(c, exports_root)
         posts = posts_by_campaign.get(cc.id, [])
         if posts:
             summary = rollup_campaign(cc, posts, today=today)
-            summary.last_updated = last_updated
+            summary.last_updated_ms = ms_ts
+            summary.last_updated_exports = exports_ts
             # Attach per-campaign channels + top posts + auto-generated callouts
             summary.channels = per_campaign_channels(posts)
             partners_one = {cc.id: cc.partner}
@@ -517,7 +518,8 @@ def main() -> int:
             campaigns.append(summary)
         else:
             _sample_summary = _sample_campaign_or_compute(cc, sample, today)
-            _sample_summary.last_updated = last_updated
+            _sample_summary.last_updated_ms = ms_ts
+            _sample_summary.last_updated_exports = exports_ts
             campaigns.append(_sample_summary)
 
     # ---------- Cross-campaign ----------
@@ -1967,42 +1969,67 @@ def _merge_youtube_paid_spend_into_ms(
     return [p for p in posts if id(p) not in skip]
 
 
-def _campaign_last_updated(c: dict, exports_root: Path) -> str:
-    """When this campaign's freshest data was provided, as an ISO 8601 UTC string.
+def _git_commit_time(path: Path) -> "datetime | None":
+    """Last git commit time touching `path`, as a UTC datetime — or None.
 
-    Takes the most recent of:
-      - the file mtime of every configured ad-platform export that exists
-        (X Ads / Google Ads / Meta / TikTok / LinkedIn / manual MS CSVs), and
-      - the current run time, IF the campaign pulls from Measure Studio live
-        (an MS group id) — that data is re-fetched fresh on every refresh.
+    Used instead of file mtime because CI checkouts reset mtimes to checkout
+    time (so mtime always reads as "now"). The commit time is when a CSV was
+    actually uploaded/committed, which is what we want for "Additional data".
+    Requires full git history (the workflow checks out with fetch-depth: 0).
+    """
+    import subprocess
+    from datetime import datetime as _dt, timezone as _tz
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--format=%cI", "--", str(path)],
+            cwd=REPO_ROOT, capture_output=True, text=True, timeout=15,
+        )
+        s = (out.stdout or "").strip()
+        if not s:
+            return None
+        return _dt.fromisoformat(s).astimezone(_tz.utc)
+    except Exception:
+        return None
 
-    Returns "" when no datable source exists.
+
+def _campaign_last_updated(c: dict, exports_root: Path) -> tuple[str, str]:
+    """Two freshness timestamps for a campaign, as ISO 8601 UTC strings:
+
+      (measure_studio_ts, additional_data_ts)
+
+    - measure_studio_ts: the current run time IF the campaign pulls from a
+      Measure Studio group — MS is re-fetched fresh on every refresh, so its
+      data is as current as this run. "" when there's no MS group.
+    - additional_data_ts: the most recent git COMMIT time among the campaign's
+      uploaded ad-platform exports (X / Google Ads / Meta / TikTok / LinkedIn /
+      manual MS CSVs). Only moves when a file is actually re-uploaded for THIS
+      campaign — not on every refresh. Falls back to file mtime when git
+      history isn't available (e.g. an uncommitted local file). "" when none.
     """
     from datetime import datetime as _dt, timezone as _tz
 
     sources_cfg = c.get("sources", {}) or {}
-    file_kinds = (
-        "measure_studio", "google_ads_campaign", "youtube_paid",
-        "x_ads", "meta_ads", "tiktok_ads", "linkedin_ads",
-    )
-    candidates: list[_dt] = []
-    for kind in file_kinds:
-        for fname in sources_cfg.get(kind, []) or []:
-            path = exports_root / fname
-            if path.exists():
-                candidates.append(_dt.fromtimestamp(path.stat().st_mtime, tz=_tz.utc))
-
-    # Live Measure Studio source → its data is as fresh as this refresh.
     has_ms_live = bool(
         sources_cfg.get("measure_studio_group_id")
         or sources_cfg.get("measure_studio_group_ids")
     )
-    if has_ms_live:
-        candidates.append(_dt.now(_tz.utc))
+    ms_ts = _dt.now(_tz.utc).strftime("%Y-%m-%dT%H:%M:%SZ") if has_ms_live else ""
 
-    if not candidates:
-        return ""
-    return max(candidates).strftime("%Y-%m-%dT%H:%M:%SZ")
+    file_kinds = (
+        "measure_studio", "google_ads_campaign", "youtube_paid",
+        "x_ads", "meta_ads", "tiktok_ads", "linkedin_ads",
+    )
+    times: list[_dt] = []
+    for kind in file_kinds:
+        for fname in sources_cfg.get(kind, []) or []:
+            path = exports_root / fname
+            if not path.exists():
+                continue
+            ts = _git_commit_time(path) or _dt.fromtimestamp(path.stat().st_mtime, tz=_tz.utc)
+            times.append(ts)
+    exports_ts = max(times).strftime("%Y-%m-%dT%H:%M:%SZ") if times else ""
+
+    return ms_ts, exports_ts
 
 
 def _build_data_archive(cfg: dict, exports_root: Path, posts_by_campaign: dict,

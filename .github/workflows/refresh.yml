@@ -37,6 +37,9 @@ jobs:
           # GITHUB_TOKEN works by default; if you self-host or restrict perms,
           # swap to a dedicated PAT here.
           token: ${{ secrets.GITHUB_TOKEN }}
+          # Full history so the refresh can read each export's last commit time
+          # ("Additional data" timestamp). Shallow clones can't see file history.
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:

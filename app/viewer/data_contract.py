@@ -75,11 +75,14 @@ class CampaignSummary:
     #   {label: str, impressions: {delivered: int, goal: int}}
     # Rendered as a dedicated "pacing by component" section on the campaign page.
     pacing_components: list = field(default_factory=list)
-    # When the freshest data for this campaign was provided — the most recent
-    # of its source-export file mtimes (and the refresh time for live
-    # Measure-Studio-sourced campaigns). ISO 8601 UTC. Shown as "Last Updated"
-    # in the campaign header. Empty when no datable source exists.
-    last_updated: str = ""
+    # Freshness timestamps shown in the campaign header (ISO 8601 UTC, "" when
+    # n/a). Split by source so each reflects when THAT data actually changed:
+    #   last_updated_ms      — Measure Studio pull time (= refresh time; MS is
+    #                          re-fetched every run). Empty when no MS group.
+    #   last_updated_exports — git commit time of the campaign's uploaded
+    #                          ad-platform exports; only moves on a real upload.
+    last_updated_ms: str = ""
+    last_updated_exports: str = ""
 
 
 @dataclass
