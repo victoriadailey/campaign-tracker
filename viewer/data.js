@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-24T18:04:26Z";
+window.LAST_REFRESHED = "2026-06-24T18:46:51Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -814,7 +814,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-16T16:37:15Z"
   },
   {
@@ -1065,7 +1065,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-23T13:45:48Z"
   },
   {
@@ -1148,7 +1148,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1356,7 +1356,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1477,7 +1477,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-24T14:09:06Z"
   },
   {
@@ -1631,7 +1631,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-23T16:08:56Z"
   },
   {
@@ -2141,7 +2141,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -2288,7 +2288,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2652,7 +2652,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T18:04:26Z",
+    "lastUpdatedMs": "2026-06-24T18:46:51Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2667,46 +2667,46 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 7113195,
+      "delivered": 8678957,
       "goal": 30500000
     },
     "budget": {
-      "delivered": 7642.16,
+      "delivered": 8284.32,
       "goal": 32250.0
     },
     "color": "ft-1",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 0.2,
-    "cpm": 1.07,
+    "cpm": 0.95,
     "episodes": 0,
-    "posts": 9,
+    "posts": 6,
     "blurb": "Microsoft x FOS Explains \u2014 two longform FOS Explains videos on the business of global sports fandom plus four social cutdowns, dark/paid across YouTube, X, Meta & TikTok. Only FOS Explains #1 is live so far; #2 is approved and launching ~6/23, so delivery is still ramping toward the 30.5M goal.",
-    "views": 279572,
+    "views": 283987,
     "goalSplit": [
       {
         "label": "FOS Explains Longform (2 videos)",
         "impressions": {
-          "delivered": 6676650,
+          "delivered": 8408503,
           "goal": 26000000
         },
         "budget": {
-          "delivered": 6359.51,
+          "delivered": 7520.17,
           "goal": 0.0
         },
-        "posts": 3
+        "posts": 2
       },
       {
         "label": "FOS Explains Cutdowns (4)",
         "impressions": {
-          "delivered": 436545,
+          "delivered": 270454,
           "goal": 4500000
         },
         "budget": {
-          "delivered": 1282.65,
+          "delivered": 764.15,
           "goal": 0.0
         },
-        "posts": 6
+        "posts": 4
       }
     ],
     "benchmarkCategory": "Original Content",
@@ -2715,12 +2715,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 6318733,
-        "eng": 12033,
-        "er": 0.19,
-        "cpm": 0.72,
+        "impressions": 8310115,
+        "eng": 16947,
+        "er": 0.2,
+        "cpm": 0.75,
         "color": "#E00922",
-        "delta": -61.9,
+        "delta": -59.2,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
@@ -2731,34 +2731,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 68545,
-        "eng": 55099,
-        "er": 80.38,
-        "cpm": 13.55,
+        "impressions": 98388,
+        "eng": 79211,
+        "er": 80.51,
+        "cpm": 13.47,
         "color": "#B0061B",
-        "delta": 11.6,
+        "delta": 11.8,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 40275
-      },
-      {
-        "name": "X",
-        "italic": "X",
-        "impressions": 455463,
-        "eng": 566,
-        "er": 0.12,
-        "cpm": 3.01,
-        "color": "#1d1d1f",
-        "delta": -86.5,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 0,
-        "views": 0
+        "views": 58189
       },
       {
         "name": "TikTok",
@@ -2799,15 +2783,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 47% of goal (14.2M of 30.5M) with 6 days left.",
-        "body": "At the current rate the campaign will fall ~16.3M impressions short of the 30.5M goal. Need to deliver 3.9M impr/day (3.3\u00d7 the current 1.2M/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 57% of goal (17.4M of 30.5M) with 6 days left.",
+        "body": "At the current rate the campaign will fall ~13.1M impressions short of the 30.5M goal. Need to deliver 3.6M impr/day (2.5\u00d7 the current 1.4M/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Microsoft \u00b7 Pacing"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "Campaign averaging 0.20% ER \u2014 below the 1% floor.",
-        "body": "0.20% engagement rate across 7.1M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "body": "0.20% engagement rate across 8.7M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Microsoft \u00b7 Engagement"
       }
     ],
@@ -2815,7 +2799,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-06-23T19:00:45Z"
+    "lastUpdatedExports": "2026-06-24T18:45:18Z"
   }
 ];
 
@@ -3053,28 +3037,28 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 43016441,
-    "eng": 956992,
-    "er": 2.22,
-    "cpm": 0.95,
+    "impressions": 45007823,
+    "eng": 961906,
+    "er": 2.14,
+    "cpm": 0.94,
     "color": "#E00922",
-    "delta": -88.9,
+    "delta": -89.3,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 9538951
+    "views": 9543366
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 22142600,
-    "eng": 545224,
-    "er": 2.46,
-    "cpm": 1.19,
+    "impressions": 21687137,
+    "eng": 544658,
+    "er": 2.51,
+    "cpm": 1.15,
     "color": "#1d1d1f",
-    "delta": 167.6,
+    "delta": 173.0,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -3238,8 +3222,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 47% of goal (14.2M of 30.5M) with 6 days left.",
-    "body": "At the current rate the campaign will fall ~16.3M impressions short of the 30.5M goal. Need to deliver 3.9M impr/day (3.3\u00d7 the current 1.2M/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 57% of goal (17.4M of 30.5M) with 6 days left.",
+    "body": "At the current rate the campaign will fall ~13.1M impressions short of the 30.5M goal. Need to deliver 3.6M impr/day (2.5\u00d7 the current 1.4M/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Microsoft \u00b7 Pacing",
     "campaignId": "microsoft",
     "campaignPartner": "Microsoft"
@@ -24399,19 +24383,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": null,
       "distKind": "paid",
-      "impr": 6318733,
-      "paidImpr": 6318733,
+      "impr": 8310115,
+      "paidImpr": 8310115,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 12033,
-      "er": 0.19,
-      "spend": 4577.79,
+      "eng": 16947,
+      "er": 0.2,
+      "spend": 6194.99,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 0.72,
+      "cpm": 0.75,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -24422,65 +24406,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 68545,
-      "paidImpr": 68545,
+      "impr": 98388,
+      "paidImpr": 98388,
       "orgImpr": 0,
-      "views": 40275,
+      "views": 58189,
       "reach": 0,
-      "eng": 55099,
-      "er": 80.38,
-      "spend": 928.56,
+      "eng": 79211,
+      "er": 80.51,
+      "spend": 1325.18,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 13.55,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Microsoft FOS Explains 1 - Full ep",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 289372,
-      "paidImpr": 289372,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 377,
-      "er": 0.13,
-      "spend": 853.16,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": null,
-      "cpm": 2.95,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Microsoft_FOS Explains 1_Cutdown 2",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 90627,
-      "paidImpr": 90627,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 101,
-      "er": 0.11,
-      "spend": 276.39,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": null,
-      "cpm": 3.05,
+      "cpm": 13.47,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -24504,29 +24442,6 @@ window.POSTS_BY_CAMPAIGN = {
       "ctr": null,
       "cpc": null,
       "cpm": 2.38,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Microsoft_FOS Explains 1_Cutdown 1",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 75464,
-      "paidImpr": 75464,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 88,
-      "er": 0.12,
-      "spend": 242.11,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": null,
-      "cpm": 3.21,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25045,7 +24960,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
-    "fileSizeKb": 0.4,
+    "fileSizeKb": 0.5,
     "lastModified": "2026-06-24",
     "exists": true,
     "postsContributed": 2
@@ -25056,10 +24971,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
-    "fileSizeKb": 0.7,
+    "fileSizeKb": 0.6,
     "lastModified": "2026-06-24",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 0
   },
   {
     "campaignId": "microsoft",
@@ -26173,22 +26088,22 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.57,
-    "impressions": 20582379,
-    "paidImpressions": 20551324,
-    "pctOfTotal": 30.9,
+    "cpm": 0.59,
+    "impressions": 22573761,
+    "paidImpressions": 22542706,
+    "pctOfTotal": 33.1,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 7.5,
+    "mvmDeltaPct": 11.6,
     "color": "#E00922"
   },
   {
     "name": "X",
-    "cpm": 1.59,
-    "impressions": 11143326,
-    "paidImpressions": 9580858,
-    "pctOfTotal": 16.7,
+    "cpm": 1.52,
+    "impressions": 10687863,
+    "paidImpressions": 9125395,
+    "pctOfTotal": 15.7,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 28.6,
+    "mvmDeltaPct": 22.8,
     "color": "#1d1d1f"
   },
   {
@@ -26196,7 +26111,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.34,
     "impressions": 10098114,
     "paidImpressions": 8179573,
-    "pctOfTotal": 15.1,
+    "pctOfTotal": 14.8,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -4.9,
     "color": "#E4405F"
@@ -26206,7 +26121,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.87,
     "impressions": 9079760,
     "paidImpressions": 8999173,
-    "pctOfTotal": 13.6,
+    "pctOfTotal": 13.3,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -41.6,
     "color": "#FF0033"
@@ -26216,7 +26131,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.52,
     "impressions": 8324007,
     "paidImpressions": 5955910,
-    "pctOfTotal": 12.5,
+    "pctOfTotal": 12.2,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 12.4,
     "color": "#000000"
@@ -26226,7 +26141,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.24,
     "impressions": 5842916,
     "paidImpressions": 5829749,
-    "pctOfTotal": 8.8,
+    "pctOfTotal": 8.6,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -22.8,
     "color": "#1877F2"
@@ -26236,24 +26151,24 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.0,
     "impressions": 1114865,
     "paidImpressions": 0,
-    "pctOfTotal": 1.7,
+    "pctOfTotal": 1.6,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 13.77,
-    "impressions": 479849,
-    "paidImpressions": 479849,
+    "cpm": 13.74,
+    "impressions": 509692,
+    "paidImpressions": 509692,
     "pctOfTotal": 0.7,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 15.6,
+    "mvmDeltaPct": 15.4,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.15;
+window.PORTFOLIO_CPM_BLEND = 2.1;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
