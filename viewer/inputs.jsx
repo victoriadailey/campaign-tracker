@@ -443,6 +443,11 @@ function SubmitQueueRow({ campaignId, queue, onClear }) {
             password,
             campaign_id: campaignId,
             filename,
+            // When `filename` came from UPLOAD_TARGETS it's already the exact
+            // name refresh.py reads (e.g. portfolio_players_x_ads.csv) — tell
+            // the function not to prepend the campaign id, which would create a
+            // mismatched file the refresh ignores.
+            exact_target: !!match,
             content_base64: file.content_base64,
           }),
         });

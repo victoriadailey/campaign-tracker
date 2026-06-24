@@ -38,6 +38,12 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
     if df is None or df.empty:
         return ParseResult(rows=[], detected_source=Source.X_ADS, errors=["Could not parse X Ads CSV"])
 
+    # Ad-level exports (X Ads Manager "Ads" view) use "Ad name"/"Ad ID" instead
+    # of "Campaign name"/"Campaign ID". Normalize so the native parser handles
+    # both. Only rename when the campaign-level columns aren't already present.
+    if "Campaign name" not in df.columns and "Ad name" in df.columns:
+        df = df.rename(columns={"Ad name": "Campaign name", "Ad ID": "Campaign ID"})
+
     cols = set(df.columns)
     # The native Campaign Manager export always has "Campaign name" + "Campaign ID";
     # the combined Sprout-style export uses "Campaign" + "Period". The "Time period"

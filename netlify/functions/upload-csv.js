@@ -60,7 +60,7 @@ exports.handler = async (event) => {
   try { body = JSON.parse(event.body || '{}'); }
   catch { return { statusCode: 400, body: JSON.stringify({ error: 'Invalid JSON' }) }; }
 
-  const { password, campaign_id, filename: rawName, content_base64 } = body;
+  const { password, campaign_id, filename: rawName, content_base64, exact_target } = body;
 
   if (password !== UPLOAD_PASSWORD) {
     return { statusCode: 401, body: JSON.stringify({ error: 'Wrong password' }) };
@@ -73,7 +73,13 @@ exports.handler = async (event) => {
   if (!safe) {
     return { statusCode: 400, body: JSON.stringify({ error: 'Filename must end in .csv, .tsv, or .txt' }) };
   }
-  const finalName = namespacedFilename(campaign_id, safe);
+  // `exact_target` means the dashboard resolved this name from the campaign's
+  // configured sources (UPLOAD_TARGETS) — use it verbatim. Otherwise namespace
+  // it under the campaign id so a stray upload can't clobber another fixture.
+  // Without this, files whose configured name doesn't start with the campaign
+  // id (e.g. etrade → portfolio_players_x_ads.csv) got a wrong "etrade_" prefix
+  // and the refresh silently kept reading the old file.
+  const finalName = exact_target ? safe : namespacedFilename(campaign_id, safe);
   if (!finalName) {
     return { statusCode: 400, body: JSON.stringify({ error: 'Invalid campaign_id' }) };
   }
