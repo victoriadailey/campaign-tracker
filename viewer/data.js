@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-24T19:34:35Z";
+window.LAST_REFRESHED = "2026-06-24T20:13:17Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-24T19:33:33Z"
   },
   {
@@ -837,18 +837,18 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 11967879,
+      "delivered": 11973905,
       "goal": 10250000
     },
     "budget": {
-      "delivered": 37439.77,
+      "delivered": 41682.21,
       "goal": 29650.0
     },
     "color": "ft-2",
     "leadFormat": "Made for Social",
     "topChannel": "TikTok",
-    "er": 1.8,
-    "cpm": 3.3,
+    "er": 2.5,
+    "cpm": 3.67,
     "episodes": 5,
     "posts": 21,
     "blurb": "Two-part Fueling Dreams series with Spectrum Business. NASCAR (Texas Motor Speedway) live; World Cup launch pending.",
@@ -876,12 +876,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 2792589,
-        "eng": 40697,
-        "er": 1.46,
-        "cpm": 0.92,
+        "impressions": 2798615,
+        "eng": 126068,
+        "er": 4.5,
+        "cpm": 2.43,
         "color": "#FF0033",
-        "delta": -92.7,
+        "delta": -77.5,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -1054,7 +1054,7 @@ window.CAMPAIGNS = [
       {
         "label": "Small Business Highlights \u2014 World Cup",
         "impressions": {
-          "delivered": 5102073,
+          "delivered": 5108099,
           "goal": 4000000
         }
       },
@@ -1073,8 +1073,8 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
-    "lastUpdatedExports": "2026-06-23T13:45:48Z"
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
+    "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
     "id": "etrade_brandx",
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1485,7 +1485,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-24T13:32:46Z"
   },
   {
@@ -1639,7 +1639,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1801,7 +1801,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-23T16:08:56Z"
   },
   {
@@ -2149,7 +2149,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -2296,7 +2296,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2660,7 +2660,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-24T19:34:35Z",
+    "lastUpdatedMs": "2026-06-24T20:13:17Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3061,12 +3061,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 44857922,
-    "eng": 973168,
-    "er": 2.17,
-    "cpm": 0.97,
+    "impressions": 44863948,
+    "eng": 1058539,
+    "er": 2.36,
+    "cpm": 1.06,
     "color": "#E00922",
-    "delta": -89.2,
+    "delta": -88.2,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -10906,9 +10906,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1424589,
         "views": 1414614,
-        "er": 0.56,
-        "eng": 7968,
-        "spend": 4706.54
+        "er": 1.96,
+        "eng": 27961,
+        "spend": 6050.4
       },
       "perChannel": [
         {
@@ -10948,12 +10948,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 461018,
           "orgImpr": 765,
           "views": 454966,
-          "eng": 204,
-          "paidEng": 0,
+          "eng": 20197,
+          "paidEng": 19993,
           "orgEng": 204,
-          "er": 0.04,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "er": 4.37,
+          "cpm": 2.91,
+          "spend": 1343.86,
           "posts": 1
         }
       ],
@@ -10982,9 +10982,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 461018,
           "orgImpr": 765,
           "views": 454966,
-          "eng": 204,
-          "er": 0.04,
-          "spend": 0,
+          "eng": 20197,
+          "er": 4.37,
+          "spend": 1343.86,
           "url": "https://www.youtube.com/shorts/3m9vdSIFQIs",
           "postedAt": "2026-05-08T08:30:06-07:00"
         },
@@ -11016,9 +11016,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 4109240,
         "views": 2532789,
-        "er": 2.56,
-        "eng": 105016,
-        "spend": 9780.61
+        "er": 4.14,
+        "eng": 170134,
+        "spend": 12665.3
       },
       "perChannel": [
         {
@@ -11043,12 +11043,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 1278380,
           "orgImpr": 2498,
           "views": 625148,
-          "eng": 257,
-          "paidEng": 0,
+          "eng": 65375,
+          "paidEng": 65118,
           "orgEng": 257,
-          "er": 0.02,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "er": 5.11,
+          "cpm": 2.26,
+          "spend": 2884.69,
           "posts": 1
         },
         {
@@ -11122,9 +11122,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 1278380,
           "orgImpr": 0,
           "views": 625148,
-          "eng": 257,
-          "er": 0.02,
-          "spend": 0,
+          "eng": 65375,
+          "er": 5.11,
+          "spend": 2884.69,
           "url": "https://www.youtube.com/shorts/2wkMiBX3fn0",
           "postedAt": "2026-05-25T13:30:00-07:00"
         },
@@ -11314,11 +11314,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "World Cup \u2014 Small Business Highlight",
       "date": "Jun 2026",
       "total": {
-        "impr": 5102073,
+        "impr": 5108099,
         "views": 4251403,
         "er": 1.99,
-        "eng": 101445,
-        "spend": 19282.51
+        "eng": 101705,
+        "spend": 19296.4
       },
       "perChannel": [
         {
@@ -11339,16 +11339,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 1052426,
-          "paidImpr": 1052426,
+          "impr": 1058452,
+          "paidImpr": 1058452,
           "orgImpr": 909,
           "views": 1031421,
-          "eng": 40236,
-          "paidEng": 40132,
+          "eng": 40496,
+          "paidEng": 40392,
           "orgEng": 104,
-          "er": 3.82,
+          "er": 3.83,
           "cpm": 2.43,
-          "spend": 2557.6,
+          "spend": 2571.49,
           "posts": 1
         },
         {
@@ -11433,13 +11433,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 1052426,
-          "paidImpr": 1052426,
+          "impr": 1058452,
+          "paidImpr": 1058452,
           "orgImpr": 0,
           "views": 1031421,
-          "eng": 40236,
-          "er": 3.82,
-          "spend": 2557.6,
+          "eng": 40496,
+          "er": 3.83,
+          "spend": 2571.49,
           "url": "https://www.youtube.com/shorts/rYVcjIc1Tpc",
           "postedAt": "2026-06-12T13:30:20-07:00"
         },
@@ -21069,9 +21069,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 765,
       "views": 454966,
       "reach": 0,
-      "eng": 204,
-      "er": 0.04,
-      "spend": 0,
+      "eng": 20197,
+      "er": 4.37,
+      "spend": 1343.86,
       "watchTimeMin": 36042.2,
       "clicks": null,
       "ctr": 0.0,
@@ -21138,9 +21138,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 625148,
       "reach": 0,
-      "eng": 257,
-      "er": 0.02,
-      "spend": 0,
+      "eng": 65375,
+      "er": 5.11,
+      "spend": 2884.69,
       "watchTimeMin": 54403.1,
       "clicks": null,
       "ctr": 0.0,
@@ -21363,14 +21363,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1052426,
-      "paidImpr": 1052426,
+      "impr": 1058452,
+      "paidImpr": 1058452,
       "orgImpr": 0,
       "views": 1031421,
       "reach": 0,
-      "eng": 40236,
-      "er": 3.82,
-      "spend": 2557.6,
+      "eng": 40496,
+      "er": 3.83,
+      "spend": 2571.49,
       "watchTimeMin": 70061.8,
       "clicks": null,
       "ctr": 0.0,
@@ -24891,7 +24891,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
-    "fileSizeKb": 0.3,
+    "fileSizeKb": 0.5,
     "lastModified": "2026-06-24",
     "exists": true,
     "postsContributed": 0
@@ -26269,12 +26269,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.87,
-    "impressions": 9090094,
-    "paidImpressions": 9009507,
+    "cpm": 2.34,
+    "impressions": 9096120,
+    "paidImpressions": 9015533,
     "pctOfTotal": 13.4,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -41.5,
+    "mvmDeltaPct": -26.9,
     "color": "#FF0033"
   },
   {
@@ -26319,7 +26319,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.18;
+window.PORTFOLIO_CPM_BLEND = 2.25;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
