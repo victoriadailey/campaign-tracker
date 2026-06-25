@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-25T14:08:39Z";
+window.LAST_REFRESHED = "2026-06-25T14:10:14Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-24T19:33:33Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1478,7 +1478,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-24T13:32:46Z"
   },
   {
@@ -1632,7 +1632,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1794,7 +1794,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-23T16:08:56Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-25T13:48:52Z"
   },
   {
@@ -2337,7 +2337,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2427,7 +2427,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-06-25T14:06:24Z"
+    "lastUpdatedExports": "2026-06-25T14:09:12Z"
   },
   {
     "id": "state_farm",
@@ -2701,7 +2701,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:08:39Z",
+    "lastUpdatedMs": "2026-06-25T14:10:14Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
