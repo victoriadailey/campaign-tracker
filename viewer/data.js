@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-25T13:49:45Z";
+window.LAST_REFRESHED = "2026-06-25T14:08:39Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-24T19:33:33Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1478,7 +1478,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-24T13:32:46Z"
   },
   {
@@ -1632,7 +1632,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1794,7 +1794,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-23T16:08:56Z"
   },
   {
@@ -1809,22 +1809,22 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 11717959,
+      "delivered": 11874301,
       "goal": 12000000
     },
     "budget": {
-      "delivered": 25327.01,
+      "delivered": 25859.11,
       "goal": 30000.0
     },
     "color": "ft-10",
     "leadFormat": "Mixed",
     "topChannel": "YouTube",
     "er": 5.4,
-    "cpm": 2.48,
+    "cpm": 2.5,
     "episodes": 3,
-    "posts": 33,
+    "posts": 34,
     "blurb": "RBC x TST \u2014 multi-component campaign: Heather O'Reilly longform + 2 cutdowns, DITL / Cabana series, and Panel / event coverage (Chris Paul + Panel Content).",
-    "views": 7065298,
+    "views": 7200425,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1897,17 +1897,17 @@ window.CAMPAIGNS = [
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
         "impressions": 932642,
-        "eng": 6365,
+        "eng": 6373,
         "er": 0.68,
         "cpm": 0.7,
         "color": "#E00922",
-        "delta": 36.5,
+        "delta": 36.7,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 0,
-        "views": 240
+        "views": 0
       },
       {
         "name": "YouTube Pre-roll",
@@ -1924,6 +1924,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 0,
         "views": 3528
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 156342,
+        "eng": 12,
+        "er": 0.01,
+        "cpm": 3.4,
+        "color": "#1877F2",
+        "delta": -99.5,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 3,
+        "views": 136288
       },
       {
         "name": "LinkedIn",
@@ -2174,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-25T13:48:52Z"
   },
   {
@@ -2321,7 +2337,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2336,18 +2352,18 @@ window.CAMPAIGNS = [
     "status": "Flight TBD",
     "statusKind": "tbd",
     "impressions": {
-      "delivered": 703260,
+      "delivered": 716702,
       "goal": 1800000
     },
     "budget": {
-      "delivered": 2004.58,
+      "delivered": 2065.63,
       "goal": 2500.0
     },
     "color": "ft-8",
     "leadFormat": "Made for Social",
     "topChannel": "X",
-    "er": 0.3,
-    "cpm": 2.85,
+    "er": 0.2,
+    "cpm": 2.88,
     "episodes": 0,
     "posts": 4,
     "blurb": "BetMGM World Cup dark-social program \u2014 three native social posts running paid on Instagram and X. 1 of 3 live (Native Social 1).",
@@ -2359,12 +2375,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 533305,
-        "eng": 1710,
+        "impressions": 546747,
+        "eng": 1733,
         "er": 0.32,
-        "cpm": 2.51,
+        "cpm": 2.56,
         "color": "#1d1d1f",
-        "delta": -65.1,
+        "delta": -65.5,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -2395,15 +2411,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.51 \u2014 2.3\u00d7 the benchmark.",
-        "body": "$2.51 CPM vs. $1.10 FOS benchmark. At 2.3\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $2.56 \u2014 2.3\u00d7 the benchmark.",
+        "body": "$2.56 CPM vs. $1.10 FOS benchmark. At 2.3\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "BetMGM \u00b7 X"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "Campaign averaging 0.30% ER \u2014 below the 1% floor.",
-        "body": "0.30% engagement rate across 703K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "headline": "Campaign averaging 0.20% ER \u2014 below the 1% floor.",
+        "body": "0.20% engagement rate across 717K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "BetMGM \u00b7 Engagement"
       }
     ],
@@ -2411,7 +2427,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-06-23T17:40:10Z"
+    "lastUpdatedExports": "2026-06-25T14:06:24Z"
   },
   {
     "id": "state_farm",
@@ -2685,7 +2701,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T13:49:45Z",
+    "lastUpdatedMs": "2026-06-25T14:08:39Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3087,7 +3103,7 @@ window.CHANNELS = [
     "name": "YouTube",
     "italic": "Tube",
     "impressions": 45834696,
-    "eng": 1062174,
+    "eng": 1062182,
     "er": 2.32,
     "cpm": 1.05,
     "color": "#E00922",
@@ -3097,17 +3113,17 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 9700223
+    "views": 9699062
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 21421218,
-    "eng": 702694,
+    "impressions": 21434660,
+    "eng": 702717,
     "er": 3.28,
     "cpm": 1.31,
     "color": "#1d1d1f",
-    "delta": 256.6,
+    "delta": 256.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -3150,18 +3166,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 5979989,
-    "eng": 11099,
-    "er": 0.19,
+    "impressions": 6136331,
+    "eng": 11111,
+    "er": 0.18,
     "cpm": 3.2,
     "color": "#1877F2",
-    "delta": -87.9,
+    "delta": -88.2,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 4838006
+    "views": 4974294
   },
   {
     "name": "LinkedIn",
@@ -12978,23 +12994,23 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Heather O'Reilly \u2014 Longform + Cutdowns",
       "date": "Pending",
       "total": {
-        "impr": 1725370,
-        "views": 429642,
-        "er": 3.43,
-        "eng": 63736,
-        "spend": 2275.05
+        "impr": 1881712,
+        "views": 564769,
+        "er": 3.14,
+        "eng": 63756,
+        "spend": 2807.15
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
-          "distKind": "paid",
+          "distKind": "organic+boosted",
           "impr": 932642,
           "paidImpr": 932642,
-          "orgImpr": 0,
-          "views": 240,
-          "eng": 6365,
+          "orgImpr": 2607,
+          "views": 0,
+          "eng": 6373,
           "paidEng": 6365,
-          "orgEng": 0,
+          "orgEng": 8,
           "er": 0.68,
           "cpm": 0.7,
           "spend": 656.81,
@@ -13028,6 +13044,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.05,
           "cpm": 2.24,
           "spend": 230.0,
+          "posts": 1
+        },
+        {
+          "name": "Facebook",
+          "distKind": "organic+boosted",
+          "impr": 156342,
+          "paidImpr": 156339,
+          "orgImpr": 3,
+          "views": 136288,
+          "eng": 12,
+          "paidEng": 0,
+          "orgEng": 12,
+          "er": 0.01,
+          "cpm": 3.4,
+          "spend": 532.1,
           "posts": 1
         },
         {
@@ -13093,19 +13124,19 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "posts": [
         {
-          "title": "RBC_Heather O'Reilly_Long Form (in-feed)",
+          "title": "Heather O'Reilly's Blueprint for Success On and Off the Field",
           "platform": "YouTube In-feed",
-          "accountName": null,
-          "distKind": "paid",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
           "impr": 932642,
           "paidImpr": 932642,
           "orgImpr": 0,
-          "views": 240,
-          "eng": 6365,
+          "views": 0,
+          "eng": 6373,
           "er": 0.68,
           "spend": 656.81,
-          "url": null,
-          "postedAt": null
+          "url": "https://youtu.be/tzEsMWy1vRE",
+          "postedAt": "2026-06-22T14:15:35-07:00"
         },
         {
           "title": "RBC_Heather O'Reilly_Long Form (pre-roll)",
@@ -13196,6 +13227,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 497.86,
           "url": "https://www.instagram.com/p/DZGUDFxiSlh/",
           "postedAt": "2026-06-02T14:33:07-07:00"
+        },
+        {
+          "title": "Heather O'Reilly won three Olympic golds and a World Cup as a star for the USWNT. Then she had to figure out who she was",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 156342,
+          "paidImpr": 156339,
+          "orgImpr": 3,
+          "views": 136288,
+          "eng": 12,
+          "er": 0.01,
+          "spend": 532.1,
+          "url": "https://www.facebook.com/1503754381764147/",
+          "postedAt": "2026-06-22T13:40:48-07:00"
         },
         {
           "title": "RBC: Heather O'Reilly Full interview",
@@ -23127,27 +23173,27 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "rbc_tst": [
     {
-      "title": "RBC_Heather O'Reilly_Long Form (in-feed)",
+      "title": "Heather O'Reilly's Blueprint for Success On and Off the Field",
       "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
       "impr": 932642,
       "paidImpr": 932642,
       "orgImpr": 0,
-      "views": 240,
+      "views": 0,
       "reach": 0,
-      "eng": 6365,
+      "eng": 6373,
       "er": 0.68,
       "spend": 656.81,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "watchTimeMin": 3690.0,
+      "clicks": 177,
+      "ctr": 21.66,
+      "cpc": 3.69,
       "cpm": 0.7,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": null,
-      "postedAt": null
+      "url": "https://youtu.be/tzEsMWy1vRE",
+      "postedAt": "2026-06-22T14:15:35-07:00"
     },
     {
       "title": "RBC_Heather O'Reilly_Long Form (pre-roll)",
@@ -23286,6 +23332,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 87358,
       "url": "https://www.instagram.com/p/DZGUDFxiSlh/",
       "postedAt": "2026-06-02T14:33:07-07:00"
+    },
+    {
+      "title": "Heather O'Reilly won three Olympic golds and a World Cup as a star for the USWNT. Then she had to figure out who she was",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 156342,
+      "paidImpr": 156339,
+      "orgImpr": 3,
+      "views": 136288,
+      "reach": 137769,
+      "eng": 12,
+      "er": 0.01,
+      "spend": 532.1,
+      "watchTimeMin": 6941.1,
+      "clicks": 565,
+      "ctr": 33.57,
+      "cpc": 0.94,
+      "cpm": 3.16,
+      "videoViews100Pct": 19,
+      "videoViews3s": 136288,
+      "url": "https://www.facebook.com/1503754381764147/",
+      "postedAt": "2026-06-22T13:40:48-07:00"
     },
     {
       "title": "RBC: Heather O'Reilly Full interview",
@@ -24055,19 +24124,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 297319,
-      "paidImpr": 297319,
+      "impr": 310761,
+      "paidImpr": 310761,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 1059,
-      "er": 0.36,
-      "spend": 838.95,
+      "eng": 1082,
+      "er": 0.35,
+      "spend": 900.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": 0.0,
       "cpc": null,
-      "cpm": 2.82,
+      "cpm": 2.9,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25206,7 +25275,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.9,
     "lastModified": "2026-06-25",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 1
   },
   {
     "campaignId": "rbc_tst",
@@ -26411,7 +26480,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.63,
     "impressions": 23346168,
     "paidImpressions": 23315113,
-    "pctOfTotal": 33.9,
+    "pctOfTotal": 33.8,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 19.2,
     "color": "#E00922"
@@ -26419,11 +26488,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.88,
-    "impressions": 10421944,
-    "paidImpressions": 8859476,
+    "impressions": 10435386,
+    "paidImpressions": 8872918,
     "pctOfTotal": 15.1,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 51.6,
+    "mvmDeltaPct": 51.9,
     "color": "#1d1d1f"
   },
   {
@@ -26431,7 +26500,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.4,
     "impressions": 9896234,
     "paidImpressions": 7972207,
-    "pctOfTotal": 14.4,
+    "pctOfTotal": 14.3,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -3.9,
     "color": "#E4405F"
@@ -26441,7 +26510,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.33,
     "impressions": 9134226,
     "paidImpressions": 9053537,
-    "pctOfTotal": 13.3,
+    "pctOfTotal": 13.2,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -27.2,
     "color": "#FF0033"
@@ -26458,12 +26527,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.24,
-    "impressions": 5842957,
-    "paidImpressions": 5829750,
-    "pctOfTotal": 8.5,
+    "cpm": 3.25,
+    "impressions": 5999299,
+    "paidImpressions": 5986089,
+    "pctOfTotal": 8.7,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -22.8,
+    "mvmDeltaPct": -22.7,
     "color": "#1877F2"
   },
   {
