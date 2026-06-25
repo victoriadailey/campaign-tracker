@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-25T14:55:12Z";
+window.LAST_REFRESHED = "2026-06-25T16:12:01Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:11Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -381,7 +381,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 26513183,
+      "delivered": 26513194,
       "goal": 41700000
     },
     "budget": {
@@ -396,7 +396,7 @@ window.CAMPAIGNS = [
     "episodes": 12,
     "posts": 260,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 8456166,
+    "views": 8456177,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -500,7 +500,7 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 757494,
+        "impressions": 757505,
         "eng": 32283,
         "er": 4.26,
         "cpm": 0.0,
@@ -510,8 +510,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 757494,
-        "views": 757494
+        "organicImpressions": 757505,
+        "views": 757505
       },
       {
         "name": "Facebook",
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:11Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-25T14:53:10Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T14:55:11Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:11Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:11Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1478,7 +1478,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:11Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-24T13:32:46Z"
   },
   {
@@ -1632,7 +1632,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:11Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1647,11 +1647,11 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1282516,
+      "delivered": 1282481,
       "goal": 3500000
     },
     "budget": {
-      "delivered": 3739.64,
+      "delivered": 3739.54,
       "goal": 13900.0
     },
     "color": "ft-4",
@@ -1662,7 +1662,7 @@ window.CAMPAIGNS = [
     "episodes": 1,
     "posts": 11,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 887585,
+    "views": 887586,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1670,8 +1670,8 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 768683,
-        "eng": 23411,
+        "impressions": 768648,
+        "eng": 23412,
         "er": 3.05,
         "cpm": 1.3,
         "color": "#FF0033",
@@ -1681,7 +1681,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 0,
-        "views": 392269
+        "views": 392270
       },
       {
         "name": "Instagram",
@@ -1782,7 +1782,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOSN x Heineken",
         "impressions": {
-          "delivered": 1282516,
+          "delivered": 1282481,
           "goal": 2000000
         }
       },
@@ -1794,8 +1794,8 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T14:55:12Z",
-    "lastUpdatedExports": "2026-06-23T16:08:56Z"
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
+    "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
     "id": "rbc_tst",
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:12Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-25T13:48:52Z"
   },
   {
@@ -2337,7 +2337,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:12Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2701,7 +2701,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T14:55:12Z",
+    "lastUpdatedMs": "2026-06-25T16:12:01Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3102,8 +3102,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 45834678,
-    "eng": 1062184,
+    "impressions": 45834643,
+    "eng": 1062185,
     "er": 2.32,
     "cpm": 1.05,
     "color": "#E00922",
@@ -3113,7 +3113,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 9699062
+    "views": 9699063
   },
   {
     "name": "X",
@@ -3150,7 +3150,7 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 9953119,
+    "impressions": 9953130,
     "eng": 42161,
     "er": 0.42,
     "cpm": 2.46,
@@ -3161,7 +3161,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 9870946
+    "views": 9870957
   },
   {
     "name": "Facebook",
@@ -9261,8 +9261,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 5740715,
-        "views": 2814544,
+        "impr": 5740716,
+        "views": 2814545,
         "er": 2.82,
         "eng": 207097,
         "spend": 5632.0
@@ -9316,10 +9316,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 696339,
+          "impr": 696340,
           "paidImpr": 0,
-          "orgImpr": 696339,
-          "views": 696339,
+          "orgImpr": 696340,
+          "views": 696340,
           "eng": 30285,
           "paidEng": 0,
           "orgEng": 30285,
@@ -9755,10 +9755,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 17356,
+          "impr": 17357,
           "paidImpr": 0,
-          "orgImpr": 17356,
-          "views": 17356,
+          "orgImpr": 17357,
+          "views": 17357,
           "eng": 151,
           "er": 0.87,
           "spend": 0,
@@ -10605,8 +10605,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Midge Purce",
       "date": "Jun 16",
       "total": {
-        "impr": 1823489,
-        "views": 365577,
+        "impr": 1823499,
+        "views": 365587,
         "er": 1.49,
         "eng": 58642,
         "spend": 2943.08
@@ -10705,14 +10705,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 1732,
+          "impr": 1742,
           "paidImpr": 0,
-          "orgImpr": 1732,
-          "views": 1732,
+          "orgImpr": 1742,
+          "views": 1742,
           "eng": 49,
           "paidEng": 0,
           "orgEng": 49,
-          "er": 2.83,
+          "er": 2.81,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 1
@@ -10814,12 +10814,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 1732,
+          "impr": 1742,
           "paidImpr": 0,
-          "orgImpr": 1732,
-          "views": 1732,
+          "orgImpr": 1742,
+          "views": 1742,
           "eng": 49,
-          "er": 2.83,
+          "er": 2.81,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7652124139129425166",
           "postedAt": "2026-06-16T15:30:07-07:00"
@@ -12727,26 +12727,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Editorial Video \u2014 FOS NEWS",
       "date": "May 2026",
       "total": {
-        "impr": 1282516,
-        "views": 887585,
+        "impr": 1282481,
+        "views": 887586,
         "er": 2.59,
-        "eng": 33182,
-        "spend": 3739.64
+        "eng": 33183,
+        "spend": 3739.54
       },
       "perChannel": [
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 768683,
-          "paidImpr": 768683,
+          "impr": 768648,
+          "paidImpr": 768648,
           "orgImpr": 3169,
-          "views": 392269,
-          "eng": 23411,
-          "paidEng": 23221,
+          "views": 392270,
+          "eng": 23412,
+          "paidEng": 23222,
           "orgEng": 190,
           "er": 3.05,
           "cpm": 1.3,
-          "spend": 999.72,
+          "spend": 999.62,
           "posts": 4
         },
         {
@@ -12936,13 +12936,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": null,
           "distKind": "paid",
-          "impr": 192817,
-          "paidImpr": 192817,
+          "impr": 192782,
+          "paidImpr": 192782,
           "orgImpr": 0,
-          "views": 3983,
-          "eng": 7630,
+          "views": 3984,
+          "eng": 7631,
           "er": 3.96,
-          "spend": 499.91,
+          "spend": 499.81,
           "url": null,
           "postedAt": null
         },
@@ -15050,7 +15050,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 704,
       "er": 0.67,
       "spend": 237.0,
-      "watchTimeMin": 3913.9,
+      "watchTimeMin": 3914.1,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -15142,7 +15142,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 38,
       "er": 1.94,
       "spend": 0,
-      "watchTimeMin": 284.6,
+      "watchTimeMin": 284.8,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -19874,10 +19874,10 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 17356,
+      "impr": 17357,
       "paidImpr": 0,
-      "orgImpr": 17356,
-      "views": 17356,
+      "orgImpr": 17357,
+      "views": 17357,
       "reach": 16201,
       "eng": 151,
       "er": 0.87,
@@ -21024,13 +21024,13 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 1732,
+      "impr": 1742,
       "paidImpr": 0,
-      "orgImpr": 1732,
-      "views": 1732,
-      "reach": 1626,
+      "orgImpr": 1742,
+      "views": 1742,
+      "reach": 1641,
       "eng": 49,
-      "er": 2.83,
+      "er": 2.81,
       "spend": 0,
       "watchTimeMin": 218.2,
       "clicks": null,
@@ -23106,14 +23106,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 192817,
-      "paidImpr": 192817,
+      "impr": 192782,
+      "paidImpr": 192782,
       "orgImpr": 0,
       "views": 189962,
       "reach": 0,
-      "eng": 7707,
+      "eng": 7708,
       "er": 4.0,
-      "spend": 499.91,
+      "spend": 499.81,
       "watchTimeMin": 13300.3,
       "clicks": null,
       "ctr": 0.0,
@@ -26508,8 +26508,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.33,
-    "impressions": 9134223,
-    "paidImpressions": 9053534,
+    "impressions": 9134188,
+    "paidImpressions": 9053499,
     "pctOfTotal": 13.2,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -27.2,
@@ -26518,7 +26518,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.51,
-    "impressions": 8547311,
+    "impressions": 8547322,
     "paidImpressions": 6178611,
     "pctOfTotal": 12.4,
     "mvmCpm": 2.24,
