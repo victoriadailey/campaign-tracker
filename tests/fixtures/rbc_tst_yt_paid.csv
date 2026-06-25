@@ -1,9 +1,11 @@
 FOS Reporting
-"May 1, 2026 - June 16, 2026"
+"May 1, 2026 - June 25, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-RBC_TST_Panel Content1 (shorts),USD,0,Ended,Video,0.077,"34,762",2.77,"970,066",2690.59,"58,535"
 RBC_TST_Cabana,USD,0,Paused,Video,0.079,"10,389",2.42,"339,480",821.01,"21,663"
+RBC_TST_Panel Content1 (shorts),USD,0,Ended,Video,0.077,"34,762",2.77,"970,066",2690.59,"58,535"
 RBC_TST_Social1_ChrisPaul,USD,0,Paused,Video,0.049,"47,315",2.25,"1,038,371",2333.34,"68,574"
-RBC_TST_Panel Content2 (shorts),USD,0,Paused,Video,0.066,"4,897",2.23,"144,626",321.84,"8,714"
+RBC_Heather O'Reilly_Long Form (in-feed),USD,0,Eligible,Video,0.174,"3,768",0.70,"932,642",656.81,"6,365"
 RBC_TST_Heather O'Reilly Cutdown 1 (Shorts),USD,0,Ended,Video,0.073,"4,750",2.46,"141,314",347.53,"8,627"
-RBC_TST_DITL (shorts),USD,0,Ended,Video,0.079,"17,691",2.23,"627,317",1398.00,"34,079"
+RBC_Heather O'Reilly_Long Form (pre-roll),USD,0,Eligible,Video,0.027,"3,528",14.47,"6,699",96.92,"4,834"
+RBC_TST_Panel Content2 (shorts),USD,0,Paused,Video,0.066,"4,897",2.23,"144,626",321.84,"8,714"
+RBC_TST_DITL (shorts),USD,0,Ended,Video,0.079,"17,690",2.23,"627,317",1398.00,"34,079"
