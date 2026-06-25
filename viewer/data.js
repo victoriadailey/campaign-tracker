@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-25T17:18:24Z";
+window.LAST_REFRESHED = "2026-06-25T17:31:16Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-25T14:53:10Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1478,7 +1478,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-24T13:32:46Z"
   },
   {
@@ -1632,7 +1632,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1647,7 +1647,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1282481,
+      "delivered": 898157,
       "goal": 3500000
     },
     "budget": {
@@ -1657,12 +1657,12 @@ window.CAMPAIGNS = [
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.6,
-    "cpm": 2.95,
+    "er": 3.7,
+    "cpm": 4.24,
     "episodes": 1,
-    "posts": 11,
+    "posts": 9,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 887586,
+    "views": 875776,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1670,18 +1670,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 768648,
+        "impressions": 384324,
         "eng": 23412,
-        "er": 3.05,
-        "cpm": 1.3,
+        "er": 6.09,
+        "cpm": 2.6,
         "color": "#FF0033",
-        "delta": -84.8,
+        "delta": -69.5,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 0,
-        "views": 392270
+        "views": 380460
       },
       {
         "name": "Instagram",
@@ -1771,8 +1771,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 71% of goal (2.5M of 3.5M) with 36 days left.",
-        "body": "At the current rate the campaign will fall ~1.0M impressions short of the 3.5M goal. Need to deliver 62K impr/day (1.8\u00d7 the current 34K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 50% of goal (1.7M of 3.5M) with 36 days left.",
+        "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 72K impr/day (3.1\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Heineken \u00b7 Pacing"
       }
     ],
@@ -1782,7 +1782,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOSN x Heineken",
         "impressions": {
-          "delivered": 1282481,
+          "delivered": 898157,
           "goal": 2000000
         }
       },
@@ -1794,7 +1794,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-25T13:48:52Z"
   },
   {
@@ -2337,7 +2337,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2701,7 +2701,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-25T17:18:24Z",
+    "lastUpdatedMs": "2026-06-25T17:31:16Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2721,7 +2721,7 @@ window.CAMPAIGNS = [
     },
     "budget": {
       "delivered": 16465.29,
-      "goal": 32250.0
+      "goal": 35250.0
     },
     "color": "ft-1",
     "leadFormat": "Longform Video",
@@ -3102,9 +3102,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 49337039,
+    "impressions": 48952715,
     "eng": 1071194,
-    "er": 2.17,
+    "er": 2.19,
     "cpm": 1.04,
     "color": "#E00922",
     "delta": -89.1,
@@ -3113,7 +3113,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 9705784
+    "views": 9693974
   },
   {
     "name": "X",
@@ -3278,20 +3278,20 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
+    "headline": "On pace for 50% of goal (1.7M of 3.5M) with 36 days left.",
+    "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 72K impr/day (3.1\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Heineken \u00b7 Pacing",
+    "campaignId": "heineken",
+    "campaignPartner": "Heineken"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
     "headline": "On pace for 60% of goal (990K of 1.6M) with 3 days left.",
     "body": "At the current rate the campaign will fall ~660K impressions short of the 1.6M goal. Need to deliver 278K impr/day (4.8\u00d7 the current 58K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Sport Clips \u00b7 Pacing",
     "campaignId": "sportclips",
     "campaignPartner": "Sport Clips"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 71% of goal (2.5M of 3.5M) with 36 days left.",
-    "body": "At the current rate the campaign will fall ~1.0M impressions short of the 3.5M goal. Need to deliver 62K impr/day (1.8\u00d7 the current 34K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Heineken \u00b7 Pacing",
-    "campaignId": "heineken",
-    "campaignPartner": "Heineken"
   },
   {
     "tag": "WATCH",
@@ -12727,9 +12727,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Editorial Video \u2014 FOS NEWS",
       "date": "May 2026",
       "total": {
-        "impr": 1282481,
-        "views": 887586,
-        "er": 2.59,
+        "impr": 898157,
+        "views": 875776,
+        "er": 3.69,
         "eng": 33183,
         "spend": 3739.54
       },
@@ -12737,17 +12737,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 768648,
-          "paidImpr": 768648,
+          "impr": 384324,
+          "paidImpr": 384324,
           "orgImpr": 3169,
-          "views": 392270,
+          "views": 380460,
           "eng": 23412,
           "paidEng": 23222,
           "orgEng": 190,
-          "er": 3.05,
-          "cpm": 1.3,
+          "er": 6.09,
+          "cpm": 2.6,
           "spend": 999.62,
-          "posts": 4
+          "posts": 2
         },
         {
           "name": "Instagram",
@@ -12805,9 +12805,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 191542,
           "orgImpr": 0,
           "views": 190498,
-          "eng": 113,
-          "er": 0.06,
-          "spend": 0,
+          "eng": 15704,
+          "er": 8.2,
+          "spend": 499.81,
           "url": "https://www.youtube.com/shorts/XezU0JmLlvw",
           "postedAt": "2026-05-29T14:13:38-07:00"
         },
@@ -12895,9 +12895,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 192782,
           "orgImpr": 0,
           "views": 189962,
-          "eng": 77,
-          "er": 0.04,
-          "spend": 0,
+          "eng": 7708,
+          "er": 4.0,
+          "spend": 499.81,
           "url": "https://www.youtube.com/shorts/5K2Ao9Vo5mU",
           "postedAt": "2026-06-15T14:41:22-07:00"
         },
@@ -12930,36 +12930,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 971.87,
           "url": "https://www.instagram.com/p/DZoFO69ukUw/",
           "postedAt": "2026-06-15T17:15:40-07:00"
-        },
-        {
-          "title": "Heineken (FOSN): USA-Paraguay (shorts)",
-          "platform": "YouTube Shorts",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 192782,
-          "paidImpr": 192782,
-          "orgImpr": 0,
-          "views": 3984,
-          "eng": 7631,
-          "er": 3.96,
-          "spend": 499.81,
-          "url": null,
-          "postedAt": null
-        },
-        {
-          "title": "Heineken: UEFA (FOSN) - Video 1 (shorts)",
-          "platform": "YouTube Shorts",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 191542,
-          "paidImpr": 191542,
-          "orgImpr": 0,
-          "views": 7826,
-          "eng": 15591,
-          "er": 8.14,
-          "spend": 499.81,
-          "url": null,
-          "postedAt": null
         }
       ],
       "topPosts": [
@@ -25133,7 +25103,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -25144,7 +25114,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -25155,7 +25125,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -25166,7 +25136,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -25210,7 +25180,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -25221,7 +25191,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -25232,7 +25202,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -25243,7 +25213,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -25254,7 +25224,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 124.0,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-24",
     "exists": true,
     "postsContributed": 0
   },
@@ -25265,7 +25235,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 645.6,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-24",
     "exists": true,
     "postsContributed": 0
   },
@@ -25276,7 +25246,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-24",
     "exists": true,
     "postsContributed": 4
   },
@@ -25287,7 +25257,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -25298,7 +25268,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -25309,7 +25279,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -25320,7 +25290,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -25333,7 +25303,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-06-25",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 0
   },
   {
     "campaignId": "rbc_tst",
@@ -25364,7 +25334,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -25397,7 +25367,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -25408,7 +25378,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -25441,7 +25411,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 2
   },
@@ -25452,7 +25422,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 2
   }
@@ -26549,7 +26519,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.66,
     "impressions": 26848549,
     "paidImpressions": 26817494,
-    "pctOfTotal": 36.8,
+    "pctOfTotal": 37.0,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 24.1,
     "color": "#E00922"
@@ -26559,7 +26529,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.01,
     "impressions": 10880966,
     "paidImpressions": 9318498,
-    "pctOfTotal": 14.9,
+    "pctOfTotal": 15.0,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 61.8,
     "color": "#1d1d1f"
@@ -26569,19 +26539,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.4,
     "impressions": 9896234,
     "paidImpressions": 7972207,
-    "pctOfTotal": 13.5,
+    "pctOfTotal": 13.6,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -3.9,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.33,
-    "impressions": 9134188,
-    "paidImpressions": 9053499,
-    "pctOfTotal": 12.5,
+    "cpm": 2.43,
+    "impressions": 8749864,
+    "paidImpressions": 8669175,
+    "pctOfTotal": 12.0,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -27.2,
+    "mvmDeltaPct": -23.9,
     "color": "#FF0033"
   },
   {
@@ -26589,7 +26559,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.51,
     "impressions": 8547322,
     "paidImpressions": 6178611,
-    "pctOfTotal": 11.7,
+    "pctOfTotal": 11.8,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 11.9,
     "color": "#000000"
@@ -26599,7 +26569,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.25,
     "impressions": 5999299,
     "paidImpressions": 5986089,
-    "pctOfTotal": 8.2,
+    "pctOfTotal": 8.3,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -22.7,
     "color": "#1877F2"
@@ -26626,7 +26596,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.18;
+window.PORTFOLIO_CPM_BLEND = 2.19;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,

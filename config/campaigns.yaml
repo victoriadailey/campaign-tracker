@@ -734,6 +734,12 @@ campaigns:
     color: ft-4
     lead_format: Longform Video
     blurb: "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main)."
+    # The 2 GAds Shorts ("Heineken: UEFA…", "Heineken (FOSN): USA-Paraguay") and
+    # the 2 MS YT Shorts share exact impressions but no title token, so the
+    # guest-match passes can't pair them. Opt into sorted-position pairing so the
+    # GAds paid spend merges onto the MS posts instead of counting as separate
+    # YT posts (which double-counted YouTube in the campaign rollup).
+    yt_paired_by_sort: true
     # Track the two pieces against their own impression goals (like Spectrum).
     # All current delivery is FOSN; Red Card / Green Flag hasn't posted yet.
     pacing_components:
@@ -947,7 +953,7 @@ campaigns:
     # Two goal tiers: 2 longform FOS Explains videos (26M) + 4 cutdowns (4.5M).
     # Campaign total = sum. Rendered as the Full-Episodes-vs-Cutdowns split.
     impression_goal: 30_500_000
-    budget_goal: 32_250
+    budget_goal: 35_250
     goal_split_full_ep:
       label: "FOS Explains Longform (2 videos)"
       impression_goal: 26_000_000
