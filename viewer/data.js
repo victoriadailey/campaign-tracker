@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-26T20:57:43Z";
+window.LAST_REFRESHED = "2026-06-26T21:02:22Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-25T14:53:10Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1494,7 +1494,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-26T20:23:23Z"
   },
   {
@@ -1648,7 +1648,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1810,7 +1810,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-26T20:33:25Z"
   },
   {
@@ -2353,7 +2353,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2717,7 +2717,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-26T20:57:43Z",
+    "lastUpdatedMs": "2026-06-26T21:02:22Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2732,11 +2732,11 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 19716756,
+      "delivered": 19712638,
       "goal": 30500000
     },
     "budget": {
-      "delivered": 25039.88,
+      "delivered": 25064.55,
       "goal": 35250.0
     },
     "color": "ft-1",
@@ -2747,7 +2747,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 16,
     "blurb": "Microsoft x FOS Explains \u2014 two longform FOS Explains videos on the business of global sports fandom plus four social cutdowns, dark/paid across YouTube, X, Meta & TikTok. Only FOS Explains #1 is live so far; #2 is approved and launching ~6/23, so delivery is still ramping toward the 30.5M goal.",
-    "views": 1530774,
+    "views": 1526656,
     "goalSplit": [
       {
         "label": "FOS Explains Longform (2 videos)",
@@ -2764,11 +2764,11 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Cutdowns (4)",
         "impressions": {
-          "delivered": 2097544,
+          "delivered": 2093426,
           "goal": 4500000
         },
         "budget": {
-          "delivered": 6329.03,
+          "delivered": 6353.7,
           "goal": 0.0
         },
         "posts": 10
@@ -2844,18 +2844,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 118196,
-        "eng": 63,
-        "er": 0.05,
-        "cpm": 3.38,
+        "impressions": 114078,
+        "eng": 67,
+        "er": 0.06,
+        "cpm": 3.72,
         "color": "#E4405F",
-        "delta": -98.4,
+        "delta": -98.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 118196
+        "views": 114078
       }
     ],
     "topPosts": [],
@@ -2880,7 +2880,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-06-26T20:56:48Z"
+    "lastUpdatedExports": "2026-06-26T21:01:33Z"
   }
 ];
 
@@ -3150,8 +3150,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 11711873,
-    "eng": 216662,
+    "impressions": 11707755,
+    "eng": 216666,
     "er": 1.85,
     "cpm": 5.23,
     "color": "#E4405F",
@@ -3161,7 +3161,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 11711873
+    "views": 11707755
   },
   {
     "name": "TikTok",
@@ -25467,23 +25467,23 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
-      "title": "FOS Explains Cutdown 2",
+      "title": "FOS Explains 2 Cutdown 1",
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 73352,
-      "paidImpr": 73352,
+      "impr": 112418,
+      "paidImpr": 112418,
       "orgImpr": 0,
-      "views": 73352,
-      "reach": 68299,
-      "eng": 36,
-      "er": 0.05,
-      "spend": 248.21,
+      "views": 112418,
+      "reach": 96220,
+      "eng": 67,
+      "er": 0.06,
+      "spend": 418.4,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.38,
+      "cpm": 3.72,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25513,23 +25513,23 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
-      "title": "FOS Explains Cutdown 1",
+      "title": "FOS Explains 2 Cutdown 2",
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 44844,
-      "paidImpr": 44844,
+      "impr": 1660,
+      "paidImpr": 1660,
       "orgImpr": 0,
-      "views": 44844,
-      "reach": 41109,
-      "eng": 27,
-      "er": 0.06,
-      "spend": 151.53,
+      "views": 1660,
+      "reach": 1526,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 6.01,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.38,
+      "cpm": 3.62,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -26024,7 +26024,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
-    "fileSizeKb": 1.0,
+    "fileSizeKb": 0.9,
     "lastModified": "2026-06-26",
     "exists": true,
     "postsContributed": 2
@@ -27150,12 +27150,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 5.39,
-    "impressions": 9968365,
-    "paidImpressions": 8019385,
+    "cpm": 5.4,
+    "impressions": 9964247,
+    "paidImpressions": 8015267,
     "pctOfTotal": 12.3,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -4.1,
+    "mvmDeltaPct": -4.0,
     "color": "#E4405F"
   },
   {
