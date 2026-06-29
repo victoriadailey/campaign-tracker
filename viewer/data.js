@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-29T18:18:34Z";
+window.LAST_REFRESHED = "2026-06-29T18:25:42Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-29T16:42:57Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1379,7 +1379,7 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1859596,
+      "delivered": 2969104,
       "goal": 1650000
     },
     "budget": {
@@ -1389,8 +1389,8 @@ window.CAMPAIGNS = [
     "color": "ft-7",
     "leadFormat": "Made for Social",
     "topChannel": "X",
-    "er": 1.4,
-    "cpm": 2.54,
+    "er": 0.9,
+    "cpm": 1.65,
     "episodes": 2,
     "posts": 16,
     "blurb": "Sport Clips dark-social program in two components: MLB Minute (Mar 23 \u2013 Apr 21, wrapped \u2014 1.1M goal exceeded) and Off the Pitch (Jun 11\u201328, live) with Baker Machado breaking down World Cup stories.",
@@ -1402,12 +1402,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 727433,
+        "impressions": 1836941,
         "eng": 5517,
-        "er": 0.76,
-        "cpm": 2.46,
+        "er": 0.3,
+        "cpm": 0.97,
         "color": "#1d1d1f",
-        "delta": -17.6,
+        "delta": -67.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -1486,16 +1486,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.46 \u2014 2.2\u00d7 the benchmark.",
-        "body": "$2.46 CPM vs. $1.10 FOS benchmark. At 2.2\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "Sport Clips \u00b7 X"
+        "headline": "Campaign averaging 0.90% ER \u2014 below the 1% floor.",
+        "body": "0.90% engagement rate across 3.0M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "Sport Clips \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
-    "lastUpdatedExports": "2026-06-29T18:17:34Z"
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
+    "lastUpdatedExports": "2026-06-29T18:24:50Z"
   },
   {
     "id": "onlocation",
@@ -1648,7 +1648,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1810,7 +1810,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-29T16:13:06Z"
   },
   {
@@ -2353,7 +2353,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2717,7 +2717,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedMs": "2026-06-29T18:25:42Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3134,12 +3134,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 23183795,
+    "impressions": 24293303,
     "eng": 719442,
-    "er": 3.1,
-    "cpm": 1.5,
+    "er": 2.96,
+    "cpm": 1.42,
     "color": "#1d1d1f",
-    "delta": 237.3,
+    "delta": 221.9,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -12092,9 +12092,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "MLB Minute",
       "date": "Mar\u2013Apr 2026",
       "total": {
-        "impr": 620104,
+        "impr": 1729612,
         "views": 323085,
-        "er": 0.76,
+        "er": 0.27,
         "eng": 4721,
         "spend": 1308.61
       },
@@ -12102,15 +12102,15 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "paid",
-          "impr": 292926,
-          "paidImpr": 292926,
+          "impr": 1402434,
+          "paidImpr": 1402434,
           "orgImpr": 0,
           "views": 0,
           "eng": 4389,
           "paidEng": 4389,
           "orgEng": 0,
-          "er": 1.5,
-          "cpm": 2.05,
+          "er": 0.31,
+          "cpm": 0.43,
           "spend": 600.0,
           "posts": 1
         },
@@ -12256,12 +12256,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": null,
           "distKind": "paid",
-          "impr": 292926,
-          "paidImpr": 292926,
+          "impr": 1402434,
+          "paidImpr": 1402434,
           "orgImpr": 0,
           "views": 0,
           "eng": 4389,
-          "er": 1.5,
+          "er": 0.31,
           "spend": 600.0,
           "url": null,
           "postedAt": null
@@ -22724,19 +22724,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 292926,
-      "paidImpr": 292926,
+      "impr": 1402434,
+      "paidImpr": 1402434,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
       "eng": 4389,
-      "er": 1.5,
+      "er": 0.31,
       "spend": 600.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": 0.0,
       "cpc": null,
-      "cpm": 2.05,
+      "cpm": 0.36,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -27183,19 +27183,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.69,
     "impressions": 38336590,
     "paidImpressions": 38305535,
-    "pctOfTotal": 43.1,
+    "pctOfTotal": 42.5,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 29.6,
     "color": "#E00922"
   },
   {
     "name": "X",
-    "cpm": 2.17,
-    "impressions": 12184521,
-    "paidImpressions": 10588741,
-    "pctOfTotal": 13.7,
+    "cpm": 1.96,
+    "impressions": 13294029,
+    "paidImpressions": 11698249,
+    "pctOfTotal": 14.8,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 74.9,
+    "mvmDeltaPct": 58.3,
     "color": "#1d1d1f"
   },
   {
@@ -27203,7 +27203,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.25,
     "impressions": 10907417,
     "paidImpressions": 8946130,
-    "pctOfTotal": 12.3,
+    "pctOfTotal": 12.1,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -6.6,
     "color": "#E4405F"
@@ -27213,7 +27213,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.54,
     "impressions": 10774854,
     "paidImpressions": 8362684,
-    "pctOfTotal": 12.1,
+    "pctOfTotal": 12.0,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 13.6,
     "color": "#000000"
@@ -27223,7 +27223,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.52,
     "impressions": 8928861,
     "paidImpressions": 8847844,
-    "pctOfTotal": 10.0,
+    "pctOfTotal": 9.9,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -21.3,
     "color": "#FF0033"
@@ -27233,7 +27233,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.25,
     "impressions": 6031419,
     "paidImpressions": 6017963,
-    "pctOfTotal": 6.8,
+    "pctOfTotal": 6.7,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -22.5,
     "color": "#1877F2"
@@ -27260,7 +27260,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.06;
+window.PORTFOLIO_CPM_BLEND = 2.03;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
