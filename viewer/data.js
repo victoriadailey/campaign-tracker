@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-29T17:44:20Z";
+window.LAST_REFRESHED = "2026-06-29T18:18:34Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-29T16:42:57Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1379,22 +1379,22 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1927184,
+      "delivered": 1859596,
       "goal": 1650000
     },
     "budget": {
-      "delivered": 5045.18,
+      "delivered": 4845.15,
       "goal": 3900.0
     },
     "color": "ft-7",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 1.4,
-    "cpm": 2.55,
+    "cpm": 2.54,
     "episodes": 2,
-    "posts": 18,
+    "posts": 16,
     "blurb": "Sport Clips dark-social program in two components: MLB Minute (Mar 23 \u2013 Apr 21, wrapped \u2014 1.1M goal exceeded) and Off the Pitch (Jun 11\u201328, live) with Baker Machado breaking down World Cup stories.",
-    "views": 961216,
+    "views": 960166,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -1464,22 +1464,6 @@ window.CAMPAIGNS = [
         "views": 342709
       },
       {
-        "name": "YouTube In-feed",
-        "italic": "YouTube In-feed",
-        "impressions": 67588,
-        "eng": 2239,
-        "er": 3.31,
-        "cpm": 2.96,
-        "color": "#E00922",
-        "delta": 562.5,
-        "bench": {
-          "er": 0.5,
-          "cpm": 0.55
-        },
-        "organicImpressions": 0,
-        "views": 1050
-      },
-      {
         "name": "Snapchat",
         "italic": "Snapchat",
         "impressions": 304,
@@ -1502,16 +1486,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "YouTube In-feed CPM at $2.96 \u2014 5.4\u00d7 the benchmark.",
-        "body": "$2.96 CPM vs. $0.55 FOS benchmark. At 5.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "Sport Clips \u00b7 YouTube In-feed"
+        "headline": "X CPM at $2.46 \u2014 2.2\u00d7 the benchmark.",
+        "body": "$2.46 CPM vs. $1.10 FOS benchmark. At 2.2\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "meta": "Sport Clips \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
-    "lastUpdatedExports": "2026-06-29T17:37:36Z"
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
+    "lastUpdatedExports": "2026-06-29T18:17:34Z"
   },
   {
     "id": "onlocation",
@@ -1664,7 +1648,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1826,7 +1810,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -2222,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-29T16:13:06Z"
   },
   {
@@ -2369,7 +2353,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2733,7 +2717,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-29T17:44:20Z",
+    "lastUpdatedMs": "2026-06-29T18:18:33Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3134,8 +3118,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 60687341,
-    "eng": 1153374,
+    "impressions": 60619753,
+    "eng": 1151135,
     "er": 1.9,
     "cpm": 1.01,
     "color": "#E00922",
@@ -3145,7 +3129,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 9651404
+    "views": 9650354
   },
   {
     "name": "X",
@@ -3319,11 +3303,11 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "YouTube In-feed CPM at $2.96 \u2014 5.4\u00d7 the benchmark.",
-    "body": "$2.96 CPM vs. $0.55 FOS benchmark. At 5.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "Sport Clips \u00b7 YouTube In-feed",
-    "campaignId": "sportclips",
-    "campaignPartner": "Sport Clips"
+    "headline": "X CPM at $3.77 \u2014 3.4\u00d7 the benchmark.",
+    "body": "$3.77 CPM vs. $1.10 FOS benchmark. At 3.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "meta": "Microsoft \u00b7 X",
+    "campaignId": "microsoft",
+    "campaignPartner": "Microsoft"
   }
 ];
 
@@ -12108,11 +12092,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "MLB Minute",
       "date": "Mar\u2013Apr 2026",
       "total": {
-        "impr": 687692,
-        "views": 324135,
-        "er": 1.01,
-        "eng": 6960,
-        "spend": 1508.64
+        "impr": 620104,
+        "views": 323085,
+        "er": 0.76,
+        "eng": 4721,
+        "spend": 1308.61
       },
       "perChannel": [
         {
@@ -12176,21 +12160,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 2
         },
         {
-          "name": "YouTube In-feed",
-          "distKind": "paid",
-          "impr": 67588,
-          "paidImpr": 67588,
-          "orgImpr": 0,
-          "views": 1050,
-          "eng": 2239,
-          "paidEng": 2239,
-          "orgEng": 0,
-          "er": 3.31,
-          "cpm": 2.96,
-          "spend": 200.03,
-          "posts": 2
-        },
-        {
           "name": "Snapchat",
           "distKind": "organic+boosted",
           "impr": 304,
@@ -12207,36 +12176,6 @@ window.EPISODES_BY_CAMPAIGN = {
         }
       ],
       "posts": [
-        {
-          "title": "Sport Clips: MLB Minute Video 2",
-          "platform": "YouTube In-feed",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 30580,
-          "paidImpr": 30580,
-          "orgImpr": 0,
-          "views": 524,
-          "eng": 1215,
-          "er": 3.97,
-          "spend": 90.76,
-          "url": null,
-          "postedAt": null
-        },
-        {
-          "title": "Sport Clips: MLB Minute Video 1",
-          "platform": "YouTube In-feed",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 37008,
-          "paidImpr": 37008,
-          "orgImpr": 0,
-          "views": 526,
-          "eng": 1024,
-          "er": 2.77,
-          "spend": 109.27,
-          "url": null,
-          "postedAt": null
-        },
         {
           "title": "Netflix is bringing baseball, the Dodgers are spending $400M to three-peat, and robo umps are here.  Everything you need",
           "platform": "Instagram",
@@ -22666,52 +22605,6 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "sportclips": [
     {
-      "title": "Sport Clips: MLB Minute Video 2",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 30580,
-      "paidImpr": 30580,
-      "orgImpr": 0,
-      "views": 524,
-      "reach": 0,
-      "eng": 1215,
-      "er": 3.97,
-      "spend": 90.76,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.97,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Sport Clips: MLB Minute Video 1",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 37008,
-      "paidImpr": 37008,
-      "orgImpr": 0,
-      "views": 526,
-      "reach": 0,
-      "eng": 1024,
-      "er": 2.77,
-      "spend": 109.27,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.95,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
       "title": "Netflix is bringing baseball, the Dodgers are spending $400M to three-peat, and robo umps are here.  Everything you need",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
@@ -25994,10 +25887,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
-    "fileSizeKb": 0.6,
+    "fileSizeKb": 0.4,
     "lastModified": "2026-06-29",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 0
   },
   {
     "campaignId": "sportclips",
@@ -27288,11 +27181,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.69,
-    "impressions": 38404178,
-    "paidImpressions": 38373123,
+    "impressions": 38336590,
+    "paidImpressions": 38305535,
     "pctOfTotal": 43.1,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 30.4,
+    "mvmDeltaPct": 29.6,
     "color": "#E00922"
   },
   {
@@ -27310,7 +27203,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.25,
     "impressions": 10907417,
     "paidImpressions": 8946130,
-    "pctOfTotal": 12.2,
+    "pctOfTotal": 12.3,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -6.6,
     "color": "#E4405F"
