@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-30T13:37:29Z";
+window.LAST_REFRESHED = "2026-06-30T13:39:08Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-29T16:42:57Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1494,7 +1494,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-29T18:24:50Z"
   },
   {
@@ -1648,7 +1648,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1810,7 +1810,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-30T13:35:31Z"
   },
   {
@@ -2353,7 +2353,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2717,7 +2717,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:37:29Z",
+    "lastUpdatedMs": "2026-06-30T13:39:08Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2813,11 +2813,11 @@ window.CAMPAIGNS = [
         "name": "TikTok",
         "italic": "Tok",
         "impressions": 2641200,
-        "eng": 0,
-        "er": 0.0,
+        "eng": 748,
+        "er": 0.03,
         "cpm": 2.62,
         "color": "#000000",
-        "delta": -100.0,
+        "delta": -98.6,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
@@ -2880,7 +2880,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-06-30T13:21:37Z"
+    "lastUpdatedExports": "2026-06-30T13:38:19Z"
   }
 ];
 
@@ -3167,11 +3167,11 @@ window.CHANNELS = [
     "name": "TikTok",
     "italic": "Tok",
     "impressions": 12925263,
-    "eng": 44972,
+    "eng": 45720,
     "er": 0.35,
     "cpm": 2.51,
     "color": "#000000",
-    "delta": -82.9,
+    "delta": -82.6,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
@@ -25509,8 +25509,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 735150,
       "reach": 0,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 207,
+      "er": 0.03,
       "spend": 1990.61,
       "watchTimeMin": null,
       "clicks": null,
@@ -25532,8 +25532,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 705848,
       "reach": 0,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 191,
+      "er": 0.03,
       "spend": 1814.87,
       "watchTimeMin": null,
       "clicks": null,
@@ -25555,8 +25555,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 591633,
       "reach": 0,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 134,
+      "er": 0.02,
       "spend": 1555.13,
       "watchTimeMin": null,
       "clicks": null,
@@ -25601,8 +25601,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 585936,
       "reach": 0,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 216,
+      "er": 0.04,
       "spend": 1567.98,
       "watchTimeMin": null,
       "clicks": null,
