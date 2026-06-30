@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-30T13:52:11Z";
+window.LAST_REFRESHED = "2026-06-30T14:16:33Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
+    "lastUpdatedMs": "2026-06-30T14:16:32Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-29T16:42:57Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1379,22 +1379,22 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2969104,
+      "delivered": 3131607,
       "goal": 1650000
     },
     "budget": {
-      "delivered": 4845.15,
+      "delivered": 5341.43,
       "goal": 3900.0
     },
     "color": "ft-7",
     "leadFormat": "Made for Social",
     "topChannel": "X",
-    "er": 0.9,
-    "cpm": 1.65,
+    "er": 1.1,
+    "cpm": 1.78,
     "episodes": 2,
     "posts": 16,
     "blurb": "Sport Clips dark-social program in two components: MLB Minute (Mar 23 \u2013 Apr 21, wrapped \u2014 1.1M goal exceeded) and Off the Pitch (Jun 11\u201328, live) with Baker Machado breaking down World Cup stories.",
-    "views": 960166,
+    "views": 971902,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -1418,34 +1418,34 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 549166,
-        "eng": 1151,
-        "er": 0.21,
-        "cpm": 2.47,
+        "impressions": 623823,
+        "eng": 1217,
+        "er": 0.2,
+        "cpm": 2.52,
         "color": "#000000",
-        "delta": -89.7,
+        "delta": -90.4,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
         "organicImpressions": 0,
-        "views": 540646
+        "views": 613780
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 427220,
-        "eng": 21151,
-        "er": 4.95,
-        "cpm": 2.1,
+        "impressions": 515066,
+        "eng": 29057,
+        "er": 5.64,
+        "cpm": 2.68,
         "color": "#FF0033",
-        "delta": -75.2,
+        "delta": -71.8,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 0,
-        "views": 76507
+        "views": 15109
       },
       {
         "name": "Instagram",
@@ -1482,20 +1482,12 @@ window.CAMPAIGNS = [
     ],
     "topPosts": [],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "Campaign averaging 0.90% ER \u2014 below the 1% floor.",
-        "body": "0.90% engagement rate across 3.0M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
-        "meta": "Sport Clips \u00b7 Engagement"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
-    "lastUpdatedExports": "2026-06-29T18:24:50Z"
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
+    "lastUpdatedExports": "2026-06-30T14:13:18Z"
   },
   {
     "id": "onlocation",
@@ -1648,7 +1640,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1810,7 +1802,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-30T13:52:10Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -2206,7 +2198,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:11Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2353,7 +2345,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:11Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2717,7 +2709,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T13:52:11Z",
+    "lastUpdatedMs": "2026-06-30T14:16:33Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3118,18 +3110,18 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 62962096,
-    "eng": 1162236,
-    "er": 1.85,
-    "cpm": 1.0,
+    "impressions": 63049942,
+    "eng": 1170142,
+    "er": 1.86,
+    "cpm": 1.01,
     "color": "#E00922",
-    "delta": -90.8,
+    "delta": -90.7,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 9663661
+    "views": 9602263
   },
   {
     "name": "X",
@@ -3148,6 +3140,22 @@ window.CHANNELS = [
     "views": 415112
   },
   {
+    "name": "TikTok",
+    "italic": "Tok",
+    "impressions": 12999920,
+    "eng": 45786,
+    "er": 0.35,
+    "cpm": 2.51,
+    "color": "#000000",
+    "delta": -82.7,
+    "bench": {
+      "er": 2.03,
+      "cpm": 2.4
+    },
+    "organicImpressions": 0,
+    "views": 12890695
+  },
+  {
     "name": "Instagram",
     "italic": "gram",
     "impressions": 12925944,
@@ -3162,22 +3170,6 @@ window.CHANNELS = [
     },
     "organicImpressions": 0,
     "views": 12925944
-  },
-  {
-    "name": "TikTok",
-    "italic": "Tok",
-    "impressions": 12925263,
-    "eng": 45720,
-    "er": 0.35,
-    "cpm": 2.51,
-    "color": "#000000",
-    "delta": -82.6,
-    "bench": {
-      "er": 2.03,
-      "cpm": 2.4
-    },
-    "organicImpressions": 0,
-    "views": 12817561
   },
   {
     "name": "Facebook",
@@ -12168,10 +12160,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Mar\u2013Apr 2026",
       "total": {
         "impr": 1729612,
-        "views": 323085,
-        "er": 0.27,
-        "eng": 4721,
-        "spend": 1308.61
+        "views": 258616,
+        "er": 0.4,
+        "eng": 6946,
+        "spend": 1508.64
       },
       "perChannel": [
         {
@@ -12225,13 +12217,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 67588,
           "paidImpr": 67588,
           "orgImpr": 0,
-          "views": 65519,
-          "eng": 14,
-          "paidEng": 14,
+          "views": 1050,
+          "eng": 2239,
+          "paidEng": 2239,
           "orgEng": 0,
-          "er": 0.02,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "er": 3.31,
+          "cpm": 2.96,
+          "spend": 200.03,
           "posts": 2
         },
         {
@@ -12274,10 +12266,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 37008,
           "paidImpr": 37008,
           "orgImpr": 0,
-          "views": 35948,
-          "eng": 7,
-          "er": 0.02,
-          "spend": 0,
+          "views": 526,
+          "eng": 1024,
+          "er": 2.77,
+          "spend": 109.27,
           "url": "https://www.youtube.com/shorts/PDk8f-cLs80",
           "postedAt": "2026-03-24T09:09:35-07:00"
         },
@@ -12304,10 +12296,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 30580,
           "paidImpr": 30580,
           "orgImpr": 0,
-          "views": 29571,
-          "eng": 7,
-          "er": 0.02,
-          "spend": 0,
+          "views": 524,
+          "eng": 1215,
+          "er": 3.97,
+          "spend": 90.76,
           "url": "https://www.youtube.com/shorts/DAnAa26l1us",
           "postedAt": "2026-04-07T14:35:09-07:00"
         },
@@ -12387,13 +12379,43 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Off the Pitch",
       "date": "Jun 2026",
       "total": {
-        "impr": 1426728,
-        "views": 637081,
-        "er": 1.65,
-        "eng": 23470,
-        "spend": 3886.49
+        "impr": 1589231,
+        "views": 713286,
+        "er": 1.84,
+        "eng": 29217,
+        "spend": 4382.77
       },
       "perChannel": [
+        {
+          "name": "TikTok",
+          "distKind": "paid",
+          "impr": 483881,
+          "paidImpr": 483881,
+          "orgImpr": 0,
+          "views": 475862,
+          "eng": 1184,
+          "paidEng": 1184,
+          "orgEng": 0,
+          "er": 0.24,
+          "cpm": 2.51,
+          "spend": 1213.66,
+          "posts": 2
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "paid",
+          "impr": 447478,
+          "paidImpr": 447478,
+          "orgImpr": 0,
+          "views": 14059,
+          "eng": 26818,
+          "paidEng": 26818,
+          "orgEng": 0,
+          "er": 5.99,
+          "cpm": 2.64,
+          "spend": 1181.74,
+          "posts": 2
+        },
         {
           "name": "X",
           "distKind": "paid",
@@ -12407,36 +12429,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.26,
           "cpm": 2.73,
           "spend": 1187.51,
-          "posts": 2
-        },
-        {
-          "name": "TikTok",
-          "distKind": "paid",
-          "impr": 409224,
-          "paidImpr": 409224,
-          "orgImpr": 0,
-          "views": 402728,
-          "eng": 1118,
-          "paidEng": 1118,
-          "orgEng": 0,
-          "er": 0.27,
-          "cpm": 2.44,
-          "spend": 1000.0,
-          "posts": 2
-        },
-        {
-          "name": "YouTube Shorts",
-          "distKind": "paid",
-          "impr": 359632,
-          "paidImpr": 359632,
-          "orgImpr": 0,
-          "views": 10988,
-          "eng": 21137,
-          "paidEng": 21137,
-          "orgEng": 0,
-          "er": 5.88,
-          "cpm": 2.5,
-          "spend": 899.12,
           "posts": 2
         },
         {
@@ -12461,13 +12453,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "paid",
-          "impr": 191425,
-          "paidImpr": 191425,
+          "impr": 227240,
+          "paidImpr": 227240,
           "orgImpr": 0,
-          "views": 6455,
-          "eng": 12587,
-          "er": 6.58,
-          "spend": 449.62,
+          "views": 7978,
+          "eng": 15465,
+          "er": 6.81,
+          "spend": 582.15,
           "url": "https://www.youtube.com/shorts/p-MOdyFebqE",
           "postedAt": "2026-06-11T11:50:00-07:00"
         },
@@ -12491,13 +12483,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "paid",
-          "impr": 168207,
-          "paidImpr": 168207,
+          "impr": 220238,
+          "paidImpr": 220238,
           "orgImpr": 0,
-          "views": 4533,
-          "eng": 8550,
-          "er": 5.08,
-          "spend": 449.5,
+          "views": 6081,
+          "eng": 11353,
+          "er": 5.15,
+          "spend": 599.59,
           "url": "https://www.youtube.com/shorts/96vw2cNYIBI",
           "postedAt": "2026-06-22T14:25:41-07:00"
         },
@@ -12536,13 +12528,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": null,
           "distKind": "paid",
-          "impr": 220120,
-          "paidImpr": 220120,
+          "impr": 242455,
+          "paidImpr": 242455,
           "orgImpr": 0,
-          "views": 216129,
-          "eng": 996,
-          "er": 0.45,
-          "spend": 500.0,
+          "views": 237870,
+          "eng": 1033,
+          "er": 0.43,
+          "spend": 563.66,
           "url": null,
           "postedAt": null
         },
@@ -12551,13 +12543,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": null,
           "distKind": "paid",
-          "impr": 189104,
-          "paidImpr": 189104,
+          "impr": 241426,
+          "paidImpr": 241426,
           "orgImpr": 0,
-          "views": 186599,
-          "eng": 122,
+          "views": 237992,
+          "eng": 151,
           "er": 0.06,
-          "spend": 500.0,
+          "spend": 650.0,
           "url": null,
           "postedAt": null
         },
@@ -22825,11 +22817,11 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 37008,
       "paidImpr": 37008,
       "orgImpr": 0,
-      "views": 35948,
+      "views": 526,
       "reach": 0,
-      "eng": 7,
-      "er": 0.02,
-      "spend": 0,
+      "eng": 1024,
+      "er": 2.77,
+      "spend": 109.27,
       "watchTimeMin": 1608.0,
       "clicks": null,
       "ctr": 0.0,
@@ -22871,11 +22863,11 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 30580,
       "paidImpr": 30580,
       "orgImpr": 0,
-      "views": 29571,
+      "views": 524,
       "reach": 0,
-      "eng": 7,
-      "er": 0.02,
-      "spend": 0,
+      "eng": 1215,
+      "er": 3.97,
+      "spend": 90.76,
       "watchTimeMin": 1060.0,
       "clicks": null,
       "ctr": 0.0,
@@ -22983,19 +22975,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "paid",
-      "impr": 191425,
-      "paidImpr": 191425,
+      "impr": 227240,
+      "paidImpr": 227240,
       "orgImpr": 0,
-      "views": 6455,
+      "views": 7978,
       "reach": 0,
-      "eng": 12587,
-      "er": 6.58,
-      "spend": 449.62,
+      "eng": 15465,
+      "er": 6.81,
+      "spend": 582.15,
       "watchTimeMin": 15638.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.35,
+      "cpm": 2.56,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/p-MOdyFebqE",
@@ -23029,19 +23021,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "paid",
-      "impr": 168207,
-      "paidImpr": 168207,
+      "impr": 220238,
+      "paidImpr": 220238,
       "orgImpr": 0,
-      "views": 4533,
+      "views": 6081,
       "reach": 0,
-      "eng": 8550,
-      "er": 5.08,
-      "spend": 449.5,
+      "eng": 11353,
+      "er": 5.15,
+      "spend": 599.59,
       "watchTimeMin": 12863.6,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.67,
+      "cpm": 2.72,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/96vw2cNYIBI",
@@ -23098,19 +23090,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": null,
       "distKind": "paid",
-      "impr": 220120,
-      "paidImpr": 220120,
+      "impr": 242455,
+      "paidImpr": 242455,
       "orgImpr": 0,
-      "views": 216129,
+      "views": 237870,
       "reach": 0,
-      "eng": 996,
-      "er": 0.45,
-      "spend": 500.0,
+      "eng": 1033,
+      "er": 0.43,
+      "spend": 563.66,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.27,
+      "cpm": 2.32,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -23121,19 +23113,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": null,
       "distKind": "paid",
-      "impr": 189104,
-      "paidImpr": 189104,
+      "impr": 241426,
+      "paidImpr": 241426,
       "orgImpr": 0,
-      "views": 186599,
+      "views": 237992,
       "reach": 0,
-      "eng": 122,
+      "eng": 151,
       "er": 0.06,
-      "spend": 500.0,
+      "spend": 650.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.64,
+      "cpm": 2.69,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -26077,7 +26069,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
-    "fileSizeKb": 0.4,
+    "fileSizeKb": 0.6,
     "lastModified": "2026-06-30",
     "exists": true,
     "postsContributed": 0
@@ -27373,7 +27365,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.69,
     "impressions": 40607639,
     "paidImpressions": 40576584,
-    "pctOfTotal": 43.3,
+    "pctOfTotal": 43.2,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 30.6,
     "color": "#E00922"
@@ -27391,11 +27383,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.55,
-    "impressions": 11519443,
-    "paidImpressions": 9023437,
+    "impressions": 11594100,
+    "paidImpressions": 9098094,
     "pctOfTotal": 12.3,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 13.7,
+    "mvmDeltaPct": 13.9,
     "color": "#000000"
   },
   {
@@ -27410,12 +27402,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.52,
-    "impressions": 9000155,
-    "paidImpressions": 8919136,
-    "pctOfTotal": 9.6,
+    "cpm": 2.55,
+    "impressions": 9088001,
+    "paidImpressions": 9006982,
+    "pctOfTotal": 9.7,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -21.3,
+    "mvmDeltaPct": -20.4,
     "color": "#FF0033"
   },
   {
@@ -27450,7 +27442,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.02;
+window.PORTFOLIO_CPM_BLEND = 2.03;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
