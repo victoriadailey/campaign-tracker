@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-06-30T20:54:37Z";
+window.LAST_REFRESHED = "2026-07-01T01:08:26Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -376,8 +376,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Players",
     "type": "content",
     "flight": "Jan 1 \u2014 Dec 31, 2026",
-    "elapsedPct": 49.5,
-    "daysLeft": 184,
+    "elapsedPct": 49.7,
+    "daysLeft": 183,
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-29T16:42:57Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1166,8 +1166,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Case Study",
     "type": "social",
     "flight": "May 1 \u2014 Jul 30, 2026",
-    "elapsedPct": 66.7,
-    "daysLeft": 30,
+    "elapsedPct": 67.8,
+    "daysLeft": 29,
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1379,22 +1379,22 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3189597,
+      "delivered": 3201553,
       "goal": 1650000
     },
     "budget": {
-      "delivered": 5341.43,
+      "delivered": 5545.77,
       "goal": 3900.0
     },
     "color": "ft-7",
     "leadFormat": "Made for Social",
     "topChannel": "X",
     "er": 1.1,
-    "cpm": 1.74,
+    "cpm": 1.8,
     "episodes": 2,
     "posts": 16,
     "blurb": "Sport Clips dark-social program in two components: MLB Minute (Mar 23 \u2013 Apr 21, wrapped \u2014 1.1M goal exceeded) and Off the Pitch (Jun 11\u201328, live) with Baker Machado breaking down World Cup stories.",
-    "views": 1028636,
+    "views": 1040335,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -1418,10 +1418,10 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 681813,
-        "eng": 1294,
+        "impressions": 693769,
+        "eng": 1305,
         "er": 0.19,
-        "cpm": 2.31,
+        "cpm": 2.56,
         "color": "#000000",
         "delta": -90.7,
         "bench": {
@@ -1429,7 +1429,7 @@ window.CAMPAIGNS = [
           "cpm": 2.4
         },
         "organicImpressions": 0,
-        "views": 670514
+        "views": 682213
       },
       {
         "name": "YouTube Shorts",
@@ -1486,8 +1486,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
-    "lastUpdatedExports": "2026-06-30T20:52:49Z"
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
+    "lastUpdatedExports": "2026-07-01T01:07:23Z"
   },
   {
     "id": "onlocation",
@@ -1640,7 +1640,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1650,8 +1650,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "World Cup",
     "type": "social",
     "flight": "May 18 \u2014 Jul 31, 2026",
-    "elapsedPct": 58.1,
-    "daysLeft": 31,
+    "elapsedPct": 59.5,
+    "daysLeft": 30,
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
@@ -1779,8 +1779,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 44% of goal (1.5M of 3.5M) with 31 days left.",
-        "body": "At the current rate the campaign will fall ~2.0M impressions short of the 3.5M goal. Need to deliver 84K impr/day (4.0\u00d7 the current 21K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 43% of goal (1.5M of 3.5M) with 30 days left.",
+        "body": "At the current rate the campaign will fall ~2.0M impressions short of the 3.5M goal. Need to deliver 87K impr/day (4.3\u00d7 the current 20K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Heineken \u00b7 Pacing"
       }
     ],
@@ -1802,7 +1802,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -1812,8 +1812,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "TST",
     "type": "social",
     "flight": "Apr 15 \u2014 Sep 30, 2026",
-    "elapsedPct": 45.2,
-    "daysLeft": 92,
+    "elapsedPct": 45.8,
+    "daysLeft": 91,
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
@@ -2198,7 +2198,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2345,7 +2345,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2709,7 +2709,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-06-30T20:54:37Z",
+    "lastUpdatedMs": "2026-07-01T01:08:26Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2724,31 +2724,31 @@ window.CAMPAIGNS = [
     "status": "Goal Missed",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 29020012,
+      "delivered": 30458587,
       "goal": 30500000
     },
     "budget": {
-      "delivered": 40947.78,
+      "delivered": 43333.3,
       "goal": 35250.0
     },
     "color": "ft-1",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 0.3,
-    "cpm": 1.41,
+    "cpm": 1.42,
     "episodes": 0,
     "posts": 18,
     "blurb": "Microsoft x FOS Explains \u2014 two longform FOS Explains videos on the business of global sports fandom plus four social cutdowns, dark/paid across YouTube, X, Meta & TikTok. Only FOS Explains #1 is live so far; #2 is approved and launching ~6/23, so delivery is still ramping toward the 30.5M goal.",
-    "views": 3829693,
+    "views": 4274705,
     "goalSplit": [
       {
         "label": "FOS Explains Longform (2 videos)",
         "impressions": {
-          "delivered": 24308890,
+          "delivered": 25300270,
           "goal": 26000000
         },
         "budget": {
-          "delivered": 26540.39,
+          "delivered": 27506.15,
           "goal": 0.0
         },
         "posts": 6
@@ -2756,11 +2756,11 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Cutdowns (4)",
         "impressions": {
-          "delivered": 4711122,
+          "delivered": 5158317,
           "goal": 4500000
         },
         "budget": {
-          "delivered": 14407.39,
+          "delivered": 15827.15,
           "goal": 0.0
         },
         "posts": 12
@@ -2772,12 +2772,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 22662927,
-        "eng": 71642,
-        "er": 0.32,
+        "impressions": 23578541,
+        "eng": 73804,
+        "er": 0.31,
         "cpm": 0.77,
         "color": "#E00922",
-        "delta": -36.8,
+        "delta": -37.4,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
@@ -2788,10 +2788,10 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 254295,
-        "eng": 200410,
-        "er": 78.81,
-        "cpm": 14.3,
+        "impressions": 259827,
+        "eng": 204862,
+        "er": 78.85,
+        "cpm": 14.32,
         "color": "#B0061B",
         "delta": 9.5,
         "bench": {
@@ -2799,13 +2799,13 @@ window.CAMPAIGNS = [
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 146001
+        "views": 149352
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 2653119,
-        "eng": 759,
+        "impressions": 2861628,
+        "eng": 818,
         "er": 0.03,
         "cpm": 2.63,
         "color": "#000000",
@@ -2815,17 +2815,17 @@ window.CAMPAIGNS = [
           "cpm": 2.4
         },
         "organicImpressions": 0,
-        "views": 2630291
+        "views": 2835952
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 2304089,
-        "eng": 8483,
-        "er": 0.37,
-        "cpm": 3.79,
+        "impressions": 2375483,
+        "eng": 8596,
+        "er": 0.36,
+        "cpm": 3.77,
         "color": "#1d1d1f",
-        "delta": -60.0,
+        "delta": -60.7,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -2836,10 +2836,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1145582,
-        "eng": 754,
+        "impressions": 1383108,
+        "eng": 935,
         "er": 0.07,
-        "cpm": 3.6,
+        "cpm": 3.61,
         "color": "#E4405F",
         "delta": -98.0,
         "bench": {
@@ -2847,7 +2847,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 1145582
+        "views": 1383108
       }
     ],
     "topPosts": [],
@@ -2856,15 +2856,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $3.79 \u2014 3.4\u00d7 the benchmark.",
-        "body": "$3.79 CPM vs. $1.10 FOS benchmark. At 3.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $3.77 \u2014 3.4\u00d7 the benchmark.",
+        "body": "$3.77 CPM vs. $1.10 FOS benchmark. At 3.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "Microsoft \u00b7 X"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "Campaign averaging 0.30% ER \u2014 below the 1% floor.",
-        "body": "0.30% engagement rate across 29.0M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "body": "0.30% engagement rate across 30.5M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Microsoft \u00b7 Engagement"
       }
     ],
@@ -2872,7 +2872,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-06-30T20:53:13Z"
+    "lastUpdatedExports": "2026-07-01T01:05:53Z"
   }
 ];
 
@@ -3110,28 +3110,28 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 63474087,
-    "eng": 1171227,
-    "er": 1.85,
+    "impressions": 64389701,
+    "eng": 1173389,
+    "er": 1.82,
     "cpm": 1.0,
     "color": "#E00922",
-    "delta": -90.8,
+    "delta": -90.9,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 9603142
+    "views": 9604967
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 24775866,
-    "eng": 721175,
-    "er": 2.91,
-    "cpm": 1.47,
+    "impressions": 24847260,
+    "eng": 721288,
+    "er": 2.9,
+    "cpm": 1.48,
     "color": "#1d1d1f",
-    "delta": 216.4,
+    "delta": 215.5,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -3142,34 +3142,34 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 13069829,
-    "eng": 45874,
+    "impressions": 13290294,
+    "eng": 45944,
     "er": 0.35,
-    "cpm": 2.5,
+    "cpm": 2.52,
     "color": "#000000",
-    "delta": -82.7,
+    "delta": -83.0,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 12959153
+    "views": 13176513
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 12925944,
-    "eng": 219857,
-    "er": 1.7,
-    "cpm": 5.09,
+    "impressions": 13163470,
+    "eng": 220038,
+    "er": 1.67,
+    "cpm": 5.06,
     "color": "#E4405F",
-    "delta": -48.6,
+    "delta": -49.5,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 12925944
+    "views": 13163470
   },
   {
     "name": "Facebook",
@@ -3286,8 +3286,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 44% of goal (1.5M of 3.5M) with 31 days left.",
-    "body": "At the current rate the campaign will fall ~2.0M impressions short of the 3.5M goal. Need to deliver 84K impr/day (4.0\u00d7 the current 21K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 43% of goal (1.5M of 3.5M) with 30 days left.",
+    "body": "At the current rate the campaign will fall ~2.0M impressions short of the 3.5M goal. Need to deliver 87K impr/day (4.3\u00d7 the current 20K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
@@ -3295,8 +3295,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "X CPM at $3.79 \u2014 3.4\u00d7 the benchmark.",
-    "body": "$3.79 CPM vs. $1.10 FOS benchmark. At 3.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "headline": "X CPM at $3.77 \u2014 3.4\u00d7 the benchmark.",
+    "body": "$3.77 CPM vs. $1.10 FOS benchmark. At 3.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
     "meta": "Microsoft \u00b7 X",
     "campaignId": "microsoft",
     "campaignPartner": "Microsoft"
@@ -12379,26 +12379,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Off the Pitch",
       "date": "Jun 2026",
       "total": {
-        "impr": 1647221,
-        "views": 770020,
-        "er": 1.78,
-        "eng": 29294,
-        "spend": 4382.77
+        "impr": 1659177,
+        "views": 781719,
+        "er": 1.77,
+        "eng": 29305,
+        "spend": 4587.11
       },
       "perChannel": [
         {
           "name": "TikTok",
           "distKind": "paid",
-          "impr": 541871,
-          "paidImpr": 541871,
+          "impr": 553827,
+          "paidImpr": 553827,
           "orgImpr": 0,
-          "views": 532596,
-          "eng": 1261,
-          "paidEng": 1261,
+          "views": 544295,
+          "eng": 1272,
+          "paidEng": 1272,
           "orgEng": 0,
           "er": 0.23,
-          "cpm": 2.24,
-          "spend": 1213.66,
+          "cpm": 2.56,
+          "spend": 1418.0,
           "posts": 2
         },
         {
@@ -12513,13 +12513,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": null,
           "distKind": "paid",
-          "impr": 300445,
-          "paidImpr": 300445,
+          "impr": 312401,
+          "paidImpr": 312401,
           "orgImpr": 0,
-          "views": 294604,
-          "eng": 1110,
-          "er": 0.37,
-          "spend": 563.66,
+          "views": 306303,
+          "eng": 1121,
+          "er": 0.36,
+          "spend": 768.0,
           "url": null,
           "postedAt": null
         },
@@ -23067,19 +23067,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": null,
       "distKind": "paid",
-      "impr": 300445,
-      "paidImpr": 300445,
+      "impr": 312401,
+      "paidImpr": 312401,
       "orgImpr": 0,
-      "views": 294604,
+      "views": 306303,
       "reach": 0,
-      "eng": 1110,
-      "er": 0.37,
-      "spend": 563.66,
+      "eng": 1121,
+      "er": 0.36,
+      "spend": 768.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 1.88,
+      "cpm": 2.46,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25377,41 +25377,18 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "microsoft": [
     {
-      "title": "Microsoft: FOS Explains video 1 (in-feed)",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 12913000,
-      "paidImpr": 12913000,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 27532,
-      "er": 0.21,
-      "spend": 9899.81,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 0.77,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
       "title": "Microsoft: FOS Explains 2 (in-feed)",
       "platform": "YouTube In-feed",
       "accountName": null,
       "distKind": "paid",
-      "impr": 9749927,
-      "paidImpr": 9749927,
+      "impr": 9939399,
+      "paidImpr": 9939399,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 44110,
+      "eng": 44766,
       "er": 0.45,
-      "spend": 7586.07,
+      "spend": 7741.3,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
@@ -25423,23 +25400,23 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
-      "title": "Microsoft: FOS Explains video 1 (pre-roll)",
-      "platform": "YouTube Pre-roll",
+      "title": "Microsoft: FOS Explains video 1 (in-feed)",
+      "platform": "YouTube In-feed",
       "accountName": null,
       "distKind": "paid",
-      "impr": 171949,
-      "paidImpr": 171949,
+      "impr": 13639142,
+      "paidImpr": 13639142,
       "orgImpr": 0,
-      "views": 101035,
+      "views": 0,
       "reach": 0,
-      "eng": 137623,
-      "er": 80.04,
-      "spend": 2610.99,
+      "eng": 29038,
+      "er": 0.21,
+      "spend": 10408.95,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 15.18,
+      "cpm": 0.76,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25453,11 +25430,11 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 82346,
       "paidImpr": 82346,
       "orgImpr": 0,
-      "views": 44966,
+      "views": 44950,
       "reach": 0,
-      "eng": 62787,
-      "er": 76.25,
-      "spend": 1024.46,
+      "eng": 62767,
+      "er": 76.22,
+      "spend": 1024.07,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
@@ -25469,23 +25446,46 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
+      "title": "Microsoft: FOS Explains video 1 (pre-roll)",
+      "platform": "YouTube Pre-roll",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 177481,
+      "paidImpr": 177481,
+      "orgImpr": 0,
+      "views": 104402,
+      "reach": 0,
+      "eng": 142095,
+      "er": 80.06,
+      "spend": 2696.92,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 15.2,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "Microsoft FOS Explains 1 - Full ep",
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 865285,
-      "paidImpr": 865285,
+      "impr": 927130,
+      "paidImpr": 927130,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 3406,
-      "er": 0.39,
-      "spend": 3200.0,
+      "eng": 3502,
+      "er": 0.38,
+      "spend": 3390.81,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": 0.0,
       "cpc": null,
-      "cpm": 3.7,
+      "cpm": 3.66,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25496,14 +25496,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": null,
       "distKind": "paid",
-      "impr": 748091,
-      "paidImpr": 748091,
+      "impr": 777218,
+      "paidImpr": 777218,
       "orgImpr": 0,
-      "views": 740824,
+      "views": 769588,
       "reach": 0,
-      "eng": 211,
+      "eng": 224,
       "er": 0.03,
-      "spend": 2011.08,
+      "spend": 2087.35,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
@@ -25519,65 +25519,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": null,
       "distKind": "paid",
-      "impr": 711295,
-      "paidImpr": 711295,
+      "impr": 764451,
+      "paidImpr": 764451,
       "orgImpr": 0,
-      "views": 705848,
+      "views": 758485,
       "reach": 0,
-      "eng": 191,
+      "eng": 197,
       "er": 0.03,
-      "spend": 1814.87,
+      "spend": 1954.13,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.55,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Microsoft_FOS Explains 1_Cutdown 1",
-      "platform": "TikTok",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 597312,
-      "paidImpr": 597312,
-      "orgImpr": 0,
-      "views": 591986,
-      "reach": 0,
-      "eng": 223,
-      "er": 0.04,
-      "spend": 1588.92,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.66,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Microsoft_FOS Explains 2_Cutdown 2",
-      "platform": "TikTok",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 596421,
-      "paidImpr": 596421,
-      "orgImpr": 0,
-      "views": 591633,
-      "reach": 0,
-      "eng": 134,
-      "er": 0.02,
-      "spend": 1555.13,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.61,
+      "cpm": 2.56,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25588,14 +25542,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 592549,
-      "paidImpr": 592549,
+      "impr": 755181,
+      "paidImpr": 755181,
       "orgImpr": 0,
-      "views": 592549,
-      "reach": 357404,
-      "eng": 386,
+      "views": 755181,
+      "reach": 477460,
+      "eng": 519,
       "er": 0.07,
-      "spend": 2136.25,
+      "spend": 2726.81,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
@@ -25607,23 +25561,69 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
+      "title": "Microsoft_FOS Explains 2_Cutdown 2",
+      "platform": "TikTok",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 677248,
+      "paidImpr": 677248,
+      "orgImpr": 0,
+      "views": 671003,
+      "reach": 0,
+      "eng": 151,
+      "er": 0.02,
+      "spend": 1767.49,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.61,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Microsoft_FOS Explains 1_Cutdown 1",
+      "platform": "TikTok",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 642711,
+      "paidImpr": 642711,
+      "orgImpr": 0,
+      "views": 636876,
+      "reach": 0,
+      "eng": 246,
+      "er": 0.04,
+      "spend": 1707.82,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.66,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "Microsoft_FOS Explains 2_Full ep",
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 526383,
-      "paidImpr": 526383,
+      "impr": 534772,
+      "paidImpr": 534772,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 1086,
+      "eng": 1100,
       "er": 0.21,
-      "spend": 2219.06,
+      "spend": 2244.1,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": 0.0,
       "cpc": null,
-      "cpm": 4.22,
+      "cpm": 4.2,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25634,8 +25634,8 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 424270,
-      "paidImpr": 424270,
+      "impr": 424536,
+      "paidImpr": 424536,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
@@ -25657,19 +25657,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 350331,
-      "paidImpr": 350331,
+      "impr": 416417,
+      "paidImpr": 416417,
       "orgImpr": 0,
-      "views": 350331,
-      "reach": 240139,
-      "eng": 240,
+      "views": 416417,
+      "reach": 287813,
+      "eng": 282,
       "er": 0.07,
-      "spend": 1259.3,
+      "spend": 1503.02,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.59,
+      "cpm": 3.61,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25680,8 +25680,8 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 224748,
-      "paidImpr": 224748,
+      "impr": 224753,
+      "paidImpr": 224753,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
@@ -25703,14 +25703,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 220925,
-      "paidImpr": 220925,
+      "impr": 221806,
+      "paidImpr": 221806,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 676,
+      "eng": 679,
       "er": 0.31,
-      "spend": 782.58,
+      "spend": 784.36,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": 0.0,
@@ -25726,19 +25726,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 123665,
-      "paidImpr": 123665,
+      "impr": 132473,
+      "paidImpr": 132473,
       "orgImpr": 0,
-      "views": 123665,
-      "reach": 103843,
-      "eng": 78,
+      "views": 132473,
+      "reach": 113190,
+      "eng": 84,
       "er": 0.06,
-      "spend": 459.94,
+      "spend": 496.85,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.72,
+      "cpm": 3.75,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25772,8 +25772,8 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 42478,
-      "paidImpr": 42478,
+      "impr": 42486,
+      "paidImpr": 42486,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
@@ -25949,7 +25949,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -25960,7 +25960,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -25971,7 +25971,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -25982,7 +25982,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -25993,7 +25993,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "portfolio_players_yt_paid.csv",
     "fileSizeKb": 5.6,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 11
   },
@@ -26004,7 +26004,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
     "fileSizeKb": 5.2,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26015,7 +26015,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26026,7 +26026,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26037,7 +26037,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26048,7 +26048,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26059,7 +26059,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26070,7 +26070,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26081,7 +26081,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 3
   },
@@ -26092,7 +26092,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26103,7 +26103,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26114,7 +26114,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26125,7 +26125,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26136,7 +26136,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26147,7 +26147,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "heineken_yt_paid.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26158,7 +26158,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26169,7 +26169,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26180,7 +26180,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26191,7 +26191,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 2
   },
@@ -26202,7 +26202,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 2
   },
@@ -26213,7 +26213,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26224,7 +26224,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26235,7 +26235,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26246,7 +26246,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -26257,7 +26257,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26268,7 +26268,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-06-30",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   }
@@ -27363,41 +27363,41 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.69,
-    "impressions": 41031784,
-    "paidImpressions": 41000729,
-    "pctOfTotal": 43.3,
+    "impressions": 41947398,
+    "paidImpressions": 41916343,
+    "pctOfTotal": 43.6,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 30.8,
+    "mvmDeltaPct": 31.0,
     "color": "#E00922"
   },
   {
     "name": "X",
     "cpm": 2.04,
-    "impressions": 13776592,
-    "paidImpressions": 12170472,
-    "pctOfTotal": 14.5,
+    "impressions": 13847986,
+    "paidImpressions": 12241866,
+    "pctOfTotal": 14.4,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 64.2,
+    "mvmDeltaPct": 64.6,
     "color": "#1d1d1f"
   },
   {
     "name": "TikTok",
-    "cpm": 2.54,
-    "impressions": 11664009,
-    "paidImpressions": 9168003,
-    "pctOfTotal": 12.3,
+    "cpm": 2.56,
+    "impressions": 11884474,
+    "paidImpressions": 9388468,
+    "pctOfTotal": 12.4,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 13.2,
+    "mvmDeltaPct": 14.1,
     "color": "#000000"
   },
   {
     "name": "Instagram",
-    "cpm": 5.22,
-    "impressions": 11182405,
-    "paidImpressions": 9200119,
-    "pctOfTotal": 11.8,
+    "cpm": 5.18,
+    "impressions": 11419931,
+    "paidImpressions": 9437645,
+    "pctOfTotal": 11.9,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -7.2,
+    "mvmDeltaPct": -7.9,
     "color": "#E4405F"
   },
   {
@@ -27405,7 +27405,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.55,
     "impressions": 9088001,
     "paidImpressions": 9006982,
-    "pctOfTotal": 9.6,
+    "pctOfTotal": 9.5,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -20.4,
     "color": "#FF0033"
@@ -27415,7 +27415,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.25,
     "impressions": 6031501,
     "paidImpressions": 6017963,
-    "pctOfTotal": 6.4,
+    "pctOfTotal": 6.3,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -22.5,
     "color": "#1877F2"
@@ -27432,12 +27432,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 13.75,
-    "impressions": 739030,
-    "paidImpressions": 739030,
+    "cpm": 13.76,
+    "impressions": 744562,
+    "paidImpressions": 744562,
     "pctOfTotal": 0.8,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 15.5,
+    "mvmDeltaPct": 15.6,
     "color": "#B0061B"
   }
 ];
