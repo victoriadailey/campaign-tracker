@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-01T10:11:29Z";
+window.LAST_REFRESHED = "2026-07-01T10:32:33Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.51,
+      "delivered": 9732.52,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:26Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:27Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-29T16:42:57Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1156,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1486,7 +1486,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-07-01T01:07:23Z"
   },
   {
@@ -1640,7 +1640,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1802,7 +1802,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-25T16:10:56Z"
   },
   {
@@ -2198,7 +2198,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2345,7 +2345,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2709,7 +2709,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-01T10:11:28Z",
+    "lastUpdatedMs": "2026-07-01T10:32:33Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2872,7 +2872,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-07-01T02:48:47Z"
+    "lastUpdatedExports": "2026-07-01T10:31:26Z"
   }
 ];
 
@@ -25949,7 +25949,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -25960,7 +25960,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -25971,7 +25971,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -25982,7 +25982,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26015,7 +26015,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26026,7 +26026,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26037,7 +26037,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26048,7 +26048,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26059,7 +26059,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26103,7 +26103,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26114,7 +26114,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26125,7 +26125,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26136,7 +26136,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26147,7 +26147,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "heineken_yt_paid.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 0
   },
@@ -26180,7 +26180,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-18",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -26191,7 +26191,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-06-25",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 2
   },
@@ -26213,7 +26213,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -26224,7 +26224,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-06-23",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
