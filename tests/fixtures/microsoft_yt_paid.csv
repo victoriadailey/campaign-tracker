@@ -1,5 +1,7 @@
 FOS Reporting
-"June 1, 2026 - June 30, 2026"
+"June 1, 2026 - July 1, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
 Microsoft: FOS Explains video 1 (in-feed),USD,0,Ended,Video,0.400,"26,219",0.76,"13,769,607",10498.24,"29,417"
 Microsoft: FOS Explains 2 (in-feed),USD,0,Paused,Video,0.261,"30,184",0.78,"10,095,116",7872.12,"45,352"
+Microsoft: FOS Explains 2 (pre-roll),USD,0,Ended,Video,0.023,"44,950",12.44,"82,346",1024.07,"62,767"
+Microsoft: FOS Explains video 1 (pre-roll),USD,0,Ended,Video,0.026,"111,029",15.16,"188,912",2863.19,"151,125"
