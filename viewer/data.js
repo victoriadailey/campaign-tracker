@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-06T15:53:48Z";
+window.LAST_REFRESHED = "2026-07-06T16:22:54Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -391,7 +391,7 @@ window.CAMPAIGNS = [
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.5,
+    "er": 2.0,
     "cpm": 1.77,
     "episodes": 13,
     "posts": 287,
@@ -453,11 +453,11 @@ window.CAMPAIGNS = [
         "name": "X",
         "italic": "X",
         "impressions": 3874786,
-        "eng": 163061,
-        "er": 4.21,
+        "eng": 9453,
+        "er": 0.24,
         "cpm": 1.08,
         "color": "#1d1d1f",
-        "delta": 357.4,
+        "delta": -73.5,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -564,136 +564,8 @@ window.CAMPAIGNS = [
     ],
     "topPosts": [
       {
-        "id": "2047056447112986902",
-        "rank": 1,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d Former @NFL\u2026",
-        "er": 12.36,
-        "eng": 15334,
-        "reach": 1092,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2047056447112986902",
-        "postedAt": "2026-04-22T13:54:24-07:00"
-      },
-      {
-        "id": "2049569125958066285",
-        "rank": 2,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2\u2026",
-        "er": 10.52,
-        "eng": 13253,
-        "reach": 2733,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2049569125958066285",
-        "postedAt": "2026-04-29T12:18:53-07:00"
-      },
-      {
-        "id": "2057921944134078669",
-        "rank": 3,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d Mark Cuban breaks\u2026",
-        "er": 10.45,
-        "eng": 8705,
-        "reach": 1643,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2057921944134078669",
-        "postedAt": "2026-05-22T13:30:00-07:00"
-      },
-      {
-        "id": "2059707458352804252",
-        "rank": 4,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d\u2026",
-        "er": 10.41,
-        "eng": 28162,
-        "reach": 16049,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2059707458352804252",
-        "postedAt": "2026-05-27T11:45:00-07:00"
-      },
-      {
-        "id": "2041927804443324872",
-        "rank": 5,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking\u2026",
-        "er": 9.87,
-        "eng": 5908,
-        "reach": 1124,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2041927804443324872",
-        "postedAt": "2026-04-08T10:15:00-07:00"
-      },
-      {
-        "id": "2054660453456859459",
-        "rank": 6,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\" Former\u2026",
-        "er": 9.78,
-        "eng": 21156,
-        "reach": 2128,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2054660453456859459",
-        "postedAt": "2026-05-13T13:30:00-07:00"
-      },
-      {
-        "id": "2052093377298997683",
-        "rank": 7,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\u201c[NIL money] will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d Former\u2026",
-        "er": 7.73,
-        "eng": 17201,
-        "reach": 3796,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2052093377298997683",
-        "postedAt": "2026-05-06T11:29:21-07:00"
-      },
-      {
-        "id": "2056799927808790803",
-        "rank": 8,
-        "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "Mark Cuban says the business of sports is changing fast. The former Mavericks owner joined\u2026",
-        "er": 7.61,
-        "eng": 7465,
-        "reach": 2213,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://twitter.com/FOS/status/2056799927808790803",
-        "postedAt": "2026-05-19T11:11:30-07:00"
-      },
-      {
         "id": "7636507618525154573",
-        "rank": 9,
+        "rank": 1,
         "partner": "E*TRADE",
         "platform": "TikTok",
         "format": "Reels/Shorts",
@@ -708,20 +580,148 @@ window.CAMPAIGNS = [
         "postedAt": "2026-05-05T13:30:14-07:00"
       },
       {
-        "id": "2072039970689167439",
-        "rank": 10,
+        "id": "7639388031488757006",
+        "rank": 2,
         "partner": "E*TRADE",
-        "platform": "X",
-        "format": "Feed video",
-        "quote": "\"The biggest thing for these student athletes but also... the biggest concern, [is] making sure\u2026",
-        "er": 6.66,
-        "eng": 6016,
-        "reach": 1912,
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\" Former\u2026",
+        "er": 5.57,
+        "eng": 68,
+        "reach": 1221,
         "organic": 100,
         "metric": "er",
         "insight": "",
-        "url": "https://twitter.com/FOS/status/2072039970689167439",
-        "postedAt": "2026-06-30T12:30:00-07:00"
+        "url": "https://tiktok.com/@frontofficesports/video/7639388031488757006",
+        "postedAt": "2026-05-13T13:30:00-07:00"
+      },
+      {
+        "id": "7638302792347700493",
+        "rank": 3,
+        "partner": "E*TRADE",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "\u201cThere\u2019s only one New York Knicks.\u201d Long-time sports executive Dave Checketts explains why the\u2026",
+        "er": 5.25,
+        "eng": 629,
+        "reach": 11987,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://tiktok.com/@frontofficesports/video/7638302792347700493",
+        "postedAt": "2026-05-10T11:30:00-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7442307804297752576",
+        "rank": 4,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "\"There is so much capital that wants to come into sports right now... it is going to burst.\" Assia\u2026",
+        "er": 5.14,
+        "eng": 758,
+        "reach": 5022,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576",
+        "postedAt": "2026-03-24T13:34:34-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7477820291599986689",
+        "rank": 5,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "\"The biggest thing for these student athletes but also... the biggest concern, \\[is\\] making sure\u2026",
+        "er": 4.99,
+        "eng": 439,
+        "reach": 3425,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477820291599986689",
+        "postedAt": "2026-06-30T13:28:29-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7437244763872862208",
+        "rank": 6,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "50-100x returns in sports ownership. AI-proof assets. The future of the Premier Lacrosse League.\u2026",
+        "er": 4.97,
+        "eng": 769,
+        "reach": 5540,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7437244763872862208",
+        "postedAt": "2026-03-10T14:15:53-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7432542466571993088",
+        "rank": 7,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "Is there a women\u2019s soccer player who has #Messi level appeal? Perhaps not. But according to Bay FC\u2026",
+        "er": 4.73,
+        "eng": 1079,
+        "reach": 9094,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432542466571993088",
+        "postedAt": "2026-02-25T13:52:57-08:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7422026339685236736",
+        "rank": 8,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "Beverage billionaire, sports entrepreneur, and owner of NOBULL, Mike Repole joins Daniel Roberts\u2026",
+        "er": 4.73,
+        "eng": 1412,
+        "reach": 12010,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7422026339685236736",
+        "postedAt": "2026-01-27T13:23:20-08:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7420570894995005441",
+        "rank": 9,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "This is Portfolio Players",
+        "er": 4.61,
+        "eng": 490,
+        "reach": 4801,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7420570894995005441",
+        "postedAt": "2026-01-23T12:59:57-08:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7427112326522236929",
+        "rank": 10,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "Athletes Unlimited CEO Jon Patricof joins FOS editor-in-chief Daniel Roberts on the latest episode\u2026",
+        "er": 4.6,
+        "eng": 497,
+        "reach": 3515,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427112326522236929",
+        "postedAt": "2026-02-10T14:13:38-08:00"
       }
     ],
     "topPostsOrganic": [
@@ -810,20 +810,12 @@ window.CAMPAIGNS = [
         "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573"
       }
     ],
-    "callouts": [
-      {
-        "tag": "WIN",
-        "kind": "pos",
-        "headline": "X post at 6.7% ER \u2014 7.2\u00d7 the benchmark.",
-        "body": "\"\"The biggest thing for these student athletes but also... the biggest concern, [\u2026\" \u2014 2K reach, 6K engagements (100% organic). Strongest single asset on the campaign and well clear of the X benchmark. Feature it in the partner update.",
-        "meta": "E*TRADE \u00b7 X"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
-    "lastUpdatedExports": "2026-07-06T15:46:15Z"
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
+    "lastUpdatedExports": "2026-07-06T16:21:54Z"
   },
   {
     "id": "spectrum",
@@ -1073,7 +1065,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1156,7 +1148,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1364,7 +1356,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1486,7 +1478,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1640,7 +1632,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1802,7 +1794,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-07-06T15:46:28Z"
   },
   {
@@ -2198,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2345,7 +2337,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2709,7 +2701,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-06T15:53:48Z",
+    "lastUpdatedMs": "2026-07-06T16:22:54Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2942,24 +2934,8 @@ window.TOP_POSTS = [
     "postedAt": "2026-05-28T14:12:18-07:00"
   },
   {
-    "id": "2047056447112986902",
-    "rank": 5,
-    "partner": "E*TRADE",
-    "platform": "X",
-    "format": "Feed video",
-    "quote": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d Former @NFL\u2026",
-    "er": 12.36,
-    "eng": 15334,
-    "reach": 1092,
-    "organic": 100,
-    "metric": "er",
-    "insight": "",
-    "url": "https://twitter.com/FOS/status/2047056447112986902",
-    "postedAt": "2026-04-22T13:54:24-07:00"
-  },
-  {
     "id": "2061923310552650063",
-    "rank": 6,
+    "rank": 5,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -2975,7 +2951,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2060436014204600769",
-    "rank": 7,
+    "rank": 6,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -2991,7 +2967,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2059009107718185383",
-    "rank": 8,
+    "rank": 7,
     "partner": "Spectrum",
     "platform": "X",
     "format": "Feed video",
@@ -3004,6 +2980,22 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://twitter.com/FOS/status/2059009107718185383",
     "postedAt": "2026-05-25T13:30:00-07:00"
+  },
+  {
+    "id": "2062300799728808408",
+    "rank": 8,
+    "partner": "RBC",
+    "platform": "X",
+    "format": "Feed video",
+    "quote": "Come behind the scenes at @TST7v7 with the back-to-back champion U.S. Women\u2019s Team\u2014featuring\u2026",
+    "er": 8.42,
+    "eng": 16828,
+    "reach": 1501,
+    "organic": 100,
+    "metric": "er",
+    "insight": "",
+    "url": "https://twitter.com/FOS/status/2062300799728808408",
+    "postedAt": "2026-06-03T15:30:01-07:00"
   }
 ];
 
@@ -3127,11 +3119,11 @@ window.CHANNELS = [
     "name": "X",
     "italic": "X",
     "impressions": 25132407,
-    "eng": 727284,
-    "er": 2.89,
+    "eng": 573676,
+    "er": 2.28,
     "cpm": 1.47,
     "color": "#1d1d1f",
-    "delta": 214.5,
+    "delta": 148.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -7109,8 +7101,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2208725,
         "views": 479242,
-        "er": 2.81,
-        "eng": 87285,
+        "er": 2.18,
+        "eng": 73651,
         "spend": 3048.47
       },
       "perChannel": [
@@ -7136,10 +7128,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 400952,
           "orgImpr": 113452,
           "views": 5972,
-          "eng": 14867,
-          "paidEng": 14610,
+          "eng": 1233,
+          "paidEng": 976,
           "orgEng": 257,
-          "er": 2.85,
+          "er": 0.24,
           "cpm": 0.06,
           "spend": 22.98,
           "posts": 10
@@ -7425,8 +7417,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 74022,
           "orgImpr": 19299,
           "views": 2505,
-          "eng": 5074,
-          "er": 5.44,
+          "eng": 370,
+          "er": 0.4,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2036911003083170204",
           "postedAt": "2026-03-25T14:00:01-07:00"
@@ -7500,8 +7492,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 326930,
           "orgImpr": 28351,
           "views": 1881,
-          "eng": 9683,
-          "er": 2.73,
+          "eng": 753,
+          "er": 0.21,
           "spend": 22.98,
           "url": "https://twitter.com/FOS/status/2039459036244942917",
           "postedAt": "2026-04-01T14:45:00-07:00"
@@ -7584,18 +7576,18 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\"No judgment for the MLS, but it just hasn\u2019t been able to compete with European soccer.\"  ",
-          "platform": "X",
-          "er": 5.44,
-          "reach": 2505,
-          "url": "https://twitter.com/FOS/status/2036911003083170204"
-        },
-        {
           "quote": "\"There is so much capital that wants to come into sports right now... it is going to burst",
           "platform": "LinkedIn",
           "er": 5.14,
           "reach": 5022,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576"
+        },
+        {
+          "quote": "The \"experience prerequisite\" in sports ownership has long been a barrier to entry \u2013 espec",
+          "platform": "LinkedIn",
+          "er": 4.59,
+          "reach": 4449,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7445220283348799489"
         }
       ],
       "callouts": [
@@ -7612,8 +7604,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1763095,
         "views": 438556,
-        "er": 2.9,
-        "eng": 77161,
+        "er": 2.57,
+        "eng": 71389,
         "spend": 3218.43
       },
       "perChannel": [
@@ -7669,10 +7661,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 49841,
           "orgImpr": 47878,
           "views": 7315,
-          "eng": 5993,
-          "paidEng": 5876,
+          "eng": 221,
+          "paidEng": 104,
           "orgEng": 117,
-          "er": 4.71,
+          "er": 0.17,
           "cpm": 0.9,
           "spend": 44.78,
           "posts": 8
@@ -7898,8 +7890,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 49841,
           "orgImpr": 10014,
           "views": 1124,
-          "eng": 5908,
-          "er": 9.87,
+          "eng": 136,
+          "er": 0.23,
           "spend": 44.78,
           "url": "https://twitter.com/FOS/status/2041927804443324872",
           "postedAt": "2026-04-08T10:15:00-07:00"
@@ -8088,23 +8080,23 @@ window.EPISODES_BY_CAMPAIGN = {
       "topPosts": [
         {
           "quote": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is tak",
-          "platform": "X",
-          "er": 9.87,
-          "reach": 1124,
-          "url": "https://twitter.com/FOS/status/2041927804443324872"
-        },
-        {
-          "quote": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is tak",
           "platform": "Instagram",
           "er": 4.16,
           "reach": 141992,
           "url": "https://www.instagram.com/p/DW4Q6qFJtnD/"
+        },
+        {
+          "quote": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist Allyson F",
+          "platform": "Instagram",
+          "er": 4.0,
+          "reach": 133597,
+          "url": "https://www.instagram.com/p/DXKZo6yjqZZ/"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 4.7% ER on 127.3K impr."
+          "text": "Instagram leading with 3.9% ER on 290.4K impr."
         },
         {
           "kind": "pos",
@@ -8119,8 +8111,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1925043,
         "views": 532216,
-        "er": 3.08,
-        "eng": 87723,
+        "er": 1.59,
+        "eng": 59727,
         "spend": 3253.18
       },
       "perChannel": [
@@ -8161,10 +8153,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 219113,
           "orgImpr": 95444,
           "views": 12642,
-          "eng": 28679,
-          "paidEng": 28518,
+          "eng": 683,
+          "paidEng": 522,
           "orgEng": 161,
-          "er": 8.32,
+          "er": 0.2,
           "cpm": 0.9,
           "spend": 196.34,
           "posts": 9
@@ -8450,8 +8442,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 110031,
           "orgImpr": 14071,
           "views": 1092,
-          "eng": 15334,
-          "er": 12.36,
+          "eng": 318,
+          "er": 0.26,
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2047056447112986902",
           "postedAt": "2026-04-22T13:54:24-07:00"
@@ -8525,8 +8517,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 109082,
           "orgImpr": 16955,
           "views": 2733,
-          "eng": 13253,
-          "er": 10.52,
+          "eng": 273,
+          "er": 0.22,
           "spend": 96.34,
           "url": "https://twitter.com/FOS/status/2049569125958066285",
           "postedAt": "2026-04-29T12:18:53-07:00"
@@ -8654,24 +8646,24 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d  Former",
-          "platform": "X",
-          "er": 12.36,
-          "reach": 1092,
-          "url": "https://twitter.com/FOS/status/2047056447112986902"
+          "quote": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d Former ",
+          "platform": "TikTok",
+          "er": 4.6,
+          "reach": 1175,
+          "url": "https://tiktok.com/@frontofficesports/video/7636503981337955615"
         },
         {
-          "quote": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in les",
-          "platform": "X",
-          "er": 10.52,
-          "reach": 2733,
-          "url": "https://twitter.com/FOS/status/2049569125958066285"
+          "quote": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strateg",
+          "platform": "LinkedIn",
+          "er": 3.94,
+          "reach": 7990,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7452450029144899584"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 8.3% ER on 344.8K impr."
+          "text": "TikTok leading with 3.7% ER on 2.9K impr."
         },
         {
           "kind": "pos",
@@ -8686,8 +8678,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2730089,
         "views": 678488,
-        "er": 2.58,
-        "eng": 103238,
+        "er": 1.18,
+        "eng": 65827,
         "spend": 4175.14
       },
       "perChannel": [
@@ -8713,10 +8705,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 389136,
           "orgImpr": 100551,
           "views": 11283,
-          "eng": 38462,
-          "paidEng": 38277,
+          "eng": 1051,
+          "paidEng": 866,
           "orgEng": 185,
-          "er": 7.6,
+          "er": 0.21,
           "cpm": 1.0,
           "spend": 390.0,
           "posts": 9
@@ -8957,8 +8949,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 197351,
           "orgImpr": 25089,
           "views": 3796,
-          "eng": 17201,
-          "er": 7.73,
+          "eng": 426,
+          "er": 0.19,
           "spend": 200.0,
           "url": "https://twitter.com/FOS/status/2052093377298997683",
           "postedAt": "2026-05-06T11:29:21-07:00"
@@ -9122,8 +9114,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 191785,
           "orgImpr": 24424,
           "views": 2128,
-          "eng": 21156,
-          "er": 9.78,
+          "eng": 520,
+          "er": 0.24,
           "spend": 190.0,
           "url": "https://twitter.com/FOS/status/2054660453456859459",
           "postedAt": "2026-05-13T13:30:00-07:00"
@@ -9221,24 +9213,24 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\"  ",
-          "platform": "X",
-          "er": 9.78,
-          "reach": 2128,
-          "url": "https://twitter.com/FOS/status/2054660453456859459"
+          "quote": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\" F",
+          "platform": "TikTok",
+          "er": 5.57,
+          "reach": 1221,
+          "url": "https://tiktok.com/@frontofficesports/video/7639388031488757006"
         },
         {
-          "quote": "\u201c[NIL money] will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d  F",
-          "platform": "X",
-          "er": 7.73,
-          "reach": 3796,
-          "url": "https://twitter.com/FOS/status/2052093377298997683"
+          "quote": "\u201cThere\u2019s only one New York Knicks.\u201d Long-time sports executive Dave Checketts explains why",
+          "platform": "TikTok",
+          "er": 5.25,
+          "reach": 11987,
+          "url": "https://tiktok.com/@frontofficesports/video/7638302792347700493"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 7.6% ER on 506.4K impr."
+          "text": "TikTok leading with 5.0% ER on 15.2K impr."
         },
         {
           "kind": "pos",
@@ -9253,8 +9245,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 5760883,
         "views": 2836563,
-        "er": 2.82,
-        "eng": 207642,
+        "er": 2.08,
+        "eng": 165108,
         "spend": 5632.0
       },
       "perChannel": [
@@ -9295,10 +9287,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 440712,
           "orgImpr": 387614,
           "views": 162073,
-          "eng": 46016,
-          "paidEng": 57147,
-          "orgEng": 604,
-          "er": 5.43,
+          "eng": 3482,
+          "paidEng": 1879,
+          "orgEng": 1603,
+          "er": 0.41,
           "cpm": 1.35,
           "spend": 594.53,
           "posts": 14
@@ -9689,8 +9681,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 83227,
           "orgImpr": 14808,
           "views": 2213,
-          "eng": 7465,
-          "er": 7.61,
+          "eng": 265,
+          "er": 0.27,
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2056799927808790803",
           "postedAt": "2026-05-19T11:11:30-07:00"
@@ -9989,8 +9981,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 71771,
           "orgImpr": 11553,
           "views": 1643,
-          "eng": 8705,
-          "er": 10.45,
+          "eng": 173,
+          "er": 0.21,
           "spend": 197.79,
           "url": "https://twitter.com/FOS/status/2057921944134078669",
           "postedAt": "2026-05-22T13:30:00-07:00"
@@ -10049,8 +10041,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 186437,
           "orgImpr": 84172,
           "views": 16049,
-          "eng": 28162,
-          "er": 10.41,
+          "eng": 1360,
+          "er": 0.5,
           "spend": 200.0,
           "url": "https://twitter.com/FOS/status/2059707458352804252",
           "postedAt": "2026-05-27T11:45:00-07:00"
@@ -10088,18 +10080,18 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d  Mark Cuba",
-          "platform": "X",
-          "er": 10.45,
-          "reach": 1643,
-          "url": "https://twitter.com/FOS/status/2057921944134078669"
+          "quote": "Exclusive: Mark Cuban says he paid for Indiana to sign Fernando Mendoza. Cuban revealed to",
+          "platform": "TikTok",
+          "er": 6.69,
+          "reach": 129171,
+          "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573"
         },
         {
-          "quote": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the bet",
-          "platform": "X",
-          "er": 10.41,
-          "reach": 16049,
-          "url": "https://twitter.com/FOS/status/2059707458352804252"
+          "quote": "Mark Cuban builds his dream NBA franchise   He joins us on the new episode of Portfolio Pl",
+          "platform": "LinkedIn",
+          "er": 4.52,
+          "reach": 33319,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463299940665188352"
         }
       ],
       "callouts": [
@@ -10120,8 +10112,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2559905,
         "views": 871995,
-        "er": 1.68,
-        "eng": 71957,
+        "er": 1.24,
+        "eng": 60840,
         "spend": 4029.91
       },
       "perChannel": [
@@ -10162,10 +10154,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 192673,
           "orgImpr": 64256,
           "views": 12205,
-          "eng": 11807,
-          "paidEng": 11630,
+          "eng": 690,
+          "paidEng": 513,
           "orgEng": 177,
-          "er": 4.32,
+          "er": 0.25,
           "cpm": 2.33,
           "spend": 448.45,
           "posts": 7
@@ -10391,8 +10383,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 55820,
           "orgImpr": 21517,
           "views": 3168,
-          "eng": 4360,
-          "er": 5.64,
+          "eng": 188,
+          "er": 0.24,
           "spend": 150.0,
           "url": "https://twitter.com/FOS/status/2062251723125608506",
           "postedAt": "2026-06-03T12:15:00-07:00"
@@ -10496,8 +10488,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 95242,
           "orgImpr": 8518,
           "views": 1704,
-          "eng": 4402,
-          "er": 4.24,
+          "eng": 205,
+          "er": 0.2,
           "spend": 200.0,
           "url": "https://twitter.com/FOS/status/2064854767822569764",
           "postedAt": "2026-06-10T16:38:34-07:00"
@@ -10631,8 +10623,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 41611,
           "orgImpr": 10418,
           "views": 2856,
-          "eng": 2978,
-          "er": 5.72,
+          "eng": 230,
+          "er": 0.44,
           "spend": 98.45,
           "url": "https://twitter.com/FOS/status/2070593983877718189",
           "postedAt": "2026-06-26T12:44:10-07:00"
@@ -10641,23 +10633,23 @@ window.EPISODES_BY_CAMPAIGN = {
       "topPosts": [
         {
           "quote": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer",
-          "platform": "X",
-          "er": 5.72,
-          "reach": 2856,
-          "url": "https://twitter.com/FOS/status/2070593983877718189"
+          "platform": "TikTok",
+          "er": 3.35,
+          "reach": 43915,
+          "url": "https://tiktok.com/@frontofficesports/video/7655788584183598349"
         },
         {
-          "quote": "\u201cThe best investment you can make probably anywhere in sports right now is the NWSL.\u201d  For",
-          "platform": "X",
-          "er": 5.64,
-          "reach": 3168,
-          "url": "https://twitter.com/FOS/status/2062251723125608506"
+          "quote": "Landon Donovan is one of the greatest players in Major League Soccer history\u2014but where wou",
+          "platform": "LinkedIn",
+          "er": 2.95,
+          "reach": 7582,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467601236276514817"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 4.3% ER on 273.4K impr."
+          "text": "TikTok leading with 3.1% ER on 67.6K impr."
         },
         {
           "kind": "pos",
@@ -10672,8 +10664,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2016484,
         "views": 483200,
-        "er": 1.65,
-        "eng": 64721,
+        "er": 1.18,
+        "eng": 55333,
         "spend": 3540.85
       },
       "perChannel": [
@@ -10714,10 +10706,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 151105,
           "orgImpr": 81828,
           "views": 8681,
-          "eng": 9911,
-          "paidEng": 9767,
+          "eng": 523,
+          "paidEng": 379,
           "orgEng": 144,
-          "er": 4.25,
+          "er": 0.22,
           "cpm": 2.27,
           "spend": 343.49,
           "posts": 6
@@ -10823,8 +10815,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 57855,
           "orgImpr": 13942,
           "views": 3079,
-          "eng": 4108,
-          "er": 5.72,
+          "eng": 176,
+          "er": 0.25,
           "spend": 119.6,
           "url": "https://twitter.com/FOS/status/2066993939307979221",
           "postedAt": "2026-06-16T14:18:52-07:00"
@@ -10913,8 +10905,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 60276,
           "orgImpr": 15083,
           "views": 3678,
-          "eng": 3701,
-          "er": 4.91,
+          "eng": 205,
+          "er": 0.27,
           "spend": 124.35,
           "url": "https://twitter.com/FOS/status/2067328928864190716",
           "postedAt": "2026-06-17T12:30:00-07:00"
@@ -11033,8 +11025,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 32974,
           "orgImpr": 11608,
           "views": 1924,
-          "eng": 2092,
-          "er": 4.69,
+          "eng": 132,
+          "er": 0.3,
           "spend": 99.54,
           "url": "https://twitter.com/FOS/status/2069865642954539163",
           "postedAt": "2026-06-24T12:30:00-07:00"
@@ -11058,27 +11050,23 @@ window.EPISODES_BY_CAMPAIGN = {
       "topPosts": [
         {
           "quote": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re",
-          "platform": "X",
-          "er": 5.72,
-          "reach": 3079,
-          "url": "https://twitter.com/FOS/status/2066993939307979221"
+          "platform": "LinkedIn",
+          "er": 3.92,
+          "reach": 7561,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472761999580463104"
         },
         {
-          "quote": "\"To give publications like ESPN [and others] the authority to decide who's worth being pai",
-          "platform": "X",
-          "er": 4.91,
-          "reach": 3678,
-          "url": "https://twitter.com/FOS/status/2067328928864190716"
+          "quote": "\"To give publications like ESPN \\[and others\\] the authority to decide who's worth being p",
+          "platform": "LinkedIn",
+          "er": 3.83,
+          "reach": 12089,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473079538042826752"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 4.2% ER on 232.9K impr."
-        },
-        {
-          "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 40.4K impr."
+          "text": "LinkedIn leading with 3.9% ER on 40.4K impr."
         }
       ]
     },
@@ -11089,8 +11077,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1245363,
         "views": 158125,
-        "er": 1.34,
-        "eng": 36575,
+        "er": 0.87,
+        "eng": 30819,
         "spend": 1529.1
       },
       "perChannel": [
@@ -11131,10 +11119,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 76898,
           "orgImpr": 38396,
           "views": 3919,
-          "eng": 6049,
-          "paidEng": 6002,
+          "eng": 293,
+          "paidEng": 246,
           "orgEng": 47,
-          "er": 4.85,
+          "er": 0.23,
           "cpm": 1.43,
           "spend": 109.71,
           "posts": 4
@@ -11240,8 +11228,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 76898,
           "orgImpr": 13486,
           "views": 1912,
-          "eng": 6016,
-          "er": 6.66,
+          "eng": 260,
+          "er": 0.29,
           "spend": 109.71,
           "url": "https://twitter.com/FOS/status/2072039970689167439",
           "postedAt": "2026-06-30T12:30:00-07:00"
@@ -11444,28 +11432,24 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\"The biggest thing for these student athletes but also... the biggest concern, [is] making",
-          "platform": "X",
-          "er": 6.66,
-          "reach": 1912,
-          "url": "https://twitter.com/FOS/status/2072039970689167439"
-        },
-        {
           "quote": "\"The biggest thing for these student athletes but also... the biggest concern, \\[is\\] maki",
           "platform": "LinkedIn",
           "er": 4.99,
           "reach": 3425,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477820291599986689"
+        },
+        {
+          "quote": "\u201cSports over the last 5-7 years has become an institutionally investable asset class.\u201d  Fo",
+          "platform": "Instagram",
+          "er": 3.75,
+          "reach": 17206,
+          "url": "https://www.instagram.com/p/DaRCP0gh0qG/"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 4.8% ER on 124.8K impr."
-        },
-        {
-          "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 14.7K impr."
+          "text": "LinkedIn leading with 4.1% ER on 14.7K impr."
         }
       ]
     }
@@ -18015,8 +17999,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 19299,
       "views": 2505,
       "reach": 0,
-      "eng": 5074,
-      "er": 5.44,
+      "eng": 370,
+      "er": 0.4,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -18130,8 +18114,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 28351,
       "views": 1881,
       "reach": 0,
-      "eng": 9683,
-      "er": 2.73,
+      "eng": 753,
+      "er": 0.21,
       "spend": 22.98,
       "watchTimeMin": null,
       "clicks": null,
@@ -18498,8 +18482,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 10014,
       "views": 1124,
       "reach": 0,
-      "eng": 5908,
-      "er": 9.87,
+      "eng": 136,
+      "er": 0.23,
       "spend": 44.78,
       "watchTimeMin": null,
       "clicks": null,
@@ -19096,8 +19080,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 14071,
       "views": 1092,
       "reach": 0,
-      "eng": 15334,
-      "er": 12.36,
+      "eng": 318,
+      "er": 0.26,
       "spend": 100.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -19211,8 +19195,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 16955,
       "views": 2733,
       "reach": 0,
-      "eng": 13253,
-      "er": 10.52,
+      "eng": 273,
+      "er": 0.22,
       "spend": 96.34,
       "watchTimeMin": null,
       "clicks": null,
@@ -19625,8 +19609,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 25089,
       "views": 3796,
       "reach": 0,
-      "eng": 17201,
-      "er": 7.73,
+      "eng": 426,
+      "er": 0.19,
       "spend": 200.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -19878,8 +19862,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 24424,
       "views": 2128,
       "reach": 0,
-      "eng": 21156,
-      "er": 9.78,
+      "eng": 520,
+      "er": 0.24,
       "spend": 190.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -20453,8 +20437,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 14808,
       "views": 2213,
       "reach": 0,
-      "eng": 7465,
-      "er": 7.61,
+      "eng": 265,
+      "er": 0.27,
       "spend": 100.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -20913,8 +20897,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 11553,
       "views": 1643,
       "reach": 0,
-      "eng": 8705,
-      "er": 10.45,
+      "eng": 173,
+      "er": 0.21,
       "spend": 197.79,
       "watchTimeMin": null,
       "clicks": null,
@@ -21005,8 +20989,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 84172,
       "views": 16049,
       "reach": 0,
-      "eng": 28162,
-      "er": 10.41,
+      "eng": 1360,
+      "er": 0.5,
       "spend": 200.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -21281,8 +21265,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 21517,
       "views": 3168,
       "reach": 0,
-      "eng": 4360,
-      "er": 5.64,
+      "eng": 188,
+      "er": 0.24,
       "spend": 150.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -21442,8 +21426,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 8518,
       "views": 1704,
       "reach": 0,
-      "eng": 4402,
-      "er": 4.24,
+      "eng": 205,
+      "er": 0.2,
       "spend": 200.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -21649,8 +21633,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 10418,
       "views": 2856,
       "reach": 0,
-      "eng": 2978,
-      "er": 5.72,
+      "eng": 230,
+      "er": 0.44,
       "spend": 98.45,
       "watchTimeMin": null,
       "clicks": null,
@@ -21718,8 +21702,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 13942,
       "views": 3079,
       "reach": 0,
-      "eng": 4108,
-      "er": 5.72,
+      "eng": 176,
+      "er": 0.25,
       "spend": 119.6,
       "watchTimeMin": null,
       "clicks": null,
@@ -21856,8 +21840,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 15083,
       "views": 3678,
       "reach": 0,
-      "eng": 3701,
-      "er": 4.91,
+      "eng": 205,
+      "er": 0.27,
       "spend": 124.35,
       "watchTimeMin": null,
       "clicks": null,
@@ -22040,8 +22024,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 11608,
       "views": 1924,
       "reach": 0,
-      "eng": 2092,
-      "er": 4.69,
+      "eng": 132,
+      "er": 0.3,
       "spend": 99.54,
       "watchTimeMin": null,
       "clicks": null,
@@ -22132,8 +22116,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 13486,
       "views": 1912,
       "reach": 0,
-      "eng": 6016,
-      "er": 6.66,
+      "eng": 260,
+      "er": 0.29,
       "spend": 109.71,
       "watchTimeMin": null,
       "clicks": null,
