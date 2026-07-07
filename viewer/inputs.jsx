@@ -141,6 +141,7 @@ function NewCampaignForm() {
               <Select value={draft.type} onChange={v => set('type', v)} options={[
                 { v:'content', l:'Content (episode-based)' },
                 { v:'social',  l:'Social (post-based)' },
+                { v:'brandx',  l:'BrandX (paid-social performance)' },
               ]}/>
             </Field>
             <Field label="Benchmark category" required hint="determines which FOS cohort this campaign is compared against">

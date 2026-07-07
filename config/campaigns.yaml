@@ -575,8 +575,11 @@ campaigns:
     # excluded from the headline goal-delivered totals (added_value).
     flight_start: 2026-06-11
     flight_end: 2026-06-28
-    impression_goal: 1_650_000
-    budget_goal: 3_900
+    # Headline = both components combined: MLB Minute (1.1M / $2.5K) +
+    # Off the Pitch (1.65M / $3.9K). MLB is no longer excluded (added_value
+    # removed) so it counts toward this total.
+    impression_goal: 2_750_000
+    budget_goal: 6_300
     color: ft-7        # sunflower — distinct from Spectrum's coral
     lead_format: Made for Social
     paid_only: true   # all dark, fully paid — no organic posts
@@ -610,9 +613,9 @@ campaigns:
         group_ids: [6235]             # MS post group — definitive component split
         match: ["MLB Minute"]         # fallback for ad rows (TikTok / X)
         exclude: []
-        impression_goal: 1_100_000    # exceeded: 1,786,770 delivered (154%)
+        impression_goal: 1_100_000    # per the 4/21 wrap report
         budget_goal: 2_500            # per the 4/21 wrap report
-        added_value: true             # wrapped flight — not counted toward the June headline goal
+        # Now counted toward the combined 2.75M / $6.3K headline (added_value removed).
       - id: off_the_pitch
         n: "Part 02"
         title: "Off the Pitch"
@@ -979,3 +982,29 @@ campaigns:
         - microsoft_meta_ads.csv
       tiktok_ads:
         - microsoft_tiktok_ads.csv
+
+  - id: prudential
+    partner: Prudential
+    series: "'94 to Now"
+    series_italic: "Now"
+    type: content
+    benchmark_category: "Branded Content"
+    lifecycle: active
+    flight_start: 2026-06-24
+    flight_end: 2026-07-31
+    impression_goal: 8_000_000
+    budget_goal: 12_100
+    color: ft-9        # orchid
+    lead_format: Longform Video
+    # The hero longform runs paid on YouTube (in-feed + in-stream) — MS
+    # under-reports YT paid, so the GAds row merges onto the MS YT post by
+    # sorted rank once the Google Ads export is uploaded.
+    yt_paired_by_sort: true
+    blurb: "Prudential x '94 to Now — USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn."
+    sources:
+      # MS base layer (organic + boosted across IG/TT/YT Shorts/LinkedIn).
+      measure_studio_group_id: 7909        # Prudential
+      # Google Ads paid for the hero YT in-feed + in-stream buys. Upload via the
+      # dashboard's Prudential card → saves as prudential_yt_paid.csv.
+      youtube_paid:
+        - prudential_yt_paid.csv
