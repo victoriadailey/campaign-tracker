@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-08T14:37:26Z";
+window.LAST_REFRESHED = "2026-07-08T15:07:09Z";
 
 
 
@@ -366,7 +366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:25Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -814,7 +814,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:25Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-07-07T16:12:29Z"
   },
   {
@@ -1065,7 +1065,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-08T14:37:25Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1148,7 +1148,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1363,7 +1363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1485,7 +1485,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1639,7 +1639,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1654,22 +1654,22 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1205226,
+      "delivered": 1158258,
       "goal": 3500000
     },
     "budget": {
-      "delivered": 4662.9,
+      "delivered": 4547.75,
       "goal": 13900.0
     },
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 4.8,
-    "cpm": 3.92,
+    "er": 4.7,
+    "cpm": 3.98,
     "episodes": 1,
     "posts": 10,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 889677,
+    "views": 879966,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1677,18 +1677,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 384296,
-        "eng": 23412,
-        "er": 6.09,
-        "cpm": 2.6,
+        "impressions": 644350,
+        "eng": 44668,
+        "er": 6.93,
+        "cpm": 2.81,
         "color": "#FF0033",
-        "delta": -69.5,
+        "delta": -65.3,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 0,
-        "views": 380508
+        "views": 384630
       },
       {
         "name": "Instagram",
@@ -1705,22 +1705,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 13224,
         "views": 347603
-      },
-      {
-        "name": "YouTube In-feed",
-        "italic": "YouTube In-feed",
-        "impressions": 307022,
-        "eng": 25078,
-        "er": 8.17,
-        "cpm": 3.01,
-        "color": "#E00922",
-        "delta": 1533.6,
-        "bench": {
-          "er": 0.5,
-          "cpm": 0.55
-        },
-        "organicImpressions": 0,
-        "views": 13833
       },
       {
         "name": "Facebook",
@@ -1794,8 +1778,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 50% of goal (1.7M of 3.5M) with 23 days left.",
-        "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 100K impr/day (4.2\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 48% of goal (1.7M of 3.5M) with 23 days left.",
+        "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 102K impr/day (4.5\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Heineken \u00b7 Pacing"
       }
     ],
@@ -1805,7 +1789,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOSN x Heineken",
         "impressions": {
-          "delivered": 1205226,
+          "delivered": 1158258,
           "goal": 2000000
         }
       },
@@ -1817,8 +1801,8 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
-    "lastUpdatedExports": "2026-07-07T19:30:33Z"
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
+    "lastUpdatedExports": "2026-07-08T15:04:26Z"
   },
   {
     "id": "rbc_tst",
@@ -2213,7 +2197,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2360,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2724,7 +2708,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3073,7 +3057,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T14:37:26Z",
+    "lastUpdatedMs": "2026-07-08T15:07:09Z",
     "lastUpdatedExports": "2026-07-08T14:36:12Z"
   }
 ];
@@ -3312,9 +3296,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 68118085,
-    "eng": 1230204,
-    "er": 1.81,
+    "impressions": 68071117,
+    "eng": 1226382,
+    "er": 1.8,
     "cpm": 1.0,
     "color": "#E00922",
     "delta": -91.0,
@@ -3323,7 +3307,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 10039248
+    "views": 10029537
   },
   {
     "name": "X",
@@ -3488,8 +3472,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 50% of goal (1.7M of 3.5M) with 23 days left.",
-    "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 100K impr/day (4.2\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 48% of goal (1.7M of 3.5M) with 23 days left.",
+    "body": "At the current rate the campaign will fall ~1.8M impressions short of the 3.5M goal. Need to deliver 102K impr/day (4.5\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
@@ -13512,27 +13496,27 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Editorial Video \u2014 FOS NEWS",
       "date": "May 2026",
       "total": {
-        "impr": 1205226,
-        "views": 889677,
-        "er": 4.83,
-        "eng": 58268,
-        "spend": 4662.9
+        "impr": 1158258,
+        "views": 879966,
+        "er": 4.7,
+        "eng": 54446,
+        "spend": 4547.75
       },
       "perChannel": [
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 384296,
-          "paidImpr": 384296,
+          "impr": 644350,
+          "paidImpr": 644350,
           "orgImpr": 3779,
-          "views": 380508,
-          "eng": 23412,
-          "paidEng": 23222,
+          "views": 384630,
+          "eng": 44668,
+          "paidEng": 44478,
           "orgEng": 190,
-          "er": 6.09,
-          "cpm": 2.6,
-          "spend": 999.55,
-          "posts": 2
+          "er": 6.93,
+          "cpm": 2.81,
+          "spend": 1807.83,
+          "posts": 3
         },
         {
           "name": "Instagram",
@@ -13548,21 +13532,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 5.82,
           "spend": 1945.68,
           "posts": 2
-        },
-        {
-          "name": "YouTube In-feed",
-          "distKind": "paid",
-          "impr": 307022,
-          "paidImpr": 307022,
-          "orgImpr": 0,
-          "views": 13833,
-          "eng": 25078,
-          "paidEng": 25078,
-          "orgEng": 0,
-          "er": 8.17,
-          "cpm": 3.01,
-          "spend": 923.43,
-          "posts": 1
         },
         {
           "name": "Facebook",
@@ -13597,32 +13566,17 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "posts": [
         {
-          "title": "Heineken_RedCardGreenFlag_Video1",
-          "platform": "YouTube In-feed",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 307022,
-          "paidImpr": 307022,
-          "orgImpr": 0,
-          "views": 13833,
-          "eng": 25078,
-          "er": 8.17,
-          "spend": 923.43,
-          "url": null,
-          "postedAt": null
-        },
-        {
           "title": "Baker Machado breaks down the growth of European soccer in America",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 191542,
-          "paidImpr": 191542,
+          "impr": 192754,
+          "paidImpr": 192754,
           "orgImpr": 0,
           "views": 190506,
-          "eng": 15704,
-          "er": 8.2,
-          "spend": 499.81,
+          "eng": 7744,
+          "er": 4.02,
+          "spend": 499.74,
           "url": "https://www.youtube.com/shorts/XezU0JmLlvw",
           "postedAt": "2026-05-29T14:13:38-07:00"
         },
@@ -13706,13 +13660,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 192754,
-          "paidImpr": 192754,
+          "impr": 352147,
+          "paidImpr": 352147,
           "orgImpr": 0,
           "views": 190002,
-          "eng": 7708,
-          "er": 4.0,
-          "spend": 499.74,
+          "eng": 28914,
+          "er": 8.21,
+          "spend": 1049.86,
           "url": "https://www.youtube.com/shorts/5K2Ao9Vo5mU",
           "postedAt": "2026-06-15T14:41:22-07:00"
         },
@@ -13745,6 +13699,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 971.87,
           "url": "https://www.instagram.com/p/DZoFO69ukUw/",
           "postedAt": "2026-06-15T17:15:40-07:00"
+        },
+        {
+          "title": "Heineken: UEFA (FOSN) - Video 1 (shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 99449,
+          "paidImpr": 99449,
+          "orgImpr": 0,
+          "views": 4122,
+          "eng": 8010,
+          "er": 8.05,
+          "spend": 258.23,
+          "url": null,
+          "postedAt": null
         }
       ],
       "topPosts": [
@@ -24469,46 +24438,23 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "heineken": [
     {
-      "title": "Heineken_RedCardGreenFlag_Video1",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 307022,
-      "paidImpr": 307022,
-      "orgImpr": 0,
-      "views": 13833,
-      "reach": 0,
-      "eng": 25078,
-      "er": 8.17,
-      "spend": 923.43,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 3.01,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
       "title": "Baker Machado breaks down the growth of European soccer in America",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 191542,
-      "paidImpr": 191542,
+      "impr": 192754,
+      "paidImpr": 192754,
       "orgImpr": 0,
       "views": 190506,
       "reach": 0,
-      "eng": 15704,
-      "er": 8.2,
-      "spend": 499.81,
+      "eng": 7744,
+      "er": 4.02,
+      "spend": 499.74,
       "watchTimeMin": 17039.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.61,
+      "cpm": 2.59,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/XezU0JmLlvw",
@@ -24634,19 +24580,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 192754,
-      "paidImpr": 192754,
+      "impr": 99449,
+      "paidImpr": 99449,
       "orgImpr": 0,
       "views": 190002,
       "reach": 0,
-      "eng": 7708,
-      "er": 4.0,
-      "spend": 499.74,
+      "eng": 36924,
+      "er": 37.13,
+      "spend": 1308.09,
       "watchTimeMin": 13318.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.59,
+      "cpm": 2.98,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/5K2Ao9Vo5mU",
@@ -28484,12 +28430,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.71,
-    "impressions": 45322456,
-    "paidImpressions": 45291401,
-    "pctOfTotal": 44.8,
+    "cpm": 0.69,
+    "impressions": 45015434,
+    "paidImpressions": 44984379,
+    "pctOfTotal": 44.5,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 33.3,
+    "mvmDeltaPct": 30.3,
     "color": "#E00922"
   },
   {
@@ -28524,12 +28470,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.55,
-    "impressions": 9441327,
-    "paidImpressions": 9359894,
-    "pctOfTotal": 9.3,
+    "cpm": 2.56,
+    "impressions": 9701381,
+    "paidImpressions": 9619948,
+    "pctOfTotal": 9.6,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -20.3,
+    "mvmDeltaPct": -19.9,
     "color": "#FF0033"
   },
   {
