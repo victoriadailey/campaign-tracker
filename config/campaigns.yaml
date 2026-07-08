@@ -908,24 +908,48 @@ campaigns:
     type: social
     benchmark_category: "Custom Social"
     lifecycle: active
-    # Flight not yet set — like Thrivent, status comes from impression-goal
-    # pace once the timeline is known. flight_tbd surfaces "Flight TBD".
-    flight_tbd: true
-    flight_start: 2026-06-12      # first post launched (Native Social 1)
-    flight_end: 2026-08-31        # placeholder until flight is confirmed
-    impression_goal: 1_800_000
-    budget_goal: 2_500
+    flight_start: 2026-02-01
+    flight_end: 2026-07-31
+    # Two components: FOS Explains (full ep + cutdown, MS group 8077, 3.3M/$1.5K)
+    # + the dark native social posts (exports, 1.8M/$2.5K). Total 5.1M / $4K.
+    impression_goal: 5_100_000
+    budget_goal: 4_000
     color: ft-8        # aqua
     lead_format: Made for Social
-    paid_only: true   # dark social — all paid, no organic posts
-    blurb: "BetMGM World Cup dark-social program — three native social posts running paid on Instagram and X. 1 of 3 live (Native Social 1)."
-    # These dark posts do NOT appear in Measure Studio, so there's no MS post
-    # group — performance comes solely from the ad-platform exports below.
+    blurb: "BetMGM x World Cup — a FOS Explains full episode + cutdown (on the World Cup betting boom) plus dark native social posts running paid on Instagram and X."
+    pacing_components:
+      - label: "FOS Explains (Full Ep + Cutdown)"
+        impression_goal: 3_300_000
+        episode_ids: [fos_explains]
+      - label: "Native Social"
+        impression_goal: 1_800_000
+        episode_ids: [native_social]
+    episodes:
+      - id: fos_explains
+        n: "Part 01"
+        title: "FOS Explains — Full Ep + Cutdown"
+        date: "2026"
+        group_ids: [8077]             # MS: BetMGM - World Cup - FOS Explains
+        match: ["FOS Explains", "Biggest Betting", "World Cup is expected to generate"]
+        exclude: []
+        impression_goal: 3_300_000
+        budget_goal: 1_500
+      - id: native_social
+        n: "Part 02"
+        title: "Native Social"
+        date: "Feb 2026"
+        match: ["Native Social", "Native post", "Native Post"]  # dark ad rows
+        exclude: []
+        impression_goal: 1_800_000
+        budget_goal: 2_500
     sources:
+      # FOS Explains full ep + cutdown (organic + boosted).
+      measure_studio_group_id: 8077
+      # Dark native social posts (paid on IG + X) — MS can't see dark posts.
       meta_ads:
-        - betmgm_meta_ads.csv     # Instagram (Native Social 1)
+        - betmgm_meta_ads.csv     # Instagram (Native Social 1, 2)
       x_ads:
-        - betmgm_x_ads.csv        # X (Native Social 1 v3)
+        - betmgm_x_ads.csv        # X (Native post 2, Native Social 1 v3)
 
   - id: state_farm
     partner: State Farm
@@ -1016,3 +1040,50 @@ campaigns:
       # dashboard's Prudential card → saves as prudential_yt_paid.csv.
       youtube_paid:
         - prudential_yt_paid.csv
+
+  # ============== BrandX campaigns (paid-social performance) ==============
+  - id: betmgm_brandx
+    partner: BetMGM
+    series: "BrandX"
+    series_italic: "BrandX"
+    type: brandx
+    benchmark_category: "Paid Social - Performance"
+    lifecycle: active
+    flight_start: 2026-02-01
+    flight_end: 2026-07-31
+    impression_goal: 1_000_000
+    budget_goal: 7_500
+    color: ft-8                     # aqua — match BetMGM parent
+    lead_format: Paid Social
+    brandx_objective: awareness
+    brandx_secondary_objective: clicks
+    blurb: "BetMGM performance-focused paid social (BrandX). Awareness primary; clicks secondary."
+    # No Measure Studio group — delivery comes from the dark-ad exports below.
+    # Upload via the BetMGM BrandX card → saves to these filenames.
+    sources:
+      meta_ads:
+        - betmgm_brandx_meta_ads.csv
+      x_ads:
+        - betmgm_brandx_x_ads.csv
+
+  - id: att_brandx
+    partner: AT&T
+    series: "BrandX"
+    series_italic: "BrandX"
+    type: brandx
+    benchmark_category: "Paid Social - Performance"
+    lifecycle: active
+    flight_start: 2026-06-26
+    flight_end: 2026-12-31
+    impression_goal: 222_222_222
+    budget_goal: 10_000
+    color: ft-11                    # fern
+    lead_format: Paid Social
+    brandx_objective: awareness
+    brandx_secondary_objective: clicks
+    blurb: "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary."
+    sources:
+      meta_ads:
+        - att_brandx_meta_ads.csv
+      x_ads:
+        - att_brandx_x_ads.csv

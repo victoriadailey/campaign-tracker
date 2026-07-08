@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-08T17:06:49Z";
+window.LAST_REFRESHED = "2026-07-08T17:35:18Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:16Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:16Z",
     "lastUpdatedExports": "2026-07-07T16:12:29Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1368,7 +1368,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1491,7 +1491,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1646,7 +1646,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1809,7 +1809,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-07-08T15:04:26Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2354,7 +2354,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:48Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2363,33 +2363,49 @@ window.CAMPAIGNS = [
     "series": "World Cup",
     "seriesItalic": "World Cup",
     "type": "social",
-    "flight": "TBD",
-    "elapsedPct": 0.0,
-    "daysLeft": 0,
-    "status": "Flight TBD",
-    "statusKind": "tbd",
+    "flight": "Feb 1 \u2014 Jul 31, 2026",
+    "elapsedPct": 87.2,
+    "daysLeft": 23,
+    "status": "Behind Pace",
+    "statusKind": "danger",
     "impressions": {
-      "delivered": 738005,
-      "goal": 1800000
+      "delivered": 3718853,
+      "goal": 5100000
     },
     "budget": {
       "delivered": 2155.51,
-      "goal": 2500.0
+      "goal": 4000.0
     },
     "color": "ft-8",
     "leadFormat": "Made for Social",
-    "topChannel": "X",
-    "er": 0.2,
-    "cpm": 2.92,
-    "episodes": 0,
-    "posts": 4,
-    "blurb": "BetMGM World Cup dark-social program \u2014 three native social posts running paid on Instagram and X. 1 of 3 live (Native Social 1).",
-    "views": 191258,
-    "engagements": 1793,
+    "topChannel": "YouTube",
+    "er": 0.1,
+    "cpm": 0.58,
+    "episodes": 2,
+    "posts": 10,
+    "blurb": "BetMGM x World Cup \u2014 a FOS Explains full episode + cutdown (on the World Cup betting boom) plus dark native social posts running paid on Instagram and X.",
+    "views": 204124,
+    "engagements": 3035,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
     "channels": [
+      {
+        "name": "YouTube In-feed",
+        "italic": "YouTube In-feed",
+        "impressions": 2950273,
+        "eng": 6,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#E00922",
+        "delta": -100.0,
+        "bench": {
+          "er": 0.5,
+          "cpm": 0.55
+        },
+        "organicImpressions": 0,
+        "views": 4378
+      },
       {
         "name": "X",
         "italic": "X",
@@ -2409,42 +2425,122 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 191258,
-        "eng": 60,
-        "er": 0.03,
+        "impressions": 196074,
+        "eng": 127,
+        "er": 0.06,
         "cpm": 3.95,
         "color": "#E4405F",
-        "delta": -99.1,
+        "delta": -98.0,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
+        "organicImpressions": 4816,
+        "views": 196074
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 14247,
+        "eng": 940,
+        "er": 6.6,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -67.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
         "organicImpressions": 0,
-        "views": 191258
+        "views": 0
+      },
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 10541,
+        "eng": 206,
+        "er": 1.95,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -48.0,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 10541,
+        "views": 2701
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 971,
+        "eng": 23,
+        "er": 2.37,
+        "cpm": 0.0,
+        "color": "#000000",
+        "delta": 16.7,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 971,
+        "views": 971
       }
     ],
-    "topPosts": [],
+    "topPosts": [
+      {
+        "id": "urn:li:ugcPost:7479939784296124416",
+        "rank": 1,
+        "partner": "BetMGM",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "The World Cup is expected to generate as much as $593 billion in global sports wagers. That\u2019s more\u2026",
+        "er": 2.09,
+        "eng": 107,
+        "reach": 1329,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7479939784296124416",
+        "postedAt": "2026-07-06T12:00:01-07:00"
+      }
+    ],
     "topPostsOrganic": [],
     "callouts": [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.56 \u2014 2.3\u00d7 the benchmark.",
-        "body": "$2.56 CPM vs. $1.10 FOS benchmark. At 2.3\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "BetMGM \u00b7 X"
+        "headline": "On pace for 84% of goal (4.3M of 5.1M) with 23 days left.",
+        "body": "At the current rate the campaign will fall ~835K impressions short of the 5.1M goal. Need to deliver 60K impr/day (2.5\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "BetMGM \u00b7 Pacing"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "Campaign averaging 0.20% ER \u2014 below the 1% floor.",
-        "body": "0.20% engagement rate across 738K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "headline": "Campaign averaging 0.10% ER \u2014 below the 1% floor.",
+        "body": "0.10% engagement rate across 3.7M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "BetMGM \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "pacingComponents": [],
-    "lastUpdatedMs": "",
+    "pacingComponents": [
+      {
+        "label": "FOS Explains (Full Ep + Cutdown)",
+        "impressions": {
+          "delivered": 2980848,
+          "goal": 3300000
+        }
+      },
+      {
+        "label": "Native Social",
+        "impressions": {
+          "delivered": 738005,
+          "goal": 1800000
+        }
+      }
+    ],
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-06-26T16:00:19Z"
   },
   {
@@ -2720,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:49Z",
+    "lastUpdatedMs": "2026-07-08T17:35:17Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3071,8 +3167,92 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-08T17:06:49Z",
+    "lastUpdatedMs": "2026-07-08T17:35:18Z",
     "lastUpdatedExports": "2026-07-08T14:36:12Z"
+  },
+  {
+    "id": "betmgm_brandx",
+    "partner": "BetMGM",
+    "series": "BrandX",
+    "seriesItalic": "BrandX",
+    "type": "brandx",
+    "flight": "Feb 1 \u2014 Jul 31, 2026",
+    "elapsedPct": 87.2,
+    "daysLeft": 23,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 0,
+      "goal": 1000000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 7500.0
+    },
+    "color": "ft-8",
+    "leadFormat": "Paid Social",
+    "topChannel": "Unknown",
+    "er": 0.0,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 0,
+    "blurb": "BetMGM performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
+    "views": 0,
+    "engagements": 0,
+    "goalSplit": [],
+    "benchmarkCategory": "Paid Social - Performance",
+    "lifecycle": "active",
+    "channels": [],
+    "topPosts": [],
+    "topPostsOrganic": [],
+    "callouts": [],
+    "brandxObjective": "impressions",
+    "brandxSecondaryObjective": "clicks",
+    "pacingComponents": [],
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": ""
+  },
+  {
+    "id": "att_brandx",
+    "partner": "AT&T",
+    "series": "BrandX",
+    "seriesItalic": "BrandX",
+    "type": "brandx",
+    "flight": "Jun 26 \u2014 Dec 31, 2026",
+    "elapsedPct": 6.4,
+    "daysLeft": 176,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 0,
+      "goal": 222222222
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 10000.0
+    },
+    "color": "ft-11",
+    "leadFormat": "Paid Social",
+    "topChannel": "Unknown",
+    "er": 0.0,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 0,
+    "blurb": "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
+    "views": 0,
+    "engagements": 0,
+    "goalSplit": [],
+    "benchmarkCategory": "Paid Social - Performance",
+    "lifecycle": "active",
+    "channels": [],
+    "topPosts": [],
+    "topPostsOrganic": [],
+    "callouts": [],
+    "brandxObjective": "impressions",
+    "brandxSecondaryObjective": "clicks",
+    "pacingComponents": [],
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -3310,18 +3490,18 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 68071117,
-    "eng": 1226422,
-    "er": 1.8,
-    "cpm": 1.0,
+    "impressions": 71035637,
+    "eng": 1227368,
+    "er": 1.73,
+    "cpm": 0.96,
     "color": "#E00922",
-    "delta": -91.0,
+    "delta": -91.4,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 10237556
+    "views": 10241934
   },
   {
     "name": "X",
@@ -3342,8 +3522,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 13743289,
-    "eng": 46380,
+    "impressions": 13744260,
+    "eng": 46403,
     "er": 0.34,
     "cpm": 2.51,
     "color": "#000000",
@@ -3353,13 +3533,13 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 13623829
+    "views": 13624800
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 13638018,
-    "eng": 228705,
+    "impressions": 13642834,
+    "eng": 228772,
     "er": 1.68,
     "cpm": 5.08,
     "color": "#E4405F",
@@ -3369,7 +3549,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 13638018
+    "views": 13642834
   },
   {
     "name": "Facebook",
@@ -3390,18 +3570,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 1595089,
-    "eng": 60573,
-    "er": 3.8,
+    "impressions": 1605630,
+    "eng": 60779,
+    "er": 3.79,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": 1.0,
+    "delta": 0.7,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 633620
+    "views": 636321
   },
   {
     "name": "Snapchat",
@@ -3491,6 +3671,15 @@ window.SIGNALS = [
     "meta": "Heineken \u00b7 Pacing",
     "campaignId": "heineken",
     "campaignPartner": "Heineken"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 84% of goal (4.3M of 5.1M) with 23 days left.",
+    "body": "At the current rate the campaign will fall ~835K impressions short of the 5.1M goal. Need to deliver 60K impr/day (2.5\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "BetMGM \u00b7 Pacing",
+    "campaignId": "betmgm",
+    "campaignPartner": "BetMGM"
   },
   {
     "tag": "WATCH",
@@ -14841,10 +15030,325 @@ window.EPISODES_BY_CAMPAIGN = {
     }
   ],
   "thrivent": [],
-  "betmgm": [],
+  "betmgm": [
+    {
+      "n": "Part 01",
+      "title": "FOS Explains \u2014 Full Ep + Cutdown",
+      "date": "2026",
+      "total": {
+        "impr": 2980848,
+        "views": 12866,
+        "er": 0.04,
+        "eng": 1242,
+        "spend": 0
+      },
+      "perChannel": [
+        {
+          "name": "YouTube In-feed",
+          "distKind": "organic+boosted",
+          "impr": 2950273,
+          "paidImpr": 2950273,
+          "orgImpr": 142,
+          "views": 4378,
+          "eng": 6,
+          "paidEng": 0,
+          "orgEng": 6,
+          "er": 0.0,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "paid",
+          "impr": 14247,
+          "paidImpr": 14247,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 940,
+          "paidEng": 940,
+          "orgEng": 0,
+          "er": 6.6,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 10541,
+          "paidImpr": 0,
+          "orgImpr": 10541,
+          "views": 2701,
+          "eng": 206,
+          "paidEng": 0,
+          "orgEng": 206,
+          "er": 1.95,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 2
+        },
+        {
+          "name": "Instagram",
+          "distKind": "organic",
+          "impr": 4816,
+          "paidImpr": 0,
+          "orgImpr": 4816,
+          "views": 4816,
+          "eng": 67,
+          "paidEng": 0,
+          "orgEng": 67,
+          "er": 1.39,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "TikTok",
+          "distKind": "organic",
+          "impr": 971,
+          "paidImpr": 0,
+          "orgImpr": 971,
+          "views": 971,
+          "eng": 23,
+          "paidEng": 0,
+          "orgEng": 23,
+          "er": 2.37,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        }
+      ],
+      "posts": [
+        {
+          "title": "Why the World Cup Could Be the Biggest Betting Event Ever | FOS Explains",
+          "platform": "YouTube In-feed",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 2950273,
+          "paidImpr": 2950273,
+          "orgImpr": 0,
+          "views": 4378,
+          "eng": 6,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://youtu.be/_HnUJa29eZs",
+          "postedAt": "2026-07-02T10:11:59-07:00"
+        },
+        {
+          "title": "In the latest episode of FOS Explains, Derryl Barnes Jr. breaks down why the FIFA World Cup has become one of the bigges",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 5419,
+          "paidImpr": 0,
+          "orgImpr": 5419,
+          "views": 1372,
+          "eng": 99,
+          "er": 1.83,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478485753778368512",
+          "postedAt": "2026-07-02T11:30:01-07:00"
+        },
+        {
+          "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers.\u2060 \u2060 That\u2019s more than any Vegas eve",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 4816,
+          "paidImpr": 0,
+          "orgImpr": 4816,
+          "views": 4816,
+          "eng": 67,
+          "er": 1.39,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DadfEjYjzno/",
+          "postedAt": "2026-07-06T11:03:25-07:00"
+        },
+        {
+          "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers. That\u2019s more than any Vegas event,",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 971,
+          "paidImpr": 0,
+          "orgImpr": 971,
+          "views": 971,
+          "eng": 23,
+          "er": 2.37,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7659459449215520014",
+          "postedAt": "2026-07-06T12:00:00-07:00"
+        },
+        {
+          "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers.  That\u2019s more than any Vegas event",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 5122,
+          "paidImpr": 0,
+          "orgImpr": 5122,
+          "views": 1329,
+          "eng": 107,
+          "er": 2.09,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7479939784296124416",
+          "postedAt": "2026-07-06T12:00:01-07:00"
+        },
+        {
+          "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers. #worldcup",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "paid",
+          "impr": 14247,
+          "paidImpr": 14247,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 940,
+          "er": 6.6,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/1BH8UGjcy9k",
+          "postedAt": "2026-07-06T12:00:12-07:00"
+        }
+      ],
+      "topPosts": [
+        {
+          "quote": "The World Cup is expected to generate as much as $593 billion in global sports wagers.  Th",
+          "platform": "LinkedIn",
+          "er": 2.09,
+          "reach": 1329,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7479939784296124416"
+        }
+      ],
+      "callouts": [
+        {
+          "kind": "pos",
+          "text": "TikTok leading with 2.4% ER on 971 impr."
+        },
+        {
+          "kind": "pos",
+          "text": "LinkedIn resonating \u2014 100% organic share on 10.5K impr."
+        }
+      ],
+      "impressionGoal": 3300000,
+      "budgetGoal": 1500
+    },
+    {
+      "n": "Part 02",
+      "title": "Native Social",
+      "date": "Feb 2026",
+      "total": {
+        "impr": 738005,
+        "views": 191258,
+        "er": 0.24,
+        "eng": 1793,
+        "spend": 2155.51
+      },
+      "perChannel": [
+        {
+          "name": "X",
+          "distKind": "paid",
+          "impr": 546747,
+          "paidImpr": 546747,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 1733,
+          "paidEng": 1733,
+          "orgEng": 0,
+          "er": 0.32,
+          "cpm": 2.56,
+          "spend": 1399.66,
+          "posts": 2
+        },
+        {
+          "name": "Instagram",
+          "distKind": "paid",
+          "impr": 191258,
+          "paidImpr": 191258,
+          "orgImpr": 0,
+          "views": 191258,
+          "eng": 60,
+          "paidEng": 60,
+          "orgEng": 0,
+          "er": 0.03,
+          "cpm": 3.95,
+          "spend": 755.85,
+          "posts": 2
+        }
+      ],
+      "posts": [
+        {
+          "title": "BetMGM - World Cup - Native post 2",
+          "platform": "X",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 310761,
+          "paidImpr": 310761,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 1082,
+          "er": 0.35,
+          "spend": 900.0,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "BetMGM - World Cup - Native Social 1 v3",
+          "platform": "X",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 235986,
+          "paidImpr": 235986,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 651,
+          "er": 0.28,
+          "spend": 499.66,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "BetMGM - World Cup - Native Social 2",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 101240,
+          "paidImpr": 101240,
+          "orgImpr": 0,
+          "views": 101240,
+          "eng": 35,
+          "er": 0.03,
+          "spend": 422.85,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "BetMGM - World Cup - Native Social 1",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 90018,
+          "paidImpr": 90018,
+          "orgImpr": 0,
+          "views": 90018,
+          "eng": 25,
+          "er": 0.03,
+          "spend": 333.0,
+          "url": null,
+          "postedAt": null
+        }
+      ],
+      "topPosts": [],
+      "callouts": [],
+      "impressionGoal": 1800000,
+      "budgetGoal": 2500
+    }
+  ],
   "state_farm": [],
   "microsoft": [],
-  "prudential": []
+  "prudential": [],
+  "betmgm_brandx": [],
+  "att_brandx": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -25887,6 +26391,144 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "betmgm": [
     {
+      "title": "Why the World Cup Could Be the Biggest Betting Event Ever | FOS Explains",
+      "platform": "YouTube In-feed",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 2950273,
+      "paidImpr": 2950273,
+      "orgImpr": 0,
+      "views": 4378,
+      "reach": 0,
+      "eng": 6,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": 8044.0,
+      "clicks": 310,
+      "ctr": 10.51,
+      "cpc": 9.33,
+      "cpm": 0.98,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://youtu.be/_HnUJa29eZs",
+      "postedAt": "2026-07-02T10:11:59-07:00"
+    },
+    {
+      "title": "In the latest episode of FOS Explains, Derryl Barnes Jr. breaks down why the FIFA World Cup has become one of the bigges",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5419,
+      "paidImpr": 0,
+      "orgImpr": 5419,
+      "views": 1372,
+      "reach": 0,
+      "eng": 99,
+      "er": 1.83,
+      "spend": 0,
+      "watchTimeMin": 413.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478485753778368512",
+      "postedAt": "2026-07-02T11:30:01-07:00"
+    },
+    {
+      "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers.\u2060 \u2060 That\u2019s more than any Vegas eve",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 4816,
+      "paidImpr": 0,
+      "orgImpr": 4816,
+      "views": 4816,
+      "reach": 4061,
+      "eng": 67,
+      "er": 1.39,
+      "spend": 0,
+      "watchTimeMin": 4.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DadfEjYjzno/",
+      "postedAt": "2026-07-06T11:03:25-07:00"
+    },
+    {
+      "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers. That\u2019s more than any Vegas event,",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 971,
+      "paidImpr": 0,
+      "orgImpr": 971,
+      "views": 971,
+      "reach": 593,
+      "eng": 23,
+      "er": 2.37,
+      "spend": 0,
+      "watchTimeMin": 67.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7659459449215520014",
+      "postedAt": "2026-07-06T12:00:00-07:00"
+    },
+    {
+      "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers.  That\u2019s more than any Vegas event",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5122,
+      "paidImpr": 0,
+      "orgImpr": 5122,
+      "views": 1329,
+      "reach": 0,
+      "eng": 107,
+      "er": 2.09,
+      "spend": 0,
+      "watchTimeMin": 296.4,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7479939784296124416",
+      "postedAt": "2026-07-06T12:00:01-07:00"
+    },
+    {
+      "title": "The World Cup is expected to generate as much as $593 billion in global sports wagers. #worldcup",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 14247,
+      "paidImpr": 14247,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 940,
+      "er": 6.6,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 6.34,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/1BH8UGjcy9k",
+      "postedAt": "2026-07-06T12:00:12-07:00"
+    },
+    {
       "title": "BetMGM - World Cup - Native post 2",
       "platform": "X",
       "accountName": null,
@@ -27019,7 +27661,9 @@ window.POSTS_BY_CAMPAIGN = {
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476402253738745856",
       "postedAt": "2026-06-27T11:30:01-07:00"
     }
-  ]
+  ],
+  "betmgm_brandx": [],
+  "att_brandx": []
 };
 
 window.UPLOAD_TARGETS = {
@@ -27173,6 +27817,26 @@ window.UPLOAD_TARGETS = {
       "file": "prudential_yt_paid.csv",
       "label": "Google Ads"
     }
+  ],
+  "betmgm_brandx": [
+    {
+      "file": "betmgm_brandx_x_ads.csv",
+      "label": "X Ads"
+    },
+    {
+      "file": "betmgm_brandx_meta_ads.csv",
+      "label": "Meta Ads"
+    }
+  ],
+  "att_brandx": [
+    {
+      "file": "att_brandx_x_ads.csv",
+      "label": "X Ads"
+    },
+    {
+      "file": "att_brandx_meta_ads.csv",
+      "label": "Meta Ads"
+    }
   ]
 };
 
@@ -27184,7 +27848,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -27195,7 +27859,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -27206,7 +27870,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -27217,7 +27881,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -27228,7 +27892,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "portfolio_players_yt_paid.csv",
     "fileSizeKb": 6.1,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 13
   },
@@ -27239,7 +27903,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
     "fileSizeKb": 5.7,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -27250,7 +27914,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -27261,7 +27925,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -27272,7 +27936,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -27283,7 +27947,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -27294,7 +27958,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -27305,7 +27969,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -27316,7 +27980,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -27327,7 +27991,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -27338,7 +28002,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -27349,7 +28013,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -27360,7 +28024,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -27371,7 +28035,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -27393,7 +28057,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -27404,7 +28068,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -27415,7 +28079,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -27426,7 +28090,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 2
   },
@@ -27437,7 +28101,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 2
   },
@@ -27448,7 +28112,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -27459,7 +28123,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -27470,7 +28134,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -27481,7 +28145,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -27492,7 +28156,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -27503,7 +28167,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-08",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -27517,6 +28181,50 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-07-08",
     "exists": true,
     "postsContributed": 1
+  },
+  {
+    "campaignId": "betmgm_brandx",
+    "partner": "BetMGM",
+    "sourceKind": "x_ads",
+    "sourceLabel": "X Ads",
+    "filename": "betmgm_brandx_x_ads.csv",
+    "fileSizeKb": null,
+    "lastModified": "missing",
+    "exists": false,
+    "postsContributed": 0
+  },
+  {
+    "campaignId": "betmgm_brandx",
+    "partner": "BetMGM",
+    "sourceKind": "meta_ads",
+    "sourceLabel": "Meta Ads",
+    "filename": "betmgm_brandx_meta_ads.csv",
+    "fileSizeKb": null,
+    "lastModified": "missing",
+    "exists": false,
+    "postsContributed": 0
+  },
+  {
+    "campaignId": "att_brandx",
+    "partner": "AT&T",
+    "sourceKind": "x_ads",
+    "sourceLabel": "X Ads",
+    "filename": "att_brandx_x_ads.csv",
+    "fileSizeKb": null,
+    "lastModified": "missing",
+    "exists": false,
+    "postsContributed": 0
+  },
+  {
+    "campaignId": "att_brandx",
+    "partner": "AT&T",
+    "sourceKind": "meta_ads",
+    "sourceLabel": "Meta Ads",
+    "filename": "att_brandx_meta_ads.csv",
+    "fileSizeKb": null,
+    "lastModified": "missing",
+    "exists": false,
+    "postsContributed": 0
   }
 ];
 
@@ -28608,12 +29316,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.69,
-    "impressions": 45015434,
-    "paidImpressions": 44984379,
-    "pctOfTotal": 44.3,
+    "cpm": 0.65,
+    "impressions": 47965707,
+    "paidImpressions": 47934652,
+    "pctOfTotal": 45.8,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 30.3,
+    "mvmDeltaPct": 22.3,
     "color": "#E00922"
   },
   {
@@ -28621,7 +29329,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.03,
     "impressions": 14133421,
     "paidImpressions": 12478381,
-    "pctOfTotal": 13.9,
+    "pctOfTotal": 13.5,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 63.4,
     "color": "#1d1d1f"
@@ -28629,9 +29337,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.55,
-    "impressions": 12337458,
+    "impressions": 12338429,
     "paidImpressions": 9739696,
-    "pctOfTotal": 12.1,
+    "pctOfTotal": 11.8,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 13.7,
     "color": "#000000"
@@ -28639,9 +29347,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 5.19,
-    "impressions": 11894402,
+    "impressions": 11899218,
     "paidImpressions": 9860731,
-    "pctOfTotal": 11.7,
+    "pctOfTotal": 11.4,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -7.6,
     "color": "#E4405F"
@@ -28649,11 +29357,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.56,
-    "impressions": 9701381,
-    "paidImpressions": 9619948,
-    "pctOfTotal": 9.5,
+    "impressions": 9715628,
+    "paidImpressions": 9634195,
+    "pctOfTotal": 9.3,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -19.9,
+    "mvmDeltaPct": -20.0,
     "color": "#FF0033"
   },
   {
@@ -28661,7 +29369,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.28,
     "impressions": 6476672,
     "paidImpressions": 6462866,
-    "pctOfTotal": 6.4,
+    "pctOfTotal": 6.2,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -21.9,
     "color": "#1877F2"
@@ -28669,7 +29377,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1232989,
+    "impressions": 1243530,
     "paidImpressions": 0,
     "pctOfTotal": 1.2,
     "mvmCpm": null,
@@ -28688,7 +29396,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.02;
+window.PORTFOLIO_CPM_BLEND = 1.95;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
