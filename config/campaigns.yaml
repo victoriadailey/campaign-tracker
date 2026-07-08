@@ -744,7 +744,7 @@ campaigns:
     # YT posts (which double-counted YouTube in the campaign rollup).
     yt_paired_by_sort: true
     # Track the two pieces against their own impression goals (like Spectrum).
-    # All current delivery is FOSN; Red Card / Green Flag hasn't posted yet.
+    # Red Card / Green Flag is now live (MS group 8042).
     pacing_components:
       - label: "FOSN x Heineken"
         impression_goal: 2_000_000
@@ -757,6 +757,7 @@ campaigns:
         n: "Video 1"
         title: "Editorial Video — FOS NEWS"
         date: "May 2026"
+        group_ids: [7587]             # MS post group — definitive component split
         # GAds names this "Heineken: UEFA (FOSN)". FOSN = FOS NEWS.
         # Native social cutdowns use "Champions League" in copy (the
         # UEFA tournament being discussed) — add as a match keyword so
@@ -779,13 +780,20 @@ campaigns:
       - id: red_card_green_flag
         n: "Video 2"
         title: "Red Card / Green Flag — FOS Main"
-        date: "Pending"
-        match: ["Red Card", "Green Flag"]
+        date: "Jul 2026"
+        group_ids: [8042]             # MS post group — definitive component split
+        match: ["Red Card", "Green Flag", "RedCardGreenFlag"]  # fallback for ad rows
         exclude: []
         impression_goal: 1_500_000
         budget_goal: 6_400
     sources:
-      measure_studio_group_id: 7587         # Heineken x FOSN
+      # Two MS groups: FOSN editorial (7587) + Red Card / Green Flag (8042).
+      # Note: MS 8042 already captures the RCGF FB/IG dark ads (and the YT
+      # Short), so the separately-uploaded Meta export was a duplicate that
+      # double-counted — it's intentionally NOT wired here.
+      measure_studio_group_ids:
+        - 7587                              # Heineken x FOSN (editorial)
+        - 8042                              # Red Card Green Flag
       youtube_paid:
         - heineken_yt_paid.csv
 
