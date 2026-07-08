@@ -377,6 +377,7 @@ def rollup_campaign(
         benchmark_category=config.benchmark_category,
         lifecycle=config.lifecycle,  # type: ignore[arg-type]
         views=int(total_views),
+        engagements=int(total_engagements),
         goal_split=goal_split,
         brandx_objective=_normalize_brandx_objective(config.brandx_objective),
         brandx_secondary_objective=_normalize_brandx_objective(config.brandx_secondary_objective),

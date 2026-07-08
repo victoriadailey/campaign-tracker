@@ -47,6 +47,11 @@ class CampaignSummary:
     # Equals impressions on IG/TikTok/Snapchat (autoplay video) but is meaningfully
     # smaller than impressions on YouTube (ad-renders vs video plays) and X.
     views: int = 0
+    # Actual total engagements across every post (matches the sum of the
+    # per-episode engagement totals). The header KPI uses this directly instead
+    # of the old impressions×ER approximation, which under/over-counted because
+    # ER excludes YT pre-roll while impressions include it.
+    engagements: int = 0
     # Optional Full-Episodes-vs-Cutdowns split for campaigns that run separate
     # impression / budget goals across the two content tiers (e.g. ADP).
     # When present, the campaign detail page renders two side-by-side cards

@@ -235,7 +235,7 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
         <div className="kpi">
           <div className="kpi-lbl">Engagements</div>
-          <div className="kpi-val" style={{fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1}}>{fmt.numFull(Math.round(c.impressions.delivered * c.er / 100))}</div>
+          <div className="kpi-val" style={{fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1}}>{fmt.numFull(c.engagements != null ? c.engagements : Math.round(c.impressions.delivered * c.er / 100))}</div>
         </div>
         <div className="kpi">
           <div className="kpi-lbl">Engagement Rate</div>
