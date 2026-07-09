@@ -781,21 +781,28 @@ campaigns:
         n: "Video 2"
         title: "Red Card / Green Flag — FOS Main"
         date: "Jul 2026"
-        group_ids: [8042]             # MS post group — definitive component split
-        match: ["Red Card", "Green Flag", "RedCardGreenFlag"]  # fallback for ad rows
+        group_ids: [8042]             # MS group holds the RCGF YT short (dark)
+        match: ["RedCardGreenFlag", "Red Card", "Green Flag"]  # Meta/GAds ad rows
         exclude: []
         impression_goal: 1_500_000
         budget_goal: 6_400
+    # Red Card / Green Flag is DARK. Its Facebook + Instagram numbers come from
+    # the Meta export (accurate paid delivery); MS group 8042 over-reports FB on
+    # the same dark ad, so drop MS 8042's FB + IG posts by native id — but keep
+    # its YouTube Short (-aFklAAQ9Js) so the GAds RCGF short pairs to it
+    # (instead of mis-pairing onto a FOSN short via sorted-rank). The FB/IG posts
+    # carry no title, only a shared description, so we can't key off text.
+    exclude:
+      - "1512716967534555"    # MS 8042 RCGF Facebook (use Meta export instead)
+      - "3932495664965122403" # MS 8042 RCGF Instagram (use Meta export instead)
     sources:
-      # Two MS groups: FOSN editorial (7587) + Red Card / Green Flag (8042).
-      # Note: MS 8042 already captures the RCGF FB/IG dark ads (and the YT
-      # Short), so the separately-uploaded Meta export was a duplicate that
-      # double-counted — it's intentionally NOT wired here.
       measure_studio_group_ids:
-        - 7587                              # Heineken x FOSN (editorial)
-        - 8042                              # Red Card Green Flag
+        - 7587                              # Heineken x FOSN (editorial, organic)
+        - 8042                              # Red Card / Green Flag (YT short only, post-exclude)
       youtube_paid:
-        - heineken_yt_paid.csv
+        - heineken_yt_paid.csv              # FOSN shorts + RCGF short (dark)
+      meta_ads:
+        - heineken_meta_ads.csv             # RCGF Video 1 dark ads (FB + IG)
 
   - id: rbc_tst
     partner: RBC
