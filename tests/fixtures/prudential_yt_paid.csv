@@ -1,6 +1,8 @@
 FOS Reporting
-"June 1, 2026 - July 8, 2026"
+"June 1, 2026 - July 10, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-Prudential_94 to Now_Hero (in-feed),USD,0,Eligible (Limited),Video,0.155,"7,806",0.64,"1,885,563",1213.51,"13,548"
-Prudential_94 to Now_Hero (pre-roll),USD,0,Eligible (Limited),Video,0.016,"35,604",7.75,"71,905",556.98,"50,597"
-Prudential_94 to Now_Hero Cutdown (shorts),USD,0,Eligible,Video,0.173,"3,773",2.89,"225,132",651.02,"7,185"
+Prudential: 94 to Now - Life After Soccer (Shorts),USD,0,Eligible,Video,0.092,634,3.86,"15,113",58.38,"1,683"
+Prudential_94 to Now_Unreal vs Real (shorts),USD,0,Eligible,Video,0.121,596,3.85,"18,735",72.11,"1,084"
+Prudential_94 to Now_Hero Cutdown (shorts),USD,0,Ended,Video,0.172,"4,150",2.89,"246,659",712.03,"7,891"
+Prudential_94 to Now_Hero (pre-roll),USD,0,Eligible (Limited),Video,0.015,"42,066",7.73,"84,252",650.92,"59,427"
+Prudential_94 to Now_Hero (in-feed),USD,0,Eligible (Limited),Video,0.157,"9,058",0.64,"2,226,859",1420.87,"15,760"
