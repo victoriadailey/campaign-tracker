@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-10T13:16:33Z";
+window.LAST_REFRESHED = "2026-07-10T18:38:25Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 30138604,
+      "delivered": 30132489,
       "goal": 41700000
     },
     "budget": {
@@ -392,13 +392,13 @@ window.CAMPAIGNS = [
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 1.9,
+    "er": 1.8,
     "cpm": 1.78,
     "episodes": 13,
-    "posts": 292,
+    "posts": 289,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 9283030,
-    "engagements": 904351,
+    "views": 9276915,
+    "engagements": 898982,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -546,22 +546,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 12603,
         "views": 12603
-      },
-      {
-        "name": "Snapchat",
-        "italic": "Snapchat",
-        "impressions": 6115,
-        "eng": 5369,
-        "er": 87.8,
-        "cpm": 0.0,
-        "color": "#666666",
-        "delta": 0.0,
-        "bench": {
-          "er": 0.0,
-          "cpm": 0.0
-        },
-        "organicImpressions": 6115,
-        "views": 6115
       }
     ],
     "topPosts": [
@@ -816,7 +800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-07-07T16:12:29Z"
   },
   {
@@ -1068,7 +1052,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1136,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1368,7 +1352,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1383,7 +1367,7 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3389680,
+      "delivered": 3389376,
       "goal": 2750000
     },
     "budget": {
@@ -1396,10 +1380,10 @@ window.CAMPAIGNS = [
     "er": 1.1,
     "cpm": 1.8,
     "episodes": 2,
-    "posts": 16,
+    "posts": 15,
     "blurb": "Sport Clips dark-social program in two components: MLB Minute (Mar 23 \u2013 Apr 21, wrapped \u2014 1.1M goal exceeded) and Off the Pitch (Jun 11\u201328, live) with Baker Machado breaking down World Cup stories.",
-    "views": 1040344,
-    "engagements": 36262,
+    "views": 1040040,
+    "engagements": 35994,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -1467,22 +1451,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 0,
         "views": 342709
-      },
-      {
-        "name": "Snapchat",
-        "italic": "Snapchat",
-        "impressions": 304,
-        "eng": 268,
-        "er": 88.16,
-        "cpm": 0.0,
-        "color": "#666666",
-        "delta": 0.0,
-        "bench": {
-          "er": 0.0,
-          "cpm": 0.0
-        },
-        "organicImpressions": 0,
-        "views": 304
       }
     ],
     "topPosts": [],
@@ -1491,7 +1459,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1646,7 +1614,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1809,7 +1777,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-07-09T14:51:42Z"
   },
   {
@@ -2206,7 +2174,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2354,7 +2322,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2369,23 +2337,23 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 6735720,
+      "delivered": 7327013,
       "goal": 5100000
     },
     "budget": {
-      "delivered": 2155.51,
+      "delivered": 3933.96,
       "goal": 4000.0
     },
     "color": "ft-8",
     "leadFormat": "Made for Social",
     "topChannel": "YouTube",
-    "er": 0.0,
-    "cpm": 0.32,
+    "er": 0.8,
+    "cpm": 0.54,
     "episodes": 2,
-    "posts": 10,
+    "posts": 13,
     "blurb": "BetMGM x World Cup \u2014 a FOS Explains full episode + cutdown (on the World Cup betting boom) plus dark native social posts running paid on Instagram and X.",
-    "views": 536870,
-    "engagements": 2216,
+    "views": 644743,
+    "engagements": 58529,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -2409,34 +2377,34 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 546747,
-        "eng": 1733,
-        "er": 0.32,
-        "cpm": 2.56,
+        "impressions": 1031616,
+        "eng": 57923,
+        "er": 5.61,
+        "cpm": 2.35,
         "color": "#1d1d1f",
-        "delta": -65.5,
+        "delta": 510.3,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 0,
-        "views": 0
+        "organicImpressions": 8396,
+        "views": 1449
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 196522,
-        "eng": 130,
-        "er": 0.07,
-        "cpm": 3.95,
+        "impressions": 302946,
+        "eng": 253,
+        "er": 0.08,
+        "cpm": 5.15,
         "color": "#E4405F",
-        "delta": -98.0,
+        "delta": -97.5,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 5264,
-        "views": 196522
+        "views": 302946
       },
       {
         "name": "YouTube Shorts",
@@ -2526,17 +2494,23 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "milestone": true,
-        "headline": "Goal hit with $2K (46%) of budget still unspent.",
-        "body": "Delivered 132% of the 5.1M impression goal on only 54% of the $4K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
-        "meta": "BetMGM \u00b7 Goal hit"
+        "headline": "X at 5.6% ER \u2014 6.1\u00d7 the benchmark.",
+        "body": "1.0M impressions, 58K engagements at 5.6% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "meta": "BetMGM \u00b7 X"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.56 \u2014 2.3\u00d7 the benchmark.",
-        "body": "$2.56 CPM vs. $1.10 FOS benchmark. At 2.3\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $2.35 \u2014 2.1\u00d7 the benchmark.",
+        "body": "$2.35 CPM vs. $1.10 FOS benchmark. At 2.1\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "BetMGM \u00b7 X"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.80% ER \u2014 below the 1% floor.",
+        "body": "0.80% engagement rate across 7.3M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "BetMGM \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
@@ -2545,20 +2519,20 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains (Full Ep + Cutdown)",
         "impressions": {
-          "delivered": 5997715,
+          "delivered": 6571047,
           "goal": 3300000
         }
       },
       {
         "label": "Native Social",
         "impressions": {
-          "delivered": 738005,
+          "delivered": 755966,
           "goal": 1800000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
-    "lastUpdatedExports": "2026-06-26T16:00:19Z"
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
+    "lastUpdatedExports": "2026-07-10T18:16:45Z"
   },
   {
     "id": "state_farm",
@@ -2833,7 +2807,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3208,7 +3182,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-10T13:16:33Z",
+    "lastUpdatedMs": "2026-07-10T18:38:25Z",
     "lastUpdatedExports": "2026-07-08T14:36:12Z"
   },
   {
@@ -3581,34 +3555,34 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 25160356,
-    "eng": 573745,
-    "er": 2.28,
-    "cpm": 1.47,
+    "impressions": 25645225,
+    "eng": 629935,
+    "er": 2.46,
+    "cpm": 1.49,
     "color": "#1d1d1f",
-    "delta": 147.9,
+    "delta": 167.0,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 423045
+    "views": 424494
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 13818487,
-    "eng": 230475,
-    "er": 1.67,
-    "cpm": 5.06,
+    "impressions": 13924911,
+    "eng": 230598,
+    "er": 1.66,
+    "cpm": 5.09,
     "color": "#E4405F",
-    "delta": -49.6,
+    "delta": -50.0,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 13818487
+    "views": 13924911
   },
   {
     "name": "TikTok",
@@ -3657,22 +3631,6 @@ window.CHANNELS = [
     },
     "organicImpressions": 0,
     "views": 648617
-  },
-  {
-    "name": "Snapchat",
-    "italic": "Snapchat",
-    "impressions": 6419,
-    "eng": 5637,
-    "er": 87.82,
-    "cpm": 0.0,
-    "color": "#666666",
-    "delta": 0.0,
-    "bench": {
-      "er": 0.0,
-      "cpm": 0.0
-    },
-    "organicImpressions": 0,
-    "views": 6419
   }
 ];
 
@@ -3719,16 +3677,6 @@ window.SIGNALS = [
     "meta": "E*TRADE \u00b7 Goal hit",
     "campaignId": "etrade_brandx",
     "campaignPartner": "E*TRADE"
-  },
-  {
-    "tag": "WIN",
-    "kind": "pos",
-    "milestone": true,
-    "headline": "Goal hit with $2K (46%) of budget still unspent.",
-    "body": "Delivered 132% of the 5.1M impression goal on only 54% of the $4K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
-    "meta": "BetMGM \u00b7 Goal hit",
-    "campaignId": "betmgm",
-    "campaignPartner": "BetMGM"
   },
   {
     "tag": "WIN",
@@ -9725,10 +9673,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 5771581,
-        "views": 2860259,
-        "er": 2.08,
-        "eng": 165335,
+        "impr": 5765466,
+        "views": 2854144,
+        "er": 1.98,
+        "eng": 159966,
         "spend": 5632.0
       },
       "perChannel": [
@@ -9848,21 +9796,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 0,
           "er": 0.0,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 3
-        },
-        {
-          "name": "Snapchat",
-          "distKind": "organic",
-          "impr": 6115,
-          "paidImpr": 0,
-          "orgImpr": 6115,
-          "views": 6115,
-          "eng": 5369,
-          "paidEng": 0,
-          "orgEng": 5369,
-          "er": 87.8,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -10048,36 +9981,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573",
           "postedAt": "2026-05-05T13:30:14-07:00"
-        },
-        {
-          "title": "",
-          "platform": "Snapchat",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 2252,
-          "paidImpr": 0,
-          "orgImpr": 2252,
-          "views": 2252,
-          "eng": 2060,
-          "er": 91.47,
-          "spend": 0,
-          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
-          "postedAt": "2026-05-05T19:20:36-07:00"
-        },
-        {
-          "title": "",
-          "platform": "Snapchat",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 3,
-          "paidImpr": 0,
-          "orgImpr": 3,
-          "views": 3,
-          "eng": 2,
-          "er": 66.67,
-          "spend": 0,
-          "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
-          "postedAt": "2026-05-06T05:34:31-07:00"
         },
         {
           "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
@@ -10335,21 +10238,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-05-20T16:08:23-07:00"
         },
         {
-          "title": "",
-          "platform": "Snapchat",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 3860,
-          "paidImpr": 0,
-          "orgImpr": 3860,
-          "views": 3860,
-          "eng": 3307,
-          "er": 85.67,
-          "spend": 0,
-          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
-          "postedAt": "2026-05-21T10:17:45-07:00"
-        },
-        {
           "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
@@ -10579,7 +10467,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "Snapchat leading with 87.8% ER on 6.1K impr."
+          "text": "TikTok leading with 4.3% ER on 698.3K impr."
         },
         {
           "kind": "pos",
@@ -13087,10 +12975,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "MLB Minute",
       "date": "Mar\u2013Apr 2026",
       "total": {
-        "impr": 1729612,
-        "views": 258616,
-        "er": 0.4,
-        "eng": 6946,
+        "impr": 1729308,
+        "views": 258312,
+        "er": 0.39,
+        "eng": 6678,
         "spend": 1508.64
       },
       "perChannel": [
@@ -13153,21 +13041,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 2.96,
           "spend": 200.03,
           "posts": 2
-        },
-        {
-          "name": "Snapchat",
-          "distKind": "organic+boosted",
-          "impr": 304,
-          "paidImpr": 304,
-          "orgImpr": 0,
-          "views": 304,
-          "eng": 268,
-          "paidEng": 268,
-          "orgEng": 0,
-          "er": 88.16,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 1
         }
       ],
       "posts": [
@@ -13200,21 +13073,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 109.27,
           "url": "https://www.youtube.com/shorts/PDk8f-cLs80",
           "postedAt": "2026-03-24T09:09:35-07:00"
-        },
-        {
-          "title": "",
-          "platform": "Snapchat",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 304,
-          "paidImpr": 304,
-          "orgImpr": 0,
-          "views": 304,
-          "eng": 268,
-          "er": 88.16,
-          "spend": 0,
-          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdW5ldXVkcmRlAZ0lu5A7AZ0luuc9AAAAAQ",
-          "postedAt": "2026-03-25T09:01:39-07:00"
         },
         {
           "title": "MLB\u2019s first two weeks have delivered big ratings, surprise teams and a brewing labor battle",
@@ -13293,12 +13151,7 @@ window.EPISODES_BY_CAMPAIGN = {
         }
       ],
       "topPosts": [],
-      "callouts": [
-        {
-          "kind": "pos",
-          "text": "Snapchat leading with 88.2% ER on 304 impr."
-        }
-      ],
+      "callouts": [],
       "impressionGoal": 1100000,
       "budgetGoal": 2500
     },
@@ -15211,11 +15064,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "FOS Explains \u2014 Full Ep + Cutdown",
       "date": "2026",
       "total": {
-        "impr": 5997715,
-        "views": 345612,
-        "er": 0.01,
-        "eng": 423,
-        "spend": 0
+        "impr": 6571047,
+        "views": 435524,
+        "er": 0.86,
+        "eng": 56728,
+        "spend": 1701.31
       },
       "perChannel": [
         {
@@ -15234,6 +15087,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 1
         },
         {
+          "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 484869,
+          "paidImpr": 476473,
+          "orgImpr": 1449,
+          "views": 1449,
+          "eng": 56190,
+          "paidEng": 56179,
+          "orgEng": 11,
+          "er": 11.59,
+          "cpm": 2.1,
+          "spend": 1000.0,
+          "posts": 2
+        },
+        {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
           "impr": 149888,
@@ -15249,6 +15117,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 1
         },
         {
+          "name": "Instagram",
+          "distKind": "organic+boosted",
+          "impr": 93727,
+          "paidImpr": 88463,
+          "orgImpr": 5264,
+          "views": 93727,
+          "eng": 185,
+          "paidEng": 115,
+          "orgEng": 70,
+          "er": 0.2,
+          "cpm": 7.93,
+          "spend": 701.31,
+          "posts": 2
+        },
+        {
           "name": "LinkedIn",
           "distKind": "organic",
           "impr": 11085,
@@ -15262,21 +15145,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
-        },
-        {
-          "name": "Instagram",
-          "distKind": "organic",
-          "impr": 5264,
-          "paidImpr": 0,
-          "orgImpr": 5264,
-          "views": 5264,
-          "eng": 70,
-          "paidEng": 0,
-          "orgEng": 70,
-          "er": 1.33,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 1
         },
         {
           "name": "TikTok",
@@ -15384,6 +15252,51 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://www.youtube.com/shorts/1BH8UGjcy9k",
           "postedAt": "2026-07-06T12:00:12-07:00"
+        },
+        {
+          "title": "U.S. games during the World Cup drew two times more bets than a typical World Cup game.  @DerrylRoyce breaks down why th",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 8396,
+          "paidImpr": 0,
+          "orgImpr": 8396,
+          "views": 1449,
+          "eng": 11,
+          "er": 0.13,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2074970643100008880",
+          "postedAt": "2026-07-08T14:35:27-07:00"
+        },
+        {
+          "title": "BetMGM: FOS Explains - World Cup (full ep)",
+          "platform": "X",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 476473,
+          "paidImpr": 476473,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 56179,
+          "er": 11.79,
+          "spend": 1000.0,
+          "url": "DARK",
+          "postedAt": null
+        },
+        {
+          "title": "BetMGM - World Cup - FOS Explains Cutdown",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 88463,
+          "paidImpr": 88463,
+          "orgImpr": 0,
+          "views": 88463,
+          "eng": 115,
+          "er": 0.13,
+          "spend": 701.31,
+          "url": null,
+          "postedAt": null
         }
       ],
       "topPosts": [
@@ -15405,7 +15318,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 2.1% ER on 1.1K impr."
+          "text": "X leading with 11.6% ER on 484.9K impr."
         },
         {
           "kind": "pos",
@@ -15420,11 +15333,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Native Social",
       "date": "Feb 2026",
       "total": {
-        "impr": 738005,
-        "views": 191258,
+        "impr": 755966,
+        "views": 209219,
         "er": 0.24,
-        "eng": 1793,
-        "spend": 2155.51
+        "eng": 1801,
+        "spend": 2232.65
       },
       "perChannel": [
         {
@@ -15445,16 +15358,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 191258,
-          "paidImpr": 191258,
+          "impr": 209219,
+          "paidImpr": 209219,
           "orgImpr": 0,
-          "views": 191258,
-          "eng": 60,
-          "paidEng": 60,
+          "views": 209219,
+          "eng": 68,
+          "paidEng": 68,
           "orgEng": 0,
           "er": 0.03,
-          "cpm": 3.95,
-          "spend": 755.85,
+          "cpm": 3.98,
+          "spend": 832.99,
           "posts": 2
         }
       ],
@@ -15471,7 +15384,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "eng": 1082,
           "er": 0.35,
           "spend": 900.0,
-          "url": null,
+          "url": "DARK",
           "postedAt": null
         },
         {
@@ -15486,7 +15399,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "eng": 651,
           "er": 0.28,
           "spend": 499.66,
-          "url": null,
+          "url": "DARK",
           "postedAt": null
         },
         {
@@ -15494,13 +15407,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": null,
           "distKind": "paid",
-          "impr": 101240,
-          "paidImpr": 101240,
+          "impr": 119201,
+          "paidImpr": 119201,
           "orgImpr": 0,
-          "views": 101240,
-          "eng": 35,
-          "er": 0.03,
-          "spend": 422.85,
+          "views": 119201,
+          "eng": 43,
+          "er": 0.04,
+          "spend": 499.99,
           "url": null,
           "postedAt": null
         },
@@ -21242,52 +21155,6 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-05-05T13:30:14-07:00"
     },
     {
-      "title": "",
-      "platform": "Snapchat",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 2252,
-      "paidImpr": 0,
-      "orgImpr": 2252,
-      "views": 2252,
-      "reach": 0,
-      "eng": 2060,
-      "er": 91.47,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
-      "postedAt": "2026-05-05T19:20:36-07:00"
-    },
-    {
-      "title": "",
-      "platform": "Snapchat",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 3,
-      "paidImpr": 0,
-      "orgImpr": 3,
-      "views": 3,
-      "reach": 0,
-      "eng": 2,
-      "er": 66.67,
-      "spend": 0,
-      "watchTimeMin": 0.1,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
-      "postedAt": "2026-05-06T05:34:31-07:00"
-    },
-    {
       "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -21677,29 +21544,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-05-20T16:08:23-07:00"
-    },
-    {
-      "title": "",
-      "platform": "Snapchat",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 3860,
-      "paidImpr": 0,
-      "orgImpr": 3860,
-      "views": 3860,
-      "reach": 0,
-      "eng": 3307,
-      "er": 85.67,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
-      "postedAt": "2026-05-21T10:17:45-07:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
@@ -24654,29 +24498,6 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-03-24T09:09:35-07:00"
     },
     {
-      "title": "",
-      "platform": "Snapchat",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 304,
-      "paidImpr": 304,
-      "orgImpr": 0,
-      "views": 304,
-      "reach": 0,
-      "eng": 268,
-      "er": 88.16,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdW5ldXVkcmRlAZ0lu5A7AZ0luuc9AAAAAQ",
-      "postedAt": "2026-03-25T09:01:39-07:00"
-    },
-    {
       "title": "MLB\u2019s first two weeks have delivered big ratings, surprise teams and a brewing labor battle",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
@@ -26849,6 +26670,75 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-06T12:00:12-07:00"
     },
     {
+      "title": "U.S. games during the World Cup drew two times more bets than a typical World Cup game.  @DerrylRoyce breaks down why th",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 8396,
+      "paidImpr": 0,
+      "orgImpr": 8396,
+      "views": 1449,
+      "reach": 0,
+      "eng": 11,
+      "er": 0.13,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2074970643100008880",
+      "postedAt": "2026-07-08T14:35:27-07:00"
+    },
+    {
+      "title": "BetMGM: FOS Explains - World Cup (full ep)",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 476473,
+      "paidImpr": 476473,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 56179,
+      "er": 11.79,
+      "spend": 1000.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": null,
+      "cpm": 2.1,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "DARK",
+      "postedAt": null
+    },
+    {
+      "title": "BetMGM - World Cup - FOS Explains Cutdown",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 88463,
+      "paidImpr": 88463,
+      "orgImpr": 0,
+      "views": 88463,
+      "reach": 72715,
+      "eng": 115,
+      "er": 0.13,
+      "spend": 701.31,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 7.93,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "BetMGM - World Cup - Native post 2",
       "platform": "X",
       "accountName": null,
@@ -26868,7 +26758,7 @@ window.POSTS_BY_CAMPAIGN = {
       "cpm": 2.9,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": null,
+      "url": "DARK",
       "postedAt": null
     },
     {
@@ -26891,7 +26781,7 @@ window.POSTS_BY_CAMPAIGN = {
       "cpm": 2.12,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": null,
+      "url": "DARK",
       "postedAt": null
     },
     {
@@ -26899,19 +26789,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 101240,
-      "paidImpr": 101240,
+      "impr": 119201,
+      "paidImpr": 119201,
       "orgImpr": 0,
-      "views": 101240,
-      "reach": 72150,
-      "eng": 35,
-      "er": 0.03,
-      "spend": 422.85,
+      "views": 119201,
+      "reach": 80784,
+      "eng": 43,
+      "er": 0.04,
+      "spend": 499.99,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 4.18,
+      "cpm": 4.19,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -28563,10 +28453,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
-    "fileSizeKb": 0.5,
+    "fileSizeKb": 0.7,
     "lastModified": "2026-07-10",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 3
   },
   {
     "campaignId": "betmgm",
@@ -28574,10 +28464,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
-    "fileSizeKb": 0.9,
+    "fileSizeKb": 1.1,
     "lastModified": "2026-07-10",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 3
   },
   {
     "campaignId": "state_farm",
@@ -29793,7 +29683,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.61,
     "impressions": 51195006,
     "paidImpressions": 50801233,
-    "pctOfTotal": 47.3,
+    "pctOfTotal": 47.0,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 15.4,
     "color": "#E00922"
@@ -29801,11 +29691,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.03,
-    "impressions": 14161082,
-    "paidImpressions": 12478381,
-    "pctOfTotal": 13.1,
+    "impressions": 14645951,
+    "paidImpressions": 12954854,
+    "pctOfTotal": 13.5,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 63.4,
+    "mvmDeltaPct": 63.6,
     "color": "#1d1d1f"
   },
   {
@@ -29820,12 +29710,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 5.17,
-    "impressions": 12074855,
-    "paidImpressions": 10009124,
+    "cpm": 5.2,
+    "impressions": 12181279,
+    "paidImpressions": 10115548,
     "pctOfTotal": 11.2,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -8.0,
+    "mvmDeltaPct": -7.6,
     "color": "#E4405F"
   },
   {
@@ -29833,7 +29723,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.52,
     "impressions": 9952180,
     "paidImpressions": 9788097,
-    "pctOfTotal": 9.2,
+    "pctOfTotal": 9.1,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -21.2,
     "color": "#FF0033"
@@ -29843,7 +29733,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.35,
     "impressions": 6346562,
     "paidImpressions": 6332726,
-    "pctOfTotal": 5.9,
+    "pctOfTotal": 5.8,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -20.3,
     "color": "#1877F2"
@@ -29870,7 +29760,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 1.9;
+window.PORTFOLIO_CPM_BLEND = 1.91;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
