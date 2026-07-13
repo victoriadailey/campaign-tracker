@@ -94,6 +94,9 @@ function NewCampaignForm() {
     }
   });
   const [showYaml, setShowYaml] = React.useState(false);
+  // Submit lifecycle: 'idle' | 'confirm' | 'pending' | 'done' | 'error'
+  const [submitState, setSubmitState] = React.useState('idle');
+  const [submitMsg, setSubmitMsg] = React.useState('');
 
   // Save draft on every change (debounced via React's batching).
   React.useEffect(() => {
@@ -113,8 +116,71 @@ function NewCampaignForm() {
     if (confirm('Discard this draft and start over?')) {
       setDraft(_emptyDraft());
       try { localStorage.removeItem(DRAFT_KEY); } catch {}
+      setSubmitState('idle');
+      setSubmitMsg('');
     }
   };
+
+  // Minimum viable campaign: id + partner + series. (Goals/flight can be added
+  // later, but without these three the config entry is useless.)
+  const missing = [
+    !draft.id && 'campaign id',
+    !draft.partner && 'client / partner',
+    !draft.series && 'series name',
+  ].filter(Boolean);
+  const canSubmit = missing.length === 0;
+
+  // POST the generated config block to the add-campaign function, which appends
+  // it to config/campaigns.yaml and commits — triggering the auto-refresh +
+  // Netlify redeploy. No copy/paste, no local edits.
+  const submitCampaign = async () => {
+    let password = sessionStorage.getItem(PASSWORD_KEY);
+    if (!password) {
+      password = window.prompt('Team password:') || '';
+      if (!password) { setSubmitState('idle'); return; }
+      sessionStorage.setItem(PASSWORD_KEY, password);
+    }
+    setSubmitState('pending');
+    setSubmitMsg('');
+    try {
+      const res = await fetch('/.netlify/functions/add-campaign', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password, campaign_id: draft.id, yaml_snippet: yaml }),
+      });
+      const j = await res.json().catch(() => ({}));
+      if (res.ok) {
+        setSubmitState('done');
+        setSubmitMsg(j.message || 'Campaign added — live in ~2 min');
+        // Clear the draft so the next entry starts clean (the campaign now
+        // lives in the committed config).
+        try { localStorage.removeItem(DRAFT_KEY); } catch {}
+      } else {
+        if (res.status === 401) sessionStorage.removeItem(PASSWORD_KEY);
+        setSubmitState('error');
+        setSubmitMsg(j.error || `HTTP ${res.status}`);
+      }
+    } catch (e) {
+      setSubmitState('error');
+      setSubmitMsg(String(e?.message || e));
+    }
+  };
+
+  const onSubmitClick = () => {
+    if (!canSubmit) return;
+    if (submitState === 'confirm') { submitCampaign(); return; }
+    if (submitState === 'idle' || submitState === 'error') {
+      setSubmitState('confirm');
+      setTimeout(() => setSubmitState(s => (s === 'confirm' ? 'idle' : s)), 4000);
+    }
+  };
+
+  const submitLabel =
+    submitState === 'pending' ? 'Adding…' :
+    submitState === 'done'    ? '✓ Added' :
+    submitState === 'confirm' ? 'Click again to confirm' :
+    submitState === 'error'   ? '⚠ Try again' :
+    'Add campaign';
 
   return (
     <>
@@ -247,27 +313,49 @@ function NewCampaignForm() {
         </div>
       )}
 
-      {/* INITIAL UPLOADS */}
+      {/* INITIAL UPLOADS (optional) */}
       <div className="sec">
         <div className="sec-h"><div>
-          <div className="sec-title">Initial <em>uploads</em></div>
-          <div className="sec-sub" style={{marginTop:6}}>Drop the first export files for this campaign. Once the Measure Studio API is connected, we'll pull these automatically.</div>
+          <div className="sec-title">Initial <em>uploads</em> <span style={{fontSize:12, fontWeight:500, color:'var(--ink-3)', letterSpacing:0}}>— optional</span></div>
+          <div className="sec-sub" style={{marginTop:6}}>Measure Studio is connected, so organic data is pulled automatically once you set the post-group IDs above. Only drop export files here if the Measure Studio numbers are wrong or a platform runs dark/paid (e.g. Google Ads, Meta or X ad exports).</div>
         </div></div>
         <UploadGrid draft={draft} setDraft={setDraft}/>
       </div>
 
       {/* ACTIONS */}
       <div className="sec" style={{marginBottom:32}}>
-        <div className="card" style={{padding:20, display:'flex', justifyContent:'space-between', alignItems:'center', gap:16}}>
-          <div style={{fontSize:13, color:'var(--ink-2)'}}>
-            Draft saved automatically. The "Generate YAML" button copies a config snippet you paste into <code>config/campaigns.yaml</code>, then run <code>python -m app.viewer.refresh</code>.
+        <div className="card" style={{padding:20}}>
+          <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', gap:16, flexWrap:'wrap'}}>
+            <div style={{fontSize:13, color:'var(--ink-2)', maxWidth:520}}>
+              {submitState === 'done'
+                ? <span style={{color:'var(--ink)'}}>{submitMsg} The new campaign will appear on the dashboard automatically once the refresh finishes.</span>
+                : submitState === 'error'
+                  ? <span style={{color:'#b3261e'}}>Couldn't add it: {submitMsg}</span>
+                  : <>Draft saves automatically as you type. <strong>Add campaign</strong> writes this straight into the live config and refreshes the dashboard in ~2 min — no files to edit.
+                     {!canSubmit && <span style={{display:'block', marginTop:6, color:'var(--ink-3)'}}>Still need: {missing.join(', ')}.</span>}</>}
+            </div>
+            <div style={{display:'flex', gap:10, alignItems:'center'}}>
+              <button onClick={reset} style={btnGhost}>
+                Reset
+              </button>
+              <button
+                onClick={onSubmitClick}
+                disabled={!canSubmit || submitState === 'pending' || submitState === 'done'}
+                className="btn btn-acc"
+                style={{opacity: (!canSubmit || submitState === 'pending') ? 0.5 : 1, cursor: canSubmit ? 'pointer' : 'not-allowed'}}>
+                {submitLabel}
+              </button>
+            </div>
           </div>
-          <div style={{display:'flex', gap:10}}>
-            <button onClick={reset} style={btnGhost}>
-              Reset
-            </button>
-            <button onClick={() => setShowYaml(s => !s)} className="btn btn-acc">
-              {showYaml ? 'Hide YAML' : 'Generate YAML'}
+          {/* Transparency escape hatch for power users — see exactly what will be
+              committed, without it being the primary path. */}
+          <div style={{marginTop:14, paddingTop:14, borderTop:'1px solid var(--line)'}}>
+            <button
+              onClick={() => setShowYaml(s => !s)}
+              style={{background:'transparent', border:'none', padding:0, cursor:'pointer',
+                      fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.04em',
+                      color:'var(--ink-3)', textTransform:'uppercase'}}>
+              {showYaml ? '▾ Hide generated config' : '▸ Preview generated config'}
             </button>
           </div>
         </div>
@@ -906,8 +994,8 @@ function YamlOutput({ yaml }) {
     <div className="sec" style={{marginBottom:48}}>
       <div className="sec-h" style={{display:'flex', justifyContent:'space-between', alignItems:'flex-end'}}>
         <div>
-          <div className="sec-title">YAML <em>snippet</em></div>
-          <div className="sec-sub" style={{marginTop:6}}>Paste this under <code>campaigns:</code> in <code>config/campaigns.yaml</code>, then run <code>python -m app.viewer.refresh</code>.</div>
+          <div className="sec-title">Generated <em>config</em></div>
+          <div className="sec-sub" style={{marginTop:6}}>This is exactly what "Add campaign" writes into <code>config/campaigns.yaml</code> for you. No need to copy it — the button handles everything.</div>
         </div>
         <button onClick={copy} className="btn btn-acc">
           <Ic.copy/> {copied ? 'Copied' : 'Copy'}

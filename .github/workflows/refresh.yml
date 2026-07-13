@@ -78,4 +78,25 @@ jobs:
           # this commit is pushed with GITHUB_TOKEN (whose pushes don't trigger
           # workflows) and only touches viewer/* (outside the on-push path filter).
           git commit -m "auto-refresh: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+
+          # Team CSV uploads commit straight to main via the GitHub API
+          # (upload-csv.js) and can land WHILE this ~15-min run is in flight, so
+          # origin often moves ahead of our checkout. A plain `git push` then
+          # fails non-fast-forward and the whole refresh is lost — which is why
+          # intraday uploads historically never reached the live site.
+          #
+          # Rebase-and-retry fixes it: our commit only touches viewer/* and the
+          # upload commits only touch tests/fixtures/*, so the rebase is always
+          # conflict-free. Retry a few times in case another upload lands during
+          # the rebase itself.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto latest origin/main…"
+            git fetch origin main
+            git rebase origin/main || { echo "Unexpected rebase conflict"; git rebase --abort; exit 1; }
+          done
+          echo "Failed to push after 5 attempts." >&2
+          exit 1

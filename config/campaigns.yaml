@@ -316,6 +316,7 @@ campaigns:
         manual_posts:
           - "urn:li:ugcPost:7472761999580463104"   # LI "I was envious… in my sport…"
           - "urn:li:ugcPost:7473079538042826752"   # LI "To give publications like ESPN…"
+          - "urn:li:ugcPost:7475258225211158528"   # LI cutdown (quotes Midge, unnamed)
       - id: ep12
         n: "Ep. 12"
         title: "Josh Childress"

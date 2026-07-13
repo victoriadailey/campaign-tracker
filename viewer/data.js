@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-13T13:42:43Z";
+window.LAST_REFRESHED = "2026-07-13T15:37:56Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:42Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 30645797,
+      "delivered": 30651912,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 2.4,
     "cpm": 1.79,
     "episodes": 13,
-    "posts": 288,
+    "posts": 291,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 9359279,
-    "engagements": 1079518,
+    "views": 9365394,
+    "engagements": 1084887,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -546,6 +546,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 12603,
         "views": 12603
+      },
+      {
+        "name": "Snapchat",
+        "italic": "Snapchat",
+        "impressions": 6115,
+        "eng": 5369,
+        "er": 87.8,
+        "cpm": 0.0,
+        "color": "#666666",
+        "delta": 0.0,
+        "bench": {
+          "er": 0.0,
+          "cpm": 0.0
+        },
+        "organicImpressions": 6115,
+        "views": 6115
       }
     ],
     "topPosts": [
@@ -808,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:42Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-07-10T19:41:21Z"
   },
   {
@@ -1060,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1144,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1360,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1467,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1622,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1777,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-07-10T19:30:55Z"
   },
   {
@@ -2174,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2322,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2498,7 +2514,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-07-10T18:16:45Z"
   },
   {
@@ -2774,7 +2790,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3149,7 +3165,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T13:42:43Z",
+    "lastUpdatedMs": "2026-07-13T15:37:56Z",
     "lastUpdatedExports": "2026-07-10T18:52:13Z"
   },
   {
@@ -3598,6 +3614,22 @@ window.CHANNELS = [
     },
     "organicImpressions": 0,
     "views": 654276
+  },
+  {
+    "name": "Snapchat",
+    "italic": "Snapchat",
+    "impressions": 6115,
+    "eng": 5369,
+    "er": 87.8,
+    "cpm": 0.0,
+    "color": "#666666",
+    "delta": 0.0,
+    "bench": {
+      "er": 0.0,
+      "cpm": 0.0
+    },
+    "organicImpressions": 0,
+    "views": 6115
   }
 ];
 
@@ -9631,10 +9663,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 5770050,
-        "views": 2856547,
-        "er": 2.73,
-        "eng": 202589,
+        "impr": 5776165,
+        "views": 2862662,
+        "er": 2.82,
+        "eng": 207958,
         "spend": 5632.0
       },
       "perChannel": [
@@ -9754,6 +9786,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 0,
           "er": 0.0,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 3
+        },
+        {
+          "name": "Snapchat",
+          "distKind": "organic",
+          "impr": 6115,
+          "paidImpr": 0,
+          "orgImpr": 6115,
+          "views": 6115,
+          "eng": 5369,
+          "paidEng": 0,
+          "orgEng": 5369,
+          "er": 87.8,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -9939,6 +9986,36 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573",
           "postedAt": "2026-05-05T13:30:14-07:00"
+        },
+        {
+          "title": "",
+          "platform": "Snapchat",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 2252,
+          "paidImpr": 0,
+          "orgImpr": 2252,
+          "views": 2252,
+          "eng": 2060,
+          "er": 91.47,
+          "spend": 0,
+          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
+          "postedAt": "2026-05-05T19:20:36-07:00"
+        },
+        {
+          "title": "",
+          "platform": "Snapchat",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 3,
+          "paidImpr": 0,
+          "orgImpr": 3,
+          "views": 3,
+          "eng": 2,
+          "er": 66.67,
+          "spend": 0,
+          "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
+          "postedAt": "2026-05-06T05:34:31-07:00"
         },
         {
           "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
@@ -10196,6 +10273,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-05-20T16:08:23-07:00"
         },
         {
+          "title": "",
+          "platform": "Snapchat",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 3860,
+          "paidImpr": 0,
+          "orgImpr": 3860,
+          "views": 3860,
+          "eng": 3307,
+          "er": 85.67,
+          "spend": 0,
+          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
+          "postedAt": "2026-05-21T10:17:45-07:00"
+        },
+        {
           "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
@@ -10425,7 +10517,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 5.4% ER on 847.4K impr."
+          "text": "Snapchat leading with 87.8% ER on 6.1K impr."
         },
         {
           "kind": "pos",
@@ -10990,10 +11082,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Midge Purce",
       "date": "Jun 16",
       "total": {
-        "impr": 2036435,
-        "views": 484960,
-        "er": 1.64,
-        "eng": 64804,
+        "impr": 2054474,
+        "views": 491889,
+        "er": 1.65,
+        "eng": 65283,
         "spend": 3540.86
       },
       "perChannel": [
@@ -11058,6 +11150,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 3
         },
         {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 58503,
+          "paidImpr": 0,
+          "orgImpr": 58503,
+          "views": 26584,
+          "eng": 2042,
+          "paidEng": 0,
+          "orgEng": 2042,
+          "er": 3.49,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 3
+        },
+        {
           "name": "YouTube Pre-roll",
           "distKind": "paid",
           "impr": 42411,
@@ -11071,21 +11178,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 11.77,
           "spend": 499.0,
           "posts": 1
-        },
-        {
-          "name": "LinkedIn",
-          "distKind": "organic",
-          "impr": 40464,
-          "paidImpr": 0,
-          "orgImpr": 40464,
-          "views": 19655,
-          "eng": 1563,
-          "paidEng": 0,
-          "orgEng": 1563,
-          "er": 3.86,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 2
         },
         {
           "name": "TikTok",
@@ -11345,6 +11437,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-06-24T11:29:12-07:00"
         },
         {
+          "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  National Wome",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 18039,
+          "paidImpr": 0,
+          "orgImpr": 18039,
+          "views": 6929,
+          "eng": 479,
+          "er": 2.66,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475258225211158528",
+          "postedAt": "2026-06-24T11:30:01-07:00"
+        },
+        {
           "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  NWSL star Mid",
           "platform": "X",
           "accountName": "Front Office Sports",
@@ -11398,7 +11505,7 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 40.5K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 58.5K impr."
         }
       ]
     },
@@ -21191,6 +21298,52 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-05-05T13:30:14-07:00"
     },
     {
+      "title": "",
+      "platform": "Snapchat",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 2252,
+      "paidImpr": 0,
+      "orgImpr": 2252,
+      "views": 2252,
+      "reach": 0,
+      "eng": 2060,
+      "er": 91.47,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
+      "postedAt": "2026-05-05T19:20:36-07:00"
+    },
+    {
+      "title": "",
+      "platform": "Snapchat",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 3,
+      "paidImpr": 0,
+      "orgImpr": 3,
+      "views": 3,
+      "reach": 0,
+      "eng": 2,
+      "er": 66.67,
+      "spend": 0,
+      "watchTimeMin": 0.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
+      "postedAt": "2026-05-06T05:34:31-07:00"
+    },
+    {
       "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -21580,6 +21733,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-05-20T16:08:23-07:00"
+    },
+    {
+      "title": "",
+      "platform": "Snapchat",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 3860,
+      "paidImpr": 0,
+      "orgImpr": 3860,
+      "views": 3860,
+      "reach": 0,
+      "eng": 3307,
+      "er": 85.67,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
+      "postedAt": "2026-05-21T10:17:45-07:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
@@ -22870,6 +23046,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-06-24T11:29:12-07:00"
     },
     {
+      "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  National Wome",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 18039,
+      "paidImpr": 0,
+      "orgImpr": 18039,
+      "views": 6929,
+      "reach": 0,
+      "eng": 479,
+      "er": 2.66,
+      "spend": 0,
+      "watchTimeMin": 1309.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475258225211158528",
+      "postedAt": "2026-06-24T11:30:01-07:00"
+    },
+    {
       "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  NWSL star Mid",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -23374,29 +23573,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2074956244553547782",
       "postedAt": "2026-07-08T13:38:14-07:00"
-    },
-    {
-      "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  National Wome",
-      "platform": "LinkedIn",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 18039,
-      "paidImpr": 0,
-      "orgImpr": 18039,
-      "views": 6929,
-      "reach": 0,
-      "eng": 479,
-      "er": 2.66,
-      "spend": 0,
-      "watchTimeMin": 1309.3,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475258225211158528",
-      "postedAt": "2026-06-24T11:30:01-07:00"
     }
   ],
   "spectrum": [
@@ -28444,7 +28620,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28455,7 +28631,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28466,7 +28642,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28477,7 +28653,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28510,7 +28686,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -28521,7 +28697,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -28532,7 +28708,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -28543,7 +28719,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -28554,7 +28730,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -28565,7 +28741,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -28576,7 +28752,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -28587,7 +28763,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -28598,7 +28774,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -28609,7 +28785,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28620,7 +28796,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -28631,7 +28807,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -28664,7 +28840,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -28675,7 +28851,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -28686,7 +28862,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -28719,7 +28895,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -28730,7 +28906,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -28741,7 +28917,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -28752,7 +28928,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -28763,7 +28939,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -28774,7 +28950,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -28829,7 +29005,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-13",
+    "lastModified": "2026-07-09",
     "exists": true,
     "postsContributed": 2
   }
