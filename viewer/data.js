@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-13T19:47:04Z";
+window.LAST_REFRESHED = "2026-07-13T19:49:18Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1650,26 +1650,26 @@ window.CAMPAIGNS = [
     "flight": "May 18 \u2014 Jul 31, 2026",
     "elapsedPct": 75.7,
     "daysLeft": 18,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2996339,
+      "delivered": 3369653,
       "goal": 3500000
     },
     "budget": {
-      "delivered": 11072.1,
+      "delivered": 12149.75,
       "goal": 13900.0
     },
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "Facebook",
-    "er": 2.7,
-    "cpm": 3.73,
+    "er": 2.3,
+    "cpm": 3.63,
     "episodes": 2,
     "posts": 20,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 2673891,
-    "engagements": 80357,
+    "views": 3047205,
+    "engagements": 79035,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1677,18 +1677,18 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 1400589,
-        "eng": 4392,
-        "er": 0.31,
-        "cpm": 3.55,
+        "impressions": 1756877,
+        "eng": 3174,
+        "er": 0.18,
+        "cpm": 3.42,
         "color": "#1877F2",
-        "delta": -79.5,
+        "delta": -88.2,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
         "organicImpressions": 2669,
-        "views": 1318777
+        "views": 1675065
       },
       {
         "name": "YouTube Shorts",
@@ -1709,18 +1709,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 576839,
-        "eng": 8751,
-        "er": 1.52,
-        "cpm": 5.54,
+        "impressions": 593865,
+        "eng": 8647,
+        "er": 1.46,
+        "cpm": 5.46,
         "color": "#E4405F",
-        "delta": -54.2,
+        "delta": -56.0,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 13392,
-        "views": 576839
+        "views": 593865
       },
       {
         "name": "YouTube In-feed",
@@ -1812,13 +1812,13 @@ window.CAMPAIGNS = [
       {
         "label": "Red Card / Green Flag",
         "impressions": {
-          "delivered": 1856779,
+          "delivered": 2230093,
           "goal": 1500000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
-    "lastUpdatedExports": "2026-07-13T19:46:17Z"
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
+    "lastUpdatedExports": "2026-07-13T19:46:18Z"
   },
   {
     "id": "rbc_tst",
@@ -2214,7 +2214,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2362,7 +2362,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2538,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-07-10T18:16:45Z"
   },
   {
@@ -2814,7 +2814,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3189,7 +3189,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedMs": "2026-07-13T19:49:18Z",
     "lastUpdatedExports": "2026-07-10T18:52:13Z"
   },
   {
@@ -3578,18 +3578,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 14164497,
-    "eng": 233552,
+    "impressions": 14181523,
+    "eng": 233448,
     "er": 1.65,
     "cpm": 5.08,
     "color": "#E4405F",
-    "delta": -50.2,
+    "delta": -50.3,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 14164497
+    "views": 14181523
   },
   {
     "name": "TikTok",
@@ -3610,18 +3610,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7403286,
-    "eng": 12950,
-    "er": 0.17,
-    "cpm": 3.24,
+    "impressions": 7759574,
+    "eng": 11732,
+    "er": 0.15,
+    "cpm": 3.22,
     "color": "#1877F2",
-    "delta": -88.6,
+    "delta": -90.1,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 6179987
+    "views": 6536275
   },
   {
     "name": "LinkedIn",
@@ -14054,26 +14054,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Red Card / Green Flag \u2014 FOS Main",
       "date": "Jul 2026",
       "total": {
-        "impr": 1856779,
-        "views": 1616385,
-        "er": 2.21,
-        "eng": 41096,
-        "spend": 6280.0
+        "impr": 2230093,
+        "views": 1989699,
+        "er": 1.78,
+        "eng": 39774,
+        "spend": 7357.65
       },
       "perChannel": [
         {
           "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 1178716,
-          "paidImpr": 1178711,
+          "impr": 1535004,
+          "paidImpr": 1534999,
           "orgImpr": 5,
-          "views": 1124544,
-          "eng": 1422,
-          "paidEng": 1218,
+          "views": 1480832,
+          "eng": 204,
+          "paidEng": 0,
           "orgEng": 204,
-          "er": 0.12,
-          "cpm": 3.34,
-          "spend": 3942.42,
+          "er": 0.01,
+          "cpm": 3.24,
+          "spend": 4970.16,
           "posts": 3
         },
         {
@@ -14109,16 +14109,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 132180,
-          "paidImpr": 132180,
+          "impr": 149206,
+          "paidImpr": 149206,
           "orgImpr": 0,
-          "views": 132180,
-          "eng": 107,
-          "paidEng": 104,
+          "views": 149206,
+          "eng": 3,
+          "paidEng": 0,
           "orgEng": 3,
-          "er": 0.08,
-          "cpm": 4.63,
-          "spend": 611.7,
+          "er": 0.0,
+          "cpm": 4.43,
+          "spend": 661.61,
           "posts": 3
         }
       ],
@@ -14184,6 +14184,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-07-08T08:55:23-07:00"
         },
         {
+          "title": "Heineken_RedCardGreenFlag_Video 2",
+          "platform": "Facebook",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 612355,
+          "paidImpr": 612355,
+          "orgImpr": 0,
+          "views": 612355,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 1740.83,
+          "url": null,
+          "postedAt": null
+        },
+        {
           "title": "Heineken_RedCardGreenFlag_Video 1",
           "platform": "Facebook",
           "accountName": null,
@@ -14192,24 +14207,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 314765,
           "orgImpr": 0,
           "views": 314765,
-          "eng": 1000,
-          "er": 0.32,
+          "eng": 0,
+          "er": 0.0,
           "spend": 1631.75,
-          "url": null,
-          "postedAt": null
-        },
-        {
-          "title": "Heineken_RedCardGreenFlag_Video 2",
-          "platform": "Facebook",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 256067,
-          "paidImpr": 256067,
-          "orgImpr": 0,
-          "views": 256067,
-          "eng": 218,
-          "er": 0.09,
-          "spend": 713.09,
           "url": null,
           "postedAt": null
         },
@@ -14222,8 +14222,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 99664,
           "orgImpr": 0,
           "views": 99664,
-          "eng": 101,
-          "er": 0.1,
+          "eng": 0,
+          "er": 0.0,
           "spend": 517.56,
           "url": null,
           "postedAt": null
@@ -14233,13 +14233,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": null,
           "distKind": "paid",
-          "impr": 9099,
-          "paidImpr": 9099,
+          "impr": 26125,
+          "paidImpr": 26125,
           "orgImpr": 0,
-          "views": 9099,
-          "eng": 3,
-          "er": 0.03,
-          "spend": 26.18,
+          "views": 26125,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 76.09,
           "url": null,
           "postedAt": null
         }
@@ -25773,6 +25773,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-08T08:55:23-07:00"
     },
     {
+      "title": "Heineken_RedCardGreenFlag_Video 2",
+      "platform": "Facebook",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 612355,
+      "paidImpr": 612355,
+      "orgImpr": 0,
+      "views": 612355,
+      "reach": 172736,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 1740.83,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.84,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "Heineken_RedCardGreenFlag_Video 1",
       "platform": "Facebook",
       "accountName": null,
@@ -25782,37 +25805,14 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 314765,
       "reach": 279330,
-      "eng": 1000,
-      "er": 0.32,
+      "eng": 0,
+      "er": 0.0,
       "spend": 1631.75,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
       "cpm": 5.18,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Heineken_RedCardGreenFlag_Video 2",
-      "platform": "Facebook",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 256067,
-      "paidImpr": 256067,
-      "orgImpr": 0,
-      "views": 256067,
-      "reach": 100416,
-      "eng": 218,
-      "er": 0.09,
-      "spend": 713.09,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.78,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -25828,8 +25828,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 99664,
       "reach": 91640,
-      "eng": 101,
-      "er": 0.1,
+      "eng": 0,
+      "er": 0.0,
       "spend": 517.56,
       "watchTimeMin": null,
       "clicks": null,
@@ -25846,19 +25846,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 9099,
-      "paidImpr": 9099,
+      "impr": 26125,
+      "paidImpr": 26125,
       "orgImpr": 0,
-      "views": 9099,
-      "reach": 6829,
-      "eng": 3,
-      "er": 0.03,
-      "spend": 26.18,
+      "views": 26125,
+      "reach": 15861,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 76.09,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.88,
+      "cpm": 2.91,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -30149,7 +30149,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.62,
     "impressions": 52753162,
     "paidImpressions": 52333664,
-    "pctOfTotal": 47.2,
+    "pctOfTotal": 47.0,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 17.5,
     "color": "#E00922"
@@ -30159,7 +30159,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.04,
     "impressions": 14635391,
     "paidImpressions": 12978758,
-    "pctOfTotal": 13.1,
+    "pctOfTotal": 13.0,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 64.6,
     "color": "#1d1d1f"
@@ -30169,7 +30169,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.53,
     "impressions": 12623070,
     "paidImpressions": 9934154,
-    "pctOfTotal": 11.3,
+    "pctOfTotal": 11.2,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 13.1,
     "color": "#000000"
@@ -30177,11 +30177,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 5.19,
-    "impressions": 12420854,
-    "paidImpressions": 10348752,
+    "impressions": 12437880,
+    "paidImpressions": 10365778,
     "pctOfTotal": 11.1,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -7.6,
+    "mvmDeltaPct": -7.7,
     "color": "#E4405F"
   },
   {
@@ -30196,12 +30196,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.28,
-    "impressions": 7266221,
-    "paidImpressions": 7251903,
-    "pctOfTotal": 6.5,
+    "cpm": 3.26,
+    "impressions": 7622509,
+    "paidImpressions": 7608191,
+    "pctOfTotal": 6.8,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -22.0,
+    "mvmDeltaPct": -22.5,
     "color": "#1877F2"
   },
   {
