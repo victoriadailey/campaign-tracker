@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-13T19:37:51Z";
+window.LAST_REFRESHED = "2026-07-13T19:47:04Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,11 +382,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 30592485,
+      "delivered": 30629989,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 42123.82,
+      "delivered": 42196.96,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -398,7 +398,7 @@ window.CAMPAIGNS = [
     "posts": 290,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 9365394,
-    "engagements": 1039234,
+    "engagements": 1041558,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,17 +454,17 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 3861491,
-        "eng": 171002,
-        "er": 4.43,
-        "cpm": 1.14,
+        "impressions": 3898995,
+        "eng": 173326,
+        "er": 4.45,
+        "cpm": 1.15,
         "color": "#1d1d1f",
-        "delta": 381.3,
+        "delta": 383.2,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1308605,
+        "organicImpressions": 1304680,
         "views": 383253
       },
       {
@@ -816,16 +816,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 4.4% ER \u2014 4.8\u00d7 the benchmark.",
-        "body": "3.9M impressions, 171K engagements at 4.4% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "X at 4.5% ER \u2014 4.8\u00d7 the benchmark.",
+        "body": "3.9M impressions, 173K engagements at 4.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "E*TRADE \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
-    "lastUpdatedExports": "2026-07-13T19:36:57Z"
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
     "id": "spectrum",
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1653,23 +1653,23 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2707938,
+      "delivered": 2996339,
       "goal": 3500000
     },
     "budget": {
-      "delivered": 10171.86,
+      "delivered": 11072.1,
       "goal": 13900.0
     },
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "Facebook",
-    "er": 2.3,
-    "cpm": 3.79,
+    "er": 2.7,
+    "cpm": 3.73,
     "episodes": 2,
-    "posts": 19,
+    "posts": 20,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 2657958,
-    "engagements": 62134,
+    "views": 2673891,
+    "engagements": 80357,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1693,12 +1693,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 730444,
-        "eng": 48991,
-        "er": 6.71,
-        "cpm": 2.9,
+        "impressions": 666741,
+        "eng": 38371,
+        "er": 5.76,
+        "cpm": 2.95,
         "color": "#FF0033",
-        "delta": -66.5,
+        "delta": -71.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -1721,6 +1721,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 13392,
         "views": 576839
+      },
+      {
+        "name": "YouTube In-feed",
+        "italic": "YouTube In-feed",
+        "impressions": 352104,
+        "eng": 28843,
+        "er": 8.19,
+        "cpm": 2.98,
+        "color": "#E00922",
+        "delta": 1538.3,
+        "bench": {
+          "er": 0.5,
+          "cpm": 0.55
+        },
+        "organicImpressions": 0,
+        "views": 15933
       },
       {
         "name": "Instagram Stories",
@@ -1774,27 +1790,35 @@ window.CAMPAIGNS = [
       }
     ],
     "topPostsOrganic": [],
-    "callouts": [],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "YouTube In-feed CPM at $2.98 \u2014 5.4\u00d7 the benchmark.",
+        "body": "$2.98 CPM vs. $0.55 FOS benchmark. At 5.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "meta": "Heineken \u00b7 YouTube In-feed"
+      }
+    ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [
       {
         "label": "FOSN x Heineken",
         "impressions": {
-          "delivered": 1044887,
+          "delivered": 1139560,
           "goal": 2000000
         }
       },
       {
         "label": "Red Card / Green Flag",
         "impressions": {
-          "delivered": 1663051,
+          "delivered": 1856779,
           "goal": 1500000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
-    "lastUpdatedExports": "2026-07-10T19:30:55Z"
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
+    "lastUpdatedExports": "2026-07-13T19:46:17Z"
   },
   {
     "id": "rbc_tst",
@@ -2190,7 +2214,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2362,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2514,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-07-10T18:16:45Z"
   },
   {
@@ -2790,7 +2814,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3165,7 +3189,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-13T19:37:51Z",
+    "lastUpdatedMs": "2026-07-13T19:47:04Z",
     "lastUpdatedExports": "2026-07-10T18:52:13Z"
   },
   {
@@ -3522,28 +3546,28 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 77060002,
-    "eng": 1243939,
-    "er": 1.61,
-    "cpm": 0.92,
+    "impressions": 77348403,
+    "eng": 1262162,
+    "er": 1.63,
+    "cpm": 0.93,
     "color": "#E00922",
-    "delta": -91.9,
+    "delta": -91.8,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 11120865
+    "views": 11136798
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 25597161,
-    "eng": 791409,
-    "er": 3.09,
+    "impressions": 25634665,
+    "eng": 793733,
+    "er": 3.1,
     "cpm": 1.49,
     "color": "#1d1d1f",
-    "delta": 236.1,
+    "delta": 236.6,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -3707,11 +3731,11 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "X CPM at $3.76 \u2014 3.4\u00d7 the benchmark.",
-    "body": "$3.76 CPM vs. $1.10 FOS benchmark. At 3.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "Microsoft \u00b7 X",
-    "campaignId": "microsoft",
-    "campaignPartner": "Microsoft"
+    "headline": "YouTube In-feed CPM at $2.98 \u2014 5.4\u00d7 the benchmark.",
+    "body": "$2.98 CPM vs. $0.55 FOS benchmark. At 5.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "meta": "Heineken \u00b7 YouTube In-feed",
+    "campaignId": "heineken",
+    "campaignPartner": "Heineken"
   }
 ];
 
@@ -11484,11 +11508,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Josh Childress",
       "date": "Jun 30",
       "total": {
-        "impr": 2024061,
+        "impr": 2061565,
         "views": 423023,
-        "er": 1.58,
-        "eng": 63185,
-        "spend": 3191.01
+        "er": 1.66,
+        "eng": 65509,
+        "spend": 3264.15
       },
       "perChannel": [
         {
@@ -11524,16 +11548,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 206168,
-          "paidImpr": 154164,
+          "impr": 243672,
+          "paidImpr": 195593,
           "orgImpr": 52004,
           "views": 7857,
-          "eng": 10739,
-          "paidEng": 10626,
+          "eng": 13063,
+          "paidEng": 12950,
           "orgEng": 113,
-          "er": 5.21,
-          "cpm": 1.6,
-          "spend": 246.42,
+          "er": 5.36,
+          "cpm": 1.63,
+          "spend": 319.56,
           "posts": 6
         },
         {
@@ -11812,14 +11836,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d  Former NBA player Josh Childress tells FOS why b",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 3925,
-          "paidImpr": 0,
-          "orgImpr": 3925,
+          "distKind": "organic+boosted",
+          "impr": 41429,
+          "paidImpr": 41429,
+          "orgImpr": 0,
           "views": 3925,
-          "eng": 48,
-          "er": 1.22,
-          "spend": 0,
+          "eng": 2372,
+          "er": 5.73,
+          "spend": 73.14,
           "url": "https://twitter.com/FOS/status/2074954174073380890",
           "postedAt": "2026-07-08T13:30:00-07:00"
         },
@@ -11908,17 +11932,17 @@ window.EPISODES_BY_CAMPAIGN = {
           "url": "https://twitter.com/FOS/status/2072039970689167439"
         },
         {
-          "quote": "\"Sports over the last 5-7 years has become an institutionally investable asset class.\"  Fo",
+          "quote": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d  Former NBA player ",
           "platform": "X",
-          "er": 5.09,
-          "reach": 2015,
-          "url": "https://twitter.com/FOS/status/2072420558407417912"
+          "er": 5.73,
+          "reach": 3925,
+          "url": "https://twitter.com/FOS/status/2074954174073380890"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 5.2% ER on 206.2K impr."
+          "text": "X leading with 5.4% ER on 243.7K impr."
         },
         {
           "kind": "pos",
@@ -13755,13 +13779,28 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Editorial Video \u2014 FOS NEWS",
       "date": "May 2026",
       "total": {
-        "impr": 1044887,
+        "impr": 1139560,
         "views": 1057506,
-        "er": 3.03,
-        "eng": 31695,
-        "spend": 4568.0
+        "er": 3.45,
+        "eng": 39261,
+        "spend": 4792.1
       },
       "perChannel": [
+        {
+          "name": "YouTube Shorts",
+          "distKind": "organic+boosted",
+          "impr": 472962,
+          "paidImpr": 462098,
+          "orgImpr": 10864,
+          "views": 418548,
+          "eng": 27647,
+          "paidEng": 27422,
+          "orgEng": 225,
+          "er": 5.85,
+          "cpm": 2.73,
+          "spend": 1259.34,
+          "posts": 3
+        },
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
@@ -13775,21 +13814,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.94,
           "cpm": 5.82,
           "spend": 2507.85,
-          "posts": 3
-        },
-        {
-          "name": "YouTube Shorts",
-          "distKind": "organic+boosted",
-          "impr": 378289,
-          "paidImpr": 367425,
-          "orgImpr": 10864,
-          "views": 418548,
-          "eng": 20081,
-          "paidEng": 19856,
-          "orgEng": 225,
-          "er": 5.31,
-          "cpm": 2.82,
-          "spend": 1035.24,
           "posts": 3
         },
         {
@@ -13829,13 +13853,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 101153,
-          "paidImpr": 99449,
+          "impr": 193246,
+          "paidImpr": 191542,
           "orgImpr": 1704,
           "views": 190507,
-          "eng": 8123,
-          "er": 8.03,
-          "spend": 258.23,
+          "eng": 15704,
+          "er": 8.13,
+          "spend": 499.81,
           "url": "https://www.youtube.com/shorts/XezU0JmLlvw",
           "postedAt": "2026-05-29T14:13:38-07:00"
         },
@@ -13979,13 +14003,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 75773,
-          "paidImpr": 75222,
+          "impr": 78353,
+          "paidImpr": 77802,
           "orgImpr": 551,
           "views": 38028,
-          "eng": 4250,
-          "er": 5.61,
-          "spend": 277.27,
+          "eng": 4235,
+          "er": 5.41,
+          "spend": 259.79,
           "url": "https://www.youtube.com/shorts/CezO4j556cU",
           "postedAt": "2026-07-09T07:00:01-07:00"
         },
@@ -14030,11 +14054,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Red Card / Green Flag \u2014 FOS Main",
       "date": "Jul 2026",
       "total": {
-        "impr": 1663051,
-        "views": 1600452,
-        "er": 1.83,
-        "eng": 30439,
-        "spend": 5603.86
+        "impr": 1856779,
+        "views": 1616385,
+        "er": 2.21,
+        "eng": 41096,
+        "spend": 6280.0
       },
       "perChannel": [
         {
@@ -14053,18 +14077,33 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 3
         },
         {
-          "name": "YouTube Shorts",
-          "distKind": "organic+boosted",
-          "impr": 352155,
+          "name": "YouTube In-feed",
+          "distKind": "paid",
+          "impr": 352104,
           "paidImpr": 352104,
-          "orgImpr": 51,
-          "views": 343728,
-          "eng": 28910,
+          "orgImpr": 0,
+          "views": 15933,
+          "eng": 28843,
           "paidEng": 28843,
-          "orgEng": 67,
-          "er": 8.21,
+          "orgEng": 0,
+          "er": 8.19,
           "cpm": 2.98,
           "spend": 1049.74,
+          "posts": 1
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "organic+boosted",
+          "impr": 193779,
+          "paidImpr": 193728,
+          "orgImpr": 51,
+          "views": 343728,
+          "eng": 10724,
+          "paidEng": 10657,
+          "orgEng": 67,
+          "er": 5.53,
+          "cpm": 3.49,
+          "spend": 676.14,
           "posts": 1
         },
         {
@@ -14085,17 +14124,32 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "posts": [
         {
+          "title": "Heineken_RedCardGreenFlag_Video1",
+          "platform": "YouTube In-feed",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 352104,
+          "paidImpr": 352104,
+          "orgImpr": 0,
+          "views": 15933,
+          "eng": 28843,
+          "er": 8.19,
+          "spend": 1049.74,
+          "url": null,
+          "postedAt": null
+        },
+        {
           "title": "Red Card or Green Flag? World Cup Fan Edition",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 352155,
-          "paidImpr": 352104,
+          "impr": 193779,
+          "paidImpr": 193728,
           "orgImpr": 51,
           "views": 343728,
-          "eng": 28910,
-          "er": 8.21,
-          "spend": 1049.74,
+          "eng": 10724,
+          "er": 5.53,
+          "spend": 676.14,
           "url": "https://www.youtube.com/shorts/-aFklAAQ9Js",
           "postedAt": "2026-07-02T09:45:13-07:00"
         },
@@ -23387,20 +23441,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d  Former NBA player Josh Childress tells FOS why b",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 3925,
-      "paidImpr": 0,
-      "orgImpr": 3925,
+      "distKind": "organic+boosted",
+      "impr": 41429,
+      "paidImpr": 41429,
+      "orgImpr": 0,
       "views": 3925,
       "reach": 0,
-      "eng": 48,
-      "er": 1.22,
-      "spend": 0,
+      "eng": 2372,
+      "er": 5.73,
+      "spend": 73.14,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 1.77,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2074954174073380890",
@@ -25355,19 +25409,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 101153,
-      "paidImpr": 99449,
+      "impr": 193246,
+      "paidImpr": 191542,
       "orgImpr": 1704,
       "views": 190507,
       "reach": 0,
-      "eng": 8123,
-      "er": 8.03,
-      "spend": 258.23,
+      "eng": 15704,
+      "er": 8.13,
+      "spend": 499.81,
       "watchTimeMin": 17039.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.6,
+      "cpm": 2.61,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/XezU0JmLlvw",
@@ -25585,19 +25639,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 75773,
-      "paidImpr": 75222,
+      "impr": 78353,
+      "paidImpr": 77802,
       "orgImpr": 551,
       "views": 38028,
       "reach": 0,
-      "eng": 4250,
-      "er": 5.61,
-      "spend": 277.27,
+      "eng": 4235,
+      "er": 5.41,
+      "spend": 259.79,
       "watchTimeMin": 3256.7,
       "clicks": 3,
       "ctr": 4.54,
       "cpc": 74.55,
-      "cpm": 3.69,
+      "cpm": 3.34,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/CezO4j556cU",
@@ -25627,23 +25681,46 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-09T07:00:40-07:00"
     },
     {
+      "title": "Heineken_RedCardGreenFlag_Video1",
+      "platform": "YouTube In-feed",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 352104,
+      "paidImpr": 352104,
+      "orgImpr": 0,
+      "views": 15933,
+      "reach": 0,
+      "eng": 28843,
+      "er": 8.19,
+      "spend": 1049.74,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.98,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "Red Card or Green Flag? World Cup Fan Edition",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 352155,
-      "paidImpr": 352104,
+      "impr": 193779,
+      "paidImpr": 193728,
       "orgImpr": 51,
       "views": 343728,
       "reach": 0,
-      "eng": 28910,
-      "er": 8.21,
-      "spend": 1049.74,
+      "eng": 10724,
+      "er": 5.53,
+      "spend": 676.14,
       "watchTimeMin": 30678.9,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.98,
+      "cpm": 3.49,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/-aFklAAQ9Js",
@@ -28644,7 +28721,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 6.0,
+    "fileSizeKb": 6.3,
     "lastModified": "2026-07-13",
     "exists": true,
     "postsContributed": 0
@@ -28787,10 +28864,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "heineken_yt_paid.csv",
-    "fileSizeKb": 0.6,
+    "fileSizeKb": 0.7,
     "lastModified": "2026-07-13",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "heineken",
@@ -30069,19 +30146,19 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.61,
-    "impressions": 52401058,
-    "paidImpressions": 51981560,
-    "pctOfTotal": 47.0,
+    "cpm": 0.62,
+    "impressions": 52753162,
+    "paidImpressions": 52333664,
+    "pctOfTotal": 47.2,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 14.5,
+    "mvmDeltaPct": 17.5,
     "color": "#E00922"
   },
   {
     "name": "X",
     "cpm": 2.04,
-    "impressions": 14597887,
-    "paidImpressions": 12937329,
+    "impressions": 14635391,
+    "paidImpressions": 12978758,
     "pctOfTotal": 13.1,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 64.6,
@@ -30110,9 +30187,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.55,
-    "impressions": 10109492,
-    "paidImpressions": 9938476,
-    "pctOfTotal": 9.1,
+    "impressions": 10045789,
+    "paidImpressions": 9874773,
+    "pctOfTotal": 9.0,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -20.3,
     "color": "#FF0033"
@@ -30149,7 +30226,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 1.9;
+window.PORTFOLIO_CPM_BLEND = 1.91;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
