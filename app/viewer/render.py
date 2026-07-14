@@ -35,7 +35,7 @@ window.fmt = {
 """.strip()
 
 
-def serialize(payload: PulsePayload, benchmarks: dict | None = None, upload_targets: dict | None = None) -> str:
+def serialize(payload: PulsePayload, benchmarks: dict | None = None, upload_targets: dict | None = None, ms_groups: list | None = None) -> str:
     # ISO-8601 UTC timestamp the dashboard sidebar footer reads via
     # `window.LAST_REFRESHED`. Captured here (not in refresh.py) so any code
     # path that emits data.js gets a fresh timestamp — including CI auto-
@@ -65,6 +65,8 @@ def serialize(payload: PulsePayload, benchmarks: dict | None = None, upload_targ
         # the exact filename refresh.py reads (instead of guessing a name that
         # silently no-ops). See _emit's id_keyed handling.
         _emit("UPLOAD_TARGETS", upload_targets or {}),
+        # MS post-group directory (id + name) for the Add-campaign group picker.
+        _emit("MS_GROUPS", ms_groups or []),
         _emit("DATA_ARCHIVE", payload.data_archive),
         _emit("BENCHMARKS_DATA", benchmarks or {}),
         _emit("PORTFOLIO_CPM_BY_CHANNEL", payload.portfolio_cpm_by_channel),
@@ -100,11 +102,11 @@ def _brandx_benchmarks_payload() -> dict:
     }
 
 
-def write_data_js(payload: PulsePayload, target: Path | str, benchmarks: dict | None = None, upload_targets: dict | None = None) -> Path:
+def write_data_js(payload: PulsePayload, target: Path | str, benchmarks: dict | None = None, upload_targets: dict | None = None, ms_groups: list | None = None) -> Path:
     p = Path(target)
     p.parent.mkdir(parents=True, exist_ok=True)
     tmp = p.with_suffix(p.suffix + ".tmp")
-    tmp.write_text(serialize(payload, benchmarks=benchmarks, upload_targets=upload_targets))
+    tmp.write_text(serialize(payload, benchmarks=benchmarks, upload_targets=upload_targets, ms_groups=ms_groups))
     tmp.replace(p)
     return p
 

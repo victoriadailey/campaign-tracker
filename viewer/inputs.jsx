@@ -75,6 +75,7 @@ function _emptyDraft() {
     impression_goal: '',
     budget_goal: '',
     color: 'ft-1',
+    lead_format: '',
     blurb: '',
     ms_post_groups: '',
     content_planner_url: '',
@@ -241,9 +242,17 @@ function NewCampaignForm() {
             <Field label="Budget" required hint="total media spend, USD">
               <Input type="number" step="0.01" value={draft.budget_goal} onChange={v => set('budget_goal', v)} placeholder="10916"/>
             </Field>
-            <Field label="MS Post Group(s)" hint="comma-separated — used to bucket Measure Studio rows into this campaign" full>
-              <Input value={draft.ms_post_groups} onChange={v => set('ms_post_groups', v)} placeholder="Future of Sports, Future of Sports: Full Ep"/>
+            <Field label="Lead format" hint="how the campaign is described on its card">
+              <Select value={draft.lead_format} onChange={v => set('lead_format', v)} options={[
+                { v:'', l:'—' },
+                { v:'Social Video', l:'Social Video' },
+                { v:'Longform Video', l:'Longform Video' },
+                { v:'Short-form Video', l:'Short-form Video' },
+                { v:'Paid Social', l:'Paid Social' },
+                { v:'Static / Carousel', l:'Static / Carousel' },
+              ]}/>
             </Field>
+            <MsGroupPicker value={draft.ms_post_groups} onChange={v => set('ms_post_groups', v)}/>
             <Field label="Content planner link" hint="URL to the content planner doc — kept for reference, not displayed in the viewer" full>
               <Input value={draft.content_planner_url} onChange={v => set('content_planner_url', v)} placeholder="https://docs.google.com/..."/>
             </Field>
@@ -671,6 +680,86 @@ function Select({ value, onChange, options }) {
   );
 }
 
+// Measure Studio post-group picker. `value` is a comma-separated string of
+// numeric group IDs (what the config needs); the team picks groups by NAME
+// from the live directory baked into data.js as window.MS_GROUPS. Falls back
+// to a plain numeric input if the directory isn't available yet.
+function MsGroupPicker({ value, onChange }) {
+  const [q, setQ] = React.useState('');
+  const all = (typeof window !== 'undefined' && Array.isArray(window.MS_GROUPS)) ? window.MS_GROUPS : [];
+  const selectedIds = (value || '').split(',').map(s => s.trim()).filter(Boolean);
+  const byId = {};
+  all.forEach(g => { byId[String(g.id)] = g.name; });
+
+  const add = (id) => {
+    const idStr = String(id);
+    if (selectedIds.includes(idStr)) return;
+    onChange([...selectedIds, idStr].join(','));
+    setQ('');
+  };
+  const remove = (id) => onChange(selectedIds.filter(x => x !== String(id)).join(','));
+
+  const matches = q.trim()
+    ? all.filter(g => !selectedIds.includes(String(g.id)) &&
+        (g.name.toLowerCase().includes(q.toLowerCase()) || String(g.id).includes(q))).slice(0, 8)
+    : [];
+
+  // No directory yet (first deploy) — degrade to a numeric-ID text field.
+  if (all.length === 0) {
+    return (
+      <Field label="Measure Studio group ID(s)" hint="comma-separated numeric group IDs — the picker appears here after the next refresh" full>
+        <Input value={value} onChange={onChange} placeholder="8154"/>
+      </Field>
+    );
+  }
+
+  return (
+    <Field label="Measure Studio post group(s)" hint="search by name — organic data is pulled automatically from the groups you pick" full>
+      <div>
+        {selectedIds.length > 0 && (
+          <div style={{display:'flex', flexWrap:'wrap', gap:6, marginBottom:8}}>
+            {selectedIds.map(id => (
+              <span key={id} style={{
+                display:'inline-flex', alignItems:'center', gap:6,
+                background:'var(--bg-soft)', border:'1px solid var(--line)',
+                borderRadius:999, padding:'4px 10px', fontSize:12,
+              }}>
+                {byId[id] || `Group ${id}`} <span style={{color:'var(--ink-3)', fontFamily:'var(--mono)', fontSize:11}}>#{id}</span>
+                <button onClick={() => remove(id)} style={{
+                  background:'none', border:'none', cursor:'pointer', padding:0,
+                  color:'var(--ink-3)', fontSize:14, lineHeight:1,
+                }}>×</button>
+              </span>
+            ))}
+          </div>
+        )}
+        <div style={{position:'relative'}}>
+          <Input value={q} onChange={setQ} placeholder="Type a group name, e.g. Ally - NWSL"/>
+          {matches.length > 0 && (
+            <div style={{
+              position:'absolute', top:'100%', left:0, right:0, zIndex:10,
+              background:'var(--surface, #fff)', border:'1px solid var(--line)',
+              borderRadius:8, marginTop:4, boxShadow:'0 6px 20px rgba(0,0,0,0.12)',
+              maxHeight:260, overflowY:'auto',
+            }}>
+              {matches.map(g => (
+                <button key={g.id} onClick={() => add(g.id)} style={{
+                  display:'flex', justifyContent:'space-between', width:'100%',
+                  background:'none', border:'none', borderBottom:'1px solid var(--line)',
+                  padding:'9px 12px', cursor:'pointer', textAlign:'left', fontSize:13,
+                }}>
+                  <span>{g.name}</span>
+                  <span style={{color:'var(--ink-3)', fontFamily:'var(--mono)', fontSize:11}}>#{g.id}</span>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </Field>
+  );
+}
+
 // ============================================================
 // UPLOAD UI — big drop zones (new campaign), compact list (ongoing)
 // ============================================================
@@ -794,6 +883,17 @@ const SOURCE_KIND_FOR = {
   'Other':                'other',
 };
 
+// Source-display-name → the actual key under `sources:` in campaigns.yaml that
+// refresh.py reads. Used when generating a new campaign's config so uploaded
+// exports land under the right parser key (not the human label).
+const SOURCE_YAML_KEY = {
+  'Google Ads':           'youtube_paid',
+  'X Ads':                'x_ads',
+  'Meta Ads':             'meta_ads',
+  'TikTok Ads':           'tiktok_ads',
+  'Measure Studio':       'measure_studio',   // manual CSV fallback (MS is normally API-driven)
+};
+
 // Read a File into a base64 string (without the data: prefix). Returns
 // {b64, mime}.
 function readFileAsBase64(file) {
@@ -913,10 +1013,16 @@ function CompactDropZone({ queue, onChange, sources }) {
 function _generateYaml(d) {
   if (!d.id || !d.partner) return '# Fill in campaign id and partner to generate.';
 
+  // series_italic is the emphasized word in the card title. Default to the last
+  // word of the series (matches the hand-authored convention, e.g. "Portfolio
+  // Players" → "Players") so the pipeline never sees a missing field.
+  const seriesItalic = (d.series || '').trim().split(/\s+/).filter(Boolean).slice(-1)[0] || d.series;
+
   const lines = [
     `  - id: ${d.id}`,
     `    partner: ${_yamlStr(d.partner)}`,
     `    series: ${_yamlStr(d.series)}`,
+    `    series_italic: ${_yamlStr(seriesItalic)}`,
     `    type: ${d.type}`,
     d.benchmark_category ? `    benchmark_category: ${_yamlStr(d.benchmark_category)}` : null,
     `    lifecycle: ${d.lifecycle}`,
@@ -925,26 +1031,29 @@ function _generateYaml(d) {
     d.impression_goal ? `    impression_goal: ${d.impression_goal}` : null,
     d.budget_goal ? `    budget_goal: ${d.budget_goal}` : null,
     `    color: ${d.color}`,
+    d.lead_format ? `    lead_format: ${_yamlStr(d.lead_format)}` : null,
     d.blurb ? `    blurb: ${_yamlStr(d.blurb)}` : null,
   ].filter(Boolean);
 
-  if (d.ms_post_groups && d.ms_post_groups.trim()) {
-    lines.push(`    ms_post_groups:`);
-    d.ms_post_groups.split(',').map(s => s.trim()).filter(Boolean).forEach(g => {
-      lines.push(`      - ${_yamlStr(g)}`);
-    });
-  }
+  // Build a single `sources:` block. Measure Studio post-group IDs (numeric)
+  // are the primary data source; uploaded export files (Google Ads / Meta / X)
+  // supplement for dark/paid platforms. Both live under `sources:`.
+  const msGroupIds = (d.ms_post_groups || '')
+    .split(',').map(s => s.trim()).filter(s => /^\d+$/.test(s));
+  const uploadGroups = {};
+  (d.uploads || []).forEach(u => {
+    const key = SOURCE_YAML_KEY[u.target] || 'other';
+    (uploadGroups[key] = uploadGroups[key] || []).push(u.name);
+  });
 
-  // Sources placeholder — the operator fills in the actual file names after dropping them.
-  if (d.uploads.length > 0) {
+  if (msGroupIds.length || Object.keys(uploadGroups).length) {
     lines.push(`    sources:`);
-    const grouped = {};
-    d.uploads.forEach(u => {
-      if (!grouped[u.target]) grouped[u.target] = [];
-      grouped[u.target].push(u.name);
-    });
-    Object.entries(grouped).forEach(([source, files]) => {
-      lines.push(`      ${source}:`);
+    if (msGroupIds.length) {
+      lines.push(`      measure_studio_group_ids:`);
+      msGroupIds.forEach(g => lines.push(`        - ${g}`));
+    }
+    Object.entries(uploadGroups).forEach(([key, files]) => {
+      lines.push(`      ${key}:`);
       files.forEach(f => lines.push(`        - ${f}`));
     });
   }

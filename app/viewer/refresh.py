@@ -469,13 +469,20 @@ def main() -> int:
     # ---------- Campaign rollups (with sample fallback for empty campaigns) ----------
     campaigns: list[CampaignSummary] = []
     for c in cfg["campaigns"]:
+      try:
         cc = CampaignConfig(
             id=c["id"], partner=c["partner"], series=c["series"],
-            series_italic=c["series_italic"], type=c["type"],
-            flight_start=c["flight_start"], flight_end=c["flight_end"],
-            impression_goal=int(c["impression_goal"]),
-            budget_goal=float(c["budget_goal"]),
-            color=c["color"], lead_format=c["lead_format"], blurb=c["blurb"],
+            # series_italic / lead_format are cosmetic — default them so a
+            # campaign added via the dashboard (which may omit them) never
+            # crashes the whole refresh. series_italic falls back to the last
+            # word of the series (matches the hand-authored convention).
+            series_italic=c.get("series_italic") or (c.get("series", "").split() or [""])[-1],
+            type=c.get("type", "social"),
+            flight_start=c.get("flight_start"), flight_end=c.get("flight_end"),
+            impression_goal=int(c.get("impression_goal") or 0),
+            budget_goal=float(c.get("budget_goal") or 0),
+            color=c.get("color", "ft-1"), lead_format=c.get("lead_format", ""),
+            blurb=c.get("blurb", ""),
             benchmark_category=c.get("benchmark_category", ""),
             lifecycle=c.get("lifecycle", "active"),
             goal_split_full_ep=c.get("goal_split_full_ep"),
@@ -528,6 +535,13 @@ def main() -> int:
             _sample_summary.last_updated_ms = ms_ts
             _sample_summary.last_updated_exports = exports_ts
             campaigns.append(_sample_summary)
+      except Exception as e:
+        # A single malformed campaign (e.g. one just added via the dashboard
+        # with a missing/typo'd field) must NEVER blank the whole dashboard.
+        # Skip it with a loud warning and keep everyone else's data flowing.
+        parse_warnings.append(
+            f"[{c.get('id', '??')}] SKIPPED — campaign config error: {type(e).__name__}: {e}"
+        )
 
     # ---------- Cross-campaign ----------
     partners = {c.id: c.partner for c in campaigns}
@@ -910,8 +924,25 @@ def main() -> int:
                 files.append({"file": fn, "label": label})
         upload_targets[c["id"]] = files
 
+    # ---------- Measure Studio group directory ----------
+    # Bake the list of MS post-groups (id + name) into data.js so the "Add
+    # campaign" form can offer a name→id picker — the team picks a group by
+    # name and the config gets the numeric group id it actually needs.
+    ms_groups: list[dict] = []
+    if ms_client is not None:
+        try:
+            for g in ms_client.list_groups():
+                gid = g.get("id")
+                name = g.get("name") or g.get("title")
+                if gid is not None and name:
+                    ms_groups.append({"id": int(gid), "name": str(name)})
+            ms_groups.sort(key=lambda x: x["name"].lower())
+        except Exception as e:
+            parse_warnings.append(f"could not list MS groups for picker: {e}")
+
     out_path = write_data_js(
-        payload, args.output, benchmarks=benchmarks_data, upload_targets=upload_targets
+        payload, args.output, benchmarks=benchmarks_data,
+        upload_targets=upload_targets, ms_groups=ms_groups,
     )
 
     print("=" * 60)

@@ -925,6 +925,12 @@ campaigns:
     color: ft-8        # aqua
     lead_format: Made for Social
     blurb: "BetMGM x World Cup — a FOS Explains full episode + cutdown (on the World Cup betting boom) plus dark native social posts running paid on Instagram and X."
+    # GAds names the YT buys by format ("... (in-feed)", "(pre-roll)",
+    # "(Shorts)") not by a title token MS shares, so guest-matching can't pair
+    # them. Pair GAds↔MS by sorted impressions within each YT subtype so the
+    # paid spend + impressions fold onto the right MS post (or land standalone
+    # for pre-roll, which MS doesn't track).
+    yt_paired_by_sort: true
     pacing_components:
       - label: "FOS Explains (Full Ep + Cutdown)"
         impression_goal: 3_300_000
@@ -953,6 +959,14 @@ campaigns:
     sources:
       # FOS Explains full ep + cutdown (organic + boosted).
       measure_studio_group_id: 8077
+      # Google Ads YT buy — in-feed + pre-roll + cutdown shorts. MS only sees
+      # the tiny organic YT base (~19K); the paid delivery (in-feed 5.9M,
+      # pre-roll 323K) and the YT spend live only in this export. The sorted
+      # YT merge (yt_paired_by_sort above) folds GAds paid impressions + spend
+      # onto the matching MS YT post per subtype; the pre-roll has no MS post
+      # so it lands as its own paid YT post.
+      youtube_paid:
+        - betmgm_yt_paid.csv
       # Dark native social posts (paid on IG + X) — MS can't see dark posts.
       meta_ads:
         - betmgm_meta_ads.csv     # Instagram (Native Social 1, 2)
@@ -1048,6 +1062,10 @@ campaigns:
       # dashboard's Prudential card → saves as prudential_yt_paid.csv.
       youtube_paid:
         - prudential_yt_paid.csv
+      # Meta dark posts (paid on FB + IG) — MS can't see dark posts. Upload via
+      # the Prudential card's Meta Ads target → saves as prudential_meta_ads.csv.
+      meta_ads:
+        - prudential_meta_ads.csv
 
   # ============== BrandX campaigns (paid-social performance) ==============
   - id: betmgm_brandx
@@ -1099,19 +1117,18 @@ campaigns:
   - id: ally_nwsl
     partner: Ally
     series: Ally
+    series_italic: Ally
     type: social
     benchmark_category: Branded Content
     lifecycle: active
     flight_start: 2026-07-01
     flight_end: 2026-09-30
-    impression_goal: 4500000
-    budget_goal: 13000
+    impression_goal: 4_500_000
+    budget_goal: 13_000
     color: ft-5
-    blurb: "NWSL & Fanatics custom content including 3 correspondent-led videos and 1 carousel post.  "
-    ms_post_groups:
-      - "Ally - NWSL"
+    lead_format: Social Video
+    blurb: "NWSL & Fanatics custom content — 3 correspondent-led videos + 1 carousel post."
     sources:
-      youtube_paid:
-        - State Farm - Google Ads.csv
-      x_ads:
-        - State Farm - X ads.csv
+      # Organic editorial → Measure Studio group "Ally - NWSL" (8154).
+      measure_studio_group_ids:
+        - 8154

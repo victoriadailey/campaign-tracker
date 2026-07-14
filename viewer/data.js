@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-14T14:00:43Z";
+window.LAST_REFRESHED = "2026-07-14T17:44:50Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:48Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 30602759,
+      "delivered": 30464424,
       "goal": 41700000
     },
     "budget": {
@@ -393,11 +393,11 @@ window.CAMPAIGNS = [
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 2.4,
-    "cpm": 1.75,
+    "cpm": 1.76,
     "episodes": 13,
-    "posts": 290,
+    "posts": 289,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 9394001,
+    "views": 9308292,
     "engagements": 1041861,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
@@ -516,22 +516,6 @@ window.CAMPAIGNS = [
         "views": 811943
       },
       {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 147601,
-        "eng": 44,
-        "er": 0.03,
-        "cpm": 0.0,
-        "color": "#1877F2",
-        "delta": -98.1,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 9266,
-        "views": 85709
-      },
-      {
         "name": "Instagram Stories",
         "italic": "Instagram Stories",
         "impressions": 12603,
@@ -546,6 +530,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 12603,
         "views": 12603
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 9266,
+        "eng": 44,
+        "er": 0.47,
+        "cpm": 0.0,
+        "color": "#1877F2",
+        "delta": -69.0,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 9266,
+        "views": 0
       },
       {
         "name": "Snapchat",
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:48Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:48Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:48Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:48Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1817,7 +1817,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
     "lastUpdatedExports": "2026-07-13T20:00:43Z"
   },
   {
@@ -2214,7 +2214,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2362,7 +2362,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2377,23 +2377,23 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 7754677,
+      "delivered": 7897420,
       "goal": 5100000
     },
     "budget": {
-      "delivered": 3933.96,
+      "delivered": 11072.03,
       "goal": 4000.0
     },
     "color": "ft-8",
     "leadFormat": "Made for Social",
     "topChannel": "YouTube",
-    "er": 0.8,
-    "cpm": 0.51,
+    "er": 1.1,
+    "cpm": 1.41,
     "episodes": 2,
-    "posts": 13,
+    "posts": 16,
     "blurb": "BetMGM x World Cup \u2014 a FOS Explains full episode + cutdown (on the World Cup betting boom) plus dark native social posts running paid on Instagram and X.",
-    "views": 811637,
-    "engagements": 58594,
+    "views": 828595,
+    "engagements": 347706,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -2401,28 +2401,44 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 6231274,
-        "eng": 75,
-        "er": 0.0,
-        "cpm": 0.0,
+        "impressions": 5908351,
+        "eng": 15295,
+        "er": 0.26,
+        "cpm": 0.59,
         "color": "#E00922",
-        "delta": -99.8,
+        "delta": -48.2,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 14688,
-        "views": 328492
+        "views": 113108
+      },
+      {
+        "name": "YouTube Pre-roll",
+        "italic": "YouTube Pre-roll",
+        "impressions": 322919,
+        "eng": 263965,
+        "er": 81.74,
+        "cpm": 8.35,
+        "color": "#B0061B",
+        "delta": 13.5,
+        "bench": {
+          "er": 72.0,
+          "cpm": 14.0
+        },
+        "organicImpressions": 0,
+        "views": 215384
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 1024684,
-        "eng": 57920,
-        "er": 5.65,
-        "cpm": 2.35,
+        "impressions": 1150473,
+        "eng": 58266,
+        "er": 5.06,
+        "cpm": 2.39,
         "color": "#1d1d1f",
-        "delta": 514.4,
+        "delta": 450.5,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -2433,28 +2449,28 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 303386,
-        "eng": 256,
+        "impressions": 320344,
+        "eng": 259,
         "er": 0.08,
-        "cpm": 5.15,
+        "cpm": 5.09,
         "color": "#E4405F",
-        "delta": -97.5,
+        "delta": -97.6,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 5704,
-        "views": 303386
+        "views": 320344
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
         "impressions": 182200,
-        "eng": 109,
-        "er": 0.06,
-        "cpm": 0.0,
+        "eng": 9687,
+        "er": 5.32,
+        "cpm": 3.2,
         "color": "#FF0033",
-        "delta": -99.7,
+        "delta": -73.4,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -2501,23 +2517,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 5.7% ER \u2014 6.1\u00d7 the benchmark.",
-        "body": "1.0M impressions, 58K engagements at 5.7% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "X at 5.1% ER \u2014 5.5\u00d7 the benchmark.",
+        "body": "1.2M impressions, 58K engagements at 5.1% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "BetMGM \u00b7 X"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.35 \u2014 2.1\u00d7 the benchmark.",
-        "body": "$2.35 CPM vs. $1.10 FOS benchmark. At 2.1\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $2.39 \u2014 2.2\u00d7 the benchmark.",
+        "body": "$2.39 CPM vs. $1.10 FOS benchmark. At 2.2\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "BetMGM \u00b7 X"
-      },
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "Campaign averaging 0.80% ER \u2014 below the 1% floor.",
-        "body": "0.80% engagement rate across 7.8M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
-        "meta": "BetMGM \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
@@ -2526,20 +2535,20 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains (Full Ep + Cutdown)",
         "impressions": {
-          "delivered": 6998711,
+          "delivered": 6999015,
           "goal": 3300000
         }
       },
       {
         "label": "Native Social",
         "impressions": {
-          "delivered": 755966,
+          "delivered": 898405,
           "goal": 1800000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
-    "lastUpdatedExports": "2026-07-10T18:16:45Z"
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
+    "lastUpdatedExports": "2026-07-14T17:40:04Z"
   },
   {
     "id": "state_farm",
@@ -2814,7 +2823,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2992,22 +3001,22 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 3969624,
+      "delivered": 4045631,
       "goal": 8000000
     },
     "budget": {
-      "delivered": 5347.83,
+      "delivered": 5560.32,
       "goal": 12100.0
     },
     "color": "ft-9",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 1.1,
-    "cpm": 1.42,
+    "cpm": 1.45,
     "episodes": 0,
-    "posts": 14,
+    "posts": 16,
     "blurb": "Prudential x '94 to Now \u2014 USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn.",
-    "views": 1073825,
+    "views": 1149832,
     "engagements": 116216,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
@@ -3080,18 +3089,34 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 191412,
+        "impressions": 199837,
         "eng": 3644,
-        "er": 1.9,
-        "cpm": 5.33,
+        "er": 1.82,
+        "cpm": 5.21,
         "color": "#E4405F",
-        "delta": -42.5,
+        "delta": -44.9,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 27021,
-        "views": 191412
+        "views": 199837
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 67582,
+        "eng": 0,
+        "er": 0.0,
+        "cpm": 2.79,
+        "color": "#1877F2",
+        "delta": -100.0,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 0,
+        "views": 67582
       },
       {
         "name": "LinkedIn",
@@ -3181,8 +3206,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T14:00:43Z",
-    "lastUpdatedExports": "2026-07-13T20:01:25Z"
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
+    "lastUpdatedExports": "2026-07-14T17:40:04Z"
   },
   {
     "id": "betmgm_brandx",
@@ -3301,6 +3326,153 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "lastUpdatedMs": "",
     "lastUpdatedExports": "2026-07-09T14:51:42Z"
+  },
+  {
+    "id": "ally_nwsl",
+    "partner": "Ally",
+    "series": "Ally",
+    "seriesItalic": "Ally",
+    "type": "social",
+    "flight": "Jul 1 \u2014 Sep 30, 2026",
+    "elapsedPct": 14.3,
+    "daysLeft": 78,
+    "status": "Pacing Ahead",
+    "statusKind": "on",
+    "impressions": {
+      "delivered": 1091111,
+      "goal": 4500000
+    },
+    "budget": {
+      "delivered": 2475.99,
+      "goal": 13000.0
+    },
+    "color": "ft-5",
+    "leadFormat": "Social Video",
+    "topChannel": "Facebook",
+    "er": 0.2,
+    "cpm": 2.56,
+    "episodes": 0,
+    "posts": 5,
+    "blurb": "NWSL & Fanatics custom content \u2014 3 correspondent-led videos + 1 carousel post.",
+    "views": 599960,
+    "engagements": 1681,
+    "goalSplit": [],
+    "benchmarkCategory": "Branded Content",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 436425,
+        "eng": 44,
+        "er": 0.01,
+        "cpm": 2.14,
+        "color": "#1877F2",
+        "delta": -99.3,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 7,
+        "views": 0
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 381558,
+        "eng": 1522,
+        "er": 0.4,
+        "cpm": 3.56,
+        "color": "#E4405F",
+        "delta": -87.9,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 10544,
+        "views": 381558
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 219252,
+        "eng": 101,
+        "er": 0.05,
+        "cpm": 2.1,
+        "color": "#000000",
+        "delta": -97.7,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 113829,
+        "views": 217479
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 53876,
+        "eng": 14,
+        "er": 0.03,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -99.9,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 917,
+        "views": 923
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "3938412276075551244",
+        "rank": 1,
+        "partner": "Ally",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "The NWSL\u2019s biggest rivalries are taking center stage. @ally is bringing NWSL Rivalry Week to life\u2026",
+        "er": 3.21,
+        "eng": 1348,
+        "reach": 41997,
+        "organic": 25,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DaoDRk2hVoM/",
+        "postedAt": "2026-07-10T13:32:48-07:00"
+      }
+    ],
+    "topPostsOrganic": [
+      {
+        "id": "o1",
+        "rank": 1,
+        "partner": "Ally",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "The NWSL\u2019s biggest rivalries are taking center stage. @ally is bringing NWSL Rivalry Week to life\u2026",
+        "organicReach": 113829,
+        "totalReach": 217479,
+        "organicPct": 52.3,
+        "er": 0.05,
+        "insight": "",
+        "url": "https://tiktok.com/@frontofficesports/video/7661001811087707406"
+      }
+    ],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.20% ER \u2014 below the 1% floor.",
+        "body": "0.20% engagement rate across 1.1M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "Ally \u00b7 Engagement"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-07-14T17:44:49Z",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -3538,28 +3710,28 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 78031759,
-    "eng": 1274494,
-    "er": 1.63,
-    "cpm": 0.93,
+    "impressions": 77762712,
+    "eng": 1299306,
+    "er": 1.67,
+    "cpm": 0.98,
     "color": "#E00922",
-    "delta": -91.8,
+    "delta": -91.6,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 11391120
+    "views": 11392043
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 25579514,
-    "eng": 793720,
-    "er": 3.1,
-    "cpm": 1.49,
+    "impressions": 25705303,
+    "eng": 794066,
+    "er": 3.09,
+    "cpm": 1.5,
     "color": "#1d1d1f",
-    "delta": 237.3,
+    "delta": 235.8,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -3570,50 +3742,50 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 14229996,
-    "eng": 234251,
-    "er": 1.65,
-    "cpm": 5.09,
+    "impressions": 14636937,
+    "eng": 235776,
+    "er": 1.61,
+    "cpm": 5.04,
     "color": "#E4405F",
-    "delta": -50.3,
+    "delta": -51.3,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 14229996
+    "views": 14636937
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 14075781,
-    "eng": 47345,
-    "er": 0.34,
-    "cpm": 2.5,
+    "impressions": 14295033,
+    "eng": 47446,
+    "er": 0.33,
+    "cpm": 2.49,
     "color": "#000000",
-    "delta": -83.4,
+    "delta": -83.6,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 13954066
+    "views": 14171545
   },
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7204412,
-    "eng": 11874,
+    "impressions": 7570084,
+    "eng": 11918,
     "er": 0.16,
-    "cpm": 3.26,
+    "cpm": 3.25,
     "color": "#1877F2",
-    "delta": -89.2,
+    "delta": -89.7,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 5991053
+    "views": 5972926
   },
   {
     "name": "LinkedIn",
@@ -10507,9 +10679,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Landon Donovan on Soccer in America",
       "date": "Jun 5",
       "total": {
-        "impr": 2949742,
-        "views": 888478,
-        "er": 1.47,
+        "impr": 2811407,
+        "views": 802769,
+        "er": 1.54,
         "eng": 72397,
         "spend": 4029.91
       },
@@ -10573,21 +10745,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 2.5,
           "spend": 448.08,
           "posts": 4
-        },
-        {
-          "name": "Facebook",
-          "distKind": "paid",
-          "impr": 138335,
-          "paidImpr": 138335,
-          "orgImpr": 0,
-          "views": 85709,
-          "eng": 0,
-          "paidEng": 0,
-          "orgEng": 0,
-          "er": 0.0,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 1
         },
         {
           "name": "LinkedIn",
@@ -10935,21 +11092,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 149.56,
           "url": "https://www.youtube.com/shorts/iy5DuxneGJE",
           "postedAt": "2026-06-10T17:00:13-07:00"
-        },
-        {
-          "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
-          "platform": "Facebook",
-          "accountName": "Front Office Sports",
-          "distKind": "paid",
-          "impr": 138335,
-          "paidImpr": 138335,
-          "orgImpr": 0,
-          "views": 85709,
-          "eng": 0,
-          "er": 0.0,
-          "spend": 0,
-          "url": "https://www.facebook.com/990299367042762/",
-          "postedAt": "2026-06-12T13:12:51-07:00"
         },
         {
           "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d  Former US",
@@ -15214,26 +15356,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "FOS Explains \u2014 Full Ep + Cutdown",
       "date": "2026",
       "total": {
-        "impr": 6998711,
-        "views": 602418,
-        "er": 0.81,
-        "eng": 56793,
-        "spend": 1701.31
+        "impr": 6999015,
+        "views": 602726,
+        "er": 1.22,
+        "eng": 345556,
+        "spend": 8429.03
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 6231274,
-          "paidImpr": 6216586,
+          "impr": 5908351,
+          "paidImpr": 5893663,
           "orgImpr": 14688,
-          "views": 328492,
-          "eng": 75,
-          "paidEng": 0,
+          "views": 113108,
+          "eng": 15295,
+          "paidEng": 15220,
           "orgEng": 75,
-          "er": 0.0,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "er": 0.26,
+          "cpm": 0.59,
+          "spend": 3459.63,
           "posts": 1
         },
         {
@@ -15252,33 +15394,48 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 2
         },
         {
+          "name": "YouTube Pre-roll",
+          "distKind": "paid",
+          "impr": 322919,
+          "paidImpr": 322919,
+          "orgImpr": 0,
+          "views": 215384,
+          "eng": 263965,
+          "paidEng": 263965,
+          "orgEng": 0,
+          "er": 81.74,
+          "cpm": 8.35,
+          "spend": 2695.18,
+          "posts": 1
+        },
+        {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
           "impr": 182200,
           "paidImpr": 177984,
           "orgImpr": 4216,
           "views": 174017,
-          "eng": 109,
-          "paidEng": 0,
+          "eng": 9687,
+          "paidEng": 9578,
           "orgEng": 109,
-          "er": 0.06,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "er": 5.32,
+          "cpm": 3.2,
+          "spend": 570.38,
           "posts": 1
         },
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 94167,
-          "paidImpr": 88463,
+          "impr": 94475,
+          "paidImpr": 88771,
           "orgImpr": 5704,
-          "views": 94167,
+          "views": 94475,
           "eng": 188,
           "paidEng": 115,
           "orgEng": 73,
           "er": 0.2,
           "cpm": 7.93,
-          "spend": 701.31,
+          "spend": 703.84,
           "posts": 2
         },
         {
@@ -15318,15 +15475,30 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 6231274,
-          "paidImpr": 6216586,
+          "impr": 5908351,
+          "paidImpr": 5893663,
           "orgImpr": 14688,
-          "views": 328492,
-          "eng": 75,
-          "er": 0.0,
-          "spend": 0,
+          "views": 113108,
+          "eng": 15295,
+          "er": 0.26,
+          "spend": 3459.63,
           "url": "https://youtu.be/_HnUJa29eZs",
           "postedAt": "2026-07-02T10:11:59-07:00"
+        },
+        {
+          "title": "BetMGM: FOS Explains-World Cup (pre-roll)",
+          "platform": "YouTube Pre-roll",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 322919,
+          "paidImpr": 322919,
+          "orgImpr": 0,
+          "views": 215384,
+          "eng": 263965,
+          "er": 81.74,
+          "spend": 2695.18,
+          "url": null,
+          "postedAt": null
         },
         {
           "title": "In the latest episode of FOS Explains, Derryl Barnes Jr. breaks down why the FIFA World Cup has become one of the bigges",
@@ -15397,9 +15569,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 177984,
           "orgImpr": 4216,
           "views": 174017,
-          "eng": 109,
-          "er": 0.06,
-          "spend": 0,
+          "eng": 9687,
+          "er": 5.32,
+          "spend": 570.38,
           "url": "https://www.youtube.com/shorts/1BH8UGjcy9k",
           "postedAt": "2026-07-06T12:00:12-07:00"
         },
@@ -15438,13 +15610,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": null,
           "distKind": "paid",
-          "impr": 88463,
-          "paidImpr": 88463,
+          "impr": 88771,
+          "paidImpr": 88771,
           "orgImpr": 0,
-          "views": 88463,
+          "views": 88771,
           "eng": 115,
           "er": 0.13,
-          "spend": 701.31,
+          "spend": 703.84,
           "url": null,
           "postedAt": null
         }
@@ -15468,42 +15640,42 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Native Social",
       "date": "Feb 2026",
       "total": {
-        "impr": 755966,
-        "views": 209219,
+        "impr": 898405,
+        "views": 225869,
         "er": 0.24,
-        "eng": 1801,
-        "spend": 2232.65
+        "eng": 2150,
+        "spend": 2643.0
       },
       "perChannel": [
         {
           "name": "X",
           "distKind": "paid",
-          "impr": 546747,
-          "paidImpr": 546747,
+          "impr": 672536,
+          "paidImpr": 672536,
           "orgImpr": 0,
           "views": 0,
-          "eng": 1733,
-          "paidEng": 1733,
+          "eng": 2079,
+          "paidEng": 2079,
           "orgEng": 0,
-          "er": 0.32,
-          "cpm": 2.56,
-          "spend": 1399.66,
-          "posts": 2
+          "er": 0.31,
+          "cpm": 2.59,
+          "spend": 1744.05,
+          "posts": 3
         },
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 209219,
-          "paidImpr": 209219,
+          "impr": 225869,
+          "paidImpr": 225869,
           "orgImpr": 0,
-          "views": 209219,
-          "eng": 68,
-          "paidEng": 68,
+          "views": 225869,
+          "eng": 71,
+          "paidEng": 71,
           "orgEng": 0,
           "er": 0.03,
           "cpm": 3.98,
-          "spend": 832.99,
-          "posts": 2
+          "spend": 898.95,
+          "posts": 3
         }
       ],
       "posts": [
@@ -15538,6 +15710,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": null
         },
         {
+          "title": "BetMGM World Cup: Native Social post 3",
+          "platform": "X",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 125789,
+          "paidImpr": 125789,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 346,
+          "er": 0.28,
+          "spend": 344.39,
+          "url": "DARK",
+          "postedAt": null
+        },
+        {
           "title": "BetMGM - World Cup - Native Social 2",
           "platform": "Instagram",
           "accountName": null,
@@ -15566,6 +15753,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 333.0,
           "url": null,
           "postedAt": null
+        },
+        {
+          "title": "BetMGM - World Cup - Native Social 3",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 16650,
+          "paidImpr": 16650,
+          "orgImpr": 0,
+          "views": 16650,
+          "eng": 3,
+          "er": 0.02,
+          "spend": 65.96,
+          "url": null,
+          "postedAt": null
         }
       ],
       "topPosts": [],
@@ -15578,7 +15780,8 @@ window.EPISODES_BY_CAMPAIGN = {
   "microsoft": [],
   "prudential": [],
   "betmgm_brandx": [],
-  "att_brandx": []
+  "att_brandx": [],
+  "ally_nwsl": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -22509,29 +22712,6 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-06-10T17:00:13-07:00"
     },
     {
-      "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 138335,
-      "paidImpr": 138335,
-      "orgImpr": 0,
-      "views": 85709,
-      "reach": 123403,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 0,
-      "watchTimeMin": 24774.9,
-      "clicks": 184,
-      "ctr": 0.13,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/990299367042762/",
-      "postedAt": "2026-06-12T13:12:51-07:00"
-    },
-    {
       "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d  Former US",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
@@ -26878,23 +27058,46 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 6231274,
-      "paidImpr": 6216586,
+      "impr": 5908351,
+      "paidImpr": 5893663,
       "orgImpr": 14688,
-      "views": 328492,
+      "views": 113108,
       "reach": 0,
-      "eng": 75,
-      "er": 0.0,
-      "spend": 0,
+      "eng": 15295,
+      "er": 0.26,
+      "spend": 3459.63,
       "watchTimeMin": 853742.3,
       "clicks": 350,
       "ctr": 5.63,
       "cpc": 17.59,
-      "cpm": 0.99,
+      "cpm": 0.59,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/_HnUJa29eZs",
       "postedAt": "2026-07-02T10:11:59-07:00"
+    },
+    {
+      "title": "BetMGM: FOS Explains-World Cup (pre-roll)",
+      "platform": "YouTube Pre-roll",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 322919,
+      "paidImpr": 322919,
+      "orgImpr": 0,
+      "views": 215384,
+      "reach": 0,
+      "eng": 263965,
+      "er": 81.74,
+      "spend": 2695.18,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 8.35,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     },
     {
       "title": "In the latest episode of FOS Explains, Derryl Barnes Jr. breaks down why the FIFA World Cup has become one of the bigges",
@@ -26998,9 +27201,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 4216,
       "views": 174017,
       "reach": 0,
-      "eng": 109,
-      "er": 0.06,
-      "spend": 0,
+      "eng": 9687,
+      "er": 5.32,
+      "spend": 570.38,
       "watchTimeMin": 11237.5,
       "clicks": null,
       "ctr": 0.0,
@@ -27062,14 +27265,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 88463,
-      "paidImpr": 88463,
+      "impr": 88771,
+      "paidImpr": 88771,
       "orgImpr": 0,
-      "views": 88463,
-      "reach": 72715,
+      "views": 88771,
+      "reach": 72907,
       "eng": 115,
       "er": 0.13,
-      "spend": 701.31,
+      "spend": 703.84,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
@@ -27127,6 +27330,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
+      "title": "BetMGM World Cup: Native Social post 3",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 125789,
+      "paidImpr": 125789,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 346,
+      "er": 0.28,
+      "spend": 344.39,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": null,
+      "cpm": 2.74,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "DARK",
+      "postedAt": null
+    },
+    {
       "title": "BetMGM - World Cup - Native Social 2",
       "platform": "Instagram",
       "accountName": null,
@@ -27167,6 +27393,29 @@ window.POSTS_BY_CAMPAIGN = {
       "ctr": null,
       "cpc": null,
       "cpm": 3.7,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "BetMGM - World Cup - Native Social 3",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 16650,
+      "paidImpr": 16650,
+      "orgImpr": 0,
+      "views": 16650,
+      "reach": 15472,
+      "eng": 3,
+      "er": 0.02,
+      "spend": 65.96,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.96,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -28373,6 +28622,52 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-07-09T18:01:18-07:00"
+    },
+    {
+      "title": "Prudential_94 to Now_Life After Soccer",
+      "platform": "Facebook",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 67582,
+      "paidImpr": 67582,
+      "orgImpr": 0,
+      "views": 67582,
+      "reach": 24337,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 188.27,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.79,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Prudential_94 to Now_Life After Soccer",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 8425,
+      "paidImpr": 8425,
+      "orgImpr": 0,
+      "views": 8425,
+      "reach": 6698,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 24.23,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.88,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     }
   ],
   "betmgm_brandx": [],
@@ -28422,6 +28717,123 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": null
+    }
+  ],
+  "ally_nwsl": [
+    {
+      "title": "The NWSL\u2019s biggest rivalries are taking center stage.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 53876,
+      "paidImpr": 52959,
+      "orgImpr": 917,
+      "views": 923,
+      "reach": 0,
+      "eng": 14,
+      "er": 0.03,
+      "spend": 0,
+      "watchTimeMin": 147.8,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 4.24,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/t5CR8aSU1mg",
+      "postedAt": "2026-07-10T11:35:33-07:00"
+    },
+    {
+      "title": "The NWSL\u2019s biggest rivalries are taking center stage. @ally is bringing NWSL Rivalry Week to life spotlighting some of t",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 41997,
+      "paidImpr": 31453,
+      "orgImpr": 10544,
+      "views": 41997,
+      "reach": 39940,
+      "eng": 1348,
+      "er": 3.21,
+      "spend": 189.52,
+      "watchTimeMin": 10.4,
+      "clicks": 43,
+      "ctr": 13.67,
+      "cpc": 4.41,
+      "cpm": 6.03,
+      "videoViews100Pct": 351,
+      "videoViews3s": 31396,
+      "url": "https://www.instagram.com/p/DaoDRk2hVoM/",
+      "postedAt": "2026-07-10T13:32:48-07:00"
+    },
+    {
+      "title": "The NWSL\u2019s biggest rivalries are taking center stage. @ally is bringing NWSL Rivalry Week to life spotlighting some of t",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 219252,
+      "paidImpr": 105423,
+      "orgImpr": 113829,
+      "views": 217479,
+      "reach": 770,
+      "eng": 101,
+      "er": 0.05,
+      "spend": 221.0,
+      "watchTimeMin": 2806.0,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 2.1,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7661001811087707406",
+      "postedAt": "2026-07-10T13:40:10-07:00"
+    },
+    {
+      "title": "The NWSL is a $2.6B league. Rivalry Week\u2014created with Ally\u2014is part of how it got there.   Presented by @Ally Bank, Membe",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 339561,
+      "paidImpr": 339561,
+      "orgImpr": 0,
+      "views": 339561,
+      "reach": 315014,
+      "eng": 174,
+      "er": 0.05,
+      "spend": 1132.37,
+      "watchTimeMin": null,
+      "clicks": 410,
+      "ctr": 12.07,
+      "cpc": 2.76,
+      "cpm": 3.33,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DaoFfH8AGNZ/",
+      "postedAt": "2026-07-10T13:48:30-07:00"
+    },
+    {
+      "title": "The NWSL's collective franchise value just hit $2.6 billion. Rivalry Week\u2014returning for its second year, co-created by A",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 436425,
+      "paidImpr": 436418,
+      "orgImpr": 7,
+      "views": 0,
+      "reach": 257623,
+      "eng": 44,
+      "er": 0.01,
+      "spend": 933.1,
+      "watchTimeMin": null,
+      "clicks": 732,
+      "ctr": 21.04,
+      "cpc": 1.27,
+      "cpm": 2.68,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1520280446778207/",
+      "postedAt": "2026-07-10T14:02:19-07:00"
     }
   ]
 };
@@ -28540,6 +28952,10 @@ window.UPLOAD_TARGETS = {
   ],
   "betmgm": [
     {
+      "file": "betmgm_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
       "file": "betmgm_x_ads.csv",
       "label": "X Ads"
     },
@@ -28580,6 +28996,10 @@ window.UPLOAD_TARGETS = {
     {
       "file": "prudential_yt_paid.csv",
       "label": "Google Ads"
+    },
+    {
+      "file": "prudential_meta_ads.csv",
+      "label": "Meta Ads"
     }
   ],
   "betmgm_brandx": [
@@ -28601,8 +29021,180 @@ window.UPLOAD_TARGETS = {
       "file": "att_brandx_meta_ads.csv",
       "label": "Meta Ads"
     }
-  ]
+  ],
+  "ally_nwsl": []
 };
+
+window.MS_GROUPS = [
+  {
+    "id": 6034,
+    "name": "Ally (Unrivaled)"
+  },
+  {
+    "id": 8154,
+    "name": "Ally - NWSL"
+  },
+  {
+    "id": 8097,
+    "name": "AT&T BrandX 2026"
+  },
+  {
+    "id": 8077,
+    "name": "BetMGM - World Cup - FOS Explains"
+  },
+  {
+    "id": 7751,
+    "name": "BetMGM - World Cup - Trend Report 1"
+  },
+  {
+    "id": 6037,
+    "name": "BetMGM FOS Explains"
+  },
+  {
+    "id": 6036,
+    "name": "BetMGM Winter Olympics"
+  },
+  {
+    "id": 7588,
+    "name": "Branded Article Promo"
+  },
+  {
+    "id": 6181,
+    "name": "Comcast Business 2026"
+  },
+  {
+    "id": 7198,
+    "name": "Elevate - Stadium Status"
+  },
+  {
+    "id": 7863,
+    "name": "FOS Explains"
+  },
+  {
+    "id": 6217,
+    "name": "Future of Sports: Cutdowns"
+  },
+  {
+    "id": 6111,
+    "name": "Future of Sports: Full Episodes"
+  },
+  {
+    "id": 7587,
+    "name": "Heineken x FOSN"
+  },
+  {
+    "id": 7176,
+    "name": "Morgan & Morgan"
+  },
+  {
+    "id": 6494,
+    "name": "Native Social Coverage - 2026 NFL Draft"
+  },
+  {
+    "id": 7433,
+    "name": "On Location x FIFA"
+  },
+  {
+    "id": 6012,
+    "name": "Portfolio Players S1"
+  },
+  {
+    "id": 6013,
+    "name": "Portfolio Players S2"
+  },
+  {
+    "id": 6008,
+    "name": "Portfolio Players S3"
+  },
+  {
+    "id": 7445,
+    "name": "Portfolio Players S3 - BrandX"
+  },
+  {
+    "id": 6197,
+    "name": "Portfolio Players S3 x E*TRADE"
+  },
+  {
+    "id": 7909,
+    "name": "Prudential"
+  },
+  {
+    "id": 6026,
+    "name": "Raising Cane's (Breakfast Ball 2026)"
+  },
+  {
+    "id": 7565,
+    "name": "RBC"
+  },
+  {
+    "id": 8042,
+    "name": "Red Card Green Flag"
+  },
+  {
+    "id": 6524,
+    "name": "Red Carpet Interviews"
+  },
+  {
+    "id": 6203,
+    "name": "Second Acts Live: Sue Bird"
+  },
+  {
+    "id": 6195,
+    "name": "Sling TV x March Madness"
+  },
+  {
+    "id": 7172,
+    "name": "Spectrum x NASCAR - DITL"
+  },
+  {
+    "id": 7723,
+    "name": "Spectrum x NASCAR - Small business (dark) cutdowns "
+  },
+  {
+    "id": 7722,
+    "name": "Spectrum x NASCAR - Small Business Highlight"
+  },
+  {
+    "id": 7784,
+    "name": "Spectrum x World Cup - Small Business Cutdowns"
+  },
+  {
+    "id": 7759,
+    "name": "Spectrum x World Cup - Small Business Highlight"
+  },
+  {
+    "id": 6235,
+    "name": "Sport Clips - MLB Minute"
+  },
+  {
+    "id": 7729,
+    "name": "Sport Clips - Off the Pitch"
+  },
+  {
+    "id": 6236,
+    "name": "State Farm: The Family Assist"
+  },
+  {
+    "id": 6216,
+    "name": "Tastytrade"
+  },
+  {
+    "id": 7711,
+    "name": "The Case Study (redo)"
+  },
+  {
+    "id": 6443,
+    "name": "The Come Up"
+  },
+  {
+    "id": 7515,
+    "name": "Thrivent"
+  },
+  {
+    "id": 6035,
+    "name": "Toyota Winter Olympics"
+  }
+];
 
 window.DATA_ARCHIVE = [
   {
@@ -28612,7 +29204,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28623,7 +29215,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28634,7 +29226,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28645,7 +29237,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28678,7 +29270,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -28689,7 +29281,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -28700,7 +29292,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -28711,7 +29303,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -28722,7 +29314,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -28733,7 +29325,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -28744,7 +29336,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -28755,7 +29347,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -28766,7 +29358,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -28777,7 +29369,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -28788,7 +29380,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -28799,7 +29391,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -28832,7 +29424,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -28843,7 +29435,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -28853,6 +29445,17 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
+    "fileSizeKb": 0.5,
+    "lastModified": "2026-06-18",
+    "exists": true,
+    "postsContributed": 1
+  },
+  {
+    "campaignId": "betmgm",
+    "partner": "BetMGM",
+    "sourceKind": "youtube_paid",
+    "sourceLabel": "Google Ads (YT Paid)",
+    "filename": "betmgm_yt_paid.csv",
     "fileSizeKb": 0.5,
     "lastModified": "2026-07-14",
     "exists": true,
@@ -28864,10 +29467,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
-    "fileSizeKb": 0.7,
+    "fileSizeKb": 0.9,
     "lastModified": "2026-07-14",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 4
   },
   {
     "campaignId": "betmgm",
@@ -28875,10 +29478,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
-    "fileSizeKb": 1.1,
+    "fileSizeKb": 1.3,
     "lastModified": "2026-07-14",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 4
   },
   {
     "campaignId": "state_farm",
@@ -28887,7 +29490,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -28898,7 +29501,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -28909,7 +29512,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -28920,7 +29523,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -28931,7 +29534,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -28942,7 +29545,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -28956,6 +29559,17 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 1
+  },
+  {
+    "campaignId": "prudential",
+    "partner": "Prudential",
+    "sourceKind": "meta_ads",
+    "sourceLabel": "Meta Ads",
+    "filename": "prudential_meta_ads.csv",
+    "fileSizeKb": 0.7,
+    "lastModified": "2026-07-14",
+    "exists": true,
+    "postsContributed": 2
   },
   {
     "campaignId": "betmgm_brandx",
@@ -28997,7 +29611,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-09",
     "exists": true,
     "postsContributed": 2
   }
@@ -30091,62 +30705,62 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.62,
-    "impressions": 53233730,
-    "paidImpressions": 52809034,
-    "pctOfTotal": 47.3,
+    "cpm": 0.69,
+    "impressions": 52910807,
+    "paidImpressions": 52486111,
+    "pctOfTotal": 46.6,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 17.5,
+    "mvmDeltaPct": 30.6,
     "color": "#E00922"
   },
   {
     "name": "X",
-    "cpm": 2.04,
-    "impressions": 14580240,
-    "paidImpressions": 12978758,
-    "pctOfTotal": 13.0,
+    "cpm": 2.05,
+    "impressions": 14706029,
+    "paidImpressions": 13104547,
+    "pctOfTotal": 12.9,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 64.6,
+    "mvmDeltaPct": 65.1,
     "color": "#1d1d1f"
+  },
+  {
+    "name": "Instagram",
+    "cpm": 5.13,
+    "impressions": 12893289,
+    "paidImpressions": 10808804,
+    "pctOfTotal": 11.3,
+    "mvmCpm": 5.62,
+    "mvmDeltaPct": -8.7,
+    "color": "#E4405F"
   },
   {
     "name": "TikTok",
     "cpm": 2.53,
-    "impressions": 12669940,
-    "paidImpressions": 9976980,
+    "impressions": 12889192,
+    "paidImpressions": 10082403,
     "pctOfTotal": 11.3,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 13.0,
+    "mvmDeltaPct": 12.8,
     "color": "#000000"
   },
   {
-    "name": "Instagram",
-    "cpm": 5.19,
-    "impressions": 12486348,
-    "paidImpressions": 10412407,
-    "pctOfTotal": 11.1,
-    "mvmCpm": 5.62,
-    "mvmDeltaPct": -7.6,
-    "color": "#E4405F"
-  },
-  {
     "name": "YouTube Shorts",
-    "cpm": 2.53,
-    "impressions": 10248087,
-    "paidImpressions": 10076135,
+    "cpm": 2.57,
+    "impressions": 10301963,
+    "paidImpressions": 10129094,
     "pctOfTotal": 9.1,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -21.0,
+    "mvmDeltaPct": -19.6,
     "color": "#FF0033"
   },
   {
     "name": "Facebook",
-    "cpm": 3.3,
-    "impressions": 7067345,
-    "paidImpressions": 7052980,
-    "pctOfTotal": 6.3,
+    "cpm": 3.29,
+    "impressions": 7433017,
+    "paidImpressions": 7418645,
+    "pctOfTotal": 6.5,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -21.4,
+    "mvmDeltaPct": -21.7,
     "color": "#1877F2"
   },
   {
@@ -30161,17 +30775,17 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 12.78,
-    "impressions": 837471,
-    "paidImpressions": 837471,
-    "pctOfTotal": 0.7,
+    "cpm": 11.55,
+    "impressions": 1160390,
+    "paidImpressions": 1160390,
+    "pctOfTotal": 1.0,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 7.3,
+    "mvmDeltaPct": -3.1,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 1.9;
+window.PORTFOLIO_CPM_BLEND = 1.98;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
