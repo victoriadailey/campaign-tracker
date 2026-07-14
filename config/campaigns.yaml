@@ -1095,3 +1095,23 @@ campaigns:
         - att_brandx_meta_ads.csv
       x_ads:
         - att_brandx_x_ads.csv
+
+  - id: ally_nwsl
+    partner: Ally
+    series: Ally
+    type: social
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-07-01
+    flight_end: 2026-09-30
+    impression_goal: 4500000
+    budget_goal: 13000
+    color: ft-5
+    blurb: "NWSL & Fanatics custom content including 3 correspondent-led videos and 1 carousel post.  "
+    ms_post_groups:
+      - "Ally - NWSL"
+    sources:
+      youtube_paid:
+        - State Farm - Google Ads.csv
+      x_ads:
+        - State Farm - X ads.csv
