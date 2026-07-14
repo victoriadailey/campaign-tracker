@@ -787,21 +787,36 @@ campaigns:
         exclude: []
         impression_goal: 1_500_000
         budget_goal: 6_400
-    # Red Card / Green Flag is DARK. Its Facebook + Instagram numbers come from
-    # the Meta export (accurate paid delivery); MS group 8042 over-reports FB on
-    # the same dark ad, so drop MS 8042's FB + IG posts by native id — but keep
-    # its YouTube Short (-aFklAAQ9Js) so the GAds RCGF short pairs to it
-    # (instead of mis-pairing onto a FOSN short via sorted-rank). The FB/IG posts
-    # carry no title, only a shared description, so we can't key off text.
+    # Red Card / Green Flag is fully DARK (paid), across BOTH of its videos.
+    # Sourcing per video:
+    #   Video 1 — YT from Google Ads (352K), FB+IG from the Meta export. MS 8042
+    #             over-reports FB on this dark ad, so drop MS 8042's Video-1 FB+IG
+    #             posts by native id and use the Meta export instead.
+    #   Video 2 — YT from Google Ads (194K), FB+IG from Measure (group 8042). The
+    #             team removed Video 2 from the Meta export to avoid double-count,
+    #             so its FB/IG comes from MS — keep those posts.
+    # The MS YT shorts (-aFklAAQ9Js = V1, cumisrPzJ-U = V2) are kept as pairing
+    # anchors so each GAds RCGF row merges onto its own short (not a FOSN short).
     exclude:
-      - "1512716967534555"    # MS 8042 RCGF Facebook (use Meta export instead)
-      - "3932495664965122403" # MS 8042 RCGF Instagram (use Meta export instead)
+      - "1512716967534555"    # MS 8042 RCGF Video-1 Facebook (use Meta export instead)
+      - "3932495664965122403" # MS 8042 RCGF Video-1 Instagram (use Meta export instead)
+    # The GAds "Heineken_RedCardGreenFlag_Video1" row has no "(shorts)" tag, so it
+    # was classified in-feed and showed as a SECOND YT post duplicating the MS
+    # short -aFklAAQ9Js. Force it to Shorts so it merges onto that short instead.
+    youtube_paid_shorts:
+      - "RedCardGreenFlag_Video1"
+    # RCGF is dark — show its MS posts as paid-only (no organic+boosted split).
+    paid_only_post_ids:
+      - "-aFklAAQ9Js"           # V1 YouTube short (anchor for GAds V1)
+      - "cumisrPzJ-U"           # V2 YouTube short (anchor for GAds V2)
+      - "1518368396969412"      # V2 Facebook (dark, from Measure)
+      - "3936824922667590577"   # V2 Instagram (dark, from Measure)
     sources:
       measure_studio_group_ids:
         - 7587                              # Heineken x FOSN (editorial, organic)
-        - 8042                              # Red Card / Green Flag (YT short only, post-exclude)
+        - 8042                              # Red Card / Green Flag (both videos, dark)
       youtube_paid:
-        - heineken_yt_paid.csv              # FOSN shorts + RCGF short (dark)
+        - heineken_yt_paid.csv              # FOSN shorts + RCGF V1/V2 shorts (dark)
       meta_ads:
         - heineken_meta_ads.csv             # RCGF Video 1 dark ads (FB + IG)
 

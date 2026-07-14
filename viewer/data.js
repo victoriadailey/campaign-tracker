@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-14T17:48:25Z";
+window.LAST_REFRESHED = "2026-07-14T19:19:55Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:54Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:54Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:54Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:54Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:54Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:54Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:54Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1653,7 +1653,7 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2926795,
+      "delivered": 2831125,
       "goal": 3500000
     },
     "budget": {
@@ -1663,13 +1663,13 @@ window.CAMPAIGNS = [
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "Facebook",
-    "er": 2.7,
-    "cpm": 3.73,
+    "er": 2.8,
+    "cpm": 3.85,
     "episodes": 2,
-    "posts": 19,
+    "posts": 18,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 2722306,
-    "engagements": 79656,
+    "views": 2207609,
+    "engagements": 79549,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 1201713,
+        "impressions": 1201705,
         "eng": 3316,
         "er": 0.28,
         "cpm": 3.74,
@@ -1687,24 +1687,24 @@ window.CAMPAIGNS = [
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 2716,
+        "organicImpressions": 2708,
         "views": 1129843
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 762395,
-        "eng": 38420,
-        "er": 5.04,
-        "cpm": 2.58,
+        "impressions": 1018837,
+        "eng": 67156,
+        "er": 6.59,
+        "cpm": 2.96,
         "color": "#FF0033",
-        "delta": -74.8,
+        "delta": -67.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 10963,
-        "views": 965947
+        "organicImpressions": 10907,
+        "views": 467183
       },
       {
         "name": "Instagram",
@@ -1721,22 +1721,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 13402,
         "views": 610517
-      },
-      {
-        "name": "YouTube In-feed",
-        "italic": "YouTube In-feed",
-        "impressions": 352104,
-        "eng": 28843,
-        "er": 8.19,
-        "cpm": 2.98,
-        "color": "#E00922",
-        "delta": 1538.3,
-        "bench": {
-          "er": 0.5,
-          "cpm": 0.55
-        },
-        "organicImpressions": 0,
-        "views": 15933
       },
       {
         "name": "Instagram Stories",
@@ -1790,34 +1774,26 @@ window.CAMPAIGNS = [
       }
     ],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "YouTube In-feed CPM at $2.98 \u2014 5.4\u00d7 the benchmark.",
-        "body": "$2.98 CPM vs. $0.55 FOS benchmark. At 5.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "Heineken \u00b7 YouTube In-feed"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [
       {
         "label": "FOSN x Heineken",
         "impressions": {
-          "delivered": 1102239,
+          "delivered": 1199387,
           "goal": 2000000
         }
       },
       {
         "label": "Red Card / Green Flag",
         "impressions": {
-          "delivered": 1824556,
+          "delivered": 1631738,
           "goal": 1500000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:55Z",
     "lastUpdatedExports": "2026-07-13T20:00:43Z"
   },
   {
@@ -2214,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:55Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2362,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:55Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2547,7 +2523,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:55Z",
     "lastUpdatedExports": "2026-07-14T17:46:42Z"
   },
   {
@@ -2823,7 +2799,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:55Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3206,7 +3182,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:55Z",
     "lastUpdatedExports": "2026-07-14T17:46:42Z"
   },
   {
@@ -3471,7 +3447,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-14T17:48:25Z",
+    "lastUpdatedMs": "2026-07-14T19:19:55Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -3710,8 +3686,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 77762712,
-    "eng": 1299306,
+    "impressions": 77667050,
+    "eng": 1299199,
     "er": 1.67,
     "cpm": 0.98,
     "color": "#E00922",
@@ -3721,7 +3697,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 11392043
+    "views": 10877346
   },
   {
     "name": "X",
@@ -3774,7 +3750,7 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7570084,
+    "impressions": 7570076,
     "eng": 11918,
     "er": 0.16,
     "cpm": 3.25,
@@ -3886,11 +3862,11 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "YouTube In-feed CPM at $2.98 \u2014 5.4\u00d7 the benchmark.",
-    "body": "$2.98 CPM vs. $0.55 FOS benchmark. At 5.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "Heineken \u00b7 YouTube In-feed",
-    "campaignId": "heineken",
-    "campaignPartner": "Heineken"
+    "headline": "X CPM at $3.76 \u2014 3.4\u00d7 the benchmark.",
+    "body": "$3.76 CPM vs. $1.10 FOS benchmark. At 3.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "meta": "Microsoft \u00b7 X",
+    "campaignId": "microsoft",
+    "campaignPartner": "Microsoft"
   }
 ];
 
@@ -13904,11 +13880,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Editorial Video \u2014 FOS NEWS",
       "date": "May 2026",
       "total": {
-        "impr": 1102239,
+        "impr": 1199387,
         "views": 1142637,
-        "er": 2.92,
-        "eng": 32200,
-        "spend": 4610.69
+        "er": 3.32,
+        "eng": 39831,
+        "spend": 5110.43
       },
       "perChannel": [
         {
@@ -13929,16 +13905,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 375857,
-          "paidImpr": 364950,
+          "impr": 473005,
+          "paidImpr": 462098,
           "orgImpr": 10907,
           "views": 445838,
-          "eng": 20025,
-          "paidEng": 19791,
+          "eng": 27656,
+          "paidEng": 27422,
           "orgEng": 234,
-          "er": 5.33,
-          "cpm": 2.08,
-          "spend": 759.6,
+          "er": 5.85,
+          "cpm": 2.73,
+          "spend": 1259.34,
           "posts": 3
         },
         {
@@ -13978,13 +13954,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 79506,
-          "paidImpr": 77802,
+          "impr": 193246,
+          "paidImpr": 191542,
           "orgImpr": 1704,
           "views": 190507,
-          "eng": 4313,
-          "er": 5.42,
-          "spend": 259.79,
+          "eng": 15704,
+          "er": 8.13,
+          "spend": 499.81,
           "url": "https://www.youtube.com/shorts/XezU0JmLlvw",
           "postedAt": "2026-05-29T14:13:38-07:00"
         },
@@ -14068,13 +14044,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 200152,
-          "paidImpr": 191542,
+          "impr": 201364,
+          "paidImpr": 192754,
           "orgImpr": 8610,
           "views": 190014,
-          "eng": 15668,
-          "er": 7.83,
-          "spend": 499.81,
+          "eng": 7708,
+          "er": 3.83,
+          "spend": 499.74,
           "url": "https://www.youtube.com/shorts/5K2Ao9Vo5mU",
           "postedAt": "2026-06-15T14:41:22-07:00"
         },
@@ -14128,13 +14104,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News ",
           "distKind": "organic+boosted",
-          "impr": 96199,
-          "paidImpr": 95606,
+          "impr": 78395,
+          "paidImpr": 77802,
           "orgImpr": 593,
           "views": 65317,
-          "eng": 44,
-          "er": 0.05,
-          "spend": 0,
+          "eng": 4244,
+          "er": 5.41,
+          "spend": 259.79,
           "url": "https://www.youtube.com/shorts/CezO4j556cU",
           "postedAt": "2026-07-09T07:00:01-07:00"
         },
@@ -14179,23 +14155,23 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Red Card / Green Flag \u2014 FOS Main",
       "date": "Jul 2026",
       "total": {
-        "impr": 1824556,
-        "views": 1579669,
-        "er": 2.6,
-        "eng": 47456,
-        "spend": 6192.29
+        "impr": 1631738,
+        "views": 1064972,
+        "er": 2.43,
+        "eng": 39718,
+        "spend": 5692.55
       },
       "perChannel": [
         {
           "name": "Facebook",
-          "distKind": "organic+boosted",
-          "impr": 960124,
+          "distKind": "paid",
+          "impr": 960116,
           "paidImpr": 960116,
-          "orgImpr": 8,
+          "orgImpr": 0,
           "views": 917837,
           "eng": 215,
-          "paidEng": 0,
-          "orgEng": 215,
+          "paidEng": 215,
+          "orgEng": 0,
           "er": 0.02,
           "cpm": 3.51,
           "spend": 3373.02,
@@ -14203,33 +14179,18 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "name": "YouTube Shorts",
-          "distKind": "organic+boosted",
-          "impr": 386538,
-          "paidImpr": 386482,
-          "orgImpr": 56,
-          "views": 520109,
-          "eng": 18395,
-          "paidEng": 18288,
-          "orgEng": 107,
-          "er": 4.76,
-          "cpm": 3.04,
-          "spend": 1175.88,
-          "posts": 2
-        },
-        {
-          "name": "YouTube In-feed",
           "distKind": "paid",
-          "impr": 352104,
-          "paidImpr": 352104,
+          "impr": 545832,
+          "paidImpr": 545832,
           "orgImpr": 0,
-          "views": 15933,
-          "eng": 28843,
-          "paidEng": 28843,
+          "views": 21345,
+          "eng": 39500,
+          "paidEng": 39500,
           "orgEng": 0,
-          "er": 8.19,
-          "cpm": 2.98,
-          "spend": 1049.74,
-          "posts": 1
+          "er": 7.24,
+          "cpm": 3.16,
+          "spend": 1725.88,
+          "posts": 2
         },
         {
           "name": "Instagram",
@@ -14239,8 +14200,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgImpr": 0,
           "views": 125790,
           "eng": 3,
-          "paidEng": 0,
-          "orgEng": 3,
+          "paidEng": 3,
+          "orgEng": 0,
           "er": 0.0,
           "cpm": 4.72,
           "spend": 593.65,
@@ -14249,9 +14210,9 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "posts": [
         {
-          "title": "Heineken_RedCardGreenFlag_Video1",
-          "platform": "YouTube In-feed",
-          "accountName": null,
+          "title": "Red Card or Green Flag? World Cup Fan Edition",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
           "distKind": "paid",
           "impr": 352104,
           "paidImpr": 352104,
@@ -14260,21 +14221,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "eng": 28843,
           "er": 8.19,
           "spend": 1049.74,
-          "url": null,
-          "postedAt": null
-        },
-        {
-          "title": "Red Card or Green Flag? World Cup Fan Edition",
-          "platform": "YouTube Shorts",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 193780,
-          "paidImpr": 193728,
-          "orgImpr": 52,
-          "views": 343728,
-          "eng": 10724,
-          "er": 5.53,
-          "spend": 676.14,
           "url": "https://www.youtube.com/shorts/-aFklAAQ9Js",
           "postedAt": "2026-07-02T09:45:13-07:00"
         },
@@ -14282,14 +14228,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "Have you ever called out of work to watch a soccer game?",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 192758,
-          "paidImpr": 192754,
-          "orgImpr": 4,
-          "views": 176381,
-          "eng": 7671,
-          "er": 3.98,
-          "spend": 499.74,
+          "distKind": "paid",
+          "impr": 193728,
+          "paidImpr": 193728,
+          "orgImpr": 0,
+          "views": 5412,
+          "eng": 10657,
+          "er": 5.5,
+          "spend": 676.14,
           "url": "https://www.youtube.com/shorts/cumisrPzJ-U",
           "postedAt": "2026-07-08T08:47:42-07:00"
         },
@@ -14297,10 +14243,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "Have you ever called out of work to watch a soccer game? We hit the bars to find out how committed World Cup fans really",
           "platform": "Facebook",
           "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 645359,
+          "distKind": "paid",
+          "impr": 645351,
           "paidImpr": 645351,
-          "orgImpr": 8,
+          "orgImpr": 0,
           "views": 603072,
           "eng": 215,
           "er": 0.03,
@@ -25557,19 +25503,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 79506,
-      "paidImpr": 77802,
+      "impr": 193246,
+      "paidImpr": 191542,
       "orgImpr": 1704,
       "views": 190507,
       "reach": 0,
-      "eng": 4313,
-      "er": 5.42,
-      "spend": 259.79,
+      "eng": 15704,
+      "er": 8.13,
+      "spend": 499.81,
       "watchTimeMin": 17039.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.34,
+      "cpm": 2.61,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/XezU0JmLlvw",
@@ -25695,19 +25641,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 200152,
-      "paidImpr": 191542,
+      "impr": 201364,
+      "paidImpr": 192754,
       "orgImpr": 8610,
       "views": 190014,
       "reach": 0,
-      "eng": 15668,
-      "er": 7.83,
-      "spend": 499.81,
+      "eng": 7708,
+      "er": 3.83,
+      "spend": 499.74,
       "watchTimeMin": 13322.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.61,
+      "cpm": 2.59,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/5K2Ao9Vo5mU",
@@ -25787,19 +25733,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 96199,
-      "paidImpr": 95606,
+      "impr": 78395,
+      "paidImpr": 77802,
       "orgImpr": 593,
       "views": 65317,
       "reach": 0,
-      "eng": 44,
-      "er": 0.05,
-      "spend": 0,
+      "eng": 4244,
+      "er": 5.41,
+      "spend": 259.79,
       "watchTimeMin": 5924.0,
       "clicks": 5,
       "ctr": 5.23,
       "cpc": 63.13,
-      "cpm": 3.3,
+      "cpm": 3.34,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/CezO4j556cU",
@@ -25829,9 +25775,9 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-09T07:00:40-07:00"
     },
     {
-      "title": "Heineken_RedCardGreenFlag_Video1",
-      "platform": "YouTube In-feed",
-      "accountName": null,
+      "title": "Red Card or Green Flag? World Cup Fan Edition",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
       "distKind": "paid",
       "impr": 352104,
       "paidImpr": 352104,
@@ -25841,34 +25787,11 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 28843,
       "er": 8.19,
       "spend": 1049.74,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.98,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "Red Card or Green Flag? World Cup Fan Edition",
-      "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 193780,
-      "paidImpr": 193728,
-      "orgImpr": 52,
-      "views": 343728,
-      "reach": 0,
-      "eng": 10724,
-      "er": 5.53,
-      "spend": 676.14,
       "watchTimeMin": 30678.9,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.49,
+      "cpm": 2.98,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/-aFklAAQ9Js",
@@ -25878,20 +25801,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "Have you ever called out of work to watch a soccer game?",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 192758,
-      "paidImpr": 192754,
-      "orgImpr": 4,
-      "views": 176381,
+      "distKind": "paid",
+      "impr": 193728,
+      "paidImpr": 193728,
+      "orgImpr": 0,
+      "views": 5412,
       "reach": 0,
-      "eng": 7671,
-      "er": 3.98,
-      "spend": 499.74,
+      "eng": 10657,
+      "er": 5.5,
+      "spend": 676.14,
       "watchTimeMin": 11278.7,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.59,
+      "cpm": 3.49,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/cumisrPzJ-U",
@@ -25901,10 +25824,10 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "Have you ever called out of work to watch a soccer game? We hit the bars to find out how committed World Cup fans really",
       "platform": "Facebook",
       "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 645359,
+      "distKind": "paid",
+      "impr": 645351,
       "paidImpr": 645351,
-      "orgImpr": 8,
+      "orgImpr": 0,
       "views": 603072,
       "reach": 325508,
       "eng": 215,
@@ -29204,7 +29127,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29215,7 +29138,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29226,7 +29149,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29237,7 +29160,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29270,7 +29193,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -29281,7 +29204,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -29292,7 +29215,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -29303,7 +29226,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -29314,7 +29237,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -29325,7 +29248,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -29336,7 +29259,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -29347,7 +29270,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -29358,7 +29281,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -29369,7 +29292,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29380,7 +29303,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -29391,7 +29314,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -29404,7 +29327,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.7,
     "lastModified": "2026-07-14",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 0
   },
   {
     "campaignId": "heineken",
@@ -29424,7 +29347,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -29435,7 +29358,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -29446,7 +29369,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -29490,7 +29413,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -29501,7 +29424,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -29512,7 +29435,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -29523,7 +29446,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -29534,7 +29457,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -29545,7 +29468,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -29611,7 +29534,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-14",
+    "lastModified": "2026-07-09",
     "exists": true,
     "postsContributed": 2
   }
@@ -30705,12 +30628,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.69,
-    "impressions": 52910807,
-    "paidImpressions": 52486111,
-    "pctOfTotal": 46.6,
+    "cpm": 0.68,
+    "impressions": 52558703,
+    "paidImpressions": 52134007,
+    "pctOfTotal": 46.3,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 30.6,
+    "mvmDeltaPct": 27.7,
     "color": "#E00922"
   },
   {
@@ -30718,7 +30641,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.05,
     "impressions": 14706029,
     "paidImpressions": 13104547,
-    "pctOfTotal": 12.9,
+    "pctOfTotal": 13.0,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 65.1,
     "color": "#1d1d1f"
@@ -30728,7 +30651,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.13,
     "impressions": 12893289,
     "paidImpressions": 10808804,
-    "pctOfTotal": 11.3,
+    "pctOfTotal": 11.4,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -8.7,
     "color": "#E4405F"
@@ -30738,25 +30661,25 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.53,
     "impressions": 12889192,
     "paidImpressions": 10082403,
-    "pctOfTotal": 11.3,
+    "pctOfTotal": 11.4,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 12.8,
     "color": "#000000"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.57,
-    "impressions": 10301963,
-    "paidImpressions": 10129094,
-    "pctOfTotal": 9.1,
+    "cpm": 2.61,
+    "impressions": 10558405,
+    "paidImpressions": 10385592,
+    "pctOfTotal": 9.3,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -19.6,
+    "mvmDeltaPct": -18.4,
     "color": "#FF0033"
   },
   {
     "name": "Facebook",
     "cpm": 3.29,
-    "impressions": 7433017,
+    "impressions": 7433009,
     "paidImpressions": 7418645,
     "pctOfTotal": 6.5,
     "mvmCpm": 4.2,
