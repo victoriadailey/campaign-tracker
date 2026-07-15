@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-15T18:29:03Z";
+window.LAST_REFRESHED = "2026-07-15T18:55:12Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:11Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:11Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:11Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:11Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:11Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:11Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:11Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:12Z",
     "lastUpdatedExports": "2026-07-15T17:26:25Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:12Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:12Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:12Z",
     "lastUpdatedExports": "2026-07-15T13:44:56Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:12Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
+    "lastUpdatedMs": "2026-07-15T18:55:12Z",
     "lastUpdatedExports": "2026-07-14T17:46:42Z"
   },
   {
@@ -3332,23 +3332,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1903821,
+      "delivered": 1949748,
       "goal": 4500000
     },
     "budget": {
-      "delivered": 4207.21,
+      "delivered": 4954.28,
       "goal": 13000.0
     },
     "color": "ft-5",
     "leadFormat": "Social Video",
     "topChannel": "Facebook",
-    "er": 0.2,
-    "cpm": 2.57,
+    "er": 0.9,
+    "cpm": 2.94,
     "episodes": 0,
     "posts": 5,
     "blurb": "NWSL & Fanatics custom content \u2014 3 correspondent-led videos + 1 carousel post.",
     "views": 1188653,
-    "engagements": 4025,
+    "engagements": 18483,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3404,12 +3404,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 171242,
-        "eng": 49,
-        "er": 0.03,
-        "cpm": 0.0,
+        "impressions": 217169,
+        "eng": 14507,
+        "er": 6.68,
+        "cpm": 3.46,
         "color": "#FF0033",
-        "delta": -99.9,
+        "delta": -66.6,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -3456,16 +3456,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "Campaign averaging 0.20% ER \u2014 below the 1% floor.",
-        "body": "0.20% engagement rate across 1.9M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "headline": "Campaign averaging 0.90% ER \u2014 below the 1% floor.",
+        "body": "0.90% engagement rate across 1.9M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Ally \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T18:29:03Z",
-    "lastUpdatedExports": ""
+    "lastUpdatedMs": "2026-07-15T18:55:12Z",
+    "lastUpdatedExports": "2026-07-15T14:38:45Z"
   }
 ];
 
@@ -3703,12 +3703,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 77847562,
-    "eng": 1302432,
-    "er": 1.67,
-    "cpm": 0.98,
+    "impressions": 77893489,
+    "eng": 1316890,
+    "er": 1.69,
+    "cpm": 0.99,
     "color": "#E00922",
-    "delta": -91.6,
+    "delta": -91.5,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -28765,19 +28765,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 171242,
-      "paidImpr": 170091,
+      "impr": 217169,
+      "paidImpr": 216018,
       "orgImpr": 1151,
       "views": 51476,
       "reach": 0,
-      "eng": 49,
-      "er": 0.03,
-      "spend": 0,
+      "eng": 14507,
+      "er": 6.68,
+      "spend": 747.07,
       "watchTimeMin": 2516.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.55,
+      "cpm": 3.46,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/t5CR8aSU1mg",
@@ -29062,7 +29062,12 @@ window.UPLOAD_TARGETS = {
       "label": "Meta Ads"
     }
   ],
-  "ally_nwsl": []
+  "ally_nwsl": [
+    {
+      "file": "ally_nwsl_yt_paid.csv",
+      "label": "Google Ads"
+    }
+  ]
 };
 
 window.MS_GROUPS = [
@@ -29244,7 +29249,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29255,7 +29260,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29266,7 +29271,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29277,7 +29282,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29288,7 +29293,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "portfolio_players_yt_paid.csv",
     "fileSizeKb": 6.2,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 11
   },
@@ -29299,7 +29304,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
     "fileSizeKb": 6.3,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 0
   },
@@ -29310,7 +29315,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -29321,7 +29326,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -29332,7 +29337,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -29343,7 +29348,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -29354,7 +29359,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -29365,7 +29370,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -29376,7 +29381,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -29387,7 +29392,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -29398,7 +29403,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -29409,7 +29414,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -29420,7 +29425,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -29431,7 +29436,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -29464,7 +29469,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -29475,7 +29480,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -29486,7 +29491,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -29497,7 +29502,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "betmgm_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 1
   },
@@ -29530,7 +29535,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -29541,7 +29546,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -29552,7 +29557,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -29563,7 +29568,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -29574,7 +29579,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -29585,7 +29590,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -29596,7 +29601,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "prudential_yt_paid.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 1
   },
@@ -29607,7 +29612,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "prudential_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 2
   },
@@ -29651,9 +29656,20 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-15",
+    "lastModified": "2026-07-09",
     "exists": true,
     "postsContributed": 2
+  },
+  {
+    "campaignId": "ally_nwsl",
+    "partner": "Ally",
+    "sourceKind": "youtube_paid",
+    "sourceLabel": "Google Ads (YT Paid)",
+    "filename": "ally_nwsl_yt_paid.csv",
+    "fileSizeKb": 0.3,
+    "lastModified": "2026-07-15",
+    "exists": true,
+    "postsContributed": 0
   }
 ];
 
@@ -30785,12 +30801,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.58,
-    "impressions": 10733917,
-    "paidImpressions": 10559825,
+    "cpm": 2.64,
+    "impressions": 10779844,
+    "paidImpressions": 10605752,
     "pctOfTotal": 9.4,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -19.3,
+    "mvmDeltaPct": -17.4,
     "color": "#FF0033"
   },
   {

@@ -1143,7 +1143,15 @@ campaigns:
     color: ft-5
     lead_format: Social Video
     blurb: "NWSL & Fanatics custom content — 3 correspondent-led videos + 1 carousel post."
+    # The Google Ads YT short ("Ally: NWSL Rivalry Week Green Screen Video") is
+    # named for the creative, not a token MS shares, so pair GAds↔MS by sorted
+    # impressions within the Shorts subtype (there's one YT short on each side).
+    yt_paired_by_sort: true
     sources:
       # Organic editorial → Measure Studio group "Ally - NWSL" (8154).
       measure_studio_group_ids:
         - 8154
+      # Google Ads paid YT short (in-feed/shorts buy). Upload via the Ally card's
+      # Google Ads target → saves as ally_nwsl_yt_paid.csv.
+      youtube_paid:
+        - ally_nwsl_yt_paid.csv
