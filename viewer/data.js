@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-15T12:21:01Z";
+window.LAST_REFRESHED = "2026-07-15T13:46:16Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-07-13T20:00:43Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2353,7 +2353,7 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 7904869,
+      "delivered": 8002268,
       "goal": 5100000
     },
     "budget": {
@@ -2364,12 +2364,12 @@ window.CAMPAIGNS = [
     "leadFormat": "Made for Social",
     "topChannel": "YouTube",
     "er": 1.1,
-    "cpm": 1.41,
+    "cpm": 1.39,
     "episodes": 2,
     "posts": 16,
     "blurb": "BetMGM x World Cup \u2014 a FOS Explains full episode + cutdown (on the World Cup betting boom) plus dark native social posts running paid on Instagram and X.",
-    "views": 828335,
-    "engagements": 347711,
+    "views": 925734,
+    "engagements": 347739,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -2425,18 +2425,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 320419,
-        "eng": 260,
-        "er": 0.08,
-        "cpm": 5.09,
+        "impressions": 417818,
+        "eng": 288,
+        "er": 0.07,
+        "cpm": 3.89,
         "color": "#E4405F",
-        "delta": -97.5,
+        "delta": -97.9,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 5779,
-        "views": 320419
+        "views": 417818
       },
       {
         "name": "YouTube Shorts",
@@ -2535,13 +2535,13 @@ window.CAMPAIGNS = [
       {
         "label": "Native Social",
         "impressions": {
-          "delivered": 898405,
+          "delivered": 995804,
           "goal": 1800000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
-    "lastUpdatedExports": "2026-07-14T17:46:42Z"
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
+    "lastUpdatedExports": "2026-07-15T13:44:55Z"
   },
   {
     "id": "state_farm",
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": "2026-07-14T17:46:42Z"
   },
   {
@@ -3464,7 +3464,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T12:21:01Z",
+    "lastUpdatedMs": "2026-07-15T13:46:16Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -3735,18 +3735,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 14857119,
-    "eng": 238452,
-    "er": 1.6,
-    "cpm": 5.04,
+    "impressions": 14954518,
+    "eng": 238480,
+    "er": 1.59,
+    "cpm": 5.0,
     "color": "#E4405F",
-    "delta": -51.5,
+    "delta": -51.8,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 14857119
+    "views": 14954518
   },
   {
     "name": "TikTok",
@@ -15611,10 +15611,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Native Social",
       "date": "Feb 2026",
       "total": {
-        "impr": 898405,
-        "views": 225869,
-        "er": 0.24,
-        "eng": 2150,
+        "impr": 995804,
+        "views": 323268,
+        "er": 0.22,
+        "eng": 2178,
         "spend": 2643.0
       },
       "perChannel": [
@@ -15636,15 +15636,15 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 225869,
-          "paidImpr": 225869,
+          "impr": 323268,
+          "paidImpr": 323268,
           "orgImpr": 0,
-          "views": 225869,
-          "eng": 71,
-          "paidEng": 71,
+          "views": 323268,
+          "eng": 99,
+          "paidEng": 99,
           "orgEng": 0,
           "er": 0.03,
-          "cpm": 3.98,
+          "cpm": 2.78,
           "spend": 898.95,
           "posts": 3
         }
@@ -15711,6 +15711,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": null
         },
         {
+          "title": "BetMGM - World Cup - Native Social 3",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 114049,
+          "paidImpr": 114049,
+          "orgImpr": 0,
+          "views": 114049,
+          "eng": 31,
+          "er": 0.03,
+          "spend": 65.96,
+          "url": null,
+          "postedAt": null
+        },
+        {
           "title": "BetMGM - World Cup - Native Social 1",
           "platform": "Instagram",
           "accountName": null,
@@ -15722,21 +15737,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "eng": 25,
           "er": 0.03,
           "spend": 333.0,
-          "url": null,
-          "postedAt": null
-        },
-        {
-          "title": "BetMGM - World Cup - Native Social 3",
-          "platform": "Instagram",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 16650,
-          "paidImpr": 16650,
-          "orgImpr": 0,
-          "views": 16650,
-          "eng": 3,
-          "er": 0.02,
-          "spend": 65.96,
           "url": null,
           "postedAt": null
         }
@@ -27324,6 +27324,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
+      "title": "BetMGM - World Cup - Native Social 3",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 114049,
+      "paidImpr": 114049,
+      "orgImpr": 0,
+      "views": 114049,
+      "reach": 15472,
+      "eng": 31,
+      "er": 0.03,
+      "spend": 65.96,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 0.58,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "BetMGM - World Cup - Native Social 1",
       "platform": "Instagram",
       "accountName": null,
@@ -27341,29 +27364,6 @@ window.POSTS_BY_CAMPAIGN = {
       "ctr": null,
       "cpc": null,
       "cpm": 3.7,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "BetMGM - World Cup - Native Social 3",
-      "platform": "Instagram",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 16650,
-      "paidImpr": 16650,
-      "orgImpr": 0,
-      "views": 16650,
-      "reach": 15472,
-      "eng": 3,
-      "er": 0.02,
-      "spend": 65.96,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 3.96,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -30683,12 +30683,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 5.13,
-    "impressions": 13113465,
-    "paidImpressions": 11027579,
+    "cpm": 5.09,
+    "impressions": 13210864,
+    "paidImpressions": 11124978,
     "pctOfTotal": 11.5,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -8.7,
+    "mvmDeltaPct": -9.5,
     "color": "#E4405F"
   },
   {
