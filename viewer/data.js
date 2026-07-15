@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-15T17:27:24Z";
+window.LAST_REFRESHED = "2026-07-15T18:08:13Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:12Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:12Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:12Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:12Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:12Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:12Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1663,13 +1663,13 @@ window.CAMPAIGNS = [
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "Facebook",
-    "er": 2.8,
+    "er": 2.9,
     "cpm": 3.87,
     "episodes": 2,
     "posts": 18,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
     "views": 2253884,
-    "engagements": 82964,
+    "engagements": 84065,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1678,11 +1678,11 @@ window.CAMPAIGNS = [
         "name": "Facebook",
         "italic": "book",
         "impressions": 1215157,
-        "eng": 3406,
-        "er": 0.28,
+        "eng": 4406,
+        "er": 0.36,
         "cpm": 3.77,
         "color": "#1877F2",
-        "delta": -81.7,
+        "delta": -76.3,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
@@ -1710,11 +1710,11 @@ window.CAMPAIGNS = [
         "name": "Instagram",
         "italic": "gram",
         "impressions": 642181,
-        "eng": 9446,
-        "er": 1.47,
+        "eng": 9547,
+        "er": 1.49,
         "cpm": 5.59,
         "color": "#E4405F",
-        "delta": -55.6,
+        "delta": -55.1,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
@@ -1793,8 +1793,8 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
-    "lastUpdatedExports": "2026-07-15T17:26:24Z"
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
+    "lastUpdatedExports": "2026-07-15T17:26:25Z"
   },
   {
     "id": "rbc_tst",
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
     "lastUpdatedExports": "2026-07-15T13:44:56Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
     "lastUpdatedExports": "2026-07-14T17:46:42Z"
   },
   {
@@ -3464,7 +3464,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-15T17:27:23Z",
+    "lastUpdatedMs": "2026-07-15T18:08:13Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -3736,8 +3736,8 @@ window.CHANNELS = [
     "name": "Instagram",
     "italic": "gram",
     "impressions": 14955387,
-    "eng": 238480,
-    "er": 1.59,
+    "eng": 238581,
+    "er": 1.6,
     "cpm": 5.0,
     "color": "#E4405F",
     "delta": -51.8,
@@ -3768,11 +3768,11 @@ window.CHANNELS = [
     "name": "Facebook",
     "italic": "book",
     "impressions": 7735775,
-    "eng": 12023,
-    "er": 0.16,
+    "eng": 13023,
+    "er": 0.17,
     "cpm": 3.24,
     "color": "#1877F2",
-    "delta": -89.8,
+    "delta": -89.0,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
@@ -14174,8 +14174,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1631751,
         "views": 1064993,
-        "er": 2.43,
-        "eng": 39721,
+        "er": 2.5,
+        "eng": 40822,
         "spend": 5692.57
       },
       "perChannel": [
@@ -14186,10 +14186,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 960135,
           "orgImpr": 0,
           "views": 917856,
-          "eng": 215,
-          "paidEng": 215,
+          "eng": 1215,
+          "paidEng": 1215,
           "orgEng": 0,
-          "er": 0.02,
+          "er": 0.13,
           "cpm": 3.51,
           "spend": 3373.06,
           "posts": 2
@@ -14216,10 +14216,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 125790,
           "orgImpr": 0,
           "views": 125790,
-          "eng": 3,
-          "paidEng": 3,
+          "eng": 104,
+          "paidEng": 104,
           "orgEng": 0,
-          "er": 0.0,
+          "er": 0.08,
           "cpm": 4.72,
           "spend": 593.65,
           "posts": 2
@@ -14295,8 +14295,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 314765,
           "orgImpr": 0,
           "views": 314765,
-          "eng": 0,
-          "er": 0.0,
+          "eng": 1000,
+          "er": 0.32,
           "spend": 1631.75,
           "url": null,
           "postedAt": null
@@ -14310,8 +14310,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 99664,
           "orgImpr": 0,
           "views": 99664,
-          "eng": 0,
-          "er": 0.0,
+          "eng": 101,
+          "er": 0.1,
           "spend": 517.56,
           "url": null,
           "postedAt": null
@@ -25924,8 +25924,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 314765,
       "reach": 279330,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 1000,
+      "er": 0.32,
       "spend": 1631.75,
       "watchTimeMin": null,
       "clicks": null,
@@ -25947,8 +25947,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 99664,
       "reach": 91640,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 101,
+      "er": 0.1,
       "spend": 517.56,
       "watchTimeMin": null,
       "clicks": null,
@@ -29452,7 +29452,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "heineken_meta_ads.csv",
-    "fileSizeKb": 0.7,
+    "fileSizeKb": 0.9,
     "lastModified": "2026-07-15",
     "exists": true,
     "postsContributed": 2
