@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-16T20:20:53Z";
+window.LAST_REFRESHED = "2026-07-16T21:05:08Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-07-15T17:26:25Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2353,23 +2353,23 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 8122454,
+      "delivered": 8143938,
       "goal": 5100000
     },
     "budget": {
-      "delivered": 11792.92,
+      "delivered": 11873.95,
       "goal": 4000.0
     },
     "color": "ft-8",
     "leadFormat": "Made for Social",
     "topChannel": "YouTube",
     "er": 1.1,
-    "cpm": 1.46,
+    "cpm": 1.47,
     "episodes": 2,
     "posts": 15,
     "blurb": "BetMGM x World Cup \u2014 a FOS Explains full episode + cutdown (on the World Cup betting boom) plus dark native social posts running paid on Instagram and X.",
-    "views": 899223,
-    "engagements": 347969,
+    "views": 920707,
+    "engagements": 347976,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
     "lifecycle": "active",
@@ -2425,10 +2425,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 391261,
-        "eng": 198,
+        "impressions": 412745,
+        "eng": 205,
         "er": 0.05,
-        "cpm": 4.07,
+        "cpm": 4.05,
         "color": "#E4405F",
         "delta": -98.5,
         "bench": {
@@ -2436,7 +2436,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 5826,
-        "views": 391261
+        "views": 412745
       },
       {
         "name": "YouTube Shorts",
@@ -2535,13 +2535,13 @@ window.CAMPAIGNS = [
       {
         "label": "Native Social",
         "impressions": {
-          "delivered": 1204625,
+          "delivered": 1226109,
           "goal": 1800000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
-    "lastUpdatedExports": "2026-07-16T13:19:52Z"
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
+    "lastUpdatedExports": "2026-07-16T21:04:00Z"
   },
   {
     "id": "state_farm",
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-07-14T17:46:42Z"
   },
   {
@@ -3464,7 +3464,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": "2026-07-15T18:55:12Z"
   },
   {
@@ -3539,7 +3539,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-16T20:20:53Z",
+    "lastUpdatedMs": "2026-07-16T21:05:08Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -3810,8 +3810,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 15045114,
-    "eng": 239665,
+    "impressions": 15066598,
+    "eng": 239672,
     "er": 1.59,
     "cpm": 5.0,
     "color": "#E4405F",
@@ -3821,7 +3821,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 15045114
+    "views": 15066598
   },
   {
     "name": "TikTok",
@@ -15671,11 +15671,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Native Social",
       "date": "Feb 2026",
       "total": {
-        "impr": 1204625,
-        "views": 385435,
+        "impr": 1226109,
+        "views": 406919,
         "er": 0.21,
-        "eng": 2526,
-        "spend": 4067.73
+        "eng": 2533,
+        "spend": 4148.76
       },
       "perChannel": [
         {
@@ -15696,16 +15696,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 385435,
-          "paidImpr": 385435,
+          "impr": 406919,
+          "paidImpr": 406919,
           "orgImpr": 0,
-          "views": 385435,
-          "eng": 124,
-          "paidEng": 124,
+          "views": 406919,
+          "eng": 131,
+          "paidEng": 131,
           "orgEng": 0,
           "er": 0.03,
-          "cpm": 4.07,
-          "spend": 1568.07,
+          "cpm": 4.05,
+          "spend": 1649.1,
           "posts": 3
         }
       ],
@@ -15760,13 +15760,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": null,
           "distKind": "paid",
-          "impr": 176216,
-          "paidImpr": 176216,
+          "impr": 197700,
+          "paidImpr": 197700,
           "orgImpr": 0,
-          "views": 176216,
-          "eng": 56,
+          "views": 197700,
+          "eng": 63,
           "er": 0.03,
-          "spend": 735.08,
+          "spend": 816.11,
           "url": null,
           "postedAt": null
         },
@@ -27366,19 +27366,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 176216,
-      "paidImpr": 176216,
+      "impr": 197700,
+      "paidImpr": 197700,
       "orgImpr": 0,
-      "views": 176216,
-      "reach": 137085,
-      "eng": 56,
+      "views": 197700,
+      "reach": 150576,
+      "eng": 63,
       "er": 0.03,
-      "spend": 735.08,
+      "spend": 816.11,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 4.17,
+      "cpm": 4.13,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -29614,7 +29614,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
-    "fileSizeKb": 1.2,
+    "fileSizeKb": 1.1,
     "lastModified": "2026-07-16",
     "exists": true,
     "postsContributed": 3
@@ -30883,8 +30883,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 5.09,
-    "impressions": 13301457,
-    "paidImpressions": 11214546,
+    "impressions": 13322941,
+    "paidImpressions": 11236030,
     "pctOfTotal": 11.5,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -9.4,
