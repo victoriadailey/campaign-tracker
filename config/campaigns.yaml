@@ -1155,3 +1155,21 @@ campaigns:
       # Google Ads target → saves as ally_nwsl_yt_paid.csv.
       youtube_paid:
         - ally_nwsl_yt_paid.csv
+
+  - id: dow_lpga_impact_award
+    partner: DOW Chemical
+    series: DOW Impact Award
+    series_italic: Award
+    type: social
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-07-15
+    flight_end: 2026-09-30
+    impression_goal: 4500000
+    budget_goal: 11000
+    color: ft-1
+    lead_format: Social Video
+    blurb: "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists."
+    sources:
+      measure_studio_group_ids:
+        - 8178
