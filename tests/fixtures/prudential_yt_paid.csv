@@ -1,8 +1,9 @@
 FOS Reporting
-"January 1, 2026 - July 13, 2026"
+"June 14, 2026 - July 17, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-Prudential_94 to Now_Hero Cutdown (shorts),USD,0,Ended,Video,0.172,"4,148",2.89,"246,658",712.02,"7,891"
-Prudential_94 to Now_Unreal vs Real (shorts),USD,0,Eligible (Limited),Video,0.105,"2,084",3.12,"70,384",219.70,"3,910"
-Prudential_94 to Now_Hero (in-feed),USD,0,Eligible (Limited),Video,0.156,"10,978",0.63,"2,702,241",1712.01,"19,134"
-Prudential: 94 to Now - Life After Soccer (Shorts),USD,0,Eligible (Limited),Video,0.076,"2,830",3.09,"69,221",213.93,"7,732"
-Prudential_94 to Now_Hero (pre-roll),USD,0,Eligible (Limited),Video,0.015,"51,256",7.71,"101,941",785.89,"72,139"
+Prudential_94 to Now_Hero Cutdown (shorts),USD,0,Ended,Video,0.172,"4,148",2.89,"246,652",712.01,"7,891"
+Prudential_94 to Now_Hero (in-feed),USD,0,Eligible (Limited),Video,0.160,"12,992",0.63,"3,318,220",2081.85,"22,614"
+Prudential_94 to Now_Unreal vs Real (shorts),USD,0,Eligible,Video,0.098,"4,357",2.98,"143,926",428.63,"8,167"
+Prudential_94 to Now_Retirement Early (shorts),USD,0,Eligible (Limited),Video,0.179,571,3.34,"30,597",102.08,"1,284"
+Prudential_94 to Now_Hero (pre-roll),USD,0,Eligible (Limited),Video,0.015,"62,745",7.72,"123,477",952.95,"87,834"
+Prudential: 94 to Now - Life After Soccer (Shorts),USD,0,Eligible,Video,0.073,"5,886",2.98,"144,477",429.88,"16,070"
