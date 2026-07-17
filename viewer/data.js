@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-17T15:29:53Z";
+window.LAST_REFRESHED = "2026-07-17T17:25:35Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-07-13T19:36:58Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-07-15T17:26:25Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-07-14T17:46:42Z"
   },
   {
@@ -3473,7 +3473,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": "2026-07-15T18:55:12Z"
   },
   {
@@ -3488,27 +3488,43 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 213457,
+      "delivered": 417132,
       "goal": 4500000
     },
     "budget": {
-      "delivered": 313.99,
+      "delivered": 724.99,
       "goal": 11000.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
-    "topChannel": "YouTube",
-    "er": 5.6,
-    "cpm": 1.47,
+    "topChannel": "TikTok",
+    "er": 2.9,
+    "cpm": 1.74,
     "episodes": 0,
-    "posts": 2,
+    "posts": 3,
     "blurb": "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists.",
-    "views": 100914,
-    "engagements": 12015,
+    "views": 301791,
+    "engagements": 12080,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
     "channels": [
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 203675,
+        "eng": 65,
+        "er": 0.03,
+        "cpm": 2.02,
+        "color": "#000000",
+        "delta": -98.4,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 0,
+        "views": 200877
+      },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
@@ -3548,7 +3564,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-17T15:29:53Z",
+    "lastUpdatedMs": "2026-07-17T17:25:34Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -3835,18 +3851,18 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 14952122,
-    "eng": 47782,
+    "impressions": 15155797,
+    "eng": 47847,
     "er": 0.32,
-    "cpm": 2.48,
+    "cpm": 2.47,
     "color": "#000000",
-    "delta": -84.3,
+    "delta": -84.4,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 14820544
+    "views": 15021421
   },
   {
     "name": "Facebook",
@@ -29332,6 +29348,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 8111,
       "url": "https://www.instagram.com/p/Da0zhcug6Yi/",
       "postedAt": "2026-07-15T12:21:40-07:00"
+    },
+    {
+      "title": "",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 203675,
+      "paidImpr": 203675,
+      "orgImpr": 0,
+      "views": 200877,
+      "reach": 169508,
+      "eng": 65,
+      "er": 0.03,
+      "spend": 411.0,
+      "watchTimeMin": null,
+      "clicks": 300,
+      "ctr": 14.73,
+      "cpc": 1.37,
+      "cpm": 2.02,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": "2026-07-15T19:25:30-07:00"
     }
   ]
 };
@@ -31227,7 +31266,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.68,
     "impressions": 52700077,
     "paidImpressions": 52264670,
-    "pctOfTotal": 45.1,
+    "pctOfTotal": 45.0,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 27.4,
     "color": "#E00922"
@@ -31254,12 +31293,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "TikTok",
-    "cpm": 2.51,
-    "impressions": 13546281,
-    "paidImpressions": 10532697,
-    "pctOfTotal": 11.6,
+    "cpm": 2.5,
+    "impressions": 13749956,
+    "paidImpressions": 10736372,
+    "pctOfTotal": 11.7,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 12.0,
+    "mvmDeltaPct": 11.6,
     "color": "#000000"
   },
   {
