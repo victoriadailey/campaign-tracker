@@ -19,6 +19,110 @@
 //   }
 
 const PATH_PREFIX = 'tests/fixtures/';
+const YAML_PATH = 'config/campaigns.yaml';
+
+// Map an uploaded fixture's filename suffix to the `sources:` key refresh.py
+// reads. Returns null for anything unrecognized (e.g. *_other.csv) → no wiring.
+function sourceKeyForFilename(name) {
+  const n = String(name || '').toLowerCase();
+  if (n.endsWith('_yt_paid.csv')) return 'youtube_paid';
+  if (n.endsWith('_meta_ads.csv')) return 'meta_ads';
+  if (n.endsWith('_x_ads.csv')) return 'x_ads';
+  if (n.endsWith('_tiktok_ads.csv')) return 'tiktok_ads';
+  if (n.endsWith('_linkedin_ads.csv')) return 'linkedin_ads';
+  return null;
+}
+
+function escapeReUp(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Ensure `filename` is listed under `sources: <key>:` inside the block for
+// `campaignId`, preserving the rest of the file. Pure/text-based so it can be
+// unit-tested. Returns { lines } on edit, { unchanged: true } if already
+// present, or { skip: reason } when the structure isn't what we expect (caller
+// treats skip as non-fatal — the CSV is already committed and the Data Health
+// panel will surface any still-unwired file).
+function wireSourceIntoYaml(yamlText, campaignId, key, filename) {
+  const lines = yamlText.split('\n');
+  const idRe = new RegExp(`^(\\s*)-\\s*id:\\s*["']?${escapeReUp(campaignId)}["']?\\s*(#.*)?$`);
+
+  let start = -1, listIndent = '';
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(idRe);
+    if (m) { start = i; listIndent = m[1]; break; }
+  }
+  if (start === -1) return { skip: `campaign "${campaignId}" not found` };
+
+  // Block ends at the next CAMPAIGN-level `- id:` (same indent). Must NOT match
+  // episode `- id:` lines (deeper indent), or a campaign whose sources: sits
+  // after its episodes: would be truncated and we'd inject mid-episode-list.
+  const nextItemRe = new RegExp(`^${listIndent}-\\s*id:\\s*`);
+  let end = lines.length;
+  for (let i = start + 1; i < lines.length; i++) {
+    if (nextItemRe.test(lines[i])) { end = i; break; }
+  }
+
+  const fieldIndent = listIndent + '  ';           // fields under "- id:" (e.g. 4 spaces)
+  const subIndent = fieldIndent + '  ';            // source keys under "sources:" (6)
+  const itemIndent = subIndent + '  ';             // list items under a key (8)
+
+  // Find `sources:` within the block.
+  const srcRe = new RegExp(`^${fieldIndent}sources:\\s*$`);
+  let srcLine = -1;
+  for (let i = start + 1; i < end; i++) {
+    if (srcRe.test(lines[i])) { srcLine = i; break; }
+  }
+
+  // No sources: block — add one at the end of the campaign block.
+  if (srcLine === -1) {
+    const insertAt = end;
+    const block = [`${fieldIndent}sources:`, `${subIndent}${key}:`, `${itemIndent}- ${filename}`];
+    lines.splice(insertAt, 0, ...block);
+    return { lines };
+  }
+
+  // Find the end of the sources: sub-block (next line at <= fieldIndent depth).
+  let srcEnd = end;
+  for (let i = srcLine + 1; i < end; i++) {
+    const line = lines[i];
+    if (line.trim() === '') continue;
+    const indent = (line.match(/^(\s*)/) || [, ''])[1];
+    if (indent.length <= fieldIndent.length) { srcEnd = i; break; }
+  }
+
+  // Is `key:` already present under sources?
+  const keyRe = new RegExp(`^${subIndent}${escapeReUp(key)}:\\s*$`);
+  let keyLine = -1;
+  for (let i = srcLine + 1; i < srcEnd; i++) {
+    if (keyRe.test(lines[i])) { keyLine = i; break; }
+  }
+
+  if (keyLine === -1) {
+    // Add the key + item right after `sources:`.
+    lines.splice(srcLine + 1, 0, `${subIndent}${key}:`, `${itemIndent}- ${filename}`);
+    return { lines };
+  }
+
+  // Key exists — find its list items; bail (unchanged) if filename already listed.
+  let keyEnd = srcEnd;
+  for (let i = keyLine + 1; i < srcEnd; i++) {
+    const line = lines[i];
+    if (line.trim() === '') continue;
+    const indent = (line.match(/^(\s*)/) || [, ''])[1];
+    if (indent.length <= subIndent.length) { keyEnd = i; break; }
+  }
+  const itemRe = new RegExp(`^\\s*-\\s*["']?${escapeReUp(filename)}["']?\\s*(#.*)?$`);
+  for (let i = keyLine + 1; i < keyEnd; i++) {
+    if (itemRe.test(lines[i])) return { unchanged: true };
+  }
+  // Append the item at the end of this key's list.
+  lines.splice(keyEnd, 0, `${itemIndent}- ${filename}`);
+  return { lines };
+}
+
+module.exports._wireSourceIntoYaml = wireSourceIntoYaml;
+module.exports._sourceKeyForFilename = sourceKeyForFilename;
 
 // Filename safety: only allow [A-Za-z0-9._-], cap at 80 chars, require .csv/.tsv/.txt.
 function sanitizeFilename(name) {
@@ -135,11 +239,53 @@ exports.handler = async (event) => {
 
   if (putRes.status >= 200 && putRes.status < 300) {
     const j = await putRes.json();
+
+    // ---------- Auto-wire the upload into the campaign's sources ----------
+    // A file that isn't referenced in config/campaigns.yaml is silently ignored
+    // by the refresh — the #1 recurring failure. When this upload used a
+    // convention-named fixture (not an exact_target, which is already wired),
+    // ensure the campaign's `sources:` references it. Best-effort: any failure
+    // here does NOT fail the upload (the CSV is committed; the dashboard's Data
+    // Health panel surfaces anything still unwired).
+    let wired = null;
+    const wireKey = exact_target ? null : sourceKeyForFilename(finalName);
+    if (wireKey) {
+      try {
+        const yamlApi = `https://api.github.com/repos/${GITHUB_REPO}/contents/${YAML_PATH}`;
+        const gh = { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: 'application/vnd.github+json' };
+        const getRes = await fetch(`${yamlApi}?ref=${encodeURIComponent(GITHUB_BRANCH)}`, { headers: gh });
+        if (getRes.status === 200) {
+          const cfg = await getRes.json();
+          const yamlText = Buffer.from(cfg.content, 'base64').toString('utf8');
+          const result = wireSourceIntoYaml(yamlText, campaign_id, wireKey, finalName);
+          if (result.lines) {
+            const newContent = Buffer.from(result.lines.join('\n'), 'utf8').toString('base64');
+            const wr = await fetch(yamlApi, {
+              method: 'PUT',
+              headers: { ...gh, 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                message: `Wire ${finalName} into ${campaign_id} sources (auto)`,
+                content: newContent, branch: GITHUB_BRANCH, sha: cfg.sha,
+              }),
+            });
+            wired = wr.ok ? 'added' : `failed (${wr.status})`;
+          } else if (result.unchanged) {
+            wired = 'already-wired';
+          } else {
+            wired = `skipped (${result.skip})`;
+          }
+        }
+      } catch (e) {
+        wired = `error (${e.message})`;
+      }
+    }
+
     return {
       statusCode: 200,
       body: JSON.stringify({
         ok: true,
         path,
+        wired,
         commit_url: j.commit?.html_url,
         message: 'Uploaded. Refresh will run in ~2 min.',
       }),

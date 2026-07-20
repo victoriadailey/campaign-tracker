@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-20T20:05:13Z";
+window.LAST_REFRESHED = "2026-07-20T20:41:47Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:45Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,23 +382,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 30941751,
+      "delivered": 31855090,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 43492.62,
+      "delivered": 44363.67,
       "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.4,
-    "cpm": 1.79,
+    "er": 2.3,
+    "cpm": 1.76,
     "episodes": 14,
-    "posts": 303,
+    "posts": 305,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 9388517,
-    "engagements": 1093603,
+    "views": 9398212,
+    "engagements": 1109416,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -406,40 +406,40 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 17332929,
-        "eng": 81964,
+        "impressions": 18062325,
+        "eng": 84595,
         "er": 0.47,
         "cpm": 0.56,
         "color": "#E00922",
-        "delta": -5.4,
+        "delta": -6.3,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 1708996,
-        "views": 371235
+        "views": 361532
       },
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 498811,
-        "eng": 370037,
-        "er": 74.18,
-        "cpm": 13.52,
+        "impressions": 513230,
+        "eng": 382097,
+        "er": 74.45,
+        "cpm": 13.68,
         "color": "#B0061B",
-        "delta": 3.0,
+        "delta": 3.4,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 276826
+        "views": 286529
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 5331398,
-        "eng": 92998,
+        "impressions": 5340647,
+        "eng": 93127,
         "er": 1.74,
         "cpm": 5.25,
         "color": "#E4405F",
@@ -448,18 +448,18 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1561726,
-        "views": 5331398
+        "organicImpressions": 1570975,
+        "views": 5340647
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 3973298,
-        "eng": 173427,
-        "er": 4.36,
-        "cpm": 1.15,
+        "impressions": 4111120,
+        "eng": 173431,
+        "er": 4.22,
+        "cpm": 1.13,
         "color": "#1d1d1f",
-        "delta": 374.4,
+        "delta": 358.5,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -470,18 +470,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1866559,
-        "eng": 295997,
-        "er": 15.86,
-        "cpm": 2.88,
+        "impressions": 1889012,
+        "eng": 296986,
+        "er": 15.72,
+        "cpm": 2.89,
         "color": "#FF0033",
-        "delta": -20.7,
+        "delta": -21.4,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 78872,
-        "views": 1746466
+        "views": 1746912
       },
       {
         "name": "LinkedIn",
@@ -816,15 +816,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 4.4% ER \u2014 4.7\u00d7 the benchmark.",
-        "body": "4.0M impressions, 173K engagements at 4.4% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "X at 4.2% ER \u2014 4.6\u00d7 the benchmark.",
+        "body": "4.1M impressions, 173K engagements at 4.2% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "E*TRADE \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-07-17T17:41:02Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1809,7 +1809,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-07-20T17:09:32Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2354,7 +2354,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2556,7 +2556,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2832,7 +2832,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3223,7 +3223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-07-17T17:36:07Z"
   },
   {
@@ -3238,22 +3238,22 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1073133,
+      "delivered": 1090748,
       "goal": 1000000
     },
     "budget": {
-      "delivered": 3464.22,
+      "delivered": 3513.92,
       "goal": 7500.0
     },
     "color": "ft-8",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.0,
-    "cpm": 3.23,
+    "cpm": 3.22,
     "episodes": 0,
     "posts": 2,
     "blurb": "BetMGM performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
-    "views": 1073133,
+    "views": 1090748,
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
@@ -3262,10 +3262,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1073133,
+        "impressions": 1090748,
         "eng": 0,
         "er": 0.0,
-        "cpm": 3.23,
+        "cpm": 3.22,
         "color": "#E4405F",
         "delta": -100.0,
         "bench": {
@@ -3273,7 +3273,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 1073133
+        "views": 1090748
       }
     ],
     "topPosts": [],
@@ -3283,8 +3283,8 @@ window.CAMPAIGNS = [
         "tag": "WIN",
         "kind": "pos",
         "milestone": true,
-        "headline": "Goal hit with $4K (54%) of budget still unspent.",
-        "body": "Delivered 107% of the 1.0M impression goal on only 46% of the $8K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "headline": "Goal hit with $4K (53%) of budget still unspent.",
+        "body": "Delivered 109% of the 1.0M impression goal on only 47% of the $8K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
         "meta": "BetMGM \u00b7 Goal hit"
       }
     ],
@@ -3306,22 +3306,22 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 235306,
+      "delivered": 279702,
       "goal": 222222222
     },
     "budget": {
-      "delivered": 900.0,
+      "delivered": 1086.7,
       "goal": 10000.0
     },
     "color": "ft-11",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.0,
-    "cpm": 3.82,
+    "cpm": 3.89,
     "episodes": 0,
     "posts": 2,
     "blurb": "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
-    "views": 235306,
+    "views": 279702,
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
@@ -3330,10 +3330,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 235306,
+        "impressions": 279702,
         "eng": 0,
         "er": 0.0,
-        "cpm": 3.82,
+        "cpm": 3.89,
         "color": "#E4405F",
         "delta": -100.0,
         "bench": {
@@ -3341,7 +3341,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 235306
+        "views": 279702
       }
     ],
     "topPosts": [],
@@ -3497,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
     "lastUpdatedExports": "2026-07-15T18:55:12Z"
   },
   {
@@ -3512,23 +3512,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1188850,
+      "delivered": 1463271,
       "goal": 4500000
     },
     "budget": {
-      "delivered": 2137.22,
+      "delivered": 3902.54,
       "goal": 11000.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
-    "er": 0.0,
-    "cpm": 1.8,
+    "er": 4.2,
+    "cpm": 2.67,
     "episodes": 0,
-    "posts": 3,
+    "posts": 4,
     "blurb": "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists.",
     "views": 1088147,
-    "engagements": 421,
+    "engagements": 61093,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3552,12 +3552,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 356402,
-        "eng": 173,
-        "er": 0.05,
-        "cpm": 0.0,
+        "impressions": 377381,
+        "eng": 40743,
+        "er": 10.8,
+        "cpm": 3.28,
         "color": "#FF0033",
-        "delta": -99.8,
+        "delta": -46.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -3580,16 +3580,40 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 0,
         "views": 320088
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 253442,
+        "eng": 20102,
+        "er": 7.93,
+        "cpm": 2.08,
+        "color": "#1d1d1f",
+        "delta": 762.1,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 0,
+        "views": 0
       }
     ],
     "topPosts": [],
     "topPostsOrganic": [],
-    "callouts": [],
+    "callouts": [
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "X at 7.9% ER \u2014 8.6\u00d7 the benchmark.",
+        "body": "253K impressions, 20K engagements at 7.9% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "meta": "DOW Chemical \u00b7 X"
+      }
+    ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T20:05:12Z",
-    "lastUpdatedExports": ""
+    "lastUpdatedMs": "2026-07-20T20:41:46Z",
+    "lastUpdatedExports": "2026-07-20T20:39:12Z"
   }
 ];
 
@@ -3827,28 +3851,28 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 79360937,
-    "eng": 1347374,
-    "er": 1.7,
-    "cpm": 0.99,
+    "impressions": 80133765,
+    "eng": 1391564,
+    "er": 1.74,
+    "cpm": 1.01,
     "color": "#E00922",
-    "delta": -91.5,
+    "delta": -91.3,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 11808800
+    "views": 11809246
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 25988535,
-    "eng": 794506,
-    "er": 3.06,
+    "impressions": 26379799,
+    "eng": 814612,
+    "er": 3.09,
     "cpm": 1.52,
     "color": "#1d1d1f",
-    "delta": 232.3,
+    "delta": 235.7,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -3859,18 +3883,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 16775166,
-    "eng": 242110,
+    "impressions": 16846426,
+    "eng": 242239,
     "er": 1.44,
     "cpm": 4.82,
     "color": "#E4405F",
-    "delta": -56.4,
+    "delta": -56.6,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 16775166
+    "views": 16846426
   },
   {
     "name": "TikTok",
@@ -3986,8 +4010,8 @@ window.SIGNALS = [
     "tag": "WIN",
     "kind": "pos",
     "milestone": true,
-    "headline": "Goal hit with $4K (54%) of budget still unspent.",
-    "body": "Delivered 107% of the 1.0M impression goal on only 46% of the $8K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "headline": "Goal hit with $4K (53%) of budget still unspent.",
+    "body": "Delivered 109% of the 1.0M impression goal on only 47% of the $8K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
     "meta": "BetMGM \u00b7 Goal hit",
     "campaignId": "betmgm_brandx",
     "campaignPartner": "BetMGM"
@@ -7825,10 +7849,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Assia Grazioli-Venier on Women's Sports Investment",
       "date": "Apr 11",
       "total": {
-        "impr": 2108179,
+        "impr": 2202970,
         "views": 479249,
-        "er": 3.1,
-        "eng": 90536,
+        "er": 2.82,
+        "eng": 87285,
         "spend": 3048.47
       },
       "perChannel": [
@@ -7850,15 +7874,15 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 425984,
-          "paidImpr": 306161,
+          "impr": 520775,
+          "paidImpr": 400952,
           "orgImpr": 113452,
           "views": 5972,
-          "eng": 18118,
-          "paidEng": 17861,
+          "eng": 14867,
+          "paidEng": 14610,
           "orgEng": 257,
-          "er": 4.25,
-          "cpm": 0.08,
+          "er": 2.85,
+          "cpm": 0.06,
           "spend": 22.98,
           "posts": 10
         },
@@ -8214,12 +8238,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 260490,
-          "paidImpr": 232139,
+          "impr": 355281,
+          "paidImpr": 326930,
           "orgImpr": 28351,
           "views": 1881,
-          "eng": 12934,
-          "er": 4.97,
+          "eng": 9683,
+          "er": 2.73,
           "spend": 22.98,
           "url": "https://twitter.com/FOS/status/2039459036244942917",
           "postedAt": "2026-04-01T14:45:00-07:00"
@@ -11362,7 +11386,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "views": 492736,
         "er": 1.65,
         "eng": 65293,
-        "spend": 3540.86
+        "spend": 3540.85
       },
       "perChannel": [
         {
@@ -11407,7 +11431,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgEng": 144,
           "er": 4.25,
           "cpm": 2.27,
-          "spend": 343.5,
+          "spend": 343.49,
           "posts": 6
         },
         {
@@ -11790,11 +11814,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Josh Childress",
       "date": "Jun 30",
       "total": {
-        "impr": 2123122,
+        "impr": 2123109,
         "views": 461874,
         "er": 1.65,
-        "eng": 66265,
-        "spend": 3367.15
+        "eng": 66225,
+        "spend": 3366.74
       },
       "perChannel": [
         {
@@ -11803,9 +11827,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1356474,
           "paidImpr": 1335699,
           "orgImpr": 20775,
-          "views": 18804,
-          "eng": 9091,
-          "paidEng": 8980,
+          "views": 18826,
+          "eng": 9084,
+          "paidEng": 8973,
           "orgEng": 111,
           "er": 0.67,
           "cpm": 0.6,
@@ -11845,16 +11869,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 100124,
-          "paidImpr": 94288,
+          "impr": 100111,
+          "paidImpr": 94275,
           "orgImpr": 5836,
           "views": 79773,
-          "eng": 4620,
-          "paidEng": 4548,
+          "eng": 4618,
+          "paidEng": 4546,
           "orgEng": 72,
           "er": 4.61,
           "cpm": 3.18,
-          "spend": 299.86,
+          "spend": 299.82,
           "posts": 3
         },
         {
@@ -11863,13 +11887,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 41690,
           "paidImpr": 41690,
           "orgImpr": 0,
-          "views": 24195,
-          "eng": 31916,
-          "paidEng": 31916,
+          "views": 24173,
+          "eng": 31885,
+          "paidEng": 31885,
           "orgEng": 0,
-          "er": 76.56,
-          "cpm": 11.97,
-          "spend": 499.0,
+          "er": 76.48,
+          "cpm": 11.96,
+          "spend": 498.63,
           "posts": 1
         },
         {
@@ -11912,8 +11936,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1356474,
           "paidImpr": 1335699,
           "orgImpr": 20775,
-          "views": 18804,
-          "eng": 9091,
+          "views": 18826,
+          "eng": 9084,
           "er": 0.67,
           "spend": 798.1,
           "url": "https://youtu.be/4JKxqi7gCaM",
@@ -11927,10 +11951,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 41690,
           "paidImpr": 41690,
           "orgImpr": 0,
-          "views": 24195,
-          "eng": 31916,
-          "er": 76.56,
-          "spend": 499.0,
+          "views": 24173,
+          "eng": 31885,
+          "er": 76.48,
+          "spend": 498.63,
           "url": null,
           "postedAt": null
         },
@@ -12018,7 +12042,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 33161,
           "orgImpr": 3069,
           "views": 17578,
-          "eng": 1516,
+          "eng": 1515,
           "er": 4.18,
           "spend": 99.94,
           "url": "https://www.youtube.com/shorts/atVuEQWOHqY",
@@ -12108,7 +12132,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 32011,
           "orgImpr": 1609,
           "views": 32771,
-          "eng": 1571,
+          "eng": 1570,
           "er": 4.67,
           "spend": 100.0,
           "url": "https://www.youtube.com/shorts/8I6K7nEpSRo",
@@ -12164,13 +12188,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 30274,
-          "paidImpr": 29116,
+          "impr": 30261,
+          "paidImpr": 29103,
           "orgImpr": 1158,
           "views": 29424,
           "eng": 1533,
-          "er": 5.06,
-          "spend": 99.92,
+          "er": 5.07,
+          "spend": 99.88,
           "url": "https://www.youtube.com/shorts/Wi1aEEMUWIY",
           "postedAt": "2026-07-08T13:30:05-07:00"
         },
@@ -12237,59 +12261,164 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Arturo Lomeli",
       "date": "Jul 14",
       "total": {
-        "impr": 13613,
-        "views": 0,
-        "er": 0.01,
-        "eng": 2680,
-        "spend": 67.03
+        "impr": 1147405,
+        "views": 64403,
+        "er": 0.75,
+        "eng": 23244,
+        "spend": 1067.28
       },
       "perChannel": [
         {
+          "name": "YouTube In-feed",
+          "distKind": "organic+boosted",
+          "impr": 952193,
+          "paidImpr": 945933,
+          "orgImpr": 6260,
+          "views": 1339,
+          "eng": 3393,
+          "paidEng": 3358,
+          "orgEng": 35,
+          "er": 0.36,
+          "cpm": 0.59,
+          "spend": 553.95,
+          "posts": 1
+        },
+        {
           "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 88520,
+          "paidImpr": 43031,
+          "orgImpr": 32596,
+          "views": 4921,
+          "eng": 3301,
+          "paidEng": 3255,
+          "orgEng": 46,
+          "er": 3.73,
+          "cpm": 2.04,
+          "spend": 87.94,
+          "posts": 4
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "organic+boosted",
+          "impr": 44018,
+          "paidImpr": 42957,
+          "orgImpr": 1061,
+          "views": 14438,
+          "eng": 1015,
+          "paidEng": 991,
+          "orgEng": 24,
+          "er": 2.31,
+          "cpm": 1.86,
+          "spend": 79.85,
+          "posts": 3
+        },
+        {
+          "name": "Instagram",
           "distKind": "organic",
-          "impr": 10204,
+          "impr": 24941,
           "paidImpr": 0,
-          "orgImpr": 10204,
-          "views": 0,
-          "eng": 1,
+          "orgImpr": 24941,
+          "views": 24941,
+          "eng": 458,
           "paidEng": 0,
-          "orgEng": 1,
-          "er": 0.01,
+          "orgEng": 458,
+          "er": 1.84,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 1
+          "posts": 2
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 18947,
+          "paidImpr": 0,
+          "orgImpr": 18947,
+          "views": 6031,
+          "eng": 282,
+          "paidEng": 0,
+          "orgEng": 282,
+          "er": 1.49,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 2
         },
         {
           "name": "YouTube Pre-roll",
           "distKind": "paid",
-          "impr": 3409,
-          "paidImpr": 3409,
+          "impr": 17828,
+          "paidImpr": 17828,
           "orgImpr": 0,
-          "views": 2050,
-          "eng": 2679,
-          "paidEng": 2679,
+          "views": 11775,
+          "eng": 14770,
+          "paidEng": 14770,
           "orgEng": 0,
-          "er": 78.59,
-          "cpm": 19.66,
-          "spend": 67.03,
+          "er": 82.85,
+          "cpm": 19.38,
+          "spend": 345.54,
           "posts": 1
+        },
+        {
+          "name": "TikTok",
+          "distKind": "organic",
+          "impr": 958,
+          "paidImpr": 0,
+          "orgImpr": 958,
+          "views": 958,
+          "eng": 25,
+          "paidEng": 0,
+          "orgEng": 25,
+          "er": 2.61,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 2
         }
       ],
       "posts": [
+        {
+          "title": "How the Clase Azul Tequila Founder Runs His Soccer Clubs",
+          "platform": "YouTube In-feed",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 952193,
+          "paidImpr": 945933,
+          "orgImpr": 6260,
+          "views": 1339,
+          "eng": 3393,
+          "er": 0.36,
+          "spend": 553.95,
+          "url": "https://youtu.be/RVcA3zXKzPM",
+          "postedAt": "2026-07-14T07:00:12-07:00"
+        },
         {
           "title": "Portfolio Players S3 Ep13: Arturo Lomeli (pre-roll)",
           "platform": "YouTube Pre-roll",
           "accountName": null,
           "distKind": "paid",
-          "impr": 3409,
-          "paidImpr": 3409,
+          "impr": 17828,
+          "paidImpr": 17828,
           "orgImpr": 0,
-          "views": 2050,
-          "eng": 2679,
-          "er": 78.59,
-          "spend": 67.03,
+          "views": 11775,
+          "eng": 14770,
+          "er": 82.85,
+          "spend": 345.54,
           "url": null,
           "postedAt": null
+        },
+        {
+          "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul founder Arturo Lomel\u00ed tells FOS ",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 52211,
+          "paidImpr": 43031,
+          "orgImpr": 9180,
+          "views": 1363,
+          "eng": 3268,
+          "er": 6.26,
+          "spend": 87.94,
+          "url": "https://twitter.com/FOS/status/2077389940850127196",
+          "postedAt": "2026-07-15T06:48:52-07:00"
         },
         {
           "title": "Full episode of Portfolio Players with Arturo Lomeli:",
@@ -12305,13 +12434,197 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2077390164263895198",
           "postedAt": "2026-07-15T06:49:45-07:00"
+        },
+        {
+          "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d Clase Azul founder Arturo Lomel\u00ed tells FOS w",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 469,
+          "paidImpr": 0,
+          "orgImpr": 469,
+          "views": 469,
+          "eng": 12,
+          "er": 2.56,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7662752105391738142",
+          "postedAt": "2026-07-15T06:52:12-07:00"
+        },
+        {
+          "title": "Why investors want to own sports teams",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 20917,
+          "paidImpr": 20491,
+          "orgImpr": 426,
+          "views": 13192,
+          "eng": 16,
+          "er": 0.08,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/lOVaRLEZu_w",
+          "postedAt": "2026-07-15T06:52:47-07:00"
+        },
+        {
+          "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul M\u00e9xico founder Arturo Lomel\u00ed tel",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6854,
+          "paidImpr": 0,
+          "orgImpr": 6854,
+          "views": 1969,
+          "eng": 90,
+          "er": 1.31,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483171447834710017",
+          "postedAt": "2026-07-15T07:51:43-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d  Clase Azul founder Arturo Lo",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 16451,
+          "paidImpr": 0,
+          "orgImpr": 16451,
+          "views": 3558,
+          "eng": 32,
+          "er": 0.19,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2077838176018727005",
+          "postedAt": "2026-07-16T12:30:00-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d  Clase Azul founder Arturo Lo",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 12093,
+          "paidImpr": 0,
+          "orgImpr": 12093,
+          "views": 4062,
+          "eng": 192,
+          "er": 1.59,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483601298429358080",
+          "postedAt": "2026-07-16T13:00:05-07:00"
+        },
+        {
+          "title": "Full episode of Portfolio Players with Arturo Lomel\u00ed:",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 9654,
+          "paidImpr": 0,
+          "orgImpr": 9654,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2077845810868371903",
+          "postedAt": "2026-07-16T13:00:20-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d\u2060 \u2060 Clase Azul founder Arturo ",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 15692,
+          "paidImpr": 0,
+          "orgImpr": 15692,
+          "views": 15692,
+          "eng": 329,
+          "er": 2.1,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/Da3nIIxlmf4/",
+          "postedAt": "2026-07-16T14:33:11-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d Clase Azul founder Arturo Lom",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 489,
+          "paidImpr": 0,
+          "orgImpr": 489,
+          "views": 489,
+          "eng": 13,
+          "er": 2.66,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7663217215004495135",
+          "postedAt": "2026-07-16T15:00:00-07:00"
+        },
+        {
+          "title": "Clase Azul tequila founder explains why he owns soccer teams",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 635,
+          "paidImpr": 0,
+          "orgImpr": 635,
+          "views": 800,
+          "eng": 8,
+          "er": 1.26,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/usOvZFmvF5E",
+          "postedAt": "2026-07-16T15:00:04-07:00"
+        },
+        {
+          "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul founder Arturo Lomel\u00ed tells FOS ",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 9249,
+          "paidImpr": 0,
+          "orgImpr": 9249,
+          "views": 9249,
+          "eng": 129,
+          "er": 1.39,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/Da038CmhtKK/",
+          "postedAt": "2026-07-18T15:30:02-07:00"
+        },
+        {
+          "title": "Portfolio Players S3 Ep13 Cutdown1: Arturo Lomeli (shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 22466,
+          "paidImpr": 22466,
+          "orgImpr": 0,
+          "views": 446,
+          "eng": 991,
+          "er": 4.41,
+          "spend": 79.85,
+          "url": null,
+          "postedAt": null
         }
       ],
-      "topPosts": [],
+      "topPosts": [
+        {
+          "quote": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul fo",
+          "platform": "X",
+          "er": 6.26,
+          "reach": 1363,
+          "url": "https://twitter.com/FOS/status/2077389940850127196"
+        },
+        {
+          "quote": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d",
+          "platform": "Instagram",
+          "er": 2.1,
+          "reach": 15692,
+          "url": "https://www.instagram.com/p/Da3nIIxlmf4/"
+        }
+      ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "X resonating \u2014 100% organic share on 10.2K impr."
+          "text": "X leading with 3.7% ER on 88.5K impr."
+        },
+        {
+          "kind": "pos",
+          "text": "Instagram resonating \u2014 100% organic share on 24.9K impr."
         }
       ]
     }
@@ -19584,19 +19897,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 260490,
-      "paidImpr": 232139,
+      "impr": 355281,
+      "paidImpr": 326930,
       "orgImpr": 28351,
       "views": 1881,
       "reach": 0,
-      "eng": 12934,
-      "er": 4.97,
+      "eng": 9683,
+      "er": 2.73,
       "spend": 22.98,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 0.1,
+      "cpm": 0.07,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2039459036244942917",
@@ -20875,7 +21188,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 1503249,
       "paidImpr": 1492287,
       "orgImpr": 10962,
-      "views": 44939,
+      "views": 35236,
       "reach": 0,
       "eng": 10750,
       "er": 0.72,
@@ -22091,14 +22404,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 128109,
-      "paidImpr": 126604,
+      "impr": 23971,
+      "paidImpr": 22466,
       "orgImpr": 1505,
       "views": 64862,
       "reach": 0,
-      "eng": 7132,
-      "er": 5.57,
-      "spend": 299.67,
+      "eng": 8123,
+      "er": 33.89,
+      "spend": 379.52,
       "watchTimeMin": 7290.1,
       "clicks": null,
       "ctr": 0.0,
@@ -23545,7 +23858,7 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 20775,
       "views": 42999,
       "reach": 0,
-      "eng": 9091,
+      "eng": 9084,
       "er": 0.67,
       "spend": 798.1,
       "watchTimeMin": 215236.5,
@@ -23566,16 +23879,16 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 41690,
       "paidImpr": 41690,
       "orgImpr": 0,
-      "views": 24195,
+      "views": 24173,
       "reach": 0,
-      "eng": 31916,
-      "er": 76.56,
-      "spend": 499.0,
+      "eng": 31885,
+      "er": 76.48,
+      "spend": 498.63,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 11.97,
+      "cpm": 11.96,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -23706,7 +24019,7 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 3069,
       "views": 17578,
       "reach": 0,
-      "eng": 1516,
+      "eng": 1515,
       "er": 4.18,
       "spend": 99.94,
       "watchTimeMin": 760.0,
@@ -23844,7 +24157,7 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1609,
       "views": 32771,
       "reach": 0,
-      "eng": 1571,
+      "eng": 1570,
       "er": 4.67,
       "spend": 100.0,
       "watchTimeMin": 1407.0,
@@ -23931,14 +24244,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 30274,
-      "paidImpr": 29116,
+      "impr": 30261,
+      "paidImpr": 29103,
       "orgImpr": 1158,
       "views": 29424,
       "reach": 0,
       "eng": 1533,
-      "er": 5.06,
-      "spend": 99.92,
+      "er": 5.07,
+      "spend": 99.88,
       "watchTimeMin": 2485.1,
       "clicks": 2,
       "ctr": 6.87,
@@ -23996,27 +24309,73 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-08T13:38:14-07:00"
     },
     {
+      "title": "How the Clase Azul Tequila Founder Runs His Soccer Clubs",
+      "platform": "YouTube In-feed",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 952193,
+      "paidImpr": 945933,
+      "orgImpr": 6260,
+      "views": 13114,
+      "reach": 0,
+      "eng": 3393,
+      "er": 0.36,
+      "spend": 553.95,
+      "watchTimeMin": 88898.1,
+      "clicks": 125,
+      "ctr": 14.11,
+      "cpc": 6.63,
+      "cpm": 0.59,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://youtu.be/RVcA3zXKzPM",
+      "postedAt": "2026-07-14T07:00:12-07:00"
+    },
+    {
       "title": "Portfolio Players S3 Ep13: Arturo Lomeli (pre-roll)",
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 3409,
-      "paidImpr": 3409,
+      "impr": 17828,
+      "paidImpr": 17828,
       "orgImpr": 0,
-      "views": 2050,
+      "views": 11775,
       "reach": 0,
-      "eng": 2679,
-      "er": 78.59,
-      "spend": 67.03,
+      "eng": 14770,
+      "er": 82.85,
+      "spend": 345.54,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 19.66,
+      "cpm": 19.38,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
       "postedAt": null
+    },
+    {
+      "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul founder Arturo Lomel\u00ed tells FOS ",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 52211,
+      "paidImpr": 43031,
+      "orgImpr": 9180,
+      "views": 1363,
+      "reach": 0,
+      "eng": 3268,
+      "er": 6.26,
+      "spend": 87.94,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.04,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2077389940850127196",
+      "postedAt": "2026-07-15T06:48:52-07:00"
     },
     {
       "title": "Full episode of Portfolio Players with Arturo Lomeli:",
@@ -24040,52 +24399,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2077390164263895198",
       "postedAt": "2026-07-15T06:49:45-07:00"
-    },
-    {
-      "title": "How the Clase Azul Tequila Founder Runs His Soccer Clubs",
-      "platform": "YouTube In-feed",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 222797,
-      "paidImpr": 216537,
-      "orgImpr": 6260,
-      "views": 13114,
-      "reach": 0,
-      "eng": 755,
-      "er": 0.34,
-      "spend": 128.78,
-      "watchTimeMin": 88898.1,
-      "clicks": 125,
-      "ctr": 14.11,
-      "cpc": 6.63,
-      "cpm": 0.59,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://youtu.be/RVcA3zXKzPM",
-      "postedAt": "2026-07-14T07:00:12-07:00"
-    },
-    {
-      "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul founder Arturo Lomel\u00ed tells FOS ",
-      "platform": "X",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 9180,
-      "paidImpr": 0,
-      "orgImpr": 9180,
-      "views": 1363,
-      "reach": 0,
-      "eng": 13,
-      "er": 0.14,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://twitter.com/FOS/status/2077389940850127196",
-      "postedAt": "2026-07-15T06:48:52-07:00"
     },
     {
       "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d Clase Azul founder Arturo Lomel\u00ed tells FOS w",
@@ -24293,6 +24606,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/usOvZFmvF5E",
       "postedAt": "2026-07-16T15:00:04-07:00"
+    },
+    {
+      "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul founder Arturo Lomel\u00ed tells FOS ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 9249,
+      "paidImpr": 0,
+      "orgImpr": 9249,
+      "views": 9249,
+      "reach": 6484,
+      "eng": 129,
+      "er": 1.39,
+      "spend": 0,
+      "watchTimeMin": 7.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Da038CmhtKK/",
+      "postedAt": "2026-07-18T15:30:02-07:00"
     }
   ],
   "spectrum": [
@@ -24701,9 +25037,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 1.03,
       "spend": 2545.68,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 5,
+      "ctr": 0.0,
+      "cpc": 509.14,
       "cpm": 7.1,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -27960,9 +28296,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.03,
       "spend": 949.98,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 3,
+      "ctr": 0.0,
+      "cpc": 316.66,
       "cpm": 4.1,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -27983,9 +28319,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.04,
       "spend": 499.99,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 1,
+      "ctr": 0.0,
+      "cpc": 499.99,
       "cpm": 4.19,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -28654,9 +28990,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.07,
       "spend": 2726.85,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 365,
+      "ctr": 0.05,
+      "cpc": 7.47,
       "cpm": 3.61,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -28769,9 +29105,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.07,
       "spend": 1503.03,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 198,
+      "ctr": 0.05,
+      "cpc": 7.59,
       "cpm": 3.61,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -28838,9 +29174,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.06,
       "spend": 496.85,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 62,
+      "ctr": 0.05,
+      "cpc": 8.01,
       "cpm": 3.75,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -28861,9 +29197,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.06,
       "spend": 272.84,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 38,
+      "ctr": 0.05,
+      "cpc": 7.18,
       "cpm": 3.45,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -29346,9 +29682,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.0,
       "spend": 188.27,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 11,
+      "ctr": 0.02,
+      "cpc": 17.12,
       "cpm": 2.79,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -29369,9 +29705,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.0,
       "spend": 24.23,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 8,
+      "ctr": 0.09,
+      "cpc": 3.03,
       "cpm": 2.88,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -29385,19 +29721,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 1037519,
-      "paidImpr": 1037519,
+      "impr": 1055134,
+      "paidImpr": 1055134,
       "orgImpr": 0,
-      "views": 1037519,
-      "reach": 116463,
+      "views": 1055134,
+      "reach": 117040,
       "eng": 0,
       "er": 0.0,
-      "spend": 3350.23,
+      "spend": 3399.93,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 3.23,
+      "clicks": 225,
+      "ctr": 0.02,
+      "cpc": 15.11,
+      "cpm": 3.22,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -29417,9 +29753,9 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 0.0,
       "spend": 113.99,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 44,
+      "ctr": 0.12,
+      "cpc": 2.59,
       "cpm": 3.2,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -29433,19 +29769,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 170187,
-      "paidImpr": 170187,
+      "impr": 205339,
+      "paidImpr": 205339,
       "orgImpr": 0,
-      "views": 170187,
-      "reach": 69553,
+      "views": 205339,
+      "reach": 84577,
       "eng": 0,
       "er": 0.0,
-      "spend": 357.04,
+      "spend": 429.97,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.1,
+      "clicks": 119,
+      "ctr": 0.06,
+      "cpc": 3.61,
+      "cpm": 2.09,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -29456,19 +29792,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 65119,
-      "paidImpr": 65119,
+      "impr": 74363,
+      "paidImpr": 74363,
       "orgImpr": 0,
-      "views": 65119,
-      "reach": 44117,
+      "views": 74363,
+      "reach": 49449,
       "eng": 0,
       "er": 0.0,
-      "spend": 542.96,
+      "spend": 656.73,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 8.34,
+      "clicks": 2503,
+      "ctr": 3.37,
+      "cpc": 0.26,
+      "cpm": 8.83,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -29598,19 +29934,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 356402,
-      "paidImpr": 356394,
+      "impr": 377381,
+      "paidImpr": 377373,
       "orgImpr": 8,
       "views": 264007,
       "reach": 0,
-      "eng": 173,
-      "er": 0.05,
-      "spend": 0,
+      "eng": 40743,
+      "er": 10.8,
+      "spend": 1238.4,
       "watchTimeMin": 28422.2,
       "clicks": 16,
       "ctr": 4.49,
       "cpc": 73.28,
-      "cpm": 3.29,
+      "cpm": 3.28,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/XJarxHCXGDk",
@@ -29661,6 +29997,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-07-15T19:25:30-07:00"
+    },
+    {
+      "title": "DOW: Impact Award",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 253442,
+      "paidImpr": 253442,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 20102,
+      "er": 7.93,
+      "spend": 526.92,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 3.0,
+      "cpc": null,
+      "cpm": 2.08,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     }
   ]
 };
@@ -29855,7 +30214,16 @@ window.UPLOAD_TARGETS = {
       "label": "Google Ads"
     }
   ],
-  "dow_lpga_impact_award": []
+  "dow_lpga_impact_award": [
+    {
+      "file": "dow_lpga_impact_award_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
+      "file": "dow_lpga_impact_award_x_ads.csv",
+      "label": "X Ads"
+    }
+  ]
 };
 
 window.MS_GROUPS = [
@@ -30033,6 +30401,19 @@ window.MS_GROUPS = [
   }
 ];
 
+window.DATA_HEALTH = {
+  "generatedWarnings": [
+    "[betmgm_brandx] missing X Ads file: /Users/victoriabaldwindailey/Documents/GitHub/campaign-tracker/tests/fixtures/betmgm_brandx_x_ads.csv",
+    "[att_brandx] missing X Ads file: /Users/victoriabaldwindailey/Documents/GitHub/campaign-tracker/tests/fixtures/att_brandx_x_ads.csv",
+    "[heineken] excluded 2 post(s) via campaign exclude ['1512716967534555', '3932495664965122403']"
+  ],
+  "msErrors": [],
+  "orphanFiles": [
+    "sportclips_meta_ads.csv",
+    "usbank_meta_ads.csv"
+  ]
+};
+
 window.DATA_ARCHIVE = [
   {
     "campaignId": "adp",
@@ -30041,7 +30422,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30052,7 +30433,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30063,7 +30444,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30074,7 +30455,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30084,10 +30465,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "portfolio_players_yt_paid.csv",
-    "fileSizeKb": 6.5,
+    "fileSizeKb": 6.7,
     "lastModified": "2026-07-20",
     "exists": true,
-    "postsContributed": 13
+    "postsContributed": 14
   },
   {
     "campaignId": "etrade",
@@ -30095,7 +30476,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 6.2,
+    "fileSizeKb": 6.3,
     "lastModified": "2026-07-20",
     "exists": true,
     "postsContributed": 0
@@ -30107,7 +30488,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -30118,7 +30499,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -30129,7 +30510,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -30140,7 +30521,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -30151,7 +30532,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -30162,7 +30543,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -30173,7 +30554,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -30184,7 +30565,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -30195,7 +30576,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -30206,7 +30587,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30217,7 +30598,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -30228,7 +30609,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -30250,7 +30631,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "heineken_meta_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-15",
     "exists": true,
     "postsContributed": 2
   },
@@ -30261,7 +30642,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -30272,7 +30653,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -30283,7 +30664,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -30294,7 +30675,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "betmgm_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 1
   },
@@ -30327,7 +30708,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -30338,7 +30719,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -30349,7 +30730,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -30360,7 +30741,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -30371,7 +30752,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -30382,7 +30763,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -30404,7 +30785,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "prudential_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-20",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 2
   },
@@ -30447,7 +30828,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
-    "fileSizeKb": 0.8,
+    "fileSizeKb": 0.9,
     "lastModified": "2026-07-20",
     "exists": true,
     "postsContributed": 2
@@ -30459,9 +30840,31 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "ally_nwsl_yt_paid.csv",
     "fileSizeKb": 0.3,
+    "lastModified": "2026-07-15",
+    "exists": true,
+    "postsContributed": 0
+  },
+  {
+    "campaignId": "dow_lpga_impact_award",
+    "partner": "DOW Chemical",
+    "sourceKind": "youtube_paid",
+    "sourceLabel": "Google Ads (YT Paid)",
+    "filename": "dow_lpga_impact_award_yt_paid.csv",
+    "fileSizeKb": 0.3,
     "lastModified": "2026-07-20",
     "exists": true,
     "postsContributed": 0
+  },
+  {
+    "campaignId": "dow_lpga_impact_award",
+    "partner": "DOW Chemical",
+    "sourceKind": "x_ads",
+    "sourceLabel": "X Ads",
+    "filename": "dow_lpga_impact_award_x_ads.csv",
+    "fileSizeKb": 0.3,
+    "lastModified": "2026-07-20",
+    "exists": true,
+    "postsContributed": 1
   }
 ];
 
@@ -31553,52 +31956,52 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.68,
-    "impressions": 53414427,
-    "paidImpressions": 52966519,
-    "pctOfTotal": 44.8,
+    "cpm": 0.67,
+    "impressions": 54143823,
+    "paidImpressions": 53695915,
+    "pctOfTotal": 44.9,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 27.5,
+    "mvmDeltaPct": 27.2,
     "color": "#E00922"
   },
   {
-    "name": "Instagram",
-    "cpm": 4.88,
-    "impressions": 15031473,
-    "paidImpressions": 12919666,
-    "pctOfTotal": 12.6,
-    "mvmCpm": 5.62,
-    "mvmDeltaPct": -13.2,
-    "color": "#E4405F"
+    "name": "X",
+    "cpm": 2.07,
+    "impressions": 15380525,
+    "paidImpressions": 13643366,
+    "pctOfTotal": 12.8,
+    "mvmCpm": 1.24,
+    "mvmDeltaPct": 66.7,
+    "color": "#1d1d1f"
   },
   {
-    "name": "X",
-    "cpm": 2.08,
-    "impressions": 14989261,
-    "paidImpressions": 13252102,
-    "pctOfTotal": 12.6,
-    "mvmCpm": 1.24,
-    "mvmDeltaPct": 67.9,
-    "color": "#1d1d1f"
+    "name": "Instagram",
+    "cpm": 4.87,
+    "impressions": 15102733,
+    "paidImpressions": 12981677,
+    "pctOfTotal": 12.5,
+    "mvmCpm": 5.62,
+    "mvmDeltaPct": -13.3,
+    "color": "#E4405F"
   },
   {
     "name": "TikTok",
     "cpm": 2.49,
     "impressions": 14247222,
     "paidImpressions": 11230128,
-    "pctOfTotal": 11.9,
+    "pctOfTotal": 11.8,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 11.1,
     "color": "#000000"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.57,
-    "impressions": 11393117,
-    "paidImpressions": 11255543,
+    "cpm": 2.68,
+    "impressions": 11436549,
+    "paidImpressions": 11298975,
     "pctOfTotal": 9.5,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -19.6,
+    "mvmDeltaPct": -16.2,
     "color": "#FF0033"
   },
   {
@@ -31623,12 +32026,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 11.73,
-    "impressions": 1247482,
-    "paidImpressions": 1247482,
+    "cpm": 11.81,
+    "impressions": 1261901,
+    "paidImpressions": 1261901,
     "pctOfTotal": 1.0,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": -1.5,
+    "mvmDeltaPct": -0.8,
     "color": "#B0061B"
   }
 ];

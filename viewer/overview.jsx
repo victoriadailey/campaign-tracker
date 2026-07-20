@@ -3,6 +3,73 @@
 const { useState: useStateO } = React;
 
 // ============================================================
+// DATA HEALTH BANNER
+// Surfaces silent-failure modes (uploaded-but-unread files, skipped campaigns,
+// missing files, Measure errors) so "I uploaded X and nothing happened" can
+// never go unnoticed again. Renders nothing when all is well.
+// ============================================================
+function HealthBanner() {
+  const [open, setOpen] = useStateO(false);
+  const dh = (typeof window !== 'undefined' && window.DATA_HEALTH) || {};
+  const warns = dh.generatedWarnings || [];
+  const orphans = dh.orphanFiles || [];
+  const msErrors = dh.msErrors || [];
+
+  // Classify the free-text warnings. "excluded N posts" is normal/expected —
+  // don't alarm on it. "SKIPPED" = a campaign fell out of the dashboard.
+  const skipped = warns.filter(w => /SKIPPED/i.test(w));
+  const missing = warns.filter(w => /missing .*file/i.test(w));
+
+  const critical = skipped.length + msErrors.length;
+  const attention = orphans.length + missing.length;
+  const total = critical + attention;
+  if (total === 0) return null;
+
+  const tone = critical > 0 ? '#DE6B38' : '#FF9947';
+  const Row = ({ label, items, hint }) => items.length === 0 ? null : (
+    <div style={{marginTop:12}}>
+      <div style={{fontSize:12, fontWeight:600, color:'var(--ink)', marginBottom:4}}>{label}</div>
+      {hint && <div style={{fontSize:12, color:'var(--ink-3)', marginBottom:6}}>{hint}</div>}
+      <ul style={{margin:0, paddingLeft:18}}>
+        {items.map((it, i) => (
+          <li key={i} style={{fontSize:12.5, color:'var(--ink-2)', fontFamily:'var(--mono)', lineHeight:1.7, wordBreak:'break-all'}}>{it}</li>
+        ))}
+      </ul>
+    </div>
+  );
+
+  return (
+    <div className="sec" style={{marginTop:4}}>
+      <div className="card" style={{padding:'14px 18px', borderLeft:`3px solid ${tone}`}}>
+        <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', gap:12}}>
+          <div style={{fontSize:13.5, color:'var(--ink)'}}>
+            <strong style={{color:tone}}>Data health</strong> — {total} item{total===1?'':'s'} need{total===1?'s':''} attention
+            {critical > 0 && <span style={{color:'#DE6B38'}}> · {critical} critical</span>}
+          </div>
+          <button onClick={() => setOpen(o => !o)} style={{
+            background:'transparent', border:'1px solid var(--line)', borderRadius:6,
+            padding:'5px 12px', fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.04em',
+            color:'var(--ink-2)', cursor:'pointer', textTransform:'uppercase', whiteSpace:'nowrap',
+          }}>{open ? 'Hide' : 'Details'}</button>
+        </div>
+        {open && (
+          <div style={{marginTop:6, borderTop:'1px solid var(--line)', paddingTop:6}}>
+            <Row label="Campaigns dropped (config error)" items={skipped}
+                 hint="These campaigns hit a config error and were left off the dashboard. Fix the config to bring them back."/>
+            <Row label="Measure Studio errors" items={msErrors}
+                 hint="Data is incomplete for these — re-run the refresh, or upload a manual CSV."/>
+            <Row label="Uploaded files not being used" items={orphans}
+                 hint="These files are in the repo but no campaign reads them — usually an export that landed under an off-convention name. Re-upload it via the campaign's own card on Add Campaign Data, or it's a stale/duplicate you can ignore."/>
+            <Row label="Expected files missing" items={missing}
+                 hint="A campaign is configured to read these, but the file isn't there yet — upload it via that campaign's card."/>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ============================================================
 // OVERVIEW PAGE
 // ============================================================
 function OverviewPage({ onOpenCampaign }) {
@@ -42,6 +109,8 @@ function OverviewPage({ onOpenCampaign }) {
           <button className="btn btn-acc"><Ic.download/> Export</button>
         </>}
       />
+
+      <HealthBanner/>
 
       {/* TOP-OF-DASH CALLOUTS — pulled from per-campaign auto-callouts.
           Capped at the top 4 (already ranked by the pipeline) so the strip

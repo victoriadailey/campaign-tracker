@@ -916,13 +916,41 @@ def main() -> int:
         "linkedin_ads":   "LinkedIn Ads",
     }
     upload_targets: dict[str, list[dict]] = {}
+    _all_referenced: set[str] = set()
     for c in cfg["campaigns"]:
         files: list[dict] = []
         srcs = c.get("sources", {}) or {}
         for key, label in _FILE_SOURCE_LABELS.items():
             for fn in (srcs.get(key) or []):
                 files.append({"file": fn, "label": label})
+        # Track every filename any campaign reads (across ALL source keys) so we
+        # can flag fixture CSVs that no campaign references (orphans).
+        for key in ("measure_studio", *_FILE_SOURCE_LABELS.keys(), "google_ads_campaign"):
+            for fn in (srcs.get(key) or []):
+                _all_referenced.add(str(fn))
         upload_targets[c["id"]] = files
+
+    # ---------- Data Health ----------
+    # Fixture CSVs that no campaign reads — usually a dashboard upload that
+    # landed under an off-convention name (e.g. "BetMGM_-_Google_Ads_-_7.14.csv")
+    # and never got wired. Surfaced so the team can see + fix instead of
+    # wondering why an upload "did nothing".
+    # Intentionally-unused fixtures we should NOT flag: manual MS CSV fallbacks
+    # (API is the live source), catch-all "_other" uploads, and the legacy
+    # gads_campaign fallback name. Everything else that no campaign reads is a
+    # genuine orphan — usually an ad export that landed off-convention.
+    _IGNORE_ORPHAN_SUFFIXES = ("_ms.csv", "_other.csv", "_gads_campaign.csv")
+    orphan_files: list[str] = []
+    try:
+        for f in sorted(exports_root.glob("*.csv")):
+            n = f.name
+            if n in _all_referenced:
+                continue
+            if any(n.lower().endswith(s) for s in _IGNORE_ORPHAN_SUFFIXES):
+                continue
+            orphan_files.append(n)
+    except Exception:  # noqa: BLE001
+        pass
 
     # ---------- Measure Studio group directory ----------
     # Bake the list of MS post-groups (id + name) into data.js so the "Add
@@ -940,9 +968,16 @@ def main() -> int:
         except Exception as e:
             parse_warnings.append(f"could not list MS groups for picker: {e}")
 
+    data_health = {
+        "generated_warnings": list(parse_warnings),
+        "ms_errors": list(ms_fetch_errors),
+        "orphan_files": orphan_files,
+    }
+
     out_path = write_data_js(
         payload, args.output, benchmarks=benchmarks_data,
         upload_targets=upload_targets, ms_groups=ms_groups,
+        data_health=data_health,
     )
 
     print("=" * 60)

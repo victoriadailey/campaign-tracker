@@ -327,7 +327,11 @@ campaigns:
         n: "Ep. 13"
         title: "Arturo Lomeli"
         date: "Jul 14"
-        match: ["PP Episode 13 -", "Arturo Lomeli", "@arturolomeli"]
+        # MS titles the hero + cutdowns by his company, not his name ("How the
+        # Clase Azul Tequila Founder…"), and spells the name accented ("Lomelí")
+        # — accent-folding handles the latter; "Clase Azul"/"tequila founder"
+        # catch the descriptive titles.
+        match: ["PP Episode 13 -", "Arturo Lomeli", "@arturolomeli", "Clase Azul", "tequila founder"]
         exclude: []
 
   - id: spectrum
@@ -1170,6 +1174,15 @@ campaigns:
     color: ft-1
     lead_format: Social Video
     blurb: "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists."
+    # Google Ads names the YT buy by format ("(Shorts)") not a title token MS
+    # shares, so pair GAds↔MS by sorted impressions within the YT subtype.
+    yt_paired_by_sort: true
     sources:
       measure_studio_group_ids:
         - 8178
+      # Paid YouTube (Google Ads) + paid X for the dark studio-video buy. MS
+      # can't see X paid and under-counts YT paid. Upload via the DOW card.
+      youtube_paid:
+        - dow_lpga_impact_award_yt_paid.csv
+      x_ads:
+        - dow_lpga_impact_award_x_ads.csv

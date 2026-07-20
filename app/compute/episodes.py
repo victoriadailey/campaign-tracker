@@ -21,6 +21,7 @@ Output is the rich Episode shape the Pulse viewer's campaign.jsx expects:
 
 from __future__ import annotations
 
+import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
@@ -61,11 +62,14 @@ class EpisodeDef:
 
 
 def _normalize(s: str) -> str:
-    """Lowercase + replace curly quotes with straight ones. MS exports use curly
-    apostrophes ('Women's') while YAML config typically uses straight ('Women's')
-    — without normalization the substring match silently misses these posts.
+    """Lowercase, straighten curly quotes, and fold accents. MS exports use curly
+    apostrophes ('Women's') while YAML config uses straight ('Women's'), and MS
+    often carries accented names (e.g. "Arturo Lomelí") that the config writes
+    plain ("Arturo Lomeli") — without folding, the substring match silently
+    misses these posts. Diacritic-folding is safe: it only strips combining
+    marks, leaving ASCII matches unchanged.
     """
-    return (
+    s = (
         (s or "")
         .lower()
         .replace("’", "'")  # right single quote → '
@@ -73,6 +77,8 @@ def _normalize(s: str) -> str:
         .replace("“", '"')  # left double quote
         .replace("”", '"')  # right double quote
     )
+    # NFKD splits accented chars into base + combining mark; drop the marks.
+    return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
 
 
 def attribute_posts_to_episodes(

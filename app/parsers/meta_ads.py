@@ -102,6 +102,11 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
             or _to_int(raw.get("Clicks (all)"))
         )
         spend = _to_float(raw.get("Amount spent (USD)"))
+        # Link clicks drive the BrandX Clicks/CTR/CPC KPIs. CTR/CPC are left to
+        # the serializer to derive from clicks÷impressions and spend÷clicks —
+        # Meta's own CTR column is already a percent and would be double-scaled
+        # by the fraction-normalizing step downstream.
+        link_clicks = _to_int(raw.get("Link clicks"))
 
         # Skip truly empty rows (no impressions AND no spend)
         if not impressions and not spend:
@@ -139,6 +144,7 @@ def parse(file: IO[bytes] | str | bytes) -> ParseResult:
             views_paid=impressions,  # Meta doesn't split views; videos in feed
             engagements_paid=engagements,
             engagements_total=engagements,
+            link_clicks_paid=link_clicks,
             ad_spend=spend,
             er=er,
             raw=raw,
@@ -192,6 +198,7 @@ def _consolidate_placements(rows: list[NormalizedPost]) -> list[NormalizedPost]:
         base.views_paid = _sum("views_paid")
         base.engagements_paid = _sum("engagements_paid")
         base.engagements_total = _sum("engagements_total")
+        base.link_clicks_paid = _sum("link_clicks_paid")
         base.ad_spend = _sum("ad_spend")
         impr = base.impressions_paid
         eng = base.engagements_paid
