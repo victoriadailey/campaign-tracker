@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-20T16:36:52Z";
+window.LAST_REFRESHED = "2026-07-20T16:40:16Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-07-17T17:41:02Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1650,26 +1650,26 @@ window.CAMPAIGNS = [
     "flight": "May 18 \u2014 Jul 31, 2026",
     "elapsedPct": 85.1,
     "daysLeft": 11,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 2928973,
+      "delivered": 3168711,
       "goal": 3500000
     },
     "budget": {
-      "delivered": 11237.97,
+      "delivered": 12054.22,
       "goal": 13900.0
     },
     "color": "ft-4",
     "leadFormat": "Longform Video",
     "topChannel": "Facebook",
-    "er": 2.9,
-    "cpm": 3.87,
+    "er": 2.8,
+    "cpm": 3.85,
     "episodes": 2,
-    "posts": 18,
+    "posts": 21,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 2336615,
-    "engagements": 84090,
+    "views": 2538173,
+    "engagements": 87260,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -1677,50 +1677,50 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 1215268,
-        "eng": 4407,
-        "er": 0.36,
-        "cpm": 3.77,
+        "impressions": 1274332,
+        "eng": 4954,
+        "er": 0.39,
+        "cpm": 3.78,
         "color": "#1877F2",
-        "delta": -76.3,
+        "delta": -74.6,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 2792,
-        "views": 1144492
+        "organicImpressions": 3761,
+        "views": 1191780
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1071420,
-        "eng": 70136,
-        "er": 6.55,
-        "cpm": 2.98,
+        "impressions": 1133361,
+        "eng": 70239,
+        "er": 6.2,
+        "cpm": 2.81,
         "color": "#FF0033",
-        "delta": -67.3,
+        "delta": -69.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 10977,
-        "views": 549838
+        "organicImpressions": 11428,
+        "views": 585375
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 642219,
-        "eng": 9547,
-        "er": 1.49,
-        "cpm": 5.59,
+        "impressions": 760952,
+        "eng": 12067,
+        "er": 1.59,
+        "cpm": 5.52,
         "color": "#E4405F",
-        "delta": -55.1,
+        "delta": -52.1,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 13448,
-        "views": 642219
+        "organicImpressions": 18668,
+        "views": 760952
       },
       {
         "name": "Instagram Stories",
@@ -1771,6 +1771,22 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.instagram.com/p/DZoFO69ukUw/",
         "postedAt": "2026-06-15T17:15:40-07:00"
+      },
+      {
+        "id": "3943471313717261557",
+        "rank": 3,
+        "partner": "Heineken",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "$51 million is on the line at the World Cup final between Argentina and Spain on Sunday.\u2060 \u2060\u2026",
+        "er": 2.12,
+        "eng": 2520,
+        "reach": 118733,
+        "organic": 4,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Da6BkQ0D3T1/",
+        "postedAt": "2026-07-17T13:03:28-07:00"
       }
     ],
     "topPostsOrganic": [],
@@ -1781,7 +1797,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOSN x Heineken",
         "impressions": {
-          "delivered": 1297222,
+          "delivered": 1536960,
           "goal": 2000000
         }
       },
@@ -1793,7 +1809,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-07-15T17:26:25Z"
   },
   {
@@ -2190,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2354,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2556,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2832,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3207,7 +3223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:15Z",
     "lastUpdatedExports": "2026-07-17T17:36:07Z"
   },
   {
@@ -3481,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:16Z",
     "lastUpdatedExports": "2026-07-15T18:55:12Z"
   },
   {
@@ -3572,7 +3588,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-20T16:36:52Z",
+    "lastUpdatedMs": "2026-07-20T16:40:16Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -3811,8 +3827,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 79268205,
-    "eng": 1335646,
+    "impressions": 79330146,
+    "eng": 1335749,
     "er": 1.68,
     "cpm": 0.99,
     "color": "#E00922",
@@ -3822,7 +3838,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 11773268
+    "views": 11808805
   },
   {
     "name": "X",
@@ -3843,18 +3859,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 16656433,
-    "eng": 239590,
+    "impressions": 16775166,
+    "eng": 242110,
     "er": 1.44,
     "cpm": 4.82,
     "color": "#E4405F",
-    "delta": -56.5,
+    "delta": -56.4,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 16656433
+    "views": 16775166
   },
   {
     "name": "TikTok",
@@ -3875,18 +3891,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7763692,
-    "eng": 13026,
+    "impressions": 7822756,
+    "eng": 13573,
     "er": 0.17,
-    "cpm": 3.34,
+    "cpm": 3.35,
     "color": "#1877F2",
-    "delta": -89.0,
+    "delta": -88.7,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 5987575
+    "views": 6034863
   },
   {
     "name": "LinkedIn",
@@ -14128,57 +14144,57 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Editorial Video \u2014 FOS NEWS",
       "date": "May 2026",
       "total": {
-        "impr": 1297222,
-        "views": 1271622,
-        "er": 3.34,
-        "eng": 43268,
-        "spend": 5545.4
+        "impr": 1536960,
+        "views": 1473180,
+        "er": 3.02,
+        "eng": 46438,
+        "spend": 6361.65
       },
       "perChannel": [
         {
-          "name": "YouTube Shorts",
-          "distKind": "organic+boosted",
-          "impr": 525594,
-          "paidImpr": 514617,
-          "orgImpr": 10977,
-          "views": 528491,
-          "eng": 30633,
-          "paidEng": 30375,
-          "orgEng": 258,
-          "er": 5.83,
-          "cpm": 2.78,
-          "spend": 1431.53,
-          "posts": 3
-        },
-        {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 516429,
-          "paidImpr": 502981,
-          "orgImpr": 13448,
-          "views": 516429,
-          "eng": 9443,
+          "impr": 635162,
+          "paidImpr": 616494,
+          "orgImpr": 18668,
+          "views": 635162,
+          "eng": 11963,
           "paidEng": 0,
-          "orgEng": 9443,
-          "er": 1.83,
-          "cpm": 5.81,
-          "spend": 2920.68,
-          "posts": 3
+          "orgEng": 11963,
+          "er": 1.88,
+          "cpm": 5.68,
+          "spend": 3502.76,
+          "posts": 4
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "organic+boosted",
+          "impr": 587535,
+          "paidImpr": 576107,
+          "orgImpr": 11428,
+          "views": 564028,
+          "eng": 30736,
+          "paidEng": 30375,
+          "orgEng": 361,
+          "er": 5.23,
+          "cpm": 2.48,
+          "spend": 1431.53,
+          "posts": 4
         },
         {
           "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 255133,
-          "paidImpr": 252341,
-          "orgImpr": 2792,
-          "views": 226636,
-          "eng": 3192,
+          "impr": 314197,
+          "paidImpr": 310436,
+          "orgImpr": 3761,
+          "views": 273924,
+          "eng": 3739,
           "paidEng": 0,
-          "orgEng": 3192,
-          "er": 1.25,
-          "cpm": 4.73,
-          "spend": 1193.19,
-          "posts": 5
+          "orgEng": 3739,
+          "er": 1.19,
+          "cpm": 4.6,
+          "spend": 1427.36,
+          "posts": 6
         },
         {
           "name": "Instagram Stories",
@@ -14376,6 +14392,51 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 398.95,
           "url": "https://www.facebook.com/122170577252804010/",
           "postedAt": "2026-07-09T07:00:40-07:00"
+        },
+        {
+          "title": "$51 million is on the line at the World Cup final between Argentina and Spain on Sunday.\u2060 \u2060 @bakermachado has the detail",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports News",
+          "distKind": "organic+boosted",
+          "impr": 118733,
+          "paidImpr": 113513,
+          "orgImpr": 5220,
+          "views": 118733,
+          "eng": 2520,
+          "er": 2.12,
+          "spend": 582.08,
+          "url": "https://www.instagram.com/p/Da6BkQ0D3T1/",
+          "postedAt": "2026-07-17T13:03:28-07:00"
+        },
+        {
+          "title": "$51 million is on the line at the World Cup final between Argentina and Spain on Sunday.\u2060 \u2060 @bakermachado has the detail",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports Today",
+          "distKind": "organic+boosted",
+          "impr": 59064,
+          "paidImpr": 58095,
+          "orgImpr": 969,
+          "views": 47288,
+          "eng": 547,
+          "er": 0.93,
+          "spend": 234.17,
+          "url": "https://www.facebook.com/122171232272804010/",
+          "postedAt": "2026-07-17T13:33:00-07:00"
+        },
+        {
+          "title": "$51 million on the line for the World Cup final",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports News ",
+          "distKind": "organic+boosted",
+          "impr": 61941,
+          "paidImpr": 61490,
+          "orgImpr": 451,
+          "views": 35537,
+          "eng": 103,
+          "er": 0.17,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/iVVmQW4BhmQ",
+          "postedAt": "2026-07-17T13:59:12-07:00"
         }
       ],
       "topPosts": [
@@ -26339,6 +26400,75 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-09T07:00:40-07:00"
     },
     {
+      "title": "$51 million is on the line at the World Cup final between Argentina and Spain on Sunday.\u2060 \u2060 @bakermachado has the detail",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports News",
+      "distKind": "organic+boosted",
+      "impr": 118733,
+      "paidImpr": 113513,
+      "orgImpr": 5220,
+      "views": 118733,
+      "reach": 115925,
+      "eng": 2520,
+      "er": 2.12,
+      "spend": 582.08,
+      "watchTimeMin": 17.2,
+      "clicks": 180,
+      "ctr": 15.86,
+      "cpc": 3.23,
+      "cpm": 5.13,
+      "videoViews100Pct": 4971,
+      "videoViews3s": 112300,
+      "url": "https://www.instagram.com/p/Da6BkQ0D3T1/",
+      "postedAt": "2026-07-17T13:03:28-07:00"
+    },
+    {
+      "title": "$51 million is on the line at the World Cup final between Argentina and Spain on Sunday.\u2060 \u2060 @bakermachado has the detail",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports Today",
+      "distKind": "organic+boosted",
+      "impr": 59064,
+      "paidImpr": 58095,
+      "orgImpr": 969,
+      "views": 47288,
+      "reach": 46224,
+      "eng": 547,
+      "er": 0.93,
+      "spend": 234.17,
+      "watchTimeMin": 26644.6,
+      "clicks": 1222,
+      "ctr": 2.55,
+      "cpc": 0.19,
+      "cpm": 4.9,
+      "videoViews100Pct": 4401,
+      "videoViews3s": 47288,
+      "url": "https://www.facebook.com/122171232272804010/",
+      "postedAt": "2026-07-17T13:33:00-07:00"
+    },
+    {
+      "title": "$51 million on the line for the World Cup final",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports News ",
+      "distKind": "organic+boosted",
+      "impr": 61941,
+      "paidImpr": 61490,
+      "orgImpr": 451,
+      "views": 35537,
+      "reach": 0,
+      "eng": 103,
+      "er": 0.17,
+      "spend": 0,
+      "watchTimeMin": 6702.2,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 4.75,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/iVVmQW4BhmQ",
+      "postedAt": "2026-07-17T13:59:12-07:00"
+    },
+    {
       "title": "Red Card or Green Flag? World Cup Fan Edition",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
@@ -31426,10 +31556,20 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.68,
     "impressions": 53414427,
     "paidImpressions": 52966519,
-    "pctOfTotal": 44.9,
+    "pctOfTotal": 44.8,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 27.5,
     "color": "#E00922"
+  },
+  {
+    "name": "Instagram",
+    "cpm": 4.88,
+    "impressions": 15031473,
+    "paidImpressions": 12919666,
+    "pctOfTotal": 12.6,
+    "mvmCpm": 5.62,
+    "mvmDeltaPct": -13.2,
+    "color": "#E4405F"
   },
   {
     "name": "X",
@@ -31442,43 +31582,33 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "color": "#1d1d1f"
   },
   {
-    "name": "Instagram",
-    "cpm": 4.88,
-    "impressions": 14912740,
-    "paidImpressions": 12806153,
-    "pctOfTotal": 12.5,
-    "mvmCpm": 5.62,
-    "mvmDeltaPct": -13.3,
-    "color": "#E4405F"
-  },
-  {
     "name": "TikTok",
     "cpm": 2.49,
     "impressions": 14247222,
     "paidImpressions": 11230128,
-    "pctOfTotal": 12.0,
+    "pctOfTotal": 11.9,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 11.1,
     "color": "#000000"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.56,
-    "impressions": 11300385,
-    "paidImpressions": 11163262,
+    "cpm": 2.55,
+    "impressions": 11362326,
+    "paidImpressions": 11224752,
     "pctOfTotal": 9.5,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -20.0,
+    "mvmDeltaPct": -20.4,
     "color": "#FF0033"
   },
   {
     "name": "Facebook",
-    "cpm": 3.38,
-    "impressions": 7626605,
-    "paidImpressions": 7612143,
+    "cpm": 3.39,
+    "impressions": 7685669,
+    "paidImpressions": 7670238,
     "pctOfTotal": 6.4,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -19.5,
+    "mvmDeltaPct": -19.4,
     "color": "#1877F2"
   },
   {
