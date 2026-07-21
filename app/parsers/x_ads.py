@@ -81,6 +81,12 @@ def _parse_native(df: pd.DataFrame) -> list[NormalizedPost]:
                      or "").strip()
         tweet_id = _extract_tweet_id(tweet_url) if tweet_url else None
 
+        # Link clicks drive Clicks/CTR/CPC. X's own "CTR" column is unreliable
+        # (sometimes a fraction like 1.03e-05, sometimes a "0.03%" string), so
+        # we don't trust it — populate link clicks and let the serializer derive
+        # CTR (clicks÷impressions) and CPC (spend÷clicks) in consistent units.
+        link_clicks = _to_int(raw.get("Link clicks"))
+
         rows.append(NormalizedPost(
             source=Source.X_ADS,
             platform=Platform.X,
@@ -93,7 +99,7 @@ def _parse_native(df: pd.DataFrame) -> list[NormalizedPost]:
             impressions_total=impr,
             ad_spend=spend,
             cpm=_to_float(raw.get("CPM")),
-            ctr=_to_float(raw.get("CTR")),
+            link_clicks_paid=link_clicks,
             engagements_paid=_to_int(raw.get("Engagements")),
             engagements_total=_to_int(raw.get("Engagements")),
             raw={**raw, "_tweet_id": tweet_id} if tweet_id else raw,

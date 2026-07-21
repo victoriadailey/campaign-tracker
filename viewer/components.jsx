@@ -25,6 +25,7 @@ const Ic = {
   upload: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M8 11V3M5 6l3-3 3 3M3 13h10"/></svg>,
   trash: () => <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 4h10M6 4V2.5h4V4M5 4l1 9h4l1-9"/></svg>,
   copy: () => <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="5" width="9" height="9" rx="1.5"/><path d="M11 5V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2"/></svg>,
+  wrapped: () => <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><circle cx="8" cy="8" r="6"/><path d="M5.5 8l1.8 1.8L10.5 6"/></svg>,
 };
 
 // ============================================================
@@ -68,18 +69,22 @@ function Sidebar({ active, onNav, campaigns }) {
       <button className={"sb-item " + (active === 'archive' ? 'active' : '')} onClick={() => onNav({ view: 'archive' })}>
         <Ic.posts/> Data Archive
       </button>
+      {campaigns.some(c => c.lifecycle === 'wrapped') && (
+        <button className={"sb-item " + (active === 'wrapped' ? 'active' : '')} onClick={() => onNav({ view: 'wrapped' })}>
+          <Ic.wrapped/> Wrapped
+        </button>
+      )}
 
       {(() => {
         const active_only = campaigns.filter(c => (c.lifecycle || 'active') === 'active');
-        const wrapped = campaigns.filter(c => c.lifecycle === 'wrapped');
         // Three buckets — Content (longform / series), Social (post-driven),
-        // BrandX (paid-performance dark social).
+        // BrandX (paid-performance dark social). Wrapped campaigns are NOT
+        // listed here — they live on the dedicated "Wrapped" page so the live
+        // sidebar stays focused on active flights.
         const content = active_only.filter(c => c.type === 'content');
         const social  = active_only.filter(c => c.type === 'social');
         const brandx  = active_only.filter(c => c.type === 'brandx');
         const renderItem = (c) => {
-          // Wrapped campaigns have ended — no live pacing to signal, so the
-          // status dot is dropped entirely for them.
           const isWrapped = c.lifecycle === 'wrapped';
           return (
             <button key={c.id}
@@ -103,8 +108,6 @@ function Sidebar({ active, onNav, campaigns }) {
             {social.map(renderItem)}
             {brandx.length > 0 && <div className="sb-section">BrandX</div>}
             {brandx.map(renderItem)}
-            {wrapped.length > 0 && <div className="sb-section">Wrapped</div>}
-            {wrapped.map(renderItem)}
           </>
         );
       })()}

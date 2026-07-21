@@ -70,6 +70,47 @@ function HealthBanner() {
 }
 
 // ============================================================
+// WRAPPED PAGE — finished campaigns, kept off the main Overview so the live
+// dashboard stays light. Final delivery only; no live pacing.
+// ============================================================
+function WrappedPage({ onOpenCampaign }) {
+  const wrapped = CAMPAIGNS.filter(c => c.lifecycle === 'wrapped');
+  const totalImpr = wrapped.reduce((s, c) => s + (c.impressions?.delivered || 0), 0);
+  const totalBudget = wrapped.reduce((s, c) => s + (c.budget?.delivered || 0), 0);
+  // Count how many hit their impression goal, for a one-line scoreboard.
+  const hitGoal = wrapped.filter(c => (c.impressions?.delivered || 0) >= (c.impressions?.goal || Infinity)).length;
+
+  return (
+    <>
+      <PageHead
+        overline="Sponsored campaigns · archive"
+        title="Wrapped"
+        italic="campaigns"
+        sub={wrapped.length === 0
+          ? <>No wrapped campaigns yet — finished flights will collect here.</>
+          : <>{wrapped.length} finished flight{wrapped.length === 1 ? '' : 's'} · {fmt.num(totalImpr)} impressions delivered · {hitGoal} of {wrapped.length} hit goal.</>}
+      />
+
+      {wrapped.length > 0 && (
+        <div className="sec">
+          <div className="sec-h">
+            <div>
+              <div className="sec-title">Final <em>delivery</em></div>
+              <div className="sec-sub" style={{marginTop:6}}>Campaigns that have ended. Numbers are frozen at wrap; click any card for the full breakdown.</div>
+            </div>
+          </div>
+          <div style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:14}}>
+            {wrapped.map(c => (
+              <WrappedCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
+            ))}
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+// ============================================================
 // OVERVIEW PAGE
 // ============================================================
 function OverviewPage({ onOpenCampaign }) {
@@ -166,42 +207,28 @@ function OverviewPage({ onOpenCampaign }) {
       );
       })()}
 
-      {/* CAMPAIGN GRID — active + recently wrapped */}
+      {/* CAMPAIGN GRID — active only. Wrapped campaigns live on their own
+          "Wrapped" page (lighter Overview, fewer cards to load here). */}
       {(() => {
         const activeCampaigns = CAMPAIGNS.filter(c => (c.lifecycle || 'active') === 'active');
-        const wrappedCampaigns = CAMPAIGNS.filter(c => c.lifecycle === 'wrapped');
+        const wrappedCount = CAMPAIGNS.filter(c => c.lifecycle === 'wrapped').length;
         return (
-          <>
-            <div className="sec">
-              <div className="sec-h">
-                <div>
-                  <div className="sec-title">Active <em>campaigns</em></div>
-                  <div className="sec-sub" style={{marginTop:6}}>Pacing across impressions and budget for every live flight.</div>
+          <div className="sec">
+            <div className="sec-h">
+              <div>
+                <div className="sec-title">Active <em>campaigns</em></div>
+                <div className="sec-sub" style={{marginTop:6}}>
+                  Pacing across impressions and budget for every live flight.
+                  {wrappedCount > 0 && <> {wrappedCount} wrapped campaign{wrappedCount === 1 ? '' : 's'} live on the <strong>Wrapped</strong> page.</>}
                 </div>
-              </div>
-              <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:16}}>
-                {activeCampaigns.map(c => (
-                  <CampaignCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
-                ))}
               </div>
             </div>
-
-            {wrappedCampaigns.length > 0 && (
-              <div className="sec">
-                <div className="sec-h">
-                  <div>
-                    <div className="sec-title">Recently <em>wrapped</em></div>
-                    <div className="sec-sub" style={{marginTop:6}}>Campaigns that have ended — final delivery only.</div>
-                  </div>
-                </div>
-                <div style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:14}}>
-                  {wrappedCampaigns.map(c => (
-                    <WrappedCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
-                  ))}
-                </div>
-              </div>
-            )}
-          </>
+            <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:16}}>
+              {activeCampaigns.map(c => (
+                <CampaignCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
+              ))}
+            </div>
+          </div>
         );
       })()}
 

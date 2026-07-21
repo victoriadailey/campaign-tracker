@@ -70,7 +70,8 @@ function App() {
           : view.view === 'benchmarks' ? '02 Benchmarks'
           : view.view === 'inputs'     ? '03 Add Campaign Data'
           : view.view === 'archive'    ? '04 Data Archive'
-          : `05 Campaign — ${view.id}`
+          : view.view === 'wrapped'    ? '05 Wrapped'
+          : `06 Campaign — ${view.id}`
       }>
         {view.view === 'overview' ? (
           <OverviewPage onOpenCampaign={(id) => setView({ view: 'campaign', id })}/>
@@ -80,6 +81,8 @@ function App() {
           <InputsPage/>
         ) : view.view === 'archive' ? (
           <DataArchivePage/>
+        ) : view.view === 'wrapped' ? (
+          <WrappedPage onOpenCampaign={(id) => setView({ view: 'campaign', id })}/>
         ) : view.id === 'usbank' ? (
           <UsBankPage campaignId={view.id} onBack={() => setView({ view: 'overview' })}/>
         ) : (
