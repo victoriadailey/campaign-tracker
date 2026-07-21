@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-21T14:09:43Z";
+window.LAST_REFRESHED = "2026-07-21T14:12:01Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-07-20T20:41:48Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1809,7 +1809,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-07-20T17:09:32Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2354,7 +2354,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2556,7 +2556,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2832,7 +2832,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3014,16 +3014,16 @@ window.CAMPAIGNS = [
       "goal": 8000000
     },
     "budget": {
-      "delivered": 10177.4,
+      "delivered": 9331.74,
       "goal": 12100.0
     },
     "color": "ft-9",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 1.3,
-    "cpm": 1.67,
+    "cpm": 1.53,
     "episodes": 0,
-    "posts": 21,
+    "posts": 19,
     "blurb": "Prudential x '94 to Now \u2014 USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn.",
     "views": 2137929,
     "engagements": 181869,
@@ -3101,7 +3101,7 @@ window.CAMPAIGNS = [
         "impressions": 310718,
         "eng": 0,
         "er": 0.0,
-        "cpm": 5.47,
+        "cpm": 2.75,
         "color": "#1877F2",
         "delta": -100.0,
         "bench": {
@@ -3215,7 +3215,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-07-21T14:05:22Z"
   },
   {
@@ -3526,7 +3526,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-07-15T18:55:12Z"
   },
   {
@@ -3641,7 +3641,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-21T14:09:42Z",
+    "lastUpdatedMs": "2026-07-21T14:12:00Z",
     "lastUpdatedExports": "2026-07-20T20:41:48Z"
   }
 ];
@@ -3947,7 +3947,7 @@ window.CHANNELS = [
     "impressions": 8119541,
     "eng": 13927,
     "er": 0.17,
-    "cpm": 3.34,
+    "cpm": 3.24,
     "color": "#1877F2",
     "delta": -88.8,
     "bench": {
@@ -29507,29 +29507,6 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-08T12:33:08-07:00"
     },
     {
-      "title": "{{product.name}}",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 0,
-      "paidImpr": 0,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 111491,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 604.52,
-      "watchTimeMin": null,
-      "clicks": 234,
-      "ctr": 10.78,
-      "cpc": 2.58,
-      "cpm": 2.78,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/1519337266872525/",
-      "postedAt": "2026-07-09T10:52:27-07:00"
-    },
-    {
       "title": "USMNT legend Cobi Jones didn\u2019t wait until retirement to think about life after soccer",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
@@ -29597,29 +29574,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-07-09T18:01:18-07:00"
-    },
-    {
-      "title": "{{product.name}}",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 0,
-      "paidImpr": 0,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 56318,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 241.13,
-      "watchTimeMin": null,
-      "clicks": 81,
-      "ctr": 8.99,
-      "cpc": 2.98,
-      "cpm": 2.68,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/1523549109784674/",
-      "postedAt": "2026-07-14T11:29:39-07:00"
     },
     {
       "title": "One piece of advice to today\u2019s generation from USMNT legend Cobi Jones: \u201cmake your preparations (for post-career) early.",
@@ -32097,12 +32051,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.38,
+    "cpm": 3.27,
     "impressions": 7982453,
     "paidImpressions": 7966939,
     "pctOfTotal": 6.5,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -19.6,
+    "mvmDeltaPct": -22.1,
     "color": "#1877F2"
   },
   {
@@ -32127,7 +32081,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.03;
+window.PORTFOLIO_CPM_BLEND = 2.02;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
