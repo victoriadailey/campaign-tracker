@@ -1,9 +1,9 @@
 FOS Reporting
-"May 1, 2026 - July 20, 2026"
+"May 1, 2026 - July 22, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-Heineken: FOSN - World Cup Winner Money (Shorts),USD,0,Ended,Video,0.127,"3,946",3.30,"151,130",499.39,"8,353"
-Heineken_RedCardGreenFlag_Video1,USD,0,Ended,Video,0.066,"15,929",2.98,"352,104",1049.74,"28,834"
+Heineken_RedCardGreenFlag_Video1,USD,0,Ended,Video,0.066,"15,929",2.98,"352,024",1049.51,"28,834"
+Heineken: FOSN - World Cup Winner Money (Shorts),USD,0,Ended,Video,0.127,"3,946",3.30,"151,124",499.37,"8,352"
 Heineken (FOSN): USA-Paraguay (shorts),USD,0,Ended,Video,0.125,"3,984",2.59,"192,754",499.74,"7,631"
+Heineken: Red Card Green Flag 2 (Shorts),USD,0,Paused,Video,0.125,"5,413",3.49,"193,588",675.65,"10,655"
 Heineken: UEFA (FOSN) - Video 1 (shorts),USD,0,Ended,Video,0.064,"7,826",2.61,"191,542",499.81,"15,591"
-Heineken: Red Card Green Flag 2 (Shorts),USD,0,Paused,Video,0.125,"5,413",3.49,"193,616",675.76,"10,655"
-Heineken: FOSN World Cup Final (Shorts),USD,0,Eligible,Video,0.054,"6,095",4.61,"71,578",330.31,"10,439"
+Heineken: FOSN World Cup Final (Shorts),USD,0,Ended,Video,0.060,"18,306",4.03,"270,349",1090.50,"34,101"
