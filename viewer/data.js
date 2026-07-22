@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-22T13:18:40Z";
+window.LAST_REFRESHED = "2026-07-22T13:33:12Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-07-20T20:41:48Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-07-22T13:15:53Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-07-21T14:05:22Z"
   },
   {
@@ -3510,7 +3510,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
     "lastUpdatedExports": "2026-07-15T18:55:12Z"
   },
   {
@@ -3525,23 +3525,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1755039,
+      "delivered": 1658596,
       "goal": 4500000
     },
     "budget": {
-      "delivered": 4606.3,
+      "delivered": 4586.6,
       "goal": 11000.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
     "er": 3.5,
-    "cpm": 2.62,
+    "cpm": 2.77,
     "episodes": 0,
-    "posts": 4,
+    "posts": 3,
     "blurb": "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists.",
     "views": 1455220,
-    "engagements": 61259,
+    "engagements": 57698,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3563,6 +3563,22 @@ window.CAMPAIGNS = [
         "views": 682843
       },
       {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 534382,
+        "eng": 57324,
+        "er": 10.73,
+        "cpm": 3.27,
+        "color": "#FF0033",
+        "delta": -46.4,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 10,
+        "views": 344590
+      },
+      {
         "name": "Instagram",
         "italic": "gram",
         "impressions": 427787,
@@ -3577,56 +3593,16 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 0,
         "views": 427787
-      },
-      {
-        "name": "YouTube Shorts",
-        "italic": "YouTube Shorts",
-        "impressions": 377383,
-        "eng": 40783,
-        "er": 10.81,
-        "cpm": 3.28,
-        "color": "#FF0033",
-        "delta": -46.0,
-        "bench": {
-          "er": 20.0,
-          "cpm": 3.25
-        },
-        "organicImpressions": 10,
-        "views": 344590
-      },
-      {
-        "name": "X",
-        "italic": "X",
-        "impressions": 253442,
-        "eng": 20102,
-        "er": 7.93,
-        "cpm": 2.08,
-        "color": "#1d1d1f",
-        "delta": 762.1,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 0,
-        "views": 0
       }
     ],
     "topPosts": [],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WIN",
-        "kind": "pos",
-        "headline": "X at 7.9% ER \u2014 8.6\u00d7 the benchmark.",
-        "body": "253K impressions, 20K engagements at 7.9% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-        "meta": "DOW Chemical \u00b7 X"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-22T13:18:40Z",
-    "lastUpdatedExports": "2026-07-20T20:41:48Z"
+    "lastUpdatedMs": "2026-07-22T13:33:12Z",
+    "lastUpdatedExports": "2026-07-22T13:32:04Z"
   }
 ];
 
@@ -3864,12 +3840,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 81309473,
-    "eng": 1431036,
-    "er": 1.76,
-    "cpm": 1.01,
+    "impressions": 81466472,
+    "eng": 1447577,
+    "er": 1.78,
+    "cpm": 1.02,
     "color": "#E00922",
-    "delta": -91.2,
+    "delta": -91.1,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -3880,12 +3856,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26380034,
-    "eng": 814617,
-    "er": 3.09,
+    "impressions": 26126592,
+    "eng": 794515,
+    "er": 3.04,
     "cpm": 1.52,
     "color": "#1d1d1f",
-    "delta": 235.7,
+    "delta": 230.5,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -30032,19 +30008,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 377383,
-      "paidImpr": 377373,
+      "impr": 534382,
+      "paidImpr": 534372,
       "orgImpr": 10,
       "views": 344590,
       "reach": 0,
-      "eng": 40783,
-      "er": 10.81,
-      "spend": 1238.4,
+      "eng": 57324,
+      "er": 10.73,
+      "spend": 1745.62,
       "watchTimeMin": 36108.6,
       "clicks": 17,
       "ctr": 3.24,
       "cpc": 100.8,
-      "cpm": 3.28,
+      "cpm": 3.27,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/XJarxHCXGDk",
@@ -30095,29 +30071,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-07-15T19:25:30-07:00"
-    },
-    {
-      "title": "DOW: Impact Award",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 253442,
-      "paidImpr": 253442,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 20102,
-      "er": 7.93,
-      "spend": 526.92,
-      "watchTimeMin": null,
-      "clicks": 88,
-      "ctr": 0.03,
-      "cpc": 5.99,
-      "cpm": 2.08,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
     }
   ]
 };
@@ -30507,6 +30460,7 @@ window.DATA_HEALTH = {
   "generatedWarnings": [
     "[betmgm_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/betmgm_brandx_x_ads.csv",
     "[att_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/att_brandx_x_ads.csv",
+    "[dow_lpga_impact_award] dow_lpga_impact_award_x_ads.csv: Unknown X Ads export format. Got columns: ['Table 1']",
     "[heineken] excluded 2 post(s) via campaign exclude ['1512716967534555', '3932495664965122403']"
   ],
   "msErrors": [],
@@ -30966,7 +30920,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-07-22",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 0
   }
 ];
 
@@ -32077,16 +32031,6 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "color": "#E4405F"
   },
   {
-    "name": "X",
-    "cpm": 2.07,
-    "impressions": 15380760,
-    "paidImpressions": 13643366,
-    "pctOfTotal": 12.4,
-    "mvmCpm": 1.24,
-    "mvmDeltaPct": 66.7,
-    "color": "#1d1d1f"
-  },
-  {
     "name": "TikTok",
     "cpm": 2.46,
     "impressions": 15292253,
@@ -32097,13 +32041,23 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "color": "#000000"
   },
   {
+    "name": "X",
+    "cpm": 2.07,
+    "impressions": 15127318,
+    "paidImpressions": 13389924,
+    "pctOfTotal": 12.2,
+    "mvmCpm": 1.24,
+    "mvmDeltaPct": 66.7,
+    "color": "#1d1d1f"
+  },
+  {
     "name": "YouTube Shorts",
-    "cpm": 2.66,
-    "impressions": 12010761,
-    "paidImpressions": 11868357,
-    "pctOfTotal": 9.7,
+    "cpm": 2.67,
+    "impressions": 12167760,
+    "paidImpressions": 12025356,
+    "pctOfTotal": 9.8,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -17.0,
+    "mvmDeltaPct": -16.7,
     "color": "#FF0033"
   },
   {
