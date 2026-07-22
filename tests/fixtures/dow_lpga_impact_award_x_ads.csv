@@ -1,3 +1,2 @@
-Table 1
-Time period,On/Off,Campaign ID,Campaign name,Post Link,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,Engagements,CTR,CPM,Cost per link click
-2026-04-05 - 2026-07-22,On,41937137,DOW: Impact Award,https://x.com/FOS/status/2077470932193395184,Reach,Expired,2026-07-15 12:10:42,2026-07-21 00:00:00,296130,599.80,102,23358,0.03%,2.03,5.88
+Time period,On/Off,Campaign ID,Campaign name,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,Engagements,CTR,CPM,Cost per link click
+2026-07-01 - 2026-07-22,On,41937137,DOW: Impact Award,Reach,Expired,2026-07-15 12:10:42,2026-07-21 00:00:00,296130,599.80,102,23358,0.03%,2.03,5.88
