@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-23T17:04:53Z";
+window.LAST_REFRESHED = "2026-07-23T17:19:45Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 32497217,
+      "delivered": 32522104,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 2.3,
     "cpm": 1.78,
     "episodes": 14,
-    "posts": 304,
+    "posts": 310,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 9641954,
-    "engagements": 1130975,
+    "views": 9650354,
+    "engagements": 1131151,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -438,8 +438,8 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 5531937,
-        "eng": 95156,
+        "impressions": 5537542,
+        "eng": 95223,
         "er": 1.72,
         "cpm": 5.26,
         "color": "#E4405F",
@@ -448,24 +448,24 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1574943,
-        "views": 5531937
+        "organicImpressions": 1580548,
+        "views": 5537542
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4079525,
-        "eng": 181575,
-        "er": 4.45,
+        "impressions": 4093963,
+        "eng": 181590,
+        "er": 4.44,
         "cpm": 1.19,
         "color": "#1d1d1f",
-        "delta": 383.8,
+        "delta": 382.1,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1378463,
-        "views": 388212
+        "organicImpressions": 1392901,
+        "views": 389791
       },
       {
         "name": "YouTube Shorts",
@@ -486,34 +486,34 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1104083,
-        "eng": 39709,
-        "er": 3.6,
+        "impressions": 1108613,
+        "eng": 39793,
+        "er": 3.59,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -4.3,
+        "delta": -4.5,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1104083,
-        "views": 445202
+        "organicImpressions": 1108613,
+        "views": 446104
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 814638,
-        "eng": 34158,
+        "impressions": 814952,
+        "eng": 34168,
         "er": 4.19,
         "cpm": 0.0,
         "color": "#000000",
-        "delta": 106.6,
+        "delta": 106.5,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 814638,
-        "views": 814638
+        "organicImpressions": 814952,
+        "views": 814952
       },
       {
         "name": "Instagram Stories",
@@ -816,15 +816,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 4.5% ER \u2014 4.8\u00d7 the benchmark.",
-        "body": "4.1M impressions, 182K engagements at 4.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "X at 4.4% ER \u2014 4.8\u00d7 the benchmark.",
+        "body": "4.1M impressions, 182K engagements at 4.4% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "E*TRADE \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:44Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:45Z",
     "lastUpdatedExports": "2026-07-21T14:05:22Z"
   },
   {
@@ -3519,7 +3519,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:45Z",
     "lastUpdatedExports": "2026-07-23T15:33:41Z"
   },
   {
@@ -3641,7 +3641,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T17:04:53Z",
+    "lastUpdatedMs": "2026-07-23T17:19:45Z",
     "lastUpdatedExports": "2026-07-23T15:25:51Z"
   }
 ];
@@ -3896,24 +3896,24 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26590755,
-    "eng": 843718,
+    "impressions": 26605193,
+    "eng": 843733,
     "er": 3.17,
     "cpm": 1.54,
     "color": "#1d1d1f",
-    "delta": 244.9,
+    "delta": 244.7,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 429524
+    "views": 431103
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 17444035,
-    "eng": 262244,
+    "impressions": 17449640,
+    "eng": 262311,
     "er": 1.5,
     "cpm": 4.84,
     "color": "#E4405F",
@@ -3923,13 +3923,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 17444035
+    "views": 17449640
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 16996545,
-    "eng": 48645,
+    "impressions": 16996859,
+    "eng": 48655,
     "er": 0.29,
     "cpm": 2.44,
     "color": "#000000",
@@ -3939,7 +3939,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 16836290
+    "views": 16836604
   },
   {
     "name": "Facebook",
@@ -3960,18 +3960,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 1690043,
-    "eng": 62311,
-    "er": 3.69,
+    "impressions": 1694573,
+    "eng": 62395,
+    "er": 3.68,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -1.9,
+    "delta": -2.1,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 677570
+    "views": 678472
   },
   {
     "name": "Snapchat",
@@ -12290,10 +12290,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Arturo Lomeli",
       "date": "Jul 14",
       "total": {
-        "impr": 1866971,
-        "views": 302376,
+        "impr": 1891858,
+        "views": 310776,
         "er": 1.02,
-        "eng": 41380,
+        "eng": 41556,
         "spend": 2720.3
       },
       "perChannel": [
@@ -12315,32 +12315,32 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 215266,
+          "impr": 220871,
           "paidImpr": 187322,
-          "orgImpr": 27944,
-          "views": 215266,
-          "eng": 2437,
+          "orgImpr": 33549,
+          "views": 220871,
+          "eng": 2504,
           "paidEng": 0,
-          "orgEng": 2437,
+          "orgEng": 2504,
           "er": 1.13,
           "cpm": 5.34,
           "spend": 999.45,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 151636,
+          "impr": 166074,
           "paidImpr": 105900,
-          "orgImpr": 45736,
-          "views": 4939,
-          "eng": 8194,
+          "orgImpr": 54712,
+          "views": 6518,
+          "eng": 8209,
           "paidEng": 8135,
-          "orgEng": 59,
-          "er": 5.4,
+          "orgEng": 74,
+          "er": 4.94,
           "cpm": 2.11,
           "spend": 223.37,
-          "posts": 4
+          "posts": 6
         },
         {
           "name": "YouTube Shorts",
@@ -12355,7 +12355,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.8,
           "cpm": 3.47,
           "spend": 199.78,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "YouTube Pre-roll",
@@ -12375,32 +12375,32 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 20502,
+          "impr": 25032,
           "paidImpr": 0,
-          "orgImpr": 20502,
-          "views": 6600,
-          "eng": 291,
+          "orgImpr": 25032,
+          "views": 7502,
+          "eng": 375,
           "paidEng": 0,
-          "orgEng": 291,
-          "er": 1.42,
+          "orgEng": 375,
+          "er": 1.5,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 1030,
+          "impr": 1344,
           "paidImpr": 0,
-          "orgImpr": 1030,
-          "views": 1030,
-          "eng": 26,
+          "orgImpr": 1344,
+          "views": 1344,
+          "eng": 36,
           "paidEng": 0,
-          "orgEng": 26,
-          "er": 2.52,
+          "orgEng": 36,
+          "er": 2.68,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         }
       ],
       "posts": [
@@ -12613,6 +12613,96 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 499.79,
           "url": "https://www.instagram.com/p/Da038CmhtKK/",
           "postedAt": "2026-07-18T15:30:02-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul fo",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7041,
+          "paidImpr": 0,
+          "orgImpr": 7041,
+          "views": 1579,
+          "eng": 12,
+          "er": 0.17,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2080019564679614867",
+          "postedAt": "2026-07-22T12:58:03-07:00"
+        },
+        {
+          "title": "Full conversation with Clase Azul founder Arturo Lomeli: - Owning 2 soccer clubs... and losing money  - How drinking les",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7397,
+          "paidImpr": 0,
+          "orgImpr": 7397,
+          "views": 0,
+          "eng": 3,
+          "er": 0.04,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2080019654295126180",
+          "postedAt": "2026-07-22T12:58:25-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul M\u00e9",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 4530,
+          "paidImpr": 0,
+          "orgImpr": 4530,
+          "views": 902,
+          "eng": 84,
+          "er": 1.85,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485785389476225024",
+          "postedAt": "2026-07-22T13:30:04-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d\u2060 \u2060 Clase Azul ",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 5605,
+          "paidImpr": 0,
+          "orgImpr": 5605,
+          "views": 5605,
+          "eng": 67,
+          "er": 1.2,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DbG89Q8AEPO/",
+          "postedAt": "2026-07-22T13:33:27-07:00"
+        },
+        {
+          "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d \u00a0 Clase Azul f",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 314,
+          "paidImpr": 0,
+          "orgImpr": 314,
+          "views": 314,
+          "eng": 10,
+          "er": 3.18,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7665483201086786830",
+          "postedAt": "2026-07-22T15:30:01-07:00"
+        },
+        {
+          "title": "Clase Azul's founder on why they'll never sell",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/WYy-U4T9h_E",
+          "postedAt": "2026-07-22T16:30:32-07:00"
         }
       ],
       "topPosts": [
@@ -12634,11 +12724,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 5.4% ER on 151.6K impr."
+          "text": "X leading with 4.9% ER on 166.1K impr."
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 20.5K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 25.0K impr."
         }
       ]
     }
@@ -24643,6 +24733,144 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 87615,
       "url": "https://www.instagram.com/p/Da038CmhtKK/",
       "postedAt": "2026-07-18T15:30:02-07:00"
+    },
+    {
+      "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul fo",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7041,
+      "paidImpr": 0,
+      "orgImpr": 7041,
+      "views": 1579,
+      "reach": 0,
+      "eng": 12,
+      "er": 0.17,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2080019564679614867",
+      "postedAt": "2026-07-22T12:58:03-07:00"
+    },
+    {
+      "title": "Full conversation with Clase Azul founder Arturo Lomeli: - Owning 2 soccer clubs... and losing money  - How drinking les",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7397,
+      "paidImpr": 0,
+      "orgImpr": 7397,
+      "views": 0,
+      "reach": 0,
+      "eng": 3,
+      "er": 0.04,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2080019654295126180",
+      "postedAt": "2026-07-22T12:58:25-07:00"
+    },
+    {
+      "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul M\u00e9",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 4530,
+      "paidImpr": 0,
+      "orgImpr": 4530,
+      "views": 902,
+      "reach": 0,
+      "eng": 84,
+      "er": 1.85,
+      "spend": 0,
+      "watchTimeMin": 175.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485785389476225024",
+      "postedAt": "2026-07-22T13:30:04-07:00"
+    },
+    {
+      "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d\u2060 \u2060 Clase Azul ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5605,
+      "paidImpr": 0,
+      "orgImpr": 5605,
+      "views": 5605,
+      "reach": 4382,
+      "eng": 67,
+      "er": 1.2,
+      "spend": 0,
+      "watchTimeMin": 5.4,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DbG89Q8AEPO/",
+      "postedAt": "2026-07-22T13:33:27-07:00"
+    },
+    {
+      "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d \u00a0 Clase Azul f",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 314,
+      "paidImpr": 0,
+      "orgImpr": 314,
+      "views": 314,
+      "reach": 0,
+      "eng": 10,
+      "er": 3.18,
+      "spend": 0,
+      "watchTimeMin": 16.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7665483201086786830",
+      "postedAt": "2026-07-22T15:30:01-07:00"
+    },
+    {
+      "title": "Clase Azul's founder on why they'll never sell",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/WYy-U4T9h_E",
+      "postedAt": "2026-07-22T16:30:32-07:00"
     }
   ],
   "spectrum": [
@@ -32081,7 +32309,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.89,
-    "impressions": 15700305,
+    "impressions": 15705910,
     "paidImpressions": 13535505,
     "pctOfTotal": 12.5,
     "mvmCpm": 5.62,
@@ -32091,7 +32319,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 15591481,
+    "impressions": 15605919,
     "paidImpressions": 13853950,
     "pctOfTotal": 12.5,
     "mvmCpm": 1.24,
@@ -32101,7 +32329,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.46,
-    "impressions": 15590696,
+    "impressions": 15591010,
     "paidImpressions": 12040333,
     "pctOfTotal": 12.5,
     "mvmCpm": 2.24,
@@ -32131,7 +32359,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1326952,
+    "impressions": 1331482,
     "paidImpressions": 0,
     "pctOfTotal": 1.1,
     "mvmCpm": null,
