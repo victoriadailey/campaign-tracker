@@ -1,3 +1,2 @@
-Table 1
-Time period,On/Off,Ad Group ID,Ad Group name,Objective,Delivery status,Ad Group start,Ad Group end,Ad group daily budget,Ad group total budget,Impressions,Spend,Link clicks,Engagements,CTR,CPM,Cost per link click
-2026-04-05 - 2026-07-23,On,55849569,DOW: Impact Award,Reach,Active,2026-07-15 12:10:42,2026-07-23 14:00:00,500.00,1172.00,495931,1172.00,167,41063,0.03%,2.36,7.02
+Time period,On/Off,Campaign ID,Campaign name,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,Engagements,CTR,CPM,Cost per link click
+2026-06-01 - 2026-07-23,On,41937137,DOW: Impact Award,Reach,Active,2026-07-15 12:10:42,2026-07-23 14:00:00,495948,1172.00,167,41063,0.03%,2.36,7.02
