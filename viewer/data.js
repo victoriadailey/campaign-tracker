@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-23T15:22:40Z";
+window.LAST_REFRESHED = "2026-07-23T15:26:19Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-07-20T20:41:48Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-07-21T14:05:22Z"
   },
   {
@@ -3519,7 +3519,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
     "lastUpdatedExports": "2026-07-15T18:55:12Z"
   },
   {
@@ -3610,8 +3610,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-23T15:22:39Z",
-    "lastUpdatedExports": "2026-07-23T15:15:59Z"
+    "lastUpdatedMs": "2026-07-23T15:26:19Z",
+    "lastUpdatedExports": "2026-07-23T15:24:19Z"
   }
 ];
 
@@ -30469,7 +30469,7 @@ window.DATA_HEALTH = {
   "generatedWarnings": [
     "[betmgm_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/betmgm_brandx_x_ads.csv",
     "[att_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/att_brandx_x_ads.csv",
-    "[dow_lpga_impact_award] dow_lpga_impact_award_x_ads.csv: Unknown X Ads export format. Got columns: ['Ad Group ID', 'Ad Group end', 'Ad Group name', 'Ad Group start', 'Ad group daily budget', 'Ad group total budget', 'CPM', 'CTR', 'Cost per link click', 'Delivery status']",
+    "[dow_lpga_impact_award] dow_lpga_impact_award_x_ads.csv: Unknown X Ads export format. Got columns: ['Table 1']",
     "[heineken] excluded 2 post(s) via campaign exclude ['1512716967534555', '3932495664965122403']"
   ],
   "msErrors": [],
@@ -30926,7 +30926,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "dow_lpga_impact_award_x_ads.csv",
-    "fileSizeKb": 0.5,
+    "fileSizeKb": 0.4,
     "lastModified": "2026-07-23",
     "exists": true,
     "postsContributed": 0
