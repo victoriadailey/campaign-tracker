@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-24T14:14:50Z";
+window.LAST_REFRESHED = "2026-07-24T19:27:53Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3183,7 +3183,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-07-24T13:59:08Z"
   },
   {
@@ -3517,7 +3517,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-07-23T15:33:41Z"
   },
   {
@@ -3639,8 +3639,50 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T14:14:49Z",
+    "lastUpdatedMs": "2026-07-24T19:27:53Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
+  },
+  {
+    "id": "ehp_avp",
+    "partner": "EHP",
+    "series": "EHP",
+    "seriesItalic": "EHP",
+    "type": "social",
+    "flight": "Jul 1 \u2014 Aug 31, 2026",
+    "elapsedPct": 37.7,
+    "daysLeft": 38,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 0,
+      "goal": 4000000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 7054.0
+    },
+    "color": "ft-4",
+    "leadFormat": "Paid Social",
+    "topChannel": "Unknown",
+    "er": 0.0,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 0,
+    "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
+    "views": 0,
+    "engagements": 0,
+    "goalSplit": [],
+    "benchmarkCategory": "Branded Content",
+    "lifecycle": "active",
+    "channels": [],
+    "topPosts": [],
+    "topPostsOrganic": [],
+    "callouts": [],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -16445,7 +16487,8 @@ window.EPISODES_BY_CAMPAIGN = {
   "betmgm_brandx": [],
   "att_brandx": [],
   "ally_nwsl": [],
-  "dow_lpga_impact_award": []
+  "dow_lpga_impact_award": [],
+  "ehp_avp": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -30307,7 +30350,8 @@ window.POSTS_BY_CAMPAIGN = {
       "url": null,
       "postedAt": null
     }
-  ]
+  ],
+  "ehp_avp": []
 };
 
 window.UPLOAD_TARGETS = {
@@ -30509,7 +30553,8 @@ window.UPLOAD_TARGETS = {
       "file": "dow_lpga_impact_award_x_ads.csv",
       "label": "X Ads"
     }
-  ]
+  ],
+  "ehp_avp": []
 };
 
 window.MS_GROUPS = [
@@ -30556,6 +30601,10 @@ window.MS_GROUPS = [
   {
     "id": 8178,
     "name": "DOW"
+  },
+  {
+    "id": 8330,
+    "name": "EHP"
   },
   {
     "id": 7198,
