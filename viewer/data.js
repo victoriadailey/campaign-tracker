@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-24T13:45:30Z";
+window.LAST_REFRESHED = "2026-07-24T13:48:46Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:29Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:30Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-07-21T14:05:22Z"
   },
   {
@@ -3533,7 +3533,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:30Z",
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
     "lastUpdatedExports": "2026-07-23T15:33:41Z"
   },
   {
@@ -3548,23 +3548,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2250592,
+      "delivered": 1754644,
       "goal": 4500000
     },
     "budget": {
-      "delivered": 6046.21,
+      "delivered": 4874.21,
       "goal": 11000.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
-    "er": 4.8,
-    "cpm": 2.69,
+    "er": 3.8,
+    "cpm": 2.78,
     "episodes": 0,
-    "posts": 4,
+    "posts": 3,
     "blurb": "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists.",
     "views": 1641563,
-    "engagements": 106960,
+    "engagements": 65897,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3602,22 +3602,6 @@ window.CAMPAIGNS = [
         "views": 510322
       },
       {
-        "name": "X",
-        "italic": "X",
-        "impressions": 495948,
-        "eng": 41063,
-        "er": 8.28,
-        "cpm": 2.36,
-        "color": "#1d1d1f",
-        "delta": 800.0,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 0,
-        "views": 0
-      },
-      {
         "name": "Instagram",
         "italic": "gram",
         "impressions": 427787,
@@ -3636,27 +3620,12 @@ window.CAMPAIGNS = [
     ],
     "topPosts": [],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WIN",
-        "kind": "pos",
-        "headline": "X at 8.3% ER \u2014 9.0\u00d7 the benchmark.",
-        "body": "496K impressions, 41K engagements at 8.3% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-        "meta": "DOW Chemical \u00b7 X"
-      },
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "X CPM at $2.36 \u2014 2.1\u00d7 the benchmark.",
-        "body": "$2.36 CPM vs. $1.10 FOS benchmark. At 2.1\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "DOW Chemical \u00b7 X"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:45:30Z",
-    "lastUpdatedExports": "2026-07-24T13:44:14Z"
+    "lastUpdatedMs": "2026-07-24T13:48:45Z",
+    "lastUpdatedExports": "2026-07-24T13:44:15Z"
   }
 ];
 
@@ -3910,12 +3879,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26605771,
-    "eng": 843733,
-    "er": 3.17,
-    "cpm": 1.54,
+    "impressions": 26109823,
+    "eng": 802670,
+    "er": 3.07,
+    "cpm": 1.53,
     "color": "#1d1d1f",
-    "delta": 244.7,
+    "delta": 234.2,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -30345,29 +30314,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-07-15T19:25:30-07:00"
-    },
-    {
-      "title": "DOW: Impact Award",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 495948,
-      "paidImpr": 495948,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 41063,
-      "er": 8.28,
-      "spend": 1172.0,
-      "watchTimeMin": null,
-      "clicks": 167,
-      "ctr": 0.03,
-      "cpc": 7.02,
-      "cpm": 2.36,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
     }
   ]
 };
@@ -30761,6 +30707,7 @@ window.DATA_HEALTH = {
   "generatedWarnings": [
     "[betmgm_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/betmgm_brandx_x_ads.csv",
     "[att_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/att_brandx_x_ads.csv",
+    "[dow_lpga_impact_award] dow_lpga_impact_award_x_ads.csv: Unknown X Ads export format. Got columns: ['Table 1']",
     "[heineken] excluded 2 post(s) via campaign exclude ['1512716967534555', '3932495664965122403']"
   ],
   "msErrors": [],
@@ -31220,7 +31167,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-07-24",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 0
   }
 ];
 
@@ -32315,7 +32262,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 55186812,
     "paidImpressions": 54733803,
-    "pctOfTotal": 43.9,
+    "pctOfTotal": 44.1,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.9,
     "color": "#E00922"
@@ -32342,12 +32289,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "X",
-    "cpm": 2.09,
-    "impressions": 15606497,
-    "paidImpressions": 13853950,
-    "pctOfTotal": 12.4,
+    "cpm": 2.08,
+    "impressions": 15110549,
+    "paidImpressions": 13358002,
+    "pctOfTotal": 12.1,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 68.7,
+    "mvmDeltaPct": 67.9,
     "color": "#1d1d1f"
   },
   {
@@ -32355,7 +32302,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.76,
     "impressions": 12453541,
     "paidImpressions": 12305661,
-    "pctOfTotal": 9.9,
+    "pctOfTotal": 10.0,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -13.8,
     "color": "#FF0033"
