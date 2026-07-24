@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-24T19:35:45Z";
+window.LAST_REFRESHED = "2026-07-24T19:40:55Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:54Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:54Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:54Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:54Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:54Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:54Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2994,23 +2994,23 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 6601749,
+      "delivered": 6953709,
       "goal": 8000000
     },
     "budget": {
-      "delivered": 9107.01,
+      "delivered": 10069.36,
       "goal": 12100.0
     },
     "color": "ft-9",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 1.3,
-    "cpm": 1.43,
+    "er": 1.2,
+    "cpm": 1.5,
     "episodes": 0,
-    "posts": 17,
+    "posts": 19,
     "blurb": "Prudential x '94 to Now \u2014 USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn.",
-    "views": 1978934,
-    "engagements": 198615,
+    "views": 2330894,
+    "engagements": 198962,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3078,6 +3078,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 4849,
         "views": 604587
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 351960,
+        "eng": 347,
+        "er": 0.1,
+        "cpm": 2.73,
+        "color": "#1877F2",
+        "delta": -93.6,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 0,
+        "views": 351960
       },
       {
         "name": "Instagram",
@@ -3183,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-07-24T13:59:08Z"
   },
   {
@@ -3263,11 +3279,11 @@ window.CAMPAIGNS = [
     "flight": "Jun 26 \u2014 Dec 31, 2026",
     "elapsedPct": 14.9,
     "daysLeft": 160,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
       "delivered": 331892,
-      "goal": 222222222
+      "goal": 2222222
     },
     "budget": {
       "delivered": 1289.18,
@@ -3517,7 +3533,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-07-23T15:33:41Z"
   },
   {
@@ -3639,7 +3655,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:35:44Z",
+    "lastUpdatedMs": "2026-07-24T19:40:55Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -4016,18 +4032,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7851036,
-    "eng": 14121,
+    "impressions": 8202996,
+    "eng": 14468,
     "er": 0.18,
-    "cpm": 3.27,
+    "cpm": 3.24,
     "color": "#1877F2",
-    "delta": -88.2,
+    "delta": -88.5,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 6052534
+    "views": 6404494
   },
   {
     "name": "LinkedIn",
@@ -29945,6 +29961,52 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-07-14T19:40:40-07:00"
+    },
+    {
+      "title": "Prudential_94 to Now_Life After Soccer",
+      "platform": "Facebook",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 217161,
+      "paidImpr": 217161,
+      "orgImpr": 0,
+      "views": 217161,
+      "reach": 51450,
+      "eng": 234,
+      "er": 0.11,
+      "spend": 604.52,
+      "watchTimeMin": null,
+      "clicks": 23,
+      "ctr": 0.01,
+      "cpc": 26.28,
+      "cpm": 2.78,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "Prudential_94 to Now_Retirement Early",
+      "platform": "Facebook",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 134799,
+      "paidImpr": 134799,
+      "orgImpr": 0,
+      "views": 134799,
+      "reach": 42220,
+      "eng": 113,
+      "er": 0.08,
+      "spend": 357.83,
+      "watchTimeMin": null,
+      "clicks": 7,
+      "ctr": 0.01,
+      "cpc": 51.12,
+      "cpm": 2.65,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     }
   ],
   "betmgm_brandx": [
@@ -30585,19 +30647,11 @@ window.UPLOAD_TARGETS = {
   ],
   "betmgm_brandx": [
     {
-      "file": "betmgm_brandx_x_ads.csv",
-      "label": "X Ads"
-    },
-    {
       "file": "betmgm_brandx_meta_ads.csv",
       "label": "Meta Ads"
     }
   ],
   "att_brandx": [
-    {
-      "file": "att_brandx_x_ads.csv",
-      "label": "X Ads"
-    },
     {
       "file": "att_brandx_meta_ads.csv",
       "label": "Meta Ads"
@@ -30816,16 +30870,10 @@ window.MS_GROUPS = [
 
 window.DATA_HEALTH = {
   "generatedWarnings": [
-    "[prudential] prudential_meta_ads.csv: Meta Ads export is missing required columns: ['Amount spent (USD)', 'Campaign name', 'Impressions', 'Reach']. Got: ['Front-Office-Sports-Campaigns-Jun-1-2026-Jul-24-2026']",
-    "[betmgm_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/betmgm_brandx_x_ads.csv",
-    "[att_brandx] missing X Ads file: /home/runner/work/campaign-tracker/campaign-tracker/tests/fixtures/att_brandx_x_ads.csv",
     "[heineken] excluded 2 post(s) via campaign exclude ['1512716967534555', '3932495664965122403']"
   ],
   "msErrors": [],
-  "orphanFiles": [
-    "sportclips_meta_ads.csv",
-    "usbank_meta_ads.csv"
-  ]
+  "orphanFiles": []
 };
 
 window.DATA_ARCHIVE = [
@@ -30836,7 +30884,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30847,7 +30895,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30858,7 +30906,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30869,7 +30917,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -30902,7 +30950,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -30913,7 +30961,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -30924,7 +30972,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -30935,7 +30983,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -30946,7 +30994,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -30957,7 +31005,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -30968,7 +31016,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -30979,7 +31027,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -30990,7 +31038,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -31001,7 +31049,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -31012,7 +31060,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -31023,7 +31071,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -31045,7 +31093,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "heineken_meta_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-15",
     "exists": true,
     "postsContributed": 2
   },
@@ -31056,7 +31104,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -31067,7 +31115,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -31078,7 +31126,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -31089,7 +31137,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "betmgm_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-14",
     "exists": true,
     "postsContributed": 1
   },
@@ -31100,7 +31148,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-20",
     "exists": true,
     "postsContributed": 4
   },
@@ -31111,7 +31159,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
     "fileSizeKb": 1.2,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-20",
     "exists": true,
     "postsContributed": 3
   },
@@ -31122,7 +31170,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -31133,7 +31181,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -31144,7 +31192,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -31155,7 +31203,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -31166,7 +31214,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -31177,7 +31225,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-07-24",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -31201,18 +31249,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.0,
     "lastModified": "2026-07-24",
     "exists": true,
-    "postsContributed": 0
-  },
-  {
-    "campaignId": "betmgm_brandx",
-    "partner": "BetMGM",
-    "sourceKind": "x_ads",
-    "sourceLabel": "X Ads",
-    "filename": "betmgm_brandx_x_ads.csv",
-    "fileSizeKb": null,
-    "lastModified": "missing",
-    "exists": false,
-    "postsContributed": 0
+    "postsContributed": 2
   },
   {
     "campaignId": "betmgm_brandx",
@@ -31224,17 +31261,6 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-07-24",
     "exists": true,
     "postsContributed": 2
-  },
-  {
-    "campaignId": "att_brandx",
-    "partner": "AT&T",
-    "sourceKind": "x_ads",
-    "sourceLabel": "X Ads",
-    "filename": "att_brandx_x_ads.csv",
-    "fileSizeKb": null,
-    "lastModified": "missing",
-    "exists": false,
-    "postsContributed": 0
   },
   {
     "campaignId": "att_brandx",
@@ -32384,7 +32410,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 55652427,
     "paidImpressions": 55199418,
-    "pctOfTotal": 44.2,
+    "pctOfTotal": 44.1,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.9,
     "color": "#E00922"
@@ -32404,7 +32430,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.9,
     "impressions": 15827124,
     "paidImpressions": 13651332,
-    "pctOfTotal": 12.6,
+    "pctOfTotal": 12.5,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -12.8,
     "color": "#E4405F"
@@ -32414,7 +32440,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.09,
     "impressions": 15713898,
     "paidImpressions": 13961351,
-    "pctOfTotal": 12.5,
+    "pctOfTotal": 12.4,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 68.5,
     "color": "#1d1d1f"
@@ -32431,12 +32457,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.3,
-    "impressions": 7713940,
-    "paidImpressions": 7698293,
-    "pctOfTotal": 6.1,
+    "cpm": 3.28,
+    "impressions": 8065900,
+    "paidImpressions": 8050253,
+    "pctOfTotal": 6.4,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -21.4,
+    "mvmDeltaPct": -22.0,
     "color": "#1877F2"
   },
   {

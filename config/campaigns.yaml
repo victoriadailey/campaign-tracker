@@ -1104,12 +1104,11 @@ campaigns:
     brandx_secondary_objective: clicks
     blurb: "BetMGM performance-focused paid social (BrandX). Awareness primary; clicks secondary."
     # No Measure Studio group — delivery comes from the dark-ad exports below.
-    # Upload via the BetMGM BrandX card → saves to these filenames.
+    # BrandX runs Instagram + Facebook only (no X), so Meta is the sole source.
+    # Upload via the BetMGM BrandX card → saves to this filename.
     sources:
       meta_ads:
         - betmgm_brandx_meta_ads.csv
-      x_ads:
-        - betmgm_brandx_x_ads.csv
 
   - id: att_brandx
     partner: AT&T
@@ -1120,18 +1119,17 @@ campaigns:
     lifecycle: active
     flight_start: 2026-06-26
     flight_end: 2026-12-31
-    impression_goal: 222_222_222
+    impression_goal: 2_222_222
     budget_goal: 10_000
     color: ft-11                    # fern
     lead_format: Paid Social
     brandx_objective: awareness
     brandx_secondary_objective: clicks
     blurb: "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary."
+    # Instagram + Facebook only (no X) — Meta is the sole source.
     sources:
       meta_ads:
         - att_brandx_meta_ads.csv
-      x_ads:
-        - att_brandx_x_ads.csv
 
   - id: ally_nwsl
     partner: Ally
