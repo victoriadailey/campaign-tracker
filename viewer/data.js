@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-24T13:26:42Z";
+window.LAST_REFRESHED = "2026-07-24T13:32:15Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:14Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3199,7 +3199,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:15Z",
     "lastUpdatedExports": "2026-07-21T14:05:22Z"
   },
   {
@@ -3282,22 +3282,22 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 279702,
+      "delivered": 331892,
       "goal": 222222222
     },
     "budget": {
-      "delivered": 1086.7,
+      "delivered": 1289.18,
       "goal": 10000.0
     },
     "color": "ft-11",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.0,
-    "cpm": 3.89,
+    "cpm": 3.88,
     "episodes": 0,
     "posts": 2,
     "blurb": "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
-    "views": 279702,
+    "views": 331892,
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
@@ -3306,10 +3306,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 279702,
+        "impressions": 331892,
         "eng": 0,
         "er": 0.0,
-        "cpm": 3.89,
+        "cpm": 3.88,
         "color": "#E4405F",
         "delta": -100.0,
         "bench": {
@@ -3317,7 +3317,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 279702
+        "views": 331892
       }
     ],
     "topPosts": [],
@@ -3327,7 +3327,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-07-20T20:41:48Z"
+    "lastUpdatedExports": "2026-07-24T13:25:46Z"
   },
   {
     "id": "ally_nwsl",
@@ -3533,7 +3533,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:15Z",
     "lastUpdatedExports": "2026-07-23T15:33:41Z"
   },
   {
@@ -3655,7 +3655,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T13:26:41Z",
+    "lastUpdatedMs": "2026-07-24T13:32:15Z",
     "lastUpdatedExports": "2026-07-23T15:25:51Z"
   }
 ];
@@ -3926,18 +3926,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 17518658,
+    "impressions": 17570848,
     "eng": 269207,
-    "er": 1.54,
+    "er": 1.53,
     "cpm": 4.85,
     "color": "#E4405F",
-    "delta": -53.6,
+    "delta": -53.7,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 17518658
+    "views": 17570848
   },
   {
     "name": "TikTok",
@@ -29979,19 +29979,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 205339,
-      "paidImpr": 205339,
+      "impr": 241189,
+      "paidImpr": 241189,
       "orgImpr": 0,
-      "views": 205339,
-      "reach": 84577,
+      "views": 241189,
+      "reach": 96877,
       "eng": 0,
       "er": 0.0,
-      "spend": 429.97,
+      "spend": 499.95,
       "watchTimeMin": null,
-      "clicks": 119,
+      "clicks": 150,
       "ctr": 0.06,
-      "cpc": 3.61,
-      "cpm": 2.09,
+      "cpc": 3.33,
+      "cpm": 2.07,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -30002,19 +30002,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 74363,
-      "paidImpr": 74363,
+      "impr": 90703,
+      "paidImpr": 90703,
       "orgImpr": 0,
-      "views": 74363,
-      "reach": 49449,
+      "views": 90703,
+      "reach": 59853,
       "eng": 0,
       "er": 0.0,
-      "spend": 656.73,
+      "spend": 789.23,
       "watchTimeMin": null,
-      "clicks": 2503,
-      "ctr": 3.37,
+      "clicks": 3008,
+      "ctr": 3.32,
       "cpc": 0.26,
-      "cpm": 8.83,
+      "cpm": 8.7,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -32332,12 +32332,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 4.91,
-    "impressions": 15774922,
-    "paidImpressions": 13599130,
+    "cpm": 4.9,
+    "impressions": 15827112,
+    "paidImpressions": 13651320,
     "pctOfTotal": 12.6,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -12.7,
+    "mvmDeltaPct": -12.8,
     "color": "#E4405F"
   },
   {
