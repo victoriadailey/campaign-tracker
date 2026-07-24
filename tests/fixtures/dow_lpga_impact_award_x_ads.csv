@@ -1,3 +1,2 @@
-Table 1
-Time period,On/Off,Campaign ID,Campaign name,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,CTR,CPM,Cost per link click
-2026-04-05 - 2026-07-24,On,41937137,DOW: Impact Award,Reach,Expired,2026-07-15 12:10:42,2026-07-23 14:00:00,496265,1172.00,167,0.03%,2.36,7.02
+Time period,On/Off,Campaign ID,Campaign name,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,Engagements,CTR,CPM,Cost per link click
+2026-07-18 - 2026-07-24,On,41937137,DOW: Impact Award,Reach,Expired,2026-07-15 12:10:42,2026-07-23 14:00:00,340864,872.12,105,28601,0.03%,2.56,8.31
