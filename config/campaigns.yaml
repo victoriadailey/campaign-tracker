@@ -1201,3 +1201,7 @@ campaigns:
     color: ft-4
     lead_format: Paid Social
     blurb: "Three videos supporting AVP's Hampton's event at EHP."
+
+    sources:
+      x_ads:
+        - ehp_avp_x_ads.csv
