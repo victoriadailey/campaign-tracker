@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-24T19:30:07Z";
+window.LAST_REFRESHED = "2026-07-24T19:35:45Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1483,7 +1483,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1638,7 +1638,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1793,7 +1793,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2338,7 +2338,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2540,7 +2540,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2816,7 +2816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3183,7 +3183,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-07-24T13:59:08Z"
   },
   {
@@ -3517,7 +3517,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-07-23T15:33:41Z"
   },
   {
@@ -3639,7 +3639,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-24T19:30:07Z",
+    "lastUpdatedMs": "2026-07-24T19:35:44Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3654,35 +3654,67 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 0,
+      "delivered": 107084,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 0,
+      "delivered": 190.0,
       "goal": 7054.0
     },
     "color": "ft-4",
     "leadFormat": "Paid Social",
-    "topChannel": "Unknown",
-    "er": 0.0,
-    "cpm": 0.0,
+    "topChannel": "X",
+    "er": 24.5,
+    "cpm": 1.77,
     "episodes": 0,
-    "posts": 0,
+    "posts": 1,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
     "views": 0,
-    "engagements": 0,
+    "engagements": 26196,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
-    "channels": [],
+    "channels": [
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 107084,
+        "eng": 26196,
+        "er": 24.46,
+        "cpm": 1.77,
+        "color": "#1d1d1f",
+        "delta": 2559.0,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 0,
+        "views": 0
+      }
+    ],
     "topPosts": [],
     "topPostsOrganic": [],
-    "callouts": [],
+    "callouts": [
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "X at 24.5% ER \u2014 26.6\u00d7 the benchmark.",
+        "body": "107K impressions, 26K engagements at 24.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "meta": "EHP \u00b7 X"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 7% of goal (284K of 4.0M) with 38 days left.",
+        "body": "At the current rate the campaign will fall ~3.7M impressions short of the 4.0M goal. Need to deliver 102K impr/day (22.0\u00d7 the current 5K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "EHP \u00b7 Pacing"
+      }
+    ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": ""
+    "lastUpdatedExports": "2026-07-24T19:29:02Z"
   }
 ];
 
@@ -3936,12 +3968,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26606088,
-    "eng": 843746,
-    "er": 3.17,
+    "impressions": 26713172,
+    "eng": 869942,
+    "er": 3.26,
     "cpm": 1.54,
     "color": "#1d1d1f",
-    "delta": 244.7,
+    "delta": 254.0,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -4088,11 +4120,11 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "X at 11.8% ER \u2014 12.8\u00d7 the benchmark.",
-    "body": "3.2M impressions, 376K engagements at 11.8% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-    "meta": "RBC \u00b7 X",
-    "campaignId": "rbc_tst",
-    "campaignPartner": "RBC"
+    "headline": "X at 24.5% ER \u2014 26.6\u00d7 the benchmark.",
+    "body": "107K impressions, 26K engagements at 24.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+    "meta": "EHP \u00b7 X",
+    "campaignId": "ehp_avp",
+    "campaignPartner": "EHP"
   },
   {
     "tag": "OPPORTUNITY",
@@ -4102,6 +4134,15 @@ window.SIGNALS = [
     "meta": "Morgan & Morgan \u00b7 Instagram",
     "campaignId": "mm",
     "campaignPartner": "Morgan & Morgan"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 7% of goal (284K of 4.0M) with 38 days left.",
+    "body": "At the current rate the campaign will fall ~3.7M impressions short of the 4.0M goal. Need to deliver 102K impr/day (22.0\u00d7 the current 5K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "EHP \u00b7 Pacing",
+    "campaignId": "ehp_avp",
+    "campaignPartner": "EHP"
   },
   {
     "tag": "WATCH",
@@ -30351,7 +30392,31 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     }
   ],
-  "ehp_avp": []
+  "ehp_avp": [
+    {
+      "title": "EHP Green Screen Promo",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 107084,
+      "paidImpr": 107084,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 26196,
+      "er": 24.46,
+      "spend": 190.0,
+      "watchTimeMin": null,
+      "clicks": 1875,
+      "ctr": 1.75,
+      "cpc": 0.1,
+      "cpm": 1.77,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    }
+  ]
 };
 
 window.UPLOAD_TARGETS = {
@@ -30554,7 +30619,12 @@ window.UPLOAD_TARGETS = {
       "label": "X Ads"
     }
   ],
-  "ehp_avp": []
+  "ehp_avp": [
+    {
+      "file": "ehp_avp_x_ads.csv",
+      "label": "X Ads"
+    }
+  ]
 };
 
 window.MS_GROUPS = [
@@ -30753,7 +30823,6 @@ window.DATA_HEALTH = {
   ],
   "msErrors": [],
   "orphanFiles": [
-    "ehp_avp_x_ads.csv",
     "sportclips_meta_ads.csv",
     "usbank_meta_ads.csv"
   ]
@@ -31206,6 +31275,17 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "dow_lpga_impact_award_x_ads.csv",
+    "fileSizeKb": 0.3,
+    "lastModified": "2026-07-24",
+    "exists": true,
+    "postsContributed": 1
+  },
+  {
+    "campaignId": "ehp_avp",
+    "partner": "EHP",
+    "sourceKind": "x_ads",
+    "sourceLabel": "X Ads",
+    "filename": "ehp_avp_x_ads.csv",
     "fileSizeKb": 0.3,
     "lastModified": "2026-07-24",
     "exists": true,
@@ -32332,11 +32412,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 15606814,
-    "paidImpressions": 13854267,
-    "pctOfTotal": 12.4,
+    "impressions": 15713898,
+    "paidImpressions": 13961351,
+    "pctOfTotal": 12.5,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 68.7,
+    "mvmDeltaPct": 68.5,
     "color": "#1d1d1f"
   },
   {
