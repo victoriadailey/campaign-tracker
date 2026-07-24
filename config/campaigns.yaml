@@ -1186,3 +1186,18 @@ campaigns:
         - dow_lpga_impact_award_yt_paid.csv
       x_ads:
         - dow_lpga_impact_award_x_ads.csv
+
+  - id: ehp_avp
+    partner: EHP
+    series: EHP
+    series_italic: EHP
+    type: social
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-07-01
+    flight_end: 2026-08-31
+    impression_goal: 4000000
+    budget_goal: 7054
+    color: ft-4
+    lead_format: Paid Social
+    blurb: "Three videos supporting AVP's Hampton's event at EHP."
