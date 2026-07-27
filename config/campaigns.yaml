@@ -1263,6 +1263,8 @@ campaigns:
         impression_goal: 1_600_000
         budget_goal: 5_600
     sources:
+      youtube_paid:
+        - threem_yt_paid.csv
       # Measure Studio group "3M" (8322) — organic + any boosted MS tracks.
       # NOTE: the paid boost delivery (millions of impressions on YT/Meta/TikTok)
       # lives in the Google Ads + Meta exports; upload those via the 3M card
