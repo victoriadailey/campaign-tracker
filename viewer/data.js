@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-27T21:02:49Z";
+window.LAST_REFRESHED = "2026-07-27T21:06:14Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3238,7 +3238,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-27T20:26:54Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3812,26 +3812,26 @@ window.CAMPAIGNS = [
     "flight": "Jul 21 \u2014 Jul 31, 2026",
     "elapsedPct": 60.0,
     "daysLeft": 4,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 5210328,
+      "delivered": 6047379,
       "goal": 7150000
     },
     "budget": {
-      "delivered": 5241.9,
+      "delivered": 9481.86,
       "goal": 17522.0
     },
     "color": "ft-7",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 0.0,
-    "cpm": 1.01,
+    "er": 1.4,
+    "cpm": 1.58,
     "episodes": 3,
-    "posts": 14,
+    "posts": 16,
     "blurb": "3M x FOS golf-engineering content for the 3M Open \u2014 a FOS Engineered hero video plus cutdowns, a dark Day-in-the-Life video, and two static posts.",
-    "views": 1694437,
-    "engagements": 1393,
+    "views": 1718028,
+    "engagements": 137651,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3839,18 +3839,50 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 2544359,
-        "eng": 33,
-        "er": 0.0,
-        "cpm": 0.0,
+        "impressions": 2739500,
+        "eng": 7576,
+        "er": 0.28,
+        "cpm": 0.6,
         "color": "#E00922",
-        "delta": -99.7,
+        "delta": -44.7,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 5569,
-        "views": 25939
+        "views": 0
+      },
+      {
+        "name": "YouTube Pre-roll",
+        "italic": "YouTube Pre-roll",
+        "impressions": 64635,
+        "eng": 51447,
+        "er": 79.6,
+        "cpm": 11.67,
+        "color": "#B0061B",
+        "delta": 10.6,
+        "bench": {
+          "er": 72.0,
+          "cpm": 14.0
+        },
+        "organicImpressions": 0,
+        "views": 38877
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 1059898,
+        "eng": 77324,
+        "er": 7.3,
+        "cpm": 1.74,
+        "color": "#FF0033",
+        "delta": -63.5,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 1724,
+        "views": 99910
       },
       {
         "name": "Instagram",
@@ -3901,22 +3933,6 @@ window.CAMPAIGNS = [
         "views": 564686
       },
       {
-        "name": "YouTube Shorts",
-        "italic": "YouTube Shorts",
-        "impressions": 482623,
-        "eng": 56,
-        "er": 0.01,
-        "cpm": 0.0,
-        "color": "#FF0033",
-        "delta": -99.9,
-        "bench": {
-          "er": 20.0,
-          "cpm": 3.25
-        },
-        "organicImpressions": 1724,
-        "views": 76319
-      },
-      {
         "name": "LinkedIn",
         "italic": "LinkedIn",
         "impressions": 18212,
@@ -3959,14 +3975,14 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Engineered + Cutdowns",
         "impressions": {
-          "delivered": 2893973,
+          "delivered": 3153749,
           "goal": 3750000
         }
       },
       {
         "label": "DITL (Dark Video)",
         "impressions": {
-          "delivered": 769086,
+          "delivered": 1346361,
           "goal": 1800000
         }
       },
@@ -3978,8 +3994,8 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T21:02:48Z",
-    "lastUpdatedExports": ""
+    "lastUpdatedMs": "2026-07-27T21:06:13Z",
+    "lastUpdatedExports": "2026-07-27T21:02:19Z"
   }
 ];
 
@@ -4217,18 +4233,18 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 86443965,
-    "eng": 1517059,
-    "er": 1.75,
-    "cpm": 1.0,
+    "impressions": 87216381,
+    "eng": 1601870,
+    "er": 1.84,
+    "cpm": 1.03,
     "color": "#E00922",
-    "delta": -91.2,
+    "delta": -90.8,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 13225160
+    "views": 13248751
   },
   {
     "name": "X",
@@ -16861,26 +16877,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "FOS Engineered + Cutdowns",
       "date": "Jul 2026",
       "total": {
-        "impr": 2893973,
+        "impr": 3153749,
         "views": 239638,
-        "er": 0.02,
-        "eng": 663,
-        "spend": 628.24
+        "er": 0.27,
+        "eng": 59653,
+        "spend": 3029.26
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 2544359,
-          "paidImpr": 2538790,
+          "impr": 2739500,
+          "paidImpr": 2733931,
           "orgImpr": 5569,
-          "views": 25939,
-          "eng": 33,
-          "paidEng": 0,
+          "views": 0,
+          "eng": 7576,
+          "paidEng": 7543,
           "orgEng": 33,
-          "er": 0.0,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "er": 0.28,
+          "cpm": 0.6,
+          "spend": 1646.73,
           "posts": 1
         },
         {
@@ -16897,6 +16913,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 1.98,
           "spend": 628.24,
           "posts": 2
+        },
+        {
+          "name": "YouTube Pre-roll",
+          "distKind": "paid",
+          "impr": 64635,
+          "paidImpr": 64635,
+          "orgImpr": 0,
+          "views": 38877,
+          "eng": 51447,
+          "paidEng": 51447,
+          "orgEng": 0,
+          "er": 79.6,
+          "cpm": 11.67,
+          "spend": 754.29,
+          "posts": 1
         },
         {
           "name": "LinkedIn",
@@ -16965,15 +16996,30 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 2544359,
-          "paidImpr": 2538790,
+          "impr": 2739500,
+          "paidImpr": 2733931,
           "orgImpr": 5569,
-          "views": 25939,
-          "eng": 33,
-          "er": 0.0,
-          "spend": 0,
+          "views": 0,
+          "eng": 7576,
+          "er": 0.28,
+          "spend": 1646.73,
           "url": "https://youtu.be/fVwq8dHxpgo",
           "postedAt": "2026-07-21T12:33:55-07:00"
+        },
+        {
+          "title": "3M_FOS Engineered_Full Video (pre-roll)",
+          "platform": "YouTube Pre-roll",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 64635,
+          "paidImpr": 64635,
+          "orgImpr": 0,
+          "views": 38877,
+          "eng": 51447,
+          "er": 79.6,
+          "spend": 754.29,
+          "url": null,
+          "postedAt": null
         },
         {
           "title": "Every golf club starts long before the first swing.  In the latest episode of FOS Engineered, sponsored by @3M, we went ",
@@ -17093,27 +17139,27 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "DITL \u2014 Day in the Life",
       "date": "Jul 2026",
       "total": {
-        "impr": 769086,
-        "views": 363558,
-        "er": 0.01,
-        "eng": 99,
-        "spend": 924.55
+        "impr": 1346361,
+        "views": 387149,
+        "er": 5.75,
+        "eng": 77367,
+        "spend": 2763.49
       },
       "perChannel": [
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 480901,
-          "paidImpr": 480899,
+          "impr": 1058176,
+          "paidImpr": 1058174,
           "orgImpr": 2,
-          "views": 75373,
-          "eng": 46,
-          "paidEng": 0,
+          "views": 98964,
+          "eng": 77314,
+          "paidEng": 77268,
           "orgEng": 46,
-          "er": 0.01,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 1
+          "er": 7.31,
+          "cpm": 1.74,
+          "spend": 1838.94,
+          "posts": 2
         },
         {
           "name": "Instagram",
@@ -17161,6 +17207,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 924.55,
           "url": "https://www.instagram.com/p/DbL859qA1Hi/",
           "postedAt": "2026-07-24T12:06:11-07:00"
+        },
+        {
+          "title": "3M: DITL (Shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 577275,
+          "paidImpr": 577275,
+          "orgImpr": 0,
+          "views": 23591,
+          "eng": 77268,
+          "er": 13.38,
+          "spend": 1838.94,
+          "url": null,
+          "postedAt": null
         }
       ],
       "topPosts": [],
@@ -31326,23 +31387,46 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 2544359,
-      "paidImpr": 2538790,
+      "impr": 2739500,
+      "paidImpr": 2733931,
       "orgImpr": 5569,
-      "views": 25939,
+      "views": 0,
       "reach": 0,
-      "eng": 33,
-      "er": 0.0,
-      "spend": 0,
+      "eng": 7576,
+      "er": 0.28,
+      "spend": 1646.73,
       "watchTimeMin": 54558.5,
       "clicks": 711,
       "ctr": 28.01,
       "cpc": 3.07,
-      "cpm": 0.86,
+      "cpm": 0.6,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/fVwq8dHxpgo",
       "postedAt": "2026-07-21T12:33:55-07:00"
+    },
+    {
+      "title": "3M_FOS Engineered_Full Video (pre-roll)",
+      "platform": "YouTube Pre-roll",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 64635,
+      "paidImpr": 64635,
+      "orgImpr": 0,
+      "views": 38877,
+      "reach": 0,
+      "eng": 51447,
+      "er": 79.6,
+      "spend": 754.29,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 11.67,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     },
     {
       "title": "Every golf club starts long before the first swing.  In the latest episode of FOS Engineered, sponsored by @3M, we went ",
@@ -31487,14 +31571,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 480901,
-      "paidImpr": 480899,
+      "impr": 577277,
+      "paidImpr": 577275,
       "orgImpr": 2,
       "views": 75373,
       "reach": 0,
-      "eng": 46,
-      "er": 0.01,
-      "spend": 0,
+      "eng": 77314,
+      "er": 13.39,
+      "spend": 1838.94,
       "watchTimeMin": 5707.0,
       "clicks": 18,
       "ctr": 3.74,
@@ -31844,7 +31928,12 @@ window.UPLOAD_TARGETS = {
       "label": "X Ads"
     }
   ],
-  "threem": []
+  "threem": [
+    {
+      "file": "threem_yt_paid.csv",
+      "label": "Google Ads"
+    }
+  ]
 };
 
 window.MS_GROUPS = [
@@ -32482,6 +32571,17 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-07-27",
     "exists": true,
     "postsContributed": 1
+  },
+  {
+    "campaignId": "threem",
+    "partner": "3M",
+    "sourceKind": "youtube_paid",
+    "sourceLabel": "Google Ads (YT Paid)",
+    "filename": "threem_yt_paid.csv",
+    "fileSizeKb": 0.5,
+    "lastModified": "2026-07-27",
+    "exists": true,
+    "postsContributed": 2
   }
 ];
 
@@ -33573,12 +33673,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.64,
-    "impressions": 58695635,
-    "paidImpressions": 58232964,
-    "pctOfTotal": 44.2,
+    "cpm": 0.67,
+    "impressions": 58890776,
+    "paidImpressions": 58428105,
+    "pctOfTotal": 44.0,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 21.3,
+    "mvmDeltaPct": 26.2,
     "color": "#E00922"
   },
   {
@@ -33586,7 +33686,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.44,
     "impressions": 16849201,
     "paidImpressions": 13183940,
-    "pctOfTotal": 12.7,
+    "pctOfTotal": 12.6,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 9.1,
     "color": "#000000"
@@ -33596,7 +33696,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.83,
     "impressions": 16829642,
     "paidImpressions": 14620510,
-    "pctOfTotal": 12.7,
+    "pctOfTotal": 12.6,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -14.0,
     "color": "#E4405F"
@@ -33613,12 +33713,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.66,
-    "impressions": 13191067,
-    "paidImpressions": 13034722,
-    "pctOfTotal": 9.9,
+    "cpm": 2.68,
+    "impressions": 13768342,
+    "paidImpressions": 13611997,
+    "pctOfTotal": 10.3,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -17.0,
+    "mvmDeltaPct": -16.3,
     "color": "#FF0033"
   },
   {
@@ -33626,10 +33726,20 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 3.15,
     "impressions": 8873549,
     "paidImpressions": 8856745,
-    "pctOfTotal": 6.7,
+    "pctOfTotal": 6.6,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -24.9,
     "color": "#1877F2"
+  },
+  {
+    "name": "YouTube Pre-roll",
+    "cpm": 11.65,
+    "impressions": 1395998,
+    "paidImpressions": 1395998,
+    "pctOfTotal": 1.0,
+    "mvmCpm": 11.91,
+    "mvmDeltaPct": -2.2,
+    "color": "#B0061B"
   },
   {
     "name": "LinkedIn",
@@ -33640,20 +33750,10 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
-  },
-  {
-    "name": "YouTube Pre-roll",
-    "cpm": 11.65,
-    "impressions": 1331363,
-    "paidImpressions": 1331363,
-    "pctOfTotal": 1.0,
-    "mvmCpm": 11.91,
-    "mvmDeltaPct": -2.2,
-    "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.01;
+window.PORTFOLIO_CPM_BLEND = 2.03;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
