@@ -1199,7 +1199,73 @@ campaigns:
     color: ft-4
     lead_format: Paid Social
     blurb: "Three videos supporting AVP's Hampton's event at EHP."
-
     sources:
+      # Organic/editorial delivery → Measure Studio group "EHP" (8330).
+      measure_studio_group_ids:
+        - 8330
       x_ads:
         - ehp_avp_x_ads.csv
+
+  - id: threem
+    partner: 3M
+    series: "3M Open"
+    series_italic: Open
+    # Three-component campaign (like BetMGM): FOS Engineered video + cutdowns,
+    # a dark DITL video, and 2 static posts — each tracked to its own goal via
+    # pacing_components below.
+    type: social
+    benchmark_category: Branded Content
+    lifecycle: active
+    # Flight is a best estimate (planner shows Engineered 7/21–7/27; boosts
+    # ending ~now). Adjust if the DITL/static flights differ.
+    flight_start: 2026-07-21
+    flight_end: 2026-07-31
+    # Sum of the three components below.
+    impression_goal: 7_150_000
+    budget_goal: 17_522
+    color: ft-7
+    lead_format: Social Video
+    blurb: "3M x FOS golf-engineering content for the 3M Open — a FOS Engineered hero video plus cutdowns, a dark Day-in-the-Life video, and two static posts."
+    pacing_components:
+      - label: "FOS Engineered + Cutdowns"
+        impression_goal: 3_750_000
+        episode_ids: [engineered]
+      - label: "DITL (Dark Video)"
+        impression_goal: 1_800_000
+        episode_ids: [ditl]
+      - label: "2 Static Posts"
+        impression_goal: 1_600_000
+        episode_ids: [static]
+    episodes:
+      - id: engineered
+        n: "Part 01"
+        title: "FOS Engineered + Cutdowns"
+        date: "Jul 2026"
+        # Hero "How 3M Science Helps Make Golf's Best Clubs" + golf-club cutdowns.
+        match: ["Engineered", "3M Science", "golf club", "Best Clubs", "build a golf", "starts long before"]
+        exclude: []
+        impression_goal: 3_750_000
+        budget_goal: 5_622
+      - id: ditl
+        n: "Part 02"
+        title: "DITL — Day in the Life"
+        date: "Jul 2026"
+        match: ["Day in the Life", "DITL", "3M Open than just"]
+        exclude: []
+        impression_goal: 1_800_000
+        budget_goal: 6_300
+      - id: static
+        n: "Part 03"
+        title: "2 Static Posts"
+        date: "Jul 2026"
+        match: ["driver has to survive", "forces most material", "Static"]
+        exclude: []
+        impression_goal: 1_600_000
+        budget_goal: 5_600
+    sources:
+      # Measure Studio group "3M" (8322) — organic + any boosted MS tracks.
+      # NOTE: the paid boost delivery (millions of impressions on YT/Meta/TikTok)
+      # lives in the Google Ads + Meta exports; upload those via the 3M card
+      # (→ threem_yt_paid.csv, threem_meta_ads.csv) for full paid pacing.
+      measure_studio_group_ids:
+        - 8322
