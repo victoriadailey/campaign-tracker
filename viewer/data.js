@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-27T18:34:20Z";
+window.LAST_REFRESHED = "2026-07-27T20:24:23Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3030,26 +3030,26 @@ window.CAMPAIGNS = [
     "flight": "Jun 24 \u2014 Jul 31, 2026",
     "elapsedPct": 89.2,
     "daysLeft": 4,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 6990323,
+      "delivered": 7543870,
       "goal": 8000000
     },
     "budget": {
-      "delivered": 10146.63,
+      "delivered": 10722.12,
       "goal": 12100.0
     },
     "color": "ft-9",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 1.2,
-    "cpm": 1.5,
+    "cpm": 1.47,
     "episodes": 0,
     "posts": 19,
     "blurb": "Prudential x '94 to Now \u2014 USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn.",
     "views": 2414963,
-    "engagements": 198981,
+    "engagements": 217249,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3057,34 +3057,34 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 4392264,
-        "eng": 28418,
-        "er": 0.65,
+        "impressions": 4887020,
+        "eng": 31374,
+        "er": 0.64,
         "cpm": 0.63,
         "color": "#E00922",
-        "delta": 29.4,
+        "delta": 28.4,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 9280,
-        "views": 58608
+        "views": 48983
       },
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 163362,
-        "eng": 116455,
-        "er": 71.29,
-        "cpm": 7.67,
+        "impressions": 183489,
+        "eng": 130201,
+        "er": 70.96,
+        "cpm": 7.63,
         "color": "#B0061B",
-        "delta": -1.0,
+        "delta": -1.4,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 83242
+        "views": 92867
       },
       {
         "name": "TikTok",
@@ -3105,12 +3105,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 770406,
-        "eng": 47634,
-        "er": 6.18,
+        "impressions": 809070,
+        "eng": 49200,
+        "er": 6.08,
         "cpm": 2.97,
         "color": "#FF0033",
-        "delta": -69.1,
+        "delta": -69.6,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -3238,8 +3238,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
-    "lastUpdatedExports": "2026-07-24T20:40:49Z"
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
+    "lastUpdatedExports": "2026-07-27T20:23:15Z"
   },
   {
     "id": "betmgm_brandx",
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3812,26 +3812,26 @@ window.CAMPAIGNS = [
     "flight": "Jul 21 \u2014 Jul 31, 2026",
     "elapsedPct": 60.0,
     "daysLeft": 4,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 3802518,
+      "delivered": 5210328,
       "goal": 7150000
     },
     "budget": {
-      "delivered": 1620.79,
+      "delivered": 5241.9,
       "goal": 17522.0
     },
     "color": "ft-7",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
     "er": 0.0,
-    "cpm": 0.43,
+    "cpm": 1.01,
     "episodes": 3,
-    "posts": 9,
+    "posts": 14,
     "blurb": "3M x FOS golf-engineering content for the 3M Open \u2014 a FOS Engineered hero video plus cutdowns, a dark Day-in-the-Life video, and two static posts.",
-    "views": 632385,
-    "engagements": 760,
+    "views": 1694437,
+    "engagements": 1393,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3853,6 +3853,54 @@ window.CAMPAIGNS = [
         "views": 25939
       },
       {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 826671,
+        "eng": 568,
+        "er": 0.07,
+        "cpm": 3.17,
+        "color": "#E4405F",
+        "delta": -97.9,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 11389,
+        "views": 826671
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 767399,
+        "eng": 65,
+        "er": 0.01,
+        "cpm": 1.88,
+        "color": "#1877F2",
+        "delta": -99.4,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 1061,
+        "views": 185406
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 571064,
+        "eng": 305,
+        "er": 0.05,
+        "cpm": 2.13,
+        "color": "#000000",
+        "delta": -97.4,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 542,
+        "views": 564686
+      },
+      {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
         "impressions": 482623,
@@ -3869,38 +3917,6 @@ window.CAMPAIGNS = [
         "views": 76319
       },
       {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 428019,
-        "eng": 20,
-        "er": 0.0,
-        "cpm": 1.47,
-        "color": "#1877F2",
-        "delta": -99.7,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 5,
-        "views": 185406
-      },
-      {
-        "name": "Instagram",
-        "italic": "gram",
-        "impressions": 328763,
-        "eng": 245,
-        "er": 0.07,
-        "cpm": 3.13,
-        "color": "#E4405F",
-        "delta": -97.7,
-        "bench": {
-          "er": 3.31,
-          "cpm": 5.1
-        },
-        "organicImpressions": 11389,
-        "views": 328763
-      },
-      {
         "name": "LinkedIn",
         "italic": "LinkedIn",
         "impressions": 18212,
@@ -3915,22 +3931,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 18212,
         "views": 15416
-      },
-      {
-        "name": "TikTok",
-        "italic": "Tok",
-        "impressions": 542,
-        "eng": 40,
-        "er": 7.38,
-        "cpm": 0.0,
-        "color": "#000000",
-        "delta": 263.6,
-        "bench": {
-          "er": 2.03,
-          "cpm": 2.4
-        },
-        "organicImpressions": 542,
-        "views": 542
       }
     ],
     "topPosts": [
@@ -3959,14 +3959,14 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Engineered + Cutdowns",
         "impressions": {
-          "delivered": 2892922,
+          "delivered": 2893973,
           "goal": 3750000
         }
       },
       {
         "label": "DITL (Dark Video)",
         "impressions": {
-          "delivered": 480901,
+          "delivered": 769086,
           "goal": 1800000
         }
       },
@@ -3978,7 +3978,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T18:34:20Z",
+    "lastUpdatedMs": "2026-07-27T20:24:23Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -4217,9 +4217,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 85910545,
-    "eng": 1512537,
-    "er": 1.76,
+    "impressions": 86443965,
+    "eng": 1517059,
+    "er": 1.75,
     "cpm": 1.0,
     "color": "#E00922",
     "delta": -91.2,
@@ -4249,44 +4249,44 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 18075492,
-    "eng": 274672,
-    "er": 1.52,
-    "cpm": 4.84,
+    "impressions": 18573400,
+    "eng": 274995,
+    "er": 1.48,
+    "cpm": 4.79,
     "color": "#E4405F",
-    "delta": -54.1,
+    "delta": -55.3,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 18075492
+    "views": 18573400
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 17684535,
-    "eng": 50461,
-    "er": 0.29,
-    "cpm": 2.44,
+    "impressions": 18255057,
+    "eng": 50726,
+    "er": 0.28,
+    "cpm": 2.42,
     "color": "#000000",
-    "delta": -85.9,
+    "delta": -86.3,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 17515710
+    "views": 18079854
   },
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8631116,
-    "eng": 14488,
-    "er": 0.17,
-    "cpm": 3.16,
+    "impressions": 8970496,
+    "eng": 14533,
+    "er": 0.16,
+    "cpm": 3.13,
     "color": "#1877F2",
-    "delta": -89.0,
+    "delta": -89.4,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
@@ -16861,10 +16861,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "FOS Engineered + Cutdowns",
       "date": "Jul 2026",
       "total": {
-        "impr": 2892922,
+        "impr": 2893973,
         "views": 239638,
         "er": 0.02,
-        "eng": 644,
+        "eng": 663,
         "spend": 628.24
       },
       "perChannel": [
@@ -16886,17 +16886,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 316698,
+          "impr": 317749,
           "paidImpr": 316693,
-          "orgImpr": 5,
+          "orgImpr": 1056,
           "views": 185406,
-          "eng": 20,
+          "eng": 39,
           "paidEng": 0,
-          "orgEng": 20,
+          "orgEng": 39,
           "er": 0.01,
           "cpm": 1.98,
           "spend": 628.24,
-          "posts": 1
+          "posts": 2
         },
         {
           "name": "LinkedIn",
@@ -17006,6 +17006,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-07-21T16:00:11-07:00"
         },
         {
+          "title": "What does it take to build a golf club that lasts?\u2744\ufe0f\ud83d\udd25  At PING, clubs are tested through extreme temperatures and repeat",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 1051,
+          "paidImpr": 0,
+          "orgImpr": 1051,
+          "views": 0,
+          "eng": 19,
+          "er": 1.81,
+          "spend": 0,
+          "url": "https://www.facebook.com/1531353015670950/",
+          "postedAt": "2026-07-23T12:30:58-07:00"
+        },
+        {
           "title": "What does it take to build a golf club that lasts?\u2744\ufe0f\ud83d\udd25 At PING, clubs are tested through extreme temperatures and repeate",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
@@ -17078,11 +17093,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "DITL \u2014 Day in the Life",
       "date": "Jul 2026",
       "total": {
-        "impr": 480901,
-        "views": 75373,
+        "impr": 769086,
+        "views": 363558,
         "er": 0.01,
-        "eng": 46,
-        "spend": 0
+        "eng": 99,
+        "spend": 924.55
       },
       "perChannel": [
         {
@@ -17098,6 +17113,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.01,
           "cpm": 0.0,
           "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "Instagram",
+          "distKind": "paid",
+          "impr": 288185,
+          "paidImpr": 288185,
+          "orgImpr": 0,
+          "views": 288185,
+          "eng": 53,
+          "paidEng": 0,
+          "orgEng": 53,
+          "er": 0.02,
+          "cpm": 3.21,
+          "spend": 924.55,
           "posts": 1
         }
       ],
@@ -17116,6 +17146,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://www.youtube.com/shorts/lvYCNqQ6fWs",
           "postedAt": "2026-07-24T11:56:16-07:00"
+        },
+        {
+          "title": "There's more to the @3M Open than just great golf. Here's what we found.",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "paid",
+          "impr": 288185,
+          "paidImpr": 288185,
+          "orgImpr": 0,
+          "views": 288185,
+          "eng": 53,
+          "er": 0.02,
+          "spend": 924.55,
+          "url": "https://www.instagram.com/p/DbL859qA1Hi/",
+          "postedAt": "2026-07-24T12:06:11-07:00"
         }
       ],
       "topPosts": [],
@@ -30326,14 +30371,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 4392264,
-      "paidImpr": 4382984,
+      "impr": 4887020,
+      "paidImpr": 4877740,
       "orgImpr": 9280,
-      "views": 58608,
+      "views": 48983,
       "reach": 0,
-      "eng": 28418,
-      "er": 0.65,
-      "spend": 2742.97,
+      "eng": 31374,
+      "er": 0.64,
+      "spend": 3052.66,
       "watchTimeMin": 220841.8,
       "clicks": 2320,
       "ctr": 46.41,
@@ -30349,19 +30394,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 163362,
-      "paidImpr": 163362,
+      "impr": 183489,
+      "paidImpr": 183489,
       "orgImpr": 0,
-      "views": 83242,
+      "views": 92867,
       "reach": 0,
-      "eng": 116455,
-      "er": 71.29,
-      "spend": 1253.02,
+      "eng": 130201,
+      "er": 70.96,
+      "spend": 1399.55,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 7.67,
+      "cpm": 7.63,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -30533,14 +30578,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 196599,
-      "paidImpr": 195101,
+      "impr": 196593,
+      "paidImpr": 195095,
       "orgImpr": 1498,
       "views": 190976,
       "reach": 0,
       "eng": 11039,
-      "er": 5.61,
-      "spend": 574.89,
+      "er": 5.62,
+      "spend": 574.87,
       "watchTimeMin": 12269.4,
       "clicks": null,
       "ctr": 0.0,
@@ -30579,14 +30624,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 215799,
-      "paidImpr": 215766,
+      "impr": 215791,
+      "paidImpr": 215758,
       "orgImpr": 33,
       "views": 207504,
       "reach": 0,
       "eng": 24094,
       "er": 11.17,
-      "spend": 635.47,
+      "spend": 635.45,
       "watchTimeMin": 15724.1,
       "clicks": 20,
       "ctr": 9.27,
@@ -30671,19 +30716,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 108033,
-      "paidImpr": 108033,
+      "impr": 146711,
+      "paidImpr": 146711,
       "orgImpr": 0,
       "views": 114944,
       "reach": 0,
-      "eng": 4515,
-      "er": 4.18,
-      "spend": 349.04,
+      "eng": 6081,
+      "er": 4.14,
+      "spend": 468.35,
       "watchTimeMin": 6360.1,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.23,
+      "cpm": 3.19,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/CVbsUNA0K-A",
@@ -31346,6 +31391,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-21T16:00:11-07:00"
     },
     {
+      "title": "What does it take to build a golf club that lasts?\u2744\ufe0f\ud83d\udd25  At PING, clubs are tested through extreme temperatures and repeat",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 1051,
+      "paidImpr": 0,
+      "orgImpr": 1051,
+      "views": 0,
+      "reach": 0,
+      "eng": 19,
+      "er": 1.81,
+      "spend": 0,
+      "watchTimeMin": 78.8,
+      "clicks": 3,
+      "ctr": 0.29,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1531353015670950/",
+      "postedAt": "2026-07-23T12:30:58-07:00"
+    },
+    {
       "title": "What does it take to build a golf club that lasts?\u2744\ufe0f\ud83d\udd25 At PING, clubs are tested through extreme temperatures and repeate",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
@@ -31438,6 +31506,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-24T11:56:16-07:00"
     },
     {
+      "title": "There's more to the @3M Open than just great golf. Here's what we found.",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 288185,
+      "paidImpr": 288185,
+      "orgImpr": 0,
+      "views": 288185,
+      "reach": 262270,
+      "eng": 53,
+      "er": 0.02,
+      "spend": 924.55,
+      "watchTimeMin": 5031.8,
+      "clicks": 101,
+      "ctr": 3.5,
+      "cpc": 9.15,
+      "cpm": 3.21,
+      "videoViews100Pct": 67,
+      "videoViews3s": 27101,
+      "url": "https://www.instagram.com/p/DbL859qA1Hi/",
+      "postedAt": "2026-07-24T12:06:11-07:00"
+    },
+    {
       "title": "A driver has to survive forces most materials can't handle at 120+ mph.  That's why it's not bolted together, it's bonde",
       "platform": "Facebook",
       "accountName": "Front Office Sports",
@@ -31482,6 +31573,75 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DbHALSngCms/",
       "postedAt": "2026-07-22T13:58:34-07:00"
+    },
+    {
+      "title": "The 3M Open is one of the few sporting events where the title sponsor\u2019s own technologies help bring the tournament to li",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 209723,
+      "paidImpr": 209723,
+      "orgImpr": 0,
+      "views": 209723,
+      "reach": 188289,
+      "eng": 270,
+      "er": 0.13,
+      "spend": 669.72,
+      "watchTimeMin": null,
+      "clicks": 330,
+      "ctr": 15.74,
+      "cpc": 2.03,
+      "cpm": 3.19,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DbMG_SmACHQ/",
+      "postedAt": "2026-07-24T13:34:18-07:00"
+    },
+    {
+      "title": "Thousands of fans move through the 3M Open every day, many guided by reflective road signs made with 3M\u2122 Diamond Grade S",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 338329,
+      "paidImpr": 338324,
+      "orgImpr": 5,
+      "views": 0,
+      "reach": 221592,
+      "eng": 26,
+      "er": 0.01,
+      "spend": 809.84,
+      "watchTimeMin": null,
+      "clicks": 1441,
+      "ctr": 47.0,
+      "cpc": 0.56,
+      "cpm": 2.64,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1532299055576346/",
+      "postedAt": "2026-07-24T13:39:06-07:00"
+    },
+    {
+      "title": "",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports News",
+      "distKind": "paid",
+      "impr": 570522,
+      "paidImpr": 570522,
+      "orgImpr": 0,
+      "views": 564144,
+      "reach": 549472,
+      "eng": 265,
+      "er": 0.05,
+      "spend": 1217.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 2.13,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": "2026-07-24T19:09:03-07:00"
     }
   ]
 };
@@ -33414,61 +33574,61 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.64,
-    "impressions": 58200879,
-    "paidImpressions": 57738208,
-    "pctOfTotal": 44.5,
+    "impressions": 58695635,
+    "paidImpressions": 58232964,
+    "pctOfTotal": 44.2,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 21.3,
     "color": "#E00922"
   },
   {
-    "name": "Instagram",
-    "cpm": 4.89,
-    "impressions": 16331734,
-    "paidImpressions": 14122602,
-    "pctOfTotal": 12.5,
-    "mvmCpm": 5.62,
-    "mvmDeltaPct": -12.9,
-    "color": "#E4405F"
+    "name": "TikTok",
+    "cpm": 2.44,
+    "impressions": 16849201,
+    "paidImpressions": 13183940,
+    "pctOfTotal": 12.7,
+    "mvmCpm": 2.24,
+    "mvmDeltaPct": 9.1,
+    "color": "#000000"
   },
   {
-    "name": "TikTok",
-    "cpm": 2.46,
-    "impressions": 16278679,
-    "paidImpressions": 12613418,
-    "pctOfTotal": 12.4,
-    "mvmCpm": 2.24,
-    "mvmDeltaPct": 9.8,
-    "color": "#000000"
+    "name": "Instagram",
+    "cpm": 4.83,
+    "impressions": 16829642,
+    "paidImpressions": 14620510,
+    "pctOfTotal": 12.7,
+    "mvmCpm": 5.62,
+    "mvmDeltaPct": -14.0,
+    "color": "#E4405F"
   },
   {
     "name": "X",
     "cpm": 2.09,
     "impressions": 15714021,
     "paidImpressions": 13961351,
-    "pctOfTotal": 12.0,
+    "pctOfTotal": 11.8,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 68.5,
     "color": "#1d1d1f"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.65,
-    "impressions": 13152403,
-    "paidImpressions": 12996058,
-    "pctOfTotal": 10.0,
+    "cpm": 2.66,
+    "impressions": 13191067,
+    "paidImpressions": 13034722,
+    "pctOfTotal": 9.9,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -17.0,
     "color": "#FF0033"
   },
   {
     "name": "Facebook",
-    "cpm": 3.19,
-    "impressions": 8494015,
-    "paidImpressions": 8478267,
-    "pctOfTotal": 6.5,
+    "cpm": 3.16,
+    "impressions": 8833395,
+    "paidImpressions": 8816591,
+    "pctOfTotal": 6.6,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -24.1,
+    "mvmDeltaPct": -24.9,
     "color": "#1877F2"
   },
   {
@@ -33483,12 +33643,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 11.71,
-    "impressions": 1311236,
-    "paidImpressions": 1311236,
+    "cpm": 11.65,
+    "impressions": 1331363,
+    "paidImpressions": 1331363,
     "pctOfTotal": 1.0,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": -1.6,
+    "mvmDeltaPct": -2.2,
     "color": "#B0061B"
   }
 ];
