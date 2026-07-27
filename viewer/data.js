@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-27T13:42:35Z";
+window.LAST_REFRESHED = "2026-07-27T14:47:33Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1175,7 +1175,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 1431007,
+      "delivered": 1445414,
       "goal": 1500000
     },
     "budget": {
@@ -1188,10 +1188,10 @@ window.CAMPAIGNS = [
     "er": 1.7,
     "cpm": 2.16,
     "episodes": 2,
-    "posts": 13,
+    "posts": 14,
     "blurb": "Morgan & Morgan Case Study, split into two components in one campaign: the original Dan Morgan run (added value, no goal) and The Case Study (Redo) with Fernando Tatis Jr. carrying the goals.",
-    "views": 1304299,
-    "engagements": 33289,
+    "views": 1318706,
+    "engagements": 33434,
     "goalSplit": [],
     "benchmarkCategory": "Social - IP/Franchise",
     "lifecycle": "active",
@@ -1231,18 +1231,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 482130,
-        "eng": 9819,
-        "er": 2.04,
+        "impressions": 496537,
+        "eng": 9964,
+        "er": 2.01,
         "cpm": 5.59,
         "color": "#E4405F",
-        "delta": -38.5,
+        "delta": -39.4,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 299598,
-        "views": 482130
+        "organicImpressions": 314005,
+        "views": 496537
       },
       {
         "name": "YouTube Shorts",
@@ -1400,22 +1400,22 @@ window.CAMPAIGNS = [
       {
         "tag": "OPPORTUNITY",
         "kind": "info",
-        "headline": "Instagram resonating \u2014 62% of delivery is organic.",
-        "body": "300K organic impressions on Instagram (2.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
+        "headline": "Instagram resonating \u2014 63% of delivery is organic.",
+        "body": "314K organic impressions on Instagram (2.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
         "meta": "Morgan & Morgan \u00b7 Instagram"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace to over-deliver \u2014 $2K (37%) of budget unspent with 3 days left.",
-        "body": "Impressions are 95% delivered while only 63% of budget has been spent \u2014 only 69K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "body": "Impressions are 96% delivered while only 63% of budget has been spent \u2014 only 55K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "Morgan & Morgan \u00b7 Budget surplus"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3238,7 +3238,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-07-24T20:40:49Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-07-23T15:33:41Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-27T13:42:35Z",
+    "lastUpdatedMs": "2026-07-27T14:47:31Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -4039,8 +4039,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 17671415,
-    "eng": 273675,
+    "impressions": 17685822,
+    "eng": 273820,
     "er": 1.55,
     "cpm": 4.86,
     "color": "#E4405F",
@@ -4050,7 +4050,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 17671415
+    "views": 17685822
   },
   {
     "name": "TikTok",
@@ -4184,8 +4184,8 @@ window.SIGNALS = [
   {
     "tag": "OPPORTUNITY",
     "kind": "info",
-    "headline": "Instagram resonating \u2014 62% of delivery is organic.",
-    "body": "300K organic impressions on Instagram (2.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
+    "headline": "Instagram resonating \u2014 63% of delivery is organic.",
+    "body": "314K organic impressions on Instagram (2.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
     "meta": "Morgan & Morgan \u00b7 Instagram",
     "campaignId": "mm",
     "campaignPartner": "Morgan & Morgan"
@@ -13734,10 +13734,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Case Study (Redo)",
       "date": "Jun 2026",
       "total": {
-        "impr": 1431007,
-        "views": 816677,
-        "er": 1.51,
-        "eng": 21585,
+        "impr": 1445414,
+        "views": 831084,
+        "er": 1.5,
+        "eng": 21730,
         "spend": 1821.59
       },
       "perChannel": [
@@ -13759,17 +13759,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 389416,
+          "impr": 403823,
           "paidImpr": 107930,
-          "orgImpr": 281486,
-          "views": 389416,
-          "eng": 8439,
+          "orgImpr": 295893,
+          "views": 403823,
+          "eng": 8584,
           "paidEng": 0,
-          "orgEng": 8439,
-          "er": 2.17,
+          "orgEng": 8584,
+          "er": 2.13,
           "cpm": 5.79,
           "spend": 625.0,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "TikTok",
@@ -13952,6 +13952,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://www.youtube.com/shorts/FKgfayNw2F8",
           "postedAt": "2026-07-24T12:30:23-07:00"
+        },
+        {
+          "title": "Bryce Harper made $900 for a viral Cameo video that landed in the hands of a FanDuel VIP bettor. Its fair market value i",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 14407,
+          "paidImpr": 0,
+          "orgImpr": 14407,
+          "views": 14407,
+          "eng": 145,
+          "er": 1.01,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DbL_s1sk18-/",
+          "postedAt": "2026-07-24T12:33:06-07:00"
         }
       ],
       "topPosts": [
@@ -13977,7 +13992,7 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "kind": "pos",
-          "text": "Instagram resonating \u2014 72% organic share on 281.5K impr."
+          "text": "Instagram resonating \u2014 73% organic share on 295.9K impr."
         }
       ],
       "impressionGoal": 1500000,
@@ -26209,6 +26224,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/FKgfayNw2F8",
       "postedAt": "2026-07-24T12:30:23-07:00"
+    },
+    {
+      "title": "Bryce Harper made $900 for a viral Cameo video that landed in the hands of a FanDuel VIP bettor. Its fair market value i",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 14407,
+      "paidImpr": 0,
+      "orgImpr": 14407,
+      "views": 14407,
+      "reach": 11081,
+      "eng": 145,
+      "er": 1.01,
+      "spend": 0,
+      "watchTimeMin": 35.4,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DbL_s1sk18-/",
+      "postedAt": "2026-07-24T12:33:06-07:00"
     }
   ],
   "sportclips": [
@@ -32581,7 +32619,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.92,
-    "impressions": 15927657,
+    "impressions": 15942064,
     "paidImpressions": 13744321,
     "pctOfTotal": 12.6,
     "mvmCpm": 5.62,
