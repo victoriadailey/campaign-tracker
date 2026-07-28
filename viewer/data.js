@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-28T12:58:20Z";
+window.LAST_REFRESHED = "2026-07-28T13:37:06Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-23T16:59:16Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1172,10 +1172,10 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jul 30, 2026",
     "elapsedPct": 97.8,
     "daysLeft": 2,
-    "status": "Goal Hit",
+    "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1524449,
+      "delivered": 1601128,
       "goal": 1500000
     },
     "budget": {
@@ -1188,10 +1188,10 @@ window.CAMPAIGNS = [
     "er": 1.7,
     "cpm": 2.2,
     "episodes": 2,
-    "posts": 14,
+    "posts": 16,
     "blurb": "Morgan & Morgan Case Study, split into two components in one campaign: the original Dan Morgan run (added value, no goal) and The Case Study (Redo) with Fernando Tatis Jr. carrying the goals.",
-    "views": 1379584,
-    "engagements": 34207,
+    "views": 1448838,
+    "engagements": 35186,
     "goalSplit": [],
     "benchmarkCategory": "Social - IP/Franchise",
     "lifecycle": "active",
@@ -1199,18 +1199,34 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 594536,
-        "eng": 2225,
+        "impressions": 601961,
+        "eng": 2239,
         "er": 0.37,
         "cpm": 1.02,
         "color": "#1d1d1f",
-        "delta": -59.3,
+        "delta": -59.6,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 7221,
+        "organicImpressions": 14646,
         "views": 0
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 584496,
+        "eng": 11689,
+        "er": 2.0,
+        "cpm": 5.79,
+        "color": "#E4405F",
+        "delta": -39.6,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 384806,
+        "views": 584496
       },
       {
         "name": "TikTok",
@@ -1227,22 +1243,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 128720,
         "views": 556910
-      },
-      {
-        "name": "Instagram",
-        "italic": "gram",
-        "impressions": 515242,
-        "eng": 10724,
-        "er": 2.08,
-        "cpm": 5.79,
-        "color": "#E4405F",
-        "delta": -37.1,
-        "bench": {
-          "er": 3.31,
-          "cpm": 5.1
-        },
-        "organicImpressions": 315552,
-        "views": 515242
       },
       {
         "name": "YouTube Shorts",
@@ -1395,21 +1395,21 @@ window.CAMPAIGNS = [
         "kind": "pos",
         "milestone": true,
         "headline": "Goal hit with $2K (33%) of budget still unspent.",
-        "body": "Delivered 102% of the 1.5M impression goal on only 67% of the $5K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "body": "Delivered 107% of the 1.5M impression goal on only 67% of the $5K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
         "meta": "Morgan & Morgan \u00b7 Goal hit"
       },
       {
         "tag": "OPPORTUNITY",
         "kind": "info",
-        "headline": "Instagram resonating \u2014 61% of delivery is organic.",
-        "body": "316K organic impressions on Instagram (2.1% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
+        "headline": "Instagram resonating \u2014 66% of delivery is organic.",
+        "body": "385K organic impressions on Instagram (2.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
         "meta": "Morgan & Morgan \u00b7 Instagram"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1516,7 +1516,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1671,7 +1671,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1826,7 +1826,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2223,7 +2223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2371,7 +2371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2573,7 +2573,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2849,7 +2849,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3232,7 +3232,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-27T20:26:54Z"
   },
   {
@@ -3566,7 +3566,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3688,7 +3688,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3794,7 +3794,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3971,7 +3971,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T12:58:20Z",
+    "lastUpdatedMs": "2026-07-28T13:37:06Z",
     "lastUpdatedExports": "2026-07-27T21:02:19Z"
   }
 ];
@@ -4226,12 +4226,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26713338,
-    "eng": 869942,
+    "impressions": 26720763,
+    "eng": 869956,
     "er": 3.26,
     "cpm": 1.54,
     "color": "#1d1d1f",
-    "delta": 254.0,
+    "delta": 253.9,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -4242,8 +4242,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 18848539,
-    "eng": 276047,
+    "impressions": 18917793,
+    "eng": 277012,
     "er": 1.46,
     "cpm": 4.77,
     "color": "#E4405F",
@@ -4253,7 +4253,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 18848539
+    "views": 18917793
   },
   {
     "name": "TikTok",
@@ -4370,7 +4370,7 @@ window.SIGNALS = [
     "kind": "pos",
     "milestone": true,
     "headline": "Goal hit with $2K (33%) of budget still unspent.",
-    "body": "Delivered 102% of the 1.5M impression goal on only 67% of the $5K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "body": "Delivered 107% of the 1.5M impression goal on only 67% of the $5K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
     "meta": "Morgan & Morgan \u00b7 Goal hit",
     "campaignId": "mm",
     "campaignPartner": "Morgan & Morgan"
@@ -4397,8 +4397,8 @@ window.SIGNALS = [
   {
     "tag": "OPPORTUNITY",
     "kind": "info",
-    "headline": "Instagram resonating \u2014 61% of delivery is organic.",
-    "body": "316K organic impressions on Instagram (2.1% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
+    "headline": "Instagram resonating \u2014 66% of delivery is organic.",
+    "body": "385K organic impressions on Instagram (2.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
     "meta": "Morgan & Morgan \u00b7 Instagram",
     "campaignId": "mm",
     "campaignPartner": "Morgan & Morgan"
@@ -13947,42 +13947,42 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Case Study (Redo)",
       "date": "Jun 2026",
       "total": {
-        "impr": 1524449,
-        "views": 891962,
-        "er": 1.48,
-        "eng": 22504,
+        "impr": 1601128,
+        "views": 961216,
+        "er": 1.47,
+        "eng": 23483,
         "spend": 2033.84
       },
       "perChannel": [
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 594536,
+          "impr": 601961,
           "paidImpr": 587315,
-          "orgImpr": 7221,
+          "orgImpr": 14646,
           "views": 0,
-          "eng": 2225,
+          "eng": 2239,
           "paidEng": 2150,
-          "orgEng": 75,
+          "orgEng": 89,
           "er": 0.37,
           "cpm": 1.02,
           "spend": 600.0,
-          "posts": 1
+          "posts": 2
         },
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 422528,
+          "impr": 491782,
           "paidImpr": 125088,
-          "orgImpr": 297440,
-          "views": 422528,
-          "eng": 9344,
+          "orgImpr": 366694,
+          "views": 491782,
+          "eng": 10309,
           "paidEng": 0,
-          "orgEng": 9344,
-          "er": 2.21,
+          "orgEng": 10309,
+          "er": 2.1,
           "cpm": 6.08,
           "spend": 760.25,
-          "posts": 3
+          "posts": 4
         },
         {
           "name": "TikTok",
@@ -14180,6 +14180,36 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 135.25,
           "url": "https://www.instagram.com/p/DbL_s1sk18-/",
           "postedAt": "2026-07-24T12:33:06-07:00"
+        },
+        {
+          "title": "\"You have a two-time MVP who gave an endorsement for about $900, when his fair market value is six or seven figures.\" \u2014 ",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7425,
+          "paidImpr": 0,
+          "orgImpr": 7425,
+          "views": 0,
+          "eng": 14,
+          "er": 0.19,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2081839542005305439",
+          "postedAt": "2026-07-27T13:30:00-07:00"
+        },
+        {
+          "title": "Bryce Harper didn\u2019t know his Cameo video would become part of a lawsuit against FanDuel  @ForThePeople Attorney Dan Morg",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 69254,
+          "paidImpr": 0,
+          "orgImpr": 69254,
+          "views": 69254,
+          "eng": 965,
+          "er": 1.39,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DbUCWCqjtl-/",
+          "postedAt": "2026-07-27T15:27:38-07:00"
         }
       ],
       "topPosts": [
@@ -14205,7 +14235,7 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "kind": "pos",
-          "text": "Instagram resonating \u2014 70% organic share on 297.4K impr."
+          "text": "Instagram resonating \u2014 75% organic share on 366.7K impr."
         }
       ],
       "impressionGoal": 1500000,
@@ -26887,6 +26917,52 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 17244,
       "url": "https://www.instagram.com/p/DbL_s1sk18-/",
       "postedAt": "2026-07-24T12:33:06-07:00"
+    },
+    {
+      "title": "\"You have a two-time MVP who gave an endorsement for about $900, when his fair market value is six or seven figures.\" \u2014 ",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7425,
+      "paidImpr": 0,
+      "orgImpr": 7425,
+      "views": 0,
+      "reach": 0,
+      "eng": 14,
+      "er": 0.19,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2081839542005305439",
+      "postedAt": "2026-07-27T13:30:00-07:00"
+    },
+    {
+      "title": "Bryce Harper didn\u2019t know his Cameo video would become part of a lawsuit against FanDuel  @ForThePeople Attorney Dan Morg",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 69254,
+      "paidImpr": 0,
+      "orgImpr": 69254,
+      "views": 69254,
+      "reach": 28563,
+      "eng": 965,
+      "er": 1.39,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DbUCWCqjtl-/",
+      "postedAt": "2026-07-27T15:27:38-07:00"
     }
   ],
   "sportclips": [
@@ -32077,10 +32153,6 @@ window.MS_GROUPS = [
     "name": "Tastytrade"
   },
   {
-    "id": 8253,
-    "name": "Testing Autogrouping "
-  },
-  {
     "id": 7711,
     "name": "The Case Study (redo)"
   },
@@ -33651,10 +33723,20 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 58892120,
     "paidImpressions": 58428105,
-    "pctOfTotal": 43.7,
+    "pctOfTotal": 43.6,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.2,
     "color": "#E00922"
+  },
+  {
+    "name": "Instagram",
+    "cpm": 4.81,
+    "impressions": 17174032,
+    "paidImpressions": 14891923,
+    "pctOfTotal": 12.7,
+    "mvmCpm": 5.62,
+    "mvmDeltaPct": -14.4,
+    "color": "#E4405F"
   },
   {
     "name": "TikTok",
@@ -33667,21 +33749,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "color": "#000000"
   },
   {
-    "name": "Instagram",
-    "cpm": 4.81,
-    "impressions": 17104778,
-    "paidImpressions": 14891923,
-    "pctOfTotal": 12.7,
-    "mvmCpm": 5.62,
-    "mvmDeltaPct": -14.4,
-    "color": "#E4405F"
-  },
-  {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 15714064,
+    "impressions": 15721489,
     "paidImpressions": 13961351,
-    "pctOfTotal": 11.7,
+    "pctOfTotal": 11.6,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 68.5,
     "color": "#1d1d1f"
