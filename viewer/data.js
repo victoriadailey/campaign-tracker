@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-28T15:12:11Z";
+window.LAST_REFRESHED = "2026-07-28T15:28:32Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,11 +382,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 32798151,
+      "delivered": 32846158,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 46464.64,
+      "delivered": 46538.98,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -398,7 +398,7 @@ window.CAMPAIGNS = [
     "posts": 310,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 9749321,
-    "engagements": 1140478,
+    "engagements": 1143268,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,12 +454,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4094707,
-        "eng": 181590,
-        "er": 4.43,
-        "cpm": 1.19,
+        "impressions": 4142714,
+        "eng": 184380,
+        "er": 4.45,
+        "cpm": 1.2,
         "color": "#1d1d1f",
-        "delta": 382.0,
+        "delta": 383.8,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -816,16 +816,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 4.4% ER \u2014 4.8\u00d7 the benchmark.",
-        "body": "4.1M impressions, 182K engagements at 4.4% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "X at 4.5% ER \u2014 4.8\u00d7 the benchmark.",
+        "body": "4.1M impressions, 184K engagements at 4.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "E*TRADE \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
-    "lastUpdatedExports": "2026-07-28T15:10:38Z"
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
+    "lastUpdatedExports": "2026-07-28T15:10:39Z"
   },
   {
     "id": "spectrum",
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1409,7 +1409,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1516,7 +1516,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1671,7 +1671,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1826,7 +1826,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2223,7 +2223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2371,7 +2371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2573,7 +2573,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2849,7 +2849,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3232,7 +3232,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-27T20:26:54Z"
   },
   {
@@ -3566,7 +3566,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3688,7 +3688,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3794,7 +3794,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3980,7 +3980,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-28T15:12:11Z",
+    "lastUpdatedMs": "2026-07-28T15:28:32Z",
     "lastUpdatedExports": "2026-07-28T13:58:18Z"
   }
 ];
@@ -4235,12 +4235,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26720763,
-    "eng": 869956,
+    "impressions": 26768770,
+    "eng": 872746,
     "er": 3.26,
     "cpm": 1.54,
     "color": "#1d1d1f",
-    "delta": 253.9,
+    "delta": 254.4,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -12658,11 +12658,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Arturo Lomeli",
       "date": "Jul 14",
       "total": {
-        "impr": 1989783,
+        "impr": 2037790,
         "views": 403780,
-        "er": 1.11,
-        "eng": 44294,
-        "spend": 3168.6
+        "er": 1.22,
+        "eng": 47084,
+        "spend": 3242.93
       },
       "perChannel": [
         {
@@ -12698,16 +12698,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 166768,
-          "paidImpr": 105900,
-          "orgImpr": 55012,
+          "impr": 214775,
+          "paidImpr": 153907,
+          "orgImpr": 60868,
           "views": 6576,
-          "eng": 8209,
-          "paidEng": 8135,
+          "eng": 10999,
+          "paidEng": 10925,
           "orgEng": 74,
-          "er": 4.92,
-          "cpm": 2.11,
-          "spend": 223.37,
+          "er": 5.12,
+          "cpm": 1.93,
+          "spend": 297.7,
           "posts": 6
         },
         {
@@ -12882,8 +12882,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 74400,
-          "paidImpr": 57868,
+          "impr": 74401,
+          "paidImpr": 57869,
           "orgImpr": 16532,
           "views": 3566,
           "eng": 4550,
@@ -12986,14 +12986,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul fo",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 7493,
-          "paidImpr": 0,
+          "distKind": "organic+boosted",
+          "impr": 55499,
+          "paidImpr": 48006,
           "orgImpr": 7493,
           "views": 1637,
-          "eng": 12,
-          "er": 0.16,
-          "spend": 0,
+          "eng": 2802,
+          "er": 5.05,
+          "spend": 74.34,
           "url": "https://twitter.com/FOS/status/2080019564679614867",
           "postedAt": "2026-07-22T12:58:03-07:00"
         },
@@ -13092,7 +13092,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "X leading with 4.9% ER on 166.8K impr."
+          "text": "X leading with 5.1% ER on 214.8K impr."
         },
         {
           "kind": "pos",
@@ -25539,8 +25539,8 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 74400,
-      "paidImpr": 57868,
+      "impr": 74401,
+      "paidImpr": 57869,
       "orgImpr": 16532,
       "views": 3566,
       "reach": 0,
@@ -25699,20 +25699,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul fo",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 7493,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 55499,
+      "paidImpr": 48006,
       "orgImpr": 7493,
       "views": 1637,
       "reach": 0,
-      "eng": 12,
-      "er": 0.16,
-      "spend": 0,
+      "eng": 2802,
+      "er": 5.05,
+      "spend": 74.34,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 1.55,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2080019564679614867",
@@ -32449,7 +32449,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 6.6,
+    "fileSizeKb": 6.8,
     "lastModified": "2026-07-28",
     "exists": true,
     "postsContributed": 0
@@ -33960,11 +33960,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 15721489,
-    "paidImpressions": 13961351,
+    "impressions": 15769496,
+    "paidImpressions": 14009358,
     "pctOfTotal": 11.6,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 68.5,
+    "mvmDeltaPct": 68.4,
     "color": "#1d1d1f"
   },
   {
