@@ -1216,6 +1216,11 @@ campaigns:
     type: social
     benchmark_category: Branded Content
     lifecycle: active
+    # Google Ads names the YT buys by format ("(in-feed)", "(pre-roll)",
+    # "(shorts)") not a title token MS shares, so pair GAds↔MS by sorted
+    # impressions within each YT subtype — folds the paid spend + impressions
+    # onto the matching MS post instead of double-counting the hero in-feed.
+    yt_paired_by_sort: true
     # Flight is a best estimate (planner shows Engineered 7/21–7/27; boosts
     # ending ~now). Adjust if the DITL/static flights differ.
     flight_start: 2026-07-21
@@ -1258,7 +1263,11 @@ campaigns:
         n: "Part 03"
         title: "2 Static Posts"
         date: "Jul 2026"
-        match: ["driver has to survive", "forces most material", "Static"]
+        # Static 1: "A driver has to survive forces…"  Static 2: "The 3M Open is
+        # one of the few sporting events where the title sponsor's own
+        # technologies help bring the tournament to life."
+        match: ["driver has to survive", "forces most material",
+                "one of the few sporting events", "bring the tournament to life", "Static"]
         exclude: []
         impression_goal: 1_600_000
         budget_goal: 5_600
