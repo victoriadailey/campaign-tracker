@@ -1280,3 +1280,21 @@ campaigns:
       # (→ threem_yt_paid.csv, threem_meta_ads.csv) for full paid pacing.
       measure_studio_group_ids:
         - 8322
+
+  - id: apollo_gloabl_brandx
+    partner: Apollo Global
+    series: Apollo Global BrandX
+    series_italic: BrandX
+    type: brandx
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-07-21
+    flight_end: 2026-08-31
+    impression_goal: 1400000
+    budget_goal: 5000
+    color: ft-1
+    lead_format: Paid Social
+    blurb: Apollo Global BrandX
+    sources:
+      other:
+        - Apollo BrandX - Meta - 7.29.csv
