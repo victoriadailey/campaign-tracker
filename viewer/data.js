@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-29T13:24:20Z";
+window.LAST_REFRESHED = "2026-07-29T14:10:52Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-28T15:10:39Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1409,7 +1409,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1516,7 +1516,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1671,7 +1671,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1701,7 +1701,7 @@ window.CAMPAIGNS = [
     "episodes": 2,
     "posts": 21,
     "blurb": "Two editorial pieces for Heineken x World Cup: an FOS NEWS editorial video (UEFA) and Red Card / Green Flag (FOS Main).",
-    "views": 2994860,
+    "views": 2993626,
     "engagements": 128928,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
@@ -1721,7 +1721,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 11862,
-        "views": 851231
+        "views": 849997
       },
       {
         "name": "Facebook",
@@ -1826,7 +1826,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2223,7 +2223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2371,7 +2371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2573,7 +2573,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2849,7 +2849,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3232,7 +3232,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-29T13:19:08Z"
   },
   {
@@ -3558,7 +3558,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3680,7 +3680,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3786,7 +3786,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3988,8 +3988,50 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedMs": "2026-07-29T14:10:52Z",
     "lastUpdatedExports": "2026-07-28T13:58:18Z"
+  },
+  {
+    "id": "apollo_gloabl_brandx",
+    "partner": "Apollo Global",
+    "series": "Apollo Global BrandX",
+    "seriesItalic": "BrandX",
+    "type": "brandx",
+    "flight": "Jul 21 \u2014 Aug 31, 2026",
+    "elapsedPct": 19.5,
+    "daysLeft": 33,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 0,
+      "goal": 1400000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 5000.0
+    },
+    "color": "ft-1",
+    "leadFormat": "Paid Social",
+    "topChannel": "Unknown",
+    "er": 0.0,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 0,
+    "blurb": "Apollo Global BrandX",
+    "views": 0,
+    "engagements": 0,
+    "goalSplit": [],
+    "benchmarkCategory": "Branded Content",
+    "lifecycle": "active",
+    "channels": [],
+    "topPosts": [],
+    "topPostsOrganic": [],
+    "callouts": [],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -4238,7 +4280,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 13959307
+    "views": 13958073
   },
   {
     "name": "X",
@@ -15018,7 +15060,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "May 2026",
       "total": {
         "impr": 2000546,
-        "views": 1929872,
+        "views": 1928638,
         "er": 4.4,
         "eng": 88120,
         "spend": 8602.94
@@ -15030,7 +15072,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 849578,
           "paidImpr": 837716,
           "orgImpr": 11862,
-          "views": 829889,
+          "views": 828655,
           "eng": 70059,
           "paidEng": 69599,
           "orgEng": 460,
@@ -15094,7 +15136,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 193262,
           "paidImpr": 191542,
           "orgImpr": 1720,
-          "views": 190512,
+          "views": 190161,
           "eng": 15703,
           "er": 8.13,
           "spend": 499.81,
@@ -15184,7 +15226,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 201373,
           "paidImpr": 192754,
           "orgImpr": 8619,
-          "views": 190018,
+          "views": 189148,
           "eng": 7708,
           "er": 3.83,
           "spend": 499.74,
@@ -15304,7 +15346,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 303127,
           "paidImpr": 302296,
           "orgImpr": 831,
-          "views": 301385,
+          "views": 301372,
           "eng": 38228,
           "er": 12.61,
           "spend": 1216.77,
@@ -17399,7 +17441,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "impressionGoal": 1600000,
       "budgetGoal": 5600
     }
-  ]
+  ],
+  "apollo_gloabl_brandx": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -27799,12 +27842,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 193262,
       "paidImpr": 191542,
       "orgImpr": 1720,
-      "views": 190512,
+      "views": 190161,
       "reach": 0,
       "eng": 15703,
       "er": 8.13,
       "spend": 499.81,
-      "watchTimeMin": 17040.4,
+      "watchTimeMin": 17187.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -27937,12 +27980,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 201373,
       "paidImpr": 192754,
       "orgImpr": 8619,
-      "views": 190018,
+      "views": 189148,
       "reach": 0,
       "eng": 7708,
       "er": 3.83,
       "spend": 499.74,
-      "watchTimeMin": 13324.3,
+      "watchTimeMin": 13360.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -28034,7 +28077,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 8420,
       "er": 5.55,
       "spend": 499.37,
-      "watchTimeMin": 12140.1,
+      "watchTimeMin": 12128.0,
       "clicks": 6,
       "ctr": 3.97,
       "cpc": 83.22,
@@ -28121,12 +28164,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 303127,
       "paidImpr": 302296,
       "orgImpr": 831,
-      "views": 301385,
+      "views": 301372,
       "reach": 0,
       "eng": 38228,
       "er": 12.61,
       "spend": 1216.77,
-      "watchTimeMin": 35286.5,
+      "watchTimeMin": 35274.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -31955,7 +31998,8 @@ window.POSTS_BY_CAMPAIGN = {
       "url": null,
       "postedAt": "2026-07-24T19:09:03-07:00"
     }
-  ]
+  ],
+  "apollo_gloabl_brandx": []
 };
 
 window.UPLOAD_TARGETS = {
@@ -32161,7 +32205,8 @@ window.UPLOAD_TARGETS = {
       "file": "threem_yt_paid.csv",
       "label": "Google Ads"
     }
-  ]
+  ],
+  "apollo_gloabl_brandx": []
 };
 
 window.MS_GROUPS = [
@@ -32176,6 +32221,10 @@ window.MS_GROUPS = [
   {
     "id": 8154,
     "name": "Ally - NWSL"
+  },
+  {
+    "id": 8355,
+    "name": "Apollo Global BrandX"
   },
   {
     "id": 8097,
