@@ -1296,5 +1296,7 @@ campaigns:
     lead_format: Paid Social
     blurb: Apollo Global BrandX
     sources:
+      meta_ads:
+        - apollo_gloabl_brandx_meta_ads.csv
       other:
         - Apollo BrandX - Meta - 7.29.csv
