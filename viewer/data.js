@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-29T13:20:20Z";
+window.LAST_REFRESHED = "2026-07-29T13:24:20Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-28T15:10:39Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1409,7 +1409,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1516,7 +1516,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1671,7 +1671,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1826,7 +1826,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2223,7 +2223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2371,7 +2371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2573,7 +2573,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-17T13:51:12Z"
   },
   {
@@ -2849,7 +2849,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3027,11 +3027,11 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 7944906,
+      "delivered": 7963525,
       "goal": 8000000
     },
     "budget": {
-      "delivered": 11325.52,
+      "delivered": 11374.86,
       "goal": 12100.0
     },
     "color": "ft-9",
@@ -3042,8 +3042,8 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 19,
     "blurb": "Prudential x '94 to Now \u2014 USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn.",
-    "views": 2558327,
-    "engagements": 227358,
+    "views": 2576946,
+    "engagements": 227378,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3115,18 +3115,18 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 392114,
-        "eng": 361,
+        "impressions": 410733,
+        "eng": 381,
         "er": 0.09,
-        "cpm": 2.73,
+        "cpm": 2.72,
         "color": "#1877F2",
-        "delta": -94.0,
+        "delta": -93.9,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
         "organicImpressions": 0,
-        "views": 392114
+        "views": 410733
       },
       {
         "name": "Instagram",
@@ -3232,8 +3232,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
-    "lastUpdatedExports": "2026-07-29T13:19:07Z"
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
+    "lastUpdatedExports": "2026-07-29T13:19:08Z"
   },
   {
     "id": "betmgm_brandx",
@@ -3558,7 +3558,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3680,7 +3680,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3786,7 +3786,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3988,7 +3988,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-29T13:20:20Z",
+    "lastUpdatedMs": "2026-07-29T13:24:20Z",
     "lastUpdatedExports": "2026-07-28T13:58:18Z"
   }
 ];
@@ -4291,10 +4291,10 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 9313656,
-    "eng": 14795,
+    "impressions": 9332275,
+    "eng": 14815,
     "er": 0.16,
-    "cpm": 3.11,
+    "cpm": 3.1,
     "color": "#1877F2",
     "delta": -89.6,
     "bench": {
@@ -4302,7 +4302,7 @@ window.CHANNELS = [
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 6640858
+    "views": 6659477
   },
   {
     "name": "LinkedIn",
@@ -30982,18 +30982,18 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Facebook",
       "accountName": null,
       "distKind": "paid",
-      "impr": 174953,
-      "paidImpr": 174953,
+      "impr": 193572,
+      "paidImpr": 193572,
       "orgImpr": 0,
-      "views": 174953,
-      "reach": 49462,
-      "eng": 127,
-      "er": 0.07,
-      "spend": 465.26,
+      "views": 193572,
+      "reach": 52182,
+      "eng": 147,
+      "er": 0.08,
+      "spend": 514.6,
       "watchTimeMin": null,
-      "clicks": 7,
-      "ctr": 0.0,
-      "cpc": 66.47,
+      "clicks": 12,
+      "ctr": 0.01,
+      "cpc": 42.88,
       "cpm": 2.66,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -32725,7 +32725,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "prudential_meta_ads.csv",
-    "fileSizeKb": 0.9,
+    "fileSizeKb": 1.0,
     "lastModified": "2026-07-29",
     "exists": true,
     "postsContributed": 2
@@ -33948,11 +33948,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Facebook",
     "cpm": 3.13,
-    "impressions": 9176552,
-    "paidImpressions": 9158669,
+    "impressions": 9195171,
+    "paidImpressions": 9177288,
     "pctOfTotal": 6.8,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -25.4,
+    "mvmDeltaPct": -25.5,
     "color": "#1877F2"
   },
   {
