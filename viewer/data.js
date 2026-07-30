@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-30T14:46:51Z";
+window.LAST_REFRESHED = "2026-07-30T14:53:28Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-29T16:25:03Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1188,7 +1188,7 @@ window.CAMPAIGNS = [
     "er": 2.0,
     "cpm": 2.89,
     "episodes": 2,
-    "posts": 17,
+    "posts": 16,
     "blurb": "Morgan & Morgan Case Study, split into two components in one campaign: the original Dan Morgan run (added value, no goal) and The Case Study (Redo) with Fernando Tatis Jr. carrying the goals.",
     "views": 1579653,
     "engagements": 35263,
@@ -1408,8 +1408,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
-    "lastUpdatedExports": "2026-07-30T14:44:41Z"
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
+    "lastUpdatedExports": "2026-07-30T14:51:30Z"
   },
   {
     "id": "sportclips",
@@ -1515,7 +1515,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1670,7 +1670,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1825,7 +1825,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2222,7 +2222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2370,7 +2370,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2572,7 +2572,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2848,7 +2848,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3215,7 +3215,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3541,7 +3541,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3663,7 +3663,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3769,7 +3769,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3972,7 +3972,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T14:46:48Z",
+    "lastUpdatedMs": "2026-07-30T14:53:27Z",
     "lastUpdatedExports": "2026-07-30T14:15:45Z"
   },
   {
@@ -14012,11 +14012,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Case Study (Redo)",
       "date": "Jun 2026",
       "total": {
-        "impr": 1147377,
+        "impr": 1214623,
         "views": 1092030,
-        "er": 2.05,
-        "eng": 23486,
-        "spend": 1780.51
+        "er": 1.94,
+        "eng": 23560,
+        "spend": 1865.04
       },
       "perChannel": [
         {
@@ -14065,6 +14065,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 2
         },
         {
+          "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 82461,
+          "paidImpr": 67246,
+          "orgImpr": 15215,
+          "views": 0,
+          "eng": 164,
+          "paidEng": 74,
+          "orgEng": 90,
+          "er": 0.2,
+          "cpm": 1.26,
+          "spend": 84.53,
+          "posts": 2
+        },
+        {
           "name": "LinkedIn",
           "distKind": "organic",
           "impr": 33991,
@@ -14075,21 +14090,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 1350,
           "er": 3.97,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 2
-        },
-        {
-          "name": "X",
-          "distKind": "organic",
-          "impr": 15215,
-          "paidImpr": 0,
-          "orgImpr": 15215,
-          "views": 0,
-          "eng": 90,
-          "paidEng": 0,
-          "orgEng": 90,
-          "er": 0.59,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -14250,14 +14250,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "\"You have a two-time MVP who gave an endorsement for about $900, when his fair market value is six or seven figures.\" \u2014 ",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 7994,
-          "paidImpr": 0,
+          "distKind": "organic+boosted",
+          "impr": 75240,
+          "paidImpr": 67246,
           "orgImpr": 7994,
           "views": 0,
-          "eng": 15,
-          "er": 0.19,
-          "spend": 0,
+          "eng": 89,
+          "er": 0.12,
+          "spend": 84.53,
           "url": "https://twitter.com/FOS/status/2081839542005305439",
           "postedAt": "2026-07-27T13:30:00-07:00"
         },
@@ -27194,20 +27194,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\"You have a two-time MVP who gave an endorsement for about $900, when his fair market value is six or seven figures.\" \u2014 ",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 7994,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 75240,
+      "paidImpr": 67246,
       "orgImpr": 7994,
       "views": 0,
       "reach": 0,
-      "eng": 15,
-      "er": 0.19,
-      "spend": 0,
+      "eng": 89,
+      "er": 0.12,
+      "spend": 84.53,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 1.26,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2081839542005305439",
@@ -27235,29 +27235,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DbUCWCqjtl-/",
       "postedAt": "2026-07-27T15:27:38-07:00"
-    },
-    {
-      "title": "Morgan & Morgan: Bryce Harper (static)",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 67246,
-      "paidImpr": 67246,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 74,
-      "er": 0.11,
-      "spend": 84.53,
-      "watchTimeMin": null,
-      "clicks": 33,
-      "ctr": 0.05,
-      "cpc": 2.56,
-      "cpm": 1.26,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
     }
   ],
   "sportclips": [
@@ -32718,10 +32695,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
-    "fileSizeKb": 0.3,
+    "fileSizeKb": 0.4,
     "lastModified": "2026-07-30",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 0
   },
   {
     "campaignId": "sportclips",
