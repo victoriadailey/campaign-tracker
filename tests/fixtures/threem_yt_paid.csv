@@ -1,7 +1,7 @@
 FOS Reporting
-"June 1, 2026 - July 28, 2026"
+"June 1, 2026 - July 30, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-3M_FOS Engineered_Full Video (pre-roll),USD,0,Ended,Video,0.019,"43,237",11.45,"72,327",827.84,"57,368"
-3M_FOS Engineered_Full Video (in-feed),USD,0,Ended,Video,0.288,"6,422",0.61,"3,047,894",1851.34,"8,466"
-3M: FOS Engineered Cutdown 1 (shorts),USD,0,Eligible,Video,0.115,433,3.58,"13,967",49.96,"1,223"
-3M: DITL (Shorts),USD,0,Eligible,Video,0.078,"28,909",3.15,"714,707",2252.07,"94,558"
+3M: FOS Engineered Cutdown 1 (shorts),USD,0,Eligible,Video,0.097,"1,875",3.27,"55,437",181.07,"5,183"
+3M_FOS Engineered_Full Video (pre-roll),USD,0,Ended,Video,0.019,"43,213",11.44,"72,296",827.33,"57,333"
+3M: DITL (Shorts),USD,0,Paused,Video,0.078,"29,334",3.15,"722,704",2275.73,"95,878"
+3M_FOS Engineered_Full Video (in-feed),USD,0,Ended,Video,0.288,"6,424",0.61,"3,047,607",1851.17,"8,469"
