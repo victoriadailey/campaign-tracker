@@ -1257,6 +1257,10 @@ campaigns:
         date: "Jul 2026"
         match: ["Day in the Life", "DITL", "3M Open than just"]
         exclude: []
+        # Dark TikTok cut of the DITL video — no title/caption for the matcher
+        # to catch, so pin it by native id.
+        manual_posts:
+          - "1871624422467585"
         impression_goal: 1_800_000
         budget_goal: 6_300
       - id: static
@@ -1267,7 +1271,8 @@ campaigns:
         # one of the few sporting events where the title sponsor's own
         # technologies help bring the tournament to life."
         match: ["driver has to survive", "forces most material",
-                "one of the few sporting events", "bring the tournament to life", "Static"]
+                "one of the few sporting events", "bring the tournament to life",
+                "Thousands of fans move through", "Static"]
         exclude: []
         impression_goal: 1_600_000
         budget_goal: 5_600

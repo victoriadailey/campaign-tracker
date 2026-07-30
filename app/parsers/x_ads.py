@@ -155,6 +155,16 @@ def _read_csv(file: IO[bytes] | str | bytes) -> pd.DataFrame | None:
     # Shared reader also handles exports saved as Excel (.xlsx) but uploaded
     # with a .csv name — a common Ads Manager mistake.
     from app.parsers.base import read_ads_table
+
+    # Some X exports prepend a report-title row (e.g. "PFP X Ads Export 7:28")
+    # ABOVE the real header, which would be read as the column names and drop
+    # every post (E*TRADE would fall back to organic-only). If the first read
+    # doesn't surface a recognizable header, retry skipping leading rows.
+    _HEADER_TOKENS = {"Campaign name", "Campaign", "Ad name"}
+    for skip in (0, 1, 2, 3):
+        df = read_ads_table(file, skiprows=skip)
+        if df is not None and (_HEADER_TOKENS & set(df.columns)):
+            return df
     return read_ads_table(file)
 
 
