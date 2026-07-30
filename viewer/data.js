@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-30T16:27:18Z";
+window.LAST_REFRESHED = "2026-07-30T16:43:50Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-29T16:25:03Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1172,30 +1172,46 @@ window.CAMPAIGNS = [
     "flight": "May 1 \u2014 Jul 30, 2026",
     "elapsedPct": 100.0,
     "daysLeft": 0,
-    "status": "Goal Missed",
-    "statusKind": "danger",
+    "status": "Goal Exceeded",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 1214623,
+      "delivered": 1807039,
       "goal": 1500000
     },
     "budget": {
-      "delivered": 3185.52,
+      "delivered": 3790.43,
       "goal": 5000.0
     },
     "color": "ft-5",
     "leadFormat": "Made for Social",
-    "topChannel": "Instagram",
-    "er": 2.0,
-    "cpm": 2.89,
+    "topChannel": "X",
+    "er": 1.6,
+    "cpm": 2.24,
     "episodes": 2,
     "posts": 16,
     "blurb": "Morgan & Morgan Case Study, split into two components in one campaign: the original Dan Morgan run (added value, no goal) and The Case Study (Redo) with Fernando Tatis Jr. carrying the goals.",
     "views": 1579653,
-    "engagements": 35263,
+    "engagements": 37423,
     "goalSplit": [],
     "benchmarkCategory": "Social - IP/Franchise",
     "lifecycle": "active",
     "channels": [
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 674877,
+        "eng": 2324,
+        "er": 0.34,
+        "cpm": 1.05,
+        "color": "#1d1d1f",
+        "delta": -62.6,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 15215,
+        "views": 0
+      },
       {
         "name": "Instagram",
         "italic": "gram",
@@ -1243,22 +1259,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 4430,
         "views": 303603
-      },
-      {
-        "name": "X",
-        "italic": "X",
-        "impressions": 82461,
-        "eng": 164,
-        "er": 0.2,
-        "cpm": 1.26,
-        "color": "#1d1d1f",
-        "delta": -78.4,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 15215,
-        "views": 0
       },
       {
         "name": "LinkedIn",
@@ -1391,25 +1391,26 @@ window.CAMPAIGNS = [
     ],
     "callouts": [
       {
+        "tag": "WIN",
+        "kind": "pos",
+        "milestone": true,
+        "headline": "Goal hit with $1K (24%) of budget still unspent.",
+        "body": "Delivered 120% of the 1.5M impression goal on only 76% of the $5K budget \u2014 $1K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "meta": "Morgan & Morgan \u00b7 Goal hit"
+      },
+      {
         "tag": "OPPORTUNITY",
         "kind": "info",
         "headline": "Instagram resonating \u2014 63% of delivery is organic.",
         "body": "417K organic impressions on Instagram (2.1% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit Instagram; lean into more of the same.",
         "meta": "Morgan & Morgan \u00b7 Instagram"
-      },
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace for 81% of goal (1.2M of 1.5M) with 0 days left.",
-        "body": "At the current rate the campaign will fall ~285K impressions short of the 1.5M goal. Need to ramp delivery significantly to hit the 1.5M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "Morgan & Morgan \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
-    "lastUpdatedExports": "2026-07-30T14:51:30Z"
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
+    "lastUpdatedExports": "2026-07-30T16:42:08Z"
   },
   {
     "id": "sportclips",
@@ -1515,7 +1516,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1670,7 +1671,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1825,7 +1826,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2222,7 +2223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2370,7 +2371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2572,7 +2573,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2848,7 +2849,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:17Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3215,7 +3216,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:18Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3541,7 +3542,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:18Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3663,7 +3664,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:18Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3769,7 +3770,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T16:27:18Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3972,7 +3973,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T16:27:18Z",
+    "lastUpdatedMs": "2026-07-30T16:43:50Z",
     "lastUpdatedExports": "2026-07-30T14:15:45Z"
   },
   {
@@ -4286,12 +4287,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 24172722,
-    "eng": 690644,
-    "er": 2.86,
-    "cpm": 1.6,
+    "impressions": 24765138,
+    "eng": 692804,
+    "er": 2.8,
+    "cpm": 1.59,
     "color": "#1d1d1f",
-    "delta": 210.6,
+    "delta": 204.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -4429,6 +4430,16 @@ window.SIGNALS = [
     "tag": "WIN",
     "kind": "pos",
     "milestone": true,
+    "headline": "Goal hit with $1K (24%) of budget still unspent.",
+    "body": "Delivered 120% of the 1.5M impression goal on only 76% of the $5K budget \u2014 $1K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "meta": "Morgan & Morgan \u00b7 Goal hit",
+    "campaignId": "mm",
+    "campaignPartner": "Morgan & Morgan"
+  },
+  {
+    "tag": "WIN",
+    "kind": "pos",
+    "milestone": true,
     "headline": "Goal hit with $4K (53%) of budget still unspent.",
     "body": "Delivered 109% of the 1.0M impression goal on only 47% of the $8K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
     "meta": "BetMGM \u00b7 Goal hit",
@@ -4471,15 +4482,6 @@ window.SIGNALS = [
     "meta": "EHP \u00b7 Pacing",
     "campaignId": "ehp_avp",
     "campaignPartner": "EHP"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 81% of goal (1.2M of 1.5M) with 0 days left.",
-    "body": "At the current rate the campaign will fall ~285K impressions short of the 1.5M goal. Need to ramp delivery significantly to hit the 1.5M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Morgan & Morgan \u00b7 Pacing",
-    "campaignId": "mm",
-    "campaignPartner": "Morgan & Morgan"
   },
   {
     "tag": "WATCH",
@@ -14012,13 +14014,28 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Case Study (Redo)",
       "date": "Jun 2026",
       "total": {
-        "impr": 1214623,
+        "impr": 1807039,
         "views": 1092030,
-        "er": 1.94,
-        "eng": 23560,
-        "spend": 1865.04
+        "er": 1.42,
+        "eng": 25720,
+        "spend": 2469.95
       },
       "perChannel": [
+        {
+          "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 674877,
+          "paidImpr": 659662,
+          "orgImpr": 15215,
+          "views": 0,
+          "eng": 2324,
+          "paidEng": 2234,
+          "orgEng": 90,
+          "er": 0.34,
+          "cpm": 1.05,
+          "spend": 689.44,
+          "posts": 2
+        },
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
@@ -14062,21 +14079,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.46,
           "cpm": 1.86,
           "spend": 299.59,
-          "posts": 2
-        },
-        {
-          "name": "X",
-          "distKind": "organic+boosted",
-          "impr": 82461,
-          "paidImpr": 67246,
-          "orgImpr": 15215,
-          "views": 0,
-          "eng": 164,
-          "paidEng": 74,
-          "orgEng": 90,
-          "er": 0.2,
-          "cpm": 1.26,
-          "spend": 84.53,
           "posts": 2
         },
         {
@@ -14175,14 +14177,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "\u201cThere's a name for this \u2014 predatory lending.\u201d \u2014 Dan Morgan, @ForThePeople  At 18, Tatis signed away 10% of future earni",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 7221,
-          "paidImpr": 0,
+          "distKind": "organic+boosted",
+          "impr": 594536,
+          "paidImpr": 587315,
           "orgImpr": 7221,
           "views": 0,
-          "eng": 75,
-          "er": 1.04,
-          "spend": 0,
+          "eng": 2225,
+          "er": 0.37,
+          "spend": 600.0,
           "url": "https://twitter.com/FOS/status/2064776861616623640",
           "postedAt": "2026-06-10T11:29:00-07:00"
         },
@@ -14251,13 +14253,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 75240,
-          "paidImpr": 67246,
+          "impr": 80341,
+          "paidImpr": 72347,
           "orgImpr": 7994,
           "views": 0,
-          "eng": 89,
+          "eng": 99,
           "er": 0.12,
-          "spend": 84.53,
+          "spend": 89.44,
           "url": "https://twitter.com/FOS/status/2081839542005305439",
           "postedAt": "2026-07-27T13:30:00-07:00"
         },
@@ -27194,20 +27196,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\u201cThere's a name for this \u2014 predatory lending.\u201d \u2014 Dan Morgan, @ForThePeople  At 18, Tatis signed away 10% of future earni",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 7221,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 594536,
+      "paidImpr": 587315,
       "orgImpr": 7221,
       "views": 0,
       "reach": 0,
-      "eng": 75,
-      "er": 1.04,
-      "spend": 0,
+      "eng": 2225,
+      "er": 0.37,
+      "spend": 600.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 1.02,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2064776861616623640",
@@ -27310,19 +27312,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 75240,
-      "paidImpr": 67246,
+      "impr": 80341,
+      "paidImpr": 72347,
       "orgImpr": 7994,
       "views": 0,
       "reach": 0,
-      "eng": 89,
+      "eng": 99,
       "er": 0.12,
-      "spend": 84.53,
+      "spend": 89.44,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 1.26,
+      "cpm": 1.24,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2081839542005305439",
@@ -32810,7 +32812,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
-    "fileSizeKb": 0.4,
+    "fileSizeKb": 0.6,
     "lastModified": "2026-07-30",
     "exists": true,
     "postsContributed": 0
@@ -34249,7 +34251,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 59635855,
     "paidImpressions": 59169138,
-    "pctOfTotal": 44.7,
+    "pctOfTotal": 44.5,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.1,
     "color": "#E00922"
@@ -34275,6 +34277,16 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "color": "#000000"
   },
   {
+    "name": "X",
+    "cpm": 2.3,
+    "impressions": 13765864,
+    "paidImpressions": 11332636,
+    "pctOfTotal": 10.3,
+    "mvmCpm": 1.24,
+    "mvmDeltaPct": 85.4,
+    "color": "#1d1d1f"
+  },
+  {
     "name": "YouTube Shorts",
     "cpm": 2.85,
     "impressions": 13546239,
@@ -34283,16 +34295,6 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "mvmCpm": 3.2,
     "mvmDeltaPct": -10.9,
     "color": "#FF0033"
-  },
-  {
-    "name": "X",
-    "cpm": 2.37,
-    "impressions": 13173448,
-    "paidImpressions": 10740220,
-    "pctOfTotal": 9.9,
-    "mvmCpm": 1.24,
-    "mvmDeltaPct": 91.1,
-    "color": "#1d1d1f"
   },
   {
     "name": "Facebook",
@@ -34326,7 +34328,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.07;
+window.PORTFOLIO_CPM_BLEND = 2.06;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
