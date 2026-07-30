@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-30T13:30:15Z";
+window.LAST_REFRESHED = "2026-07-30T13:43:59Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-07-29T16:25:03Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1409,7 +1409,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-06-16T15:17:34Z"
   },
   {
@@ -1516,7 +1516,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1671,7 +1671,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1826,7 +1826,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2223,7 +2223,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2371,7 +2371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2573,7 +2573,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2849,7 +2849,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:58Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3024,26 +3024,26 @@ window.CAMPAIGNS = [
     "flight": "Jun 24 \u2014 Jul 31, 2026",
     "elapsedPct": 97.3,
     "daysLeft": 1,
-    "status": "Goal Hit",
+    "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 8008263,
+      "delivered": 7939920,
       "goal": 8000000
     },
     "budget": {
-      "delivered": 11580.46,
+      "delivered": 11100.64,
       "goal": 12100.0
     },
     "color": "ft-9",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 1.2,
-    "cpm": 1.49,
+    "er": 2.6,
+    "cpm": 1.44,
     "episodes": 0,
-    "posts": 19,
+    "posts": 18,
     "blurb": "Prudential x '94 to Now \u2014 USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn.",
     "views": 2621481,
-    "engagements": 227895,
+    "engagements": 209159,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3051,34 +3051,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 5164036,
-        "eng": 32996,
+        "impressions": 5294047,
+        "eng": 33618,
         "er": 0.64,
         "cpm": 0.63,
         "color": "#E00922",
-        "delta": 27.8,
+        "delta": 27.0,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 9456,
-        "views": 58377
-      },
-      {
-        "name": "YouTube Pre-roll",
-        "italic": "YouTube Pre-roll",
-        "impressions": 193629,
-        "eng": 137477,
-        "er": 71.0,
-        "cpm": 7.61,
-        "color": "#B0061B",
-        "delta": -1.4,
-        "bench": {
-          "er": 72.0,
-          "cpm": 14.0
-        },
-        "organicImpressions": 0,
-        "views": 98256
+        "views": 156633
       },
       {
         "name": "TikTok",
@@ -3099,12 +3083,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 829307,
-        "eng": 50028,
-        "er": 6.03,
-        "cpm": 2.97,
+        "impressions": 824582,
+        "eng": 168147,
+        "er": 20.39,
+        "cpm": 4.1,
         "color": "#FF0033",
-        "delta": -69.8,
+        "delta": 2.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -3232,8 +3216,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
-    "lastUpdatedExports": "2026-07-29T13:19:08Z"
+    "lastUpdatedMs": "2026-07-30T13:43:59Z",
+    "lastUpdatedExports": "2026-07-30T13:42:19Z"
   },
   {
     "id": "betmgm_brandx",
@@ -3558,7 +3542,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:59Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3680,7 +3664,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:59Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3786,7 +3770,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:59Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3988,7 +3972,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-30T13:30:14Z",
+    "lastUpdatedMs": "2026-07-30T13:43:59Z",
     "lastUpdatedExports": "2026-07-28T13:58:18Z"
   },
   {
@@ -4286,12 +4270,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 87539172,
-    "eng": 1624998,
-    "er": 1.86,
-    "cpm": 1.04,
+    "impressions": 87664458,
+    "eng": 1743739,
+    "er": 1.99,
+    "cpm": 1.05,
     "color": "#E00922",
-    "delta": -90.7,
+    "delta": -90.1,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -30762,14 +30746,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 5164036,
-      "paidImpr": 5154580,
+      "impr": 5294047,
+      "paidImpr": 5284591,
       "orgImpr": 9456,
-      "views": 58377,
+      "views": 156633,
       "reach": 0,
-      "eng": 32996,
+      "eng": 33618,
       "er": 0.64,
-      "spend": 3222.88,
+      "spend": 3306.12,
       "watchTimeMin": 245556.7,
       "clicks": 2564,
       "ctr": 46.75,
@@ -30779,29 +30763,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://youtu.be/gLf04_CAks0",
       "postedAt": "2026-06-24T10:00:22-07:00"
-    },
-    {
-      "title": "Prudential_94 to Now_Hero (pre-roll)",
-      "platform": "YouTube Pre-roll",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 193629,
-      "paidImpr": 193629,
-      "orgImpr": 0,
-      "views": 98256,
-      "reach": 0,
-      "eng": 137477,
-      "er": 71.0,
-      "spend": 1472.85,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 7.61,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
     },
     {
       "title": "Cobi Jones helped build US soccer before there was even a roadmap.  In 1994, he walked out at the Rose Bowl for the USMN",
@@ -31015,19 +30976,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 215789,
-      "paidImpr": 215756,
+      "impr": 199620,
+      "paidImpr": 199587,
       "orgImpr": 33,
       "views": 207504,
       "reach": 0,
-      "eng": 24094,
-      "er": 11.17,
-      "spend": 635.44,
+      "eng": 141774,
+      "er": 71.02,
+      "spend": 1511.82,
       "watchTimeMin": 15724.2,
       "clicks": 20,
       "ctr": 9.27,
       "cpc": 31.77,
-      "cpm": 2.95,
+      "cpm": 7.57,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/7jUdJy9zwyM",
@@ -31107,19 +31068,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 166922,
-      "paidImpr": 166916,
+      "impr": 178366,
+      "paidImpr": 178360,
       "orgImpr": 6,
       "views": 150009,
       "reach": 0,
-      "eng": 6908,
-      "er": 4.14,
-      "spend": 529.92,
+      "eng": 7347,
+      "er": 4.12,
+      "spend": 563.33,
       "watchTimeMin": 7961.1,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.17,
+      "cpm": 3.16,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/CVbsUNA0K-A",
@@ -32967,10 +32928,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "prudential_yt_paid.csv",
-    "fileSizeKb": 0.8,
+    "fileSizeKb": 0.7,
     "lastModified": "2026-07-30",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 0
   },
   {
     "campaignId": "prudential",
@@ -34162,9 +34123,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.67,
-    "impressions": 59481430,
-    "paidImpressions": 59014713,
-    "pctOfTotal": 44.4,
+    "impressions": 59611441,
+    "paidImpressions": 59144724,
+    "pctOfTotal": 44.5,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.1,
     "color": "#E00922"
@@ -34201,12 +34162,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.78,
-    "impressions": 13499258,
-    "paidImpressions": 13337147,
+    "cpm": 2.85,
+    "impressions": 13494533,
+    "paidImpressions": 13332422,
     "pctOfTotal": 10.1,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -13.1,
+    "mvmDeltaPct": -10.9,
     "color": "#FF0033"
   },
   {
@@ -34231,17 +34192,17 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 11.61,
-    "impressions": 1413223,
-    "paidImpressions": 1413223,
-    "pctOfTotal": 1.1,
+    "cpm": 12.24,
+    "impressions": 1219594,
+    "paidImpressions": 1219594,
+    "pctOfTotal": 0.9,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": -2.5,
+    "mvmDeltaPct": 2.8,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.07;
+window.PORTFOLIO_CPM_BLEND = 2.06;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
