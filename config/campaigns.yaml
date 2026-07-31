@@ -1277,6 +1277,8 @@ campaigns:
         impression_goal: 1_600_000
         budget_goal: 5_600
     sources:
+      meta_ads:
+        - threem_meta_ads.csv
       youtube_paid:
         - threem_yt_paid.csv
       # Measure Studio group "3M" (8322) — organic + any boosted MS tracks.
