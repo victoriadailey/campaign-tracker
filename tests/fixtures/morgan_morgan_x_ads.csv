@@ -1,3 +1,4 @@
+Table 1
 Time period,On/Off,Campaign ID,Campaign name,Post Link,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,Engagements,CTR,CPM,Cost per link click
-2026-05-01 - 2026-07-30,On,42039668,Morgan & Morgan: Bryce Harper (static),https://x.com/FOS/status/2081839542005305439,Reach,Active,2026-07-28 12:21:57,2026-07-31 14:00:00,72347,89.44,35,84,0.05%,1.24,2.56
-2026-05-01 - 2026-07-30,On,41641344,Morgan & Morgan: Fernando Tatis Jr. (Static),https://x.com/FOS/status/2064776861616623640,Reach,Expired,2026-06-12 13:28:22,2026-06-15 14:00:00,587315,600.00,592,2150,0.10%,1.02,1.01
+2026-04-05 - 2026-07-31,On,42039668,Morgan & Morgan: Bryce Harper (static),https://x.com/FOS/status/2081839542005305439?s=20,Reach,Expired,2026-07-28 12:21:57,2026-07-30 14:00:00,79987,100.00,38,108,0.05%,1.25,2.63
+2026-04-05 - 2026-07-31,On,41641344,Morgan & Morgan: Fernando Tatis Jr. (Static),https://x.com/FOS/status/2064776861616623640?s=20,Reach,Expired,2026-06-12 13:28:22,2026-06-15 14:00:00,587315,600.00,592,2150,0.10%,1.02,1.01
