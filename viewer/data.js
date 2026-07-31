@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-31T19:49:03Z";
+window.LAST_REFRESHED = "2026-07-31T20:21:21Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-31T15:38:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3833,7 +3833,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-31T19:45:30Z"
   },
   {
@@ -4043,7 +4043,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T19:49:03Z",
+    "lastUpdatedMs": "2026-07-31T20:21:21Z",
     "lastUpdatedExports": "2026-07-31T16:57:16Z"
   },
   {
@@ -32571,14 +32571,6 @@ window.MS_GROUPS = [
     "name": "Ally - NWSL"
   },
   {
-    "id": 8355,
-    "name": "Apollo Global BrandX"
-  },
-  {
-    "id": 8097,
-    "name": "AT&T BrandX 2026"
-  },
-  {
     "id": 8077,
     "name": "BetMGM - World Cup - FOS Explains"
   },
@@ -32749,7 +32741,9 @@ window.DATA_HEALTH = {
     "[heineken] excluded 2 post(s) via campaign exclude ['1512716967534555', '3932495664965122403']"
   ],
   "msErrors": [],
-  "orphanFiles": []
+  "orphanFiles": [
+    "etrade_brandx_meta_ads.csv"
+  ]
 };
 
 window.DATA_ARCHIVE = [
