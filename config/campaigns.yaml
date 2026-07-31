@@ -509,6 +509,8 @@ campaigns:
     brandx_objective: awareness
     brandx_secondary_objective: clicks
     sources:
+      meta_ads:
+        - etrade_brandx_meta_ads.csv
       measure_studio_group_id: 7445  # Portfolio Players S3 - BrandX
 
   - id: mm
