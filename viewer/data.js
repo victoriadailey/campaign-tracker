@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-31T15:39:29Z";
+window.LAST_REFRESHED = "2026-07-31T15:42:37Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:28Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-31T15:38:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1167,27 +1167,43 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1825356,
+      "delivered": 1832945,
       "goal": 1500000
     },
     "budget": {
-      "delivered": 3854.36,
+      "delivered": 3984.68,
       "goal": 5000.0
     },
     "color": "ft-5",
     "leadFormat": "Made for Social",
-    "topChannel": "Instagram",
-    "er": 1.6,
-    "cpm": 2.26,
+    "topChannel": "X",
+    "er": 1.7,
+    "cpm": 2.32,
     "episodes": 2,
     "posts": 16,
     "blurb": "Morgan & Morgan Case Study, split into two components in one campaign: the original Dan Morgan run (added value, no goal) and The Case Study (Redo) with Fernando Tatis Jr. carrying the goals.",
     "views": 1611820,
-    "engagements": 37887,
+    "engagements": 40377,
     "goalSplit": [],
     "benchmarkCategory": "Social - IP/Franchise",
     "lifecycle": "active",
     "channels": [
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 682517,
+        "eng": 2348,
+        "er": 0.34,
+        "cpm": 1.05,
+        "color": "#1d1d1f",
+        "delta": -62.6,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 15215,
+        "views": 0
+      },
       {
         "name": "Instagram",
         "italic": "gram",
@@ -1203,22 +1219,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 420110,
         "views": 678967
-      },
-      {
-        "name": "X",
-        "italic": "X",
-        "impressions": 674877,
-        "eng": 2324,
-        "er": 0.34,
-        "cpm": 1.05,
-        "color": "#1d1d1f",
-        "delta": -62.6,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 15215,
-        "views": 0
       },
       {
         "name": "TikTok",
@@ -1239,12 +1239,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 326124,
-        "eng": 18351,
-        "er": 5.63,
-        "cpm": 2.43,
+        "impressions": 326073,
+        "eng": 20817,
+        "er": 6.38,
+        "cpm": 2.8,
         "color": "#FF0033",
-        "delta": -71.9,
+        "delta": -68.1,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -1400,8 +1400,8 @@ window.CAMPAIGNS = [
         "tag": "WIN",
         "kind": "pos",
         "milestone": true,
-        "headline": "Goal hit with $1K (23%) of budget still unspent.",
-        "body": "Delivered 122% of the 1.5M impression goal on only 77% of the $5K budget \u2014 $1K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "headline": "Goal hit with $1K (20%) of budget still unspent.",
+        "body": "Delivered 122% of the 1.5M impression goal on only 80% of the $5K budget \u2014 $1K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
         "meta": "Morgan & Morgan \u00b7 Goal hit"
       },
       {
@@ -1415,8 +1415,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
-    "lastUpdatedExports": "2026-07-30T16:42:08Z"
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
+    "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
     "id": "sportclips",
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3812,30 +3812,46 @@ window.CAMPAIGNS = [
     "flight": "Jul 21 \u2014 Jul 31, 2026",
     "elapsedPct": 100.0,
     "daysLeft": 0,
-    "status": "Goal Hit",
+    "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 7272645,
+      "delivered": 9110939,
       "goal": 7150000
     },
     "budget": {
-      "delivered": 13401.35,
+      "delivered": 18701.35,
       "goal": 17522.0
     },
     "color": "ft-7",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 1.6,
-    "cpm": 1.87,
+    "er": 1.3,
+    "cpm": 2.07,
     "episodes": 3,
-    "posts": 19,
+    "posts": 23,
     "blurb": "3M x FOS golf-engineering content for the 3M Open \u2014 a FOS Engineered hero video plus cutdowns, a dark Day-in-the-Life video, and two static posts.",
-    "views": 3264244,
+    "views": 5102538,
     "engagements": 171168,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
     "channels": [
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 3061423,
+        "eng": 2560,
+        "er": 0.08,
+        "cpm": 3.02,
+        "color": "#E4405F",
+        "delta": -97.5,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 34861,
+        "views": 3061423
+      },
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
@@ -3867,22 +3883,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 0,
         "views": 43213
-      },
-      {
-        "name": "Instagram",
-        "italic": "gram",
-        "impressions": 1223129,
-        "eng": 2560,
-        "er": 0.21,
-        "cpm": 3.24,
-        "color": "#E4405F",
-        "delta": -93.7,
-        "bench": {
-          "er": 3.31,
-          "cpm": 5.1
-        },
-        "organicImpressions": 34861,
-        "views": 1223129
       },
       {
         "name": "Facebook",
@@ -3984,16 +3984,7 @@ window.CAMPAIGNS = [
       }
     ],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WIN",
-        "kind": "pos",
-        "milestone": true,
-        "headline": "Goal hit with $4K (24%) of budget still unspent.",
-        "body": "Delivered 102% of the 7.2M impression goal on only 76% of the $18K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
-        "meta": "3M \u00b7 Goal hit"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [
@@ -4014,13 +4005,13 @@ window.CAMPAIGNS = [
       {
         "label": "2 Static Posts",
         "impressions": {
-          "delivered": 1462490,
+          "delivered": 3300784,
           "goal": 1600000
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T15:39:29Z",
-    "lastUpdatedExports": "2026-07-30T14:15:45Z"
+    "lastUpdatedMs": "2026-07-31T15:42:36Z",
+    "lastUpdatedExports": "2026-07-31T15:40:17Z"
   },
   {
     "id": "apollo_gloabl_brandx",
@@ -4317,12 +4308,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 87990879,
-    "eng": 1608567,
+    "impressions": 87990828,
+    "eng": 1611033,
     "er": 1.83,
     "cpm": 1.03,
     "color": "#E00922",
-    "delta": -90.9,
+    "delta": -90.8,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -4333,9 +4324,9 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26883403,
-    "eng": 700486,
-    "er": 2.61,
+    "impressions": 26891043,
+    "eng": 700510,
+    "er": 2.6,
     "cpm": 1.54,
     "color": "#1d1d1f",
     "delta": 183.2,
@@ -4349,18 +4340,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 19597938,
+    "impressions": 21436232,
     "eng": 283038,
-    "er": 1.44,
-    "cpm": 4.75,
+    "er": 1.32,
+    "cpm": 4.57,
     "color": "#E4405F",
-    "delta": -56.4,
+    "delta": -60.1,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 19597938
+    "views": 21436232
   },
   {
     "name": "TikTok",
@@ -4476,8 +4467,8 @@ window.SIGNALS = [
     "tag": "WIN",
     "kind": "pos",
     "milestone": true,
-    "headline": "Goal hit with $1K (23%) of budget still unspent.",
-    "body": "Delivered 122% of the 1.5M impression goal on only 77% of the $5K budget \u2014 $1K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "headline": "Goal hit with $1K (20%) of budget still unspent.",
+    "body": "Delivered 122% of the 1.5M impression goal on only 80% of the $5K budget \u2014 $1K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
     "meta": "Morgan & Morgan \u00b7 Goal hit",
     "campaignId": "mm",
     "campaignPartner": "Morgan & Morgan"
@@ -4491,16 +4482,6 @@ window.SIGNALS = [
     "meta": "BetMGM \u00b7 Goal hit",
     "campaignId": "betmgm_brandx",
     "campaignPartner": "BetMGM"
-  },
-  {
-    "tag": "WIN",
-    "kind": "pos",
-    "milestone": true,
-    "headline": "Goal hit with $4K (24%) of budget still unspent.",
-    "body": "Delivered 102% of the 7.2M impression goal on only 76% of the $18K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
-    "meta": "3M \u00b7 Goal hit",
-    "campaignId": "threem",
-    "campaignPartner": "3M"
   },
   {
     "tag": "WIN",
@@ -14060,26 +14041,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Case Study (Redo)",
       "date": "Jun 2026",
       "total": {
-        "impr": 1825356,
+        "impr": 1832945,
         "views": 1124196,
-        "er": 1.43,
-        "eng": 26184,
-        "spend": 2533.88
+        "er": 1.56,
+        "eng": 28674,
+        "spend": 2664.2
       },
       "perChannel": [
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 674877,
-          "paidImpr": 659662,
+          "impr": 682517,
+          "paidImpr": 667302,
           "orgImpr": 15215,
           "views": 0,
-          "eng": 2324,
-          "paidEng": 2234,
+          "eng": 2348,
+          "paidEng": 2258,
           "orgEng": 90,
           "er": 0.34,
           "cpm": 1.05,
-          "spend": 689.44,
+          "spend": 700.0,
           "posts": 2
         },
         {
@@ -14115,16 +14096,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 164553,
-          "paidImpr": 161347,
+          "impr": 164502,
+          "paidImpr": 161296,
           "orgImpr": 3206,
           "views": 161193,
-          "eng": 8983,
-          "paidEng": 8878,
+          "eng": 11449,
+          "paidEng": 11344,
           "orgEng": 105,
-          "er": 5.46,
-          "cpm": 1.86,
-          "spend": 299.59,
+          "er": 6.96,
+          "cpm": 2.6,
+          "spend": 419.35,
           "posts": 2
         },
         {
@@ -14179,13 +14160,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 128666,
-          "paidImpr": 126740,
+          "impr": 128615,
+          "paidImpr": 126689,
           "orgImpr": 1926,
           "views": 127447,
-          "eng": 8962,
-          "er": 6.97,
-          "spend": 299.59,
+          "eng": 8958,
+          "er": 6.96,
+          "spend": 299.46,
           "url": "https://www.youtube.com/shorts/JsdFwzDzu8w",
           "postedAt": "2026-06-09T14:30:37-07:00"
         },
@@ -14273,9 +14254,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 34607,
           "orgImpr": 1280,
           "views": 33746,
-          "eng": 21,
-          "er": 0.06,
-          "spend": 0,
+          "eng": 2491,
+          "er": 6.94,
+          "spend": 119.89,
           "url": "https://www.youtube.com/shorts/FKgfayNw2F8",
           "postedAt": "2026-07-24T12:30:23-07:00"
         },
@@ -14299,13 +14280,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 80341,
-          "paidImpr": 72347,
+          "impr": 87981,
+          "paidImpr": 79987,
           "orgImpr": 7994,
           "views": 0,
-          "eng": 99,
-          "er": 0.12,
-          "spend": 89.44,
+          "eng": 123,
+          "er": 0.14,
+          "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2081839542005305439",
           "postedAt": "2026-07-27T13:30:00-07:00"
         },
@@ -17446,27 +17427,27 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "2 Static Posts",
       "date": "Jul 2026",
       "total": {
-        "impr": 1462490,
-        "views": 737554,
-        "er": 0.04,
+        "impr": 3300784,
+        "views": 2575848,
+        "er": 0.02,
         "eng": 568,
-        "spend": 3832.08
+        "spend": 9132.08
       },
       "perChannel": [
         {
           "name": "Instagram",
           "distKind": "paid",
-          "impr": 737554,
-          "paidImpr": 737554,
+          "impr": 2575848,
+          "paidImpr": 2575848,
           "orgImpr": 0,
-          "views": 737554,
+          "views": 2575848,
           "eng": 520,
           "paidEng": 0,
           "orgEng": 520,
-          "er": 0.07,
-          "cpm": 3.15,
-          "spend": 2324.99,
-          "posts": 2
+          "er": 0.02,
+          "cpm": 2.96,
+          "spend": 7624.99,
+          "posts": 6
         },
         {
           "name": "Facebook",
@@ -17544,6 +17525,66 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 1507.09,
           "url": "https://www.facebook.com/1532299055576346/",
           "postedAt": "2026-07-24T13:39:06-07:00"
+        },
+        {
+          "title": "3M: Fan Experience (static) - FB",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 598212,
+          "paidImpr": 598212,
+          "orgImpr": 0,
+          "views": 598212,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 1575.0,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "3M: Unexpected Tech (static) - FB",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 502526,
+          "paidImpr": 502526,
+          "orgImpr": 0,
+          "views": 502526,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 1400.0,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "3M: Fan Experience (static) - IG",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 385871,
+          "paidImpr": 385871,
+          "orgImpr": 0,
+          "views": 385871,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 1225.0,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "3M: Unexpected Tech (static) - IG",
+          "platform": "Instagram",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 351685,
+          "paidImpr": 351685,
+          "orgImpr": 0,
+          "views": 351685,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 1100.0,
+          "url": null,
+          "postedAt": null
         }
       ],
       "topPosts": [],
@@ -27253,14 +27294,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 128666,
-      "paidImpr": 126740,
+      "impr": 128615,
+      "paidImpr": 126689,
       "orgImpr": 1926,
       "views": 127447,
       "reach": 0,
-      "eng": 8962,
-      "er": 6.97,
-      "spend": 299.59,
+      "eng": 8958,
+      "er": 6.96,
+      "spend": 299.46,
       "watchTimeMin": 15181.0,
       "clicks": null,
       "ctr": 0.0,
@@ -27396,9 +27437,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1280,
       "views": 33746,
       "reach": 0,
-      "eng": 21,
-      "er": 0.06,
-      "spend": 0,
+      "eng": 2491,
+      "er": 6.94,
+      "spend": 119.89,
       "watchTimeMin": 3657.0,
       "clicks": null,
       "ctr": 0.0,
@@ -27437,19 +27478,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 80341,
-      "paidImpr": 72347,
+      "impr": 87981,
+      "paidImpr": 79987,
       "orgImpr": 7994,
       "views": 0,
       "reach": 0,
-      "eng": 99,
-      "er": 0.12,
-      "spend": 89.44,
+      "eng": 123,
+      "er": 0.14,
+      "spend": 100.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 1.24,
+      "cpm": 1.25,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2081839542005305439",
@@ -32383,6 +32424,98 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.facebook.com/1532299055576346/",
       "postedAt": "2026-07-24T13:39:06-07:00"
+    },
+    {
+      "title": "3M: Fan Experience (static) - FB",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 598212,
+      "paidImpr": 598212,
+      "orgImpr": 0,
+      "views": 598212,
+      "reach": 305301,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 1575.0,
+      "watchTimeMin": null,
+      "clicks": 3,
+      "ctr": 0.0,
+      "cpc": 525.0,
+      "cpm": 2.63,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "3M: Unexpected Tech (static) - FB",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 502526,
+      "paidImpr": 502526,
+      "orgImpr": 0,
+      "views": 502526,
+      "reach": 253122,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 1400.0,
+      "watchTimeMin": null,
+      "clicks": 3,
+      "ctr": 0.0,
+      "cpc": 466.67,
+      "cpm": 2.79,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "3M: Fan Experience (static) - IG",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 385871,
+      "paidImpr": 385871,
+      "orgImpr": 0,
+      "views": 385871,
+      "reach": 273707,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 1225.0,
+      "watchTimeMin": null,
+      "clicks": 486,
+      "ctr": 0.13,
+      "cpc": 2.52,
+      "cpm": 3.17,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "3M: Unexpected Tech (static) - IG",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 351685,
+      "paidImpr": 351685,
+      "orgImpr": 0,
+      "views": 351685,
+      "reach": 224412,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 1100.0,
+      "watchTimeMin": null,
+      "clicks": 330,
+      "ctr": 0.09,
+      "cpc": 3.33,
+      "cpm": 3.13,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     }
   ],
   "apollo_gloabl_brandx": [
@@ -32637,6 +32770,10 @@ window.UPLOAD_TARGETS = {
     {
       "file": "threem_yt_paid.csv",
       "label": "Google Ads"
+    },
+    {
+      "file": "threem_meta_ads.csv",
+      "label": "Meta Ads"
     }
   ],
   "apollo_gloabl_brandx": [
@@ -32948,7 +33085,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
-    "fileSizeKb": 0.3,
+    "fileSizeKb": 0.5,
     "lastModified": "2026-07-31",
     "exists": true,
     "postsContributed": 0
@@ -33293,6 +33430,17 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-07-31",
     "exists": true,
     "postsContributed": 1
+  },
+  {
+    "campaignId": "threem",
+    "partner": "3M",
+    "sourceKind": "meta_ads",
+    "sourceLabel": "Meta Ads",
+    "filename": "threem_meta_ads.csv",
+    "fileSizeKb": 1.5,
+    "lastModified": "2026-07-31",
+    "exists": true,
+    "postsContributed": 4
   },
   {
     "campaignId": "apollo_gloabl_brandx",
@@ -34398,19 +34546,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 59870707,
     "paidImpressions": 59399376,
-    "pctOfTotal": 43.8,
+    "pctOfTotal": 43.2,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.0,
     "color": "#E00922"
   },
   {
     "name": "Instagram",
-    "cpm": 4.79,
-    "impressions": 17854166,
-    "paidImpressions": 15479506,
-    "pctOfTotal": 13.1,
+    "cpm": 4.59,
+    "impressions": 19692460,
+    "paidImpressions": 17317800,
+    "pctOfTotal": 14.2,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -14.8,
+    "mvmDeltaPct": -18.4,
     "color": "#E4405F"
   },
   {
@@ -34418,7 +34566,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.43,
     "impressions": 17430032,
     "paidImpressions": 13729233,
-    "pctOfTotal": 12.8,
+    "pctOfTotal": 12.6,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 8.7,
     "color": "#000000"
@@ -34426,21 +34574,21 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.08,
-    "impressions": 15884129,
-    "paidImpressions": 14104314,
-    "pctOfTotal": 11.6,
+    "impressions": 15891769,
+    "paidImpressions": 14111954,
+    "pctOfTotal": 11.5,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 68.0,
+    "mvmDeltaPct": 67.9,
     "color": "#1d1d1f"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.74,
-    "impressions": 13561387,
-    "paidImpressions": 13397031,
-    "pctOfTotal": 9.9,
+    "cpm": 2.75,
+    "impressions": 13561336,
+    "paidImpressions": 13396980,
+    "pctOfTotal": 9.8,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -14.4,
+    "mvmDeltaPct": -14.1,
     "color": "#FF0033"
   },
   {
@@ -34475,7 +34623,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.04;
+window.PORTFOLIO_CPM_BLEND = 2.05;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
