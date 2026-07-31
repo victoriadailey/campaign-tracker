@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-31T13:01:47Z";
+window.LAST_REFRESHED = "2026-07-31T13:44:38Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-29T16:25:03Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-30T16:42:08Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3033,7 +3033,7 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 8002009,
+      "delivered": 8192533,
       "goal": 8000000
     },
     "budget": {
@@ -3043,10 +3043,10 @@ window.CAMPAIGNS = [
     "color": "ft-9",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.6,
-    "cpm": 1.45,
+    "er": 0.8,
+    "cpm": 1.41,
     "episodes": 0,
-    "posts": 18,
+    "posts": 19,
     "blurb": "Prudential x '94 to Now \u2014 USMNT legend Cobi Jones from the 1994 World Cup to today. Hero longform video plus social cutdowns across YouTube, Instagram, TikTok, and LinkedIn.",
     "views": 2673964,
     "engagements": 210165,
@@ -3068,7 +3068,23 @@ window.CAMPAIGNS = [
           "cpm": 0.55
         },
         "organicImpressions": 9512,
-        "views": 162268
+        "views": 60577
+      },
+      {
+        "name": "YouTube Pre-roll",
+        "italic": "YouTube Pre-roll",
+        "impressions": 200496,
+        "eng": 142297,
+        "er": 70.97,
+        "cpm": 7.57,
+        "color": "#B0061B",
+        "delta": -1.4,
+        "bench": {
+          "er": 72.0,
+          "cpm": 14.0
+        },
+        "organicImpressions": 0,
+        "views": 101691
       },
       {
         "name": "TikTok",
@@ -3089,12 +3105,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 826838,
-        "eng": 168870,
-        "er": 20.42,
-        "cpm": 4.1,
+        "impressions": 816866,
+        "eng": 26573,
+        "er": 3.25,
+        "cpm": 2.28,
         "color": "#FF0033",
-        "delta": 2.1,
+        "delta": -83.7,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -3218,11 +3234,19 @@ window.CAMPAIGNS = [
       }
     ],
     "topPostsOrganic": [],
-    "callouts": [],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.80% ER \u2014 below the 1% floor.",
+        "body": "0.80% engagement rate across 8.2M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "Prudential \u00b7 Engagement"
+      }
+    ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3548,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3670,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3776,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -3995,7 +4019,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T13:01:46Z",
+    "lastUpdatedMs": "2026-07-31T13:44:38Z",
     "lastUpdatedExports": "2026-07-30T14:15:45Z"
   },
   {
@@ -4293,12 +4317,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 87896766,
-    "eng": 1749924,
-    "er": 1.99,
-    "cpm": 1.05,
+    "impressions": 87886794,
+    "eng": 1607627,
+    "er": 1.83,
+    "cpm": 1.03,
     "color": "#E00922",
-    "delta": -90.0,
+    "delta": -90.9,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -30953,7 +30977,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 5318804,
       "paidImpr": 5309292,
       "orgImpr": 9512,
-      "views": 162268,
+      "views": 60577,
       "reach": 0,
       "eng": 33729,
       "er": 0.63,
@@ -30967,6 +30991,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://youtu.be/gLf04_CAks0",
       "postedAt": "2026-06-24T10:00:22-07:00"
+    },
+    {
+      "title": "Prudential_94 to Now_Hero (pre-roll)",
+      "platform": "YouTube Pre-roll",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 200496,
+      "paidImpr": 200496,
+      "orgImpr": 0,
+      "views": 101691,
+      "reach": 0,
+      "eng": 142297,
+      "er": 70.97,
+      "spend": 1518.13,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 7.57,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     },
     {
       "title": "Cobi Jones helped build US soccer before there was even a roadmap.  In 1994, he walked out at the Rose Bowl for the USMN",
@@ -31272,19 +31319,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 200502,
-      "paidImpr": 200496,
+      "impr": 190530,
+      "paidImpr": 190524,
       "orgImpr": 6,
       "views": 161896,
       "reach": 0,
-      "eng": 142349,
-      "er": 71.0,
-      "spend": 1518.13,
+      "eng": 52,
+      "er": 0.03,
+      "spend": 0,
       "watchTimeMin": 8814.1,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 7.57,
+      "cpm": 3.15,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/CVbsUNA0K-A",
@@ -33134,7 +33181,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.7,
     "lastModified": "2026-07-31",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "prudential",
@@ -34365,12 +34412,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.85,
-    "impressions": 13560203,
-    "paidImpressions": 13395847,
+    "cpm": 2.74,
+    "impressions": 13550231,
+    "paidImpressions": 13385875,
     "pctOfTotal": 9.9,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -11.0,
+    "mvmDeltaPct": -14.5,
     "color": "#FF0033"
   },
   {
@@ -34384,6 +34431,16 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "color": "#1877F2"
   },
   {
+    "name": "YouTube Pre-roll",
+    "cpm": 11.58,
+    "impressions": 1420059,
+    "paidImpressions": 1420059,
+    "pctOfTotal": 1.0,
+    "mvmCpm": 11.91,
+    "mvmDeltaPct": -2.7,
+    "color": "#B0061B"
+  },
+  {
     "name": "LinkedIn",
     "cpm": 0.0,
     "impressions": 1416521,
@@ -34392,16 +34449,6 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
-  },
-  {
-    "name": "YouTube Pre-roll",
-    "cpm": 12.24,
-    "impressions": 1219563,
-    "paidImpressions": 1219563,
-    "pctOfTotal": 0.9,
-    "mvmCpm": 11.91,
-    "mvmDeltaPct": 2.8,
-    "color": "#B0061B"
   }
 ];
 
