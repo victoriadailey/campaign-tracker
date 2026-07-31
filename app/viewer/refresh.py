@@ -2009,6 +2009,14 @@ def _merge_youtube_paid_spend_into_ms(
     # ("M&M: Video 1") so it falls into the in-feed subtype bucket.
     unmatched_ms = [m for m in ms_yt if id(m) not in matched_ms_ids]
     unmatched_gads = [g for g in gads_yt if id(g) not in drop_ids]
+    # A pre-roll (in-stream) buy is a paid ad format Measure never carries as a
+    # post, so it must NEVER fold onto a Short/in-feed via this cross-subtype
+    # fallback — it stays a standalone paid YT post. Without this guard the lone
+    # pre-roll pairs with a lone MS Short when their impressions happen to be
+    # within 50% (Prudential's "Hero (pre-roll)" was hiding inside a cutdown).
+    if (len(unmatched_ms) == 1 and len(unmatched_gads) == 1
+            and youtube_subtype_from_post(unmatched_gads[0]) == "in-stream"):
+        unmatched_gads = []  # skip the fallback; leave pre-roll standalone
     if len(unmatched_ms) == 1 and len(unmatched_gads) == 1:
         # Belt-and-suspenders: impressions should be in the same ballpark
         # (within ±50%) to avoid pairing genuinely unrelated content.
