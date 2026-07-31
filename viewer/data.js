@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-07-31T18:41:59Z";
+window.LAST_REFRESHED = "2026-07-31T19:11:06Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:05Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-31T15:38:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": ""
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3709,98 +3709,131 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 296398,
+      "delivered": 381071,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 1012.37,
+      "delivered": 1202.91,
       "goal": 7054.0
     },
     "color": "ft-4",
     "leadFormat": "Paid Social",
-    "topChannel": "TikTok",
-    "er": 9.1,
-    "cpm": 3.42,
+    "topChannel": "Instagram",
+    "er": 7.2,
+    "cpm": 3.37,
     "episodes": 0,
-    "posts": 3,
+    "posts": 8,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
-    "views": 187389,
-    "engagements": 27013,
+    "views": 267149,
+    "engagements": 27416,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
     "channels": [
       {
-        "name": "TikTok",
-        "italic": "Tok",
-        "impressions": 128407,
-        "eng": 210,
-        "er": 0.16,
-        "cpm": 2.52,
-        "color": "#000000",
-        "delta": -91.9,
-        "bench": {
-          "er": 2.03,
-          "cpm": 2.4
-        },
-        "organicImpressions": 0,
-        "views": 126482
-      },
-      {
-        "name": "X",
-        "italic": "X",
-        "impressions": 107084,
-        "eng": 26196,
-        "er": 24.46,
-        "cpm": 1.77,
-        "color": "#1d1d1f",
-        "delta": 2559.0,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 0,
-        "views": 0
-      },
-      {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 60907,
-        "eng": 607,
-        "er": 1.0,
-        "cpm": 8.2,
+        "impressions": 138700,
+        "eng": 978,
+        "er": 0.71,
+        "cpm": 5.7,
         "color": "#E4405F",
-        "delta": -69.9,
+        "delta": -78.7,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
+        "organicImpressions": 17682,
+        "views": 138700
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 128730,
+        "eng": 234,
+        "er": 0.18,
+        "cpm": 2.52,
+        "color": "#000000",
+        "delta": -91.0,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 323,
+        "views": 126805
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 113641,
+        "eng": 26204,
+        "er": 23.06,
+        "cpm": 1.77,
+        "color": "#1d1d1f",
+        "delta": 2406.4,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 6557,
+        "views": 1644
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 0,
+        "eng": 0,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -100.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
         "organicImpressions": 0,
-        "views": 60907
+        "views": 0
       }
     ],
-    "topPosts": [],
+    "topPosts": [
+      {
+        "id": "3952878090514374862",
+        "rank": 1,
+        "partner": "EHP",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "@avpbeach hauled 300 tons of sand into a Hamptons marina\u2014turning @ehpresort into a temporary beach\u2026",
+        "er": 2.02,
+        "eng": 357,
+        "reach": 17682,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Dbbca4ZiKDO/",
+        "postedAt": "2026-07-30T12:33:09-07:00"
+      }
+    ],
     "topPostsOrganic": [],
     "callouts": [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 24.5% ER \u2014 26.6\u00d7 the benchmark.",
-        "body": "107K impressions, 26K engagements at 24.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "X at 23.1% ER \u2014 25.1\u00d7 the benchmark.",
+        "body": "114K impressions, 26K engagements at 23.1% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "EHP \u00b7 X"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 15% of goal (602K of 4.0M) with 31 days left.",
-        "body": "At the current rate the campaign will fall ~3.4M impressions short of the 4.0M goal. Need to deliver 119K impr/day (12.1\u00d7 the current 10K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 19% of goal (775K of 4.0M) with 31 days left.",
+        "body": "At the current rate the campaign will fall ~3.2M impressions short of the 4.0M goal. Need to deliver 117K impr/day (9.2\u00d7 the current 13K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "EHP \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-24T19:29:02Z"
   },
   {
@@ -4010,7 +4043,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-07-31T18:41:59Z",
+    "lastUpdatedMs": "2026-07-31T19:11:06Z",
     "lastUpdatedExports": "2026-07-31T16:57:16Z"
   },
   {
@@ -4324,40 +4357,40 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26835436,
-    "eng": 700341,
+    "impressions": 26841993,
+    "eng": 700349,
     "er": 2.61,
     "cpm": 1.54,
     "color": "#1d1d1f",
-    "delta": 183.7,
+    "delta": 183.6,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 427249
+    "views": 428893
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 21508697,
-    "eng": 282829,
+    "impressions": 21586490,
+    "eng": 283200,
     "er": 1.31,
     "cpm": 4.56,
     "color": "#E4405F",
-    "delta": -60.3,
+    "delta": -60.4,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 21508697
+    "views": 21586490
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 18835890,
-    "eng": 51048,
+    "impressions": 18836213,
+    "eng": 51072,
     "er": 0.27,
     "cpm": 2.42,
     "color": "#000000",
@@ -4367,7 +4400,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 18652912
+    "views": 18653235
   },
   {
     "name": "Facebook",
@@ -4486,8 +4519,8 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "X at 24.5% ER \u2014 26.6\u00d7 the benchmark.",
-    "body": "107K impressions, 26K engagements at 24.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+    "headline": "X at 23.1% ER \u2014 25.1\u00d7 the benchmark.",
+    "body": "114K impressions, 26K engagements at 23.1% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
     "meta": "EHP \u00b7 X",
     "campaignId": "ehp_avp",
     "campaignPartner": "EHP"
@@ -4504,8 +4537,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 15% of goal (602K of 4.0M) with 31 days left.",
-    "body": "At the current rate the campaign will fall ~3.4M impressions short of the 4.0M goal. Need to deliver 119K impr/day (12.1\u00d7 the current 10K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 19% of goal (775K of 4.0M) with 31 days left.",
+    "body": "At the current rate the campaign will fall ~3.2M impressions short of the 4.0M goal. Need to deliver 117K impr/day (9.2\u00d7 the current 13K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "EHP \u00b7 Pacing",
     "campaignId": "ehp_avp",
     "campaignPartner": "EHP"
@@ -31562,6 +31595,121 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-21T19:43:32-07:00"
     },
     {
+      "title": "Step behind the scenes for one of the most exclusive stops in pro beach volleyball. This is @avpbeach at @ehpresort in t",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 60111,
+      "paidImpr": 60111,
+      "orgImpr": 0,
+      "views": 60111,
+      "reach": 55206,
+      "eng": 14,
+      "er": 0.02,
+      "spend": 190.54,
+      "watchTimeMin": 728.5,
+      "clicks": 25,
+      "ctr": 4.16,
+      "cpc": 7.62,
+      "cpm": 3.17,
+      "videoViews100Pct": 25,
+      "videoViews3s": 3746,
+      "url": "https://www.instagram.com/p/DbYwUPOgKaC/",
+      "postedAt": "2026-07-29T11:26:18-07:00"
+    },
+    {
+      "title": "The most scenic stadium in pro sports",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/GOQUzL-UT08",
+      "postedAt": "2026-07-30T08:16:38-07:00"
+    },
+    {
+      "title": "@avpbeach temporarily transformed @EHP Resort into a beach volleyball court. #StadiumStatus ",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 323,
+      "paidImpr": 0,
+      "orgImpr": 323,
+      "views": 323,
+      "reach": 0,
+      "eng": 24,
+      "er": 7.43,
+      "spend": 0,
+      "watchTimeMin": 38.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7668341504007589150",
+      "postedAt": "2026-07-30T08:21:41-07:00"
+    },
+    {
+      "title": "What does it take to build a beach volleyball court in a marina?  About 300 tons of sand.   Here's how @avpbeach made it",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6557,
+      "paidImpr": 0,
+      "orgImpr": 6557,
+      "views": 1644,
+      "reach": 0,
+      "eng": 8,
+      "er": 0.12,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2082890745183183093",
+      "postedAt": "2026-07-30T11:07:06-07:00"
+    },
+    {
+      "title": "@avpbeach hauled 300 tons of sand into a Hamptons marina\u2014turning @ehpresort into a temporary beach volleyball court. \u2060 \u2060",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 17682,
+      "paidImpr": 0,
+      "orgImpr": 17682,
+      "views": 17682,
+      "reach": 14569,
+      "eng": 357,
+      "er": 2.02,
+      "spend": 0,
+      "watchTimeMin": 25.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Dbbca4ZiKDO/",
+      "postedAt": "2026-07-30T12:33:09-07:00"
+    },
+    {
       "title": "EHP Green Screen Promo",
       "platform": "X",
       "accountName": null,
@@ -34152,8 +34300,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.58,
-    "impressions": 19764925,
-    "paidImpressions": 17401649,
+    "impressions": 19842718,
+    "paidImpressions": 17461760,
     "pctOfTotal": 14.3,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -18.5,
@@ -34162,7 +34310,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.43,
-    "impressions": 17430032,
+    "impressions": 17430355,
     "paidImpressions": 13729233,
     "pctOfTotal": 12.6,
     "mvmCpm": 2.24,
@@ -34172,7 +34320,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.08,
-    "impressions": 15836162,
+    "impressions": 15842719,
     "paidImpressions": 14111954,
     "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
