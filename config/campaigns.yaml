@@ -1200,6 +1200,8 @@ campaigns:
     lead_format: Paid Social
     blurb: "Three videos supporting AVP's Hampton's event at EHP."
     sources:
+      youtube_paid:
+        - ehp_avp_yt_paid.csv
       # Organic/editorial delivery → Measure Studio group "EHP" (8330).
       measure_studio_group_ids:
         - 8330
