@@ -333,6 +333,13 @@ campaigns:
         # catch the descriptive titles.
         match: ["PP Episode 13 -", "Arturo Lomeli", "@arturolomeli", "Clase Azul", "tequila founder"]
         exclude: []
+      - id: ep14
+        n: "Ep. 14"
+        title: "Marques Colston"
+        date: "Jul 28"
+        # "Colston" (single token) also catches the Saints/NIL descriptive titles.
+        match: ["PP Episode 14 -", "Marques Colston", "Colston", "@marquescolston"]
+        exclude: []
 
   - id: spectrum
     partner: Spectrum
@@ -1235,6 +1242,10 @@ campaigns:
     color: ft-7
     lead_format: Social Video
     blurb: "3M x FOS golf-engineering content for the 3M Open — a FOS Engineered hero video plus cutdowns, a dark Day-in-the-Life video, and two static posts."
+    # Drop the Measure version of the "A driver has to survive…" dark FB static —
+    # MS under-reports it (~126K). The true 502,526 is restated in sources.manual_rows.
+    exclude:
+      - "1530555005750751"
     pacing_components:
       - label: "FOS Engineered + Cutdowns"
         impression_goal: 3_750_000
@@ -1281,8 +1292,18 @@ campaigns:
         impression_goal: 1_600_000
         budget_goal: 5_600
     sources:
-      meta_ads:
-        - threem_meta_ads.csv
+      # NOTE: the full Meta export is intentionally NOT wired — Measure already
+      # tracks these posts, so wiring it double-counted every static. Measure is
+      # correct for everything EXCEPT one dark FB static ("A driver has to
+      # survive…") which MS under-reports (~126K vs the true 502,526 from Meta).
+      # We drop the MS version (excluded by native id above) and restate the
+      # real figure via manual_rows below.
+      manual_rows:
+        - title: "A driver has to survive forces most materials (FB) — dark"
+          platform: facebook
+          impressions: 502526
+          spend: 1400
+          clicks: 3
       youtube_paid:
         - threem_yt_paid.csv
       # Measure Studio group "3M" (8322) — organic + any boosted MS tracks.
