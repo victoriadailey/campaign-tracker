@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-03T16:18:51Z";
+window.LAST_REFRESHED = "2026-08-03T16:26:00Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-31T15:38:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3706,26 +3706,26 @@ window.CAMPAIGNS = [
     "flight": "Jul 1 \u2014 Aug 31, 2026",
     "elapsedPct": 54.1,
     "daysLeft": 28,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2655640,
+      "delivered": 2843520,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 4972.1,
+      "delivered": 5134.1,
       "goal": 7054.0
     },
     "color": "ft-4",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
     "er": 1.4,
-    "cpm": 2.04,
+    "cpm": 1.96,
     "episodes": 0,
-    "posts": 11,
+    "posts": 12,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
-    "views": 1584197,
-    "engagements": 38402,
+    "views": 1770111,
+    "engagements": 38491,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3733,18 +3733,18 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 1012194,
-        "eng": 665,
-        "er": 0.07,
-        "cpm": 1.41,
+        "impressions": 1200074,
+        "eng": 754,
+        "er": 0.06,
+        "cpm": 1.31,
         "color": "#000000",
-        "delta": -96.8,
+        "delta": -96.9,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
         "organicImpressions": 183349,
-        "views": 1003656
+        "views": 1189570
       },
       {
         "name": "YouTube Shorts",
@@ -3833,7 +3833,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-08-03T16:11:38Z"
   },
   {
@@ -4059,7 +4059,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:18:50Z",
+    "lastUpdatedMs": "2026-08-03T16:26:00Z",
     "lastUpdatedExports": "2026-07-31T16:57:16Z"
   },
   {
@@ -4413,18 +4413,18 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 19813272,
-    "eng": 51567,
+    "impressions": 20001152,
+    "eng": 51656,
     "er": 0.26,
-    "cpm": 2.35,
+    "cpm": 2.34,
     "color": "#000000",
-    "delta": -87.2,
+    "delta": -87.3,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 19622789
+    "views": 19808703
   },
   {
     "name": "Facebook",
@@ -32269,6 +32269,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-30T12:33:09-07:00"
     },
     {
+      "title": "",
+      "platform": "TikTok",
+      "accountName": "fostonight",
+      "distKind": "paid",
+      "impr": 187880,
+      "paidImpr": 187880,
+      "orgImpr": 0,
+      "views": 185914,
+      "reach": 180416,
+      "eng": 89,
+      "er": 0.05,
+      "spend": 162.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 0.86,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": "2026-07-31T18:51:45-07:00"
+    },
+    {
       "title": "EHP Green Screen Promo",
       "platform": "X",
       "accountName": null,
@@ -34768,7 +34791,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 59877693,
     "paidImpressions": 59399021,
-    "pctOfTotal": 41.7,
+    "pctOfTotal": 41.6,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.0,
     "color": "#E00922"
@@ -34785,12 +34808,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "TikTok",
-    "cpm": 2.37,
-    "impressions": 18407413,
-    "paidImpressions": 14516950,
-    "pctOfTotal": 12.8,
+    "cpm": 2.35,
+    "impressions": 18595293,
+    "paidImpressions": 14704830,
+    "pctOfTotal": 12.9,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": 5.6,
+    "mvmDeltaPct": 4.8,
     "color": "#000000"
   },
   {
