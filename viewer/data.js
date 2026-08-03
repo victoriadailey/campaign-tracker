@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-03T16:12:44Z";
+window.LAST_REFRESHED = "2026-08-03T16:15:55Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:43Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:43Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-31T15:38:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:12:43Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:43Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:43Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:43Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3709,23 +3709,23 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2177007,
+      "delivered": 2655640,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 3930.47,
+      "delivered": 4972.1,
       "goal": 7054.0
     },
     "color": "ft-4",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 1.7,
-    "cpm": 2.01,
+    "er": 1.4,
+    "cpm": 2.04,
     "episodes": 0,
     "posts": 11,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
     "views": 1584197,
-    "engagements": 37401,
+    "engagements": 38402,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3763,6 +3763,22 @@ window.CAMPAIGNS = [
         "views": 300728
       },
       {
+        "name": "X",
+        "italic": "X",
+        "impressions": 592960,
+        "eng": 5818,
+        "er": 0.98,
+        "cpm": 2.1,
+        "color": "#1d1d1f",
+        "delta": 6.6,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 7129,
+        "views": 1789
+      },
+      {
         "name": "Instagram",
         "italic": "gram",
         "impressions": 278024,
@@ -3777,22 +3793,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 27553,
         "views": 278024
-      },
-      {
-        "name": "X",
-        "italic": "X",
-        "impressions": 114327,
-        "eng": 4817,
-        "er": 4.21,
-        "cpm": 1.77,
-        "color": "#1d1d1f",
-        "delta": 358.0,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 7129,
-        "views": 1789
       }
     ],
     "topPosts": [
@@ -3829,20 +3829,12 @@ window.CAMPAIGNS = [
         "url": "https://tiktok.com/@frontofficesports/video/7668341504007589150"
       }
     ],
-    "callouts": [
-      {
-        "tag": "WIN",
-        "kind": "pos",
-        "headline": "X at 4.2% ER \u2014 4.6\u00d7 the benchmark.",
-        "body": "114K impressions, 5K engagements at 4.2% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-        "meta": "EHP \u00b7 X"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
-    "lastUpdatedExports": "2026-08-03T16:11:37Z"
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
+    "lastUpdatedExports": "2026-08-03T16:11:38Z"
   },
   {
     "id": "threem",
@@ -4067,7 +4059,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedMs": "2026-08-03T16:15:55Z",
     "lastUpdatedExports": "2026-07-31T16:57:16Z"
   },
   {
@@ -4389,12 +4381,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 26842782,
-    "eng": 678962,
-    "er": 2.53,
-    "cpm": 1.54,
+    "impressions": 27321415,
+    "eng": 679963,
+    "er": 2.49,
+    "cpm": 1.56,
     "color": "#1d1d1f",
-    "delta": 174.9,
+    "delta": 170.5,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -32234,20 +32226,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "What does it take to build a beach volleyball court in a marina?  About 300 tons of sand.   Here's how @avpbeach made it",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 7129,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 485762,
+      "paidImpr": 478633,
       "orgImpr": 7129,
       "views": 1789,
       "reach": 0,
-      "eng": 28,
-      "er": 0.39,
-      "spend": 0,
+      "eng": 1029,
+      "er": 0.21,
+      "spend": 1041.63,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 2.18,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2082890745183183093",
@@ -33656,7 +33648,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "ehp_avp_x_ads.csv",
-    "fileSizeKb": 0.5,
+    "fileSizeKb": 0.6,
     "lastModified": "2026-08-03",
     "exists": true,
     "postsContributed": 1
@@ -34776,7 +34768,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 59877693,
     "paidImpressions": 59399021,
-    "pctOfTotal": 41.8,
+    "pctOfTotal": 41.7,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.0,
     "color": "#E00922"
@@ -34786,7 +34778,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.4,
     "impressions": 22004857,
     "paidImpressions": 19597637,
-    "pctOfTotal": 15.4,
+    "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.6,
     "color": "#E4405F"
@@ -34796,19 +34788,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.37,
     "impressions": 18407413,
     "paidImpressions": 14516950,
-    "pctOfTotal": 12.9,
+    "pctOfTotal": 12.8,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 5.6,
     "color": "#000000"
   },
   {
     "name": "X",
-    "cpm": 2.08,
-    "impressions": 15843508,
-    "paidImpressions": 14112068,
-    "pctOfTotal": 11.1,
+    "cpm": 2.09,
+    "impressions": 16322141,
+    "paidImpressions": 14590701,
+    "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 67.9,
+    "mvmDeltaPct": 68.2,
     "color": "#1d1d1f"
   },
   {
@@ -34816,7 +34808,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.68,
     "impressions": 14395559,
     "paidImpressions": 14229340,
-    "pctOfTotal": 10.1,
+    "pctOfTotal": 10.0,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -16.2,
     "color": "#FF0033"
