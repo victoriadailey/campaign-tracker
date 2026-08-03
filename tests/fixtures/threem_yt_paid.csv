@@ -1,8 +1,8 @@
 FOS Reporting
-"June 1, 2026 - July 31, 2026"
+"April 1, 2026 - August 3, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-3M: FOS Engineered Cutdown 2 (shorts),USD,0,Eligible,Video,0.136,364,4.02,"12,296",49.43,946
-3M: DITL (Shorts),USD,0,Paused,Video,0.078,"29,328",3.15,"722,639",2275.52,"95,867"
-3M_FOS Engineered_Full Video (pre-roll),USD,0,Ended,Video,0.019,"43,197",11.44,"72,274",827.01,"57,311"
-3M: FOS Engineered Cutdown 1 (shorts),USD,0,Ended,Video,0.093,"2,598",3.21,"75,391",241.75,"7,106"
-3M_FOS Engineered_Full Video (in-feed),USD,0,Ended,Video,0.288,"6,424",0.61,"3,047,252",1850.97,"8,469"
+3M_FOS Engineered_Full Video (in-feed),USD,0,Ended,Video,0.288,"6,418",0.61,"3,047,098",1850.89,"8,464"
+3M_FOS Engineered_Full Video (pre-roll),USD,0,Ended,Video,0.019,"43,175",11.44,"72,269",826.61,"57,267"
+3M: FOS Engineered Cutdown 1 (shorts),USD,0,Ended,Video,0.093,"2,597",3.21,"75,390",241.74,"7,106"
+3M: DITL (Shorts),USD,0,Paused,Video,0.078,"29,320",3.15,"722,620",2275.47,"95,840"
+3M: FOS Engineered Cutdown 2 (shorts),USD,0,Ended,Video,0.123,813,3.66,"27,323",99.98,"2,080"
