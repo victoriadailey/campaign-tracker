@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-03T13:44:54Z";
+window.LAST_REFRESHED = "2026-08-03T16:12:44Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:43Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:43Z",
     "lastUpdatedExports": "2026-07-31T15:38:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:43Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:43Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:43Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:43Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3706,26 +3706,26 @@ window.CAMPAIGNS = [
     "flight": "Jul 1 \u2014 Aug 31, 2026",
     "elapsedPct": 54.1,
     "daysLeft": 28,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 1914446,
+      "delivered": 2177007,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 3123.48,
+      "delivered": 3930.47,
       "goal": 7054.0
     },
     "color": "ft-4",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 0.9,
-    "cpm": 1.84,
+    "er": 1.7,
+    "cpm": 2.01,
     "episodes": 0,
-    "posts": 10,
+    "posts": 11,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
-    "views": 1571939,
-    "engagements": 16355,
+    "views": 1584197,
+    "engagements": 37401,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3749,18 +3749,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 509901,
-        "eng": 6393,
-        "er": 1.25,
-        "cpm": 0.83,
+        "impressions": 772462,
+        "eng": 27439,
+        "er": 3.55,
+        "cpm": 1.59,
         "color": "#FF0033",
-        "delta": -93.7,
+        "delta": -82.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 678,
-        "views": 288470
+        "views": 300728
       },
       {
         "name": "Instagram",
@@ -3836,20 +3836,13 @@ window.CAMPAIGNS = [
         "headline": "X at 4.2% ER \u2014 4.6\u00d7 the benchmark.",
         "body": "114K impressions, 5K engagements at 4.2% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "EHP \u00b7 X"
-      },
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "Campaign averaging 0.90% ER \u2014 below the 1% floor.",
-        "body": "0.90% engagement rate across 1.9M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
-        "meta": "EHP \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
-    "lastUpdatedExports": "2026-07-31T19:45:30Z"
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
+    "lastUpdatedExports": "2026-08-03T16:11:37Z"
   },
   {
     "id": "threem",
@@ -4074,7 +4067,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T13:44:54Z",
+    "lastUpdatedMs": "2026-08-03T16:12:44Z",
     "lastUpdatedExports": "2026-07-31T16:57:16Z"
   },
   {
@@ -4380,18 +4373,18 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 88567056,
-    "eng": 1620024,
-    "er": 1.83,
-    "cpm": 1.03,
+    "impressions": 88829617,
+    "eng": 1641070,
+    "er": 1.85,
+    "cpm": 1.04,
     "color": "#E00922",
-    "delta": -90.9,
+    "delta": -90.8,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 14415144
+    "views": 14427402
   },
   {
     "name": "X",
@@ -32178,9 +32171,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 171212,
       "reach": 0,
-      "eng": 13,
-      "er": 0.01,
-      "spend": 0,
+      "eng": 8235,
+      "er": 4.77,
+      "spend": 544.21,
       "watchTimeMin": 13643.1,
       "clicks": null,
       "ctr": 0.0,
@@ -32196,14 +32189,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 132912,
-      "paidImpr": 132234,
+      "impr": 222754,
+      "paidImpr": 222076,
       "orgImpr": 678,
       "views": 114163,
       "reach": 0,
-      "eng": 6380,
-      "er": 4.8,
-      "spend": 422.27,
+      "eng": 19204,
+      "er": 8.62,
+      "spend": 685.05,
       "watchTimeMin": 8910.5,
       "clicks": null,
       "ctr": 0.0,
@@ -33655,7 +33648,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-08-03",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 2
   },
   {
     "campaignId": "ehp_avp",
@@ -34783,7 +34776,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 59877693,
     "paidImpressions": 59399021,
-    "pctOfTotal": 41.9,
+    "pctOfTotal": 41.8,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.0,
     "color": "#E00922"
@@ -34820,12 +34813,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.67,
-    "impressions": 14132998,
-    "paidImpressions": 13966779,
-    "pctOfTotal": 9.9,
+    "cpm": 2.68,
+    "impressions": 14395559,
+    "paidImpressions": 14229340,
+    "pctOfTotal": 10.1,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -16.5,
+    "mvmDeltaPct": -16.2,
     "color": "#FF0033"
   },
   {
