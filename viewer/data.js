@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-03T17:21:10Z";
+window.LAST_REFRESHED = "2026-08-03T17:23:14Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:13Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,11 +382,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 33774452,
+      "delivered": 33801641,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 48036.53,
+      "delivered": 48095.42,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -398,7 +398,7 @@ window.CAMPAIGNS = [
     "posts": 313,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 9810364,
-    "engagements": 993468,
+    "engagements": 993543,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,10 +454,10 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4128860,
-        "eng": 11866,
+        "impressions": 4156049,
+        "eng": 11941,
         "er": 0.29,
-        "cpm": 1.2,
+        "cpm": 1.21,
         "color": "#1d1d1f",
         "delta": -68.8,
         "bench": {
@@ -816,8 +816,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
-    "lastUpdatedExports": "2026-08-03T17:20:12Z"
+    "lastUpdatedMs": "2026-08-03T17:23:13Z",
+    "lastUpdatedExports": "2026-08-03T17:20:13Z"
   },
   {
     "id": "spectrum",
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:13Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:13Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:13Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:13Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:13Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-07-30T13:49:22Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3833,7 +3833,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-08-03T16:11:38Z"
   },
   {
@@ -4059,7 +4059,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-03T17:21:09Z",
+    "lastUpdatedMs": "2026-08-03T17:23:14Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4381,12 +4381,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 27321415,
-    "eng": 679963,
+    "impressions": 27348604,
+    "eng": 680038,
     "er": 2.49,
     "cpm": 1.56,
     "color": "#1d1d1f",
-    "delta": 170.5,
+    "delta": 170.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -13065,11 +13065,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Marques Colston",
       "date": "Jul 28",
       "total": {
-        "impr": 1175401,
+        "impr": 1202590,
         "views": 175489,
-        "er": 0.74,
-        "eng": 31355,
-        "spend": 1497.72
+        "er": 0.73,
+        "eng": 31430,
+        "spend": 1556.61
       },
       "perChannel": [
         {
@@ -13105,16 +13105,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 41578,
-          "paidImpr": 22609,
+          "impr": 68767,
+          "paidImpr": 49798,
           "orgImpr": 16408,
           "views": 2040,
-          "eng": 121,
-          "paidEng": 94,
+          "eng": 196,
+          "paidEng": 169,
           "orgEng": 27,
           "er": 0.29,
-          "cpm": 1.82,
-          "spend": 41.11,
+          "cpm": 2.01,
+          "spend": 100.0,
           "posts": 3
         },
         {
@@ -13214,13 +13214,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 30891,
-          "paidImpr": 22609,
+          "impr": 58080,
+          "paidImpr": 49798,
           "orgImpr": 8282,
           "views": 1509,
-          "eng": 113,
-          "er": 0.37,
-          "spend": 41.11,
+          "eng": 188,
+          "er": 0.32,
+          "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2082193745852698955",
           "postedAt": "2026-07-28T12:57:28-07:00"
         },
@@ -25945,19 +25945,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 30891,
-      "paidImpr": 22609,
+      "impr": 58080,
+      "paidImpr": 49798,
       "orgImpr": 8282,
       "views": 1509,
       "reach": 0,
-      "eng": 113,
-      "er": 0.37,
-      "spend": 41.11,
+      "eng": 188,
+      "er": 0.32,
+      "spend": 100.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 1.82,
+      "cpm": 2.01,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2082193745852698955",
@@ -33260,7 +33260,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 7.0,
+    "fileSizeKb": 7.1,
     "lastModified": "2026-08-03",
     "exists": true,
     "postsContributed": 2
@@ -34804,8 +34804,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 16322141,
-    "paidImpressions": 14590701,
+    "impressions": 16349330,
+    "paidImpressions": 14617890,
     "pctOfTotal": 11.3,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 68.2,
