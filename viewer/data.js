@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-04T13:06:53Z";
+window.LAST_REFRESHED = "2026-08-04T16:28:07Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-08-03T17:20:13Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:06Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:07Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:07Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3709,23 +3709,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3469093,
+      "delivered": 3755050,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 5757.39,
+      "delivered": 6412.55,
       "goal": 7054.0
     },
     "color": "ft-4",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 1.2,
-    "cpm": 1.8,
+    "er": 1.1,
+    "cpm": 1.84,
     "episodes": 0,
-    "posts": 12,
+    "posts": 14,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
     "views": 2304230,
-    "engagements": 40175,
+    "engagements": 40647,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3747,6 +3747,22 @@ window.CAMPAIGNS = [
         "views": 1675482
       },
       {
+        "name": "X",
+        "italic": "X",
+        "impressions": 878917,
+        "eng": 6290,
+        "er": 0.72,
+        "cpm": 2.16,
+        "color": "#1d1d1f",
+        "delta": -22.2,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 7129,
+        "views": 1789
+      },
+      {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
         "impressions": 859729,
@@ -3761,22 +3777,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 678,
         "views": 300728
-      },
-      {
-        "name": "X",
-        "italic": "X",
-        "impressions": 592960,
-        "eng": 5818,
-        "er": 0.98,
-        "cpm": 2.1,
-        "color": "#1d1d1f",
-        "delta": 6.6,
-        "bench": {
-          "er": 0.92,
-          "cpm": 1.1
-        },
-        "organicImpressions": 7129,
-        "views": 1789
       },
       {
         "name": "Instagram",
@@ -3833,8 +3833,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
-    "lastUpdatedExports": "2026-08-03T16:11:38Z"
+    "lastUpdatedMs": "2026-08-04T16:28:07Z",
+    "lastUpdatedExports": "2026-08-04T16:26:46Z"
   },
   {
     "id": "threem",
@@ -4059,7 +4059,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-04T13:06:53Z",
+    "lastUpdatedMs": "2026-08-04T16:28:07Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4381,12 +4381,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 27348720,
-    "eng": 680040,
-    "er": 2.49,
+    "impressions": 27634677,
+    "eng": 680512,
+    "er": 2.46,
     "cpm": 1.56,
     "color": "#1d1d1f",
-    "delta": 170.3,
+    "delta": 167.7,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -32211,20 +32211,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "What does it take to build a beach volleyball court in a marina?  About 300 tons of sand.   Here's how @avpbeach made it",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 485762,
-      "paidImpr": 478633,
+      "distKind": "organic",
+      "impr": 7129,
+      "paidImpr": 0,
       "orgImpr": 7129,
       "views": 1789,
       "reach": 0,
-      "eng": 1029,
-      "er": 0.21,
-      "spend": 1041.63,
+      "eng": 28,
+      "er": 0.39,
+      "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.18,
+      "cpm": null,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2082890745183183093",
@@ -32277,6 +32277,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-31T18:51:45-07:00"
     },
     {
+      "title": "EHP Stadium Status",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 713472,
+      "paidImpr": 713472,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 1383,
+      "er": 0.19,
+      "spend": 1598.96,
+      "watchTimeMin": null,
+      "clicks": 0,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.24,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "EHP Green Screen Promo",
       "platform": "X",
       "accountName": null,
@@ -32294,6 +32317,29 @@ window.POSTS_BY_CAMPAIGN = {
       "ctr": 1.75,
       "cpc": 0.1,
       "cpm": 1.77,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "EHP DITL",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 51118,
+      "paidImpr": 51118,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 90,
+      "er": 0.18,
+      "spend": 97.83,
+      "watchTimeMin": null,
+      "clicks": 0,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 1.91,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -33660,10 +33706,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "ehp_avp_x_ads.csv",
-    "fileSizeKb": 0.6,
+    "fileSizeKb": 0.7,
     "lastModified": "2026-08-04",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 3
   },
   {
     "campaignId": "threem",
@@ -34780,7 +34826,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 60869536,
     "paidImpressions": 60390864,
-    "pctOfTotal": 41.8,
+    "pctOfTotal": 41.7,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 25.8,
     "color": "#E00922"
@@ -34790,7 +34836,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.41,
     "impressions": 22073473,
     "paidImpressions": 19666247,
-    "pctOfTotal": 15.2,
+    "pctOfTotal": 15.1,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.6,
     "color": "#E4405F"
@@ -34808,11 +34854,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 16349446,
-    "paidImpressions": 14617890,
-    "pctOfTotal": 11.2,
+    "impressions": 16635403,
+    "paidImpressions": 14903847,
+    "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 68.2,
+    "mvmDeltaPct": 68.5,
     "color": "#1d1d1f"
   },
   {
