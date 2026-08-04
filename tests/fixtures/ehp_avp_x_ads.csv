@@ -1,5 +1,4 @@
-EHP X Ads Export 7:31
-Table 1,,,,,,,,,,,,,,,
-Time period,On/Off,Campaign ID,Campaign name,Post Link,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,Engagements,CTR,CPM,Cost per link click
-2026-04-05 - 2026-07-31,On,42065783,EHP Stadium Status,https://x.com/FOS/status/2082890745183183093,Reach,Active,2026-07-31 12:14:05,2026-08-04 09:00:00,478633,1041.63,0,1001,0.00%,2.18,-
-2026-04-05 - 2026-07-31,On,41986077, EHP Green Screen Promo,,Website clicks,Expired,2026-07-21 12:27:03,2026-07-24 14:00:00,107198,190.00,1876,4789,1.75%,1.77,0.10
+Time period,On/Off,Campaign ID,Campaign name,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Link clicks,(Ignore),Video views 3s,Engagements,CTR,CPM,Cost per link click
+2026-07-01 - 2026-08-04,On,42065783,EHP Stadium Status,Reach,Expired,2026-07-31 12:14:05,2026-08-04 09:00:00,713472,1598.96,0,57181,55798,1383,0.00%,2.24,-
+2026-07-01 - 2026-08-04,On,42048358,EHP DITL,Reach,Active,2026-08-03 09:44:11,2026-08-05 14:00:00,51118,97.83,0,3433,3343,90,0.00%,1.91,-
+2026-07-01 - 2026-08-04,On,41986077, EHP Green Screen Promo,Website clicks,Expired,2026-07-21 12:27:03,2026-07-24 14:00:00,107198,190.00,1876,26204,21415,4789,1.75%,1.77,0.10
