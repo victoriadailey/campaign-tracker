@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-05T15:26:57Z";
+window.LAST_REFRESHED = "2026-08-05T18:54:22Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:21Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 34054858,
+      "delivered": 34066493,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 1.8,
     "cpm": 1.79,
     "episodes": 15,
-    "posts": 313,
+    "posts": 315,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 9906524,
-    "engagements": 1001152,
+    "views": 9908832,
+    "engagements": 1001195,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,8 +454,8 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4156259,
-        "eng": 11945,
+        "impressions": 4167335,
+        "eng": 11964,
         "er": 0.29,
         "cpm": 1.21,
         "color": "#1d1d1f",
@@ -464,8 +464,8 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1357392,
-        "views": 385969
+        "organicImpressions": 1368468,
+        "views": 387718
       },
       {
         "name": "YouTube Shorts",
@@ -502,8 +502,8 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 817516,
-        "eng": 34263,
+        "impressions": 818075,
+        "eng": 34287,
         "er": 4.19,
         "cpm": 0.0,
         "color": "#000000",
@@ -512,8 +512,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 817516,
-        "views": 817516
+        "organicImpressions": 818075,
+        "views": 818075
       },
       {
         "name": "Instagram Stories",
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:21Z",
     "lastUpdatedExports": "2026-08-03T17:20:13Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:21Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:21Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:21Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:21Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:21Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3709,23 +3709,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3943959,
+      "delivered": 3996107,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 6656.42,
+      "delivered": 6766.91,
       "goal": 7054.0
     },
     "color": "ft-4",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
     "er": 1.0,
-    "cpm": 1.8,
+    "cpm": 1.81,
     "episodes": 0,
     "posts": 14,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
     "views": 2582098,
-    "engagements": 41403,
+    "engagements": 41418,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3765,12 +3765,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 879662,
-        "eng": 6335,
-        "er": 0.72,
+        "impressions": 931810,
+        "eng": 6350,
+        "er": 0.68,
         "cpm": 2.16,
         "color": "#1d1d1f",
-        "delta": -21.7,
+        "delta": -25.9,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -3833,8 +3833,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
-    "lastUpdatedExports": "2026-08-05T15:25:30Z"
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
+    "lastUpdatedExports": "2026-08-05T18:53:09Z"
   },
   {
     "id": "threem",
@@ -4059,7 +4059,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T15:26:57Z",
+    "lastUpdatedMs": "2026-08-05T18:54:22Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4381,18 +4381,18 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 27635520,
-    "eng": 680559,
+    "impressions": 27698744,
+    "eng": 680593,
     "er": 2.46,
-    "cpm": 1.56,
+    "cpm": 1.57,
     "color": "#1d1d1f",
-    "delta": 167.7,
+    "delta": 167.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 429071
+    "views": 430820
   },
   {
     "name": "Instagram",
@@ -4413,8 +4413,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 20569757,
-    "eng": 51952,
+    "impressions": 20570316,
+    "eng": 51976,
     "er": 0.25,
     "cpm": 2.29,
     "color": "#000000",
@@ -4424,7 +4424,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 20372001
+    "views": 20372560
   },
   {
     "name": "Facebook",
@@ -13065,10 +13065,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Marques Colston",
       "date": "Jul 28",
       "total": {
-        "impr": 1296134,
-        "views": 270558,
+        "impr": 1307769,
+        "views": 272866,
         "er": 0.77,
-        "eng": 32719,
+        "eng": 32762,
         "spend": 1981.57
       },
       "perChannel": [
@@ -13105,17 +13105,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 68923,
+          "impr": 79999,
           "paidImpr": 49798,
-          "orgImpr": 16534,
-          "views": 2060,
-          "eng": 198,
+          "orgImpr": 18283,
+          "views": 3809,
+          "eng": 217,
           "paidEng": 169,
-          "orgEng": 29,
-          "er": 0.29,
+          "orgEng": 48,
+          "er": 0.27,
           "cpm": 2.01,
           "spend": 100.0,
-          "posts": 3
+          "posts": 4
         },
         {
           "name": "YouTube Shorts",
@@ -13165,17 +13165,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 383,
+          "impr": 942,
           "paidImpr": 0,
-          "orgImpr": 383,
-          "views": 383,
-          "eng": 12,
+          "orgImpr": 942,
+          "views": 942,
+          "eng": 36,
           "paidEng": 0,
-          "orgEng": 12,
-          "er": 3.13,
+          "orgEng": 36,
+          "er": 3.82,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 1
+          "posts": 2
         }
       ],
       "posts": [
@@ -13358,6 +13358,36 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488267229667631104",
           "postedAt": "2026-07-29T13:30:03-07:00"
+        },
+        {
+          "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 11076,
+          "paidImpr": 0,
+          "orgImpr": 11076,
+          "views": 1749,
+          "eng": 19,
+          "er": 0.17,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2084376258108944495",
+          "postedAt": "2026-08-03T13:30:00-07:00"
+        },
+        {
+          "title": "\u201cIf I would\u2019ve had access to [NIL], I may not have been as hungry as I was.\u201d Former NFL wide receiver Marques Colston di",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 559,
+          "paidImpr": 0,
+          "orgImpr": 559,
+          "views": 559,
+          "eng": 24,
+          "er": 4.29,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7669906121053719821",
+          "postedAt": "2026-08-03T13:33:21-07:00"
         }
       ],
       "topPosts": [
@@ -13379,7 +13409,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 3.1% ER on 383 impr."
+          "text": "TikTok leading with 3.8% ER on 942 impr."
         },
         {
           "kind": "pos",
@@ -26169,6 +26199,52 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488267229667631104",
       "postedAt": "2026-07-29T13:30:03-07:00"
+    },
+    {
+      "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 11076,
+      "paidImpr": 0,
+      "orgImpr": 11076,
+      "views": 1749,
+      "reach": 0,
+      "eng": 19,
+      "er": 0.17,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2084376258108944495",
+      "postedAt": "2026-08-03T13:30:00-07:00"
+    },
+    {
+      "title": "\u201cIf I would\u2019ve had access to [NIL], I may not have been as hungry as I was.\u201d Former NFL wide receiver Marques Colston di",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 559,
+      "paidImpr": 0,
+      "orgImpr": 559,
+      "views": 559,
+      "reach": 401,
+      "eng": 24,
+      "er": 4.29,
+      "spend": 0,
+      "watchTimeMin": 43.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7669906121053719821",
+      "postedAt": "2026-08-03T13:33:21-07:00"
     }
   ],
   "spectrum": [
@@ -32327,19 +32403,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 51118,
-      "paidImpr": 51118,
+      "impr": 103266,
+      "paidImpr": 103266,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 134,
-      "er": 0.26,
-      "spend": 97.83,
+      "eng": 149,
+      "er": 0.14,
+      "spend": 208.32,
       "watchTimeMin": null,
       "clicks": 0,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.0,
+      "cpm": 2.02,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -34844,7 +34920,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.3,
-    "impressions": 19163898,
+    "impressions": 19164457,
     "paidImpressions": 15242519,
     "pctOfTotal": 13.1,
     "mvmCpm": 2.24,
@@ -34854,8 +34930,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 16636246,
-    "paidImpressions": 14904592,
+    "impressions": 16699470,
+    "paidImpressions": 14956740,
     "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 68.5,
