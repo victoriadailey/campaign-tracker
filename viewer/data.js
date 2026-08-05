@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-05T19:03:33Z";
+window.LAST_REFRESHED = "2026-08-05T20:15:08Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-08-03T17:20:13Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:32Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3722,7 +3722,7 @@ window.CAMPAIGNS = [
     "er": 0.4,
     "cpm": 1.65,
     "episodes": 0,
-    "posts": 13,
+    "posts": 12,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
     "views": 2566745,
     "engagements": 14019,
@@ -3841,7 +3841,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-05T19:03:33Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-08-05T18:59:56Z"
   },
   {
@@ -4067,7 +4067,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-05T19:03:33Z",
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4136,6 +4136,162 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "lastUpdatedMs": "",
     "lastUpdatedExports": "2026-07-31T18:12:54Z"
+  },
+  {
+    "id": "ssim_wnba_allstar_event",
+    "partner": "State Street",
+    "series": "SSIM x FOS Event",
+    "seriesItalic": "Event",
+    "type": "social",
+    "flight": "Aug 1 \u2014 Aug 31, 2026",
+    "elapsedPct": 13.3,
+    "daysLeft": 26,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 35709,
+      "goal": 2750000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 8500.0
+    },
+    "color": "ft-1",
+    "leadFormat": "Social Video",
+    "topChannel": "Instagram",
+    "er": 2.0,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 6,
+    "blurb": "Interviews from the FOS Event with State Street.",
+    "views": 22226,
+    "engagements": 725,
+    "goalSplit": [],
+    "benchmarkCategory": "FOS Event - Custom Social",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 12282,
+        "eng": 435,
+        "er": 3.54,
+        "cpm": 0.0,
+        "color": "#E4405F",
+        "delta": 7.0,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 12282,
+        "views": 12282
+      },
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 11064,
+        "eng": 266,
+        "er": 2.4,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -36.1,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 11064,
+        "views": 3934
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 7549,
+        "eng": 22,
+        "er": 0.29,
+        "cpm": 0.0,
+        "color": "#1d1d1f",
+        "delta": -68.3,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 7549,
+        "views": 1196
+      },
+      {
+        "name": "Instagram Stories",
+        "italic": "Instagram Stories",
+        "impressions": 4814,
+        "eng": 2,
+        "er": 0.04,
+        "cpm": 0.0,
+        "color": "#C13584",
+        "delta": -98.7,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 4814,
+        "views": 4814
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 0,
+        "eng": 0,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -100.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 0,
+        "views": 0
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "3956441942103900267",
+        "rank": 1,
+        "partner": "State Street",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "WNBPA president Nneka Ogwumike tells FOS about her expectations stepping into the role and how her\u2026",
+        "er": 3.54,
+        "eng": 435,
+        "reach": 12282,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DboGvv1j0Br/",
+        "postedAt": "2026-08-04T10:33:07-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7490459014665949184",
+        "rank": 2,
+        "partner": "State Street",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "WNBPA \\(Women\u2019s National Basketball Players Association\\) president Nneka Ogwumike tells FOS about\u2026",
+        "er": 2.4,
+        "eng": 266,
+        "reach": 3934,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490459014665949184",
+        "postedAt": "2026-08-04T13:30:01-07:00"
+      }
+    ],
+    "topPostsOrganic": [],
+    "callouts": [],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-08-05T20:15:08Z",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -4389,25 +4545,25 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 27698744,
-    "eng": 680593,
+    "impressions": 27706293,
+    "eng": 680615,
     "er": 2.46,
     "cpm": 1.57,
     "color": "#1d1d1f",
-    "delta": 167.1,
+    "delta": 167.0,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 430820
+    "views": 432016
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 23897829,
-    "eng": 292607,
-    "er": 1.22,
+    "impressions": 23914925,
+    "eng": 293044,
+    "er": 1.23,
     "cpm": 4.41,
     "color": "#E4405F",
     "delta": -63.0,
@@ -4416,7 +4572,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 23897829
+    "views": 23914925
   },
   {
     "name": "TikTok",
@@ -4453,18 +4609,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 1942223,
-    "eng": 69311,
-    "er": 3.57,
+    "impressions": 1953287,
+    "eng": 69577,
+    "er": 3.56,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -5.1,
+    "delta": -5.3,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 722536
+    "views": 726470
   },
   {
     "name": "Snapchat",
@@ -17783,7 +17939,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "budgetGoal": 5600
     }
   ],
-  "apollo_gloabl_brandx": []
+  "apollo_gloabl_brandx": [],
+  "ssim_wnba_allstar_event": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -32177,29 +32334,6 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-21T12:20:42-07:00"
     },
     {
-      "title": "Summer's Most Unique Sporting Event",
-      "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 0,
-      "paidImpr": 0,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 0,
-      "watchTimeMin": 0.0,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/shorts/jp3Z3UiVT94",
-      "postedAt": "2026-07-21T12:49:45-07:00"
-    },
-    {
       "title": "",
       "platform": "TikTok",
       "accountName": "fostonight",
@@ -32939,6 +33073,146 @@ window.POSTS_BY_CAMPAIGN = {
       "url": null,
       "postedAt": null
     }
+  ],
+  "ssim_wnba_allstar_event": [
+    {
+      "title": "@statestreetim_us  @nneka  @la_sparks  @atlantadream  @upshotleague  @tayjohnson1012 @colinsalao  @bakermachado  @andrea",
+      "platform": "Instagram Stories",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 2307,
+      "paidImpr": 0,
+      "orgImpr": 2307,
+      "views": 2307,
+      "reach": 2057,
+      "eng": 1,
+      "er": 0.04,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": "2026-07-24T17:52:29-07:00"
+    },
+    {
+      "title": "@li_jade_li  @klutchsports  @oliviaarciniegasports  @statestreetim_us",
+      "platform": "Instagram Stories",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 2507,
+      "paidImpr": 0,
+      "orgImpr": 2507,
+      "views": 2507,
+      "reach": 2204,
+      "eng": 1,
+      "er": 0.04,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": "2026-07-24T17:55:15-07:00"
+    },
+    {
+      "title": "Nneka Ogwumike on her experience as WNBPA president",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/HbYU_ZnIkOM",
+      "postedAt": "2026-08-04T10:15:14-07:00"
+    },
+    {
+      "title": "WNBPA president Nneka Ogwumike tells FOS about her expectations stepping into the role and how her experience has been s",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 12282,
+      "paidImpr": 0,
+      "orgImpr": 12282,
+      "views": 12282,
+      "reach": 9873,
+      "eng": 435,
+      "er": 3.54,
+      "spend": 0,
+      "watchTimeMin": 21.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DboGvv1j0Br/",
+      "postedAt": "2026-08-04T10:33:07-07:00"
+    },
+    {
+      "title": "WNBPA president Nneka Ogwumike tells FOS about her expectations stepping into the role and how her experience has been s",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7549,
+      "paidImpr": 0,
+      "orgImpr": 7549,
+      "views": 1196,
+      "reach": 0,
+      "eng": 22,
+      "er": 0.29,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2084700901751619886",
+      "postedAt": "2026-08-04T11:00:01-07:00"
+    },
+    {
+      "title": "WNBPA \\(Women\u2019s National Basketball Players Association\\) president Nneka Ogwumike tells FOS about her expectations step",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 11064,
+      "paidImpr": 0,
+      "orgImpr": 11064,
+      "views": 3934,
+      "reach": 0,
+      "eng": 266,
+      "er": 2.4,
+      "spend": 0,
+      "watchTimeMin": 868.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490459014665949184",
+      "postedAt": "2026-08-04T13:30:01-07:00"
+    }
   ]
 };
 
@@ -33160,7 +33434,8 @@ window.UPLOAD_TARGETS = {
       "file": "apollo_gloabl_brandx_meta_ads.csv",
       "label": "Meta Ads"
     }
-  ]
+  ],
+  "ssim_wnba_allstar_event": []
 };
 
 window.MS_GROUPS = [
@@ -34941,7 +35216,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.41,
-    "impressions": 22154035,
+    "impressions": 22166317,
     "paidImpressions": 19738423,
     "pctOfTotal": 15.2,
     "mvmCpm": 5.62,
@@ -34961,7 +35236,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 16699470,
+    "impressions": 16707019,
     "paidImpressions": 14956740,
     "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
@@ -34973,7 +35248,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.64,
     "impressions": 14232286,
     "paidImpressions": 14064745,
-    "pctOfTotal": 9.8,
+    "pctOfTotal": 9.7,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -17.6,
     "color": "#FF0033"
@@ -34991,7 +35266,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1556877,
+    "impressions": 1567941,
     "paidImpressions": 0,
     "pctOfTotal": 1.1,
     "mvmCpm": null,
