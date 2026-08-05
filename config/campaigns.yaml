@@ -1332,3 +1332,21 @@ campaigns:
         - apollo_gloabl_brandx_meta_ads.csv
       other:
         - Apollo BrandX - Meta - 7.29.csv
+
+  - id: ssim_wnba_allstar_event
+    partner: State Street
+    series: SSIM x FOS Event
+    series_italic: Event
+    type: social
+    benchmark_category: "FOS Event - Custom Social"
+    lifecycle: active
+    flight_start: 2026-08-01
+    flight_end: 2026-08-31
+    impression_goal: 2750000
+    budget_goal: 8500
+    color: ft-1
+    lead_format: Social Video
+    blurb: Interviews from the FOS Event with State Street.
+    sources:
+      measure_studio_group_ids:
+        - 8401
