@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-06T13:01:04Z";
+window.LAST_REFRESHED = "2026-08-06T18:45:11Z";
 
 
 
@@ -29,7 +29,7 @@ window.CAMPAIGNS = [
       "goal": 6600000
     },
     "budget": {
-      "delivered": 9732.52,
+      "delivered": 9732.51,
       "goal": 10916.0
     },
     "color": "ft-1",
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 34059422,
+      "delivered": 34078015,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 1.8,
     "cpm": 1.79,
     "episodes": 15,
-    "posts": 315,
+    "posts": 320,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 9938832,
-    "engagements": 999430,
+    "views": 9947305,
+    "engagements": 999648,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -438,8 +438,8 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 5799485,
-        "eng": 101148,
+        "impressions": 5805246,
+        "eng": 101206,
         "er": 1.74,
         "cpm": 5.32,
         "color": "#E4405F",
@@ -448,14 +448,14 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1619659,
-        "views": 5799485
+        "organicImpressions": 1625420,
+        "views": 5805246
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4167396,
-        "eng": 11965,
+        "impressions": 4174725,
+        "eng": 11979,
         "er": 0.29,
         "cpm": 1.21,
         "color": "#1d1d1f",
@@ -464,8 +464,8 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1368529,
-        "views": 387723
+        "organicImpressions": 1375858,
+        "views": 388718
       },
       {
         "name": "YouTube Shorts",
@@ -486,24 +486,24 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1230384,
-        "eng": 43010,
-        "er": 3.5,
+        "impressions": 1235432,
+        "eng": 43133,
+        "er": 3.49,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -7.0,
+        "delta": -7.1,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1230384,
-        "views": 453793
+        "organicImpressions": 1235432,
+        "views": 455055
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 818139,
-        "eng": 34289,
+        "impressions": 818594,
+        "eng": 34312,
         "er": 4.19,
         "cpm": 0.0,
         "color": "#000000",
@@ -512,8 +512,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 818139,
-        "views": 818139
+        "organicImpressions": 818594,
+        "views": 818594
       },
       {
         "name": "Instagram Stories",
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-08-03T17:20:13Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:10Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3709,11 +3709,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3601588,
+      "delivered": 3608647,
       "goal": 4000000
     },
     "budget": {
-      "delivered": 5537.65,
+      "delivered": 5554.2,
       "goal": 7054.0
     },
     "color": "ft-4",
@@ -3722,10 +3722,10 @@ window.CAMPAIGNS = [
     "er": 0.4,
     "cpm": 1.65,
     "episodes": 0,
-    "posts": 12,
+    "posts": 11,
     "blurb": "Three videos supporting AVP's Hampton's event at EHP.",
     "views": 2566493,
-    "engagements": 14056,
+    "engagements": 14064,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3749,12 +3749,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 931898,
-        "eng": 6383,
+        "impressions": 938957,
+        "eng": 6391,
         "er": 0.68,
         "cpm": 2.16,
         "color": "#1d1d1f",
-        "delta": -25.5,
+        "delta": -26.0,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -3841,8 +3841,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
-    "lastUpdatedExports": "2026-08-05T18:59:56Z"
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
+    "lastUpdatedExports": "2026-08-06T17:34:37Z"
   },
   {
     "id": "threem",
@@ -4067,7 +4067,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4290,7 +4290,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-06T13:01:04Z",
+    "lastUpdatedMs": "2026-08-06T18:45:11Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -4545,24 +4545,24 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 27706787,
-    "eng": 680668,
+    "impressions": 27721175,
+    "eng": 680690,
     "er": 2.46,
     "cpm": 1.57,
     "color": "#1d1d1f",
-    "delta": 167.0,
+    "delta": 166.9,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 432115
+    "views": 433110
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 23948162,
-    "eng": 293657,
+    "impressions": 23953923,
+    "eng": 293715,
     "er": 1.23,
     "cpm": 4.41,
     "color": "#E4405F",
@@ -4572,23 +4572,23 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 23948162
+    "views": 23953923
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 20570506,
-    "eng": 51978,
+    "impressions": 20570961,
+    "eng": 52001,
     "er": 0.25,
     "cpm": 2.29,
     "color": "#000000",
-    "delta": -87.6,
+    "delta": -87.5,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 20372750
+    "views": 20373205
   },
   {
     "name": "Facebook",
@@ -4609,18 +4609,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 1949013,
-    "eng": 69668,
+    "impressions": 1954061,
+    "eng": 69791,
     "er": 3.57,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -4.9,
+    "delta": -5.0,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 732451
+    "views": 733713
   },
   {
     "name": "Snapchat",
@@ -11910,7 +11910,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "impr": 2056997,
         "views": 494918,
         "er": 1.18,
-        "eng": 55905,
+        "eng": 55906,
         "spend": 3540.86
       },
       "perChannel": [
@@ -12011,10 +12011,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 0,
           "orgImpr": 2559,
           "views": 2559,
-          "eng": 71,
+          "eng": 72,
           "paidEng": 0,
-          "orgEng": 71,
-          "er": 2.77,
+          "orgEng": 72,
+          "er": 2.81,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -12120,8 +12120,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 0,
           "orgImpr": 1798,
           "views": 1798,
-          "eng": 48,
-          "er": 2.67,
+          "eng": 49,
+          "er": 2.73,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7652124139129425166",
           "postedAt": "2026-06-16T15:30:07-07:00"
@@ -13222,10 +13222,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Marques Colston",
       "date": "Jul 28",
       "total": {
-        "impr": 1351284,
-        "views": 302011,
-        "er": 0.78,
-        "eng": 33243,
+        "impr": 1369877,
+        "views": 310484,
+        "er": 0.79,
+        "eng": 33460,
         "spend": 2156.41
       },
       "perChannel": [
@@ -13247,32 +13247,32 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 210316,
+          "impr": 216077,
           "paidImpr": 171299,
-          "orgImpr": 39017,
-          "views": 210316,
-          "eng": 4472,
+          "orgImpr": 44778,
+          "views": 216077,
+          "eng": 4530,
           "paidEng": 0,
-          "orgEng": 4472,
-          "er": 2.13,
+          "orgEng": 4530,
+          "er": 2.1,
           "cpm": 6.25,
           "spend": 1071.31,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 80060,
+          "impr": 87389,
           "paidImpr": 49798,
-          "orgImpr": 18288,
-          "views": 3814,
-          "eng": 218,
+          "orgImpr": 19283,
+          "views": 4809,
+          "eng": 232,
           "paidEng": 169,
-          "orgEng": 49,
+          "orgEng": 63,
           "er": 0.27,
           "cpm": 2.01,
           "spend": 100.0,
-          "posts": 4
+          "posts": 5
         },
         {
           "name": "YouTube Shorts",
@@ -13287,7 +13287,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.48,
           "cpm": 1.64,
           "spend": 100.02,
-          "posts": 2
+          "posts": 3
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 33697,
+          "paidImpr": 0,
+          "orgImpr": 33697,
+          "views": 12545,
+          "eng": 743,
+          "paidEng": 0,
+          "orgEng": 743,
+          "er": 2.2,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 3
         },
         {
           "name": "YouTube Pre-roll",
@@ -13305,34 +13320,19 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 1
         },
         {
-          "name": "LinkedIn",
-          "distKind": "organic",
-          "impr": 28649,
-          "paidImpr": 0,
-          "orgImpr": 28649,
-          "views": 11283,
-          "eng": 620,
-          "paidEng": 0,
-          "orgEng": 620,
-          "er": 2.16,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 2
-        },
-        {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 970,
+          "impr": 1425,
           "paidImpr": 0,
-          "orgImpr": 970,
-          "views": 970,
-          "eng": 36,
+          "orgImpr": 1425,
+          "views": 1425,
+          "eng": 58,
           "paidEng": 0,
-          "orgEng": 36,
-          "er": 3.71,
+          "orgEng": 58,
+          "er": 4.07,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         }
       ],
       "posts": [
@@ -13545,6 +13545,81 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7669906121053719821",
           "postedAt": "2026-08-03T13:33:21-07:00"
+        },
+        {
+          "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d  Former NFL wi",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7329,
+          "paidImpr": 0,
+          "orgImpr": 7329,
+          "views": 995,
+          "eng": 14,
+          "er": 0.19,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2085101033051533572",
+          "postedAt": "2026-08-05T13:30:00-07:00"
+        },
+        {
+          "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d \u00a0 Former NFL w",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 455,
+          "paidImpr": 0,
+          "orgImpr": 455,
+          "views": 455,
+          "eng": 22,
+          "er": 4.84,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7670647518274866445",
+          "postedAt": "2026-08-05T13:30:01-07:00"
+        },
+        {
+          "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in \\[venture capital deals\\].\u201d  Former Nati",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 5048,
+          "paidImpr": 0,
+          "orgImpr": 5048,
+          "views": 1262,
+          "eng": 123,
+          "er": 2.44,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490850987524435968",
+          "postedAt": "2026-08-05T13:30:02-07:00"
+        },
+        {
+          "title": "The relationships between athletes and VC firms",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/Y9JBz4QL51Y",
+          "postedAt": "2026-08-05T13:30:28-07:00"
+        },
+        {
+          "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d\u2060 \u2060 Former NFL ",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 5761,
+          "paidImpr": 0,
+          "orgImpr": 5761,
+          "views": 5761,
+          "eng": 58,
+          "er": 1.01,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DbrDhf-GFsj/",
+          "postedAt": "2026-08-05T14:03:12-07:00"
         }
       ],
       "topPosts": [
@@ -13566,11 +13641,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 3.7% ER on 970 impr."
+          "text": "TikTok leading with 4.1% ER on 1.4K impr."
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 28.6K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 33.7K impr."
         }
       ]
     }
@@ -24873,8 +24948,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1798,
       "views": 1798,
       "reach": 1672,
-      "eng": 48,
-      "er": 2.67,
+      "eng": 49,
+      "er": 2.73,
       "spend": 0,
       "watchTimeMin": 208.6,
       "clicks": null,
@@ -26403,6 +26478,121 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7669906121053719821",
       "postedAt": "2026-08-03T13:33:21-07:00"
+    },
+    {
+      "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d  Former NFL wi",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7329,
+      "paidImpr": 0,
+      "orgImpr": 7329,
+      "views": 995,
+      "reach": 0,
+      "eng": 14,
+      "er": 0.19,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2085101033051533572",
+      "postedAt": "2026-08-05T13:30:00-07:00"
+    },
+    {
+      "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d \u00a0 Former NFL w",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 455,
+      "paidImpr": 0,
+      "orgImpr": 455,
+      "views": 455,
+      "reach": 0,
+      "eng": 22,
+      "er": 4.84,
+      "spend": 0,
+      "watchTimeMin": 37.7,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7670647518274866445",
+      "postedAt": "2026-08-05T13:30:01-07:00"
+    },
+    {
+      "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in \\[venture capital deals\\].\u201d  Former Nati",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5048,
+      "paidImpr": 0,
+      "orgImpr": 5048,
+      "views": 1262,
+      "reach": 0,
+      "eng": 123,
+      "er": 2.44,
+      "spend": 0,
+      "watchTimeMin": 522.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490850987524435968",
+      "postedAt": "2026-08-05T13:30:02-07:00"
+    },
+    {
+      "title": "The relationships between athletes and VC firms",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/Y9JBz4QL51Y",
+      "postedAt": "2026-08-05T13:30:28-07:00"
+    },
+    {
+      "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d\u2060 \u2060 Former NFL ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5761,
+      "paidImpr": 0,
+      "orgImpr": 5761,
+      "views": 5761,
+      "reach": 4425,
+      "eng": 58,
+      "er": 1.01,
+      "spend": 0,
+      "watchTimeMin": 5.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DbrDhf-GFsj/",
+      "postedAt": "2026-08-05T14:03:12-07:00"
     }
   ],
   "spectrum": [
@@ -32329,7 +32519,7 @@ window.POSTS_BY_CAMPAIGN = {
     {
       "title": "",
       "platform": "TikTok",
-      "accountName": "fostonight",
+      "accountName": "Front Office Sports",
       "distKind": "paid",
       "impr": 128407,
       "paidImpr": 128407,
@@ -32445,20 +32635,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "What does it take to build a beach volleyball court in a marina?  About 300 tons of sand.   Here's how @avpbeach made it",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 7217,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 721434,
+      "paidImpr": 714217,
       "orgImpr": 7217,
       "views": 1798,
       "reach": 0,
-      "eng": 61,
-      "er": 0.85,
-      "spend": 0,
+      "eng": 1445,
+      "er": 0.2,
+      "spend": 1598.96,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 2.24,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2082890745183183093",
@@ -32490,7 +32680,7 @@ window.POSTS_BY_CAMPAIGN = {
     {
       "title": "",
       "platform": "TikTok",
-      "accountName": "fostonight",
+      "accountName": "Front Office Sports",
       "distKind": "paid",
       "impr": 240777,
       "paidImpr": 240777,
@@ -32511,26 +32701,26 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-31T18:51:45-07:00"
     },
     {
-      "title": "EHP Stadium Status",
+      "title": "EHP DITL",
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 714217,
-      "paidImpr": 714217,
+      "impr": 110325,
+      "paidImpr": 110325,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 1384,
-      "er": 0.19,
-      "spend": 1598.96,
+      "eng": 157,
+      "er": 0.14,
+      "spend": 224.87,
       "watchTimeMin": null,
       "clicks": 0,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.24,
+      "cpm": 2.04,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": null,
+      "url": "Paid only",
       "postedAt": null
     },
     {
@@ -32553,30 +32743,7 @@ window.POSTS_BY_CAMPAIGN = {
       "cpm": 1.77,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "EHP DITL",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 103266,
-      "paidImpr": 103266,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 149,
-      "er": 0.14,
-      "spend": 208.32,
-      "watchTimeMin": null,
-      "clicks": 0,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.02,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
+      "url": "Paid only",
       "postedAt": null
     }
   ],
@@ -33620,7 +33787,8 @@ window.DATA_HEALTH = {
     "[threem] excluded 1 post(s) via campaign exclude ['1530555005750751']"
   ],
   "msErrors": [],
-  "orphanFiles": []
+  "orphanFiles": [],
+  "potentialDuplicates": []
 };
 
 window.DATA_ARCHIVE = [
@@ -33631,7 +33799,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -33642,7 +33810,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -33653,7 +33821,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -33664,7 +33832,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -33697,7 +33865,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-25",
     "exists": true,
     "postsContributed": 0
   },
@@ -33708,7 +33876,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 0
   },
@@ -33719,7 +33887,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -33730,7 +33898,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "etrade_brandx_meta_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-08-02",
     "exists": true,
     "postsContributed": 2
   },
@@ -33741,7 +33909,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-31",
     "exists": true,
     "postsContributed": 0
   },
@@ -33752,7 +33920,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-31",
     "exists": true,
     "postsContributed": 0
   },
@@ -33763,7 +33931,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 0
   },
@@ -33774,7 +33942,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 3
   },
@@ -33785,7 +33953,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-07",
     "exists": true,
     "postsContributed": 4
   },
@@ -33796,7 +33964,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -33807,7 +33975,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 4
   },
@@ -33818,7 +33986,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -33829,7 +33997,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 0
   },
@@ -33840,7 +34008,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "heineken_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-24",
     "exists": true,
     "postsContributed": 0
   },
@@ -33851,7 +34019,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "heineken_meta_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-15",
     "exists": true,
     "postsContributed": 2
   },
@@ -33862,7 +34030,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -33873,7 +34041,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 1
   },
@@ -33884,7 +34052,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-18",
     "exists": true,
     "postsContributed": 1
   },
@@ -33895,7 +34063,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "betmgm_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-30",
     "exists": true,
     "postsContributed": 1
   },
@@ -33906,7 +34074,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-20",
     "exists": true,
     "postsContributed": 4
   },
@@ -33917,7 +34085,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-30",
     "exists": true,
     "postsContributed": 3
   },
@@ -33928,7 +34096,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 4
   },
@@ -33939,7 +34107,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-06-23",
     "exists": true,
     "postsContributed": 1
   },
@@ -33950,7 +34118,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -33961,7 +34129,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 6
   },
@@ -33972,7 +34140,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -33983,7 +34151,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-01",
     "exists": true,
     "postsContributed": 4
   },
@@ -34016,7 +34184,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_brandx_meta_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-24",
     "exists": true,
     "postsContributed": 2
   },
@@ -34027,7 +34195,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
     "fileSizeKb": 1.4,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-08-02",
     "exists": true,
     "postsContributed": 4
   },
@@ -34038,7 +34206,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "ally_nwsl_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-27",
     "exists": true,
     "postsContributed": 0
   },
@@ -34049,7 +34217,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "dow_lpga_impact_award_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-24",
     "exists": true,
     "postsContributed": 0
   },
@@ -34060,7 +34228,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "dow_lpga_impact_award_x_ads.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-07-24",
     "exists": true,
     "postsContributed": 1
   },
@@ -34084,7 +34252,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.7,
     "lastModified": "2026-08-06",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 2
   },
   {
     "campaignId": "threem",
@@ -34104,7 +34272,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "apollo_gloabl_brandx_meta_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-08-06",
+    "lastModified": "2026-08-02",
     "exists": true,
     "postsContributed": 2
   }
@@ -35209,7 +35377,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.42,
-    "impressions": 22199552,
+    "impressions": 22205313,
     "paidImpressions": 19766606,
     "pctOfTotal": 15.2,
     "mvmCpm": 5.62,
@@ -35219,7 +35387,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.3,
-    "impressions": 19164647,
+    "impressions": 19165102,
     "paidImpressions": 15242522,
     "pctOfTotal": 13.1,
     "mvmCpm": 2.24,
@@ -35229,8 +35397,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 16707513,
-    "paidImpressions": 14956740,
+    "impressions": 16721901,
+    "paidImpressions": 14963799,
     "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 68.5,
@@ -35259,7 +35427,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1521765,
+    "impressions": 1526813,
     "paidImpressions": 0,
     "pctOfTotal": 1.0,
     "mvmCpm": null,

@@ -1208,6 +1208,16 @@ campaigns:
     color: ft-4
     lead_format: Paid Social
     blurb: "Three videos supporting AVP's Hampton's event at EHP."
+    # The X ad "EHP Stadium Status" boosts the same tweet as the organic MS post
+    # ("What does it take to build a beach volleyball court…", tweet
+    # 2082890745183183093) — pair them so they show as one organic+boosted row
+    # instead of a separate organic post + paid post.
+    x_ads_pairings:
+      "EHP Stadium Status": "2082890745183183093"
+    # The paid TikToks run from @fos main but share an ad account with FOS
+    # Tonight, so Measure attributes them to "fostonight". Relabel to @fos.
+    account_overrides:
+      fostonight: "Front Office Sports"
     sources:
       youtube_paid:
         - ehp_avp_yt_paid.csv

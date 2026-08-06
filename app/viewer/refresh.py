@@ -354,6 +354,20 @@ def main() -> int:
             base.post_groups = sorted({g for p in bucket for g in (p.post_groups or [])})
             posts_by_campaign[c_id] = rest + [base]
 
+        # Account-name overrides: relabel a post's displayed account (e.g. a
+        # paid TikTok that Measure attributes to a shared ad account "fostonight"
+        # but actually ran from @fos main). Case-insensitive match on the current
+        # account name.
+        _acct_overrides = {
+            str(k).strip().lower(): str(v)
+            for k, v in (c.get("account_overrides") or {}).items()
+        }
+        if _acct_overrides:
+            for _p in posts_by_campaign[c_id]:
+                _an = (getattr(_p, "account_name", None) or "").strip().lower()
+                if _an in _acct_overrides:
+                    _p.account_name = _acct_overrides[_an]
+
         x_pairings = c.get("x_ads_pairings") or {}
         posts_by_campaign[c_id] = _merge_x_ads_spend_into_ms(posts_by_campaign[c_id], manual_pairings=x_pairings)
         posts_by_campaign[c_id] = _merge_youtube_paid_spend_into_ms(
@@ -968,10 +982,42 @@ def main() -> int:
         except Exception as e:
             parse_warnings.append(f"could not list MS groups for picker: {e}")
 
+    # ---------- Potential double-count detection ----------
+    # Uploading an ad export (Meta/TikTok/X/YT) whose posts ALSO live in the
+    # campaign's Measure group double-counts them — exactly what happened when a
+    # 3M Meta export landed on top of Measure. Flag any campaign where the SAME
+    # platform + content appears from BOTH a Measure-sourced post and an
+    # unmerged ad-export post (truly-dark posts have no MS twin, so they don't
+    # trip this; correctly-merged posts collapse to one Measure-sourced row).
+    _AD_EXPORT_SOURCES = {
+        Source.META_ADS, Source.TIKTOK_ADS, Source.X_ADS,
+        Source.YOUTUBE_PAID, Source.GOOGLE_ADS_CAMPAIGN, Source.LINKEDIN_ADS,
+    }
+    potential_duplicates: list[str] = []
+    for c in cfg["campaigns"]:
+        _cid = c["id"]
+        _by_key: dict[tuple, list] = defaultdict(list)
+        for p in posts_by_campaign.get(_cid, []):
+            _txt = (getattr(p, "post_title", None) or getattr(p, "post_description", None) or "").strip().lower()
+            if len(_txt) < 12:
+                continue  # too little text to match reliably (blank dark posts)
+            _plat = getattr(getattr(p, "platform", None), "value", "") or ""
+            _by_key[(_plat, _txt[:40])].append(p)
+        for (_plat, _t), grp in _by_key.items():
+            if len(grp) < 2:
+                continue
+            _srcs = {getattr(p, "source", None) for p in grp}
+            if Source.MEASURE_STUDIO in _srcs and (_srcs & _AD_EXPORT_SOURCES):
+                potential_duplicates.append(
+                    f"[{_cid}] possible double-count on {_plat}: “{_t[:34]}…” appears from "
+                    f"both Measure and an ad export — the upload may be duplicating Measure."
+                )
+
     data_health = {
         "generated_warnings": list(parse_warnings),
         "ms_errors": list(ms_fetch_errors),
         "orphan_files": orphan_files,
+        "potential_duplicates": potential_duplicates,
     }
 
     out_path = write_data_js(

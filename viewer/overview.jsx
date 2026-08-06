@@ -14,13 +14,14 @@ function HealthBanner() {
   const warns = dh.generatedWarnings || [];
   const orphans = dh.orphanFiles || [];
   const msErrors = dh.msErrors || [];
+  const duplicates = dh.potentialDuplicates || [];
 
   // Classify the free-text warnings. "excluded N posts" is normal/expected —
   // don't alarm on it. "SKIPPED" = a campaign fell out of the dashboard.
   const skipped = warns.filter(w => /SKIPPED/i.test(w));
   const missing = warns.filter(w => /missing .*file/i.test(w));
 
-  const critical = skipped.length + msErrors.length;
+  const critical = skipped.length + msErrors.length + duplicates.length;
   const attention = orphans.length + missing.length;
   const total = critical + attention;
   if (total === 0) return null;
@@ -56,6 +57,8 @@ function HealthBanner() {
           <div style={{marginTop:6, borderTop:'1px solid var(--line)', paddingTop:6}}>
             <Row label="Campaigns dropped (config error)" items={skipped}
                  hint="These campaigns hit a config error and were left off the dashboard. Fix the config to bring them back."/>
+            <Row label="Possible double-counts" items={duplicates}
+                 hint="An uploaded export looks like it overlaps posts already tracked in Measure — the totals may be inflated. Remove the duplicate upload (or confirm the posts really are distinct)."/>
             <Row label="Measure Studio errors" items={msErrors}
                  hint="Data is incomplete for these — re-run the refresh, or upload a manual CSV."/>
             <Row label="Uploaded files not being used" items={orphans}

@@ -76,9 +76,14 @@ def _parse_native(df: pd.DataFrame) -> list[NormalizedPost]:
         # impression-count guessing needed). X Ads exports use either
         # "Original Tweet URL" (one variant) or "Post Link" (another) — accept
         # whichever is present.
-        tweet_url = (raw.get("Original Tweet URL")
-                     or raw.get("Post Link")
-                     or "").strip()
+        # X exports vary the URL column casing ("Post Link" vs "Post link") and
+        # sometimes use "Original Tweet URL" — accept any, case-insensitively.
+        tweet_url = ""
+        for _k, _v in raw.items():
+            if str(_k).strip().lower() in ("original tweet url", "post link", "post url"):
+                tweet_url = str(_v or "").strip()
+                if tweet_url:
+                    break
         tweet_id = _extract_tweet_id(tweet_url) if tweet_url else None
 
         # Link clicks drive Clicks/CTR/CPC. X's own "CTR" column is unreliable
