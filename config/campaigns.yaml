@@ -1358,5 +1358,7 @@ campaigns:
     lead_format: Social Video
     blurb: Interviews from the FOS Event with State Street.
     sources:
+      youtube_paid:
+        - ssim_wnba_allstar_event_yt_paid.csv
       measure_studio_group_ids:
         - 8401
