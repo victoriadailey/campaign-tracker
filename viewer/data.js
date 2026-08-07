@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-07T16:51:44Z";
+window.LAST_REFRESHED = "2026-08-07T19:40:50Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-08-03T17:20:13Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1152,7 +1152,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1415,7 +1415,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1522,7 +1522,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1677,7 +1677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1832,7 +1832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2229,7 +2229,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2377,7 +2377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2579,7 +2579,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2855,7 +2855,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3246,7 +3246,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3572,7 +3572,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3694,7 +3694,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3833,7 +3833,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4059,7 +4059,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4141,23 +4141,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 191718,
+      "delivered": 259921,
       "goal": 2750000
     },
     "budget": {
-      "delivered": 496.99,
+      "delivered": 673.27,
       "goal": 8500.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 6.1,
-    "cpm": 3.34,
+    "er": 7.2,
+    "cpm": 3.22,
     "episodes": 0,
-    "posts": 6,
+    "posts": 9,
     "blurb": "Interviews from the FOS Event with State Street.",
-    "views": 42061,
-    "engagements": 11616,
+    "views": 49885,
+    "engagements": 18595,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
     "lifecycle": "active",
@@ -4165,12 +4165,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 76544,
-        "eng": 8519,
-        "er": 11.13,
-        "cpm": 3.3,
+        "impressions": 136923,
+        "eng": 15285,
+        "er": 11.16,
+        "cpm": 3.13,
         "color": "#FF0033",
-        "delta": -44.4,
+        "delta": -44.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -4197,18 +4197,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 28962,
-        "eng": 2564,
-        "er": 8.85,
+        "impressions": 35562,
+        "eng": 2698,
+        "er": 7.59,
         "cpm": 8.09,
         "color": "#E4405F",
-        "delta": 167.5,
+        "delta": 129.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 16096,
-        "views": 28962
+        "organicImpressions": 22696,
+        "views": 35562
       },
       {
         "name": "LinkedIn",
@@ -4241,6 +4241,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 4814,
         "views": 4814
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 1224,
+        "eng": 79,
+        "er": 6.45,
+        "cpm": 0.0,
+        "color": "#000000",
+        "delta": 217.9,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 1224,
+        "views": 1224
       }
     ],
     "topPosts": [
@@ -4261,8 +4277,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-08-04T10:33:07-07:00"
       },
       {
-        "id": "urn:li:ugcPost:7490459014665949184",
+        "id": "7671066058530327822",
         "rank": 2,
+        "partner": "State Street",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "\"We're going to become more European\" Now with the CBA signed, what's NEXT for the WNBA? We spoke\u2026",
+        "er": 6.45,
+        "eng": 79,
+        "reach": 1224,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://tiktok.com/@frontofficesports/video/7671066058530327822",
+        "postedAt": "2026-08-06T16:34:20-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7490459014665949184",
+        "rank": 3,
         "partner": "State Street",
         "platform": "LinkedIn",
         "format": "Feed video",
@@ -4275,6 +4307,22 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490459014665949184",
         "postedAt": "2026-08-04T13:30:01-07:00"
+      },
+      {
+        "id": "3958071174121006129",
+        "rank": 4,
+        "partner": "State Street",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "\"We're going to become more European\" Now with the CBA signed, what's NEXT for the WNBA? We spoke\u2026",
+        "er": 2.03,
+        "eng": 134,
+        "reach": 6600,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Dbt5MMZMiQx/",
+        "postedAt": "2026-08-06T16:32:55-07:00"
       }
     ],
     "topPostsOrganic": [],
@@ -4282,9 +4330,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "Instagram at 8.8% ER \u2014 2.7\u00d7 the benchmark.",
-        "body": "29K impressions, 3K engagements at 8.8% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-        "meta": "State Street \u00b7 Instagram"
+        "headline": "TikTok post at 6.5% ER \u2014 3.2\u00d7 the benchmark.",
+        "body": "\"\"We're going to become more European\" Now with the CBA signed, what's NEXT for t\u2026\" \u2014 1K reach, 79 engagements (100% organic). Strongest single asset on the campaign and well clear of the TikTok benchmark. Feature it in the partner update.",
+        "meta": "State Street \u00b7 TikTok"
       },
       {
         "tag": "WATCH",
@@ -4297,8 +4345,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-07T16:51:44Z",
-    "lastUpdatedExports": "2026-08-06T19:16:50Z"
+    "lastUpdatedMs": "2026-08-07T19:40:50Z",
+    "lastUpdatedExports": "2026-08-07T19:39:34Z"
   }
 ];
 
@@ -4536,9 +4584,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 90300891,
-    "eng": 1670710,
-    "er": 1.85,
+    "impressions": 90361270,
+    "eng": 1677476,
+    "er": 1.86,
     "cpm": 1.04,
     "color": "#E00922",
     "delta": -90.7,
@@ -4568,9 +4616,9 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24185138,
-    "eng": 296262,
-    "er": 1.22,
+    "impressions": 24191738,
+    "eng": 296396,
+    "er": 1.23,
     "cpm": 4.41,
     "color": "#E4405F",
     "delta": -63.0,
@@ -4579,13 +4627,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24185138
+    "views": 24191738
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 20645412,
-    "eng": 52047,
+    "impressions": 20646636,
+    "eng": 52126,
     "er": 0.25,
     "cpm": 2.29,
     "color": "#000000",
@@ -4595,7 +4643,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 20445857
+    "views": 20447081
   },
   {
     "name": "Facebook",
@@ -33293,19 +33341,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 76544,
-      "paidImpr": 76544,
+      "impr": 136923,
+      "paidImpr": 136923,
       "orgImpr": 0,
       "views": 736,
       "reach": 0,
-      "eng": 8519,
-      "er": 11.13,
-      "spend": 252.89,
+      "eng": 15285,
+      "er": 11.16,
+      "spend": 429.17,
       "watchTimeMin": 169.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.3,
+      "cpm": 3.13,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/HbYU_ZnIkOM",
@@ -33379,6 +33427,75 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490459014665949184",
       "postedAt": "2026-08-04T13:30:01-07:00"
+    },
+    {
+      "title": "\"We're going to become more European\"  Now with the CBA signed, what's NEXT for the WNBA?   We spoke to top players & ex",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6600,
+      "paidImpr": 0,
+      "orgImpr": 6600,
+      "views": 6600,
+      "reach": 5256,
+      "eng": 134,
+      "er": 2.03,
+      "spend": 0,
+      "watchTimeMin": 9.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Dbt5MMZMiQx/",
+      "postedAt": "2026-08-06T16:32:55-07:00"
+    },
+    {
+      "title": "\"We're going to become more European\" Now with the CBA signed, what's NEXT for the WNBA?  We spoke to top players & exec",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 1224,
+      "paidImpr": 0,
+      "orgImpr": 1224,
+      "views": 1224,
+      "reach": 0,
+      "eng": 79,
+      "er": 6.45,
+      "spend": 0,
+      "watchTimeMin": 220.4,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7671066058530327822",
+      "postedAt": "2026-08-06T16:34:20-07:00"
+    },
+    {
+      "title": "Bold Predictions for the Future of #WNBA",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/1OR_BWMrY88",
+      "postedAt": "2026-08-06T16:34:50-07:00"
     }
   ]
 };
@@ -35415,7 +35532,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.42,
-    "impressions": 22436525,
+    "impressions": 22443125,
     "paidImpressions": 19992975,
     "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
@@ -35425,7 +35542,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.29,
-    "impressions": 19239553,
+    "impressions": 19240777,
     "paidImpressions": 15304809,
     "pctOfTotal": 13.1,
     "mvmCpm": 2.24,
@@ -35444,9 +35561,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.65,
-    "impressions": 14872240,
-    "paidImpressions": 14704699,
+    "cpm": 2.66,
+    "impressions": 14932619,
+    "paidImpressions": 14765078,
     "pctOfTotal": 10.1,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -17.0,
