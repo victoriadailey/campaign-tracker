@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-10T18:34:10Z";
+window.LAST_REFRESHED = "2026-08-10T18:36:38Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,23 +382,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 34645014,
+      "delivered": 34749200,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 49673.83,
+      "delivered": 49898.76,
       "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 1.8,
-    "cpm": 1.79,
+    "er": 1.7,
+    "cpm": 1.8,
     "episodes": 15,
     "posts": 320,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 10028859,
-    "engagements": 1023255,
+    "engagements": 1023424,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,12 +454,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4176045,
-        "eng": 12006,
-        "er": 0.29,
-        "cpm": 1.21,
+        "impressions": 4280231,
+        "eng": 12175,
+        "er": 0.28,
+        "cpm": 1.24,
         "color": "#1d1d1f",
-        "delta": -68.8,
+        "delta": -69.1,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -824,8 +824,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
-    "lastUpdatedExports": "2026-08-10T18:33:08Z"
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
+    "lastUpdatedExports": "2026-08-10T18:33:09Z"
   },
   {
     "id": "spectrum",
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1423,7 +1423,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1530,7 +1530,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1685,7 +1685,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1840,7 +1840,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2237,7 +2237,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2385,7 +2385,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2587,7 +2587,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2863,7 +2863,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3254,7 +3254,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3580,7 +3580,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3702,7 +3702,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3841,7 +3841,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4067,7 +4067,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4337,7 +4337,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-10T18:34:09Z",
+    "lastUpdatedMs": "2026-08-10T18:36:38Z",
     "lastUpdatedExports": "2026-08-07T19:39:35Z"
   }
 ];
@@ -4592,12 +4592,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 27845764,
-    "eng": 680996,
-    "er": 2.45,
+    "impressions": 27949950,
+    "eng": 681165,
+    "er": 2.44,
     "cpm": 1.57,
     "color": "#1d1d1f",
-    "delta": 165.8,
+    "delta": 164.9,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -13269,11 +13269,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Marques Colston",
       "date": "Jul 28",
       "total": {
-        "impr": 1901007,
+        "impr": 2005193,
         "views": 390305,
-        "er": 1.05,
-        "eng": 55669,
-        "spend": 3135.02
+        "er": 1.01,
+        "eng": 55838,
+        "spend": 3359.95
       },
       "perChannel": [
         {
@@ -13307,6 +13307,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 3
         },
         {
+          "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 192895,
+          "paidImpr": 153984,
+          "orgImpr": 36320,
+          "views": 5077,
+          "eng": 428,
+          "paidEng": 338,
+          "orgEng": 90,
+          "er": 0.22,
+          "cpm": 2.11,
+          "spend": 324.93,
+          "posts": 5
+        },
+        {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
           "impr": 90479,
@@ -13320,21 +13335,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 3.23,
           "spend": 285.56,
           "posts": 3
-        },
-        {
-          "name": "X",
-          "distKind": "organic+boosted",
-          "impr": 88709,
-          "paidImpr": 49798,
-          "orgImpr": 19551,
-          "views": 5077,
-          "eng": 259,
-          "paidEng": 169,
-          "orgEng": 90,
-          "er": 0.29,
-          "cpm": 2.01,
-          "spend": 100.0,
-          "posts": 5
         },
         {
           "name": "YouTube Pre-roll",
@@ -13567,14 +13567,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 11186,
-          "paidImpr": 0,
+          "distKind": "organic+boosted",
+          "impr": 55552,
+          "paidImpr": 44366,
           "orgImpr": 11186,
           "views": 1759,
-          "eng": 36,
-          "er": 0.32,
-          "spend": 0,
+          "eng": 126,
+          "er": 0.23,
+          "spend": 99.93,
           "url": "https://twitter.com/FOS/status/2084376258108944495",
           "postedAt": "2026-08-03T13:30:00-07:00"
         },
@@ -13597,14 +13597,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d  Former NFL wi",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 8600,
-          "paidImpr": 0,
+          "distKind": "organic+boosted",
+          "impr": 68420,
+          "paidImpr": 59820,
           "orgImpr": 8600,
           "views": 1258,
-          "eng": 25,
-          "er": 0.29,
-          "spend": 0,
+          "eng": 104,
+          "er": 0.15,
+          "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2085101033051533572",
           "postedAt": "2026-08-05T13:30:00-07:00"
         },
@@ -26484,20 +26484,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 11186,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 55552,
+      "paidImpr": 44366,
       "orgImpr": 11186,
       "views": 1759,
       "reach": 0,
-      "eng": 36,
-      "er": 0.32,
-      "spend": 0,
+      "eng": 126,
+      "er": 0.23,
+      "spend": 99.93,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 2.25,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2084376258108944495",
@@ -26530,20 +26530,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d  Former NFL wi",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 8600,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 68420,
+      "paidImpr": 59820,
       "orgImpr": 8600,
       "views": 1258,
       "reach": 0,
-      "eng": 25,
-      "er": 0.29,
-      "spend": 0,
+      "eng": 104,
+      "er": 0.15,
+      "spend": 125.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 2.09,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2085101033051533572",
@@ -33978,7 +33978,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 7.1,
+    "fileSizeKb": 7.4,
     "lastModified": "2026-08-10",
     "exists": true,
     "postsContributed": 2
@@ -35544,11 +35544,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 16846490,
-    "paidImpressions": 15086989,
+    "impressions": 16950676,
+    "paidImpressions": 15191175,
     "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 68.7,
+    "mvmDeltaPct": 68.8,
     "color": "#1d1d1f"
   },
   {
