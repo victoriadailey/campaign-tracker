@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-11T13:55:35Z";
+window.LAST_REFRESHED = "2026-08-11T20:36:26Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-08-10T18:33:09Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1423,7 +1423,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1530,7 +1530,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1685,7 +1685,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1840,7 +1840,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2237,7 +2237,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2385,7 +2385,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2587,7 +2587,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2863,7 +2863,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3254,7 +3254,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3580,7 +3580,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3702,7 +3702,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3841,7 +3841,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4083,7 +4083,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4165,7 +4165,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1677288,
+      "delivered": 1712551,
       "goal": 2750000
     },
     "budget": {
@@ -4175,13 +4175,13 @@ window.CAMPAIGNS = [
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
-    "er": 4.8,
+    "er": 4.7,
     "cpm": 3.21,
     "episodes": 0,
-    "posts": 10,
+    "posts": 12,
     "blurb": "Interviews from the FOS Event with State Street.",
-    "views": 1500009,
-    "engagements": 80611,
+    "views": 1524063,
+    "engagements": 81075,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
     "lifecycle": "active",
@@ -4221,34 +4221,34 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 258264,
-        "eng": 23745,
-        "er": 9.19,
+        "impressions": 267307,
+        "eng": 24154,
+        "er": 9.04,
         "cpm": 7.94,
         "color": "#E4405F",
-        "delta": 177.8,
+        "delta": 173.0,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 32784,
-        "views": 258264
+        "organicImpressions": 41827,
+        "views": 267307
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 133364,
-        "eng": 339,
+        "impressions": 159584,
+        "eng": 394,
         "er": 0.25,
         "cpm": 2.39,
         "color": "#1d1d1f",
-        "delta": -72.4,
+        "delta": -73.2,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 8042,
-        "views": 1296
+        "organicImpressions": 34262,
+        "views": 16307
       },
       {
         "name": "LinkedIn",
@@ -4317,8 +4317,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-08-06T16:32:55-07:00"
       },
       {
-        "id": "urn:li:ugcPost:7490459014665949184",
+        "id": "3960865759090193450",
         "rank": 3,
+        "partner": "State Street",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "\"We need to stop regarding women's sports as an offshoot of a male counterpart league.\"",
+        "er": 4.52,
+        "eng": 409,
+        "reach": 9043,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Db30mwdlDQq/",
+        "postedAt": "2026-08-10T13:03:14-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7490459014665949184",
+        "rank": 4,
         "partner": "State Street",
         "platform": "LinkedIn",
         "format": "Feed video",
@@ -4382,7 +4398,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-11T13:55:35Z",
+    "lastUpdatedMs": "2026-08-11T20:36:26Z",
     "lastUpdatedExports": "2026-08-10T19:15:36Z"
   }
 ];
@@ -4637,24 +4653,24 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 27952184,
-    "eng": 681184,
-    "er": 2.44,
+    "impressions": 27978404,
+    "eng": 681239,
+    "er": 2.43,
     "cpm": 1.57,
     "color": "#1d1d1f",
-    "delta": 164.9,
+    "delta": 164.7,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 433397
+    "views": 448408
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24614477,
-    "eng": 320682,
+    "impressions": 24623520,
+    "eng": 321091,
     "er": 1.3,
     "cpm": 4.46,
     "color": "#E4405F",
@@ -4664,7 +4680,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24614477
+    "views": 24623520
   },
   {
     "name": "TikTok",
@@ -33563,6 +33579,52 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/1OR_BWMrY88",
       "postedAt": "2026-08-06T16:34:50-07:00"
+    },
+    {
+      "title": "\"We need to stop regarding women's sports as an offshoot of a male counterpart league.\"",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 26220,
+      "paidImpr": 0,
+      "orgImpr": 26220,
+      "views": 15011,
+      "reach": 0,
+      "eng": 55,
+      "er": 0.21,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2086905427845886016",
+      "postedAt": "2026-08-10T13:00:01-07:00"
+    },
+    {
+      "title": "\"We need to stop regarding women's sports as an offshoot of a male counterpart league.\"",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 9043,
+      "paidImpr": 0,
+      "orgImpr": 9043,
+      "views": 9043,
+      "reach": 6895,
+      "eng": 409,
+      "er": 4.52,
+      "spend": 0,
+      "watchTimeMin": 13.7,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Db30mwdlDQq/",
+      "postedAt": "2026-08-10T13:03:14-07:00"
     }
   ]
 };
@@ -33978,6 +34040,10 @@ window.MS_GROUPS = [
   {
     "id": 6035,
     "name": "Toyota Winter Olympics"
+  },
+  {
+    "id": 8514,
+    "name": "UBS - Huddle in the Hamptons 2026"
   }
 ];
 
@@ -35599,7 +35665,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.46,
-    "impressions": 22865848,
+    "impressions": 22874891,
     "paidImpressions": 20396833,
     "pctOfTotal": 15.4,
     "mvmCpm": 5.62,
@@ -35619,7 +35685,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.09,
-    "impressions": 16952910,
+    "impressions": 16979130,
     "paidImpressions": 15193307,
     "pctOfTotal": 11.4,
     "mvmCpm": 1.24,
