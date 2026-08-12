@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-12T14:10:15Z";
+window.LAST_REFRESHED = "2026-08-12T14:18:13Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-08-12T13:22:26Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1423,7 +1423,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1530,7 +1530,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1685,7 +1685,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1840,7 +1840,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:12Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2237,7 +2237,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2385,7 +2385,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2587,7 +2587,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2863,7 +2863,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3254,7 +3254,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3580,7 +3580,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3702,7 +3702,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3841,7 +3841,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4083,7 +4083,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4165,11 +4165,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2086386,
+      "delivered": 2086387,
       "goal": 2750000
     },
     "budget": {
-      "delivered": 4915.02,
+      "delivered": 4915.03,
       "goal": 8500.0
     },
     "color": "ft-1",
@@ -4205,7 +4205,7 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 571067,
+        "impressions": 571068,
         "eng": 68925,
         "er": 12.07,
         "cpm": 2.82,
@@ -4398,8 +4398,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:10:14Z",
-    "lastUpdatedExports": "2026-08-12T14:08:31Z"
+    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedExports": "2026-08-12T14:16:31Z"
   }
 ];
 
@@ -4637,7 +4637,7 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 91279906,
+    "impressions": 91279907,
     "eng": 1736662,
     "er": 1.9,
     "cpm": 1.04,
@@ -33562,14 +33562,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 292204,
-      "paidImpr": 291107,
+      "impr": 292205,
+      "paidImpr": 291108,
       "orgImpr": 1097,
       "views": 154174,
       "reach": 0,
       "eng": 34157,
       "er": 11.69,
-      "spend": 802.75,
+      "spend": 802.76,
       "watchTimeMin": 19018.0,
       "clicks": null,
       "ctr": 0.0,
@@ -35695,8 +35695,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.67,
-    "impressions": 15398992,
-    "paidImpressions": 15226954,
+    "impressions": 15398993,
+    "paidImpressions": 15226955,
     "pctOfTotal": 10.3,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -16.7,
