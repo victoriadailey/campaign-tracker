@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-12T14:18:13Z";
+window.LAST_REFRESHED = "2026-08-12T14:56:45Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:44Z",
     "lastUpdatedExports": "2026-08-12T13:22:26Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:44Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1160,7 +1160,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:44Z",
     "lastUpdatedExports": "2026-07-31T20:19:39Z"
   },
   {
@@ -1423,7 +1423,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:44Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1530,7 +1530,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:44Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1685,7 +1685,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1840,7 +1840,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:18:12Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2237,7 +2237,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2385,7 +2385,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2587,7 +2587,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2863,7 +2863,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3254,7 +3254,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3580,7 +3580,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3702,7 +3702,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3841,7 +3841,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4083,7 +4083,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4398,8 +4398,132 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-12T14:18:13Z",
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
     "lastUpdatedExports": "2026-08-12T14:16:31Z"
+  },
+  {
+    "id": "ubs_huddleinthehamptons",
+    "partner": "UBS",
+    "series": "UBS x Huddle",
+    "seriesItalic": "Huddle",
+    "type": "social",
+    "flight": "Aug 10 \u2014 Aug 31, 2026",
+    "elapsedPct": 9.5,
+    "daysLeft": 19,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 12157,
+      "goal": 750000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 2500.0
+    },
+    "color": "ft-8",
+    "leadFormat": "Social Video",
+    "topChannel": "LinkedIn",
+    "er": 2.7,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 3,
+    "blurb": "Panel cutdowns from Huddle in the Hamptons Event",
+    "views": 7532,
+    "engagements": 332,
+    "goalSplit": [],
+    "benchmarkCategory": "FOS Event - Custom Social",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 6804,
+        "eng": 224,
+        "er": 3.29,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -12.4,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 6804,
+        "views": 2179
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 5353,
+        "eng": 108,
+        "er": 2.02,
+        "cpm": 0.0,
+        "color": "#E4405F",
+        "delta": -39.0,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 5353,
+        "views": 5353
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 0,
+        "eng": 0,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -100.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 0,
+        "views": 0
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "urn:li:ugcPost:7492985240718671872",
+        "rank": 1,
+        "partner": "UBS",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "Former National Football League \\(NFL\\) player and Head of Sports & Entertainment at UBS, Adewale\u2026",
+        "er": 3.29,
+        "eng": 224,
+        "reach": 2179,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7492985240718671872",
+        "postedAt": "2026-08-11T13:30:01-07:00"
+      },
+      {
+        "id": "3961562239501146108",
+        "rank": 2,
+        "partner": "UBS",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Former NFL player and Head of Sports & Entertainment at UBS, Adewale Ogunleye, highlights how he\u2026",
+        "er": 2.02,
+        "eng": 108,
+        "reach": 5353,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Db6S94ZERf8/",
+        "postedAt": "2026-08-11T12:07:05-07:00"
+      }
+    ],
+    "topPostsOrganic": [],
+    "callouts": [],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-08-12T14:56:45Z",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -4669,8 +4793,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24644111,
-    "eng": 322543,
+    "impressions": 24649464,
+    "eng": 322651,
     "er": 1.31,
     "cpm": 4.46,
     "color": "#E4405F",
@@ -4680,7 +4804,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24644111
+    "views": 24649464
   },
   {
     "name": "TikTok",
@@ -4717,8 +4841,8 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2922041,
-    "eng": 105816,
+    "impressions": 2928845,
+    "eng": 106040,
     "er": 3.62,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -4728,7 +4852,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 743403
+    "views": 745582
   },
   {
     "name": "Snapchat",
@@ -18123,7 +18247,8 @@ window.EPISODES_BY_CAMPAIGN = {
     }
   ],
   "apollo_gloabl_brandx": [],
-  "ssim_wnba_allstar_event": []
+  "ssim_wnba_allstar_event": [],
+  "ubs_huddleinthehamptons": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -33626,6 +33751,77 @@ window.POSTS_BY_CAMPAIGN = {
       "url": "https://www.instagram.com/p/Db30mwdlDQq/",
       "postedAt": "2026-08-10T13:03:14-07:00"
     }
+  ],
+  "ubs_huddleinthehamptons": [
+    {
+      "title": "Former NFL player and Head of Sports & Entertainment at UBS, Adewale Ogunleye, highlights how he was able to transition ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5353,
+      "paidImpr": 0,
+      "orgImpr": 5353,
+      "views": 5353,
+      "reach": 3941,
+      "eng": 108,
+      "er": 2.02,
+      "spend": 0,
+      "watchTimeMin": 8.2,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Db6S94ZERf8/",
+      "postedAt": "2026-08-11T12:07:05-07:00"
+    },
+    {
+      "title": "Former National Football League \\(NFL\\) player and Head of Sports & Entertainment at UBS, Adewale Ogunleye, highlights h",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6804,
+      "paidImpr": 0,
+      "orgImpr": 6804,
+      "views": 2179,
+      "reach": 0,
+      "eng": 224,
+      "er": 3.29,
+      "spend": 0,
+      "watchTimeMin": 510.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7492985240718671872",
+      "postedAt": "2026-08-11T13:30:01-07:00"
+    },
+    {
+      "title": "How former NFL player Adewale Ogunleye transitioned from the NFL to corporate America",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/q-LSvWvFkpA",
+      "postedAt": "2026-08-11T13:30:36-07:00"
+    }
   ]
 };
 
@@ -33857,7 +34053,8 @@ window.UPLOAD_TARGETS = {
       "file": "ssim_wnba_allstar_event_x_ads.csv",
       "label": "X Ads"
     }
-  ]
+  ],
+  "ubs_huddleinthehamptons": []
 };
 
 window.MS_GROUPS = [
@@ -35665,7 +35862,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.47,
-    "impressions": 22895479,
+    "impressions": 22900832,
     "paidImpressions": 20411856,
     "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
@@ -35715,7 +35912,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2297458,
+    "impressions": 2304262,
     "paidImpressions": 0,
     "pctOfTotal": 1.5,
     "mvmCpm": null,
