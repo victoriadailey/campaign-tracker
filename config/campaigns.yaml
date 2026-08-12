@@ -515,10 +515,12 @@ campaigns:
     # fire on the secondary; it just gets surfaced in the page subheader).
     brandx_objective: awareness
     brandx_secondary_objective: clicks
+    # Exports-only: the Meta ad export is the authoritative source for this
+    # BrandX campaign. Measure (group 7445) is intentionally NOT used — it
+    # under/over-reports the dark performance ads, so we read the export alone.
     sources:
       meta_ads:
         - etrade_brandx_meta_ads.csv
-      measure_studio_group_id: 7445  # Portfolio Players S3 - BrandX
 
   - id: mm
     partner: Morgan & Morgan

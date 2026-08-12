@@ -291,16 +291,12 @@ def rollup_campaign(
         goal_spend = sum((p.ad_spend or 0) for p in posts)
     else:
         goal_spend = sum((p.ad_spend or 0) for p in posts if not _is_added_value(p))
-    # ER: total eng ÷ total impressions across all posts, EXCLUDING YT Pre-roll
-    # (its eng/impr is a watch-progress metric, not social engagement — see
-    # `_is_yt_preroll_post`). Pre-roll's impr and eng are still in the headline
-    # counts above, but ER reflects only social-comparable engagement.
-    er_eng = sum(
-        (p.engagements_total or p.engagements_paid or 0)
-        for p in posts if not _is_yt_preroll_post(p)
-    )
-    er_impr = sum(_pick_impressions(p) or 0 for p in posts if not _is_yt_preroll_post(p))
-    er = (er_eng / er_impr * 100) if er_impr else 0.0
+    # ER: total eng ÷ total impressions across ALL posts (pre-roll included), so
+    # the headline ER reconciles with the per-post table's TOTAL row — which
+    # sums every post's eng/impr. (Pre-roll was previously excluded here to keep
+    # ER "social-comparable", but that made the top-line ER disagree with the
+    # table total, since pre-roll's engagements are in total_engagements.)
+    er = (total_engagements / total_impressions * 100) if total_impressions else 0.0
     paid_impressions = sum(p.impressions_paid or 0 for p in posts)
     cpm = (total_spend / paid_impressions * 1000) if paid_impressions else 0.0
 
@@ -369,7 +365,9 @@ def rollup_campaign(
         color=config.color,
         lead_format=config.lead_format,
         top_channel=PLATFORM_DISPLAY.get(top_channel, top_channel.title()),
-        er=round(er, 1),
+        # 2 decimals so the headline ER matches the per-post table's TOTAL row
+        # (which renders .toFixed(2)); both now use the same all-posts formula.
+        er=round(er, 2),
         cpm=round(cpm, 2),
         episodes=0,
         posts=len(posts),
