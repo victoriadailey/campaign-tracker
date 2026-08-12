@@ -1364,3 +1364,21 @@ campaigns:
         - ssim_wnba_allstar_event_yt_paid.csv
       measure_studio_group_ids:
         - 8401
+
+  - id: ubs_huddleinthehamptons
+    partner: UBS
+    series: UBS x Huddle
+    series_italic: Huddle
+    type: social
+    benchmark_category: "FOS Event - Custom Social"
+    lifecycle: active
+    flight_start: 2026-08-10
+    flight_end: 2026-08-31
+    impression_goal: 750000
+    budget_goal: 2500
+    color: ft-8
+    lead_format: Social Video
+    blurb: Panel cutdowns from Huddle in the Hamptons Event
+    sources:
+      measure_studio_group_ids:
+        - 8514
