@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-13T18:25:34Z";
+window.LAST_REFRESHED = "2026-08-13T18:28:28Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -831,7 +831,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-08-13T18:24:35Z"
   },
   {
@@ -1083,7 +1083,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1414,7 +1414,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1521,7 +1521,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1676,7 +1676,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1831,7 +1831,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2228,7 +2228,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:27Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2376,7 +2376,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2578,7 +2578,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2854,7 +2854,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3237,7 +3237,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3563,7 +3563,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3685,7 +3685,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3824,7 +3824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4066,7 +4066,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4381,7 +4381,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": "2026-08-12T14:16:31Z"
   },
   {
@@ -4513,7 +4513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T18:25:34Z",
+    "lastUpdatedMs": "2026-08-13T18:28:28Z",
     "lastUpdatedExports": ""
   }
 ];
