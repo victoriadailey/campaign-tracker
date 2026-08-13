@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-13T15:42:41Z";
+window.LAST_REFRESHED = "2026-08-13T16:12:58Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 36411746,
+      "delivered": 36540224,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 2.97,
     "cpm": 1.8,
     "episodes": 15,
-    "posts": 320,
+    "posts": 323,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 10057601,
-    "engagements": 1080772,
+    "views": 10073387,
+    "engagements": 1086084,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -470,18 +470,18 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 2921926,
-        "eng": 101331,
-        "er": 3.47,
+        "impressions": 3050404,
+        "eng": 106643,
+        "er": 3.5,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -7.8,
+        "delta": -7.0,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 2921926,
-        "views": 461227
+        "organicImpressions": 3050404,
+        "views": 477013
       },
       {
         "name": "YouTube Shorts",
@@ -694,8 +694,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-01-23T12:59:57-08:00"
       },
       {
-        "id": "urn:li:ugcPost:7430010278588657664",
+        "id": "urn:li:ugcPost:7442307804297752576",
         "rank": 9,
+        "partner": "E*TRADE",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "\"There is so much capital that wants to come into sports right now... it is going to burst.\" Assia\u2026",
+        "er": 4.57,
+        "eng": 1467,
+        "reach": 5025,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576",
+        "postedAt": "2026-03-24T13:34:34-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7430010278588657664",
+        "rank": 10,
         "partner": "E*TRADE",
         "platform": "LinkedIn",
         "format": "Feed video",
@@ -708,22 +724,6 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7430010278588657664",
         "postedAt": "2026-02-18T14:08:41-08:00"
-      },
-      {
-        "id": "7636503981337955615",
-        "rank": 10,
-        "partner": "E*TRADE",
-        "platform": "TikTok",
-        "format": "Reels/Shorts",
-        "quote": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d Former NFL\u2026",
-        "er": 4.43,
-        "eng": 54,
-        "reach": 1218,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://tiktok.com/@frontofficesports/video/7636503981337955615",
-        "postedAt": "2026-05-06T08:00:00-07:00"
       }
     ],
     "topPostsOrganic": [
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-08-12T13:22:26Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:40Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3670,7 +3670,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:41Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3809,7 +3809,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:41Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4051,7 +4051,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T15:42:41Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4366,7 +4366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:41Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": "2026-08-12T14:16:31Z"
   },
   {
@@ -4498,7 +4498,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T15:42:41Z",
+    "lastUpdatedMs": "2026-08-13T16:12:58Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -4817,18 +4817,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 4556635,
-    "eng": 168231,
-    "er": 3.69,
+    "impressions": 4685113,
+    "eng": 173543,
+    "er": 3.7,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -1.8,
+    "delta": -1.5,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 748747
+    "views": 764533
   },
   {
     "name": "Snapchat",
@@ -8754,10 +8754,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Assia Grazioli-Venier on Women's Sports Investment",
       "date": "Apr 11",
       "total": {
-        "impr": 1991881,
-        "views": 343979,
-        "er": 2.32,
-        "eng": 71605,
+        "impr": 2120359,
+        "views": 359765,
+        "er": 2.43,
+        "eng": 76917,
         "spend": 3048.47
       },
       "perChannel": [
@@ -8805,6 +8805,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 5.09,
           "spend": 1497.32,
           "posts": 2
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 128478,
+          "paidImpr": 0,
+          "orgImpr": 128478,
+          "views": 15786,
+          "eng": 5312,
+          "paidEng": 0,
+          "orgEng": 5312,
+          "er": 4.13,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 3
         },
         {
           "name": "YouTube Shorts",
@@ -8884,6 +8899,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-03-13T07:54:38-07:00"
         },
         {
+          "title": "\"There is so much capital that wants to come into sports right now... it is going to burst.\"   Assia Grazioli-Venier of ",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 32129,
+          "paidImpr": 0,
+          "orgImpr": 32129,
+          "views": 5025,
+          "eng": 1467,
+          "er": 4.57,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576",
+          "postedAt": "2026-03-24T13:34:34-07:00"
+        },
+        {
           "title": "Full episode of Portfolio Players with Assia Grazioli-Venier:",
           "platform": "X",
           "accountName": "Front Office Sports",
@@ -8914,6 +8944,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-03-25T13:32:44-07:00"
         },
         {
+          "title": "\"One of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\"  Ass",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 37188,
+          "paidImpr": 0,
+          "orgImpr": 37188,
+          "views": 6307,
+          "eng": 1248,
+          "er": 3.36,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442670613099565056",
+          "postedAt": "2026-03-25T13:36:22-07:00"
+        },
+        {
           "title": "Full conversation with Assia Grazioli-Venier including:  - Why the sports investment bubble will burst - Her Juventus bo",
           "platform": "X",
           "accountName": "Front Office Sports",
@@ -8942,6 +8987,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2037903086207795245",
           "postedAt": "2026-03-28T07:42:12-07:00"
+        },
+        {
+          "title": "The \"experience prerequisite\" in sports ownership has long been a barrier to entry \u2013 especially for women.   \"If you use",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 59161,
+          "paidImpr": 0,
+          "orgImpr": 59161,
+          "views": 4454,
+          "eng": 2597,
+          "er": 4.39,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7445220283348799489",
+          "postedAt": "2026-04-01T14:27:49-07:00"
         },
         {
           "title": "Full conversation with Assia Grazioli-Venier including: - Why the sports investment bubble will burst - Celebrity invest",
@@ -9066,17 +9126,24 @@ window.EPISODES_BY_CAMPAIGN = {
       ],
       "topPosts": [
         {
-          "quote": "\u201cOne of the things that has grown the attention and interest in soccer in this country is ",
-          "platform": "Instagram",
-          "er": 2.88,
-          "reach": 164589,
-          "url": "https://www.instagram.com/p/DWUihYhgXqm/"
+          "quote": "\"There is so much capital that wants to come into sports right now... it is going to burst",
+          "platform": "LinkedIn",
+          "er": 4.57,
+          "reach": 5025,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576"
+        },
+        {
+          "quote": "The \"experience prerequisite\" in sports ownership has long been a barrier to entry \u2013 espec",
+          "platform": "LinkedIn",
+          "er": 4.39,
+          "reach": 4454,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7445220283348799489"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "Instagram leading with 2.0% ER on 320.3K impr."
+          "text": "LinkedIn leading with 4.1% ER on 128.5K impr."
         }
       ]
     },
@@ -21406,6 +21473,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-03-13T07:54:38-07:00"
     },
     {
+      "title": "\"There is so much capital that wants to come into sports right now... it is going to burst.\"   Assia Grazioli-Venier of ",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 32129,
+      "paidImpr": 0,
+      "orgImpr": 32129,
+      "views": 5025,
+      "reach": 0,
+      "eng": 1467,
+      "er": 4.57,
+      "spend": 0,
+      "watchTimeMin": 1214.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576",
+      "postedAt": "2026-03-24T13:34:34-07:00"
+    },
+    {
       "title": "Full episode of Portfolio Players with Assia Grazioli-Venier:",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -21452,6 +21542,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-03-25T13:32:44-07:00"
     },
     {
+      "title": "\"One of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\"  Ass",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 37188,
+      "paidImpr": 0,
+      "orgImpr": 37188,
+      "views": 6307,
+      "reach": 0,
+      "eng": 1248,
+      "er": 3.36,
+      "spend": 0,
+      "watchTimeMin": 1283.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442670613099565056",
+      "postedAt": "2026-03-25T13:36:22-07:00"
+    },
+    {
       "title": "Full conversation with Assia Grazioli-Venier including:  - Why the sports investment bubble will burst - Her Juventus bo",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -21496,6 +21609,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2037903086207795245",
       "postedAt": "2026-03-28T07:42:12-07:00"
+    },
+    {
+      "title": "The \"experience prerequisite\" in sports ownership has long been a barrier to entry \u2013 especially for women.   \"If you use",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 59161,
+      "paidImpr": 0,
+      "orgImpr": 59161,
+      "views": 4454,
+      "reach": 0,
+      "eng": 2597,
+      "er": 4.39,
+      "spend": 0,
+      "watchTimeMin": 571.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7445220283348799489",
+      "postedAt": "2026-04-01T14:27:49-07:00"
     },
     {
       "title": "Full conversation with Assia Grazioli-Venier including: - Why the sports investment bubble will burst - Celebrity invest",
@@ -35308,7 +35444,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.09,
     "impressions": 16991263,
     "paidImpressions": 15193307,
-    "pctOfTotal": 11.6,
+    "pctOfTotal": 11.5,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 68.8,
     "color": "#1d1d1f"
@@ -35336,9 +35472,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 3681147,
+    "impressions": 3809625,
     "paidImpressions": 0,
-    "pctOfTotal": 2.5,
+    "pctOfTotal": 2.6,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
