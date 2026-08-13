@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-13T19:08:20Z";
+window.LAST_REFRESHED = "2026-08-13T19:18:10Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:09Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:09Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:09Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:09Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:09Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-07-27T15:08:52Z"
   },
   {
@@ -3670,7 +3670,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3809,7 +3809,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4051,7 +4051,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4137,14 +4137,14 @@ window.CAMPAIGNS = [
       "goal": 2750000
     },
     "budget": {
-      "delivered": 5033.59,
+      "delivered": 5132.83,
       "goal": 8500.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
     "er": 4.61,
-    "cpm": 3.1,
+    "cpm": 3.09,
     "episodes": 0,
     "posts": 12,
     "blurb": "Interviews from the FOS Event with State Street.",
@@ -4208,14 +4208,14 @@ window.CAMPAIGNS = [
         "impressions": 171571,
         "eng": 480,
         "er": 0.28,
-        "cpm": 2.39,
+        "cpm": 2.45,
         "color": "#1d1d1f",
         "delta": -69.6,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 46249,
+        "organicImpressions": 8897,
         "views": 23498
       },
       {
@@ -4358,16 +4358,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.39 \u2014 2.2\u00d7 the benchmark.",
-        "body": "$2.39 CPM vs. $1.10 FOS benchmark. At 2.2\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $2.45 \u2014 2.2\u00d7 the benchmark.",
+        "body": "$2.45 CPM vs. $1.10 FOS benchmark. At 2.2\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "State Street \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
-    "lastUpdatedExports": "2026-08-13T19:07:13Z"
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
+    "lastUpdatedExports": "2026-08-13T19:07:15Z"
   },
   {
     "id": "ubs_huddleinthehamptons",
@@ -4498,7 +4498,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-13T19:08:20Z",
+    "lastUpdatedMs": "2026-08-13T19:18:10Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -33269,20 +33269,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\"We need to stop regarding women's sports as an offshoot of a male counterpart league.\"",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
+      "distKind": "organic+boosted",
       "impr": 38207,
-      "paidImpr": 0,
-      "orgImpr": 38207,
+      "paidImpr": 37352,
+      "orgImpr": 855,
       "views": 22202,
       "reach": 0,
       "eng": 141,
       "er": 0.37,
-      "spend": 0,
+      "spend": 99.24,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 2.66,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2086905427845886016",
@@ -34316,7 +34316,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "ssim_wnba_allstar_event_x_ads.csv",
-    "fileSizeKb": 0.4,
+    "fileSizeKb": 0.6,
     "lastModified": "2026-08-13",
     "exists": true,
     "postsContributed": 0
@@ -35443,10 +35443,10 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "name": "X",
     "cpm": 2.09,
     "impressions": 16991263,
-    "paidImpressions": 15193307,
+    "paidImpressions": 15230659,
     "pctOfTotal": 11.5,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 68.8,
+    "mvmDeltaPct": 68.9,
     "color": "#1d1d1f"
   },
   {
