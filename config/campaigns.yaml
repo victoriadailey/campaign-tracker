@@ -1382,5 +1382,7 @@ campaigns:
     lead_format: Social Video
     blurb: Panel cutdowns from Huddle in the Hamptons Event
     sources:
+      youtube_paid:
+        - ubs_huddleinthehamptons_yt_paid.csv
       measure_studio_group_ids:
         - 8514
