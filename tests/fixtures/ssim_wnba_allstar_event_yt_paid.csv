@@ -1,5 +1,6 @@
 FOS Reporting
-"January 1, 2026 - August 13, 2026"
+"June 1, 2026 - August 14, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-SSIM: Event - Video 2 (shorts),USD,0,Ended,Video,0.045,"17,993",2.76,"291,090",802.71,"34,079"
-SSIM Event: Nneka Ogwumike - Video 1 (Shorts),USD,0,Ended,Video,0.059,"13,525",2.88,"278,423",802.46,"34,645"
+SSIM: Event - Video 3 (shorts),USD,0,Eligible,Video,0.112,"1,320",3.57,"41,516",148.05,"2,547"
+SSIM Event: Nneka Ogwumike - Video 1 (Shorts),USD,0,Ended,Video,0.059,"13,525",2.88,"278,418",802.45,"34,645"
+SSIM: Event - Video 2 (shorts),USD,0,Ended,Video,0.045,"17,989",2.76,"291,086",802.70,"34,076"
