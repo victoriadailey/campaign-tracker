@@ -1386,3 +1386,21 @@ campaigns:
         - ubs_huddleinthehamptons_yt_paid.csv
       measure_studio_group_ids:
         - 8514
+
+  - id: huntington_bank_2026
+    partner: Huntington Bank
+    series: Huntington Bank x FOS
+    series_italic: FOS
+    type: social
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-08-01
+    flight_end: 2026-09-30
+    impression_goal: 3850000
+    budget_goal: 11225
+    color: ft-1
+    lead_format: Paid Social
+    blurb: "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. "
+    sources:
+      measure_studio_group_ids:
+        - 8532
