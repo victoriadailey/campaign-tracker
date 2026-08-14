@@ -1402,5 +1402,7 @@ campaigns:
     lead_format: Paid Social
     blurb: "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. "
     sources:
+      x_ads:
+        - huntington_bank_2026_x_ads.csv
       measure_studio_group_ids:
         - 8532
