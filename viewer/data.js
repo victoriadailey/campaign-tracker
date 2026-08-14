@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-14T16:44:10Z";
+window.LAST_REFRESHED = "2026-08-14T16:52:31Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:09Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3670,7 +3670,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3809,7 +3809,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4051,7 +4051,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4366,7 +4366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
     "lastUpdatedExports": "2026-08-14T13:28:56Z"
   },
   {
@@ -4378,30 +4378,46 @@ window.CAMPAIGNS = [
     "flight": "Aug 10 \u2014 Aug 31, 2026",
     "elapsedPct": 19.0,
     "daysLeft": 17,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 101292,
+      "delivered": 161423,
       "goal": 750000
     },
     "budget": {
-      "delivered": 278.29,
+      "delivered": 481.47,
       "goal": 2500.0
     },
     "color": "ft-8",
     "leadFormat": "Social Video",
-    "topChannel": "Instagram",
-    "er": 4.81,
-    "cpm": 3.39,
+    "topChannel": "YouTube",
+    "er": 5.94,
+    "cpm": 3.55,
     "episodes": 0,
-    "posts": 3,
+    "posts": 6,
     "blurb": "Panel cutdowns from Huddle in the Hamptons Event",
-    "views": 57842,
-    "engagements": 4875,
+    "views": 62820,
+    "engagements": 9585,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
     "lifecycle": "active",
     "channels": [
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 94509,
+        "eng": 4416,
+        "er": 4.67,
+        "cpm": 2.16,
+        "color": "#FF0033",
+        "delta": -76.6,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 293,
+        "views": 2858
+      },
       {
         "name": "Instagram",
         "italic": "gram",
@@ -4419,36 +4435,20 @@ window.CAMPAIGNS = [
         "views": 51796
       },
       {
-        "name": "YouTube Shorts",
-        "italic": "YouTube Shorts",
-        "impressions": 40871,
-        "eng": 6,
-        "er": 0.01,
-        "cpm": 0.0,
-        "color": "#FF0033",
-        "delta": -99.9,
-        "bench": {
-          "er": 20.0,
-          "cpm": 3.25
-        },
-        "organicImpressions": 293,
-        "views": 711
-      },
-      {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 8625,
-        "eng": 294,
-        "er": 3.41,
+        "impressions": 15118,
+        "eng": 594,
+        "er": 3.93,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -9.3,
+        "delta": 4.5,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 8625,
-        "views": 5335
+        "organicImpressions": 15118,
+        "views": 8166
       }
     ],
     "topPosts": [
@@ -4469,8 +4469,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-08-11T12:07:05-07:00"
       },
       {
-        "id": "urn:li:ugcPost:7492985240718671872",
+        "id": "urn:li:ugcPost:7493397769026547712",
         "rank": 2,
+        "partner": "UBS",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "Former National Football League \\(NFL\\) WR Jarvis Landry tells FOS how he became financially savvy\u2026",
+        "er": 4.62,
+        "eng": 300,
+        "reach": 2831,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493397769026547712",
+        "postedAt": "2026-08-13T13:30:05-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7492985240718671872",
+        "rank": 3,
         "partner": "UBS",
         "platform": "LinkedIn",
         "format": "Feed video",
@@ -4498,8 +4514,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T16:44:10Z",
-    "lastUpdatedExports": ""
+    "lastUpdatedMs": "2026-08-14T16:52:30Z",
+    "lastUpdatedExports": "2026-08-14T16:42:47Z"
   }
 ];
 
@@ -4737,9 +4753,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 91723460,
-    "eng": 1744793,
-    "er": 1.9,
+    "impressions": 91777098,
+    "eng": 1749203,
+    "er": 1.91,
     "cpm": 1.04,
     "color": "#E00922",
     "delta": -90.5,
@@ -4748,7 +4764,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 15368482
+    "views": 15370629
   },
   {
     "name": "X",
@@ -4817,8 +4833,8 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 4763683,
-    "eng": 175867,
+    "impressions": 4770176,
+    "eng": 176167,
     "er": 3.69,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -4828,7 +4844,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 765783
+    "views": 768614
   },
   {
     "name": "Snapchat",
@@ -33433,14 +33449,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 40871,
-      "paidImpr": 40578,
+      "impr": 53931,
+      "paidImpr": 53638,
       "orgImpr": 293,
       "views": 711,
       "reach": 0,
-      "eng": 6,
-      "er": 0.01,
-      "spend": 0,
+      "eng": 4416,
+      "er": 8.19,
+      "spend": 203.18,
       "watchTimeMin": 165.0,
       "clicks": null,
       "ctr": 0.0,
@@ -33450,6 +33466,52 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/q-LSvWvFkpA",
       "postedAt": "2026-08-11T13:30:36-07:00"
+    },
+    {
+      "title": "Former National Football League \\(NFL\\) WR Jarvis Landry tells FOS how he became financially savvy as a pro athlete, pre",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6493,
+      "paidImpr": 0,
+      "orgImpr": 6493,
+      "views": 2831,
+      "reach": 0,
+      "eng": 300,
+      "er": 4.62,
+      "spend": 0,
+      "watchTimeMin": 769.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493397769026547712",
+      "postedAt": "2026-08-13T13:30:05-07:00"
+    },
+    {
+      "title": "How former NFL WR Jarvis Landry become financially savvy",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/z5TO-HAJmcw",
+      "postedAt": "2026-08-13T13:30:37-07:00"
     }
   ]
 };
@@ -33683,7 +33745,12 @@ window.UPLOAD_TARGETS = {
       "label": "X Ads"
     }
   ],
-  "ubs_huddleinthehamptons": []
+  "ubs_huddleinthehamptons": [
+    {
+      "file": "ubs_huddleinthehamptons_yt_paid.csv",
+      "label": "Google Ads"
+    }
+  ]
 };
 
 window.MS_GROUPS = [
@@ -33883,9 +33950,7 @@ window.DATA_HEALTH = {
     "[threem] excluded 1 post(s) via campaign exclude ['1530555005750751']"
   ],
   "msErrors": [],
-  "orphanFiles": [
-    "ubs_huddleinthehamptons_yt_paid.csv"
-  ],
+  "orphanFiles": [],
   "potentialDuplicates": []
 };
 
@@ -34395,6 +34460,17 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-08-14",
     "exists": true,
     "postsContributed": 0
+  },
+  {
+    "campaignId": "ubs_huddleinthehamptons",
+    "partner": "UBS",
+    "sourceKind": "youtube_paid",
+    "sourceLabel": "Google Ads (YT Paid)",
+    "filename": "ubs_huddleinthehamptons_yt_paid.csv",
+    "fileSizeKb": 0.3,
+    "lastModified": "2026-08-14",
+    "exists": true,
+    "postsContributed": 1
   }
 ];
 
@@ -35489,7 +35565,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 61324062,
     "paidImpressions": 60837174,
-    "pctOfTotal": 41.5,
+    "pctOfTotal": 41.4,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 25.7,
     "color": "#E00922"
@@ -35519,19 +35595,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.1,
     "impressions": 17084759,
     "paidImpressions": 15294337,
-    "pctOfTotal": 11.6,
+    "pctOfTotal": 11.5,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 69.0,
     "color": "#1d1d1f"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.61,
-    "impressions": 15840493,
-    "paidImpressions": 15666168,
+    "cpm": 2.62,
+    "impressions": 15894131,
+    "paidImpressions": 15719806,
     "pctOfTotal": 10.7,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -18.3,
+    "mvmDeltaPct": -18.2,
     "color": "#FF0033"
   },
   {
@@ -35547,7 +35623,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 3821489,
+    "impressions": 3827982,
     "paidImpressions": 0,
     "pctOfTotal": 2.6,
     "mvmCpm": null,
