@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-14T17:24:51Z";
+window.LAST_REFRESHED = "2026-08-14T17:28:26Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3670,7 +3670,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3809,7 +3809,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4051,7 +4051,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4366,7 +4366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-08-14T13:28:56Z"
   },
   {
@@ -4514,7 +4514,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
     "lastUpdatedExports": "2026-08-14T16:42:47Z"
   },
   {
@@ -4529,23 +4529,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 224156,
+      "delivered": 269876,
       "goal": 3850000
     },
     "budget": {
-      "delivered": 320.9,
+      "delivered": 437.01,
       "goal": 11225.0
     },
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 1.7,
-    "cpm": 1.43,
+    "er": 1.44,
+    "cpm": 1.62,
     "episodes": 0,
-    "posts": 3,
+    "posts": 4,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
     "views": 164899,
-    "engagements": 3815,
+    "engagements": 3886,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4583,6 +4583,22 @@ window.CAMPAIGNS = [
         "views": 0
       },
       {
+        "name": "X",
+        "italic": "X",
+        "impressions": 45720,
+        "eng": 71,
+        "er": 0.16,
+        "cpm": 2.54,
+        "color": "#1d1d1f",
+        "delta": -83.1,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 0,
+        "views": 0
+      },
+      {
         "name": "Instagram",
         "italic": "gram",
         "impressions": 39174,
@@ -4601,12 +4617,20 @@ window.CAMPAIGNS = [
     ],
     "topPosts": [],
     "topPostsOrganic": [],
-    "callouts": [],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "X CPM at $2.54 \u2014 2.3\u00d7 the benchmark.",
+        "body": "$2.54 CPM vs. $1.10 FOS benchmark. At 2.3\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "meta": "Huntington Bank \u00b7 X"
+      }
+    ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-14T17:24:51Z",
-    "lastUpdatedExports": ""
+    "lastUpdatedMs": "2026-08-14T17:28:26Z",
+    "lastUpdatedExports": "2026-08-14T17:23:45Z"
   }
 ];
 
@@ -4860,12 +4884,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 28084033,
-    "eng": 681623,
-    "er": 2.43,
+    "impressions": 28129753,
+    "eng": 681694,
+    "er": 2.42,
     "cpm": 1.58,
     "color": "#1d1d1f",
-    "delta": 163.8,
+    "delta": 163.4,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -33675,6 +33699,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-08-12T16:02:58-07:00"
+    },
+    {
+      "title": "Huntington Bank: Preston Stout",
+      "platform": "X",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 45720,
+      "paidImpr": 45720,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 71,
+      "er": 0.16,
+      "spend": 116.11,
+      "watchTimeMin": null,
+      "clicks": 0,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 2.54,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "DARK",
+      "postedAt": null
     }
   ]
 };
@@ -33914,7 +33961,12 @@ window.UPLOAD_TARGETS = {
       "label": "Google Ads"
     }
   ],
-  "huntington_bank_2026": []
+  "huntington_bank_2026": [
+    {
+      "file": "huntington_bank_2026_x_ads.csv",
+      "label": "X Ads"
+    }
+  ]
 };
 
 window.MS_GROUPS = [
@@ -34114,9 +34166,7 @@ window.DATA_HEALTH = {
     "[threem] excluded 1 post(s) via campaign exclude ['1530555005750751']"
   ],
   "msErrors": [],
-  "orphanFiles": [
-    "huntington_bank_2026_x_ads.csv"
-  ],
+  "orphanFiles": [],
   "potentialDuplicates": []
 };
 
@@ -34634,6 +34684,17 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "ubs_huddleinthehamptons_yt_paid.csv",
     "fileSizeKb": 0.3,
+    "lastModified": "2026-08-14",
+    "exists": true,
+    "postsContributed": 1
+  },
+  {
+    "campaignId": "huntington_bank_2026",
+    "partner": "Huntington Bank",
+    "sourceKind": "x_ads",
+    "sourceLabel": "X Ads",
+    "filename": "huntington_bank_2026_x_ads.csv",
+    "fileSizeKb": 0.4,
     "lastModified": "2026-08-14",
     "exists": true,
     "postsContributed": 1
@@ -35751,7 +35812,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.26,
     "impressions": 20529534,
     "paidImpressions": 16176279,
-    "pctOfTotal": 13.9,
+    "pctOfTotal": 13.8,
     "mvmCpm": 2.24,
     "mvmDeltaPct": 0.8,
     "color": "#000000"
@@ -35759,11 +35820,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.1,
-    "impressions": 17084759,
-    "paidImpressions": 15294337,
-    "pctOfTotal": 11.5,
+    "impressions": 17130479,
+    "paidImpressions": 15340057,
+    "pctOfTotal": 11.6,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 69.0,
+    "mvmDeltaPct": 69.1,
     "color": "#1d1d1f"
   },
   {
