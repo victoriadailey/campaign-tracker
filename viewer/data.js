@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-17T16:48:23Z";
+window.LAST_REFRESHED = "2026-08-17T19:23:38Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3563,7 +3563,7 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2250922,
+      "delivered": 2274976,
       "goal": 4500000
     },
     "budget": {
@@ -3573,13 +3573,13 @@ window.CAMPAIGNS = [
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
-    "er": 4.75,
+    "er": 4.72,
     "cpm": 2.69,
     "episodes": 0,
-    "posts": 4,
+    "posts": 9,
     "blurb": "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists.",
-    "views": 1724876,
-    "engagements": 107013,
+    "views": 1739129,
+    "engagements": 107351,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3587,76 +3587,125 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 717660,
-        "eng": 268,
+        "impressions": 718687,
+        "eng": 294,
         "er": 0.04,
         "cpm": 2.2,
         "color": "#000000",
-        "delta": -98.2,
+        "delta": -98.0,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 0,
-        "views": 703454
+        "organicImpressions": 1027,
+        "views": 704481
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 609210,
-        "eng": 65554,
-        "er": 10.76,
+        "impressions": 610736,
+        "eng": 65566,
+        "er": 10.74,
         "cpm": 3.26,
         "color": "#FF0033",
-        "delta": -46.2,
+        "delta": -46.3,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 32,
-        "views": 593635
+        "organicImpressions": 1558,
+        "views": 594400
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 496265,
-        "eng": 41076,
-        "er": 8.28,
+        "impressions": 504117,
+        "eng": 41085,
+        "er": 8.15,
         "cpm": 2.36,
         "color": "#1d1d1f",
-        "delta": 799.7,
+        "delta": 785.9,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 0,
-        "views": 0
+        "organicImpressions": 7852,
+        "views": 1854
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 427787,
-        "eng": 115,
-        "er": 0.03,
+        "impressions": 436152,
+        "eng": 270,
+        "er": 0.06,
         "cpm": 3.07,
         "color": "#E4405F",
-        "delta": -99.2,
+        "delta": -98.1,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 0,
-        "views": 427787
+        "organicImpressions": 8365,
+        "views": 436152
+      },
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 5284,
+        "eng": 136,
+        "er": 2.57,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -31.5,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 5284,
+        "views": 2242
       }
     ],
-    "topPosts": [],
+    "topPosts": [
+      {
+        "id": "urn:li:ugcPost:7494070819216764928",
+        "rank": 1,
+        "partner": "DOW Chemical",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "These LPGA stars are proving that success isn\u2019t just measured by trophies. Which finalist do you\u2026",
+        "er": 2.57,
+        "eng": 136,
+        "reach": 2242,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7494070819216764928",
+        "postedAt": "2026-08-14T12:00:02-07:00"
+      },
+      {
+        "id": "7673921346681703693",
+        "rank": 2,
+        "partner": "DOW Chemical",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "These LPGA stars are proving that success isn\u2019t just measured by trophies. Which finalist do you\u2026",
+        "er": 2.53,
+        "eng": 26,
+        "reach": 1027,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://tiktok.com/@frontofficesports/video/7673921346681703693",
+        "postedAt": "2026-08-14T09:14:39-07:00"
+      }
+    ],
     "topPostsOrganic": [],
     "callouts": [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 8.3% ER \u2014 9.0\u00d7 the benchmark.",
-        "body": "496K impressions, 41K engagements at 8.3% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "X at 8.2% ER \u2014 8.9\u00d7 the benchmark.",
+        "body": "504K impressions, 41K engagements at 8.2% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "DOW Chemical \u00b7 X"
       },
       {
@@ -3670,7 +3719,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3809,7 +3858,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4051,7 +4100,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4388,7 +4437,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-14T13:28:56Z"
   },
   {
@@ -4543,7 +4592,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-17T16:42:13Z"
   },
   {
@@ -4665,7 +4714,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T16:48:23Z",
+    "lastUpdatedMs": "2026-08-17T19:23:38Z",
     "lastUpdatedExports": "2026-08-14T17:23:45Z"
   }
 ];
@@ -4904,8 +4953,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 92063508,
-    "eng": 1750646,
+    "impressions": 92065034,
+    "eng": 1750658,
     "er": 1.9,
     "cpm": 1.04,
     "color": "#E00922",
@@ -4915,29 +4964,29 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 15742351
+    "views": 15743116
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 28130415,
-    "eng": 681721,
+    "impressions": 28138267,
+    "eng": 681730,
     "er": 2.42,
     "cpm": 1.58,
     "color": "#1d1d1f",
-    "delta": 163.4,
+    "delta": 163.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 460531
+    "views": 462385
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24283690,
-    "eng": 329783,
+    "impressions": 24292055,
+    "eng": 329938,
     "er": 1.36,
     "cpm": 4.53,
     "color": "#E4405F",
@@ -4947,13 +4996,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24283690
+    "views": 24292055
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 22555745,
-    "eng": 53559,
+    "impressions": 22556772,
+    "eng": 53585,
     "er": 0.24,
     "cpm": 2.23,
     "color": "#000000",
@@ -4963,7 +5012,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 22334460
+    "views": 22335487
   },
   {
     "name": "Facebook",
@@ -4984,8 +5033,8 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 4900837,
-    "eng": 180462,
+    "impressions": 4906121,
+    "eng": 180598,
     "er": 3.68,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -4995,7 +5044,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 774246
+    "views": 776488
   },
   {
     "name": "Snapchat",
@@ -32465,6 +32514,121 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-07-15T19:25:30-07:00"
     },
     {
+      "title": "These LPGA stars are proving that success isn\u2019t just measured by trophies. Which finalist do you think deserves this yea",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 1027,
+      "paidImpr": 0,
+      "orgImpr": 1027,
+      "views": 1027,
+      "reach": 927,
+      "eng": 26,
+      "er": 2.53,
+      "spend": 0,
+      "watchTimeMin": 123.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7673921346681703693",
+      "postedAt": "2026-08-14T09:14:39-07:00"
+    },
+    {
+      "title": "These LPGA stars are proving that success isn\u2019t just measured by trophies.  Which finalist do you think deserves this ye",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 8365,
+      "paidImpr": 0,
+      "orgImpr": 8365,
+      "views": 8365,
+      "reach": 6604,
+      "eng": 155,
+      "er": 1.85,
+      "spend": 0,
+      "watchTimeMin": 11.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DcBuLLSOkxh/",
+      "postedAt": "2026-08-14T09:18:09-07:00"
+    },
+    {
+      "title": "These LPGA stars are proving that success isn\u2019t just measured by trophies.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 1526,
+      "paidImpr": 0,
+      "orgImpr": 1526,
+      "views": 765,
+      "reach": 0,
+      "eng": 12,
+      "er": 0.79,
+      "spend": 0,
+      "watchTimeMin": 199.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/IJ_NVWlUEoQ",
+      "postedAt": "2026-08-14T09:43:05-07:00"
+    },
+    {
+      "title": "These LPGA stars are proving that success isn\u2019t just measured by trophies.  Which finalist do you think deserves this ye",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7852,
+      "paidImpr": 0,
+      "orgImpr": 7852,
+      "views": 1854,
+      "reach": 0,
+      "eng": 9,
+      "er": 0.11,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2088320112751251782",
+      "postedAt": "2026-08-14T10:41:28-07:00"
+    },
+    {
+      "title": "These LPGA stars are proving that success isn\u2019t just measured by trophies.   Which finalist do you think deserves this y",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5284,
+      "paidImpr": 0,
+      "orgImpr": 5284,
+      "views": 2242,
+      "reach": 0,
+      "eng": 136,
+      "er": 2.57,
+      "spend": 0,
+      "watchTimeMin": 409.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7494070819216764928",
+      "postedAt": "2026-08-14T12:00:02-07:00"
+    },
+    {
       "title": "DOW: Impact Award",
       "platform": "X",
       "accountName": null,
@@ -35864,7 +36028,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.54,
-    "impressions": 22535036,
+    "impressions": 22543401,
     "paidImpressions": 20032258,
     "pctOfTotal": 15.1,
     "mvmCpm": 5.62,
@@ -35874,9 +36038,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.23,
-    "impressions": 21149868,
+    "impressions": 21150895,
     "paidImpressions": 16601952,
-    "pctOfTotal": 14.2,
+    "pctOfTotal": 14.1,
     "mvmCpm": 2.24,
     "mvmDeltaPct": -0.2,
     "color": "#000000"
@@ -35884,7 +36048,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.1,
-    "impressions": 17131141,
+    "impressions": 17138993,
     "paidImpressions": 15340057,
     "pctOfTotal": 11.5,
     "mvmCpm": 1.24,
@@ -35894,7 +36058,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.58,
-    "impressions": 16174948,
+    "impressions": 16176474,
     "paidImpressions": 15994324,
     "pctOfTotal": 10.8,
     "mvmCpm": 3.2,
@@ -35914,9 +36078,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 3958641,
+    "impressions": 3963925,
     "paidImpressions": 0,
-    "pctOfTotal": 2.6,
+    "pctOfTotal": 2.7,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
