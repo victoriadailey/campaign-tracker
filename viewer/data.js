@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-17T14:58:44Z";
+window.LAST_REFRESHED = "2026-08-17T16:43:25Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3670,7 +3670,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3809,7 +3809,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4051,7 +4051,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4388,7 +4388,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-08-14T13:28:56Z"
   },
   {
@@ -4400,26 +4400,26 @@ window.CAMPAIGNS = [
     "flight": "Aug 10 \u2014 Aug 31, 2026",
     "elapsedPct": 33.3,
     "daysLeft": 14,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "Behind Pace",
+    "statusKind": "danger",
     "impressions": {
-      "delivered": 234737,
+      "delivered": 181078,
       "goal": 750000
     },
     "budget": {
-      "delivered": 578.01,
+      "delivered": 675.04,
       "goal": 2500.0
     },
     "color": "ft-8",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 4.83,
-    "cpm": 2.93,
+    "er": 7.43,
+    "cpm": 4.7,
     "episodes": 0,
-    "posts": 6,
+    "posts": 5,
     "blurb": "Panel cutdowns from Huddle in the Hamptons Event",
-    "views": 169844,
-    "engagements": 11332,
+    "views": 167697,
+    "engagements": 13458,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
     "lifecycle": "active",
@@ -4427,18 +4427,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 141173,
-        "eng": 4495,
-        "er": 3.18,
-        "cpm": 1.46,
+        "impressions": 87514,
+        "eng": 6621,
+        "er": 7.57,
+        "cpm": 3.5,
         "color": "#FF0033",
-        "delta": -84.1,
+        "delta": -62.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 1862,
-        "views": 88852
+        "views": 86705
       },
       {
         "name": "Instagram",
@@ -4531,13 +4531,20 @@ window.CAMPAIGNS = [
         "headline": "Instagram at 8.7% ER \u2014 2.6\u00d7 the benchmark.",
         "body": "69K impressions, 6K engagements at 8.7% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "UBS \u00b7 Instagram"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 73% of goal (544K of 750K) with 14 days left.",
+        "body": "At the current rate the campaign will fall ~206K impressions short of the 750K goal. Need to deliver 41K impr/day (1.6\u00d7 the current 26K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "UBS \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
-    "lastUpdatedExports": "2026-08-14T16:42:47Z"
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
+    "lastUpdatedExports": "2026-08-17T16:42:13Z"
   },
   {
     "id": "huntington_bank_2026",
@@ -4658,7 +4665,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-17T14:58:43Z",
+    "lastUpdatedMs": "2026-08-17T16:43:25Z",
     "lastUpdatedExports": "2026-08-14T17:23:45Z"
   }
 ];
@@ -4897,8 +4904,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 92117167,
-    "eng": 1748520,
+    "impressions": 92063508,
+    "eng": 1750646,
     "er": 1.9,
     "cpm": 1.04,
     "color": "#E00922",
@@ -4908,7 +4915,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 15744498
+    "views": 15742351
   },
   {
     "name": "X",
@@ -5108,6 +5115,15 @@ window.SIGNALS = [
     "meta": "Huntington Bank \u00b7 Pacing",
     "campaignId": "huntington_bank_2026",
     "campaignPartner": "Huntington Bank"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 73% of goal (544K of 750K) with 14 days left.",
+    "body": "At the current rate the campaign will fall ~206K impressions short of the 750K goal. Need to deliver 41K impr/day (1.6\u00d7 the current 26K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "UBS \u00b7 Pacing",
+    "campaignId": "ubs_huddleinthehamptons",
+    "campaignPartner": "UBS"
   },
   {
     "tag": "WATCH",
@@ -33613,14 +33629,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 54528,
-      "paidImpr": 53638,
+      "impr": 80096,
+      "paidImpr": 79206,
       "orgImpr": 890,
       "views": 79438,
       "reach": 0,
-      "eng": 4456,
-      "er": 8.17,
-      "spend": 203.18,
+      "eng": 6175,
+      "er": 7.71,
+      "spend": 274.32,
       "watchTimeMin": 8796.8,
       "clicks": null,
       "ctr": 0.0,
@@ -33659,14 +33675,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 7422,
-      "paidImpr": 6450,
+      "impr": 7418,
+      "paidImpr": 6446,
       "orgImpr": 972,
       "views": 7267,
       "reach": 0,
-      "eng": 39,
-      "er": 0.53,
-      "spend": 0,
+      "eng": 446,
+      "er": 6.01,
+      "spend": 25.89,
       "watchTimeMin": 545.1,
       "clicks": null,
       "ctr": 0.0,
@@ -34734,7 +34750,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-08-17",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 0
   },
   {
     "campaignId": "huntington_bank_2026",
@@ -35860,7 +35876,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.23,
     "impressions": 21149868,
     "paidImpressions": 16601952,
-    "pctOfTotal": 14.1,
+    "pctOfTotal": 14.2,
     "mvmCpm": 2.24,
     "mvmDeltaPct": -0.2,
     "color": "#000000"
@@ -35877,12 +35893,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.56,
-    "impressions": 16228607,
-    "paidImpressions": 16047983,
-    "pctOfTotal": 10.9,
+    "cpm": 2.58,
+    "impressions": 16174948,
+    "paidImpressions": 15994324,
+    "pctOfTotal": 10.8,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -19.9,
+    "mvmDeltaPct": -19.4,
     "color": "#FF0033"
   },
   {
