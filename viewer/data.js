@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-18T14:48:49Z";
+window.LAST_REFRESHED = "2026-08-18T14:52:42Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3719,7 +3719,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-07-24T14:05:55Z"
   },
   {
@@ -3858,7 +3858,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4100,7 +4100,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4182,23 +4182,23 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3298028,
+      "delivered": 3384283,
       "goal": 2750000
     },
     "budget": {
-      "delivered": 6268.2,
+      "delivered": 6412.31,
       "goal": 8500.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
-    "er": 3.17,
-    "cpm": 2.42,
+    "er": 3.1,
+    "cpm": 2.43,
     "episodes": 0,
     "posts": 17,
     "blurb": "Interviews from the FOS Event with State Street.",
     "views": 2664999,
-    "engagements": 104677,
+    "engagements": 104807,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
     "lifecycle": "active",
@@ -4254,17 +4254,17 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 265734,
-        "eng": 806,
-        "er": 0.3,
-        "cpm": 2.46,
+        "impressions": 351989,
+        "eng": 936,
+        "er": 0.27,
+        "cpm": 2.47,
         "color": "#1d1d1f",
-        "delta": -67.0,
+        "delta": -71.1,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 46444,
+        "organicImpressions": 68903,
         "views": 28408
       },
       {
@@ -4422,23 +4422,23 @@ window.CAMPAIGNS = [
         "tag": "WIN",
         "kind": "pos",
         "milestone": true,
-        "headline": "Goal hit with $2K (26%) of budget still unspent.",
-        "body": "Delivered 120% of the 2.8M impression goal on only 74% of the $8K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "headline": "Goal hit with $2K (25%) of budget still unspent.",
+        "body": "Delivered 123% of the 2.8M impression goal on only 75% of the $8K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
         "meta": "State Street \u00b7 Goal hit"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.46 \u2014 2.2\u00d7 the benchmark.",
-        "body": "$2.46 CPM vs. $1.10 FOS benchmark. At 2.2\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $2.47 \u2014 2.2\u00d7 the benchmark.",
+        "body": "$2.47 CPM vs. $1.10 FOS benchmark. At 2.2\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "State Street \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
-    "lastUpdatedExports": "2026-08-18T14:47:13Z"
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
+    "lastUpdatedExports": "2026-08-18T14:47:14Z"
   },
   {
     "id": "ubs_huddleinthehamptons",
@@ -4617,7 +4617,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-08-17T16:42:13Z"
   },
   {
@@ -4732,7 +4732,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T14:48:48Z",
+    "lastUpdatedMs": "2026-08-18T14:52:42Z",
     "lastUpdatedExports": "2026-08-18T13:57:43Z"
   }
 ];
@@ -4987,12 +4987,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 28170160,
-    "eng": 681765,
-    "er": 2.42,
+    "impressions": 28256415,
+    "eng": 681895,
+    "er": 2.41,
     "cpm": 1.58,
     "color": "#1d1d1f",
-    "delta": 163.1,
+    "delta": 162.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -5150,8 +5150,8 @@ window.SIGNALS = [
     "tag": "WIN",
     "kind": "pos",
     "milestone": true,
-    "headline": "Goal hit with $2K (26%) of budget still unspent.",
-    "body": "Delivered 120% of the 2.8M impression goal on only 74% of the $8K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "headline": "Goal hit with $2K (25%) of budget still unspent.",
+    "body": "Delivered 123% of the 2.8M impression goal on only 75% of the $8K budget \u2014 $2K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
     "meta": "State Street \u00b7 Goal hit",
     "campaignId": "ssim_wnba_allstar_event",
     "campaignPartner": "State Street"
@@ -33639,19 +33639,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 109903,
-      "paidImpr": 71509,
+      "impr": 119726,
+      "paidImpr": 81332,
       "orgImpr": 38394,
       "views": 22288,
       "reach": 0,
-      "eng": 399,
-      "er": 0.36,
-      "spend": 179.02,
+      "eng": 414,
+      "er": 0.35,
+      "spend": 200.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.5,
+      "cpm": 2.46,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2086905427845886016",
@@ -33685,19 +33685,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 22459,
-      "paidImpr": 29521,
-      "orgImpr": 0,
+      "impr": 98891,
+      "paidImpr": 76432,
+      "orgImpr": 22459,
       "views": 4824,
       "reach": 0,
-      "eng": 71,
-      "er": 0.32,
-      "spend": 76.87,
+      "eng": 186,
+      "er": 0.19,
+      "spend": 200.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 2.6,
+      "cpm": 2.62,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2087537311235907761",
@@ -36141,11 +36141,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.1,
-    "impressions": 17170886,
-    "paidImpressions": 15371942,
+    "impressions": 17257141,
+    "paidImpressions": 15428676,
     "pctOfTotal": 11.5,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 69.2,
+    "mvmDeltaPct": 69.3,
     "color": "#1d1d1f"
   },
   {
@@ -36173,7 +36173,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.0,
     "impressions": 3972103,
     "paidImpressions": 0,
-    "pctOfTotal": 2.7,
+    "pctOfTotal": 2.6,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
