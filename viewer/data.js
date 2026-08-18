@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-18T20:43:13Z";
+window.LAST_REFRESHED = "2026-08-18T20:45:55Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3563,23 +3563,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 2597836,
+      "delivered": 2872194,
       "goal": 4500000
     },
     "budget": {
-      "delivered": 6945.58,
+      "delivered": 7810.96,
       "goal": 11000.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
-    "er": 4.88,
-    "cpm": 2.75,
+    "er": 3.06,
+    "cpm": 2.79,
     "episodes": 0,
     "posts": 9,
     "blurb": "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists.",
     "views": 1887373,
-    "engagements": 126889,
+    "engagements": 87781,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -3619,12 +3619,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 504117,
-        "eng": 41085,
-        "er": 8.15,
-        "cpm": 2.36,
+        "impressions": 778475,
+        "eng": 1977,
+        "er": 0.25,
+        "cpm": 2.64,
         "color": "#1d1d1f",
-        "delta": 785.9,
+        "delta": -72.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -3704,23 +3704,23 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "X at 8.2% ER \u2014 8.9\u00d7 the benchmark.",
-        "body": "504K impressions, 41K engagements at 8.2% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-        "meta": "DOW Chemical \u00b7 X"
+        "headline": "Instagram post at 6.3% ER \u2014 1.9\u00d7 the benchmark.",
+        "body": "\"These LPGA stars are proving that success isn\u2019t just measured by trophies. Which\u2026\" \u2014 29K reach, 2K engagements (30% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+        "meta": "DOW Chemical \u00b7 Instagram"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.36 \u2014 2.1\u00d7 the benchmark.",
-        "body": "$2.36 CPM vs. $1.10 FOS benchmark. At 2.1\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $2.64 \u2014 2.4\u00d7 the benchmark.",
+        "body": "$2.64 CPM vs. $1.10 FOS benchmark. At 2.4\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "DOW Chemical \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
-    "lastUpdatedExports": "2026-08-18T20:42:12Z"
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
+    "lastUpdatedExports": "2026-08-18T20:42:13Z"
   },
   {
     "id": "ehp_avp",
@@ -3858,7 +3858,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4100,7 +4100,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4437,7 +4437,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4617,7 +4617,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-17T16:42:13Z"
   },
   {
@@ -4732,7 +4732,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-18T20:43:13Z",
+    "lastUpdatedMs": "2026-08-18T20:45:55Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   }
 ];
@@ -4987,12 +4987,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 28262962,
-    "eng": 681913,
-    "er": 2.41,
-    "cpm": 1.58,
+    "impressions": 28537320,
+    "eng": 642805,
+    "er": 2.25,
+    "cpm": 1.6,
     "color": "#1d1d1f",
-    "delta": 162.3,
+    "delta": 144.8,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -32595,20 +32595,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "These LPGA stars are proving that success isn\u2019t just measured by trophies.  Which finalist do you think deserves this ye",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 7852,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 282210,
+      "paidImpr": 274358,
       "orgImpr": 7852,
       "views": 1854,
       "reach": 0,
-      "eng": 9,
-      "er": 0.11,
-      "spend": 0,
+      "eng": 431,
+      "er": 0.15,
+      "spend": 865.38,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 3.15,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2088320112751251782",
@@ -32647,8 +32647,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 41076,
-      "er": 8.28,
+      "eng": 1546,
+      "er": 0.31,
       "spend": 1172.0,
       "watchTimeMin": null,
       "clicks": 167,
@@ -34916,7 +34916,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "dow_lpga_impact_award_x_ads.csv",
-    "fileSizeKb": 0.3,
+    "fileSizeKb": 0.5,
     "lastModified": "2026-08-18",
     "exists": true,
     "postsContributed": 1
@@ -36113,7 +36113,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 61328060,
     "paidImpressions": 60837174,
-    "pctOfTotal": 41.0,
+    "pctOfTotal": 40.9,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 25.7,
     "color": "#E00922"
@@ -36140,12 +36140,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "X",
-    "cpm": 2.1,
-    "impressions": 17263688,
-    "paidImpressions": 15435223,
-    "pctOfTotal": 11.5,
+    "cpm": 2.12,
+    "impressions": 17538046,
+    "paidImpressions": 15709581,
+    "pctOfTotal": 11.7,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 69.4,
+    "mvmDeltaPct": 70.8,
     "color": "#1d1d1f"
   },
   {
@@ -36173,7 +36173,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.0,
     "impressions": 3972103,
     "paidImpressions": 0,
-    "pctOfTotal": 2.7,
+    "pctOfTotal": 2.6,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
