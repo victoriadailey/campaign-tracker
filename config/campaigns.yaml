@@ -1359,6 +1359,12 @@ campaigns:
     color: ft-1
     lead_format: Social Video
     blurb: Interviews from the FOS Event with State Street.
+    # The 3 Google Ads shorts have generic names ("Event - Video 2/3") so the
+    # guest-name YT merge passes can't pair them (only "Video 1 - Nneka" has a
+    # guest). Without this, Videos 2 & 3 never fold and their spend is orphaned.
+    # Their MS posts already carry matching paid impressions, so sorted-by-paid
+    # pairing lands each GAds row on the right post.
+    yt_paired_by_sort: true
     sources:
       x_ads:
         - ssim_wnba_allstar_event_x_ads.csv
