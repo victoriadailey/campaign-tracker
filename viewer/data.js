@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-21T18:22:34Z";
+window.LAST_REFRESHED = "2026-08-21T18:39:24Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3302,26 +3302,26 @@ window.CAMPAIGNS = [
     "flight": "Jun 26 \u2014 Dec 31, 2026",
     "elapsedPct": 29.8,
     "daysLeft": 132,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 570989,
+      "delivered": 672683,
       "goal": 2222222
     },
     "budget": {
-      "delivered": 2114.68,
+      "delivered": 2467.2,
       "goal": 10000.0
     },
     "color": "ft-11",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
-    "er": 0.0,
-    "cpm": 3.7,
+    "er": 1.81,
+    "cpm": 3.67,
     "episodes": 0,
     "posts": 4,
     "blurb": "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
-    "views": 570989,
-    "engagements": 0,
+    "views": 672683,
+    "engagements": 12150,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
     "lifecycle": "active",
@@ -3329,28 +3329,61 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 570989,
-        "eng": 0,
-        "er": 0.0,
-        "cpm": 3.7,
+        "impressions": 672683,
+        "eng": 12150,
+        "er": 1.81,
+        "cpm": 3.67,
         "color": "#E4405F",
-        "delta": -100.0,
+        "delta": -45.4,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 570989
+        "views": 672683
       }
     ],
-    "topPosts": [],
+    "topPosts": [
+      {
+        "id": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
+        "rank": 1,
+        "partner": "AT&T",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
+        "er": 11.78,
+        "eng": 6868,
+        "reach": 34775,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
+      },
+      {
+        "id": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+        "rank": 2,
+        "partner": "AT&T",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+        "er": 5.06,
+        "eng": 4796,
+        "reach": 62907,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
+      }
+    ],
     "topPostsOrganic": [],
     "callouts": [],
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-08-14T18:11:16Z"
+    "lastUpdatedExports": "2026-08-21T18:38:20Z"
   },
   {
     "id": "ally_nwsl",
@@ -3548,7 +3581,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3719,7 +3752,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3858,7 +3891,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4100,7 +4133,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4446,7 +4479,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4642,7 +4675,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-21T15:43:36Z"
   },
   {
@@ -4757,7 +4790,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T18:22:33Z",
+    "lastUpdatedMs": "2026-08-21T18:39:24Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   }
 ];
@@ -4828,8 +4861,24 @@ window.TOP_POSTS = [
     "postedAt": "2026-05-28T14:12:18-07:00"
   },
   {
-    "id": "2061923310552650063",
+    "id": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
     "rank": 5,
+    "partner": "AT&T",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
+    "er": 11.78,
+    "eng": 6868,
+    "reach": 34775,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null,
+    "postedAt": null
+  },
+  {
+    "id": "2061923310552650063",
+    "rank": 6,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -4845,7 +4894,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2060436014204600769",
-    "rank": 6,
+    "rank": 7,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -4861,7 +4910,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2059009107718185383",
-    "rank": 7,
+    "rank": 8,
     "partner": "Spectrum",
     "platform": "X",
     "format": "Feed video",
@@ -4874,22 +4923,6 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://twitter.com/FOS/status/2059009107718185383",
     "postedAt": "2026-05-25T13:30:00-07:00"
-  },
-  {
-    "id": "3956441942103900267",
-    "rank": 8,
-    "partner": "State Street",
-    "platform": "Instagram",
-    "format": "Reels/Shorts",
-    "quote": "WNBPA president Nneka Ogwumike tells FOS about her expectations stepping into the role and how her\u2026",
-    "er": 10.45,
-    "eng": 13334,
-    "reach": 127557,
-    "organic": 16,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.instagram.com/p/DboGvv1j0Br/",
-    "postedAt": "2026-08-04T10:33:07-07:00"
   }
 ];
 
@@ -5028,18 +5061,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24712679,
-    "eng": 347576,
-    "er": 1.41,
-    "cpm": 4.54,
+    "impressions": 24814373,
+    "eng": 359726,
+    "er": 1.45,
+    "cpm": 4.53,
     "color": "#E4405F",
-    "delta": -57.5,
+    "delta": -56.2,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24712679
+    "views": 24814373
   },
   {
     "name": "TikTok",
@@ -32121,6 +32154,29 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "att_brandx": [
     {
+      "title": "AT&T_ShesConnected_JewellLoyd_Impressions",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 278321,
+      "paidImpr": 278321,
+      "orgImpr": 0,
+      "views": 278321,
+      "reach": 107363,
+      "eng": 312,
+      "er": 0.11,
+      "spend": 613.73,
+      "watchTimeMin": null,
+      "clicks": 254,
+      "ctr": 0.09,
+      "cpc": 2.42,
+      "cpm": 2.21,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "AT&T_ShesConnected_BrandX_SarahGorden_Impressions",
       "platform": "Instagram",
       "accountName": null,
@@ -32130,37 +32186,14 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 241189,
       "reach": 96877,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 174,
+      "er": 0.07,
       "spend": 499.95,
       "watchTimeMin": null,
       "clicks": 150,
       "ctr": 0.06,
       "cpc": 3.33,
       "cpm": 2.07,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "AT&T_ShesConnected_JewellLoyd_Impressions",
-      "platform": "Instagram",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 193658,
-      "paidImpr": 193658,
-      "orgImpr": 0,
-      "views": 193658,
-      "reach": 76795,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 426.39,
-      "watchTimeMin": null,
-      "clicks": 180,
-      "ctr": 0.09,
-      "cpc": 2.37,
-      "cpm": 2.2,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -32176,8 +32209,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 94868,
       "reach": 62907,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 4796,
+      "er": 5.06,
       "spend": 821.94,
       "watchTimeMin": null,
       "clicks": 3130,
@@ -32194,19 +32227,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 41274,
-      "paidImpr": 41274,
+      "impr": 58305,
+      "paidImpr": 58305,
       "orgImpr": 0,
-      "views": 41274,
-      "reach": 25730,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 366.4,
+      "views": 58305,
+      "reach": 34775,
+      "eng": 6868,
+      "er": 11.78,
+      "spend": 531.58,
       "watchTimeMin": null,
-      "clicks": 3148,
-      "ctr": 7.63,
+      "clicks": 4603,
+      "ctr": 7.89,
       "cpc": 0.12,
-      "cpm": 8.88,
+      "cpm": 9.12,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -36183,11 +36216,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.55,
-    "impressions": 22964025,
-    "paidImpressions": 20435434,
+    "impressions": 23065719,
+    "paidImpressions": 20537128,
     "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -19.0,
+    "mvmDeltaPct": -19.1,
     "color": "#E4405F"
   },
   {
