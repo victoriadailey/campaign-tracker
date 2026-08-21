@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-21T15:48:06Z";
+window.LAST_REFRESHED = "2026-08-21T18:22:34Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3719,7 +3719,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3858,7 +3858,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4100,7 +4100,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4112,26 +4112,26 @@ window.CAMPAIGNS = [
     "flight": "Jul 21 \u2014 Aug 31, 2026",
     "elapsedPct": 75.6,
     "daysLeft": 10,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "At Risk",
+    "statusKind": "warn",
     "impressions": {
-      "delivered": 696786,
+      "delivered": 939265,
       "goal": 1400000
     },
     "budget": {
-      "delivered": 2732.25,
+      "delivered": 3396.61,
       "goal": 5000.0
     },
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
-    "er": 0.0,
-    "cpm": 3.92,
+    "er": 0.48,
+    "cpm": 3.62,
     "episodes": 0,
     "posts": 2,
     "blurb": "Apollo Global BrandX",
-    "views": 696786,
-    "engagements": 0,
+    "views": 939265,
+    "engagements": 4517,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4139,36 +4139,45 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 696786,
-        "eng": 0,
-        "er": 0.0,
-        "cpm": 3.92,
+        "impressions": 939265,
+        "eng": 4517,
+        "er": 0.48,
+        "cpm": 3.62,
         "color": "#E4405F",
-        "delta": -100.0,
+        "delta": -85.5,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 696786
+        "views": 939265
       }
     ],
-    "topPosts": [],
-    "topPostsOrganic": [],
-    "callouts": [
+    "topPosts": [
       {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace for 66% of goal (922K of 1.4M) with 10 days left.",
-        "body": "At the current rate the campaign will fall ~478K impressions short of the 1.4M goal. Need to deliver 70K impr/day (3.1\u00d7 the current 22K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "Apollo Global \u00b7 Pacing"
+        "id": "Apollo BrandX (clicks)",
+        "rank": 1,
+        "partner": "Apollo Global",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "Apollo BrandX (clicks)",
+        "er": 4.91,
+        "eng": 3324,
+        "reach": 48653,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
       }
     ],
+    "topPostsOrganic": [],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-08-14T18:17:15Z"
+    "lastUpdatedExports": "2026-08-21T18:21:23Z"
   },
   {
     "id": "ssim_wnba_allstar_event",
@@ -4437,7 +4446,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4633,7 +4642,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-21T15:43:36Z"
   },
   {
@@ -4748,7 +4757,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-21T15:48:06Z",
+    "lastUpdatedMs": "2026-08-21T18:22:33Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   }
 ];
@@ -5019,18 +5028,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24470200,
-    "eng": 343059,
-    "er": 1.4,
-    "cpm": 4.56,
+    "impressions": 24712679,
+    "eng": 347576,
+    "er": 1.41,
+    "cpm": 4.54,
     "color": "#E4405F",
-    "delta": -57.6,
+    "delta": -57.5,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24470200
+    "views": 24712679
   },
   {
     "name": "TikTok",
@@ -5198,15 +5207,6 @@ window.SIGNALS = [
     "meta": "Huntington Bank \u00b7 Pacing",
     "campaignId": "huntington_bank_2026",
     "campaignPartner": "Huntington Bank"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 66% of goal (922K of 1.4M) with 10 days left.",
-    "body": "At the current rate the campaign will fall ~478K impressions short of the 1.4M goal. Need to deliver 70K impr/day (3.1\u00d7 the current 22K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Apollo Global \u00b7 Pacing",
-    "campaignId": "apollo_gloabl_brandx",
-    "campaignPartner": "Apollo Global"
   },
   {
     "tag": "WATCH",
@@ -33377,18 +33377,18 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 629038,
-      "paidImpr": 629038,
+      "impr": 871517,
+      "paidImpr": 871517,
       "orgImpr": 0,
-      "views": 629038,
-      "reach": 273663,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 1708.87,
+      "views": 871517,
+      "reach": 355501,
+      "eng": 1193,
+      "er": 0.14,
+      "spend": 2373.23,
       "watchTimeMin": null,
-      "clicks": 262,
+      "clicks": 352,
       "ctr": 0.04,
-      "cpc": 6.52,
+      "cpc": 6.74,
       "cpm": 2.72,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -33405,8 +33405,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 67748,
       "reach": 48653,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 3324,
+      "er": 4.91,
       "spend": 1023.38,
       "watchTimeMin": null,
       "clicks": 2874,
@@ -36175,19 +36175,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.67,
     "impressions": 61330451,
     "paidImpressions": 60837174,
-    "pctOfTotal": 40.8,
+    "pctOfTotal": 40.7,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 25.7,
     "color": "#E00922"
   },
   {
     "name": "Instagram",
-    "cpm": 4.57,
-    "impressions": 22721546,
-    "paidImpressions": 20192955,
-    "pctOfTotal": 15.1,
+    "cpm": 4.55,
+    "impressions": 22964025,
+    "paidImpressions": 20435434,
+    "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -18.6,
+    "mvmDeltaPct": -19.0,
     "color": "#E4405F"
   },
   {
