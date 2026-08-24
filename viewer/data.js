@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-24T15:27:23Z";
+window.LAST_REFRESHED = "2026-08-24T17:31:25Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:22Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3581,7 +3581,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3745,7 +3745,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3884,7 +3884,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4126,7 +4126,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4492,26 +4492,26 @@ window.CAMPAIGNS = [
     "flight": "Aug 10 \u2014 Aug 31, 2026",
     "elapsedPct": 66.7,
     "daysLeft": 7,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 472975,
+      "delivered": 566819,
       "goal": 750000
     },
     "budget": {
-      "delivered": 1645.31,
+      "delivered": 1846.66,
       "goal": 2500.0
     },
     "color": "ft-8",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 6.04,
-    "cpm": 4.2,
+    "er": 5.7,
+    "cpm": 3.96,
     "episodes": 0,
-    "posts": 10,
+    "posts": 13,
     "blurb": "Panel cutdowns from Huddle in the Hamptons Event",
-    "views": 470111,
-    "engagements": 28586,
+    "views": 482101,
+    "engagements": 32333,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
     "lifecycle": "active",
@@ -4519,50 +4519,50 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 277962,
-        "eng": 16911,
-        "er": 6.08,
-        "cpm": 3.26,
+        "impressions": 352834,
+        "eng": 20337,
+        "er": 5.76,
+        "cpm": 3.14,
         "color": "#FF0033",
-        "delta": -69.6,
+        "delta": -71.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 3211,
-        "views": 304620
+        "organicImpressions": 3548,
+        "views": 305134
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 142267,
-        "eng": 9493,
-        "er": 6.67,
+        "impressions": 149902,
+        "eng": 9636,
+        "er": 6.43,
         "cpm": 6.4,
         "color": "#E4405F",
-        "delta": 101.6,
+        "delta": 94.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 25052,
-        "views": 142267
+        "organicImpressions": 32687,
+        "views": 149902
       },
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 52746,
-        "eng": 2182,
-        "er": 4.14,
+        "impressions": 64083,
+        "eng": 2360,
+        "er": 3.68,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": 10.0,
+        "delta": -2.1,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 52746,
-        "views": 23224
+        "organicImpressions": 64083,
+        "views": 27065
       }
     ],
     "topPosts": [
@@ -4668,16 +4668,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "Instagram at 6.7% ER \u2014 2.0\u00d7 the benchmark.",
-        "body": "142K impressions, 9K engagements at 6.7% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "Instagram at 6.4% ER \u2014 1.9\u00d7 the benchmark.",
+        "body": "150K impressions, 10K engagements at 6.4% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "UBS \u00b7 Instagram"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
-    "lastUpdatedExports": "2026-08-21T15:43:36Z"
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
+    "lastUpdatedExports": "2026-08-24T17:30:14Z"
   },
   {
     "id": "huntington_bank_2026",
@@ -4791,7 +4791,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-24T15:27:23Z",
+    "lastUpdatedMs": "2026-08-24T17:31:25Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   }
 ];
@@ -5030,8 +5030,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 92320880,
-    "eng": 1816062,
+    "impressions": 92395752,
+    "eng": 1819488,
     "er": 1.97,
     "cpm": 1.07,
     "color": "#E00922",
@@ -5041,7 +5041,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 16377874
+    "views": 16378388
   },
   {
     "name": "X",
@@ -5062,8 +5062,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24816566,
-    "eng": 359838,
+    "impressions": 24824201,
+    "eng": 359981,
     "er": 1.45,
     "cpm": 4.53,
     "color": "#E4405F",
@@ -5073,7 +5073,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24816566
+    "views": 24824201
   },
   {
     "name": "TikTok",
@@ -5110,18 +5110,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 3135317,
-    "eng": 113853,
-    "er": 3.63,
+    "impressions": 3146654,
+    "eng": 114031,
+    "er": 3.62,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -3.4,
+    "delta": -3.6,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 791914
+    "views": 795755
   },
   {
     "name": "Snapchat",
@@ -33861,14 +33861,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 80180,
-      "paidImpr": 79198,
+      "impr": 80175,
+      "paidImpr": 79193,
       "orgImpr": 982,
       "views": 79446,
       "reach": 0,
       "eng": 6174,
       "er": 7.7,
-      "spend": 274.3,
+      "spend": 274.28,
       "watchTimeMin": 9502.9,
       "clicks": null,
       "ctr": 0.0,
@@ -33907,14 +33907,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 77045,
-      "paidImpr": 75800,
+      "impr": 77028,
+      "paidImpr": 75783,
       "orgImpr": 1245,
       "views": 75612,
       "reach": 0,
-      "eng": 5145,
+      "eng": 5143,
       "er": 6.68,
-      "spend": 249.21,
+      "spend": 249.16,
       "watchTimeMin": 8395.9,
       "clicks": null,
       "ctr": 0.0,
@@ -33930,14 +33930,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 93122,
-      "paidImpr": 92633,
+      "impr": 93114,
+      "paidImpr": 92625,
       "orgImpr": 489,
       "views": 91942,
       "reach": 0,
       "eng": 4279,
       "er": 4.6,
-      "spend": 273.91,
+      "spend": 273.88,
       "watchTimeMin": 8238.3,
       "clicks": null,
       "ctr": 0.0,
@@ -34022,23 +34022,92 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 27615,
-      "paidImpr": 27120,
+      "impr": 102180,
+      "paidImpr": 101685,
       "orgImpr": 495,
       "views": 57620,
       "reach": 0,
-      "eng": 1313,
-      "er": 4.75,
-      "spend": 98.18,
+      "eng": 4733,
+      "er": 4.63,
+      "spend": 299.63,
       "watchTimeMin": 5154.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.62,
+      "cpm": 2.95,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/re6crrROHfs",
       "postedAt": "2026-08-18T11:30:33-07:00"
+    },
+    {
+      "title": "Former National Football League \\(NFL\\) players Adewale Ogunleye and Jarvis Landry discuss how social media impacts NFL ",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 11337,
+      "paidImpr": 0,
+      "orgImpr": 11337,
+      "views": 3841,
+      "reach": 0,
+      "eng": 178,
+      "er": 1.57,
+      "spend": 0,
+      "watchTimeMin": 836.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7495486770353025024",
+      "postedAt": "2026-08-20T11:30:01-07:00"
+    },
+    {
+      "title": "How social media impacts NFL athletes",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 337,
+      "paidImpr": 0,
+      "orgImpr": 337,
+      "views": 514,
+      "reach": 0,
+      "eng": 8,
+      "er": 2.37,
+      "spend": 0,
+      "watchTimeMin": 83.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/-I7sW99gjOA",
+      "postedAt": "2026-08-20T11:30:12-07:00"
+    },
+    {
+      "title": "Former NFL players Adewale Ogunleye and Jarvis Landry discuss how social media impacts NFL athletes, presented by @UBS.",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7635,
+      "paidImpr": 0,
+      "orgImpr": 7635,
+      "views": 7635,
+      "reach": 6068,
+      "eng": 143,
+      "er": 1.87,
+      "spend": 0,
+      "watchTimeMin": 10.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DcRhKmOAvwQ/",
+      "postedAt": "2026-08-20T12:33:23-07:00"
     }
   ],
   "huntington_bank_2026": [
@@ -36226,7 +36295,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.55,
-    "impressions": 23067912,
+    "impressions": 23075547,
     "paidImpressions": 20537128,
     "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
@@ -36256,8 +36325,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.69,
-    "impressions": 16426944,
-    "paidImpressions": 16239952,
+    "impressions": 16501816,
+    "paidImpressions": 16314487,
     "pctOfTotal": 10.9,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -15.8,
@@ -36276,9 +36345,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2484203,
+    "impressions": 2495540,
     "paidImpressions": 0,
-    "pctOfTotal": 1.6,
+    "pctOfTotal": 1.7,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
