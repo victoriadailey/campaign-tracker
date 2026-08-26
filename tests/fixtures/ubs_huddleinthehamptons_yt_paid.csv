@@ -1,8 +1,8 @@
 FOS Reporting
-"July 1, 2026 - August 25, 2026"
+"June 1, 2026 - August 26, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-UBS_Huddle_Cutdown 2 (shorts),USD,0,Ended,Video,0.098,"2,542",3.29,"75,780",249.14,"5,079"
+UBS_Huddle_Cutdown 2 (shorts),USD,0,Ended,Video,0.098,"2,542",3.29,"75,776",249.13,"5,079"
 UBS_Huddle_Cutdown 1 (shorts),USD,0,Ended,Video,0.091,"3,005",3.46,"79,193",274.28,"6,128"
-UBS_Huddle_Cutdown 4 (shorts),USD,0,Ended,Video,0.137,"2,183",2.95,"101,677",299.61,"4,701"
-UBS_Huddle_Cutdown 5 (shorts),USD,0,Eligible,Video,0.125,999,3.74,"33,453",125.07,"2,410"
-UBS_Huddle_Cutdown 3 (shorts),USD,0,Ended,Video,0.135,"2,031",2.96,"92,618",273.87,"4,247"
+UBS_Huddle_Cutdown 4 (shorts),USD,0,Ended,Video,0.137,"2,183",2.95,"101,675",299.60,"4,701"
+UBS_Huddle_Cutdown 5 (shorts),USD,0,Eligible,Video,0.110,"1,762",3.40,"57,117",194.25,"4,229"
+UBS_Huddle_Cutdown 3 (shorts),USD,0,Ended,Video,0.135,"2,031",2.96,"92,614",273.85,"4,246"
