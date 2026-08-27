@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-27T13:33:33Z";
+window.LAST_REFRESHED = "2026-08-27T14:46:44Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 35481627,
+      "delivered": 35535978,
       "goal": 41700000
     },
     "budget": {
@@ -392,13 +392,13 @@ window.CAMPAIGNS = [
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.96,
+    "er": 2.95,
     "cpm": 1.8,
     "episodes": 15,
-    "posts": 323,
+    "posts": 330,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 10083053,
-    "engagements": 1048593,
+    "views": 10107883,
+    "engagements": 1049847,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -438,8 +438,8 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 5844194,
-        "eng": 104982,
+        "impressions": 5857146,
+        "eng": 105329,
         "er": 1.8,
         "cpm": 5.38,
         "color": "#E4405F",
@@ -448,14 +448,14 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1634623,
-        "views": 5844194
+        "organicImpressions": 1647575,
+        "views": 5857146
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4280477,
-        "eng": 12172,
+        "impressions": 4297563,
+        "eng": 12211,
         "er": 0.28,
         "cpm": 1.24,
         "color": "#1d1d1f",
@@ -464,8 +464,8 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1377424,
-        "views": 389017
+        "organicImpressions": 1394510,
+        "views": 391690
       },
       {
         "name": "YouTube Shorts",
@@ -486,8 +486,8 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1972318,
-        "eng": 69085,
+        "impressions": 1995937,
+        "eng": 69935,
         "er": 3.5,
         "cpm": 0.0,
         "color": "#0A66C2",
@@ -496,14 +496,14 @@ window.CAMPAIGNS = [
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1972318,
-        "views": 482448
+        "organicImpressions": 1995937,
+        "views": 490959
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 820018,
-        "eng": 34362,
+        "impressions": 820712,
+        "eng": 34380,
         "er": 4.19,
         "cpm": 0.0,
         "color": "#000000",
@@ -512,8 +512,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 820018,
-        "views": 820018
+        "organicImpressions": 820712,
+        "views": 820712
       },
       {
         "name": "Instagram Stories",
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3581,7 +3581,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3745,7 +3745,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3884,7 +3884,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4126,7 +4126,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4684,7 +4684,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4799,7 +4799,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-27T13:33:33Z",
+    "lastUpdatedMs": "2026-08-27T14:46:44Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   }
 ];
@@ -5054,24 +5054,24 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 28869166,
-    "eng": 643354,
+    "impressions": 28886252,
+    "eng": 643393,
     "er": 2.23,
     "cpm": 1.62,
     "color": "#1d1d1f",
-    "delta": 142.2,
+    "delta": 142.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 462481
+    "views": 465154
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 24937326,
-    "eng": 362455,
+    "impressions": 24950278,
+    "eng": 362802,
     "er": 1.45,
     "cpm": 4.53,
     "color": "#E4405F",
@@ -5081,13 +5081,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 24937326
+    "views": 24950278
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 23722701,
-    "eng": 54732,
+    "impressions": 23723395,
+    "eng": 54750,
     "er": 0.23,
     "cpm": 2.21,
     "color": "#000000",
@@ -5097,7 +5097,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 23490012
+    "views": 23490706
   },
   {
     "name": "Facebook",
@@ -5118,8 +5118,8 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 3151805,
-    "eng": 114160,
+    "impressions": 3175424,
+    "eng": 115010,
     "er": 3.62,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -5129,7 +5129,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 798680
+    "views": 807191
   },
   {
     "name": "Snapchat",
@@ -27266,6 +27266,167 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 30347,
       "url": "https://www.instagram.com/p/DbrDhf-GFsj/",
       "postedAt": "2026-08-05T14:03:12-07:00"
+    },
+    {
+      "title": "Kerri Walsh Jennings Wants to Build Volleyball\u2019s Next Era",
+      "platform": "YouTube In-feed",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://youtu.be/F-4_BOOmYjU",
+      "postedAt": "2026-08-25T07:00:20-07:00"
+    },
+    {
+      "title": "\u201cYou\u2019re literally only relevant one of those four years.\u201d  3-time Olympic beach volleyball gold medalist Kerri Walsh Jen",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 10490,
+      "paidImpr": 0,
+      "orgImpr": 10490,
+      "views": 2673,
+      "reach": 0,
+      "eng": 34,
+      "er": 0.32,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2092622775097622858",
+      "postedAt": "2026-08-26T07:38:43-07:00"
+    },
+    {
+      "title": "Full conversation with Kerri Walsh Jennings:  \u2022 Bringing beach volleyball to a new audience \u2022 Why college sports are at ",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6596,
+      "paidImpr": 0,
+      "orgImpr": 6596,
+      "views": 0,
+      "reach": 0,
+      "eng": 5,
+      "er": 0.08,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2092622930064671169",
+      "postedAt": "2026-08-26T07:39:20-07:00"
+    },
+    {
+      "title": "Kerri Walsh Jennings says the Olympics are \u201climiting\u201d",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/c_sg-5e0JWQ",
+      "postedAt": "2026-08-26T11:19:15-07:00"
+    },
+    {
+      "title": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d 3-time Olympic beach volleyball gold medalist Kerri Walsh Jenning",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 694,
+      "paidImpr": 0,
+      "orgImpr": 694,
+      "views": 694,
+      "reach": 0,
+      "eng": 18,
+      "er": 2.59,
+      "spend": 0,
+      "watchTimeMin": 83.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7678409299374230815",
+      "postedAt": "2026-08-26T11:29:50-07:00"
+    },
+    {
+      "title": "\u201cYou\u2019re literally only relevant one of those four years.\u201d  3-time Olympic beach volleyball gold medalist Kerri Walsh Jen",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 23619,
+      "paidImpr": 0,
+      "orgImpr": 23619,
+      "views": 8511,
+      "reach": 0,
+      "eng": 850,
+      "er": 3.6,
+      "spend": 0,
+      "watchTimeMin": 2236.4,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498389105878155264",
+      "postedAt": "2026-08-26T11:30:06-07:00"
+    },
+    {
+      "title": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d\u2060 \u2060 3-time Olympic beach volleyball gold medalist Kerri Walsh Jenn",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 12952,
+      "paidImpr": 0,
+      "orgImpr": 12952,
+      "views": 12952,
+      "reach": 9896,
+      "eng": 347,
+      "er": 2.68,
+      "spend": 0,
+      "watchTimeMin": 37.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DchEvfuFY3F/",
+      "postedAt": "2026-08-26T13:33:09-07:00"
     }
   ],
   "spectrum": [
@@ -36303,7 +36464,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.54,
-    "impressions": 23188672,
+    "impressions": 23201624,
     "paidImpressions": 20648037,
     "pctOfTotal": 15.4,
     "mvmCpm": 5.62,
@@ -36313,7 +36474,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.21,
-    "impressions": 22316824,
+    "impressions": 22317518,
     "paidImpressions": 17683539,
     "pctOfTotal": 14.8,
     "mvmCpm": 2.24,
@@ -36323,7 +36484,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.14,
-    "impressions": 17869892,
+    "impressions": 17886978,
     "paidImpressions": 16040941,
     "pctOfTotal": 11.8,
     "mvmCpm": 1.24,
@@ -36353,7 +36514,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2500689,
+    "impressions": 2524308,
     "paidImpressions": 0,
     "pctOfTotal": 1.7,
     "mvmCpm": null,
