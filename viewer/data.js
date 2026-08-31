@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-31T14:10:41Z";
+window.LAST_REFRESHED = "2026-08-31T16:54:31Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:30Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:30Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:30Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1407,7 +1407,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:30Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1514,7 +1514,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:30Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1669,7 +1669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1824,7 +1824,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2221,7 +2221,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2369,7 +2369,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2571,7 +2571,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2847,7 +2847,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3230,7 +3230,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3589,7 +3589,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3753,7 +3753,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3892,7 +3892,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4134,7 +4134,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4488,7 +4488,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4692,7 +4692,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4807,7 +4807,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T14:10:40Z",
+    "lastUpdatedMs": "2026-08-31T16:54:31Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   }
 ];
@@ -16265,7 +16265,7 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "title": "Over 120 million people watched the Champions League final last year\u2014almost as much as the Super Bowl\u2014and yet, Americans",
           "platform": "Instagram",
-          "accountName": "Front Office Sports News",
+          "accountName": "Front Office Sports Tonight",
           "distKind": "organic+boosted",
           "impr": 183733,
           "paidImpr": 172052,
@@ -16310,7 +16310,7 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "title": "",
           "platform": "Instagram Stories",
-          "accountName": "Front Office Sports News",
+          "accountName": "Front Office Sports Tonight",
           "distKind": "organic",
           "impr": 66,
           "paidImpr": 0,
@@ -16370,7 +16370,7 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "title": "The USA\u2013Paraguay FIFA World Cup match averaged 25 million viewers, making it the most-watched World Cup match involving ",
           "platform": "Instagram",
-          "accountName": "Front Office Sports News",
+          "accountName": "Front Office Sports Tonight",
           "distKind": "organic+boosted",
           "impr": 163902,
           "paidImpr": 162327,
@@ -16385,7 +16385,7 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "title": "The World Cup winner will pocket $50 million\u2014the biggest payday in the history of the tournament.\u2060 \u2060 @BakerMachado break",
           "platform": "Instagram",
-          "accountName": "Front Office Sports News",
+          "accountName": "Front Office Sports Tonight",
           "distKind": "organic+boosted",
           "impr": 168825,
           "paidImpr": 168602,
@@ -16430,7 +16430,7 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "title": "$51 million is on the line at the World Cup final between Argentina and Spain on Sunday.\u2060 \u2060 @bakermachado has the detail",
           "platform": "Instagram",
-          "accountName": "Front Office Sports News",
+          "accountName": "Front Office Sports Tonight",
           "distKind": "organic+boosted",
           "impr": 224309,
           "paidImpr": 219018,
@@ -29222,7 +29222,7 @@ window.POSTS_BY_CAMPAIGN = {
     {
       "title": "Over 120 million people watched the Champions League final last year\u2014almost as much as the Super Bowl\u2014and yet, Americans",
       "platform": "Instagram",
-      "accountName": "Front Office Sports News",
+      "accountName": "Front Office Sports Tonight",
       "distKind": "organic+boosted",
       "impr": 183733,
       "paidImpr": 172052,
@@ -29291,7 +29291,7 @@ window.POSTS_BY_CAMPAIGN = {
     {
       "title": "",
       "platform": "Instagram Stories",
-      "accountName": "Front Office Sports News",
+      "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
       "impr": 66,
       "paidImpr": 0,
@@ -29383,7 +29383,7 @@ window.POSTS_BY_CAMPAIGN = {
     {
       "title": "The USA\u2013Paraguay FIFA World Cup match averaged 25 million viewers, making it the most-watched World Cup match involving ",
       "platform": "Instagram",
-      "accountName": "Front Office Sports News",
+      "accountName": "Front Office Sports Tonight",
       "distKind": "organic+boosted",
       "impr": 163902,
       "paidImpr": 162327,
@@ -29406,7 +29406,7 @@ window.POSTS_BY_CAMPAIGN = {
     {
       "title": "The World Cup winner will pocket $50 million\u2014the biggest payday in the history of the tournament.\u2060 \u2060 @BakerMachado break",
       "platform": "Instagram",
-      "accountName": "Front Office Sports News",
+      "accountName": "Front Office Sports Tonight",
       "distKind": "organic+boosted",
       "impr": 168825,
       "paidImpr": 168602,
@@ -29475,7 +29475,7 @@ window.POSTS_BY_CAMPAIGN = {
     {
       "title": "$51 million is on the line at the World Cup final between Argentina and Spain on Sunday.\u2060 \u2060 @bakermachado has the detail",
       "platform": "Instagram",
-      "accountName": "Front Office Sports News",
+      "accountName": "Front Office Sports Tonight",
       "distKind": "organic+boosted",
       "impr": 224309,
       "paidImpr": 219018,
