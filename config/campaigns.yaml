@@ -1414,3 +1414,21 @@ campaigns:
         - huntington_bank_2026_x_ads.csv
       measure_studio_group_ids:
         - 8532
+
+  - id: next_league_future_of_sports
+    partner: Next League
+    series: Future of Sports
+    series_italic: Sports
+    type: social
+    benchmark_category: Original Content
+    lifecycle: active
+    flight_start: 2026-08-01
+    flight_end: 2026-09-30
+    impression_goal: 2500000
+    budget_goal: 3170
+    color: ft-1
+    lead_format: Social Video
+    blurb: "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown."
+    sources:
+      measure_studio_group_ids:
+        - 8641
