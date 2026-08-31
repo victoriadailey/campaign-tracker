@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-31T16:54:31Z";
+window.LAST_REFRESHED = "2026-08-31T17:03:34Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:30Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:30Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T16:54:30Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1407,7 +1407,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:30Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1514,7 +1514,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:30Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1669,7 +1669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1824,7 +1824,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2221,7 +2221,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2369,7 +2369,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2571,7 +2571,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2847,7 +2847,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3230,7 +3230,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3589,7 +3589,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3753,7 +3753,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3892,7 +3892,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4134,7 +4134,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4488,7 +4488,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4692,7 +4692,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4807,8 +4807,163 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T16:54:31Z",
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
+  },
+  {
+    "id": "next_league_future_of_sports",
+    "partner": "Next League",
+    "series": "Future of Sports",
+    "seriesItalic": "Sports",
+    "type": "social",
+    "flight": "Aug 1 \u2014 Sep 30, 2026",
+    "elapsedPct": 50.0,
+    "daysLeft": 30,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 29325,
+      "goal": 2500000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 3170.0
+    },
+    "color": "ft-1",
+    "leadFormat": "Social Video",
+    "topChannel": "YouTube",
+    "er": 0.88,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 6,
+    "blurb": "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown.",
+    "views": 8608,
+    "engagements": 259,
+    "goalSplit": [],
+    "benchmarkCategory": "Original Content",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "YouTube In-feed",
+        "italic": "YouTube In-feed",
+        "impressions": 16796,
+        "eng": 13,
+        "er": 0.08,
+        "cpm": 0.0,
+        "color": "#E00922",
+        "delta": -84.5,
+        "bench": {
+          "er": 0.5,
+          "cpm": 0.55
+        },
+        "organicImpressions": 16796,
+        "views": 378
+      },
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 7213,
+        "eng": 188,
+        "er": 2.61,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -30.7,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 7213,
+        "views": 2914
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 4890,
+        "eng": 36,
+        "er": 0.74,
+        "cpm": 0.0,
+        "color": "#E4405F",
+        "delta": -77.8,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 4890,
+        "views": 4890
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 426,
+        "eng": 22,
+        "er": 5.16,
+        "cpm": 0.0,
+        "color": "#000000",
+        "delta": 154.4,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 426,
+        "views": 426
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 0,
+        "eng": 0,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -100.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 0,
+        "views": 0
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "urn:li:ugcPost:7498757850870046721",
+        "rank": 1,
+        "partner": "Next League",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "How will artificial intelligence change the future of sports? In this episode of Future of Sports,\u2026",
+        "er": 2.56,
+        "eng": 102,
+        "reach": 2120,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498757850870046721",
+        "postedAt": "2026-08-27T11:30:05-07:00"
+      }
+    ],
+    "topPostsOrganic": [],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 2% of goal (59K of 2.5M) with 30 days left.",
+        "body": "At the current rate the campaign will fall ~2.4M impressions short of the 2.5M goal. Need to deliver 82K impr/day (84.3\u00d7 the current 977/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "Next League \u00b7 Pacing"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.88% ER \u2014 below the 1% floor.",
+        "body": "0.88% engagement rate across 29K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "Next League \u00b7 Engagement"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-08-31T17:03:34Z",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -5046,8 +5201,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 93162445,
-    "eng": 1827332,
+    "impressions": 93179241,
+    "eng": 1827345,
     "er": 1.96,
     "cpm": 1.06,
     "color": "#E00922",
@@ -5057,7 +5212,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 16568494
+    "views": 16568872
   },
   {
     "name": "X",
@@ -5078,8 +5233,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 25058770,
-    "eng": 368996,
+    "impressions": 25063660,
+    "eng": 369032,
     "er": 1.47,
     "cpm": 4.54,
     "color": "#E4405F",
@@ -5089,13 +5244,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 25058770
+    "views": 25063660
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 23725849,
-    "eng": 54786,
+    "impressions": 23726275,
+    "eng": 54808,
     "er": 0.23,
     "cpm": 2.21,
     "color": "#000000",
@@ -5105,7 +5260,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 23493160
+    "views": 23493586
   },
   {
     "name": "Facebook",
@@ -5126,18 +5281,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 3203939,
-    "eng": 115962,
+    "impressions": 3211152,
+    "eng": 116150,
     "er": 3.62,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -3.7,
+    "delta": -3.8,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 822894
+    "views": 825808
   },
   {
     "name": "Snapchat",
@@ -5248,6 +5403,15 @@ window.SIGNALS = [
     "meta": "Morgan & Morgan \u00b7 Instagram",
     "campaignId": "mm",
     "campaignPartner": "Morgan & Morgan"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 2% of goal (59K of 2.5M) with 30 days left.",
+    "body": "At the current rate the campaign will fall ~2.4M impressions short of the 2.5M goal. Need to deliver 82K impr/day (84.3\u00d7 the current 977/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Next League \u00b7 Pacing",
+    "campaignId": "next_league_future_of_sports",
+    "campaignPartner": "Next League"
   },
   {
     "tag": "WATCH",
@@ -18620,7 +18784,8 @@ window.EPISODES_BY_CAMPAIGN = {
   "apollo_gloabl_brandx": [],
   "ssim_wnba_allstar_event": [],
   "ubs_huddleinthehamptons": [],
-  "huntington_bank_2026": []
+  "huntington_bank_2026": [],
+  "next_league_future_of_sports": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -34495,6 +34660,146 @@ window.POSTS_BY_CAMPAIGN = {
       "url": null,
       "postedAt": null
     }
+  ],
+  "next_league_future_of_sports": [
+    {
+      "title": "How AI Will Power the Next Generation of Sports Fans",
+      "platform": "YouTube In-feed",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 16796,
+      "paidImpr": 0,
+      "orgImpr": 16796,
+      "views": 378,
+      "reach": 0,
+      "eng": 13,
+      "er": 0.08,
+      "spend": 0,
+      "watchTimeMin": 317.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://youtu.be/4RHV2qu6yuo",
+      "postedAt": "2026-08-27T07:00:18-07:00"
+    },
+    {
+      "title": "How will artificial intelligence change the future of sports?  In this episode of Future of Sports, presented by Next Le",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 3989,
+      "paidImpr": 0,
+      "orgImpr": 3989,
+      "views": 2120,
+      "reach": 0,
+      "eng": 102,
+      "er": 2.56,
+      "spend": 0,
+      "watchTimeMin": 966.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498757850870046721",
+      "postedAt": "2026-08-27T11:30:05-07:00"
+    },
+    {
+      "title": "Chief Digital Officer at Next League Scott Gutterman tells FOS how AI can be used to personalize the experience with fan",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 4890,
+      "paidImpr": 0,
+      "orgImpr": 4890,
+      "views": 4890,
+      "reach": 3726,
+      "eng": 36,
+      "er": 0.74,
+      "spend": 0,
+      "watchTimeMin": 4.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DcmMoDyAVp-/",
+      "postedAt": "2026-08-28T13:18:08-07:00"
+    },
+    {
+      "title": "Chief Digital Officer at Next League Scott Gutterman tells FOS how AI can be used to personalize the experience with fan",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 426,
+      "paidImpr": 0,
+      "orgImpr": 426,
+      "views": 426,
+      "reach": 271,
+      "eng": 22,
+      "er": 5.16,
+      "spend": 0,
+      "watchTimeMin": 35.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7678738672086175007",
+      "postedAt": "2026-08-29T07:30:00-07:00"
+    },
+    {
+      "title": "Chief Digital Officer at Next League Scott Gutterman tells FOS how AI can be used to personalize the experience with fan",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 3224,
+      "paidImpr": 0,
+      "orgImpr": 3224,
+      "views": 794,
+      "reach": 0,
+      "eng": 86,
+      "er": 2.67,
+      "spend": 0,
+      "watchTimeMin": 120.2,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498761843642060801",
+      "postedAt": "2026-08-29T07:30:02-07:00"
+    },
+    {
+      "title": "How AI can improve sports fan experience",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/6bwKHlPeDI0",
+      "postedAt": "2026-08-29T07:30:05-07:00"
+    }
   ]
 };
 
@@ -34742,7 +35047,8 @@ window.UPLOAD_TARGETS = {
       "file": "huntington_bank_2026_x_ads.csv",
       "label": "X Ads"
     }
-  ]
+  ],
+  "next_league_future_of_sports": []
 };
 
 window.MS_GROUPS = [
@@ -36581,7 +36887,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.66,
-    "impressions": 61949347,
+    "impressions": 61966143,
     "paidImpressions": 61447005,
     "pctOfTotal": 40.8,
     "mvmCpm": 0.53,
@@ -36591,7 +36897,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.56,
-    "impressions": 23310116,
+    "impressions": 23315006,
     "paidImpressions": 20721916,
     "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
@@ -36601,7 +36907,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.21,
-    "impressions": 22319972,
+    "impressions": 22320398,
     "paidImpressions": 17683539,
     "pctOfTotal": 14.7,
     "mvmCpm": 2.24,
@@ -36641,7 +36947,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2552823,
+    "impressions": 2560036,
     "paidImpressions": 0,
     "pctOfTotal": 1.7,
     "mvmCpm": null,
