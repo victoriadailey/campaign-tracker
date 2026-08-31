@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-08-31T17:34:12Z";
+window.LAST_REFRESHED = "2026-08-31T17:37:57Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:56Z",
     "lastUpdatedExports": "2026-08-13T18:35:12Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:56Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1407,7 +1407,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1514,7 +1514,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1669,7 +1669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1824,7 +1824,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2221,7 +2221,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2369,7 +2369,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2571,7 +2571,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2847,7 +2847,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3230,7 +3230,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3589,7 +3589,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3753,7 +3753,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3892,7 +3892,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4134,7 +4134,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4488,7 +4488,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4692,7 +4692,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4807,7 +4807,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4822,23 +4822,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 187025,
+      "delivered": 211988,
       "goal": 2500000
     },
     "budget": {
-      "delivered": 653.22,
+      "delivered": 675.37,
       "goal": 3170.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "X",
-    "er": 0.34,
-    "cpm": 4.14,
+    "er": 0.36,
+    "cpm": 3.7,
     "episodes": 0,
-    "posts": 7,
+    "posts": 8,
     "blurb": "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown.",
     "views": 8608,
-    "engagements": 632,
+    "engagements": 773,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -4862,18 +4862,34 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 16796,
-        "eng": 13,
-        "er": 0.08,
-        "cpm": 0.0,
+        "impressions": 41557,
+        "eng": 18,
+        "er": 0.04,
+        "cpm": 0.73,
         "color": "#E00922",
-        "delta": -84.5,
+        "delta": -91.3,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 16796,
-        "views": 378
+        "views": 275
+      },
+      {
+        "name": "YouTube Pre-roll",
+        "italic": "YouTube Pre-roll",
+        "impressions": 202,
+        "eng": 136,
+        "er": 67.33,
+        "cpm": 19.95,
+        "color": "#B0061B",
+        "delta": -6.5,
+        "bench": {
+          "er": 72.0,
+          "cpm": 14.0
+        },
+        "organicImpressions": 0,
+        "views": 103
       },
       {
         "name": "LinkedIn",
@@ -4963,23 +4979,23 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 15% of goal (374K of 2.5M) with 30 days left.",
-        "body": "At the current rate the campaign will fall ~2.1M impressions short of the 2.5M goal. Need to deliver 77K impr/day (12.4\u00d7 the current 6K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 17% of goal (424K of 2.5M) with 30 days left.",
+        "body": "At the current rate the campaign will fall ~2.1M impressions short of the 2.5M goal. Need to deliver 76K impr/day (10.8\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Next League \u00b7 Pacing"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "Campaign averaging 0.34% ER \u2014 below the 1% floor.",
-        "body": "0.34% engagement rate across 187K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "headline": "Campaign averaging 0.36% ER \u2014 below the 1% floor.",
+        "body": "0.36% engagement rate across 212K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Next League \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-08-31T17:34:11Z",
-    "lastUpdatedExports": "2026-08-31T17:10:08Z"
+    "lastUpdatedMs": "2026-08-31T17:37:57Z",
+    "lastUpdatedExports": "2026-08-31T17:32:46Z"
   }
 ];
 
@@ -5217,8 +5233,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 93179241,
-    "eng": 1827345,
+    "impressions": 93204002,
+    "eng": 1827350,
     "er": 1.96,
     "cpm": 1.06,
     "color": "#E00922",
@@ -5423,8 +5439,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 15% of goal (374K of 2.5M) with 30 days left.",
-    "body": "At the current rate the campaign will fall ~2.1M impressions short of the 2.5M goal. Need to deliver 77K impr/day (12.4\u00d7 the current 6K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 17% of goal (424K of 2.5M) with 30 days left.",
+    "body": "At the current rate the campaign will fall ~2.1M impressions short of the 2.5M goal. Need to deliver 76K impr/day (10.8\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Next League \u00b7 Pacing",
     "campaignId": "next_league_future_of_sports",
     "campaignPartner": "Next League"
@@ -34682,24 +34698,47 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "How AI Will Power the Next Generation of Sports Fans",
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 16796,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 41557,
+      "paidImpr": 24761,
       "orgImpr": 16796,
-      "views": 378,
+      "views": 275,
       "reach": 0,
-      "eng": 13,
-      "er": 0.08,
-      "spend": 0,
+      "eng": 18,
+      "er": 0.04,
+      "spend": 18.12,
       "watchTimeMin": 317.0,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 0.73,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/4RHV2qu6yuo",
       "postedAt": "2026-08-27T07:00:18-07:00"
+    },
+    {
+      "title": "Next League: Future of Sports (pre-roll)",
+      "platform": "YouTube Pre-roll",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 202,
+      "paidImpr": 202,
+      "orgImpr": 0,
+      "views": 103,
+      "reach": 0,
+      "eng": 136,
+      "er": 67.33,
+      "spend": 4.03,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 19.93,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     },
     {
       "title": "How will artificial intelligence change the future of sports?  In this episode of Future of Sports, presented by Next Le",
@@ -35089,6 +35128,10 @@ window.UPLOAD_TARGETS = {
   ],
   "next_league_future_of_sports": [
     {
+      "file": "next_league_future_of_sports_yt_paid.csv",
+      "label": "Google Ads"
+    },
+    {
       "file": "next_league_future_of_sports_x_ads.csv",
       "label": "X Ads"
     }
@@ -35296,9 +35339,7 @@ window.DATA_HEALTH = {
     "[threem] excluded 1 post(s) via campaign exclude ['1530555005750751']"
   ],
   "msErrors": [],
-  "orphanFiles": [
-    "next_league_future_of_sports_yt_paid.csv"
-  ],
+  "orphanFiles": [],
   "potentialDuplicates": []
 };
 
@@ -35837,6 +35878,17 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "huntington_bank_2026_x_ads.csv",
+    "fileSizeKb": 0.3,
+    "lastModified": "2026-08-31",
+    "exists": true,
+    "postsContributed": 1
+  },
+  {
+    "campaignId": "next_league_future_of_sports",
+    "partner": "Next League",
+    "sourceKind": "youtube_paid",
+    "sourceLabel": "Google Ads (YT Paid)",
+    "filename": "next_league_future_of_sports_yt_paid.csv",
     "fileSizeKb": 0.3,
     "lastModified": "2026-08-31",
     "exists": true,
@@ -36944,8 +36996,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.66,
-    "impressions": 61966143,
-    "paidImpressions": 61447005,
+    "impressions": 61990904,
+    "paidImpressions": 61471766,
     "pctOfTotal": 40.8,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 24.4,
@@ -37014,11 +37066,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Pre-roll",
     "cpm": 11.5,
-    "impressions": 1480859,
-    "paidImpressions": 1480859,
+    "impressions": 1481061,
+    "paidImpressions": 1481061,
     "pctOfTotal": 1.0,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": -3.5,
+    "mvmDeltaPct": -3.4,
     "color": "#B0061B"
   }
 ];
