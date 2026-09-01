@@ -137,7 +137,12 @@ function OverviewPage({ onOpenCampaign }) {
   // from active campaigns.
   const activeOnly = CAMPAIGNS.filter(c => (c.lifecycle || 'active') === 'active');
   const activeCount = activeOnly.length;
-  const needsAttn = activeOnly.filter(c => c.statusKind === 'danger' || c.statusKind === 'warn').length;
+  // Campaigns that need attention, worst first (danger before warn). Named
+  // explicitly in a strip below so the header count is actionable, not abstract.
+  const attnCampaigns = activeOnly
+    .filter(c => c.statusKind === 'danger' || c.statusKind === 'warn')
+    .sort((a, b) => (a.statusKind === 'danger' ? 0 : 1) - (b.statusKind === 'danger' ? 0 : 1));
+  const needsAttn = attnCampaigns.length;
 
   return (
     <>
@@ -155,6 +160,32 @@ function OverviewPage({ onOpenCampaign }) {
       />
 
       <HealthBanner/>
+
+      {/* NEEDS ATTENTION — names the campaigns behind the header count so it's
+          actionable. Click through to the campaign. Danger (red) first. */}
+      {attnCampaigns.length > 0 && (
+        <div className="sec" style={{marginTop:4}}>
+          <div style={{display:'flex', flexWrap:'wrap', gap:10, alignItems:'center'}}>
+            <span style={{fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.06em', textTransform:'uppercase', color:'var(--ink-3)', marginRight:2}}>Needs attention</span>
+            {attnCampaigns.map(c => {
+              const danger = c.statusKind === 'danger';
+              const dot = danger ? '#DE6B38' : '#FF9947';
+              return (
+                <button key={c.id} onClick={() => onOpenCampaign(c.id)} style={{
+                  display:'inline-flex', alignItems:'center', gap:8,
+                  background:'var(--surface)', border:'1px solid var(--line)',
+                  borderLeft:`3px solid ${dot}`, borderRadius:'var(--r-md)',
+                  padding:'7px 12px', cursor:'pointer', fontFamily:'inherit', fontSize:13,
+                }}>
+                  <span style={{fontWeight:600, color:'var(--ink)'}}>{c.partner}</span>
+                  <span style={{color:'var(--ink-3)'}}>·</span>
+                  <span style={{color:dot, fontWeight:600, fontSize:12}}>{c.status}</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* TOP-OF-DASH CALLOUTS — pulled from per-campaign auto-callouts.
           Capped at the top 4 (already ranked by the pipeline) so the strip

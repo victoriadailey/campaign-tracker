@@ -340,6 +340,16 @@ campaigns:
         # "Colston" (single token) also catches the Saints/NIL descriptive titles.
         match: ["PP Episode 14 -", "Marques Colston", "Colston", "@marquescolston"]
         exclude: []
+      - id: ep15
+        n: "Ep. 15"
+        title: "Kerri Walsh Jennings"
+        date: "Aug 2026"
+        # Some cutdowns are quote-titled without her name ("…sleeping on
+        # couches…", "…only relevant one of those 4 years"), so match those
+        # fragments too. "beach volleyball" is unique to her in this series.
+        match: ["PP Episode 15 -", "Kerri Walsh", "beach volleyball",
+                "sleeping on couches", "only relevant one of those"]
+        exclude: []
 
   - id: spectrum
     partner: Spectrum
@@ -1387,6 +1397,11 @@ campaigns:
     color: ft-8
     lead_format: Social Video
     blurb: Panel cutdowns from Huddle in the Hamptons Event
+    # Google Ads names the shorts generically ("Cutdown 1/2/3") with no guest
+    # token, so the guest-name YT merge passes can't pair them and Cutdown 3's
+    # spend was orphaned. Pair GAds↔MS by sorted paid impressions instead (same
+    # fix as State Street SSIM).
+    yt_paired_by_sort: true
     sources:
       youtube_paid:
         - ubs_huddleinthehamptons_yt_paid.csv

@@ -69,6 +69,31 @@ def main() -> int:
 
     today = date.fromisoformat(args.today) if args.today else date.today()
 
+    # ---------- Goal-hit freshness state ----------
+    # A "goal hit" Pulse Check win should only surface for a few days after the
+    # goal is crossed, so the Pulse Check stays focused on today's optimizations
+    # rather than weeks-old milestones. A single refresh can't know when the goal
+    # was crossed, so we persist each campaign's first-goal-hit date in the
+    # emitted data.js (window.PULSE_STATE) and read the previous run's copy here.
+    GOAL_WIN_DAYS = 4
+    _prior_goal_hit: dict[str, str] = {}
+    try:
+        import re as _re, json as _json
+        _prev_js = Path(args.output).read_text(encoding="utf-8")
+        # Match up to a closing brace at the start of a line (the serializer
+        # emits indent=2, so only the OUTER object's `}` sits in column 0 —
+        # nested braces are indented and won't match `\n}`).
+        _m = _re.search(r"window\.PULSE_STATE\s*=\s*(\{.*?\n\})\s*;", _prev_js, _re.S)
+        if _m:
+            # goalHit is a list of {id, date} (list form keeps campaign ids from
+            # being camelCased by the JS serializer).
+            for _e in ((_json.loads(_m.group(1)) or {}).get("goalHit") or []):
+                if _e.get("id") and _e.get("date"):
+                    _prior_goal_hit[_e["id"]] = _e["date"]
+    except Exception:  # noqa: BLE001 — first run / unreadable → start fresh
+        pass
+    goal_hit_state: dict[str, str] = {}   # rebuilt this run, emitted for the next
+
     cfg = yaml.safe_load(args.config.read_text())
 
     # Filter campaigns based on --only / --exclude flags. --only takes precedence.
@@ -536,12 +561,25 @@ def main() -> int:
             partners_one = {cc.id: cc.partner}
             summary.top_posts = top_posts_by_er({cc.id: posts}, partners_one, n=10)
             summary.top_posts_organic = top_posts_by_organic_reach({cc.id: posts}, partners_one, n=10)
+            # Record/carry the first date this campaign crossed its goal, then
+            # decide whether the goal-hit milestone is still "fresh" enough to
+            # surface (within GOAL_WIN_DAYS). Campaigns below goal drop out of
+            # state, so the timer resets if delivery later dips and re-crosses.
+            _goal_fresh = True
+            if summary.impressions.goal and summary.impressions.delivered >= summary.impressions.goal:
+                _hit = _prior_goal_hit.get(cc.id) or today.isoformat()
+                goal_hit_state[cc.id] = _hit
+                try:
+                    _goal_fresh = (today - date.fromisoformat(_hit)).days <= GOAL_WIN_DAYS
+                except (ValueError, TypeError):
+                    _goal_fresh = True
             summary.callouts = compute_campaign_callouts(
                 summary,
                 summary.channels,
                 summary.top_posts,
                 today=today,
                 organic_by_design_for=set(c.get("organic_by_design_for") or []),
+                goal_milestone_fresh=_goal_fresh,
             )
             campaigns.append(summary)
         else:
@@ -1024,6 +1062,7 @@ def main() -> int:
         payload, args.output, benchmarks=benchmarks_data,
         upload_targets=upload_targets, ms_groups=ms_groups,
         data_health=data_health,
+        pulse_state={"goalHit": [{"id": k, "date": v} for k, v in sorted(goal_hit_state.items())]},
     )
 
     print("=" * 60)

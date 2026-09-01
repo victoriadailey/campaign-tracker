@@ -698,6 +698,7 @@ def compute_campaign_callouts(
     today: "date | datetime | None" = None,
     organic_by_design_for: set[str] | None = None,
     win_recency_days: int = 7,
+    goal_milestone_fresh: bool = True,
 ) -> list[dict]:
     """Produce up to 3 callouts (WIN / OPPORTUNITY / WATCH) for one campaign.
 
@@ -819,7 +820,10 @@ def compute_campaign_callouts(
     # moment delivery crosses the goal (no need to wait for flight end) as long
     # as there's real budget left over. Flagged `milestone` so the portfolio
     # aggregator always surfaces it (it has no "N× benchmark" score to rank on).
-    if summary.impressions.goal > 0 and summary.budget.goal > 0:
+    # `goal_milestone_fresh` gates this to the first few days after goal is
+    # crossed (tracked across refreshes upstream). A goal hit weeks ago is no
+    # longer a Pulse Check optimization — it's history — so we stop surfacing it.
+    if goal_milestone_fresh and summary.impressions.goal > 0 and summary.budget.goal > 0:
         _impr_pct = summary.impressions.delivered / summary.impressions.goal * 100
         _budget_left = summary.budget.goal - summary.budget.delivered
         _budget_left_pct = _budget_left / summary.budget.goal * 100
@@ -1287,23 +1291,28 @@ def aggregate_portfolio_signals(campaigns: list[CampaignSummary]) -> list[dict]:
     out: list[dict] = []
     # Milestone WINs (e.g. goal hit with budget banked) always surface — they
     # have no "N× benchmark" score to compete on but are high-value news.
-    milestone_wins = [co for co in pool["WIN"] if co.get("milestone")]
-    benchmark_wins = [co for co in pool["WIN"] if not co.get("milestone")]
-    out.extend(milestone_wins)
-    if benchmark_wins:
-        out.append(max(benchmark_wins, key=_win_score))
-    if pool["OPPORTUNITY"]:
-        out.append(max(pool["OPPORTUNITY"], key=_opp_score))
-
-    # WATCH: surface EVERY behind-pace campaign + best non-pacing WATCH.
+    # Pulse Check leads with what needs action TODAY. Order:
+    #   1. Pacing WATCHes (behind-pace campaigns — the "needs attention" set),
+    #      worst first.
+    #   2. Best non-pacing WATCH (budget surplus / CPM blow-up / low-ER).
+    #   3. Best OPPORTUNITY (where to lean in).
+    #   4. WINs last — a benchmark win, then goal-hit milestones. Milestones are
+    #      already recency-gated upstream (they only appear for a few days after
+    #      goal is crossed), so a weeks-old "goal hit" no longer crowds out the
+    #      day's optimizations.
     pacing_watches = [co for co in pool["WATCH"] if _is_pacing_watch(co)]
     other_watches = [co for co in pool["WATCH"] if not _is_pacing_watch(co)]
-    # Behind-pace WATCHes — sorted by severity (largest gap first)
     for co in sorted(pacing_watches, key=_pacing_severity, reverse=True):
         out.append(co)
-    # Plus the best non-pacing WATCH (e.g. budget surplus, low-ER, CPM)
     if other_watches:
         out.append(max(other_watches, key=_other_watch_score))
+    if pool["OPPORTUNITY"]:
+        out.append(max(pool["OPPORTUNITY"], key=_opp_score))
+    benchmark_wins = [co for co in pool["WIN"] if not co.get("milestone")]
+    milestone_wins = [co for co in pool["WIN"] if co.get("milestone")]
+    if benchmark_wins:
+        out.append(max(benchmark_wins, key=_win_score))
+    out.extend(milestone_wins)
 
     return out
 
