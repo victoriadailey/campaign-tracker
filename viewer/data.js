@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-02T13:24:56Z";
+window.LAST_REFRESHED = "2026-09-02T13:28:25Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-09-01T19:13:12Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1407,7 +1407,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1514,7 +1514,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1669,7 +1669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1824,7 +1824,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2221,7 +2221,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2369,7 +2369,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2571,7 +2571,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2847,7 +2847,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3230,7 +3230,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3556,7 +3556,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3720,7 +3720,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3859,7 +3859,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4101,7 +4101,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4438,7 +4438,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4642,7 +4642,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4757,7 +4757,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4772,23 +4772,23 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 1261963,
+      "delivered": 1277416,
       "goal": 2500000
     },
     "budget": {
-      "delivered": 1912.92,
+      "delivered": 1967.7,
       "goal": 3170.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 1.46,
-    "cpm": 1.65,
+    "er": 1.44,
+    "cpm": 1.67,
     "episodes": 0,
     "posts": 9,
     "blurb": "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown.",
     "views": 319393,
-    "engagements": 18416,
+    "engagements": 18438,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -4844,12 +4844,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 157700,
-        "eng": 373,
-        "er": 0.24,
-        "cpm": 4.14,
+        "impressions": 173153,
+        "eng": 395,
+        "er": 0.23,
+        "cpm": 4.09,
         "color": "#1d1d1f",
-        "delta": -74.3,
+        "delta": -75.2,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -4952,16 +4952,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $4.14 \u2014 3.8\u00d7 the benchmark.",
-        "body": "$4.14 CPM vs. $1.10 FOS benchmark. At 3.8\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "headline": "X CPM at $4.09 \u2014 3.7\u00d7 the benchmark.",
+        "body": "$4.09 CPM vs. $1.10 FOS benchmark. At 3.7\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
         "meta": "Next League \u00b7 X"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-02T13:24:55Z",
-    "lastUpdatedExports": "2026-09-02T13:21:56Z"
+    "lastUpdatedMs": "2026-09-02T13:28:25Z",
+    "lastUpdatedExports": "2026-09-02T13:21:57Z"
   }
 ];
 
@@ -5215,12 +5215,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29084339,
-    "eng": 644103,
+    "impressions": 29099792,
+    "eng": 644125,
     "er": 2.21,
     "cpm": 1.64,
     "color": "#1d1d1f",
-    "delta": 140.7,
+    "delta": 140.6,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -5365,8 +5365,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "X CPM at $4.14 \u2014 3.8\u00d7 the benchmark.",
-    "body": "$4.14 CPM vs. $1.10 FOS benchmark. At 3.8\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "headline": "X CPM at $4.09 \u2014 3.7\u00d7 the benchmark.",
+    "body": "$4.09 CPM vs. $1.10 FOS benchmark. At 3.7\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
     "meta": "Next League \u00b7 X",
     "campaignId": "next_league_future_of_sports",
     "campaignPartner": "Next League"
@@ -35251,22 +35251,22 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 157700,
-      "paidImpr": 157700,
+      "impr": 173153,
+      "paidImpr": 173153,
       "orgImpr": 0,
       "views": 0,
       "reach": 0,
-      "eng": 373,
-      "er": 0.24,
-      "spend": 653.22,
+      "eng": 395,
+      "er": 0.23,
+      "spend": 708.0,
       "watchTimeMin": null,
       "clicks": 0,
       "ctr": null,
       "cpc": null,
-      "cpm": 4.14,
+      "cpm": 4.09,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": "DARK",
+      "url": null,
       "postedAt": null
     }
   ]
@@ -37502,11 +37502,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.17,
-    "impressions": 18085065,
-    "paidImpressions": 16241442,
+    "impressions": 18100518,
+    "paidImpressions": 16256895,
     "pctOfTotal": 11.8,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 74.9,
+    "mvmDeltaPct": 75.0,
     "color": "#1d1d1f"
   },
   {
