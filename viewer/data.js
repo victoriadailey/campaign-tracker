@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-03T13:15:35Z";
+window.LAST_REFRESHED = "2026-09-03T14:41:18Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,11 +382,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 36791399,
+      "delivered": 36845156,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 52819.71,
+      "delivered": 52897.89,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 3.0,
     "cpm": 1.82,
     "episodes": 16,
-    "posts": 336,
+    "posts": 341,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 10398392,
-    "engagements": 1104053,
+    "views": 10403060,
+    "engagements": 1104431,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,18 +454,18 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4338017,
-        "eng": 12567,
+        "impressions": 4383823,
+        "eng": 12736,
         "er": 0.29,
-        "cpm": 1.28,
+        "cpm": 1.3,
         "color": "#1d1d1f",
-        "delta": -68.5,
+        "delta": -68.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1395405,
-        "views": 394744
+        "organicImpressions": 1421392,
+        "views": 396817
       },
       {
         "name": "YouTube Shorts",
@@ -486,24 +486,24 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 2030742,
-        "eng": 71025,
-        "er": 3.5,
+        "impressions": 2038150,
+        "eng": 71211,
+        "er": 3.49,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -7.0,
+        "delta": -7.1,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 2030742,
-        "views": 509986
+        "organicImpressions": 2038150,
+        "views": 512038
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 821403,
-        "eng": 34405,
+        "impressions": 821946,
+        "eng": 34428,
         "er": 4.19,
         "cpm": 0.0,
         "color": "#000000",
@@ -512,8 +512,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 821403,
-        "views": 821403
+        "organicImpressions": 821946,
+        "views": 821946
       },
       {
         "name": "Instagram Stories",
@@ -824,8 +824,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
-    "lastUpdatedExports": "2026-09-03T13:13:24Z"
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
+    "lastUpdatedExports": "2026-09-03T13:13:26Z"
   },
   {
     "id": "spectrum",
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1407,7 +1407,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1514,7 +1514,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1669,7 +1669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1824,7 +1824,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2221,7 +2221,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2369,7 +2369,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2571,7 +2571,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2847,7 +2847,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:17Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3230,7 +3230,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:34Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3556,7 +3556,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3720,7 +3720,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3859,7 +3859,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4101,7 +4101,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4438,7 +4438,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4642,7 +4642,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4757,7 +4757,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4769,26 +4769,26 @@ window.CAMPAIGNS = [
     "flight": "Aug 1 \u2014 Sep 30, 2026",
     "elapsedPct": 55.0,
     "daysLeft": 27,
-    "status": "On Track",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1645342,
+      "delivered": 2076104,
       "goal": 2500000
     },
     "budget": {
-      "delivered": 2441.14,
+      "delivered": 2904.95,
       "goal": 3170.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 1.18,
-    "cpm": 1.62,
+    "er": 1.41,
+    "cpm": 1.5,
     "episodes": 0,
     "posts": 9,
     "blurb": "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown.",
-    "views": 687978,
-    "engagements": 19363,
+    "views": 689200,
+    "engagements": 29282,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -4796,34 +4796,34 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 640400,
-        "eng": 824,
-        "er": 0.13,
-        "cpm": 0.67,
+        "impressions": 1005039,
+        "eng": 1664,
+        "er": 0.17,
+        "cpm": 0.66,
         "color": "#E00922",
-        "delta": -74.3,
+        "delta": -66.9,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 32464,
-        "views": 4484
+        "views": 0
       },
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 13991,
-        "eng": 11480,
-        "er": 82.05,
-        "cpm": 11.8,
+        "impressions": 22210,
+        "eng": 17836,
+        "er": 80.31,
+        "cpm": 11.27,
         "color": "#B0061B",
-        "delta": 14.0,
+        "delta": 11.5,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 8622
+        "views": 13122
       },
       {
         "name": "TikTok",
@@ -4844,18 +4844,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 191896,
-        "eng": 3686,
-        "er": 1.92,
-        "cpm": 1.13,
+        "impressions": 249800,
+        "eng": 6409,
+        "er": 2.57,
+        "cpm": 1.46,
         "color": "#FF0033",
-        "delta": -90.4,
+        "delta": -87.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 453,
-        "views": 64363
+        "views": 65585
       },
       {
         "name": "X",
@@ -4976,8 +4976,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-03T13:15:35Z",
-    "lastUpdatedExports": "2026-09-02T13:21:57Z"
+    "lastUpdatedMs": "2026-09-03T14:41:18Z",
+    "lastUpdatedExports": "2026-09-03T14:37:41Z"
   }
 ];
 
@@ -5215,34 +5215,34 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 94310747,
-    "eng": 1839593,
+    "impressions": 94733290,
+    "eng": 1843156,
     "er": 1.95,
     "cpm": 1.07,
     "color": "#E00922",
-    "delta": -90.2,
+    "delta": -90.3,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 16709141
+    "views": 16710363
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29099879,
-    "eng": 644127,
+    "impressions": 29145685,
+    "eng": 644296,
     "er": 2.21,
     "cpm": 1.64,
     "color": "#1d1d1f",
-    "delta": 140.6,
+    "delta": 140.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 468211
+    "views": 470284
   },
   {
     "name": "Instagram",
@@ -5263,8 +5263,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 24299752,
-    "eng": 55116,
+    "impressions": 24300295,
+    "eng": 55139,
     "er": 0.23,
     "cpm": 2.19,
     "color": "#000000",
@@ -5274,7 +5274,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 24056258
+    "views": 24056801
   },
   {
     "name": "Facebook",
@@ -5295,18 +5295,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 3220319,
-    "eng": 116373,
+    "impressions": 3227727,
+    "eng": 116559,
     "er": 3.61,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -3.9,
+    "delta": -4.0,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 830730
+    "views": 832782
   },
   {
     "name": "Snapchat",
@@ -14433,11 +14433,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Kerri Walsh Jennings",
       "date": "Aug 2026",
       "total": {
-        "impr": 1300518,
-        "views": 312359,
-        "er": 1.63,
-        "eng": 55410,
-        "spend": 2867.15
+        "impr": 1345503,
+        "views": 314954,
+        "er": 1.6,
+        "eng": 55764,
+        "spend": 2945.33
       },
       "perChannel": [
         {
@@ -14471,6 +14471,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 2
         },
         {
+          "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 94560,
+          "paidImpr": 59378,
+          "orgImpr": 35182,
+          "views": 5727,
+          "eng": 548,
+          "paidEng": 476,
+          "orgEng": 72,
+          "er": 0.58,
+          "cpm": 4.21,
+          "spend": 250.0,
+          "posts": 4
+        },
+        {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
           "impr": 65564,
@@ -14483,37 +14498,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 7.28,
           "cpm": 3.12,
           "spend": 199.93,
-          "posts": 2
-        },
-        {
-          "name": "X",
-          "distKind": "organic+boosted",
-          "impr": 57526,
-          "paidImpr": 42801,
-          "orgImpr": 20863,
-          "views": 5727,
-          "eng": 403,
-          "paidEng": 386,
-          "orgEng": 43,
-          "er": 0.7,
-          "cpm": 4.01,
-          "spend": 171.82,
           "posts": 3
         },
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 55389,
+          "impr": 62797,
           "paidImpr": 0,
-          "orgImpr": 55389,
-          "views": 25799,
-          "eng": 1902,
+          "orgImpr": 62797,
+          "views": 27851,
+          "eng": 2088,
           "paidEng": 0,
-          "orgEng": 1902,
-          "er": 3.43,
+          "orgEng": 2088,
+          "er": 3.32,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "YouTube Pre-roll",
@@ -14533,17 +14533,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 1269,
+          "impr": 1812,
           "paidImpr": 0,
-          "orgImpr": 1269,
-          "views": 1269,
-          "eng": 40,
+          "orgImpr": 1812,
+          "views": 1812,
+          "eng": 63,
           "paidEng": 0,
-          "orgEng": 40,
-          "er": 3.15,
+          "orgEng": 63,
+          "er": 3.48,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         }
       ],
       "posts": [
@@ -14687,13 +14687,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 10613,
-          "paidImpr": 13855,
-          "orgImpr": 0,
+          "impr": 41045,
+          "paidImpr": 30432,
+          "orgImpr": 10613,
           "views": 2896,
-          "eng": 29,
-          "er": 0.27,
-          "spend": 46.82,
+          "eng": 174,
+          "er": 0.42,
+          "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2093051778174464487",
           "postedAt": "2026-08-27T12:03:25-07:00"
         },
@@ -14741,6 +14741,66 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 99.93,
           "url": "https://www.youtube.com/shorts/vJJ24AZ1iIU",
           "postedAt": "2026-08-27T15:00:04-07:00"
+        },
+        {
+          "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist Kerri Walsh Jennings speaks on ",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7408,
+          "paidImpr": 0,
+          "orgImpr": 7408,
+          "views": 2052,
+          "eng": 186,
+          "er": 2.51,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500998951442227201",
+          "postedAt": "2026-09-02T12:32:23-07:00"
+        },
+        {
+          "title": "@kerrileewalsh @etrade Full episode with Kerri Walsh Jennings including:  - The state of Olympic volleyball - Why early ",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6602,
+          "paidImpr": 0,
+          "orgImpr": 6602,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2095234771538293121",
+          "postedAt": "2026-09-02T12:37:51-07:00"
+        },
+        {
+          "title": "Why college sports are at risk of being cut",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/vYxt25swhhI",
+          "postedAt": "2026-09-02T12:43:20-07:00"
+        },
+        {
+          "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d 3-time Olympic gold medalist Kerri Walsh Jennings speaks on w",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 543,
+          "paidImpr": 0,
+          "orgImpr": 543,
+          "views": 543,
+          "eng": 23,
+          "er": 4.24,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7681026245643078942",
+          "postedAt": "2026-09-02T12:45:04-07:00"
         }
       ],
       "topPosts": [
@@ -14766,7 +14826,7 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 55.4K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 62.8K impr."
         }
       ]
     }
@@ -27999,19 +28059,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 10613,
-      "paidImpr": 13855,
-      "orgImpr": 0,
+      "impr": 41045,
+      "paidImpr": 30432,
+      "orgImpr": 10613,
       "views": 2896,
       "reach": 0,
-      "eng": 29,
-      "er": 0.27,
-      "spend": 46.82,
+      "eng": 174,
+      "er": 0.42,
+      "spend": 125.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 3.38,
+      "cpm": 4.11,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2093051778174464487",
@@ -28085,6 +28145,121 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/vJJ24AZ1iIU",
       "postedAt": "2026-08-27T15:00:04-07:00"
+    },
+    {
+      "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist Kerri Walsh Jennings speaks on ",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7408,
+      "paidImpr": 0,
+      "orgImpr": 7408,
+      "views": 2052,
+      "reach": 0,
+      "eng": 186,
+      "er": 2.51,
+      "spend": 0,
+      "watchTimeMin": 463.2,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500998951442227201",
+      "postedAt": "2026-09-02T12:32:23-07:00"
+    },
+    {
+      "title": "@kerrileewalsh @etrade Full episode with Kerri Walsh Jennings including:  - The state of Olympic volleyball - Why early ",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6602,
+      "paidImpr": 0,
+      "orgImpr": 6602,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2095234771538293121",
+      "postedAt": "2026-09-02T12:37:51-07:00"
+    },
+    {
+      "title": "Why college sports are at risk of being cut",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/vYxt25swhhI",
+      "postedAt": "2026-09-02T12:43:20-07:00"
+    },
+    {
+      "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d 3-time Olympic gold medalist Kerri Walsh Jennings speaks on w",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 543,
+      "paidImpr": 0,
+      "orgImpr": 543,
+      "views": 543,
+      "reach": 0,
+      "eng": 23,
+      "er": 4.24,
+      "spend": 0,
+      "watchTimeMin": 69.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7681026245643078942",
+      "postedAt": "2026-09-02T12:45:04-07:00"
+    },
+    {
+      "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist @kerrileewalsh speaks on why ma",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 8772,
+      "paidImpr": 0,
+      "orgImpr": 8772,
+      "views": 2073,
+      "reach": 0,
+      "eng": 24,
+      "er": 0.27,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2095233559455809749",
+      "postedAt": "2026-09-02T12:33:02-07:00"
     }
   ],
   "spectrum": [
@@ -35106,19 +35281,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 640400,
-      "paidImpr": 607936,
+      "impr": 1005039,
+      "paidImpr": 972575,
       "orgImpr": 32464,
-      "views": 4484,
+      "views": 0,
       "reach": 0,
-      "eng": 824,
-      "er": 0.13,
-      "spend": 408.86,
+      "eng": 1664,
+      "er": 0.17,
+      "spend": 638.42,
       "watchTimeMin": 34434.8,
       "clicks": 451,
       "ctr": 48.15,
       "cpc": 1.86,
-      "cpm": 0.67,
+      "cpm": 0.66,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/4RHV2qu6yuo",
@@ -35129,19 +35304,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 13991,
-      "paidImpr": 13991,
+      "impr": 22210,
+      "paidImpr": 22210,
       "orgImpr": 0,
-      "views": 8622,
+      "views": 13122,
       "reach": 0,
-      "eng": 11480,
-      "er": 82.05,
-      "spend": 165.15,
+      "eng": 17836,
+      "er": 80.31,
+      "spend": 250.34,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 11.8,
+      "cpm": 11.27,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -35244,14 +35419,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 71938,
-      "paidImpr": 71485,
+      "impr": 129842,
+      "paidImpr": 129389,
       "orgImpr": 453,
       "views": 62738,
       "reach": 0,
-      "eng": 3686,
-      "er": 5.12,
-      "spend": 216.2,
+      "eng": 6409,
+      "er": 4.94,
+      "spend": 365.26,
       "watchTimeMin": 4481.0,
       "clicks": null,
       "ctr": 0.0,
@@ -37488,9 +37663,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.67,
-    "impressions": 62869817,
-    "paidImpressions": 62332268,
-    "pctOfTotal": 40.7,
+    "impressions": 63234456,
+    "paidImpressions": 62696907,
+    "pctOfTotal": 40.8,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 26.3,
     "color": "#E00922"
@@ -37508,7 +37683,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 2.18,
-    "impressions": 22893875,
+    "impressions": 22894418,
     "paidImpressions": 18161666,
     "pctOfTotal": 14.8,
     "mvmCpm": 2.24,
@@ -37518,18 +37693,18 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.17,
-    "impressions": 18100605,
-    "paidImpressions": 16256895,
+    "impressions": 18146411,
+    "paidImpressions": 16273472,
     "pctOfTotal": 11.7,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 75.0,
+    "mvmDeltaPct": 75.2,
     "color": "#1d1d1f"
   },
   {
     "name": "YouTube Shorts",
     "cpm": 2.68,
-    "impressions": 16876717,
-    "paidImpressions": 16682717,
+    "impressions": 16934621,
+    "paidImpressions": 16740621,
     "pctOfTotal": 10.9,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -16.3,
@@ -37548,7 +37723,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2569203,
+    "impressions": 2576611,
     "paidImpressions": 0,
     "pctOfTotal": 1.7,
     "mvmCpm": null,
@@ -37557,9 +37732,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 11.49,
-    "impressions": 1540161,
-    "paidImpressions": 1540161,
+    "cpm": 11.48,
+    "impressions": 1548380,
+    "paidImpressions": 1548380,
     "pctOfTotal": 1.0,
     "mvmCpm": 11.91,
     "mvmDeltaPct": -3.6,
@@ -37567,7 +37742,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.1;
+window.PORTFOLIO_CPM_BLEND = 2.09;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
