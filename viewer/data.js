@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-04T14:56:10Z";
+window.LAST_REFRESHED = "2026-09-04T15:19:56Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 36852538,
+      "delivered": 36867970,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 3.0,
     "cpm": 1.82,
     "episodes": 16,
-    "posts": 341,
+    "posts": 342,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 10407316,
-    "engagements": 1104601,
+    "views": 10422748,
+    "engagements": 1105066,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -438,18 +438,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 6027981,
-        "eng": 115296,
-        "er": 1.91,
+        "impressions": 6043413,
+        "eng": 115761,
+        "er": 1.92,
         "cpm": 5.49,
         "color": "#E4405F",
-        "delta": -42.2,
+        "delta": -42.1,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1684326,
-        "views": 6027981
+        "organicImpressions": 1699758,
+        "views": 6043413
       },
       {
         "name": "X",
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-09-03T13:13:26Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1399,7 +1399,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1506,7 +1506,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1661,7 +1661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1816,7 +1816,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2213,7 +2213,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2361,7 +2361,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2563,7 +2563,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2839,7 +2839,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:09Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3222,7 +3222,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3548,7 +3548,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3712,7 +3712,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3851,7 +3851,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4093,7 +4093,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4430,7 +4430,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4634,7 +4634,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4749,7 +4749,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4968,7 +4968,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-04T14:56:10Z",
+    "lastUpdatedMs": "2026-09-04T15:19:56Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   }
 ];
@@ -5239,8 +5239,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 25561856,
-    "eng": 358603,
+    "impressions": 25577288,
+    "eng": 359068,
     "er": 1.4,
     "cpm": 4.54,
     "color": "#E4405F",
@@ -5250,7 +5250,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 25561856
+    "views": 25577288
   },
   {
     "name": "TikTok",
@@ -14425,10 +14425,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Kerri Walsh Jennings",
       "date": "Aug 2026",
       "total": {
-        "impr": 1351127,
-        "views": 318327,
-        "er": 1.61,
-        "eng": 55914,
+        "impr": 1366559,
+        "views": 333759,
+        "er": 1.62,
+        "eng": 56379,
         "spend": 2945.33
       },
       "perChannel": [
@@ -14450,17 +14450,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 183129,
+          "impr": 198561,
           "paidImpr": 134084,
-          "orgImpr": 49045,
-          "views": 183129,
-          "eng": 10300,
+          "orgImpr": 64477,
+          "views": 198561,
+          "eng": 10765,
           "paidEng": 0,
-          "orgEng": 10300,
-          "er": 5.62,
+          "orgEng": 10765,
+          "er": 5.42,
           "cpm": 8.94,
           "spend": 1198.6,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "X",
@@ -14793,6 +14793,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7681026245643078942",
           "postedAt": "2026-09-02T12:45:04-07:00"
+        },
+        {
+          "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d\u2060 \u2060 3-time Olympic gold medalist Kerri Walsh Jennings speaks o",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 15432,
+          "paidImpr": 0,
+          "orgImpr": 15432,
+          "views": 15432,
+          "eng": 465,
+          "er": 3.01,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/Dc11aw_jxWT/",
+          "postedAt": "2026-09-03T15:03:12-07:00"
         }
       ],
       "topPosts": [
@@ -14814,7 +14829,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "Instagram leading with 5.6% ER on 183.1K impr."
+          "text": "Instagram leading with 5.4% ER on 198.6K impr."
         },
         {
           "kind": "pos",
@@ -28231,6 +28246,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-09-02T12:45:04-07:00"
     },
     {
+      "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d\u2060 \u2060 3-time Olympic gold medalist Kerri Walsh Jennings speaks o",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 15432,
+      "paidImpr": 0,
+      "orgImpr": 15432,
+      "views": 15432,
+      "reach": 13041,
+      "eng": 465,
+      "er": 3.01,
+      "spend": 0,
+      "watchTimeMin": 52.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Dc11aw_jxWT/",
+      "postedAt": "2026-09-03T15:03:12-07:00"
+    },
+    {
       "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist @kerrileewalsh speaks on why ma",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -37669,7 +37707,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.55,
-    "impressions": 23813202,
+    "impressions": 23828634,
     "paidImpressions": 21215258,
     "pctOfTotal": 15.3,
     "mvmCpm": 5.62,
