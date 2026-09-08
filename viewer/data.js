@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-08T13:35:40Z";
+window.LAST_REFRESHED = "2026-09-08T13:39:41Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:39Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,23 +382,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 36976222,
+      "delivered": 37004738,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 53277.21,
+      "delivered": 53402.21,
       "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 3.01,
-    "cpm": 1.83,
+    "er": 3.0,
+    "cpm": 1.84,
     "episodes": 16,
     "posts": 342,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 10523938,
-    "engagements": 1111390,
+    "engagements": 1111497,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,10 +454,10 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4384826,
-        "eng": 12741,
+        "impressions": 4413342,
+        "eng": 12848,
         "er": 0.29,
-        "cpm": 1.3,
+        "cpm": 1.33,
         "color": "#1d1d1f",
         "delta": -68.4,
         "bench": {
@@ -824,8 +824,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:39Z",
-    "lastUpdatedExports": "2026-09-08T13:33:30Z"
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
+    "lastUpdatedExports": "2026-09-08T13:33:31Z"
   },
   {
     "id": "spectrum",
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-08T13:35:39Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:39Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:39Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:39Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:40Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4387,7 +4387,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4591,7 +4591,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4706,7 +4706,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4925,7 +4925,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-08T13:35:40Z",
+    "lastUpdatedMs": "2026-09-08T13:39:41Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   }
 ];
@@ -5180,12 +5180,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29146714,
-    "eng": 644291,
+    "impressions": 29175230,
+    "eng": 644398,
     "er": 2.21,
     "cpm": 1.64,
     "color": "#1d1d1f",
-    "delta": 140.3,
+    "delta": 140.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -28189,20 +28189,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist @kerrileewalsh speaks on why ma",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 9605,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 38121,
+      "paidImpr": 28516,
       "orgImpr": 9605,
       "views": 2366,
       "reach": 0,
-      "eng": 29,
-      "er": 0.3,
-      "spend": 0,
+      "eng": 136,
+      "er": 0.36,
+      "spend": 125.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 4.38,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2095233559455809749",
@@ -36023,7 +36023,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 7.8,
+    "fileSizeKb": 8.0,
     "lastModified": "2026-09-08",
     "exists": true,
     "postsContributed": 2
@@ -37643,12 +37643,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "X",
-    "cpm": 2.17,
-    "impressions": 18147440,
-    "paidImpressions": 16273472,
+    "cpm": 2.18,
+    "impressions": 18175956,
+    "paidImpressions": 16301988,
     "pctOfTotal": 11.7,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 75.2,
+    "mvmDeltaPct": 75.5,
     "color": "#1d1d1f"
   },
   {
