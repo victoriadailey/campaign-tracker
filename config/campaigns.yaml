@@ -347,7 +347,9 @@ campaigns:
         # Some cutdowns are quote-titled without her name ("…sleeping on
         # couches…", "…only relevant one of those 4 years"), so match those
         # fragments too. "beach volleyball" is unique to her in this series.
-        match: ["PP Episode 15 -", "Kerri Walsh", "beach volleyball",
+        # "kerrileewalsh" catches posts that only tag her handle (@kerrileewalsh)
+        # without spelling out "Kerri Walsh".
+        match: ["PP Episode 15 -", "Kerri Walsh", "kerrileewalsh", "beach volleyball",
                 "sleeping on couches", "only relevant one of those"]
         exclude: []
 
