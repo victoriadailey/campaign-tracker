@@ -359,7 +359,7 @@ campaigns:
     series_italic: Dreams
     type: social    # social-only — no episode breakdown, posts shown directly
     benchmark_category: "Custom Social"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     # YouTube on this campaign runs paid via Google Ads. Reduce MS YT to its
     # organic share so MS + Google Ads don't double-count the boosted impressions.
     ms_organic_only_for:
@@ -540,7 +540,7 @@ campaigns:
     series_italic: Case Study
     type: social    # one campaign, two components compared side-by-side
     benchmark_category: "Social - IP/Franchise"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-05-01      # spans both parts (original May + Redo Jun–Jul)
     flight_end: 2026-07-30
     impression_goal: 1_500_000    # campaign total — carried by the Redo component
@@ -597,7 +597,7 @@ campaigns:
     series_italic: "Off the Pitch"
     type: social    # two components compared side-by-side
     benchmark_category: "Custom Social"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     # Headline flight + goals = the current Off the Pitch run (June). The
     # MLB Minute component is a wrapped earlier flight with its own goal,
     # excluded from the headline goal-delivered totals (added_value).
@@ -756,7 +756,7 @@ campaigns:
     # rather than as a vertical per-episode performance table.
     type: social
     benchmark_category: "Original Content"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-05-18
     flight_end: 2026-07-31
     # Sum of both editorial pieces — primary goals live on each episode entry below.
@@ -859,7 +859,7 @@ campaigns:
     # rather than as a vertical per-episode performance table.
     type: social
     benchmark_category: "Original Content"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     # Every RBC GAds campaign is a YouTube Short, but exports keep dropping the
     # "(shorts)" suffix on some rows (Cabana, ChrisPaul in the 6/12 pull).
     # Match the prefix so classification never depends on the suffix.
@@ -1187,7 +1187,7 @@ campaigns:
     series_italic: Award
     type: social
     benchmark_category: Branded Content
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-07-15
     flight_end: 2026-09-30
     impression_goal: 4500000
@@ -1214,7 +1214,7 @@ campaigns:
     series_italic: EHP
     type: social
     benchmark_category: Branded Content
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-07-01
     flight_end: 2026-08-31
     impression_goal: 4000000
