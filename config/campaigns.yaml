@@ -1453,3 +1453,21 @@ campaigns:
         - next_league_future_of_sports_x_ads.csv
       measure_studio_group_ids:
         - 8641
+
+  - id: accenture_external_creator
+    partner: Accenture
+    series: Accenture
+    series_italic: Accenture
+    type: social
+    benchmark_category: "Custom Creator-Led - Non-Franchise"
+    lifecycle: active
+    flight_start: 2026-09-01
+    flight_end: 2026-11-30
+    impression_goal: 5600000
+    budget_goal: 22634
+    color: ft-1
+    lead_format: Social Video
+    blurb: "An 8 video series with external creator, Evan Hand"
+    sources:
+      measure_studio_group_ids:
+        - 8757
