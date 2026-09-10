@@ -957,7 +957,7 @@ campaigns:
     series_italic: World Cup
     type: social
     benchmark_category: "Custom Social"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-02-01
     flight_end: 2026-07-31
     # Two components: FOS Explains (full ep + cutdown, MS group 8077, 3.3M/$1.5K)
@@ -1160,7 +1160,7 @@ campaigns:
     series_italic: Ally
     type: social
     benchmark_category: Branded Content
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-07-01
     flight_end: 2026-09-30
     impression_goal: 4_500_000
@@ -1250,7 +1250,7 @@ campaigns:
     # pacing_components below.
     type: social
     benchmark_category: Branded Content
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     # Google Ads names the YT buys by format ("(in-feed)", "(pre-roll)",
     # "(shorts)") not a title token MS shares, so pair GAds↔MS by sorted
     # impressions within each YT subtype — folds the paid spend + impressions
@@ -1363,7 +1363,7 @@ campaigns:
     series_italic: Event
     type: social
     benchmark_category: "FOS Event - Custom Social"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-08-01
     flight_end: 2026-08-31
     impression_goal: 2750000
