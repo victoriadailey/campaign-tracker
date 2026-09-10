@@ -1046,7 +1046,7 @@ campaigns:
     series_italic: "Explains"
     type: content
     benchmark_category: "Original Content"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-06-18
     flight_end: 2026-06-30
     # Two goal tiers: 2 longform FOS Explains videos (26M) + 4 cutdowns (4.5M).
@@ -1085,7 +1085,7 @@ campaigns:
     series_italic: "Now"
     type: content
     benchmark_category: "Branded Content"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-06-24
     flight_end: 2026-07-31
     impression_goal: 8_000_000
