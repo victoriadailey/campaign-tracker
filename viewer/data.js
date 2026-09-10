@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-10T13:52:42Z";
+window.LAST_REFRESHED = "2026-09-10T13:57:35Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-09-08T13:33:31Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2378,7 +2378,7 @@ window.CAMPAIGNS = [
     "engagements": 347329,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube In-feed",
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -2872,7 +2872,7 @@ window.CAMPAIGNS = [
       }
     ],
     "benchmarkCategory": "Original Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube In-feed",
@@ -3010,7 +3010,7 @@ window.CAMPAIGNS = [
     "engagements": 220849,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube In-feed",
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3230,7 +3230,7 @@ window.CAMPAIGNS = [
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "Instagram",
@@ -3348,7 +3348,7 @@ window.CAMPAIGNS = [
     "engagements": 97480,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "TikTok",
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -3850,7 +3850,7 @@ window.CAMPAIGNS = [
     "engagements": 175898,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube In-feed",
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4159,7 +4159,7 @@ window.CAMPAIGNS = [
     "engagements": 105169,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "TikTok",
@@ -4387,7 +4387,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4421,7 +4421,7 @@ window.CAMPAIGNS = [
     "engagements": 42679,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube Shorts",
@@ -4591,7 +4591,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4706,7 +4706,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4925,7 +4925,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-10T13:52:42Z",
+    "lastUpdatedMs": "2026-09-10T13:57:35Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   }
 ];
@@ -5339,11 +5339,11 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "X at 4.5% ER \u2014 4.9\u00d7 the benchmark.",
-    "body": "1.3M impressions, 59K engagements at 4.5% ER vs. the 0.9% X FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-    "meta": "BetMGM \u00b7 X",
-    "campaignId": "betmgm",
-    "campaignPartner": "BetMGM"
+    "headline": "Instagram at 5.5% ER \u2014 1.7\u00d7 the benchmark.",
+    "body": "45K impressions, 2K engagements at 5.5% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+    "meta": "Next League \u00b7 Instagram",
+    "campaignId": "next_league_future_of_sports",
+    "campaignPartner": "Next League"
   }
 ];
 
@@ -37807,87 +37807,87 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.67,
-    "impressions": 59337062,
-    "paidImpressions": 58806458,
-    "pctOfTotal": 54.1,
+    "cpm": 0.59,
+    "impressions": 20892735,
+    "paidImpressions": 20400891,
+    "pctOfTotal": 46.7,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 25.5,
+    "mvmDeltaPct": 10.4,
     "color": "#E00922"
   },
   {
     "name": "Instagram",
-    "cpm": 4.11,
-    "impressions": 18101469,
-    "paidImpressions": 16135819,
-    "pctOfTotal": 16.5,
+    "cpm": 4.12,
+    "impressions": 12034333,
+    "paidImpressions": 10293329,
+    "pctOfTotal": 26.9,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -26.9,
+    "mvmDeltaPct": -26.7,
     "color": "#E4405F"
   },
   {
-    "name": "TikTok",
-    "cpm": 2.16,
-    "impressions": 10797844,
-    "paidImpressions": 8157579,
-    "pctOfTotal": 9.9,
-    "mvmCpm": 2.24,
-    "mvmDeltaPct": -3.5,
-    "color": "#000000"
-  },
-  {
     "name": "X",
-    "cpm": 2.51,
-    "impressions": 8729633,
-    "paidImpressions": 7221516,
-    "pctOfTotal": 8.0,
+    "cpm": 1.51,
+    "impressions": 4678562,
+    "paidImpressions": 3248252,
+    "pctOfTotal": 10.5,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 102.3,
+    "mvmDeltaPct": 22.0,
     "color": "#1d1d1f"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.89,
-    "impressions": 6521761,
-    "paidImpressions": 6380487,
-    "pctOfTotal": 5.9,
-    "mvmCpm": 3.2,
-    "mvmDeltaPct": -9.8,
-    "color": "#FF0033"
-  },
-  {
-    "name": "Facebook",
     "cpm": 2.74,
-    "impressions": 2322504,
-    "paidImpressions": 2310811,
-    "pctOfTotal": 2.1,
-    "mvmCpm": 4.2,
-    "mvmDeltaPct": -34.8,
-    "color": "#1877F2"
+    "impressions": 2721156,
+    "paidImpressions": 2613008,
+    "pctOfTotal": 6.1,
+    "mvmCpm": 3.2,
+    "mvmDeltaPct": -14.5,
+    "color": "#FF0033"
   },
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2253808,
+    "impressions": 2085957,
     "paidImpressions": 0,
-    "pctOfTotal": 2.1,
+    "pctOfTotal": 4.7,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
   },
   {
+    "name": "TikTok",
+    "cpm": 1.47,
+    "impressions": 1670940,
+    "paidImpressions": 763144,
+    "pctOfTotal": 3.7,
+    "mvmCpm": 2.24,
+    "mvmDeltaPct": -34.5,
+    "color": "#000000"
+  },
+  {
     "name": "YouTube Pre-roll",
-    "cpm": 11.48,
-    "impressions": 1525612,
-    "paidImpressions": 1525612,
+    "cpm": 13.14,
+    "impressions": 647659,
+    "paidImpressions": 647659,
     "pctOfTotal": 1.4,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": -3.6,
+    "mvmDeltaPct": 10.3,
     "color": "#B0061B"
+  },
+  {
+    "name": "Facebook",
+    "cpm": 0.0,
+    "impressions": 7454,
+    "paidImpressions": 0,
+    "pctOfTotal": 0.0,
+    "mvmCpm": 4.2,
+    "mvmDeltaPct": null,
+    "color": "#1877F2"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 1.82;
+window.PORTFOLIO_CPM_BLEND = 2.0;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
