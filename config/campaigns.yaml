@@ -1116,7 +1116,7 @@ campaigns:
     series_italic: "BrandX"
     type: brandx
     benchmark_category: "Paid Social - Performance"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-02-01
     flight_end: 2026-07-31
     impression_goal: 1_000_000
@@ -1391,7 +1391,7 @@ campaigns:
     series_italic: Huddle
     type: social
     benchmark_category: "FOS Event - Custom Social"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-09-10
     flight_start: 2026-08-10
     flight_end: 2026-08-31
     impression_goal: 750000
