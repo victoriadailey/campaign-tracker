@@ -1469,5 +1469,7 @@ campaigns:
     lead_format: Social Video
     blurb: "An 8 video series with external creator, Evan Hand"
     sources:
+      youtube_paid:
+        - accenture_external_creator_yt_paid.csv
       measure_studio_group_ids:
         - 8757
