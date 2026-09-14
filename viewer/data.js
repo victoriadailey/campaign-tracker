@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-14T17:14:48Z";
+window.LAST_REFRESHED = "2026-09-14T17:27:03Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:47Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,11 +382,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 38210265,
+      "delivered": 38233686,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 54955.77,
+      "delivered": 55080.77,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -398,7 +398,7 @@ window.CAMPAIGNS = [
     "posts": 353,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 10750817,
-    "engagements": 1140407,
+    "engagements": 1140530,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,12 +454,12 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4428246,
-        "eng": 12869,
+        "impressions": 4451667,
+        "eng": 12992,
         "er": 0.29,
-        "cpm": 1.33,
+        "cpm": 1.36,
         "color": "#1d1d1f",
-        "delta": -68.4,
+        "delta": -68.3,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -816,8 +816,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:47Z",
-    "lastUpdatedExports": "2026-09-14T17:11:38Z"
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
+    "lastUpdatedExports": "2026-09-14T17:11:40Z"
   },
   {
     "id": "spectrum",
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-14T17:14:47Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1382,7 +1382,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:47Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1489,7 +1489,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:47Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1636,7 +1636,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:47Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-14T17:14:47Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2188,7 +2188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2336,7 +2336,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2538,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2805,7 +2805,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3188,7 +3188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3505,7 +3505,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3669,7 +3669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3808,7 +3808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4050,7 +4050,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4371,7 +4371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4575,7 +4575,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4690,7 +4690,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4909,7 +4909,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5009,7 +5009,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-14T17:14:48Z",
+    "lastUpdatedMs": "2026-09-14T17:27:02Z",
     "lastUpdatedExports": "2026-09-14T14:32:48Z"
   }
 ];
@@ -5264,12 +5264,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29190232,
-    "eng": 644393,
+    "impressions": 29213653,
+    "eng": 644516,
     "er": 2.21,
-    "cpm": 1.64,
+    "cpm": 1.65,
     "color": "#1d1d1f",
-    "delta": 140.0,
+    "delta": 139.8,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -28340,20 +28340,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "Drew Weatherford, former FSU QB and founding partner at Weatherford Capital, shares his take on where private capital is",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 7811,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 31232,
+      "paidImpr": 23421,
       "orgImpr": 7811,
       "views": 1345,
       "reach": 0,
-      "eng": 12,
-      "er": 0.15,
-      "spend": 0,
+      "eng": 135,
+      "er": 0.43,
+      "spend": 125.0,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 5.34,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2097361822927995178",
@@ -36416,7 +36416,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 8.0,
+    "fileSizeKb": 8.2,
     "lastModified": "2026-09-14",
     "exists": true,
     "postsContributed": 2
@@ -38020,7 +38020,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 21829947,
     "paidImpressions": 21304659,
-    "pctOfTotal": 46.8,
+    "pctOfTotal": 46.7,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 10.6,
     "color": "#E00922"
@@ -38037,12 +38037,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "X",
-    "cpm": 1.51,
-    "impressions": 4685551,
-    "paidImpressions": 3248252,
-    "pctOfTotal": 10.0,
+    "cpm": 1.54,
+    "impressions": 4708972,
+    "paidImpressions": 3271673,
+    "pctOfTotal": 10.1,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 22.0,
+    "mvmDeltaPct": 24.2,
     "color": "#1d1d1f"
   },
   {
@@ -38080,7 +38080,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 13.08,
     "impressions": 676882,
     "paidImpressions": 676882,
-    "pctOfTotal": 1.5,
+    "pctOfTotal": 1.4,
     "mvmCpm": 11.91,
     "mvmDeltaPct": 9.8,
     "color": "#B0061B"
