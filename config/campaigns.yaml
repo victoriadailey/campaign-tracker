@@ -352,6 +352,15 @@ campaigns:
         match: ["PP Episode 15 -", "Kerri Walsh", "kerrileewalsh", "beach volleyball",
                 "sleeping on couches", "only relevant one of those"]
         exclude: []
+      - id: ep16
+        n: "Ep. 16"
+        title: "Drew Weatherford"
+        date: "Sep 2026"
+        # Several cutdowns are quote-titled without his name — match on his
+        # firm ("Weatherford Capital") and the episode's themes ("private
+        # capital", "global sports market") to catch them too.
+        match: ["PP Episode 16 -", "Weatherford", "private capital", "global sports market"]
+        exclude: []
 
   - id: spectrum
     partner: Spectrum
