@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-15T15:31:10Z";
+window.LAST_REFRESHED = "2026-09-15T15:42:17Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,23 +382,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 38294620,
+      "delivered": 38307888,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 55156.13,
+      "delivered": 55239.89,
       "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 2.98,
-    "cpm": 1.82,
-    "episodes": 16,
-    "posts": 354,
+    "cpm": 1.83,
+    "episodes": 17,
+    "posts": 355,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 10791141,
-    "engagements": 1140697,
+    "views": 10804409,
+    "engagements": 1141258,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -438,18 +438,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 6275509,
-        "eng": 121349,
-        "er": 1.93,
+        "impressions": 6288777,
+        "eng": 121910,
+        "er": 1.94,
         "cpm": 5.47,
         "color": "#E4405F",
-        "delta": -41.6,
+        "delta": -41.4,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1742114,
-        "views": 6275509
+        "organicImpressions": 1747222,
+        "views": 6288777
       },
       {
         "name": "X",
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-09-14T17:11:40Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1382,7 +1382,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1489,7 +1489,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1636,7 +1636,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2188,7 +2188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2336,7 +2336,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2538,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2805,7 +2805,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3188,7 +3188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3505,7 +3505,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3669,7 +3669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3808,7 +3808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4050,7 +4050,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4371,7 +4371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4575,7 +4575,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4690,7 +4690,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4909,7 +4909,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5009,7 +5009,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T15:31:10Z",
+    "lastUpdatedMs": "2026-09-15T15:42:17Z",
     "lastUpdatedExports": "2026-09-15T15:08:13Z"
   }
 ];
@@ -5280,8 +5280,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 26261432,
-    "eng": 376245,
+    "impressions": 26274700,
+    "eng": 376806,
     "er": 1.43,
     "cpm": 4.54,
     "color": "#E4405F",
@@ -5291,7 +5291,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 26261432
+    "views": 26274700
   },
   {
     "name": "TikTok",
@@ -14832,6 +14832,348 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "kind": "pos",
           "text": "LinkedIn resonating \u2014 100% organic share on 109.2K impr."
+        }
+      ]
+    },
+    {
+      "n": "Ep. 16",
+      "title": "Drew Weatherford",
+      "date": "Sep 2026",
+      "total": {
+        "impr": 1255057,
+        "views": 240672,
+        "er": 0.52,
+        "eng": 28555,
+        "spend": 1782.93
+      },
+      "perChannel": [
+        {
+          "name": "YouTube In-feed",
+          "distKind": "organic+boosted",
+          "impr": 935800,
+          "paidImpr": 903791,
+          "orgImpr": 32009,
+          "views": 11904,
+          "eng": 2179,
+          "paidEng": 2129,
+          "orgEng": 50,
+          "er": 0.23,
+          "cpm": 0.6,
+          "spend": 544.16,
+          "posts": 1
+        },
+        {
+          "name": "Instagram",
+          "distKind": "organic+boosted",
+          "impr": 178670,
+          "paidImpr": 158640,
+          "orgImpr": 20030,
+          "views": 178670,
+          "eng": 2491,
+          "paidEng": 0,
+          "orgEng": 2491,
+          "er": 1.39,
+          "cpm": 4.3,
+          "spend": 682.22,
+          "posts": 2
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "organic+boosted",
+          "impr": 54322,
+          "paidImpr": 53349,
+          "orgImpr": 973,
+          "views": 24245,
+          "eng": 1083,
+          "paidEng": 1063,
+          "orgEng": 20,
+          "er": 1.99,
+          "cpm": 1.63,
+          "spend": 86.99,
+          "posts": 3
+        },
+        {
+          "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 38245,
+          "paidImpr": 23421,
+          "orgImpr": 8813,
+          "views": 2291,
+          "eng": 144,
+          "paidEng": 123,
+          "orgEng": 21,
+          "er": 0.38,
+          "cpm": 5.34,
+          "spend": 125.0,
+          "posts": 2
+        },
+        {
+          "name": "YouTube Pre-roll",
+          "distKind": "paid",
+          "impr": 29229,
+          "paidImpr": 29229,
+          "orgImpr": 0,
+          "views": 16821,
+          "eng": 22225,
+          "paidEng": 22225,
+          "orgEng": 0,
+          "er": 76.04,
+          "cpm": 11.79,
+          "spend": 344.56,
+          "posts": 1
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 17655,
+          "paidImpr": 0,
+          "orgImpr": 17655,
+          "views": 5605,
+          "eng": 400,
+          "paidEng": 0,
+          "orgEng": 400,
+          "er": 2.27,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 2
+        },
+        {
+          "name": "TikTok",
+          "distKind": "organic",
+          "impr": 1136,
+          "paidImpr": 0,
+          "orgImpr": 1136,
+          "views": 1136,
+          "eng": 33,
+          "paidEng": 0,
+          "orgEng": 33,
+          "er": 2.9,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 2
+        }
+      ],
+      "posts": [
+        {
+          "title": "Why Private Capital Is Coming for Youth Sports",
+          "platform": "YouTube In-feed",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 935800,
+          "paidImpr": 903791,
+          "orgImpr": 32009,
+          "views": 11904,
+          "eng": 2179,
+          "er": 0.23,
+          "spend": 544.16,
+          "url": "https://youtu.be/CceP_Z7pKEw",
+          "postedAt": "2026-09-08T07:00:26-07:00"
+        },
+        {
+          "title": "Portfolio Players S3 Ep16: Drew Weatherford (pre-roll)",
+          "platform": "YouTube Pre-roll",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 29229,
+          "paidImpr": 29229,
+          "orgImpr": 0,
+          "views": 16821,
+          "eng": 22225,
+          "er": 76.04,
+          "spend": 344.56,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "Drew Weatherford, former FSU QB and founding partner at Weatherford Capital, shares his take on where private capital is",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 31299,
+          "paidImpr": 23421,
+          "orgImpr": 7878,
+          "views": 1356,
+          "eng": 137,
+          "er": 0.44,
+          "spend": 125.0,
+          "url": "https://twitter.com/FOS/status/2097361822927995178",
+          "postedAt": "2026-09-08T09:30:00-07:00"
+        },
+        {
+          "title": "\"The global sports market is massive and under penetrated from a private capital standpoint.\"  Drew Weatherford, former ",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 10039,
+          "paidImpr": 0,
+          "orgImpr": 10039,
+          "views": 3259,
+          "eng": 294,
+          "er": 2.93,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503119102698233856",
+          "postedAt": "2026-09-08T09:30:09-07:00"
+        },
+        {
+          "title": "Drew Weatherford on where private capital is headed in sports",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 27530,
+          "paidImpr": 27089,
+          "orgImpr": 441,
+          "views": 22679,
+          "eng": 12,
+          "er": 0.04,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/ahvPhHf9SnQ",
+          "postedAt": "2026-09-08T09:30:39-07:00"
+        },
+        {
+          "title": "Drew Weatherford, former FSU QB and founding partner at Weatherford Capital, shares his take on where private capital is",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 493,
+          "paidImpr": 0,
+          "orgImpr": 493,
+          "views": 493,
+          "eng": 17,
+          "er": 3.45,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7683205933631032606",
+          "postedAt": "2026-09-08T09:43:14-07:00"
+        },
+        {
+          "title": "\"The global sports market is massive and under penetrated from a private capital standpoint.\"\u2060 \u2060 Drew Weatherford, forme",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 165402,
+          "paidImpr": 150480,
+          "orgImpr": 14922,
+          "views": 165402,
+          "eng": 1930,
+          "er": 1.17,
+          "spend": 598.46,
+          "url": "https://www.instagram.com/p/DdCp9EMionL/",
+          "postedAt": "2026-09-08T14:33:05-07:00"
+        },
+        {
+          "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer. Drew Weatherfor",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 643,
+          "paidImpr": 0,
+          "orgImpr": 643,
+          "views": 643,
+          "eng": 16,
+          "er": 2.49,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7683579064992451871",
+          "postedAt": "2026-09-09T09:51:27-07:00"
+        },
+        {
+          "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer.  Drew Weatherfo",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6946,
+          "paidImpr": 0,
+          "orgImpr": 6946,
+          "views": 935,
+          "eng": 7,
+          "er": 0.1,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2097731761040175385",
+          "postedAt": "2026-09-09T10:00:00-07:00"
+        },
+        {
+          "title": "The Men\u2019s FIFA World Cup 2026\u2122 - Canada, Mexico and the United States, Olympics, and FIFA Women's World Cup\u2122 in 2031 are",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7616,
+          "paidImpr": 0,
+          "orgImpr": 7616,
+          "views": 2346,
+          "eng": 106,
+          "er": 1.39,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503484588363665408",
+          "postedAt": "2026-09-09T11:30:03-07:00"
+        },
+        {
+          "title": "Drew Weather on what US soccer leagues and teams need to unlock",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 3620,
+          "paidImpr": 3088,
+          "orgImpr": 532,
+          "views": 1027,
+          "eng": 8,
+          "er": 0.22,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/K8lZ7FyNMqU",
+          "postedAt": "2026-09-09T11:30:31-07:00"
+        },
+        {
+          "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer.\u2060 \u2060 Drew Weather",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 13268,
+          "paidImpr": 8160,
+          "orgImpr": 5108,
+          "views": 13268,
+          "eng": 561,
+          "er": 4.23,
+          "spend": 83.76,
+          "url": "https://www.instagram.com/p/DdHe87ACA8z/",
+          "postedAt": "2026-09-10T11:33:30-07:00"
+        },
+        {
+          "title": "Portfolio Players S3 Ep16 Cutdown1: Drew Weatherford (shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 23172,
+          "paidImpr": 23172,
+          "orgImpr": 0,
+          "views": 539,
+          "eng": 1063,
+          "er": 4.59,
+          "spend": 86.99,
+          "url": null,
+          "postedAt": null
+        }
+      ],
+      "topPosts": [
+        {
+          "quote": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds fo",
+          "platform": "Instagram",
+          "er": 4.23,
+          "reach": 13268,
+          "url": "https://www.instagram.com/p/DdHe87ACA8z/"
+        },
+        {
+          "quote": "\"The global sports market is massive and under penetrated from a private capital standpoin",
+          "platform": "LinkedIn",
+          "er": 2.93,
+          "reach": 3259,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503119102698233856"
+        }
+      ],
+      "callouts": [
+        {
+          "kind": "pos",
+          "text": "TikTok leading with 2.9% ER on 1.1K impr."
+        },
+        {
+          "kind": "pos",
+          "text": "LinkedIn resonating \u2014 100% organic share on 17.7K impr."
         }
       ]
     }
@@ -28542,6 +28884,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/K8lZ7FyNMqU",
       "postedAt": "2026-09-09T11:30:31-07:00"
+    },
+    {
+      "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer.\u2060 \u2060 Drew Weather",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 13268,
+      "paidImpr": 8160,
+      "orgImpr": 5108,
+      "views": 13268,
+      "reach": 11625,
+      "eng": 561,
+      "er": 4.23,
+      "spend": 83.76,
+      "watchTimeMin": 5.2,
+      "clicks": 9,
+      "ctr": 11.03,
+      "cpc": 9.31,
+      "cpm": 10.26,
+      "videoViews100Pct": 15,
+      "videoViews3s": 8227,
+      "url": "https://www.instagram.com/p/DdHe87ACA8z/",
+      "postedAt": "2026-09-10T11:33:30-07:00"
     }
   ],
   "spectrum": [
@@ -38027,12 +38392,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 4.13,
-    "impressions": 12643037,
-    "paidImpressions": 10852418,
+    "cpm": 4.14,
+    "impressions": 12656305,
+    "paidImpressions": 10860578,
     "pctOfTotal": 27.0,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -26.4,
+    "mvmDeltaPct": -26.3,
     "color": "#E4405F"
   },
   {
