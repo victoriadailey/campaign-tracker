@@ -361,6 +361,44 @@ campaigns:
         # capital", "global sports market") to catch them too.
         match: ["PP Episode 16 -", "Weatherford", "private capital", "global sports market"]
         exclude: []
+      # ---- Upcoming episodes (placeholders) ----
+      # Pre-seeded so posts have a home the moment they publish. Each matches
+      # the guest name + the "PP Episode N -" User Tag the social team applies.
+      # Refine keywords (or add quote fragments) once the episodes go live and
+      # any name-less cutdowns show up unattributed.
+      - id: ep17
+        n: "Ep. 17"
+        title: "Ryan Smith"
+        date: "TBD"
+        match: ["PP Episode 17 -", "Ryan Smith"]
+        exclude: []
+      - id: ep18
+        n: "Ep. 18"
+        title: "Albert Pujols"
+        date: "TBD"
+        match: ["PP Episode 18 -", "Albert Pujols", "Pujols"]
+        exclude: []
+      - id: ep19
+        n: "Ep. 19"
+        title: "TBD"
+        date: "TBD"
+        # Guest not yet announced — the User Tag catches posts until a name +
+        # keywords can be added.
+        match: ["PP Episode 19 -"]
+        exclude: []
+      - id: ep20
+        n: "Ep. 20"
+        title: "Theresa Gouw"
+        date: "TBD"
+        match: ["PP Episode 20 -", "Theresa Gouw", "Gouw"]
+        exclude: []
+      - id: ep21
+        n: "Ep. 21"
+        title: "Megan Rapinoe"
+        date: "TBD"
+        # Booking tentative — keywords ready so posts land if/when it airs.
+        match: ["PP Episode 21 -", "Megan Rapinoe", "Rapinoe"]
+        exclude: []
 
   - id: spectrum
     partner: Spectrum
