@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-15T13:22:56Z";
+window.LAST_REFRESHED = "2026-09-15T15:11:21Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-09-14T17:11:40Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1382,7 +1382,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1489,7 +1489,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1636,7 +1636,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2188,7 +2188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2336,7 +2336,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2538,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:20Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2805,7 +2805,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3188,7 +3188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3505,7 +3505,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3669,7 +3669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3808,7 +3808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4050,7 +4050,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4371,7 +4371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4575,7 +4575,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4690,7 +4690,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4909,7 +4909,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -4924,23 +4924,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 550397,
+      "delivered": 620372,
       "goal": 5600000
     },
     "budget": {
-      "delivered": 2223.52,
+      "delivered": 2444.31,
       "goal": 22634.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 7.22,
-    "cpm": 4.47,
+    "er": 7.37,
+    "cpm": 4.31,
     "episodes": 0,
     "posts": 2,
     "blurb": "An 8 video series with external creator, Evan Hand",
     "views": 520598,
-    "engagements": 39714,
+    "engagements": 45714,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -4948,12 +4948,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 347618,
-        "eng": 28146,
-        "er": 8.1,
-        "cpm": 3.35,
+        "impressions": 417593,
+        "eng": 34146,
+        "er": 8.18,
+        "cpm": 3.32,
         "color": "#FF0033",
-        "delta": -59.5,
+        "delta": -59.1,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -5009,8 +5009,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-15T13:22:55Z",
-    "lastUpdatedExports": "2026-09-14T19:47:17Z"
+    "lastUpdatedMs": "2026-09-15T15:11:21Z",
+    "lastUpdatedExports": "2026-09-15T15:08:13Z"
   }
 ];
 
@@ -5248,12 +5248,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 96609009,
-    "eng": 1880862,
+    "impressions": 96678984,
+    "eng": 1886862,
     "er": 1.95,
     "cpm": 1.07,
     "color": "#E00922",
-    "delta": -90.3,
+    "delta": -90.2,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -35772,19 +35772,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 347618,
-      "paidImpr": 337001,
+      "impr": 417593,
+      "paidImpr": 406976,
       "orgImpr": 10617,
       "views": 317819,
       "reach": 0,
-      "eng": 28146,
-      "er": 8.1,
-      "spend": 1130.44,
+      "eng": 34146,
+      "er": 8.18,
+      "spend": 1351.23,
       "watchTimeMin": 45616.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.35,
+      "cpm": 3.32,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/tXS552RjyZM",
@@ -38040,7 +38040,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.54,
     "impressions": 4709039,
     "paidImpressions": 3271673,
-    "pctOfTotal": 10.1,
+    "pctOfTotal": 10.0,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 24.2,
     "color": "#1d1d1f"
@@ -38048,11 +38048,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.79,
-    "impressions": 3123647,
-    "paidImpressions": 3003335,
-    "pctOfTotal": 6.7,
+    "impressions": 3193622,
+    "paidImpressions": 3073310,
+    "pctOfTotal": 6.8,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -12.9,
+    "mvmDeltaPct": -12.7,
     "color": "#FF0033"
   },
   {
@@ -38097,7 +38097,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.02;
+window.PORTFOLIO_CPM_BLEND = 2.03;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
