@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-16T13:26:15Z";
+window.LAST_REFRESHED = "2026-09-16T13:33:32Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-09-14T17:11:40Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1382,7 +1382,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1489,7 +1489,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1636,7 +1636,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2188,7 +2188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2336,7 +2336,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2538,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2805,7 +2805,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3188,7 +3188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:14Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3505,7 +3505,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3669,7 +3669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3808,7 +3808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4050,7 +4050,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4371,7 +4371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4575,7 +4575,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4690,7 +4690,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4909,7 +4909,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5009,8 +5009,195 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-16T13:26:15Z",
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
     "lastUpdatedExports": "2026-09-16T13:23:27Z"
+  },
+  {
+    "id": "daktronics_stadiumstatus",
+    "partner": "Daktronics",
+    "series": "Daktronics Stadium Status",
+    "seriesItalic": "Status",
+    "type": "social",
+    "flight": "Sep 1 \u2014 Sep 30, 2026",
+    "elapsedPct": 51.7,
+    "daysLeft": 14,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 363901,
+      "goal": 2500000
+    },
+    "budget": {
+      "delivered": 480.41,
+      "goal": 6875.0
+    },
+    "color": "ft-1",
+    "leadFormat": "Social Video",
+    "topChannel": "LinkedIn",
+    "er": 3.06,
+    "cpm": 3.25,
+    "episodes": 0,
+    "posts": 5,
+    "blurb": "One Stadium Status video about Illinois Football.",
+    "views": 159661,
+    "engagements": 11152,
+    "goalSplit": [],
+    "benchmarkCategory": "Creator-Led - Franchise",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 144838,
+        "eng": 3782,
+        "er": 2.61,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -30.6,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 144838,
+        "views": 77081
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 89538,
+        "eng": 40,
+        "er": 0.04,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -99.8,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 987,
+        "views": 2181
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 66879,
+        "eng": 2917,
+        "er": 4.36,
+        "cpm": 8.65,
+        "color": "#1877F2",
+        "delta": 185.1,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 35950,
+        "views": 29370
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 45874,
+        "eng": 4142,
+        "er": 9.03,
+        "cpm": 7.52,
+        "color": "#E4405F",
+        "delta": 172.8,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 17558,
+        "views": 45874
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 16772,
+        "eng": 271,
+        "er": 1.62,
+        "cpm": 0.0,
+        "color": "#1d1d1f",
+        "delta": 75.6,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 16772,
+        "views": 5155
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "3984704702319098218",
+        "rank": 1,
+        "partner": "Daktronics",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Illinois just introduced the largest video board in college sports, so we went behinds the scenes\u2026",
+        "er": 9.03,
+        "eng": 4142,
+        "reach": 45874,
+        "organic": 38,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DdMg9Ccjvlq/",
+        "postedAt": "2026-09-12T10:26:14-07:00"
+      },
+      {
+        "id": "1577589784380606",
+        "rank": 2,
+        "partner": "Daktronics",
+        "platform": "Facebook",
+        "format": "Reels/Shorts",
+        "quote": "Illinois just introduced the largest video board in college sports, so we went behind the scenes\u2026",
+        "er": 4.36,
+        "eng": 2917,
+        "reach": 66879,
+        "organic": 54,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.facebook.com/1577589784380606/",
+        "postedAt": "2026-09-11T11:31:40-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7503819262164103168",
+        "rank": 3,
+        "partner": "Daktronics",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "University of Illinois Urbana-Champaign just introduced the largest video board in college sports,\u2026",
+        "er": 2.61,
+        "eng": 3782,
+        "reach": 77081,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503819262164103168",
+        "postedAt": "2026-09-11T11:30:02-07:00"
+      }
+    ],
+    "topPostsOrganic": [],
+    "callouts": [
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "Facebook at 4.4% ER \u2014 2.8\u00d7 the benchmark.",
+        "body": "67K impressions, 3K engagements at 4.4% ER vs. the 1.5% Facebook FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "meta": "Daktronics \u00b7 Facebook"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 28% of goal (704K of 2.5M) with 14 days left.",
+        "body": "At the current rate the campaign will fall ~1.8M impressions short of the 2.5M goal. Need to deliver 153K impr/day (6.3\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "Daktronics \u00b7 Pacing"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-09-16T13:33:32Z",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -5248,24 +5435,24 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 96688921,
-    "eng": 1886861,
+    "impressions": 96778459,
+    "eng": 1886901,
     "er": 1.95,
     "cpm": 1.07,
     "color": "#E00922",
-    "delta": -90.2,
+    "delta": -90.3,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 17272036
+    "views": 17274217
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29213828,
-    "eng": 644520,
+    "impressions": 29230600,
+    "eng": 644791,
     "er": 2.21,
     "cpm": 1.65,
     "color": "#1d1d1f",
@@ -5275,23 +5462,23 @@ window.CHANNELS = [
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 472921
+    "views": 478076
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 26328856,
-    "eng": 377908,
-    "er": 1.44,
-    "cpm": 4.54,
+    "impressions": 26374730,
+    "eng": 382050,
+    "er": 1.45,
+    "cpm": 4.55,
     "color": "#E4405F",
-    "delta": -56.6,
+    "delta": -56.2,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 26328856
+    "views": 26374730
   },
   {
     "name": "TikTok",
@@ -5312,34 +5499,34 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 5819480,
-    "eng": 14105,
-    "er": 0.24,
-    "cpm": 3.81,
+    "impressions": 5886359,
+    "eng": 17022,
+    "er": 0.29,
+    "cpm": 3.84,
     "color": "#1877F2",
-    "delta": -84.2,
+    "delta": -81.1,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 3932322
+    "views": 3961692
   },
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 3302993,
-    "eng": 118180,
-    "er": 3.58,
+    "impressions": 3447831,
+    "eng": 121962,
+    "er": 3.54,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -4.8,
+    "delta": -5.9,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 867341
+    "views": 944422
   },
   {
     "name": "Snapchat",
@@ -5405,6 +5592,15 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
+    "headline": "On pace for 28% of goal (704K of 2.5M) with 14 days left.",
+    "body": "At the current rate the campaign will fall ~1.8M impressions short of the 2.5M goal. Need to deliver 153K impr/day (6.3\u00d7 the current 24K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Daktronics \u00b7 Pacing",
+    "campaignId": "daktronics_stadiumstatus",
+    "campaignPartner": "Daktronics"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
     "headline": "X CPM at $4.09 \u2014 3.7\u00d7 the benchmark.",
     "body": "$4.09 CPM vs. $1.10 FOS benchmark. At 3.7\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
     "meta": "Next League \u00b7 X",
@@ -5414,11 +5610,11 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Instagram at 5.5% ER \u2014 1.7\u00d7 the benchmark.",
-    "body": "45K impressions, 2K engagements at 5.5% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-    "meta": "Next League \u00b7 Instagram",
-    "campaignId": "next_league_future_of_sports",
-    "campaignPartner": "Next League"
+    "headline": "Facebook at 4.4% ER \u2014 2.8\u00d7 the benchmark.",
+    "body": "67K impressions, 3K engagements at 4.4% ER vs. the 1.5% Facebook FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+    "meta": "Daktronics \u00b7 Facebook",
+    "campaignId": "daktronics_stadiumstatus",
+    "campaignPartner": "Daktronics"
   }
 ];
 
@@ -19533,7 +19729,8 @@ window.EPISODES_BY_CAMPAIGN = {
   "ubs_huddleinthehamptons": [],
   "huntington_bank_2026": [],
   "next_league_future_of_sports": [],
-  "accenture_external_creator": []
+  "accenture_external_creator": [],
+  "daktronics_stadiumstatus": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -36148,6 +36345,123 @@ window.POSTS_BY_CAMPAIGN = {
       "url": "https://www.youtube.com/shorts/tXS552RjyZM",
       "postedAt": "2026-09-08T11:30:31-07:00"
     }
+  ],
+  "daktronics_stadiumstatus": [
+    {
+      "title": "Illinois just introduced the largest video board in college sports, so we went behinds the scenes for a closer look, pre",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 16772,
+      "paidImpr": 0,
+      "orgImpr": 16772,
+      "views": 5155,
+      "reach": 0,
+      "eng": 271,
+      "er": 1.62,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2098479186163761386",
+      "postedAt": "2026-09-11T11:30:00-07:00"
+    },
+    {
+      "title": "University of Illinois Urbana-Champaign just introduced the largest video board in college sports, so we went behind the",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 144838,
+      "paidImpr": 0,
+      "orgImpr": 144838,
+      "views": 77081,
+      "reach": 0,
+      "eng": 3782,
+      "er": 2.61,
+      "spend": 0,
+      "watchTimeMin": 21122.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503819262164103168",
+      "postedAt": "2026-09-11T11:30:02-07:00"
+    },
+    {
+      "title": "The largest video board in college sports",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 89538,
+      "paidImpr": 88551,
+      "orgImpr": 987,
+      "views": 2181,
+      "reach": 0,
+      "eng": 40,
+      "er": 0.04,
+      "spend": 0,
+      "watchTimeMin": 721.0,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 4.46,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/5Pp9835__MA",
+      "postedAt": "2026-09-11T11:30:23-07:00"
+    },
+    {
+      "title": "Illinois just introduced the largest video board in college sports, so we went behind the scenes for a closer look, pres",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 66879,
+      "paidImpr": 30929,
+      "orgImpr": 35950,
+      "views": 29370,
+      "reach": 0,
+      "eng": 2917,
+      "er": 4.36,
+      "spend": 267.53,
+      "watchTimeMin": 13205.0,
+      "clicks": 1577,
+      "ctr": 5.1,
+      "cpc": 0.17,
+      "cpm": 8.65,
+      "videoViews100Pct": 270,
+      "videoViews3s": 29370,
+      "url": "https://www.facebook.com/1577589784380606/",
+      "postedAt": "2026-09-11T11:31:40-07:00"
+    },
+    {
+      "title": "Illinois just introduced the largest video board in college sports, so we went behinds the scenes for a closer look, pre",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 45874,
+      "paidImpr": 28316,
+      "orgImpr": 17558,
+      "views": 45874,
+      "reach": 40231,
+      "eng": 4142,
+      "er": 9.03,
+      "spend": 212.88,
+      "watchTimeMin": 50.3,
+      "clicks": 63,
+      "ctr": 22.25,
+      "cpc": 3.38,
+      "cpm": 7.52,
+      "videoViews100Pct": 1625,
+      "videoViews3s": 28282,
+      "url": "https://www.instagram.com/p/DdMg9Ccjvlq/",
+      "postedAt": "2026-09-12T10:26:14-07:00"
+    }
   ]
 };
 
@@ -36411,7 +36725,8 @@ window.UPLOAD_TARGETS = {
       "file": "accenture_external_creator_yt_paid.csv",
       "label": "Google Ads"
     }
-  ]
+  ],
+  "daktronics_stadiumstatus": []
 };
 
 window.MS_GROUPS = [
@@ -38382,7 +38697,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 21830659,
     "paidImpressions": 21304659,
-    "pctOfTotal": 46.5,
+    "pctOfTotal": 46.1,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 10.6,
     "color": "#E00922"
@@ -38390,17 +38705,17 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.15,
-    "impressions": 12710430,
-    "paidImpressions": 10913474,
-    "pctOfTotal": 27.1,
+    "impressions": 12756304,
+    "paidImpressions": 10941790,
+    "pctOfTotal": 27.0,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -26.2,
+    "mvmDeltaPct": -26.1,
     "color": "#E4405F"
   },
   {
     "name": "X",
     "cpm": 1.54,
-    "impressions": 4709147,
+    "impressions": 4725919,
     "paidImpressions": 3271673,
     "pctOfTotal": 10.0,
     "mvmCpm": 1.24,
@@ -38409,20 +38724,20 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.79,
-    "impressions": 3202595,
-    "paidImpressions": 3081211,
-    "pctOfTotal": 6.8,
+    "cpm": 2.71,
+    "impressions": 3292133,
+    "paidImpressions": 3169762,
+    "pctOfTotal": 7.0,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -12.9,
+    "mvmDeltaPct": -15.3,
     "color": "#FF0033"
   },
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2120904,
+    "impressions": 2265742,
     "paidImpressions": 0,
-    "pctOfTotal": 4.5,
+    "pctOfTotal": 4.8,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
@@ -38432,7 +38747,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.47,
     "impressions": 1671670,
     "paidImpressions": 763144,
-    "pctOfTotal": 3.6,
+    "pctOfTotal": 3.5,
     "mvmCpm": 2.24,
     "mvmDeltaPct": -34.5,
     "color": "#000000"
@@ -38449,17 +38764,17 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 0.0,
-    "impressions": 7454,
-    "paidImpressions": 0,
-    "pctOfTotal": 0.0,
+    "cpm": 8.65,
+    "impressions": 74333,
+    "paidImpressions": 30929,
+    "pctOfTotal": 0.2,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": null,
+    "mvmDeltaPct": 105.9,
     "color": "#1877F2"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.03;
+window.PORTFOLIO_CPM_BLEND = 2.04;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
