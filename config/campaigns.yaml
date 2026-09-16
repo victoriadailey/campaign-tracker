@@ -1520,3 +1520,21 @@ campaigns:
         - accenture_external_creator_yt_paid.csv
       measure_studio_group_ids:
         - 8757
+
+  - id: daktronics_stadiumstatus
+    partner: Daktronics
+    series: Daktronics Stadium Status
+    series_italic: Status
+    type: social
+    benchmark_category: "Creator-Led - Franchise"
+    lifecycle: active
+    flight_start: 2026-09-01
+    flight_end: 2026-09-30
+    impression_goal: 2500000
+    budget_goal: 6875
+    color: ft-1
+    lead_format: Social Video
+    blurb: One Stadium Status video about Illinois Football.
+    sources:
+      measure_studio_group_ids:
+        - 8811
