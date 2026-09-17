@@ -1536,5 +1536,7 @@ campaigns:
     lead_format: Social Video
     blurb: One Stadium Status video about Illinois Football.
     sources:
+      youtube_paid:
+        - daktronics_stadiumstatus_yt_paid.csv
       measure_studio_group_ids:
         - 8811
