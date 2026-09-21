@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-21T13:29:45Z";
+window.LAST_REFRESHED = "2026-09-21T13:38:16Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -386,7 +386,7 @@ window.CAMPAIGNS = [
       "goal": 41700000
     },
     "budget": {
-      "delivered": 56760.81,
+      "delivered": 56838.93,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -457,14 +457,14 @@ window.CAMPAIGNS = [
         "impressions": 4487866,
         "eng": 13121,
         "er": 0.29,
-        "cpm": 1.39,
+        "cpm": 1.41,
         "color": "#1d1d1f",
         "delta": -68.2,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1451104,
+        "organicImpressions": 1437474,
         "views": 402642
       },
       {
@@ -824,8 +824,8 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
-    "lastUpdatedExports": "2026-09-18T18:47:51Z"
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
+    "lastUpdatedExports": "2026-09-21T13:35:41Z"
   },
   {
     "id": "spectrum",
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4698,7 +4698,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5197,7 +5197,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:29:45Z",
+    "lastUpdatedMs": "2026-09-21T13:38:15Z",
     "lastUpdatedExports": "2026-09-21T13:27:02Z"
   }
 ];
@@ -15032,7 +15032,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "views": 497340,
         "er": 0.69,
         "eng": 45906,
-        "spend": 3326.91
+        "spend": 3405.03
       },
       "perChannel": [
         {
@@ -15069,15 +15069,15 @@ window.EPISODES_BY_CAMPAIGN = {
           "name": "X",
           "distKind": "organic+boosted",
           "impr": 74344,
-          "paidImpr": 45815,
+          "paidImpr": 62369,
           "orgImpr": 18112,
           "views": 5512,
           "eng": 271,
-          "paidEng": 217,
-          "orgEng": 54,
+          "paidEng": 321,
+          "orgEng": 23,
           "er": 0.36,
-          "cpm": 4.9,
-          "spend": 224.49,
+          "cpm": 4.85,
+          "spend": 302.61,
           "posts": 3
         },
         {
@@ -15326,14 +15326,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "Drew Weatherford is a big believer in youth sports streaming.  The former FSU QB and founding partner at Weatherford Cap",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
+          "distKind": "organic+boosted",
           "impr": 13630,
-          "paidImpr": 0,
-          "orgImpr": 13630,
+          "paidImpr": 16554,
+          "orgImpr": 0,
           "views": 3213,
           "eng": 31,
           "er": 0.23,
-          "spend": 0,
+          "spend": 78.12,
           "url": "https://twitter.com/FOS/status/2100321323826528539",
           "postedAt": "2026-09-16T13:30:00-07:00"
         },
@@ -29161,20 +29161,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "Drew Weatherford is a big believer in youth sports streaming.  The former FSU QB and founding partner at Weatherford Cap",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
+      "distKind": "organic+boosted",
       "impr": 13630,
-      "paidImpr": 0,
-      "orgImpr": 13630,
+      "paidImpr": 16554,
+      "orgImpr": 0,
       "views": 3213,
       "reach": 0,
       "eng": 31,
       "er": 0.23,
-      "spend": 0,
+      "spend": 78.12,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 4.72,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2100321323826528539",
@@ -37341,7 +37341,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 8.4,
+    "fileSizeKb": 8.6,
     "lastModified": "2026-09-21",
     "exists": true,
     "postsContributed": 2
@@ -38973,12 +38973,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "X",
-    "cpm": 1.56,
+    "cpm": 1.58,
     "impressions": 4762206,
-    "paidImpressions": 3294067,
+    "paidImpressions": 3310621,
     "pctOfTotal": 9.4,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 25.8,
+    "mvmDeltaPct": 27.0,
     "color": "#1d1d1f"
   },
   {
