@@ -1540,3 +1540,21 @@ campaigns:
         - daktronics_stadiumstatus_yt_paid.csv
       measure_studio_group_ids:
         - 8811
+
+  - id: whirlpool_pll_stadium_status
+    partner: Whirlpool
+    series: Whirlpool PLL Stadium Status
+    series_italic: Status
+    type: content
+    benchmark_category: Original Content
+    lifecycle: active
+    flight_start: 2026-09-17
+    flight_end: 2026-09-30
+    impression_goal: 850000
+    budget_goal: 740
+    color: ft-1
+    lead_format: "Short-form Video"
+    blurb: "Whirlpool Stadium Status - PLL"
+    sources:
+      measure_studio_group_ids:
+        - 8861
