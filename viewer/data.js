@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-21T19:18:42Z";
+window.LAST_REFRESHED = "2026-09-21T19:24:24Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-09-21T13:35:42Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:41Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4698,7 +4698,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5197,8 +5197,163 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T19:18:42Z",
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
     "lastUpdatedExports": "2026-09-21T13:27:02Z"
+  },
+  {
+    "id": "whirlpool_pll_stadium_status",
+    "partner": "Whirlpool",
+    "series": "Whirlpool PLL Stadium Status",
+    "seriesItalic": "Status",
+    "type": "content",
+    "flight": "Sep 17 \u2014 Sep 30, 2026",
+    "elapsedPct": 30.8,
+    "daysLeft": 9,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 35506,
+      "goal": 850000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 740.0
+    },
+    "color": "ft-1",
+    "leadFormat": "Short-form Video",
+    "topChannel": "Instagram",
+    "er": 3.47,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 4,
+    "blurb": "Whirlpool Stadium Status - PLL",
+    "views": 28920,
+    "engagements": 1233,
+    "goalSplit": [],
+    "benchmarkCategory": "Original Content",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 24879,
+        "eng": 1123,
+        "er": 4.51,
+        "cpm": 0.0,
+        "color": "#E4405F",
+        "delta": 36.4,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 24879,
+        "views": 24879
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 8382,
+        "eng": 15,
+        "er": 0.18,
+        "cpm": 0.0,
+        "color": "#1d1d1f",
+        "delta": -80.5,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 8382,
+        "views": 1425
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 1329,
+        "eng": 83,
+        "er": 6.25,
+        "cpm": 0.0,
+        "color": "#000000",
+        "delta": 207.7,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 1329,
+        "views": 1329
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 916,
+        "eng": 12,
+        "er": 1.31,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -93.4,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 916,
+        "views": 1287
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "7686942463583341838",
+        "rank": 1,
+        "partner": "Whirlpool",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field, built for the PLL Championship and\u2026",
+        "er": 6.25,
+        "eng": 83,
+        "reach": 1329,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://tiktok.com/@frontofficesports/video/7686942463583341838",
+        "postedAt": "2026-09-18T13:00:00-07:00"
+      },
+      {
+        "id": "3989132087651661430",
+        "rank": 2,
+        "partner": "Whirlpool",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field, built for the PLL Championship and\u2026",
+        "er": 4.51,
+        "eng": 1123,
+        "reach": 24879,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DdcPn-WlvZ2/",
+        "postedAt": "2026-09-18T13:03:21-07:00"
+      }
+    ],
+    "topPostsOrganic": [],
+    "callouts": [
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "TikTok post at 6.2% ER \u2014 3.1\u00d7 the benchmark.",
+        "body": "\"Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field, built for the PL\u2026\" \u2014 1K reach, 83 engagements (100% organic). Strongest single asset on the campaign and well clear of the TikTok benchmark. Feature it in the partner update.",
+        "meta": "Whirlpool \u00b7 TikTok"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 14% of goal (115K of 850K) with 9 days left.",
+        "body": "At the current rate the campaign will fall ~735K impressions short of the 850K goal. Need to deliver 90K impr/day (10.2\u00d7 the current 9K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "Whirlpool \u00b7 Pacing"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-09-21T19:24:23Z",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -5436,8 +5591,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 98153551,
-    "eng": 2116378,
+    "impressions": 98154467,
+    "eng": 2116390,
     "er": 2.16,
     "cpm": 1.09,
     "color": "#E00922",
@@ -5447,13 +5602,13 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 18308577
+    "views": 18309864
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29266887,
-    "eng": 644917,
+    "impressions": 29275269,
+    "eng": 644932,
     "er": 2.2,
     "cpm": 1.65,
     "color": "#1d1d1f",
@@ -5463,14 +5618,14 @@ window.CHANNELS = [
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 481354
+    "views": 482779
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 27368550,
-    "eng": 400901,
-    "er": 1.46,
+    "impressions": 27393429,
+    "eng": 402024,
+    "er": 1.47,
     "cpm": 4.54,
     "color": "#E4405F",
     "delta": -55.7,
@@ -5479,23 +5634,23 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 25731231
+    "views": 25756110
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 24796090,
-    "eng": 56117,
+    "impressions": 24797419,
+    "eng": 56200,
     "er": 0.23,
     "cpm": 2.17,
     "color": "#000000",
-    "delta": -88.9,
+    "delta": -88.8,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 24539297
+    "views": 24540626
   },
   {
     "name": "Facebook",
@@ -5584,6 +5739,15 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
+    "headline": "On pace for 14% of goal (115K of 850K) with 9 days left.",
+    "body": "At the current rate the campaign will fall ~735K impressions short of the 850K goal. Need to deliver 90K impr/day (10.2\u00d7 the current 9K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Whirlpool \u00b7 Pacing",
+    "campaignId": "whirlpool_pll_stadium_status",
+    "campaignPartner": "Whirlpool"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
     "headline": "On pace for 41% of goal (1.6M of 3.9M) with 9 days left.",
     "body": "At the current rate the campaign will fall ~2.3M impressions short of the 3.9M goal. Need to deliver 278K impr/day (10.5\u00d7 the current 26K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Huntington Bank \u00b7 Pacing",
@@ -5602,11 +5766,11 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Instagram post at 5.9% ER \u2014 1.8\u00d7 the benchmark.",
-    "body": "\"Drew Weatherford is a big believer in youth sports streaming.\u2060 \u2060 The former FSU \u2026\" \u2014 52K reach, 3K engagements (31% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
-    "meta": "E*TRADE \u00b7 Instagram",
-    "campaignId": "etrade",
-    "campaignPartner": "E*TRADE"
+    "headline": "TikTok post at 6.2% ER \u2014 3.1\u00d7 the benchmark.",
+    "body": "\"Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field, built for the PL\u2026\" \u2014 1K reach, 83 engagements (100% organic). Strongest single asset on the campaign and well clear of the TikTok benchmark. Feature it in the partner update.",
+    "meta": "Whirlpool \u00b7 TikTok",
+    "campaignId": "whirlpool_pll_stadium_status",
+    "campaignPartner": "Whirlpool"
   }
 ];
 
@@ -19789,7 +19953,8 @@ window.EPISODES_BY_CAMPAIGN = {
   "huntington_bank_2026": [],
   "next_league_future_of_sports": [],
   "accenture_external_creator": [],
-  "daktronics_stadiumstatus": []
+  "daktronics_stadiumstatus": [],
+  "whirlpool_pll_stadium_status": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -36705,6 +36870,100 @@ window.POSTS_BY_CAMPAIGN = {
       "url": "https://www.instagram.com/p/DdMg9Ccjvlq/",
       "postedAt": "2026-09-12T10:26:14-07:00"
     }
+  ],
+  "whirlpool_pll_stadium_status": [
+    {
+      "title": "Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field, built for the PLL Championship and brought to life with ",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 1329,
+      "paidImpr": 0,
+      "orgImpr": 1329,
+      "views": 1329,
+      "reach": 970,
+      "eng": 83,
+      "er": 6.25,
+      "spend": 0,
+      "watchTimeMin": 211.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7686942463583341838",
+      "postedAt": "2026-09-18T13:00:00-07:00"
+    },
+    {
+      "title": "Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field, built for the PLL Championship and brought to life with ",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 8382,
+      "paidImpr": 0,
+      "orgImpr": 8382,
+      "views": 1425,
+      "reach": 0,
+      "eng": 15,
+      "er": 0.18,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2101038554826658210",
+      "postedAt": "2026-09-18T13:00:01-07:00"
+    },
+    {
+      "title": "Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field. #StadiumStatus",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 916,
+      "paidImpr": 0,
+      "orgImpr": 916,
+      "views": 1287,
+      "reach": 0,
+      "eng": 12,
+      "er": 1.31,
+      "spend": 0,
+      "watchTimeMin": 226.2,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/2A6FLIukSQs",
+      "postedAt": "2026-09-18T13:00:12-07:00"
+    },
+    {
+      "title": "Here\u2019s an inside look at NYC\u2019s glow in the dark lacrosse field, built for the PLL Championship and brought to life with ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 24879,
+      "paidImpr": 0,
+      "orgImpr": 24879,
+      "views": 24879,
+      "reach": 20643,
+      "eng": 1123,
+      "er": 4.51,
+      "spend": 0,
+      "watchTimeMin": 55.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DdcPn-WlvZ2/",
+      "postedAt": "2026-09-18T13:03:21-07:00"
+    }
   ]
 };
 
@@ -36974,7 +37233,8 @@ window.UPLOAD_TARGETS = {
       "file": "daktronics_stadiumstatus_yt_paid.csv",
       "label": "Google Ads"
     }
-  ]
+  ],
+  "whirlpool_pll_stadium_status": []
 };
 
 window.MS_GROUPS = [
@@ -38960,7 +39220,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 22250360,
     "paidImpressions": 21719320,
-    "pctOfTotal": 44.1,
+    "pctOfTotal": 44.0,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 10.7,
     "color": "#E00922"
@@ -38968,9 +39228,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.17,
-    "impressions": 13749798,
+    "impressions": 13774677,
     "paidImpressions": 11912194,
-    "pctOfTotal": 27.2,
+    "pctOfTotal": 27.3,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -25.8,
     "color": "#E4405F"
@@ -38978,7 +39238,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.58,
-    "impressions": 4762206,
+    "impressions": 4770588,
     "paidImpressions": 3310621,
     "pctOfTotal": 9.4,
     "mvmCpm": 1.24,
@@ -38988,7 +39248,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.82,
-    "impressions": 4245758,
+    "impressions": 4246674,
     "paidImpressions": 4119536,
     "pctOfTotal": 8.4,
     "mvmCpm": 3.2,
@@ -39008,7 +39268,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.45,
-    "impressions": 2101813,
+    "impressions": 2103142,
     "paidImpressions": 1192185,
     "pctOfTotal": 4.2,
     "mvmCpm": 2.24,
