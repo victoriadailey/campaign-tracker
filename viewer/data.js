@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-21T13:15:18Z";
+window.LAST_REFRESHED = "2026-09-21T13:23:22Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:17Z",
+    "lastUpdatedMs": "2026-09-21T13:23:21Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-09-18T18:47:51Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4598,23 +4598,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 596004,
+      "delivered": 1172353,
       "goal": 3850000
     },
     "budget": {
-      "delivered": 1467.39,
+      "delivered": 2601.39,
       "goal": 11225.0
     },
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 2.13,
-    "cpm": 2.46,
+    "er": 1.16,
+    "cpm": 2.22,
     "episodes": 0,
-    "posts": 4,
+    "posts": 6,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
-    "views": 492643,
-    "engagements": 12674,
+    "views": 1055160,
+    "engagements": 13586,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4622,18 +4622,34 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 211424,
-        "eng": 137,
-        "er": 0.06,
-        "cpm": 1.69,
+        "impressions": 640465,
+        "eng": 1003,
+        "er": 0.16,
+        "cpm": 1.51,
         "color": "#000000",
-        "delta": -96.8,
+        "delta": -92.3,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
         "organicImpressions": 0,
-        "views": 208597
+        "views": 625486
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 246032,
+        "eng": 76,
+        "er": 0.03,
+        "cpm": 3.35,
+        "color": "#E4405F",
+        "delta": -99.1,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 0,
+        "views": 242002
       },
       {
         "name": "YouTube Shorts",
@@ -4650,22 +4666,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 10,
         "views": 187672
-      },
-      {
-        "name": "Instagram",
-        "italic": "gram",
-        "impressions": 98724,
-        "eng": 30,
-        "er": 0.03,
-        "cpm": 3.03,
-        "color": "#E4405F",
-        "delta": -99.1,
-        "bench": {
-          "er": 3.31,
-          "cpm": 5.1
-        },
-        "organicImpressions": 0,
-        "views": 96374
       },
       {
         "name": "X",
@@ -4690,15 +4690,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 18% of goal (701K of 3.9M) with 9 days left.",
-        "body": "At the current rate the campaign will fall ~3.1M impressions short of the 3.9M goal. Need to deliver 362K impr/day (30.9\u00d7 the current 12K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 36% of goal (1.4M of 3.9M) with 9 days left.",
+        "body": "At the current rate the campaign will fall ~2.5M impressions short of the 3.9M goal. Need to deliver 298K impr/day (12.9\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Huntington Bank \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-08-18T16:02:51Z"
   },
   {
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5197,7 +5197,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-21T13:15:18Z",
+    "lastUpdatedMs": "2026-09-21T13:23:22Z",
     "lastUpdatedExports": "2026-09-18T19:50:07Z"
   }
 ];
@@ -5468,34 +5468,34 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 27221242,
-    "eng": 400855,
-    "er": 1.47,
+    "impressions": 27368550,
+    "eng": 400901,
+    "er": 1.46,
     "cpm": 4.54,
     "color": "#E4405F",
-    "delta": -55.5,
+    "delta": -55.7,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 25585603
+    "views": 25731231
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 24367049,
-    "eng": 55251,
+    "impressions": 24796090,
+    "eng": 56117,
     "er": 0.23,
-    "cpm": 2.19,
+    "cpm": 2.17,
     "color": "#000000",
-    "delta": -88.8,
+    "delta": -88.9,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 24122408
+    "views": 24539297
   },
   {
     "name": "Facebook",
@@ -5584,8 +5584,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 18% of goal (701K of 3.9M) with 9 days left.",
-    "body": "At the current rate the campaign will fall ~3.1M impressions short of the 3.9M goal. Need to deliver 362K impr/day (30.9\u00d7 the current 12K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 36% of goal (1.4M of 3.9M) with 9 days left.",
+    "body": "At the current rate the campaign will fall ~2.5M impressions short of the 3.9M goal. Need to deliver 298K impr/day (12.9\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Huntington Bank \u00b7 Pacing",
     "campaignId": "huntington_bank_2026",
     "campaignPartner": "Huntington Bank"
@@ -36263,6 +36263,52 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-08-12T16:02:58-07:00"
     },
     {
+      "title": "A $4.5 billion industry. Two powerhouse programs. One of the biggest games of the year. Here's what the NIL and sponsors",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 147308,
+      "paidImpr": 147308,
+      "orgImpr": 0,
+      "views": 145628,
+      "reach": 133446,
+      "eng": 46,
+      "er": 0.03,
+      "spend": 524.0,
+      "watchTimeMin": 981.1,
+      "clicks": 54,
+      "ctr": 3.67,
+      "cpc": 9.7,
+      "cpm": 3.56,
+      "videoViews100Pct": 65,
+      "videoViews3s": 6358,
+      "url": "https://www.instagram.com/p/DdcBk2igQqB/",
+      "postedAt": "2026-09-18T10:57:38-07:00"
+    },
+    {
+      "title": "",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 429041,
+      "paidImpr": 429041,
+      "orgImpr": 0,
+      "views": 416889,
+      "reach": 374266,
+      "eng": 866,
+      "er": 0.2,
+      "spend": 610.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 1.42,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": "2026-09-18T18:51:44-07:00"
+    },
+    {
       "title": "Huntington Bank: Preston Stout",
       "platform": "X",
       "accountName": null,
@@ -38887,19 +38933,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 22250890,
     "paidImpressions": 21719850,
-    "pctOfTotal": 44.9,
+    "pctOfTotal": 44.4,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 10.7,
     "color": "#E00922"
   },
   {
     "name": "Instagram",
-    "cpm": 4.18,
-    "impressions": 13602490,
-    "paidImpressions": 11764886,
-    "pctOfTotal": 27.5,
+    "cpm": 4.17,
+    "impressions": 13749798,
+    "paidImpressions": 11912194,
+    "pctOfTotal": 27.4,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -25.7,
+    "mvmDeltaPct": -25.8,
     "color": "#E4405F"
   },
   {
@@ -38907,7 +38953,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.56,
     "impressions": 4762206,
     "paidImpressions": 3294067,
-    "pctOfTotal": 9.6,
+    "pctOfTotal": 9.5,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 25.8,
     "color": "#1d1d1f"
@@ -38917,7 +38963,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.9,
     "impressions": 3877852,
     "paidImpressions": 3751630,
-    "pctOfTotal": 7.8,
+    "pctOfTotal": 7.7,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -9.4,
     "color": "#FF0033"
@@ -38934,12 +38980,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "TikTok",
-    "cpm": 1.47,
-    "impressions": 1672772,
-    "paidImpressions": 763144,
-    "pctOfTotal": 3.4,
+    "cpm": 1.45,
+    "impressions": 2101813,
+    "paidImpressions": 1192185,
+    "pctOfTotal": 4.2,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": -34.5,
+    "mvmDeltaPct": -35.3,
     "color": "#000000"
   },
   {
@@ -38957,7 +39003,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 6.4,
     "impressions": 373424,
     "paidImpressions": 328852,
-    "pctOfTotal": 0.8,
+    "pctOfTotal": 0.7,
     "mvmCpm": 4.2,
     "mvmDeltaPct": 52.5,
     "color": "#1877F2"
