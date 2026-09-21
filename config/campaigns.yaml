@@ -1558,3 +1558,18 @@ campaigns:
     sources:
       measure_studio_group_ids:
         - 8861
+
+  - id: orlando_health_brandx
+    partner: Orlando Health
+    series: Orlando Health BrandX
+    series_italic: BrandX
+    type: brandx
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-09-01
+    flight_end: 2026-10-31
+    impression_goal: 300000
+    budget_goal: 1000
+    color: ft-1
+    lead_format: Paid Social
+    blurb: "Orlando Health BrandX, split into 2 assets"
