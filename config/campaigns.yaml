@@ -1577,3 +1577,18 @@ campaigns:
     sources:
       meta_ads:
         - orlando_health_brandx_meta_ads.csv
+
+  - id: next_league_brandx
+    partner: Next League
+    series: Next League BrandX
+    series_italic: BrandX
+    type: brandx
+    benchmark_category: "Custom Social - Non-Franchise (Event Coverage, Custom Shoot, etc.)"
+    lifecycle: active
+    flight_start: 2026-09-01
+    flight_end: 2026-09-30
+    impression_goal: 500000
+    budget_goal: 1500
+    color: ft-1
+    lead_format: Paid Social
+    blurb: Next League BrandX
