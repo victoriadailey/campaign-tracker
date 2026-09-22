@@ -1573,3 +1573,7 @@ campaigns:
     color: ft-1
     lead_format: Paid Social
     blurb: "Orlando Health BrandX, split into 2 assets"
+
+    sources:
+      meta_ads:
+        - orlando_health_brandx_meta_ads.csv
