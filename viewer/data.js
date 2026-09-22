@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-22T19:47:59Z";
+window.LAST_REFRESHED = "2026-09-22T19:55:36Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-09-21T13:35:42Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4698,7 +4698,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-09-22T13:59:46Z"
   },
   {
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5181,7 +5181,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": "2026-09-21T13:27:02Z"
   },
   {
@@ -5336,7 +5336,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-22T19:47:59Z",
+    "lastUpdatedMs": "2026-09-22T19:55:35Z",
     "lastUpdatedExports": ""
   },
   {
@@ -5415,25 +5415,25 @@ window.CAMPAIGNS = [
     "flight": "Sep 1 \u2014 Sep 30, 2026",
     "elapsedPct": 72.4,
     "daysLeft": 8,
-    "status": "Goal Exceeded",
+    "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 526756,
+      "delivered": 493176,
       "goal": 500000
     },
     "budget": {
-      "delivered": 1759.66,
+      "delivered": 1500.0,
       "goal": 1500.0
     },
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.0,
-    "cpm": 3.34,
+    "cpm": 3.04,
     "episodes": 0,
-    "posts": 2,
+    "posts": 1,
     "blurb": "Next League BrandX",
-    "views": 526756,
+    "views": 493176,
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social - Non-Franchise (Event Coverage, Custom Shoot, etc.)",
@@ -5442,10 +5442,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 526756,
+        "impressions": 493176,
         "eng": 0,
         "er": 0.0,
-        "cpm": 3.34,
+        "cpm": 3.04,
         "color": "#E4405F",
         "delta": -100.0,
         "bench": {
@@ -5453,7 +5453,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 526756
+        "views": 493176
       }
     ],
     "topPosts": [],
@@ -5463,7 +5463,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-09-22T19:40:10Z"
+    "lastUpdatedExports": "2026-09-22T19:51:55Z"
   }
 ];
 
@@ -5733,18 +5733,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 28123210,
+    "impressions": 28089630,
     "eng": 403106,
-    "er": 1.43,
-    "cpm": 4.51,
+    "er": 1.44,
+    "cpm": 4.5,
     "color": "#E4405F",
-    "delta": -56.7,
+    "delta": -56.6,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 26484620
+    "views": 26451040
   },
   {
     "name": "TikTok",
@@ -37157,29 +37157,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": null
-    },
-    {
-      "title": "Next League: Future of Sports Cutdown",
-      "platform": "Instagram",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 33580,
-      "paidImpr": 33580,
-      "orgImpr": 0,
-      "views": 33580,
-      "reach": 27831,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 259.66,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 7.73,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
     }
   ]
 };
@@ -37728,10 +37705,6 @@ window.PULSE_STATE = {
     {
       "id": "mm",
       "date": "2026-09-01"
-    },
-    {
-      "id": "next_league_brandx",
-      "date": "2026-09-22"
     },
     {
       "id": "next_league_future_of_sports",
@@ -38381,10 +38354,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "next_league_brandx_meta_ads.csv",
-    "fileSizeKb": 0.9,
+    "fileSizeKb": 0.7,
     "lastModified": "2026-09-22",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 1
   }
 ];
 
@@ -39486,12 +39459,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 4.13,
-    "impressions": 14504438,
-    "paidImpressions": 12640618,
+    "cpm": 4.12,
+    "impressions": 14470858,
+    "paidImpressions": 12607038,
     "pctOfTotal": 28.1,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -26.6,
+    "mvmDeltaPct": -26.7,
     "color": "#E4405F"
   },
   {
