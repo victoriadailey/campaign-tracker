@@ -1592,3 +1592,7 @@ campaigns:
     color: ft-1
     lead_format: Paid Social
     blurb: Next League BrandX
+
+    sources:
+      meta_ads:
+        - next_league_brandx_meta_ads.csv
