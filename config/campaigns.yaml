@@ -1556,6 +1556,8 @@ campaigns:
     lead_format: "Short-form Video"
     blurb: "Whirlpool Stadium Status - PLL"
     sources:
+      youtube_paid:
+        - whirlpool_pll_stadium_status_yt_paid.csv
       measure_studio_group_ids:
         - 8861
 
