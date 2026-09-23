@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-23T17:35:50Z";
+window.LAST_REFRESHED = "2026-09-23T17:50:44Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-09-23T13:55:36Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4698,7 +4698,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-09-23T17:30:43Z"
   },
   {
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5181,7 +5181,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": "2026-09-23T15:09:09Z"
   },
   {
@@ -5320,7 +5320,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedMs": "2026-09-23T17:50:43Z",
     "lastUpdatedExports": ""
   },
   {
@@ -5402,11 +5402,11 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 493176,
+      "delivered": 499238,
       "goal": 500000
     },
     "budget": {
-      "delivered": 1500.0,
+      "delivered": 1520.0,
       "goal": 1500.0
     },
     "color": "ft-1",
@@ -5417,7 +5417,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 1,
     "blurb": "Next League BrandX",
-    "views": 493176,
+    "views": 499238,
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Custom Social - Non-Franchise (Event Coverage, Custom Shoot, etc.)",
@@ -5426,7 +5426,7 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 493176,
+        "impressions": 499238,
         "eng": 0,
         "er": 0.0,
         "cpm": 3.04,
@@ -5437,7 +5437,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 493176
+        "views": 499238
       }
     ],
     "topPosts": [],
@@ -5447,7 +5447,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-09-22T19:51:55Z"
+    "lastUpdatedExports": "2026-09-23T17:42:43Z"
   }
 ];
 
@@ -5717,7 +5717,7 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 28217031,
+    "impressions": 28223093,
     "eng": 403772,
     "er": 1.43,
     "cpm": 4.5,
@@ -5728,7 +5728,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 26577092
+    "views": 26583154
   },
   {
     "name": "TikTok",
@@ -37124,18 +37124,18 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 493176,
-      "paidImpr": 493176,
+      "impr": 499238,
+      "paidImpr": 499238,
       "orgImpr": 0,
-      "views": 493176,
-      "reach": 116160,
+      "views": 499238,
+      "reach": 120613,
       "eng": 0,
       "er": 0.0,
-      "spend": 1500.0,
+      "spend": 1520.0,
       "watchTimeMin": null,
-      "clicks": 48,
+      "clicks": 49,
       "ctr": 0.01,
-      "cpc": 31.25,
+      "cpc": 31.02,
       "cpm": 3.04,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -39444,8 +39444,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.12,
-    "impressions": 14598239,
-    "paidImpressions": 12733366,
+    "impressions": 14604301,
+    "paidImpressions": 12739428,
     "pctOfTotal": 27.9,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -26.7,
