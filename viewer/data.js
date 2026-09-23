@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-23T17:50:44Z";
+window.LAST_REFRESHED = "2026-09-23T18:03:22Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-09-23T13:55:36Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4698,7 +4698,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-09-23T17:30:43Z"
   },
   {
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5181,7 +5181,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": "2026-09-23T15:09:09Z"
   },
   {
@@ -5320,7 +5320,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T17:50:43Z",
+    "lastUpdatedMs": "2026-09-23T18:03:22Z",
     "lastUpdatedExports": ""
   },
   {
@@ -5335,11 +5335,11 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 68236,
+      "delivered": 82275,
       "goal": 300000
     },
     "budget": {
-      "delivered": 203.7,
+      "delivered": 246.19,
       "goal": 1000.0
     },
     "color": "ft-1",
@@ -5350,7 +5350,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 1,
     "blurb": "Orlando Health BrandX, split into 2 assets",
-    "views": 68236,
+    "views": 82275,
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
@@ -5359,7 +5359,7 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 68236,
+        "impressions": 82275,
         "eng": 0,
         "er": 0.0,
         "cpm": 2.99,
@@ -5370,7 +5370,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 68236
+        "views": 82275
       }
     ],
     "topPosts": [],
@@ -5379,8 +5379,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 62% of goal (186K of 300K) with 38 days left.",
-        "body": "At the current rate the campaign will fall ~114K impressions short of the 300K goal. Need to deliver 6K impr/day (2.0\u00d7 the current 3K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 75% of goal (224K of 300K) with 38 days left.",
+        "body": "At the current rate the campaign will fall ~76K impressions short of the 300K goal. Need to deliver 6K impr/day (1.5\u00d7 the current 4K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Orlando Health \u00b7 Pacing"
       }
     ],
@@ -5388,7 +5388,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-09-22T13:27:24Z"
+    "lastUpdatedExports": "2026-09-23T17:56:08Z"
   },
   {
     "id": "next_league_brandx",
@@ -5717,7 +5717,7 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 28223093,
+    "impressions": 28237132,
     "eng": 403772,
     "er": 1.43,
     "cpm": 4.5,
@@ -5728,7 +5728,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 26583154
+    "views": 26597193
   },
   {
     "name": "TikTok",
@@ -5851,8 +5851,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 62% of goal (186K of 300K) with 38 days left.",
-    "body": "At the current rate the campaign will fall ~114K impressions short of the 300K goal. Need to deliver 6K impr/day (2.0\u00d7 the current 3K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 75% of goal (224K of 300K) with 38 days left.",
+    "body": "At the current rate the campaign will fall ~76K impressions short of the 300K goal. Need to deliver 6K impr/day (1.5\u00d7 the current 4K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Orlando Health \u00b7 Pacing",
     "campaignId": "orlando_health_brandx",
     "campaignPartner": "Orlando Health"
@@ -37099,18 +37099,18 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 68236,
-      "paidImpr": 68236,
+      "impr": 82275,
+      "paidImpr": 82275,
       "orgImpr": 0,
-      "views": 68236,
-      "reach": 36022,
+      "views": 82275,
+      "reach": 41035,
       "eng": 0,
       "er": 0.0,
-      "spend": 203.7,
+      "spend": 246.19,
       "watchTimeMin": null,
-      "clicks": 108,
+      "clicks": 128,
       "ctr": 0.16,
-      "cpc": 1.89,
+      "cpc": 1.92,
       "cpm": 2.99,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -39444,11 +39444,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.12,
-    "impressions": 14604301,
-    "paidImpressions": 12739428,
+    "impressions": 14618340,
+    "paidImpressions": 12753467,
     "pctOfTotal": 27.9,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -26.7,
+    "mvmDeltaPct": -26.8,
     "color": "#E4405F"
   },
   {
