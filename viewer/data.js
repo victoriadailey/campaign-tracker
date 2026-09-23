@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-23T15:27:07Z";
+window.LAST_REFRESHED = "2026-09-23T17:35:50Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:06Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:06Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-09-23T13:55:36Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T15:27:06Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4598,23 +4598,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1903944,
+      "delivered": 1984399,
       "goal": 3850000
     },
     "budget": {
-      "delivered": 4714.17,
+      "delivered": 4958.51,
       "goal": 11225.0
     },
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 1.93,
-    "cpm": 2.48,
+    "er": 2.17,
+    "cpm": 2.5,
     "episodes": 0,
     "posts": 8,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
     "views": 1642311,
-    "engagements": 36732,
+    "engagements": 43112,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4638,12 +4638,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 470111,
-        "eng": 34437,
-        "er": 7.33,
-        "cpm": 3.16,
+        "impressions": 550566,
+        "eng": 40817,
+        "er": 7.41,
+        "cpm": 3.14,
         "color": "#FF0033",
-        "delta": -63.4,
+        "delta": -62.9,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -4690,16 +4690,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 56% of goal (2.2M of 3.9M) with 7 days left.",
-        "body": "At the current rate the campaign will fall ~1.7M impressions short of the 3.9M goal. Need to deliver 278K impr/day (7.7\u00d7 the current 36K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 58% of goal (2.2M of 3.9M) with 7 days left.",
+        "body": "At the current rate the campaign will fall ~1.6M impressions short of the 3.9M goal. Need to deliver 267K impr/day (7.1\u00d7 the current 38K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Huntington Bank \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
-    "lastUpdatedExports": "2026-09-22T13:59:46Z"
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
+    "lastUpdatedExports": "2026-09-23T17:30:43Z"
   },
   {
     "id": "next_league_future_of_sports",
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5181,7 +5181,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": "2026-09-23T15:09:09Z"
   },
   {
@@ -5320,7 +5320,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T15:27:07Z",
+    "lastUpdatedMs": "2026-09-23T17:35:50Z",
     "lastUpdatedExports": ""
   },
   {
@@ -5685,9 +5685,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 98386357,
-    "eng": 2169339,
-    "er": 2.2,
+    "impressions": 98466812,
+    "eng": 2175719,
+    "er": 2.21,
     "cpm": 1.1,
     "color": "#E00922",
     "delta": -89.0,
@@ -5842,8 +5842,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 56% of goal (2.2M of 3.9M) with 7 days left.",
-    "body": "At the current rate the campaign will fall ~1.7M impressions short of the 3.9M goal. Need to deliver 278K impr/day (7.7\u00d7 the current 36K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 58% of goal (2.2M of 3.9M) with 7 days left.",
+    "body": "At the current rate the campaign will fall ~1.6M impressions short of the 3.9M goal. Need to deliver 267K impr/day (7.1\u00d7 the current 38K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Huntington Bank \u00b7 Pacing",
     "campaignId": "huntington_bank_2026",
     "campaignPartner": "Huntington Bank"
@@ -36560,19 +36560,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 268465,
-      "paidImpr": 268456,
+      "impr": 348920,
+      "paidImpr": 348911,
       "orgImpr": 9,
       "views": 251275,
       "reach": 0,
-      "eng": 22061,
-      "er": 8.22,
-      "spend": 890.82,
+      "eng": 28441,
+      "er": 8.15,
+      "spend": 1135.16,
       "watchTimeMin": 24209.4,
       "clicks": 15,
       "ctr": 4.49,
       "cpc": 72.81,
-      "cpm": 3.32,
+      "cpm": 3.25,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/Jbnk9DEWmJk",
@@ -39464,11 +39464,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 3.0,
-    "impressions": 4477215,
-    "paidImpressions": 4348948,
-    "pctOfTotal": 8.6,
+    "impressions": 4557670,
+    "paidImpressions": 4429403,
+    "pctOfTotal": 8.7,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -6.3,
+    "mvmDeltaPct": -6.2,
     "color": "#FF0033"
   },
   {
