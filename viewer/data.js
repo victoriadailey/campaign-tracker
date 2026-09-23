@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-23T18:03:22Z";
+window.LAST_REFRESHED = "2026-09-23T18:45:59Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 39087657,
+      "delivered": 39123263,
       "goal": 41700000
     },
     "budget": {
@@ -394,11 +394,11 @@ window.CAMPAIGNS = [
     "topChannel": "YouTube",
     "er": 2.97,
     "cpm": 1.85,
-    "episodes": 17,
-    "posts": 359,
+    "episodes": 18,
+    "posts": 366,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 11038969,
-    "engagements": 1161796,
+    "views": 11056187,
+    "engagements": 1162334,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -438,8 +438,8 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 6511158,
-        "eng": 127146,
+        "impressions": 6522337,
+        "eng": 127480,
         "er": 1.95,
         "cpm": 5.48,
         "color": "#E4405F",
@@ -448,14 +448,14 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1770727,
-        "views": 6437677
+        "organicImpressions": 1781906,
+        "views": 6448856
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4516271,
-        "eng": 13267,
+        "impressions": 4531018,
+        "eng": 13300,
         "er": 0.29,
         "cpm": 1.41,
         "color": "#1d1d1f",
@@ -464,8 +464,8 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1451277,
-        "views": 402680
+        "organicImpressions": 1466024,
+        "views": 405203
       },
       {
         "name": "YouTube Shorts",
@@ -486,24 +486,24 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 2129980,
-        "eng": 73178,
-        "er": 3.44,
+        "impressions": 2139212,
+        "eng": 73330,
+        "er": 3.43,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -8.6,
+        "delta": -8.8,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 2129980,
-        "views": 553512
+        "organicImpressions": 2139212,
+        "views": 556580
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 824925,
-        "eng": 34493,
+        "impressions": 825373,
+        "eng": 34512,
         "er": 4.18,
         "cpm": 0.0,
         "color": "#000000",
@@ -512,8 +512,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 824925,
-        "views": 824925
+        "organicImpressions": 825373,
+        "views": 825373
       },
       {
         "name": "Instagram Stories",
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-09-23T13:55:36Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4698,7 +4698,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-09-23T17:30:43Z"
   },
   {
@@ -4917,7 +4917,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5017,7 +5017,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5181,7 +5181,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": "2026-09-23T15:09:09Z"
   },
   {
@@ -5320,7 +5320,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-23T18:03:22Z",
+    "lastUpdatedMs": "2026-09-23T18:45:58Z",
     "lastUpdatedExports": ""
   },
   {
@@ -5701,24 +5701,24 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29423582,
-    "eng": 645639,
+    "impressions": 29438329,
+    "eng": 645672,
     "er": 2.19,
     "cpm": 1.67,
     "color": "#1d1d1f",
-    "delta": 138.5,
+    "delta": 138.4,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 482817
+    "views": 485340
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 28237132,
-    "eng": 403772,
+    "impressions": 28248311,
+    "eng": 404106,
     "er": 1.43,
     "cpm": 4.5,
     "color": "#E4405F",
@@ -5728,13 +5728,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 26597193
+    "views": 26608372
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 25186856,
-    "eng": 56926,
+    "impressions": 25187304,
+    "eng": 56945,
     "er": 0.23,
     "cpm": 2.16,
     "color": "#000000",
@@ -5744,7 +5744,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 24922326
+    "views": 24922774
   },
   {
     "name": "Facebook",
@@ -5765,18 +5765,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 3479894,
-    "eng": 122598,
+    "impressions": 3489126,
+    "eng": 122750,
     "er": 3.52,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -6.3,
+    "delta": -6.4,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 961049
+    "views": 964117
   },
   {
     "name": "Snapchat",
@@ -14863,10 +14863,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Kerri Walsh Jennings",
       "date": "Aug 2026",
       "total": {
-        "impr": 1559803,
-        "views": 479533,
-        "er": 1.93,
-        "eng": 64118,
+        "impr": 1567155,
+        "views": 480756,
+        "er": 1.92,
+        "eng": 64136,
         "spend": 3501.93
       },
       "perChannel": [
@@ -14903,17 +14903,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 133050,
+          "impr": 140402,
           "paidImpr": 87894,
-          "orgImpr": 45156,
-          "views": 8113,
-          "eng": 686,
+          "orgImpr": 46379,
+          "views": 9336,
+          "eng": 704,
           "paidEng": 583,
-          "orgEng": 103,
-          "er": 0.52,
+          "orgEng": 121,
+          "er": 0.5,
           "cpm": 4.27,
           "spend": 375.0,
-          "posts": 5
+          "posts": 6
         },
         {
           "name": "LinkedIn",
@@ -15261,6 +15261,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 334.0,
           "url": "https://www.instagram.com/p/Dc11aw_jxWT/",
           "postedAt": "2026-09-03T15:03:12-07:00"
+        },
+        {
+          "title": "\"We are positioned so well to be in the pole position because our structure is sound, the franchises are independent, an",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7352,
+          "paidImpr": 0,
+          "orgImpr": 7352,
+          "views": 1223,
+          "eng": 18,
+          "er": 0.24,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2102463823667925201",
+          "postedAt": "2026-09-22T11:23:32-07:00"
         }
       ],
       "topPosts": [
@@ -15689,6 +15704,191 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "kind": "pos",
           "text": "LinkedIn resonating \u2014 100% organic share on 29.3K impr."
+        }
+      ]
+    },
+    {
+      "n": "Ep. 17",
+      "title": "Ryan Smith",
+      "date": "TBD",
+      "total": {
+        "impr": 20859,
+        "views": 14695,
+        "er": 2.42,
+        "eng": 505,
+        "spend": 0
+      },
+      "perChannel": [
+        {
+          "name": "Instagram",
+          "distKind": "organic",
+          "impr": 11179,
+          "paidImpr": 0,
+          "orgImpr": 11179,
+          "views": 11179,
+          "eng": 334,
+          "paidEng": 0,
+          "orgEng": 334,
+          "er": 2.99,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 9232,
+          "paidImpr": 0,
+          "orgImpr": 9232,
+          "views": 3068,
+          "eng": 152,
+          "paidEng": 0,
+          "orgEng": 152,
+          "er": 1.65,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "TikTok",
+          "distKind": "organic",
+          "impr": 448,
+          "paidImpr": 0,
+          "orgImpr": 448,
+          "views": 448,
+          "eng": 19,
+          "paidEng": 0,
+          "orgEng": 19,
+          "er": 4.24,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "paidEng": 0,
+          "orgEng": 0,
+          "er": 0.0,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "YouTube In-feed",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "paidEng": 0,
+          "orgEng": 0,
+          "er": 0.0,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        }
+      ],
+      "posts": [
+        {
+          "title": "How Ryan Smith Is Building the Future of Sports in Utah",
+          "platform": "YouTube In-feed",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://youtu.be/3adoVU_UAEs",
+          "postedAt": "2026-09-22T07:00:32-07:00"
+        },
+        {
+          "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d Jazz owner Ryan Smith tells FOS about his ow",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 448,
+          "paidImpr": 0,
+          "orgImpr": 448,
+          "views": 448,
+          "eng": 19,
+          "er": 4.24,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7688395751696682253",
+          "postedAt": "2026-09-22T09:22:53-07:00"
+        },
+        {
+          "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Utah Jazz owner Ryan Smith tells FOS about ",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 9232,
+          "paidImpr": 0,
+          "orgImpr": 9232,
+          "views": 3068,
+          "eng": 152,
+          "er": 1.65,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508193098477240321",
+          "postedAt": "2026-09-22T09:30:23-07:00"
+        },
+        {
+          "title": "Why NBA valuations aren\u2019t the only thing that matter for owners",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/ya7r5eTcyVQ",
+          "postedAt": "2026-09-22T11:16:37-07:00"
+        },
+        {
+          "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about his",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 11179,
+          "paidImpr": 0,
+          "orgImpr": 11179,
+          "views": 11179,
+          "eng": 334,
+          "er": 2.99,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DdmmNOtjA4x/",
+          "postedAt": "2026-09-22T13:33:04-07:00"
+        }
+      ],
+      "topPosts": [
+        {
+          "quote": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d\u2060 \u2060 Jazz owner ",
+          "platform": "Instagram",
+          "er": 2.99,
+          "reach": 11179,
+          "url": "https://www.instagram.com/p/DdmmNOtjA4x/"
+        }
+      ],
+      "callouts": [
+        {
+          "kind": "pos",
+          "text": "TikTok leading with 4.2% ER on 448 impr."
+        },
+        {
+          "kind": "pos",
+          "text": "Instagram resonating \u2014 100% organic share on 11.2K impr."
         }
       ]
     }
@@ -29152,6 +29352,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-09-03T15:03:12-07:00"
     },
     {
+      "title": "\"We are positioned so well to be in the pole position because our structure is sound, the franchises are independent, an",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7352,
+      "paidImpr": 0,
+      "orgImpr": 7352,
+      "views": 1223,
+      "reach": 0,
+      "eng": 18,
+      "er": 0.24,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2102463823667925201",
+      "postedAt": "2026-09-22T11:23:32-07:00"
+    },
+    {
       "title": "Why Private Capital Is Coming for Youth Sports",
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
@@ -29541,6 +29764,144 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DdXQTg2DrU-/",
       "postedAt": "2026-09-16T14:33:05-07:00"
+    },
+    {
+      "title": "How Ryan Smith Is Building the Future of Sports in Utah",
+      "platform": "YouTube In-feed",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://youtu.be/3adoVU_UAEs",
+      "postedAt": "2026-09-22T07:00:32-07:00"
+    },
+    {
+      "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d Jazz owner Ryan Smith tells FOS about his ow",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 448,
+      "paidImpr": 0,
+      "orgImpr": 448,
+      "views": 448,
+      "reach": 0,
+      "eng": 19,
+      "er": 4.24,
+      "spend": 0,
+      "watchTimeMin": 45.7,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7688395751696682253",
+      "postedAt": "2026-09-22T09:22:53-07:00"
+    },
+    {
+      "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Utah Jazz owner Ryan Smith tells FOS about ",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 9232,
+      "paidImpr": 0,
+      "orgImpr": 9232,
+      "views": 3068,
+      "reach": 0,
+      "eng": 152,
+      "er": 1.65,
+      "spend": 0,
+      "watchTimeMin": 748.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508193098477240321",
+      "postedAt": "2026-09-22T09:30:23-07:00"
+    },
+    {
+      "title": "Why NBA valuations aren\u2019t the only thing that matter for owners",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/ya7r5eTcyVQ",
+      "postedAt": "2026-09-22T11:16:37-07:00"
+    },
+    {
+      "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about his",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 11179,
+      "paidImpr": 0,
+      "orgImpr": 11179,
+      "views": 11179,
+      "reach": 8559,
+      "eng": 334,
+      "er": 2.99,
+      "spend": 0,
+      "watchTimeMin": 40.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DdmmNOtjA4x/",
+      "postedAt": "2026-09-22T13:33:04-07:00"
+    },
+    {
+      "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Jazz owner @RyanQualtrics tells FOS about h",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7395,
+      "paidImpr": 0,
+      "orgImpr": 7395,
+      "views": 1300,
+      "reach": 0,
+      "eng": 15,
+      "er": 0.2,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2102435253906497559",
+      "postedAt": "2026-09-22T09:30:00-07:00"
     }
   ],
   "spectrum": [
@@ -37644,7 +38005,9 @@ window.DATA_HEALTH = {
     "[threem] excluded 1 post(s) via campaign exclude ['1530555005750751']"
   ],
   "msErrors": [],
-  "orphanFiles": [],
+  "orphanFiles": [
+    "whirlpool_pll_stadium_status_yt_paid.csv"
+  ],
   "potentialDuplicates": []
 };
 
@@ -39436,7 +39799,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 22251158,
     "paidImpressions": 21719224,
-    "pctOfTotal": 42.5,
+    "pctOfTotal": 42.4,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 10.7,
     "color": "#E00922"
@@ -39444,7 +39807,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.12,
-    "impressions": 14618340,
+    "impressions": 14629519,
     "paidImpressions": 12753467,
     "pctOfTotal": 27.9,
     "mvmCpm": 5.62,
@@ -39454,7 +39817,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.7,
-    "impressions": 4918901,
+    "impressions": 4933648,
     "paidImpressions": 3442207,
     "pctOfTotal": 9.4,
     "mvmCpm": 1.24,
@@ -39474,7 +39837,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.42,
-    "impressions": 2492559,
+    "impressions": 2493007,
     "paidImpressions": 1515255,
     "pctOfTotal": 4.8,
     "mvmCpm": 2.24,
@@ -39484,7 +39847,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 2297920,
+    "impressions": 2307152,
     "paidImpressions": 0,
     "pctOfTotal": 4.4,
     "mvmCpm": null,
