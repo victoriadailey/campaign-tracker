@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-24T13:12:49Z";
+window.LAST_REFRESHED = "2026-09-24T13:48:11Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 38749534,
+      "delivered": 38761508,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 2.97,
     "cpm": 1.85,
     "episodes": 18,
-    "posts": 366,
+    "posts": 370,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 11064125,
-    "engagements": 1149222,
+    "views": 11066529,
+    "engagements": 1149332,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,8 +454,8 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4531508,
-        "eng": 13303,
+        "impressions": 4538673,
+        "eng": 13316,
         "er": 0.29,
         "cpm": 1.41,
         "color": "#1d1d1f",
@@ -464,8 +464,8 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1466514,
-        "views": 405274
+        "organicImpressions": 1473679,
+        "views": 406441
       },
       {
         "name": "YouTube Shorts",
@@ -486,24 +486,24 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1758142,
-        "eng": 60030,
+        "impressions": 1762569,
+        "eng": 60116,
         "er": 3.41,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -9.2,
+        "delta": -9.3,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1758142,
-        "views": 557782
+        "organicImpressions": 1762569,
+        "views": 558637
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 825648,
-        "eng": 34514,
+        "impressions": 826030,
+        "eng": 34525,
         "er": 4.18,
         "cpm": 0.0,
         "color": "#000000",
@@ -512,8 +512,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 825648,
-        "views": 825648
+        "organicImpressions": 826030,
+        "views": 826030
       },
       {
         "name": "Instagram Stories",
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-09-23T13:55:36Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1382,7 +1382,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1489,7 +1489,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1636,7 +1636,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2188,7 +2188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2336,7 +2336,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2538,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2805,7 +2805,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3188,7 +3188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3505,7 +3505,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3669,7 +3669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3808,7 +3808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4050,7 +4050,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4371,7 +4371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4575,7 +4575,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4590,23 +4590,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1984405,
+      "delivered": 2060987,
       "goal": 3850000
     },
     "budget": {
-      "delivered": 4958.51,
+      "delivered": 5192.93,
       "goal": 11225.0
     },
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 2.17,
-    "cpm": 2.5,
+    "er": 2.4,
+    "cpm": 2.52,
     "episodes": 0,
     "posts": 8,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
     "views": 1642316,
-    "engagements": 43112,
+    "engagements": 49448,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4630,12 +4630,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 550566,
-        "eng": 40817,
-        "er": 7.41,
-        "cpm": 3.14,
+        "impressions": 627148,
+        "eng": 47153,
+        "er": 7.52,
+        "cpm": 3.13,
         "color": "#FF0033",
-        "delta": -62.9,
+        "delta": -62.4,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -4682,16 +4682,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 57% of goal (2.2M of 3.9M) with 6 days left.",
-        "body": "At the current rate the campaign will fall ~1.6M impressions short of the 3.9M goal. Need to deliver 311K impr/day (8.5\u00d7 the current 37K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 59% of goal (2.3M of 3.9M) with 6 days left.",
+        "body": "At the current rate the campaign will fall ~1.6M impressions short of the 3.9M goal. Need to deliver 298K impr/day (7.8\u00d7 the current 38K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Huntington Bank \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
-    "lastUpdatedExports": "2026-09-23T17:30:43Z"
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
+    "lastUpdatedExports": "2026-09-24T13:45:50Z"
   },
   {
     "id": "next_league_future_of_sports",
@@ -4909,7 +4909,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5016,7 +5016,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-09-17T13:23:00Z"
   },
   {
@@ -5180,7 +5180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-09-23T15:09:09Z"
   },
   {
@@ -5334,7 +5334,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-24T13:12:49Z",
+    "lastUpdatedMs": "2026-09-24T13:48:11Z",
     "lastUpdatedExports": "2026-09-23T18:41:16Z"
   },
   {
@@ -5699,10 +5699,10 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 98472319,
-    "eng": 2177283,
-    "er": 2.21,
-    "cpm": 1.1,
+    "impressions": 98548901,
+    "eng": 2183619,
+    "er": 2.22,
+    "cpm": 1.11,
     "color": "#E00922",
     "delta": -88.9,
     "bench": {
@@ -5715,18 +5715,18 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29438819,
-    "eng": 645675,
+    "impressions": 29445984,
+    "eng": 645688,
     "er": 2.19,
     "cpm": 1.67,
     "color": "#1d1d1f",
-    "delta": 138.4,
+    "delta": 138.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 485411
+    "views": 486578
   },
   {
     "name": "Instagram",
@@ -5747,8 +5747,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 25327554,
-    "eng": 57105,
+    "impressions": 25327936,
+    "eng": 57116,
     "er": 0.23,
     "cpm": 2.15,
     "color": "#000000",
@@ -5758,7 +5758,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 25060851
+    "views": 25061233
   },
   {
     "name": "Facebook",
@@ -5779,9 +5779,9 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2950735,
-    "eng": 100770,
-    "er": 3.42,
+    "impressions": 2955162,
+    "eng": 100856,
+    "er": 3.41,
     "cpm": 8.66,
     "color": "#0A66C2",
     "delta": -9.2,
@@ -5790,7 +5790,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 965578
+    "views": 966433
   },
   {
     "name": "Snapchat",
@@ -5856,8 +5856,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 57% of goal (2.2M of 3.9M) with 6 days left.",
-    "body": "At the current rate the campaign will fall ~1.6M impressions short of the 3.9M goal. Need to deliver 311K impr/day (8.5\u00d7 the current 37K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 59% of goal (2.3M of 3.9M) with 6 days left.",
+    "body": "At the current rate the campaign will fall ~1.6M impressions short of the 3.9M goal. Need to deliver 298K impr/day (7.8\u00d7 the current 38K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Huntington Bank \u00b7 Pacing",
     "campaignId": "huntington_bank_2026",
     "campaignPartner": "Huntington Bank"
@@ -15735,10 +15735,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Ryan Smith",
       "date": "TBD",
       "total": {
-        "impr": 28231,
-        "views": 21536,
-        "er": 2.47,
-        "eng": 697,
+        "impr": 33040,
+        "views": 22773,
+        "er": 2.4,
+        "eng": 794,
         "spend": 0
       },
       "perChannel": [
@@ -15760,32 +15760,32 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 10472,
+          "impr": 14899,
           "paidImpr": 0,
-          "orgImpr": 10472,
-          "views": 3777,
-          "eng": 173,
+          "orgImpr": 14899,
+          "views": 4632,
+          "eng": 259,
           "paidEng": 0,
-          "orgEng": 173,
-          "er": 1.65,
+          "orgEng": 259,
+          "er": 1.74,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 1
+          "posts": 2
         },
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 577,
+          "impr": 959,
           "paidImpr": 0,
-          "orgImpr": 577,
-          "views": 577,
-          "eng": 20,
+          "orgImpr": 959,
+          "views": 959,
+          "eng": 31,
           "paidEng": 0,
-          "orgEng": 20,
-          "er": 3.47,
+          "orgEng": 31,
+          "er": 3.23,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 1
+          "posts": 2
         },
         {
           "name": "YouTube Shorts",
@@ -15800,7 +15800,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 1
+          "posts": 2
         },
         {
           "name": "YouTube In-feed",
@@ -15893,6 +15893,51 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://www.instagram.com/p/DdmmNOtjA4x/",
           "postedAt": "2026-09-22T13:33:04-07:00"
+        },
+        {
+          "title": "Why the Jazz owner almost bought the Timberwolves",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/hVNo0i4Tbk4",
+          "postedAt": "2026-09-23T14:08:06-07:00"
+        },
+        {
+          "title": "\u201cIt required different timing than I thought.\u201d  Utah Jazz owner Ryan Smith tells FOS that he almost bought the Minnesota",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 4427,
+          "paidImpr": 0,
+          "orgImpr": 4427,
+          "views": 855,
+          "eng": 86,
+          "er": 1.94,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508628468633538560",
+          "postedAt": "2026-09-23T15:30:10-07:00"
+        },
+        {
+          "title": "\u201cIt required different timing than I thought.\u201d Jazz owner Ryan Smith tells FOS that he almost bought the Timberwolves, b",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 382,
+          "paidImpr": 0,
+          "orgImpr": 382,
+          "views": 382,
+          "eng": 11,
+          "er": 2.88,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7688841263205911839",
+          "postedAt": "2026-09-23T16:00:00-07:00"
         }
       ],
       "topPosts": [
@@ -15907,7 +15952,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 3.5% ER on 577 impr."
+          "text": "TikTok leading with 3.2% ER on 959 impr."
         },
         {
           "kind": "pos",
@@ -29904,6 +29949,75 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-09-22T13:33:04-07:00"
     },
     {
+      "title": "Why the Jazz owner almost bought the Timberwolves",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/hVNo0i4Tbk4",
+      "postedAt": "2026-09-23T14:08:06-07:00"
+    },
+    {
+      "title": "\u201cIt required different timing than I thought.\u201d  Utah Jazz owner Ryan Smith tells FOS that he almost bought the Minnesota",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 4427,
+      "paidImpr": 0,
+      "orgImpr": 4427,
+      "views": 855,
+      "reach": 0,
+      "eng": 86,
+      "er": 1.94,
+      "spend": 0,
+      "watchTimeMin": 254.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508628468633538560",
+      "postedAt": "2026-09-23T15:30:10-07:00"
+    },
+    {
+      "title": "\u201cIt required different timing than I thought.\u201d Jazz owner Ryan Smith tells FOS that he almost bought the Timberwolves, b",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 382,
+      "paidImpr": 0,
+      "orgImpr": 382,
+      "views": 382,
+      "reach": 0,
+      "eng": 11,
+      "er": 2.88,
+      "spend": 0,
+      "watchTimeMin": 36.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7688841263205911839",
+      "postedAt": "2026-09-23T16:00:00-07:00"
+    },
+    {
       "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Jazz owner @RyanQualtrics tells FOS about h",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -29925,6 +30039,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2102435253906497559",
       "postedAt": "2026-09-22T09:30:00-07:00"
+    },
+    {
+      "title": "\u201cIt required different timing than I thought.\u201d  Jazz owner @RyanQualtrics tells FOS that he almost bought the Timberwolv",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7165,
+      "paidImpr": 0,
+      "orgImpr": 7165,
+      "views": 1167,
+      "reach": 0,
+      "eng": 13,
+      "er": 0.18,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2102865592688480557",
+      "postedAt": "2026-09-23T14:00:01-07:00"
     }
   ],
   "spectrum": [
@@ -36944,19 +37081,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 348920,
-      "paidImpr": 348911,
+      "impr": 425502,
+      "paidImpr": 425493,
       "orgImpr": 9,
       "views": 251275,
       "reach": 0,
-      "eng": 28441,
-      "er": 8.15,
-      "spend": 1135.16,
+      "eng": 34777,
+      "er": 8.17,
+      "spend": 1369.58,
       "watchTimeMin": 24208.0,
       "clicks": 16,
       "ctr": 3.84,
       "cpc": 83.94,
-      "cpm": 3.25,
+      "cpm": 3.22,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/Jbnk9DEWmJk",
@@ -39846,7 +39983,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.11,
     "impressions": 14691315,
     "paidImpressions": 12808596,
-    "pctOfTotal": 28.1,
+    "pctOfTotal": 28.0,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -26.8,
     "color": "#E4405F"
@@ -39854,7 +39991,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.7,
-    "impressions": 4934138,
+    "impressions": 4941303,
     "paidImpressions": 3442207,
     "pctOfTotal": 9.4,
     "mvmCpm": 1.24,
@@ -39864,9 +40001,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 3.01,
-    "impressions": 4562984,
-    "paidImpressions": 4434715,
-    "pctOfTotal": 8.7,
+    "impressions": 4639566,
+    "paidImpressions": 4511297,
+    "pctOfTotal": 8.9,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -6.0,
     "color": "#FF0033"
@@ -39874,7 +40011,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.41,
-    "impressions": 2633240,
+    "impressions": 2633622,
     "paidImpressions": 1595532,
     "pctOfTotal": 5.0,
     "mvmCpm": 2.24,
@@ -39884,7 +40021,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1926304,
+    "impressions": 1930731,
     "paidImpressions": 0,
     "pctOfTotal": 3.7,
     "mvmCpm": null,
