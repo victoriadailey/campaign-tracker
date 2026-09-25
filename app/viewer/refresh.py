@@ -673,6 +673,21 @@ def main() -> int:
                     if summary.id == c_id:
                         summary.pacing_components = buckets
                         break
+        elif ep_defs:
+            # Episodes/components configured but no posts yet (a pre-seeded shell
+            # like a just-launched State Street). Still emit the component cards
+            # at 0 delivered so they render as placeholders until posts land.
+            episodes_by_campaign[c_id] = []
+            pc_cfg = c.get("pacing_components") or []
+            if pc_cfg:
+                buckets = [{
+                    "label": b["label"],
+                    "impressions": {"delivered": 0, "goal": int(b.get("impression_goal", 0))},
+                } for b in pc_cfg]
+                for summary in campaigns:
+                    if summary.id == c_id:
+                        summary.pacing_components = buckets
+                        break
         else:
             # Fallback: use sample (E*TRADE has Kim Ng/Repole/Osborne placeholders in design)
             episodes_by_campaign[c_id] = sample_episodes.get(c_id, [])

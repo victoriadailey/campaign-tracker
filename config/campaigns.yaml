@@ -1471,6 +1471,56 @@ campaigns:
     color: ft-1
     lead_format: Paid Social
     blurb: "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. "
+    # Four components, each tracked to its own goal (like Heineken). FOS News +
+    # correspondent-led are placeholders until those videos publish.
+    pacing_components:
+      - label: "Preston Stout Interview"
+        impression_goal: 500_000
+        episode_ids: [preston_stout]
+      - label: "Day in the Life"
+        impression_goal: 1_500_000
+        episode_ids: [ditl]
+      - label: "FOS News Video"
+        impression_goal: 1_000_000
+        episode_ids: [fos_news]
+      - label: "Correspondent-Led Social Video"
+        impression_goal: 850_000
+        episode_ids: [correspondent]
+    episodes:
+      - id: preston_stout
+        n: "Video 1"
+        title: "Preston Stout Interview"
+        date: "Sep 2026"
+        match: ["Preston Stout"]
+        # Unlabeled TikTok pinned by native id (211,424 impr).
+        manual_posts: ["1873334056804561"]
+        exclude: []
+        impression_goal: 500_000
+      - id: ditl
+        n: "Video 2"
+        title: "Day in the Life"
+        date: "Sep 2026"
+        match: ["Day in the Life", "DITL"]
+        # Pinned by native id: the unlabeled TikTok (was 621K, now ~693K) plus
+        # the two DITL cutdowns whose titles are NIL-themed with no "DITL" token
+        # ("A $4.5 billion industry…" IG, "…NIL and sponsorship landscape" YT).
+        manual_posts: ["1876696760919313", "3989070300452031105", "Jbnk9DEWmJk"]
+        exclude: []
+        impression_goal: 1_500_000
+      - id: fos_news
+        n: "Video 3"
+        title: "FOS News Video"
+        date: "TBD"
+        match: ["FOS News", "FOSN"]
+        exclude: []
+        impression_goal: 1_000_000
+      - id: correspondent
+        n: "Video 4"
+        title: "Correspondent-Led Social Video"
+        date: "TBD"
+        match: ["correspondent"]
+        exclude: []
+        impression_goal: 850_000
     sources:
       youtube_paid:
         - huntington_bank_2026_yt_paid.csv
@@ -1598,3 +1648,60 @@ campaigns:
     sources:
       meta_ads:
         - next_league_brandx_meta_ads.csv
+
+  - id: state_street
+    partner: State Street
+    series: From Here to There
+    series_italic: There
+    # Three-component brand campaign (like Heineken): From Here to There (2
+    # longform episodes + 2 cutdowns each), The Come Up (3 videos), and Coach
+    # of the Year (1 static + 1 video). MS group 8908 is new/empty — components
+    # render at 0 until posts publish, then attribute by the keywords below.
+    type: social
+    benchmark_category: "Branded Content"
+    lifecycle: active
+    flight_start: 2026-09-01
+    flight_end: 2026-12-31
+    # Sum of the three components.
+    impression_goal: 35_000_000
+    budget_goal: 44_715
+    color: ft-2
+    lead_format: Longform Video
+    blurb: "State Street brand campaign — From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video)."
+    pacing_components:
+      - label: "From Here to There"
+        impression_goal: 23_500_000
+        episode_ids: [from_here_to_there]
+      - label: "The Come Up"
+        impression_goal: 6_500_000
+        episode_ids: [come_up]
+      - label: "Coach of the Year"
+        impression_goal: 5_000_000
+        episode_ids: [coach_of_the_year]
+    episodes:
+      - id: from_here_to_there
+        n: "Series 1"
+        title: "From Here to There"
+        date: "2026"
+        match: ["From Here to There"]
+        exclude: []
+        impression_goal: 23_500_000
+      - id: come_up
+        n: "Series 2"
+        title: "The Come Up"
+        date: "2026"
+        match: ["The Come Up", "Come Up"]
+        exclude: []
+        impression_goal: 6_500_000
+      - id: coach_of_the_year
+        n: "Series 3"
+        title: "Coach of the Year"
+        date: "2026"
+        match: ["Coach of the Year"]
+        exclude: []
+        impression_goal: 5_000_000
+    sources:
+      # New "State Street" MS group (8908) — empty for now; posts land here once
+      # published. Add youtube_paid / meta_ads / x_ads exports when boosts run.
+      measure_studio_group_ids:
+        - 8908
