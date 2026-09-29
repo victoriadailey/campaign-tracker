@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-09-29T20:28:59Z";
+window.LAST_REFRESHED = "2026-09-29T20:36:00Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -397,7 +397,7 @@ window.CAMPAIGNS = [
     "episodes": 18,
     "posts": 372,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 11258448,
+    "views": 11258447,
     "engagements": 1190124,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
@@ -481,7 +481,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 116545,
-        "views": 2062680
+        "views": 2062679
       },
       {
         "name": "LinkedIn",
@@ -816,7 +816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-09-28T19:45:41Z"
   },
   {
@@ -1068,7 +1068,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1382,7 +1382,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1489,7 +1489,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1636,7 +1636,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2188,7 +2188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2336,7 +2336,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2538,7 +2538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2805,7 +2805,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3188,7 +3188,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3505,7 +3505,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3535,7 +3535,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 9,
     "blurb": "Two video content pieces supporting the 2026 Dow Impact Award, a paid multimedia reporter-led studio video launching the award, and an organic Breaking Barriers compilation spotlighting all four LPGA finalists.",
-    "views": 3353858,
+    "views": 3353827,
     "engagements": 118915,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
@@ -3587,7 +3587,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 2441,
-        "views": 980312
+        "views": 980281
       },
       {
         "name": "Instagram",
@@ -3669,7 +3669,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3808,7 +3808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4050,7 +4050,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4371,7 +4371,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4401,7 +4401,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 13,
     "blurb": "Panel cutdowns from Huddle in the Hamptons Event",
-    "views": 751138,
+    "views": 751142,
     "engagements": 42703,
     "goalSplit": [],
     "benchmarkCategory": "FOS Event - Custom Social",
@@ -4421,7 +4421,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 5610,
-        "views": 460646
+        "views": 460650
       },
       {
         "name": "Instagram",
@@ -4575,7 +4575,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4719,7 +4719,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4938,7 +4938,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5054,7 +5054,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-09-28T18:05:32Z"
   },
   {
@@ -5218,7 +5218,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5340,7 +5340,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": "2026-09-29T20:24:57Z"
   },
   {
@@ -5530,7 +5530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-09-29T20:28:59Z",
+    "lastUpdatedMs": "2026-09-29T20:35:59Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -5780,7 +5780,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 19987868
+    "views": 19987840
   },
   {
     "name": "X",
@@ -12663,7 +12663,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Jun 5",
       "total": {
         "impr": 2870575,
-        "views": 810692,
+        "views": 810691,
         "er": 1.17,
         "eng": 62781,
         "spend": 4027.96
@@ -12720,7 +12720,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 213966,
           "paidImpr": 179277,
           "orgImpr": 34689,
-          "views": 199537,
+          "views": 199536,
           "eng": 9595,
           "paidEng": 8826,
           "orgEng": 769,
@@ -13114,7 +13114,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 73910,
           "paidImpr": 48470,
           "orgImpr": 25440,
-          "views": 95757,
+          "views": 95756,
           "eng": 3387,
           "er": 4.58,
           "spend": 149.23,
@@ -27507,7 +27507,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 73910,
       "paidImpr": 48470,
       "orgImpr": 25440,
-      "views": 95757,
+      "views": 95756,
       "reach": 0,
       "eng": 3387,
       "er": 4.58,
@@ -35911,12 +35911,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 391739,
       "paidImpr": 389334,
       "orgImpr": 2405,
-      "views": 386677,
+      "views": 386646,
       "reach": 0,
       "eng": 39614,
       "er": 10.11,
       "spend": 1150.09,
-      "watchTimeMin": 52603.5,
+      "watchTimeMin": 51732.5,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37232,12 +37232,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 93347,
       "paidImpr": 92608,
       "orgImpr": 739,
-      "views": 91960,
+      "views": 91964,
       "reach": 0,
       "eng": 4278,
       "er": 4.58,
       "spend": 273.84,
-      "watchTimeMin": 8103.7,
+      "watchTimeMin": 8250.5,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
