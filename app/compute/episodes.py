@@ -61,6 +61,16 @@ class EpisodeDef:
     yt_organic_impressions: int | None = None
 
 
+def _flatten_tags(val) -> str:
+    """Tags arrive as a string (CSV export) or a list (Measure Studio API).
+    Return a single space-joined string so substring matching works on either."""
+    if val is None:
+        return ""
+    if isinstance(val, (list, tuple)):
+        return " ".join(str(x) for x in val)
+    return str(val)
+
+
 def _normalize(s: str) -> str:
     """Lowercase, straighten curly quotes, and fold accents. MS exports use curly
     apostrophes ('Women's') while YAML config uses straight ('Women's'), and MS
@@ -121,8 +131,14 @@ def attribute_posts_to_episodes(
         ai_cats = user_tags = post_tags = ""
         if isinstance(p.raw, dict):
             ai_cats = p.raw.get("AI - Categories") or ""
-            user_tags = p.raw.get("User Tags") or ""
-            post_tags = p.raw.get("Post Tags") or ""
+            # User Tags are the most reliable signal (the social team tags each
+            # post with the episode, e.g. "PFP S3 Episode 17: Ryan Smith"). A CSV
+            # export has them under "User Tags" (a string); the Measure Studio
+            # API returns them under "user_tags" (a list). Accept both — missing
+            # the API form meant tag-only posts (e.g. X cutdowns whose caption is
+            # just a pull-quote with no guest name) never matched.
+            user_tags = _flatten_tags(p.raw.get("User Tags") or p.raw.get("user_tags"))
+            post_tags = _flatten_tags(p.raw.get("Post Tags") or p.raw.get("post_tags"))
         text = " ".join(filter(None, [
             _normalize(p.post_title),
             _normalize(p.post_description),
