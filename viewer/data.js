@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-01T17:23:33Z";
+window.LAST_REFRESHED = "2026-10-01T19:01:35Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -397,7 +397,7 @@ window.CAMPAIGNS = [
     "episodes": 18,
     "posts": 377,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 11383136,
+    "views": 11383132,
     "engagements": 1195235,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
@@ -481,7 +481,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 117758,
-        "views": 2076616
+        "views": 2076612
       },
       {
         "name": "LinkedIn",
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-10-01T13:25:21Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3267,25 +3267,25 @@ window.CAMPAIGNS = [
     "flight": "Jun 26 \u2014 Dec 31, 2026",
     "elapsedPct": 51.6,
     "daysLeft": 91,
-    "status": "At Risk",
-    "statusKind": "warn",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 1116433,
+      "delivered": 1166363,
       "goal": 2222222
     },
     "budget": {
-      "delivered": 4037.72,
+      "delivered": 4241.13,
       "goal": 10000.0
     },
     "color": "ft-11",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.0,
-    "cpm": 3.62,
+    "cpm": 3.64,
     "episodes": 0,
     "posts": 6,
     "blurb": "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
-    "views": 1116433,
+    "views": 1166363,
     "engagements": 0,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
@@ -3294,10 +3294,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1116433,
+        "impressions": 1166363,
         "eng": 0,
         "er": 0.0,
-        "cpm": 3.62,
+        "cpm": 3.64,
         "color": "#E4405F",
         "delta": -100.0,
         "bench": {
@@ -3305,7 +3305,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 1116433
+        "views": 1166363
       }
     ],
     "topPosts": [],
@@ -3315,7 +3315,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-09-25T16:03:22Z"
+    "lastUpdatedExports": "2026-10-01T18:58:09Z"
   },
   {
     "id": "ally_nwsl",
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4613,7 +4613,7 @@ window.CAMPAIGNS = [
     "episodes": 2,
     "posts": 8,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
-    "views": 1876226,
+    "views": 1876336,
     "engagements": 54927,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
@@ -4649,7 +4649,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 30,
-        "views": 672860
+        "views": 672970
       },
       {
         "name": "Instagram",
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4946,7 +4946,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5062,7 +5062,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-09-28T18:05:32Z"
   },
   {
@@ -5092,7 +5092,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 5,
     "blurb": "One Stadium Status video about Illinois Football.",
-    "views": 1743364,
+    "views": 1743363,
     "engagements": 290397,
     "goalSplit": [],
     "benchmarkCategory": "Creator-Led - Franchise",
@@ -5112,7 +5112,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 1957,
-        "views": 981334
+        "views": 981333
       },
       {
         "name": "Instagram",
@@ -5226,7 +5226,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5348,7 +5348,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5538,7 +5538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T17:23:32Z",
+    "lastUpdatedMs": "2026-10-01T19:01:34Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -5788,7 +5788,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 20904724
+    "views": 20904829
   },
   {
     "name": "X",
@@ -5809,18 +5809,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 28774098,
+    "impressions": 28824028,
     "eng": 414282,
     "er": 1.44,
     "cpm": 4.51,
     "color": "#E4405F",
-    "delta": -56.5,
+    "delta": -56.6,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 27131842
+    "views": 27181772
   },
   {
     "name": "TikTok",
@@ -15390,7 +15390,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Sep 2026",
       "total": {
         "impr": 2015549,
-        "views": 540289,
+        "views": 540285,
         "er": 0.83,
         "eng": 48918,
         "spend": 3763.32
@@ -15447,7 +15447,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 86332,
           "paidImpr": 84001,
           "orgImpr": 2331,
-          "views": 85102,
+          "views": 85098,
           "eng": 4148,
           "paidEng": 4106,
           "orgEng": 42,
@@ -15736,7 +15736,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 28479,
           "paidImpr": 27785,
           "orgImpr": 694,
-          "views": 27790,
+          "views": 27786,
           "eng": 1444,
           "er": 5.07,
           "spend": 99.78,
@@ -20661,7 +20661,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Sep 2026",
       "total": {
         "impr": 1529991,
-        "views": 1383578,
+        "views": 1383688,
         "er": 2.76,
         "eng": 42256,
         "spend": 3949.95
@@ -20688,7 +20688,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 490564,
           "paidImpr": 490544,
           "orgImpr": 20,
-          "views": 485183,
+          "views": 485293,
           "eng": 40256,
           "paidEng": 40021,
           "orgEng": 235,
@@ -20752,7 +20752,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 490564,
           "paidImpr": 490544,
           "orgImpr": 20,
-          "views": 485183,
+          "views": 485293,
           "eng": 40256,
           "er": 8.21,
           "spend": 1594.11,
@@ -30269,12 +30269,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 28479,
       "paidImpr": 27785,
       "orgImpr": 694,
-      "views": 27790,
+      "views": 27786,
       "reach": 0,
       "eng": 1444,
       "er": 5.07,
       "spend": 99.78,
-      "watchTimeMin": 2824.4,
+      "watchTimeMin": 2824.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -35626,6 +35626,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
+      "title": "AT&T_ShesConnected_Flau\u2019jae_Impressions",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 245852,
+      "paidImpr": 245852,
+      "orgImpr": 0,
+      "views": 245852,
+      "reach": 74780,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 599.84,
+      "watchTimeMin": null,
+      "clicks": 146,
+      "ctr": 0.06,
+      "cpc": 4.11,
+      "cpm": 2.44,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
       "title": "AT&T_ShesConnected_BrandX_SarahGorden_Impressions",
       "platform": "Instagram",
       "accountName": null,
@@ -35649,23 +35672,23 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     },
     {
-      "title": "AT&T_ShesConnected_Flau\u2019jae_Impressions",
+      "title": "AT&T_ShesConnected_Flau\u2019jae_Clicks",
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 204143,
-      "paidImpr": 204143,
+      "impr": 98989,
+      "paidImpr": 98989,
       "orgImpr": 0,
-      "views": 204143,
-      "reach": 62496,
+      "views": 98989,
+      "reach": 86806,
       "eng": 0,
       "er": 0.0,
-      "spend": 493.19,
+      "spend": 649.95,
       "watchTimeMin": null,
-      "clicks": 126,
-      "ctr": 0.06,
-      "cpc": 3.91,
-      "cpm": 2.42,
+      "clicks": 2962,
+      "ctr": 2.99,
+      "cpc": 0.22,
+      "cpm": 6.57,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -35689,29 +35712,6 @@ window.POSTS_BY_CAMPAIGN = {
       "ctr": 3.3,
       "cpc": 0.26,
       "cpm": 8.66,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "AT&T_ShesConnected_Flau\u2019jae_Clicks",
-      "platform": "Instagram",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 90768,
-      "paidImpr": 90768,
-      "orgImpr": 0,
-      "views": 90768,
-      "reach": 80179,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 553.19,
-      "watchTimeMin": null,
-      "clicks": 2389,
-      "ctr": 2.63,
-      "cpc": 0.23,
-      "cpm": 6.09,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -37742,12 +37742,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 490564,
       "paidImpr": 490544,
       "orgImpr": 20,
-      "views": 485183,
+      "views": 485293,
       "reach": 0,
       "eng": 40256,
       "er": 8.21,
       "spend": 1594.11,
-      "watchTimeMin": 49137.1,
+      "watchTimeMin": 50704.3,
       "clicks": 16,
       "ctr": 3.26,
       "cpc": 99.75,
@@ -38139,12 +38139,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 977657,
       "paidImpr": 975700,
       "orgImpr": 1957,
-      "views": 981334,
+      "views": 981333,
       "reach": 0,
       "eng": 257271,
       "er": 26.32,
       "spend": 3368.08,
-      "watchTimeMin": 216873.7,
+      "watchTimeMin": 217836.7,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -40672,8 +40672,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.15,
-    "impressions": 15154819,
-    "paidImpressions": 13220257,
+    "impressions": 15204749,
+    "paidImpressions": 13270187,
     "pctOfTotal": 25.7,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -26.2,
