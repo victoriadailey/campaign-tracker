@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-01T13:35:57Z";
+window.LAST_REFRESHED = "2026-10-01T14:04:26Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:56Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 40515708,
+      "delivered": 40533520,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 2.95,
     "cpm": 1.84,
     "episodes": 18,
-    "posts": 372,
+    "posts": 377,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 11373012,
-    "engagements": 1194889,
+    "views": 11382889,
+    "engagements": 1195235,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -417,7 +417,7 @@ window.CAMPAIGNS = [
           "cpm": 0.55
         },
         "organicImpressions": 1910410,
-        "views": 430368
+        "views": 430397
       },
       {
         "name": "YouTube Pre-roll",
@@ -438,24 +438,24 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 6729147,
-        "eng": 133058,
+        "impressions": 6736744,
+        "eng": 133335,
         "er": 1.98,
         "cpm": 5.5,
         "color": "#E4405F",
-        "delta": -40.3,
+        "delta": -40.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1813312,
-        "views": 6654671
+        "organicImpressions": 1820909,
+        "views": 6662268
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4596778,
-        "eng": 13840,
+        "impressions": 4603578,
+        "eng": 13863,
         "er": 0.3,
         "cpm": 1.46,
         "color": "#1d1d1f",
@@ -464,8 +464,8 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1475739,
-        "views": 406885
+        "organicImpressions": 1482539,
+        "views": 408091
       },
       {
         "name": "YouTube Shorts",
@@ -481,29 +481,29 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 117758,
-        "views": 2076407
+        "views": 2076470
       },
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1816314,
-        "eng": 62114,
+        "impressions": 1819302,
+        "eng": 62142,
         "er": 3.42,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -9.0,
+        "delta": -9.2,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1816314,
-        "views": 567013
+        "organicImpressions": 1819302,
+        "views": 567568
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 826458,
-        "eng": 34528,
+        "impressions": 826885,
+        "eng": 34546,
         "er": 4.18,
         "cpm": 0.0,
         "color": "#000000",
@@ -512,8 +512,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 826458,
-        "views": 826458
+        "organicImpressions": 826885,
+        "views": 826885
       },
       {
         "name": "Instagram Stories",
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:56Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-10-01T13:25:21Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:35:56Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:56Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:56Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4757,7 +4757,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 9,
     "blurb": "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown.",
-    "views": 889607,
+    "views": 889608,
     "engagements": 39530,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
@@ -4777,7 +4777,7 @@ window.CAMPAIGNS = [
           "cpm": 0.55
         },
         "organicImpressions": 34279,
-        "views": 13280
+        "views": 13281
       },
       {
         "name": "YouTube Pre-roll",
@@ -4946,7 +4946,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5062,7 +5062,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-09-28T18:05:32Z"
   },
   {
@@ -5226,7 +5226,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5348,7 +5348,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5538,7 +5538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:35:57Z",
+    "lastUpdatedMs": "2026-10-01T14:04:26Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -5788,29 +5788,29 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 20904038
+    "views": 20904131
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29504227,
-    "eng": 646213,
+    "impressions": 29511027,
+    "eng": 646236,
     "er": 2.19,
     "cpm": 1.67,
     "color": "#1d1d1f",
-    "delta": 138.1,
+    "delta": 138.0,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 487042
+    "views": 488248
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 28766501,
-    "eng": 414005,
+    "impressions": 28774098,
+    "eng": 414282,
     "er": 1.44,
     "cpm": 4.51,
     "color": "#E4405F",
@@ -5820,13 +5820,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 27124245
+    "views": 27131842
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 25822735,
-    "eng": 57689,
+    "impressions": 25823162,
+    "eng": 57707,
     "er": 0.22,
     "cpm": 2.14,
     "color": "#000000",
@@ -5836,7 +5836,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 25551501
+    "views": 25551928
   },
   {
     "name": "Facebook",
@@ -5857,8 +5857,8 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 3046811,
-    "eng": 104620,
+    "impressions": 3049799,
+    "eng": 104648,
     "er": 3.43,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -5868,7 +5868,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 975151
+    "views": 975706
   },
   {
     "name": "Snapchat",
@@ -13621,7 +13621,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Jun 30",
       "total": {
         "impr": 2136169,
-        "views": 464979,
+        "views": 464981,
         "er": 1.06,
         "eng": 54133,
         "spend": 3364.6
@@ -13678,7 +13678,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 102494,
           "paidImpr": 94246,
           "orgImpr": 8248,
-          "views": 80306,
+          "views": 80308,
           "eng": 4626,
           "paidEng": 4546,
           "orgEng": 80,
@@ -13937,7 +13937,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 35087,
           "paidImpr": 31994,
           "orgImpr": 3093,
-          "views": 33176,
+          "views": 33178,
           "eng": 1575,
           "er": 4.49,
           "spend": 99.95,
@@ -14943,7 +14943,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Aug 2026",
       "total": {
         "impr": 1568106,
-        "views": 481216,
+        "views": 481306,
         "er": 1.92,
         "eng": 64139,
         "spend": 3501.84
@@ -14955,7 +14955,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 895190,
           "paidImpr": 886996,
           "orgImpr": 8194,
-          "views": 20714,
+          "views": 20743,
           "eng": 3059,
           "paidEng": 3011,
           "orgEng": 48,
@@ -15015,7 +15015,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 102090,
           "paidImpr": 98889,
           "orgImpr": 3201,
-          "views": 101288,
+          "views": 101349,
           "eng": 7698,
           "paidEng": 7596,
           "orgEng": 102,
@@ -15064,7 +15064,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 895190,
           "paidImpr": 886996,
           "orgImpr": 8194,
-          "views": 20714,
+          "views": 20743,
           "eng": 3059,
           "er": 0.34,
           "spend": 797.72,
@@ -15124,7 +15124,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 32366,
           "paidImpr": 31199,
           "orgImpr": 1167,
-          "views": 32326,
+          "views": 32382,
           "eng": 2538,
           "er": 7.84,
           "spend": 100.0,
@@ -15244,7 +15244,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 34023,
           "paidImpr": 32833,
           "orgImpr": 1190,
-          "views": 33097,
+          "views": 33102,
           "eng": 2235,
           "er": 6.57,
           "spend": 99.88,
@@ -15791,10 +15791,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Ryan Smith",
       "date": "TBD",
       "total": {
-        "impr": 1672990,
-        "views": 312350,
-        "er": 0.84,
-        "eng": 43916,
+        "impr": 1690802,
+        "views": 322135,
+        "er": 0.85,
+        "eng": 44262,
         "spend": 2570.56
       },
       "perChannel": [
@@ -15816,17 +15816,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 215953,
+          "impr": 223550,
           "paidImpr": 175404,
-          "orgImpr": 40549,
-          "views": 214958,
-          "eng": 5874,
+          "orgImpr": 48146,
+          "views": 222555,
+          "eng": 6151,
           "paidEng": 0,
-          "orgEng": 5874,
-          "er": 2.72,
+          "orgEng": 6151,
+          "er": 2.75,
           "cpm": 6.12,
           "spend": 1073.0,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "YouTube Shorts",
@@ -15841,7 +15841,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 6.43,
           "cpm": 3.91,
           "spend": 200.23,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "YouTube Pre-roll",
@@ -15861,32 +15861,47 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 19588,
+          "impr": 22576,
           "paidImpr": 0,
-          "orgImpr": 19588,
-          "views": 6507,
-          "eng": 397,
+          "orgImpr": 22576,
+          "views": 7062,
+          "eng": 425,
           "paidEng": 0,
-          "orgEng": 397,
-          "er": 2.03,
+          "orgEng": 425,
+          "er": 1.88,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
+        },
+        {
+          "name": "X",
+          "distKind": "organic",
+          "impr": 6800,
+          "paidImpr": 0,
+          "orgImpr": 1206,
+          "views": 1206,
+          "eng": 23,
+          "paidEng": 0,
+          "orgEng": 23,
+          "er": 0.34,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
         },
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 1245,
+          "impr": 1672,
           "paidImpr": 0,
-          "orgImpr": 1245,
-          "views": 1245,
-          "eng": 34,
+          "orgImpr": 1672,
+          "views": 1672,
+          "eng": 52,
           "paidEng": 0,
-          "orgEng": 34,
-          "er": 2.73,
+          "orgEng": 52,
+          "er": 3.11,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         }
       ],
       "posts": [
@@ -16039,6 +16054,81 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 477.0,
           "url": "https://www.instagram.com/p/Ddr6HWHCX9g/",
           "postedAt": "2026-09-24T15:03:15-07:00"
+        },
+        {
+          "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about the ability you have w",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 7597,
+          "paidImpr": 0,
+          "orgImpr": 7597,
+          "views": 7597,
+          "eng": 277,
+          "er": 3.65,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/Dd7OHP4FYkg/",
+          "postedAt": "2026-09-30T13:46:37-07:00"
+        },
+        {
+          "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Jazz owner Ryan Smith tells FOS about the ability you have wit",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6800,
+          "paidImpr": 0,
+          "orgImpr": 6800,
+          "views": 1206,
+          "eng": 23,
+          "er": 0.34,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2105399786555969702",
+          "postedAt": "2026-09-30T13:50:00-07:00"
+        },
+        {
+          "title": "How the Jazz are revitalizing Utah",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/Xtiv6e_5hfA",
+          "postedAt": "2026-09-30T14:00:33-07:00"
+        },
+        {
+          "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d Jazz owner Ryan Smith tells FOS about the ability you have with",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 427,
+          "paidImpr": 0,
+          "orgImpr": 427,
+          "views": 427,
+          "eng": 18,
+          "er": 4.22,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7691430981110091038",
+          "postedAt": "2026-09-30T14:10:26-07:00"
+        },
+        {
+          "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Utah Jazz owner Ryan Smith tells FOS about the ability you hav",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 2988,
+          "paidImpr": 0,
+          "orgImpr": 2988,
+          "views": 555,
+          "eng": 28,
+          "er": 0.94,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511163880371417088",
+          "postedAt": "2026-09-30T15:30:06-07:00"
         }
       ],
       "topPosts": [
@@ -16050,21 +16140,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "url": "https://www.instagram.com/p/Ddr6HWHCX9g/"
         },
         {
-          "quote": "\u201cIt required different timing than I thought.\u201d  Utah Jazz owner Ryan Smith tells FOS that ",
-          "platform": "LinkedIn",
-          "er": 2.48,
-          "reach": 2536,
-          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508628468633538560"
+          "quote": "\u201cWhat can we do with sports to build the state of Utah?\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FO",
+          "platform": "Instagram",
+          "er": 3.65,
+          "reach": 7597,
+          "url": "https://www.instagram.com/p/Dd7OHP4FYkg/"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 2.7% ER on 1.2K impr."
+          "text": "TikTok leading with 3.1% ER on 1.7K impr."
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 19.6K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 22.6K impr."
         }
       ]
     }
@@ -21331,7 +21421,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 3359,
       "er": 0.52,
       "spend": 320.61,
-      "watchTimeMin": 143004.3,
+      "watchTimeMin": 143004.6,
       "clicks": 339,
       "ctr": 47.37,
       "cpc": 2.51,
@@ -27520,7 +27610,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 3387,
       "er": 4.56,
       "spend": 149.23,
-      "watchTimeMin": 27311.7,
+      "watchTimeMin": 27312.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -28026,7 +28116,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 9091,
       "er": 0.67,
       "spend": 797.82,
-      "watchTimeMin": 215490.2,
+      "watchTimeMin": 215490.4,
       "clicks": 478,
       "ctr": 34.72,
       "cpc": 2.71,
@@ -28187,7 +28277,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 1518,
       "er": 4.1,
       "spend": 99.91,
-      "watchTimeMin": 762.6,
+      "watchTimeMin": 763.3,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -28320,12 +28410,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 35087,
       "paidImpr": 31994,
       "orgImpr": 3093,
-      "views": 33176,
+      "views": 33178,
       "reach": 0,
       "eng": 1575,
       "er": 4.49,
       "spend": 99.95,
-      "watchTimeMin": 1439.2,
+      "watchTimeMin": 1439.7,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -28486,7 +28576,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 5022,
       "er": 0.36,
       "spend": 797.91,
-      "watchTimeMin": 211209.5,
+      "watchTimeMin": 211210.9,
       "clicks": 250,
       "ctr": 17.71,
       "cpc": 5.19,
@@ -28762,7 +28852,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 1557,
       "er": 5.15,
       "spend": 99.85,
-      "watchTimeMin": 2304.6,
+      "watchTimeMin": 2305.3,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -28946,7 +29036,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 6166,
       "er": 0.44,
       "spend": 798.52,
-      "watchTimeMin": 230989.3,
+      "watchTimeMin": 230990.2,
       "clicks": 635,
       "ctr": 44.6,
       "cpc": 2.04,
@@ -29038,7 +29128,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 1545,
       "er": 5.23,
       "spend": 100.01,
-      "watchTimeMin": 2064.6,
+      "watchTimeMin": 2064.7,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -29378,12 +29468,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 895190,
       "paidImpr": 886996,
       "orgImpr": 8194,
-      "views": 46224,
+      "views": 46253,
       "reach": 0,
       "eng": 3059,
       "er": 0.34,
       "spend": 797.72,
-      "watchTimeMin": 216272.3,
+      "watchTimeMin": 216674.2,
       "clicks": 560,
       "ctr": 60.07,
       "cpc": 2.31,
@@ -29470,12 +29560,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 32366,
       "paidImpr": 31199,
       "orgImpr": 1167,
-      "views": 32326,
+      "views": 32382,
       "reach": 0,
       "eng": 2538,
       "er": 7.84,
       "spend": 100.0,
-      "watchTimeMin": 3931.7,
+      "watchTimeMin": 3735.7,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -29654,12 +29744,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 34023,
       "paidImpr": 32833,
       "orgImpr": 1190,
-      "views": 33097,
+      "views": 33102,
       "reach": 0,
       "eng": 2235,
       "er": 6.57,
       "spend": 99.88,
-      "watchTimeMin": 2631.0,
+      "watchTimeMin": 2632.9,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -30450,6 +30540,121 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Ddr6HWHCX9g/",
       "postedAt": "2026-09-24T15:03:15-07:00"
+    },
+    {
+      "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about the ability you have w",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7597,
+      "paidImpr": 0,
+      "orgImpr": 7597,
+      "views": 7597,
+      "reach": 5916,
+      "eng": 277,
+      "er": 3.65,
+      "spend": 0,
+      "watchTimeMin": 34.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Dd7OHP4FYkg/",
+      "postedAt": "2026-09-30T13:46:37-07:00"
+    },
+    {
+      "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Jazz owner Ryan Smith tells FOS about the ability you have wit",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6800,
+      "paidImpr": 0,
+      "orgImpr": 6800,
+      "views": 1206,
+      "reach": 0,
+      "eng": 23,
+      "er": 0.34,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2105399786555969702",
+      "postedAt": "2026-09-30T13:50:00-07:00"
+    },
+    {
+      "title": "How the Jazz are revitalizing Utah",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/Xtiv6e_5hfA",
+      "postedAt": "2026-09-30T14:00:33-07:00"
+    },
+    {
+      "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d Jazz owner Ryan Smith tells FOS about the ability you have with",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 427,
+      "paidImpr": 0,
+      "orgImpr": 427,
+      "views": 427,
+      "reach": 0,
+      "eng": 18,
+      "er": 4.22,
+      "spend": 0,
+      "watchTimeMin": 57.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7691430981110091038",
+      "postedAt": "2026-09-30T14:10:26-07:00"
+    },
+    {
+      "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Utah Jazz owner Ryan Smith tells FOS about the ability you hav",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 2988,
+      "paidImpr": 0,
+      "orgImpr": 2988,
+      "views": 555,
+      "reach": 0,
+      "eng": 28,
+      "er": 0.94,
+      "spend": 0,
+      "watchTimeMin": 128.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511163880371417088",
+      "postedAt": "2026-09-30T15:30:06-07:00"
     },
     {
       "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Jazz owner @RyanQualtrics tells FOS about h",
@@ -33702,7 +33907,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 15284,
       "er": 0.26,
       "spend": 3457.76,
-      "watchTimeMin": 850246.1,
+      "watchTimeMin": 850246.2,
       "clicks": 350,
       "ctr": 5.63,
       "cpc": 17.57,
@@ -35134,7 +35339,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 11040,
       "er": 5.61,
       "spend": 574.87,
-      "watchTimeMin": 12252.9,
+      "watchTimeMin": 12253.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -35924,7 +36129,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 39614,
       "er": 10.11,
       "spend": 1150.09,
-      "watchTimeMin": 51740.8,
+      "watchTimeMin": 51741.1,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36852,7 +37057,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 34768,
       "er": 12.44,
       "spend": 802.39,
-      "watchTimeMin": 29140.1,
+      "watchTimeMin": 29141.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37105,7 +37310,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 5780,
       "er": 5.86,
       "spend": 299.83,
-      "watchTimeMin": 12854.9,
+      "watchTimeMin": 12855.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37176,7 +37381,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 6174,
       "er": 7.68,
       "spend": 274.28,
-      "watchTimeMin": 9514.4,
+      "watchTimeMin": 9514.5,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37222,7 +37427,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 5150,
       "er": 6.64,
       "spend": 249.13,
-      "watchTimeMin": 8451.4,
+      "watchTimeMin": 8452.7,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37245,7 +37450,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 4278,
       "er": 4.58,
       "spend": 273.84,
-      "watchTimeMin": 8253.8,
+      "watchTimeMin": 8254.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37383,7 +37588,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 7762,
       "er": 6.82,
       "spend": 349.84,
-      "watchTimeMin": 12558.8,
+      "watchTimeMin": 12559.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37612,12 +37817,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 1382539,
       "paidImpr": 1348260,
       "orgImpr": 34279,
-      "views": 13280,
+      "views": 13281,
       "reach": 0,
       "eng": 2505,
       "er": 0.18,
       "spend": 874.32,
-      "watchTimeMin": 64303.2,
+      "watchTimeMin": 64306.3,
       "clicks": 608,
       "ctr": 44.01,
       "cpc": 2.0,
@@ -40471,7 +40676,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.15,
-    "impressions": 15147222,
+    "impressions": 15154819,
     "paidImpressions": 13220257,
     "pctOfTotal": 25.7,
     "mvmCpm": 5.62,
@@ -40491,7 +40696,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.74,
-    "impressions": 4999546,
+    "impressions": 5006346,
     "paidImpressions": 3498252,
     "pctOfTotal": 8.5,
     "mvmCpm": 1.24,
@@ -40501,7 +40706,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.42,
-    "impressions": 3128105,
+    "impressions": 3128532,
     "paidImpressions": 1868032,
     "pctOfTotal": 5.3,
     "mvmCpm": 2.24,
@@ -40511,7 +40716,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1985303,
+    "impressions": 1988291,
     "paidImpressions": 0,
     "pctOfTotal": 3.4,
     "mvmCpm": null,
