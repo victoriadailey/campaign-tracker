@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-01T13:20:48Z";
+window.LAST_REFRESHED = "2026-10-01T13:29:07Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,23 +382,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 40083442,
+      "delivered": 40484395,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 59358.16,
+      "delivered": 59865.39,
       "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
     "er": 2.95,
-    "cpm": 1.85,
+    "cpm": 1.84,
     "episodes": 18,
     "posts": 372,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 11373012,
-    "engagements": 1182074,
+    "engagements": 1194686,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -406,34 +406,34 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 23136231,
-        "eng": 101164,
+        "impressions": 23526572,
+        "eng": 102656,
         "er": 0.44,
-        "cpm": 0.58,
+        "cpm": 0.59,
         "color": "#E00922",
-        "delta": -12.5,
+        "delta": -12.7,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 1910410,
-        "views": 437324
+        "views": 430368
       },
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 683944,
-        "eng": 514470,
-        "er": 75.22,
-        "cpm": 13.17,
+        "impressions": 694452,
+        "eng": 523687,
+        "er": 75.41,
+        "cpm": 13.2,
         "color": "#B0061B",
-        "delta": 4.5,
+        "delta": 4.7,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 385532
+        "views": 392488
       },
       {
         "name": "Instagram",
@@ -470,12 +470,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 2299695,
-        "eng": 317703,
-        "er": 13.82,
-        "cpm": 2.96,
+        "impressions": 2299799,
+        "eng": 319606,
+        "er": 13.9,
+        "cpm": 3.0,
         "color": "#FF0033",
-        "delta": -30.9,
+        "delta": -30.5,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -816,16 +816,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $11K (15%) of budget unspent with 91 days left.",
-        "body": "Impressions are 96% delivered while only 85% of budget has been spent \u2014 only 1.6M impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "headline": "On pace to over-deliver \u2014 $10K (14%) of budget unspent with 91 days left.",
+        "body": "Impressions are 97% delivered while only 86% of budget has been spent \u2014 only 1.2M impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "E*TRADE \u00b7 Budget surplus"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
-    "lastUpdatedExports": "2026-09-28T19:45:41Z"
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
+    "lastUpdatedExports": "2026-10-01T13:25:19Z"
   },
   {
     "id": "spectrum",
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4946,7 +4946,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5062,7 +5062,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-09-28T18:05:32Z"
   },
   {
@@ -5226,7 +5226,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5348,7 +5348,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5538,7 +5538,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-01T13:20:48Z",
+    "lastUpdatedMs": "2026-10-01T13:29:05Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -5777,8 +5777,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 103650302,
-    "eng": 2302034,
+    "impressions": 104040747,
+    "eng": 2305429,
     "er": 2.22,
     "cpm": 1.08,
     "color": "#E00922",
@@ -14942,18 +14942,18 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Kerri Walsh Jennings",
       "date": "Aug 2026",
       "total": {
-        "impr": 1568122,
+        "impr": 1568106,
         "views": 481216,
         "er": 1.92,
         "eng": 64139,
-        "spend": 3501.85
+        "spend": 3501.84
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 895206,
-          "paidImpr": 887012,
+          "impr": 895190,
+          "paidImpr": 886996,
           "orgImpr": 8194,
           "views": 20714,
           "eng": 3059,
@@ -14961,7 +14961,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgEng": 48,
           "er": 0.34,
           "cpm": 0.9,
-          "spend": 797.73,
+          "spend": 797.72,
           "posts": 1
         },
         {
@@ -15061,13 +15061,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 895206,
-          "paidImpr": 887012,
+          "impr": 895190,
+          "paidImpr": 886996,
           "orgImpr": 8194,
           "views": 20714,
           "eng": 3059,
           "er": 0.34,
-          "spend": 797.73,
+          "spend": 797.72,
           "url": "https://youtu.be/F-4_BOOmYjU",
           "postedAt": "2026-08-25T07:00:20-07:00"
         },
@@ -15389,18 +15389,18 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Drew Weatherford",
       "date": "Sep 2026",
       "total": {
-        "impr": 2015578,
+        "impr": 2015549,
         "views": 540289,
         "er": 0.83,
         "eng": 48918,
-        "spend": 3763.34
+        "spend": 3763.32
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 1354116,
-          "paidImpr": 1318319,
+          "impr": 1354088,
+          "paidImpr": 1318291,
           "orgImpr": 35797,
           "views": 20427,
           "eng": 3349,
@@ -15408,7 +15408,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgEng": 83,
           "er": 0.25,
           "cpm": 0.61,
-          "spend": 798.0,
+          "spend": 797.98,
           "posts": 1
         },
         {
@@ -15444,8 +15444,8 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 86333,
-          "paidImpr": 84002,
+          "impr": 86332,
+          "paidImpr": 84001,
           "orgImpr": 2331,
           "views": 85102,
           "eng": 4148,
@@ -15508,13 +15508,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 1354116,
-          "paidImpr": 1318319,
+          "impr": 1354088,
+          "paidImpr": 1318291,
           "orgImpr": 35797,
           "views": 20427,
           "eng": 3349,
           "er": 0.25,
-          "spend": 798.0,
+          "spend": 797.98,
           "url": "https://youtu.be/CceP_Z7pKEw",
           "postedAt": "2026-09-08T07:00:26-07:00"
         },
@@ -15733,8 +15733,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 28480,
-          "paidImpr": 27786,
+          "impr": 28479,
+          "paidImpr": 27785,
           "orgImpr": 694,
           "views": 27790,
           "eng": 1444,
@@ -15791,26 +15791,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Ryan Smith",
       "date": "TBD",
       "total": {
-        "impr": 1271992,
+        "impr": 1672990,
         "views": 312350,
-        "er": 0.83,
-        "eng": 31304,
-        "spend": 2063.3
+        "er": 0.84,
+        "eng": 43916,
+        "spend": 2570.56
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 955318,
-          "paidImpr": 854920,
+          "impr": 1345703,
+          "paidImpr": 1245305,
           "orgImpr": 100398,
-          "views": 32226,
-          "eng": 2341,
-          "paidEng": 2138,
+          "views": 25270,
+          "eng": 3833,
+          "paidEng": 3630,
           "orgEng": 203,
-          "er": 0.25,
+          "er": 0.28,
           "cpm": 0.64,
-          "spend": 545.78,
+          "spend": 797.5,
           "posts": 1
         },
         {
@@ -15831,31 +15831,31 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 55597,
-          "paidImpr": 51086,
+          "impr": 55702,
+          "paidImpr": 51191,
           "orgImpr": 4511,
           "views": 41973,
-          "eng": 1677,
-          "paidEng": 1614,
+          "eng": 3580,
+          "paidEng": 3517,
           "orgEng": 63,
-          "er": 3.02,
-          "cpm": 1.95,
-          "spend": 99.79,
+          "er": 6.43,
+          "cpm": 3.91,
+          "spend": 200.23,
           "posts": 2
         },
         {
           "name": "YouTube Pre-roll",
           "distKind": "paid",
-          "impr": 24291,
-          "paidImpr": 24291,
+          "impr": 34799,
+          "paidImpr": 34799,
           "orgImpr": 0,
-          "views": 15441,
-          "eng": 20981,
-          "paidEng": 20981,
+          "views": 22397,
+          "eng": 30198,
+          "paidEng": 30198,
           "orgEng": 0,
-          "er": 86.37,
-          "cpm": 14.19,
-          "spend": 344.73,
+          "er": 86.78,
+          "cpm": 14.36,
+          "spend": 499.83,
           "posts": 1
         },
         {
@@ -15895,13 +15895,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 955318,
-          "paidImpr": 854920,
+          "impr": 1345703,
+          "paidImpr": 1245305,
           "orgImpr": 100398,
-          "views": 32226,
-          "eng": 2341,
-          "er": 0.25,
-          "spend": 545.78,
+          "views": 25270,
+          "eng": 3833,
+          "er": 0.28,
+          "spend": 797.5,
           "url": "https://youtu.be/3adoVU_UAEs",
           "postedAt": "2026-09-22T07:00:32-07:00"
         },
@@ -15910,13 +15910,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Pre-roll",
           "accountName": null,
           "distKind": "paid",
-          "impr": 24291,
-          "paidImpr": 24291,
+          "impr": 34799,
+          "paidImpr": 34799,
           "orgImpr": 0,
-          "views": 15441,
-          "eng": 20981,
-          "er": 86.37,
-          "spend": 344.73,
+          "views": 22397,
+          "eng": 30198,
+          "er": 86.78,
+          "spend": 499.83,
           "url": null,
           "postedAt": null
         },
@@ -15955,13 +15955,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 26833,
-          "paidImpr": 25982,
+          "impr": 26930,
+          "paidImpr": 26079,
           "orgImpr": 851,
           "views": 26862,
-          "eng": 1639,
-          "er": 6.11,
-          "spend": 99.79,
+          "eng": 1637,
+          "er": 6.08,
+          "spend": 100.22,
           "url": "https://www.youtube.com/shorts/ya7r5eTcyVQ",
           "postedAt": "2026-09-22T11:16:37-07:00"
         },
@@ -15985,13 +15985,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 28764,
-          "paidImpr": 25104,
+          "impr": 28772,
+          "paidImpr": 25112,
           "orgImpr": 3660,
           "views": 15111,
-          "eng": 38,
-          "er": 0.13,
-          "spend": 0,
+          "eng": 1943,
+          "er": 6.75,
+          "spend": 100.01,
           "url": "https://www.youtube.com/shorts/hVNo0i4Tbk4",
           "postedAt": "2026-09-23T14:08:06-07:00"
         },
@@ -29375,14 +29375,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 895206,
-      "paidImpr": 887012,
+      "impr": 895190,
+      "paidImpr": 886996,
       "orgImpr": 8194,
       "views": 46224,
       "reach": 0,
       "eng": 3059,
       "er": 0.34,
-      "spend": 797.73,
+      "spend": 797.72,
       "watchTimeMin": 216272.3,
       "clicks": 560,
       "ctr": 60.07,
@@ -29835,14 +29835,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1354116,
-      "paidImpr": 1318319,
+      "impr": 1354088,
+      "paidImpr": 1318291,
       "orgImpr": 35797,
       "views": 45195,
       "reach": 0,
       "eng": 3349,
       "er": 0.25,
-      "spend": 798.0,
+      "spend": 797.98,
       "watchTimeMin": 205869.2,
       "clicks": 688,
       "ctr": 50.56,
@@ -30180,8 +30180,8 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 28480,
-      "paidImpr": 27786,
+      "impr": 28479,
+      "paidImpr": 27785,
       "orgImpr": 694,
       "views": 27790,
       "reach": 0,
@@ -30226,14 +30226,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 955318,
-      "paidImpr": 854920,
+      "impr": 1345703,
+      "paidImpr": 1245305,
       "orgImpr": 100398,
-      "views": 35323,
+      "views": 28367,
       "reach": 0,
-      "eng": 2341,
-      "er": 0.25,
-      "spend": 545.78,
+      "eng": 3833,
+      "er": 0.28,
+      "spend": 797.5,
       "watchTimeMin": 165572.3,
       "clicks": 435,
       "ctr": 33.98,
@@ -30249,19 +30249,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 24291,
-      "paidImpr": 24291,
+      "impr": 34799,
+      "paidImpr": 34799,
       "orgImpr": 0,
-      "views": 15441,
+      "views": 22397,
       "reach": 0,
-      "eng": 20981,
-      "er": 86.37,
-      "spend": 344.73,
+      "eng": 30198,
+      "er": 86.78,
+      "spend": 499.83,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 14.19,
+      "cpm": 14.36,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -30318,14 +30318,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 26833,
-      "paidImpr": 25982,
+      "impr": 26930,
+      "paidImpr": 26079,
       "orgImpr": 851,
       "views": 26862,
       "reach": 0,
-      "eng": 1639,
-      "er": 6.11,
-      "spend": 99.79,
+      "eng": 1637,
+      "er": 6.08,
+      "spend": 100.22,
       "watchTimeMin": 2641.3,
       "clicks": null,
       "ctr": 0.0,
@@ -30364,14 +30364,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 28764,
-      "paidImpr": 25104,
+      "impr": 28772,
+      "paidImpr": 25112,
       "orgImpr": 3660,
       "views": 15111,
       "reach": 0,
-      "eng": 38,
-      "er": 0.13,
-      "spend": 0,
+      "eng": 1943,
+      "er": 6.75,
+      "spend": 100.01,
       "watchTimeMin": 1523.4,
       "clicks": null,
       "ctr": 0.0,
@@ -38804,7 +38804,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "portfolio_players_yt_paid.csv",
-    "fileSizeKb": 8.9,
+    "fileSizeKb": 9.1,
     "lastModified": "2026-10-01",
     "exists": true,
     "postsContributed": 20
@@ -40461,11 +40461,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.59,
-    "impressions": 23209640,
-    "paidImpressions": 22574081,
-    "pctOfTotal": 39.6,
+    "impressions": 23599981,
+    "paidImpressions": 22964422,
+    "pctOfTotal": 40.0,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 11.0,
+    "mvmDeltaPct": 11.2,
     "color": "#E00922"
   },
   {
@@ -40473,19 +40473,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.15,
     "impressions": 15147222,
     "paidImpressions": 13220257,
-    "pctOfTotal": 25.9,
+    "pctOfTotal": 25.7,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -26.2,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.8,
-    "impressions": 8780507,
-    "paidImpressions": 8640606,
-    "pctOfTotal": 15.0,
+    "cpm": 1.81,
+    "impressions": 8780611,
+    "paidImpressions": 8640710,
+    "pctOfTotal": 14.9,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -43.8,
+    "mvmDeltaPct": -43.5,
     "color": "#FF0033"
   },
   {
@@ -40493,7 +40493,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.72,
     "impressions": 4968233,
     "paidImpressions": 3466939,
-    "pctOfTotal": 8.5,
+    "pctOfTotal": 8.4,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 38.6,
     "color": "#1d1d1f"
@@ -40520,12 +40520,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Pre-roll",
-    "cpm": 13.09,
-    "impressions": 714415,
-    "paidImpressions": 714415,
+    "cpm": 13.11,
+    "impressions": 724923,
+    "paidImpressions": 724923,
     "pctOfTotal": 1.2,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 9.9,
+    "mvmDeltaPct": 10.1,
     "color": "#B0061B"
   },
   {
@@ -40533,14 +40533,14 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 5.05,
     "impressions": 617226,
     "paidImpressions": 572268,
-    "pctOfTotal": 1.1,
+    "pctOfTotal": 1.0,
     "mvmCpm": 4.2,
     "mvmDeltaPct": 20.1,
     "color": "#1877F2"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.05;
+window.PORTFOLIO_CPM_BLEND = 2.04;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
