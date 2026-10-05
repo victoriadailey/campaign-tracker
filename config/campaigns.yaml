@@ -1544,6 +1544,8 @@ campaigns:
     lead_format: Social Video
     blurb: "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown."
     sources:
+      meta_ads:
+        - next_league_future_of_sports_meta_ads.csv
       youtube_paid:
         - next_league_future_of_sports_yt_paid.csv
       x_ads:
