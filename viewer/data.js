@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-07T13:40:23Z";
+window.LAST_REFRESHED = "2026-10-07T17:26:35Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:22Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 40313148,
+      "delivered": 40412425,
       "goal": 41700000
     },
     "budget": {
@@ -392,13 +392,13 @@ window.CAMPAIGNS = [
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.94,
+    "er": 2.93,
     "cpm": 1.86,
     "episodes": 18,
     "posts": 377,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 11520936,
-    "engagements": 1184968,
+    "engagements": 1185388,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,17 +454,17 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4652272,
-        "eng": 13247,
-        "er": 0.28,
+        "impressions": 4751549,
+        "eng": 13667,
+        "er": 0.29,
         "cpm": 1.48,
         "color": "#1d1d1f",
-        "delta": -69.0,
+        "delta": -68.7,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1483613,
+        "organicImpressions": 1582890,
         "views": 408294
       },
       {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:22Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-07T13:40:22Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:22Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:22Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:22Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5071,7 +5071,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-10-05T20:05:13Z"
   },
   {
@@ -5235,7 +5235,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5357,7 +5357,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5539,7 +5539,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-07T13:40:23Z",
+    "lastUpdatedMs": "2026-10-07T17:26:35Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -5792,6 +5792,22 @@ window.CHANNELS = [
     "views": 21087371
   },
   {
+    "name": "X",
+    "italic": "X",
+    "impressions": 29659012,
+    "eng": 646040,
+    "er": 2.18,
+    "cpm": 1.67,
+    "color": "#1d1d1f",
+    "delta": 136.8,
+    "bench": {
+      "er": 0.92,
+      "cpm": 1.1
+    },
+    "organicImpressions": 0,
+    "views": 488455
+  },
+  {
     "name": "Instagram",
     "italic": "gram",
     "impressions": 29581294,
@@ -5806,22 +5822,6 @@ window.CHANNELS = [
     },
     "organicImpressions": 0,
     "views": 27938029
-  },
-  {
-    "name": "X",
-    "italic": "X",
-    "impressions": 29559735,
-    "eng": 645620,
-    "er": 2.18,
-    "cpm": 1.67,
-    "color": "#1d1d1f",
-    "delta": 137.4,
-    "bench": {
-      "er": 0.92,
-      "cpm": 1.1
-    },
-    "organicImpressions": 0,
-    "views": 488455
   },
   {
     "name": "TikTok",
@@ -11795,10 +11795,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 5849154,
+        "impr": 5948431,
         "views": 2902409,
-        "er": 2.07,
-        "eng": 166539,
+        "er": 2.04,
+        "eng": 166959,
         "spend": 5630.31
       },
       "perChannel": [
@@ -11835,13 +11835,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 847387,
+          "impr": 946664,
           "paidImpr": 440712,
-          "orgImpr": 387614,
+          "orgImpr": 486891,
           "views": 162073,
-          "eng": 3482,
+          "eng": 3902,
           "paidEng": 1879,
-          "orgEng": 1603,
+          "orgEng": 2023,
           "er": 0.41,
           "cpm": 1.35,
           "spend": 594.53,
@@ -12064,12 +12064,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 263628,
+          "impr": 362905,
           "paidImpr": 99277,
-          "orgImpr": 164351,
+          "orgImpr": 263628,
           "views": 95021,
-          "eng": 1419,
-          "er": 0.54,
+          "eng": 1839,
+          "er": 0.51,
           "spend": 96.74,
           "url": "https://twitter.com/FOS/status/2051730095446847926",
           "postedAt": "2026-05-05T11:25:48-07:00"
@@ -26210,13 +26210,13 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 263628,
+      "impr": 362905,
       "paidImpr": 99277,
-      "orgImpr": 164351,
+      "orgImpr": 263628,
       "views": 95021,
       "reach": 0,
-      "eng": 1419,
-      "er": 0.54,
+      "eng": 1839,
+      "er": 0.51,
       "spend": 96.74,
       "watchTimeMin": null,
       "clicks": null,
@@ -40758,7 +40758,2613 @@ window.BENCHMARKS_DATA = {
         }
       ]
     }
-  ]
+  ],
+  "live": {
+    "campaigns": [
+      {
+        "campaign": "Upper Deck x 2025 NHL Draft",
+        "client": "Upper Deck",
+        "category": "Social Coverage Partner",
+        "franchise": "None (Custom)",
+        "contentType": "Video + Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "NHL Draft",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.06,
+          "Facebook": 0.37,
+          "X": 0.64,
+          "TikTok": 1.8,
+          "LinkedIn": 11.08,
+          "YouTube Shorts": 0.75
+        },
+        "all": 2.32,
+        "spend": 2508.0,
+        "include": true,
+        "tagsToConfirm": "Content Type",
+        "notes": ""
+      },
+      {
+        "campaign": "Invesco QQQ x 2025 Busines of Bowl Season",
+        "client": "Invesco QQQ",
+        "category": "Social Coverage Partner",
+        "franchise": "Business of Bowl Season",
+        "contentType": "Video + Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "College Football Bowl Season",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 4.19,
+          "LinkedIn": 4.38
+        },
+        "all": 4.2,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Franchise, Content Type",
+        "notes": ""
+      },
+      {
+        "campaign": "US Bank x 2026 NFL Draft",
+        "client": "U.S. Bank",
+        "category": "Social Coverage Partner",
+        "franchise": "None (Custom)",
+        "contentType": "Video + Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "NFL Draft",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 4.02,
+          "Facebook": 0.19,
+          "X": 1.28,
+          "LinkedIn": 3.95
+        },
+        "all": 3.69,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type",
+        "notes": "Source note: Wait on Vic for the new dash."
+      },
+      {
+        "campaign": "AT&T x Intuit Dome (Stadium Status)",
+        "client": "AT&T",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2024",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.29,
+          "X": 0.45,
+          "TikTok": 6.0,
+          "LinkedIn": 4.76
+        },
+        "all": 1.39,
+        "spend": 16992.0,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Kaiser Permanante x Stadium Status",
+        "client": "Kaiser Permanente",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.16,
+          "X": 0.66,
+          "TikTok": 0.07,
+          "LinkedIn": 4.99,
+          "YouTube Shorts": 5.16
+        },
+        "all": 0.54,
+        "spend": 12214.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Daktronics x Stadium Status (Lindsay)",
+        "client": "Daktronics",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2024",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.64,
+          "TikTok": 1.64,
+          "LinkedIn": 0.99
+        },
+        "all": 1.05,
+        "spend": 1200.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Elevate Stadium Status",
+        "client": "Elevate",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.18,
+          "X": 0.06,
+          "TikTok": 0.06,
+          "LinkedIn": 4.26,
+          "YouTube Shorts": 0.29
+        },
+        "all": 0.96,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Gainbridge x Napheesa Collier (The Come Up)",
+        "client": "Gainbridge",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "The Come Up",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.46,
+          "TikTok": 5.31,
+          "LinkedIn": 3.26
+        },
+        "all": 4.85,
+        "spend": 996.0,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "DIRECTV x Football (The Come Up)",
+        "client": "DIRECTV",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "The Come Up",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.8,
+          "Facebook": 5.19,
+          "TikTok": 0.51
+        },
+        "all": 1.58,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "Tastytrade x March Madness (The Come Up)",
+        "client": "Tastytrade",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "The Come Up",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "March Madness",
+        "tentpole": "Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 5.29,
+          "TikTok": 7.96,
+          "LinkedIn": 4.46,
+          "YouTube Shorts": 15.84
+        },
+        "all": 9.04,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": "Source note: confirm numbers."
+      },
+      {
+        "campaign": "US Bank x NFL Draft (The Come Up)",
+        "client": "U.S. Bank",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "The Come Up",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "NFL Draft",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 7.9,
+          "Facebook": 1.7,
+          "X": 0.1,
+          "LinkedIn": 1.1,
+          "YouTube Shorts": 25.0
+        },
+        "all": 3.6,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Whirlpool x PLL (Stadium Status)",
+        "client": "Whirlpool",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "PLL Championship",
+        "tentpole": "Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.23,
+          "X": 0.19,
+          "TikTok": 0.14,
+          "YouTube Shorts": 16.84
+        },
+        "all": null,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": "No All Platforms ER in the source file."
+      },
+      {
+        "campaign": "Daktronics x University of Illinois (Stadium Status)",
+        "client": "Daktronics",
+        "category": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Pepsi x Stadium Eats",
+        "client": "Pepsi",
+        "category": "Static: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "Stadium Eats",
+        "contentType": "Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 2.59,
+          "Facebook": 1.98,
+          "X": 0.24,
+          "TikTok": 1.88,
+          "LinkedIn": 6.84
+        },
+        "all": 1.19,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Toyota x Winter Olympics (The Come Up + Breaking Barriers)",
+        "client": "Toyota",
+        "category": "Static: Social-First IP or Franchise (Organic or Boosted)",
+        "franchise": "The Come Up / Breaking Barriers",
+        "contentType": "Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "Winter Olympics",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 13.61,
+          "Facebook": 13.95,
+          "LinkedIn": 1.73
+        },
+        "all": 13.42,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Gatorade x Modern Origins",
+        "client": "Gatorade",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "Modern Origins",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.18,
+          "TikTok": 0.25,
+          "LinkedIn": 2.77
+        },
+        "all": 1.94,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Franchise",
+        "notes": ""
+      },
+      {
+        "campaign": "Champs Sports x Apparel Playmakers (Derryl)",
+        "client": "Champs Sports",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "Apparel Playmakers",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.5,
+          "TikTok": 0.38
+        },
+        "all": 0.96,
+        "spend": 7940.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Tissot x NBA (Derryl)",
+        "client": "Tissot",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "NBA Finals",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.06,
+          "X": 0.3,
+          "TikTok": 0.03,
+          "LinkedIn": 3.47
+        },
+        "all": 0.48,
+        "spend": 4041.0,
+        "include": true,
+        "tagsToConfirm": "Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "US Bank x PLL Championship",
+        "client": "U.S. Bank",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "PLL Championship",
+        "tentpole": "Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.35,
+          "X": 0.31,
+          "TikTok": 0.4,
+          "YouTube Shorts": 9.1
+        },
+        "all": 3.3,
+        "spend": 1601.0,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "PGA Tour x BMW Championship (Derryl)",
+        "client": "PGA Tour",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "BMW Championship",
+        "tentpole": "Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.63,
+          "TikTok": 2.75
+        },
+        "all": 2.37,
+        "spend": 2524.0,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Gainbridge x WNBA All-Star (Lindsay)",
+        "client": "Gainbridge",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "WNBA All-Star",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 4.75,
+          "X": 0.24,
+          "TikTok": 0.29,
+          "LinkedIn": 1.53
+        },
+        "all": 1.74,
+        "spend": 4468.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Swag Golf x Ryder Cup",
+        "client": "Swag Golf",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "Ryder Cup",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 2.15,
+          "X": 0.11,
+          "TikTok": 0.1,
+          "YouTube Shorts": 0.12
+        },
+        "all": 0.5,
+        "spend": 3080.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Laver Cup",
+        "client": "Laver Cup",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "Business of Laver Cup",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "Laver Cup",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.3,
+          "X": 7.37,
+          "TikTok": 3.24,
+          "LinkedIn": 1.07
+        },
+        "all": 5.45,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": "Source note: it has long form video component."
+      },
+      {
+        "campaign": "Professional Fighters League",
+        "client": "Professional Fighters League",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.21,
+          "Facebook": 2.19,
+          "X": 0.27,
+          "TikTok": 0.14,
+          "LinkedIn": 2.56
+        },
+        "all": 1.2,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Ally x Unrivaled",
+        "client": "Ally",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.9,
+          "Facebook": 0.0,
+          "X": 0.74,
+          "TikTok": 0.08,
+          "LinkedIn": 5.29,
+          "YouTube Shorts": 8.41
+        },
+        "all": 2.89,
+        "spend": 1198.0,
+        "include": true,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "Comcast x PLAYERS 2026 (Lauren & Bailey)",
+        "client": "Comcast Business",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "The Players",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.88,
+          "Facebook": 0.05,
+          "TikTok": 0.04,
+          "YouTube Shorts": 6.15
+        },
+        "all": 2.12,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "US Bank x 2026 Super Bowl (Lauren Withrow)",
+        "client": "U.S. Bank",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "Super Bowl",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.11,
+          "Facebook": 0.24,
+          "X": 0.88,
+          "TikTok": 0.05,
+          "YouTube Shorts": 12.88
+        },
+        "all": 0.75,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "US Bank x NFL Draft (Red Carpet w/ Baker)",
+        "client": "U.S. Bank",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "NFL Draft",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.3,
+          "Facebook": 0.8,
+          "X": 0.17,
+          "LinkedIn": 0.5,
+          "YouTube Shorts": 34.9
+        },
+        "all": 7.0,
+        "spend": 2500.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": "Source note: Confirm with YTS."
+      },
+      {
+        "campaign": "RBC x The Soccer Tournament",
+        "client": "RBC",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "The Soccer Tournament",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Morgan & Morgan x The Case Study",
+        "client": "Morgan & Morgan",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "The Case Study",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Franchise",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Heineken x FIFA World Cup",
+        "client": "Heineken",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "FIFA World Cup",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "EHP x AVP Hamptons",
+        "client": "EHP",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "AVP Hamptons",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Dow x LPGA Impact Award",
+        "client": "Dow",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "LPGA Impact Award",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Ally x NWSL & Fanatics Fest",
+        "client": "Ally",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "Fanatics Fest",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Accenture x NFL International Games",
+        "client": "Accenture",
+        "category": "Video: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "NFL International Games",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Nuveen x Bobby Bonilla",
+        "client": "Nuveen",
+        "category": "Static: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 11.09,
+          "X": 1.72,
+          "LinkedIn": 2.26
+        },
+        "all": 5.14,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "Tissot x NBA",
+        "client": "Tissot",
+        "category": "Static: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "NBA Finals",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 6.56
+        },
+        "all": 6.56,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "Thrivent",
+        "client": "Thrivent",
+        "category": "Static: Custom Social (Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 20.95,
+          "Facebook": 0.03,
+          "X": 0.35,
+          "LinkedIn": 11.8
+        },
+        "all": 3.2,
+        "spend": 1581.0,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Morgan & Morgan x The Case Study (Carousel)",
+        "client": "Morgan & Morgan",
+        "category": "Static: Custom Social (Organic + Boosted)",
+        "franchise": "The Case Study",
+        "contentType": "Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Franchise",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "US Bank x NFL Draft (Red Carpet w/ Baker)",
+        "client": "U.S. Bank",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "NFL Draft",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "X": 0.07,
+          "YouTube Shorts": 13.45,
+          "Meta (Dark)": 0.08
+        },
+        "all": 2.77,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "SportClips x MLB Minute",
+        "client": "Sport Clips",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "MLB Minute",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Franchise",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "SportClips x Off the Pitch",
+        "client": "Sport Clips",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "Off the Pitch",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Fanatics x Stadium Status",
+        "client": "Fanatics",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Meta (Dark)": 0.03
+        },
+        "all": 0.03,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Heineken x FIFA World Cup",
+        "client": "Heineken",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "FIFA World Cup",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "EHP x AVP Hamptons",
+        "client": "EHP",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "AVP Hamptons",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "3M x FOS Engineered",
+        "client": "3M",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "FOS Engineered",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Dow x LPGA Impact Award",
+        "client": "Dow",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "LPGA Impact Award",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Huntington Bank x Golf, CFB, other",
+        "client": "Huntington Bank",
+        "category": "Video: Custom Social (Dark Only)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Bet MGM x FIFA World Cup",
+        "client": "BetMGM",
+        "category": "Static: Custom Social (Dark Only)",
+        "franchise": "None (Custom)",
+        "contentType": "Static",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "FIFA World Cup",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "3M x FOS Engineered",
+        "client": "3M",
+        "category": "Static: Custom Social (Dark Only)",
+        "franchise": "FOS Engineered",
+        "contentType": "Static",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "E*TRADE x Portfolio Players (Season 1)",
+        "client": "E*TRADE",
+        "category": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "franchise": "Portfolio Players",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 2.39,
+          "Facebook": 0.09,
+          "X": 0.59,
+          "TikTok": 0.07,
+          "LinkedIn": 1.33,
+          "YouTube": 1.5
+        },
+        "all": 1.2,
+        "spend": 35522.0,
+        "include": true,
+        "tagsToConfirm": "Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Pepsi x Stadium Eats",
+        "client": "Pepsi",
+        "category": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "franchise": "Stadium Eats",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 2.59,
+          "Facebook": 1.98,
+          "X": 0.24,
+          "TikTok": 1.88,
+          "LinkedIn": 6.84,
+          "YouTube": 1.01
+        },
+        "all": 1.19,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "E*TRADE x Portfolio Players (Season 2)",
+        "client": "E*TRADE",
+        "category": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "franchise": "Portfolio Players",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.61,
+          "Facebook": 0.61,
+          "X": 0.25,
+          "TikTok": 2.51,
+          "LinkedIn": 3.07,
+          "YouTube Shorts": 7.42,
+          "YouTube": 1.32
+        },
+        "all": 1.42,
+        "spend": 19064.0,
+        "include": true,
+        "tagsToConfirm": "Year, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "ADP x Future of Sports",
+        "client": "ADP",
+        "category": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "franchise": "Future of Sports",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.52,
+          "Facebook": 0.05,
+          "X": 0.18,
+          "TikTok": 3.69,
+          "LinkedIn": 15.68,
+          "YouTube Shorts": 1.9,
+          "YouTube": 2.6
+        },
+        "all": null,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "E*TRADE x Portfolio Players (Season 3)",
+        "client": "E*TRADE",
+        "category": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "franchise": "Portfolio Players",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year, Distribution",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Next League x Future of Sports",
+        "client": "Next League",
+        "category": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "franchise": "Future of Sports",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 5.48,
+          "X": 0.23,
+          "TikTok": 0.06,
+          "LinkedIn": 2.6,
+          "YouTube Shorts": 2.44,
+          "YouTube": 0.18
+        },
+        "all": null,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Nuveen x The Big Deal (Bobby Bonilla)",
+        "client": "Nuveen",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "The Big Deal",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.45,
+          "X": 0.69,
+          "TikTok": 0.25,
+          "LinkedIn": 3.55,
+          "YouTube": 2.03
+        },
+        "all": 1.65,
+        "spend": 26885.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Gatorade x FOS Explains: Women Fueling Football",
+        "client": "Gatorade",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "FOS Explains",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2024",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 2.04,
+          "X": 9.08,
+          "TikTok": 2.18,
+          "LinkedIn": 2.7,
+          "YouTube": 1.62
+        },
+        "all": 2.75,
+        "spend": 6674.0,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Wilson x FOS Explains",
+        "client": "Wilson",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "FOS Explains",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.77,
+          "X": 0.24,
+          "TikTok": 0.03,
+          "LinkedIn": 2.43,
+          "YouTube": 2.41
+        },
+        "all": 1.17,
+        "spend": 8206.0,
+        "include": true,
+        "tagsToConfirm": "Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "FOS Explains x PGA Tour",
+        "client": "PGA Tour",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "FOS Explains",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 6.25,
+          "X": 0.24,
+          "TikTok": 0.07,
+          "LinkedIn": 4.32,
+          "YouTube": 1.79
+        },
+        "all": 1.56,
+        "spend": 4358.0,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Gainbridge x USL",
+        "client": "Gainbridge",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "None (Custom)",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.58,
+          "Facebook": 0.04,
+          "X": 0.36,
+          "TikTok": 0.06,
+          "LinkedIn": 3.94,
+          "YouTube": 1.35
+        },
+        "all": 1.05,
+        "spend": 9046.0,
+        "include": true,
+        "tagsToConfirm": "Year, Franchise",
+        "notes": ""
+      },
+      {
+        "campaign": "State Farm the Family Assist",
+        "client": "State Farm",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "The Family Assist",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 2.7,
+          "X": 0.03,
+          "TikTok": 0.15,
+          "LinkedIn": 3.77,
+          "YouTube": 3.14
+        },
+        "all": 1.8,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year",
+        "notes": ""
+      },
+      {
+        "campaign": "Bet MGM FOS Explains - Winter Olympics",
+        "client": "BetMGM",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "FOS Explains",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "Winter Olympics",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.59,
+          "X": 0.28,
+          "TikTok": 0.05,
+          "LinkedIn": 4.27,
+          "YouTube Shorts": 5.43,
+          "YouTube": 1.63
+        },
+        "all": 1.32,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "BetMGM x FIFA World Cup (FOS Explains)",
+        "client": "BetMGM",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "FOS Explains",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "FIFA World Cup",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Prudential x '94 to Now (Second Acts)",
+        "client": "Prudential",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "Second Acts",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "3M x FOS Engineered",
+        "client": "3M",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "FOS Engineered",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "State Street x From Here to There",
+        "client": "State Street",
+        "category": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "franchise": "From Here to There",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Year",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "On Location x FIFA World Cup (FOS Explains)",
+        "client": "On Location",
+        "category": "Custom Branded Content (Longform + Cutdowns, Dark Only)",
+        "franchise": "FOS Explains",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "FIFA World Cup",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "X": 0.05,
+          "LinkedIn": 0.54,
+          "YouTube Shorts": 4.25,
+          "Meta (Dark)": 0.06
+        },
+        "all": 0.03,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Spectrum x NASCAR & FWC (Fueling Dreams)",
+        "client": "Spectrum",
+        "category": "Custom Branded Content (Longform + Cutdowns, Dark Only)",
+        "franchise": "Fueling Dreams",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "FIFA World Cup",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Meta (Dark)": 0.73
+        },
+        "all": 0.73,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "Microsoft x Premier League (FOS Explains)",
+        "client": "Microsoft",
+        "category": "Custom Branded Content (Longform + Cutdowns, Dark Only)",
+        "franchise": "FOS Explains",
+        "contentType": "Video",
+        "distribution": "Dark Only",
+        "tentpoleMoment": "Premier League",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "X": 0.36,
+          "TikTok": 0.03,
+          "Meta (Dark)": 0.07
+        },
+        "all": 0.3,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Tentpole",
+        "notes": ""
+      },
+      {
+        "campaign": "Raising Cane's x The Breakfast Ball 2025",
+        "client": "Raising Cane's",
+        "category": "Custom Social Video: FOS Tentpole Event",
+        "franchise": "The Breakfast Ball",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "CFP National Championship",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Tentpole, Distribution",
+        "notes": "Excluded from benchmarking in the source file."
+      },
+      {
+        "campaign": "Polestar x The Breakfast Ball 2025",
+        "client": "Polestar",
+        "category": "Custom Social Video: FOS Tentpole Event",
+        "franchise": "The Breakfast Ball",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "CFP National Championship",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.81,
+          "X": 0.2,
+          "TikTok": 0.02,
+          "LinkedIn": 3.64
+        },
+        "all": 0.42,
+        "spend": 1011.0,
+        "include": true,
+        "tagsToConfirm": "Tentpole, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "AG1 x The Breakfast Ball 2025",
+        "client": "AG1",
+        "category": "Custom Social Video: FOS Tentpole Event",
+        "franchise": "The Breakfast Ball",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "CFP National Championship",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.1,
+          "Facebook": 7.93,
+          "X": 1.28,
+          "TikTok": 0.05,
+          "LinkedIn": 1.39,
+          "YouTube Shorts": 1.36
+        },
+        "all": 2.15,
+        "spend": 1615.0,
+        "include": true,
+        "tagsToConfirm": "Tentpole, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Tommy John x The Breakfast Ball 2025",
+        "client": "Tommy John",
+        "category": "Custom Social Video: FOS Tentpole Event",
+        "franchise": "The Breakfast Ball",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "CFP National Championship",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 0.19,
+          "X": 0.13,
+          "TikTok": 0.06,
+          "LinkedIn": 4.1
+        },
+        "all": 0.16,
+        "spend": 994.0,
+        "include": true,
+        "tagsToConfirm": "Tentpole, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Thomas's Bagels x The Breakfast Ball 2026",
+        "client": "Thomas'",
+        "category": "Custom Social Video: FOS Tentpole Event",
+        "franchise": "The Breakfast Ball",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "CFP National Championship",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.5,
+          "TikTok": 0.05,
+          "YouTube Shorts": 11.82
+        },
+        "all": 6.33,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Tentpole, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Raising Cane's x The Breakfast Ball 2026",
+        "client": "Raising Cane's",
+        "category": "Custom Social Video: FOS Tentpole Event",
+        "franchise": "The Breakfast Ball",
+        "contentType": "Video",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "CFP National Championship",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.29,
+          "TikTok": 0.03,
+          "LinkedIn": 4.72,
+          "YouTube Shorts": 6.09
+        },
+        "all": 3.15,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Tentpole, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Elevate x Tuned In 2025",
+        "client": "Elevate",
+        "category": "FOS Event: Presenting Partner",
+        "franchise": "Tuned In",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 2.58,
+          "Facebook": 0.0,
+          "X": 0.88,
+          "TikTok": 5.13,
+          "LinkedIn": 3.59
+        },
+        "all": 2.85,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Dealmaker x Asset Class 2025",
+        "client": "Dealmaker",
+        "category": "FOS Event: Presenting Partner",
+        "franchise": "Asset Class",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 1.25,
+          "Facebook": 0.19,
+          "X": 0.32,
+          "LinkedIn": 1.22
+        },
+        "all": 0.68,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "UBS x Huddle in the Hamptons 2026",
+        "client": "UBS",
+        "category": "FOS Event: Presenting Partner",
+        "franchise": "Huddle in the Hamptons",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 4.59,
+          "LinkedIn": 3.67,
+          "YouTube Shorts": 6.01
+        },
+        "all": null,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type, Distribution",
+        "notes": ""
+      },
+      {
+        "campaign": "Elevate x Asset Class 2026",
+        "client": "Elevate",
+        "category": "FOS Event: Presenting Partner",
+        "franchise": "Asset Class",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Content Type, Distribution",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "Elevate x Tuned In 2026",
+        "client": "Elevate",
+        "category": "FOS Event: Presenting Partner",
+        "franchise": "Tuned In",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {},
+        "all": null,
+        "spend": null,
+        "include": false,
+        "tagsToConfirm": "Content Type, Distribution",
+        "notes": "No results entered yet."
+      },
+      {
+        "campaign": "State Street x Future of Sports",
+        "client": "State Street",
+        "category": "FOS Custom Event: Tastemaker or Future of Sports",
+        "franchise": "Future of Sports",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "Unknown",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 7.59,
+          "X": 0.26,
+          "TikTok": 0.09,
+          "LinkedIn": 2.74,
+          "YouTube Shorts": 11.14
+        },
+        "all": null,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Year, Content Type, Distribution",
+        "notes": "Shorts ER was entered as 11.14 in the source file; read here as 11.14%. Confirm."
+      },
+      {
+        "campaign": "Asset Class",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "Asset Class",
+        "contentType": "Video + Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "YouTube": 2.68
+        },
+        "all": 2.68,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type",
+        "notes": ""
+      },
+      {
+        "campaign": "Big Ticket",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "Big Ticket",
+        "contentType": "Video + Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "Instagram": 3.39,
+          "Facebook": 2.11,
+          "X": 1.09,
+          "LinkedIn": 1.89,
+          "YouTube": 9.18
+        },
+        "all": 3.53,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type",
+        "notes": ""
+      },
+      {
+        "campaign": "Breaking Barriers",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "Breaking Barriers",
+        "contentType": "Video",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "Instagram": 3.36,
+          "Facebook": 1.01,
+          "X": 5.82,
+          "TikTok": 9.49,
+          "LinkedIn": 3.35,
+          "YouTube": 4.8
+        },
+        "all": 4.64,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Second Acts",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "Second Acts",
+        "contentType": "Video + Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "Instagram": 2.06
+        },
+        "all": 2.06,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type",
+        "notes": ""
+      },
+      {
+        "campaign": "Stadium Eats",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "Stadium Eats",
+        "contentType": "Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "Instagram": 4.56,
+          "Facebook": 3.94,
+          "X": 3.01,
+          "TikTok": 3.36,
+          "LinkedIn": 3.59,
+          "YouTube": 5.31
+        },
+        "all": 3.96,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Stadium Status",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "Stadium Status",
+        "contentType": "Video",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "Instagram": 5.28,
+          "Facebook": 5.65,
+          "X": 4.57,
+          "TikTok": 1.2,
+          "LinkedIn": 4.26,
+          "YouTube": 7.95
+        },
+        "all": 4.82,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "The Come Up",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "The Come Up",
+        "contentType": "Video",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "Instagram": 8.67,
+          "X": 4.98,
+          "LinkedIn": 4.68,
+          "YouTube": 1.84
+        },
+        "all": 5.04,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Tuned In",
+        "client": "FOS (Organic)",
+        "category": "Organic Franchise (Non-Sponsored)",
+        "franchise": "Tuned In",
+        "contentType": "Video + Static",
+        "distribution": "Organic",
+        "tentpoleMoment": "None",
+        "tentpole": "Non-Tentpole",
+        "year": "2025",
+        "program": "Organic",
+        "platforms": {
+          "Instagram": 4.72,
+          "Facebook": 4.55,
+          "TikTok": 4.78,
+          "LinkedIn": 6.76,
+          "YouTube": 2.58
+        },
+        "all": 4.68,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "Content Type",
+        "notes": ""
+      }
+    ],
+    "categories": [
+      {
+        "name": "Social Coverage Partner",
+        "platforms": {
+          "Instagram": 3.76,
+          "Facebook": 0.28,
+          "X": 0.96,
+          "TikTok": 1.8,
+          "LinkedIn": 6.47,
+          "YouTube Shorts": 0.75
+        },
+        "all": 3.4,
+        "nCampaigns": 3
+      },
+      {
+        "name": "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "platforms": {
+          "Instagram": 3.22,
+          "Facebook": 3.45,
+          "X": 0.29,
+          "TikTok": 2.71,
+          "LinkedIn": 3.4,
+          "YouTube Shorts": 12.63
+        },
+        "all": 2.88,
+        "nCampaigns": 9
+      },
+      {
+        "name": "Static: Social-First IP or Franchise (Organic or Boosted)",
+        "platforms": {
+          "Instagram": 8.1,
+          "Facebook": 7.96,
+          "X": 0.24,
+          "TikTok": 1.88,
+          "LinkedIn": 4.29
+        },
+        "all": 7.3,
+        "nCampaigns": 2
+      },
+      {
+        "name": "Video: Custom Social (Organic + Boosted)",
+        "platforms": {
+          "Instagram": 2.1,
+          "Facebook": 0.66,
+          "X": 1.15,
+          "TikTok": 0.65,
+          "LinkedIn": 2.46,
+          "YouTube Shorts": 11.93
+        },
+        "all": 2.36,
+        "nCampaigns": 13
+      },
+      {
+        "name": "Static: Custom Social (Organic + Boosted)",
+        "platforms": {
+          "Instagram": 12.87,
+          "Facebook": 0.03,
+          "X": 1.03,
+          "LinkedIn": 7.03
+        },
+        "all": 4.97,
+        "nCampaigns": 3
+      },
+      {
+        "name": "Video: Custom Social (Dark Only)",
+        "platforms": {
+          "X": 0.07,
+          "YouTube Shorts": 13.45,
+          "Meta (Dark)": 0.06
+        },
+        "all": 1.4,
+        "nCampaigns": 2
+      },
+      {
+        "name": "Static: Custom Social (Dark Only)",
+        "platforms": {},
+        "all": null,
+        "nCampaigns": 0
+      },
+      {
+        "name": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "platforms": {
+          "Instagram": 2.52,
+          "Facebook": 0.68,
+          "X": 0.3,
+          "TikTok": 1.64,
+          "LinkedIn": 5.9,
+          "YouTube Shorts": 3.92,
+          "YouTube": 1.32
+        },
+        "all": 1.27,
+        "nCampaigns": 5
+      },
+      {
+        "name": "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "platforms": {
+          "Instagram": 2.77,
+          "Facebook": 0.04,
+          "X": 1.56,
+          "TikTok": 0.4,
+          "LinkedIn": 3.57,
+          "YouTube Shorts": 5.43,
+          "YouTube": 2.0
+        },
+        "all": 1.61,
+        "nCampaigns": 7
+      },
+      {
+        "name": "Custom Branded Content (Longform + Cutdowns, Dark Only)",
+        "platforms": {
+          "X": 0.2,
+          "TikTok": 0.03,
+          "LinkedIn": 0.54,
+          "YouTube Shorts": 4.25,
+          "Meta (Dark)": 0.29
+        },
+        "all": 0.35,
+        "nCampaigns": 3
+      },
+      {
+        "name": "Custom Social Video: FOS Tentpole Event",
+        "platforms": {
+          "Instagram": 1.38,
+          "Facebook": 7.93,
+          "X": 0.54,
+          "TikTok": 0.04,
+          "LinkedIn": 3.46,
+          "YouTube Shorts": 6.42
+        },
+        "all": 2.44,
+        "nCampaigns": 5
+      },
+      {
+        "name": "FOS Event: Presenting Partner",
+        "platforms": {
+          "Instagram": 2.81,
+          "Facebook": 0.1,
+          "X": 0.6,
+          "TikTok": 5.13,
+          "LinkedIn": 2.83,
+          "YouTube Shorts": 6.01
+        },
+        "all": 1.77,
+        "nCampaigns": 3
+      },
+      {
+        "name": "FOS Custom Event: Tastemaker or Future of Sports",
+        "platforms": {
+          "Instagram": 7.59,
+          "X": 0.26,
+          "TikTok": 0.09,
+          "LinkedIn": 2.74,
+          "YouTube Shorts": 11.14
+        },
+        "all": null,
+        "nCampaigns": 1
+      },
+      {
+        "name": "Organic Franchise (Non-Sponsored)",
+        "platforms": {
+          "Instagram": 4.58,
+          "Facebook": 3.45,
+          "X": 3.89,
+          "TikTok": 4.71,
+          "LinkedIn": 4.09,
+          "YouTube": 4.91
+        },
+        "all": 3.93,
+        "nCampaigns": 8
+      }
+    ],
+    "allSponsored": {
+      "name": "All sponsored campaigns",
+      "platforms": {
+        "Instagram": 3.47,
+        "Facebook": 1.88,
+        "X": 0.8,
+        "TikTok": 1.18,
+        "LinkedIn": 3.88,
+        "YouTube Shorts": 8.99,
+        "YouTube": 1.71,
+        "Meta (Dark)": 0.19
+      },
+      "all": 2.51,
+      "nCampaigns": 56
+    },
+    "platformSets": [
+      {
+        "name": "2026 All Content",
+        "platforms": {
+          "Instagram": 3.9,
+          "Facebook": 3.3,
+          "X": 2.7,
+          "TikTok": 6.7,
+          "LinkedIn": 6.5,
+          "YouTube": 1.03
+        },
+        "all": null,
+        "lastUpdated": "7/21/2026"
+      },
+      {
+        "name": "2026 Sponsored (Sprout, No Paid)",
+        "platforms": {
+          "Instagram": 3.8,
+          "Facebook": 2.6,
+          "X": 1.1,
+          "TikTok": 0.9,
+          "LinkedIn": 2.4,
+          "YouTube": 1.0
+        },
+        "all": null,
+        "lastUpdated": "7/21/2026"
+      },
+      {
+        "name": "2025 All Content",
+        "platforms": {
+          "Instagram": 4.2,
+          "Facebook": 4.0,
+          "X": 2.1,
+          "TikTok": 4.8,
+          "LinkedIn": 5.0,
+          "YouTube": 1.63
+        },
+        "all": null,
+        "lastUpdated": "11/25/2025"
+      }
+    ],
+    "categoryOrder": [
+      "Social Coverage Partner",
+      "Video: Social-First IP or Franchise (Organic or Boosted)",
+      "Static: Social-First IP or Franchise (Organic or Boosted)",
+      "Video: Custom Social (Organic + Boosted)",
+      "Static: Custom Social (Organic + Boosted)",
+      "Video: Custom Social (Dark Only)",
+      "Static: Custom Social (Dark Only)",
+      "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+      "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+      "Custom Branded Content (Longform + Cutdowns, Dark Only)",
+      "Custom Social Video: FOS Tentpole Event",
+      "FOS Event: Presenting Partner",
+      "FOS Custom Event: Tastemaker or Future of Sports",
+      "Organic Franchise (Non-Sponsored)"
+    ],
+    "filters": {
+      "category": [
+        "Social Coverage Partner",
+        "Video: Social-First IP or Franchise (Organic or Boosted)",
+        "Static: Social-First IP or Franchise (Organic or Boosted)",
+        "Video: Custom Social (Organic + Boosted)",
+        "Static: Custom Social (Organic + Boosted)",
+        "Video: Custom Social (Dark Only)",
+        "Static: Custom Social (Dark Only)",
+        "Brand Integration / Sponsored Content (Longform + Cutdowns)",
+        "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
+        "Custom Branded Content (Longform + Cutdowns, Dark Only)",
+        "Custom Social Video: FOS Tentpole Event",
+        "FOS Event: Presenting Partner",
+        "FOS Custom Event: Tastemaker or Future of Sports",
+        "Organic Franchise (Non-Sponsored)"
+      ],
+      "contentType": [
+        "Static",
+        "Video",
+        "Video + Static"
+      ],
+      "distribution": [
+        "Dark Only",
+        "Organic",
+        "Organic + Boosted"
+      ],
+      "tentpole": [
+        "Tentpole",
+        "Non-Tentpole"
+      ],
+      "year": [
+        "2024",
+        "2025",
+        "2026",
+        "Unknown"
+      ],
+      "program": [
+        "Organic",
+        "Sponsored"
+      ],
+      "client": [
+        "3M",
+        "ADP",
+        "AG1",
+        "AT&T",
+        "Accenture",
+        "Ally",
+        "BetMGM",
+        "Champs Sports",
+        "Comcast Business",
+        "DIRECTV",
+        "Daktronics",
+        "Dealmaker",
+        "Dow",
+        "E*TRADE",
+        "EHP",
+        "Elevate",
+        "FOS (Organic)",
+        "Fanatics",
+        "Gainbridge",
+        "Gatorade",
+        "Heineken",
+        "Huntington Bank",
+        "Invesco QQQ",
+        "Kaiser Permanente",
+        "Laver Cup",
+        "Microsoft",
+        "Morgan & Morgan",
+        "Next League",
+        "Nuveen",
+        "On Location",
+        "PGA Tour",
+        "Pepsi",
+        "Polestar",
+        "Professional Fighters League",
+        "Prudential",
+        "RBC",
+        "Raising Cane's",
+        "Spectrum",
+        "Sport Clips",
+        "State Farm",
+        "State Street",
+        "Swag Golf",
+        "Tastytrade",
+        "Thomas'",
+        "Thrivent",
+        "Tissot",
+        "Tommy John",
+        "Toyota",
+        "U.S. Bank",
+        "UBS",
+        "Upper Deck",
+        "Whirlpool",
+        "Wilson"
+      ],
+      "franchise": [
+        "Apparel Playmakers",
+        "Asset Class",
+        "Big Ticket",
+        "Breaking Barriers",
+        "Business of Bowl Season",
+        "Business of Laver Cup",
+        "FOS Engineered",
+        "FOS Explains",
+        "From Here to There",
+        "Fueling Dreams",
+        "Future of Sports",
+        "Huddle in the Hamptons",
+        "MLB Minute",
+        "Modern Origins",
+        "None (Custom)",
+        "Off the Pitch",
+        "Portfolio Players",
+        "Second Acts",
+        "Stadium Eats",
+        "Stadium Status",
+        "The Big Deal",
+        "The Breakfast Ball",
+        "The Case Study",
+        "The Come Up",
+        "The Come Up / Breaking Barriers",
+        "The Family Assist",
+        "Tuned In"
+      ],
+      "platform": [
+        "Instagram",
+        "Facebook",
+        "X",
+        "TikTok",
+        "LinkedIn",
+        "YouTube Shorts",
+        "YouTube",
+        "Meta (Dark)"
+      ]
+    }
+  },
+  "paid": {
+    "brandx": {
+      "overall": {
+        "campaigns": 15,
+        "spend": 20289.86,
+        "impressions": 6067376,
+        "cpm": 3.344,
+        "ctr": 0.568,
+        "er": 0.045,
+        "cpc": 0.589
+      },
+      "byObjective": [
+        {
+          "name": "Impressions",
+          "campaigns": 8,
+          "spend": 11953.95,
+          "impressions": 4539985,
+          "cpm": 2.633,
+          "ctr": 0.038,
+          "er": 0.018,
+          "cpc": 6.866
+        },
+        {
+          "name": "Clicks",
+          "campaigns": 7,
+          "spend": 8335.91,
+          "impressions": 1527391,
+          "cpm": 5.458,
+          "ctr": 2.143,
+          "er": 0.124,
+          "cpc": 0.255
+        }
+      ],
+      "byCategory": [
+        {
+          "name": "Client Provided Static",
+          "campaigns": 4,
+          "spend": 2136.64,
+          "impressions": 684175,
+          "cpm": 3.123,
+          "ctr": 0.605,
+          "er": 0.046,
+          "cpc": 0.516
+        },
+        {
+          "name": "Client Provided Video",
+          "campaigns": 9,
+          "spend": 16062.7,
+          "impressions": 4976281,
+          "cpm": 3.228,
+          "ctr": 0.417,
+          "er": 0.04,
+          "cpc": 0.774
+        },
+        {
+          "name": "FOS Provided Video",
+          "campaigns": 2,
+          "spend": 2090.52,
+          "impressions": 406920,
+          "cpm": 5.137,
+          "ctr": 2.357,
+          "er": 0.095,
+          "cpc": 0.218
+        }
+      ]
+    },
+    "distributions": [
+      {
+        "name": "Dark Only",
+        "overall": {
+          "campaigns": 67,
+          "spend": 81753.38,
+          "impressions": 47486499,
+          "cpm": 1.722,
+          "ctr": 0.05,
+          "vcr": 8.079
+        },
+        "byCategory": [
+          {
+            "name": "Correspondent-Led Video",
+            "campaigns": 52,
+            "spend": 42935.04,
+            "impressions": 16184064,
+            "cpm": 2.653,
+            "ctr": 0.12,
+            "vcr": 0.246
+          },
+          {
+            "name": "Custom Content (Mid-to-Long)",
+            "campaigns": 9,
+            "spend": 33126.47,
+            "impressions": 29703748,
+            "cpm": 1.115,
+            "ctr": 0.029,
+            "vcr": 12.739
+          },
+          {
+            "name": "Custom Content (short)",
+            "campaigns": 6,
+            "spend": 5691.87,
+            "impressions": 1598687,
+            "cpm": 3.56,
+            "ctr": null,
+            "vcr": 0.796
+          }
+        ],
+        "byPlatform": [
+          {
+            "name": "IG",
+            "campaigns": 17,
+            "spend": 11687.74,
+            "impressions": 3334474,
+            "cpm": 3.505,
+            "ctr": 0.699,
+            "vcr": 0.101
+          },
+          {
+            "name": "TikTok",
+            "campaigns": 6,
+            "spend": 4472.52,
+            "impressions": 2145737,
+            "cpm": 2.084,
+            "ctr": 0.129,
+            "vcr": 0.022
+          },
+          {
+            "name": "YT Shorts",
+            "campaigns": 11,
+            "spend": 8630.21,
+            "impressions": 2735866,
+            "cpm": 3.154,
+            "ctr": 0.0,
+            "vcr": 0.461
+          },
+          {
+            "name": "X",
+            "campaigns": 19,
+            "spend": 16711.77,
+            "impressions": 8866132,
+            "cpm": 1.885,
+            "ctr": 0.066,
+            "vcr": 0.21
+          },
+          {
+            "name": "Meta",
+            "campaigns": 2,
+            "spend": 5509.87,
+            "impressions": 1648039,
+            "cpm": 3.343,
+            "ctr": 0.01,
+            "vcr": 0.147
+          },
+          {
+            "name": "IG & FB",
+            "campaigns": 6,
+            "spend": 5670.55,
+            "impressions": 1171320,
+            "cpm": 4.841,
+            "ctr": null,
+            "vcr": 0.561
+          },
+          {
+            "name": "FB",
+            "campaigns": 3,
+            "spend": 4012.74,
+            "impressions": 1154022,
+            "cpm": 3.477,
+            "ctr": null,
+            "vcr": 0.768
+          },
+          {
+            "name": "YouTube",
+            "campaigns": 3,
+            "spend": 25057.98,
+            "impressions": 26430909,
+            "cpm": 0.948,
+            "ctr": 0.03,
+            "vcr": 14.315
+          }
+        ]
+      },
+      {
+        "name": "In-Feed + Boosted",
+        "overall": {
+          "campaigns": 17,
+          "spend": 35305.72,
+          "impressions": 16212606,
+          "cpm": 2.178,
+          "ctr": 0.01,
+          "vcr": 17.139
+        },
+        "byCategory": [
+          {
+            "name": "Correspondent-Led Video - Custom Content",
+            "campaigns": 16,
+            "spend": 29157.48,
+            "impressions": 9982041,
+            "cpm": 2.921,
+            "ctr": 0.06,
+            "vcr": 10.61
+          },
+          {
+            "name": "Custom Content (Mid-to-Long)",
+            "campaigns": 1,
+            "spend": 6148.24,
+            "impressions": 6230565,
+            "cpm": 0.987,
+            "ctr": 0.006,
+            "vcr": 27.6
+          }
+        ],
+        "byPlatform": [
+          {
+            "name": "TikTok",
+            "campaigns": 4,
+            "spend": 7809.11,
+            "impressions": 4116966,
+            "cpm": 1.897,
+            "ctr": 0.06,
+            "vcr": 0.068
+          },
+          {
+            "name": "IG",
+            "campaigns": 4,
+            "spend": 7358.69,
+            "impressions": 935018,
+            "cpm": 7.87,
+            "ctr": null,
+            "vcr": 1.265
+          },
+          {
+            "name": "YTs",
+            "campaigns": 4,
+            "spend": 6527.75,
+            "impressions": 2507393,
+            "cpm": 2.603,
+            "ctr": null,
+            "vcr": 41.33
+          },
+          {
+            "name": "FB",
+            "campaigns": 1,
+            "spend": 1815.74,
+            "impressions": 253660,
+            "cpm": 7.158,
+            "ctr": null,
+            "vcr": 2.05
+          },
+          {
+            "name": "X",
+            "campaigns": 3,
+            "spend": 5646.19,
+            "impressions": 2169004,
+            "cpm": 2.603,
+            "ctr": null,
+            "vcr": 0.135
+          },
+          {
+            "name": "YouTube",
+            "campaigns": 1,
+            "spend": 6148.24,
+            "impressions": 6230565,
+            "cpm": 0.987,
+            "ctr": 0.006,
+            "vcr": 27.6
+          }
+        ]
+      }
+    ]
+  }
 };
 
 window.PORTFOLIO_CPM_BY_CHANNEL = [
@@ -40767,7 +43373,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 23617344,
     "paidImpressions": 22964422,
-    "pctOfTotal": 39.5,
+    "pctOfTotal": 39.4,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 11.2,
     "color": "#E00922"
@@ -40777,7 +43383,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.15,
     "impressions": 15961823,
     "paidImpressions": 14010806,
-    "pctOfTotal": 26.7,
+    "pctOfTotal": 26.6,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -26.2,
     "color": "#E4405F"
@@ -40795,9 +43401,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.75,
-    "impressions": 5055054,
+    "impressions": 5154331,
     "paidImpressions": 3545872,
-    "pctOfTotal": 8.5,
+    "pctOfTotal": 8.6,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 41.1,
     "color": "#1d1d1f"
