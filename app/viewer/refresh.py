@@ -29,7 +29,7 @@ from app.compute.rollup import (
     top_posts_by_er,
     top_posts_by_organic_reach,
 )
-from app.parsers import NormalizedPost, ParseResult, Platform, Source
+from app.parsers import Boosting, NormalizedPost, ParseResult, Platform, Source
 from app.parsers.google_ads_campaign import parse as parse_gads_campaign
 from app.parsers.measure_studio import parse as parse_ms
 from app.parsers.linkedin_ads import parse as parse_linkedin_ads
@@ -969,6 +969,35 @@ def main() -> int:
         except Exception as e:
             parse_warnings.append(f"benchmarks CSV: {e}")
 
+    # Live benchmarks: the normalized, filterable model (video/static,
+    # custom/franchise, paid/organic+boosted) imported from the cleaned FOS
+    # Social Benchmarks workbook. Nested under `live` so legacy CSV tables and
+    # the new dashboard both render from window.BENCHMARKS_DATA.
+    live_campaigns_csv = REPO_ROOT / "config" / "benchmarks_campaigns.csv"
+    live_platforms_csv = REPO_ROOT / "config" / "benchmarks_platforms.csv"
+    if live_campaigns_csv.exists():
+        try:
+            from app.compute.benchmarks import compute_live_benchmarks
+            live = compute_live_benchmarks(live_campaigns_csv, live_platforms_csv)
+            if benchmarks_data is None:
+                benchmarks_data = {}
+            benchmarks_data["live"] = live
+        except Exception as e:
+            parse_warnings.append(f"live benchmarks: {e}")
+
+    # Paid-social benchmarks (BrandX + Dark Posts + In-Feed/Boosted): CPM/CTR/VCR
+    # weighted by impressions. A second family alongside the ER benchmarks.
+    paid_brandx_csv = REPO_ROOT / "config" / "benchmarks_paid_brandx.csv"
+    paid_dist_csv = REPO_ROOT / "config" / "benchmarks_paid_dist.csv"
+    if paid_brandx_csv.exists() or paid_dist_csv.exists():
+        try:
+            from app.compute.benchmarks import compute_paid_benchmarks
+            if benchmarks_data is None:
+                benchmarks_data = {}
+            benchmarks_data["paid"] = compute_paid_benchmarks(paid_brandx_csv, paid_dist_csv)
+        except Exception as e:
+            parse_warnings.append(f"paid benchmarks: {e}")
+
     # ---------- Upload targets ----------
     # Per-campaign list of configured file sources, so the dashboard upload
     # form can target the exact filename refresh.py reads (e.g. E*TRADE's file
@@ -1262,35 +1291,38 @@ def _merge_x_ads_spend_into_ms(
     def _fold_x_ads_into_ms(t, xa) -> None:
         """Merge an X Ads campaign row's delivery numbers into MS post `t`.
 
-        Three cases:
+        Routing is by the MS boosting label, NOT an impressions ratio. Measure
+        does not track X paid impression COUNTS (impressions_paid is always 0
+        here), but it does know each post's boost STATUS:
 
         1. MS already has paid (paid>0) — only add X Ads spend, nothing else
-           changes. MS captured the breakdown.
+           changes. MS captured the breakdown. (Rare for X.)
 
-        2. MS has total but NO paid breakdown (paid=0, total>0). This is the
-           "post-API-break" case where MS knows the combined impressions
-           but can't see what was paid vs organic. The total IS the source
-           of truth — keep it. Compute organic = max(0, total − xa_paid).
-           Set paid from X Ads. DO NOT add xa_paid on top of total (that
-           was the old bug — Patricof/Repole/etc. were double-counting paid).
+        2. MS marked the post Boosted/Dark — MS's total already reflects the
+           combined (paid + organic) delivery but couldn't break out the paid
+           portion. Trust ms_total; derive organic = max(0, total − xa_paid).
 
-        3. MS has nothing (paid=0, no total). The boost was fully dark to MS.
-           Take everything from X Ads — paid impressions become both paid and
-           total, with zero organic.
+        3. MS marked the post Organic (MS only ever saw the organic side; the
+           paid boost was invisible to MS). The X Ads paid is ADDITIVE on top:
+           total = ms_organic + xa_paid.
+
+        The previous version routed on `ms_total >= xa_paid * 0.7`, which
+        misclassified high-organic Organic posts (e.g. a Cuban launch tweet
+        with 263K organic vs 99K paid) into case 2 and SUBTRACTED the paid
+        instead of adding it. Keying on the boost label fixes that.
         """
         xa_paid = xa.impressions_paid or 0
         xa_eng = xa.engagements_paid or 0
         ms_paid = t.impressions_paid or 0
         ms_total = t.impressions_total or 0
+        ms_saw_combined = t.boosting in (Boosting.BOOSTED, Boosting.DARK)
 
         if ms_paid > 0:
             # Case 1 — MS captured the breakdown. Just add spend.
             pass
-        elif ms_total >= xa_paid * 0.7 and xa_paid > 0:
-            # Case 2 — MS has combined total but missed the paid split.
-            # ms_total is at least 70% of xa_paid → MS clearly saw the full
-            # delivery (paid + organic combined) but couldn't break out the
-            # paid portion. Trust ms_total; derive organic as gap.
+        elif ms_saw_combined and ms_total > 0 and xa_paid > 0:
+            # Case 2 — MS marked it Boosted/Dark, so ms_total already reflects
+            # the combined delivery. Trust ms_total; derive organic as gap.
             t.impressions_paid = xa_paid
             t.impressions_organic = max(0, ms_total - xa_paid)
             # impressions_total stays put — MS already had the right combined number.

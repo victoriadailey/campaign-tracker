@@ -1,0 +1,16 @@
+Campaign,Category,Objective,Spend,Impressions,Clicks,Engagements,CPM ($),CTR,ER,CPC ($)
+Hoka (Mafate),Client Provided Static,Impressions,380.78,184878.0,166.0,9.0,2.059629,0.000898,4.9e-05,2.293855
+Hoka (Rocket X3),Client Provided Static,Impressions,182.7,151639.0,151.0,2.0,1.204835,0.000996,1.3e-05,1.209934
+Hoka (Mafate),Client Provided Static,Clicks,1497.6,334948.0,3255.0,255.0,4.471142,0.009718,0.000761,0.460092
+Hoka (Rocket X3),Client Provided Static,Clicks,75.56,12710.0,566.0,51.0,5.944925,0.044532,0.004013,0.133498
+Hoka (Mafate),Client Provided Video,Impressions,510.81,234680.0,37.0,27.0,2.176623,0.000158,0.000115,13.805676
+Hoka (Rocket X3),Client Provided Video,Impressions,223.73,108744.0,7.0,8.0,2.057401,6.4e-05,7.4e-05,31.961429
+Polestar,Client Provided Video,Impressions,4574.06,1736385.0,926.0,206.0,2.634243,0.000533,0.000119,4.93959
+Invesco,Client Provided Video,Impressions,4877.17,1656163.0,297.0,431.0,2.944861,0.000179,0.00026,16.421448
+Hoka (Mafate),Client Provided Video,Clicks,1125.3,96865.0,2211.0,150.0,11.617199,0.022826,0.001549,0.508955
+Hoka (Rocket X3),Client Provided Video,Clicks,1275.92,149579.0,5660.0,329.0,8.530074,0.03784,0.0022,0.225428
+Invesco,Client Provided Video,Clicks,221.13,36224.0,461.0,84.0,6.104516,0.012726,0.002319,0.479675
+AT&T She's Connected,Client Provided Video,Clicks,2842.21,749993.0,11010.0,768.0,3.789649,0.01468,0.001024,0.258148
+AT&T She's Connected,Client Provided Video,Impressions,412.37,207648.0,136.0,3.0,1.985909,0.000655,1.4e-05,3.032132
+Pepsi x Eats,FOS Provided Video,Clicks,1298.19,147072.0,9572.0,262.0,8.826901,0.065084,0.001781,0.135624
+Pepsi x Eats,FOS Provided Video,Impressions,792.33,259848.0,21.0,125.0,3.049206,8.1e-05,0.000481,37.73
