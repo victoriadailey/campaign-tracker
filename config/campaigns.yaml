@@ -1707,3 +1707,21 @@ campaigns:
       # published. Add youtube_paid / meta_ads / x_ads exports when boosts run.
       measure_studio_group_ids:
         - 8908
+
+  - id: just_ingredients_2026
+    partner: Just Ingredients
+    series: Just Ingredients x Original Franchises
+    series_italic: Franchises
+    type: social
+    benchmark_category: "Multimedia Reporter-Led - Franchise"
+    lifecycle: active
+    flight_start: 2026-09-01
+    flight_end: 2026-10-31
+    impression_goal: 6300000
+    budget_goal: 14774
+    color: ft-1
+    lead_format: "Short-form Video"
+    blurb: "The Come Up and Breaking Barriers — bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling"
+    sources:
+      measure_studio_group_ids:
+        - 9135
