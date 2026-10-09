@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-09T14:41:16Z";
+window.LAST_REFRESHED = "2026-10-09T16:30:00Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5071,7 +5071,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-10-05T20:05:13Z"
   },
   {
@@ -5235,7 +5235,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5357,7 +5357,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:29:59Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5539,7 +5539,106 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-09T14:41:15Z",
+    "lastUpdatedMs": "2026-10-09T16:30:00Z",
+    "lastUpdatedExports": ""
+  },
+  {
+    "id": "just_ingredients_2026",
+    "partner": "Just Ingredients",
+    "series": "Just Ingredients x Original Franchises",
+    "seriesItalic": "Franchises",
+    "type": "social",
+    "flight": "Sep 1 \u2014 Oct 31, 2026",
+    "elapsedPct": 63.3,
+    "daysLeft": 22,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 38445,
+      "goal": 6300000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 14774.0
+    },
+    "color": "ft-1",
+    "leadFormat": "Short-form Video",
+    "topChannel": "Instagram",
+    "er": 1.58,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 3,
+    "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
+    "views": 17881,
+    "engagements": 609,
+    "goalSplit": [],
+    "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 17881,
+        "eng": 324,
+        "er": 1.81,
+        "cpm": 0.0,
+        "color": "#E4405F",
+        "delta": -45.3,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 17881,
+        "views": 17881
+      },
+      {
+        "name": "LinkedIn",
+        "italic": "LinkedIn",
+        "impressions": 17708,
+        "eng": 271,
+        "er": 1.53,
+        "cpm": 0.0,
+        "color": "#0A66C2",
+        "delta": -59.3,
+        "bench": {
+          "er": 3.76,
+          "cpm": 0.0
+        },
+        "organicImpressions": 17708,
+        "views": 0
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 2856,
+        "eng": 14,
+        "er": 0.49,
+        "cpm": 0.0,
+        "color": "#1877F2",
+        "delta": -68.0,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 2856,
+        "views": 0
+      }
+    ],
+    "topPosts": [],
+    "topPostsOrganic": [],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 1% of goal (61K of 6.3M) with 22 days left.",
+        "body": "At the current rate the campaign will fall ~6.2M impressions short of the 6.3M goal. Need to deliver 285K impr/day (280.9\u00d7 the current 1K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "Just Ingredients \u00b7 Pacing"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-10-09T16:30:00Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -5810,8 +5909,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 29602047,
-    "eng": 428851,
+    "impressions": 29619928,
+    "eng": 429175,
     "er": 1.45,
     "cpm": 4.5,
     "color": "#E4405F",
@@ -5821,7 +5920,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 27958782
+    "views": 27976663
   },
   {
     "name": "TikTok",
@@ -5842,8 +5941,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 6431718,
-    "eng": 22980,
+    "impressions": 6434574,
+    "eng": 22994,
     "er": 0.36,
     "cpm": 3.92,
     "color": "#1877F2",
@@ -5858,12 +5957,12 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2333528,
-    "eng": 77602,
-    "er": 3.33,
+    "impressions": 2351236,
+    "eng": 77873,
+    "er": 3.31,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -11.6,
+    "delta": -11.9,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
@@ -5923,6 +6022,15 @@ window.SOURCES = [
 ];
 
 window.SIGNALS = [
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 1% of goal (61K of 6.3M) with 22 days left.",
+    "body": "At the current rate the campaign will fall ~6.2M impressions short of the 6.3M goal. Need to deliver 285K impr/day (280.9\u00d7 the current 1K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Just Ingredients \u00b7 Pacing",
+    "campaignId": "just_ingredients_2026",
+    "campaignPartner": "Just Ingredients"
+  },
   {
     "tag": "WATCH",
     "kind": "warn",
@@ -20887,7 +20995,8 @@ window.EPISODES_BY_CAMPAIGN = {
   "whirlpool_pll_stadium_status": [],
   "orlando_health_brandx": [],
   "next_league_brandx": [],
-  "state_street": []
+  "state_street": [],
+  "just_ingredients_2026": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -38707,7 +38816,78 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     }
   ],
-  "state_street": []
+  "state_street": [],
+  "just_ingredients_2026": [
+    {
+      "title": "Karlyn Pickens threw the fastest pitch in NCAA softball history \u2014 then turned it into a No. 1 draft pick, a gold medal, ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 17881,
+      "paidImpr": 0,
+      "orgImpr": 17881,
+      "views": 17881,
+      "reach": 9158,
+      "eng": 324,
+      "er": 1.81,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DePlY1GHRtQ/",
+      "postedAt": "2026-10-08T11:31:50-07:00"
+    },
+    {
+      "title": "No one in NCAA softball history has ever thrown a pitch as fast as Karlyn Pickens.  She set the record at 78.2 mph in Ma",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 2856,
+      "paidImpr": 0,
+      "orgImpr": 2856,
+      "views": 0,
+      "reach": 0,
+      "eng": 14,
+      "er": 0.49,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": 34,
+      "ctr": 1.19,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1604316345041283/",
+      "postedAt": "2026-10-08T11:36:50-07:00"
+    },
+    {
+      "title": "Karlyn Pickens holds the NCAA record for the fastest pitch ever recorded\u201479.4 mph, set by breaking her own previous mark",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 17708,
+      "paidImpr": 0,
+      "orgImpr": 17708,
+      "views": 0,
+      "reach": 0,
+      "eng": 271,
+      "er": 1.53,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7514024176131690497",
+      "postedAt": "2026-10-08T13:30:04-07:00"
+    }
+  ]
 };
 
 window.UPLOAD_TARGETS = {
@@ -38999,7 +39179,8 @@ window.UPLOAD_TARGETS = {
       "label": "Meta Ads"
     }
   ],
-  "state_street": []
+  "state_street": [],
+  "just_ingredients_2026": []
 };
 
 window.MS_GROUPS = [
@@ -43655,7 +43836,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 23619992,
     "paidImpressions": 22964422,
-    "pctOfTotal": 39.4,
+    "pctOfTotal": 39.3,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 11.2,
     "color": "#E00922"
@@ -43663,9 +43844,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.15,
-    "impressions": 15982533,
+    "impressions": 16000414,
     "paidImpressions": 14010806,
-    "pctOfTotal": 26.6,
+    "pctOfTotal": 26.7,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -26.2,
     "color": "#E4405F"
@@ -43703,7 +43884,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1593183,
+    "impressions": 1610891,
     "paidImpressions": 0,
     "pctOfTotal": 2.7,
     "mvmCpm": null,
@@ -43723,7 +43904,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Facebook",
     "cpm": 5.05,
-    "impressions": 619163,
+    "impressions": 622019,
     "paidImpressions": 572268,
     "pctOfTotal": 1.0,
     "mvmCpm": 4.2,
