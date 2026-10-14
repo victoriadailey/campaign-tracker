@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-14T15:59:06Z";
+window.LAST_REFRESHED = "2026-10-14T16:47:38Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4783,7 +4783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4995,7 +4995,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5010,23 +5010,23 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 5366546,
+      "delivered": 5448806,
       "goal": 5600000
     },
     "budget": {
-      "delivered": 5874.23,
+      "delivered": 6719.93,
       "goal": 22634.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 3.92,
-    "cpm": 1.13,
+    "er": 4.01,
+    "cpm": 1.27,
     "episodes": 0,
-    "posts": 12,
+    "posts": 14,
     "blurb": "An 8 video series with external creator, Evan Hand",
-    "views": 3009341,
-    "engagements": 210517,
+    "views": 3069392,
+    "engagements": 218600,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -5066,18 +5066,18 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 54835,
-        "eng": 0,
-        "er": 0.0,
-        "cpm": 0.0,
+        "impressions": 137095,
+        "eng": 8083,
+        "er": 5.9,
+        "cpm": 6.18,
         "color": "#1877F2",
-        "delta": -100.0,
+        "delta": 285.4,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 0,
-        "views": 19774
+        "organicImpressions": 225,
+        "views": 79825
       }
     ],
     "topPosts": [
@@ -5114,8 +5114,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-10-02T13:33:14-07:00"
       },
       {
-        "id": "3994220467938265641",
+        "id": "1993747804640673",
         "rank": 3,
+        "partner": "Accenture",
+        "platform": "Facebook",
+        "format": "Feed video",
+        "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
+        "er": 13.91,
+        "eng": 5381,
+        "reach": 27674,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.facebook.com/1993747804640673/",
+        "postedAt": "2026-09-25T15:25:16-07:00"
+      },
+      {
+        "id": "3994220467938265641",
+        "rank": 4,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5130,8 +5146,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-09-25T13:33:05-07:00"
       },
       {
+        "id": "1498751362298524",
+        "rank": 5,
+        "partner": "Accenture",
+        "platform": "Facebook",
+        "format": "Feed video",
+        "quote": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40 Presented by @accenture",
+        "er": 6.2,
+        "eng": 2702,
+        "reach": 32377,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.facebook.com/1498751362298524/",
+        "postedAt": "2026-09-10T11:33:44-07:00"
+      },
+      {
         "id": "3981838900760154441",
-        "rank": 4,
+        "rank": 6,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5159,7 +5191,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-10-05T20:05:13Z"
   },
   {
@@ -5323,7 +5355,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5445,7 +5477,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5778,7 +5810,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": "2026-10-13T14:18:13Z"
   },
   {
@@ -5909,7 +5941,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T15:59:06Z",
+    "lastUpdatedMs": "2026-10-14T16:47:37Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6012,8 +6044,24 @@ window.TOP_POSTS = [
     "postedAt": "2026-05-31T12:00:00-07:00"
   },
   {
-    "id": "2060106917108720039",
+    "id": "1993747804640673",
     "rank": 7,
+    "partner": "Accenture",
+    "platform": "Facebook",
+    "format": "Feed video",
+    "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
+    "er": 13.91,
+    "eng": 5381,
+    "reach": 27674,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.facebook.com/1993747804640673/",
+    "postedAt": "2026-09-25T15:25:16-07:00"
+  },
+  {
+    "id": "2060106917108720039",
+    "rank": 8,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -6026,22 +6074,6 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://twitter.com/FOS/status/2060106917108720039",
     "postedAt": "2026-05-28T14:12:18-07:00"
-  },
-  {
-    "id": "2061923310552650063",
-    "rank": 8,
-    "partner": "RBC",
-    "platform": "X",
-    "format": "Feed video",
-    "quote": "We caught up with @USWNT legend @HeatherOReilly at @TST7v7\u2014she shares her Mt. Rushmore of soccer\u2026",
-    "er": 11.05,
-    "eng": 30973,
-    "reach": 1641,
-    "organic": 100,
-    "metric": "er",
-    "insight": "",
-    "url": "https://twitter.com/FOS/status/2061923310552650063",
-    "postedAt": "2026-06-02T14:30:00-07:00"
   }
 ];
 
@@ -6212,18 +6244,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7098521,
-    "eng": 28995,
-    "er": 0.41,
-    "cpm": 3.83,
+    "impressions": 7180781,
+    "eng": 37078,
+    "er": 0.52,
+    "cpm": 3.91,
     "color": "#1877F2",
-    "delta": -73.3,
+    "delta": -66.3,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 1623549
+    "views": 1683600
   },
   {
     "name": "LinkedIn",
@@ -39426,6 +39458,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-09-08T11:30:31-07:00"
     },
     {
+      "title": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40  Presented by @accenture",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 43586,
+      "paidImpr": 43542,
+      "orgImpr": 44,
+      "views": 32377,
+      "reach": 0,
+      "eng": 2702,
+      "er": 6.2,
+      "spend": 336.77,
+      "watchTimeMin": 18092.7,
+      "clicks": 2620,
+      "ctr": 6.02,
+      "cpc": 0.13,
+      "cpm": 7.73,
+      "videoViews100Pct": 399,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1498751362298524/",
+      "postedAt": "2026-09-10T11:33:44-07:00"
+    },
+    {
       "title": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
@@ -39470,6 +39525,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DduUlpyDgop/",
       "postedAt": "2026-09-25T13:33:05-07:00"
+    },
+    {
+      "title": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's everything to know.\u2060",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 38674,
+      "paidImpr": 38493,
+      "orgImpr": 181,
+      "views": 27674,
+      "reach": 0,
+      "eng": 5381,
+      "er": 13.91,
+      "spend": 508.92,
+      "watchTimeMin": 9425.7,
+      "clicks": 5156,
+      "ctr": 13.39,
+      "cpc": 0.1,
+      "cpm": 13.22,
+      "videoViews100Pct": 973,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1993747804640673/",
+      "postedAt": "2026-09-25T15:25:16-07:00"
     },
     {
       "title": "London's NFL home",
@@ -45076,7 +45154,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.43,
     "impressions": 7429416,
     "paidImpressions": 4547228,
-    "pctOfTotal": 11.0,
+    "pctOfTotal": 10.9,
     "mvmCpm": 2.24,
     "mvmDeltaPct": -36.3,
     "color": "#000000"
@@ -45103,12 +45181,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.96,
-    "impressions": 1285888,
-    "paidImpressions": 1058164,
-    "pctOfTotal": 1.9,
+    "cpm": 4.41,
+    "impressions": 1368148,
+    "paidImpressions": 1140199,
+    "pctOfTotal": 2.0,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -5.8,
+    "mvmDeltaPct": 5.1,
     "color": "#1877F2"
   },
   {
@@ -45123,7 +45201,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.09;
+window.PORTFOLIO_CPM_BLEND = 2.1;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
