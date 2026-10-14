@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-14T13:12:59Z";
+window.LAST_REFRESHED = "2026-10-14T15:46:22Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:21Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 40751497,
+      "delivered": 40760459,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 2.91,
     "cpm": 1.87,
     "episodes": 18,
-    "posts": 390,
+    "posts": 391,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 11732235,
-    "engagements": 1187603,
+    "engagements": 1187613,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -454,17 +454,17 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4866209,
-        "eng": 13778,
+        "impressions": 4875171,
+        "eng": 13788,
         "er": 0.28,
         "cpm": 1.48,
         "color": "#1d1d1f",
-        "delta": -69.2,
+        "delta": -69.3,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1697550,
+        "organicImpressions": 1706512,
         "views": 426827
       },
       {
@@ -817,14 +817,14 @@ window.CAMPAIGNS = [
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace to over-deliver \u2014 $9K (12%) of budget unspent with 78 days left.",
-        "body": "Impressions are 98% delivered while only 88% of budget has been spent \u2014 only 949K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "body": "Impressions are 98% delivered while only 88% of budget has been spent \u2014 only 940K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "E*TRADE \u00b7 Budget surplus"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:21Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:21Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:21Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:21Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:21Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:21Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4783,7 +4783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4995,7 +4995,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5159,7 +5159,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-10-05T20:05:13Z"
   },
   {
@@ -5323,7 +5323,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5445,7 +5445,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5778,7 +5778,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": "2026-10-13T14:18:13Z"
   },
   {
@@ -5909,7 +5909,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-14T13:12:58Z",
+    "lastUpdatedMs": "2026-10-14T15:46:22Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6196,8 +6196,8 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 29973959,
-    "eng": 646218,
+    "impressions": 29982921,
+    "eng": 646228,
     "er": 2.16,
     "cpm": 1.67,
     "color": "#1d1d1f",
@@ -8426,10 +8426,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mike Repole on Sports Ownership",
       "date": "Feb 3",
       "total": {
-        "impr": 2220527,
+        "impr": 2229489,
         "views": 894756,
-        "er": 2.42,
-        "eng": 82446,
+        "er": 2.41,
+        "eng": 82456,
         "spend": 3366.68
       },
       "perChannel": [
@@ -8466,17 +8466,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 300534,
+          "impr": 309496,
           "paidImpr": 188875,
-          "orgImpr": 71743,
+          "orgImpr": 80705,
           "views": 45294,
-          "eng": 403,
+          "eng": 413,
           "paidEng": 149,
-          "orgEng": 338,
+          "orgEng": 348,
           "er": 0.13,
           "cpm": 1.01,
           "spend": 190.0,
-          "posts": 8
+          "posts": 9
         },
         {
           "name": "YouTube Shorts",
@@ -8569,6 +8569,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 498.41,
           "url": null,
           "postedAt": null
+        },
+        {
+          "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 8962,
+          "paidImpr": 0,
+          "orgImpr": 8962,
+          "views": 0,
+          "eng": 10,
+          "er": 0.11,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2014810648002040166",
+          "postedAt": "2026-01-23T13:21:06-08:00"
         },
         {
           "title": "Sports entrepreneur Mike Repole joins @readDanwrite for an unfiltered conversation around:   \ud83d\udcb0 Building billion-dollar b",
@@ -23031,6 +23046,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": null
+    },
+    {
+      "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 8962,
+      "paidImpr": 0,
+      "orgImpr": 8962,
+      "views": 0,
+      "reach": 0,
+      "eng": 10,
+      "er": 0.11,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2014810648002040166",
+      "postedAt": "2026-01-23T13:21:06-08:00"
     },
     {
       "title": "Sports entrepreneur Mike Repole joins @readDanwrite for an unfiltered conversation around:   \ud83d\udcb0 Building billion-dollar b",
@@ -45046,7 +45084,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.75,
-    "impressions": 5469278,
+    "impressions": 5478240,
     "paidImpressions": 3545872,
     "pctOfTotal": 8.1,
     "mvmCpm": 1.24,
