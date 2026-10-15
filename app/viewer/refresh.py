@@ -621,6 +621,12 @@ def main() -> int:
     # Falls back to design sample for campaigns we can't compute.
     sample_episodes = sample.get("EPISODES_BY_CAMPAIGN", {})
     episodes_by_campaign: dict[str, list] = {}
+    # Per-video YouTube organic-impressions overrides (thumbnail impressions from
+    # YouTube Studio; MS can't report these reliably). Keyed by video ID, so it
+    # applies to whichever campaign owns the post — safe to run everywhere.
+    yt_organic_overrides = _load_youtube_organic_overrides(
+        REPO_ROOT / "config" / "youtube_organic_impressions.csv"
+    )
     for c in cfg["campaigns"]:
         c_id = c["id"]
         ep_defs = [
@@ -637,6 +643,9 @@ def main() -> int:
             for e in c.get("episodes", []) or []
         ]
         posts = posts_by_campaign.get(c_id, [])
+        # Apply per-video YouTube organic overrides before attribution so episode
+        # rollups and per-post tables both see the corrected numbers.
+        _apply_youtube_organic_overrides(posts, yt_organic_overrides)
         if ep_defs and posts:
             attributed = attribute_posts_to_episodes(posts, ep_defs)
             # Apply hardcoded YT organic-impressions overrides to the in-feed
@@ -1486,6 +1495,70 @@ def _apply_yt_organic_override(ep, posts: list[NormalizedPost]) -> None:
     # Force the boosting tag so downstream logic + audit tooling reads it
     # as boosted (it has both organic discovery and paid promotion).
     target.boosting = _Boost.BOOSTED
+
+
+_YT_VIDEO_ID = re.compile(r'(?:watch\?v=|shorts/|youtu\.be/|/embed/|/live/)([A-Za-z0-9_-]{11})')
+
+
+def _youtube_video_id(url: str | None) -> str | None:
+    """Pull the 11-char YouTube video ID out of any watch / shorts / youtu.be URL."""
+    if not url:
+        return None
+    m = _YT_VIDEO_ID.search(url)
+    return m.group(1) if m else None
+
+
+def _load_youtube_organic_overrides(path: Path) -> dict[str, int]:
+    """Load the per-video YouTube organic-impressions overrides CSV.
+
+    Source of truth for YouTube organic (thumbnail) impressions, which MS can't
+    report reliably. Keyed by YouTube video ID so it matches a post regardless
+    of whether the post URL is a watch / shorts / youtu.be link. The file keeps
+    the columns from the team's export; only `Link` and
+    `YouTube Thumbnail impressions` are read.
+    """
+    import csv as _csv
+    out: dict[str, int] = {}
+    if not path.exists():
+        return out
+    with path.open() as fh:
+        for row in _csv.DictReader(fh):
+            vid = _youtube_video_id(row.get("Link"))
+            raw = (row.get("YouTube Thumbnail impressions") or "").replace(",", "").strip()
+            if not vid or not raw:
+                continue
+            try:
+                out[vid] = int(float(raw))
+            except ValueError:
+                continue
+    return out
+
+
+def _apply_youtube_organic_overrides(posts: list[NormalizedPost], overrides: dict[str, int]) -> None:
+    """Set YouTube organic impressions per post from the overrides map (by video ID).
+
+    For each YouTube post whose video ID is in the map: organic impressions
+    become the override value, total = paid + organic, and the views/reach
+    organic fallbacks are pinned so the dashboard reads the override rather than
+    a stale MS value. Posts with paid delivery are tagged boosted. Mutates in
+    place; posts not in the map (or non-YouTube) are left untouched.
+    """
+    if not overrides:
+        return
+    for p in posts:
+        if p.platform is not Platform.YOUTUBE:
+            continue
+        vid = _youtube_video_id(p.post_url)
+        if not vid or vid not in overrides:
+            continue
+        org = overrides[vid]
+        paid = p.impressions_paid or 0
+        p.impressions_organic = org
+        p.impressions_total = paid + org
+        p.views_organic = org or None
+        p.reach_organic = org or None
+        if paid > 0:
+            p.boosting = Boosting.BOOSTED
 
 
 def _merge_facebook_organic_paid_pairs(posts: list[NormalizedPost]) -> list[NormalizedPost]:

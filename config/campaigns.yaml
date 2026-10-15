@@ -182,9 +182,10 @@ campaigns:
           - "LWtCVt9KnqY"                       # YT Shorts — "Who are the athletes…"
           - "3816686919355582288"               # IG — "Who are the minds…"
           - "urn:li:ugcPost:7420570894995005441" # LinkedIn — "This is Portfolio Players"
-      # yt_organic_impressions = hardcoded from YouTube Studio. MS/GAds don't
-      # reliably report organic impressions for YT long-form; the operator
-      # supplies the number directly here and the dashboard never zeroes it.
+      # YouTube organic (thumbnail) impressions for every PFP video are supplied
+      # per-video from YouTube Studio in config/youtube_organic_impressions.csv
+      # (matched by video ID). That CSV is the source of truth for YT organic;
+      # the old per-episode yt_organic_impressions overrides were removed.
       - id: ep1
         n: "Ep. 01"
         title: "Mike Repole on Sports Ownership"
@@ -196,7 +197,6 @@ campaigns:
                             #   — clip from Repole episode discussing LOVB / women's volleyball
                             #   investment. MS reports views=1,145 (used as impressions via the
                             #   YT-Shorts views-as-impressions floor).
-        yt_organic_impressions: 2147
       - id: ep2
         n: "Ep. 02"
         title: "Jon Patricof on Athletes Unlimited"
@@ -206,7 +206,6 @@ campaigns:
         exclude: []
         manual_posts:
           - "2024266065409098028"   # 2/18 threaded tweet linking to full Patricof episode
-        yt_organic_impressions: 593
       - id: ep3
         n: "Ep. 03"
         title: "Leslie Osborne on Women's Soccer"
@@ -215,14 +214,12 @@ campaigns:
         exclude: []
         manual_posts:
           - "2026779233784136168"   # 2/25 threaded tweet linking to full Osborne episode
-        yt_organic_impressions: 587
       - id: ep4
         n: "Ep. 04"
         title: "Paul Rabil on PLL Ownership"
         date: "Mar 31"
         match: ["PP Episode 4 -", "Rabil", "Premier Lacrosse", "PLL", "Capital Is Flooding"]
         exclude: []
-        yt_organic_impressions: 1446
       - id: ep5
         n: "Ep. 05"
         title: "Assia Grazioli-Venier on Women's Sports Investment"
@@ -237,7 +234,6 @@ campaigns:
         manual_posts:
           - "3865980741240680183"   # IG "If you use that narrative... no woman that's ever..." ($698.80)
           - "3860862608219404966"   # IG "interest in soccer in this country" ($798.52)
-        yt_organic_impressions: 1306
       - id: ep6
         n: "Ep. 06"
         title: "Allyson Felix on Women's Sports Investment"
@@ -253,21 +249,18 @@ campaigns:
                                     # which scored higher than Ep 6's keywords. The
                                     # User Tags column unambiguously says
                                     # "PP Episode 6 - Allyson Felix" — pin it here.
-        yt_organic_impressions: 1885
       - id: ep7
         n: "Ep. 07"
         title: "Brandon Marshall on the Athlete Media Empire"
         date: "Apr 21"
         match: ["PP Episode 7 -", "Brandon Marshall", "Marshall", "TV networks", "Athlete Media", "active player to do TV"]
         exclude: []
-        yt_organic_impressions: 6361
       - id: ep8
         n: "Ep. 08"
         title: "Dave Checketts on Sports Investing"
         date: "May 5"
         match: ["PP Episode 8 -", "Checketts", "Former Knicks", "Legendary NBA Exec", "Michael Jordan", "David Stern"]
         exclude: []
-        yt_organic_impressions: 10962
       - id: ep9
         n: "Ep. 09"
         title: "Mark Cuban Explains The Business of Owning an NBA Team"
@@ -295,7 +288,6 @@ campaigns:
           - "3901528950736512749"   # IG Story 5/20 — 2,413 views (no caption)
           - "3900714239756695378"   # IG Story 5/19 — 3,783 views (no caption)
           - "2054307306662138269"   # X teaser 5/12 — 4,456 impr ("Full episode coming next week")
-        yt_organic_impressions: 5768
       - id: ep10
         n: "Ep. 10"
         title: "Landon Donovan on Soccer in America"

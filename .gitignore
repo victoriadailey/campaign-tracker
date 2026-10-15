@@ -45,3 +45,6 @@ data/
 # CPM/CTR/VCR). Same reasoning — travels with the repo for the CI refresh.
 !config/benchmarks_paid_brandx.csv
 !config/benchmarks_paid_dist.csv
+# Per-video YouTube organic (thumbnail) impressions, pulled from YouTube Studio.
+# MS can't report these reliably; this is the source of truth. Travels with the repo.
+!config/youtube_organic_impressions.csv
