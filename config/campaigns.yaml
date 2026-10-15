@@ -1703,6 +1703,8 @@ campaigns:
         exclude: []
         impression_goal: 5_000_000
     sources:
+      x_ads:
+        - state_street_x_ads.csv
       youtube_paid:
         - state_street_yt_paid.csv
       # New "State Street" MS group (8908) — empty for now; posts land here once
