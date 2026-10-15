@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-15T15:45:32Z";
+window.LAST_REFRESHED = "2026-10-15T15:47:57Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:31Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:31Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T15:45:31Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4767,7 +4767,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4979,7 +4979,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5175,7 +5175,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-10-05T20:05:13Z"
   },
   {
@@ -5339,7 +5339,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5461,7 +5461,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5598,14 +5598,14 @@ window.CAMPAIGNS = [
       "goal": 35000000
     },
     "budget": {
-      "delivered": 9144.72,
+      "delivered": 10453.12,
       "goal": 44715.0
     },
     "color": "ft-2",
     "leadFormat": "Longform Video",
     "topChannel": "TikTok",
     "er": 1.0,
-    "cpm": 2.35,
+    "cpm": 2.49,
     "episodes": 1,
     "posts": 9,
     "blurb": "State Street brand campaign \u2014 From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video).",
@@ -5669,14 +5669,14 @@ window.CAMPAIGNS = [
         "impressions": 200266,
         "eng": 67,
         "er": 0.03,
-        "cpm": 0.0,
+        "cpm": 4.31,
         "color": "#1d1d1f",
         "delta": -96.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 200266,
+        "organicImpressions": 0,
         "views": 0
       },
       {
@@ -5771,13 +5771,6 @@ window.CAMPAIGNS = [
         "meta": "State Street \u00b7 Facebook"
       },
       {
-        "tag": "OPPORTUNITY",
-        "kind": "info",
-        "headline": "X resonating \u2014 100% of delivery is organic.",
-        "body": "200K organic impressions on X (0.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit X; lean into more of the same.",
-        "meta": "State Street \u00b7 X"
-      },
-      {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace for 45% of goal (15.8M of 35.0M) with 77 days left.",
@@ -5810,8 +5803,8 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
-    "lastUpdatedExports": "2026-10-13T14:18:13Z"
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
+    "lastUpdatedExports": "2026-10-15T15:44:10Z"
   },
   {
     "id": "just_ingredients_2026",
@@ -5941,7 +5934,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T15:45:32Z",
+    "lastUpdatedMs": "2026-10-15T15:47:56Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6231,7 +6224,7 @@ window.CHANNELS = [
     "impressions": 29982921,
     "eng": 646228,
     "er": 2.16,
-    "cpm": 1.67,
+    "cpm": 1.7,
     "color": "#1d1d1f",
     "delta": 134.3,
     "bench": {
@@ -6360,15 +6353,6 @@ window.SIGNALS = [
     "meta": "Next League \u00b7 X",
     "campaignId": "next_league_future_of_sports",
     "campaignPartner": "Next League"
-  },
-  {
-    "tag": "OPPORTUNITY",
-    "kind": "info",
-    "headline": "X resonating \u2014 100% of delivery is organic.",
-    "body": "200K organic impressions on X (0.0% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit X; lean into more of the same.",
-    "meta": "State Street \u00b7 X",
-    "campaignId": "state_street",
-    "campaignPartner": "State Street"
   },
   {
     "tag": "WIN",
@@ -21491,7 +21475,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "views": 853922,
         "er": 3.63,
         "eng": 54288,
-        "spend": 5397.72
+        "spend": 6706.12
       },
       "perChannel": [
         {
@@ -21526,17 +21510,17 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "name": "X",
-          "distKind": "organic",
+          "distKind": "paid",
           "impr": 200266,
-          "paidImpr": 0,
-          "orgImpr": 200266,
+          "paidImpr": 303414,
+          "orgImpr": 0,
           "views": 0,
           "eng": 67,
-          "paidEng": 0,
-          "orgEng": 67,
+          "paidEng": 700,
+          "orgEng": 0,
           "er": 0.03,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "cpm": 4.31,
+          "spend": 1308.4,
           "posts": 1
         },
         {
@@ -21575,14 +21559,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "Cheryl Reeve just won her fifth @StateStreetIM SPY WNBA Coach of the Year Award, the most by any coach in major American",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
+          "distKind": "paid",
           "impr": 200266,
-          "paidImpr": 0,
-          "orgImpr": 200266,
+          "paidImpr": 303414,
+          "orgImpr": 0,
           "views": 0,
           "eng": 67,
           "er": 0.03,
-          "spend": 0,
+          "spend": 1308.4,
           "url": "https://twitter.com/FOS/status/2108610946516099461",
           "postedAt": "2026-10-09T10:30:00-07:00"
         },
@@ -21660,10 +21644,6 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "kind": "pos",
           "text": "Facebook leading with 2.4% ER on 15.6K impr."
-        },
-        {
-          "kind": "pos",
-          "text": "X resonating \u2014 100% organic share on 200.3K impr."
         }
       ],
       "impressionGoal": 5000000
@@ -39954,20 +39934,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "Cheryl Reeve just won her fifth @StateStreetIM SPY WNBA Coach of the Year Award, the most by any coach in major American",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
+      "distKind": "paid",
       "impr": 200266,
-      "paidImpr": 0,
-      "orgImpr": 200266,
+      "paidImpr": 303414,
+      "orgImpr": 0,
       "views": 0,
       "reach": 0,
       "eng": 67,
       "er": 0.03,
-      "spend": 0,
+      "spend": 1308.4,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 4.31,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2108610946516099461",
@@ -40524,6 +40504,10 @@ window.UPLOAD_TARGETS = {
     {
       "file": "state_street_yt_paid.csv",
       "label": "Google Ads"
+    },
+    {
+      "file": "state_street_x_ads.csv",
+      "label": "X Ads"
     }
   ],
   "just_ingredients_2026": []
@@ -40750,9 +40734,7 @@ window.DATA_HEALTH = {
     "[threem] excluded 1 post(s) via campaign exclude ['1530555005750751']"
   ],
   "msErrors": [],
-  "orphanFiles": [
-    "state_street_x_ads.csv"
-  ],
+  "orphanFiles": [],
   "potentialDuplicates": []
 };
 
@@ -41492,6 +41474,17 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_street_yt_paid.csv",
     "fileSizeKb": 0.3,
+    "lastModified": "2026-10-15",
+    "exists": true,
+    "postsContributed": 0
+  },
+  {
+    "campaignId": "state_street",
+    "partner": "State Street",
+    "sourceKind": "x_ads",
+    "sourceLabel": "X Ads",
+    "filename": "state_street_x_ads.csv",
+    "fileSizeKb": 0.4,
     "lastModified": "2026-10-15",
     "exists": true,
     "postsContributed": 0
@@ -45232,12 +45225,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "X",
-    "cpm": 1.75,
+    "cpm": 1.95,
     "impressions": 5478240,
-    "paidImpressions": 3545872,
+    "paidImpressions": 3849286,
     "pctOfTotal": 8.0,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 41.1,
+    "mvmDeltaPct": 57.4,
     "color": "#1d1d1f"
   },
   {
@@ -45272,7 +45265,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.1;
+window.PORTFOLIO_CPM_BLEND = 2.12;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
