@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-15T13:10:50Z";
+window.LAST_REFRESHED = "2026-10-15T15:33:45Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4767,7 +4767,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-09-25T15:22:45Z"
   },
   {
@@ -4979,7 +4979,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5175,7 +5175,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-10-05T20:05:13Z"
   },
   {
@@ -5339,7 +5339,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5461,7 +5461,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5594,7 +5594,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 5738021,
+      "delivered": 5744423,
       "goal": 35000000
     },
     "budget": {
@@ -5607,10 +5607,10 @@ window.CAMPAIGNS = [
     "er": 1.0,
     "cpm": 2.35,
     "episodes": 1,
-    "posts": 6,
+    "posts": 9,
     "blurb": "State Street brand campaign \u2014 From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video).",
-    "views": 5051766,
-    "engagements": 57284,
+    "views": 5058168,
+    "engagements": 57445,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -5618,8 +5618,8 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 4242706,
-        "eng": 2996,
+        "impressions": 4243020,
+        "eng": 3013,
         "er": 0.07,
         "cpm": 1.42,
         "color": "#000000",
@@ -5628,8 +5628,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 1597676,
-        "views": 4197844
+        "organicImpressions": 1597990,
+        "views": 4198158
       },
       {
         "name": "YouTube Shorts",
@@ -5650,18 +5650,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 608202,
-        "eng": 8717,
-        "er": 1.43,
+        "impressions": 614290,
+        "eng": 8861,
+        "er": 1.44,
         "cpm": 5.23,
         "color": "#E4405F",
-        "delta": -56.7,
+        "delta": -56.4,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 33336,
-        "views": 213722
+        "organicImpressions": 39424,
+        "views": 219810
       },
       {
         "name": "X",
@@ -5728,6 +5728,22 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.facebook.com/1605251978281053/",
         "postedAt": "2026-10-09T10:30:02-07:00"
+      },
+      {
+        "id": "4008036711255025151",
+        "rank": 2,
+        "partner": "State Street",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.\u2026",
+        "er": 2.37,
+        "eng": 144,
+        "reach": 6088,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DefaCdFFKX_/",
+        "postedAt": "2026-10-14T15:03:18-07:00"
       }
     ],
     "topPostsOrganic": [
@@ -5794,7 +5810,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": "2026-10-13T14:18:13Z"
   },
   {
@@ -5925,7 +5941,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-15T13:10:49Z",
+    "lastUpdatedMs": "2026-10-15T15:33:44Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6180,8 +6196,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 30849527,
-    "eng": 484360,
+    "impressions": 30855615,
+    "eng": 484504,
     "er": 1.57,
     "cpm": 4.51,
     "color": "#E4405F",
@@ -6191,13 +6207,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 28691053
+    "views": 28697141
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 30279970,
-    "eng": 60858,
+    "impressions": 30280284,
+    "eng": 60875,
     "er": 0.2,
     "cpm": 2.06,
     "color": "#000000",
@@ -6207,7 +6223,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 29955892
+    "views": 29956206
   },
   {
     "name": "X",
@@ -40071,6 +40087,75 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7694680428040441101",
       "postedAt": "2026-10-09T10:30:00-07:00"
+    },
+    {
+      "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story. #TheComeUp Presented by State",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 314,
+      "paidImpr": 0,
+      "orgImpr": 314,
+      "views": 314,
+      "reach": 0,
+      "eng": 17,
+      "er": 5.41,
+      "spend": 0,
+      "watchTimeMin": 37.3,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7696583810971995405",
+      "postedAt": "2026-10-14T10:56:20-07:00"
+    },
+    {
+      "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/sVQtENkIWko",
+      "postedAt": "2026-10-14T11:00:28-07:00"
+    },
+    {
+      "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story. #TheComeUp\u2060 \u2060 Presented by @s",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6088,
+      "paidImpr": 0,
+      "orgImpr": 6088,
+      "views": 6088,
+      "reach": 5014,
+      "eng": 144,
+      "er": 2.37,
+      "spend": 0,
+      "watchTimeMin": 10.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DefaCdFFKX_/",
+      "postedAt": "2026-10-14T15:03:18-07:00"
     }
   ],
   "just_ingredients_2026": [
@@ -45116,7 +45201,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.2,
-    "impressions": 17229775,
+    "impressions": 17235863,
     "paidImpressions": 15082196,
     "pctOfTotal": 25.2,
     "mvmCpm": 5.62,
@@ -45136,7 +45221,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.44,
-    "impressions": 7585126,
+    "impressions": 7585440,
     "paidImpressions": 4670187,
     "pctOfTotal": 11.1,
     "mvmCpm": 2.24,
