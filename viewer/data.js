@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-16T19:31:35Z";
+window.LAST_REFRESHED = "2026-10-16T20:45:23Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:34Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4743,7 +4743,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-10-16T13:56:29Z"
   },
   {
@@ -4955,7 +4955,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -4967,26 +4967,26 @@ window.CAMPAIGNS = [
     "flight": "Sep 1 \u2014 Nov 30, 2026",
     "elapsedPct": 50.0,
     "daysLeft": 45,
-    "status": "Pacing Ahead",
+    "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 5491491,
+      "delivered": 5668644,
       "goal": 5600000
     },
     "budget": {
-      "delivered": 6719.93,
+      "delivered": 7318.87,
       "goal": 22634.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 3.99,
-    "cpm": 1.27,
+    "er": 4.27,
+    "cpm": 1.33,
     "episodes": 0,
-    "posts": 14,
+    "posts": 15,
     "blurb": "An 8 video series with external creator, Evan Hand",
-    "views": 3110099,
-    "engagements": 219036,
+    "views": 3122415,
+    "engagements": 241912,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -4994,18 +4994,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 4845575,
-        "eng": 144986,
-        "er": 2.99,
-        "cpm": 0.67,
+        "impressions": 5022728,
+        "eng": 167862,
+        "er": 3.34,
+        "cpm": 0.76,
         "color": "#FF0033",
-        "delta": -85.0,
+        "delta": -83.3,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 26532,
-        "views": 2532824
+        "views": 2545140
       },
       {
         "name": "Instagram",
@@ -5146,13 +5146,21 @@ window.CAMPAIGNS = [
         "headline": "Instagram post at 20.9% ER \u2014 6.3\u00d7 the benchmark.",
         "body": "\"The Jaguars have built a second home across the pond, but why London? It all sta\u2026\" \u2014 180K reach, 40K engagements (47% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
         "meta": "Accenture \u00b7 Instagram"
+      },
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "milestone": true,
+        "headline": "Goal hit with $15K (68%) of budget still unspent.",
+        "body": "Delivered 101% of the 5.6M impression goal on only 32% of the $23K budget \u2014 $15K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "meta": "Accenture \u00b7 Goal hit"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
-    "lastUpdatedExports": "2026-10-05T20:05:13Z"
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
+    "lastUpdatedExports": "2026-10-16T20:44:06Z"
   },
   {
     "id": "daktronics_stadiumstatus",
@@ -5315,7 +5323,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5437,7 +5445,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5825,7 +5833,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": "2026-10-15T15:44:10Z"
   },
   {
@@ -5840,7 +5848,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 702798,
+      "delivered": 723566,
       "goal": 6300000
     },
     "budget": {
@@ -5850,13 +5858,13 @@ window.CAMPAIGNS = [
     "color": "ft-1",
     "leadFormat": "Short-form Video",
     "topChannel": "Facebook",
-    "er": 1.56,
+    "er": 1.61,
     "cpm": 3.31,
     "episodes": 0,
-    "posts": 3,
+    "posts": 7,
     "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
-    "views": 60258,
-    "engagements": 10956,
+    "views": 73674,
+    "engagements": 11617,
     "goalSplit": [],
     "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
     "lifecycle": "active",
@@ -5880,33 +5888,65 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 168354,
-        "eng": 5734,
-        "er": 3.41,
+        "impressions": 177655,
+        "eng": 6033,
+        "er": 3.4,
         "cpm": 4.86,
         "color": "#E4405F",
-        "delta": 2.9,
+        "delta": 2.6,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 31583,
-        "views": 60258
+        "organicImpressions": 40884,
+        "views": 69559
       },
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 42919,
-        "eng": 788,
-        "er": 1.84,
+        "impressions": 54000,
+        "eng": 1132,
+        "er": 2.1,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -51.2,
+        "delta": -44.2,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 42919,
+        "organicImpressions": 54000,
+        "views": 3729
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 386,
+        "eng": 18,
+        "er": 4.66,
+        "cpm": 0.0,
+        "color": "#000000",
+        "delta": 129.7,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 386,
+        "views": 386
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 0,
+        "eng": 0,
+        "er": 0.0,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -100.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 0,
         "views": 0
       }
     ],
@@ -5926,6 +5966,38 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.instagram.com/p/DePlY1GHRtQ/",
         "postedAt": "2026-10-08T11:31:50-07:00"
+      },
+      {
+        "id": "4008625389639110372",
+        "rank": 2,
+        "partner": "Just Ingredients",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet\u2026",
+        "er": 3.21,
+        "eng": 299,
+        "reach": 9301,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
+        "postedAt": "2026-10-15T10:33:06-07:00"
+      },
+      {
+        "id": "urn:li:ugcPost:7516530023617470464",
+        "rank": 3,
+        "partner": "Just Ingredients",
+        "platform": "LinkedIn",
+        "format": "Feed video",
+        "quote": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet\u2026",
+        "er": 3.1,
+        "eng": 344,
+        "reach": 3729,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
+        "postedAt": "2026-10-15T13:30:04-07:00"
       }
     ],
     "topPostsOrganic": [
@@ -5948,15 +6020,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 15% of goal (937K of 6.3M) with 15 days left.",
-        "body": "At the current rate the campaign will fall ~5.4M impressions short of the 6.3M goal. Need to deliver 373K impr/day (23.9\u00d7 the current 16K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 15% of goal (965K of 6.3M) with 15 days left.",
+        "body": "At the current rate the campaign will fall ~5.3M impressions short of the 6.3M goal. Need to deliver 372K impr/day (23.1\u00d7 the current 16K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Just Ingredients \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-16T19:31:35Z",
+    "lastUpdatedMs": "2026-10-16T20:45:22Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6195,24 +6267,24 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 106035076,
-    "eng": 2379848,
-    "er": 2.24,
+    "impressions": 106212229,
+    "eng": 2402724,
+    "er": 2.26,
     "cpm": 1.09,
     "color": "#E00922",
-    "delta": -88.8,
+    "delta": -88.7,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 22050404
+    "views": 22062720
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 30992294,
-    "eng": 490312,
+    "impressions": 31001595,
+    "eng": 490611,
     "er": 1.58,
     "cpm": 4.51,
     "color": "#E4405F",
@@ -6222,13 +6294,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 28832706
+    "views": 28842007
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 30551000,
-    "eng": 61101,
+    "impressions": 30551386,
+    "eng": 61119,
     "er": 0.2,
     "cpm": 2.06,
     "color": "#000000",
@@ -6238,7 +6310,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 30220531
+    "views": 30220917
   },
   {
     "name": "X",
@@ -6275,8 +6347,8 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2403272,
-    "eng": 78680,
+    "impressions": 2414353,
+    "eng": 79024,
     "er": 3.27,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -6286,7 +6358,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 992868
+    "views": 996597
   },
   {
     "name": "Snapchat",
@@ -6343,8 +6415,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 15% of goal (937K of 6.3M) with 15 days left.",
-    "body": "At the current rate the campaign will fall ~5.4M impressions short of the 6.3M goal. Need to deliver 373K impr/day (23.9\u00d7 the current 16K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 15% of goal (965K of 6.3M) with 15 days left.",
+    "body": "At the current rate the campaign will fall ~5.3M impressions short of the 6.3M goal. Need to deliver 372K impr/day (23.1\u00d7 the current 16K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Just Ingredients \u00b7 Pacing",
     "campaignId": "just_ingredients_2026",
     "campaignPartner": "Just Ingredients"
@@ -6373,6 +6445,16 @@ window.SIGNALS = [
     "headline": "Instagram post at 20.9% ER \u2014 6.3\u00d7 the benchmark.",
     "body": "\"The Jaguars have built a second home across the pond, but why London? It all sta\u2026\" \u2014 180K reach, 40K engagements (47% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
     "meta": "Accenture \u00b7 Instagram",
+    "campaignId": "accenture_external_creator",
+    "campaignPartner": "Accenture"
+  },
+  {
+    "tag": "WIN",
+    "kind": "pos",
+    "milestone": true,
+    "headline": "Goal hit with $15K (68%) of budget still unspent.",
+    "body": "Delivered 101% of the 5.6M impression goal on only 32% of the $23K budget \u2014 $15K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "meta": "Accenture \u00b7 Goal hit",
     "campaignId": "accenture_external_creator",
     "campaignPartner": "Accenture"
   }
@@ -39650,9 +39732,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1753,
       "views": 147290,
       "reach": 0,
-      "eng": 100,
-      "er": 0.07,
-      "spend": 0,
+      "eng": 14942,
+      "er": 10.02,
+      "spend": 497.17,
       "watchTimeMin": 16873.3,
       "clicks": null,
       "ctr": 0.0,
@@ -39714,14 +39796,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 152637,
-      "paidImpr": 147422,
+      "impr": 182413,
+      "paidImpr": 177198,
       "orgImpr": 5215,
       "views": 144323,
       "reach": 0,
-      "eng": 15040,
-      "er": 9.85,
-      "spend": 497.33,
+      "eng": 23074,
+      "er": 12.65,
+      "spend": 599.1,
       "watchTimeMin": 24587.8,
       "clicks": null,
       "ctr": 0.0,
@@ -40456,6 +40538,98 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7514024176131690497",
       "postedAt": "2026-10-08T13:30:04-07:00"
+    },
+    {
+      "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 386,
+      "paidImpr": 0,
+      "orgImpr": 386,
+      "views": 386,
+      "reach": 0,
+      "eng": 18,
+      "er": 4.66,
+      "spend": 0,
+      "watchTimeMin": 81.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7696926297116937485",
+      "postedAt": "2026-10-15T10:30:00-07:00"
+    },
+    {
+      "title": "This WNBA player won a championship then announced she was pregnant, and everything changed.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/IXp2DUsENVw",
+      "postedAt": "2026-10-15T10:30:26-07:00"
+    },
+    {
+      "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 9301,
+      "paidImpr": 0,
+      "orgImpr": 9301,
+      "views": 9301,
+      "reach": 7641,
+      "eng": 299,
+      "er": 3.21,
+      "spend": 0,
+      "watchTimeMin": 37.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
+      "postedAt": "2026-10-15T10:33:06-07:00"
+    },
+    {
+      "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 11081,
+      "paidImpr": 0,
+      "orgImpr": 11081,
+      "views": 3729,
+      "reach": 0,
+      "eng": 344,
+      "er": 3.1,
+      "spend": 0,
+      "watchTimeMin": 999.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
+      "postedAt": "2026-10-15T13:30:04-07:00"
     }
   ]
 };
@@ -40989,6 +41163,10 @@ window.DATA_HEALTH = {
 
 window.PULSE_STATE = {
   "goalHit": [
+    {
+      "id": "accenture_external_creator",
+      "date": "2026-10-16"
+    },
     {
       "id": "adp",
       "date": "2026-09-01"
@@ -41667,10 +41845,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "accenture_external_creator_yt_paid.csv",
-    "fileSizeKb": 0.5,
+    "fileSizeKb": 0.6,
     "lastModified": "2026-10-16",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 4
   },
   {
     "campaignId": "daktronics_stadiumstatus",
@@ -45437,7 +45615,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.59,
     "impressions": 25014065,
     "paidImpressions": 22964422,
-    "pctOfTotal": 35.5,
+    "pctOfTotal": 35.4,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 11.2,
     "color": "#E00922"
@@ -45445,7 +45623,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.2,
-    "impressions": 17372524,
+    "impressions": 17381825,
     "paidImpressions": 15206624,
     "pctOfTotal": 24.6,
     "mvmCpm": 5.62,
@@ -45454,18 +45632,18 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.8,
-    "impressions": 10828865,
-    "paidImpressions": 10581100,
-    "pctOfTotal": 15.3,
+    "cpm": 1.82,
+    "impressions": 11006018,
+    "paidImpressions": 10758253,
+    "pctOfTotal": 15.6,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -43.8,
+    "mvmDeltaPct": -43.0,
     "color": "#FF0033"
   },
   {
     "name": "TikTok",
     "cpm": 1.47,
-    "impressions": 7856146,
+    "impressions": 7856532,
     "paidImpressions": 4823529,
     "pctOfTotal": 11.1,
     "mvmCpm": 2.24,
@@ -45485,7 +45663,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1660830,
+    "impressions": 1671911,
     "paidImpressions": 0,
     "pctOfTotal": 2.4,
     "mvmCpm": null,
