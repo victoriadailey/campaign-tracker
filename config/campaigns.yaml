@@ -1721,3 +1721,21 @@ campaigns:
     sources:
       measure_studio_group_ids:
         - 9135
+
+  - id: jlab_thecomeup
+    partner: JLab
+    series: JLab x The Come Up
+    series_italic: Up
+    type: social
+    benchmark_category: "Multimedia Reporter-Led - Franchise"
+    lifecycle: active
+    flight_start: 2026-10-01
+    flight_end: 2026-10-31
+    impression_goal: 3000000
+    budget_goal: 5500
+    color: ft-1
+    lead_format: "Short-form Video"
+    blurb: 1 The Come Up video about Darian Mensah
+    sources:
+      measure_studio_group_ids:
+        - 9229
