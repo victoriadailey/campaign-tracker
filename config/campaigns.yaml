@@ -1719,6 +1719,8 @@ campaigns:
     lead_format: "Short-form Video"
     blurb: "The Come Up and Breaking Barriers — bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling"
     sources:
+      youtube_paid:
+        - just_ingredients_2026_yt_paid.csv
       measure_studio_group_ids:
         - 9135
 
