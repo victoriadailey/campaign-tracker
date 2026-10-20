@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-20T13:45:51Z";
+window.LAST_REFRESHED = "2026-10-20T15:48:56Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 40779830,
+      "delivered": 40773711,
       "goal": 41700000
     },
     "budget": {
@@ -392,13 +392,13 @@ window.CAMPAIGNS = [
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.91,
+    "er": 2.9,
     "cpm": 1.87,
     "episodes": 18,
-    "posts": 391,
+    "posts": 388,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 11739611,
-    "engagements": 1187962,
+    "views": 11733492,
+    "engagements": 1182589,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -546,22 +546,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 12603,
         "views": 12603
-      },
-      {
-        "name": "Snapchat",
-        "italic": "Snapchat",
-        "impressions": 6119,
-        "eng": 5373,
-        "er": 87.81,
-        "cpm": 0.0,
-        "color": "#666666",
-        "delta": 0.0,
-        "bench": {
-          "er": 0.0,
-          "cpm": 0.0
-        },
-        "organicImpressions": 6119,
-        "views": 6119
       }
     ],
     "topPosts": [
@@ -817,14 +801,14 @@ window.CAMPAIGNS = [
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace to over-deliver \u2014 $9K (12%) of budget unspent with 72 days left.",
-        "body": "Impressions are 98% delivered while only 88% of budget has been spent \u2014 only 920K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "body": "Impressions are 98% delivered while only 88% of budget has been spent \u2014 only 926K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "E*TRADE \u00b7 Budget surplus"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:55Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:55Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:55Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:55Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4042,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4567,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4743,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4955,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5175,7 +5159,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-10-16T20:44:06Z"
   },
   {
@@ -5339,7 +5323,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5461,7 +5445,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5594,7 +5578,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 13216225,
+      "delivered": 13220770,
       "goal": 35000000
     },
     "budget": {
@@ -5607,10 +5591,10 @@ window.CAMPAIGNS = [
     "er": 0.91,
     "cpm": 1.47,
     "episodes": 3,
-    "posts": 19,
+    "posts": 22,
     "blurb": "State Street brand campaign \u2014 From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video).",
-    "views": 7728268,
-    "engagements": 119734,
+    "views": 7732813,
+    "engagements": 119908,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -5618,18 +5602,18 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 6081915,
-        "eng": 5118,
+        "impressions": 6082112,
+        "eng": 5127,
         "er": 0.08,
         "cpm": 1.43,
         "color": "#000000",
-        "delta": -95.9,
+        "delta": -95.8,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 2457085,
-        "views": 6013915
+        "organicImpressions": 2457282,
+        "views": 6014112
       },
       {
         "name": "YouTube In-feed",
@@ -5682,18 +5666,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1063960,
-        "eng": 21980,
+        "impressions": 1068308,
+        "eng": 22145,
         "er": 2.07,
         "cpm": 4.86,
         "color": "#E4405F",
-        "delta": -37.6,
+        "delta": -37.4,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 58345,
-        "views": 663332
+        "organicImpressions": 62693,
+        "views": 667680
       },
       {
         "name": "X",
@@ -5746,8 +5730,24 @@ window.CAMPAIGNS = [
     ],
     "topPosts": [
       {
-        "id": "4008036711255025151",
+        "id": "4011735904032491084",
         "rank": 1,
+        "partner": "State Street",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and\u2026",
+        "er": 3.79,
+        "eng": 165,
+        "reach": 4348,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DesjIy0iYZM/",
+        "postedAt": "2026-10-19T17:33:11-07:00"
+      },
+      {
+        "id": "4008036711255025151",
+        "rank": 2,
         "partner": "State Street",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5763,7 +5763,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4008791562091686482",
-        "rank": 2,
+        "rank": 3,
         "partner": "State Street",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5779,7 +5779,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "1605251978281053",
-        "rank": 3,
+        "rank": 4,
         "partner": "State Street",
         "platform": "Facebook",
         "format": "Image post",
@@ -5865,7 +5865,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": "2026-10-20T13:44:41Z"
   },
   {
@@ -6113,7 +6113,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": ""
   },
   {
@@ -6290,7 +6290,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedMs": "2026-10-20T15:48:56Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6545,8 +6545,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 32799913,
-    "eng": 63759,
+    "impressions": 32800110,
+    "eng": 63768,
     "er": 0.19,
     "cpm": 2.04,
     "color": "#000000",
@@ -6556,13 +6556,13 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 32440150
+    "views": 32440347
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 31589835,
-    "eng": 515855,
+    "impressions": 31594183,
+    "eng": 516020,
     "er": 1.63,
     "cpm": 4.52,
     "color": "#E4405F",
@@ -6572,7 +6572,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 29423929
+    "views": 29428277
   },
   {
     "name": "X",
@@ -6621,22 +6621,6 @@ window.CHANNELS = [
     },
     "organicImpressions": 0,
     "views": 1005384
-  },
-  {
-    "name": "Snapchat",
-    "italic": "Snapchat",
-    "impressions": 6119,
-    "eng": 5373,
-    "er": 87.81,
-    "cpm": 0.0,
-    "color": "#666666",
-    "delta": 0.0,
-    "bench": {
-      "er": 0.0,
-      "cpm": 0.0
-    },
-    "organicImpressions": 0,
-    "views": 6119
   }
 ];
 
@@ -12685,10 +12669,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 7261198,
-        "views": 2910209,
-        "er": 1.67,
-        "eng": 167357,
+        "impr": 7255079,
+        "views": 2904090,
+        "er": 1.6,
+        "eng": 161984,
         "spend": 5630.31
       },
       "perChannel": [
@@ -12808,21 +12792,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 0,
           "er": 0.0,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 3
-        },
-        {
-          "name": "Snapchat",
-          "distKind": "organic",
-          "impr": 6119,
-          "paidImpr": 0,
-          "orgImpr": 6119,
-          "views": 6119,
-          "eng": 5373,
-          "paidEng": 0,
-          "orgEng": 5373,
-          "er": 87.81,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -13008,36 +12977,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573",
           "postedAt": "2026-05-05T13:30:14-07:00"
-        },
-        {
-          "title": "",
-          "platform": "Snapchat",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 2252,
-          "paidImpr": 0,
-          "orgImpr": 2252,
-          "views": 2252,
-          "eng": 2060,
-          "er": 91.47,
-          "spend": 0,
-          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
-          "postedAt": "2026-05-05T19:20:36-07:00"
-        },
-        {
-          "title": "",
-          "platform": "Snapchat",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 3,
-          "paidImpr": 0,
-          "orgImpr": 3,
-          "views": 3,
-          "eng": 2,
-          "er": 66.67,
-          "spend": 0,
-          "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
-          "postedAt": "2026-05-06T05:34:31-07:00"
         },
         {
           "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
@@ -13295,21 +13234,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-05-20T16:08:23-07:00"
         },
         {
-          "title": "",
-          "platform": "Snapchat",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 3864,
-          "paidImpr": 0,
-          "orgImpr": 3864,
-          "views": 3864,
-          "eng": 3311,
-          "er": 85.69,
-          "spend": 0,
-          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
-          "postedAt": "2026-05-21T10:17:45-07:00"
-        },
-        {
           "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
@@ -13539,7 +13463,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "Snapchat leading with 87.8% ER on 6.1K impr."
+          "text": "TikTok leading with 4.3% ER on 699.6K impr."
         },
         {
           "kind": "pos",
@@ -27964,52 +27888,6 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-05-05T13:30:14-07:00"
     },
     {
-      "title": "",
-      "platform": "Snapchat",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 2252,
-      "paidImpr": 0,
-      "orgImpr": 2252,
-      "views": 2252,
-      "reach": 0,
-      "eng": 2060,
-      "er": 91.47,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
-      "postedAt": "2026-05-05T19:20:36-07:00"
-    },
-    {
-      "title": "",
-      "platform": "Snapchat",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 3,
-      "paidImpr": 0,
-      "orgImpr": 3,
-      "views": 3,
-      "reach": 0,
-      "eng": 2,
-      "er": 66.67,
-      "spend": 0,
-      "watchTimeMin": 0.1,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
-      "postedAt": "2026-05-06T05:34:31-07:00"
-    },
-    {
       "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -28399,29 +28277,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-05-20T16:08:23-07:00"
-    },
-    {
-      "title": "",
-      "platform": "Snapchat",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 3864,
-      "paidImpr": 0,
-      "orgImpr": 3864,
-      "views": 3864,
-      "reach": 0,
-      "eng": 3311,
-      "er": 85.69,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
-      "postedAt": "2026-05-21T10:17:45-07:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
@@ -40923,6 +40778,75 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DeiFq-tDupS/",
       "postedAt": "2026-10-15T16:03:17-07:00"
+    },
+    {
+      "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more \ud83d\udc40 Presented by Stat",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 197,
+      "paidImpr": 0,
+      "orgImpr": 197,
+      "views": 197,
+      "reach": 0,
+      "eng": 9,
+      "er": 4.57,
+      "spend": 0,
+      "watchTimeMin": 16.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7698532998026644749",
+      "postedAt": "2026-10-19T17:00:06-07:00"
+    },
+    {
+      "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/CYtFJH2i4fo",
+      "postedAt": "2026-10-19T17:00:06-07:00"
+    },
+    {
+      "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more \ud83d\udc40\u2060 \u2060 \u2060 \u2060 \u2060 Presente",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 4348,
+      "paidImpr": 0,
+      "orgImpr": 4348,
+      "views": 4348,
+      "reach": 3468,
+      "eng": 165,
+      "er": 3.79,
+      "spend": 0,
+      "watchTimeMin": 8.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DesjIy0iYZM/",
+      "postedAt": "2026-10-19T17:33:11-07:00"
     }
   ],
   "just_ingredients_2026": [
@@ -46301,7 +46225,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.23,
-    "impressions": 17970017,
+    "impressions": 17974365,
     "paidImpressions": 15739762,
     "pctOfTotal": 22.8,
     "mvmCpm": 5.62,
@@ -46321,7 +46245,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.47,
-    "impressions": 10104874,
+    "impressions": 10105071,
     "paidImpressions": 6007617,
     "pctOfTotal": 12.8,
     "mvmCpm": 2.24,
