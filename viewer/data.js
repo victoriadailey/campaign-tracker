@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-20T18:27:12Z";
+window.LAST_REFRESHED = "2026-10-20T19:33:38Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -808,7 +808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3497,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3661,7 +3661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4042,7 +4042,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4363,7 +4363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4567,7 +4567,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -4954,23 +4954,23 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 5897429,
+      "delivered": 6045250,
       "goal": 5600000
     },
     "budget": {
-      "delivered": 7863.87,
+      "delivered": 8407.06,
       "goal": 22634.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 4.28,
-    "cpm": 1.38,
+    "er": 4.39,
+    "cpm": 1.44,
     "episodes": 0,
-    "posts": 17,
+    "posts": 18,
     "blurb": "An 8 video series with external creator, Evan Hand",
-    "views": 3383653,
-    "engagements": 252132,
+    "views": 3390399,
+    "engagements": 265533,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -4978,18 +4978,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 5173141,
-        "eng": 168007,
-        "er": 3.25,
-        "cpm": 0.74,
+        "impressions": 5320962,
+        "eng": 181408,
+        "er": 3.41,
+        "cpm": 0.82,
         "color": "#FF0033",
-        "delta": -83.8,
+        "delta": -83.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 29117,
-        "views": 2728061
+        "views": 2734807
       },
       {
         "name": "Instagram",
@@ -5151,16 +5151,16 @@ window.CAMPAIGNS = [
         "tag": "WIN",
         "kind": "pos",
         "milestone": true,
-        "headline": "Goal hit with $15K (65%) of budget still unspent.",
-        "body": "Delivered 105% of the 5.6M impression goal on only 35% of the $23K budget \u2014 $15K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "headline": "Goal hit with $14K (63%) of budget still unspent.",
+        "body": "Delivered 108% of the 5.6M impression goal on only 37% of the $23K budget \u2014 $14K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
         "meta": "Accenture \u00b7 Goal hit"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
-    "lastUpdatedExports": "2026-10-16T20:44:06Z"
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
+    "lastUpdatedExports": "2026-10-20T19:19:45Z"
   },
   {
     "id": "daktronics_stadiumstatus",
@@ -5323,7 +5323,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5445,7 +5445,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5865,7 +5865,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-10-20T13:44:41Z"
   },
   {
@@ -6113,7 +6113,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-10-20T17:27:55Z"
   },
   {
@@ -6283,7 +6283,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T18:27:11Z",
+    "lastUpdatedMs": "2026-10-20T19:33:37Z",
     "lastUpdatedExports": "2026-10-20T17:49:21Z"
   }
 ];
@@ -6522,9 +6522,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 111387203,
-    "eng": 2443911,
-    "er": 2.19,
+    "impressions": 111535024,
+    "eng": 2457312,
+    "er": 2.2,
     "cpm": 1.06,
     "color": "#E00922",
     "delta": -89.0,
@@ -6533,7 +6533,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 22741617
+    "views": 22748363
   },
   {
     "name": "TikTok",
@@ -6691,8 +6691,8 @@ window.SIGNALS = [
     "tag": "WIN",
     "kind": "pos",
     "milestone": true,
-    "headline": "Goal hit with $15K (65%) of budget still unspent.",
-    "body": "Delivered 105% of the 5.6M impression goal on only 35% of the $23K budget \u2014 $15K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "headline": "Goal hit with $14K (63%) of budget still unspent.",
+    "body": "Delivered 108% of the 5.6M impression goal on only 37% of the $23K budget \u2014 $14K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
     "meta": "Accenture \u00b7 Goal hit",
     "campaignId": "accenture_external_creator",
     "campaignPartner": "Accenture"
@@ -39967,9 +39967,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1877,
       "views": 147303,
       "reach": 0,
-      "eng": 101,
-      "er": 0.07,
-      "spend": 0,
+      "eng": 14943,
+      "er": 10.01,
+      "spend": 497.17,
       "watchTimeMin": 16878.5,
       "clicks": null,
       "ctr": 0.0,
@@ -40031,14 +40031,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 182890,
-      "paidImpr": 177198,
+      "impr": 182881,
+      "paidImpr": 177189,
       "orgImpr": 5692,
       "views": 178788,
       "reach": 0,
-      "eng": 23115,
+      "eng": 23113,
       "er": 12.64,
-      "spend": 599.1,
+      "spend": 599.07,
       "watchTimeMin": 31243.9,
       "clicks": null,
       "ctr": 0.0,
@@ -40077,14 +40077,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 148941,
-      "paidImpr": 147377,
+      "impr": 149394,
+      "paidImpr": 147830,
       "orgImpr": 1564,
       "views": 148361,
       "reach": 0,
-      "eng": 14946,
-      "er": 10.03,
-      "spend": 497.17,
+      "eng": 13507,
+      "er": 9.04,
+      "spend": 543.22,
       "watchTimeMin": 16905.7,
       "clicks": null,
       "ctr": 0.0,
@@ -42450,10 +42450,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "accenture_external_creator_yt_paid.csv",
-    "fileSizeKb": 0.6,
+    "fileSizeKb": 0.7,
     "lastModified": "2026-10-20",
     "exists": true,
-    "postsContributed": 4
+    "postsContributed": 5
   },
   {
     "campaignId": "daktronics_stadiumstatus",
@@ -46242,7 +46242,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.57,
     "impressions": 28922319,
     "paidImpressions": 26868513,
-    "pctOfTotal": 36.6,
+    "pctOfTotal": 36.5,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 7.2,
     "color": "#E00922"
@@ -46259,12 +46259,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.64,
-    "impressions": 12265907,
-    "paidImpressions": 12010766,
-    "pctOfTotal": 15.5,
+    "cpm": 1.66,
+    "impressions": 12413728,
+    "paidImpressions": 12158587,
+    "pctOfTotal": 15.7,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -48.8,
+    "mvmDeltaPct": -48.0,
     "color": "#FF0033"
   },
   {
@@ -46312,14 +46312,14 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 13.05,
     "impressions": 751599,
     "paidImpressions": 751599,
-    "pctOfTotal": 1.0,
+    "pctOfTotal": 0.9,
     "mvmCpm": 11.91,
     "mvmDeltaPct": 9.6,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.0;
+window.PORTFOLIO_CPM_BLEND = 2.01;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
