@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-20T13:26:21Z";
+window.LAST_REFRESHED = "2026-10-20T13:45:51Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -824,7 +824,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1076,7 +1076,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1390,7 +1390,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1497,7 +1497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1644,7 +1644,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2196,7 +2196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2344,7 +2344,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2546,7 +2546,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3196,7 +3196,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3513,7 +3513,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3677,7 +3677,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3816,7 +3816,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4058,7 +4058,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4379,7 +4379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4583,7 +4583,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4743,7 +4743,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4955,7 +4955,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5175,7 +5175,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-10-16T20:44:06Z"
   },
   {
@@ -5339,7 +5339,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5461,7 +5461,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5591,26 +5591,26 @@ window.CAMPAIGNS = [
     "flight": "Sep 1 \u2014 Dec 31, 2026",
     "elapsedPct": 40.5,
     "daysLeft": 72,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "At Risk",
+    "statusKind": "warn",
     "impressions": {
-      "delivered": 10504158,
+      "delivered": 13216225,
       "goal": 35000000
     },
     "budget": {
-      "delivered": 14220.64,
+      "delivered": 15687.26,
       "goal": 44715.0
     },
     "color": "ft-2",
     "leadFormat": "Longform Video",
     "topChannel": "TikTok",
-    "er": 0.7,
-    "cpm": 1.79,
-    "episodes": 2,
-    "posts": 15,
+    "er": 0.91,
+    "cpm": 1.47,
+    "episodes": 3,
+    "posts": 19,
     "blurb": "State Street brand campaign \u2014 From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video).",
-    "views": 7699920,
-    "engagements": 73265,
+    "views": 7728268,
+    "engagements": 119734,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -5634,34 +5634,50 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 1724569,
-        "eng": 4,
-        "er": 0.0,
-        "cpm": 0.0,
+        "impressions": 3908009,
+        "eng": 8650,
+        "er": 0.22,
+        "cpm": 0.44,
         "color": "#E00922",
-        "delta": -100.0,
+        "delta": -55.7,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 3918,
-        "views": 472
+        "views": 0
+      },
+      {
+        "name": "YouTube Pre-roll",
+        "italic": "YouTube Pre-roll",
+        "impressions": 26676,
+        "eng": 19388,
+        "er": 72.68,
+        "cpm": 11.34,
+        "color": "#B0061B",
+        "delta": 0.9,
+        "bench": {
+          "er": 72.0,
+          "cpm": 14.0
+        },
+        "organicImpressions": 0,
+        "views": 13912
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1152725,
-        "eng": 45424,
-        "er": 3.94,
-        "cpm": 2.08,
+        "impressions": 1654676,
+        "eng": 63859,
+        "er": 3.86,
+        "cpm": 1.1,
         "color": "#FF0033",
-        "delta": -80.3,
+        "delta": -80.7,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 3167,
-        "views": 1018101
+        "views": 1040254
       },
       {
         "name": "Instagram",
@@ -5812,15 +5828,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 74% of goal (25.9M of 35.0M) with 72 days left.",
-        "body": "At the current rate the campaign will fall ~9.1M impressions short of the 35.0M goal. Need to deliver 340K impr/day (1.6\u00d7 the current 214K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "State Street \u00b7 Pacing"
+        "headline": "X CPM at $4.31 \u2014 3.9\u00d7 the benchmark.",
+        "body": "$4.31 CPM vs. $1.10 FOS benchmark. At 3.9\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "meta": "State Street \u00b7 X"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "Campaign averaging 0.70% ER \u2014 below the 1% floor.",
-        "body": "0.70% engagement rate across 10.5M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "headline": "Campaign averaging 0.91% ER \u2014 below the 1% floor.",
+        "body": "0.91% engagement rate across 13.2M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "State Street \u00b7 Engagement"
       }
     ],
@@ -5830,27 +5846,27 @@ window.CAMPAIGNS = [
       {
         "label": "From Here to There",
         "impressions": {
-          "delivered": 1724569,
+          "delivered": 3978453,
           "goal": 23500000
         }
       },
       {
         "label": "The Come Up",
         "impressions": {
-          "delivered": 0,
+          "delivered": 456068,
           "goal": 6500000
         }
       },
       {
         "label": "Coach of the Year",
         "impressions": {
-          "delivered": 1608117,
+          "delivered": 1610232,
           "goal": 5000000
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
-    "lastUpdatedExports": "2026-10-15T15:44:10Z"
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
+    "lastUpdatedExports": "2026-10-20T13:44:41Z"
   },
   {
     "id": "just_ingredients_2026",
@@ -5864,7 +5880,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1114343,
+      "delivered": 1126612,
       "goal": 6300000
     },
     "budget": {
@@ -5877,10 +5893,10 @@ window.CAMPAIGNS = [
     "er": 1.49,
     "cpm": 2.97,
     "episodes": 0,
-    "posts": 8,
+    "posts": 11,
     "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
-    "views": 414581,
-    "engagements": 16550,
+    "views": 419682,
+    "engagements": 16770,
     "goalSplit": [],
     "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
     "lifecycle": "active",
@@ -5904,18 +5920,18 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 306599,
-        "eng": 210,
-        "er": 0.07,
+        "impressions": 307730,
+        "eng": 322,
+        "er": 0.1,
         "cpm": 1.75,
         "color": "#000000",
-        "delta": -96.6,
+        "delta": -94.8,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 159902,
-        "views": 301369
+        "organicImpressions": 161033,
+        "views": 302500
       },
       {
         "name": "Instagram",
@@ -5936,18 +5952,18 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 59455,
-        "eng": 1270,
-        "er": 2.14,
+        "impressions": 70593,
+        "eng": 1378,
+        "er": 1.95,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -43.2,
+        "delta": -48.1,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 59455,
-        "views": 6788
+        "organicImpressions": 70593,
+        "views": 10758
       },
       {
         "name": "YouTube Shorts",
@@ -5984,8 +6000,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-10-15T10:33:06-07:00"
       },
       {
-        "id": "4011600101781087647",
+        "id": "7698372281726274830",
         "rank": 2,
+        "partner": "Just Ingredients",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp\u2026",
+        "er": 9.9,
+        "eng": 112,
+        "reach": 1131,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://tiktok.com/@frontofficesports/video/7698372281726274830",
+        "postedAt": "2026-10-19T13:30:00-07:00"
+      },
+      {
+        "id": "4011600101781087647",
+        "rank": 3,
         "partner": "Just Ingredients",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -6001,7 +6033,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4003583027754900304",
-        "rank": 3,
+        "rank": 4,
         "partner": "Just Ingredients",
         "platform": "Instagram",
         "format": "Image post",
@@ -6017,7 +6049,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "urn:li:ugcPost:7516530023617470464",
-        "rank": 4,
+        "rank": 5,
         "partner": "Just Ingredients",
         "platform": "LinkedIn",
         "format": "Feed video",
@@ -6066,22 +6098,22 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "Instagram post at 13.3% ER \u2014 4.0\u00d7 the benchmark.",
-        "body": "\"This WNBA player won a championship then announced she was pregnant, and everyth\u2026\" \u2014 34K reach, 5K engagements (43% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
-        "meta": "Just Ingredients \u00b7 Instagram"
+        "headline": "TikTok post at 9.9% ER \u2014 4.9\u00d7 the benchmark.",
+        "body": "\"From battling through a major injury to winning Olympic gold, this is Charlie Mc\u2026\" \u2014 1K reach, 112 engagements (100% organic). Strongest single asset on the campaign and well clear of the TikTok benchmark. Feature it in the partner update.",
+        "meta": "Just Ingredients \u00b7 TikTok"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace for 22% of goal (1.4M of 6.3M) with 11 days left.",
-        "body": "At the current rate the campaign will fall ~4.9M impressions short of the 6.3M goal. Need to deliver 471K impr/day (20.8\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "body": "At the current rate the campaign will fall ~4.9M impressions short of the 6.3M goal. Need to deliver 470K impr/day (20.5\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Just Ingredients \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": ""
   },
   {
@@ -6258,7 +6290,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-20T13:26:21Z",
+    "lastUpdatedMs": "2026-10-20T13:45:50Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6497,24 +6529,24 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 108608593,
-    "eng": 2398581,
-    "er": 2.21,
-    "cpm": 1.07,
+    "impressions": 111293984,
+    "eng": 2425662,
+    "er": 2.18,
+    "cpm": 1.05,
     "color": "#E00922",
-    "delta": -89.0,
+    "delta": -89.1,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 22711267
+    "views": 22739615
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 32798782,
-    "eng": 63647,
+    "impressions": 32799913,
+    "eng": 63759,
     "er": 0.19,
     "cpm": 2.04,
     "color": "#000000",
@@ -6524,7 +6556,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 32439019
+    "views": 32440150
   },
   {
     "name": "Instagram",
@@ -6577,18 +6609,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2424424,
-    "eng": 79260,
-    "er": 3.27,
+    "impressions": 2435562,
+    "eng": 79368,
+    "er": 3.26,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -13.1,
+    "delta": -13.3,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 1001414
+    "views": 1005384
   },
   {
     "name": "Snapchat",
@@ -6646,7 +6678,7 @@ window.SIGNALS = [
     "tag": "WATCH",
     "kind": "warn",
     "headline": "On pace for 22% of goal (1.4M of 6.3M) with 11 days left.",
-    "body": "At the current rate the campaign will fall ~4.9M impressions short of the 6.3M goal. Need to deliver 471K impr/day (20.8\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "body": "At the current rate the campaign will fall ~4.9M impressions short of the 6.3M goal. Need to deliver 470K impr/day (20.5\u00d7 the current 23K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Just Ingredients \u00b7 Pacing",
     "campaignId": "just_ingredients_2026",
     "campaignPartner": "Just Ingredients"
@@ -6663,29 +6695,20 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 74% of goal (25.9M of 35.0M) with 72 days left.",
-    "body": "At the current rate the campaign will fall ~9.1M impressions short of the 35.0M goal. Need to deliver 340K impr/day (1.6\u00d7 the current 214K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "State Street \u00b7 Pacing",
+    "headline": "X CPM at $4.31 \u2014 3.9\u00d7 the benchmark.",
+    "body": "$4.31 CPM vs. $1.10 FOS benchmark. At 3.9\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "meta": "State Street \u00b7 X",
     "campaignId": "state_street",
     "campaignPartner": "State Street"
   },
   {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "X CPM at $4.09 \u2014 3.7\u00d7 the benchmark.",
-    "body": "$4.09 CPM vs. $1.10 FOS benchmark. At 3.7\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "Next League \u00b7 X",
-    "campaignId": "next_league_future_of_sports",
-    "campaignPartner": "Next League"
-  },
-  {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Instagram post at 13.6% ER \u2014 4.1\u00d7 the benchmark.",
-    "body": "\"The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles\u2026\" \u2014 72K reach, 10K engagements (15% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
-    "meta": "Accenture \u00b7 Instagram",
-    "campaignId": "accenture_external_creator",
-    "campaignPartner": "Accenture"
+    "headline": "TikTok post at 9.9% ER \u2014 4.9\u00d7 the benchmark.",
+    "body": "\"From battling through a major injury to winning Olympic gold, this is Charlie Mc\u2026\" \u2014 1K reach, 112 engagements (100% organic). Strongest single asset on the campaign and well clear of the TikTok benchmark. Feature it in the partner update.",
+    "meta": "Just Ingredients \u00b7 TikTok",
+    "campaignId": "just_ingredients_2026",
+    "campaignPartner": "Just Ingredients"
   },
   {
     "tag": "WIN",
@@ -21854,26 +21877,56 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "From Here to There",
       "date": "2026",
       "total": {
-        "impr": 1724569,
-        "views": 472,
-        "er": 0.0,
-        "eng": 4,
-        "spend": 0
+        "impr": 3978453,
+        "views": 7505,
+        "er": 0.26,
+        "eng": 29704,
+        "spend": 2248.38
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 1724569,
-          "paidImpr": 1720651,
+          "impr": 3908009,
+          "paidImpr": 3904091,
           "orgImpr": 3918,
-          "views": 472,
-          "eng": 4,
-          "paidEng": 0,
+          "views": 0,
+          "eng": 8650,
+          "paidEng": 8646,
           "orgEng": 4,
-          "er": 0.0,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "er": 0.22,
+          "cpm": 0.44,
+          "spend": 1735.07,
+          "posts": 2
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "paid",
+          "impr": 43768,
+          "paidImpr": 43768,
+          "orgImpr": 0,
+          "views": 838,
+          "eng": 1666,
+          "paidEng": 1666,
+          "orgEng": 0,
+          "er": 3.81,
+          "cpm": 4.81,
+          "spend": 210.68,
+          "posts": 1
+        },
+        {
+          "name": "YouTube Pre-roll",
+          "distKind": "paid",
+          "impr": 26676,
+          "paidImpr": 26676,
+          "orgImpr": 0,
+          "views": 13912,
+          "eng": 19388,
+          "paidEng": 19388,
+          "orgEng": 0,
+          "er": 72.68,
+          "cpm": 11.34,
+          "spend": 302.63,
           "posts": 1
         }
       ],
@@ -21886,12 +21939,57 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1724569,
           "paidImpr": 1720651,
           "orgImpr": 3918,
-          "views": 472,
+          "views": 0,
           "eng": 4,
           "er": 0.0,
           "spend": 0,
           "url": "https://youtu.be/UQQscvIOetc",
           "postedAt": "2026-10-15T13:34:54-07:00"
+        },
+        {
+          "title": "SSIM From Here to There Nneka Full Ep (in-feed)",
+          "platform": "YouTube In-feed",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 2183440,
+          "paidImpr": 2183440,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 8646,
+          "er": 0.4,
+          "spend": 1735.07,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "SSIM From Here to There Nneka Full Ep (pre-roll)",
+          "platform": "YouTube Pre-roll",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 26676,
+          "paidImpr": 26676,
+          "orgImpr": 0,
+          "views": 13912,
+          "eng": 19388,
+          "er": 72.68,
+          "spend": 302.63,
+          "url": null,
+          "postedAt": null
+        },
+        {
+          "title": "SSIM From Here to There Nneka Cutdown 1 (Shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 43768,
+          "paidImpr": 43768,
+          "orgImpr": 0,
+          "views": 838,
+          "eng": 1666,
+          "er": 3.81,
+          "spend": 210.68,
+          "url": null,
+          "postedAt": null
         }
       ],
       "topPosts": [],
@@ -21899,30 +21997,79 @@ window.EPISODES_BY_CAMPAIGN = {
       "impressionGoal": 23500000
     },
     {
+      "n": "Series 2",
+      "title": "The Come Up",
+      "date": "2026",
+      "total": {
+        "impr": 456068,
+        "views": 21315,
+        "er": 13.53,
+        "eng": 61704,
+        "spend": 1608.96
+      },
+      "perChannel": [
+        {
+          "name": "YouTube Shorts",
+          "distKind": "paid",
+          "impr": 456068,
+          "paidImpr": 456068,
+          "orgImpr": 0,
+          "views": 21315,
+          "eng": 61704,
+          "paidEng": 61704,
+          "orgEng": 0,
+          "er": 13.53,
+          "cpm": 3.53,
+          "spend": 1608.96,
+          "posts": 1
+        }
+      ],
+      "posts": [
+        {
+          "title": "SSIM The Come Up Olivia Miles (Shorts)",
+          "platform": "YouTube Shorts",
+          "accountName": null,
+          "distKind": "paid",
+          "impr": 456068,
+          "paidImpr": 456068,
+          "orgImpr": 0,
+          "views": 21315,
+          "eng": 61704,
+          "er": 13.53,
+          "spend": 1608.96,
+          "url": null,
+          "postedAt": null
+        }
+      ],
+      "topPosts": [],
+      "callouts": [],
+      "impressionGoal": 6500000
+    },
+    {
       "n": "Series 3",
       "title": "Coach of the Year",
       "date": "2026",
       "total": {
-        "impr": 1608117,
+        "impr": 1610232,
         "views": 877924,
-        "er": 3.38,
-        "eng": 54363,
-        "spend": 6706.12
+        "er": 0.59,
+        "eng": 9428,
+        "spend": 4315.4
       },
       "perChannel": [
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 667803,
-          "paidImpr": 667125,
+          "impr": 669918,
+          "paidImpr": 669240,
           "orgImpr": 678,
           "views": 660130,
-          "eng": 45076,
-          "paidEng": 44935,
+          "eng": 141,
+          "paidEng": 0,
           "orgEng": 141,
-          "er": 6.75,
-          "cpm": 3.58,
-          "spend": 2390.72,
+          "er": 0.02,
+          "cpm": 0.0,
+          "spend": 0.0,
           "posts": 1
         },
         {
@@ -22052,13 +22199,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 667803,
-          "paidImpr": 667125,
+          "impr": 669918,
+          "paidImpr": 669240,
           "orgImpr": 678,
           "views": 660130,
-          "eng": 45076,
-          "er": 6.75,
-          "spend": 2390.72,
+          "eng": 141,
+          "er": 0.02,
+          "spend": 0,
           "url": "https://www.youtube.com/shorts/V8krVEQFQfc",
           "postedAt": "2026-10-09T10:30:21-07:00"
         }
@@ -40414,14 +40561,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1724569,
-      "paidImpr": 1720651,
+      "impr": 2187358,
+      "paidImpr": 2183440,
       "orgImpr": 3918,
-      "views": 472,
+      "views": 0,
       "reach": 0,
-      "eng": 4,
-      "er": 0.0,
-      "spend": 0,
+      "eng": 8650,
+      "er": 0.4,
+      "spend": 1735.07,
       "watchTimeMin": 233.8,
       "clicks": 614,
       "ctr": 35.68,
@@ -40431,6 +40578,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://youtu.be/UQQscvIOetc",
       "postedAt": "2026-10-15T13:34:54-07:00"
+    },
+    {
+      "title": "SSIM From Here to There Nneka Full Ep (pre-roll)",
+      "platform": "YouTube Pre-roll",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 26676,
+      "paidImpr": 26676,
+      "orgImpr": 0,
+      "views": 13912,
+      "reach": 0,
+      "eng": 19388,
+      "er": 72.68,
+      "spend": 302.63,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 11.34,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     },
     {
       "title": "Cheryl Reeve just won her fifth @StateStreetIM SPY WNBA Coach of the Year Award, the most by any coach in major American",
@@ -40529,14 +40699,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 667803,
-      "paidImpr": 667125,
+      "impr": 456746,
+      "paidImpr": 456068,
       "orgImpr": 678,
       "views": 660130,
       "reach": 0,
-      "eng": 45076,
-      "er": 6.75,
-      "spend": 2390.72,
+      "eng": 61845,
+      "er": 13.54,
+      "spend": 1608.96,
       "watchTimeMin": 63568.7,
       "clicks": 4,
       "ctr": 0.6,
@@ -40598,14 +40768,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 457643,
-      "paidImpr": 456059,
+      "impr": 45352,
+      "paidImpr": 43768,
       "orgImpr": 1584,
       "views": 356858,
       "reach": 0,
-      "eng": 295,
-      "er": 0.06,
-      "spend": 0,
+      "eng": 1961,
+      "er": 4.32,
+      "spend": 210.68,
       "watchTimeMin": 39123.5,
       "clicks": null,
       "ctr": 0.0,
@@ -40939,6 +41109,75 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DesEQnHlSWf/",
       "postedAt": "2026-10-19T13:03:13-07:00"
+    },
+    {
+      "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story. Presented by @Just",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 1131,
+      "paidImpr": 0,
+      "orgImpr": 1131,
+      "views": 1131,
+      "reach": 0,
+      "eng": 112,
+      "er": 9.9,
+      "spend": 0,
+      "watchTimeMin": 444.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7698372281726274830",
+      "postedAt": "2026-10-19T13:30:00-07:00"
+    },
+    {
+      "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.  Presented by Just",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 11138,
+      "paidImpr": 0,
+      "orgImpr": 11138,
+      "views": 3970,
+      "reach": 0,
+      "eng": 108,
+      "er": 0.97,
+      "spend": 0,
+      "watchTimeMin": 1029.4,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7517939051824345089",
+      "postedAt": "2026-10-19T13:30:02-07:00"
+    },
+    {
+      "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/pVTqIH5z5TA",
+      "postedAt": "2026-10-19T13:30:24-07:00"
     }
   ],
   "jlab_thecomeup": [
@@ -42339,10 +42578,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_street_yt_paid.csv",
-    "fileSizeKb": 0.3,
+    "fileSizeKb": 0.6,
     "lastModified": "2026-10-20",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 4
   },
   {
     "campaignId": "state_street",
@@ -46051,12 +46290,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.55,
-    "impressions": 26738879,
-    "paidImpressions": 24685073,
-    "pctOfTotal": 35.1,
+    "cpm": 0.57,
+    "impressions": 28922319,
+    "paidImpressions": 26868513,
+    "pctOfTotal": 36.6,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 3.5,
+    "mvmDeltaPct": 7.2,
     "color": "#E00922"
   },
   {
@@ -46064,27 +46303,27 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.23,
     "impressions": 17970017,
     "paidImpressions": 15739762,
-    "pctOfTotal": 23.6,
+    "pctOfTotal": 22.8,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -24.8,
     "color": "#E4405F"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.72,
-    "impressions": 11670737,
-    "paidImpressions": 11415596,
-    "pctOfTotal": 15.3,
+    "cpm": 1.6,
+    "impressions": 12172688,
+    "paidImpressions": 11917547,
+    "pctOfTotal": 15.4,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -46.3,
+    "mvmDeltaPct": -50.0,
     "color": "#FF0033"
   },
   {
     "name": "TikTok",
     "cpm": 1.47,
-    "impressions": 10103743,
+    "impressions": 10104874,
     "paidImpressions": 6007617,
-    "pctOfTotal": 13.3,
+    "pctOfTotal": 12.8,
     "mvmCpm": 2.24,
     "mvmDeltaPct": -34.4,
     "color": "#000000"
@@ -46094,44 +46333,44 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.95,
     "impressions": 5600303,
     "paidImpressions": 3849286,
-    "pctOfTotal": 7.4,
+    "pctOfTotal": 7.1,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 57.4,
     "color": "#1d1d1f"
+  },
+  {
+    "name": "LinkedIn",
+    "cpm": 0.0,
+    "impressions": 1693098,
+    "paidImpressions": 0,
+    "pctOfTotal": 2.1,
+    "mvmCpm": null,
+    "mvmDeltaPct": null,
+    "color": "#0A66C2"
   },
   {
     "name": "Facebook",
     "cpm": 4.19,
     "impressions": 1685254,
     "paidImpressions": 1425905,
-    "pctOfTotal": 2.2,
+    "pctOfTotal": 2.1,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -0.3,
     "color": "#1877F2"
   },
   {
-    "name": "LinkedIn",
-    "cpm": 0.0,
-    "impressions": 1681960,
-    "paidImpressions": 0,
-    "pctOfTotal": 2.2,
-    "mvmCpm": null,
-    "mvmDeltaPct": null,
-    "color": "#0A66C2"
-  },
-  {
     "name": "YouTube Pre-roll",
-    "cpm": 13.11,
-    "impressions": 724923,
-    "paidImpressions": 724923,
+    "cpm": 13.05,
+    "impressions": 751599,
+    "paidImpressions": 751599,
     "pctOfTotal": 1.0,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 10.1,
+    "mvmDeltaPct": 9.6,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.06;
+window.PORTFOLIO_CPM_BLEND = 2.0;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
