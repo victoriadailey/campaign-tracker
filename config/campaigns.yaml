@@ -1067,6 +1067,7 @@ campaigns:
     budget_goal: 29_500
     color: ft-6        # terracotta (freed up — On Location is wrapped)
     lead_format: Longform Video
+    yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "We developed “The Family Assist,” a doc-style content series featuring two NBA brothers and the ways they support each other on and off the court. The campaign centers on a 3–4 minute hero film that blends interviews, lifestyle footage, and game action, supported by two social-first extensions (60–90 seconds each) that further amplify the story."
     sources:
       # MS API base layer (organic + paid across platforms). Group 6236 =
@@ -1260,6 +1261,7 @@ campaigns:
     budget_goal: 7054
     color: ft-4
     lead_format: Paid Social
+    yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "Three videos supporting AVP's Hampton's event at EHP."
     # The X ad "EHP Stadium Status" boosts the same tweet as the organic MS post
     # ("What does it take to build a beach volleyball court…", tweet
@@ -1462,6 +1464,7 @@ campaigns:
     budget_goal: 11225
     color: ft-1
     lead_format: Paid Social
+    yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. "
     # Four components, each tracked to its own goal (like Heineken). FOS News +
     # correspondent-led are placeholders until those videos publish.
@@ -1502,8 +1505,9 @@ campaigns:
       - id: fos_news
         n: "Video 3"
         title: "FOS News Video"
-        date: "TBD"
-        match: ["FOS News", "FOSN"]
+        date: "Sep 2026"
+        # Farah O'Keefe (Texas golfer) FOS News content counts here.
+        match: ["FOS News", "FOSN", "Farah O'Keefe", "O'Keefe", "Farah"]
         exclude: []
         impression_goal: 1_000_000
       - id: correspondent
@@ -1534,6 +1538,7 @@ campaigns:
     budget_goal: 3170
     color: ft-1
     lead_format: Social Video
+    yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown."
     sources:
       meta_ads:
@@ -1558,6 +1563,7 @@ campaigns:
     budget_goal: 22634
     color: ft-1
     lead_format: Social Video
+    yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "An 8 video series with external creator, Evan Hand"
     sources:
       youtube_paid:
@@ -1660,6 +1666,7 @@ campaigns:
     impression_goal: 35_000_000
     budget_goal: 44_715
     color: ft-2
+    yt_paired_by_sort: true
     lead_format: Longform Video
     blurb: "State Street brand campaign — From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video)."
     pacing_components:
@@ -1677,21 +1684,26 @@ campaigns:
         n: "Series 1"
         title: "From Here to There"
         date: "2026"
-        match: ["From Here to There"]
+        # Nneka Ogwumike is the From Here to There subject; her cutdowns don't
+        # all carry the series name in the caption, so match her by name too.
+        match: ["From Here to There", "Nneka Ogwumike", "Ogwumike"]
         exclude: []
         impression_goal: 23_500_000
       - id: come_up
         n: "Series 2"
         title: "The Come Up"
         date: "2026"
-        match: ["The Come Up", "Come Up"]
+        # Olivia Miles posts count toward The Come Up.
+        match: ["The Come Up", "Come Up", "Olivia Miles"]
         exclude: []
         impression_goal: 6_500_000
       - id: coach_of_the_year
         n: "Series 3"
         title: "Coach of the Year"
         date: "2026"
-        match: ["Coach of the Year"]
+        # Count ALL Cheryl Reeve posts — several (e.g. "greatest coach of
+        # all-time" cutdowns) don't carry the literal "Coach of the Year" phrase.
+        match: ["Coach of the Year", "Cheryl Reeve", "Reeve"]
         exclude: []
         impression_goal: 5_000_000
     sources:
@@ -1717,7 +1729,55 @@ campaigns:
     budget_goal: 14774
     color: ft-1
     lead_format: "Short-form Video"
+    yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "The Come Up and Breaking Barriers — bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling"
+    # Four broken-up goals (like Heineken): Breaking Barriers static + video, and
+    # The Come Up static + video. Attribution is by talent name, which separates
+    # the static and video components cleanly (different athletes in each).
+    pacing_components:
+      - label: "Breaking Barriers — Static"
+        impression_goal: 450_000
+        episode_ids: [bb_static]
+      - label: "Breaking Barriers — Video"
+        impression_goal: 1_250_000
+        episode_ids: [bb_video]
+      - label: "The Come Up — Static"
+        impression_goal: 850_000
+        episode_ids: [cu_static]
+      - label: "The Come Up — Video"
+        impression_goal: 3_750_000
+        episode_ids: [cu_video]
+    episodes:
+      - id: bb_static
+        n: "Static"
+        title: "Breaking Barriers — Karlyn Pickens"
+        date: "Sep 2026"
+        match: ["Karlyn Pickens", "Pickens"]
+        exclude: []
+        impression_goal: 450_000
+      - id: bb_video
+        n: "Video"
+        title: "Breaking Barriers — Dearica Hamby"
+        date: "Sep 2026"
+        # Hamby's name isn't in every caption; the "won a championship then
+        # announced she was pregnant" line is unique to her posts.
+        match: ["Dearica Hamby", "Hamby", "championship then announced she was pregnant"]
+        exclude: []
+        impression_goal: 1_250_000
+      - id: cu_static
+        n: "Static"
+        title: "The Come Up — AJ Green & Reed Blankenship"
+        date: "TBD"
+        match: ["AJ Green", "Reed Blankenship", "Blankenship"]
+        exclude: []
+        impression_goal: 850_000
+      - id: cu_video
+        n: "Video"
+        title: "The Come Up — McAvoy, Stafford, Smith"
+        date: "Sep 2026"
+        match: ["Charlie McAvoy", "McAvoy", "Matthew Stafford", "Stafford", "DeVonta Smith"]
+        exclude: []
+        impression_goal: 3_750_000
     sources:
       youtube_paid:
         - just_ingredients_2026_yt_paid.csv
@@ -1737,6 +1797,7 @@ campaigns:
     budget_goal: 5500
     color: ft-1
     lead_format: "Short-form Video"
+    yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: 1 The Come Up video about Darian Mensah
     sources:
       youtube_paid:
