@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-21T14:18:28Z";
+window.LAST_REFRESHED = "2026-10-21T14:57:51Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -808,7 +808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-21T14:18:27Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3497,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3661,7 +3661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4042,7 +4042,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4363,7 +4363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4567,7 +4567,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5151,7 +5151,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-10-20T19:19:45Z"
   },
   {
@@ -5315,7 +5315,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5437,7 +5437,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5855,7 +5855,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-10-20T13:44:41Z"
   },
   {
@@ -5870,23 +5870,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1678908,
+      "delivered": 1731697,
       "goal": 6300000
     },
     "budget": {
-      "delivered": 2999.95,
+      "delivered": 3199.13,
       "goal": 14774.0
     },
     "color": "ft-1",
     "leadFormat": "Short-form Video",
     "topChannel": "TikTok",
-    "er": 2.08,
-    "cpm": 3.07,
+    "er": 2.64,
+    "cpm": 3.1,
     "episodes": 0,
     "posts": 11,
     "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
     "views": 971630,
-    "engagements": 34901,
+    "engagements": 45686,
     "goalSplit": [],
     "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
     "lifecycle": "active",
@@ -5942,12 +5942,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 79198,
-        "eng": 13211,
-        "er": 16.68,
-        "cpm": 4.89,
+        "impressions": 131987,
+        "eng": 23996,
+        "er": 18.18,
+        "cpm": 4.44,
         "color": "#FF0033",
-        "delta": -16.6,
+        "delta": -9.1,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -6095,16 +6095,16 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 32% of goal (2.0M of 6.3M) with 10 days left.",
-        "body": "At the current rate the campaign will fall ~4.3M impressions short of the 6.3M goal. Need to deliver 462K impr/day (13.7\u00d7 the current 34K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 33% of goal (2.1M of 6.3M) with 10 days left.",
+        "body": "At the current rate the campaign will fall ~4.2M impressions short of the 6.3M goal. Need to deliver 457K impr/day (13.2\u00d7 the current 35K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Just Ingredients \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
-    "lastUpdatedExports": "2026-10-20T17:27:55Z"
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
+    "lastUpdatedExports": "2026-10-21T14:22:27Z"
   },
   {
     "id": "jlab_thecomeup",
@@ -6273,7 +6273,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-21T14:18:28Z",
+    "lastUpdatedMs": "2026-10-21T14:57:50Z",
     "lastUpdatedExports": "2026-10-21T14:03:59Z"
   }
 ];
@@ -6512,12 +6512,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 113712157,
-    "eng": 2460575,
-    "er": 2.16,
+    "impressions": 113764946,
+    "eng": 2471360,
+    "er": 2.17,
     "cpm": 1.04,
     "color": "#E00922",
-    "delta": -89.2,
+    "delta": -89.1,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -6644,8 +6644,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 32% of goal (2.0M of 6.3M) with 10 days left.",
-    "body": "At the current rate the campaign will fall ~4.3M impressions short of the 6.3M goal. Need to deliver 462K impr/day (13.7\u00d7 the current 34K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 33% of goal (2.1M of 6.3M) with 10 days left.",
+    "body": "At the current rate the campaign will fall ~4.2M impressions short of the 6.3M goal. Need to deliver 457K impr/day (13.2\u00d7 the current 35K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Just Ingredients \u00b7 Pacing",
     "campaignId": "just_ingredients_2026",
     "campaignPartner": "Just Ingredients"
@@ -40920,19 +40920,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 78903,
-      "paidImpr": 77838,
+      "impr": 131692,
+      "paidImpr": 130627,
       "orgImpr": 1065,
       "views": 43793,
       "reach": 0,
-      "eng": 13206,
-      "er": 16.74,
-      "spend": 380.37,
+      "eng": 23991,
+      "er": 18.22,
+      "spend": 579.55,
       "watchTimeMin": 5252.8,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 4.89,
+      "cpm": 4.44,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/IXp2DUsENVw",
@@ -46239,12 +46239,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.66,
-    "impressions": 12497753,
-    "paidImpressions": 12241486,
+    "cpm": 1.67,
+    "impressions": 12550542,
+    "paidImpressions": 12294275,
     "pctOfTotal": 15.1,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -48.0,
+    "mvmDeltaPct": -47.7,
     "color": "#FF0033"
   },
   {
