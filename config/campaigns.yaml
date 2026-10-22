@@ -1804,3 +1804,21 @@ campaigns:
         - jlab_thecomeup_yt_paid.csv
       measure_studio_group_ids:
         - 9229
+
+  - id: heinz_stadiumeats
+    partner: Heinz
+    series: Heinz x Stadium Eats
+    series_italic: Eats
+    type: social
+    benchmark_category: Original Content
+    lifecycle: active
+    flight_start: 2026-10-01
+    flight_end: 2026-12-31
+    impression_goal: 8500000
+    budget_goal: 16008
+    color: ft-1
+    lead_format: Social Video
+    blurb: "Four (4) short-form Stadium Eats videos traveling to an NFL stadium, sampling iconic game day foods and naturally integrating Heinz within the experience"
+    sources:
+      measure_studio_group_ids:
+        - 9230
