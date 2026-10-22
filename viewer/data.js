@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-22T17:44:58Z";
+window.LAST_REFRESHED = "2026-10-22T18:08:48Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:57Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -382,7 +382,7 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 40908489,
+      "delivered": 40929427,
       "goal": 41700000
     },
     "budget": {
@@ -395,10 +395,10 @@ window.CAMPAIGNS = [
     "er": 2.89,
     "cpm": 1.86,
     "episodes": 18,
-    "posts": 395,
+    "posts": 401,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 11748658,
-    "engagements": 1183122,
+    "views": 11753805,
+    "engagements": 1183214,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -438,8 +438,8 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 6883253,
-        "eng": 138950,
+        "impressions": 6886381,
+        "eng": 138992,
         "er": 2.02,
         "cpm": 5.55,
         "color": "#E4405F",
@@ -448,24 +448,24 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1876551,
-        "views": 6808042
+        "organicImpressions": 1879679,
+        "views": 6811170
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 4889340,
-        "eng": 13804,
+        "impressions": 4902925,
+        "eng": 13818,
         "er": 0.28,
         "cpm": 1.48,
         "color": "#1d1d1f",
-        "delta": -69.3,
+        "delta": -69.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1720681,
-        "views": 428050
+        "organicImpressions": 1734266,
+        "views": 428960
       },
       {
         "name": "YouTube Shorts",
@@ -486,34 +486,34 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1463074,
-        "eng": 47091,
-        "er": 3.22,
+        "impressions": 1466986,
+        "eng": 47117,
+        "er": 3.21,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -14.4,
+        "delta": -14.6,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1463074,
-        "views": 588467
+        "organicImpressions": 1466986,
+        "views": 589263
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 830536,
-        "eng": 34641,
+        "impressions": 830849,
+        "eng": 34651,
         "er": 4.17,
         "cpm": 0.0,
         "color": "#000000",
-        "delta": 105.5,
+        "delta": 105.4,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 830536,
-        "views": 830536
+        "organicImpressions": 830849,
+        "views": 830849
       },
       {
         "name": "Facebook",
@@ -801,14 +801,14 @@ window.CAMPAIGNS = [
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace to over-deliver \u2014 $9K (12%) of budget unspent with 70 days left.",
-        "body": "Impressions are 98% delivered while only 88% of budget has been spent \u2014 only 792K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "body": "Impressions are 98% delivered while only 88% of budget has been spent \u2014 only 771K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "E*TRADE \u00b7 Budget surplus"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3497,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3661,7 +3661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4042,7 +4042,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4363,7 +4363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4567,7 +4567,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:47Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5151,7 +5151,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": "2026-10-20T19:19:45Z"
   },
   {
@@ -5315,7 +5315,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5437,7 +5437,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5832,7 +5832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": "2026-10-21T19:45:03Z"
   },
   {
@@ -6093,7 +6093,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": "2026-10-21T14:22:27Z"
   },
   {
@@ -6263,7 +6263,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": "2026-10-21T14:03:59Z"
   },
   {
@@ -6377,7 +6377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedMs": "2026-10-22T18:08:48Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6632,8 +6632,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 36174549,
-    "eng": 66297,
+    "impressions": 36174862,
+    "eng": 66307,
     "er": 0.18,
     "cpm": 2.01,
     "color": "#000000",
@@ -6643,13 +6643,13 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 35771696
+    "views": 35772009
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 32369368,
-    "eng": 526419,
+    "impressions": 32372496,
+    "eng": 526461,
     "er": 1.63,
     "cpm": 4.51,
     "color": "#E4405F",
@@ -6659,23 +6659,23 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 30192034
+    "views": 30195162
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 30119593,
-    "eng": 646292,
-    "er": 2.15,
+    "impressions": 30133178,
+    "eng": 646306,
+    "er": 2.14,
     "cpm": 1.7,
     "color": "#1d1d1f",
-    "delta": 133.2,
+    "delta": 133.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 511141
+    "views": 512051
   },
   {
     "name": "Facebook",
@@ -6696,18 +6696,18 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2452521,
-    "eng": 79696,
+    "impressions": 2456433,
+    "eng": 79722,
     "er": 3.25,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -13.6,
+    "delta": -13.7,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 1012090
+    "views": 1012886
   }
 ];
 
@@ -33393,6 +33393,144 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DevBEFREf_Y/",
       "postedAt": "2026-10-20T16:33:07-07:00"
+    },
+    {
+      "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 3128,
+      "paidImpr": 0,
+      "orgImpr": 3128,
+      "views": 3128,
+      "reach": 2467,
+      "eng": 42,
+      "er": 1.34,
+      "spend": 0,
+      "watchTimeMin": 3.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DexDh3llHo-/",
+      "postedAt": "2026-10-21T11:33:05-07:00"
+    },
+    {
+      "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7505,
+      "paidImpr": 0,
+      "orgImpr": 7505,
+      "views": 910,
+      "reach": 0,
+      "eng": 11,
+      "er": 0.15,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2113004898543419667",
+      "postedAt": "2026-10-21T13:30:00-07:00"
+    },
+    {
+      "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 313,
+      "paidImpr": 0,
+      "orgImpr": 313,
+      "views": 313,
+      "reach": 0,
+      "eng": 10,
+      "er": 3.19,
+      "spend": 0,
+      "watchTimeMin": 31.2,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7699176537957960974",
+      "postedAt": "2026-10-21T13:30:00-07:00"
+    },
+    {
+      "title": "How Blake Griffin Got Into Investing",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/gEnNlT_DxoA",
+      "postedAt": "2026-10-21T13:30:03-07:00"
+    },
+    {
+      "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 3912,
+      "paidImpr": 0,
+      "orgImpr": 3912,
+      "views": 796,
+      "reach": 0,
+      "eng": 26,
+      "er": 0.66,
+      "spend": 0,
+      "watchTimeMin": 198.7,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518724332781576192",
+      "postedAt": "2026-10-21T13:30:06-07:00"
+    },
+    {
+      "title": "Full conversation with Blake Griffin:  - Year 2 with Amazon's NBA crew - NIL chaos in college sports - Golf, pickleball,",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6080,
+      "paidImpr": 0,
+      "orgImpr": 6080,
+      "views": 0,
+      "reach": 0,
+      "eng": 3,
+      "er": 0.05,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2113008739091415228",
+      "postedAt": "2026-10-21T13:45:15-07:00"
     }
   ],
   "spectrum": [
@@ -47343,7 +47481,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.22,
-    "impressions": 18643528,
+    "impressions": 18646656,
     "paidImpressions": 16416496,
     "pctOfTotal": 23.6,
     "mvmCpm": 5.62,
@@ -47353,7 +47491,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.53,
-    "impressions": 12718353,
+    "impressions": 12718666,
     "paidImpressions": 7433712,
     "pctOfTotal": 16.1,
     "mvmCpm": 2.24,
@@ -47373,7 +47511,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.95,
-    "impressions": 5606416,
+    "impressions": 5620001,
     "paidImpressions": 3849286,
     "pctOfTotal": 7.1,
     "mvmCpm": 1.24,
@@ -47393,7 +47531,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1710034,
+    "impressions": 1713946,
     "paidImpressions": 0,
     "pctOfTotal": 2.2,
     "mvmCpm": null,
