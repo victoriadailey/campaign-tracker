@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-22T16:03:27Z";
+window.LAST_REFRESHED = "2026-10-22T17:44:58Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:57Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -808,7 +808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3497,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3661,7 +3661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4042,7 +4042,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4363,7 +4363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4567,7 +4567,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5151,7 +5151,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-10-20T19:19:45Z"
   },
   {
@@ -5315,7 +5315,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:26Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5437,7 +5437,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:27Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5832,7 +5832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T16:03:27Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-10-21T19:45:03Z"
   },
   {
@@ -6093,7 +6093,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T16:03:27Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-10-21T14:22:27Z"
   },
   {
@@ -6263,8 +6263,122 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T16:03:27Z",
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
     "lastUpdatedExports": "2026-10-21T14:03:59Z"
+  },
+  {
+    "id": "heinz_stadiumeats",
+    "partner": "Heinz",
+    "series": "Heinz x Stadium Eats",
+    "seriesItalic": "Eats",
+    "type": "social",
+    "flight": "Oct 1 \u2014 Dec 31, 2026",
+    "elapsedPct": 23.1,
+    "daysLeft": 70,
+    "status": "Behind Pace",
+    "statusKind": "danger",
+    "impressions": {
+      "delivered": 1127228,
+      "goal": 8500000
+    },
+    "budget": {
+      "delivered": 1251.0,
+      "goal": 16008.0
+    },
+    "color": "ft-1",
+    "leadFormat": "Social Video",
+    "topChannel": "TikTok",
+    "er": 0.04,
+    "cpm": 1.94,
+    "episodes": 0,
+    "posts": 3,
+    "blurb": "Four (4) short-form Stadium Eats videos traveling to an NFL stadium, sampling iconic game day foods and naturally integrating Heinz within the experience",
+    "views": 1115308,
+    "engagements": 491,
+    "goalSplit": [],
+    "benchmarkCategory": "Original Content",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 1001318,
+        "eng": 342,
+        "er": 0.03,
+        "cpm": 1.59,
+        "color": "#000000",
+        "delta": -98.3,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 478821,
+        "views": 991225
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 125547,
+        "eng": 144,
+        "er": 0.11,
+        "cpm": 3.43,
+        "color": "#E4405F",
+        "delta": -96.5,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 2828,
+        "views": 124009
+      },
+      {
+        "name": "X",
+        "italic": "X",
+        "impressions": 363,
+        "eng": 5,
+        "er": 1.38,
+        "cpm": 0.0,
+        "color": "#1d1d1f",
+        "delta": 49.7,
+        "bench": {
+          "er": 0.92,
+          "cpm": 1.1
+        },
+        "organicImpressions": 363,
+        "views": 74
+      }
+    ],
+    "topPosts": [],
+    "topPostsOrganic": [
+      {
+        "id": "o1",
+        "rank": 1,
+        "partner": "Heinz",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "We hit up Storehouse in NYC to try their gameday menu \ud83c\udfc8 We're talking a thick cut burger, panko\u2026",
+        "organicReach": 478821,
+        "totalReach": 991225,
+        "organicPct": 48.3,
+        "er": 0.03,
+        "insight": "",
+        "url": "https://tiktok.com/@stadium.eats/video/7698381610483191054"
+      }
+    ],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.04% ER \u2014 below the 1% floor.",
+        "body": "0.04% engagement rate across 1.1M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "Heinz \u00b7 Engagement"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "lastUpdatedMs": "2026-10-22T17:44:58Z",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -6485,16 +6599,16 @@ window.TOP_POSTS_ORGANIC = [
   {
     "id": "o6",
     "rank": 6,
-    "partner": "E*TRADE",
+    "partner": "Heinz",
     "platform": "TikTok",
     "format": "Reels/Shorts",
-    "quote": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d\u2026",
-    "organicReach": 412711,
-    "totalReach": 412711,
-    "organicPct": 100.0,
-    "er": 4.09,
+    "quote": "We hit up Storehouse in NYC to try their gameday menu \ud83c\udfc8 We're talking a thick cut burger, panko\u2026",
+    "organicReach": 478821,
+    "totalReach": 991225,
+    "organicPct": 48.3,
+    "er": 0.03,
     "insight": "",
-    "url": "https://tiktok.com/@frontofficesports/video/7644641312267914509"
+    "url": "https://tiktok.com/@stadium.eats/video/7698381610483191054"
   }
 ];
 
@@ -6518,40 +6632,40 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 35173231,
-    "eng": 65955,
-    "er": 0.19,
-    "cpm": 2.02,
+    "impressions": 36174549,
+    "eng": 66297,
+    "er": 0.18,
+    "cpm": 2.01,
     "color": "#000000",
-    "delta": -90.8,
+    "delta": -91.0,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 34780471
+    "views": 35771696
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 32243821,
-    "eng": 526275,
+    "impressions": 32369368,
+    "eng": 526419,
     "er": 1.63,
     "cpm": 4.51,
     "color": "#E4405F",
-    "delta": -50.7,
+    "delta": -50.9,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 30068025
+    "views": 30192034
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 30119230,
-    "eng": 646287,
+    "impressions": 30119593,
+    "eng": 646292,
     "er": 2.15,
     "cpm": 1.7,
     "color": "#1d1d1f",
@@ -6561,7 +6675,7 @@ window.CHANNELS = [
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 511067
+    "views": 511141
   },
   {
     "name": "Facebook",
@@ -22899,7 +23013,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "impressionGoal": 3750000
     }
   ],
-  "jlab_thecomeup": []
+  "jlab_thecomeup": [],
+  "heinz_stadiumeats": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -42127,6 +42242,77 @@ window.POSTS_BY_CAMPAIGN = {
       "url": "https://www.instagram.com/p/DenBiwaDmTU/",
       "postedAt": "2026-10-17T14:03:10-07:00"
     }
+  ],
+  "heinz_stadiumeats": [
+    {
+      "title": "We hit up Storehouse in NYC to try their gameday menu \ud83c\udfc8  We're talking a thick cut burger, panko chicken fingers, and Gu",
+      "platform": "X",
+      "accountName": "Stadium Eats",
+      "distKind": "organic",
+      "impr": 363,
+      "paidImpr": 0,
+      "orgImpr": 363,
+      "views": 74,
+      "reach": 0,
+      "eng": 5,
+      "er": 1.38,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/stadium_eats_/status/2111849796311167337",
+      "postedAt": "2026-10-18T09:00:02-07:00"
+    },
+    {
+      "title": "We hit up Storehouse in NYC to try their gameday menu \ud83c\udfc8\u2060 \u2060 We're talking a thick cut burger, panko chicken fingers, and ",
+      "platform": "Instagram",
+      "accountName": "Stadium Eats",
+      "distKind": "organic+boosted",
+      "impr": 125547,
+      "paidImpr": 122719,
+      "orgImpr": 2828,
+      "views": 124009,
+      "reach": 123739,
+      "eng": 144,
+      "er": 0.11,
+      "spend": 421.0,
+      "watchTimeMin": 5.1,
+      "clicks": 40,
+      "ctr": 3.26,
+      "cpc": 10.53,
+      "cpm": 3.43,
+      "videoViews100Pct": 55,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DepEAN5jwbG/",
+      "postedAt": "2026-10-18T09:03:24-07:00"
+    },
+    {
+      "title": "We hit up Storehouse in NYC to try their gameday menu \ud83c\udfc8 We're talking a thick cut burger, panko chicken fingers, and Gui",
+      "platform": "TikTok",
+      "accountName": "Stadium Eats",
+      "distKind": "organic+boosted",
+      "impr": 1001318,
+      "paidImpr": 522497,
+      "orgImpr": 478821,
+      "views": 991225,
+      "reach": 134369,
+      "eng": 342,
+      "er": 0.03,
+      "spend": 830.0,
+      "watchTimeMin": 13523.0,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 1.59,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@stadium.eats/video/7698381610483191054",
+      "postedAt": "2026-10-19T07:13:00-07:00"
+    }
   ]
 };
 
@@ -42440,7 +42626,8 @@ window.UPLOAD_TARGETS = {
       "file": "jlab_thecomeup_yt_paid.csv",
       "label": "Google Ads"
     }
-  ]
+  ],
+  "heinz_stadiumeats": []
 };
 
 window.MS_GROUPS = [
@@ -47148,29 +47335,29 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.61,
     "impressions": 29549708,
     "paidImpressions": 27493119,
-    "pctOfTotal": 37.9,
+    "pctOfTotal": 37.4,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 15.0,
     "color": "#E00922"
   },
   {
     "name": "Instagram",
-    "cpm": 4.23,
-    "impressions": 18517981,
-    "paidImpressions": 16293777,
-    "pctOfTotal": 23.8,
+    "cpm": 4.22,
+    "impressions": 18643528,
+    "paidImpressions": 16416496,
+    "pctOfTotal": 23.6,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -24.8,
+    "mvmDeltaPct": -24.9,
     "color": "#E4405F"
   },
   {
     "name": "TikTok",
-    "cpm": 1.52,
-    "impressions": 11717035,
-    "paidImpressions": 6911215,
-    "pctOfTotal": 15.0,
+    "cpm": 1.53,
+    "impressions": 12718353,
+    "paidImpressions": 7433712,
+    "pctOfTotal": 16.1,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": -32.1,
+    "mvmDeltaPct": -31.9,
     "color": "#000000"
   },
   {
@@ -47178,7 +47365,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.62,
     "impressions": 8077719,
     "paidImpressions": 7822425,
-    "pctOfTotal": 10.4,
+    "pctOfTotal": 10.2,
     "mvmCpm": 3.2,
     "mvmDeltaPct": -18.0,
     "color": "#FF0033"
@@ -47186,9 +47373,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.95,
-    "impressions": 5606053,
+    "impressions": 5606416,
     "paidImpressions": 3849286,
-    "pctOfTotal": 7.2,
+    "pctOfTotal": 7.1,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 57.4,
     "color": "#1d1d1f"
@@ -47225,7 +47412,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.18;
+window.PORTFOLIO_CPM_BLEND = 2.17;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
