@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-22T18:08:48Z";
+window.LAST_REFRESHED = "2026-10-22T18:56:42Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -808,7 +808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:41Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3497,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3661,7 +3661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4042,7 +4042,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4363,7 +4363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4567,7 +4567,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T18:08:47Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5151,7 +5151,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-10-20T19:19:45Z"
   },
   {
@@ -5315,7 +5315,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5437,7 +5437,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5832,7 +5832,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-10-21T19:45:03Z"
   },
   {
@@ -5847,11 +5847,11 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 2327826,
+      "delivered": 2327907,
       "goal": 6300000
     },
     "budget": {
-      "delivered": 3985.13,
+      "delivered": 3985.83,
       "goal": 14774.0
     },
     "color": "ft-1",
@@ -5860,10 +5860,10 @@ window.CAMPAIGNS = [
     "er": 2.0,
     "cpm": 2.85,
     "episodes": 3,
-    "posts": 11,
+    "posts": 12,
     "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
-    "views": 1625406,
-    "engagements": 46557,
+    "views": 1626009,
+    "engagements": 46573,
     "goalSplit": [],
     "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
     "lifecycle": "active",
@@ -5887,18 +5887,18 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 492762,
-        "eng": 4442,
+        "impressions": 492843,
+        "eng": 4458,
         "er": 0.9,
         "cpm": 2.61,
         "color": "#1877F2",
-        "delta": -41.1,
+        "delta": -40.9,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
         "organicImpressions": 192415,
-        "views": 0
+        "views": 603
       },
       {
         "name": "Instagram",
@@ -6088,12 +6088,12 @@ window.CAMPAIGNS = [
       {
         "label": "The Come Up \u2014 Video",
         "impressions": {
-          "delivered": 179618,
+          "delivered": 179699,
           "goal": 3750000
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-10-21T14:22:27Z"
   },
   {
@@ -6263,7 +6263,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": "2026-10-21T14:03:59Z"
   },
   {
@@ -6377,7 +6377,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-22T18:08:48Z",
+    "lastUpdatedMs": "2026-10-22T18:56:42Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6680,8 +6680,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7720570,
-    "eng": 38293,
+    "impressions": 7720651,
+    "eng": 38309,
     "er": 0.5,
     "cpm": 3.87,
     "color": "#1877F2",
@@ -6691,7 +6691,7 @@ window.CHANNELS = [
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 1683601
+    "views": 1684204
   },
   {
     "name": "LinkedIn",
@@ -22861,11 +22861,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Come Up \u2014 McAvoy, Stafford, Smith",
       "date": "Sep 2026",
       "total": {
-        "impr": 179618,
-        "views": 158529,
-        "er": 0.67,
-        "eng": 1210,
-        "spend": 133.0
+        "impr": 179699,
+        "views": 159132,
+        "er": 0.68,
+        "eng": 1226,
+        "spend": 133.7
       },
       "perChannel": [
         {
@@ -22926,6 +22926,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.07,
           "cpm": 0.0,
           "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "Facebook",
+          "distKind": "paid",
+          "impr": 81,
+          "paidImpr": 81,
+          "orgImpr": 0,
+          "views": 603,
+          "eng": 16,
+          "paidEng": 0,
+          "orgEng": 16,
+          "er": 19.75,
+          "cpm": 8.64,
+          "spend": 0.7,
           "posts": 1
         }
       ],
@@ -22989,6 +23004,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://www.youtube.com/shorts/pVTqIH5z5TA",
           "postedAt": "2026-10-19T13:30:24-07:00"
+        },
+        {
+          "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.\u2060 \u2060 Presented by @j",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports",
+          "distKind": "paid",
+          "impr": 81,
+          "paidImpr": 81,
+          "orgImpr": 0,
+          "views": 603,
+          "eng": 16,
+          "er": 19.75,
+          "spend": 0.7,
+          "url": "https://www.facebook.com/1108739128732288/",
+          "postedAt": "2026-10-21T12:17:52-07:00"
         }
       ],
       "topPosts": [
@@ -23003,7 +23033,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "Instagram leading with 3.9% ER on 20.6K impr."
+          "text": "Facebook leading with 19.8% ER on 81 impr."
         },
         {
           "kind": "pos",
@@ -42262,6 +42292,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/pVTqIH5z5TA",
       "postedAt": "2026-10-19T13:30:24-07:00"
+    },
+    {
+      "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.\u2060 \u2060 Presented by @j",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 81,
+      "paidImpr": 81,
+      "orgImpr": 0,
+      "views": 603,
+      "reach": 0,
+      "eng": 16,
+      "er": 19.75,
+      "spend": 0.7,
+      "watchTimeMin": 139.7,
+      "clicks": 14,
+      "ctr": 17.28,
+      "cpc": 0.05,
+      "cpm": 8.64,
+      "videoViews100Pct": 1,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1108739128732288/",
+      "postedAt": "2026-10-21T12:17:52-07:00"
     }
   ],
   "jlab_thecomeup": [
@@ -47521,8 +47574,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Facebook",
     "cpm": 4.06,
-    "impressions": 1907850,
-    "paidImpressions": 1648069,
+    "impressions": 1907931,
+    "paidImpressions": 1648150,
     "pctOfTotal": 2.4,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -3.3,
