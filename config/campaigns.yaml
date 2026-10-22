@@ -1597,7 +1597,7 @@ campaigns:
     series_italic: Status
     type: content
     benchmark_category: Original Content
-    lifecycle: active
+    lifecycle: wrapped     # wrapped via dashboard 2026-10-22
     flight_start: 2026-09-17
     flight_end: 2026-09-30
     impression_goal: 850000
