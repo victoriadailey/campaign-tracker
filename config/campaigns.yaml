@@ -154,9 +154,14 @@ campaigns:
     sources:
       # MS API = base layer (organic + paid across IG/FB/TT/LI/X/YT).
       measure_studio_group_id: 6197         # Portfolio Players S3 x E*TRADE
-      # GAds CSV supplements YT paid (MS under-counts YT in-feed).
-      youtube_paid:
-        - portfolio_players_yt_paid.csv
+      # YouTube paid now comes straight from Measure (its mid-July update added
+      # YouTube paid impressions). Verified identical to the Google Ads export
+      # within 13 impressions across the whole campaign, so the GAds youtube_paid
+      # upload is dropped. Organic (thumbnail impressions) still comes from
+      # config/youtube_organic_impressions.csv. If the Measure API disconnects,
+      # re-add the GAds upload:
+      #   youtube_paid:
+      #     - portfolio_players_yt_paid.csv
       # X Ads CSV supplements X paid (MS doesn't track X paid at all).
       x_ads:
         - portfolio_players_x_ads.csv
@@ -366,9 +371,9 @@ campaigns:
         exclude: []
       - id: ep18
         n: "Ep. 18"
-        title: "Albert Pujols"
-        date: "TBD"
-        match: ["PP Episode 18 -", "Albert Pujols", "Pujols"]
+        title: "Blake Griffin"
+        date: "Oct 2026"
+        match: ["PP Episode 18 -", "Blake Griffin", "Griffin"]
         exclude: []
       - id: ep19
         n: "Ep. 19"
