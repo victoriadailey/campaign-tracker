@@ -1825,5 +1825,7 @@ campaigns:
     lead_format: Social Video
     blurb: "Four (4) short-form Stadium Eats videos traveling to an NFL stadium, sampling iconic game day foods and naturally integrating Heinz within the experience"
     sources:
+      youtube_paid:
+        - heinz_stadiumeats_yt_paid.csv
       measure_studio_group_ids:
         - 9230
