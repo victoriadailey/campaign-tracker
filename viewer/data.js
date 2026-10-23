@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-23T12:33:59Z";
+window.LAST_REFRESHED = "2026-10-23T13:27:35Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:58Z",
+    "lastUpdatedMs": "2026-10-23T13:27:34Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -799,7 +799,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:58Z",
+    "lastUpdatedMs": "2026-10-23T13:27:34Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1051,7 +1051,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T12:33:58Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1365,7 +1365,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:58Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1472,7 +1472,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:58Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1619,7 +1619,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1774,7 +1774,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2171,7 +2171,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2319,7 +2319,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2521,7 +2521,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2788,7 +2788,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3171,7 +3171,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3488,7 +3488,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3652,7 +3652,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3791,7 +3791,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4033,7 +4033,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4354,7 +4354,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4558,7 +4558,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4718,7 +4718,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4930,7 +4930,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5142,7 +5142,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-10-20T19:19:45Z"
   },
   {
@@ -5306,7 +5306,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5428,7 +5428,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5837,7 +5837,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-10-21T19:45:03Z"
   },
   {
@@ -6128,7 +6128,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-10-21T14:22:27Z"
   },
   {
@@ -6291,7 +6291,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": "2026-10-21T14:03:59Z"
   },
   {
@@ -6306,7 +6306,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 1808145,
+      "delivered": 2021994,
       "goal": 8500000
     },
     "budget": {
@@ -6317,12 +6317,12 @@ window.CAMPAIGNS = [
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
     "er": 0.04,
-    "cpm": 2.08,
+    "cpm": 1.73,
     "episodes": 0,
-    "posts": 3,
+    "posts": 4,
     "blurb": "Four (4) short-form Stadium Eats videos traveling to an NFL stadium, sampling iconic game day foods and naturally integrating Heinz within the experience",
-    "views": 1787301,
-    "engagements": 759,
+    "views": 1829842,
+    "engagements": 814,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -6358,6 +6358,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 2888,
         "views": 249911
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 213849,
+        "eng": 55,
+        "er": 0.03,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -99.9,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 0,
+        "views": 42541
       },
       {
         "name": "X",
@@ -6398,14 +6414,14 @@ window.CAMPAIGNS = [
         "tag": "WATCH",
         "kind": "warn",
         "headline": "Campaign averaging 0.04% ER \u2014 below the 1% floor.",
-        "body": "0.04% engagement rate across 1.8M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "body": "0.04% engagement rate across 2.0M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Heinz \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T12:33:59Z",
+    "lastUpdatedMs": "2026-10-23T13:27:35Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6644,9 +6660,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 107944134,
-    "eng": 2068503,
-    "er": 1.92,
+    "impressions": 108157983,
+    "eng": 2068558,
+    "er": 1.91,
     "cpm": 0.93,
     "color": "#E00922",
     "delta": -90.4,
@@ -6655,7 +6671,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 23009008
+    "views": 23051549
   },
   {
     "name": "TikTok",
@@ -41904,6 +41920,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-10-18T09:00:02-07:00"
     },
     {
+      "title": "We hit up Storehouse in NYC to try their gameday menu.",
+      "platform": "YouTube Shorts",
+      "accountName": "Stadium Eats",
+      "distKind": "organic+boosted",
+      "impr": 213849,
+      "paidImpr": 213849,
+      "orgImpr": 0,
+      "views": 42541,
+      "reach": 0,
+      "eng": 55,
+      "er": 0.03,
+      "spend": 0,
+      "watchTimeMin": 2913.0,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 4.08,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/9C7b4KPo3lA",
+      "postedAt": "2026-10-18T09:00:07-07:00"
+    },
+    {
       "title": "We hit up Storehouse in NYC to try their gameday menu \ud83c\udfc8\u2060 \u2060 We're talking a thick cut burger, panko chicken fingers, and ",
       "platform": "Instagram",
       "accountName": "Stadium Eats",
@@ -46958,7 +46997,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.14,
     "impressions": 30438783,
     "paidImpressions": 28382193,
-    "pctOfTotal": 37.6,
+    "pctOfTotal": 37.5,
     "mvmCpm": 0.53,
     "mvmDeltaPct": -72.8,
     "color": "#E00922"
@@ -46985,12 +47024,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 1.75,
-    "impressions": 8173346,
-    "paidImpressions": 7918040,
-    "pctOfTotal": 10.1,
+    "cpm": 1.71,
+    "impressions": 8387195,
+    "paidImpressions": 8131889,
+    "pctOfTotal": 10.3,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -45.3,
+    "mvmDeltaPct": -46.7,
     "color": "#FF0033"
   },
   {
@@ -47008,7 +47047,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.04,
     "impressions": 1984622,
     "paidImpressions": 1724733,
-    "pctOfTotal": 2.5,
+    "pctOfTotal": 2.4,
     "mvmCpm": 4.2,
     "mvmDeltaPct": -3.9,
     "color": "#1877F2"
