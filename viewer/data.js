@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-23T15:27:13Z";
+window.LAST_REFRESHED = "2026-10-23T15:52:37Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -799,7 +799,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1051,7 +1051,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1365,7 +1365,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1472,7 +1472,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1619,7 +1619,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1774,7 +1774,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2171,7 +2171,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2319,7 +2319,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2521,7 +2521,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2788,7 +2788,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3171,7 +3171,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3488,7 +3488,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3652,7 +3652,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3791,7 +3791,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4033,7 +4033,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4354,7 +4354,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4558,7 +4558,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4718,7 +4718,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4930,7 +4930,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5142,7 +5142,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-10-20T19:19:45Z"
   },
   {
@@ -5306,7 +5306,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5428,7 +5428,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5837,7 +5837,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-10-21T19:45:03Z"
   },
   {
@@ -5852,7 +5852,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 2679380,
+      "delivered": 2770180,
       "goal": 6300000
     },
     "budget": {
@@ -5862,13 +5862,13 @@ window.CAMPAIGNS = [
     "color": "ft-1",
     "leadFormat": "Short-form Video",
     "topChannel": "TikTok",
-    "er": 1.78,
+    "er": 1.79,
     "cpm": 2.72,
-    "episodes": 3,
-    "posts": 12,
+    "episodes": 4,
+    "posts": 15,
     "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
-    "views": 1944145,
-    "engagements": 47756,
+    "views": 1986815,
+    "engagements": 49462,
     "goalSplit": [],
     "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
     "lifecycle": "active",
@@ -5892,34 +5892,34 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 493558,
-        "eng": 4587,
+        "impressions": 495746,
+        "eng": 4593,
         "er": 0.93,
         "cpm": 2.62,
         "color": "#1877F2",
-        "delta": -39.3,
+        "delta": -39.4,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 192461,
+        "organicImpressions": 194649,
         "views": 2438
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 329779,
-        "eng": 16214,
-        "er": 4.92,
+        "impressions": 372449,
+        "eng": 16991,
+        "er": 4.56,
         "cpm": 5.45,
         "color": "#E4405F",
-        "delta": 48.5,
+        "delta": 37.8,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 61170,
-        "views": 219552
+        "organicImpressions": 103840,
+        "views": 262222
       },
       {
         "name": "YouTube Shorts",
@@ -5940,17 +5940,17 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 73974,
-        "eng": 1421,
-        "er": 1.92,
+        "impressions": 119916,
+        "eng": 2344,
+        "er": 1.95,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -48.9,
+        "delta": -48.0,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 73974,
+        "organicImpressions": 119916,
         "views": 12766
       }
     ],
@@ -6034,6 +6034,22 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
         "postedAt": "2026-10-15T13:30:04-07:00"
+      },
+      {
+        "id": "urn:li:share:7519028969510277121",
+        "rank": 6,
+        "partner": "Just Ingredients",
+        "platform": "LinkedIn",
+        "format": "Image post",
+        "quote": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension\u2026",
+        "er": 2.01,
+        "eng": 923,
+        "reach": 45942,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121",
+        "postedAt": "2026-10-22T13:30:07-07:00"
       }
     ],
     "topPostsOrganic": [
@@ -6091,8 +6107,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 49% of goal (3.1M of 6.3M) with 8 days left.",
-        "body": "At the current rate the campaign will fall ~3.2M impressions short of the 6.3M goal. Need to deliver 453K impr/day (8.8\u00d7 the current 51K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 51% of goal (3.2M of 6.3M) with 8 days left.",
+        "body": "At the current rate the campaign will fall ~3.1M impressions short of the 6.3M goal. Need to deliver 441K impr/day (8.3\u00d7 the current 53K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Just Ingredients \u00b7 Pacing"
       }
     ],
@@ -6116,7 +6132,7 @@ window.CAMPAIGNS = [
       {
         "label": "The Come Up \u2014 Static",
         "impressions": {
-          "delivered": 0,
+          "delivered": 90800,
           "goal": 850000
         }
       },
@@ -6128,7 +6144,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-10-21T14:22:27Z"
   },
   {
@@ -6283,7 +6299,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": "2026-10-23T15:13:25Z"
   },
   {
@@ -6413,7 +6429,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-23T15:27:12Z",
+    "lastUpdatedMs": "2026-10-23T15:52:37Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -6684,8 +6700,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 32773033,
-    "eng": 528561,
+    "impressions": 32815703,
+    "eng": 529338,
     "er": 1.61,
     "cpm": 4.5,
     "color": "#E4405F",
@@ -6695,7 +6711,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 30589090
+    "views": 30631760
   },
   {
     "name": "X",
@@ -6716,8 +6732,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 7797344,
-    "eng": 38468,
+    "impressions": 7799532,
+    "eng": 38474,
     "er": 0.49,
     "cpm": 3.86,
     "color": "#1877F2",
@@ -6732,12 +6748,12 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2459971,
-    "eng": 79774,
-    "er": 3.24,
+    "impressions": 2505913,
+    "eng": 80697,
+    "er": 3.22,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -13.8,
+    "delta": -14.4,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
@@ -6784,8 +6800,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 49% of goal (3.1M of 6.3M) with 8 days left.",
-    "body": "At the current rate the campaign will fall ~3.2M impressions short of the 6.3M goal. Need to deliver 453K impr/day (8.8\u00d7 the current 51K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 51% of goal (3.2M of 6.3M) with 8 days left.",
+    "body": "At the current rate the campaign will fall ~3.1M impressions short of the 6.3M goal. Need to deliver 441K impr/day (8.3\u00d7 the current 53K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Just Ingredients \u00b7 Pacing",
     "campaignId": "just_ingredients_2026",
     "campaignPartner": "Just Ingredients"
@@ -22692,6 +22708,128 @@ window.EPISODES_BY_CAMPAIGN = {
         }
       ],
       "impressionGoal": 1250000
+    },
+    {
+      "n": "Static",
+      "title": "The Come Up \u2014 AJ Green & Reed Blankenship",
+      "date": "TBD",
+      "total": {
+        "impr": 90800,
+        "views": 42670,
+        "er": 1.88,
+        "eng": 1706,
+        "spend": 0
+      },
+      "perChannel": [
+        {
+          "name": "LinkedIn",
+          "distKind": "organic",
+          "impr": 45942,
+          "paidImpr": 0,
+          "orgImpr": 45942,
+          "views": 0,
+          "eng": 923,
+          "paidEng": 0,
+          "orgEng": 923,
+          "er": 2.01,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "Instagram",
+          "distKind": "organic",
+          "impr": 42670,
+          "paidImpr": 0,
+          "orgImpr": 42670,
+          "views": 42670,
+          "eng": 777,
+          "paidEng": 0,
+          "orgEng": 777,
+          "er": 1.82,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "Facebook",
+          "distKind": "organic",
+          "impr": 2188,
+          "paidImpr": 0,
+          "orgImpr": 2188,
+          "views": 0,
+          "eng": 6,
+          "paidEng": 0,
+          "orgEng": 6,
+          "er": 0.27,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        }
+      ],
+      "posts": [
+        {
+          "title": "AJ Green went from undrafted to a $45 million contract extension and two Bucks franchise records. #TheComeUp  Presented ",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 42670,
+          "paidImpr": 0,
+          "orgImpr": 42670,
+          "views": 42670,
+          "eng": 777,
+          "er": 1.82,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DezoXyYldLo/",
+          "postedAt": "2026-10-22T13:30:02-07:00"
+        },
+        {
+          "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 45942,
+          "paidImpr": 0,
+          "orgImpr": 45942,
+          "views": 0,
+          "eng": 923,
+          "er": 2.01,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121",
+          "postedAt": "2026-10-22T13:30:07-07:00"
+        },
+        {
+          "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 2188,
+          "paidImpr": 0,
+          "orgImpr": 2188,
+          "views": 0,
+          "eng": 6,
+          "er": 0.27,
+          "spend": 0,
+          "url": "https://www.facebook.com/1618801963592721/",
+          "postedAt": "2026-10-22T13:42:29-07:00"
+        }
+      ],
+      "topPosts": [
+        {
+          "quote": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million ext",
+          "platform": "LinkedIn",
+          "er": 2.01,
+          "reach": 45942,
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121"
+        }
+      ],
+      "callouts": [
+        {
+          "kind": "pos",
+          "text": "LinkedIn leading with 2.0% ER on 45.9K impr."
+        }
+      ],
+      "impressionGoal": 850000
     },
     {
       "n": "Video",
@@ -41655,6 +41793,75 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-10-15T13:30:04-07:00"
     },
     {
+      "title": "AJ Green went from undrafted to a $45 million contract extension and two Bucks franchise records. #TheComeUp  Presented ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 42670,
+      "paidImpr": 0,
+      "orgImpr": 42670,
+      "views": 42670,
+      "reach": 20664,
+      "eng": 777,
+      "er": 1.82,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DezoXyYldLo/",
+      "postedAt": "2026-10-22T13:30:02-07:00"
+    },
+    {
+      "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 45942,
+      "paidImpr": 0,
+      "orgImpr": 45942,
+      "views": 0,
+      "reach": 0,
+      "eng": 923,
+      "er": 2.01,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121",
+      "postedAt": "2026-10-22T13:30:07-07:00"
+    },
+    {
+      "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 2188,
+      "paidImpr": 0,
+      "orgImpr": 2188,
+      "views": 0,
+      "reach": 0,
+      "eng": 6,
+      "er": 0.27,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": 24,
+      "ctr": 1.1,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1618801963592721/",
+      "postedAt": "2026-10-22T13:42:29-07:00"
+    },
+    {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.\u2060 \u2060 Presented by @j",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
@@ -46997,9 +47204,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.21,
-    "impressions": 19047187,
+    "impressions": 19089857,
     "paidImpressions": 16813401,
-    "pctOfTotal": 23.4,
+    "pctOfTotal": 23.5,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -25.0,
     "color": "#E4405F"
@@ -47009,7 +47216,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.54,
     "impressions": 13865071,
     "paidImpressions": 8104765,
-    "pctOfTotal": 17.1,
+    "pctOfTotal": 17.0,
     "mvmCpm": 2.24,
     "mvmDeltaPct": -31.1,
     "color": "#000000"
@@ -47037,7 +47244,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Facebook",
     "cpm": 4.04,
-    "impressions": 1984622,
+    "impressions": 1986810,
     "paidImpressions": 1724733,
     "pctOfTotal": 2.4,
     "mvmCpm": 4.2,
@@ -47047,9 +47254,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1717357,
+    "impressions": 1763299,
     "paidImpressions": 0,
-    "pctOfTotal": 2.1,
+    "pctOfTotal": 2.2,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
