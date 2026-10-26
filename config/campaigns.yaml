@@ -1829,3 +1829,21 @@ campaigns:
         - heinz_stadiumeats_yt_paid.csv
       measure_studio_group_ids:
         - 9230
+
+  - id: pwc_formula1
+    partner: PwC
+    series: PwC x Formula 1
+    series_italic: 1
+    type: social
+    benchmark_category: "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)"
+    lifecycle: active
+    flight_start: 2026-10-01
+    flight_end: 2026-11-30
+    impression_goal: 4200000
+    budget_goal: 12000
+    color: ft-1
+    lead_format: "Short-form Video"
+    blurb: 4 unique videos breaking down news during the Formula 1 race season
+    sources:
+      measure_studio_group_ids:
+        - 9320
