@@ -63,8 +63,10 @@ function DataArchivePage() {
               For long-term safekeeping, mirror each export here to a shared Google Sheet (one tab per campaign × source). The dashboard reads from <code>tests/fixtures/</code>; the Sheet is your archive of record.
             </div>
           </div>
-          <a href="#" onClick={(e) => e.preventDefault()} className="btn btn-acc" style={{whiteSpace:'nowrap'}}>
-            Open archive sheet (TBD)
+          <a href="https://docs.google.com/spreadsheets/d/1MSDJUB1cvQVT3KTKzCBEmO2hI9WUen2zg3tFdJM-XSM/edit?gid=0#gid=0"
+             target="_blank" rel="noopener noreferrer"
+             className="btn btn-acc" style={{whiteSpace:'nowrap'}}>
+            Open archive sheet
           </a>
         </div>
       </div>
