@@ -1856,6 +1856,8 @@ campaigns:
     lead_format: "Short-form Video"
     blurb: 4 unique videos breaking down news during the Formula 1 race season
     sources:
+      youtube_paid:
+        - pwc_formula1_yt_paid.csv
       measure_studio_group_ids:
         - 9320
 
