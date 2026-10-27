@@ -1847,3 +1847,21 @@ campaigns:
     sources:
       measure_studio_group_ids:
         - 9320
+
+  - id: zoom_fosexplains_mlb
+    partner: Zoom
+    series: Zoom x FOS Explains
+    series_italic: Explains
+    type: social
+    benchmark_category: Original Content
+    lifecycle: active
+    flight_start: 2026-10-01
+    flight_end: 2026-11-30
+    impression_goal: 5000000
+    budget_goal: 9376
+    color: ft-8
+    lead_format: Social Video
+    blurb: 1x FOS Explains with Zoom about MLB technology with 2 cutdowns
+    sources:
+      measure_studio_group_ids:
+        - 9319
