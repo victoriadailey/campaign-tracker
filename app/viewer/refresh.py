@@ -351,10 +351,16 @@ def main() -> int:
         #     - ids: [111, 222, 333]
         #       title: "Off the Pitch Video 1 — TikTok"
         for spec in c.get("merge_posts") or []:
-            _ids = {str(x) for x in (spec.get("ids") or [])}
+            _order = {str(x): i for i, x in enumerate(spec.get("ids") or [])}
+            _ids = set(_order)
             if not _ids:
                 continue
-            bucket = [p for p in posts_by_campaign[c_id] if str(p.post_id_native) in _ids]
+            # Keep the listed order so the first id supplies the identity
+            # (platform, url, account) as documented above.
+            bucket = sorted(
+                (p for p in posts_by_campaign[c_id] if str(p.post_id_native) in _ids),
+                key=lambda p: _order[str(p.post_id_native)],
+            )
             if len(bucket) < 2:
                 continue
             rest = [p for p in posts_by_campaign[c_id] if str(p.post_id_native) not in _ids]
