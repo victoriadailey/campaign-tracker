@@ -1868,5 +1868,7 @@ campaigns:
     lead_format: Social Video
     blurb: 1x FOS Explains with Zoom about MLB technology with 2 cutdowns
     sources:
+      youtube_paid:
+        - zoom_fosexplains_mlb_yt_paid.csv
       measure_studio_group_ids:
         - 9319
