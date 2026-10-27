@@ -1575,6 +1575,12 @@ campaigns:
         - accenture_external_creator_yt_paid.csv
       measure_studio_group_ids:
         - 8757
+    # Meta added a Facebook placement to two boosted Instagram posts; MS reports
+    # each as a separate dark Facebook post. Fold each into its Instagram post
+    # (Instagram id listed first so it keeps the row's identity).
+    merge_posts:
+      - ids: [3981838900760154441, 1498751362298524]   # Rams vs. 49ers
+      - ids: [3994220467938265641, 1993747804640673]   # Maracanã Stadium
 
   - id: daktronics_stadiumstatus
     partner: Daktronics
