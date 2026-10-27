@@ -1622,7 +1622,7 @@ campaigns:
     series_italic: BrandX
     type: brandx
     benchmark_category: Branded Content
-    lifecycle: active
+    lifecycle: wrapped     # was: active — wrapped 2026-10-27
     flight_start: 2026-09-01
     flight_end: 2026-10-31
     impression_goal: 300000
@@ -1641,7 +1641,7 @@ campaigns:
     series_italic: BrandX
     type: brandx
     benchmark_category: "Custom Social - Non-Franchise (Event Coverage, Custom Shoot, etc.)"
-    lifecycle: active
+    lifecycle: wrapped     # was: active — wrapped 2026-10-27
     flight_start: 2026-09-01
     flight_end: 2026-09-30
     impression_goal: 500000
