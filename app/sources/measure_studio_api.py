@@ -334,17 +334,31 @@ class MeasureStudioClient:
                 logger.exception("MS query lookup failed for %s; falling back to scan", native_id)
 
         # ---- fallback: windowed, cached account scan ----
-        # Decide which accounts to scan. With a hint we filter to that
-        # platform only; without it we scan every account that's authorised.
+        # Only run this scan when we have a platform hint. The scan exists for
+        # the ONE id type the query index can't match — LinkedIn URNs (resolved
+        # by URL, not platform_id). Every other pin is a platform_id that MS
+        # DOES index, so a 0-result fast path means the post is genuinely absent;
+        # scanning for it would page every authorised account's history (~2 min
+        # each × 15 accounts ≈ up to 30 min) only to find nothing. That
+        # unbounded no-hint scan — amplified by transient CI query failures —
+        # was what ballooned refreshes to 15–30 min. Skip it; surface the miss
+        # via the end-of-refresh unattributed-posts warning instead.
+        if platform_hint is None:
+            logger.warning(
+                "Cross-group pin %s not resolved by fast query and has no platform "
+                "hint — skipping the all-account scan (add it to the campaign's MS "
+                "group, or it will stay unattributed).", native_id,
+            )
+            return None
+
         try:
             accounts = self.list_accounts()
         except Exception:  # noqa: BLE001
             logger.exception("MS account list failed during cross-group post lookup")
             return None
 
-        if platform_hint is not None:
-            wanted_types = {k for k, v in _PLATFORM_FROM_MS.items() if v is platform_hint}
-            accounts = [a for a in accounts if (a.get("account_type") or "").lower() in wanted_types]
+        wanted_types = {k for k, v in _PLATFORM_FROM_MS.items() if v is platform_hint}
+        accounts = [a for a in accounts if (a.get("account_type") or "").lower() in wanted_types]
 
         # Bound how far back we paginate so a missing or old pin can't trigger a
         # full lifetime-history scan of every account.
