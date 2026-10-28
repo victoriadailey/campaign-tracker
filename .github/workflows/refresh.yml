@@ -85,10 +85,15 @@ jobs:
           # fails non-fast-forward and the whole refresh is lost — which is why
           # intraday uploads historically never reached the live site.
           #
-          # Rebase-and-retry fixes it: our commit only touches viewer/* and the
-          # upload commits only touch tests/fixtures/*, so the rebase is always
-          # conflict-free. Retry a few times in case another upload lands during
-          # the rebase itself.
+          # Rebase-and-retry fixes it. Upload commits only touch tests/fixtures/*
+          # (conflict-free), but a COMPETING refresh run (daily cron, or a config
+          # push that also triggers a refresh) commits viewer/data.js +
+          # standalone too — so the rebase CAN conflict on those generated files.
+          # `-X theirs` resolves any such conflict in favour of the commit being
+          # replayed, i.e. OUR freshly-regenerated data (which reflects the most
+          # recent MS pull and is what should win). Fixtures land conflict-free
+          # since our commit never touches them. Retry in case another push
+          # lands during the rebase itself.
           for attempt in 1 2 3 4 5; do
             if git push; then
               echo "Pushed on attempt $attempt."
@@ -96,7 +101,7 @@ jobs:
             fi
             echo "Push rejected (attempt $attempt) — rebasing onto latest origin/main…"
             git fetch origin main
-            git rebase origin/main || { echo "Unexpected rebase conflict"; git rebase --abort; exit 1; }
+            git rebase -X theirs origin/main || { echo "Unexpected rebase conflict"; git rebase --abort; exit 1; }
           done
           echo "Failed to push after 5 attempts." >&2
           exit 1

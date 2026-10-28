@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import logging
 import os
+import time
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Iterator
@@ -308,19 +309,29 @@ class MeasureStudioClient:
         # Resolves the vast majority of pins (YT / X / FB / IG / …) in one
         # sub-second request. We still require an exact native-id match so a
         # fuzzy content hit can't return the wrong post.
-        try:
-            page = self._get("/posts", query=native_id, period=DEFAULT_PERIOD,
-                             max_results=PAGE_SIZE)
-            posts = page.get("posts", []) if isinstance(page, dict) else (page or [])
-            for raw in posts:
-                if _native_post_id(raw) == native_id:
-                    try:
-                        return _to_normalized_post(raw, account_names=account_names)
-                    except Exception:  # noqa: BLE001
-                        logger.exception("Failed to normalise queried post %s", native_id)
-                        return None
-        except Exception:  # noqa: BLE001
-            logger.exception("MS query lookup failed for %s; falling back to scan", native_id)
+        #
+        # Retry a few times on failure: in CI this endpoint intermittently
+        # throws (seen as a transient 404). A missed fast path is expensive —
+        # it dumps the pin into the all-account scan below — so it's worth a
+        # couple of cheap retries to stay on the sub-second path.
+        for _attempt in range(3):
+            try:
+                page = self._get("/posts", query=native_id, period=DEFAULT_PERIOD,
+                                 max_results=PAGE_SIZE)
+                posts = page.get("posts", []) if isinstance(page, dict) else (page or [])
+                for raw in posts:
+                    if _native_post_id(raw) == native_id:
+                        try:
+                            return _to_normalized_post(raw, account_names=account_names)
+                        except Exception:  # noqa: BLE001
+                            logger.exception("Failed to normalise queried post %s", native_id)
+                            return None
+                break  # query succeeded (post just isn't query-indexed, e.g. LinkedIn URNs)
+            except Exception:  # noqa: BLE001
+                if _attempt < 2:
+                    time.sleep(1.5 * (_attempt + 1))
+                    continue
+                logger.exception("MS query lookup failed for %s; falling back to scan", native_id)
 
         # ---- fallback: windowed, cached account scan ----
         # Decide which accounts to scan. With a hint we filter to that
@@ -352,39 +363,53 @@ class MeasureStudioClient:
             cache = {}
             self._xacct_post_cache = cache
 
-        # Pre-warm: fetch (windowed) and cache every candidate account up front,
-        # THEN search. Returning on the first match would leave later accounts
-        # unscanned, so the next pin whose post lives in a later account would
-        # rescan from scratch — that's what made resolving 19 pins take ~18 min.
-        # Pre-warming makes the first lookup pay for each account once and every
-        # later pin an O(1) cache hit.
-        ckeys: list[tuple] = []
-        for acct in accounts:
-            acct_id = acct.get("id")
-            if acct_id is None:
-                continue
-            ckey = (acct_id, published_after)
-            ckeys.append(ckey)
-            if ckey not in cache:
-                try:
-                    cache[ckey] = list(
-                        self.search_posts(account_ids=[acct_id], published_after=published_after)
-                    )
-                except Exception:  # noqa: BLE001
-                    logger.exception("Cross-account fetch failed for MS account %s", acct_id)
-                    cache[ckey] = []
-
-        for ckey in ckeys:
-            for raw in cache[ckey]:
+        # Early-exit scan: check already-cached accounts first (O(1) for pins a
+        # previous lookup this run already warmed), then fetch uncached accounts
+        # one at a time and stop the instant the pin is found. Each account is
+        # still cached on first fetch, so a batch of pins pays for any given
+        # account at most once — but a no-hint pin whose post lives in the first
+        # account no longer pays to pre-fetch all 15 (that all-account pre-warm
+        # was the 15–30 min CI blow-up). A LinkedIn-hinted pin only ever touches
+        # the single LinkedIn account.
+        def _match_in(posts_list):
+            for raw in posts_list:
                 # Match against the native ID used in NormalizedPost — must
                 # mirror _native_post_id's logic since pinned IDs are written
                 # against that representation.
                 if _native_post_id(raw) == native_id:
-                    try:
-                        return _to_normalized_post(raw, account_names=account_names)
-                    except Exception:  # noqa: BLE001
-                        logger.exception("Failed to normalise cross-account post %s", native_id)
-                        return None
+                    return raw
+            return None
+
+        def _resolve(raw):
+            try:
+                return _to_normalized_post(raw, account_names=account_names)
+            except Exception:  # noqa: BLE001
+                logger.exception("Failed to normalise cross-account post %s", native_id)
+                return None
+
+        acct_ids = [a.get("id") for a in accounts if a.get("id") is not None]
+        # 1) cached accounts first (free)
+        for acct_id in acct_ids:
+            cached = cache.get((acct_id, published_after))
+            if cached is not None:
+                hit = _match_in(cached)
+                if hit is not None:
+                    return _resolve(hit)
+        # 2) uncached accounts — fetch, cache, check, stop on first match
+        for acct_id in acct_ids:
+            ckey = (acct_id, published_after)
+            if ckey in cache:
+                continue
+            try:
+                cache[ckey] = list(
+                    self.search_posts(account_ids=[acct_id], published_after=published_after)
+                )
+            except Exception:  # noqa: BLE001
+                logger.exception("Cross-account fetch failed for MS account %s", acct_id)
+                cache[ckey] = []
+            hit = _match_in(cache[ckey])
+            if hit is not None:
+                return _resolve(hit)
         return None
 
     def _account_uid_to_name(self) -> dict[str, str]:
