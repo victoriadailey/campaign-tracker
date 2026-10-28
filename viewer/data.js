@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-28T20:07:53Z";
+window.LAST_REFRESHED = "2026-10-28T20:56:08Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:52Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -800,7 +800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:52Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1052,7 +1052,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-28T20:07:52Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1366,7 +1366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:52Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1473,7 +1473,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1620,7 +1620,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1775,7 +1775,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2172,7 +2172,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2320,7 +2320,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2522,7 +2522,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2789,7 +2789,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3172,7 +3172,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3489,7 +3489,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3653,7 +3653,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3792,7 +3792,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4034,7 +4034,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4355,7 +4355,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4559,7 +4559,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4719,7 +4719,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4931,7 +4931,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5095,7 +5095,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-28T19:36:18Z"
   },
   {
@@ -5259,7 +5259,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5381,7 +5381,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5790,7 +5790,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-26T19:10:38Z"
   },
   {
@@ -6081,7 +6081,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-23T17:02:08Z"
   },
   {
@@ -6236,7 +6236,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6366,7 +6366,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6488,7 +6488,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
@@ -6628,7 +6628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-28T20:07:53Z",
+    "lastUpdatedMs": "2026-10-28T20:56:07Z",
     "lastUpdatedExports": "2026-10-27T17:32:34Z"
   },
   {
@@ -43440,8 +43440,7 @@ window.DATA_HEALTH = {
   ],
   "msErrors": [],
   "orphanFiles": [
-    "portfolio_players_yt_paid.csv",
-    "sportradar_brandx_meta_ads.csv"
+    "portfolio_players_yt_paid.csv"
   ],
   "potentialDuplicates": []
 };
