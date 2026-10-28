@@ -1895,3 +1895,7 @@ campaigns:
     color: ft-1
     lead_format: Paid Social
     blurb: Sportradar BrandX
+
+    sources:
+      meta_ads:
+        - sportradar_brandx_meta_ads.csv
