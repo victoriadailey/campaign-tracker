@@ -1880,3 +1880,18 @@ campaigns:
         - zoom_fosexplains_mlb_yt_paid.csv
       measure_studio_group_ids:
         - 9319
+
+  - id: sportradar_brandx
+    partner: Sportradar
+    series: Sportradar BrandX
+    series_italic: BrandX
+    type: brandx
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-10-01
+    flight_end: 2026-11-30
+    impression_goal: 200000
+    budget_goal: 550
+    color: ft-1
+    lead_format: Paid Social
+    blurb: Sportradar BrandX
