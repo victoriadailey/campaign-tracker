@@ -1899,3 +1899,21 @@ campaigns:
     sources:
       meta_ads:
         - sportradar_brandx_meta_ads.csv
+
+  - id: stifel_fostonight
+    partner: Stifel
+    series: Stifel x FOS Tonight
+    series_italic: Tonight
+    type: social
+    benchmark_category: Social Coverage Partner
+    lifecycle: active
+    flight_start: 2026-09-01
+    flight_end: 2026-12-31
+    impression_goal: 2000000
+    budget_goal: 10000
+    color: ft-1
+    lead_format: Social Video
+    blurb: Stifel x FOS Tonight native social coverage
+    sources:
+      measure_studio_group_ids:
+        - 9369
