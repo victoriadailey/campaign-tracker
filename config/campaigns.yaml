@@ -1389,7 +1389,7 @@ campaigns:
     series_italic: BrandX
     type: brandx
     benchmark_category: Branded Content
-    lifecycle: active
+    lifecycle: wrapped     # was: active — wrapped 2026-10-29
     flight_start: 2026-07-21
     flight_end: 2026-08-31
     impression_goal: 1400000
