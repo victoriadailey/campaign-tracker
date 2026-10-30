@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-30T13:41:01Z";
+window.LAST_REFRESHED = "2026-10-30T13:44:08Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:00Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -792,7 +792,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:00Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1044,7 +1044,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T13:41:00Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1358,7 +1358,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1465,7 +1465,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1612,7 +1612,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1767,7 +1767,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2164,7 +2164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2312,7 +2312,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2514,7 +2514,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2781,7 +2781,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3164,7 +3164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3481,7 +3481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3645,7 +3645,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3784,7 +3784,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4026,7 +4026,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4347,7 +4347,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4551,20 +4551,20 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
     "id": "huntington_bank_2026",
     "partner": "Huntington Bank",
-    "series": "Huntington Bank x FOS",
-    "seriesItalic": "FOS",
+    "series": "NIL Banking",
+    "seriesItalic": "Banking",
     "type": "social",
-    "flight": "Aug 1 \u2014 Sep 30, 2026",
-    "elapsedPct": 100.0,
-    "daysLeft": 0,
-    "status": "Goal Missed",
-    "statusKind": "danger",
+    "flight": "Aug 1 \u2014 Nov 30, 2026",
+    "elapsedPct": 74.4,
+    "daysLeft": 31,
+    "status": "At Risk",
+    "statusKind": "warn",
     "impressions": {
       "delivered": 2726757,
       "goal": 3850000
@@ -4674,9 +4674,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 71% of goal (2.7M of 3.9M) with 0 days left.",
-        "body": "At the current rate the campaign will fall ~1.1M impressions short of the 3.9M goal. Need to ramp delivery significantly to hit the 3.9M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "Huntington Bank \u00b7 Pacing"
+        "headline": "X CPM at $4.00 \u2014 3.6\u00d7 the benchmark.",
+        "body": "$4.00 CPM vs. $1.10 FOS benchmark. At 3.6\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "meta": "Huntington Bank \u00b7 X"
       }
     ],
     "brandxObjective": "",
@@ -4711,7 +4711,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4923,14 +4923,14 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
     "id": "accenture_external_creator",
     "partner": "Accenture",
-    "series": "Accenture",
-    "seriesItalic": "Accenture",
+    "series": "NFL Coverage Partner",
+    "seriesItalic": "Partner",
     "type": "social",
     "flight": "Sep 1 \u2014 Nov 30, 2026",
     "elapsedPct": 65.6,
@@ -4945,7 +4945,7 @@ window.CAMPAIGNS = [
       "delivered": 11325.69,
       "goal": 22634.0
     },
-    "color": "ft-1",
+    "color": "ft-4",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
     "er": 7.83,
@@ -5087,13 +5087,13 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
     "id": "daktronics_stadiumstatus",
     "partner": "Daktronics",
-    "series": "Daktronics Stadium Status",
+    "series": "Stadium Status",
     "seriesItalic": "Status",
     "type": "social",
     "flight": "Sep 1 \u2014 Sep 30, 2026",
@@ -5109,7 +5109,7 @@ window.CAMPAIGNS = [
       "delivered": 9377.32,
       "goal": 6875.0
     },
-    "color": "ft-1",
+    "color": "ft-5",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
     "er": 11.9,
@@ -5251,7 +5251,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5373,7 +5373,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5782,13 +5782,13 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
     "id": "just_ingredients_2026",
     "partner": "Just Ingredients",
-    "series": "Just Ingredients x Original Franchises",
+    "series": "Multiple Franchises",
     "seriesItalic": "Franchises",
     "type": "social",
     "flight": "Sep 1 \u2014 Oct 31, 2026",
@@ -5804,7 +5804,7 @@ window.CAMPAIGNS = [
       "delivered": 9158.01,
       "goal": 14774.0
     },
-    "color": "ft-1",
+    "color": "ft-9",
     "leadFormat": "Short-form Video",
     "topChannel": "TikTok",
     "er": 2.05,
@@ -6103,13 +6103,13 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-23T17:02:08Z"
   },
   {
     "id": "jlab_thecomeup",
     "partner": "JLab",
-    "series": "JLab x The Come Up",
+    "series": "The Come Up",
     "seriesItalic": "Up",
     "type": "social",
     "flight": "Oct 1 \u2014 Oct 31, 2026",
@@ -6125,7 +6125,7 @@ window.CAMPAIGNS = [
       "delivered": 4863.82,
       "goal": 5500.0
     },
-    "color": "ft-1",
+    "color": "ft-7",
     "leadFormat": "Short-form Video",
     "topChannel": "TikTok",
     "er": 1.08,
@@ -6258,13 +6258,13 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
     "id": "heinz_stadiumeats",
     "partner": "Heinz",
-    "series": "Heinz x Stadium Eats",
+    "series": "Stadium Eats",
     "seriesItalic": "Eats",
     "type": "social",
     "flight": "Oct 1 \u2014 Dec 31, 2026",
@@ -6280,7 +6280,7 @@ window.CAMPAIGNS = [
       "delivered": 3566.37,
       "goal": 16008.0
     },
-    "color": "ft-1",
+    "color": "ft-6",
     "leadFormat": "Social Video",
     "topChannel": "TikTok",
     "er": 0.76,
@@ -6395,14 +6395,14 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
     "id": "pwc_formula1",
     "partner": "PwC",
-    "series": "PwC x Formula 1",
-    "seriesItalic": 1,
+    "series": "Formula 1",
+    "seriesItalic": "1",
     "type": "social",
     "flight": "Oct 1 \u2014 Nov 30, 2026",
     "elapsedPct": 48.3,
@@ -6417,7 +6417,7 @@ window.CAMPAIGNS = [
       "delivered": 1449.78,
       "goal": 12000.0
     },
-    "color": "ft-1",
+    "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "X",
     "er": 3.71,
@@ -6534,13 +6534,13 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
     "id": "zoom_fosexplains_mlb",
     "partner": "Zoom",
-    "series": "Zoom x FOS Explains",
+    "series": "FOS Explains",
     "seriesItalic": "Explains",
     "type": "social",
     "flight": "Oct 1 \u2014 Nov 30, 2026",
@@ -6705,13 +6705,13 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": "2026-10-29T15:20:34Z"
   },
   {
     "id": "sportradar_brandx",
     "partner": "Sportradar",
-    "series": "Sportradar BrandX",
+    "series": "BrandX",
     "seriesItalic": "BrandX",
     "type": "brandx",
     "flight": "Oct 1 \u2014 Nov 30, 2026",
@@ -6727,7 +6727,7 @@ window.CAMPAIGNS = [
       "delivered": 111.7,
       "goal": 550.0
     },
-    "color": "ft-1",
+    "color": "ft-5",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.16,
@@ -6778,7 +6778,7 @@ window.CAMPAIGNS = [
   {
     "id": "stifel_fostonight",
     "partner": "Stifel",
-    "series": "Stifel x FOS Tonight",
+    "series": "FOS Tonight",
     "seriesItalic": "Tonight",
     "type": "social",
     "flight": "Sep 1 \u2014 Dec 31, 2026",
@@ -6794,7 +6794,7 @@ window.CAMPAIGNS = [
       "delivered": 1417.11,
       "goal": 10000.0
     },
-    "color": "ft-1",
+    "color": "ft-11",
     "leadFormat": "Social Video",
     "topChannel": "Facebook",
     "er": 0.1,
@@ -6911,7 +6911,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T13:41:01Z",
+    "lastUpdatedMs": "2026-10-30T13:44:07Z",
     "lastUpdatedExports": ""
   }
 ];
@@ -7305,15 +7305,6 @@ window.SIGNALS = [
     "meta": "Stifel \u00b7 Pacing",
     "campaignId": "stifel_fostonight",
     "campaignPartner": "Stifel"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 71% of goal (2.7M of 3.9M) with 0 days left.",
-    "body": "At the current rate the campaign will fall ~1.1M impressions short of the 3.9M goal. Need to ramp delivery significantly to hit the 3.9M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Huntington Bank \u00b7 Pacing",
-    "campaignId": "huntington_bank_2026",
-    "campaignPartner": "Huntington Bank"
   },
   {
     "tag": "WATCH",
