@@ -1919,3 +1919,8 @@ campaigns:
         - stifel_fostonight_yt_paid.csv
       measure_studio_group_ids:
         - 9369
+    # Meta added a Facebook placement to the boosted Instagram post; MS reports
+    # it as a separate dark Facebook post. Fold it into the Instagram post
+    # (Instagram id listed first so it keeps the row's identity).
+    merge_posts:
+      - ids: [4017280430702716484, 3294328294089727]   # Stifel Charity Classic
