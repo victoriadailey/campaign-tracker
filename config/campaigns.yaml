@@ -1883,6 +1883,10 @@ campaigns:
         - zoom_fosexplains_mlb_yt_paid.csv
       measure_studio_group_ids:
         - 9319
+    # YT Short picks up 2 stray organic impressions against ~31.5K paid —
+    # force it to paid-only so the row doesn't read "organic+boosted".
+    paid_only_post_ids:
+      - "-s8yHTl3fAI"   # YT Short — "MLB video coaches have just 15 seconds to evaluate footage"
 
   - id: sportradar_brandx
     partner: Sportradar

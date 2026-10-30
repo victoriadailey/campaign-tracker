@@ -963,6 +963,16 @@ def main() -> int:
             ]
             posts_by_campaign_display[c["id"]] = _post_rows_for(
                 posts_by_campaign.get(c["id"], []), ep_defs_order=_ep_order or None)
+            # The YT Shorts MS + Google Ads merge forces "organic+boosted";
+            # honour paid_only_post_ids so those rows read as paid only.
+            _po_ids = [str(x) for x in (c.get("paid_only_post_ids") or [])]
+            if _po_ids:
+                for _r in posts_by_campaign_display[c["id"]]:
+                    if (_r.get("platform") == "YouTube Shorts" and _r.get("paidImpr")
+                            and any(i in (_r.get("url") or "") for i in _po_ids)):
+                        _r["distKind"] = "paid"
+                        _r["orgImpr"] = 0
+                        _r["impr"] = _r["paidImpr"]
 
     # Data archive manifest — one row per source file actually loaded, for the
     # Data Archive page. Audit trail of what's flowing into the dashboard.
