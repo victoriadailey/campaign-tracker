@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-30T18:59:27Z";
+window.LAST_REFRESHED = "2026-10-30T19:18:53Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -808,7 +808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-30T17:17:24Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3497,7 +3497,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3661,7 +3661,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3800,7 +3800,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4042,7 +4042,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4363,7 +4363,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4567,7 +4567,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4727,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4939,7 +4939,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5103,7 +5103,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5267,7 +5267,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5389,7 +5389,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5798,7 +5798,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6103,7 +6103,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6258,7 +6258,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6395,7 +6395,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6534,7 +6534,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
@@ -6562,7 +6562,7 @@ window.CAMPAIGNS = [
     "er": 3.2,
     "cpm": 1.13,
     "episodes": 0,
-    "posts": 11,
+    "posts": 10,
     "blurb": "1x FOS Explains with Zoom about MLB technology with 2 cutdowns",
     "views": 609926,
     "engagements": 193482,
@@ -6637,64 +6637,32 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 53823,
-        "eng": 498,
-        "er": 0.93,
-        "cpm": 4.28,
+        "impressions": 59646,
+        "eng": 1577,
+        "er": 2.64,
+        "cpm": 5.46,
         "color": "#E4405F",
-        "delta": -72.0,
+        "delta": -20.1,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 3550,
-        "views": 52888
-      },
-      {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 5823,
-        "eng": 1079,
-        "er": 18.53,
-        "cpm": 15.7,
-        "color": "#1877F2",
-        "delta": 1111.1,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 17,
-        "views": 3880
+        "organicImpressions": 3567,
+        "views": 56768
       }
     ],
     "topPosts": [
       {
-        "id": "1104525635506263",
-        "rank": 1,
-        "partner": "Zoom",
-        "platform": "Facebook",
-        "format": "Feed video",
-        "quote": "MLB\u2122 replay operations features nine stations, with eight umpires working across games each week.\u2060\u2026",
-        "er": 18.53,
-        "eng": 1079,
-        "reach": 3880,
-        "organic": 0,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.facebook.com/1104525635506263/",
-        "postedAt": "2026-10-28T10:10:57-07:00"
-      },
-      {
         "id": "4017474141603085265",
-        "rank": 2,
+        "rank": 1,
         "partner": "Zoom",
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "MLB\u2122 replay operations features nine stations, with eight umpires working across games each week.\u2060\u2026",
-        "er": 7.34,
-        "eng": 485,
-        "reach": 6451,
-        "organic": 55,
+        "er": 12.58,
+        "eng": 1564,
+        "reach": 10331,
+        "organic": 34,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DfA73JAkbvR/",
@@ -6721,9 +6689,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "Facebook post at 18.5% ER \u2014 12.1\u00d7 the benchmark.",
-        "body": "\"MLB\u2122 replay operations features nine stations, with eight umpires working across\u2026\" \u2014 4K reach, 1K engagements (0% organic). Strongest single asset on the campaign and well clear of the Facebook benchmark. Feature it in the partner update.",
-        "meta": "Zoom \u00b7 Facebook"
+        "headline": "Instagram post at 12.6% ER \u2014 3.8\u00d7 the benchmark.",
+        "body": "\"MLB\u2122 replay operations features nine stations, with eight umpires working across\u2026\" \u2014 10K reach, 2K engagements (34% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+        "meta": "Zoom \u00b7 Instagram"
       },
       {
         "tag": "WIN",
@@ -6732,19 +6700,12 @@ window.CAMPAIGNS = [
         "headline": "Goal hit with $3K (29%) of budget still unspent.",
         "body": "Delivered 121% of the 5.0M impression goal on only 71% of the $9K budget \u2014 $3K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
         "meta": "Zoom \u00b7 Goal hit"
-      },
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "Facebook CPM at $15.70 \u2014 3.3\u00d7 the benchmark.",
-        "body": "$15.70 CPM vs. $4.80 FOS benchmark. At 3.3\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "Zoom \u00b7 Facebook"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-30T17:23:20Z"
   },
   {
@@ -6966,7 +6927,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T18:59:26Z",
+    "lastUpdatedMs": "2026-10-30T19:18:53Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   }
 ];
@@ -7021,24 +6982,8 @@ window.TOP_POSTS = [
     "postedAt": "2026-10-26T11:33:06-07:00"
   },
   {
-    "id": "1104525635506263",
-    "rank": 4,
-    "partner": "Zoom",
-    "platform": "Facebook",
-    "format": "Feed video",
-    "quote": "MLB\u2122 replay operations features nine stations, with eight umpires working across games each week.\u2060\u2026",
-    "er": 18.53,
-    "eng": 1079,
-    "reach": 3880,
-    "organic": 0,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.facebook.com/1104525635506263/",
-    "postedAt": "2026-10-28T10:10:57-07:00"
-  },
-  {
     "id": "urn:li:ugcPost:7465149569601941504",
-    "rank": 5,
+    "rank": 4,
     "partner": "Thrivent",
     "platform": "LinkedIn",
     "format": "Other",
@@ -7054,7 +6999,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "3999294042675348120",
-    "rank": 6,
+    "rank": 5,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7070,7 +7015,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2061160786773545022",
-    "rank": 7,
+    "rank": 6,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -7086,7 +7031,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2060106917108720039",
-    "rank": 8,
+    "rank": 7,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -7099,6 +7044,22 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://twitter.com/FOS/status/2060106917108720039",
     "postedAt": "2026-05-28T14:12:18-07:00"
+  },
+  {
+    "id": "4009440799699985922",
+    "rank": 8,
+    "partner": "Accenture",
+    "platform": "Instagram",
+    "format": "Reels/Shorts",
+    "quote": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.\u2026",
+    "er": 13.72,
+    "eng": 13108,
+    "reach": 95350,
+    "organic": 12,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.instagram.com/p/DekZSoWE2YC/",
+    "postedAt": "2026-10-16T13:33:10-07:00"
   }
 ];
 
@@ -7237,18 +7198,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 34950954,
-    "eng": 568162,
+    "impressions": 34956777,
+    "eng": 569241,
     "er": 1.63,
     "cpm": 4.49,
     "color": "#E4405F",
-    "delta": -50.9,
+    "delta": -50.8,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 32300947
+    "views": 32304827
   },
   {
     "name": "X",
@@ -7269,18 +7230,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8065688,
-    "eng": 31967,
-    "er": 0.4,
-    "cpm": 3.79,
+    "impressions": 8059865,
+    "eng": 30888,
+    "er": 0.38,
+    "cpm": 3.78,
     "color": "#1877F2",
-    "delta": -74.1,
+    "delta": -75.0,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 1607655
+    "views": 1603775
   },
   {
     "name": "LinkedIn",
@@ -7391,11 +7352,11 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Facebook post at 18.5% ER \u2014 12.1\u00d7 the benchmark.",
-    "body": "\"MLB\u2122 replay operations features nine stations, with eight umpires working across\u2026\" \u2014 4K reach, 1K engagements (0% organic). Strongest single asset on the campaign and well clear of the Facebook benchmark. Feature it in the partner update.",
-    "meta": "Zoom \u00b7 Facebook",
-    "campaignId": "zoom_fosexplains_mlb",
-    "campaignPartner": "Zoom"
+    "headline": "Instagram post at 18.8% ER \u2014 5.7\u00d7 the benchmark.",
+    "body": "\"Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overal\u2026\" \u2014 78K reach, 12K engagements (13% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+    "meta": "Just Ingredients \u00b7 Instagram",
+    "campaignId": "just_ingredients_2026",
+    "campaignPartner": "Just Ingredients"
   },
   {
     "tag": "WIN",
@@ -43345,46 +43306,23 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 6606,
-      "paidImpr": 3056,
-      "orgImpr": 3550,
-      "views": 6451,
+      "impr": 12429,
+      "paidImpr": 8862,
+      "orgImpr": 3567,
+      "views": 10331,
       "reach": 5855,
-      "eng": 485,
-      "er": 7.34,
-      "spend": 44.0,
+      "eng": 1564,
+      "er": 12.58,
+      "spend": 135.14,
       "watchTimeMin": 3.1,
-      "clicks": 5,
+      "clicks": 897,
       "ctr": 16.36,
       "cpc": 8.8,
-      "cpm": 14.4,
-      "videoViews100Pct": 7,
+      "cpm": 15.25,
+      "videoViews100Pct": 43,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfA73JAkbvR/",
       "postedAt": "2026-10-27T15:33:33-07:00"
-    },
-    {
-      "title": "MLB\u2122 replay operations features nine stations, with eight umpires working across games each week.\u2060 \u2060 \u2060 Step behind the s",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 5823,
-      "paidImpr": 5806,
-      "orgImpr": 17,
-      "views": 3880,
-      "reach": 0,
-      "eng": 1079,
-      "er": 18.53,
-      "spend": 91.14,
-      "watchTimeMin": 920.3,
-      "clicks": 892,
-      "ctr": 15.36,
-      "cpc": 0.1,
-      "cpm": 15.7,
-      "videoViews100Pct": 36,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/1104525635506263/",
-      "postedAt": "2026-10-28T10:10:57-07:00"
     }
   ],
   "sportradar_brandx": [
@@ -49012,12 +48950,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 4.39,
-    "impressions": 18428686,
-    "paidImpressions": 16015691,
-    "pctOfTotal": 19.1,
+    "cpm": 4.4,
+    "impressions": 18434509,
+    "paidImpressions": 16021497,
+    "pctOfTotal": 19.2,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -21.8,
+    "mvmDeltaPct": -21.7,
     "color": "#E4405F"
   },
   {
@@ -49052,12 +48990,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.71,
-    "impressions": 2252927,
-    "paidImpressions": 1981154,
+    "cpm": 3.67,
+    "impressions": 2247104,
+    "paidImpressions": 1975348,
     "pctOfTotal": 2.3,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -11.7,
+    "mvmDeltaPct": -12.6,
     "color": "#1877F2"
   },
   {
