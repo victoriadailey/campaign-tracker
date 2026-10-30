@@ -1887,6 +1887,8 @@ campaigns:
     # force it to paid-only so the row doesn't read "organic+boosted".
     paid_only_post_ids:
       - "-s8yHTl3fAI"   # YT Short — "MLB video coaches have just 15 seconds to evaluate footage"
+    merge_posts:
+      - ids: [4017474141603085265, 1104525635506263]   # replay operations IG + dark FB
 
   - id: sportradar_brandx
     partner: Sportradar
