@@ -26,6 +26,7 @@ const YAML_PATH = 'config/campaigns.yaml';
 function sourceKeyForFilename(name) {
   const n = String(name || '').toLowerCase();
   if (n.endsWith('_yt_paid.csv')) return 'youtube_paid';
+  if (n.endsWith('_yt_organic.csv')) return 'youtube_organic';
   if (n.endsWith('_meta_ads.csv')) return 'meta_ads';
   if (n.endsWith('_x_ads.csv')) return 'x_ads';
   if (n.endsWith('_tiktok_ads.csv')) return 'tiktok_ads';

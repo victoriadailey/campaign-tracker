@@ -1915,8 +1915,11 @@ campaigns:
     lead_format: Social Video
     blurb: Stifel x FOS Tonight native social coverage
     sources:
-      youtube_paid:
-        - stifel_fostonight_yt_paid.csv
+      # No paid YouTube on this campaign, and the FOS Tonight YouTube channel
+      # isn't connected to Measure Studio — organic videos come from a YouTube
+      # Studio content export (Thumbnail impressions = organic impressions).
+      youtube_organic:
+        - stifel_fostonight_yt_organic.csv
       measure_studio_group_ids:
         - 9369
     # Meta added a Facebook placement to the boosted Instagram post; MS reports

@@ -32,6 +32,7 @@ from app.compute.rollup import (
 from app.parsers import Boosting, NormalizedPost, ParseResult, Platform, Source
 from app.parsers.google_ads_campaign import parse as parse_gads_campaign
 from app.parsers.measure_studio import parse as parse_ms
+from app.parsers.youtube_studio import parse as parse_youtube_studio
 from app.parsers.linkedin_ads import parse as parse_linkedin_ads
 from app.parsers.meta_ads import parse as parse_meta_ads
 from app.parsers.tiktok_ads import parse as parse_tiktok_ads
@@ -206,6 +207,18 @@ def main() -> int:
             result = parse_gads_campaign(str(path))
             if result.warnings:
                 parse_warnings.extend(f"[{c_id}] {path.name}: {w}" for w in result.warnings)
+            posts_by_campaign[c_id].extend(result.rows)
+
+        # YouTube Studio content export — organic videos on a channel MS can't
+        # connect. One organic YouTube post per video (Thumbnail impressions =
+        # organic impressions).
+        for yo_file in c.get("sources", {}).get("youtube_organic", []) or []:
+            path = exports_root / yo_file
+            if not path.exists():
+                parse_warnings.append(f"[{c_id}] missing YouTube organic file: {path}")
+                continue
+            result = parse_youtube_studio(str(path))
+            parse_warnings.extend(f"[{c_id}] {path.name}: {m}" for m in (*result.errors, *result.warnings))
             posts_by_campaign[c_id].extend(result.rows)
 
         # Some Google Ads exports drop the "(shorts)" tag from campaign names,
@@ -1021,6 +1034,7 @@ def main() -> int:
     _FILE_SOURCE_LABELS = {
         "measure_studio": "Measure Studio",
         "youtube_paid":   "Google Ads",
+        "youtube_organic": "YouTube Studio",
         "x_ads":          "X Ads",
         "meta_ads":       "Meta Ads",
         "tiktok_ads":     "TikTok Ads",
@@ -2308,7 +2322,7 @@ def _campaign_last_updated(c: dict, exports_root: Path) -> tuple[str, str]:
     ms_ts = _dt.now(_tz.utc).strftime("%Y-%m-%dT%H:%M:%SZ") if has_ms_live else ""
 
     file_kinds = (
-        "measure_studio", "google_ads_campaign", "youtube_paid",
+        "measure_studio", "google_ads_campaign", "youtube_paid", "youtube_organic",
         "x_ads", "meta_ads", "tiktok_ads", "linkedin_ads",
     )
     times: list[_dt] = []
@@ -2339,13 +2353,14 @@ def _build_data_archive(cfg: dict, exports_root: Path, posts_by_campaign: dict,
     This drives the Data Archive page so the operator can audit what's loaded.
     """
     SOURCE_KINDS = (
-        "measure_studio", "google_ads_campaign", "youtube_paid",
+        "measure_studio", "google_ads_campaign", "youtube_paid", "youtube_organic",
         "x_ads", "meta_ads", "tiktok_ads", "linkedin_ads",
     )
     SOURCE_LABEL = {
         "measure_studio":      "Measure Studio",
         "google_ads_campaign": "Google Ads (YT Paid)",
         "youtube_paid":        "Google Ads (YT Paid)",
+        "youtube_organic":     "YouTube Studio (organic)",
         "x_ads":               "X Ads",
         "meta_ads":            "Meta Ads",
         "tiktok_ads":          "TikTok Ads",
@@ -2356,6 +2371,7 @@ def _build_data_archive(cfg: dict, exports_root: Path, posts_by_campaign: dict,
         "measure_studio":      "measure_studio",
         "google_ads_campaign": "google_ads_campaign",
         "youtube_paid":        "google_ads_campaign",  # same parser
+        "youtube_organic":     "youtube_organic",
         "x_ads":               "x_ads",
         "meta_ads":            "meta_ads",
         "tiktok_ads":          "tiktok_ads",

@@ -71,6 +71,7 @@ class Source(str, Enum):
     X_ADS = "x_ads"
     LINKEDIN_ADS = "linkedin_ads"           # paid LinkedIn (Campaign Manager export)
     MANUAL = "manual"                       # operator-entered rows from config (sources.manual_rows)
+    YOUTUBE_ORGANIC = "youtube_organic"     # YouTube Studio content export (organic channel, not in MS)
     NATIVE_LINKEDIN = "native_linkedin"
     NATIVE_INSTAGRAM = "native_instagram"
     NATIVE_FACEBOOK = "native_facebook"

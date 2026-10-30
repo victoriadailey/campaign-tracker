@@ -445,7 +445,7 @@ function OngoingCampaignForm() {
                 <CompactDropZone
                   queue={queues[c.id] || []}
                   onChange={q => setQueue(c.id, q)}
-                  sources={['Measure Studio', 'Google Ads', 'X Ads', 'Meta Ads', 'TikTok Ads', 'LinkedIn Ads', 'Other']}
+                  sources={['Measure Studio', 'Google Ads', 'YouTube Studio', 'X Ads', 'Meta Ads', 'TikTok Ads', 'LinkedIn Ads', 'Other']}
                 />
               </div>
               <div style={{padding:20}}>
@@ -876,6 +876,7 @@ function DropZone({ label, hint, files, onAdd, onRemove }) {
 const SOURCE_KIND_FOR = {
   'Measure Studio':       'ms',          // rarely used (MS is API-driven), kept for manual CSV fallback
   'Google Ads':           'yt_paid',
+  'YouTube Studio':       'yt_organic',
   'X Ads':                'x_ads',
   'Meta Ads':             'meta_ads',
   'TikTok Ads':           'tiktok_ads',
@@ -888,6 +889,7 @@ const SOURCE_KIND_FOR = {
 // exports land under the right parser key (not the human label).
 const SOURCE_YAML_KEY = {
   'Google Ads':           'youtube_paid',
+  'YouTube Studio':       'youtube_organic',
   'X Ads':                'x_ads',
   'Meta Ads':             'meta_ads',
   'TikTok Ads':           'tiktok_ads',
@@ -917,6 +919,7 @@ function detectPlatform(filename, sources) {
   let label = 'Other';
   if (has('tiktok', 'tt ads', 'tt_ads')) label = 'TikTok Ads';
   else if (has('linkedin', 'li ads', 'li_ads', 'urn:li')) label = 'LinkedIn Ads';
+  else if (has('yt_organic', 'yt organic') || (has('youtube') && has('organic', 'studio'))) label = 'YouTube Studio';
   else if (has('google', 'youtube', 'yt_paid', 'yt paid', 'trueview', 'gads', 'demand gen')) label = 'Google Ads';
   else if (has('meta', 'facebook', 'fb ', 'fb_', '_fb', 'instagram', 'ig ', 'ig_', 'ads manager')) label = 'Meta Ads';
   else if (has(' x ', 'x ads', 'x_ads', 'x export', 'x-export', 'twitter', '_x_', '_x.')) label = 'X Ads';
