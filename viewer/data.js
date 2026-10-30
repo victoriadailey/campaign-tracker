@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-30T14:37:02Z";
+window.LAST_REFRESHED = "2026-10-30T14:39:05Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -792,7 +792,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1044,7 +1044,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1358,7 +1358,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1465,7 +1465,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1612,7 +1612,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1767,7 +1767,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2164,7 +2164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2312,7 +2312,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2514,7 +2514,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2781,7 +2781,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:01Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3164,7 +3164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3481,7 +3481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3645,7 +3645,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3784,7 +3784,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4026,7 +4026,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4347,7 +4347,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:04Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4551,7 +4551,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4711,7 +4711,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4923,7 +4923,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5087,7 +5087,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5251,7 +5251,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5373,7 +5373,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5782,7 +5782,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6103,7 +6103,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-23T17:02:08Z"
   },
   {
@@ -6258,7 +6258,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6395,7 +6395,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6534,7 +6534,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
@@ -6705,7 +6705,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-29T15:20:34Z"
   },
   {
@@ -6796,11 +6796,11 @@ window.CAMPAIGNS = [
     },
     "color": "ft-11",
     "leadFormat": "Social Video",
-    "topChannel": "Facebook",
+    "topChannel": "Instagram",
     "er": 0.1,
     "cpm": 3.58,
     "episodes": 0,
-    "posts": 16,
+    "posts": 15,
     "blurb": "Stifel x FOS Tonight native social coverage",
     "views": 175546,
     "engagements": 421,
@@ -6809,36 +6809,20 @@ window.CAMPAIGNS = [
     "lifecycle": "active",
     "channels": [
       {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 285397,
-        "eng": 107,
-        "er": 0.04,
-        "cpm": 3.51,
-        "color": "#1877F2",
-        "delta": -97.5,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 636,
-        "views": 54826
-      },
-      {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 120420,
-        "eng": 220,
-        "er": 0.18,
-        "cpm": 3.77,
+        "impressions": 405188,
+        "eng": 315,
+        "er": 0.08,
+        "cpm": 3.58,
         "color": "#E4405F",
-        "delta": -94.5,
+        "delta": -97.7,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 9864,
-        "views": 114999
+        "organicImpressions": 9871,
+        "views": 169825
       },
       {
         "name": "X",
@@ -6871,6 +6855,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 846,
         "views": 846
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 629,
+        "eng": 12,
+        "er": 1.91,
+        "cpm": 0.0,
+        "color": "#1877F2",
+        "delta": 24.7,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 629,
+        "views": 0
       }
     ],
     "topPosts": [
@@ -6911,7 +6911,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:37:02Z",
+    "lastUpdatedMs": "2026-10-30T14:39:05Z",
     "lastUpdatedExports": "2026-10-30T14:33:34Z"
   }
 ];
@@ -7182,18 +7182,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 34658089,
-    "eng": 566133,
-    "er": 1.63,
-    "cpm": 4.5,
+    "impressions": 34942857,
+    "eng": 566228,
+    "er": 1.62,
+    "cpm": 4.49,
     "color": "#E4405F",
-    "delta": -50.7,
+    "delta": -51.0,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 32221595
+    "views": 32276421
   },
   {
     "name": "X",
@@ -7214,18 +7214,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8352730,
-    "eng": 32917,
-    "er": 0.39,
-    "cpm": 3.77,
+    "impressions": 8067962,
+    "eng": 32822,
+    "er": 0.41,
+    "cpm": 3.78,
     "color": "#1877F2",
-    "delta": -74.2,
+    "delta": -73.4,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 1683127
+    "views": 1628301
   },
   {
     "name": "LinkedIn",
@@ -43639,20 +43639,20 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic+boosted",
-      "impr": 111398,
-      "paidImpr": 110556,
-      "orgImpr": 842,
-      "views": 105977,
+      "impr": 396166,
+      "paidImpr": 395317,
+      "orgImpr": 849,
+      "views": 160803,
       "reach": 126474,
-      "eng": 54,
-      "er": 0.05,
-      "spend": 417.0,
+      "eng": 149,
+      "er": 0.04,
+      "spend": 1417.11,
       "watchTimeMin": 1.8,
-      "clicks": 37,
+      "clicks": 539,
       "ctr": 3.35,
       "cpc": 11.27,
-      "cpm": 3.77,
-      "videoViews100Pct": 43,
+      "cpm": 3.58,
+      "videoViews100Pct": 186,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfAP0RrKeZE/",
       "postedAt": "2026-10-27T09:06:56-07:00"
@@ -43679,29 +43679,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://tiktok.com/@fostonight/video/7701379960694377742",
       "postedAt": "2026-10-27T09:07:44-07:00"
-    },
-    {
-      "title": "The Stifel Charity Classic drew record crowds to St. Louis again.  Stifel CEO Ron Kruszewski and Baseball Hall of Famer ",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 284768,
-      "paidImpr": 284761,
-      "orgImpr": 7,
-      "views": 54826,
-      "reach": 0,
-      "eng": 95,
-      "er": 0.03,
-      "spend": 1000.11,
-      "watchTimeMin": 14664.9,
-      "clicks": 502,
-      "ctr": 17.63,
-      "cpc": 1.99,
-      "cpm": 3.51,
-      "videoViews100Pct": 143,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/3294328294089727/",
-      "postedAt": "2026-10-27T12:33:34-07:00"
     }
   ]
 };
@@ -44287,8 +44264,7 @@ window.DATA_HEALTH = {
   ],
   "msErrors": [],
   "orphanFiles": [
-    "portfolio_players_yt_paid.csv",
-    "stifel_fostonight_yt_paid.csv"
+    "portfolio_players_yt_paid.csv"
   ],
   "potentialDuplicates": []
 };
@@ -48828,12 +48804,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Instagram",
-    "cpm": 4.41,
-    "impressions": 18135821,
-    "paidImpressions": 15722839,
-    "pctOfTotal": 19.1,
+    "cpm": 4.39,
+    "impressions": 18420589,
+    "paidImpressions": 16007600,
+    "pctOfTotal": 19.4,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -21.6,
+    "mvmDeltaPct": -21.9,
     "color": "#E4405F"
   },
   {
@@ -48868,12 +48844,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.67,
-    "impressions": 2539969,
-    "paidImpressions": 2268200,
-    "pctOfTotal": 2.7,
+    "cpm": 3.7,
+    "impressions": 2255201,
+    "paidImpressions": 1983439,
+    "pctOfTotal": 2.4,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -12.5,
+    "mvmDeltaPct": -12.0,
     "color": "#1877F2"
   },
   {
