@@ -1915,5 +1915,7 @@ campaigns:
     lead_format: Social Video
     blurb: Stifel x FOS Tonight native social coverage
     sources:
+      youtube_paid:
+        - stifel_fostonight_yt_paid.csv
       measure_studio_group_ids:
         - 9369
