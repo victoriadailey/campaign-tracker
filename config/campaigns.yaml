@@ -152,6 +152,8 @@ campaigns:
       "Patricof Cutdown 2":         "2024265914258948319"
       "AllysonFelix_Cutdown1":      "2041622050297516271"
     sources:
+      youtube_paid:
+        - etrade_yt_paid.csv
       # MS API = base layer (organic + paid across IG/FB/TT/LI/X/YT).
       measure_studio_group_id: 6197         # Portfolio Players S3 x E*TRADE
       # YouTube paid now comes straight from Measure (its mid-July update added
