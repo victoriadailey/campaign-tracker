@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-30T19:18:53Z";
+window.LAST_REFRESHED = "2026-10-30T19:21:32Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -808,7 +808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-30T17:17:24Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3254,23 +3254,23 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 1381481,
+      "delivered": 1444533,
       "goal": 2222222
     },
     "budget": {
-      "delivered": 5123.58,
+      "delivered": 5402.49,
       "goal": 10000.0
     },
     "color": "ft-11",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
-    "er": 0.0,
-    "cpm": 3.71,
+    "er": 1.92,
+    "cpm": 3.74,
     "episodes": 0,
     "posts": 8,
     "blurb": "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
-    "views": 1381481,
-    "engagements": 0,
+    "views": 1444533,
+    "engagements": 27724,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
     "lifecycle": "active",
@@ -3278,28 +3278,93 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1381481,
-        "eng": 0,
-        "er": 0.0,
-        "cpm": 3.71,
+        "impressions": 1444533,
+        "eng": 27724,
+        "er": 1.92,
+        "cpm": 3.74,
         "color": "#E4405F",
-        "delta": -100.0,
+        "delta": -42.0,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 1381481
+        "views": 1444533
       }
     ],
-    "topPosts": [],
+    "topPosts": [
+      {
+        "id": "AT&T_ShesConnected_SabrinaIonescu_Clicks",
+        "rank": 1,
+        "partner": "AT&T",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "AT&T_ShesConnected_SabrinaIonescu_Clicks",
+        "er": 18.89,
+        "eng": 8787,
+        "reach": 24122,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
+      },
+      {
+        "id": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
+        "rank": 2,
+        "partner": "AT&T",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
+        "er": 12.17,
+        "eng": 9997,
+        "reach": 47118,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
+      },
+      {
+        "id": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+        "rank": 3,
+        "partner": "AT&T",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+        "er": 5.06,
+        "eng": 4796,
+        "reach": 62907,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
+      },
+      {
+        "id": "AT&T_ShesConnected_Flau\u2019jae_Clicks",
+        "rank": 4,
+        "partner": "AT&T",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "AT&T_ShesConnected_Flau\u2019jae_Clicks",
+        "er": 3.1,
+        "eng": 3071,
+        "reach": 86806,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
+      }
+    ],
     "topPostsOrganic": [],
     "callouts": [],
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-10-23T19:51:06Z"
+    "lastUpdatedExports": "2026-10-30T19:20:08Z"
   },
   {
     "id": "ally_nwsl",
@@ -3497,7 +3562,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3661,7 +3726,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3800,7 +3865,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4042,7 +4107,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4363,7 +4428,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4567,7 +4632,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4727,7 +4792,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4939,7 +5004,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5103,7 +5168,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5267,7 +5332,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5389,7 +5454,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5798,7 +5863,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6103,7 +6168,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6258,7 +6323,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6395,7 +6460,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:31Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6534,7 +6599,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:32Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
@@ -6705,7 +6770,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:32Z",
     "lastUpdatedExports": "2026-10-30T17:23:20Z"
   },
   {
@@ -6927,7 +6992,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:18:53Z",
+    "lastUpdatedMs": "2026-10-30T19:21:32Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   }
 ];
@@ -6966,8 +7031,24 @@ window.TOP_POSTS = [
     "postedAt": "2026-10-09T13:33:05-07:00"
   },
   {
-    "id": "4016628135160160413",
+    "id": "AT&T_ShesConnected_SabrinaIonescu_Clicks",
     "rank": 3,
+    "partner": "AT&T",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "AT&T_ShesConnected_SabrinaIonescu_Clicks",
+    "er": 18.89,
+    "eng": 8787,
+    "reach": 24122,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null,
+    "postedAt": null
+  },
+  {
+    "id": "4016628135160160413",
+    "rank": 4,
     "partner": "Just Ingredients",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -6983,7 +7064,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "urn:li:ugcPost:7465149569601941504",
-    "rank": 4,
+    "rank": 5,
     "partner": "Thrivent",
     "platform": "LinkedIn",
     "format": "Other",
@@ -6999,7 +7080,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "3999294042675348120",
-    "rank": 5,
+    "rank": 6,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7015,7 +7096,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2061160786773545022",
-    "rank": 6,
+    "rank": 7,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -7031,7 +7112,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2060106917108720039",
-    "rank": 7,
+    "rank": 8,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -7044,22 +7125,6 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://twitter.com/FOS/status/2060106917108720039",
     "postedAt": "2026-05-28T14:12:18-07:00"
-  },
-  {
-    "id": "4009440799699985922",
-    "rank": 8,
-    "partner": "Accenture",
-    "platform": "Instagram",
-    "format": "Reels/Shorts",
-    "quote": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.\u2026",
-    "er": 13.72,
-    "eng": 13108,
-    "reach": 95350,
-    "organic": 12,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.instagram.com/p/DekZSoWE2YC/",
-    "postedAt": "2026-10-16T13:33:10-07:00"
   }
 ];
 
@@ -7198,18 +7263,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 34956777,
-    "eng": 569241,
-    "er": 1.63,
+    "impressions": 35019829,
+    "eng": 596965,
+    "er": 1.7,
     "cpm": 4.49,
     "color": "#E4405F",
-    "delta": -50.8,
+    "delta": -48.5,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 32304827
+    "views": 32367879
   },
   {
     "name": "X",
@@ -38878,13 +38943,13 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 403304,
       "reach": 136231,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 471,
+      "er": 0.12,
       "spend": 894.87,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 317,
+      "ctr": 0.08,
+      "cpc": 2.82,
       "cpm": 2.22,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -38901,13 +38966,13 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 245852,
       "reach": 74780,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 193,
+      "er": 0.08,
       "spend": 599.84,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 146,
+      "ctr": 0.06,
+      "cpc": 4.11,
       "cpm": 2.44,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -38924,13 +38989,13 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 241189,
       "reach": 96877,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 174,
+      "er": 0.07,
       "spend": 499.95,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 150,
+      "ctr": 0.06,
+      "cpc": 3.33,
       "cpm": 2.07,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -38942,19 +39007,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 179647,
-      "paidImpr": 179647,
+      "impr": 231642,
+      "paidImpr": 231642,
       "orgImpr": 0,
-      "views": 179647,
-      "reach": 55852,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 440.54,
+      "views": 231642,
+      "reach": 67639,
+      "eng": 235,
+      "er": 0.1,
+      "spend": 580.63,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.45,
+      "clicks": 103,
+      "ctr": 0.04,
+      "cpc": 5.64,
+      "cpm": 2.51,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -38970,13 +39035,13 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 98989,
       "reach": 86806,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 3071,
+      "er": 3.1,
       "spend": 649.95,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 2962,
+      "ctr": 2.99,
+      "cpc": 0.22,
       "cpm": 6.57,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -38993,13 +39058,13 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 94868,
       "reach": 62907,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 4796,
+      "er": 5.06,
       "spend": 821.94,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 3130,
+      "ctr": 3.3,
+      "cpc": 0.26,
       "cpm": 8.66,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -39016,13 +39081,13 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 82161,
       "reach": 47118,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 9997,
+      "er": 12.17,
       "spend": 774.58,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "clicks": 6701,
+      "ctr": 8.16,
+      "cpc": 0.12,
       "cpm": 9.43,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -39034,19 +39099,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 35471,
-      "paidImpr": 35471,
+      "impr": 46528,
+      "paidImpr": 46528,
       "orgImpr": 0,
-      "views": 35471,
-      "reach": 18324,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 441.91,
+      "views": 46528,
+      "reach": 24122,
+      "eng": 8787,
+      "er": 18.89,
+      "spend": 580.73,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 12.46,
+      "clicks": 3581,
+      "ctr": 7.7,
+      "cpc": 0.16,
+      "cpm": 12.48,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -44920,7 +44985,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
-    "fileSizeKb": 1.7,
+    "fileSizeKb": 2.5,
     "lastModified": "2026-10-30",
     "exists": true,
     "postsContributed": 8
@@ -48951,8 +49016,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.4,
-    "impressions": 18434509,
-    "paidImpressions": 16021497,
+    "impressions": 18497561,
+    "paidImpressions": 16084549,
     "pctOfTotal": 19.2,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.7,
@@ -49020,7 +49085,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 1.71;
+window.PORTFOLIO_CPM_BLEND = 1.72;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
