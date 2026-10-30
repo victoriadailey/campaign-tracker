@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-30T15:55:57Z";
+window.LAST_REFRESHED = "2026-10-30T16:02:49Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:56Z",
+    "lastUpdatedMs": "2026-10-30T16:02:48Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -792,7 +792,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:56Z",
+    "lastUpdatedMs": "2026-10-30T16:02:48Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1044,7 +1044,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T15:55:56Z",
+    "lastUpdatedMs": "2026-10-30T16:02:48Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1358,7 +1358,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:56Z",
+    "lastUpdatedMs": "2026-10-30T16:02:48Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1465,7 +1465,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:56Z",
+    "lastUpdatedMs": "2026-10-30T16:02:48Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1612,7 +1612,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:56Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1767,7 +1767,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2164,7 +2164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2312,7 +2312,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2514,7 +2514,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2781,7 +2781,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3164,7 +3164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3481,7 +3481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3645,7 +3645,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3784,7 +3784,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4026,7 +4026,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4347,7 +4347,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4551,7 +4551,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4711,7 +4711,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4923,7 +4923,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5087,7 +5087,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5251,7 +5251,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5373,7 +5373,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5782,7 +5782,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -5810,7 +5810,7 @@ window.CAMPAIGNS = [
     "er": 2.05,
     "cpm": 2.64,
     "episodes": 4,
-    "posts": 19,
+    "posts": 18,
     "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
     "views": 4043512,
     "engagements": 111445,
@@ -5837,34 +5837,34 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 813707,
-        "eng": 6975,
-        "er": 0.86,
-        "cpm": 2.83,
+        "impressions": 805610,
+        "eng": 5041,
+        "er": 0.63,
+        "cpm": 2.73,
         "color": "#1877F2",
-        "delta": -44.0,
+        "delta": -59.1,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 203288,
-        "views": 24526
+        "organicImpressions": 203282,
+        "views": 0
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 766053,
-        "eng": 31584,
-        "er": 4.12,
-        "cpm": 5.02,
+        "impressions": 774150,
+        "eng": 33518,
+        "er": 4.33,
+        "cpm": 5.09,
         "color": "#E4405F",
-        "delta": 24.6,
+        "delta": 30.8,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 145707,
-        "views": 448237
+        "organicImpressions": 145713,
+        "views": 472763
       },
       {
         "name": "YouTube Shorts",
@@ -5901,32 +5901,16 @@ window.CAMPAIGNS = [
     ],
     "topPosts": [
       {
-        "id": "1767224297894010",
-        "rank": 1,
-        "partner": "Just Ingredients",
-        "platform": "Facebook",
-        "format": "Feed video",
-        "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-        "er": 23.89,
-        "eng": 1934,
-        "reach": 24526,
-        "organic": 0,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.facebook.com/1767224297894010/",
-        "postedAt": "2026-10-27T11:42:40-07:00"
-      },
-      {
         "id": "4016628135160160413",
-        "rank": 2,
+        "rank": 1,
         "partner": "Just Ingredients",
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-        "er": 18.05,
-        "eng": 10412,
-        "reach": 53819,
-        "organic": 19,
+        "er": 18.77,
+        "eng": 12346,
+        "reach": 78345,
+        "organic": 13,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/De97gIHD6Cd/",
@@ -5934,7 +5918,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4008625389639110372",
-        "rank": 3,
+        "rank": 2,
         "partner": "Just Ingredients",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5950,7 +5934,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4011600101781087647",
-        "rank": 4,
+        "rank": 3,
         "partner": "Just Ingredients",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5966,7 +5950,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4003583027754900304",
-        "rank": 5,
+        "rank": 4,
         "partner": "Just Ingredients",
         "platform": "Instagram",
         "format": "Image post",
@@ -5982,7 +5966,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "urn:li:ugcPost:7516530023617470464",
-        "rank": 6,
+        "rank": 5,
         "partner": "Just Ingredients",
         "platform": "LinkedIn",
         "format": "Feed video",
@@ -6059,9 +6043,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "Facebook post at 23.9% ER \u2014 15.6\u00d7 the benchmark.",
-        "body": "\"Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overal\u2026\" \u2014 25K reach, 2K engagements (0% organic). Strongest single asset on the campaign and well clear of the Facebook benchmark. Feature it in the partner update.",
-        "meta": "Just Ingredients \u00b7 Facebook"
+        "headline": "Instagram post at 18.8% ER \u2014 5.7\u00d7 the benchmark.",
+        "body": "\"Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overal\u2026\" \u2014 78K reach, 12K engagements (13% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+        "meta": "Just Ingredients \u00b7 Instagram"
       },
       {
         "tag": "WATCH",
@@ -6103,7 +6087,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-23T17:02:08Z"
   },
   {
@@ -6258,7 +6242,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6395,7 +6379,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6534,7 +6518,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
@@ -6705,7 +6689,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-29T15:20:34Z"
   },
   {
@@ -6927,31 +6911,15 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedMs": "2026-10-30T16:02:49Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   }
 ];
 
 window.TOP_POSTS = [
   {
-    "id": "1767224297894010",
-    "rank": 1,
-    "partner": "Just Ingredients",
-    "platform": "Facebook",
-    "format": "Feed video",
-    "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-    "er": 23.89,
-    "eng": 1934,
-    "reach": 24526,
-    "organic": 0,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.facebook.com/1767224297894010/",
-    "postedAt": "2026-10-27T11:42:40-07:00"
-  },
-  {
     "id": "3785409110645564109",
-    "rank": 2,
+    "rank": 1,
     "partner": "Thrivent",
     "platform": "Instagram",
     "format": "Image post",
@@ -6967,7 +6935,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "4004367703129381758",
-    "rank": 3,
+    "rank": 2,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -6983,15 +6951,15 @@ window.TOP_POSTS = [
   },
   {
     "id": "4016628135160160413",
-    "rank": 4,
+    "rank": 3,
     "partner": "Just Ingredients",
     "platform": "Instagram",
     "format": "Reels/Shorts",
     "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-    "er": 18.05,
-    "eng": 10412,
-    "reach": 53819,
-    "organic": 19,
+    "er": 18.77,
+    "eng": 12346,
+    "reach": 78345,
+    "organic": 13,
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/De97gIHD6Cd/",
@@ -6999,7 +6967,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "urn:li:ugcPost:7465149569601941504",
-    "rank": 5,
+    "rank": 4,
     "partner": "Thrivent",
     "platform": "LinkedIn",
     "format": "Other",
@@ -7015,7 +6983,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "3999294042675348120",
-    "rank": 6,
+    "rank": 5,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7031,7 +6999,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2061160786773545022",
-    "rank": 7,
+    "rank": 6,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -7047,7 +7015,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "2060106917108720039",
-    "rank": 8,
+    "rank": 7,
     "partner": "RBC",
     "platform": "X",
     "format": "Feed video",
@@ -7060,19 +7028,35 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://twitter.com/FOS/status/2060106917108720039",
     "postedAt": "2026-05-28T14:12:18-07:00"
+  },
+  {
+    "id": "4009440799699985922",
+    "rank": 8,
+    "partner": "Accenture",
+    "platform": "Instagram",
+    "format": "Reels/Shorts",
+    "quote": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.\u2026",
+    "er": 13.72,
+    "eng": 13108,
+    "reach": 95350,
+    "organic": 12,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.instagram.com/p/DekZSoWE2YC/",
+    "postedAt": "2026-10-16T13:33:10-07:00"
   }
 ];
 
 window.HERO_POST = {
-  "partner": "Just Ingredients",
-  "platform": "Facebook",
-  "format": "0% organic feed video",
-  "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-  "attribution": "Just Ingredients \u2014 top performer",
-  "er": "23.89%",
-  "eng": "1,934",
-  "reach": "24,526",
-  "organic": "0%"
+  "partner": "Thrivent",
+  "platform": "Instagram",
+  "format": "100% organic image post",
+  "quote": "Alonzo Mourning built a legacy on the court, and an even bigger one in his community. The Play for\u2026",
+  "attribution": "Thrivent \u2014 top performer",
+  "er": "20.95%",
+  "eng": "22,774",
+  "reach": "44,719",
+  "organic": "100%"
 };
 
 window.TOP_POSTS_ORGANIC = [
@@ -7198,18 +7182,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 34942857,
-    "eng": 566228,
-    "er": 1.62,
+    "impressions": 34950954,
+    "eng": 568162,
+    "er": 1.63,
     "cpm": 4.49,
     "color": "#E4405F",
-    "delta": -51.0,
+    "delta": -50.9,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 32276421
+    "views": 32300947
   },
   {
     "name": "X",
@@ -7230,18 +7214,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8067962,
-    "eng": 32822,
-    "er": 0.41,
+    "impressions": 8059865,
+    "eng": 30888,
+    "er": 0.38,
     "cpm": 3.78,
     "color": "#1877F2",
-    "delta": -73.4,
+    "delta": -75.0,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 1628301
+    "views": 1603775
   },
   {
     "name": "LinkedIn",
@@ -7352,9 +7336,9 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Facebook post at 23.9% ER \u2014 15.6\u00d7 the benchmark.",
-    "body": "\"Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overal\u2026\" \u2014 25K reach, 2K engagements (0% organic). Strongest single asset on the campaign and well clear of the Facebook benchmark. Feature it in the partner update.",
-    "meta": "Just Ingredients \u00b7 Facebook",
+    "headline": "Instagram post at 18.8% ER \u2014 5.7\u00d7 the benchmark.",
+    "body": "\"Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overal\u2026\" \u2014 78K reach, 12K engagements (13% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+    "meta": "Just Ingredients \u00b7 Instagram",
     "campaignId": "just_ingredients_2026",
     "campaignPartner": "Just Ingredients"
   },
@@ -23485,16 +23469,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 196895,
-          "paidImpr": 172612,
-          "orgImpr": 24283,
-          "views": 196289,
-          "eng": 15236,
+          "impr": 204992,
+          "paidImpr": 180703,
+          "orgImpr": 24289,
+          "views": 220815,
+          "eng": 17170,
           "paidEng": 0,
-          "orgEng": 15236,
-          "er": 7.74,
-          "cpm": 5.79,
-          "spend": 998.85,
+          "orgEng": 17170,
+          "er": 8.38,
+          "cpm": 5.97,
+          "spend": 1079.67,
           "posts": 2
         },
         {
@@ -23511,21 +23495,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
-        },
-        {
-          "name": "Facebook",
-          "distKind": "organic+boosted",
-          "impr": 8097,
-          "paidImpr": 8091,
-          "orgImpr": 6,
-          "views": 24526,
-          "eng": 1934,
-          "paidEng": 0,
-          "orgEng": 1934,
-          "er": 23.89,
-          "cpm": 9.99,
-          "spend": 80.82,
-          "posts": 1
         }
       ],
       "posts": [
@@ -23609,13 +23578,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 57692,
-          "paidImpr": 47478,
-          "orgImpr": 10214,
-          "views": 53819,
-          "eng": 10412,
-          "er": 18.05,
-          "spend": 416.0,
+          "impr": 65789,
+          "paidImpr": 55569,
+          "orgImpr": 10220,
+          "views": 78345,
+          "eng": 12346,
+          "er": 18.77,
+          "spend": 496.82,
           "url": "https://www.instagram.com/p/De97gIHD6Cd/",
           "postedAt": "2026-10-26T11:33:06-07:00"
         },
@@ -23648,43 +23617,28 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 668.0,
           "url": "https://tiktok.com/@frontofficesports/video/7701074129377594637",
           "postedAt": "2026-10-26T14:00:00-07:00"
-        },
-        {
-          "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
-          "platform": "Facebook",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 8097,
-          "paidImpr": 8091,
-          "orgImpr": 6,
-          "views": 24526,
-          "eng": 1934,
-          "er": 23.89,
-          "spend": 80.82,
-          "url": "https://www.facebook.com/1767224297894010/",
-          "postedAt": "2026-10-27T11:42:40-07:00"
         }
       ],
       "topPosts": [
         {
           "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009,",
-          "platform": "Facebook",
-          "er": 23.89,
-          "reach": 24526,
-          "url": "https://www.facebook.com/1767224297894010/"
+          "platform": "Instagram",
+          "er": 18.77,
+          "reach": 78345,
+          "url": "https://www.instagram.com/p/De97gIHD6Cd/"
         },
         {
-          "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009,",
+          "quote": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #Co",
           "platform": "Instagram",
-          "er": 18.05,
-          "reach": 53819,
-          "url": "https://www.instagram.com/p/De97gIHD6Cd/"
+          "er": 3.47,
+          "reach": 142470,
+          "url": "https://www.instagram.com/p/DesEQnHlSWf/"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "Facebook leading with 23.9% ER on 8.1K impr."
+          "text": "Instagram leading with 8.4% ER on 205.0K impr."
         },
         {
           "kind": "pos",
@@ -42746,20 +42700,20 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 57692,
-      "paidImpr": 47478,
-      "orgImpr": 10214,
-      "views": 53819,
+      "impr": 65789,
+      "paidImpr": 55569,
+      "orgImpr": 10220,
+      "views": 78345,
       "reach": 51701,
-      "eng": 10412,
-      "er": 18.05,
-      "spend": 416.0,
+      "eng": 12346,
+      "er": 18.77,
+      "spend": 496.82,
       "watchTimeMin": 38.6,
-      "clicks": 460,
+      "clicks": 2346,
       "ctr": 96.89,
       "cpc": 0.9,
-      "cpm": 8.76,
-      "videoViews100Pct": 266,
+      "cpm": 8.94,
+      "videoViews100Pct": 446,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/De97gIHD6Cd/",
       "postedAt": "2026-10-26T11:33:06-07:00"
@@ -42809,29 +42763,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7701074129377594637",
       "postedAt": "2026-10-26T14:00:00-07:00"
-    },
-    {
-      "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 8097,
-      "paidImpr": 8091,
-      "orgImpr": 6,
-      "views": 24526,
-      "reach": 0,
-      "eng": 1934,
-      "er": 23.89,
-      "spend": 80.82,
-      "watchTimeMin": 6621.7,
-      "clicks": 1886,
-      "ctr": 23.31,
-      "cpc": 0.04,
-      "cpm": 9.99,
-      "videoViews100Pct": 180,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/1767224297894010/",
-      "postedAt": "2026-10-27T11:42:40-07:00"
     }
   ],
   "jlab_thecomeup": [
@@ -48936,11 +48867,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.39,
-    "impressions": 18420589,
-    "paidImpressions": 16007600,
+    "impressions": 18428686,
+    "paidImpressions": 16015691,
     "pctOfTotal": 19.4,
     "mvmCpm": 5.62,
-    "mvmDeltaPct": -21.9,
+    "mvmDeltaPct": -21.8,
     "color": "#E4405F"
   },
   {
@@ -48975,12 +48906,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.7,
-    "impressions": 2255201,
-    "paidImpressions": 1983439,
+    "cpm": 3.67,
+    "impressions": 2247104,
+    "paidImpressions": 1975348,
     "pctOfTotal": 2.4,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -12.0,
+    "mvmDeltaPct": -12.6,
     "color": "#1877F2"
   },
   {
