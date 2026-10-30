@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-30T14:39:05Z";
+window.LAST_REFRESHED = "2026-10-30T15:55:57Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -792,7 +792,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:56Z",
     "lastUpdatedExports": "2026-10-07T13:27:38Z"
   },
   {
@@ -1044,7 +1044,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:56Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1358,7 +1358,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:56Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1465,7 +1465,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:56Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1612,7 +1612,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:56Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1767,7 +1767,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2164,7 +2164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2312,7 +2312,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2514,7 +2514,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2781,7 +2781,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3164,7 +3164,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3481,7 +3481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3645,7 +3645,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3784,7 +3784,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4026,7 +4026,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4347,7 +4347,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:04Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4551,7 +4551,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4711,7 +4711,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4923,7 +4923,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5087,7 +5087,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5251,7 +5251,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5373,7 +5373,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5782,7 +5782,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6103,7 +6103,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-23T17:02:08Z"
   },
   {
@@ -6258,7 +6258,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6395,7 +6395,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6534,7 +6534,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
@@ -6705,7 +6705,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
     "lastUpdatedExports": "2026-10-29T15:20:34Z"
   },
   {
@@ -6787,7 +6787,7 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 430621,
+      "delivered": 434789,
       "goal": 2000000
     },
     "budget": {
@@ -6800,10 +6800,10 @@ window.CAMPAIGNS = [
     "er": 0.1,
     "cpm": 3.58,
     "episodes": 0,
-    "posts": 15,
+    "posts": 20,
     "blurb": "Stifel x FOS Tonight native social coverage",
-    "views": 175546,
-    "engagements": 421,
+    "views": 176936,
+    "engagements": 432,
     "goalSplit": [],
     "benchmarkCategory": "Social Coverage Partner",
     "lifecycle": "active",
@@ -6839,6 +6839,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 23958,
         "views": 4875
+      },
+      {
+        "name": "YouTube In-feed",
+        "italic": "YouTube In-feed",
+        "impressions": 4168,
+        "eng": 11,
+        "er": 0.26,
+        "cpm": 0.0,
+        "color": "#E00922",
+        "delta": -47.2,
+        "bench": {
+          "er": 0.5,
+          "cpm": 0.55
+        },
+        "organicImpressions": 4168,
+        "views": 1390
       },
       {
         "name": "TikTok",
@@ -6896,23 +6912,23 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 44% of goal (882K of 2.0M) with 62 days left.",
-        "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 25K impr/day (3.5\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 45% of goal (891K of 2.0M) with 62 days left.",
+        "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 25K impr/day (3.4\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Stifel \u00b7 Pacing"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "Campaign averaging 0.10% ER \u2014 below the 1% floor.",
-        "body": "0.10% engagement rate across 431K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "body": "0.10% engagement rate across 435K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Stifel \u00b7 Engagement"
       }
     ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T14:39:05Z",
-    "lastUpdatedExports": "2026-10-30T14:33:34Z"
+    "lastUpdatedMs": "2026-10-30T15:55:57Z",
+    "lastUpdatedExports": "2026-10-30T15:44:50Z"
   }
 ];
 
@@ -7150,8 +7166,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 120989420,
-    "eng": 2324520,
+    "impressions": 120993588,
+    "eng": 2324531,
     "er": 1.92,
     "cpm": 0.96,
     "color": "#E00922",
@@ -7161,7 +7177,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 24979231
+    "views": 24980621
   },
   {
     "name": "TikTok",
@@ -7300,8 +7316,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 44% of goal (882K of 2.0M) with 62 days left.",
-    "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 25K impr/day (3.5\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 45% of goal (891K of 2.0M) with 62 days left.",
+    "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 25K impr/day (3.4\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Stifel \u00b7 Pacing",
     "campaignId": "stifel_fostonight",
     "campaignPartner": "Stifel"
@@ -43336,6 +43352,121 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "stifel_fostonight": [
     {
+      "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski...",
+      "platform": "YouTube In-feed",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 867,
+      "paidImpr": 0,
+      "orgImpr": 867,
+      "views": 107,
+      "reach": 0,
+      "eng": 2,
+      "er": 0.23,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/watch?v=agq0C-kRF04",
+      "postedAt": "2026-09-18T00:00:00"
+    },
+    {
+      "title": "Mikaela Shiffrin + Stifel CEO Ron Kruszewski on his connection with skiing, vision for future",
+      "platform": "YouTube In-feed",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 1475,
+      "paidImpr": 0,
+      "orgImpr": 1475,
+      "views": 354,
+      "reach": 0,
+      "eng": 4,
+      "er": 0.27,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/watch?v=q7BSD9-ovkU",
+      "postedAt": "2026-09-19T00:00:00"
+    },
+    {
+      "title": "Lindsey Vonn shares that she is back on the Stifel US Ski Team's World Cup roster.",
+      "platform": "YouTube In-feed",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 497,
+      "paidImpr": 0,
+      "orgImpr": 497,
+      "views": 829,
+      "reach": 0,
+      "eng": 4,
+      "er": 0.8,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/watch?v=DZdl2qc76Is",
+      "postedAt": "2026-10-09T00:00:00"
+    },
+    {
+      "title": "How the Stifel Charity Classic Is Bringing St. Louis Together For A Great Cause and Great Golf",
+      "platform": "YouTube In-feed",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 1106,
+      "paidImpr": 0,
+      "orgImpr": 1106,
+      "views": 77,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/watch?v=NE0y0eIvDkk",
+      "postedAt": "2026-10-24T00:00:00"
+    },
+    {
+      "title": "Stifel CEO Ron Kruszewski and Baseball Hall of Famer Ozzie Smith on the Stifel Charity Classic",
+      "platform": "YouTube In-feed",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 223,
+      "paidImpr": 0,
+      "orgImpr": 223,
+      "views": 23,
+      "reach": 0,
+      "eng": 1,
+      "er": 0.45,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/watch?v=yZT7mkD40ko",
+      "postedAt": "2026-10-27T00:00:00"
+    },
+    {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski about his connection with skiing and his vision for the future.  C",
       "platform": "Instagram",
       "accountName": "Front Office Sports Tonight",
@@ -44016,8 +44147,8 @@ window.UPLOAD_TARGETS = {
   ],
   "stifel_fostonight": [
     {
-      "file": "stifel_fostonight_yt_paid.csv",
-      "label": "Google Ads"
+      "file": "stifel_fostonight_yt_organic.csv",
+      "label": "YouTube Studio"
     }
   ]
 };
@@ -45090,13 +45221,13 @@ window.DATA_ARCHIVE = [
   {
     "campaignId": "stifel_fostonight",
     "partner": "Stifel",
-    "sourceKind": "youtube_paid",
-    "sourceLabel": "Google Ads (YT Paid)",
-    "filename": "stifel_fostonight_yt_paid.csv",
+    "sourceKind": "youtube_organic",
+    "sourceLabel": "YouTube Studio (organic)",
+    "filename": "stifel_fostonight_yt_organic.csv",
     "fileSizeKb": 1.0,
     "lastModified": "2026-10-30",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 5
   }
 ];
 
@@ -48795,7 +48926,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.27,
-    "impressions": 39852684,
+    "impressions": 39856852,
     "paidImpressions": 37815984,
     "pctOfTotal": 41.9,
     "mvmCpm": 0.53,
