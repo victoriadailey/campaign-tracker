@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-10-30T19:30:38Z";
+window.LAST_REFRESHED = "2026-10-30T19:32:12Z";
 
 
 
@@ -367,7 +367,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:37Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -808,7 +808,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:37Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-30T17:17:24Z"
   },
   {
@@ -1060,7 +1060,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:30:37Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1374,7 +1374,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:37Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1481,7 +1481,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:37Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1628,7 +1628,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:37Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1783,7 +1783,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2180,7 +2180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2328,7 +2328,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2530,7 +2530,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2797,7 +2797,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3180,7 +3180,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3562,7 +3562,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3726,7 +3726,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3865,7 +3865,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4107,7 +4107,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4428,7 +4428,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4632,7 +4632,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4792,7 +4792,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5004,7 +5004,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5168,7 +5168,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5332,7 +5332,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5454,7 +5454,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5863,7 +5863,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6168,7 +6168,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6323,7 +6323,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6460,7 +6460,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6599,7 +6599,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-28T19:22:52Z"
   },
   {
@@ -6770,7 +6770,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-30T17:23:20Z"
   },
   {
@@ -6785,23 +6785,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 34811,
+      "delivered": 43293,
       "goal": 200000
     },
     "budget": {
-      "delivered": 111.7,
+      "delivered": 138.78,
       "goal": 550.0
     },
     "color": "ft-5",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
-    "er": 0.16,
+    "er": 0.14,
     "cpm": 3.21,
     "episodes": 0,
     "posts": 1,
     "blurb": "Sportradar BrandX",
-    "views": 34811,
-    "engagements": 54,
+    "views": 43293,
+    "engagements": 59,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -6809,18 +6809,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 34811,
-        "eng": 54,
-        "er": 0.16,
+        "impressions": 43293,
+        "eng": 59,
+        "er": 0.14,
         "cpm": 3.21,
         "color": "#E4405F",
-        "delta": -95.3,
+        "delta": -95.9,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 34811
+        "views": 43293
       }
     ],
     "topPosts": [],
@@ -6829,8 +6829,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 36% of goal (72K of 200K) with 31 days left.",
-        "body": "At the current rate the campaign will fall ~128K impressions short of the 200K goal. Need to deliver 5K impr/day (4.4\u00d7 the current 1K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 45% of goal (90K of 200K) with 31 days left.",
+        "body": "At the current rate the campaign will fall ~110K impressions short of the 200K goal. Need to deliver 5K impr/day (3.4\u00d7 the current 1K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Sportradar \u00b7 Pacing"
       }
     ],
@@ -6838,7 +6838,7 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-10-28T20:02:16Z"
+    "lastUpdatedExports": "2026-10-30T19:29:27Z"
   },
   {
     "id": "stifel_fostonight",
@@ -6992,7 +6992,7 @@ window.CAMPAIGNS = [
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
-    "lastUpdatedMs": "2026-10-30T19:30:38Z",
+    "lastUpdatedMs": "2026-10-30T19:32:11Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   }
 ];
@@ -7263,8 +7263,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 35035138,
-    "eng": 602309,
+    "impressions": 35043620,
+    "eng": 602314,
     "er": 1.72,
     "cpm": 4.49,
     "color": "#E4405F",
@@ -7274,7 +7274,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 32383188
+    "views": 32391670
   },
   {
     "name": "X",
@@ -7372,8 +7372,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 36% of goal (72K of 200K) with 31 days left.",
-    "body": "At the current rate the campaign will fall ~128K impressions short of the 200K goal. Need to deliver 5K impr/day (4.4\u00d7 the current 1K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 45% of goal (90K of 200K) with 31 days left.",
+    "body": "At the current rate the campaign will fall ~110K impressions short of the 200K goal. Need to deliver 5K impr/day (3.4\u00d7 the current 1K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Sportradar \u00b7 Pacing",
     "campaignId": "sportradar_brandx",
     "campaignPartner": "Sportradar"
@@ -43396,18 +43396,18 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 34811,
-      "paidImpr": 34811,
+      "impr": 43293,
+      "paidImpr": 43293,
       "orgImpr": 0,
-      "views": 34811,
-      "reach": 22731,
-      "eng": 54,
-      "er": 0.16,
-      "spend": 111.7,
+      "views": 43293,
+      "reach": 28495,
+      "eng": 59,
+      "er": 0.14,
+      "spend": 138.78,
       "watchTimeMin": null,
-      "clicks": 39,
-      "ctr": 0.11,
-      "cpc": 2.86,
+      "clicks": 43,
+      "ctr": 0.1,
+      "cpc": 3.23,
       "cpm": 3.21,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -49016,8 +49016,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.4,
-    "impressions": 18512870,
-    "paidImpressions": 16099858,
+    "impressions": 18521352,
+    "paidImpressions": 16108340,
     "pctOfTotal": 19.2,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.8,
