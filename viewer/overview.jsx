@@ -245,8 +245,11 @@ function OverviewPage({ onOpenCampaign }) {
           "Wrapped" page (lighter Overview, fewer cards to load here). */}
       {(() => {
         const activeCampaigns = CAMPAIGNS.filter(c => (c.lifecycle || 'active') === 'active');
+        const mainCampaigns = activeCampaigns.filter(c => c.type !== 'brandx');
+        const brandxCampaigns = activeCampaigns.filter(c => c.type === 'brandx');
         const wrappedCount = CAMPAIGNS.filter(c => c.lifecycle === 'wrapped').length;
         return (
+          <>
           <div className="sec">
             <div className="sec-h">
               <div>
@@ -258,11 +261,27 @@ function OverviewPage({ onOpenCampaign }) {
               </div>
             </div>
             <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:16}}>
-              {activeCampaigns.map(c => (
+              {mainCampaigns.map(c => (
                 <CampaignCard key={c.id} c={c} onClick={() => onOpenCampaign(c.id)}/>
               ))}
             </div>
           </div>
+          {brandxCampaigns.length > 0 && (
+            <div className="sec">
+              <div className="sec-h">
+                <div>
+                  <div className="sec-title">BrandX <em>campaigns</em></div>
+                  <div className="sec-sub" style={{marginTop:6}}>Paid-performance flights — tracked on CPM, CTR and VCR.</div>
+                </div>
+              </div>
+              <div style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:12}}>
+                {brandxCampaigns.map(c => (
+                  <CampaignCard key={c.id} c={c} compact onClick={() => onOpenCampaign(c.id)}/>
+                ))}
+              </div>
+            </div>
+          )}
+          </>
         );
       })()}
 

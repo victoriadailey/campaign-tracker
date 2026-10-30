@@ -480,6 +480,13 @@ a { color: inherit; }
 .cmp-card.ft-ink .arrow { background: var(--cream); color: var(--liquorice); }
 .cmp-card:hover .arrow { transform: translate(2px, -2px) rotate(-10deg); }
 
+/* Compact variant — the BrandX section renders these in a denser grid. */
+.cmp-card-sm { min-height: 196px; padding: 16px; }
+.cmp-card-sm .series { font-size: 21px; margin: 6px 0 12px; }
+.cmp-card-sm .cmp-pacing { gap: 9px; }
+.cmp-card-sm .meta-foot { padding-top: 10px; margin-top: 10px; font-size: 10px; }
+.cmp-card-sm .arrow { top: 14px; right: 14px; width: 26px; height: 26px; }
+
 /* TOP POSTS */
 .posts {
   display: flex; flex-direction: column;

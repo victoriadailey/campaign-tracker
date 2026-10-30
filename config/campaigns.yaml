@@ -560,7 +560,7 @@ campaigns:
     flight_end: 2026-06-30
     impression_goal: 3_400_000
     budget_goal: 30_000
-    color: ft-3                      # match E*TRADE parent
+    color: ft-3
     lead_format: Paid Social
     blurb: "Performance-focused paid social with E*TRADE. Awareness primary; clicks secondary."
     # Objective drives which BrandX benchmark applies:
@@ -1189,7 +1189,7 @@ campaigns:
     flight_end: 2026-12-31
     impression_goal: 2_222_222
     budget_goal: 10_000
-    color: ft-11                    # fern
+    color: ft-11
     lead_format: Paid Social
     brandx_objective: awareness
     brandx_secondary_objective: clicks
@@ -1458,13 +1458,13 @@ campaigns:
 
   - id: huntington_bank_2026
     partner: Huntington Bank
-    series: Huntington Bank x FOS
-    series_italic: FOS
+    series: NIL Banking
+    series_italic: Banking
     type: social
     benchmark_category: Branded Content
     lifecycle: active
     flight_start: 2026-08-01
-    flight_end: 2026-09-30
+    flight_end: 2026-11-30
     impression_goal: 3850000
     budget_goal: 11225
     color: ft-1
@@ -1557,8 +1557,8 @@ campaigns:
 
   - id: accenture_external_creator
     partner: Accenture
-    series: Accenture
-    series_italic: Accenture
+    series: NFL Coverage Partner
+    series_italic: Partner
     type: social
     benchmark_category: "Custom Creator-Led - Non-Franchise"
     lifecycle: active
@@ -1566,7 +1566,7 @@ campaigns:
     flight_end: 2026-11-30
     impression_goal: 5600000
     budget_goal: 22634
-    color: ft-1
+    color: ft-4
     lead_format: Social Video
     yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "An 8 video series with external creator, Evan Hand"
@@ -1584,7 +1584,7 @@ campaigns:
 
   - id: daktronics_stadiumstatus
     partner: Daktronics
-    series: Daktronics Stadium Status
+    series: Stadium Status
     series_italic: Status
     type: social
     benchmark_category: "Creator-Led - Franchise"
@@ -1593,7 +1593,7 @@ campaigns:
     flight_end: 2026-09-30
     impression_goal: 2500000
     budget_goal: 6875
-    color: ft-1
+    color: ft-5
     lead_format: Social Video
     blurb: One Stadium Status video about Illinois Football.
     sources:
@@ -1729,7 +1729,7 @@ campaigns:
 
   - id: just_ingredients_2026
     partner: Just Ingredients
-    series: Just Ingredients x Original Franchises
+    series: Multiple Franchises
     series_italic: Franchises
     type: social
     benchmark_category: "Multimedia Reporter-Led - Franchise"
@@ -1738,7 +1738,7 @@ campaigns:
     flight_end: 2026-10-31
     impression_goal: 6300000
     budget_goal: 14774
-    color: ft-1
+    color: ft-9
     lead_format: "Short-form Video"
     yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "The Come Up and Breaking Barriers — bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling"
@@ -1802,7 +1802,7 @@ campaigns:
 
   - id: jlab_thecomeup
     partner: JLab
-    series: JLab x The Come Up
+    series: The Come Up
     series_italic: Up
     type: social
     benchmark_category: "Multimedia Reporter-Led - Franchise"
@@ -1811,7 +1811,7 @@ campaigns:
     flight_end: 2026-10-31
     impression_goal: 3000000
     budget_goal: 5500
-    color: ft-1
+    color: ft-7
     lead_format: "Short-form Video"
     yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: 1 The Come Up video about Darian Mensah
@@ -1823,7 +1823,7 @@ campaigns:
 
   - id: heinz_stadiumeats
     partner: Heinz
-    series: Heinz x Stadium Eats
+    series: Stadium Eats
     series_italic: Eats
     type: social
     benchmark_category: Original Content
@@ -1832,7 +1832,7 @@ campaigns:
     flight_end: 2026-12-31
     impression_goal: 8500000
     budget_goal: 16008
-    color: ft-1
+    color: ft-6
     lead_format: Social Video
     blurb: "Four (4) short-form Stadium Eats videos traveling to an NFL stadium, sampling iconic game day foods and naturally integrating Heinz within the experience"
     sources:
@@ -1843,8 +1843,8 @@ campaigns:
 
   - id: pwc_formula1
     partner: PwC
-    series: PwC x Formula 1
-    series_italic: 1
+    series: Formula 1
+    series_italic: "1"
     type: social
     benchmark_category: "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)"
     lifecycle: active
@@ -1852,7 +1852,7 @@ campaigns:
     flight_end: 2026-11-30
     impression_goal: 4200000
     budget_goal: 12000
-    color: ft-1
+    color: ft-10
     lead_format: "Short-form Video"
     blurb: 4 unique videos breaking down news during the Formula 1 race season
     sources:
@@ -1863,7 +1863,7 @@ campaigns:
 
   - id: zoom_fosexplains_mlb
     partner: Zoom
-    series: Zoom x FOS Explains
+    series: FOS Explains
     series_italic: Explains
     type: social
     benchmark_category: Original Content
@@ -1883,7 +1883,7 @@ campaigns:
 
   - id: sportradar_brandx
     partner: Sportradar
-    series: Sportradar BrandX
+    series: BrandX
     series_italic: BrandX
     type: brandx
     benchmark_category: Branded Content
@@ -1892,7 +1892,7 @@ campaigns:
     flight_end: 2026-11-30
     impression_goal: 200000
     budget_goal: 550
-    color: ft-1
+    color: ft-5
     lead_format: Paid Social
     blurb: Sportradar BrandX
 
@@ -1902,7 +1902,7 @@ campaigns:
 
   - id: stifel_fostonight
     partner: Stifel
-    series: Stifel x FOS Tonight
+    series: FOS Tonight
     series_italic: Tonight
     type: social
     benchmark_category: Social Coverage Partner
@@ -1911,7 +1911,7 @@ campaigns:
     flight_end: 2026-12-31
     impression_goal: 2000000
     budget_goal: 10000
-    color: ft-1
+    color: ft-11
     lead_format: Social Video
     blurb: Stifel x FOS Tonight native social coverage
     sources:

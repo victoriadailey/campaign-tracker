@@ -457,7 +457,7 @@ function WrappedCard({ c, onClick }) {
 // ============================================================
 // CAMPAIGN CARD (overview)
 // ============================================================
-function CampaignCard({ c, onClick }) {
+function CampaignCard({ c, onClick, compact }) {
   const impPct = (c.impressions.delivered / c.impressions.goal) * 100;
   const budPct = (c.budget.delivered / c.budget.goal) * 100;
   // Dark-background cards (ink + denim) need light-tinted pills + light pace
@@ -465,7 +465,7 @@ function CampaignCard({ c, onClick }) {
   const darkBg = c.color === 'ft-ink' || c.color === 'ft-10';
   const pillText = darkBg ? 'var(--cream)' : 'var(--liquorice)';
   return (
-    <div className={"cmp-card " + c.color} onClick={onClick}>
+    <div className={"cmp-card " + (compact ? "cmp-card-sm " : "") + c.color} onClick={onClick}>
       <div className="arrow"><Ic.arrow/></div>
       <div>
         <div className="partner-row">
