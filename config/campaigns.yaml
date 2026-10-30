@@ -1799,6 +1799,7 @@ campaigns:
     # separate dark post. Fold it into the Instagram post so it reads as one row.
     merge_posts:
       - ids: [4011600101781087647, 1108739128732288]
+      - ids: [4016628135160160413, 1767224297894010]   # Matthew Stafford 15-0 season
 
   - id: jlab_thecomeup
     partner: JLab
