@@ -1,7 +1,7 @@
 FOS Reporting
-"September 1, 2026 - October 30, 2026"
+"September 1, 2026 - November 2, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-Zoom x FOS Explains: MLB (pre-roll),USD,0,Eligible,Video,0.018,"110,703",9.92,"202,373",2008.14,"156,331"
-Zoom: FOS Explains - Cutdown - 15s Decision (shorts),USD,0,Eligible,Video,0.189,"1,177",4.01,"55,589",222.86,"3,228"
-Zoom FOS Explains Social Cutdown 2 (shorts),USD,0,Eligible,Video,0.243,621,4.40,"34,251",150.60,"1,343"
-Zoom x FOS Explains: MLB (in-feed),USD,0,Eligible,Video,0.197,"18,071",0.69,"5,191,849",3561.11,"30,812"
+Zoom: FOS Explains - Cutdown - 15s Decision (shorts),USD,0,Paused,Video,0.188,"1,213",3.99,"57,104",228.05,"3,324"
+Zoom x FOS Explains: MLB (pre-roll),USD,0,Paused,Video,0.018,"111,874",9.92,"204,780",2031.71,"158,018"
+Zoom x FOS Explains: MLB (in-feed),USD,0,Paused,Video,0.196,"18,316",0.68,"5,251,164",3596.61,"31,250"
+Zoom FOS Explains Social Cutdown 2 (shorts),USD,0,Eligible,Video,0.239,831,4.35,"45,652",198.76,"1,778"
