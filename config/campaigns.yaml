@@ -1680,6 +1680,8 @@ campaigns:
     budget_goal: 44_715
     color: ft-2
     yt_paired_by_sort: true
+    # X: MS organic baseline + X Ads paid delivery/engagements added on top.
+    x_use_ms_organic_split: true
     lead_format: Longform Video
     blurb: "State Street brand campaign — From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video)."
     pacing_components:
