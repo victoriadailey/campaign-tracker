@@ -413,7 +413,10 @@ def main() -> int:
                     _p.account_name = _acct_overrides[_an]
 
         x_pairings = c.get("x_ads_pairings") or {}
-        posts_by_campaign[c_id] = _merge_x_ads_spend_into_ms(posts_by_campaign[c_id], manual_pairings=x_pairings)
+        posts_by_campaign[c_id] = _merge_x_ads_spend_into_ms(
+            posts_by_campaign[c_id], manual_pairings=x_pairings,
+            use_ms_organic_split=bool(c.get("x_use_ms_organic_split")),
+        )
         posts_by_campaign[c_id] = _merge_youtube_paid_spend_into_ms(
             posts_by_campaign[c_id],
             pair_by_sort=bool(c.get("yt_paired_by_sort")),
@@ -1277,6 +1280,7 @@ def main() -> int:
 def _merge_x_ads_spend_into_ms(
     posts: list[NormalizedPost],
     manual_pairings: dict[str, str] | None = None,
+    use_ms_organic_split: bool = False,
 ) -> list[NormalizedPost]:
     """Pair X Ads posts with their corresponding MS X post and merge spend
     → MS post. Drops matched X Ads posts.
@@ -1290,6 +1294,16 @@ def _merge_x_ads_spend_into_ms(
       3. Unmatched X Ads rows (true dark posts MS can't see) are kept as own row.
 
     Spend is added (not replaced) on the MS post.
+
+    `use_ms_organic_split` (campaign key `x_use_ms_organic_split`): MS reports
+    each X post's organic side explicitly (`organic_impression_count`, organic
+    likes / replies / retweets / profile clicks). When on, a matched X Ads row's
+    paid delivery is added on top of that organic baseline instead of being
+    backed out of MS's combined total — which lags the X Ads export (organic
+    collapses to 0 when the export is fresher than MS) and undercounts paid
+    engagements (MS only sees paid likes / replies / profile clicks, not the
+    ad-only interactions X Ads counts). Falls back to the old routing when MS
+    has no organic fields for the post.
     """
     ms_x = [p for p in posts
             if p.platform == Platform.X
@@ -1356,7 +1370,26 @@ def _merge_x_ads_spend_into_ms(
         ms_total = t.impressions_total or 0
         ms_saw_combined = t.boosting in (Boosting.BOOSTED, Boosting.DARK)
 
-        if ms_paid > 0:
+        _stats = ((t.raw or {}).get("stats") or {}) if isinstance(t.raw, dict) else {}
+        _ms_org_imp = _stats.get("organic_impression_count")
+        if use_ms_organic_split and _ms_org_imp is not None and xa_paid > 0:
+            # Organic baseline from MS + paid delivery from X Ads.
+            org_imp = int(_ms_org_imp)
+            t.impressions_paid = xa_paid
+            t.impressions_organic = org_imp
+            t.impressions_total = org_imp + xa_paid
+            if xa_eng > 0:
+                org_eng = sum(int(_stats.get(k) or 0) for k in (
+                    "organic_like_count", "organic_reply_count",
+                    "organic_retweet_count", "organic_user_profile_clicks",
+                    "organic_url_link_clicks", "quotes",
+                ))
+                t.engagements_paid = xa_eng
+                t.engagements_organic = org_eng
+                t.engagements_total = org_eng + xa_eng
+            t.er = ((t.engagements_total or 0) / t.impressions_total
+                    if t.impressions_total else None)
+        elif ms_paid > 0:
             # Case 1 — MS captured the breakdown. Just add spend.
             pass
         elif ms_saw_combined and ms_total > 0 and xa_paid > 0:

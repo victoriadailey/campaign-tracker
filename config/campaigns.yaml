@@ -1858,6 +1858,9 @@ campaigns:
     color: ft-10
     lead_format: "Short-form Video"
     blurb: 4 unique videos breaking down news during the Formula 1 race season
+    # X posts: organic impressions / engagements come from MS's organic fields,
+    # paid delivery + paid engagements from the X Ads export, added on top.
+    x_use_ms_organic_split: true
     sources:
       x_ads:
         - pwc_formula1_x_ads.csv
