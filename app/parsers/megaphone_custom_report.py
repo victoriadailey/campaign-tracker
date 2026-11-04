@@ -48,9 +48,13 @@ def _norm_key(k: str) -> str:
 
 
 def _int(v) -> int:
-    s = re.sub(r"[^0-9-]", "", str(v or ""))
+    # Keep digits, sign and decimal point, then round — so "7,655", "7655.0"
+    # and 7655.0 all parse to 7655 (never 76550 from a stripped dot).
+    s = re.sub(r"[^0-9.\-]", "", str(v if v is not None else "")).strip()
+    if s in ("", "-", ".", "-."):
+        return 0
     try:
-        return int(s) if s not in ("", "-") else 0
+        return int(round(float(s)))
     except ValueError:
         return 0
 
