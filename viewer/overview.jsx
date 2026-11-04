@@ -245,7 +245,8 @@ function OverviewPage({ onOpenCampaign }) {
           "Wrapped" page (lighter Overview, fewer cards to load here). */}
       {(() => {
         const activeCampaigns = CAMPAIGNS.filter(c => (c.lifecycle || 'active') === 'active');
-        const mainCampaigns = activeCampaigns.filter(c => c.type !== 'brandx');
+        const mainCampaigns = activeCampaigns.filter(c => c.type !== 'brandx' && c.type !== 'presenting');
+        const podcastCampaigns = activeCampaigns.filter(c => c.type === 'presenting');
         const brandxCampaigns = activeCampaigns.filter(c => c.type === 'brandx');
         const wrappedCount = CAMPAIGNS.filter(c => c.lifecycle === 'wrapped').length;
         return (
@@ -266,6 +267,21 @@ function OverviewPage({ onOpenCampaign }) {
               ))}
             </div>
           </div>
+          {podcastCampaigns.length > 0 && (
+            <div className="sec">
+              <div className="sec-h">
+                <div>
+                  <div className="sec-title">Podcast <em>campaigns</em></div>
+                  <div className="sec-sub" style={{marginTop:6}}>Presenting-partner flights — scored on cumulative impressions across promo + podcast.</div>
+                </div>
+              </div>
+              <div style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:12}}>
+                {podcastCampaigns.map(c => (
+                  <CampaignCard key={c.id} c={c} compact onClick={() => onOpenCampaign(c.id)}/>
+                ))}
+              </div>
+            </div>
+          )}
           {brandxCampaigns.length > 0 && (
             <div className="sec">
               <div className="sec-h">
