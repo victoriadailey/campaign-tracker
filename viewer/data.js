@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-04T18:32:59Z";
+window.LAST_REFRESHED = "2026-11-04T19:23:16Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:58Z",
+    "lastUpdatedMs": "2026-11-04T19:23:15Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -819,7 +819,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:58Z",
+    "lastUpdatedMs": "2026-11-04T19:23:15Z",
     "lastUpdatedExports": "2026-10-30T17:17:24Z"
   },
   {
@@ -1073,7 +1073,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:58Z",
+    "lastUpdatedMs": "2026-11-04T19:23:15Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1391,7 +1391,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1500,7 +1500,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1649,7 +1649,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1806,7 +1806,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2205,7 +2205,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2355,7 +2355,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2559,7 +2559,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2828,7 +2828,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3215,7 +3215,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3603,7 +3603,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3769,7 +3769,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3910,7 +3910,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4154,7 +4154,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4479,7 +4479,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4685,7 +4685,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4847,7 +4847,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5061,7 +5061,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5227,7 +5227,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5393,7 +5393,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5517,7 +5517,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5932,7 +5932,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6232,7 +6232,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6389,7 +6389,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6528,7 +6528,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6685,7 +6685,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-11-03T20:48:14Z"
   },
   {
@@ -6850,7 +6850,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7076,7 +7076,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-04T18:32:59Z",
+    "lastUpdatedMs": "2026-11-04T19:23:16Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7098,7 +7098,7 @@ window.CAMPAIGNS = [
       "delivered": 0,
       "goal": 58500.0
     },
-    "color": "ft-ink",
+    "color": "ft-copilot",
     "leadFormat": "Presenting Partner",
     "topChannel": "Unknown",
     "er": 0.0,
@@ -7121,6 +7121,7 @@ window.CAMPAIGNS = [
       {
         "label": "X",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7130,6 +7131,7 @@ window.CAMPAIGNS = [
       {
         "label": "AudienceLift",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7137,8 +7139,9 @@ window.CAMPAIGNS = [
         }
       },
       {
-        "label": "Other",
+        "label": "Spotify/Reddit/Overcast (Paid)",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7148,6 +7151,7 @@ window.CAMPAIGNS = [
       {
         "label": "LinkedIn",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7157,6 +7161,7 @@ window.CAMPAIGNS = [
       {
         "label": "Threads",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7166,6 +7171,7 @@ window.CAMPAIGNS = [
       {
         "label": ".com display",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7175,6 +7181,7 @@ window.CAMPAIGNS = [
       {
         "label": "Baker & Dan",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7184,6 +7191,7 @@ window.CAMPAIGNS = [
       {
         "label": ".com homepage",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7193,6 +7201,7 @@ window.CAMPAIGNS = [
       {
         "label": "IG Stories",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7200,17 +7209,19 @@ window.CAMPAIGNS = [
         }
       },
       {
-        "label": "Megaphone",
+        "label": "Spotify Discovery Events",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
-          "goal": 75000
+          "goal": 125000
         }
       },
       {
         "label": "FOS App",
         "group": "impressions",
+        "card": null,
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7220,6 +7231,7 @@ window.CAMPAIGNS = [
       {
         "label": "AudienceLift Audio",
         "group": "listens",
+        "card": "AudienceLift",
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7229,6 +7241,7 @@ window.CAMPAIGNS = [
       {
         "label": "Megaphone Listens",
         "group": "listens",
+        "card": "Megaphone",
         "posts": 36,
         "impressions": {
           "delivered": 0,
@@ -7238,6 +7251,7 @@ window.CAMPAIGNS = [
       {
         "label": "Paid Promo",
         "group": "listens",
+        "card": "Megaphone",
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7247,6 +7261,7 @@ window.CAMPAIGNS = [
       {
         "label": "Organic App",
         "group": "listens",
+        "card": "App",
         "posts": 1,
         "impressions": {
           "delivered": 0,
@@ -7256,6 +7271,7 @@ window.CAMPAIGNS = [
       {
         "label": "Back Catalog",
         "group": "listens",
+        "card": "Megaphone",
         "posts": 1,
         "impressions": {
           "delivered": 0,
