@@ -754,15 +754,18 @@ def main() -> int:
             episodes_by_campaign[c_id] = []
             dl = delivery_by_campaign.get(c_id)
             delivered_by_channel: dict[str, int] = {}
+            count_by_channel: dict[str, int] = {}   # placements (posts) / episodes per channel
             tagged = total = 0
             if dl is not None:
                 for r in dl.tagged_rows:
                     delivered_by_channel[r.channel] = delivered_by_channel.get(r.channel, 0) + r.delivered
+                    count_by_channel[r.channel] = count_by_channel.get(r.channel, 0) + 1
                 tagged = len(dl.tagged_rows)
                 total = len(dl.rows)
             buckets = [{
                 "label": b["label"],
                 "group": b.get("group", "impressions"),
+                "posts": int(count_by_channel.get(b["label"], 0)),
                 "impressions": {"delivered": int(delivered_by_channel.get(b["label"], 0)),
                                 "goal": int(b.get("impression_goal", 0))},
             } for b in c["channel_targets"]]

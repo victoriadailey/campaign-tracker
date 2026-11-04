@@ -322,6 +322,16 @@ function CampaignPage({ campaignId, onBack }) {
                 <span style={{fontFamily:'var(--serif)', fontSize:30, fontWeight:300, letterSpacing:'-0.01em'}}>{fmt.numFull(b.impressions.delivered)}</span>
                 <span style={{fontSize:12, color:'var(--ink-3)'}}>of {fmt.numFull(b.impressions.goal)}</span>
               </div>
+              {b.posts > 0 && (() => {
+                const isListen = b.group === 'listens';
+                const cnt = `${b.posts} ${isListen ? (b.posts === 1 ? 'episode' : 'episodes') : (b.posts === 1 ? 'post' : 'posts')}`;
+                const avg = Math.round(b.impressions.delivered / b.posts);
+                return (
+                  <div style={{fontSize:11, color:'var(--ink-3)', marginTop:-2}}>
+                    {cnt} · {fmt.num(avg)} avg {isListen ? 'listens/ep' : 'impr/post'}
+                  </div>
+                );
+              })()}
               <div style={{height:6, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden'}}>
                 <div style={{height:'100%', width: Math.min(100, pct) + '%', background: barCol, borderRadius:999}}/>
               </div>
