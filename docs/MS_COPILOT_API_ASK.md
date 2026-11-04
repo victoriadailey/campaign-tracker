@@ -48,12 +48,19 @@ Megaphone support.
 > we can list podcasts and episodes fine. But we'd like to pull **analytics**
 > programmatically and are hitting walls:
 >
-> 1. **Per-episode / show downloads + streams** — every analytics path we try
+> 1. **Campaign / DAI delivery report** — our highest priority. We run a
+>    presenting partnership whose ad read is dynamically inserted across the
+>    **whole catalog** (new + back-catalog episodes), so we need the
+>    impressions served *for that campaign* across all episodes in a date range,
+>    not just new-episode downloads. Is there a campaign/ad delivery report
+>    endpoint for this? (It likely lives under the Organization API — see #3.)
+> 2. **Show / per-episode downloads + streams** — every analytics path we try
 >    (e.g. `/networks/{id}/podcasts/{id}/analytics`, `/metrics`, `/downloads`)
 >    returns **404** with our token. Is there an **analytics-scoped token** or a
 >    different endpoint/report API for download & stream counts? We'd want
->    downloads, streams, and discovery events by date range.
-> 2. **Organization API** (campaigns / promos for paid spots + AudienceLift) —
+>    downloads, streams, and discovery events by date range (show-level and,
+>    ideally, per-episode).
+> 3. **Organization API** (campaigns / promos for paid spots + AudienceLift) —
 >    `/organizations/{id}` and its sub-paths return **403** with our token, so
 >    it appears to lack org scope. Can you issue a token with organization
 >    access, or tell us how to authorize the existing one?
@@ -74,7 +81,7 @@ Megaphone support.
 | Ask | Unblocks |
 |---|---|
 | A (Spotify Ad Analytics API) | Auto-pull of paid promo + AudienceLift audio delivery |
-| B (Megaphone analytics token) | Auto-pull of organic downloads/streams + discovery events (replaces the dashboard export step) |
+| B (Megaphone analytics token) | Auto-pull of the campaign/DAI delivery report (ad reads across the whole catalog, incl. back catalog) + organic downloads/streams + discovery events (replaces the dashboard export step) |
 
 Until either lands, the dashboard runs off the Megaphone dashboard exports →
 `microsoft_copilot_delivery_log.csv` (see `MS_COPILOT_DATA.md`).

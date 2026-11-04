@@ -26,6 +26,39 @@ Because Copilot **presents every FOS Today episode**, 100% of the show's
 downloads/streams/discovery in the flight window are Copilot-attributed —
 no per-episode tagging math. The show-level totals *are* the campaign numbers.
 
+### The ad read runs on the back catalog too
+
+The Copilot ad read + branding isn't only in the 36 new in-window episodes —
+it's placed across the **back catalog** (dynamic ad insertion / baked-in
+branding). So if someone listens to an **October** episode *during the flight*,
+they hear the Copilot read and it counts. Two consequences:
+
+1. **Listens ≠ sum of the 36 new episodes.** Delivery is *all* FOS Today
+   listens during the flight, across the whole catalog (new + back catalog).
+2. **There's a tail** — in-window episodes keep earning listens after Dec 31.
+   Check with the partner whether there's a measurement window (podcast deals
+   often count a +30-day download tail per episode).
+
+**This is why the show-level export is the source of truth.** A date-ranged
+`analytics-overview` / `DiscoveryEvents` export already counts every episode
+played in that range — new *and* back catalog — automatically. The per-episode
+rows below only see the 36 new episodes, so the delivery log carries a separate
+**`(back catalog)`** row to capture the rest:
+
+```
+total Megaphone Listens = Σ(36 new-episode rows) + (back catalog row)
+                        = show-level window Downloads     ← reconciliation check
+```
+
+Set the back-catalog row = show-level window Downloads **minus** the sum of the
+36 new-episode rows, so nothing is double-counted. If you don't have per-episode
+numbers, just put the whole show-level window total on the back-catalog row and
+leave the 36 at zero — the campaign total is identical either way.
+
+The **authoritative** cross-catalog number is the Megaphone **campaign /
+DAI delivery report** (impressions served for the Copilot campaign), which
+aggregates across the whole catalog by design — see API ask B.
+
 ---
 
 ## Where each number comes from
