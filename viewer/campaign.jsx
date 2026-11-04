@@ -63,9 +63,15 @@ function CampaignPage({ campaignId, onBack }) {
   const trackBud = paceHealth('Budget', budVsTime);
 
   // Per-campaign channels (with YouTube split into In-feed + Pre-roll).
-  // Falls back to scaled cross-campaign data if the per-campaign rollup isn't populated.
+  // Falls back to scaled cross-campaign data if the per-campaign rollup isn't
+  // populated — EXCEPT presenting-partner campaigns (e.g. Microsoft Copilot),
+  // which have no Measure social channels; they're tracked purely via "Pacing by
+  // component", so the ER/CPM "By channel" section is hidden rather than filled
+  // with misleading sample data.
   const channels = (c.channels && c.channels.length > 0)
     ? c.channels
+    : (c.type === 'presenting')
+    ? []
     : CHANNELS.map(ch => ({
         ...ch,
         impressions: Math.round(ch.impressions * (c.impressions.delivered / 13_780_000)),
@@ -654,7 +660,10 @@ function CampaignPage({ campaignId, onBack }) {
 
       {/* CHANNELS — moved to bottom per spec. Layout:
             ≤4 channels  → single row (one per column)
-            ≥5 channels  → two rows, YT/IG family on top, others below */}
+            ≥5 channels  → two rows, YT/IG family on top, others below
+          Hidden when there are no Measure channels (presenting-partner campaigns
+          track delivery via "Pacing by component" instead). */}
+      {channels.length > 0 && (
       <div className="sec">
         <div className="sec-h">
           <div>
@@ -762,6 +771,7 @@ function CampaignPage({ campaignId, onBack }) {
           );
         })()}
       </div>
+      )}
     </>
   );
 }

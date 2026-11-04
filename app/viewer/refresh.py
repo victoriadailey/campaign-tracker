@@ -37,6 +37,7 @@ from app.parsers.linkedin_ads import parse as parse_linkedin_ads
 from app.parsers.meta_ads import parse as parse_meta_ads
 from app.parsers.tiktok_ads import parse as parse_tiktok_ads
 from app.parsers.x_ads import parse as parse_x_ads
+from app.parsers.delivery_log import parse as parse_delivery_log
 from app.viewer.data_contract import (
     CampaignSummary,
     DataSource,
@@ -109,6 +110,7 @@ def main() -> int:
 
     # ---------- Parse ----------
     posts_by_campaign: dict[str, list[NormalizedPost]] = defaultdict(list)
+    delivery_by_campaign: dict[str, "object"] = {}   # c_id -> DeliveryLogResult (presenting campaigns)
     parse_warnings: list[str] = []
 
     _PLATFORM_FROM_KEY = {p.value: p for p in Platform}
@@ -304,6 +306,33 @@ def main() -> int:
                 ctr=(int(_clicks) / _impr) if _impr and _clicks is not None else None,
                 raw=dict(row),
             ))
+
+        # Delivery-log source (presenting-partner campaigns). Each row is a
+        # placement; only copilot_tagged rows count toward delivery. Tagged rows
+        # become MANUAL posts so the campaign total/budget roll up normally; the
+        # full result is kept for the per-channel pacing + tag-compliance step.
+        for dl_file in c.get("sources", {}).get("delivery_log", []) or []:
+            path = exports_root / dl_file
+            if not path.exists():
+                parse_warnings.append(f"[{c_id}] missing delivery log: {path}")
+                continue
+            dl = parse_delivery_log(str(path))
+            parse_warnings.extend(f"[{c_id}] {w}" for w in dl.warnings)
+            delivery_by_campaign[c_id] = dl
+            from app.parsers.base import Boosting as _DB
+            for r in dl.tagged_rows:
+                posts_by_campaign[c_id].append(NormalizedPost(
+                    source=Source.MANUAL,
+                    platform=Platform.UNKNOWN,
+                    post_id_native=f"delivery:{c_id}:{r.episode_id}:{r.channel}:{r.post_url or r.impressions}",
+                    post_title=f"{r.channel} — {r.episode_id}",
+                    boosting=_DB.DARK if r.paid_spend_usd else _DB.ORGANIC,
+                    impressions_total=r.delivered or None,
+                    impressions_paid=r.delivered if r.paid_spend_usd else None,
+                    ad_spend=r.paid_spend_usd or None,
+                    post_groups=[r.channel],
+                    raw=r.raw,
+                ))
 
         for tt_file in c.get("sources", {}).get("tiktok_ads", []) or []:
             path = exports_root / tt_file
@@ -719,6 +748,30 @@ def main() -> int:
                     if summary.id == c_id:
                         summary.pacing_components = buckets
                         break
+        elif c.get("channel_targets"):
+            # Presenting-partner campaign (e.g. Microsoft Copilot). No episodes —
+            # pace each channel target against the delivery log's tagged rows.
+            episodes_by_campaign[c_id] = []
+            dl = delivery_by_campaign.get(c_id)
+            delivered_by_channel: dict[str, int] = {}
+            tagged = total = 0
+            if dl is not None:
+                for r in dl.tagged_rows:
+                    delivered_by_channel[r.channel] = delivered_by_channel.get(r.channel, 0) + r.delivered
+                tagged = len(dl.tagged_rows)
+                total = len(dl.rows)
+            buckets = [{
+                "label": b["label"],
+                "impressions": {"delivered": int(delivered_by_channel.get(b["label"], 0)),
+                                "goal": int(b.get("impression_goal", 0))},
+            } for b in c["channel_targets"]]
+            for summary in campaigns:
+                if summary.id == c_id:
+                    summary.pacing_components = buckets
+                    # Copilot-tag compliance: % of placements tagged (100% target).
+                    summary.tag_compliance_pct = round(tagged / total * 100, 1) if total else None
+                    summary.placements = tagged
+                    break
         else:
             # Fallback: use sample (E*TRADE has Kim Ng/Repole/Osborne placeholders in design)
             episodes_by_campaign[c_id] = sample_episodes.get(c_id, [])

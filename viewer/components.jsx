@@ -489,7 +489,14 @@ function CampaignCard({ c, onClick, compact }) {
             background: darkBg ? 'rgba(245,241,232,0.12)' : 'rgba(36,28,23,0.08)', border: 'none', color: pillText
           }}>{c.type === 'social'
               ? `${c.posts} ${c.posts === 1 ? 'post' : 'posts'}`
+              : c.type === 'presenting'
+              ? `${c.placements || c.posts} placements`
               : `${c.episodes} eps · ${c.posts} posts`}</span>
+        {c.type === 'presenting' && c.tagCompliancePct != null && (
+          <span className="pill" style={{
+            background: darkBg ? 'rgba(245,241,232,0.12)' : 'rgba(36,28,23,0.08)', border: 'none', color: pillText
+          }}>{c.tagCompliancePct}% tagged</span>
+        )}
         </div>
       </div>
       <div className="cmp-pacing">

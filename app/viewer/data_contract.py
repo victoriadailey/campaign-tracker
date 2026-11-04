@@ -80,6 +80,12 @@ class CampaignSummary:
     #   {label: str, impressions: {delivered: int, goal: int}}
     # Rendered as a dedicated "pacing by component" section on the campaign page.
     pacing_components: list = field(default_factory=list)
+    # Presenting-partner campaigns (delivery-log driven, e.g. Microsoft Copilot):
+    #   placements          — count of tagged placements logged so far
+    #   tag_compliance_pct  — % of logged placements with the partner tag applied
+    #                         (100% target; untagged don't count toward delivery)
+    placements: int = 0
+    tag_compliance_pct: float | None = None
     # Freshness timestamps shown in the campaign header (ISO 8601 UTC, "" when
     # n/a). Split by source so each reflects when THAT data actually changed:
     #   last_updated_ms      — Measure Studio pull time (= refresh time; MS is

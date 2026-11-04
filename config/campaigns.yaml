@@ -1943,3 +1943,40 @@ campaigns:
     # (Instagram id listed first so it keeps the row's identity).
     merge_posts:
       - ids: [4017280430702716484, 3294328294089727]   # Stifel Charity Classic
+
+  # Presenting-partner campaign — NOT a Measure post group. Scored purely on
+  # cumulative impressions vs the 14.3M contracted goal across promo + podcast,
+  # fed by a manual per-episode delivery log (tests/fixtures/
+  # microsoft_copilot_delivery_log.csv). `channel_targets` defines the per-channel
+  # goals the dashboard paces each channel against (rendered as pacing components).
+  # Only copilot_tagged=TRUE rows count toward delivery (untagged = not delivered).
+  - id: microsoft_copilot
+    partner: Microsoft Copilot
+    series: FOS Today Presenting Partner
+    series_italic: Partner
+    type: presenting
+    lifecycle: active
+    # Start TBD (~next Monday); brief says Nov 8. ~35 weekday episodes.
+    flight_start: 2026-11-09
+    flight_end: 2026-12-31
+    impression_goal: 14_346_300
+    budget_goal: 58_500
+    color: ft-ink
+    lead_format: Presenting Partner
+    blurb: "Microsoft Copilot — presenting partner of FOS Today (~35 weekday episodes). Scored on cumulative impressions vs the 14.3M contracted goal across promo + podcast, from the per-episode delivery log."
+    channel_targets:
+      - { label: "X",             impression_goal: 7_500_000 }
+      - { label: "AudienceLift",  impression_goal: 2_400_000 }
+      - { label: "Other",         impression_goal: 2_000_000 }
+      - { label: "LinkedIn",      impression_goal: 1_000_000 }
+      - { label: "Threads",       impression_goal: 500_000 }
+      - { label: "Audio",         impression_goal: 225_500 }
+      - { label: ".com display",  impression_goal: 200_000 }
+      - { label: "Baker & Dan",   impression_goal: 200_000 }
+      - { label: ".com homepage", impression_goal: 150_000 }
+      - { label: "IG Stories",    impression_goal: 100_000 }
+      - { label: "Megaphone",     impression_goal: 75_000 }
+      - { label: "FOS App",       impression_goal: 30_000 }
+    sources:
+      delivery_log:
+        - microsoft_copilot_delivery_log.csv
