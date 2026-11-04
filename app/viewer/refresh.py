@@ -38,6 +38,11 @@ from app.parsers.meta_ads import parse as parse_meta_ads
 from app.parsers.tiktok_ads import parse as parse_tiktok_ads
 from app.parsers.x_ads import parse as parse_x_ads
 from app.parsers.delivery_log import parse as parse_delivery_log
+from app.parsers.megaphone_custom_report import (
+    parse as parse_custom_report,
+    to_delivery_rows as custom_report_delivery_rows,
+)
+from app.parsers.delivery_log import DeliveryLogResult as _DeliveryLogResult
 from app.viewer.data_contract import (
     CampaignSummary,
     DataSource,
@@ -330,6 +335,50 @@ def main() -> int:
                     impressions_total=r.delivered or None,
                     impressions_paid=r.delivered if r.paid_spend_usd else None,
                     ad_spend=r.paid_spend_usd or None,
+                    post_groups=[r.channel],
+                    raw=r.raw,
+                ))
+
+        # Megaphone Custom report (per-episode downloads+streams). Feeds the
+        # "Megaphone Listens" channel directly from the host export — one
+        # DeliveryRow per in-window episode + one "(back catalog)" aggregate for
+        # pre-window episodes' in-flight listens (DAI read runs catalog-wide).
+        # Supersedes any hand-kept "Megaphone Listens" rows in the delivery log.
+        for cr_file in c.get("sources", {}).get("megaphone_custom_report", []) or []:
+            path = exports_root / cr_file
+            if not path.exists():
+                parse_warnings.append(f"[{c_id}] missing Megaphone custom report: {path}")
+                continue
+            cr = parse_custom_report(str(path))
+            parse_warnings.extend(f"[{c_id}] {w}" for w in cr.warnings)
+            mg_cfg = c.get("megaphone", {}) or {}
+            podcast_title = mg_cfg.get("podcast_title") or "Front Office Sports Today"
+            dai_only = bool(mg_cfg.get("dai_only", True))
+            cr_rows = custom_report_delivery_rows(
+                cr, podcast_title, c.get("flight_start"), dai_only=dai_only,
+            )
+            if not cr_rows:
+                parse_warnings.append(
+                    f"[{c_id}] custom report {path.name}: no rows for podcast "
+                    f"{podcast_title!r} (dai_only={dai_only})"
+                )
+                continue
+            # Merge into the campaign's delivery result, replacing any existing
+            # Megaphone Listens rows so the custom report is the single source.
+            dl = delivery_by_campaign.get(c_id)
+            if dl is None:
+                dl = _DeliveryLogResult(rows=[])
+                delivery_by_campaign[c_id] = dl
+            dl.rows = [r for r in dl.rows if r.channel != "Megaphone Listens"] + cr_rows
+            from app.parsers.base import Boosting as _CB
+            for r in cr_rows:
+                posts_by_campaign[c_id].append(NormalizedPost(
+                    source=Source.MANUAL,
+                    platform=Platform.UNKNOWN,
+                    post_id_native=f"custreport:{c_id}:{r.episode_id}:{r.channel}",
+                    post_title=f"{r.channel} — {r.episode_id}",
+                    boosting=_CB.ORGANIC,
+                    impressions_total=r.delivered or None,
                     post_groups=[r.channel],
                     raw=r.raw,
                 ))

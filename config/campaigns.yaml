@@ -2000,6 +2000,15 @@ campaigns:
       network_id: 0839aeca-f930-11ec-8a88-e3b56f71adad
       organization_id: f926b7d4-f92f-11ec-99a7-2b87d2fee883
       podcast_slug: FOS5664832205
+      podcast_title: Front Office Sports Today
     sources:
       delivery_log:
         - microsoft_copilot_delivery_log.csv
+      # Megaphone Custom report (per-episode downloads+streams) auto-fills the
+      # "Megaphone Listens" channel — one row per in-window episode + a
+      # "(back catalog)" aggregate for pre-window episodes still carrying the
+      # DAI read. Export it for the flight window from Megaphone (Analytics →
+      # Custom report), drop it in tests/fixtures/, and uncomment the line.
+      # It supersedes any "Megaphone Listens" rows in the delivery log.
+      # megaphone_custom_report:
+      #   - microsoft_copilot_custom_report.csv

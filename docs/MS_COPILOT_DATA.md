@@ -83,6 +83,28 @@ Enter into the delivery log:
 - (optional) a `Megaphone Listens` or `Other` row for Streams if you track it
   separately.
 
+#### Better: auto-ingest the Custom report (per-episode + back catalog)
+
+Instead of hand-keying, export Megaphone's **Custom report** for the flight
+window (Analytics → Custom report → per-episode, with Downloads + Streams +
+Streaming Ad Insertion opt-in). Drop it in `tests/fixtures/` and uncomment the
+`megaphone_custom_report:` source in `campaigns.yaml`. On refresh it:
+
+- filters to the podcast (`megaphone.podcast_title`) and, by default, to
+  episodes with Streaming Ad Insertion on (the ones carrying the DAI read);
+- emits **one `Megaphone Listens` row per in-window episode** (so the card shows
+  episode count + avg listens/episode) **plus one `(back catalog)` row** for
+  pre-window episodes' in-flight listens;
+- **supersedes** any hand-kept `Megaphone Listens` rows in the delivery log.
+
+Verified against October data: the Custom report sums **exactly** to the
+Downloads (40,141) + Streams (3,316) reports — 43,457 total delivery, of which
+~9.3% came from back catalog. One export replaces the manual listens entry.
+
+> Note: the `(back catalog)` row currently counts as one "episode" in the card's
+> episode count/average (26 vs 25 for October). Minor; tell me if you'd rather
+> it render as its own separate card under Listens.
+
 ### Impressions — Spotify discovery (Megaphone "Discovery Events")
 
 Megaphone → **Discovery Events** export gives daily Spotify impressions:
