@@ -1988,6 +1988,11 @@ campaigns:
       - { group: listens, label: "Megaphone Listens",  impression_goal: 75_000 }
       - { group: listens, label: "Paid Promo",         impression_goal: 50_000 }
       - { group: listens, label: "Organic App",        impression_goal: 500 }
+      # Back-catalog listens (pre-flight episodes still carrying the DAI read).
+      # Tracked separately with no contracted goal — it still counts toward the
+      # overall 14.3M total, but is excluded from the Listens group subtotal so
+      # "Megaphone Listens" shows true per-episode numbers for in-flight episodes.
+      - { group: listens, label: "Back Catalog",       impression_goal: 0 }
     # Megaphone API (podcast performance). The Bearer token lives in the
     # MEGAPHONE_API_TOKEN env var (.env locally + GitHub Actions secret), NEVER
     # in config. The IDs below are not secret. Once the token is set, the

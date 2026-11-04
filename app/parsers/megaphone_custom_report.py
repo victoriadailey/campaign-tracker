@@ -218,7 +218,7 @@ def to_delivery_rows(
         rows.append(DeliveryRow(
             episode_id="(back catalog)",
             episode_date="",
-            channel=channel,
+            channel="Back Catalog",
             copilot_tagged=True,
             paid_spend_usd=0.0,
             impressions=0,
@@ -226,6 +226,7 @@ def to_delivery_rows(
             post_url="",
             post_type="podcast",
             raw={"source": "megaphone_custom_report",
+                 "episode_count": back_n,
                  "note": f"{back_n} pre-window episodes still carrying the DAI read"},
         ))
     return rows

@@ -92,18 +92,22 @@ Streaming Ad Insertion opt-in). Drop it in `tests/fixtures/` and uncomment the
 
 - filters to the podcast (`megaphone.podcast_title`) and, by default, to
   episodes with Streaming Ad Insertion on (the ones carrying the DAI read);
-- emits **one `Megaphone Listens` row per in-window episode** (so the card shows
-  episode count + avg listens/episode) **plus one `(back catalog)` row** for
-  pre-window episodes' in-flight listens;
-- **supersedes** any hand-kept `Megaphone Listens` rows in the delivery log.
+- emits **one `Megaphone Listens` row per in-window episode** (so that card shows
+  episode count + true avg listens/episode for episodes *published in the flight*);
+- emits a separate **`Back Catalog`** row (its own card) for pre-window episodes
+  still earning in-flight listens — carrying the real back-catalog episode count;
+- **supersedes** any hand-kept `Megaphone Listens` / `Back Catalog` rows in the
+  delivery log.
+
+**Back Catalog is its own card**, with **no contracted goal**: it's shown as a
+tracking card ("counts toward total") and **excluded from the Listens group
+subtotal** so it doesn't distort contracted pacing — but its listens **do** count
+toward the overall 14.3M campaign total.
 
 Verified against October data: the Custom report sums **exactly** to the
-Downloads (40,141) + Streams (3,316) reports — 43,457 total delivery, of which
-~9.3% came from back catalog. One export replaces the manual listens entry.
-
-> Note: the `(back catalog)` row currently counts as one "episode" in the card's
-> episode count/average (26 vs 25 for October). Minor; tell me if you'd rather
-> it render as its own separate card under Listens.
+Downloads (40,141) + Streams (3,316) reports — 43,457 total delivery. Split:
+**Megaphone Listens 39,400** (25 in-window episodes, avg 1,576/ep) + **Back
+Catalog 4,057** (752 pre-window episodes). One export replaces manual listens entry.
 
 ### Impressions — Spotify discovery (Megaphone "Discovery Events")
 

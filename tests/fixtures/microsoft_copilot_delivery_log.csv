@@ -35,7 +35,7 @@ ep-2026-12-28,2026-12-28,FOS Today — Mon Dec 28,Megaphone Listens,podcast,,,TR
 ep-2026-12-29,2026-12-29,FOS Today — Tue Dec 29,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
 ep-2026-12-30,2026-12-30,FOS Today — Wed Dec 30,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
 ep-2026-12-31,2026-12-31,FOS Today — Thu Dec 31,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-(back catalog),,,Megaphone Listens,podcast,,,TRUE,,,,,,,pre-window episodes w/ Copilot ad read — in-flight listens. = show-level window Downloads MINUS the 36 new-episode rows above (avoids double count)
+(back catalog),,,Back Catalog,podcast,,,TRUE,,,,,,,"pre-window episodes w/ Copilot ad read — in-flight listens (tracked separately, no goal). = show-level window Downloads MINUS the 36 new-episode rows above"
 (flight),,,X,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
 (flight),,,AudienceLift,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
 (flight),,,Other,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"

@@ -46,6 +46,7 @@ CHANNEL_ALIASES: dict[str, str] = {
     "audiencelift audio": "AudienceLift Audio", "audiencelift audio web players": "AudienceLift Audio", "audio web players": "AudienceLift Audio",
     "paid promo": "Paid Promo", "paid promo (above)": "Paid Promo",
     "organic app": "Organic App", "organic (app)": "Organic App", "app listens": "Organic App", "fos app listens": "Organic App",
+    "back catalog": "Back Catalog", "backcatalog": "Back Catalog", "back-catalog": "Back Catalog", "catalog": "Back Catalog",
 }
 
 

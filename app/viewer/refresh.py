@@ -369,7 +369,8 @@ def main() -> int:
             if dl is None:
                 dl = _DeliveryLogResult(rows=[])
                 delivery_by_campaign[c_id] = dl
-            dl.rows = [r for r in dl.rows if r.channel != "Megaphone Listens"] + cr_rows
+            dl.rows = [r for r in dl.rows
+                       if r.channel not in ("Megaphone Listens", "Back Catalog")] + cr_rows
             from app.parsers.base import Boosting as _CB
             for r in cr_rows:
                 posts_by_campaign[c_id].append(NormalizedPost(
@@ -808,7 +809,10 @@ def main() -> int:
             if dl is not None:
                 for r in dl.tagged_rows:
                     delivered_by_channel[r.channel] = delivered_by_channel.get(r.channel, 0) + r.delivered
-                    count_by_channel[r.channel] = count_by_channel.get(r.channel, 0) + 1
+                    # Most rows are one placement/episode; an aggregate row (e.g.
+                    # the back-catalog roll-up) carries its real episode_count.
+                    _inc = int(r.raw.get("episode_count", 1)) if isinstance(r.raw, dict) else 1
+                    count_by_channel[r.channel] = count_by_channel.get(r.channel, 0) + _inc
                 tagged = len(dl.tagged_rows)
                 total = len(dl.rows)
 
