@@ -99,17 +99,36 @@ Streaming Ad Insertion opt-in). Drop it in `tests/fixtures/` and uncomment the
 - **supersedes** any hand-kept `Megaphone Listens` / `Back Catalog` rows in the
   delivery log.
 
-**Back Catalog is its own card**, with **no contracted goal**: it's shown as a
-tracking card ("counts toward total") and **excluded from the Listens group
-subtotal** so it doesn't distort contracted pacing — but its listens **do** count
-toward the overall 14.3M campaign total.
+**The Listens section rolls up into THREE cards** (via the `card:` key on each
+channel_target), to keep it readable:
+
+| Card | Rolls up | Goal |
+|---|---|---|
+| **Megaphone** | Megaphone Listens + Paid Promo + Back Catalog | 125,000 |
+| **AudienceLift** | AudienceLift Audio | 100,000 |
+| **App** | Organic App | 500 |
+
+The underlying buckets stay separate in the data (so the campaign total and
+back-catalog tracking are unaffected) — only the viewer merges them. The
+Megaphone card's headline + % to goal use the **goal-bearing** members
+(Megaphone Listens + Paid Promo); **Back Catalog** rides along as a sub-line
+(`25 episodes · 1.6K avg listens/ep · back catalog = 4,057 listens`) with **no
+contracted goal**, kept out of the % math so it doesn't distort contracted
+pacing — but its listens **do** count toward the overall 14.3M campaign total.
+
+### Pace-colored bars
+
+Every pacing bar is colored by how far **% to goal** trails **% of flight
+elapsed**: **≥20 pts behind = red**, **4–20 behind = orange**, **within 4 behind
+or ahead = green**. (In a full-month back-test where elapsed = 100%, everything
+reads red — that's expected; in-flight the colors track real dates.)
 
 Verified against October data: the Custom report sums **exactly** to the
 Downloads (40,141) + Streams (3,316) reports — 43,457 total delivery. Split:
 **Megaphone Listens 39,400** (25 in-window episodes, avg 1,576/ep) + **Back
 Catalog 4,057** (752 pre-window episodes). One export replaces manual listens entry.
 
-### Impressions — Spotify discovery (Megaphone "Discovery Events")
+### Impressions — Spotify discovery ("Spotify Discovery Events" card)
 
 Megaphone → **Discovery Events** export gives daily Spotify impressions:
 
@@ -120,8 +139,9 @@ DATE,        DISCOVERY EVENTS
 …
 ```
 
-Sum the window → enter on the `Megaphone` row (impressions group),
-`impressions` column.
+Sum the window → enter on the **`Spotify Discovery Events`** row (impressions
+group), `impressions` column. (The parser also accepts `Megaphone`, `discovery
+events`, etc. as aliases — see `CHANNEL_ALIASES`.) Goal: 125,000.
 
 > **Apple note:** Discovery events are **Spotify-only**. Apple Podcasts does
 > **not** report impression/discovery data to *any* host platform — it doesn't
@@ -141,12 +161,14 @@ platform into the channel cards**:
 | X | X |
 | LinkedIn | LinkedIn |
 | Instagram | IG Stories |
-| YouTube / Facebook / TikTok | Other |
 
 Each card shows the real post count + avg impressions/post. Threads isn't a
 Measure Studio platform, so **Threads** (and `.com`, `Baker & Dan`, `FOS App`,
-`Megaphone` discovery, `AudienceLift`) stay on the delivery log / their own
-exports.
+`Spotify Discovery Events`, `Spotify/Reddit/Overcast (Paid)`, `AudienceLift`)
+stay on the delivery log / their own exports. The Copilot promo group only runs
+on X / LinkedIn / Instagram; if a YouTube / Facebook / TikTok promo ever ships,
+add a matching `channel_targets` label for it (the old catch-all "Other" card
+was repurposed as the paid-audio bucket).
 
 > **Config discipline:** a channel is fed by **either** the MS group **or**
 > delivery-log rows — never both, or they'd sum. When the MS group feeds

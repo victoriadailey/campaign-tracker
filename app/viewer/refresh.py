@@ -845,6 +845,12 @@ def main() -> int:
             buckets = [{
                 "label": b["label"],
                 "group": b.get("group", "impressions"),
+                # Optional display rollup: several channel_targets sharing the same
+                # `card` value are merged into one card in the viewer (e.g. the
+                # Copilot "Megaphone" card = Megaphone Listens + Paid Promo + Back
+                # Catalog). The underlying buckets stay separate in the data so the
+                # campaign total and back-catalog tracking are unaffected.
+                "card": b.get("card"),
                 "posts": int(count_by_channel.get(b["label"], 0)),
                 "impressions": {"delivered": int(delivered_by_channel.get(b["label"], 0)),
                                 "goal": int(b.get("impression_goal", 0))},

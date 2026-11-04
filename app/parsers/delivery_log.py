@@ -33,13 +33,20 @@ CHANNEL_ALIASES: dict[str, str] = {
     "threads": "Threads",
     "ig stories": "IG Stories", "instagram": "IG Stories", "ig": "IG Stories", "instagram stories": "IG Stories",
     "baker & dan": "Baker & Dan", "baker/dan": "Baker & Dan", "baker and dan": "Baker & Dan", "baker": "Baker & Dan",
-    "megaphone": "Megaphone", "organic (mgphn)": "Megaphone", "mgphn": "Megaphone",  # organic promo impressions
+    # Spotify discovery events (Megaphone-reported impressions on Spotify surfaces)
+    "spotify discovery events": "Spotify Discovery Events", "discovery events": "Spotify Discovery Events",
+    "discovery": "Spotify Discovery Events", "spotify discovery": "Spotify Discovery Events",
+    "megaphone": "Spotify Discovery Events", "organic (mgphn)": "Spotify Discovery Events", "mgphn": "Spotify Discovery Events",
     ".com homepage": ".com homepage", "homepage": ".com homepage", ".com home": ".com homepage",
     ".com display": ".com display", "display": ".com display",
     ".com": ".com homepage",  # bare ".com" → homepage unless specified
     "audiencelift": "AudienceLift", "audiencelift - pref apps": "AudienceLift", "audiencelift pref apps": "AudienceLift", "pref apps": "AudienceLift",
     "fos app": "FOS App", "app": "FOS App", "fos app (now & listen)": "FOS App", "fos app (now&lstn)": "FOS App",
-    "other": "Other", "spotify": "Other", "overcast": "Other", "other (spotify/overcast)": "Other",
+    "other": "Other", "other (spotify/overcast)": "Other",
+    # Copilot paid audio/display bucket (relabeled from "Other")
+    "spotify/reddit/overcast (paid)": "Spotify/Reddit/Overcast (Paid)",
+    "spotify/reddit/overcast": "Spotify/Reddit/Overcast (Paid)",
+    "spotify": "Spotify/Reddit/Overcast (Paid)", "overcast": "Spotify/Reddit/Overcast (Paid)", "reddit": "Spotify/Reddit/Overcast (Paid)",
     # --- Listens group (downloads + streams) ---
     "megaphone listens": "Megaphone Listens", "organic (megaphone)": "Megaphone Listens",
     "megaphone downloads": "Megaphone Listens", "podcast downloads": "Megaphone Listens",

@@ -34,6 +34,8 @@ const CARD_TONES = {
   'ft-10': _toneLight('--pal-denim'),
   'ft-11': _toneDark('--pal-fern'),
   'ft-ink': { bg:'var(--liquorice)', fg:'var(--cream)', dim:'rgba(245,241,232,0.7)', track:'rgba(245,241,232,0.2)', fill:'var(--cream)' },
+  // Microsoft Copilot — the logo's blue, deepening into its indigo/purple corner.
+  'ft-copilot': { bg:'linear-gradient(125deg, #1478D4 0%, #0F6CBD 48%, #2E4EA6 100%)', fg:'var(--paper)', dim:'rgba(250,247,239,0.78)', track:'rgba(250,247,239,0.24)', fill:'var(--paper)' },
 };
 function cardToneFor(color) { return CARD_TONES[color] || CARD_TONES['ft-ink']; }
 
@@ -225,10 +227,48 @@ function CampaignPage({ campaignId, onBack }) {
         </div>
       </div>
 
-      {/* KPI ROW — 5 tiles on one row.
-          Avg CPM was dropped (it's still surfaced per-channel in the By Channel
-          section). Number sizing scales with viewport but caps lower so long
-          full-integer values like "15,279,181" stay readable. */}
+      {/* KPI ROW. Presenting campaigns (Copilot) track podcast-native metrics —
+          Total Impressions / Listens / Episodes / Social Posts — computed from
+          the pacing buckets. Every other type keeps the 5-tile social row.
+          Number sizing scales with viewport but caps lower so long full-integer
+          values like "15,279,181" stay readable. */}
+      {c.type === 'presenting' ? (() => {
+        const _sz = {fontSize:'clamp(22px, 2.1vw, 30px)', lineHeight:1.1};
+        const _lis = (c.pacingComponents || []).filter(b => b.group === 'listens');
+        const _imp = (c.pacingComponents || []).filter(b => b.group !== 'listens');
+        const totalListens = _lis.reduce((s,b)=>s+(b.impressions.delivered||0),0);
+        const _lisS = _lis.filter(b => b.impressions.goal > 0);
+        const _lisG = _lisS.reduce((s,b)=>s+(b.impressions.goal||0),0);
+        const _lisD = _lisS.reduce((s,b)=>s+(b.impressions.delivered||0),0);
+        const listensPct = _lisG ? (_lisD/_lisG*100) : 0;
+        // Episodes = in-flight podcast episodes (the Megaphone Listens bucket).
+        const totalEpisodes = _lis.filter(b => b.label === 'Megaphone Listens').reduce((s,b)=>s+(b.posts||0),0);
+        // Social posts = promo placements on social platforms.
+        const _social = new Set(['X','LinkedIn','IG Stories','Threads','Baker & Dan']);
+        const totalSocialPosts = _imp.filter(b => _social.has(b.label)).reduce((s,b)=>s+(b.posts||0),0);
+        return (
+          <div className="kpi-row" style={{gridTemplateColumns:'repeat(4, minmax(0, 1fr))'}}>
+            <div className="kpi">
+              <div className="kpi-lbl">Total Impressions</div>
+              <div className="kpi-val" style={_sz}>{fmt.numFull(c.impressions.delivered)}</div>
+              <div className="kpi-foot"><span className="muted">{impPct.toFixed(1)}% to goal</span></div>
+            </div>
+            <div className="kpi">
+              <div className="kpi-lbl">Total Listens</div>
+              <div className="kpi-val" style={_sz}>{fmt.numFull(totalListens)}</div>
+              <div className="kpi-foot"><span className="muted">{listensPct.toFixed(1)}% to goal</span></div>
+            </div>
+            <div className="kpi">
+              <div className="kpi-lbl">Total Episodes</div>
+              <div className="kpi-val" style={_sz}>{fmt.numFull(totalEpisodes)}</div>
+            </div>
+            <div className="kpi">
+              <div className="kpi-lbl">Total Social Posts</div>
+              <div className="kpi-val" style={_sz}>{fmt.numFull(totalSocialPosts)}</div>
+            </div>
+          </div>
+        );
+      })() : (
       <div className="kpi-row" style={{gridTemplateColumns:'repeat(5, minmax(0, 1fr))'}}>
         <div className="kpi">
           <div className="kpi-lbl">Total Impressions</div>
@@ -257,6 +297,7 @@ function CampaignPage({ campaignId, onBack }) {
           <div className="kpi-foot"><span className="muted">{c.topChannel} leading</span></div>
         </div>
       </div>
+      )}
 
       {/* PULSE CHECK — was "What we're seeing", moved up per request.
           Always renders on active campaigns so the section has a stable home
@@ -313,6 +354,11 @@ function CampaignPage({ campaignId, onBack }) {
           const noGoal = !b.impressions.goal;
           const pct = b.impressions.goal ? (b.impressions.delivered / b.impressions.goal) * 100 : 0;
           const done = pct >= 100;
+          // Pace health colors the progress bar: how far % to goal trails % of
+          // flight elapsed. ≥20 pts behind = red, 4–20 behind = orange, within
+          // 4 behind or ahead = green.
+          const paceDeficit = (c.elapsedPct || 0) - pct;
+          const paceCol = paceDeficit >= 20 ? '#c0392b' : paceDeficit >= 4 ? '#cc7a2b' : '#2f7a3f';
           const tag = pct >= 105 ? 'Goal exceeded' : pct >= 100 ? 'Goal hit' : 'In progress';
           const tagColor = done ? '#2f7a3f' : 'var(--ink-3)';
           const tagBg = done ? 'rgba(143,199,102,0.18)' : 'var(--bg-soft)';
@@ -323,7 +369,9 @@ function CampaignPage({ campaignId, onBack }) {
                 <span style={{fontFamily:'var(--serif)', fontSize:30, fontWeight:300, letterSpacing:'-0.01em'}}>{fmt.numFull(b.impressions.delivered)}</span>
                 <span style={{fontSize:12, color:'var(--ink-3)'}}>{noGoal ? (b.group === 'listens' ? 'listens' : 'impressions') : `of ${fmt.numFull(b.impressions.goal)}`}</span>
               </div>
-              {b.posts > 0 && (() => {
+              {b.detailLine ? (
+                <div style={{fontSize:11, color:'var(--ink-3)', marginTop:-2}}>{b.detailLine}</div>
+              ) : b.posts > 0 && (() => {
                 const isListen = b.group === 'listens';
                 const cnt = `${b.posts} ${isListen ? (b.posts === 1 ? 'episode' : 'episodes') : (b.posts === 1 ? 'post' : 'posts')}`;
                 const avg = Math.round(b.impressions.delivered / b.posts);
@@ -339,7 +387,7 @@ function CampaignPage({ campaignId, onBack }) {
                 </div>
               ) : (<>
                 <div style={{height:6, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden'}}>
-                  <div style={{height:'100%', width: Math.min(100, pct) + '%', background: barCol, borderRadius:999}}/>
+                  <div style={{height:'100%', width: Math.min(100, pct) + '%', background: paceCol, borderRadius:999}}/>
                 </div>
                 <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
                   <span style={{fontSize:13, fontWeight:600, color:'var(--ink)'}}>{pct.toFixed(0)}%<span style={{fontSize:11, color:'var(--ink-3)', fontWeight:400}}> to goal</span></span>
@@ -354,6 +402,42 @@ function CampaignPage({ campaignId, onBack }) {
             {items.map(renderCard)}
           </div>
         );
+        // Display rollup: channel_targets sharing a `card` value merge into one
+        // card (e.g. Copilot "Megaphone" = Megaphone Listens + Paid Promo + Back
+        // Catalog). The card's headline + % to goal use only the goal-bearing
+        // members; no-goal members (Back Catalog) show as a sub-line and stay out
+        // of the pacing math, but their delivery still counts in the campaign total.
+        const rollup = (items) => {
+          const order = [], groups = {};
+          items.forEach(b => {
+            const key = b.card || b.label;
+            if (!groups[key]) { groups[key] = []; order.push(key); }
+            groups[key].push(b);
+          });
+          return order.map(key => {
+            const members = groups[key];
+            // Single member that never opted into a rollup: render untouched.
+            if (members.length === 1 && !members[0].card) return members[0];
+            const scored = members.filter(m => m.impressions.goal > 0);
+            const tracked = members.filter(m => !m.impressions.goal);
+            const delivered = scored.reduce((s,m)=>s+(m.impressions.delivered||0),0);
+            const goal = scored.reduce((s,m)=>s+(m.impressions.goal||0),0);
+            const detail = [];
+            scored.filter(m => m.posts > 0).forEach(m => {
+              const avg = Math.round(m.impressions.delivered / m.posts);
+              detail.push(`${m.posts} ${m.posts === 1 ? 'episode' : 'episodes'} · ${fmt.num(avg)} avg listens/ep`);
+            });
+            scored.filter(m => m.posts === 0 && m.impressions.delivered > 0).forEach(m => {
+              detail.push(`${m.label.toLowerCase()} = ${fmt.numFull(m.impressions.delivered)}`);
+            });
+            tracked.filter(m => m.impressions.delivered > 0 || m.posts > 0).forEach(m => {
+              detail.push(`${m.label.toLowerCase()} = ${fmt.numFull(m.impressions.delivered)} listens`);
+            });
+            return { label: key, group: 'listens', posts: 0,
+                     impressions: { delivered, goal },
+                     detailLine: detail.join(' · ') };
+          });
+        };
         const subtotal = (items) => {
           // Only goal-bearing channels count toward the group subtotal; tracking
           // cards (e.g. Back Catalog, goal 0) are shown but excluded here so they
@@ -378,7 +462,7 @@ function CampaignPage({ campaignId, onBack }) {
           );
         }
         const imprItems = c.pacingComponents.filter(b => b.group !== 'listens');
-        const lisItems = c.pacingComponents.filter(b => b.group === 'listens');
+        const lisItems = rollup(c.pacingComponents.filter(b => b.group === 'listens'));
         return (
           <>
             <div className="sec">

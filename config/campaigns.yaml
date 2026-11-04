@@ -1961,7 +1961,7 @@ campaigns:
     flight_end: 2026-12-31
     impression_goal: 14_346_300
     budget_goal: 58_500
-    color: ft-ink
+    color: ft-copilot  # Microsoft blue hero (pulled from the Copilot logo)
     lead_format: Presenting Partner
     blurb: "Microsoft Copilot — presenting partner of FOS Today (~35 weekday episodes). Scored on cumulative impressions vs the 14.3M contracted goal across promo + podcast, from the per-episode delivery log."
     # Two groups shown as separate sections on the campaign page:
@@ -1975,24 +1975,30 @@ campaigns:
     channel_targets:
       - { group: impressions, label: "X",             impression_goal: 7_500_000 }
       - { group: impressions, label: "AudienceLift",  impression_goal: 2_400_000 }
-      - { group: impressions, label: "Other",         impression_goal: 2_000_000 }
+      - { group: impressions, label: "Spotify/Reddit/Overcast (Paid)", impression_goal: 2_000_000 }
       - { group: impressions, label: "LinkedIn",      impression_goal: 1_000_000 }
       - { group: impressions, label: "Threads",       impression_goal: 500_000 }
       - { group: impressions, label: ".com display",  impression_goal: 200_000 }
       - { group: impressions, label: "Baker & Dan",   impression_goal: 200_000 }
       - { group: impressions, label: ".com homepage", impression_goal: 150_000 }
       - { group: impressions, label: "IG Stories",    impression_goal: 100_000 }
-      - { group: impressions, label: "Megaphone",     impression_goal: 75_000 }
+      - { group: impressions, label: "Spotify Discovery Events", impression_goal: 125_000 }
       - { group: impressions, label: "FOS App",       impression_goal: 30_000 }
-      - { group: listens, label: "AudienceLift Audio", impression_goal: 100_000 }
-      - { group: listens, label: "Megaphone Listens",  impression_goal: 75_000 }
-      - { group: listens, label: "Paid Promo",         impression_goal: 50_000 }
-      - { group: listens, label: "Organic App",        impression_goal: 500 }
+      # The Listens section rolls up into THREE display cards via `card`:
+      #   Megaphone    = Megaphone Listens + Paid Promo + Back Catalog (goal 125k)
+      #   AudienceLift = AudienceLift Audio (goal 100k)
+      #   App          = Organic App (goal 500)
+      # The underlying buckets stay separate in the data (campaign total + back-
+      # catalog tracking unaffected); only the viewer merges them per `card`.
+      - { group: listens, label: "AudienceLift Audio", impression_goal: 100_000, card: "AudienceLift" }
+      - { group: listens, label: "Megaphone Listens",  impression_goal: 75_000,  card: "Megaphone" }
+      - { group: listens, label: "Paid Promo",         impression_goal: 50_000,  card: "Megaphone" }
+      - { group: listens, label: "Organic App",        impression_goal: 500,     card: "App" }
       # Back-catalog listens (pre-flight episodes still carrying the DAI read).
       # Tracked separately with no contracted goal — it still counts toward the
-      # overall 14.3M total, but is excluded from the Listens group subtotal so
-      # "Megaphone Listens" shows true per-episode numbers for in-flight episodes.
-      - { group: listens, label: "Back Catalog",       impression_goal: 0 }
+      # overall 14.3M total, but is excluded from the Megaphone card's % to goal
+      # (shown as a sub-line) so in-flight per-episode listens stay undistorted.
+      - { group: listens, label: "Back Catalog",       impression_goal: 0,       card: "Megaphone" }
     # Megaphone API (podcast performance). The Bearer token lives in the
     # MEGAPHONE_API_TOKEN env var (.env locally + GitHub Actions secret), NEVER
     # in config. The IDs below are not secret. Once the token is set, the
