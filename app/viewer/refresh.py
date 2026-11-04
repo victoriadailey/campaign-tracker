@@ -762,6 +762,7 @@ def main() -> int:
                 total = len(dl.rows)
             buckets = [{
                 "label": b["label"],
+                "group": b.get("group", "impressions"),
                 "impressions": {"delivered": int(delivered_by_channel.get(b["label"], 0)),
                                 "goal": int(b.get("impression_goal", 0))},
             } for b in c["channel_targets"]]

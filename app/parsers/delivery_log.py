@@ -27,19 +27,25 @@ from typing import IO
 # Canonical channel labels (match the campaign's channel_targets in config), and
 # the aliases a logger might type in the CSV `channel` column.
 CHANNEL_ALIASES: dict[str, str] = {
+    # --- Impressions group (promo placements) ---
     "x": "X", "twitter": "X",
     "linkedin": "LinkedIn",
     "threads": "Threads",
     "ig stories": "IG Stories", "instagram": "IG Stories", "ig": "IG Stories", "instagram stories": "IG Stories",
     "baker & dan": "Baker & Dan", "baker/dan": "Baker & Dan", "baker and dan": "Baker & Dan", "baker": "Baker & Dan",
-    "megaphone": "Megaphone", "organic (megaphone)": "Megaphone", "organic": "Megaphone",
+    "megaphone": "Megaphone", "organic (mgphn)": "Megaphone", "mgphn": "Megaphone",  # organic promo impressions
     ".com homepage": ".com homepage", "homepage": ".com homepage", ".com home": ".com homepage",
     ".com display": ".com display", "display": ".com display",
     ".com": ".com homepage",  # bare ".com" → homepage unless specified
-    "audiencelift": "AudienceLift", "audiencelift - pref apps": "AudienceLift", "audiencelift pref apps": "AudienceLift",
-    "fos app": "FOS App", "app": "FOS App", "fos app (now & listen)": "FOS App",
+    "audiencelift": "AudienceLift", "audiencelift - pref apps": "AudienceLift", "audiencelift pref apps": "AudienceLift", "pref apps": "AudienceLift",
+    "fos app": "FOS App", "app": "FOS App", "fos app (now & listen)": "FOS App", "fos app (now&lstn)": "FOS App",
     "other": "Other", "spotify": "Other", "overcast": "Other", "other (spotify/overcast)": "Other",
-    "audio": "Audio", "audio — listens/dls": "Audio", "listens": "Audio", "downloads": "Audio", "audio listens/dls": "Audio",
+    # --- Listens group (downloads + streams) ---
+    "megaphone listens": "Megaphone Listens", "organic (megaphone)": "Megaphone Listens",
+    "megaphone downloads": "Megaphone Listens", "podcast downloads": "Megaphone Listens",
+    "audiencelift audio": "AudienceLift Audio", "audiencelift audio web players": "AudienceLift Audio", "audio web players": "AudienceLift Audio",
+    "paid promo": "Paid Promo", "paid promo (above)": "Paid Promo",
+    "organic app": "Organic App", "organic (app)": "Organic App", "app listens": "Organic App", "fos app listens": "Organic App",
 }
 
 

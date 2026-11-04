@@ -307,42 +307,78 @@ function CampaignPage({ campaignId, onBack }) {
       {/* PACING BY COMPONENT — per-bucket delivery vs each component's own
           impression goal (Spectrum: Day in the Life / SB Highlights / SB
           Cutdowns). Renders when the campaign defines pacing_components. */}
-      {c.pacingComponents && c.pacingComponents.length > 0 && (
-        <div className="sec">
-          <div className="sec-h">
-            <div>
-              <div className="sec-title">Pacing by <em>component</em></div>
-              <div className="sec-sub" style={{marginTop:6}}>Each component tracked against its own impression goal.</div>
+      {c.pacingComponents && c.pacingComponents.length > 0 && (() => {
+        const barCol = cardTone.bg === 'var(--liquorice)' ? 'var(--ink)' : cardTone.bg;
+        const renderCard = (b) => {
+          const pct = b.impressions.goal ? (b.impressions.delivered / b.impressions.goal) * 100 : 0;
+          const done = pct >= 100;
+          const tag = pct >= 105 ? 'Goal exceeded' : pct >= 100 ? 'Goal hit' : 'In progress';
+          const tagColor = done ? '#2f7a3f' : 'var(--ink-3)';
+          const tagBg = done ? 'rgba(143,199,102,0.18)' : 'var(--bg-soft)';
+          return (
+            <div key={b.label} className="card" style={{padding:22, display:'flex', flexDirection:'column', gap:10}}>
+              <div style={{fontSize:12, fontWeight:600, color:'var(--ink)', lineHeight:1.35, minHeight:34}}>{b.label}</div>
+              <div style={{display:'flex', alignItems:'baseline', gap:8}}>
+                <span style={{fontFamily:'var(--serif)', fontSize:30, fontWeight:300, letterSpacing:'-0.01em'}}>{fmt.numFull(b.impressions.delivered)}</span>
+                <span style={{fontSize:12, color:'var(--ink-3)'}}>of {fmt.numFull(b.impressions.goal)}</span>
+              </div>
+              <div style={{height:6, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden'}}>
+                <div style={{height:'100%', width: Math.min(100, pct) + '%', background: barCol, borderRadius:999}}/>
+              </div>
+              <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                <span style={{fontSize:13, fontWeight:600, color:'var(--ink)'}}>{pct.toFixed(0)}%<span style={{fontSize:11, color:'var(--ink-3)', fontWeight:400}}> to goal</span></span>
+                <span style={{fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', fontWeight:600, color:tagColor, background:tagBg, padding:'3px 8px', borderRadius:4, textTransform:'uppercase'}}>{done ? '✓ ' : ''}{tag}</span>
+              </div>
             </div>
+          );
+        };
+        const grid = (items) => (
+          <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(items.length, 3)}, minmax(0, 1fr))`, gap:14}}>
+            {items.map(renderCard)}
           </div>
-          <div style={{display:'grid', gridTemplateColumns:`repeat(${Math.min(c.pacingComponents.length, 3)}, minmax(0, 1fr))`, gap:14}}>
-            {c.pacingComponents.map((b) => {
-              const pct = b.impressions.goal ? (b.impressions.delivered / b.impressions.goal) * 100 : 0;
-              const done = pct >= 100;
-              const barCol = cardTone.bg === 'var(--liquorice)' ? 'var(--ink)' : cardTone.bg;
-              const tag = pct >= 105 ? 'Goal exceeded' : pct >= 100 ? 'Goal hit' : 'In progress';
-              const tagColor = done ? '#2f7a3f' : 'var(--ink-3)';
-              const tagBg = done ? 'rgba(143,199,102,0.18)' : 'var(--bg-soft)';
-              return (
-                <div key={b.label} className="card" style={{padding:22, display:'flex', flexDirection:'column', gap:10}}>
-                  <div style={{fontSize:12, fontWeight:600, color:'var(--ink)', lineHeight:1.35, minHeight:34}}>{b.label}</div>
-                  <div style={{display:'flex', alignItems:'baseline', gap:8}}>
-                    <span style={{fontFamily:'var(--serif)', fontSize:30, fontWeight:300, letterSpacing:'-0.01em'}}>{fmt.numFull(b.impressions.delivered)}</span>
-                    <span style={{fontSize:12, color:'var(--ink-3)'}}>of {fmt.numFull(b.impressions.goal)}</span>
-                  </div>
-                  <div style={{height:6, background:'var(--bg-soft)', borderRadius:999, overflow:'hidden'}}>
-                    <div style={{height:'100%', width: Math.min(100, pct) + '%', background: barCol, borderRadius:999}}/>
-                  </div>
-                  <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
-                    <span style={{fontSize:13, fontWeight:600, color:'var(--ink)'}}>{pct.toFixed(0)}%<span style={{fontSize:11, color:'var(--ink-3)', fontWeight:400}}> to goal</span></span>
-                    <span style={{fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', fontWeight:600, color:tagColor, background:tagBg, padding:'3px 8px', borderRadius:4, textTransform:'uppercase'}}>{done ? '✓ ' : ''}{tag}</span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
+        );
+        const subtotal = (items) => {
+          const d = items.reduce((s,b)=>s+(b.impressions.delivered||0),0);
+          const g = items.reduce((s,b)=>s+(b.impressions.goal||0),0);
+          return `${fmt.num(d)} / ${fmt.num(g)} · ${g ? (d/g*100).toFixed(0) : 0}% to goal`;
+        };
+        // Grouped campaigns (Microsoft Copilot): split into Impressions vs
+        // Listens/Downloads/Streams. Otherwise one "Pacing by component" section.
+        const hasGroups = c.pacingComponents.some(b => b.group === 'listens');
+        if (!hasGroups) {
+          return (
+            <div className="sec">
+              <div className="sec-h"><div>
+                <div className="sec-title">Pacing by <em>component</em></div>
+                <div className="sec-sub" style={{marginTop:6}}>Each component tracked against its own impression goal.</div>
+              </div></div>
+              {grid(c.pacingComponents)}
+            </div>
+          );
+        }
+        const imprItems = c.pacingComponents.filter(b => b.group !== 'listens');
+        const lisItems = c.pacingComponents.filter(b => b.group === 'listens');
+        return (
+          <>
+            <div className="sec">
+              <div className="sec-h"><div>
+                <div className="sec-title">Impressions <em>by channel</em></div>
+                <div className="sec-sub" style={{marginTop:6}}>Any placement where Microsoft is mentioned or featured in the key art. <strong>{subtotal(imprItems)}</strong></div>
+              </div></div>
+              {grid(imprItems)}
+            </div>
+            {lisItems.length > 0 && (
+              <div className="sec">
+                <div className="sec-h"><div>
+                  <div className="sec-title">Listens <em>/ downloads / streams</em></div>
+                  <div className="sec-sub" style={{marginTop:6}}>Podcast audio delivery. <strong>{subtotal(lisItems)}</strong></div>
+                </div></div>
+                {grid(lisItems)}
+              </div>
+            )}
+          </>
+        );
+      })()}
 
       {/* FULL EPISODES vs CUTDOWNS — only renders when YAML defines
           goal_split_full_ep + goal_split_cutdowns for the campaign. Two

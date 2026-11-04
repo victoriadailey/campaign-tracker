@@ -1964,19 +1964,30 @@ campaigns:
     color: ft-ink
     lead_format: Presenting Partner
     blurb: "Microsoft Copilot — presenting partner of FOS Today (~35 weekday episodes). Scored on cumulative impressions vs the 14.3M contracted goal across promo + podcast, from the per-episode delivery log."
+    # Two groups shown as separate sections on the campaign page:
+    #   impressions — any placement where Microsoft is mentioned / in the key art
+    #                 (promo imps, 14,155,000 total)
+    #   listens     — downloads + streams (audio, 225,500 total)
+    # Totals reconcile to the xlsx breakdown. `group` drives the split; `label`
+    # is what the delivery log's `channel` column must match (parser canonicalizes
+    # common aliases). Megaphone/AudienceLift appear in BOTH groups, so the audio
+    # ones use distinct labels ("Megaphone Listens", "AudienceLift Audio").
     channel_targets:
-      - { label: "X",             impression_goal: 7_500_000 }
-      - { label: "AudienceLift",  impression_goal: 2_400_000 }
-      - { label: "Other",         impression_goal: 2_000_000 }
-      - { label: "LinkedIn",      impression_goal: 1_000_000 }
-      - { label: "Threads",       impression_goal: 500_000 }
-      - { label: "Audio",         impression_goal: 225_500 }
-      - { label: ".com display",  impression_goal: 200_000 }
-      - { label: "Baker & Dan",   impression_goal: 200_000 }
-      - { label: ".com homepage", impression_goal: 150_000 }
-      - { label: "IG Stories",    impression_goal: 100_000 }
-      - { label: "Megaphone",     impression_goal: 75_000 }
-      - { label: "FOS App",       impression_goal: 30_000 }
+      - { group: impressions, label: "X",             impression_goal: 7_500_000 }
+      - { group: impressions, label: "AudienceLift",  impression_goal: 2_400_000 }
+      - { group: impressions, label: "Other",         impression_goal: 2_000_000 }
+      - { group: impressions, label: "LinkedIn",      impression_goal: 1_000_000 }
+      - { group: impressions, label: "Threads",       impression_goal: 500_000 }
+      - { group: impressions, label: ".com display",  impression_goal: 200_000 }
+      - { group: impressions, label: "Baker & Dan",   impression_goal: 200_000 }
+      - { group: impressions, label: ".com homepage", impression_goal: 150_000 }
+      - { group: impressions, label: "IG Stories",    impression_goal: 100_000 }
+      - { group: impressions, label: "Megaphone",     impression_goal: 75_000 }
+      - { group: impressions, label: "FOS App",       impression_goal: 30_000 }
+      - { group: listens, label: "AudienceLift Audio", impression_goal: 100_000 }
+      - { group: listens, label: "Megaphone Listens",  impression_goal: 75_000 }
+      - { group: listens, label: "Paid Promo",         impression_goal: 50_000 }
+      - { group: listens, label: "Organic App",        impression_goal: 500 }
     # Megaphone API (podcast performance). The Bearer token lives in the
     # MEGAPHONE_API_TOKEN env var (.env locally + GitHub Actions secret), NEVER
     # in config. The IDs below are not secret. Once the token is set, the
