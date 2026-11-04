@@ -83,6 +83,7 @@ function Sidebar({ active, onNav, campaigns }) {
         // sidebar stays focused on active flights.
         const content = active_only.filter(c => c.type === 'content');
         const social  = active_only.filter(c => c.type === 'social');
+        const podcast = active_only.filter(c => c.type === 'presenting');
         const brandx  = active_only.filter(c => c.type === 'brandx');
         const renderItem = (c) => {
           const isWrapped = c.lifecycle === 'wrapped';
@@ -106,6 +107,8 @@ function Sidebar({ active, onNav, campaigns }) {
             {content.map(renderItem)}
             {social.length > 0 && <div className="sb-section">Social</div>}
             {social.map(renderItem)}
+            {podcast.length > 0 && <div className="sb-section">Podcast</div>}
+            {podcast.map(renderItem)}
             {brandx.length > 0 && <div className="sb-section">BrandX</div>}
             {brandx.map(renderItem)}
           </>
