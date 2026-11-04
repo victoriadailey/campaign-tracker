@@ -124,11 +124,31 @@ Sum the window → enter on the `Megaphone` row (impressions group),
 > exist as a pullable metric. (Your Apple *listens* are already inside the
 > Downloads total above, so nothing is missing on the listens side.)
 
-### Promo impressions (X, LinkedIn, Threads, IG, .com, Baker & Dan)
+### Promo impressions (X, LinkedIn, IG, YouTube/FB/TikTok) — Measure Studio
 
-These come from the usual places (Measure Studio / native platform / .com
-analytics). Enter each channel's cumulative impressions on its row, or add one
-row per post for a true post count + avg/post.
+The social promo posts carrying Copilot branding come from **Measure Studio**,
+like every other campaign — **not** hand-entered. Tag the Copilot promo posts
+into a dedicated **Measure Studio post group** and put its id in
+`sources: measure_studio_group_id:`. On refresh, those posts are **bucketed by
+platform into the channel cards**:
+
+| MS platform | Channel card |
+|---|---|
+| X | X |
+| LinkedIn | LinkedIn |
+| Instagram | IG Stories |
+| YouTube / Facebook / TikTok | Other |
+
+Each card shows the real post count + avg impressions/post. Threads isn't a
+Measure Studio platform, so **Threads** (and `.com`, `Baker & Dan`, `FOS App`,
+`Megaphone` discovery, `AudienceLift`) stay on the delivery log / their own
+exports.
+
+> **Config discipline:** a channel is fed by **either** the MS group **or**
+> delivery-log rows — never both, or they'd sum. When the MS group feeds
+> X / LinkedIn / IG Stories / Other, **remove those scaffold rows from the
+> delivery log** so they don't add an empty placement. Keep the delivery-log
+> rows only for the non-MS channels.
 
 ### Paid (AudienceLift audio, Paid Promo, :30 spots)
 

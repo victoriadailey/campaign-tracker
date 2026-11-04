@@ -811,6 +811,33 @@ def main() -> int:
                     count_by_channel[r.channel] = count_by_channel.get(r.channel, 0) + 1
                 tagged = len(dl.tagged_rows)
                 total = len(dl.rows)
+
+            # Measure Studio promo posts (the social/impressions side) feed the
+            # channel cards by platform. Only posts with a known platform are
+            # bucketed — the MANUAL delivery-log / custom-report rows are
+            # platform UNKNOWN, so they aren't double-counted here. Config
+            # discipline: a channel is fed by EITHER an MS group OR delivery-log
+            # rows, not both.
+            _labels = {b["label"] for b in c["channel_targets"]}
+            _plat_to_channel = {
+                Platform.X: "X",
+                Platform.LINKEDIN: "LinkedIn",
+                Platform.INSTAGRAM: "IG Stories",
+                Platform.FACEBOOK: "Other",
+                Platform.YOUTUBE: "Other",
+                Platform.TIKTOK: "Other",
+                Platform.SNAPCHAT: "Other",
+            }
+            for p in posts_by_campaign.get(c_id, []):
+                if p.platform == Platform.UNKNOWN:
+                    continue
+                ch = _plat_to_channel.get(p.platform, "Other")
+                if ch not in _labels:
+                    ch = "Other" if "Other" in _labels else ch
+                delivered_by_channel[ch] = delivered_by_channel.get(ch, 0) + int(p.impressions_total or 0)
+                count_by_channel[ch] = count_by_channel.get(ch, 0) + 1
+                tagged += 1
+                total += 1
             buckets = [{
                 "label": b["label"],
                 "group": b.get("group", "impressions"),
