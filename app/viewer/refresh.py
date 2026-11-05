@@ -1527,9 +1527,13 @@ def _merge_x_ads_spend_into_ms(
                     "organic_retweet_count", "organic_user_profile_clicks",
                     "organic_url_link_clicks", "quotes",
                 ))
+                # Never drop below MS's own total (likes + replies + RTs +
+                # profile clicks, organic AND paid): it's a floor on real
+                # engagement, so an implausibly low X Ads figure can't undercut it.
+                ms_eng = t.engagements_total or 0
+                t.engagements_total = max(org_eng + xa_eng, ms_eng)
                 t.engagements_paid = xa_eng
-                t.engagements_organic = org_eng
-                t.engagements_total = org_eng + xa_eng
+                t.engagements_organic = max(0, t.engagements_total - xa_eng)
             t.er = ((t.engagements_total or 0) / t.impressions_total
                     if t.impressions_total else None)
         elif ms_paid > 0:

@@ -55,3 +55,16 @@ def test_default_routing_unchanged():
     assert p.impressions_organic == 0
     assert p.impressions_total == 126069
     assert p.engagements_total == 38
+
+
+def test_engagements_never_drop_below_ms_total():
+    # X Ads reports a glitchy 1 engagement; MS's own total (149) is the floor.
+    ms = _ms_post()
+    ms.engagements_total = 149
+    xa = _xa_post()
+    xa.engagements_paid = 1
+    xa.engagements_total = 1
+    out = _merge_x_ads_spend_into_ms([ms, xa], use_ms_organic_split=True)
+    assert out[0].engagements_total == 149
+    assert out[0].engagements_paid == 1
+    assert out[0].impressions_total == 7054 + 169614
