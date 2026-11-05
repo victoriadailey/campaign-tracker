@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-05T22:11:42Z";
+window.LAST_REFRESHED = "2026-11-05T22:14:34Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:32Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -804,7 +804,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:32Z",
     "lastUpdatedExports": "2026-11-05T18:41:07Z"
   },
   {
@@ -1058,7 +1058,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:32Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1485,7 +1485,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1634,7 +1634,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2340,7 +2340,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2544,7 +2544,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3200,7 +3200,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:41Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3588,7 +3588,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3754,7 +3754,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3895,7 +3895,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4139,7 +4139,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4464,7 +4464,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4670,7 +4670,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4832,7 +4832,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5046,7 +5046,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5212,7 +5212,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5378,7 +5378,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5502,7 +5502,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5917,7 +5917,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6217,7 +6217,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6374,7 +6374,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6513,7 +6513,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6528,23 +6528,23 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 2171486,
+      "delivered": 2387322,
       "goal": 4200000
     },
     "budget": {
-      "delivered": 5104.78,
+      "delivered": 5945.02,
       "goal": 12000.0
     },
     "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 2.15,
-    "cpm": 2.48,
+    "er": 2.51,
+    "cpm": 2.61,
     "episodes": 0,
-    "posts": 9,
+    "posts": 10,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
-    "views": 722115,
-    "engagements": 46793,
+    "views": 727333,
+    "engagements": 59832,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6552,18 +6552,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 806718,
-        "eng": 29556,
-        "er": 3.66,
-        "cpm": 1.51,
+        "impressions": 1022554,
+        "eng": 42595,
+        "er": 4.17,
+        "cpm": 2.02,
         "color": "#FF0033",
-        "delta": -81.7,
+        "delta": -79.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 2972,
-        "views": 357538
+        "views": 362756
       },
       {
         "name": "X",
@@ -6670,8 +6670,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
-    "lastUpdatedExports": "2026-11-05T22:09:07Z"
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
+    "lastUpdatedExports": "2026-11-05T22:13:18Z"
   },
   {
     "id": "zoom_fosexplains_mlb",
@@ -6835,7 +6835,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7061,7 +7061,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T22:11:42Z",
+    "lastUpdatedMs": "2026-11-05T22:14:33Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7505,9 +7505,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 122121978,
-    "eng": 2749071,
-    "er": 2.25,
+    "impressions": 122337814,
+    "eng": 2762110,
+    "er": 2.26,
     "cpm": 1.14,
     "color": "#E00922",
     "delta": -88.7,
@@ -7516,7 +7516,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 25529818
+    "views": 25535036
   },
   {
     "name": "TikTok",
@@ -44540,14 +44540,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 311305,
-      "paidImpr": 309661,
+      "impr": 320498,
+      "paidImpr": 318854,
       "orgImpr": 1644,
       "views": 318697,
       "reach": 0,
-      "eng": 29510,
-      "er": 9.48,
-      "spend": 1215.47,
+      "eng": 30292,
+      "er": 9.45,
+      "spend": 1249.9,
       "watchTimeMin": 30540.1,
       "clicks": null,
       "ctr": 0.0,
@@ -44632,14 +44632,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 176556,
-      "paidImpr": 175228,
+      "impr": 207971,
+      "paidImpr": 206643,
       "orgImpr": 1328,
       "views": 27869,
       "reach": 0,
-      "eng": 46,
-      "er": 0.03,
-      "spend": 0,
+      "eng": 12303,
+      "er": 5.92,
+      "spend": 805.81,
       "watchTimeMin": 1241.0,
       "clicks": null,
       "ctr": 0.0,
@@ -46778,10 +46778,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "pwc_formula1_yt_paid.csv",
-    "fileSizeKb": 0.3,
+    "fileSizeKb": 0.4,
     "lastModified": "2026-11-05",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 2
   },
   {
     "campaignId": "pwc_formula1",
@@ -50526,7 +50526,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.64,
     "impressions": 40075060,
     "paidImpressions": 38031567,
-    "pctOfTotal": 40.6,
+    "pctOfTotal": 40.5,
     "mvmCpm": 0.53,
     "mvmDeltaPct": 20.1,
     "color": "#E00922"
@@ -50536,7 +50536,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.43,
     "impressions": 19018723,
     "paidImpressions": 16544277,
-    "pctOfTotal": 19.3,
+    "pctOfTotal": 19.2,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.2,
     "color": "#E4405F"
@@ -50553,12 +50553,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.76,
-    "impressions": 11089005,
-    "paidImpressions": 10820665,
-    "pctOfTotal": 11.2,
+    "cpm": 2.78,
+    "impressions": 11304841,
+    "paidImpressions": 11036501,
+    "pctOfTotal": 11.4,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -13.8,
+    "mvmDeltaPct": -13.1,
     "color": "#FF0033"
   },
   {
@@ -50566,7 +50566,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.96,
     "impressions": 6265569,
     "paidImpressions": 4426476,
-    "pctOfTotal": 6.4,
+    "pctOfTotal": 6.3,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 57.7,
     "color": "#1d1d1f"
