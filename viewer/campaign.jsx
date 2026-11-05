@@ -242,10 +242,12 @@ function CampaignPage({ campaignId, onBack }) {
         const _lisD = _lisS.reduce((s,b)=>s+(b.impressions.delivered||0),0);
         const listensPct = _lisG ? (_lisD/_lisG*100) : 0;
         // Episodes = in-flight podcast episodes (the Megaphone Listens bucket).
-        const totalEpisodes = _lis.filter(b => b.label === 'Megaphone Listens').reduce((s,b)=>s+(b.posts||0),0);
         // Social posts = promo placements on social platforms.
+        // Both count only placements that have actually delivered, so seeded
+        // scaffold rows read 0 until the campaign starts producing numbers.
+        const totalEpisodes = _lis.filter(b => b.label === 'Megaphone Listens' && b.impressions.delivered > 0).reduce((s,b)=>s+(b.posts||0),0);
         const _social = new Set(['X','LinkedIn','IG Stories','Threads','Baker & Dan']);
-        const totalSocialPosts = _imp.filter(b => _social.has(b.label)).reduce((s,b)=>s+(b.posts||0),0);
+        const totalSocialPosts = _imp.filter(b => _social.has(b.label) && b.impressions.delivered > 0).reduce((s,b)=>s+(b.posts||0),0);
         return (
           <div className="kpi-row" style={{gridTemplateColumns:'repeat(4, minmax(0, 1fr))'}}>
             <div className="kpi">
@@ -259,7 +261,7 @@ function CampaignPage({ campaignId, onBack }) {
               <div className="kpi-foot"><span className="muted">{listensPct.toFixed(1)}% to goal</span></div>
             </div>
             <div className="kpi">
-              <div className="kpi-lbl">Total Episodes</div>
+              <div className="kpi-lbl">Episodes (During Flight)</div>
               <div className="kpi-val" style={_sz}>{fmt.numFull(totalEpisodes)}</div>
             </div>
             <div className="kpi">
@@ -422,15 +424,21 @@ function CampaignPage({ campaignId, onBack }) {
             const tracked = members.filter(m => !m.impressions.goal);
             const delivered = scored.reduce((s,m)=>s+(m.impressions.delivered||0),0);
             const goal = scored.reduce((s,m)=>s+(m.impressions.goal||0),0);
+            // Sub-line detail — only from members that have actually delivered,
+            // so seeded scaffolds stay silent until the campaign produces numbers.
             const detail = [];
-            scored.filter(m => m.posts > 0).forEach(m => {
+            // Episode count + avg comes from the podcast-episodes member only
+            // (not Paid Promo), so it reads as "N episodes · avg listens/ep".
+            scored.filter(m => m.label === 'Megaphone Listens' && m.posts > 0 && m.impressions.delivered > 0).forEach(m => {
               const avg = Math.round(m.impressions.delivered / m.posts);
               detail.push(`${m.posts} ${m.posts === 1 ? 'episode' : 'episodes'} · ${fmt.num(avg)} avg listens/ep`);
             });
-            scored.filter(m => m.posts === 0 && m.impressions.delivered > 0).forEach(m => {
+            // Other goal-bearing members (e.g. Paid Promo) once they deliver.
+            scored.filter(m => m.label !== 'Megaphone Listens' && m.impressions.delivered > 0).forEach(m => {
               detail.push(`${m.label.toLowerCase()} = ${fmt.numFull(m.impressions.delivered)}`);
             });
-            tracked.filter(m => m.impressions.delivered > 0 || m.posts > 0).forEach(m => {
+            // Tracked members (Back Catalog) once they deliver.
+            tracked.filter(m => m.impressions.delivered > 0).forEach(m => {
               detail.push(`${m.label.toLowerCase()} = ${fmt.numFull(m.impressions.delivered)} listens`);
             });
             return { label: key, group: 'listens', posts: 0,
