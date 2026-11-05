@@ -20,7 +20,7 @@ The campaign page splits into two sections. The goal (14,346,300) is the sum.
 | Group | What counts | Goal |
 |---|---|---|
 | **Impressions** | Any placement where Microsoft is mentioned / in the key art — promo posts, podcast discovery, .com units | 14,155,000 |
-| **Listens** | Downloads + streams of the episodes (audio) | 225,500 |
+| **Listens** | Downloads + streams of the episodes (audio) | 205,600 |
 
 Because Copilot **presents every FOS Today episode**, 100% of the show's
 downloads/streams/discovery in the flight window are Copilot-attributed —
@@ -104,9 +104,9 @@ channel_target), to keep it readable:
 
 | Card | Rolls up | Goal |
 |---|---|---|
-| **Megaphone** | Megaphone Listens + Paid Promo + Back Catalog | 125,000 |
+| **Megaphone** | Megaphone Listens + Paid Promo + Back Catalog | 105,000 |
 | **AudienceLift** | AudienceLift Audio | 100,000 |
-| **App** | Organic App | 500 |
+| **App** | Organic App | 600 |
 
 The underlying buckets stay separate in the data (so the campaign total and
 back-catalog tracking are unaffected) — only the viewer merges them. The
