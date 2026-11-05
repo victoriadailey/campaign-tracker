@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-05T18:43:23Z";
+window.LAST_REFRESHED = "2026-11-05T19:19:57Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -384,7 +384,7 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 42987041,
+      "delivered": 42998143,
       "goal": 41700000
     },
     "budget": {
@@ -394,13 +394,13 @@ window.CAMPAIGNS = [
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.77,
+    "er": 2.78,
     "cpm": 1.86,
     "episodes": 19,
     "posts": 413,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 12368357,
-    "engagements": 1192254,
+    "engagements": 1194562,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -456,17 +456,17 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 5081400,
-        "eng": 13901,
-        "er": 0.27,
+        "impressions": 5092502,
+        "eng": 16209,
+        "er": 0.32,
         "cpm": 1.51,
         "color": "#1d1d1f",
-        "delta": -70.3,
+        "delta": -65.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1746302,
+        "organicImpressions": 1753374,
         "views": 432038
       },
       {
@@ -804,7 +804,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-11-05T18:41:07Z"
   },
   {
@@ -1058,7 +1058,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1376,7 +1376,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1485,7 +1485,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1634,7 +1634,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1791,7 +1791,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2190,7 +2190,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2340,7 +2340,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2544,7 +2544,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2813,7 +2813,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3200,7 +3200,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3588,7 +3588,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3754,7 +3754,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3895,7 +3895,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4139,7 +4139,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4464,7 +4464,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4670,7 +4670,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4832,7 +4832,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5046,7 +5046,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5212,7 +5212,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5378,7 +5378,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5502,7 +5502,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5917,7 +5917,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6217,7 +6217,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6374,7 +6374,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6513,7 +6513,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6670,7 +6670,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-11-03T20:48:14Z"
   },
   {
@@ -6835,7 +6835,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7061,7 +7061,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-05T18:43:22Z",
+    "lastUpdatedMs": "2026-11-05T19:19:57Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7553,12 +7553,12 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 30734492,
-    "eng": 647623,
+    "impressions": 30745594,
+    "eng": 649931,
     "er": 2.11,
     "cpm": 1.72,
     "color": "#1d1d1f",
-    "delta": 129.0,
+    "delta": 129.8,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -9770,7 +9770,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "impr": 2264718,
         "views": 895120,
         "er": 2.38,
-        "eng": 82464,
+        "eng": 82563,
         "spend": 3366.68
       },
       "perChannel": [
@@ -9811,10 +9811,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 188875,
           "orgImpr": 80705,
           "views": 45294,
-          "eng": 413,
+          "eng": 512,
           "paidEng": 149,
-          "orgEng": 348,
-          "er": 0.13,
+          "orgEng": 363,
+          "er": 0.17,
           "cpm": 1.01,
           "spend": 190.0,
           "posts": 9
@@ -10085,8 +10085,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 91766,
           "orgImpr": 11878,
           "views": 0,
-          "eng": 64,
-          "er": 0.06,
+          "eng": 163,
+          "er": 0.16,
           "spend": 90.0,
           "url": "https://twitter.com/FOS/status/2018791605864370299",
           "postedAt": "2026-02-03T13:00:00-08:00"
@@ -10302,8 +10302,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2004085,
         "views": 582502,
-        "er": 2.22,
-        "eng": 70467,
+        "er": 2.24,
+        "eng": 70871,
         "spend": 3217.25
       },
       "perChannel": [
@@ -10344,10 +10344,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 239963,
           "orgImpr": 48406,
           "views": 42083,
-          "eng": 383,
+          "eng": 787,
           "paidEng": 713,
-          "orgEng": 27,
-          "er": 0.13,
+          "orgEng": 74,
+          "er": 0.27,
           "cpm": 1.03,
           "spend": 247.27,
           "posts": 5
@@ -10468,8 +10468,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 73901,
           "orgImpr": 14530,
           "views": 13416,
-          "eng": 93,
-          "er": 0.11,
+          "eng": 302,
+          "er": 0.34,
           "spend": 75.0,
           "url": "https://twitter.com/FOS/status/2021325755158827063",
           "postedAt": "2026-02-10T12:49:49-08:00"
@@ -10528,8 +10528,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 70534,
           "orgImpr": 9629,
           "views": 14675,
-          "eng": 54,
-          "er": 0.07,
+          "eng": 249,
+          "er": 0.31,
           "spend": 72.26,
           "url": "https://twitter.com/FOS/status/2021696283220627926",
           "postedAt": "2026-02-11T13:22:09-08:00"
@@ -10698,10 +10698,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Leslie Osborne on Women's Soccer",
       "date": "Feb 27",
       "total": {
-        "impr": 2031304,
+        "impr": 2031269,
         "views": 545944,
-        "er": 1.37,
-        "eng": 55752,
+        "er": 1.38,
+        "eng": 55909,
         "spend": 3028.91
       },
       "perChannel": [
@@ -10738,14 +10738,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 175619,
+          "impr": 175584,
           "paidImpr": 132842,
-          "orgImpr": 37149,
+          "orgImpr": 37114,
           "views": 38235,
-          "eng": 276,
+          "eng": 433,
           "paidEng": 215,
-          "orgEng": 200,
-          "er": 0.16,
+          "orgEng": 218,
+          "er": 0.25,
           "cpm": 1.44,
           "spend": 191.09,
           "posts": 6
@@ -11012,12 +11012,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 63436,
+          "impr": 63401,
           "paidImpr": 54232,
-          "orgImpr": 9204,
+          "orgImpr": 9169,
           "views": 14177,
-          "eng": 75,
-          "er": 0.12,
+          "eng": 232,
+          "er": 0.37,
           "spend": 116.69,
           "url": "https://twitter.com/FOS/status/2029315952056386022",
           "postedAt": "2026-03-04T14:00:00-08:00"
@@ -11128,8 +11128,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1833451,
         "views": 514105,
-        "er": 1.65,
-        "eng": 54677,
+        "er": 1.68,
+        "eng": 55099,
         "spend": 2875.04
       },
       "perChannel": [
@@ -11170,10 +11170,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 88301,
           "orgImpr": 40067,
           "views": 29600,
-          "eng": 228,
+          "eng": 650,
           "paidEng": 484,
-          "orgEng": 95,
-          "er": 0.16,
+          "orgEng": 166,
+          "er": 0.45,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 4
@@ -11399,8 +11399,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 72842,
           "orgImpr": 11431,
           "views": 11358,
-          "eng": 76,
-          "er": 0.09,
+          "eng": 222,
+          "er": 0.26,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2031837566417113541",
           "postedAt": "2026-03-11T14:00:00-07:00"
@@ -11474,8 +11474,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 15459,
           "orgImpr": 17846,
           "views": 7452,
-          "eng": 57,
-          "er": 0.17,
+          "eng": 333,
+          "er": 1.0,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2034378056400355565",
           "postedAt": "2026-03-18T14:15:00-07:00"
@@ -16337,7 +16337,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "impr": 2051167,
         "views": 431728,
         "er": 1.06,
-        "eng": 57287,
+        "eng": 57295,
         "spend": 3589.07
       },
       "perChannel": [
@@ -16378,9 +16378,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 153984,
           "orgImpr": 44661,
           "views": 5106,
-          "eng": 419,
+          "eng": 427,
           "paidEng": 338,
-          "orgEng": 81,
+          "orgEng": 89,
           "er": 0.21,
           "cpm": 2.11,
           "spend": 324.93,
@@ -16652,8 +16652,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 44366,
           "orgImpr": 11194,
           "views": 1760,
-          "eng": 118,
-          "er": 0.21,
+          "eng": 126,
+          "er": 0.23,
           "spend": 99.93,
           "url": "https://twitter.com/FOS/status/2084376258108944495",
           "postedAt": "2026-08-03T13:30:00-07:00"
@@ -17305,8 +17305,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2016976,
         "views": 540390,
-        "er": 0.81,
-        "eng": 48605,
+        "er": 0.83,
+        "eng": 48940,
         "spend": 3763.32
       },
       "perChannel": [
@@ -17347,10 +17347,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 74047,
           "orgImpr": 28789,
           "views": 5588,
-          "eng": 96,
+          "eng": 431,
           "paidEng": 360,
-          "orgEng": 0,
-          "er": 0.09,
+          "orgEng": 71,
+          "er": 0.42,
           "cpm": 4.71,
           "spend": 348.63,
           "posts": 3
@@ -17456,8 +17456,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 23421,
           "orgImpr": 7895,
           "views": 1363,
-          "eng": 38,
-          "er": 0.12,
+          "eng": 135,
+          "er": 0.43,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2097361822927995178",
           "postedAt": "2026-09-08T09:30:00-07:00"
@@ -17546,8 +17546,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 22394,
           "orgImpr": 7029,
           "views": 943,
-          "eng": 17,
-          "er": 0.06,
+          "eng": 104,
+          "er": 0.35,
           "spend": 99.49,
           "url": "https://twitter.com/FOS/status/2097731761040175385",
           "postedAt": "2026-09-09T10:00:00-07:00"
@@ -17606,8 +17606,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 28232,
           "orgImpr": 13865,
           "views": 3282,
-          "eng": 41,
-          "er": 0.1,
+          "eng": 192,
+          "er": 0.46,
           "spend": 124.14,
           "url": "https://twitter.com/FOS/status/2100321323826528539",
           "postedAt": "2026-09-16T13:30:00-07:00"
@@ -17707,8 +17707,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1967893,
         "views": 475274,
-        "er": 1.06,
-        "eng": 50742,
+        "er": 1.09,
+        "eng": 51337,
         "spend": 3733.34
       },
       "perChannel": [
@@ -17749,10 +17749,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 103665,
           "orgImpr": 24526,
           "views": 4318,
-          "eng": 146,
+          "eng": 741,
           "paidEng": 657,
-          "orgEng": 0,
-          "er": 0.11,
+          "orgEng": 84,
+          "er": 0.58,
           "cpm": 3.32,
           "spend": 343.9,
           "posts": 3
@@ -17873,8 +17873,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 24732,
           "orgImpr": 7735,
           "views": 1335,
-          "eng": 38,
-          "er": 0.12,
+          "eng": 312,
+          "er": 0.96,
           "spend": 97.7,
           "url": "https://twitter.com/FOS/status/2102435253906497559",
           "postedAt": "2026-09-22T09:30:00-07:00"
@@ -17933,8 +17933,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 31314,
           "orgImpr": 8943,
           "views": 1581,
-          "eng": 52,
-          "er": 0.13,
+          "eng": 240,
+          "er": 0.6,
           "spend": 121.7,
           "url": "https://twitter.com/FOS/status/2102865592688480557",
           "postedAt": "2026-09-23T14:00:01-07:00"
@@ -18023,8 +18023,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 47619,
           "orgImpr": 7848,
           "views": 1402,
-          "eng": 56,
-          "er": 0.1,
+          "eng": 189,
+          "er": 0.34,
           "spend": 124.5,
           "url": "https://twitter.com/FOS/status/2105399786555969702",
           "postedAt": "2026-09-30T13:50:00-07:00"
@@ -18107,10 +18107,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Blake Griffin",
       "date": "Oct 2026",
       "total": {
-        "impr": 2116543,
+        "impr": 2127680,
         "views": 581762,
-        "er": 1.62,
-        "eng": 64138,
+        "er": 1.63,
+        "eng": 64426,
         "spend": 4026.59
       },
       "perChannel": [
@@ -18147,14 +18147,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 195065,
+          "impr": 206202,
           "paidImpr": 170469,
-          "orgImpr": 29742,
+          "orgImpr": 35733,
           "views": 3334,
-          "eng": 100,
+          "eng": 388,
           "paidEng": 341,
-          "orgEng": 6,
-          "er": 0.05,
+          "orgEng": 47,
+          "er": 0.19,
           "cpm": 2.06,
           "spend": 351.44,
           "posts": 5
@@ -18260,8 +18260,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 51582,
           "orgImpr": 8054,
           "views": 1247,
-          "eng": 31,
-          "er": 0.05,
+          "eng": 129,
+          "er": 0.22,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2112642511302783167",
           "postedAt": "2026-10-20T13:30:00-07:00"
@@ -18365,8 +18365,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 53208,
           "orgImpr": 8013,
           "views": 971,
-          "eng": 23,
-          "er": 0.04,
+          "eng": 75,
+          "er": 0.12,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2113004898543419667",
           "postedAt": "2026-10-21T13:30:00-07:00"
@@ -18436,12 +18436,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 61649,
+          "impr": 72786,
           "paidImpr": 65679,
-          "orgImpr": 0,
+          "orgImpr": 7107,
           "views": 1116,
-          "eng": 40,
-          "er": 0.06,
+          "eng": 178,
+          "er": 0.24,
           "spend": 101.44,
           "url": "https://twitter.com/FOS/status/2115534070222328255",
           "postedAt": "2026-10-28T13:00:01-07:00"
@@ -26203,8 +26203,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 11878,
       "views": 0,
       "reach": 0,
-      "eng": 64,
-      "er": 0.06,
+      "eng": 163,
+      "er": 0.16,
       "spend": 90.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -26571,8 +26571,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 14530,
       "views": 13416,
       "reach": 0,
-      "eng": 93,
-      "er": 0.11,
+      "eng": 302,
+      "er": 0.34,
       "spend": 75.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -26663,8 +26663,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 9629,
       "views": 14675,
       "reach": 0,
-      "eng": 54,
-      "er": 0.07,
+      "eng": 249,
+      "er": 0.31,
       "spend": 72.26,
       "watchTimeMin": null,
       "clicks": null,
@@ -27187,13 +27187,13 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 63436,
+      "impr": 63401,
       "paidImpr": 54232,
-      "orgImpr": 9204,
+      "orgImpr": 9169,
       "views": 14177,
       "reach": 0,
-      "eng": 75,
-      "er": 0.12,
+      "eng": 232,
+      "er": 0.37,
       "spend": 116.69,
       "watchTimeMin": null,
       "clicks": null,
@@ -27560,8 +27560,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 11431,
       "views": 11358,
       "reach": 0,
-      "eng": 76,
-      "er": 0.09,
+      "eng": 222,
+      "er": 0.26,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -27675,8 +27675,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 17846,
       "views": 7452,
       "reach": 0,
-      "eng": 57,
-      "er": 0.17,
+      "eng": 333,
+      "er": 1.0,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -33241,8 +33241,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 11194,
       "views": 1760,
       "reach": 0,
-      "eng": 118,
-      "er": 0.21,
+      "eng": 126,
+      "er": 0.23,
       "spend": 99.93,
       "watchTimeMin": null,
       "clicks": null,
@@ -34000,8 +34000,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 7895,
       "views": 1363,
       "reach": 0,
-      "eng": 38,
-      "er": 0.12,
+      "eng": 135,
+      "er": 0.43,
       "spend": 125.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -34138,8 +34138,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 7029,
       "views": 943,
       "reach": 0,
-      "eng": 17,
-      "er": 0.06,
+      "eng": 104,
+      "er": 0.35,
       "spend": 99.49,
       "watchTimeMin": null,
       "clicks": null,
@@ -34230,8 +34230,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 13865,
       "views": 3282,
       "reach": 0,
-      "eng": 41,
-      "er": 0.1,
+      "eng": 192,
+      "er": 0.46,
       "spend": 124.14,
       "watchTimeMin": null,
       "clicks": null,
@@ -34414,8 +34414,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 7735,
       "views": 1335,
       "reach": 0,
-      "eng": 38,
-      "er": 0.12,
+      "eng": 312,
+      "er": 0.96,
       "spend": 97.7,
       "watchTimeMin": null,
       "clicks": null,
@@ -34506,8 +34506,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 8943,
       "views": 1581,
       "reach": 0,
-      "eng": 52,
-      "er": 0.13,
+      "eng": 240,
+      "er": 0.6,
       "spend": 121.7,
       "watchTimeMin": null,
       "clicks": null,
@@ -34644,8 +34644,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 7848,
       "views": 1402,
       "reach": 0,
-      "eng": 56,
-      "er": 0.1,
+      "eng": 189,
+      "er": 0.34,
       "spend": 124.5,
       "watchTimeMin": null,
       "clicks": null,
@@ -34782,8 +34782,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 8054,
       "views": 1247,
       "reach": 0,
-      "eng": 31,
-      "er": 0.05,
+      "eng": 129,
+      "er": 0.22,
       "spend": 125.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -34943,8 +34943,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 8013,
       "views": 971,
       "reach": 0,
-      "eng": 23,
-      "er": 0.04,
+      "eng": 75,
+      "er": 0.12,
       "spend": 125.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -35053,13 +35053,13 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 61649,
+      "impr": 72786,
       "paidImpr": 65679,
-      "orgImpr": 0,
+      "orgImpr": 7107,
       "views": 1116,
       "reach": 0,
-      "eng": 40,
-      "er": 0.06,
+      "eng": 178,
+      "er": 0.24,
       "spend": 101.44,
       "watchTimeMin": null,
       "clicks": null,
@@ -50454,9 +50454,9 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.96,
-    "impressions": 6048162,
+    "impressions": 6059264,
     "paidImpressions": 4229314,
-    "pctOfTotal": 6.1,
+    "pctOfTotal": 6.2,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 57.8,
     "color": "#1d1d1f"
