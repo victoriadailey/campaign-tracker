@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-06T14:48:01Z";
+window.LAST_REFRESHED = "2026-11-06T15:12:51Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -384,11 +384,11 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 43039882,
+      "delivered": 43049057,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 64911.64,
+      "delivered": 64981.28,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -400,7 +400,7 @@ window.CAMPAIGNS = [
     "posts": 418,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
     "views": 12370944,
-    "engagements": 1195783,
+    "engagements": 1195818,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -456,8 +456,8 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 5125563,
-        "eng": 16226,
+        "impressions": 5134738,
+        "eng": 16261,
         "er": 0.32,
         "cpm": 1.51,
         "color": "#1d1d1f",
@@ -466,7 +466,7 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1786435,
+        "organicImpressions": 1762903,
         "views": 433303
       },
       {
@@ -812,8 +812,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
-    "lastUpdatedExports": "2026-11-05T18:41:07Z"
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
+    "lastUpdatedExports": "2026-11-06T15:10:57Z"
   },
   {
     "id": "spectrum",
@@ -1066,7 +1066,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1384,7 +1384,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1493,7 +1493,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1642,7 +1642,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2198,7 +2198,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2348,7 +2348,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2552,7 +2552,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2821,7 +2821,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3208,7 +3208,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3596,7 +3596,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:00Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3762,7 +3762,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3903,7 +3903,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4147,7 +4147,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4472,7 +4472,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4678,7 +4678,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4840,7 +4840,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5054,7 +5054,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5220,7 +5220,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5386,7 +5386,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5510,7 +5510,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5925,7 +5925,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6225,7 +6225,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6382,7 +6382,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6521,7 +6521,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6678,7 +6678,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-11-06T14:44:50Z"
   },
   {
@@ -6843,7 +6843,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7069,7 +7069,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T14:48:01Z",
+    "lastUpdatedMs": "2026-11-06T15:12:50Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7561,8 +7561,8 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 30975843,
-    "eng": 650126,
+    "impressions": 30985018,
+    "eng": 650161,
     "er": 2.1,
     "cpm": 1.72,
     "color": "#1d1d1f",
@@ -18106,11 +18106,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Blake Griffin",
       "date": "Oct 2026",
       "total": {
-        "impr": 2128584,
+        "impr": 2133033,
         "views": 586515,
         "er": 1.63,
-        "eng": 64438,
-        "spend": 4026.59
+        "eng": 64453,
+        "spend": 4037.07
       },
       "perChannel": [
         {
@@ -18146,16 +18146,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 206202,
-          "paidImpr": 170469,
+          "impr": 210651,
+          "paidImpr": 174918,
           "orgImpr": 35733,
           "views": 3334,
-          "eng": 388,
-          "paidEng": 341,
+          "eng": 403,
+          "paidEng": 356,
           "orgEng": 47,
           "er": 0.19,
-          "cpm": 2.06,
-          "spend": 351.44,
+          "cpm": 2.07,
+          "spend": 361.92,
           "posts": 5
         },
         {
@@ -18435,13 +18435,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 72786,
-          "paidImpr": 65679,
+          "impr": 77235,
+          "paidImpr": 70128,
           "orgImpr": 7107,
           "views": 1116,
-          "eng": 178,
-          "er": 0.24,
-          "spend": 101.44,
+          "eng": 193,
+          "er": 0.25,
+          "spend": 111.92,
           "url": "https://twitter.com/FOS/status/2115534070222328255",
           "postedAt": "2026-10-28T13:00:01-07:00"
         },
@@ -35052,19 +35052,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 72786,
-      "paidImpr": 65679,
+      "impr": 77235,
+      "paidImpr": 70128,
       "orgImpr": 7107,
       "views": 1116,
       "reach": 0,
-      "eng": 178,
-      "er": 0.24,
-      "spend": 101.44,
+      "eng": 193,
+      "er": 0.25,
+      "spend": 111.92,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 1.54,
+      "cpm": 1.6,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2115534070222328255",
@@ -35258,20 +35258,20 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d  X Games CEO @JeremyBloom11 explain",
       "platform": "X",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 34736,
-      "paidImpr": 0,
-      "orgImpr": 34736,
+      "distKind": "organic+boosted",
+      "impr": 39462,
+      "paidImpr": 28258,
+      "orgImpr": 11204,
       "views": 1879,
       "reach": 0,
-      "eng": 24,
-      "er": 0.07,
-      "spend": 0,
+      "eng": 44,
+      "er": 0.11,
+      "spend": 59.16,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 2.09,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2117731042731680181",
@@ -46159,7 +46159,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 9.8,
+    "fileSizeKb": 9.9,
     "lastModified": "2026-11-06",
     "exists": true,
     "postsContributed": 0
@@ -50572,11 +50572,11 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 1.96,
-    "impressions": 6289513,
-    "paidImpressions": 4426476,
-    "pctOfTotal": 6.3,
+    "impressions": 6298688,
+    "paidImpressions": 4459183,
+    "pctOfTotal": 6.4,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 57.7,
+    "mvmDeltaPct": 57.8,
     "color": "#1d1d1f"
   },
   {
