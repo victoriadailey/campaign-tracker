@@ -159,6 +159,37 @@ campaigns:
         - etrade_yt_paid.csv
       # MS API = base layer (organic + paid across IG/FB/TT/LI/X/YT).
       measure_studio_group_id: 6197         # Portfolio Players S3 x E*TRADE
+      # Snapchat was disconnected from Measure (Oct 2026), so these three Ep. 9
+      # (Cuban) posts no longer come back from the API. Frozen at their last
+      # saved numbers; post_id matches the Ep. 9 manual_posts pins below.
+      manual_rows:
+        - title: "Snapchat Spotlight — Cuban (5/5)"
+          platform: snapchat
+          boosting: organic
+          post_id: "W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw"
+          url: "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw"
+          posted_at: "2026-05-05T19:20:36-07:00"
+          impressions: 2252
+          views: 2252
+          engagements: 2060
+        - title: "Snapchat Highlight — Cuban (5/6)"
+          platform: snapchat
+          boosting: organic
+          post_id: "a0cf513e-a9f7-5958-8ba1-d2dbc38a097f"
+          url: "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f"
+          posted_at: "2026-05-06T05:34:31-07:00"
+          impressions: 3
+          views: 3
+          engagements: 2
+        - title: "Snapchat Spotlight — Cuban (5/21)"
+          platform: snapchat
+          boosting: organic
+          post_id: "W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw"
+          url: "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw"
+          posted_at: "2026-05-21T10:17:45-07:00"
+          impressions: 3864
+          views: 3864
+          engagements: 3311
       # YouTube paid now comes straight from Measure (its mid-July update added
       # YouTube paid impressions). Verified identical to the Google Ads export
       # within 13 impressions across the whole campaign, so the GAds youtube_paid

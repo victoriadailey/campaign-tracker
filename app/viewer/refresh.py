@@ -10,7 +10,7 @@ import json
 import re
 import sys
 from collections import defaultdict
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
@@ -284,6 +284,12 @@ def main() -> int:
         #     views: 77023                 # optional
         #     clicks: 35                   # optional
         #     spend: 239.17                # optional
+        # Frozen ORGANIC rows (a platform Measure no longer connects, e.g. the
+        # Snapchat posts after the account was disconnected) add:
+        #     boosting: organic            # no paid side; impressions are organic
+        #     engagements: 2060            # optional
+        #     url / posted_at / post_id    # optional; post_id lets an episode's
+        #                                  # manual_posts pin match the row
         for row in c.get("sources", {}).get("manual_rows", []) or []:
             from app.parsers.base import Boosting as _MB, PostFormat as _MPF
             _impr = int(row.get("impressions") or 0)
@@ -294,6 +300,34 @@ def main() -> int:
                 str(row.get("platform", "")).strip().lower(), Platform.UNKNOWN)
             _fmt = {f.value: f for f in _MPF}.get(
                 str(row.get("format", "reels_shorts")).strip().lower(), _MPF.OTHER)
+            if str(row.get("boosting", "")).strip().lower() == "organic":
+                _eng = row.get("engagements")
+                _eng = int(_eng) if _eng is not None else None
+                _posted = None
+                if row.get("posted_at"):
+                    try:
+                        _posted = datetime.fromisoformat(str(row["posted_at"]))
+                    except ValueError:
+                        _posted = None
+                posts_by_campaign[c_id].append(NormalizedPost(
+                    source=Source.MANUAL,
+                    platform=_plat,
+                    post_id_native=str(row.get("post_id") or f"manual:{c_id}:{row.get('title', '')}"),
+                    post_url=row.get("url"),
+                    post_title=str(row.get("title") or ""),
+                    post_format=_fmt,
+                    boosting=_MB.ORGANIC,
+                    posted_at=_posted,
+                    impressions_total=_impr or None,
+                    impressions_organic=_impr or None,
+                    views_total=int(_views) if _views is not None else None,
+                    views_organic=int(_views) if _views is not None else None,
+                    engagements_total=_eng,
+                    engagements_organic=_eng,
+                    er=(_eng / _impr) if _impr and _eng is not None else None,
+                    raw=dict(row),
+                ))
+                continue
             posts_by_campaign[c_id].append(NormalizedPost(
                 source=Source.MANUAL,
                 platform=_plat,
@@ -606,6 +640,18 @@ def main() -> int:
                 f"[{_cid}] excluded {len(_before) - len(_kept)} post(s) via campaign exclude {c.get('exclude')}"
             )
 
+    # Per-video YouTube organic-impressions overrides (thumbnail impressions from
+    # YouTube Studio; MS can't report these reliably). Keyed by video ID, so it
+    # applies to whichever campaign owns the post — safe to run everywhere.
+    # Applied BEFORE the campaign rollups so the card's delivered impressions
+    # match the episode rollups and per-post tables (which all use the corrected
+    # numbers); it used to run after, leaving the card short by the override delta.
+    yt_organic_overrides = _load_youtube_organic_overrides(
+        REPO_ROOT / "config" / "youtube_organic_impressions.csv"
+    )
+    for _posts in posts_by_campaign.values():
+        _apply_youtube_organic_overrides(_posts, yt_organic_overrides)
+
     # ---------- Campaign rollups (with sample fallback for empty campaigns) ----------
     campaigns: list[CampaignSummary] = []
     for c in cfg["campaigns"]:
@@ -722,12 +768,6 @@ def main() -> int:
     # Falls back to design sample for campaigns we can't compute.
     sample_episodes = sample.get("EPISODES_BY_CAMPAIGN", {})
     episodes_by_campaign: dict[str, list] = {}
-    # Per-video YouTube organic-impressions overrides (thumbnail impressions from
-    # YouTube Studio; MS can't report these reliably). Keyed by video ID, so it
-    # applies to whichever campaign owns the post — safe to run everywhere.
-    yt_organic_overrides = _load_youtube_organic_overrides(
-        REPO_ROOT / "config" / "youtube_organic_impressions.csv"
-    )
     for c in cfg["campaigns"]:
         c_id = c["id"]
         ep_defs = [
