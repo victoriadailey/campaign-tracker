@@ -331,8 +331,16 @@ def rollup_campaign(
     # Full Episodes vs Cutdowns split (only when YAML defines goals for both).
     goal_split: list = []
     if config.goal_split_full_ep and config.goal_split_cutdowns:
-        full_posts = [p for p in posts if _is_full_episode_content(p)]
-        cut_posts = [p for p in posts if not _is_full_episode_content(p)]
+        cut_cfg = config.goal_split_cutdowns
+        if cut_cfg.get("cutdown_platforms") or cut_cfg.get("cutdown_youtube_shorts"):
+            # Explicit rule (opt-in): a post is a cutdown only if it's on one of
+            # the listed platforms or is a YouTube Short; everything else —
+            # including FB/IG/X posts promoting the episode — is Full Episode.
+            is_cut = lambda p: _is_explicit_cutdown(p, cut_cfg)  # noqa: E731
+        else:
+            is_cut = lambda p: not _is_full_episode_content(p)  # noqa: E731
+        full_posts = [p for p in posts if not is_cut(p)]
+        cut_posts = [p for p in posts if is_cut(p)]
         for label_cfg, bucket in (
             (config.goal_split_full_ep, full_posts),
             (config.goal_split_cutdowns, cut_posts),
@@ -385,6 +393,20 @@ def rollup_campaign(
         brandx_objective=_normalize_brandx_objective(config.brandx_objective),
         brandx_secondary_objective=_normalize_brandx_objective(config.brandx_secondary_objective),
     )
+
+
+def _is_explicit_cutdown(p: NormalizedPost, cut_cfg: dict) -> bool:
+    """Config-driven cutdown test for `goal_split_cutdowns` with
+    `cutdown_platforms: [tiktok, ...]` and/or `cutdown_youtube_shorts: true`."""
+    plats = {str(x).lower() for x in (cut_cfg.get("cutdown_platforms") or [])}
+    if p.platform.value in plats:
+        return True
+    if cut_cfg.get("cutdown_youtube_shorts") and p.platform is Platform.YOUTUBE:
+        if p.source is Source.GOOGLE_ADS_CAMPAIGN:
+            from app.parsers.google_ads_campaign import youtube_subtype_from_post
+            return youtube_subtype_from_post(p) == "shorts"
+        return p.post_format is PostFormat.REELS_SHORTS
+    return False
 
 
 def _is_full_episode_content(p: NormalizedPost) -> bool:
