@@ -192,6 +192,7 @@ campaigns:
           - "LWtCVt9KnqY"                       # YT Shorts — "Who are the athletes…"
           - "3816686919355582288"               # IG — "Who are the minds…"
           - "urn:li:ugcPost:7420570894995005441" # LinkedIn — "This is Portfolio Players"
+          - "2014810648002040166"               # X — "…returns on 1/27 with … Mike Repole" (names Repole, so it keyword-matched Ep. 01)
       # YouTube organic (thumbnail) impressions for every PFP video are supplied
       # per-video from YouTube Studio in config/youtube_organic_impressions.csv
       # (matched by video ID). That CSV is the source of truth for YT organic;
@@ -298,6 +299,7 @@ campaigns:
           - "3901528950736512749"   # IG Story 5/20 — 2,413 views (no caption)
           - "3900714239756695378"   # IG Story 5/19 — 3,783 views (no caption)
           - "2054307306662138269"   # X teaser 5/12 — 4,456 impr ("Full episode coming next week")
+          - "2056800031588389047"   # X "Full episode:" post — no name in the copy, so unattributed
       - id: ep10
         n: "Ep. 10"
         title: "Landon Donovan on Soccer in America"
