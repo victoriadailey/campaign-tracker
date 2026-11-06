@@ -2063,3 +2063,21 @@ campaigns:
       # It supersedes any "Megaphone Listens" rows in the delivery log.
       # megaphone_custom_report:
       #   - microsoft_copilot_custom_report.csv
+
+  - id: nylim_fosexplains
+    partner: New York Life Investment
+    series: NYLI x FOS Explains
+    series_italic: Explains
+    type: social
+    benchmark_category: Original Content
+    lifecycle: active
+    flight_start: 2026-11-01
+    flight_end: 2026-12-31
+    impression_goal: 4250000
+    budget_goal: 6000
+    color: ft-10
+    lead_format: Social Video
+    blurb: "1x FOS Explains video posted in-feed and 1 cutdown posted dark"
+    sources:
+      measure_studio_group_ids:
+        - 9450
