@@ -1937,46 +1937,6 @@ campaigns:
     merge_posts:
       - ids: [4017474141603085265, 1104525635506263]   # replay operations IG + dark FB
 
-  # New York Life Investment Management x FOS Explains — one full episode plus a
-  # cutdown, each with its own impression + budget goal (rendered as two cards):
-  #   Full Episode = YT full episode (in-feed + pre-roll) + dark Facebook post + X post
-  #   Cutdown      = dark YT Short + TikTok
-  # `cutdown_*` keys on goal_split_cutdowns switch classification from the default
-  # title/format heuristic to an explicit rule (the FB/X posts aren't titled
-  # "Full Episode", so the default would file them under Cutdown).
-  - id: nyl_fosexplains
-    partner: New York Life Investment Management
-    series: FOS Explains
-    series_italic: Explains
-    type: social
-    benchmark_category: Original Content
-    lifecycle: active
-    flight_start: 2026-11-04
-    flight_end: 2026-12-31
-    flight_tbd: true          # no flight dates confirmed yet — update when known
-    impression_goal: 4250000  # 3,250,000 full episode + 1,000,000 cutdown
-    budget_goal: 6000         # $3,000 + $3,000
-    goal_split_full_ep:
-      label: "FOS Explains Full Episode"
-      impression_goal: 3250000
-      budget_goal: 3000
-    goal_split_cutdowns:
-      label: "FOS Explains Cutdown"
-      impression_goal: 1000000
-      budget_goal: 3000
-      cutdown_platforms: [tiktok]
-      cutdown_youtube_shorts: true
-    color: ft-9
-    lead_format: Social Video
-    blurb: "FOS Explains x New York Life Investment Management — one full episode (YouTube in-feed + pre-roll, dark Facebook, X) plus a cutdown (dark YouTube Short, TikTok)."
-    sources:
-      measure_studio_group_ids:
-        - 9450
-    # The YouTube Short is a dark ad — force paid-only so it doesn't read
-    # "organic+boosted" once its stats land.
-    paid_only_post_ids:
-      - "BFFa_l3FbZw"   # YT Short — "How does an NIL deal come together?"
-
   - id: sportradar_brandx
     partner: Sportradar
     series: BrandX
@@ -2118,6 +2078,50 @@ campaigns:
     color: ft-10
     lead_format: Social Video
     blurb: "1x FOS Explains video posted in-feed and 1 cutdown posted dark"
+    # One long-form + one Short on YouTube: pair Google Ads rows to their MS post
+    # by sorted impressions within each subtype (the Short's MS stats and GAds
+    # impressions are far apart, so the auto-matcher leaves them unpaired and the
+    # card double-counts the Short).
+    yt_paired_by_sort: true
+    # Two components, each with its own impression goal + budget (sum = the
+    # campaign goal above), shown as component cards like State Street:
+    #   Full Episode — YT full episode (in-feed + pre-roll) + dark Facebook + X post
+    #   Cutdown      — dark YT Short + TikTok
+    pacing_components:
+      - label: "FOS Explains Full Episode"
+        impression_goal: 3_250_000   # budget $3,000 (component cards show impressions only)
+        episode_ids: [full_episode]
+      - label: "FOS Explains Cutdown"
+        impression_goal: 1_000_000   # budget $3,000
+        episode_ids: [cutdown]
+    episodes:
+      - id: full_episode
+        n: "Full Episode"
+        title: "How NIL Deals Really Work"
+        date: "Nov 4"
+        match: ["How NIL Deals Really Work", "FOS Explains (in-feed)",
+                "FOS Explains (Pre-roll)", "FOS Explains full ep",
+                "NIL Toolkit", "full episode"]
+        exclude: []
+        impression_goal: 3_250_000
+        manual_posts:
+          - "QgXx6XEsDiE"        # YT full episode
+          - "1632729282199989"   # dark Facebook post (NIL Toolkit)
+      - id: cutdown
+        n: "Cutdown"
+        title: "How does an NIL deal come together?"
+        date: "Nov 5"
+        match: ["How does an NIL deal come together", "FOS Explains Cutdown",
+                "Anatomy of an NIL deal"]
+        exclude: []
+        impression_goal: 1_000_000
+        manual_posts:
+          - "1881053805181569"   # dark TikTok cutdown (no caption/title; id = TikTok ad id)
+          - "BFFa_l3FbZw"        # dark YT Short
+    # The YT Short is a dark ad — force paid-only so it doesn't read
+    # "organic+boosted" (same treatment as the Zoom Short).
+    paid_only_post_ids:
+      - "BFFa_l3FbZw"   # YT Short — "How does an NIL deal come together?"
     sources:
       x_ads:
         - nylim_fosexplains_x_ads.csv
