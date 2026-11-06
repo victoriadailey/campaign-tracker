@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-06T19:34:13Z";
+window.LAST_REFRESHED = "2026-11-06T19:41:03Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -828,7 +828,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1082,7 +1082,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1400,7 +1400,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1509,7 +1509,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1658,7 +1658,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1815,7 +1815,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2214,7 +2214,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2364,7 +2364,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2568,7 +2568,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2837,7 +2837,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3224,7 +3224,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3612,7 +3612,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3778,7 +3778,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3919,7 +3919,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4163,7 +4163,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4488,7 +4488,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4694,7 +4694,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4856,7 +4856,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5070,7 +5070,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:12Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5236,7 +5236,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5402,7 +5402,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5526,7 +5526,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5941,7 +5941,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6241,7 +6241,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6398,7 +6398,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6537,7 +6537,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6694,7 +6694,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-11-06T14:44:50Z"
   },
   {
@@ -6859,8 +6859,150 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
+  },
+  {
+    "id": "nyl_fosexplains",
+    "partner": "New York Life Investment Management",
+    "series": "FOS Explains",
+    "seriesItalic": "Explains",
+    "type": "social",
+    "flight": "TBD",
+    "elapsedPct": 0.0,
+    "daysLeft": 0,
+    "status": "Flight TBD",
+    "statusKind": "tbd",
+    "impressions": {
+      "delivered": 298438,
+      "goal": 4250000
+    },
+    "budget": {
+      "delivered": 223.95,
+      "goal": 6000.0
+    },
+    "color": "ft-9",
+    "leadFormat": "Social Video",
+    "topChannel": "YouTube",
+    "er": 0.48,
+    "cpm": 0.75,
+    "episodes": 0,
+    "posts": 4,
+    "blurb": "FOS Explains x New York Life Investment Management \u2014 one full episode (YouTube in-feed + pre-roll, dark Facebook, X) plus a cutdown (dark YouTube Short, TikTok).",
+    "views": 45246,
+    "engagements": 1424,
+    "goalSplit": [
+      {
+        "label": "FOS Explains Full Episode",
+        "impressions": {
+          "delivered": 212476,
+          "goal": 3250000
+        },
+        "budget": {
+          "delivered": 108.95,
+          "goal": 3000.0
+        },
+        "posts": 2
+      },
+      {
+        "label": "FOS Explains Cutdown",
+        "impressions": {
+          "delivered": 85962,
+          "goal": 1000000
+        },
+        "budget": {
+          "delivered": 115.0,
+          "goal": 3000.0
+        },
+        "posts": 2
+      }
+    ],
+    "benchmarkCategory": "Original Content",
+    "lifecycle": "active",
+    "channels": [
+      {
+        "name": "YouTube In-feed",
+        "italic": "YouTube In-feed",
+        "impressions": 172897,
+        "eng": 932,
+        "er": 0.54,
+        "cpm": 0.0,
+        "color": "#E00922",
+        "delta": 7.8,
+        "bench": {
+          "er": 0.5,
+          "cpm": 0.55
+        },
+        "organicImpressions": 0,
+        "views": 0
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 51853,
+        "eng": 14,
+        "er": 0.03,
+        "cpm": 2.22,
+        "color": "#000000",
+        "delta": -98.7,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 0,
+        "views": 45246
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 39579,
+        "eng": 3,
+        "er": 0.01,
+        "cpm": 2.75,
+        "color": "#1877F2",
+        "delta": -99.5,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 0,
+        "views": 0
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 34109,
+        "eng": 475,
+        "er": 1.39,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -93.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 0,
+        "views": 0
+      }
+    ],
+    "topPosts": [],
+    "topPostsOrganic": [],
+    "callouts": [
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.48% ER \u2014 below the 1% floor.",
+        "body": "0.48% engagement rate across 298K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "New York Life Investment Management \u00b7 Engagement"
+      }
+    ],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "placements": 0,
+    "tagCompliancePct": null,
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
+    "lastUpdatedExports": ""
   },
   {
     "id": "sportradar_brandx",
@@ -7085,7 +7227,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7446,7 +7588,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T19:34:13Z",
+    "lastUpdatedMs": "2026-11-06T19:41:02Z",
     "lastUpdatedExports": "2026-11-06T19:31:29Z"
   }
 ];
@@ -7685,10 +7827,10 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 122891198,
-    "eng": 2821548,
-    "er": 2.3,
-    "cpm": 1.15,
+    "impressions": 123098204,
+    "eng": 2822955,
+    "er": 2.29,
+    "cpm": 1.14,
     "color": "#E00922",
     "delta": -88.5,
     "bench": {
@@ -7701,8 +7843,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 40705913,
-    "eng": 71408,
+    "impressions": 40757766,
+    "eng": 71422,
     "er": 0.18,
     "cpm": 1.97,
     "color": "#000000",
@@ -7712,7 +7854,7 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 40227508
+    "views": 40272754
   },
   {
     "name": "Instagram",
@@ -7749,12 +7891,12 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8488430,
-    "eng": 31038,
-    "er": 0.37,
-    "cpm": 3.73,
+    "impressions": 8528009,
+    "eng": 31041,
+    "er": 0.36,
+    "cpm": 3.72,
     "color": "#1877F2",
-    "delta": -76.1,
+    "delta": -76.2,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
@@ -25102,6 +25244,7 @@ window.EPISODES_BY_CAMPAIGN = {
   "heinz_stadiumeats": [],
   "pwc_formula1": [],
   "zoom_fosexplains_mlb": [],
+  "nyl_fosexplains": [],
   "sportradar_brandx": [],
   "stifel_fostonight": [],
   "microsoft_copilot": [],
@@ -45536,6 +45679,100 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-10-27T15:33:33-07:00"
     }
   ],
+  "nyl_fosexplains": [
+    {
+      "title": "How NIL Deals Really Work",
+      "platform": "YouTube In-feed",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 172897,
+      "paidImpr": 172897,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 932,
+      "er": 0.54,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": 83,
+      "ctr": 48.01,
+      "cpc": 1.74,
+      "cpm": 0.83,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://youtu.be/QgXx6XEsDiE",
+      "postedAt": "2026-11-04T12:01:41-08:00"
+    },
+    {
+      "title": "NIL Toolkit",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 39579,
+      "paidImpr": 39579,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 3,
+      "er": 0.01,
+      "spend": 108.95,
+      "watchTimeMin": 1451.9,
+      "clicks": 96,
+      "ctr": 24.26,
+      "cpc": 1.13,
+      "cpm": 2.75,
+      "videoViews100Pct": 4,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1632729282199989/",
+      "postedAt": "2026-11-04T07:11:21-08:00"
+    },
+    {
+      "title": "How does an NIL deal come together?",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 34109,
+      "paidImpr": 34109,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 475,
+      "er": 1.39,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": 18,
+      "ctr": 52.77,
+      "cpc": 4.6,
+      "cpm": 2.43,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/BFFa_l3FbZw",
+      "postedAt": "2026-11-05T12:53:29-08:00"
+    },
+    {
+      "title": "",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 51853,
+      "paidImpr": 51853,
+      "orgImpr": 0,
+      "views": 45246,
+      "reach": 26820,
+      "eng": 14,
+      "er": 0.03,
+      "spend": 115.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 2.22,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": "2026-11-05T21:05:02-08:00"
+    }
+  ],
   "sportradar_brandx": [
     {
       "title": "Sportradar BrandX",
@@ -46498,6 +46735,7 @@ window.UPLOAD_TARGETS = {
       "label": "Google Ads"
     }
   ],
+  "nyl_fosexplains": [],
   "sportradar_brandx": [
     {
       "file": "sportradar_brandx_meta_ads.csv",
@@ -51348,12 +51586,12 @@ window.BENCHMARKS_DATA = {
 window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
-    "cpm": 0.64,
-    "impressions": 40321144,
-    "paidImpressions": 38275281,
+    "cpm": 0.63,
+    "impressions": 40494041,
+    "paidImpressions": 38448178,
     "pctOfTotal": 40.5,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 20.2,
+    "mvmDeltaPct": 19.7,
     "color": "#E00922"
   },
   {
@@ -51361,29 +51599,29 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 4.43,
     "impressions": 19017216,
     "paidImpressions": 16562044,
-    "pctOfTotal": 19.1,
+    "pctOfTotal": 19.0,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.2,
     "color": "#E4405F"
   },
   {
     "name": "TikTok",
-    "cpm": 1.54,
-    "impressions": 16612950,
-    "paidImpressions": 9545014,
+    "cpm": 1.55,
+    "impressions": 16664803,
+    "paidImpressions": 9596867,
     "pctOfTotal": 16.7,
     "mvmCpm": 2.24,
-    "mvmDeltaPct": -31.0,
+    "mvmDeltaPct": -30.9,
     "color": "#000000"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.81,
-    "impressions": 11517941,
-    "paidImpressions": 11248880,
+    "cpm": 2.8,
+    "impressions": 11552050,
+    "paidImpressions": 11282989,
     "pctOfTotal": 11.6,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -12.3,
+    "mvmDeltaPct": -12.6,
     "color": "#FF0033"
   },
   {
@@ -51398,12 +51636,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.52,
-    "impressions": 2675585,
-    "paidImpressions": 2403120,
+    "cpm": 3.51,
+    "impressions": 2715164,
+    "paidImpressions": 2442699,
     "pctOfTotal": 2.7,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -16.1,
+    "mvmDeltaPct": -16.4,
     "color": "#1877F2"
   },
   {
@@ -51428,7 +51666,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.09;
+window.PORTFOLIO_CPM_BLEND = 2.08;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
