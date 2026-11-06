@@ -2079,6 +2079,8 @@ campaigns:
     lead_format: Social Video
     blurb: "1x FOS Explains video posted in-feed and 1 cutdown posted dark"
     sources:
+      x_ads:
+        - nylim_fosexplains_x_ads.csv
       youtube_paid:
         - nylim_fosexplains_yt_paid.csv
       measure_studio_group_ids:
