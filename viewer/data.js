@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-06T15:58:16Z";
+window.LAST_REFRESHED = "2026-11-06T16:16:49Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:47Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -812,7 +812,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-11-06T15:19:30Z"
   },
   {
@@ -1066,7 +1066,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1384,7 +1384,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1493,7 +1493,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1642,7 +1642,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1799,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2198,7 +2198,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2348,7 +2348,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2552,7 +2552,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2821,7 +2821,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3208,7 +3208,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3596,7 +3596,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3762,7 +3762,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3903,7 +3903,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4147,7 +4147,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4472,7 +4472,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4678,7 +4678,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4840,7 +4840,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:15Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5054,7 +5054,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5220,7 +5220,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5386,7 +5386,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5510,7 +5510,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5925,7 +5925,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6225,7 +6225,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6382,7 +6382,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6521,7 +6521,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6678,7 +6678,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-11-06T14:44:50Z"
   },
   {
@@ -6843,7 +6843,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7069,7 +7069,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T15:58:16Z",
+    "lastUpdatedMs": "2026-11-06T16:16:48Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -9641,10 +9641,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Season 3 Trailer",
       "date": "Jan 27",
       "total": {
-        "impr": 27650,
+        "impr": 36612,
         "views": 20982,
-        "er": 2.47,
-        "eng": 683,
+        "er": 1.89,
+        "eng": 693,
         "spend": 0
       },
       "perChannel": [
@@ -9674,6 +9674,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 490,
           "er": 4.63,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 1
+        },
+        {
+          "name": "X",
+          "distKind": "organic",
+          "impr": 8962,
+          "paidImpr": 0,
+          "orgImpr": 8962,
+          "views": 0,
+          "eng": 10,
+          "paidEng": 0,
+          "orgEng": 10,
+          "er": 0.11,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 1
@@ -9709,6 +9724,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7420570894995005441",
           "postedAt": "2026-01-23T12:59:57-08:00"
+        },
+        {
+          "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 8962,
+          "paidImpr": 0,
+          "orgImpr": 8962,
+          "views": 0,
+          "eng": 10,
+          "er": 0.11,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2014810648002040166",
+          "postedAt": "2026-01-23T13:21:06-08:00"
         },
         {
           "title": "Who are the minds shaping the business of sports? Athletes, team owners, and investors go deep with us on Portfolio Play",
@@ -9766,10 +9796,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mike Repole on Sports Ownership",
       "date": "Feb 3",
       "total": {
-        "impr": 2264718,
+        "impr": 2255756,
         "views": 895120,
-        "er": 2.38,
-        "eng": 82563,
+        "er": 2.39,
+        "eng": 82553,
         "spend": 3366.68
       },
       "perChannel": [
@@ -9806,17 +9836,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 309496,
+          "impr": 300534,
           "paidImpr": 188875,
-          "orgImpr": 80705,
+          "orgImpr": 71743,
           "views": 45294,
-          "eng": 512,
+          "eng": 502,
           "paidEng": 149,
-          "orgEng": 363,
+          "orgEng": 353,
           "er": 0.17,
           "cpm": 1.01,
           "spend": 190.0,
-          "posts": 9
+          "posts": 8
         },
         {
           "name": "YouTube Shorts",
@@ -9909,21 +9939,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 498.41,
           "url": null,
           "postedAt": null
-        },
-        {
-          "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
-          "platform": "X",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 8962,
-          "paidImpr": 0,
-          "orgImpr": 8962,
-          "views": 0,
-          "eng": 10,
-          "er": 0.11,
-          "spend": 0,
-          "url": "https://twitter.com/FOS/status/2014810648002040166",
-          "postedAt": "2026-01-23T13:21:06-08:00"
         },
         {
           "title": "Sports entrepreneur Mike Repole joins @readDanwrite for an unfiltered conversation around:   \ud83d\udcb0 Building billion-dollar b",
@@ -13652,10 +13667,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 7267159,
+        "impr": 7276144,
         "views": 2910425,
         "er": 1.6,
-        "eng": 162162,
+        "eng": 162167,
         "spend": 5630.31
       },
       "perChannel": [
@@ -13692,17 +13707,17 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 946664,
+          "impr": 955649,
           "paidImpr": 440712,
-          "orgImpr": 486891,
+          "orgImpr": 495876,
           "views": 162073,
-          "eng": 3902,
+          "eng": 3907,
           "paidEng": 1879,
-          "orgEng": 2023,
+          "orgEng": 2028,
           "er": 0.41,
           "cpm": 1.35,
           "spend": 594.53,
-          "posts": 14
+          "posts": 15
         },
         {
           "name": "TikTok",
@@ -14050,6 +14065,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2056799927808790803",
           "postedAt": "2026-05-19T11:11:30-07:00"
+        },
+        {
+          "title": "Full episode:",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 8985,
+          "paidImpr": 0,
+          "orgImpr": 8985,
+          "views": 0,
+          "eng": 5,
+          "er": 0.06,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2056800031588389047",
+          "postedAt": "2026-05-19T11:11:55-07:00"
         },
         {
           "title": "Mark Cuban believes the future of sports will look very different from the past.  The former Mavericks owner joined Port",
@@ -26145,6 +26175,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-01-23T12:59:57-08:00"
     },
     {
+      "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 8962,
+      "paidImpr": 0,
+      "orgImpr": 8962,
+      "views": 0,
+      "reach": 0,
+      "eng": 10,
+      "er": 0.11,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2014810648002040166",
+      "postedAt": "2026-01-23T13:21:06-08:00"
+    },
+    {
       "title": "Who are the minds shaping the business of sports? Athletes, team owners, and investors go deep with us on Portfolio Play",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
@@ -26235,29 +26288,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": null
-    },
-    {
-      "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
-      "platform": "X",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 8962,
-      "paidImpr": 0,
-      "orgImpr": 8962,
-      "views": 0,
-      "reach": 0,
-      "eng": 10,
-      "er": 0.11,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://twitter.com/FOS/status/2014810648002040166",
-      "postedAt": "2026-01-23T13:21:06-08:00"
     },
     {
       "title": "Sports entrepreneur Mike Repole joins @readDanwrite for an unfiltered conversation around:   \ud83d\udcb0 Building billion-dollar b",
@@ -30697,6 +30727,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2056799927808790803",
       "postedAt": "2026-05-19T11:11:30-07:00"
+    },
+    {
+      "title": "Full episode:",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 8985,
+      "paidImpr": 0,
+      "orgImpr": 8985,
+      "views": 0,
+      "reach": 0,
+      "eng": 5,
+      "er": 0.06,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2056800031588389047",
+      "postedAt": "2026-05-19T11:11:55-07:00"
     },
     {
       "title": "Mark Cuban believes the future of sports will look very different from the past.  The former Mavericks owner joined Port",
@@ -35711,29 +35764,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfVbRLuCKld/",
       "postedAt": "2026-11-04T13:33:14-08:00"
-    },
-    {
-      "title": "Full episode:",
-      "platform": "X",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 8985,
-      "paidImpr": 0,
-      "orgImpr": 8985,
-      "views": 0,
-      "reach": 0,
-      "eng": 5,
-      "er": 0.06,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://twitter.com/FOS/status/2056800031588389047",
-      "postedAt": "2026-05-19T11:11:55-07:00"
     }
   ],
   "spectrum": [
