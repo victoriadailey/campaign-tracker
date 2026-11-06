@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-06T16:16:49Z";
+window.LAST_REFRESHED = "2026-11-06T17:22:38Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:47Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -384,23 +384,23 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 43052090,
+      "delivered": 43151859,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 64993.57,
+      "delivered": 65793.11,
       "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.78,
-    "cpm": 1.86,
+    "er": 2.91,
+    "cpm": 1.89,
     "episodes": 20,
-    "posts": 418,
+    "posts": 421,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 12370944,
-    "engagements": 1196001,
+    "views": 12377063,
+    "engagements": 1257165,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -408,17 +408,17 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 24871651,
+        "impressions": 24933430,
         "eng": 109434,
         "er": 0.44,
         "cpm": 0.59,
         "color": "#E00922",
-        "delta": -12.0,
+        "delta": -12.2,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
-        "organicImpressions": 1965648,
+        "organicImpressions": 2027427,
         "views": 528525
       },
       {
@@ -457,11 +457,11 @@ window.CAMPAIGNS = [
         "name": "X",
         "italic": "X",
         "impressions": 5134738,
-        "eng": 16261,
-        "er": 0.32,
-        "cpm": 1.51,
+        "eng": 17141,
+        "er": 0.33,
+        "cpm": 1.59,
         "color": "#1d1d1f",
-        "delta": -65.6,
+        "delta": -63.7,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
@@ -472,17 +472,17 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 2524268,
-        "eng": 275331,
-        "er": 10.91,
-        "cpm": 2.83,
+        "impressions": 2556139,
+        "eng": 330242,
+        "er": 12.92,
+        "cpm": 3.06,
         "color": "#FF0033",
-        "delta": -45.5,
+        "delta": -35.4,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 186769,
+        "organicImpressions": 218640,
         "views": 2312191
       },
       {
@@ -548,6 +548,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 12603,
         "views": 12603
+      },
+      {
+        "name": "Snapchat",
+        "italic": "Snapchat",
+        "impressions": 6119,
+        "eng": 5373,
+        "er": 87.81,
+        "cpm": 0.0,
+        "color": "#666666",
+        "delta": 0.0,
+        "bench": {
+          "er": 0.0,
+          "cpm": 0.0
+        },
+        "organicImpressions": 6119,
+        "views": 6119
       }
     ],
     "topPosts": [
@@ -812,8 +828,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
-    "lastUpdatedExports": "2026-11-06T15:19:30Z"
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
+    "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
     "id": "spectrum",
@@ -1066,7 +1082,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1384,7 +1400,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1493,7 +1509,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1642,7 +1658,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1799,7 +1815,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2198,7 +2214,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2348,7 +2364,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2552,7 +2568,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2821,7 +2837,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3208,7 +3224,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3596,7 +3612,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3762,7 +3778,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3903,7 +3919,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4147,7 +4163,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4472,7 +4488,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4678,7 +4694,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4840,7 +4856,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5054,7 +5070,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5220,7 +5236,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5386,7 +5402,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5510,7 +5526,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5925,7 +5941,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6225,7 +6241,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6382,7 +6398,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6521,7 +6537,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6678,7 +6694,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-11-06T14:44:50Z"
   },
   {
@@ -6843,7 +6859,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7069,7 +7085,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-06T16:16:48Z",
+    "lastUpdatedMs": "2026-11-06T17:22:37Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7513,12 +7529,12 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 122464273,
-    "eng": 2765139,
-    "er": 2.26,
-    "cpm": 1.14,
+    "impressions": 122557923,
+    "eng": 2820050,
+    "er": 2.3,
+    "cpm": 1.15,
     "color": "#E00922",
-    "delta": -88.7,
+    "delta": -88.5,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
@@ -7562,11 +7578,11 @@ window.CHANNELS = [
     "name": "X",
     "italic": "X",
     "impressions": 30985018,
-    "eng": 650161,
+    "eng": 651041,
     "er": 2.1,
-    "cpm": 1.72,
+    "cpm": 1.73,
     "color": "#1d1d1f",
-    "delta": 128.1,
+    "delta": 128.4,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -7605,6 +7621,22 @@ window.CHANNELS = [
     },
     "organicImpressions": 0,
     "views": 1048456
+  },
+  {
+    "name": "Snapchat",
+    "italic": "Snapchat",
+    "impressions": 6119,
+    "eng": 5373,
+    "er": 87.81,
+    "cpm": 0.0,
+    "color": "#666666",
+    "delta": 0.0,
+    "bench": {
+      "er": 0.0,
+      "cpm": 0.0
+    },
+    "organicImpressions": 0,
+    "views": 6119
   }
 ];
 
@@ -9798,8 +9830,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2255756,
         "views": 895120,
-        "er": 2.39,
-        "eng": 82553,
+        "er": 2.41,
+        "eng": 82949,
         "spend": 3366.68
       },
       "perChannel": [
@@ -9840,10 +9872,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 188875,
           "orgImpr": 71743,
           "views": 45294,
-          "eng": 502,
-          "paidEng": 149,
-          "orgEng": 353,
-          "er": 0.17,
+          "eng": 898,
+          "paidEng": 652,
+          "orgEng": 246,
+          "er": 0.3,
           "cpm": 1.01,
           "spend": 190.0,
           "posts": 8
@@ -10039,8 +10071,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 97109,
           "orgImpr": 15898,
           "views": 22242,
-          "eng": 151,
-          "er": 0.13,
+          "eng": 547,
+          "er": 0.48,
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2016629140447797250",
           "postedAt": "2026-01-28T13:47:08-08:00"
@@ -10316,9 +10348,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2004085,
         "views": 582502,
-        "er": 2.24,
-        "eng": 70871,
-        "spend": 3217.25
+        "er": 2.93,
+        "eng": 84458,
+        "spend": 3396.54
       },
       "perChannel": [
         {
@@ -10373,12 +10405,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 185898,
           "orgImpr": 4755,
           "views": 187138,
-          "eng": 36826,
-          "paidEng": 36607,
+          "eng": 50413,
+          "paidEng": 50194,
           "orgEng": 219,
-          "er": 19.32,
-          "cpm": 2.04,
-          "spend": 379.54,
+          "er": 26.44,
+          "cpm": 3.01,
+          "spend": 558.83,
           "posts": 3
         },
         {
@@ -10497,9 +10529,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 65053,
           "orgImpr": 1733,
           "views": 65520,
-          "eng": 63,
-          "er": 0.09,
-          "spend": 0,
+          "eng": 13650,
+          "er": 20.44,
+          "spend": 179.29,
           "url": "https://www.youtube.com/shorts/0xlBGzSHQuM",
           "postedAt": "2026-02-10T12:54:13-08:00"
         },
@@ -10714,9 +10746,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 2031269,
         "views": 545944,
-        "er": 1.38,
-        "eng": 55909,
-        "spend": 3028.91
+        "er": 2.7,
+        "eng": 82235,
+        "spend": 3208.67
       },
       "perChannel": [
         {
@@ -10756,10 +10788,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 132842,
           "orgImpr": 37114,
           "views": 38235,
-          "eng": 433,
-          "paidEng": 215,
-          "orgEng": 218,
-          "er": 0.25,
+          "eng": 917,
+          "paidEng": 835,
+          "orgEng": 82,
+          "er": 0.52,
           "cpm": 1.44,
           "spend": 191.09,
           "posts": 6
@@ -10771,12 +10803,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 138266,
           "orgImpr": 5804,
           "views": 141290,
-          "eng": 15239,
-          "paidEng": 14973,
+          "eng": 41081,
+          "paidEng": 40815,
           "orgEng": 266,
-          "er": 10.58,
-          "cpm": 1.45,
-          "spend": 199.88,
+          "er": 28.51,
+          "cpm": 2.75,
+          "spend": 379.64,
           "posts": 3
         },
         {
@@ -10940,9 +10972,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 57159,
           "orgImpr": 2770,
           "views": 58879,
-          "eng": 153,
-          "er": 0.26,
-          "spend": 0,
+          "eng": 25995,
+          "er": 43.38,
+          "spend": 179.76,
           "url": "https://www.youtube.com/shorts/fc6JZzuQrf4",
           "postedAt": "2026-02-25T13:46:42-08:00"
         },
@@ -10970,8 +11002,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 78610,
           "orgImpr": 6740,
           "views": 22574,
-          "eng": 149,
-          "er": 0.17,
+          "eng": 633,
+          "er": 0.74,
           "spend": 74.41,
           "url": "https://twitter.com/FOS/status/2026779162187329718",
           "postedAt": "2026-02-25T13:59:42-08:00"
@@ -11142,9 +11174,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "total": {
         "impr": 1833664,
         "views": 514105,
-        "er": 1.68,
-        "eng": 55104,
-        "spend": 2875.04
+        "er": 2.54,
+        "eng": 70586,
+        "spend": 3216.51
       },
       "perChannel": [
         {
@@ -11188,8 +11220,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 484,
           "orgEng": 166,
           "er": 0.45,
-          "cpm": 0.0,
-          "spend": 0.0,
+          "cpm": 1.83,
+          "spend": 162.03,
           "posts": 4
         },
         {
@@ -11199,12 +11231,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 88730,
           "orgImpr": 5782,
           "views": 93388,
-          "eng": 18922,
-          "paidEng": 18742,
+          "eng": 34404,
+          "paidEng": 34224,
           "orgEng": 180,
-          "er": 20.02,
-          "cpm": 2.03,
-          "spend": 179.8,
+          "er": 36.4,
+          "cpm": 4.05,
+          "spend": 359.24,
           "posts": 3
         },
         {
@@ -11415,7 +11447,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "views": 11358,
           "eng": 222,
           "er": 0.26,
-          "spend": 0,
+          "spend": 95.96,
           "url": "https://twitter.com/FOS/status/2031837566417113541",
           "postedAt": "2026-03-11T14:00:00-07:00"
         },
@@ -11490,7 +11522,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "views": 7452,
           "eng": 333,
           "er": 1.0,
-          "spend": 0,
+          "spend": 66.07,
           "url": "https://twitter.com/FOS/status/2034378056400355565",
           "postedAt": "2026-03-18T14:15:00-07:00"
         },
@@ -11518,9 +11550,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 47138,
           "orgImpr": 2396,
           "views": 48356,
-          "eng": 71,
-          "er": 0.14,
-          "spend": 0,
+          "eng": 15553,
+          "er": 31.4,
+          "spend": 179.44,
           "url": "https://www.youtube.com/shorts/hNnQ5SozcU0",
           "postedAt": "2026-03-18T15:30:21-07:00"
         }
@@ -11557,7 +11589,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "views": 477053,
         "er": 2.32,
         "eng": 74211,
-        "spend": 3047.15
+        "spend": 3146.17
       },
       "perChannel": [
         {
@@ -11586,8 +11618,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 1639,
           "orgEng": 182,
           "er": 0.46,
-          "cpm": 0.08,
-          "spend": 22.98,
+          "cpm": 0.4,
+          "spend": 122.0,
           "posts": 7
         },
         {
@@ -11858,7 +11890,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "views": 2505,
           "eng": 1033,
           "er": 1.11,
-          "spend": 0,
+          "spend": 99.02,
           "url": "https://twitter.com/FOS/status/2036911003083170204",
           "postedAt": "2026-03-25T14:00:01-07:00"
         },
@@ -13667,10 +13699,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 7276144,
-        "views": 2910425,
-        "er": 1.6,
-        "eng": 162167,
+        "impr": 7282263,
+        "views": 2916544,
+        "er": 1.67,
+        "eng": 167540,
         "spend": 5630.31
       },
       "perChannel": [
@@ -13790,6 +13822,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidEng": 0,
           "orgEng": 0,
           "er": 0.0,
+          "cpm": 0.0,
+          "spend": 0.0,
+          "posts": 3
+        },
+        {
+          "name": "Snapchat",
+          "distKind": "organic",
+          "impr": 6119,
+          "paidImpr": 0,
+          "orgImpr": 6119,
+          "views": 6119,
+          "eng": 5373,
+          "paidEng": 0,
+          "orgEng": 5373,
+          "er": 87.81,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -13975,6 +14022,36 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573",
           "postedAt": "2026-05-05T13:30:14-07:00"
+        },
+        {
+          "title": "Snapchat Spotlight \u2014 Cuban (5/5)",
+          "platform": "Snapchat",
+          "accountName": null,
+          "distKind": "organic",
+          "impr": 2252,
+          "paidImpr": 0,
+          "orgImpr": 2252,
+          "views": 2252,
+          "eng": 2060,
+          "er": 91.47,
+          "spend": 0,
+          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
+          "postedAt": "2026-05-05T19:20:36-07:00"
+        },
+        {
+          "title": "Snapchat Highlight \u2014 Cuban (5/6)",
+          "platform": "Snapchat",
+          "accountName": null,
+          "distKind": "organic",
+          "impr": 3,
+          "paidImpr": 0,
+          "orgImpr": 3,
+          "views": 3,
+          "eng": 2,
+          "er": 66.67,
+          "spend": 0,
+          "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
+          "postedAt": "2026-05-06T05:34:31-07:00"
         },
         {
           "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
@@ -14247,6 +14324,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-05-20T16:08:23-07:00"
         },
         {
+          "title": "Snapchat Spotlight \u2014 Cuban (5/21)",
+          "platform": "Snapchat",
+          "accountName": null,
+          "distKind": "organic",
+          "impr": 3864,
+          "paidImpr": 0,
+          "orgImpr": 3864,
+          "views": 3864,
+          "eng": 3311,
+          "er": 85.69,
+          "spend": 0,
+          "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
+          "postedAt": "2026-05-21T10:17:45-07:00"
+        },
+        {
           "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
@@ -14476,7 +14568,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 4.3% ER on 699.9K impr."
+          "text": "Snapchat leading with 87.8% ER on 6.1K impr."
         },
         {
           "kind": "pos",
@@ -26437,8 +26529,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 15898,
       "views": 22242,
       "reach": 0,
-      "eng": 151,
-      "er": 0.13,
+      "eng": 547,
+      "er": 0.48,
       "spend": 100.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -26920,9 +27012,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1733,
       "views": 65520,
       "reach": 0,
-      "eng": 63,
-      "er": 0.09,
-      "spend": 0,
+      "eng": 13650,
+      "er": 20.44,
+      "spend": 179.29,
       "watchTimeMin": 11943.2,
       "clicks": null,
       "ctr": 0.0,
@@ -27380,9 +27472,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 2770,
       "views": 58879,
       "reach": 0,
-      "eng": 153,
-      "er": 0.26,
-      "spend": 0,
+      "eng": 25995,
+      "er": 43.38,
+      "spend": 179.76,
       "watchTimeMin": 11532.1,
       "clicks": null,
       "ctr": 0.0,
@@ -27426,8 +27518,8 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 6740,
       "views": 22574,
       "reach": 0,
-      "eng": 149,
-      "er": 0.17,
+      "eng": 633,
+      "er": 0.74,
       "spend": 74.41,
       "watchTimeMin": null,
       "clicks": null,
@@ -27888,12 +27980,12 @@ window.POSTS_BY_CAMPAIGN = {
       "reach": 0,
       "eng": 222,
       "er": 0.26,
-      "spend": 0,
+      "spend": 95.96,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 1.32,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2031837566417113541",
@@ -28003,12 +28095,12 @@ window.POSTS_BY_CAMPAIGN = {
       "reach": 0,
       "eng": 333,
       "er": 1.0,
-      "spend": 0,
+      "spend": 66.07,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 4.27,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2034378056400355565",
@@ -28047,9 +28139,9 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 2396,
       "views": 48356,
       "reach": 0,
-      "eng": 71,
-      "er": 0.14,
-      "spend": 0,
+      "eng": 15553,
+      "er": 31.4,
+      "spend": 179.44,
       "watchTimeMin": 9122.8,
       "clicks": null,
       "ctr": 0.0,
@@ -28348,12 +28440,12 @@ window.POSTS_BY_CAMPAIGN = {
       "reach": 0,
       "eng": 1033,
       "er": 1.11,
-      "spend": 0,
+      "spend": 99.02,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 1.34,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2036911003083170204",
@@ -30591,6 +30683,52 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-05-05T13:30:14-07:00"
     },
     {
+      "title": "Snapchat Spotlight \u2014 Cuban (5/5)",
+      "platform": "Snapchat",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 2252,
+      "paidImpr": 0,
+      "orgImpr": 2252,
+      "views": 2252,
+      "reach": 0,
+      "eng": 2060,
+      "er": 91.47,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYZXZ0emVwbnd4AZ37FoP4AZ37Fk-lAAAAAw",
+      "postedAt": "2026-05-05T19:20:36-07:00"
+    },
+    {
+      "title": "Snapchat Highlight \u2014 Cuban (5/6)",
+      "platform": "Snapchat",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 3,
+      "paidImpr": 0,
+      "orgImpr": 3,
+      "views": 3,
+      "reach": 0,
+      "eng": 2,
+      "er": 66.67,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.snapchat.com/@fossnap/highlight/a0cf513e-a9f7-5958-8ba1-d2dbc38a097f",
+      "postedAt": "2026-05-06T05:34:31-07:00"
+    },
+    {
       "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -31003,6 +31141,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": "2026-05-20T16:08:23-07:00"
+    },
+    {
+      "title": "Snapchat Spotlight \u2014 Cuban (5/21)",
+      "platform": "Snapchat",
+      "accountName": null,
+      "distKind": "organic",
+      "impr": 3864,
+      "paidImpr": 0,
+      "orgImpr": 3864,
+      "views": 3864,
+      "reach": 0,
+      "eng": 3311,
+      "er": 85.69,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.snapchat.com/@fossnap/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYdmlubXZ1c3JsAZ5LizLqAZ5Liw_ZAAAAAw",
+      "postedAt": "2026-05-21T10:17:45-07:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise \ud83c\udfc0  He joins us on the new episode of Portfolio Players presented by @etrade_fr",
@@ -46475,7 +46636,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "etrade_yt_paid.csv",
-    "fileSizeKb": 9.4,
+    "fileSizeKb": 9.6,
     "lastModified": "2026-11-06",
     "exists": true,
     "postsContributed": 18
@@ -50888,22 +51049,22 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.77,
+    "cpm": 2.82,
     "impressions": 11428380,
     "paidImpressions": 11159319,
     "pctOfTotal": 11.5,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -13.5,
+    "mvmDeltaPct": -12.0,
     "color": "#FF0033"
   },
   {
     "name": "X",
-    "cpm": 1.96,
+    "cpm": 2.02,
     "impressions": 6298688,
     "paidImpressions": 4459183,
     "pctOfTotal": 6.4,
     "mvmCpm": 1.24,
-    "mvmDeltaPct": 57.8,
+    "mvmDeltaPct": 62.5,
     "color": "#1d1d1f"
   },
   {
@@ -50938,7 +51099,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.08;
+window.PORTFOLIO_CPM_BLEND = 2.09;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
