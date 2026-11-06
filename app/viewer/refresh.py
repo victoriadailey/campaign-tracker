@@ -696,6 +696,7 @@ def main() -> int:
                 for g in (ep.get("group_ids") or [])
             ],
             budget_includes_added_value=bool(c.get("budget_includes_added_value", False)),
+            posts_exclude_preroll=bool(c.get("posts_exclude_preroll", False)),
         )
         ms_ts, exports_ts = _campaign_last_updated(c, exports_root)
         posts = posts_by_campaign.get(cc.id, [])

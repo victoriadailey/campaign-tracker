@@ -152,6 +152,10 @@ class CampaignConfig:
     # Morgan & Morgan: the Dan Morgan / Audi Crooks run is added value on
     # impressions but its boost spend still draws down the $5K budget.
     budget_includes_added_value: bool = False
+    # Card "posts" count excludes YouTube pre-roll rows. Those are Google Ads
+    # campaign lines (one per episode, no post URL), not social posts; the table
+    # still lists them, only the headline post count leaves them out.
+    posts_exclude_preroll: bool = False
 
 
 _BRANDX_OBJECTIVE_SYNONYMS = {
@@ -370,7 +374,8 @@ def rollup_campaign(
         er=round(er, 2),
         cpm=round(cpm, 2),
         episodes=0,
-        posts=len(posts),
+        posts=len(posts) - (sum(1 for p in posts if _is_yt_preroll_post(p))
+                            if config.posts_exclude_preroll else 0),
         blurb=config.blurb,
         benchmark_category=config.benchmark_category,
         lifecycle=config.lifecycle,  # type: ignore[arg-type]

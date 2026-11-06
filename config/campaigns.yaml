@@ -111,6 +111,9 @@ campaigns:
     # X: MS organic baseline + X Ads paid delivery/engagements added on top
     # (engagements floored at MS's own total).
     x_use_ms_organic_split: true
+    # Card post count leaves out the 18 YouTube pre-roll rows (Google Ads
+    # campaign lines, not posts). The table still lists them.
+    posts_exclude_preroll: true
     type: content
     benchmark_category: "Original Content"
     lifecycle: active
