@@ -382,11 +382,12 @@ campaigns:
         exclude: []
       - id: ep19
         n: "Ep. 19"
-        title: "TBD"
-        date: "TBD"
-        # Guest not yet announced — the User Tag catches posts until a name +
-        # keywords can be added.
-        match: ["PP Episode 19 -"]
+        title: "Jeremy Bloom"
+        date: "Nov 3"
+        # X Games CEO. Cutdowns are quote-titled ("…value creators…company
+        # makers", "…counterculture…") but name him / X Games in the body.
+        # Not bare "Bloom" — it would catch Bloomberg.
+        match: ["PP Episode 19 -", "Jeremy Bloom", "X Games"]
         exclude: []
       - id: ep20
         n: "Ep. 20"
