@@ -1,8 +1,10 @@
 """YouTube Studio — organic content export parser.
 
-For channels Measure Studio can't connect (e.g. the FOS Tonight YouTube
-account), the team exports the per-video table straight from YouTube Studio
-(Analytics → Content → export) and uploads it. One row per video, plus a
+For channels Measure Studio can't connect — or videos where it can't report
+thumbnail impressions (e.g. the FOS Tonight YouTube account) — the team exports
+the per-video table straight from YouTube Studio (Analytics → Content →
+export) and uploads it. When MS has a twin for a video, refresh.py folds the
+export into the MS post (`_merge_youtube_organic_export_into_ms`). One row per video, plus a
 leading "Total" row that we skip.
 
 Columns used:

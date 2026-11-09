@@ -558,6 +558,7 @@ def main() -> int:
     # here so it can re-feed the merge step. See `cross_group_added` below.
     # ---------- Cross-group manual_posts (early) ----------
     cross_group_added: dict[str, list[NormalizedPost]] = {}
+    pinned_ms_added: dict[str, list[NormalizedPost]] = {}
     if ms_client is not None:
         # Platform hints by native-ID shape — speeds up the per-account scan.
         import re as _re
@@ -579,6 +580,29 @@ def main() -> int:
                 if p.post_id_native
             }
             added_here: list[NormalizedPost] = []
+            # Campaign-level pins: MS posts that belong to the campaign but aren't
+            # in its MS group (e.g. a YouTube channel connected to MS after the
+            # group was built). Fetched by native id, then merged with any
+            # matching YouTube Studio export row (see below).
+            _ms_have = {
+                str(p.post_id_native) for p in posts_by_campaign.get(c_id, [])
+                if p.post_id_native and p.source is Source.MEASURE_STUDIO
+            }
+            for pinned in ((c.get("sources") or {}).get("measure_studio_post_ids") or []):
+                pinned_str = str(pinned)
+                # Only an MS-sourced post counts as "already loaded" — an
+                # export row carries the same video id but is not the MS twin.
+                if pinned_str in _ms_have:
+                    continue
+                found = ms_client.find_post_by_native_id(
+                    pinned_str, platform_hint=_platform_hint(pinned_str))
+                if found is not None:
+                    posts_by_campaign[c_id].append(found)
+                    existing_native_ids.add(pinned_str)
+                    pinned_ms_added.setdefault(c_id, []).append(found)
+                else:
+                    parse_warnings.append(
+                        f"[{c_id}] measure_studio_post_ids: {pinned_str} not found in Measure Studio")
             for ep in c.get("episodes", []) or []:
                 for pinned in (ep.get("manual_posts") or []):
                     pinned_str = str(pinned)
@@ -614,6 +638,13 @@ def main() -> int:
             posts_by_campaign[c_id] = _merge_linkedin_ads_into_ms(posts_by_campaign[c_id])
         if Platform.FACEBOOK in platforms_added:
             posts_by_campaign[c_id] = _merge_facebook_organic_paid_pairs(posts_by_campaign[c_id])
+
+    # YouTube Studio export ↔ Measure: once a channel is connected to MS, each
+    # export row has an MS twin. Fold the export into it (MS wins; the export
+    # only fills what MS can't report, mainly thumbnail impressions) so the
+    # video isn't counted twice. Export rows with no MS twin stay as-is.
+    for c_id in list(posts_by_campaign):
+        posts_by_campaign[c_id] = _merge_youtube_organic_export_into_ms(posts_by_campaign[c_id])
 
     # ---------- Campaign-level exclude ----------
     # Drop posts matching a campaign's `exclude` keyword list from the campaign
@@ -1757,6 +1788,63 @@ def _youtube_video_id(url: str | None) -> str | None:
         return None
     m = _YT_VIDEO_ID.search(url)
     return m.group(1) if m else None
+
+
+def _ms_reports_youtube_impressions(p: NormalizedPost) -> bool:
+    """True when MS carries a REAL YouTube impressions stat for this post.
+
+    MS's client falls back to views for organic Shorts (the "views-as-
+    impressions floor"), which is not thumbnail impressions — so only the raw
+    stats count here, not `impressions_total`.
+    """
+    stats = (p.raw or {}).get("stats") or {}
+    for k in ("impressions_total", "impressions", "impressions_organic", "organic_impression_count"):
+        try:
+            if float(stats.get(k) or 0) > 0:
+                return True
+        except (TypeError, ValueError):
+            continue
+    return False
+
+
+def _merge_youtube_organic_export_into_ms(posts: list[NormalizedPost]) -> list[NormalizedPost]:
+    """Fold YouTube Studio export rows into their Measure Studio twin (by video ID).
+
+    The MS post is the surviving row (identity, title, date, format). Metrics:
+      • impressions — MS when it reports a real impressions stat, else the
+        export's Thumbnail impressions (MS often can't populate these);
+      • views / engagements — MS when present, else the export.
+    The export row is dropped so the video isn't double-counted. Export rows
+    with no MS twin are left untouched (the export remains the fallback).
+    """
+    ms_by_vid: dict[str, NormalizedPost] = {}
+    for p in posts:
+        if p.source is Source.MEASURE_STUDIO and p.platform is Platform.YOUTUBE:
+            vid = p.post_id_native if (p.post_id_native and len(str(p.post_id_native)) == 11) \
+                else _youtube_video_id(p.post_url)
+            if vid:
+                ms_by_vid[str(vid)] = p
+    if not ms_by_vid:
+        return posts
+
+    out: list[NormalizedPost] = []
+    for e in posts:
+        twin = ms_by_vid.get(str(e.post_id_native)) if e.source is Source.YOUTUBE_ORGANIC else None
+        if twin is None:
+            out.append(e)
+            continue
+        if not _ms_reports_youtube_impressions(twin) and e.impressions_total is not None:
+            twin.impressions_organic = e.impressions_total
+            twin.impressions_total = (twin.impressions_paid or 0) + e.impressions_total
+        if twin.views_total is None and e.views_total is not None:
+            twin.views_total = e.views_total
+            twin.views_organic = e.views_organic
+        if twin.engagements_total is None and e.engagements_total is not None:
+            twin.engagements_total = e.engagements_total
+            twin.engagements_organic = e.engagements_organic
+        imp = twin.impressions_total
+        twin.er = (twin.engagements_total / imp) if (imp and twin.engagements_total is not None) else twin.er
+    return [p for p in out]
 
 
 def _load_youtube_organic_overrides(path: Path) -> dict[str, int]:

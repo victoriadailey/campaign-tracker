@@ -1971,11 +1971,21 @@ campaigns:
     lead_format: Social Video
     blurb: Stifel x FOS Tonight native social coverage
     sources:
-      # No paid YouTube on this campaign, and the FOS Tonight YouTube channel
-      # isn't connected to Measure Studio — organic videos come from a YouTube
-      # Studio content export (Thumbnail impressions = organic impressions).
+      # No paid YouTube on this campaign. The FOS Tonight YouTube channel is now
+      # connected to Measure Studio, but its Stifel videos aren't in group 9369,
+      # so they're pulled in by video ID below. Measure supplies views /
+      # engagements / title / date; the YouTube Studio export (Thumbnail
+      # impressions = organic impressions) fills in impressions wherever Measure
+      # has no real impressions stat, and stays the fallback for any video not
+      # matched in Measure.
       youtube_organic:
         - stifel_fostonight_yt_organic.csv
+      measure_studio_post_ids:
+        - DZdl2qc76Is   # Short — Lindsey Vonn back on the Stifel US Ski Team roster (10/9)
+        - q7BSD9-ovkU   # Mikaela Shiffrin + Stifel CEO Ron Kruszewski, full interview (9/18)
+        - agq0C-kRF04   # Short — Shiffrin interviews Kruszewski (9/18)
+        - yZT7mkD40ko   # Short — Kruszewski + Ozzie Smith on the Charity Classic (10/27)
+        - NE0y0eIvDkk   # How the Stifel Charity Classic Is Bringing St. Louis Together (10/23)
       measure_studio_group_ids:
         - 9369
     # Meta added a Facebook placement to the boosted Instagram post; MS reports
