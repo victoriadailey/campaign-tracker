@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-09T16:02:20Z";
+window.LAST_REFRESHED = "2026-11-09T18:48:53Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:52Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:52Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:52Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:52Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:52Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:19Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4848,7 +4848,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5062,7 +5062,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5077,23 +5077,23 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 4109371,
+      "delivered": 4151011,
       "goal": 5600000
     },
     "budget": {
-      "delivered": 11360.69,
+      "delivered": 11363.18,
       "goal": 22634.0
     },
     "color": "ft-4",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 7.85,
+    "er": 7.81,
     "cpm": 2.93,
     "episodes": 0,
-    "posts": 12,
+    "posts": 15,
     "blurb": "An 8 video series with external creator, Evan Hand",
-    "views": 4036339,
-    "engagements": 322491,
+    "views": 4089341,
+    "engagements": 324272,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -5101,8 +5101,8 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 3048141,
-        "eng": 227824,
+        "impressions": 3049041,
+        "eng": 227857,
         "er": 7.47,
         "cpm": 1.89,
         "color": "#FF0033",
@@ -5111,24 +5111,40 @@ window.CAMPAIGNS = [
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 33451,
-        "views": 3015377
+        "organicImpressions": 34351,
+        "views": 3016519
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1061230,
-        "eng": 94667,
-        "er": 8.92,
+        "impressions": 1101640,
+        "eng": 96351,
+        "er": 8.75,
         "cpm": 6.55,
         "color": "#E4405F",
-        "delta": 169.5,
+        "delta": 164.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 198166,
-        "views": 1020962
+        "organicImpressions": 238576,
+        "views": 1061372
+      },
+      {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 330,
+        "eng": 64,
+        "er": 19.39,
+        "cpm": 7.55,
+        "color": "#1877F2",
+        "delta": 1167.6,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 0,
+        "views": 11450
       }
     ],
     "topPosts": [
@@ -5149,8 +5165,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-10-09T13:33:05-07:00"
       },
       {
-        "id": "3999294042675348120",
+        "id": "1310529524478129",
         "rank": 2,
+        "partner": "Accenture",
+        "platform": "Facebook",
+        "format": "Feed video",
+        "quote": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s\u2026",
+        "er": 19.39,
+        "eng": 64,
+        "reach": 11450,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.facebook.com/1310529524478129/",
+        "postedAt": "2026-10-28T07:12:34-07:00"
+      },
+      {
+        "id": "3999294042675348120",
+        "rank": 3,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5166,7 +5198,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4009440799699985922",
-        "rank": 3,
+        "rank": 4,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5182,7 +5214,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "3994220467938265641",
-        "rank": 4,
+        "rank": 5,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5198,7 +5230,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "3981838900760154441",
-        "rank": 5,
+        "rank": 6,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5211,6 +5243,22 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
         "postedAt": "2026-09-08T11:30:06-07:00"
+      },
+      {
+        "id": "4024766821253507849",
+        "rank": 7,
+        "partner": "Accenture",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Real Madrid spent over $1.5 billion transforming the Santiago Bernab\u00e9u, which hosted Spain\u2019s\u2026",
+        "er": 4.17,
+        "eng": 1684,
+        "reach": 40410,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
+        "postedAt": "2026-11-06T16:03:16-08:00"
       }
     ],
     "topPostsOrganic": [],
@@ -5218,8 +5266,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "Instagram at 8.9% ER \u2014 2.7\u00d7 the benchmark.",
-        "body": "1.1M impressions, 95K engagements at 8.9% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "Instagram at 8.8% ER \u2014 2.6\u00d7 the benchmark.",
+        "body": "1.1M impressions, 96K engagements at 8.8% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "Accenture \u00b7 Instagram"
       }
     ],
@@ -5228,7 +5276,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5394,7 +5442,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5518,7 +5566,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5933,7 +5981,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6233,7 +6281,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6390,7 +6438,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6529,7 +6577,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6679,7 +6727,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-11-06T20:51:31Z"
   },
   {
@@ -6844,7 +6892,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7070,7 +7118,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7290,27 +7338,59 @@ window.CAMPAIGNS = [
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 1143936,
+      "delivered": 2500367,
       "goal": 4250000
     },
     "budget": {
-      "delivered": 2185.08,
+      "delivered": 3746.49,
       "goal": 6000.0
     },
     "color": "ft-10",
     "leadFormat": "Social Video",
-    "topChannel": "TikTok",
-    "er": 0.21,
-    "cpm": 1.91,
+    "topChannel": "YouTube",
+    "er": 0.72,
+    "cpm": 1.5,
     "episodes": 2,
     "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
-    "views": 579836,
-    "engagements": 2417,
+    "views": 582357,
+    "engagements": 17956,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
     "channels": [
+      {
+        "name": "YouTube In-feed",
+        "italic": "YouTube In-feed",
+        "impressions": 1335456,
+        "eng": 2256,
+        "er": 0.17,
+        "cpm": 0.77,
+        "color": "#E00922",
+        "delta": -66.2,
+        "bench": {
+          "er": 0.5,
+          "cpm": 0.55
+        },
+        "organicImpressions": 2865,
+        "views": 0
+      },
+      {
+        "name": "YouTube Pre-roll",
+        "italic": "YouTube Pre-roll",
+        "impressions": 13690,
+        "eng": 9014,
+        "er": 65.84,
+        "cpm": 13.91,
+        "color": "#B0061B",
+        "delta": -8.6,
+        "bench": {
+          "er": 72.0,
+          "cpm": 14.0
+        },
+        "organicImpressions": 0,
+        "views": 6262
+      },
       {
         "name": "TikTok",
         "italic": "Tok",
@@ -7328,36 +7408,20 @@ window.CAMPAIGNS = [
         "views": 574927
       },
       {
-        "name": "YouTube In-feed",
-        "italic": "YouTube In-feed",
-        "impressions": 246579,
-        "eng": 356,
-        "er": 0.14,
-        "cpm": 0.76,
-        "color": "#E00922",
-        "delta": -71.1,
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 311184,
+        "eng": 6413,
+        "er": 2.06,
+        "cpm": 2.26,
+        "color": "#FF0033",
+        "delta": -89.7,
         "bench": {
-          "er": 0.5,
-          "cpm": 0.55
-        },
-        "organicImpressions": 2865,
-        "views": 3874
-      },
-      {
-        "name": "YouTube Pre-roll",
-        "italic": "YouTube Pre-roll",
-        "impressions": 1868,
-        "eng": 1107,
-        "er": 59.26,
-        "cpm": 20.98,
-        "color": "#B0061B",
-        "delta": -17.7,
-        "bench": {
-          "er": 72.0,
-          "cpm": 14.0
+          "er": 20.0,
+          "cpm": 3.25
         },
         "organicImpressions": 0,
-        "views": 748
+        "views": 2808
       },
       {
         "name": "Facebook",
@@ -7390,22 +7454,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 0,
         "views": 0
-      },
-      {
-        "name": "YouTube Shorts",
-        "italic": "YouTube Shorts",
-        "impressions": 55452,
-        "eng": 681,
-        "er": 1.23,
-        "cpm": 2.3,
-        "color": "#FF0033",
-        "delta": -93.9,
-        "bench": {
-          "er": 20.0,
-          "cpm": 3.25
-        },
-        "organicImpressions": 0,
-        "views": 287
       }
     ],
     "topPosts": [],
@@ -7421,8 +7469,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "Campaign averaging 0.21% ER \u2014 below the 1% floor.",
-        "body": "0.21% engagement rate across 1.1M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "headline": "Campaign averaging 0.72% ER \u2014 below the 1% floor.",
+        "body": "0.72% engagement rate across 2.5M impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "New York Life Investment \u00b7 Engagement"
       }
     ],
@@ -7432,22 +7480,22 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Full Episode",
         "impressions": {
-          "delivered": 467055,
+          "delivered": 1567754,
           "goal": 3250000
         }
       },
       {
         "label": "FOS Explains Cutdown",
         "impressions": {
-          "delivered": 676881,
+          "delivered": 932613,
           "goal": 1000000
         }
       }
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T16:02:20Z",
-    "lastUpdatedExports": "2026-11-06T19:31:29Z"
+    "lastUpdatedMs": "2026-11-09T18:48:53Z",
+    "lastUpdatedExports": "2026-11-09T18:47:42Z"
   }
 ];
 
@@ -7501,8 +7549,24 @@ window.TOP_POSTS = [
     "postedAt": null
   },
   {
-    "id": "4016628135160160413",
+    "id": "1310529524478129",
     "rank": 4,
+    "partner": "Accenture",
+    "platform": "Facebook",
+    "format": "Feed video",
+    "quote": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s\u2026",
+    "er": 19.39,
+    "eng": 64,
+    "reach": 11450,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.facebook.com/1310529524478129/",
+    "postedAt": "2026-10-28T07:12:34-07:00"
+  },
+  {
+    "id": "4016628135160160413",
+    "rank": 5,
     "partner": "Just Ingredients",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7518,7 +7582,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "4017474141603085265",
-    "rank": 5,
+    "rank": 6,
     "partner": "Zoom",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7534,7 +7598,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "urn:li:ugcPost:7465149569601941504",
-    "rank": 6,
+    "rank": 7,
     "partner": "Thrivent",
     "platform": "LinkedIn",
     "format": "Other",
@@ -7550,7 +7614,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "3999294042675348120",
-    "rank": 7,
+    "rank": 8,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7563,22 +7627,6 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
     "postedAt": "2026-10-02T13:33:14-07:00"
-  },
-  {
-    "id": "2061160786773545022",
-    "rank": 8,
-    "partner": "RBC",
-    "platform": "X",
-    "format": "Feed video",
-    "quote": "\u201cTST brought that joy and love back, but it also made me realize that this is where I belong.\u201d\u2060 \u2060\u2026",
-    "er": 15.22,
-    "eng": 66321,
-    "reach": 5056,
-    "organic": 100,
-    "metric": "er",
-    "insight": "",
-    "url": "https://twitter.com/FOS/status/2061160786773545022",
-    "postedAt": "2026-05-31T12:00:00-07:00"
   }
 ];
 
@@ -7685,18 +7733,18 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 122973979,
-    "eng": 2822234,
-    "er": 2.29,
-    "cpm": 1.15,
+    "impressions": 124319488,
+    "eng": 2829899,
+    "er": 2.28,
+    "cpm": 1.14,
     "color": "#E00922",
-    "delta": -88.5,
+    "delta": -88.6,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 25851604
+    "views": 25855267
   },
   {
     "name": "TikTok",
@@ -7717,18 +7765,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 35828782,
-    "eng": 646799,
+    "impressions": 35869192,
+    "eng": 648483,
     "er": 1.81,
     "cpm": 4.5,
     "color": "#E4405F",
-    "delta": -45.5,
+    "delta": -45.4,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 33177577
+    "views": 33217987
   },
   {
     "name": "X",
@@ -7749,8 +7797,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8573063,
-    "eng": 31055,
+    "impressions": 8573393,
+    "eng": 31119,
     "er": 0.36,
     "cpm": 3.72,
     "color": "#1877F2",
@@ -7760,7 +7808,7 @@ window.CHANNELS = [
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 1603775
+    "views": 1615225
   },
   {
     "name": "LinkedIn",
@@ -7869,8 +7917,8 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Instagram at 8.9% ER \u2014 2.7\u00d7 the benchmark.",
-    "body": "1.1M impressions, 95K engagements at 8.9% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+    "headline": "Instagram at 8.8% ER \u2014 2.6\u00d7 the benchmark.",
+    "body": "1.1M impressions, 96K engagements at 8.8% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
     "meta": "Accenture \u00b7 Instagram",
     "campaignId": "accenture_external_creator",
     "campaignPartner": "Accenture"
@@ -25111,26 +25159,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "How NIL Deals Really Work",
       "date": "Nov 4",
       "total": {
-        "impr": 467055,
+        "impr": 1567754,
         "views": 4622,
-        "er": 0.1,
-        "eng": 1553,
-        "spend": 789.32
+        "er": 0.15,
+        "eng": 11360,
+        "spend": 1776.6
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 246579,
-          "paidImpr": 243714,
+          "impr": 1335456,
+          "paidImpr": 1332591,
           "orgImpr": 2865,
-          "views": 3874,
-          "eng": 356,
-          "paidEng": 342,
+          "views": 0,
+          "eng": 2256,
+          "paidEng": 2242,
           "orgEng": 14,
-          "er": 0.14,
-          "cpm": 0.76,
-          "spend": 185.36,
+          "er": 0.17,
+          "cpm": 0.77,
+          "spend": 1021.44,
           "posts": 1
         },
         {
@@ -25166,16 +25214,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Pre-roll",
           "distKind": "paid",
-          "impr": 1868,
-          "paidImpr": 1868,
+          "impr": 13690,
+          "paidImpr": 13690,
           "orgImpr": 0,
-          "views": 748,
-          "eng": 1107,
-          "paidEng": 1107,
+          "views": 6262,
+          "eng": 9014,
+          "paidEng": 9014,
           "orgEng": 0,
-          "er": 59.26,
-          "cpm": 20.98,
-          "spend": 39.19,
+          "er": 65.84,
+          "cpm": 13.91,
+          "spend": 190.39,
           "posts": 1
         }
       ],
@@ -25185,13 +25233,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 246579,
-          "paidImpr": 243714,
+          "impr": 1335456,
+          "paidImpr": 1332591,
           "orgImpr": 2865,
-          "views": 3874,
-          "eng": 356,
-          "er": 0.14,
-          "spend": 185.36,
+          "views": 0,
+          "eng": 2256,
+          "er": 0.17,
+          "spend": 1021.44,
           "url": "https://youtu.be/QgXx6XEsDiE",
           "postedAt": "2026-11-04T12:01:41-08:00"
         },
@@ -25200,13 +25248,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Pre-roll",
           "accountName": null,
           "distKind": "paid",
-          "impr": 1868,
-          "paidImpr": 1868,
+          "impr": 13690,
+          "paidImpr": 13690,
           "orgImpr": 0,
-          "views": 748,
-          "eng": 1107,
-          "er": 59.26,
-          "spend": 39.19,
+          "views": 6262,
+          "eng": 9014,
+          "er": 65.84,
+          "spend": 190.39,
           "url": null,
           "postedAt": null
         },
@@ -25250,11 +25298,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "How does an NIL deal come together?",
       "date": "Nov 5",
       "total": {
-        "impr": 676881,
-        "views": 575214,
-        "er": 0.13,
-        "eng": 864,
-        "spend": 1395.76
+        "impr": 932613,
+        "views": 577735,
+        "er": 0.71,
+        "eng": 6596,
+        "spend": 1969.89
       },
       "perChannel": [
         {
@@ -25275,16 +25323,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "paid",
-          "impr": 55452,
-          "paidImpr": 55452,
+          "impr": 311184,
+          "paidImpr": 311184,
           "orgImpr": 0,
-          "views": 287,
-          "eng": 681,
-          "paidEng": 681,
+          "views": 2808,
+          "eng": 6413,
+          "paidEng": 6413,
           "orgEng": 0,
-          "er": 1.23,
-          "cpm": 2.3,
-          "spend": 127.76,
+          "er": 2.06,
+          "cpm": 2.26,
+          "spend": 701.89,
           "posts": 1
         }
       ],
@@ -25294,13 +25342,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "paid",
-          "impr": 55452,
-          "paidImpr": 55452,
+          "impr": 311184,
+          "paidImpr": 311184,
           "orgImpr": 0,
-          "views": 287,
-          "eng": 681,
-          "er": 1.23,
-          "spend": 127.76,
+          "views": 2808,
+          "eng": 6413,
+          "er": 2.06,
+          "spend": 701.89,
           "url": "https://www.youtube.com/shorts/BFFa_l3FbZw",
           "postedAt": "2026-11-05T12:53:29-08:00"
         },
@@ -44031,6 +44079,75 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/-buDsBSyCkE",
       "postedAt": "2026-10-23T12:30:31-07:00"
+    },
+    {
+      "title": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s history.\u2060 \u2060 Presente",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "paid",
+      "impr": 330,
+      "paidImpr": 330,
+      "orgImpr": 0,
+      "views": 11450,
+      "reach": 0,
+      "eng": 64,
+      "er": 19.39,
+      "spend": 2.49,
+      "watchTimeMin": 5022.4,
+      "clicks": 72,
+      "ctr": 21.82,
+      "cpc": 0.03,
+      "cpm": 7.55,
+      "videoViews100Pct": 6,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1310529524478129/",
+      "postedAt": "2026-10-28T07:12:34-07:00"
+    },
+    {
+      "title": "Why the NFL is playing in Madrid ($1.5B stadium renovation)",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 900,
+      "paidImpr": 0,
+      "orgImpr": 900,
+      "views": 1142,
+      "reach": 0,
+      "eng": 33,
+      "er": 3.67,
+      "spend": 0,
+      "watchTimeMin": 381.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/hKWFlv_mivw",
+      "postedAt": "2026-11-06T15:00:35-08:00"
+    },
+    {
+      "title": "Real Madrid spent over $1.5 billion transforming the Santiago Bernab\u00e9u, which hosted Spain\u2019s first-ever NFL game in 2025",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 40410,
+      "paidImpr": 0,
+      "orgImpr": 40410,
+      "views": 40410,
+      "reach": 32462,
+      "eng": 1684,
+      "er": 4.17,
+      "spend": 0,
+      "watchTimeMin": 216.2,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
+      "postedAt": "2026-11-06T16:03:16-08:00"
     }
   ],
   "daktronics_stadiumstatus": [
@@ -46248,19 +46365,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 246579,
-      "paidImpr": 243714,
+      "impr": 1335456,
+      "paidImpr": 1332591,
       "orgImpr": 2865,
-      "views": 3874,
+      "views": 0,
       "reach": 0,
-      "eng": 356,
-      "er": 0.14,
-      "spend": 185.36,
+      "eng": 2256,
+      "er": 0.17,
+      "spend": 1021.44,
       "watchTimeMin": 5586.0,
       "clicks": 643,
       "ctr": 50.83,
       "cpc": 1.76,
-      "cpm": 0.76,
+      "cpm": 0.77,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/QgXx6XEsDiE",
@@ -46271,19 +46388,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 1868,
-      "paidImpr": 1868,
+      "impr": 13690,
+      "paidImpr": 13690,
       "orgImpr": 0,
-      "views": 748,
+      "views": 6262,
       "reach": 0,
-      "eng": 1107,
-      "er": 59.26,
-      "spend": 39.19,
+      "eng": 9014,
+      "er": 65.84,
+      "spend": 190.39,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 20.98,
+      "cpm": 13.91,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -46340,19 +46457,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "paid",
-      "impr": 55452,
-      "paidImpr": 55452,
+      "impr": 311184,
+      "paidImpr": 311184,
       "orgImpr": 0,
-      "views": 287,
+      "views": 2808,
       "reach": 0,
-      "eng": 681,
-      "er": 1.23,
-      "spend": 127.76,
+      "eng": 6413,
+      "er": 2.06,
+      "spend": 701.89,
       "watchTimeMin": 1794.0,
       "clicks": 151,
       "ctr": 50.75,
       "cpc": 4.41,
-      "cpm": 2.3,
+      "cpm": 2.26,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/BFFa_l3FbZw",
@@ -47855,7 +47972,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "nylim_fosexplains_yt_paid.csv",
-    "fileSizeKb": 0.4,
+    "fileSizeKb": 0.5,
     "lastModified": "2026-11-09",
     "exists": true,
     "postsContributed": 1
@@ -51559,19 +51676,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.64,
-    "impressions": 40325929,
-    "paidImpressions": 38275281,
-    "pctOfTotal": 40.1,
+    "impressions": 41414806,
+    "paidImpressions": 39364158,
+    "pctOfTotal": 40.6,
     "mvmCpm": 0.53,
-    "mvmDeltaPct": 20.2,
+    "mvmDeltaPct": 20.9,
     "color": "#E00922"
   },
   {
     "name": "Instagram",
     "cpm": 4.43,
-    "impressions": 19306049,
+    "impressions": 19346459,
     "paidImpressions": 16824358,
-    "pctOfTotal": 19.2,
+    "pctOfTotal": 19.0,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.2,
     "color": "#E4405F"
@@ -51581,19 +51698,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 1.57,
     "impressions": 17182964,
     "paidImpressions": 10114590,
-    "pctOfTotal": 17.1,
+    "pctOfTotal": 16.8,
     "mvmCpm": 2.24,
     "mvmDeltaPct": -29.8,
     "color": "#000000"
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.79,
-    "impressions": 11595733,
-    "paidImpressions": 11324927,
-    "pctOfTotal": 11.5,
+    "cpm": 2.78,
+    "impressions": 11852365,
+    "paidImpressions": 11580659,
+    "pctOfTotal": 11.6,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -12.7,
+    "mvmDeltaPct": -13.1,
     "color": "#FF0033"
   },
   {
@@ -51601,19 +51718,19 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 2.02,
     "impressions": 6427585,
     "paidImpressions": 4568112,
-    "pctOfTotal": 6.4,
+    "pctOfTotal": 6.3,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 63.0,
     "color": "#1d1d1f"
   },
   {
     "name": "Facebook",
-    "cpm": 3.5,
-    "impressions": 2760218,
-    "paidImpressions": 2487614,
+    "cpm": 3.51,
+    "impressions": 2760548,
+    "paidImpressions": 2487944,
     "pctOfTotal": 2.7,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -16.6,
+    "mvmDeltaPct": -16.5,
     "color": "#1877F2"
   },
   {
@@ -51621,7 +51738,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
     "cpm": 0.0,
     "impressions": 1976679,
     "paidImpressions": 0,
-    "pctOfTotal": 2.0,
+    "pctOfTotal": 1.9,
     "mvmCpm": null,
     "mvmDeltaPct": null,
     "color": "#0A66C2"
@@ -51629,16 +51746,16 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Pre-roll",
     "cpm": 12.07,
-    "impressions": 1069316,
-    "paidImpressions": 1069316,
+    "impressions": 1081138,
+    "paidImpressions": 1081138,
     "pctOfTotal": 1.1,
     "mvmCpm": 11.91,
-    "mvmDeltaPct": 1.3,
+    "mvmDeltaPct": 1.4,
     "color": "#B0061B"
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.09;
+window.PORTFOLIO_CPM_BLEND = 2.08;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
