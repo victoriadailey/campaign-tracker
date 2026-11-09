@@ -8,72 +8,11 @@ const { useState: useStateB } = React;
 // ============================================================
 
 function BenchmarksPage() {
-  const data = window.BENCHMARKS_DATA || {};
-  const categories = data.categories || [];
-  const platformSummary = data.platformSummary || data.platform_summary || [];
-  const lastUpdated = data.lastUpdated || data.last_updated || '—';
-  const [openIdx, setOpenIdx] = useStateB(0);
-
-  const hasLive = !!(data.live && (data.live.campaigns || []).length);
-
-  return (
-    <>
-      <LiveBenchmarks/>
-
-      {!hasLive && (
-        <PageHead
-          overline={`FOS Internal · Last updated ${lastUpdated}`}
-          title="Benchmarks"
-          italic="by category."
-          sub={<>Engagement rate benchmarks across content types, drawn from completed FOS campaigns. <strong>Sponsored-only</strong> is the true benchmark for current work; <strong>all-content</strong> shown as a broader reference.</>}
-        />
-      )}
-
-      {/* PLATFORM SUMMARY */}
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div className="sec-title">Platform <em>benchmarks (2025)</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Aggregate ER% across all FOS social activity.</div>
-          </div>
-        </div>
-        <PlatformSummaryTable rows={platformSummary}/>
-      </div>
-
-      {/* CATEGORY NAV CHIPS */}
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div className="sec-title">By <em>category</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Click a category to jump to its detail.</div>
-          </div>
-        </div>
-        <div style={{display:'flex', flexWrap:'wrap', gap:8, marginBottom:24}}>
-          {categories.map((cat, i) => (
-            <button
-              key={i}
-              onClick={() => { setOpenIdx(i); document.getElementById(`cat-${i}`)?.scrollIntoView({behavior:'smooth', block:'start'}); }}
-              style={{
-                fontFamily:'inherit', fontSize:12, fontWeight:500,
-                padding:'7px 14px', borderRadius:999,
-                background: i === openIdx ? 'var(--liquorice)' : 'var(--surface)',
-                color: i === openIdx ? 'var(--cream)' : 'var(--ink)',
-                border:`1px solid ${i === openIdx ? 'var(--liquorice)' : 'var(--line)'}`,
-                cursor:'pointer'
-              }}
-            >
-              {shortCategoryName(cat.name)}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* CATEGORY SECTIONS */}
-      {categories.map((cat, i) => (
-        <CategorySection key={i} cat={cat} idx={i}/>
-      ))}
-    </>
-  );
+  // The legacy static tables (Platform benchmarks 2025 + per-category detail
+  // from social_benchmarks.csv, last updated 3/5/2025) have been retired — the
+  // Live Benchmarks model below is the single source, with fresher data and the
+  // per-category ER table as the canonical number to quote.
+  return <LiveBenchmarks/>;
 }
 
 // ══════════════════════════════════════════════════════════
@@ -114,10 +53,15 @@ function LiveBenchmarks() {
   const live = (window.BENCHMARKS_DATA && window.BENCHMARKS_DATA.live) || null;
   const F = {
     category: useStateB('All'), content_type: useStateB('All'), distribution: useStateB('All'),
-    tentpole: useStateB('All'), year: useStateB('All'), program: useStateB('All'),
+    tentpole: useStateB('All'), year: useStateB('All'), program: useStateB('Sponsored'),
     client: useStateB('All'), franchise: useStateB('All'), platform: useStateB('All'),
   };
-  const [compareTo, setCompareTo] = useStateB((live && live.platformSets && live.platformSets[0] && live.platformSets[0].name) || 'All');
+  // Default the Compare-To highlight to the current-year sponsored set — the
+  // most relevant reference for live client work — falling back to the first set.
+  const _sets = (live && live.platformSets) || [];
+  const [compareTo, setCompareTo] = useStateB(
+    (_sets.find(s => /2026/.test(s.name) && /sponsored/i.test(s.name)) || _sets[0] || {}).name || 'All'
+  );
   if (!live || !(live.campaigns || []).length) return null;
 
   const filters = live.filters || {};
@@ -146,6 +90,10 @@ function LiveBenchmarks() {
     cols.forEach(p => { platforms[p] = avgLive(members.map(c => c.platforms[p])); });
     return { name, platforms, all: avgLive(members.map(c => c.all)), n: members.length };
   });
+  // Drop platform columns that are empty for the current filter (all "—"), so
+  // the category table only shows platforms that actually ran. A single selected
+  // platform is always kept even if empty.
+  const visibleCols = onePlatform ? cols : cols.filter(p => catRows.some(r => r.platforms[p] != null));
 
   // Compare-To FOS benchmark set (for blue highlighting).
   const fos = (live.platformSets || []).find(s => s.name === compareTo) || null;
@@ -166,9 +114,11 @@ function LiveBenchmarks() {
     .sort((a, b) => (b.er ?? -1) - (a.er ?? -1));
 
   const cell = (v, fosBench) => {
-    const blue = (v != null && fosBench != null && v >= fosBench);
+    // Subtle flame tint (not bold) marks at/above the Compare-To set — a
+    // secondary reference; the per-category numbers are the canonical read.
+    const atBench = (v != null && fosBench != null && v >= fosBench);
     return (
-      <td className="num" style={{fontWeight: blue ? 700 : 400, color: blue ? 'var(--flame)' : 'var(--ink)'}}>
+      <td className="num" style={{fontWeight: 400, color: atBench ? 'var(--flame)' : 'var(--ink)'}}>
         {pctOrDash(v)}
       </td>
     );
@@ -219,8 +169,11 @@ function LiveBenchmarks() {
       <div className="sec">
         <div className="sec-h">
           <div>
-            <div className="sec-title">Benchmarks by <em>category</em></div>
-            <div className="sec-sub" style={{marginTop:6}}>Average ER of wrapped campaigns in each category. These are the numbers to quote.</div>
+            <div style={{display:'flex', alignItems:'center', gap:10, flexWrap:'wrap'}}>
+              <div className="sec-title">Benchmarks by <em>category</em></div>
+              <span style={{fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', fontWeight:700, textTransform:'uppercase', color:'var(--flame)', background:'rgba(224,122,63,0.12)', padding:'3px 8px', borderRadius:4}}>★ Canonical</span>
+            </div>
+            <div className="sec-sub" style={{marginTop:6}}>Average ER of wrapped campaigns in each category — <strong>the numbers to quote</strong>.{fos && fos.lastUpdated ? ` Compare-to set (${fos.name}) as of ${fos.lastUpdated}.` : ''}</div>
           </div>
         </div>
         <div className="card" style={{padding:0, overflow:'auto'}}>
@@ -228,20 +181,20 @@ function LiveBenchmarks() {
             <thead>
               <tr>
                 <th style={{textAlign:'left'}}>Category</th>
-                {cols.map(p => <th key={p} className="num" style={{textAlign:'right'}}>{p}</th>)}
-                <th className="num" style={{textAlign:'right', borderLeft:'1px solid var(--line)'}}>All</th>
+                {visibleCols.map(p => <th key={p} className="num" style={{textAlign:'right'}}>{p}</th>)}
+                <th className="num" style={{textAlign:'right', borderLeft:'2px solid var(--flame)', color:'var(--flame)'}}>All</th>
                 <th className="num" style={{textAlign:'right'}}>#</th>
               </tr>
             </thead>
             <tbody>
               {catRows.length === 0 && (
-                <tr><td colSpan={cols.length + 3} style={{color:'var(--ink-3)', padding:'16px'}}>No wrapped campaigns match these filters yet.</td></tr>
+                <tr><td colSpan={visibleCols.length + 3} style={{color:'var(--ink-3)', padding:'16px'}}>No wrapped campaigns match these filters yet.</td></tr>
               )}
               {catRows.map((r, i) => (
                 <tr key={i}>
                   <td style={{fontWeight:500, maxWidth:320}}>{r.name} <span style={{color:'var(--ink-3)', fontWeight:400}}>({r.n})</span></td>
-                  {cols.map(p => cell(r.platforms[p], fosVal(p)))}
-                  <td className="num" style={{fontWeight:600, borderLeft:'1px solid var(--line)'}}>{pctOrDash(r.all)}</td>
+                  {visibleCols.map(p => cell(r.platforms[p], fosVal(p)))}
+                  <td className="num" style={{fontWeight:700, borderLeft:'2px solid var(--flame)'}}>{pctOrDash(r.all)}</td>
                   <td className="num" style={{color:'var(--ink-3)'}}>{r.n}</td>
                 </tr>
               ))}
