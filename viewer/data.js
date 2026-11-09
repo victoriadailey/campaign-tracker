@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-09T19:53:53Z";
+window.LAST_REFRESHED = "2026-11-09T20:24:36Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:52Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4848,7 +4848,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5062,7 +5062,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5090,7 +5090,7 @@ window.CAMPAIGNS = [
     "er": 7.81,
     "cpm": 2.93,
     "episodes": 0,
-    "posts": 15,
+    "posts": 14,
     "blurb": "An 8 video series with external creator, Evan Hand",
     "views": 4089341,
     "engagements": 324272,
@@ -5117,34 +5117,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1101640,
-        "eng": 96351,
+        "impressions": 1101970,
+        "eng": 96415,
         "er": 8.75,
         "cpm": 6.55,
         "color": "#E4405F",
-        "delta": 164.2,
+        "delta": 164.3,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 238576,
-        "views": 1061372
-      },
-      {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 330,
-        "eng": 64,
-        "er": 19.39,
-        "cpm": 7.55,
-        "color": "#1877F2",
-        "delta": 1167.6,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 0,
-        "views": 11450
+        "views": 1072822
       }
     ],
     "topPosts": [
@@ -5165,24 +5149,8 @@ window.CAMPAIGNS = [
         "postedAt": "2026-10-09T13:33:05-07:00"
       },
       {
-        "id": "1310529524478129",
-        "rank": 2,
-        "partner": "Accenture",
-        "platform": "Facebook",
-        "format": "Feed video",
-        "quote": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s\u2026",
-        "er": 19.39,
-        "eng": 64,
-        "reach": 11450,
-        "organic": 0,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.facebook.com/1310529524478129/",
-        "postedAt": "2026-10-28T07:12:34-07:00"
-      },
-      {
         "id": "3999294042675348120",
-        "rank": 3,
+        "rank": 2,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5198,7 +5166,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4009440799699985922",
-        "rank": 4,
+        "rank": 3,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5214,7 +5182,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "3994220467938265641",
-        "rank": 5,
+        "rank": 4,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5230,7 +5198,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "3981838900760154441",
-        "rank": 6,
+        "rank": 5,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5246,7 +5214,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "4024766821253507849",
-        "rank": 7,
+        "rank": 6,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5276,7 +5244,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5442,7 +5410,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5566,7 +5534,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:35Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5981,7 +5949,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6281,7 +6249,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6438,7 +6406,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6577,7 +6545,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6727,7 +6695,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-11-06T20:51:31Z"
   },
   {
@@ -6892,7 +6860,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7134,7 +7102,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7510,7 +7478,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T19:53:53Z",
+    "lastUpdatedMs": "2026-11-09T20:24:36Z",
     "lastUpdatedExports": "2026-11-09T18:47:42Z"
   }
 ];
@@ -7565,24 +7533,8 @@ window.TOP_POSTS = [
     "postedAt": null
   },
   {
-    "id": "1310529524478129",
-    "rank": 4,
-    "partner": "Accenture",
-    "platform": "Facebook",
-    "format": "Feed video",
-    "quote": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s\u2026",
-    "er": 19.39,
-    "eng": 64,
-    "reach": 11450,
-    "organic": 0,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.facebook.com/1310529524478129/",
-    "postedAt": "2026-10-28T07:12:34-07:00"
-  },
-  {
     "id": "4016628135160160413",
-    "rank": 5,
+    "rank": 4,
     "partner": "Just Ingredients",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7598,7 +7550,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "4017474141603085265",
-    "rank": 6,
+    "rank": 5,
     "partner": "Zoom",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7614,7 +7566,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "urn:li:ugcPost:7465149569601941504",
-    "rank": 7,
+    "rank": 6,
     "partner": "Thrivent",
     "platform": "LinkedIn",
     "format": "Other",
@@ -7630,7 +7582,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "3999294042675348120",
-    "rank": 8,
+    "rank": 7,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7643,6 +7595,22 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
     "postedAt": "2026-10-02T13:33:14-07:00"
+  },
+  {
+    "id": "2061160786773545022",
+    "rank": 8,
+    "partner": "RBC",
+    "platform": "X",
+    "format": "Feed video",
+    "quote": "\u201cTST brought that joy and love back, but it also made me realize that this is where I belong.\u201d\u2060 \u2060\u2026",
+    "er": 15.22,
+    "eng": 66321,
+    "reach": 5056,
+    "organic": 100,
+    "metric": "er",
+    "insight": "",
+    "url": "https://twitter.com/FOS/status/2061160786773545022",
+    "postedAt": "2026-05-31T12:00:00-07:00"
   }
 ];
 
@@ -7781,8 +7749,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 35869192,
-    "eng": 648483,
+    "impressions": 35869522,
+    "eng": 648547,
     "er": 1.81,
     "cpm": 4.5,
     "color": "#E4405F",
@@ -7792,7 +7760,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 33217987
+    "views": 33229437
   },
   {
     "name": "X",
@@ -7813,8 +7781,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8573393,
-    "eng": 31119,
+    "impressions": 8573063,
+    "eng": 31055,
     "er": 0.36,
     "cpm": 3.72,
     "color": "#1877F2",
@@ -7824,7 +7792,7 @@ window.CHANNELS = [
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 1615225
+    "views": 1603775
   },
   {
     "name": "LinkedIn",
@@ -44055,20 +44023,20 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 366061,
-      "paidImpr": 344802,
+      "impr": 366391,
+      "paidImpr": 345132,
       "orgImpr": 21259,
-      "views": 359530,
+      "views": 370980,
       "reach": 284926,
-      "eng": 7141,
-      "er": 1.95,
-      "spend": 1397.0,
+      "eng": 7205,
+      "er": 1.97,
+      "spend": 1399.49,
       "watchTimeMin": 103.2,
-      "clicks": 140,
+      "clicks": 212,
       "ctr": 4.06,
       "cpc": 9.98,
       "cpm": 4.05,
-      "videoViews100Pct": 420,
+      "videoViews100Pct": 426,
       "videoViews3s": 35881,
       "url": "https://www.instagram.com/p/De2QlGUFKyr/",
       "postedAt": "2026-10-23T12:03:24-07:00"
@@ -44095,29 +44063,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/-buDsBSyCkE",
       "postedAt": "2026-10-23T12:30:31-07:00"
-    },
-    {
-      "title": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s history.\u2060 \u2060 Presente",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 330,
-      "paidImpr": 330,
-      "orgImpr": 0,
-      "views": 11450,
-      "reach": 0,
-      "eng": 64,
-      "er": 19.39,
-      "spend": 2.49,
-      "watchTimeMin": 5022.4,
-      "clicks": 72,
-      "ctr": 21.82,
-      "cpc": 0.03,
-      "cpm": 7.55,
-      "videoViews100Pct": 6,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/1310529524478129/",
-      "postedAt": "2026-10-28T07:12:34-07:00"
     },
     {
       "title": "Why the NFL is playing in Madrid ($1.5B stadium renovation)",
@@ -51702,8 +51647,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.43,
-    "impressions": 19346459,
-    "paidImpressions": 16824358,
+    "impressions": 19346789,
+    "paidImpressions": 16824688,
     "pctOfTotal": 19.0,
     "mvmCpm": 5.62,
     "mvmDeltaPct": -21.2,
@@ -51741,12 +51686,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "Facebook",
-    "cpm": 3.51,
-    "impressions": 2760548,
-    "paidImpressions": 2487944,
+    "cpm": 3.5,
+    "impressions": 2760218,
+    "paidImpressions": 2487614,
     "pctOfTotal": 2.7,
     "mvmCpm": 4.2,
-    "mvmDeltaPct": -16.5,
+    "mvmDeltaPct": -16.6,
     "color": "#1877F2"
   },
   {
