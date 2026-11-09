@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-09T18:49:56Z";
+window.LAST_REFRESHED = "2026-11-09T19:53:53Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:52Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4848,7 +4848,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5062,7 +5062,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5276,7 +5276,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5442,7 +5442,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5566,7 +5566,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5981,7 +5981,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6281,7 +6281,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6438,7 +6438,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6577,7 +6577,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:55Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6727,7 +6727,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:56Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-11-06T20:51:31Z"
   },
   {
@@ -6892,7 +6892,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:56Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -6991,8 +6991,8 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 20,
     "blurb": "Stifel x FOS Tonight native social coverage",
-    "views": 293481,
-    "engagements": 473,
+    "views": 293502,
+    "engagements": 472,
     "goalSplit": [],
     "benchmarkCategory": "Social Coverage Partner",
     "lifecycle": "active",
@@ -7032,18 +7032,34 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 4168,
-        "eng": 11,
-        "er": 0.26,
+        "impressions": 2581,
+        "eng": 4,
+        "er": 0.15,
         "cpm": 0.0,
         "color": "#E00922",
-        "delta": -47.2,
+        "delta": -69.0,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
-        "organicImpressions": 4168,
-        "views": 1390
+        "organicImpressions": 2581,
+        "views": 442
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 1587,
+        "eng": 6,
+        "er": 0.38,
+        "cpm": 0.0,
+        "color": "#FF0033",
+        "delta": -98.1,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 1587,
+        "views": 969
       },
       {
         "name": "TikTok",
@@ -7118,7 +7134,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:56Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7494,7 +7510,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-09T18:49:56Z",
+    "lastUpdatedMs": "2026-11-09T19:53:53Z",
     "lastUpdatedExports": "2026-11-09T18:47:42Z"
   }
 ];
@@ -7734,7 +7750,7 @@ window.CHANNELS = [
     "name": "YouTube",
     "italic": "Tube",
     "impressions": 124319488,
-    "eng": 2829899,
+    "eng": 2829898,
     "er": 2.28,
     "cpm": 1.14,
     "color": "#E00922",
@@ -7744,7 +7760,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 25855267
+    "views": 25855288
   },
   {
     "name": "TikTok",
@@ -45899,119 +45915,50 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "stifel_fostonight": [
     {
-      "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski...",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "organic",
-      "impr": 867,
-      "paidImpr": 0,
-      "orgImpr": 867,
-      "views": 107,
-      "reach": 0,
-      "eng": 2,
-      "er": 0.23,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/watch?v=agq0C-kRF04",
-      "postedAt": "2026-09-18T00:00:00"
-    },
-    {
       "title": "Mikaela Shiffrin + Stifel CEO Ron Kruszewski on his connection with skiing, vision for future",
       "platform": "YouTube In-feed",
-      "accountName": null,
+      "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
       "impr": 1475,
       "paidImpr": 0,
       "orgImpr": 1475,
-      "views": 354,
+      "views": 362,
       "reach": 0,
       "eng": 4,
       "er": 0.27,
       "spend": 0,
-      "watchTimeMin": null,
+      "watchTimeMin": 268.0,
       "clicks": null,
       "ctr": null,
       "cpc": null,
       "cpm": null,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": "https://www.youtube.com/watch?v=q7BSD9-ovkU",
-      "postedAt": "2026-09-19T00:00:00"
-    },
-    {
-      "title": "Lindsey Vonn shares that she is back on the Stifel US Ski Team's World Cup roster.",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "organic",
-      "impr": 497,
-      "paidImpr": 0,
-      "orgImpr": 497,
-      "views": 829,
-      "reach": 0,
-      "eng": 4,
-      "er": 0.8,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/watch?v=DZdl2qc76Is",
-      "postedAt": "2026-10-09T00:00:00"
+      "url": "https://youtu.be/q7BSD9-ovkU",
+      "postedAt": "2026-09-18T20:15:29-07:00"
     },
     {
       "title": "How the Stifel Charity Classic Is Bringing St. Louis Together For A Great Cause and Great Golf",
       "platform": "YouTube In-feed",
-      "accountName": null,
+      "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
       "impr": 1106,
       "paidImpr": 0,
       "orgImpr": 1106,
-      "views": 77,
+      "views": 80,
       "reach": 0,
       "eng": 0,
       "er": 0.0,
       "spend": 0,
-      "watchTimeMin": null,
+      "watchTimeMin": 16.0,
       "clicks": null,
       "ctr": null,
       "cpc": null,
       "cpm": null,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": "https://www.youtube.com/watch?v=NE0y0eIvDkk",
-      "postedAt": "2026-10-24T00:00:00"
-    },
-    {
-      "title": "Stifel CEO Ron Kruszewski and Baseball Hall of Famer Ozzie Smith on the Stifel Charity Classic",
-      "platform": "YouTube In-feed",
-      "accountName": null,
-      "distKind": "organic",
-      "impr": 223,
-      "paidImpr": 0,
-      "orgImpr": 223,
-      "views": 23,
-      "reach": 0,
-      "eng": 1,
-      "er": 0.45,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/watch?v=yZT7mkD40ko",
-      "postedAt": "2026-10-27T00:00:00"
+      "url": "https://youtu.be/NE0y0eIvDkk",
+      "postedAt": "2026-10-23T17:15:29-07:00"
     },
     {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski about his connection with skiing and his vision for the future.  C",
@@ -46081,6 +46028,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2101074654270025835",
       "postedAt": "2026-09-18T15:23:28-07:00"
+    },
+    {
+      "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski...",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports Tonight",
+      "distKind": "organic",
+      "impr": 867,
+      "paidImpr": 0,
+      "orgImpr": 867,
+      "views": 110,
+      "reach": 0,
+      "eng": 1,
+      "er": 0.12,
+      "spend": 0,
+      "watchTimeMin": 25.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/agq0C-kRF04",
+      "postedAt": "2026-09-18T15:32:48-07:00"
     },
     {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski about his connection with skiing and his vision for the future. Ca",
@@ -46196,6 +46166,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2108635179212550305",
       "postedAt": "2026-10-09T12:06:17-07:00"
+    },
+    {
+      "title": "Lindsey Vonn shares that she is back on the Stifel US Ski Team's World Cup roster.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports Tonight",
+      "distKind": "organic",
+      "impr": 497,
+      "paidImpr": 0,
+      "orgImpr": 497,
+      "views": 830,
+      "reach": 0,
+      "eng": 4,
+      "er": 0.8,
+      "spend": 0,
+      "watchTimeMin": 63.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/DZdl2qc76Is",
+      "postedAt": "2026-10-09T13:30:03-07:00"
     },
     {
       "title": "Stifel CEO Ron Kruszewski tells FOS's Pat Dimon how their Charity Classic is bringing St. Louis together for a great cau",
@@ -46357,6 +46350,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://tiktok.com/@fostonight/video/7701379960694377742",
       "postedAt": "2026-10-27T09:07:44-07:00"
+    },
+    {
+      "title": "Stifel CEO Ron Kruszewski and Baseball Hall of Famer Ozzie Smith on the Stifel Charity Classic",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports Tonight",
+      "distKind": "organic",
+      "impr": 223,
+      "paidImpr": 0,
+      "orgImpr": 223,
+      "views": 29,
+      "reach": 0,
+      "eng": 1,
+      "er": 0.45,
+      "spend": 0,
+      "watchTimeMin": 1.0,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/yZT7mkD40ko",
+      "postedAt": "2026-10-27T09:11:19-07:00"
     }
   ],
   "nylim_fosexplains": [
@@ -47964,7 +47980,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.0,
     "lastModified": "2026-11-09",
     "exists": true,
-    "postsContributed": 5
+    "postsContributed": 0
   },
   {
     "campaignId": "nylim_fosexplains",
@@ -51676,7 +51692,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube In-feed",
     "cpm": 0.64,
-    "impressions": 41414806,
+    "impressions": 41413219,
     "paidImpressions": 39364158,
     "pctOfTotal": 40.6,
     "mvmCpm": 0.53,
@@ -51706,7 +51722,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "YouTube Shorts",
     "cpm": 2.78,
-    "impressions": 11852365,
+    "impressions": 11853952,
     "paidImpressions": 11580659,
     "pctOfTotal": 11.6,
     "mvmCpm": 3.2,
