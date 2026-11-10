@@ -52,3 +52,36 @@ def test_paid_views_when_ms_has_no_views():
         raw={"_tweet_id": TWEET},
     )
     assert _merge_x_ads_spend_into_ms([ms, xa])[0].views_total == 4000
+
+
+def test_engagements_net_of_3s_views_in_new_format(tmp_path):
+    f = tmp_path / "x.csv"
+    f.write_text(CSV)
+    a, b = parse(str(f)).rows
+    # Paid A: 50 engagements, 9,999 3s views -> floored at 0; Paid B: 20 - 7,777 -> 0
+    assert a.engagements_paid == 0 and a.engagements_total == 0
+    assert b.engagements_paid == 0
+
+
+def test_engagements_net_subtracts_3s_views(tmp_path):
+    f = tmp_path / "x.csv"
+    f.write_text(
+        "Time period,On/Off,Campaign ID,Campaign name,Impressions,Spend,Link clicks,"
+        "Video starts,Video views 3s,Engagements\n"
+        "x,On,1,Paid A,100000,500,10,4000,3000,3500\n"
+    )
+    (row,) = parse(str(f)).rows
+    assert row.engagements_paid == 500 and row.engagements_total == 500
+    assert row.views_paid == 4000
+
+
+def test_old_format_engagements_untouched(tmp_path):
+    f = tmp_path / "x.csv"
+    f.write_text(
+        "Time period,On/Off,Campaign ID,Campaign name,Impressions,Spend,Link clicks,"
+        "Video views 3s,Engagements\n"
+        "x,On,1,Paid A,100000,500,10,3000,1384\n"
+    )
+    (row,) = parse(str(f)).rows
+    assert row.engagements_paid == 1384
+    assert row.views_paid is None

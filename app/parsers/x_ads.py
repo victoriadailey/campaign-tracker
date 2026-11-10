@@ -17,8 +17,13 @@ All flatten into the same NormalizedPost rows (platform=X, boosting=dark).
 
 Paid video views: when the export carries a "Video starts" column, it is read
 into `views_paid`. Measure Studio does not report promoted X views, so this is
-the only source of paid X views. The "Video views 3s" column is deliberately
-ignored — video starts are the agreed paid-views metric for X.
+the only source of paid X views. The "Video views 3s" column is not used as
+views — video starts are the agreed paid-views metric for X.
+
+Engagements: X Ads' "Engagements" includes 3-second video views. In exports
+that carry a "Video starts" column (the new raw format) the 3s views are
+subtracted so engagements are interactions only (floored at 0). Older exports
+without "Video starts" were already adjusted by hand and are left untouched.
 """
 
 from __future__ import annotations
@@ -110,8 +115,8 @@ def _parse_native(df: pd.DataFrame) -> list[NormalizedPost]:
             ad_spend=spend,
             cpm=_to_float(raw.get("CPM")),
             link_clicks_paid=link_clicks,
-            engagements_paid=_to_int(raw.get("Engagements")),
-            engagements_total=_to_int(raw.get("Engagements")),
+            engagements_paid=_net_engagements(raw),
+            engagements_total=_net_engagements(raw),
             views_paid=_paid_video_views(raw),
             raw={**raw, "_tweet_id": tweet_id} if tweet_id else raw,
         ))
@@ -125,6 +130,22 @@ def _paid_video_views(raw: dict) -> int | None:
         if str(k).strip().lower() == "video starts":
             return _to_int(v)
     return None
+
+
+def _net_engagements(raw: dict) -> int | None:
+    """Engagements with 3s video views removed (new-format exports only).
+
+    Applies when the row has a "Video starts" column — the marker of the raw
+    export format — and a "Video views 3s" value. Otherwise the Engagements
+    column is returned as-is (older exports were adjusted manually)."""
+    eng = _to_int(raw.get("Engagements"))
+    if eng is None:
+        return None
+    keys = {str(k).strip().lower(): v for k, v in raw.items()}
+    if "video starts" not in keys:
+        return eng
+    v3 = _to_int(keys.get("video views 3s"))
+    return max(0, eng - v3) if v3 else eng
 
 
 def _extract_tweet_id(url: str) -> str | None:
@@ -164,8 +185,8 @@ def _parse_combined(df: pd.DataFrame) -> list[NormalizedPost]:
             impressions_total=impr,
             ad_spend=spend,
             cpm=_to_float(raw.get("CPM")),
-            engagements_paid=_to_int(raw.get("Engagements")),
-            engagements_total=_to_int(raw.get("Engagements")),
+            engagements_paid=_net_engagements(raw),
+            engagements_total=_net_engagements(raw),
             views_paid=_paid_video_views(raw),
             raw=raw,
         ))
