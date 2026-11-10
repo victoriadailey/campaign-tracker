@@ -1,3 +1,3 @@
-Time period,On/Off,Campaign ID,Campaign name,Post Link,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Engagements,CTR,CPM,Cost per link click,,
-2026-10-01 - 2026-10-31,On,42848974,PWC: Video 1 - F1 Academy,https://x.com/FOS/status/2114069415495131304,Reach,Expired,2026-10-24 22:35:44,2026-10-29 00:00:00,213098,750.00,374,0.00%,3.52,-,,
-2026-10-01 - 2026-11-03,On,42930845,PwC: Video 2,https://x.com/FOS/status/2116636334555070822,Reach,Active,2026-11-02 13:44:11,2026-11-06 00:00:00,366776,750.00,338,0.00%,2.04,,,
+Time period,On/Off,Campaign ID,Campaign name,Post Link,Objective,Delivery status,Campaign start,Campaign end,Impressions,Spend,Engagements,CTR,CPM,Video starts,,
+2026-10-01 - 2026-10-31,On,42848974,PWC: Video 1 - F1 Academy,https://x.com/FOS/status/2114069415495131304,Reach,Expired,2026-10-24 22:35:44,2026-10-29 00:00:00,213098,750.00,374,0.00%,3.52,161579,,
+2026-10-01 - 2026-11-03,On,42930845,PwC: Video 2,https://x.com/FOS/status/2116636334555070822,Reach,Active,2026-11-02 13:44:11,2026-11-06 00:00:00,366777,750.00,339,0.00%,2.04,221164,,
