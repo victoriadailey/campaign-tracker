@@ -1588,8 +1588,8 @@ campaigns:
     yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
     blurb: "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown."
     sources:
-      meta_ads:
-        - next_league_future_of_sports_meta_ads.csv
+      # No Meta Ads source: the Meta export once in this slot was the Next
+      # League BrandX campaign (a separate tab), not Future of Sports.
       youtube_paid:
         - next_league_future_of_sports_yt_paid.csv
       x_ads:
