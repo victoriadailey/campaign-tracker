@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-10T18:34:01Z";
+window.LAST_REFRESHED = "2026-11-10T19:16:30Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:00Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:00Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:00Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:00Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:00Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:00Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4848,7 +4848,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -4860,25 +4860,25 @@ window.CAMPAIGNS = [
     "flight": "Aug 1 \u2014 Sep 30, 2026",
     "elapsedPct": 100.0,
     "daysLeft": 0,
-    "status": "Goal Exceeded",
-    "statusKind": "on",
+    "status": "Goal Missed",
+    "statusKind": "danger",
     "impressions": {
-      "delivered": 2961772,
+      "delivered": 2460508,
       "goal": 2500000
     },
     "budget": {
-      "delivered": 5010.27,
+      "delivered": 3482.63,
       "goal": 3170.0
     },
     "color": "ft-1",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 1.33,
-    "cpm": 1.77,
+    "er": 1.61,
+    "cpm": 1.5,
     "episodes": 0,
-    "posts": 9,
+    "posts": 8,
     "blurb": "One episode of Future of Sports about AI's impact on fan engagement, followed by 1 cutdown.",
-    "views": 1387100,
+    "views": 885836,
     "engagements": 39538,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
@@ -4933,22 +4933,6 @@ window.CAMPAIGNS = [
         "views": 624571
       },
       {
-        "name": "Instagram",
-        "italic": "gram",
-        "impressions": 546056,
-        "eng": 2455,
-        "er": 0.45,
-        "cpm": 3.38,
-        "color": "#E4405F",
-        "delta": -86.4,
-        "bench": {
-          "er": 3.31,
-          "cpm": 5.1
-        },
-        "organicImpressions": 6214,
-        "views": 544611
-      },
-      {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
         "impressions": 183170,
@@ -4979,6 +4963,22 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 0,
         "views": 0
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 44792,
+        "eng": 2455,
+        "er": 5.48,
+        "cpm": 7.75,
+        "color": "#E4405F",
+        "delta": 65.6,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 6214,
+        "views": 43347
       },
       {
         "name": "LinkedIn",
@@ -5050,6 +5050,13 @@ window.CAMPAIGNS = [
     "topPostsOrganic": [],
     "callouts": [
       {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "Instagram at 5.5% ER \u2014 1.7\u00d7 the benchmark.",
+        "body": "45K impressions, 2K engagements at 5.5% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "meta": "Next League \u00b7 Instagram"
+      },
+      {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "X CPM at $4.09 \u2014 3.7\u00d7 the benchmark.",
@@ -5062,8 +5069,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
-    "lastUpdatedExports": "2026-10-05T20:58:58Z"
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
+    "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
     "id": "accenture_external_creator",
@@ -5244,7 +5251,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5410,7 +5417,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5534,7 +5541,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5949,7 +5956,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6249,7 +6256,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6406,7 +6413,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6545,7 +6552,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6695,7 +6702,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-11-10T17:11:38Z"
   },
   {
@@ -6860,7 +6867,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7102,7 +7109,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7478,7 +7485,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T18:34:01Z",
+    "lastUpdatedMs": "2026-11-10T19:16:29Z",
     "lastUpdatedExports": "2026-11-09T18:47:42Z"
   }
 ];
@@ -7749,18 +7756,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 35981599,
+    "impressions": 35480335,
     "eng": 653151,
-    "er": 1.82,
-    "cpm": 4.5,
+    "er": 1.84,
+    "cpm": 4.53,
     "color": "#E4405F",
-    "delta": -45.2,
+    "delta": -44.4,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 33340101
+    "views": 32838837
   },
   {
     "name": "X",
@@ -43833,29 +43840,6 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-08-29T07:30:05-07:00"
     },
     {
-      "title": "Next League BrandX",
-      "platform": "Instagram",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 501264,
-      "paidImpr": 501264,
-      "orgImpr": 0,
-      "views": 501264,
-      "reach": 121813,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 1527.64,
-      "watchTimeMin": null,
-      "clicks": 49,
-      "ctr": 0.01,
-      "cpc": 31.18,
-      "cpm": 3.05,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
       "title": "Next League: Future of Sports (full ep)",
       "platform": "X",
       "accountName": null,
@@ -46807,10 +46791,6 @@ window.UPLOAD_TARGETS = {
     {
       "file": "next_league_future_of_sports_x_ads.csv",
       "label": "X Ads"
-    },
-    {
-      "file": "next_league_future_of_sports_meta_ads.csv",
-      "label": "Meta Ads"
     }
   ],
   "accenture_external_creator": [
@@ -47163,6 +47143,7 @@ window.DATA_HEALTH = {
   "msErrors": [],
   "orphanFiles": [
     "microsoft_copilot_delivery_log.csv",
+    "next_league_future_of_sports_meta_ads.csv",
     "portfolio_players_yt_paid.csv"
   ],
   "potentialDuplicates": []
@@ -47221,10 +47202,6 @@ window.PULSE_STATE = {
     {
       "id": "next_league_brandx",
       "date": "2026-10-05"
-    },
-    {
-      "id": "next_league_future_of_sports",
-      "date": "2026-09-04"
     },
     {
       "id": "onlocation",
@@ -47839,17 +47816,6 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "next_league_future_of_sports_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-11-10",
-    "exists": true,
-    "postsContributed": 1
-  },
-  {
-    "campaignId": "next_league_future_of_sports",
-    "partner": "Next League",
-    "sourceKind": "meta_ads",
-    "sourceLabel": "Meta Ads",
-    "filename": "next_league_future_of_sports_meta_ads.csv",
-    "fileSizeKb": 0.5,
     "lastModified": "2026-11-10",
     "exists": true,
     "postsContributed": 1
