@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-10T15:14:26Z";
+window.LAST_REFRESHED = "2026-11-10T17:12:56Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:55Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4698,10 +4698,10 @@ window.CAMPAIGNS = [
     "flight": "Aug 1 \u2014 Nov 30, 2026",
     "elapsedPct": 83.5,
     "daysLeft": 20,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "At Risk",
+    "statusKind": "warn",
     "impressions": {
-      "delivered": 2726851,
+      "delivered": 2734906,
       "goal": 3850000
     },
     "budget": {
@@ -4714,10 +4714,10 @@ window.CAMPAIGNS = [
     "er": 2.38,
     "cpm": 2.67,
     "episodes": 3,
-    "posts": 12,
+    "posts": 16,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
-    "views": 2369800,
-    "engagements": 64862,
+    "views": 2377575,
+    "engagements": 64985,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4725,18 +4725,18 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 1180906,
-        "eng": 1662,
+        "impressions": 1181039,
+        "eng": 1668,
         "er": 0.14,
         "cpm": 1.61,
         "color": "#000000",
-        "delta": -93.1,
+        "delta": -93.0,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 57356,
-        "views": 1148310
+        "organicImpressions": 57489,
+        "views": 1148443
       },
       {
         "name": "YouTube Shorts",
@@ -4757,18 +4757,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 435258,
-        "eng": 884,
-        "er": 0.2,
+        "impressions": 442900,
+        "eng": 999,
+        "er": 0.23,
         "cpm": 3.44,
         "color": "#E4405F",
-        "delta": -93.9,
+        "delta": -93.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 7731,
-        "views": 428027
+        "organicImpressions": 15373,
+        "views": 435669
       },
       {
         "name": "X",
@@ -4789,17 +4789,17 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 92327,
-        "eng": 1383,
+        "impressions": 92607,
+        "eng": 1385,
         "er": 1.5,
         "cpm": 4.3,
         "color": "#1877F2",
-        "delta": -2.1,
+        "delta": -2.3,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 1084,
+        "organicImpressions": 1364,
         "views": 0
       }
     ],
@@ -4809,9 +4809,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 85% of goal (3.3M of 3.9M) with 20 days left.",
-        "body": "At the current rate the campaign will fall ~584K impressions short of the 3.9M goal. Need to deliver 56K impr/day (2.1\u00d7 the current 27K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "Huntington Bank \u00b7 Pacing"
+        "headline": "X CPM at $4.00 \u2014 3.6\u00d7 the benchmark.",
+        "body": "$4.00 CPM vs. $1.10 FOS benchmark. At 3.6\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "meta": "Huntington Bank \u00b7 X"
       }
     ],
     "brandxObjective": "",
@@ -4848,7 +4848,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-19T15:40:59Z"
   },
   {
@@ -5062,7 +5062,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-05T20:58:58Z"
   },
   {
@@ -5244,7 +5244,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-29T18:19:27Z"
   },
   {
@@ -5410,7 +5410,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5534,7 +5534,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5949,7 +5949,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6249,7 +6249,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6406,7 +6406,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6545,7 +6545,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6560,7 +6560,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 2728352,
+      "delivered": 2728353,
       "goal": 4200000
     },
     "budget": {
@@ -6575,8 +6575,8 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 10,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
-    "views": 1082190,
-    "engagements": 65110,
+    "views": 1464933,
+    "engagements": 65111,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6600,8 +6600,8 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 596026,
-        "eng": 730,
+        "impressions": 596027,
+        "eng": 731,
         "er": 0.12,
         "cpm": 2.59,
         "color": "#1d1d1f",
@@ -6611,7 +6611,7 @@ window.CAMPAIGNS = [
           "cpm": 1.1
         },
         "organicImpressions": 16152,
-        "views": 2692
+        "views": 385435
       },
       {
         "name": "Facebook",
@@ -6695,8 +6695,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
-    "lastUpdatedExports": "2026-11-06T20:51:31Z"
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
+    "lastUpdatedExports": "2026-11-10T17:11:38Z"
   },
   {
     "id": "zoom_fosexplains_mlb",
@@ -6860,7 +6860,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7102,7 +7102,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7478,7 +7478,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-10T15:14:25Z",
+    "lastUpdatedMs": "2026-11-10T17:12:56Z",
     "lastUpdatedExports": "2026-11-09T18:47:42Z"
   }
 ];
@@ -7733,8 +7733,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 41436947,
-    "eng": 71655,
+    "impressions": 41437080,
+    "eng": 71661,
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
@@ -7744,13 +7744,13 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 40909773
+    "views": 40909906
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 35973957,
-    "eng": 653036,
+    "impressions": 35981599,
+    "eng": 653151,
     "er": 1.82,
     "cpm": 4.5,
     "color": "#E4405F",
@@ -7760,13 +7760,13 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 33332459
+    "views": 33340101
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 31113974,
-    "eng": 651123,
+    "impressions": 31113975,
+    "eng": 651124,
     "er": 2.09,
     "cpm": 1.73,
     "color": "#1d1d1f",
@@ -7776,13 +7776,13 @@ window.CHANNELS = [
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 524030
+    "views": 906773
   },
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8595328,
-    "eng": 31057,
+    "impressions": 8595608,
+    "eng": 31059,
     "er": 0.36,
     "cpm": 3.72,
     "color": "#1877F2",
@@ -7888,15 +7888,6 @@ window.SIGNALS = [
     "meta": "Sportradar \u00b7 Pacing",
     "campaignId": "sportradar_brandx",
     "campaignPartner": "Sportradar"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 85% of goal (3.3M of 3.9M) with 20 days left.",
-    "body": "At the current rate the campaign will fall ~584K impressions short of the 3.9M goal. Need to deliver 56K impr/day (2.1\u00d7 the current 27K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Huntington Bank \u00b7 Pacing",
-    "campaignId": "huntington_bank_2026",
-    "campaignPartner": "Huntington Bank"
   },
   {
     "tag": "WATCH",
@@ -43585,6 +43576,98 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 8152,
       "url": "https://www.instagram.com/p/DeaGJZtjQEL/",
       "postedAt": "2026-10-12T13:33:04-07:00"
+    },
+    {
+      "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 133,
+      "paidImpr": 0,
+      "orgImpr": 133,
+      "views": 133,
+      "reach": 0,
+      "eng": 6,
+      "er": 4.51,
+      "spend": 0,
+      "watchTimeMin": 9.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7706287070163045645",
+      "postedAt": "2026-11-09T13:30:02-08:00"
+    },
+    {
+      "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 280,
+      "paidImpr": 0,
+      "orgImpr": 280,
+      "views": 0,
+      "reach": 0,
+      "eng": 2,
+      "er": 0.71,
+      "spend": 0,
+      "watchTimeMin": 23.4,
+      "clicks": 1,
+      "ctr": 0.36,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1638728601600057/",
+      "postedAt": "2026-11-09T13:30:06-08:00"
+    },
+    {
+      "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports News ",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/HPc2yu3CYsY",
+      "postedAt": "2026-11-09T13:30:26-08:00"
+    },
+    {
+      "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7642,
+      "paidImpr": 0,
+      "orgImpr": 7642,
+      "views": 7642,
+      "reach": 6073,
+      "eng": 115,
+      "er": 1.5,
+      "spend": 0,
+      "watchTimeMin": 13.8,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DfiTTsUDDoA/",
+      "postedAt": "2026-11-09T13:33:07-08:00"
     }
   ],
   "next_league_future_of_sports": [
@@ -45479,7 +45562,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 222108,
       "paidImpr": 213098,
       "orgImpr": 9010,
-      "views": 1646,
+      "views": 163225,
       "reach": 0,
       "eng": 389,
       "er": 0.18,
@@ -45568,12 +45651,12 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 373918,
-      "paidImpr": 366776,
+      "impr": 373919,
+      "paidImpr": 366777,
       "orgImpr": 7142,
-      "views": 1046,
+      "views": 222210,
       "reach": 0,
-      "eng": 341,
+      "eng": 342,
       "er": 0.09,
       "spend": 750.0,
       "watchTimeMin": null,
@@ -51656,7 +51739,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.43,
-    "impressions": 19451222,
+    "impressions": 19458864,
     "paidImpressions": 16927115,
     "pctOfTotal": 19.0,
     "mvmCpm": 5.62,
@@ -51666,7 +51749,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.58,
-    "impressions": 17343980,
+    "impressions": 17344113,
     "paidImpressions": 10275437,
     "pctOfTotal": 16.9,
     "mvmCpm": 2.24,
@@ -51686,8 +51769,8 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.02,
-    "impressions": 6427644,
-    "paidImpressions": 4568112,
+    "impressions": 6427645,
+    "paidImpressions": 4568113,
     "pctOfTotal": 6.3,
     "mvmCpm": 1.24,
     "mvmDeltaPct": 63.0,
@@ -51696,7 +51779,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Facebook",
     "cpm": 3.5,
-    "impressions": 2782483,
+    "impressions": 2782763,
     "paidImpressions": 2509847,
     "pctOfTotal": 2.7,
     "mvmCpm": 4.2,
