@@ -14,6 +14,11 @@ Handles three real-world export shapes:
       Engagements, Link Clicks, CPM
 
 All flatten into the same NormalizedPost rows (platform=X, boosting=dark).
+
+Paid video views: when the export carries a "Video starts" column, it is read
+into `views_paid`. Measure Studio does not report promoted X views, so this is
+the only source of paid X views. The "Video views 3s" column is deliberately
+ignored — video starts are the agreed paid-views metric for X.
 """
 
 from __future__ import annotations
@@ -107,9 +112,19 @@ def _parse_native(df: pd.DataFrame) -> list[NormalizedPost]:
             link_clicks_paid=link_clicks,
             engagements_paid=_to_int(raw.get("Engagements")),
             engagements_total=_to_int(raw.get("Engagements")),
+            views_paid=_paid_video_views(raw),
             raw={**raw, "_tweet_id": tweet_id} if tweet_id else raw,
         ))
     return rows
+
+
+def _paid_video_views(raw: dict) -> int | None:
+    """Paid X video views = the export's "Video starts" column, or None when
+    the export has no such column. "Video views 3s" is intentionally not used."""
+    for k, v in raw.items():
+        if str(k).strip().lower() == "video starts":
+            return _to_int(v)
+    return None
 
 
 def _extract_tweet_id(url: str) -> str | None:
@@ -151,6 +166,7 @@ def _parse_combined(df: pd.DataFrame) -> list[NormalizedPost]:
             cpm=_to_float(raw.get("CPM")),
             engagements_paid=_to_int(raw.get("Engagements")),
             engagements_total=_to_int(raw.get("Engagements")),
+            views_paid=_paid_video_views(raw),
             raw=raw,
         ))
     return rows

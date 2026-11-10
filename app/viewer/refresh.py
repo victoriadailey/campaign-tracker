@@ -1551,7 +1551,8 @@ def _merge_x_ads_spend_into_ms(
         base = group[0]
         for dup in group[1:]:
             for attr in ("impressions_paid", "impressions_total",
-                         "engagements_paid", "engagements_total", "ad_spend"):
+                         "engagements_paid", "engagements_total", "ad_spend",
+                         "views_paid"):
                 if getattr(dup, attr) is not None:
                     setattr(base, attr, (getattr(base, attr) or 0) + getattr(dup, attr))
             drop_ids.add(id(dup))   # remove the now-folded duplicate from output
@@ -1642,6 +1643,14 @@ def _merge_x_ads_spend_into_ms(
                 t.er = (t.engagements_total or 0) / t.impressions_total
 
         t.ad_spend = (t.ad_spend or 0) + (xa.ad_spend or 0)
+
+        # Paid video views. Measure reports only the organic plays for X
+        # (`views` == `organic_views`, `promoted_views` is empty), so the X Ads
+        # export's video views are additive on top of MS's count.
+        xa_views = xa.views_paid or 0
+        if xa_views > 0:
+            t.views_paid = (t.views_paid or 0) + xa_views
+            t.views_total = (t.views_total or 0) + xa_views
 
     # Build MS-by-tweet-ID lookup once — used by Pass 0 (URL auto-pair) and
     # Pass 0' (manual pairings).
