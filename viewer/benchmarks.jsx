@@ -241,7 +241,6 @@ function LiveBenchmarks() {
                 <th style={{textAlign:'left'}}>Distribution</th>
                 <th style={{textAlign:'left'}}>Franchise / IP</th>
                 <th style={{textAlign:'left'}}>Year</th>
-                <th className="num" style={{textAlign:'right'}}>Spend</th>
               </tr>
             </thead>
             <tbody>
@@ -260,7 +259,6 @@ function LiveBenchmarks() {
                     <td style={{color:'var(--ink-2)'}}>{c.distribution || '—'}</td>
                     <td style={{color:'var(--ink-2)', maxWidth:160, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}}>{c.franchise || '—'}</td>
                     <td style={{color:'var(--ink-3)'}}>{c.year || '—'}</td>
-                    <td className="num" style={{color:'var(--ink-3)'}}>{c.spend != null ? `$${c.spend.toLocaleString()}` : '—'}</td>
                   </tr>
                 );
               })}
