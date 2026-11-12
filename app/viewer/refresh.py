@@ -533,6 +533,7 @@ def main() -> int:
         posts_by_campaign[c_id] = _merge_youtube_paid_spend_into_ms(
             posts_by_campaign[c_id],
             pair_by_sort=bool(c.get("yt_paired_by_sort")),
+            manual_pairings=c.get("yt_ads_pairings") or {},
         )
         # LinkedIn Ads CSV may overlap with an MS-API LinkedIn dark post. MS
         # gives the post's organic-side view count + URN; the LI Ads CSV gives
@@ -633,6 +634,7 @@ def main() -> int:
             posts_by_campaign[c_id] = _merge_youtube_paid_spend_into_ms(
                 posts_by_campaign[c_id],
                 pair_by_sort=bool(c_cfg.get("yt_paired_by_sort")),
+                manual_pairings=c_cfg.get("yt_ads_pairings") or {},
             )
         if Platform.LINKEDIN in platforms_added:
             posts_by_campaign[c_id] = _merge_linkedin_ads_into_ms(posts_by_campaign[c_id])
@@ -2136,9 +2138,15 @@ def _merge_linkedin_ads_into_ms(posts: list[NormalizedPost]) -> list[NormalizedP
 def _merge_youtube_paid_spend_into_ms(
     posts: list[NormalizedPost],
     pair_by_sort: bool = False,
+    manual_pairings: dict[str, str] | None = None,
 ) -> list[NormalizedPost]:
     """Pair Google Ads YT campaigns with their corresponding MS YT post and
     copy spend → MS post. Drops matched Google Ads posts.
+
+    Pass 0 — MANUAL pairings from YAML (`yt_ads_pairings: {<gads_name_substring>:
+    <youtube_video_id>}`), case-insensitive substring on the Google Ads campaign
+    name. Runs first, so explicit overrides win and the remaining posts pair
+    among themselves without being shifted by a mis-ranked row.
 
     Matching strategy — within each subtype (in-feed / shorts), require a
     **guest match** first to avoid cross-season false-pairing (the GAds export
@@ -2421,6 +2429,21 @@ def _merge_youtube_paid_spend_into_ms(
 
         if ms_post.impressions_total and ms_post.impressions_total > 0:
             ms_post.er = (ms_post.engagements_total or 0) / ms_post.impressions_total
+
+    # Pass 0 — manual pairings (YAML override).
+    for gp in gads_yt:
+        gname = (gp.post_title or "").lower()
+        for needle, vid in (manual_pairings or {}).items():
+            if needle.lower() not in gname:
+                continue
+            targets = [m for m in ms_yt
+                       if str(m.post_id_native) == str(vid)
+                       and id(m) not in matched_ms_ids]
+            if targets:
+                _absorb_gads(targets[0], gp)
+                matched_ms_ids.add(id(targets[0]))
+                drop_ids.add(id(gp))
+            break
 
     for subtype in ("in-feed", "shorts"):
         ms_bucket = [p for p in ms_yt if _ms_subtype(p) == subtype]

@@ -1512,6 +1512,12 @@ campaigns:
     color: ft-1
     lead_format: Paid Social
     yt_paired_by_sort: true   # merge GAds YT into MS (MS now reports YT paid) so totals match per-post
+    # Explicit Google Ads → YouTube Short pairings (Google Ads campaign name
+    # substring → video id). The export window starts after the Preston Stout
+    # Short ran, so rank pairing shifts every later Short by one.
+    yt_ads_pairings:
+      "FOSN NIL":    "HPc2yu3CYsY"   # Nov 9 FOS News Short ("College sports has never been more expensive…")
+      "FOSN Farah":  "s4yFjzpExt4"   # Oct 12 FOS News Short (Farah O'Keefe)
     blurb: "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. "
     # Four components, each tracked to its own goal (like Heineken). FOS News +
     # correspondent-led are placeholders until those videos publish.
@@ -1555,6 +1561,10 @@ campaigns:
         date: "Sep 2026"
         # Farah O'Keefe (Texas golfer) FOS News content counts here.
         match: ["FOS News", "FOSN", "Farah O'Keefe", "O'Keefe", "Farah"]
+        # Second FOS News video (Nov 9, "College sports has never been more
+        # expensive…"), pinned by native id: YouTube Short (Measure 26554088),
+        # Instagram, Facebook and TikTok.
+        manual_posts: ["HPc2yu3CYsY", "4026865932957399552", "1638728601600057", "7706287070163045645"]
         exclude: []
         impression_goal: 1_000_000
       - id: correspondent
