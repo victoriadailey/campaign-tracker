@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-12T14:56:24Z";
+window.LAST_REFRESHED = "2026-11-12T16:45:52Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4872,7 +4872,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-11-12T14:32:48Z"
   },
   {
@@ -5093,7 +5093,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5275,7 +5275,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-11-10T21:07:42Z"
   },
   {
@@ -5441,7 +5441,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5565,7 +5565,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5980,7 +5980,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6280,7 +6280,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6437,7 +6437,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6576,7 +6576,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6591,7 +6591,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 2728722,
+      "delivered": 2737047,
       "goal": 4200000
     },
     "budget": {
@@ -6604,10 +6604,10 @@ window.CAMPAIGNS = [
     "er": 2.39,
     "cpm": 2.52,
     "episodes": 0,
-    "posts": 10,
+    "posts": 14,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
-    "views": 1465122,
-    "engagements": 65120,
+    "views": 1473318,
+    "engagements": 65377,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6647,7 +6647,7 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 465413,
+        "impressions": 465542,
         "eng": 184,
         "er": 0.04,
         "cpm": 2.89,
@@ -6657,24 +6657,40 @@ window.CAMPAIGNS = [
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 938,
+        "organicImpressions": 1067,
         "views": 0
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 424410,
-        "eng": 17661,
-        "er": 4.16,
+        "impressions": 432101,
+        "eng": 17890,
+        "er": 4.14,
         "cpm": 4.39,
         "color": "#E4405F",
-        "delta": 25.7,
+        "delta": 25.1,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 93368,
-        "views": 417725
+        "organicImpressions": 101059,
+        "views": 425416
+      },
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 505,
+        "eng": 28,
+        "er": 5.54,
+        "cpm": 0.0,
+        "color": "#000000",
+        "delta": 173.1,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 505,
+        "views": 505
       }
     ],
     "topPosts": [
@@ -6709,6 +6725,22 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.instagram.com/p/De41WvblIkM/",
         "postedAt": "2026-10-24T12:03:14-07:00"
+      },
+      {
+        "id": "4028405747905703070",
+        "rank": 3,
+        "partner": "PwC",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.\u2060 \u2060 Presented\u2026",
+        "er": 2.98,
+        "eng": 229,
+        "reach": 7691,
+        "organic": 100,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Dfnxa8vD6ye/",
+        "postedAt": "2026-11-11T16:33:10-08:00"
       }
     ],
     "topPostsOrganic": [],
@@ -6726,7 +6758,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:51Z",
     "lastUpdatedExports": "2026-11-10T17:11:38Z"
   },
   {
@@ -6891,7 +6923,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:52Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7133,7 +7165,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:52Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7509,7 +7541,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:56:24Z",
+    "lastUpdatedMs": "2026-11-12T16:45:52Z",
     "lastUpdatedExports": "2026-11-10T21:32:00Z"
   }
 ];
@@ -7764,8 +7796,8 @@ window.CHANNELS = [
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 41740815,
-    "eng": 71764,
+    "impressions": 41741320,
+    "eng": 71792,
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
@@ -7775,13 +7807,13 @@ window.CHANNELS = [
       "cpm": 2.4
     },
     "organicImpressions": 0,
-    "views": 41205849
+    "views": 41206354
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 35663278,
-    "eng": 665821,
+    "impressions": 35670969,
+    "eng": 666050,
     "er": 1.87,
     "cpm": 4.53,
     "color": "#E4405F",
@@ -7791,7 +7823,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 33019523
+    "views": 33027214
   },
   {
     "name": "X",
@@ -7812,7 +7844,7 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8667605,
+    "impressions": 8667734,
     "eng": 31081,
     "er": 0.36,
     "cpm": 3.71,
@@ -23939,7 +23971,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 188.27,
           "url": "https://www.facebook.com/1638728601600057/",
-          "postedAt": "2026-11-09T13:30:06-08:00"
+          "postedAt": "2026-11-09T13:30:15-08:00"
         },
         {
           "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
@@ -43725,7 +43757,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": 20,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1638728601600057/",
-      "postedAt": "2026-11-09T13:30:06-08:00"
+      "postedAt": "2026-11-09T13:30:15-08:00"
     },
     {
       "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
@@ -45818,6 +45850,98 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 18803,
       "url": "https://www.instagram.com/p/DfLLgkNn-Nd/",
       "postedAt": "2026-10-31T15:03:10-07:00"
+    },
+    {
+      "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that. Presented by @PwC US  #f1 #racing ",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 505,
+      "paidImpr": 0,
+      "orgImpr": 505,
+      "views": 505,
+      "reach": 0,
+      "eng": 28,
+      "er": 5.54,
+      "spend": 0,
+      "watchTimeMin": 114.4,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7706561803471326477",
+      "postedAt": "2026-11-11T13:30:00-08:00"
+    },
+    {
+      "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/z2Z8QGsIJzs",
+      "postedAt": "2026-11-11T13:30:26-08:00"
+    },
+    {
+      "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.  Presented by PwC",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 129,
+      "paidImpr": 0,
+      "orgImpr": 129,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": 10.5,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1641025261370391/",
+      "postedAt": "2026-11-11T13:30:59-08:00"
+    },
+    {
+      "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.\u2060 \u2060 Presented by @pwcus",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 7691,
+      "paidImpr": 0,
+      "orgImpr": 7691,
+      "views": 7691,
+      "reach": 6119,
+      "eng": 229,
+      "er": 2.98,
+      "spend": 0,
+      "watchTimeMin": 23.1,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/Dfnxa8vD6ye/",
+      "postedAt": "2026-11-11T16:33:10-08:00"
     }
   ],
   "zoom_fosexplains_mlb": [
@@ -51802,7 +51926,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.43,
-    "impressions": 19641699,
+    "impressions": 19649390,
     "paidImpressions": 17105401,
     "pctOfTotal": 18.8,
     "mvmCpm": 5.62,
@@ -51812,7 +51936,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "TikTok",
     "cpm": 1.59,
-    "impressions": 17647842,
+    "impressions": 17648347,
     "paidImpressions": 10480692,
     "pctOfTotal": 16.9,
     "mvmCpm": 2.24,
@@ -51842,7 +51966,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Facebook",
     "cpm": 3.49,
-    "impressions": 2854709,
+    "impressions": 2854838,
     "paidImpressions": 2581634,
     "pctOfTotal": 2.7,
     "mvmCpm": 4.2,
