@@ -88,8 +88,11 @@ function LiveBenchmarks() {
     const members = included.filter(c => c.category === name);
     const platforms = {};
     cols.forEach(p => { platforms[p] = avgLive(members.map(c => c.platforms[p])); });
-    return { name, platforms, all: avgLive(members.map(c => c.all)), n: members.length };
+    return { name, group: members[0].group, platforms, all: avgLive(members.map(c => c.all)), n: members.length };
   });
+  // In-feed and Dark (paid-only) are benchmarked separately — never compare across.
+  const catRowsIn = catRows.filter(r => r.group !== 'Dark');
+  const catRowsDark = catRows.filter(r => r.group === 'Dark');
   // Drop platform columns that are empty for the current filter (all "—"), so
   // the category table only shows platforms that actually ran. A single selected
   // platform is always kept even if empty.
@@ -130,7 +133,7 @@ function LiveBenchmarks() {
         overline="FOS Internal · Live benchmarks"
         title="Benchmarks"
         italic="by content type."
-        sub={<>Engagement-rate benchmarks across every tracked campaign, sliced by <strong>video vs. static</strong>, <strong>custom vs. franchise-led</strong>, and <strong>paid-only vs. organic + boosted</strong>. Only wrapped campaigns (Include = Yes) count toward an average.</>}
+        sub={<>Engagement-rate benchmarks across every tracked campaign, sliced by <strong>video vs. static</strong> and <strong>custom vs. franchise-led</strong>. <strong>In-feed</strong> and <strong>dark (paid-only)</strong> campaigns are benchmarked in separate tables and never averaged together. Only wrapped campaigns (Include = Yes) count toward an average.</>}
       />
 
       {/* FILTER BAR */}
@@ -165,43 +168,57 @@ function LiveBenchmarks() {
         </div>
       </div>
 
-      {/* CATEGORY TABLE (filtered) */}
-      <div className="sec">
-        <div className="sec-h">
-          <div>
-            <div style={{display:'flex', alignItems:'center', gap:10, flexWrap:'wrap'}}>
-              <div className="sec-title">Benchmarks by <em>category</em></div>
-              <span style={{fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', fontWeight:700, textTransform:'uppercase', color:'var(--flame)', background:'rgba(224,122,63,0.12)', padding:'3px 8px', borderRadius:4}}>★ Canonical</span>
+      {/* CATEGORY TABLES (filtered) — In-feed, then Dark (paid-only) */}
+      {[
+        { key: 'in', rows: catRowsIn, canonical: true,
+          title: <>Benchmarks by <em>category</em></>,
+          sub: <>Average ER of wrapped <strong>in-feed</strong> (organic / boosted) campaigns in each category — <strong>the numbers to quote</strong>.{fos && fos.lastUpdated ? ` Compare-to set (${fos.name}) as of ${fos.lastUpdated}.` : ''}</> },
+        { key: 'dark', rows: catRowsDark, canonical: false,
+          title: <>Dark <em>(paid-only)</em> benchmarks</>,
+          sub: <>Average ER of wrapped <strong>dark-posted</strong> campaigns. <strong>Do not compare to in-feed</strong> — dark ER runs far lower by design, so these are only a reference for other dark campaigns.</> },
+      ].filter(sec => sec.key === 'in' || sec.rows.length > 0).map(sec => (
+        <div className="sec" key={sec.key}>
+          <div className="sec-h">
+            <div>
+              <div style={{display:'flex', alignItems:'center', gap:10, flexWrap:'wrap'}}>
+                <div className="sec-title">{sec.title}</div>
+                {sec.canonical && (
+                  <span style={{fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', fontWeight:700, textTransform:'uppercase', color:'var(--flame)', background:'rgba(224,122,63,0.12)', padding:'3px 8px', borderRadius:4}}>★ Canonical</span>
+                )}
+                {!sec.canonical && (
+                  <span style={{fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', fontWeight:700, textTransform:'uppercase', color:'var(--ink-3)', background:'var(--line)', padding:'3px 8px', borderRadius:4}}>Dark only · not comparable to in-feed</span>
+                )}
+              </div>
+              <div className="sec-sub" style={{marginTop:6}}>{sec.sub}</div>
             </div>
-            <div className="sec-sub" style={{marginTop:6}}>Average ER of wrapped campaigns in each category — <strong>the numbers to quote</strong>.{fos && fos.lastUpdated ? ` Compare-to set (${fos.name}) as of ${fos.lastUpdated}.` : ''}</div>
+          </div>
+          <div className="card" style={{padding:0, overflow:'auto'}}>
+            <table className="tbl" style={{width:'100%', fontSize:13}}>
+              <thead>
+                <tr>
+                  <th style={{textAlign:'left'}}>Category</th>
+                  {visibleCols.map(p => <th key={p} className="num" style={{textAlign:'right'}}>{p}</th>)}
+                  <th className="num" style={{textAlign:'right', borderLeft:'2px solid var(--flame)', color:'var(--flame)'}}>All</th>
+                  <th className="num" style={{textAlign:'right'}}>#</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sec.rows.length === 0 && (
+                  <tr><td colSpan={visibleCols.length + 3} style={{color:'var(--ink-3)', padding:'16px'}}>No wrapped campaigns match these filters yet.</td></tr>
+                )}
+                {sec.rows.map((r, i) => (
+                  <tr key={i}>
+                    <td style={{fontWeight:500, maxWidth:320}}>{r.name} <span style={{color:'var(--ink-3)', fontWeight:400}}>({r.n})</span></td>
+                    {visibleCols.map(p => cell(r.platforms[p], sec.canonical ? fosVal(p) : null))}
+                    <td className="num" style={{fontWeight:700, borderLeft:'2px solid var(--flame)'}}>{pctOrDash(r.all)}</td>
+                    <td className="num" style={{color:'var(--ink-3)'}}>{r.n}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
-        <div className="card" style={{padding:0, overflow:'auto'}}>
-          <table className="tbl" style={{width:'100%', fontSize:13}}>
-            <thead>
-              <tr>
-                <th style={{textAlign:'left'}}>Category</th>
-                {visibleCols.map(p => <th key={p} className="num" style={{textAlign:'right'}}>{p}</th>)}
-                <th className="num" style={{textAlign:'right', borderLeft:'2px solid var(--flame)', color:'var(--flame)'}}>All</th>
-                <th className="num" style={{textAlign:'right'}}>#</th>
-              </tr>
-            </thead>
-            <tbody>
-              {catRows.length === 0 && (
-                <tr><td colSpan={visibleCols.length + 3} style={{color:'var(--ink-3)', padding:'16px'}}>No wrapped campaigns match these filters yet.</td></tr>
-              )}
-              {catRows.map((r, i) => (
-                <tr key={i}>
-                  <td style={{fontWeight:500, maxWidth:320}}>{r.name} <span style={{color:'var(--ink-3)', fontWeight:400}}>({r.n})</span></td>
-                  {visibleCols.map(p => cell(r.platforms[p], fosVal(p)))}
-                  <td className="num" style={{fontWeight:700, borderLeft:'2px solid var(--flame)'}}>{pctOrDash(r.all)}</td>
-                  <td className="num" style={{color:'var(--ink-3)'}}>{r.n}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
+      ))}
 
       {/* CAMPAIGN LIST (filtered) */}
       <div className="sec">

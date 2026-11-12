@@ -234,17 +234,35 @@ LIVE_CATEGORY_ORDER = [
     "Video: Social-First IP or Franchise (Organic or Boosted)",
     "Static: Social-First IP or Franchise (Organic or Boosted)",
     "Video: Custom Social (Organic + Boosted)",
+    "Video: Custom Social (Organic)",
     "Static: Custom Social (Organic + Boosted)",
-    "Video: Custom Social (Dark Only)",
-    "Static: Custom Social (Dark Only)",
     "Brand Integration / Sponsored Content (Longform + Cutdowns)",
     "Custom Branded Content (Longform + Cutdowns, Organic + Boosted)",
-    "Custom Branded Content (Longform + Cutdowns, Dark Only)",
     "Custom Social Video: FOS Tentpole Event",
     "FOS Event: Presenting Partner",
     "FOS Custom Event: Tastemaker or Future of Sports",
     "Organic Franchise (Non-Sponsored)",
+    # --- Dark (paid-only) — benchmarked separately, never compared to in-feed ---
+    "Video: Custom Social (Dark Only)",
+    "Static: Custom Social (Dark Only)",
+    "Brand Integration / Sponsored Content (Longform), Dark Only",
+    "Custom Branded Content (Longform + Cutdowns, Dark Only)",
+    "Custom Branded Content (Longform, Dark Only)",
+    "Custom Branded Content (Cutdowns, Dark Only)",
+    "Custom Branded Content (Custom Creator led), Dark Only",
+    "Custom Branded Content (Static), Dark Only",
 ]
+
+
+def _row_group(row: dict) -> str:
+    """'Dark' (paid-only) or 'In-feed' (organic / boosted). Dark and in-feed are
+    never averaged together. Uses the CSV's Group column when present, else
+    infers it from Distribution / category name."""
+    g = (row.get("Group") or "").strip().lower()
+    if g:
+        return "Dark" if "dark" in g else "In-feed"
+    blob = f"{row.get('Distribution', '')} {row.get('Benchmark Category', '')}".lower()
+    return "Dark" if ("dark" in blob or "paid only" in blob) else "In-feed"
 
 # Platform columns, in display order. Keys match the Campaign Data headers.
 LIVE_PLATFORM_COLS = [
@@ -295,6 +313,8 @@ def _category_table(campaigns: list[dict], names: list[str]) -> list[dict]:
         platforms = {k: v for k, v in platforms.items() if v is not None}
         out.append({
             "name": name,
+            "group": members[0]["group"] if members else next(
+                (c["group"] for c in campaigns if c["category"] == name), "In-feed"),
             "platforms": platforms,
             "all": _avg([c["all"] for c in members]),
             "n_campaigns": len(members),
@@ -340,6 +360,7 @@ def compute_live_benchmarks(campaigns_csv: Path, platforms_csv: Path) -> dict[st
                 "franchise": (row.get("Franchise / IP") or "").strip(),
                 "content_type": (row.get("Content Type") or "").strip(),
                 "distribution": (row.get("Distribution") or "").strip(),
+                "group": _row_group(row),
                 "tentpole_moment": (row.get("Tentpole Moment") or "").strip(),
                 "tentpole": "Tentpole" if (row.get("Tentpole Moment") or "").strip() not in ("", "None") else "Non-Tentpole",
                 "year": (row.get("Year") or "").strip(),
@@ -359,7 +380,9 @@ def compute_live_benchmarks(campaigns_csv: Path, platforms_csv: Path) -> dict[st
     categories = _category_table(campaigns, cat_names)
 
     # "All sponsored campaigns" aggregate row.
-    sponsored = [c for c in campaigns if c["program"].lower() == "sponsored" and c["include"]]
+    # In-feed only — dark (paid-only) campaigns are never blended into this row.
+    sponsored = [c for c in campaigns
+                 if c["program"].lower() == "sponsored" and c["include"] and c["group"] != "Dark"]
     all_sponsored = {
         "name": "All sponsored campaigns",
         "platforms": {k: v for k, v in (
@@ -385,6 +408,7 @@ def compute_live_benchmarks(campaigns_csv: Path, platforms_csv: Path) -> dict[st
             "category": cat_names,
             "content_type": _distinct("content_type"),
             "distribution": _distinct("distribution"),
+            "group": ["In-feed", "Dark"],
             "tentpole": ["Tentpole", "Non-Tentpole"],
             "year": _distinct("year"),
             "program": _distinct("program"),
