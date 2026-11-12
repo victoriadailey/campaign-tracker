@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-12T14:54:33Z";
+window.LAST_REFRESHED = "2026-11-12T14:56:24Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4701,7 +4701,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 3020536,
+      "delivered": 3142115,
       "goal": 3850000
     },
     "budget": {
@@ -4711,8 +4711,8 @@ window.CAMPAIGNS = [
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 1.88,
-    "cpm": 2.56,
+    "er": 1.81,
+    "cpm": 2.46,
     "episodes": 3,
     "posts": 16,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
@@ -4741,12 +4741,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 779770,
+        "impressions": 901349,
         "eng": 49555,
-        "er": 6.36,
-        "cpm": 2.83,
+        "er": 5.5,
+        "cpm": 2.45,
         "color": "#FF0033",
-        "delta": -68.2,
+        "delta": -72.5,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -4844,7 +4844,7 @@ window.CAMPAIGNS = [
       {
         "label": "Preston Stout Interview",
         "impressions": {
-          "delivered": 515004,
+          "delivered": 596059,
           "goal": 500000
         }
       },
@@ -4858,7 +4858,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOS News Video",
         "impressions": {
-          "delivered": 566725,
+          "delivered": 1015519,
           "goal": 1000000
         }
       },
@@ -4872,7 +4872,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-11-12T14:32:48Z"
   },
   {
@@ -5093,7 +5093,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5275,7 +5275,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-11-10T21:07:42Z"
   },
   {
@@ -5441,7 +5441,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5565,7 +5565,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5980,7 +5980,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6280,7 +6280,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6437,7 +6437,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6576,7 +6576,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6726,7 +6726,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-11-10T17:11:38Z"
   },
   {
@@ -6891,7 +6891,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7133,7 +7133,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7509,7 +7509,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T14:54:33Z",
+    "lastUpdatedMs": "2026-11-12T14:56:24Z",
     "lastUpdatedExports": "2026-11-10T21:32:00Z"
   }
 ];
@@ -7748,7 +7748,7 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 125539288,
+    "impressions": 125660867,
     "eng": 2838509,
     "er": 2.26,
     "cpm": 1.14,
@@ -23504,11 +23504,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Preston Stout Interview",
       "date": "Sep 2026",
       "total": {
-        "impr": 515004,
+        "impr": 596059,
         "views": 492666,
-        "er": 1.54,
-        "eng": 7911,
-        "spend": 1290.47
+        "er": 0.06,
+        "eng": 336,
+        "spend": 872.91
       },
       "perChannel": [
         {
@@ -23529,16 +23529,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 120592,
-          "paidImpr": 120581,
+          "impr": 201647,
+          "paidImpr": 201636,
           "orgImpr": 11,
           "views": 187695,
-          "eng": 7616,
-          "paidEng": 7575,
+          "eng": 41,
+          "paidEng": 0,
           "orgEng": 41,
-          "er": 6.32,
-          "cpm": 3.46,
-          "spend": 417.56,
+          "er": 0.02,
+          "cpm": 0.0,
+          "spend": 0.0,
           "posts": 1
         },
         {
@@ -23578,13 +23578,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 120592,
-          "paidImpr": 120581,
+          "impr": 201647,
+          "paidImpr": 201636,
           "orgImpr": 11,
           "views": 187695,
-          "eng": 7616,
-          "er": 6.32,
-          "spend": 417.56,
+          "eng": 41,
+          "er": 0.02,
+          "spend": 0,
           "url": "https://www.youtube.com/shorts/zrSQSeQ56s4",
           "postedAt": "2026-08-12T08:52:35-07:00"
         },
@@ -23782,72 +23782,72 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "FOS News Video",
       "date": "Sep 2026",
       "total": {
-        "impr": 566725,
-        "views": 494135,
-        "er": 0.71,
-        "eng": 4009,
-        "spend": 1456.8
+        "impr": 1015519,
+        "views": 755202,
+        "er": 1.4,
+        "eng": 14223,
+        "spend": 2464.63
       },
       "perChannel": [
         {
           "name": "TikTok",
           "distKind": "organic+boosted",
-          "impr": 276396,
-          "paidImpr": 219039,
-          "orgImpr": 57357,
-          "views": 265184,
-          "eng": 156,
-          "paidEng": 111,
-          "orgEng": 45,
-          "er": 0.06,
-          "cpm": 2.27,
-          "spend": 498.0,
-          "posts": 1
-        },
-        {
-          "name": "Instagram",
-          "distKind": "organic+boosted",
-          "impr": 109990,
-          "paidImpr": 102259,
-          "orgImpr": 7731,
-          "views": 107788,
-          "eng": 783,
-          "paidEng": 0,
-          "orgEng": 783,
-          "er": 0.71,
-          "cpm": 3.66,
-          "spend": 374.0,
-          "posts": 1
-        },
-        {
-          "name": "Facebook",
-          "distKind": "organic+boosted",
-          "impr": 92328,
-          "paidImpr": 91243,
-          "orgImpr": 1085,
-          "views": 0,
-          "eng": 1383,
-          "paidEng": 0,
-          "orgEng": 1383,
-          "er": 1.5,
-          "cpm": 4.3,
-          "spend": 391.92,
-          "posts": 1
+          "impr": 519193,
+          "paidImpr": 363498,
+          "orgImpr": 155695,
+          "views": 504326,
+          "eng": 235,
+          "paidEng": 172,
+          "orgEng": 63,
+          "er": 0.05,
+          "cpm": 2.03,
+          "spend": 737.0,
+          "posts": 2
         },
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 88011,
-          "paidImpr": 87125,
-          "orgImpr": 886,
-          "views": 121163,
-          "eng": 1687,
-          "paidEng": 1640,
-          "orgEng": 47,
-          "er": 1.92,
-          "cpm": 2.21,
-          "spend": 192.88,
-          "posts": 1
+          "impr": 208592,
+          "paidImpr": 207706,
+          "orgImpr": 1057,
+          "views": 121334,
+          "eng": 9267,
+          "paidEng": 9215,
+          "orgEng": 52,
+          "er": 4.44,
+          "cpm": 2.94,
+          "spend": 610.44,
+          "posts": 2
+        },
+        {
+          "name": "Facebook",
+          "distKind": "organic+boosted",
+          "impr": 155917,
+          "paidImpr": 154460,
+          "orgImpr": 1457,
+          "views": 0,
+          "eng": 1406,
+          "paidEng": 0,
+          "orgEng": 1406,
+          "er": 0.9,
+          "cpm": 3.76,
+          "spend": 580.19,
+          "posts": 2
+        },
+        {
+          "name": "Instagram",
+          "distKind": "organic+boosted",
+          "impr": 131817,
+          "paidImpr": 113746,
+          "orgImpr": 18071,
+          "views": 129542,
+          "eng": 3315,
+          "paidEng": 0,
+          "orgEng": 3315,
+          "er": 2.51,
+          "cpm": 4.72,
+          "spend": 537.0,
+          "posts": 2
         }
       ],
       "posts": [
@@ -23886,13 +23886,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 88011,
-          "paidImpr": 87125,
+          "impr": 121467,
+          "paidImpr": 120581,
           "orgImpr": 886,
           "views": 121163,
-          "eng": 1687,
-          "er": 1.92,
-          "spend": 192.88,
+          "eng": 7622,
+          "er": 6.27,
+          "spend": 417.56,
           "url": "https://www.youtube.com/shorts/s4yFjzpExt4",
           "postedAt": "2026-10-12T13:30:37-07:00"
         },
@@ -23910,10 +23910,83 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 374.0,
           "url": "https://www.instagram.com/p/DeaGJZtjQEL/",
           "postedAt": "2026-10-12T13:33:04-07:00"
+        },
+        {
+          "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 242797,
+          "paidImpr": 144459,
+          "orgImpr": 98338,
+          "views": 239142,
+          "eng": 79,
+          "er": 0.03,
+          "spend": 239.0,
+          "url": "https://tiktok.com/@frontofficesports/video/7706287070163045645",
+          "postedAt": "2026-11-09T13:30:02-08:00"
+        },
+        {
+          "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 63589,
+          "paidImpr": 63217,
+          "orgImpr": 372,
+          "views": 0,
+          "eng": 23,
+          "er": 0.04,
+          "spend": 188.27,
+          "url": "https://www.facebook.com/1638728601600057/",
+          "postedAt": "2026-11-09T13:30:06-08:00"
+        },
+        {
+          "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports News ",
+          "distKind": "organic+boosted",
+          "impr": 87125,
+          "paidImpr": 87125,
+          "orgImpr": 0,
+          "views": 171,
+          "eng": 1645,
+          "er": 1.89,
+          "spend": 192.88,
+          "url": "https://www.youtube.com/shorts/HPc2yu3CYsY",
+          "postedAt": "2026-11-09T13:30:26-08:00"
+        },
+        {
+          "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 21827,
+          "paidImpr": 11487,
+          "orgImpr": 10340,
+          "views": 21754,
+          "eng": 2532,
+          "er": 11.6,
+          "spend": 163.0,
+          "url": "https://www.instagram.com/p/DfiTTsUDDoA/",
+          "postedAt": "2026-11-09T13:33:07-08:00"
         }
       ],
-      "topPosts": [],
-      "callouts": [],
+      "topPosts": [
+        {
+          "quote": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FO",
+          "platform": "Instagram",
+          "er": 11.6,
+          "reach": 21754,
+          "url": "https://www.instagram.com/p/DfiTTsUDDoA/"
+        }
+      ],
+      "callouts": [
+        {
+          "kind": "pos",
+          "text": "Instagram leading with 2.5% ER on 131.8K impr."
+        }
+      ],
       "impressionGoal": 1000000
     }
   ],
@@ -43337,19 +43410,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 120592,
-      "paidImpr": 120581,
+      "impr": 201647,
+      "paidImpr": 201636,
       "orgImpr": 11,
       "views": 187695,
       "reach": 0,
-      "eng": 7616,
-      "er": 6.32,
-      "spend": 417.56,
+      "eng": 41,
+      "er": 0.02,
+      "spend": 0,
       "watchTimeMin": 20211.6,
       "clicks": 69,
       "ctr": 34.22,
       "cpc": 8.62,
-      "cpm": 3.46,
+      "cpm": 2.95,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/zrSQSeQ56s4",
@@ -43567,19 +43640,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 88011,
-      "paidImpr": 87125,
+      "impr": 121467,
+      "paidImpr": 120581,
       "orgImpr": 886,
       "views": 121163,
       "reach": 0,
-      "eng": 1687,
-      "er": 1.92,
-      "spend": 192.88,
+      "eng": 7622,
+      "er": 6.27,
+      "spend": 417.56,
       "watchTimeMin": 9858.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 2.21,
+      "cpm": 3.46,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/s4yFjzpExt4",
@@ -43659,19 +43732,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News ",
       "distKind": "organic+boosted",
-      "impr": 80057,
-      "paidImpr": 80057,
+      "impr": 87125,
+      "paidImpr": 87125,
       "orgImpr": 0,
       "views": 171,
       "reach": 0,
-      "eng": 5,
-      "er": 0.01,
-      "spend": 0,
+      "eng": 1645,
+      "er": 1.89,
+      "spend": 192.88,
       "watchTimeMin": 42.0,
       "clicks": 101,
       "ctr": 1.26,
       "cpc": 1.76,
-      "cpm": 2.22,
+      "cpm": 2.21,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/HPc2yu3CYsY",
@@ -51748,12 +51821,12 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   },
   {
     "name": "YouTube Shorts",
-    "cpm": 2.77,
-    "impressions": 12031370,
-    "paidImpressions": 11755537,
-    "pctOfTotal": 11.5,
+    "cpm": 2.74,
+    "impressions": 12152949,
+    "paidImpressions": 11877116,
+    "pctOfTotal": 11.6,
     "mvmCpm": 3.2,
-    "mvmDeltaPct": -13.5,
+    "mvmDeltaPct": -14.3,
     "color": "#FF0033"
   },
   {
@@ -51798,7 +51871,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   }
 ];
 
-window.PORTFOLIO_CPM_BLEND = 2.07;
+window.PORTFOLIO_CPM_BLEND = 2.06;
 
 window.BRANDX_BENCHMARKS = {
   "cpmOverall": 3.34,
