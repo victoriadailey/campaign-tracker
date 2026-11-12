@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-12T16:53:34Z";
+window.LAST_REFRESHED = "2026-11-12T18:47:24Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:33Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:33Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:33Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:33Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:33Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:33Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:33Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4872,7 +4872,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-11-12T14:32:48Z"
   },
   {
@@ -5093,7 +5093,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5275,7 +5275,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-11-10T21:07:42Z"
   },
   {
@@ -5441,7 +5441,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5565,7 +5565,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5980,7 +5980,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6280,7 +6280,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6437,7 +6437,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6576,7 +6576,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6758,7 +6758,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-11-10T17:11:38Z"
   },
   {
@@ -6923,7 +6923,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7165,7 +7165,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7541,7 +7541,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-12T16:53:34Z",
+    "lastUpdatedMs": "2026-11-12T18:47:24Z",
     "lastUpdatedExports": "2026-11-10T21:32:00Z"
   }
 ];
@@ -23971,7 +23971,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 188.27,
           "url": "https://www.facebook.com/1638728601600057/",
-          "postedAt": "2026-11-09T13:30:15-08:00"
+          "postedAt": "2026-11-09T13:30:06-08:00"
         },
         {
           "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
@@ -43757,7 +43757,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": 20,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1638728601600057/",
-      "postedAt": "2026-11-09T13:30:15-08:00"
+      "postedAt": "2026-11-09T13:30:06-08:00"
     },
     {
       "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
@@ -45918,7 +45918,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1641025261370391/",
-      "postedAt": "2026-11-11T13:30:59-08:00"
+      "postedAt": "2026-11-11T13:30:44-08:00"
     },
     {
       "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.\u2060 \u2060 Presented by @pwcus",
