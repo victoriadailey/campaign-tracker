@@ -2,7 +2,7 @@
 Review" Google Sheet (tabs: In-Feed, Dark, Organic Franchise).
 
 The sheet is the source of truth for the campaign rows and their ER values.
-Fields the sheet doesn't carry (Franchise / IP, Tentpole, Program, Meta (Dark),
+Fields the sheet doesn't carry (Franchise / IP, Tentpole, Program,
 Tags to Confirm, Original Location) are carried over from the existing CSV row
 for the same campaign; new campaigns get sensible defaults.
 
@@ -25,7 +25,7 @@ PLATFORMS = ["Instagram", "Facebook", "X", "TikTok", "LinkedIn",
 OUT_COLS = [
     "Campaign", "Client", "Benchmark Category", "Franchise / IP", "Content Type",
     "Distribution", "Tentpole?", "Tentpole Moment", "Year", "Program",
-    *PLATFORMS, "Meta (Dark)", "All Platforms", "Spend ($)",
+    *PLATFORMS, "All Platforms", "Spend ($)",
     "Include in Benchmarks", "Tags to Confirm", "Notes", "Original Location",
     "Group",
 ]
@@ -101,9 +101,6 @@ def main(infeed: str, dark: str, organic: str) -> None:
                 "Tentpole Moment": prev.get("Tentpole Moment", "None"),
                 "Year": (r.get("Year") or "").strip(),
                 "Program": "Organic" if organic_tab else (prev.get("Program") or "Sponsored"),
-                # Only carry Meta (Dark) when the same campaign + distribution row existed;
-                # never leak a dark row's value onto the campaign's in-feed row.
-                "Meta (Dark)": (exact or {}).get("Meta (Dark)", ""),
                 "All Platforms": _frac(r.get("All Platforms", "")),
                 "Spend ($)": _money(r.get("Spend ($)", "")),
                 "Include in Benchmarks": "Yes" if (r.get("Include in Benchmarks") or "").strip().lower() == "yes" else "No",

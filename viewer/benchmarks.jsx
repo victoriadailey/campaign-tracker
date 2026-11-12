@@ -19,7 +19,7 @@ function BenchmarksPage() {
 // LIVE BENCHMARKS — filterable dashboard (window.BENCHMARKS_DATA.live)
 // Video/Static · Custom/Franchise · Paid-only/Organic+Boosted
 // ══════════════════════════════════════════════════════════
-const LIVE_PLATFORMS = ['Instagram', 'Facebook', 'X', 'TikTok', 'LinkedIn', 'YouTube Shorts', 'YouTube', 'Meta (Dark)'];
+const LIVE_PLATFORMS = ['Instagram', 'Facebook', 'X', 'TikTok', 'LinkedIn', 'YouTube Shorts', 'YouTube'];
 
 function pctOrDash(v) { return (v === null || v === undefined) ? '—' : `${v.toFixed(2)}%`; }
 

@@ -5,7 +5,7 @@ from app.compute.benchmarks import compute_live_benchmarks
 COLS = ["Campaign", "Client", "Benchmark Category", "Franchise / IP", "Content Type",
         "Distribution", "Tentpole?", "Tentpole Moment", "Year", "Program",
         "Instagram", "Facebook", "X", "TikTok", "LinkedIn", "YouTube Shorts", "YouTube",
-        "Meta (Dark)", "All Platforms", "Spend ($)", "Include in Benchmarks", "Group"]
+        "All Platforms", "Spend ($)", "Include in Benchmarks", "Group"]
 
 
 def _row(name, cat, dist, allp, group=""):

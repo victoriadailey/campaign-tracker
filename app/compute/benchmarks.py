@@ -267,7 +267,7 @@ def _row_group(row: dict) -> str:
 # Platform columns, in display order. Keys match the Campaign Data headers.
 LIVE_PLATFORM_COLS = [
     "Instagram", "Facebook", "X", "TikTok", "LinkedIn",
-    "YouTube Shorts", "YouTube", "Meta (Dark)",
+    "YouTube Shorts", "YouTube",
 ]
 
 
