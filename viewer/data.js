@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-13T14:47:09Z";
+window.LAST_REFRESHED = "2026-11-13T18:28:26Z";
 
 
 
@@ -369,7 +369,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:25Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -384,7 +384,7 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 44383699,
+      "delivered": 44414364,
       "goal": 41700000
     },
     "budget": {
@@ -394,13 +394,13 @@ window.CAMPAIGNS = [
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.85,
+    "er": 2.84,
     "cpm": 1.86,
     "episodes": 20,
-    "posts": 403,
+    "posts": 408,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 12682971,
-    "engagements": 1262992,
+    "views": 12695440,
+    "engagements": 1263464,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -440,34 +440,34 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 7535127,
-        "eng": 162469,
+        "impressions": 7544965,
+        "eng": 162797,
         "er": 2.16,
         "cpm": 5.49,
         "color": "#E4405F",
-        "delta": -34.9,
+        "delta": -34.8,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1915257,
-        "views": 7451899
+        "organicImpressions": 1925095,
+        "views": 7461737
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 5192749,
-        "eng": 17153,
+        "impressions": 5208757,
+        "eng": 17174,
         "er": 0.33,
         "cpm": 1.59,
         "color": "#1d1d1f",
-        "delta": -64.1,
+        "delta": -64.2,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1820914,
-        "views": 433322
+        "organicImpressions": 1836922,
+        "views": 434445
       },
       {
         "name": "YouTube Shorts",
@@ -488,18 +488,18 @@ window.CAMPAIGNS = [
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1536561,
-        "eng": 48586,
+        "impressions": 1541380,
+        "eng": 48709,
         "er": 3.16,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -15.9,
+        "delta": -16.0,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1536561,
-        "views": 617465
+        "organicImpressions": 1541380,
+        "views": 618973
       },
       {
         "name": "TikTok",
@@ -820,7 +820,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:25Z",
     "lastUpdatedExports": "2026-11-06T17:21:13Z"
   },
   {
@@ -1074,7 +1074,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:25Z",
     "lastUpdatedExports": "2026-06-24T20:12:23Z"
   },
   {
@@ -1392,7 +1392,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:25Z",
     "lastUpdatedExports": "2026-07-31T15:38:21Z"
   },
   {
@@ -1501,7 +1501,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:25Z",
     "lastUpdatedExports": "2026-07-01T20:41:24Z"
   },
   {
@@ -1650,7 +1650,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-06-10T06:47:19Z"
   },
   {
@@ -1807,7 +1807,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-07-22T18:25:38Z"
   },
   {
@@ -2206,7 +2206,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-06-30T13:51:17Z"
   },
   {
@@ -2356,7 +2356,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-06-12T19:09:12Z"
   },
   {
@@ -2560,7 +2560,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-07-29T19:05:45Z"
   },
   {
@@ -2829,7 +2829,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-06-23T19:00:45Z"
   },
   {
@@ -3216,7 +3216,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-08-03T20:12:44Z"
   },
   {
@@ -3604,7 +3604,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-08-14T15:09:18Z"
   },
   {
@@ -3770,7 +3770,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-08-21T15:28:13Z"
   },
   {
@@ -3911,7 +3911,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-08-06T19:52:57Z"
   },
   {
@@ -4155,7 +4155,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-08-03T16:28:18Z"
   },
   {
@@ -4480,7 +4480,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-08-18T15:18:49Z"
   },
   {
@@ -4686,7 +4686,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-08-27T13:27:35Z"
   },
   {
@@ -4887,7 +4887,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-11-12T14:32:48Z"
   },
   {
@@ -5108,7 +5108,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-09-04T13:23:33Z"
   },
   {
@@ -5290,7 +5290,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-11-10T21:07:42Z"
   },
   {
@@ -5456,7 +5456,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:08Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-09-25T15:56:42Z"
   },
   {
@@ -5580,7 +5580,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-09-30T13:23:21Z"
   },
   {
@@ -5995,7 +5995,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-10-29T17:34:57Z"
   },
   {
@@ -6295,7 +6295,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-10-30T17:26:14Z"
   },
   {
@@ -6452,7 +6452,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-10-27T20:22:28Z"
   },
   {
@@ -6591,7 +6591,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-10-26T20:28:35Z"
   },
   {
@@ -6606,7 +6606,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 2740139,
+      "delivered": 2745942,
       "goal": 4200000
     },
     "budget": {
@@ -6616,13 +6616,13 @@ window.CAMPAIGNS = [
     "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 2.38,
+    "er": 2.37,
     "cpm": 2.52,
     "episodes": 0,
-    "posts": 14,
+    "posts": 15,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
-    "views": 1476394,
-    "engagements": 65160,
+    "views": 1477107,
+    "engagements": 65168,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6646,8 +6646,8 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 596027,
-        "eng": 731,
+        "impressions": 601830,
+        "eng": 739,
         "er": 0.12,
         "cpm": 2.59,
         "color": "#1d1d1f",
@@ -6656,8 +6656,8 @@ window.CAMPAIGNS = [
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 16152,
-        "views": 385435
+        "organicImpressions": 21955,
+        "views": 386148
       },
       {
         "name": "Facebook",
@@ -6773,7 +6773,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-11-10T17:11:38Z"
   },
   {
@@ -6938,7 +6938,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-11-02T21:50:16Z"
   },
   {
@@ -7180,7 +7180,7 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-10-30T15:44:50Z"
   },
   {
@@ -7556,7 +7556,7 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-13T14:47:09Z",
+    "lastUpdatedMs": "2026-11-13T18:28:26Z",
     "lastUpdatedExports": "2026-11-13T14:31:48Z"
   }
 ];
@@ -7827,34 +7827,34 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 35767183,
-    "eng": 652799,
+    "impressions": 35777021,
+    "eng": 653127,
     "er": 1.83,
     "cpm": 4.53,
     "color": "#E4405F",
-    "delta": -44.9,
+    "delta": -44.8,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
     "organicImpressions": 0,
-    "views": 33122039
+    "views": 33131877
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 31259824,
-    "eng": 651244,
+    "impressions": 31281635,
+    "eng": 651273,
     "er": 2.08,
     "cpm": 1.74,
     "color": "#1d1d1f",
-    "delta": 126.4,
+    "delta": 126.3,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
     },
     "organicImpressions": 0,
-    "views": 1027808
+    "views": 1029644
   },
   {
     "name": "Facebook",
@@ -7875,9 +7875,9 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2734253,
-    "eng": 85173,
-    "er": 3.12,
+    "impressions": 2739072,
+    "eng": 85296,
+    "er": 3.11,
     "cpm": 8.66,
     "color": "#0A66C2",
     "delta": -17.2,
@@ -7886,7 +7886,7 @@ window.CHANNELS = [
       "cpm": 0.0
     },
     "organicImpressions": 0,
-    "views": 1050757
+    "views": 1052265
   },
   {
     "name": "Snapchat",
@@ -18926,10 +18926,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Jeremy Bloom",
       "date": "Nov 3",
       "total": {
-        "impr": 1290375,
-        "views": 304155,
-        "er": 0.77,
-        "eng": 9942,
+        "impr": 1321040,
+        "views": 316624,
+        "er": 0.79,
+        "eng": 10414,
         "spend": 1256.16
       },
       "perChannel": [
@@ -18951,32 +18951,32 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 262107,
+          "impr": 271945,
           "paidImpr": 248441,
-          "orgImpr": 13666,
-          "views": 259019,
-          "eng": 9580,
+          "orgImpr": 23504,
+          "views": 268857,
+          "eng": 9908,
           "paidEng": 0,
-          "orgEng": 9580,
-          "er": 3.65,
+          "orgEng": 9908,
+          "er": 3.64,
           "cpm": 4.82,
           "spend": 1197.0,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "X",
           "distKind": "organic+boosted",
-          "impr": 106941,
+          "impr": 122949,
           "paidImpr": 28258,
-          "orgImpr": 12526,
-          "views": 3156,
-          "eng": 62,
+          "orgImpr": 20232,
+          "views": 4279,
+          "eng": 83,
           "paidEng": 32,
-          "orgEng": 30,
-          "er": 0.06,
+          "orgEng": 51,
+          "er": 0.07,
           "cpm": 2.09,
           "spend": 59.16,
-          "posts": 2
+          "posts": 4
         },
         {
           "name": "YouTube Shorts",
@@ -18991,22 +18991,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.06,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 12243,
+          "impr": 17062,
           "paidImpr": 0,
-          "orgImpr": 12243,
-          "views": 3870,
-          "eng": 213,
+          "orgImpr": 17062,
+          "views": 5378,
+          "eng": 336,
           "paidEng": 0,
-          "orgEng": 213,
-          "er": 1.74,
+          "orgEng": 336,
+          "er": 1.97,
           "cpm": 0.0,
           "spend": 0.0,
-          "posts": 2
+          "posts": 3
         },
         {
           "name": "TikTok",
@@ -19189,6 +19189,81 @@ window.EPISODES_BY_CAMPAIGN = {
           "spend": 598.0,
           "url": "https://www.instagram.com/p/DfVbRLuCKld/",
           "postedAt": "2026-11-04T13:33:14-08:00"
+        },
+        {
+          "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand\u2019s influence on ",
+          "platform": "Instagram",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 9838,
+          "paidImpr": 0,
+          "orgImpr": 9838,
+          "views": 9838,
+          "eng": 328,
+          "er": 3.33,
+          "spend": 0,
+          "url": "https://www.instagram.com/p/DfnAO9Thm25/",
+          "postedAt": "2026-11-11T09:21:37-08:00"
+        },
+        {
+          "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO @JeremyBloom11 discusses the brand's influence o",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 9425,
+          "paidImpr": 0,
+          "orgImpr": 9425,
+          "views": 1123,
+          "eng": 20,
+          "er": 0.21,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2120592398799520113",
+          "postedAt": "2026-11-11T11:00:01-08:00"
+        },
+        {
+          "title": "How the X Games Is Bringing Fans Back to Action Sports",
+          "platform": "YouTube Shorts",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 0,
+          "paidImpr": 0,
+          "orgImpr": 0,
+          "views": 0,
+          "eng": 0,
+          "er": 0.0,
+          "spend": 0,
+          "url": "https://www.youtube.com/shorts/M1lRk0Tu4WY",
+          "postedAt": "2026-11-11T11:30:13-08:00"
+        },
+        {
+          "title": "Full episode with Bloom including:  - The future of the X Games  - Why he won\u2019t donate to college NIL programs  - What t",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6583,
+          "paidImpr": 0,
+          "orgImpr": 6583,
+          "views": 0,
+          "eng": 1,
+          "er": 0.02,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2120603893830955065",
+          "postedAt": "2026-11-11T11:45:41-08:00"
+        },
+        {
+          "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand's influence on ",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 4819,
+          "paidImpr": 0,
+          "orgImpr": 4819,
+          "views": 1508,
+          "eng": 123,
+          "er": 2.55,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526333834255253504",
+          "postedAt": "2026-11-11T13:30:09-08:00"
         }
       ],
       "topPosts": [
@@ -19200,21 +19275,21 @@ window.EPISODES_BY_CAMPAIGN = {
           "url": "https://www.instagram.com/p/DfTA3a-CcvL/"
         },
         {
-          "quote": "\u201cThese are value creators, these are company makers.\u201d\u2060 \u2060 X Games CEO Jeremy Bloom explains",
+          "quote": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discu",
           "platform": "Instagram",
-          "er": 2.89,
-          "reach": 121354,
-          "url": "https://www.instagram.com/p/DfVbRLuCKld/"
+          "er": 3.33,
+          "reach": 9838,
+          "url": "https://www.instagram.com/p/DfnAO9Thm25/"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "Instagram leading with 3.6% ER on 262.1K impr."
+          "text": "Instagram leading with 3.6% ER on 271.9K impr."
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 12.2K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 17.1K impr."
         }
       ]
     }
@@ -36484,6 +36559,121 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": 7582,
       "url": "https://www.instagram.com/p/DfVbRLuCKld/",
       "postedAt": "2026-11-04T13:33:14-08:00"
+    },
+    {
+      "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand\u2019s influence on ",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 9838,
+      "paidImpr": 0,
+      "orgImpr": 9838,
+      "views": 9838,
+      "reach": 7432,
+      "eng": 328,
+      "er": 3.33,
+      "spend": 0,
+      "watchTimeMin": 17.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DfnAO9Thm25/",
+      "postedAt": "2026-11-11T09:21:37-08:00"
+    },
+    {
+      "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO @JeremyBloom11 discusses the brand's influence o",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 9425,
+      "paidImpr": 0,
+      "orgImpr": 9425,
+      "views": 1123,
+      "reach": 0,
+      "eng": 20,
+      "er": 0.21,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2120592398799520113",
+      "postedAt": "2026-11-11T11:00:01-08:00"
+    },
+    {
+      "title": "How the X Games Is Bringing Fans Back to Action Sports",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 0,
+      "paidImpr": 0,
+      "orgImpr": 0,
+      "views": 0,
+      "reach": 0,
+      "eng": 0,
+      "er": 0.0,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/M1lRk0Tu4WY",
+      "postedAt": "2026-11-11T11:30:13-08:00"
+    },
+    {
+      "title": "Full episode with Bloom including:  - The future of the X Games  - Why he won\u2019t donate to college NIL programs  - What t",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 6583,
+      "paidImpr": 0,
+      "orgImpr": 6583,
+      "views": 0,
+      "reach": 0,
+      "eng": 1,
+      "er": 0.02,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2120603893830955065",
+      "postedAt": "2026-11-11T11:45:41-08:00"
+    },
+    {
+      "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand's influence on ",
+      "platform": "LinkedIn",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 4819,
+      "paidImpr": 0,
+      "orgImpr": 4819,
+      "views": 1508,
+      "reach": 0,
+      "eng": 123,
+      "er": 2.55,
+      "spend": 0,
+      "watchTimeMin": 355.9,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526333834255253504",
+      "postedAt": "2026-11-11T13:30:09-08:00"
     }
   ],
   "spectrum": [
@@ -45957,6 +46147,29 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dfnxa8vD6ye/",
       "postedAt": "2026-11-11T16:33:10-08:00"
+    },
+    {
+      "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.  Presented by @PwC",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 5803,
+      "paidImpr": 0,
+      "orgImpr": 5803,
+      "views": 713,
+      "reach": 0,
+      "eng": 8,
+      "er": 0.14,
+      "spend": 0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2120924591375937801",
+      "postedAt": "2026-11-12T09:00:02-08:00"
     }
   ],
   "zoom_fosexplains_mlb": [
@@ -52401,7 +52614,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "Instagram",
     "cpm": 4.43,
-    "impressions": 19745599,
+    "impressions": 19755437,
     "paidImpressions": 17197622,
     "pctOfTotal": 18.7,
     "mvmCpm": 5.62,
@@ -52431,7 +52644,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "X",
     "cpm": 2.03,
-    "impressions": 6573494,
+    "impressions": 6595305,
     "paidImpressions": 4675816,
     "pctOfTotal": 6.2,
     "mvmCpm": 1.24,
@@ -52451,7 +52664,7 @@ window.PORTFOLIO_CPM_BY_CHANNEL = [
   {
     "name": "LinkedIn",
     "cpm": 0.0,
-    "impressions": 1979403,
+    "impressions": 1984222,
     "paidImpressions": 0,
     "pctOfTotal": 1.9,
     "mvmCpm": null,
