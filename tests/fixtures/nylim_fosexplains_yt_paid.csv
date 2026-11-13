@@ -1,6 +1,6 @@
 FOS Reporting
-"October 1, 2026 - November 10, 2026"
+"October 1, 2026 - November 13, 2026"
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
-NYLI: FOS Explains (in-feed),USD,0,Eligible,Video,0.503,"2,626",0.77,"1,719,149",1321.81,"2,994"
-NYLI: FOS Explains Cutdown (Shorts),USD,0,Eligible,Video,0.243,"3,806",2.32,"398,956",924.62,"8,798"
-NYLI: FOS Explains (Pre-roll),USD,0,Eligible,Video,0.028,"8,881",13.26,"18,767",248.93,"12,621"
+NYLI: FOS Explains (in-feed),USD,0,Eligible,Video,0.529,"3,467",0.78,"2,345,434",1835.15,"4,072"
+NYLI: FOS Explains Cutdown (Shorts),USD,0,Paused,Video,0.243,"3,846",2.32,"402,526",933.48,"8,881"
+NYLI: FOS Explains (Pre-roll),USD,0,Ended,Video,0.027,"10,488",12.99,"21,690",281.72,"14,805"
