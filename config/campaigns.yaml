@@ -2150,3 +2150,21 @@ campaigns:
         - nylim_fosexplains_yt_paid.csv
       measure_studio_group_ids:
         - 9450
+
+  - id: nwsl_championship_brandx
+    partner: NWSL
+    series: NWSL Championship BrandX
+    series_italic: BrandX
+    type: brandx
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-11-11
+    flight_end: 2026-11-21
+    impression_goal: 2000000
+    budget_goal: 10000
+    color: ft-2
+    lead_format: Paid Social
+    blurb: NWSL Championship Promo BrandX
+    sources:
+      other:
+        - NWSL BrandX.csv
