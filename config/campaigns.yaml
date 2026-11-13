@@ -2164,7 +2164,12 @@ campaigns:
     budget_goal: 10000
     color: ft-2
     lead_format: Paid Social
+    brandx_objective: awareness
+    brandx_secondary_objective: clicks
     blurb: NWSL Championship Promo BrandX
+    # Meta (IG + FB) dark-ad export. Upload via the NWSL BrandX card with the
+    # "Meta Ads" source → saves to this filename. (Was wired as `other:
+    # NWSL BrandX.csv`, which no parser reads, so uploads never showed up.)
     sources:
-      other:
-        - NWSL BrandX.csv
+      meta_ads:
+        - nwsl_championship_brandx_meta_ads.csv
