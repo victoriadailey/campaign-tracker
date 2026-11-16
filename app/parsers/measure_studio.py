@@ -314,6 +314,13 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
             post.impressions_organic = _xi("X Views - Organic")
         if post.impressions_paid is None:
             post.impressions_paid = _xi("X Views - Paid")
+        # Organic engagements = the organic share of likes / replies / retweets /
+        # profile clicks / link clicks (None when the template omits them all).
+        _org_cols = ("X Likes - Organic", "X Replies - Organic", "X Retweets - Organic",
+                     "X Profile Clicks - Organic", "X Link Clicks - Organic")
+        _org_vals = [_xi(c) for c in _org_cols]
+        if any(v is not None for v in _org_vals):
+            post.engagements_organic = sum(v or 0 for v in _org_vals)
         post.views_total = _xi("X Video Views - Total")
         post.views_organic = _xi("X Video Views - Organic")
         post.views_paid = _xi("X Video Views - Paid")

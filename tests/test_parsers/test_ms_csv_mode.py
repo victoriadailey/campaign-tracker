@@ -77,3 +77,13 @@ def test_x_export_maps_views_to_delivery_and_video_views_to_plays(tmp_path):
     f.write_text(_META + hdr2 + "\nFOS,9,2026-11-01,10:00,X,Videos,Hi,G,Dark,1000,100,900,5,300,30,270\n")
     p = parse(str(f)).rows[0]
     assert (p.views_total, p.views_organic, p.views_paid) == (300, 30, 270)
+
+
+def test_x_organic_engagements_are_summed_from_organic_columns(tmp_path):
+    hdr = ("Account Name,Post ID,Date Published,Time Published,Post Platform,Post Type,Post Title,"
+           "Post Group(s),Organic / Boosted / Dark,X Views - Total,X Views - Organic,X Views - Paid,"
+           "X Total Engagements - Total,X Likes - Organic,X Replies - Organic,X Retweets - Organic,"
+           "X Profile Clicks - Organic,X Link Clicks - Organic")
+    f = tmp_path / "ms.csv"
+    f.write_text(_META + hdr + "\nFOS,9,2026-11-01,10:00,X,Videos,Hi,G,Dark,1000,100,900,50,5,1,2,3,4\n")
+    assert parse(str(f)).rows[0].engagements_organic == 15

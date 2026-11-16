@@ -1758,6 +1758,23 @@ def _merge_x_ads_spend_into_ms(
                 t.engagements_organic = max(0, t.engagements_total - xa_eng)
             t.er = ((t.engagements_total or 0) / t.impressions_total
                     if t.impressions_total else None)
+        elif xa_paid > 0 and not _stats and t.impressions_organic is not None:
+            # Measure EXPORT mode: the X Ads export is authoritative for everything
+            # paid (delivery, engagements, spend, video starts); Measure supplies the
+            # organic side (Views - Organic and, when the template includes them, the
+            # organic likes / replies / retweets / clicks).
+            t.impressions_paid = xa_paid
+            t.impressions_total = (t.impressions_organic or 0) + xa_paid
+            if xa_eng > 0:
+                t.engagements_paid = xa_eng
+                if t.engagements_organic is not None:
+                    t.engagements_total = t.engagements_organic + xa_eng
+                else:
+                    # No organic breakdown in the template: MS's total is the floor.
+                    t.engagements_total = max(t.engagements_total or 0, xa_eng)
+                    t.engagements_organic = max(0, t.engagements_total - xa_eng)
+            if t.impressions_total:
+                t.er = (t.engagements_total or 0) / t.impressions_total
         elif ms_paid > 0:
             # Case 1 — MS captured the breakdown. Just add spend.
             # In Measure-export mode MS's X engagements can be far below the X Ads
@@ -1810,9 +1827,13 @@ def _merge_x_ads_spend_into_ms(
         # (`views` == `organic_views`, `promoted_views` is empty), so the X Ads
         # export's video views are additive on top of MS's count.
         xa_views = xa.views_paid or 0
-        if xa_views > 0 and not (t.views_paid or 0):   # MS export already counts paid views
-            t.views_paid = (t.views_paid or 0) + xa_views
-            t.views_total = (t.views_total or 0) + xa_views
+        if xa_views > 0:
+            # X Ads video starts are the paid plays; Measure supplies the organic
+            # plays (its own paid count, if any, is replaced by X Ads').
+            base = t.views_organic if t.views_organic is not None else (
+                0 if t.views_paid else (t.views_total or 0))
+            t.views_paid = xa_views
+            t.views_total = base + xa_views
 
     # Build MS-by-tweet-ID lookup once — used by Pass 0 (URL auto-pair) and
     # Pass 0' (manual pairings).
