@@ -15,6 +15,7 @@ function HealthBanner() {
   const orphans = dh.orphanFiles || [];
   const msErrors = dh.msErrors || [];
   const duplicates = dh.potentialDuplicates || [];
+  const frozen = (dh.frozenMs || []).map(f => `${f.partner || f.id}${f.asOf ? ` — Measure data as of ${f.asOf}` : ' — no earlier data'}`);
 
   // Classify the free-text warnings. "excluded N posts" is normal/expected —
   // don't alarm on it. "SKIPPED" = a campaign fell out of the dashboard.
@@ -22,7 +23,7 @@ function HealthBanner() {
   const missing = warns.filter(w => /missing .*file/i.test(w));
 
   const critical = skipped.length + msErrors.length + duplicates.length;
-  const attention = orphans.length + missing.length;
+  const attention = orphans.length + missing.length + frozen.length;
   const total = critical + attention;
   if (total === 0) return null;
 
@@ -61,6 +62,8 @@ function HealthBanner() {
                  hint="An uploaded export looks like it overlaps posts already tracked in Measure — the totals may be inflated. Remove the duplicate upload (or confirm the posts really are distinct)."/>
             <Row label="Measure Studio errors" items={msErrors}
                  hint="Data is incomplete for these — re-run the refresh, or upload a manual CSV."/>
+            <Row label="Measure data frozen (no export yet)" items={frozen}
+                 hint="The Measure API connection has ended. These campaigns keep their last published organic numbers until a Measure export (<campaign>_ms.csv) is uploaded. Portfolio-wide totals include them as of that date."/>
             <Row label="Uploaded files not being used" items={orphans}
                  hint="These files are in the repo but no campaign reads them — usually an export that landed under an off-convention name. Re-upload it via the campaign's own card on Add Campaign Data, or it's a stale/duplicate you can ignore."/>
             <Row label="Expected files missing" items={missing}

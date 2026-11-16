@@ -129,6 +129,12 @@ PLATFORM_METRIC_MAPS: dict[Platform, dict[str, str]] = {
     },
 }
 
+# Measure renamed some export columns after this parser was written. If the
+# canonical column is absent/blank on a row, fall back to its current name.
+COLUMN_ALIASES: dict[str, tuple[str, ...]] = {
+    "Instagram Views - Total": ("Instagram Views - Instagram - Total",),
+}
+
 BOOSTING_MAP: dict[str, Boosting] = {
     "Organic": Boosting.ORGANIC,
     "Boosted": Boosting.BOOSTED,
@@ -274,6 +280,11 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
 
     for field_name, col_name in PLATFORM_METRIC_MAPS.get(platform, {}).items():
         value = raw.get(col_name)
+        if value is None or value == "":
+            for alias in COLUMN_ALIASES.get(col_name, ()):
+                value = raw.get(alias)
+                if value not in (None, ""):
+                    break
         if value is None or value == "":
             continue
         if field_name in {"er", "ad_spend", "cpm", "cpv", "cpc", "ctr",

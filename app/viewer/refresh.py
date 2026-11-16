@@ -57,6 +57,112 @@ DEFAULT_CONFIG = REPO_ROOT / "config" / "campaigns.yaml"
 DEFAULT_OUTPUT = REPO_ROOT / "viewer" / "data.js"
 
 
+def _carry_forward_frozen(payload, frozen_ids: set, prev_js: str, today) -> list[dict]:
+    """Replace each frozen campaign's rollup with its last-published blocks.
+
+    Reads CAMPAIGNS / EPISODES_BY_CAMPAIGN / POSTS_BY_CAMPAIGN from the previous
+    data.js. Portfolio-wide pieces (channel mix, signals, top posts) are built
+    from the live campaigns only. Returns the report for Data Health.
+    """
+    import json as _json
+    import re as _re
+
+    prev: dict = {}
+    dec = _json.JSONDecoder()
+    for name in ("LAST_REFRESHED", "CAMPAIGNS", "EPISODES_BY_CAMPAIGN", "POSTS_BY_CAMPAIGN",
+                 "CHANNELS", "PORTFOLIO_CPM_BY_CHANNEL", "PORTFOLIO_CPM_BLEND"):
+        m = _re.search(rf"window\.{name}\s*=\s*", prev_js)
+        if m:
+            try:
+                prev[name], _ = dec.raw_decode(prev_js, m.end())
+            except ValueError:
+                pass
+    prev_camps = {c.get("id"): c for c in (prev.get("CAMPAIGNS") or []) if isinstance(c, dict)}
+    prev_eps = prev.get("EPISODES_BY_CAMPAIGN") or {}
+    prev_posts = prev.get("POSTS_BY_CAMPAIGN") or {}
+    stamp = str(prev.get("LAST_REFRESHED") or "")[:10] or today.isoformat()
+
+    report: list[dict] = []
+    new_campaigns = []
+    for c in payload.campaigns:
+        cid = getattr(c, "id", None)
+        if cid in frozen_ids and cid in prev_camps:
+            d = dict(prev_camps[cid])
+            # Keep the ORIGINAL as-of date across consecutive frozen refreshes.
+            d.setdefault("measureFrozenAsOf", stamp)
+            new_campaigns.append(d)
+            if cid in prev_eps:
+                payload.episodes_by_campaign[cid] = prev_eps[cid]
+            if cid in prev_posts:
+                payload.posts_by_campaign[cid] = prev_posts[cid]
+            report.append({"id": cid, "partner": d.get("partner"), "asOf": d["measureFrozenAsOf"]})
+        else:
+            new_campaigns.append(c)
+            if cid in frozen_ids:
+                report.append({"id": cid, "partner": getattr(c, "partner", None), "asOf": None})
+    payload.campaigns = new_campaigns
+
+    # ---- Portfolio aggregates ----
+    # CHANNELS = last published portfolio totals, adjusted by how much each LIVE
+    # campaign moved since then (new block − last published block). Frozen
+    # campaigns contribute zero change, so they stay in the totals as of their
+    # as-of date instead of vanishing. ER is recomputed from the adjusted sums;
+    # CPM can't be adjusted (no per-campaign spend here) so it stays as published.
+    try:
+        from app.viewer.render import to_js as _to_js
+
+        def _sums(cd: dict) -> dict[str, list]:
+            out: dict[str, list] = {}
+            for ch in cd.get("channels") or []:
+                nm = str(ch.get("name") or "")
+                base = "YouTube" if nm.startswith("YouTube") else nm
+                t = out.setdefault(base, [0, 0, 0, 0])
+                t[0] += ch.get("impressions") or 0
+                t[1] += ch.get("eng") or 0
+                t[2] += ch.get("views") or 0
+                t[3] += ch.get("organicImpressions") or 0
+            return out
+
+        delta: dict[str, list] = {}
+        for c in new_campaigns:
+            if isinstance(c, dict):          # frozen → no change
+                continue
+            cd = _to_js(c)
+            for base, v in _sums(cd).items():
+                d = delta.setdefault(base, [0, 0, 0, 0])
+                for i in range(4):
+                    d[i] += v[i]
+            for base, v in _sums(prev_camps.get(cd.get("id")) or {}).items():
+                d = delta.setdefault(base, [0, 0, 0, 0])
+                for i in range(4):
+                    d[i] -= v[i]
+        merged = []
+        for t in prev.get("CHANNELS") or []:
+            t = dict(t)
+            d = delta.get(t["name"], [0, 0, 0, 0])
+            t["impressions"] = int((t.get("impressions") or 0) + d[0])
+            t["eng"] = int((t.get("eng") or 0) + d[1])
+            t["views"] = int((t.get("views") or 0) + d[2])
+            t["organicImpressions"] = int((t.get("organicImpressions") or 0) + d[3])
+            t["er"] = round(t["eng"] / t["impressions"] * 100, 2) if t["impressions"] else 0.0
+            ber = (t.get("bench") or {}).get("er")
+            if ber:
+                t["delta"] = round((t["er"] / ber - 1) * 100, 1)
+            merged.append(t)
+        if merged:
+            merged.sort(key=lambda t: t["impressions"], reverse=True)
+            payload.channels = merged
+    except Exception as e:  # noqa: BLE001 — never fail a refresh over an aggregate
+        print(f"  ⚠  could not merge frozen campaigns into CHANNELS: {e}")
+
+    # Average-CPM card is built from active campaigns' spend/paid impressions,
+    # which a frozen campaign can't contribute to — keep the last published card.
+    if prev.get("PORTFOLIO_CPM_BY_CHANNEL"):
+        payload.portfolio_cpm_by_channel = prev["PORTFOLIO_CPM_BY_CHANNEL"]
+        payload.portfolio_cpm_blend = prev.get("PORTFOLIO_CPM_BLEND", payload.portfolio_cpm_blend)
+    return report
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Regenerate viewer/data.js from CSV exports.")
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
@@ -103,6 +209,18 @@ def main() -> int:
 
     cfg = yaml.safe_load(args.config.read_text())
 
+    # Measure Studio source mode. "csv" = the API connection has ended; Measure
+    # data comes from per-campaign exports (sources.measure_studio). A campaign
+    # that still lists legacy API group ids but has no export file yet is
+    # FROZEN: its last-published card / episodes / per-post table are carried
+    # forward from the previous data.js and tagged "Measure data as of <date>".
+    csv_mode = str(cfg.get("measure_studio_mode", "api")).strip().lower() == "csv"
+    frozen_ms: dict[str, bool] = {}
+    try:
+        prev_js_text = Path(args.output).read_text(encoding="utf-8")
+    except Exception:  # noqa: BLE001
+        prev_js_text = ""
+
     # Filter campaigns based on --only / --exclude flags. --only takes precedence.
     if args.only:
         keep = {x.strip() for x in args.only.split(",") if x.strip()}
@@ -130,10 +248,16 @@ def main() -> int:
         )
         ms_unavailable_cls = MeasureStudioUnavailable
         try:
+            if csv_mode:
+                raise MeasureStudioUnavailable("measure_studio_mode: csv")
             ms_client = MeasureStudioClient.from_env()
         except MeasureStudioUnavailable as e:
-            print(f"  ℹ  Measure Studio API not configured ({e}); CSV mode for any "
-                  f"campaign without `measure_studio_group_id`.")
+            if csv_mode:
+                print("  ℹ  Measure Studio: CSV mode — reading Measure exports "
+                      "(sources.measure_studio); campaigns without one are frozen.")
+            else:
+                print(f"  ℹ  Measure Studio API not configured ({e}); CSV mode for any "
+                      f"campaign without `measure_studio_group_id`.")
     except ImportError:
         pass  # API module not available; CSV only.
 
@@ -160,6 +284,11 @@ def main() -> int:
         single = c.get("sources", {}).get("measure_studio_group_id")
         if single:
             group_ids = [single, *group_ids]
+        if csv_mode:
+            _ms_files = c.get("sources", {}).get("measure_studio", []) or []
+            if (group_ids or _ms_files) and not any((exports_root / f).exists() for f in _ms_files):
+                frozen_ms[c_id] = True
+            group_ids = []   # never call the (ended) API in csv mode
 
         if group_ids:
             if ms_client is None:
@@ -1216,6 +1345,7 @@ def main() -> int:
         portfolio_cpm_by_channel=cpm_channels,
         portfolio_cpm_blend=cpm_blend,
     )
+    frozen_report = _carry_forward_frozen(payload, set(frozen_ms), prev_js_text, today) if frozen_ms else []
 
     # ---------- Benchmarks (optional) ----------
     benchmarks_data = None
@@ -1278,6 +1408,13 @@ def main() -> int:
         for key, label in _FILE_SOURCE_LABELS.items():
             for fn in (srcs.get(key) or []):
                 files.append({"file": fn, "label": label})
+        # CSV mode: a campaign that used to read the Measure API still needs a
+        # Measure upload slot on its card. Uploading <id>_ms.csv wires itself into
+        # `sources.measure_studio` (netlify upload-csv.js) and un-freezes it.
+        if csv_mode and not srcs.get("measure_studio") and (
+            srcs.get("measure_studio_group_ids") or srcs.get("measure_studio_group_id")
+        ):
+            files.insert(0, {"file": f"{c['id']}_ms.csv", "label": "Measure Studio"})
         # Track every filename any campaign reads (across ALL source keys) so we
         # can flag fixture CSVs that no campaign references (orphans).
         for key in ("measure_studio", *_FILE_SOURCE_LABELS.keys(), "google_ads_campaign"):
@@ -1359,7 +1496,14 @@ def main() -> int:
         "ms_errors": list(ms_fetch_errors),
         "orphan_files": orphan_files,
         "potential_duplicates": potential_duplicates,
+        "frozen_ms": frozen_report,
     }
+
+    # Frozen campaigns can't cross goals this run — keep their prior goal-hit dates
+    # so a stale "goal hit" win doesn't re-fire when their export is uploaded.
+    for _fid in frozen_ms:
+        if _fid in _prior_goal_hit:
+            goal_hit_state.setdefault(_fid, _prior_goal_hit[_fid])
 
     out_path = write_data_js(
         payload, args.output, benchmarks=benchmarks_data,
@@ -1374,6 +1518,9 @@ def main() -> int:
     for c in campaigns:
         post_count = len(posts_by_campaign.get(c.id, []))
         delivered = c.impressions.delivered
+        if c.id in frozen_ms:
+            print(f"  {c.partner:12} {c.series:25} (frozen — no Measure export; last published card kept)")
+            continue
         print(
             f"  {c.partner:12} {c.series:25} "
             f"{post_count:>4} posts  "

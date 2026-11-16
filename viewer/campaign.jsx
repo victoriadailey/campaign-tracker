@@ -114,6 +114,11 @@ function CampaignPage({ campaignId, onBack }) {
                 <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdatedMs)}</span>
               </div>
             )}
+            {c.measureFrozenAsOf && (
+              <div style={{fontSize:11, lineHeight:1.4, color:'var(--flame)', fontWeight:600}}>
+                Measure data frozen as of {c.measureFrozenAsOf}. Upload a Measure export to update organic numbers.
+              </div>
+            )}
             {c.lastUpdatedExports && (
               <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
                 <span style={{color:'var(--ink-3)', fontWeight:500}}>Additional data</span>
@@ -1061,6 +1066,11 @@ function BrandXCampaignPage({ c, onBack }) {
               <div style={{display:'flex', justifyContent:'space-between', fontSize:11, gap:16}}>
                 <span style={{color:'var(--ink-3)', fontWeight:500}}>Measure Studio</span>
                 <span style={{color:'var(--ink)', fontWeight:600, textAlign:'right'}}>{fmtLastUpdated(c.lastUpdatedMs)}</span>
+              </div>
+            )}
+            {c.measureFrozenAsOf && (
+              <div style={{fontSize:11, lineHeight:1.4, color:'var(--flame)', fontWeight:600}}>
+                Measure data frozen as of {c.measureFrozenAsOf}. Upload a Measure export to update organic numbers.
               </div>
             )}
             {c.lastUpdatedExports && (

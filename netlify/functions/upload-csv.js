@@ -25,6 +25,7 @@ const YAML_PATH = 'config/campaigns.yaml';
 // reads. Returns null for anything unrecognized (e.g. *_other.csv) → no wiring.
 function sourceKeyForFilename(name) {
   const n = String(name || '').toLowerCase();
+  if (n.endsWith('_ms.csv')) return 'measure_studio';   // Measure export (API connection ended)
   if (n.endsWith('_yt_paid.csv')) return 'youtube_paid';
   if (n.endsWith('_yt_organic.csv')) return 'youtube_organic';
   if (n.endsWith('_meta_ads.csv')) return 'meta_ads';

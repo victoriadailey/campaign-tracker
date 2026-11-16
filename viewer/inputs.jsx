@@ -874,7 +874,7 @@ function DropZone({ label, hint, files, onAdd, onRemove }) {
 // Source-display-name → fixture filename suffix used by refresh.py.
 // Keep in sync with config/campaigns.yaml `sources:` keys.
 const SOURCE_KIND_FOR = {
-  'Measure Studio':       'ms',          // rarely used (MS is API-driven), kept for manual CSV fallback
+  'Measure Studio':       'ms',          // Measure export → <campaign>_ms.csv (the API connection has ended)
   'Google Ads':           'yt_paid',
   'YouTube Studio':       'yt_organic',
   'X Ads':                'x_ads',
@@ -893,7 +893,7 @@ const SOURCE_YAML_KEY = {
   'X Ads':                'x_ads',
   'Meta Ads':             'meta_ads',
   'TikTok Ads':           'tiktok_ads',
-  'Measure Studio':       'measure_studio',   // manual CSV fallback (MS is normally API-driven)
+  'Measure Studio':       'measure_studio',   // Measure export (the API connection has ended)
 };
 
 // Read a File into a base64 string (without the data: prefix). Returns

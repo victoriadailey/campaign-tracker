@@ -3,6 +3,14 @@
 
 exports_root: tests/fixtures
 
+# Measure Studio source. The API connection has ended (it was temporary), so
+# Measure data now comes from per-campaign Measure exports uploaded as
+# <campaign_id>_ms.csv (sources.measure_studio). A campaign that has no export
+# yet is FROZEN: its last-published card / episodes / per-post table are kept and
+# tagged "Measure data as of <date>" until its export is uploaded.
+# Legacy `measure_studio_group_ids` entries below are ignored in this mode.
+measure_studio_mode: csv
+
 signals:
   - kind: opportunity
     title: "LinkedIn = free engagement"
@@ -1625,8 +1633,8 @@ campaigns:
     sources:
       youtube_paid:
         - accenture_external_creator_yt_paid.csv
-      measure_studio_group_ids:
-        - 8757
+      measure_studio:
+        - accenture_external_creator_ms.csv   # Measure export, group 8757 (was API)
     # Meta added a Facebook placement to three boosted Instagram posts; MS reports
     # each as a separate dark Facebook post. Fold each into its Instagram post
     # (Instagram id listed first so it keeps the row's identity).
