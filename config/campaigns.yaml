@@ -2193,3 +2193,21 @@ campaigns:
     sources:
       meta_ads:
         - nwsl_championship_brandx_meta_ads.csv
+
+  - id: comcast_us_squash
+    partner: Comcast
+    series: Comcast x US Squash
+    series_italic: Squash
+    type: social
+    benchmark_category: "Custom Creator-Led - Non-Franchise"
+    lifecycle: active
+    flight_start: 2026-11-01
+    flight_end: 2026-11-30
+    impression_goal: 6500000
+    budget_goal: 17000
+    color: ft-1
+    lead_format: "Short-form Video"
+    blurb: Comcast Business and U.S. Squash had 1x Stadium Status video and one DITL video hosted by Lauren Withrow
+    sources:
+      other:
+        - Comcast - Measure - 11.16.csv
