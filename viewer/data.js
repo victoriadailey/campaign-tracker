@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T20:53:09Z";
+window.LAST_REFRESHED = "2026-11-16T20:54:21Z";
 
 
 
@@ -6353,7 +6353,7 @@ window.CAMPAIGNS = [
     "engagements": 33512,
     "goalSplit": [],
     "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "TikTok",
@@ -47136,10 +47136,6 @@ window.POSTS_BY_CAMPAIGN = {
 window.UPLOAD_TARGETS = {
   "adp": [
     {
-      "file": "adp_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "adp_cutdown_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47172,10 +47168,6 @@ window.UPLOAD_TARGETS = {
   ],
   "spectrum": [
     {
-      "file": "spectrum_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "spectrum_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47196,10 +47188,6 @@ window.UPLOAD_TARGETS = {
   ],
   "mm": [
     {
-      "file": "mm_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "morgan_morgan_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47209,10 +47197,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "sportclips": [
-    {
-      "file": "sportclips_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "sportclips_yt_paid.csv",
       "label": "Google Ads"
@@ -47227,10 +47211,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "onlocation": [
-    {
-      "file": "onlocation_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "onlocation_fifa_yt_paid.csv",
       "label": "Google Ads"
@@ -47250,10 +47230,6 @@ window.UPLOAD_TARGETS = {
   ],
   "heineken": [
     {
-      "file": "heineken_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "heineken_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47263,10 +47239,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "rbc_tst": [
-    {
-      "file": "rbc_tst_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "rbc_tst_yt_paid.csv",
       "label": "Google Ads"
@@ -47278,19 +47250,11 @@ window.UPLOAD_TARGETS = {
   ],
   "thrivent": [
     {
-      "file": "thrivent_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "thrivent_x_ads.csv",
       "label": "X Ads"
     }
   ],
   "betmgm": [
-    {
-      "file": "betmgm_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "betmgm_yt_paid.csv",
       "label": "Google Ads"
@@ -47305,10 +47269,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "state_farm": [
-    {
-      "file": "state_farm_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "state_farm_yt_paid.csv",
       "label": "Google Ads"
@@ -47338,10 +47298,6 @@ window.UPLOAD_TARGETS = {
   ],
   "prudential": [
     {
-      "file": "prudential_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "prudential_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47364,19 +47320,11 @@ window.UPLOAD_TARGETS = {
   ],
   "ally_nwsl": [
     {
-      "file": "ally_nwsl_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "ally_nwsl_yt_paid.csv",
       "label": "Google Ads"
     }
   ],
   "dow_lpga_impact_award": [
-    {
-      "file": "dow_lpga_impact_award_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "dow_lpga_impact_award_yt_paid.csv",
       "label": "Google Ads"
@@ -47388,10 +47336,6 @@ window.UPLOAD_TARGETS = {
   ],
   "ehp_avp": [
     {
-      "file": "ehp_avp_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "ehp_avp_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47401,10 +47345,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "threem": [
-    {
-      "file": "threem_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "threem_yt_paid.csv",
       "label": "Google Ads"
@@ -47418,10 +47358,6 @@ window.UPLOAD_TARGETS = {
   ],
   "ssim_wnba_allstar_event": [
     {
-      "file": "ssim_wnba_allstar_event_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
       "file": "ssim_wnba_allstar_event_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47431,10 +47367,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "ubs_huddleinthehamptons": [
-    {
-      "file": "ubs_huddleinthehamptons_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "ubs_huddleinthehamptons_yt_paid.csv",
       "label": "Google Ads"
@@ -47455,10 +47387,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "next_league_future_of_sports": [
-    {
-      "file": "next_league_future_of_sports_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "next_league_future_of_sports_yt_paid.csv",
       "label": "Google Ads"
@@ -47489,10 +47417,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "whirlpool_pll_stadium_status": [
-    {
-      "file": "whirlpool_pll_stadium_status_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "whirlpool_pll_stadium_status_yt_paid.csv",
       "label": "Google Ads"
@@ -47535,10 +47459,6 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "jlab_thecomeup": [
-    {
-      "file": "jlab_thecomeup_ms.csv",
-      "label": "Measure Studio"
-    },
     {
       "file": "jlab_thecomeup_yt_paid.csv",
       "label": "Google Ads"
@@ -47632,7 +47552,8 @@ window.DATA_HEALTH = {
     {
       "id": "adp",
       "partner": "ADP",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "etrade",
@@ -47642,87 +47563,104 @@ window.DATA_HEALTH = {
     {
       "id": "spectrum",
       "partner": "Spectrum",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "mm",
       "partner": "Morgan & Morgan",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "sportclips",
       "partner": "Sport Clips",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "onlocation",
       "partner": "On Location",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "heineken",
       "partner": "Heineken",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "rbc_tst",
       "partner": "RBC",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "thrivent",
       "partner": "Thrivent",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "betmgm",
       "partner": "BetMGM",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "state_farm",
       "partner": "State Farm",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "prudential",
       "partner": "Prudential",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "ally_nwsl",
       "partner": "Ally",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "dow_lpga_impact_award",
       "partner": "DOW Chemical",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "ehp_avp",
       "partner": "EHP",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "threem",
       "partner": "3M",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "ssim_wnba_allstar_event",
       "partner": "State Street",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "ubs_huddleinthehamptons",
       "partner": "UBS",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "next_league_future_of_sports",
       "partner": "Next League",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "daktronics_stadiumstatus",
@@ -47732,7 +47670,8 @@ window.DATA_HEALTH = {
     {
       "id": "whirlpool_pll_stadium_status",
       "partner": "Whirlpool",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "state_street",
@@ -47747,7 +47686,8 @@ window.DATA_HEALTH = {
     {
       "id": "jlab_thecomeup",
       "partner": "JLab",
-      "asOf": "2026-11-16"
+      "asOf": "2026-11-16",
+      "wrapped": true
     },
     {
       "id": "heinz_stadiumeats",
