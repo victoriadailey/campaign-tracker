@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T14:54:21Z";
+window.LAST_REFRESHED = "2026-11-16T16:51:32Z";
 
 
 
@@ -370,7 +370,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-06-10T06:47:19Z"
+    "lastUpdatedExports": "2026-06-10T06:47:19Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "etrade",
@@ -821,7 +822,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-11-06T17:21:13Z"
+    "lastUpdatedExports": "2026-11-06T17:21:13Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "spectrum",
@@ -1075,7 +1077,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-06-24T20:12:23Z"
+    "lastUpdatedExports": "2026-06-24T20:12:23Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "etrade_brandx",
@@ -1393,7 +1396,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-07-31T15:38:21Z"
+    "lastUpdatedExports": "2026-07-31T15:38:21Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "sportclips",
@@ -1502,7 +1506,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-07-01T20:41:24Z"
+    "lastUpdatedExports": "2026-07-01T20:41:24Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "onlocation",
@@ -1651,7 +1656,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-06-10T06:47:19Z"
+    "lastUpdatedExports": "2026-06-10T06:47:19Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "heineken",
@@ -1808,7 +1814,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-07-22T18:25:38Z"
+    "lastUpdatedExports": "2026-07-22T18:25:38Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "rbc_tst",
@@ -2207,7 +2214,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-06-30T13:51:17Z"
+    "lastUpdatedExports": "2026-06-30T13:51:17Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "thrivent",
@@ -2357,7 +2365,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-06-12T19:09:12Z"
+    "lastUpdatedExports": "2026-06-12T19:09:12Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "betmgm",
@@ -2561,7 +2570,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-07-29T19:05:45Z"
+    "lastUpdatedExports": "2026-07-29T19:05:45Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "state_farm",
@@ -2830,7 +2840,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-06-23T19:00:45Z"
+    "lastUpdatedExports": "2026-06-23T19:00:45Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "microsoft",
@@ -3217,7 +3228,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-08-03T20:12:44Z"
+    "lastUpdatedExports": "2026-08-03T20:12:44Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "betmgm_brandx",
@@ -3605,7 +3617,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-08-14T15:09:18Z"
+    "lastUpdatedExports": "2026-08-14T15:09:18Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "dow_lpga_impact_award",
@@ -3771,7 +3784,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-08-21T15:28:13Z"
+    "lastUpdatedExports": "2026-08-21T15:28:13Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "ehp_avp",
@@ -3912,7 +3926,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-08-06T19:52:57Z"
+    "lastUpdatedExports": "2026-08-06T19:52:57Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "threem",
@@ -4156,7 +4171,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-08-03T16:28:18Z"
+    "lastUpdatedExports": "2026-08-03T16:28:18Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "apollo_gloabl_brandx",
@@ -4481,7 +4497,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-08-18T15:18:49Z"
+    "lastUpdatedExports": "2026-08-18T15:18:49Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "ubs_huddleinthehamptons",
@@ -4687,7 +4704,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-08-27T13:27:35Z"
+    "lastUpdatedExports": "2026-08-27T13:27:35Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "huntington_bank_2026",
@@ -4866,7 +4884,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-11-13T20:18:34Z"
+    "lastUpdatedExports": "2026-11-13T20:18:34Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "next_league_future_of_sports",
@@ -5087,7 +5106,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-09-04T13:23:33Z"
+    "lastUpdatedExports": "2026-09-04T13:23:33Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "accenture_external_creator",
@@ -5101,23 +5121,23 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 4846318,
+      "delivered": 5051845,
       "goal": 5600000
     },
     "budget": {
-      "delivered": 13646.92,
+      "delivered": 15560.95,
       "goal": 22634.0
     },
     "color": "ft-4",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 7.46,
-    "cpm": 3.01,
+    "er": 8.17,
+    "cpm": 3.24,
     "episodes": 0,
     "posts": 16,
     "blurb": "An 8 video series with external creator, Evan Hand",
-    "views": 5005879,
-    "engagements": 361455,
+    "views": 4934377,
+    "engagements": 412949,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -5125,34 +5145,34 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 3298424,
-        "eng": 244231,
-        "er": 7.4,
-        "cpm": 1.91,
+        "impressions": 3610069,
+        "eng": 303872,
+        "er": 8.42,
+        "cpm": 2.26,
         "color": "#FF0033",
-        "delta": -63.0,
+        "delta": -57.9,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 37667,
+        "organicImpressions": 0,
         "views": 3492601
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1547894,
-        "eng": 117224,
+        "impressions": 1441776,
+        "eng": 109077,
         "er": 7.57,
-        "cpm": 5.81,
+        "cpm": 6.22,
         "color": "#E4405F",
-        "delta": 128.8,
+        "delta": 128.6,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 274429,
-        "views": 1513278
+        "organicImpressions": 274202,
+        "views": 1441776
       }
     ],
     "topPosts": [
@@ -5163,14 +5183,14 @@ window.CAMPAIGNS = [
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "The Jaguars have built a second home across the pond, but why London? It all started with owner\u2026",
-        "er": 18.86,
+        "er": 20.0,
         "eng": 37732,
         "reach": 188698,
         "organic": 50,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
-        "postedAt": "2026-10-09T13:33:05-07:00"
+        "postedAt": "2026-10-09T15:33:00"
       },
       {
         "id": "3999294042675348120",
@@ -5179,14 +5199,14 @@ window.CAMPAIGNS = [
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "Over a decade ago, the NFL set on a mission to bring football to the UK.\u2060 \u2060 Here's how it was\u2026",
-        "er": 15.48,
+        "er": 15.55,
         "eng": 9455,
         "reach": 60789,
         "organic": 16,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
-        "postedAt": "2026-10-02T13:33:14-07:00"
+        "postedAt": "2026-10-02T15:33:00"
       },
       {
         "id": "4009440799699985922",
@@ -5195,78 +5215,46 @@ window.CAMPAIGNS = [
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.\u2026",
-        "er": 13.3,
+        "er": 13.32,
         "eng": 12709,
         "reach": 95378,
         "organic": 12,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DekZSoWE2YC/",
-        "postedAt": "2026-10-16T13:33:10-07:00"
+        "postedAt": "2026-10-16T15:33:00"
       },
       {
-        "id": "3994220467938265641",
+        "id": "4024766821253507849",
         "rank": 4,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
-        "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
-        "er": 11.33,
-        "eng": 9542,
-        "reach": 73180,
-        "organic": 26,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.instagram.com/p/DduUlpyDgop/",
-        "postedAt": "2026-09-25T13:33:05-07:00"
-      },
-      {
-        "id": "4024766821253507849",
-        "rank": 5,
-        "partner": "Accenture",
-        "platform": "Instagram",
-        "format": "Reels/Shorts",
         "quote": "Real Madrid spent over $1.5 billion transforming the Santiago Bernab\u00e9u, which hosted Spain\u2019s\u2026",
-        "er": 5.75,
+        "er": 5.81,
         "eng": 18598,
         "reach": 319881,
         "organic": 13,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
-        "postedAt": "2026-11-06T16:03:16-08:00"
-      },
-      {
-        "id": "3981838900760154441",
-        "rank": 6,
-        "partner": "Accenture",
-        "platform": "Instagram",
-        "format": "Reels/Shorts",
-        "quote": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40 Presented by @accenture",
-        "er": 5.72,
-        "eng": 14580,
-        "reach": 244011,
-        "organic": 18,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
-        "postedAt": "2026-09-08T11:30:06-07:00"
+        "postedAt": "2026-11-06T18:03:00"
       },
       {
         "id": "4029704284040632917",
-        "rank": 7,
+        "rank": 5,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "The NFL and Germany have a decades-long history, and it all began in 1990. This is how it started\u2026",
-        "er": 4.73,
+        "er": 4.79,
         "eng": 7678,
         "reach": 160329,
         "organic": 21,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DfsYrIwHJpV/",
-        "postedAt": "2026-11-13T11:33:07-08:00"
+        "postedAt": "2026-11-13T13:33:00"
       }
     ],
     "topPostsOrganic": [],
@@ -5275,14 +5263,14 @@ window.CAMPAIGNS = [
         "tag": "WIN",
         "kind": "pos",
         "headline": "Instagram at 7.6% ER \u2014 2.3\u00d7 the benchmark.",
-        "body": "1.5M impressions, 117K engagements at 7.6% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "body": "1.4M impressions, 109K engagements at 7.6% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "Accenture \u00b7 Instagram"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $9K (40%) of budget unspent with 14 days left.",
-        "body": "Impressions are 87% delivered while only 60% of budget has been spent \u2014 only 754K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "headline": "On pace to over-deliver \u2014 $7K (31%) of budget unspent with 14 days left.",
+        "body": "Impressions are 90% delivered while only 69% of budget has been spent \u2014 only 548K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "Accenture \u00b7 Budget surplus"
       }
     ],
@@ -5291,8 +5279,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-11-10T21:07:42Z"
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": "2026-11-16T16:51:02Z"
   },
   {
     "id": "daktronics_stadiumstatus",
@@ -5458,7 +5446,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-09-25T15:56:42Z"
+    "lastUpdatedExports": "2026-09-25T15:56:42Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "whirlpool_pll_stadium_status",
@@ -5582,7 +5571,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-09-30T13:23:21Z"
+    "lastUpdatedExports": "2026-09-30T13:23:21Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "orlando_health_brandx",
@@ -5997,7 +5987,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-10-29T17:34:57Z"
+    "lastUpdatedExports": "2026-10-29T17:34:57Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "just_ingredients_2026",
@@ -6297,7 +6288,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-10-30T17:26:14Z"
+    "lastUpdatedExports": "2026-10-30T17:26:14Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "jlab_thecomeup",
@@ -6454,7 +6446,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-10-27T20:22:28Z"
+    "lastUpdatedExports": "2026-10-27T20:22:28Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "heinz_stadiumeats",
@@ -6593,7 +6586,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-10-26T20:28:35Z"
+    "lastUpdatedExports": "2026-10-26T20:28:35Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "pwc_formula1",
@@ -6782,7 +6776,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:21Z",
-    "lastUpdatedExports": "2026-11-13T19:59:55Z"
+    "lastUpdatedExports": "2026-11-13T19:59:55Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "zoom_fosexplains_mlb",
@@ -6947,7 +6942,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:21Z",
-    "lastUpdatedExports": "2026-11-02T21:50:16Z"
+    "lastUpdatedExports": "2026-11-02T21:50:16Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "sportradar_brandx",
@@ -7189,7 +7185,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:21Z",
-    "lastUpdatedExports": "2026-10-30T15:44:50Z"
+    "lastUpdatedExports": "2026-10-30T15:44:50Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "microsoft_copilot",
@@ -7565,7 +7562,8 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "2026-11-16T14:54:21Z",
-    "lastUpdatedExports": "2026-11-13T14:31:48Z"
+    "lastUpdatedExports": "2026-11-13T14:31:48Z",
+    "measureFrozenAsOf": "2026-11-16"
   },
   {
     "id": "nwsl_championship_brandx",
@@ -7640,20 +7638,20 @@ window.CAMPAIGNS = [
 
 window.TOP_POSTS = [
   {
-    "id": "3785409110645564109",
+    "id": "4004367703129381758",
     "rank": 1,
-    "partner": "Thrivent",
+    "partner": "Accenture",
     "platform": "Instagram",
-    "format": "Image post",
-    "quote": "Alonzo Mourning built a legacy on the court, and an even bigger one in his community. The Play for\u2026",
-    "er": 20.61,
-    "eng": 22402,
-    "reach": 44719,
-    "organic": 100,
+    "format": "Reels/Shorts",
+    "quote": "The Jaguars have built a second home across the pond, but why London? It all started with owner\u2026",
+    "er": 20.0,
+    "eng": 37732,
+    "reach": 188698,
+    "organic": 50,
     "metric": "er",
     "insight": "",
-    "url": "https://www.instagram.com/p/DSIeYe5jmLN/",
-    "postedAt": "2025-12-11T09:59:12-08:00"
+    "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
+    "postedAt": "2026-10-09T15:33:00"
   },
   {
     "id": "AT&T_ShesConnected_SabrinaIonescu_Clicks",
@@ -7672,217 +7670,132 @@ window.TOP_POSTS = [
     "postedAt": null
   },
   {
-    "id": "4004367703129381758",
+    "id": "3999294042675348120",
     "rank": 3,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
-    "quote": "The Jaguars have built a second home across the pond, but why London? It all started with owner\u2026",
-    "er": 18.86,
-    "eng": 37732,
-    "reach": 188698,
-    "organic": 50,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
-    "postedAt": "2026-10-09T13:33:05-07:00"
-  },
-  {
-    "id": "4017474141603085265",
-    "rank": 4,
-    "partner": "Zoom",
-    "platform": "Instagram",
-    "format": "Reels/Shorts",
-    "quote": "MLB\u2122 replay operations features nine stations, with eight umpires working across games each week.\u2060\u2026",
-    "er": 17.87,
-    "eng": 6156,
-    "reach": 33174,
-    "organic": 14,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.instagram.com/p/DfA73JAkbvR/",
-    "postedAt": "2026-10-27T15:33:33-07:00"
-  },
-  {
-    "id": "urn:li:ugcPost:7465149569601941504",
-    "rank": 5,
-    "partner": "Thrivent",
-    "platform": "LinkedIn",
-    "format": "Other",
-    "quote": "Athletes for Hope University 2026 Awards",
-    "er": 17.4,
-    "eng": 3834,
-    "reach": 22032,
-    "organic": 100,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465149569601941504",
-    "postedAt": "2026-05-27T11:30:06-07:00"
-  },
-  {
-    "id": "4016628135160160413",
-    "rank": 6,
-    "partner": "Just Ingredients",
-    "platform": "Instagram",
-    "format": "Reels/Shorts",
-    "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-    "er": 16.96,
-    "eng": 13119,
-    "reach": 91743,
-    "organic": 12,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-    "postedAt": "2026-10-26T11:33:06-07:00"
-  },
-  {
-    "id": "3999294042675348120",
-    "rank": 7,
-    "partner": "Accenture",
-    "platform": "Instagram",
-    "format": "Reels/Shorts",
     "quote": "Over a decade ago, the NFL set on a mission to bring football to the UK.\u2060 \u2060 Here's how it was\u2026",
-    "er": 15.48,
+    "er": 15.55,
     "eng": 9455,
     "reach": 60789,
     "organic": 16,
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
-    "postedAt": "2026-10-02T13:33:14-07:00"
+    "postedAt": "2026-10-02T15:33:00"
   },
   {
-    "id": "2061160786773545022",
-    "rank": 8,
-    "partner": "RBC",
-    "platform": "X",
-    "format": "Feed video",
-    "quote": "\u201cTST brought that joy and love back, but it also made me realize that this is where I belong.\u201d\u2060 \u2060\u2026",
-    "er": 15.22,
-    "eng": 66321,
-    "reach": 5056,
-    "organic": 100,
+    "id": "4009440799699985922",
+    "rank": 4,
+    "partner": "Accenture",
+    "platform": "Instagram",
+    "format": "Reels/Shorts",
+    "quote": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.\u2026",
+    "er": 13.32,
+    "eng": 12709,
+    "reach": 95378,
+    "organic": 12,
     "metric": "er",
     "insight": "",
-    "url": "https://twitter.com/FOS/status/2061160786773545022",
-    "postedAt": "2026-05-31T12:00:00-07:00"
+    "url": "https://www.instagram.com/p/DekZSoWE2YC/",
+    "postedAt": "2026-10-16T15:33:00"
+  },
+  {
+    "id": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
+    "rank": 5,
+    "partner": "AT&T",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
+    "er": 12.17,
+    "eng": 9997,
+    "reach": 47118,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null,
+    "postedAt": null
+  },
+  {
+    "id": "4024766821253507849",
+    "rank": 6,
+    "partner": "Accenture",
+    "platform": "Instagram",
+    "format": "Reels/Shorts",
+    "quote": "Real Madrid spent over $1.5 billion transforming the Santiago Bernab\u00e9u, which hosted Spain\u2019s\u2026",
+    "er": 5.81,
+    "eng": 18598,
+    "reach": 319881,
+    "organic": 13,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
+    "postedAt": "2026-11-06T18:03:00"
+  },
+  {
+    "id": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+    "rank": 7,
+    "partner": "AT&T",
+    "platform": "Instagram",
+    "format": "Feed video",
+    "quote": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+    "er": 5.06,
+    "eng": 4796,
+    "reach": 62907,
+    "organic": 0,
+    "metric": "er",
+    "insight": "",
+    "url": null,
+    "postedAt": null
+  },
+  {
+    "id": "4029704284040632917",
+    "rank": 8,
+    "partner": "Accenture",
+    "platform": "Instagram",
+    "format": "Reels/Shorts",
+    "quote": "The NFL and Germany have a decades-long history, and it all began in 1990. This is how it started\u2026",
+    "er": 4.79,
+    "eng": 7678,
+    "reach": 160329,
+    "organic": 21,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.instagram.com/p/DfsYrIwHJpV/",
+    "postedAt": "2026-11-13T13:33:00"
   }
 ];
 
 window.HERO_POST = {
-  "partner": "Thrivent",
+  "partner": "Accenture",
   "platform": "Instagram",
-  "format": "100% organic image post",
-  "quote": "Alonzo Mourning built a legacy on the court, and an even bigger one in his community. The Play for\u2026",
-  "attribution": "Thrivent \u2014 top performer",
-  "er": "20.61%",
-  "eng": "22,402",
-  "reach": "44,719",
-  "organic": "100%"
+  "format": "50% organic reels/shorts",
+  "quote": "The Jaguars have built a second home across the pond, but why London? It all started with owner\u2026",
+  "attribution": "Accenture \u2014 top performer",
+  "er": "20.00%",
+  "eng": "37,732",
+  "reach": "188,698",
+  "organic": "50%"
 };
 
-window.TOP_POSTS_ORGANIC = [
-  {
-    "id": "o1",
-    "rank": 1,
-    "partner": "State Street",
-    "platform": "TikTok",
-    "format": "Reels/Shorts",
-    "quote": "Is Cheryl Reeve the greatest coach of all-time? Presented by State Street. #wnba #minnesotalynx\u2026",
-    "organicReach": 1598094,
-    "totalReach": 4198262,
-    "organicPct": 38.1,
-    "er": 0.07,
-    "insight": "",
-    "url": "https://tiktok.com/@frontofficesports/video/7694680428040441101"
-  },
-  {
-    "id": "o2",
-    "rank": 2,
-    "partner": "JLab",
-    "platform": "TikTok",
-    "format": "Reels/Shorts",
-    "quote": "Darian Mensah came out of high school with one FBS offer. Now he\u2019s one of the most valuable players\u2026",
-    "organicReach": 1063857,
-    "totalReach": 2272638,
-    "organicPct": 46.8,
-    "er": 0.13,
-    "insight": "",
-    "url": "https://tiktok.com/@frontofficesports/video/7697324459723705613"
-  },
-  {
-    "id": "o3",
-    "rank": 3,
-    "partner": "State Street",
-    "platform": "TikTok",
-    "format": "Reels/Shorts",
-    "quote": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.\u2026",
-    "organicReach": 847262,
-    "totalReach": 1794713,
-    "organicPct": 47.2,
-    "er": 0.11,
-    "insight": "",
-    "url": "https://tiktok.com/@frontofficesports/video/7696583810971995405"
-  },
-  {
-    "id": "o4",
-    "rank": 4,
-    "partner": "Heinz",
-    "platform": "TikTok",
-    "format": "Reels/Shorts",
-    "quote": "We hit up Storehouse in NYC to try their gameday menu \ud83c\udfc8 We're talking a thick cut burger, panko\u2026",
-    "organicReach": 764331,
-    "totalReach": 1653127,
-    "organicPct": 46.2,
-    "er": 0.04,
-    "insight": "",
-    "url": "https://tiktok.com/@stadium.eats/video/7698381610483191054"
-  },
-  {
-    "id": "o5",
-    "rank": 5,
-    "partner": "Just Ingredients",
-    "platform": "TikTok",
-    "format": "Reels/Shorts",
-    "quote": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet\u2026",
-    "organicReach": 562022,
-    "totalReach": 1298720,
-    "organicPct": 43.3,
-    "er": 0.08,
-    "insight": "",
-    "url": "https://tiktok.com/@frontofficesports/video/7696926297116937485"
-  },
-  {
-    "id": "o6",
-    "rank": 6,
-    "partner": "Ally",
-    "platform": "TikTok",
-    "format": "Reels/Shorts",
-    "quote": "Gotham FC vs. Washington Spirit had a historic NWSL Rivalry Week matchup presented by Ally, with\u2026",
-    "organicReach": 504386,
-    "totalReach": 1014906,
-    "organicPct": 49.7,
-    "er": 0.02,
-    "insight": "",
-    "url": "https://tiktok.com/@frontofficesports/video/7663609969647848718"
-  }
-];
+window.TOP_POSTS_ORGANIC = [];
 
 window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127324877,
-    "eng": 2857167,
-    "er": 2.24,
+    "impressions": 127636522,
+    "eng": 2916808,
+    "er": 2.29,
     "cpm": 1.13,
     "color": "#E00922",
-    "delta": -88.8,
+    "delta": -88.5,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 0,
+    "organicImpressions": -37667,
     "views": 26487665
   },
   {
@@ -7893,7 +7806,7 @@ window.CHANNELS = [
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
-    "delta": -91.5,
+    "delta": -91.6,
     "bench": {
       "er": 2.03,
       "cpm": 2.4
@@ -7904,18 +7817,18 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 36757933,
-    "eng": 672067,
-    "er": 1.83,
+    "impressions": 36651815,
+    "eng": 663920,
+    "er": 1.81,
     "cpm": 4.48,
     "color": "#E4405F",
-    "delta": -44.8,
+    "delta": -45.3,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
-    "organicImpressions": 0,
-    "views": 34108077
+    "organicImpressions": -227,
+    "views": 34036575
   },
   {
     "name": "X",
@@ -7925,7 +7838,7 @@ window.CHANNELS = [
     "er": 2.08,
     "cpm": 1.74,
     "color": "#1d1d1f",
-    "delta": 125.9,
+    "delta": 126.1,
     "bench": {
       "er": 0.92,
       "cpm": 1.1
@@ -7941,7 +7854,7 @@ window.CHANNELS = [
     "er": 0.36,
     "cpm": 3.71,
     "color": "#1877F2",
-    "delta": -76.7,
+    "delta": -76.5,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
@@ -7957,7 +7870,7 @@ window.CHANNELS = [
     "er": 3.11,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -17.2,
+    "delta": -17.3,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
@@ -8020,8 +7933,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 43% of goal (865K of 2.0M) with 45 days left.",
-    "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 32K impr/day (4.5\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 0% of goal (7K of 2.0M) with 45 days left.",
+    "body": "At the current rate the campaign will fall ~2.0M impressions short of the 2.0M goal. Need to deliver 44K impr/day (808.4\u00d7 the current 54/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Stifel \u00b7 Pacing",
     "campaignId": "stifel_fostonight",
     "campaignPartner": "Stifel"
@@ -8029,11 +7942,65 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 52% of goal (4.4M of 8.5M) with 45 days left.",
-    "body": "At the current rate the campaign will fall ~4.1M impressions short of the 8.5M goal. Need to deliver 139K impr/day (2.9\u00d7 the current 49K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 6% of goal (478K of 8.5M) with 45 days left.",
+    "body": "At the current rate the campaign will fall ~8.0M impressions short of the 8.5M goal. Need to deliver 184K impr/day (34.9\u00d7 the current 5K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Heinz \u00b7 Pacing",
     "campaignId": "heinz_stadiumeats",
     "campaignPartner": "Heinz"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 9% of goal (283K of 3.0M) with 0 days left.",
+    "body": "At the current rate the campaign will fall ~2.7M impressions short of the 3.0M goal. Need to ramp delivery significantly to hit the 3.0M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "JLab \u00b7 Pacing",
+    "campaignId": "jlab_thecomeup",
+    "campaignPartner": "JLab"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 11% of goal (694K of 6.3M) with 0 days left.",
+    "body": "At the current rate the campaign will fall ~5.6M impressions short of the 6.3M goal. Need to ramp delivery significantly to hit the 6.3M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Just Ingredients \u00b7 Pacing",
+    "campaignId": "just_ingredients_2026",
+    "campaignPartner": "Just Ingredients"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 34% of goal (1.3M of 3.9M) with 14 days left.",
+    "body": "At the current rate the campaign will fall ~2.5M impressions short of the 3.9M goal. Need to deliver 193K impr/day (17.9\u00d7 the current 11K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Huntington Bank \u00b7 Pacing",
+    "campaignId": "huntington_bank_2026",
+    "campaignPartner": "Huntington Bank"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 38% of goal (1.6M of 4.2M) with 14 days left.",
+    "body": "At the current rate the campaign will fall ~2.6M impressions short of the 4.2M goal. Need to deliver 212K impr/day (8.0\u00d7 the current 27K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "PwC \u00b7 Pacing",
+    "campaignId": "pwc_formula1",
+    "campaignPartner": "PwC"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 39% of goal (976K of 2.5M) with 0 days left.",
+    "body": "At the current rate the campaign will fall ~1.5M impressions short of the 2.5M goal. Need to ramp delivery significantly to hit the 2.5M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Daktronics \u00b7 Pacing",
+    "campaignId": "daktronics_stadiumstatus",
+    "campaignPartner": "Daktronics"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 53% of goal (18.7M of 35.0M) with 45 days left.",
+    "body": "At the current rate the campaign will fall ~16.3M impressions short of the 35.0M goal. Need to deliver 517K impr/day (3.3\u00d7 the current 155K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "State Street \u00b7 Pacing",
+    "campaignId": "state_street",
+    "campaignPartner": "State Street"
   },
   {
     "tag": "WATCH",
@@ -8056,20 +8023,29 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "X CPM at $4.31 \u2014 3.9\u00d7 the benchmark.",
-    "body": "$4.31 CPM vs. $1.10 FOS benchmark. At 3.9\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "State Street \u00b7 X",
-    "campaignId": "state_street",
-    "campaignPartner": "State Street"
+    "headline": "On pace for 80% of goal (33.5M of 41.7M) with 45 days left.",
+    "body": "At the current rate the campaign will fall ~8.2M impressions short of the 41.7M goal. Need to deliver 274K impr/day (3.0\u00d7 the current 92K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "E*TRADE \u00b7 Pacing",
+    "campaignId": "etrade",
+    "campaignPartner": "E*TRADE"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "X CPM at $2.28 \u2014 2.1\u00d7 the benchmark.",
+    "body": "$2.28 CPM vs. $1.10 FOS benchmark. At 2.1\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "meta": "New York Life Investment \u00b7 X",
+    "campaignId": "nylim_fosexplains",
+    "campaignPartner": "New York Life Investment"
   },
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Instagram post at 8.3% ER \u2014 2.5\u00d7 the benchmark.",
-    "body": "\"No woman has raced in Formula One in 50 years, so F1 built a pipeline to change \u2026\" \u2014 77K reach, 6K engagements (15% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
-    "meta": "PwC \u00b7 Instagram",
-    "campaignId": "pwc_formula1",
-    "campaignPartner": "PwC"
+    "headline": "Instagram at 7.6% ER \u2014 2.3\u00d7 the benchmark.",
+    "body": "1.4M impressions, 109K engagements at 7.6% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+    "meta": "Accenture \u00b7 Instagram",
+    "campaignId": "accenture_external_creator",
+    "campaignPartner": "Accenture"
   }
 ];
 
@@ -44286,63 +44262,63 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "accenture_external_creator": [
     {
-      "title": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40  Presented by @accenture",
-      "platform": "Instagram",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 254869,
-      "paidImpr": 211604,
-      "orgImpr": 43265,
-      "views": 244011,
-      "reach": 166782,
-      "eng": 14580,
-      "er": 5.72,
-      "spend": 1499.77,
-      "watchTimeMin": 490.4,
-      "clicks": 2780,
-      "ctr": 9.52,
-      "cpc": 7.27,
-      "cpm": 7.09,
-      "videoViews100Pct": 1224,
-      "videoViews3s": 22807,
-      "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
-      "postedAt": "2026-09-08T11:30:06-07:00"
-    },
-    {
       "title": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 344035,
-      "paidImpr": 330716,
-      "orgImpr": 13319,
+      "impr": 406838,
+      "paidImpr": 406838,
+      "orgImpr": 0,
       "views": 411249,
       "reach": 0,
-      "eng": 43021,
-      "er": 12.5,
-      "spend": 1196.7,
+      "eng": 34190,
+      "er": 8.4,
+      "spend": 1350.79,
       "watchTimeMin": 59078.9,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.62,
+      "cpm": 3.32,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/tXS552RjyZM",
-      "postedAt": "2026-09-08T11:30:31-07:00"
+      "postedAt": "2026-09-08T13:30:00"
+    },
+    {
+      "title": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40  Presented by @accenture",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 211633,
+      "paidImpr": 168062,
+      "orgImpr": 43220,
+      "views": 211633,
+      "reach": 166782,
+      "eng": 11878,
+      "er": 5.61,
+      "spend": 1499.77,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.1,
+      "cpc": 7.27,
+      "cpm": 8.92,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
+      "postedAt": "2026-09-08T13:30:00"
     },
     {
       "title": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1774540,
+      "impr": 1766684,
       "paidImpr": 1766684,
-      "orgImpr": 7856,
+      "orgImpr": 0,
       "views": 1761413,
       "reach": 0,
       "eng": 95645,
-      "er": 5.39,
+      "er": 5.41,
       "spend": 1366.11,
       "watchTimeMin": 101150.9,
       "clicks": null,
@@ -44352,306 +44328,306 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/r10_TEzwiy8",
-      "postedAt": "2026-09-25T09:00:29-07:00"
+      "postedAt": "2026-09-25T11:00:00"
     },
     {
       "title": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's everything to know.\u2060",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 84213,
-      "paidImpr": 65300,
-      "orgImpr": 18913,
-      "views": 73180,
+      "impr": 45506,
+      "paidImpr": 26807,
+      "orgImpr": 18731,
+      "views": 45506,
       "reach": 38163,
-      "eng": 9542,
-      "er": 11.33,
+      "eng": 4161,
+      "er": 9.14,
       "spend": 850.92,
-      "watchTimeMin": 56.8,
-      "clicks": 5211,
-      "ctr": 20.52,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.21,
       "cpc": 6.22,
-      "cpm": 13.03,
-      "videoViews100Pct": 1403,
-      "videoViews3s": 8089,
+      "cpm": 31.74,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DduUlpyDgop/",
-      "postedAt": "2026-09-25T13:33:05-07:00"
+      "postedAt": "2026-09-25T15:33:00"
     },
     {
       "title": "London's NFL home",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 110478,
-      "paidImpr": 108390,
-      "orgImpr": 2088,
+      "impr": 147350,
+      "paidImpr": 147350,
+      "orgImpr": 0,
       "views": 147324,
       "reach": 0,
-      "eng": 16207,
-      "er": 14.67,
-      "spend": 532.52,
-      "watchTimeMin": 16882.0,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": 0.0,
-      "cpm": 4.91,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/shorts/2qo_l6UJOik",
-      "postedAt": "2026-10-02T13:30:35-07:00"
-    },
-    {
-      "title": "Over a decade ago, the NFL set on a mission to bring football to the UK.\u2060 \u2060 Here's how it was brought to life.\u2060 \u2060 Presen",
-      "platform": "Instagram",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 61063,
-      "paidImpr": 51274,
-      "orgImpr": 9789,
-      "views": 60789,
-      "reach": 49477,
-      "eng": 9455,
-      "er": 15.48,
-      "spend": 557.0,
-      "watchTimeMin": 26.9,
-      "clicks": 65,
-      "ctr": 12.68,
-      "cpc": 8.57,
-      "cpm": 10.86,
-      "videoViews100Pct": 1040,
-      "videoViews3s": 19774,
-      "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
-      "postedAt": "2026-10-02T13:33:14-07:00"
-    },
-    {
-      "title": "The Jaguars have built a second home across the pond, but why London?",
-      "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 153601,
-      "paidImpr": 147350,
-      "orgImpr": 6251,
-      "views": 178903,
-      "reach": 0,
-      "eng": 15078,
-      "er": 9.82,
+      "eng": 14942,
+      "er": 10.14,
       "spend": 497.08,
-      "watchTimeMin": 31290.9,
+      "watchTimeMin": 16882.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
       "cpm": 3.37,
       "videoViews100Pct": null,
       "videoViews3s": null,
-      "url": "https://www.youtube.com/shorts/PbH5UKPNX_4",
-      "postedAt": "2026-10-09T13:30:08-07:00"
+      "url": "https://www.youtube.com/shorts/2qo_l6UJOik",
+      "postedAt": "2026-10-02T15:30:00"
     },
     {
-      "title": "The Jaguars have built a second home across the pond, but why London? It all started with owner Shahid Khan.\u2060 \u2060 Presente",
+      "title": "Over a decade ago, the NFL set on a mission to bring football to the UK.\u2060 \u2060 Here's how it was brought to life.\u2060 \u2060 Presen",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 200114,
-      "paidImpr": 106070,
-      "orgImpr": 94044,
-      "views": 188698,
-      "reach": 151794,
-      "eng": 37732,
-      "er": 18.86,
-      "spend": 598.0,
-      "watchTimeMin": 571.1,
-      "clicks": 212,
-      "ctr": 19.99,
-      "cpc": 2.82,
-      "cpm": 5.64,
-      "videoViews100Pct": 1316,
-      "videoViews3s": 53934,
-      "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
-      "postedAt": "2026-10-09T13:33:05-07:00"
+      "impr": 60789,
+      "paidImpr": 51274,
+      "orgImpr": 9789,
+      "views": 60789,
+      "reach": 49477,
+      "eng": 9455,
+      "er": 15.55,
+      "spend": 557.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.13,
+      "cpc": 8.57,
+      "cpm": 10.86,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
+      "postedAt": "2026-10-02T15:33:00"
     },
     {
-      "title": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.",
+      "title": "The Jaguars have built a second home across the pond, but why London?",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 179056,
+      "impr": 177080,
       "paidImpr": 177080,
-      "orgImpr": 1976,
-      "views": 185601,
+      "orgImpr": 0,
+      "views": 178903,
       "reach": 0,
-      "eng": 23006,
-      "er": 12.85,
+      "eng": 23112,
+      "er": 13.05,
       "spend": 598.71,
-      "watchTimeMin": 24187.1,
+      "watchTimeMin": 31290.9,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
       "cpm": 3.38,
       "videoViews100Pct": null,
       "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/PbH5UKPNX_4",
+      "postedAt": "2026-10-09T15:30:00"
+    },
+    {
+      "title": "The Jaguars have built a second home across the pond, but why London? It all started with owner Shahid Khan.\u2060 \u2060 Presente",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 188698,
+      "paidImpr": 106070,
+      "orgImpr": 94044,
+      "views": 188698,
+      "reach": 151794,
+      "eng": 37732,
+      "er": 20.0,
+      "spend": 598.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.2,
+      "cpc": 2.82,
+      "cpm": 5.64,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
+      "postedAt": "2026-10-09T15:33:00"
+    },
+    {
+      "title": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 185794,
+      "paidImpr": 185794,
+      "orgImpr": 0,
+      "views": 185601,
+      "reach": 0,
+      "eng": 16961,
+      "er": 9.13,
+      "spend": 699.82,
+      "watchTimeMin": 24187.1,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 3.77,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/OgXdqWm4gZI",
-      "postedAt": "2026-10-16T13:30:30-07:00"
+      "postedAt": "2026-10-16T15:30:00"
     },
     {
       "title": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville. Here\u2019s how Wembley b",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 95535,
+      "impr": 95378,
       "paidImpr": 84014,
       "orgImpr": 11521,
       "views": 95378,
       "reach": 68678,
       "eng": 12709,
-      "er": 13.3,
+      "er": 13.32,
       "spend": 748.0,
-      "watchTimeMin": 43.3,
-      "clicks": 166,
-      "ctr": 19.76,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.2,
       "cpc": 4.51,
       "cpm": 8.9,
-      "videoViews100Pct": 1400,
-      "videoViews3s": 31594,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DekZSoWE2YC/",
-      "postedAt": "2026-10-16T13:33:10-07:00"
+      "postedAt": "2026-10-16T15:33:00"
     },
     {
       "title": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s history.\u2060 \u2060 Presente",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 366423,
-      "paidImpr": 345132,
+      "impr": 359562,
+      "paidImpr": 344802,
       "orgImpr": 21291,
-      "views": 371012,
+      "views": 359562,
       "reach": 284926,
-      "eng": 6930,
-      "er": 1.89,
+      "eng": 6866,
+      "er": 1.91,
       "spend": 1399.49,
-      "watchTimeMin": 103.4,
-      "clicks": 212,
-      "ctr": 4.06,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.04,
       "cpc": 9.98,
-      "cpm": 4.05,
-      "videoViews100Pct": 426,
-      "videoViews3s": 35881,
+      "cpm": 4.06,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/De2QlGUFKyr/",
-      "postedAt": "2026-10-23T12:03:24-07:00"
+      "postedAt": "2026-10-23T14:03:00"
     },
     {
       "title": "France\u2019s biggest stadium has hosted it all.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 188259,
-      "paidImpr": 185794,
-      "orgImpr": 2465,
+      "impr": 330716,
+      "paidImpr": 330716,
+      "orgImpr": 0,
       "views": 330971,
       "reach": 0,
-      "eng": 17130,
-      "er": 9.1,
-      "spend": 699.82,
+      "eng": 42957,
+      "er": 12.99,
+      "spend": 1196.7,
       "watchTimeMin": 47365.6,
-      "clicks": 2,
-      "ctr": 0.6,
+      "clicks": null,
+      "ctr": 0.01,
       "cpc": 598.35,
-      "cpm": 3.77,
+      "cpm": 3.62,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/-buDsBSyCkE",
-      "postedAt": "2026-10-23T12:30:31-07:00"
+      "postedAt": "2026-10-23T14:30:00"
     },
     {
       "title": "Why the NFL is playing in Madrid ($1.5B stadium renovation)",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 410217,
-      "paidImpr": 406838,
-      "orgImpr": 3379,
+      "impr": 451151,
+      "paidImpr": 451151,
+      "orgImpr": 0,
       "views": 452196,
       "reach": 0,
-      "eng": 34094,
-      "er": 8.31,
-      "spend": 1350.79,
+      "eng": 61165,
+      "er": 13.56,
+      "spend": 1846.47,
       "watchTimeMin": 57081.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.32,
+      "cpm": 4.09,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/hKWFlv_mivw",
-      "postedAt": "2026-11-06T15:00:35-08:00"
+      "postedAt": "2026-11-06T17:00:00"
     },
     {
       "title": "Real Madrid spent over $1.5 billion transforming the Santiago Bernab\u00e9u, which hosted Spain\u2019s first-ever NFL game in 2025",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 323451,
+      "impr": 319881,
       "paidImpr": 281229,
       "orgImpr": 42222,
       "views": 319881,
       "reach": 217535,
       "eng": 18598,
-      "er": 5.75,
+      "er": 5.81,
       "spend": 1199.0,
-      "watchTimeMin": 224.9,
-      "clicks": 209,
-      "ctr": 7.43,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.07,
       "cpc": 5.74,
       "cpm": 4.26,
-      "videoViews100Pct": 1264,
-      "videoViews3s": 49458,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
-      "postedAt": "2026-11-06T16:03:16-08:00"
+      "postedAt": "2026-11-06T18:03:00"
     },
     {
       "title": "The NFL and Germany have a decades-long history, and it all began in 1990. This is how it started.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 138238,
-      "paidImpr": 137905,
-      "orgImpr": 333,
+      "impr": 144456,
+      "paidImpr": 144456,
+      "orgImpr": 0,
       "views": 24944,
       "reach": 0,
-      "eng": 50,
-      "er": 0.04,
-      "spend": 0,
+      "eng": 14900,
+      "er": 10.31,
+      "spend": 600.08,
       "watchTimeMin": 2356.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 4.18,
+      "cpm": 4.15,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/ArIThea3SOU",
-      "postedAt": "2026-11-13T11:30:03-08:00"
+      "postedAt": "2026-11-13T13:30:00"
     },
     {
       "title": "The NFL and Germany have a decades-long history, and it all began in 1990. This is how it started \ud83c\udde9\ud83c\uddea\u2060 \u2060 Presented by @ac",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 162226,
+      "impr": 160329,
       "paidImpr": 128842,
       "orgImpr": 33384,
       "views": 160329,
       "reach": 135680,
       "eng": 7678,
-      "er": 4.73,
+      "er": 4.79,
       "spend": 553.0,
-      "watchTimeMin": 258.4,
-      "clicks": 87,
-      "ctr": 6.75,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.07,
       "cpc": 6.36,
       "cpm": 4.29,
-      "videoViews100Pct": 307,
-      "videoViews3s": 19943,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfsYrIwHJpV/",
-      "postedAt": "2026-11-13T11:33:07-08:00"
+      "postedAt": "2026-11-13T13:33:00"
     }
   ],
   "daktronics_stadiumstatus": [
@@ -47148,6 +47124,10 @@ window.POSTS_BY_CAMPAIGN = {
 window.UPLOAD_TARGETS = {
   "adp": [
     {
+      "file": "adp_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "adp_cutdown_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47166,6 +47146,10 @@ window.UPLOAD_TARGETS = {
   ],
   "etrade": [
     {
+      "file": "etrade_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "etrade_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47175,6 +47159,10 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "spectrum": [
+    {
+      "file": "spectrum_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "spectrum_yt_paid.csv",
       "label": "Google Ads"
@@ -47196,6 +47184,10 @@ window.UPLOAD_TARGETS = {
   ],
   "mm": [
     {
+      "file": "mm_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "morgan_morgan_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47205,6 +47197,10 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "sportclips": [
+    {
+      "file": "sportclips_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "sportclips_yt_paid.csv",
       "label": "Google Ads"
@@ -47219,6 +47215,10 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "onlocation": [
+    {
+      "file": "onlocation_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "onlocation_fifa_yt_paid.csv",
       "label": "Google Ads"
@@ -47238,6 +47238,10 @@ window.UPLOAD_TARGETS = {
   ],
   "heineken": [
     {
+      "file": "heineken_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "heineken_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47247,6 +47251,10 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "rbc_tst": [
+    {
+      "file": "rbc_tst_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "rbc_tst_yt_paid.csv",
       "label": "Google Ads"
@@ -47258,11 +47266,19 @@ window.UPLOAD_TARGETS = {
   ],
   "thrivent": [
     {
+      "file": "thrivent_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "thrivent_x_ads.csv",
       "label": "X Ads"
     }
   ],
   "betmgm": [
+    {
+      "file": "betmgm_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "betmgm_yt_paid.csv",
       "label": "Google Ads"
@@ -47277,6 +47293,10 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "state_farm": [
+    {
+      "file": "state_farm_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "state_farm_yt_paid.csv",
       "label": "Google Ads"
@@ -47306,6 +47326,10 @@ window.UPLOAD_TARGETS = {
   ],
   "prudential": [
     {
+      "file": "prudential_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "prudential_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47328,11 +47352,19 @@ window.UPLOAD_TARGETS = {
   ],
   "ally_nwsl": [
     {
+      "file": "ally_nwsl_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "ally_nwsl_yt_paid.csv",
       "label": "Google Ads"
     }
   ],
   "dow_lpga_impact_award": [
+    {
+      "file": "dow_lpga_impact_award_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "dow_lpga_impact_award_yt_paid.csv",
       "label": "Google Ads"
@@ -47344,6 +47376,10 @@ window.UPLOAD_TARGETS = {
   ],
   "ehp_avp": [
     {
+      "file": "ehp_avp_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "ehp_avp_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47353,6 +47389,10 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "threem": [
+    {
+      "file": "threem_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "threem_yt_paid.csv",
       "label": "Google Ads"
@@ -47366,6 +47406,10 @@ window.UPLOAD_TARGETS = {
   ],
   "ssim_wnba_allstar_event": [
     {
+      "file": "ssim_wnba_allstar_event_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "ssim_wnba_allstar_event_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47376,11 +47420,19 @@ window.UPLOAD_TARGETS = {
   ],
   "ubs_huddleinthehamptons": [
     {
+      "file": "ubs_huddleinthehamptons_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "ubs_huddleinthehamptons_yt_paid.csv",
       "label": "Google Ads"
     }
   ],
   "huntington_bank_2026": [
+    {
+      "file": "huntington_bank_2026_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "huntington_bank_2026_yt_paid.csv",
       "label": "Google Ads"
@@ -47392,6 +47444,10 @@ window.UPLOAD_TARGETS = {
   ],
   "next_league_future_of_sports": [
     {
+      "file": "next_league_future_of_sports_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "next_league_future_of_sports_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47402,17 +47458,29 @@ window.UPLOAD_TARGETS = {
   ],
   "accenture_external_creator": [
     {
+      "file": "accenture_external_creator_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "accenture_external_creator_yt_paid.csv",
       "label": "Google Ads"
     }
   ],
   "daktronics_stadiumstatus": [
     {
+      "file": "daktronics_stadiumstatus_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "daktronics_stadiumstatus_yt_paid.csv",
       "label": "Google Ads"
     }
   ],
   "whirlpool_pll_stadium_status": [
+    {
+      "file": "whirlpool_pll_stadium_status_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "whirlpool_pll_stadium_status_yt_paid.csv",
       "label": "Google Ads"
@@ -47432,6 +47500,10 @@ window.UPLOAD_TARGETS = {
   ],
   "state_street": [
     {
+      "file": "state_street_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "state_street_yt_paid.csv",
       "label": "Google Ads"
     },
@@ -47442,11 +47514,19 @@ window.UPLOAD_TARGETS = {
   ],
   "just_ingredients_2026": [
     {
+      "file": "just_ingredients_2026_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "just_ingredients_2026_yt_paid.csv",
       "label": "Google Ads"
     }
   ],
   "jlab_thecomeup": [
+    {
+      "file": "jlab_thecomeup_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "jlab_thecomeup_yt_paid.csv",
       "label": "Google Ads"
@@ -47454,11 +47534,19 @@ window.UPLOAD_TARGETS = {
   ],
   "heinz_stadiumeats": [
     {
+      "file": "heinz_stadiumeats_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "heinz_stadiumeats_yt_paid.csv",
       "label": "Google Ads"
     }
   ],
   "pwc_formula1": [
+    {
+      "file": "pwc_formula1_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "pwc_formula1_yt_paid.csv",
       "label": "Google Ads"
@@ -47469,6 +47557,10 @@ window.UPLOAD_TARGETS = {
     }
   ],
   "zoom_fosexplains_mlb": [
+    {
+      "file": "zoom_fosexplains_mlb_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "zoom_fosexplains_mlb_yt_paid.csv",
       "label": "Google Ads"
@@ -47482,12 +47574,20 @@ window.UPLOAD_TARGETS = {
   ],
   "stifel_fostonight": [
     {
+      "file": "stifel_fostonight_ms.csv",
+      "label": "Measure Studio"
+    },
+    {
       "file": "stifel_fostonight_yt_organic.csv",
       "label": "YouTube Studio"
     }
   ],
   "microsoft_copilot": [],
   "nylim_fosexplains": [
+    {
+      "file": "nylim_fosexplains_ms.csv",
+      "label": "Measure Studio"
+    },
     {
       "file": "nylim_fosexplains_yt_paid.csv",
       "label": "Google Ads"
@@ -47505,265 +47605,169 @@ window.UPLOAD_TARGETS = {
   ]
 };
 
-window.MS_GROUPS = [
-  {
-    "id": 8322,
-    "name": "3M"
-  },
-  {
-    "id": 8757,
-    "name": "Accenture"
-  },
-  {
-    "id": 6034,
-    "name": "Ally (Unrivaled)"
-  },
-  {
-    "id": 8154,
-    "name": "Ally - NWSL"
-  },
-  {
-    "id": 8077,
-    "name": "BetMGM - World Cup - FOS Explains"
-  },
-  {
-    "id": 7751,
-    "name": "BetMGM - World Cup - Trend Report Promo"
-  },
-  {
-    "id": 6037,
-    "name": "BetMGM FOS Explains"
-  },
-  {
-    "id": 6036,
-    "name": "BetMGM Winter Olympics"
-  },
-  {
-    "id": 7588,
-    "name": "Branded Article Promo"
-  },
-  {
-    "id": 9578,
-    "name": "Comcast - Squash"
-  },
-  {
-    "id": 6181,
-    "name": "Comcast Business 2026"
-  },
-  {
-    "id": 9449,
-    "name": "Copilot x FOS Explains"
-  },
-  {
-    "id": 8811,
-    "name": "Daktronics"
-  },
-  {
-    "id": 8178,
-    "name": "DOW"
-  },
-  {
-    "id": 8330,
-    "name": "EHP"
-  },
-  {
-    "id": 7198,
-    "name": "Elevate - Stadium Status"
-  },
-  {
-    "id": 7863,
-    "name": "FOS Explains"
-  },
-  {
-    "id": 6217,
-    "name": "Future of Sports: Cutdowns"
-  },
-  {
-    "id": 6111,
-    "name": "Future of Sports: Full Episodes"
-  },
-  {
-    "id": 7587,
-    "name": "Heineken x FOSN"
-  },
-  {
-    "id": 9230,
-    "name": "Heinz"
-  },
-  {
-    "id": 8532,
-    "name": "Huntington Bank"
-  },
-  {
-    "id": 9229,
-    "name": "JLab"
-  },
-  {
-    "id": 9135,
-    "name": "Just Ingredients"
-  },
-  {
-    "id": 7176,
-    "name": "Morgan & Morgan"
-  },
-  {
-    "id": 6494,
-    "name": "Native Social Coverage - 2026 NFL Draft"
-  },
-  {
-    "id": 9450,
-    "name": "New York Life Investment x FOS Explains"
-  },
-  {
-    "id": 8641,
-    "name": "Next League: Future of Sports"
-  },
-  {
-    "id": 7433,
-    "name": "On Location x FIFA"
-  },
-  {
-    "id": 6012,
-    "name": "Portfolio Players S1"
-  },
-  {
-    "id": 6013,
-    "name": "Portfolio Players S2"
-  },
-  {
-    "id": 6008,
-    "name": "Portfolio Players S3"
-  },
-  {
-    "id": 7445,
-    "name": "Portfolio Players S3 - BrandX"
-  },
-  {
-    "id": 6197,
-    "name": "Portfolio Players S3 x E*TRADE"
-  },
-  {
-    "id": 7909,
-    "name": "Prudential"
-  },
-  {
-    "id": 9320,
-    "name": "PwC"
-  },
-  {
-    "id": 6026,
-    "name": "Raising Cane's (Breakfast Ball 2026)"
-  },
-  {
-    "id": 7565,
-    "name": "RBC"
-  },
-  {
-    "id": 8042,
-    "name": "Red Card Green Flag"
-  },
-  {
-    "id": 6524,
-    "name": "Red Carpet Interviews"
-  },
-  {
-    "id": 6203,
-    "name": "Second Acts Live: Sue Bird"
-  },
-  {
-    "id": 6195,
-    "name": "Sling TV x March Madness"
-  },
-  {
-    "id": 7172,
-    "name": "Spectrum x NASCAR - DITL"
-  },
-  {
-    "id": 7723,
-    "name": "Spectrum x NASCAR - Small business (dark) cutdowns "
-  },
-  {
-    "id": 7722,
-    "name": "Spectrum x NASCAR - Small Business Highlight"
-  },
-  {
-    "id": 7784,
-    "name": "Spectrum x World Cup - Small Business Cutdowns"
-  },
-  {
-    "id": 7759,
-    "name": "Spectrum x World Cup - Small Business Highlight"
-  },
-  {
-    "id": 6235,
-    "name": "Sport Clips - MLB Minute"
-  },
-  {
-    "id": 7729,
-    "name": "Sport Clips - Off the Pitch"
-  },
-  {
-    "id": 6236,
-    "name": "State Farm: The Family Assist"
-  },
-  {
-    "id": 8908,
-    "name": "State Street"
-  },
-  {
-    "id": 8401,
-    "name": "State Street - WNBA All Star Event"
-  },
-  {
-    "id": 9369,
-    "name": "Stifel - FOS Tonight"
-  },
-  {
-    "id": 6216,
-    "name": "Tastytrade"
-  },
-  {
-    "id": 7711,
-    "name": "The Case Study (redo)"
-  },
-  {
-    "id": 6443,
-    "name": "The Come Up"
-  },
-  {
-    "id": 7515,
-    "name": "Thrivent"
-  },
-  {
-    "id": 6035,
-    "name": "Toyota Winter Olympics"
-  },
-  {
-    "id": 8514,
-    "name": "UBS - Huddle in the Hamptons 2026"
-  },
-  {
-    "id": 8861,
-    "name": "Whirlpool"
-  },
-  {
-    "id": 9319,
-    "name": "Zoom"
-  }
-];
+window.MS_GROUPS = [];
 
 window.DATA_HEALTH = {
-  "generatedWarnings": [
-    "[heineken] excluded 2 post(s) via campaign exclude ['1512716967534555', '3932495664965122403']",
-    "[threem] excluded 1 post(s) via campaign exclude ['1530555005750751']"
-  ],
+  "generatedWarnings": [],
   "msErrors": [],
   "orphanFiles": [
     "microsoft_copilot_delivery_log.csv",
     "next_league_future_of_sports_meta_ads.csv",
     "portfolio_players_yt_paid.csv"
   ],
-  "potentialDuplicates": []
+  "potentialDuplicates": [],
+  "frozenMs": [
+    {
+      "id": "adp",
+      "partner": "ADP",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "etrade",
+      "partner": "E*TRADE",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "spectrum",
+      "partner": "Spectrum",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "mm",
+      "partner": "Morgan & Morgan",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "sportclips",
+      "partner": "Sport Clips",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "onlocation",
+      "partner": "On Location",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "heineken",
+      "partner": "Heineken",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "rbc_tst",
+      "partner": "RBC",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "thrivent",
+      "partner": "Thrivent",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "betmgm",
+      "partner": "BetMGM",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "state_farm",
+      "partner": "State Farm",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "prudential",
+      "partner": "Prudential",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "ally_nwsl",
+      "partner": "Ally",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "dow_lpga_impact_award",
+      "partner": "DOW Chemical",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "ehp_avp",
+      "partner": "EHP",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "threem",
+      "partner": "3M",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "ssim_wnba_allstar_event",
+      "partner": "State Street",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "ubs_huddleinthehamptons",
+      "partner": "UBS",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "huntington_bank_2026",
+      "partner": "Huntington Bank",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "next_league_future_of_sports",
+      "partner": "Next League",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "daktronics_stadiumstatus",
+      "partner": "Daktronics",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "whirlpool_pll_stadium_status",
+      "partner": "Whirlpool",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "state_street",
+      "partner": "State Street",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "just_ingredients_2026",
+      "partner": "Just Ingredients",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "jlab_thecomeup",
+      "partner": "JLab",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "heinz_stadiumeats",
+      "partner": "Heinz",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "pwc_formula1",
+      "partner": "PwC",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "zoom_fosexplains_mlb",
+      "partner": "Zoom",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "stifel_fostonight",
+      "partner": "Stifel",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "nylim_fosexplains",
+      "partner": "New York Life Investment",
+      "asOf": "2026-11-16"
+    }
+  ]
 };
 
 window.PULSE_STATE = {
@@ -47885,7 +47889,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.0,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 4
+    "postsContributed": 16
   },
   {
     "campaignId": "adp",
@@ -47896,7 +47900,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.0,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 4
+    "postsContributed": 16
   },
   {
     "campaignId": "adp",
@@ -47907,7 +47911,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 2.0,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 4
+    "postsContributed": 12
   },
   {
     "campaignId": "adp",
@@ -47918,7 +47922,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.8,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 4
+    "postsContributed": 12
   },
   {
     "campaignId": "etrade",
@@ -47929,7 +47933,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 9.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 18
+    "postsContributed": 83
   },
   {
     "campaignId": "etrade",
@@ -47940,7 +47944,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 9.9,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 48
   },
   {
     "campaignId": "spectrum",
@@ -47951,7 +47955,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 3
   },
   {
     "campaignId": "spectrum",
@@ -47962,7 +47966,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 2
   },
   {
     "campaignId": "spectrum",
@@ -47995,7 +47999,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 3
   },
   {
     "campaignId": "mm",
@@ -48006,7 +48010,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 2
   },
   {
     "campaignId": "sportclips",
@@ -48017,7 +48021,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 4
   },
   {
     "campaignId": "sportclips",
@@ -48050,7 +48054,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 4
   },
   {
     "campaignId": "onlocation",
@@ -48083,7 +48087,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 11.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 4
   },
   {
     "campaignId": "heineken",
@@ -48094,7 +48098,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.8,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 6
   },
   {
     "campaignId": "heineken",
@@ -48116,7 +48120,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.0,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 9
   },
   {
     "campaignId": "rbc_tst",
@@ -48127,7 +48131,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.8,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 8
   },
   {
     "campaignId": "thrivent",
@@ -48138,7 +48142,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 2
   },
   {
     "campaignId": "betmgm",
@@ -48149,7 +48153,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 3
   },
   {
     "campaignId": "betmgm",
@@ -48182,7 +48186,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.8,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 5
   },
   {
     "campaignId": "state_farm",
@@ -48193,7 +48197,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.0,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 4
   },
   {
     "campaignId": "microsoft",
@@ -48248,7 +48252,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.7,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 5
   },
   {
     "campaignId": "prudential",
@@ -48292,7 +48296,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 3
   },
   {
     "campaignId": "dow_lpga_impact_award",
@@ -48303,7 +48307,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 2
   },
   {
     "campaignId": "dow_lpga_impact_award",
@@ -48314,7 +48318,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 2
   },
   {
     "campaignId": "ehp_avp",
@@ -48325,7 +48329,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 2
   },
   {
     "campaignId": "ehp_avp",
@@ -48336,7 +48340,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.7,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 3
   },
   {
     "campaignId": "threem",
@@ -48347,7 +48351,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 5
   },
   {
     "campaignId": "apollo_gloabl_brandx",
@@ -48369,7 +48373,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 3
   },
   {
     "campaignId": "ssim_wnba_allstar_event",
@@ -48380,7 +48384,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.9,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 3
   },
   {
     "campaignId": "ubs_huddleinthehamptons",
@@ -48391,7 +48395,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 5
   },
   {
     "campaignId": "huntington_bank_2026",
@@ -48402,7 +48406,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 4
   },
   {
     "campaignId": "huntington_bank_2026",
@@ -48424,7 +48428,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 3
   },
   {
     "campaignId": "next_league_future_of_sports",
@@ -48440,10 +48444,21 @@ window.DATA_ARCHIVE = [
   {
     "campaignId": "accenture_external_creator",
     "partner": "Accenture",
+    "sourceKind": "measure_studio",
+    "sourceLabel": "Measure Studio",
+    "filename": "accenture_external_creator_ms.csv",
+    "fileSizeKb": 94.3,
+    "lastModified": "2026-11-16",
+    "exists": true,
+    "postsContributed": 16
+  },
+  {
+    "campaignId": "accenture_external_creator",
+    "partner": "Accenture",
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "accenture_external_creator_yt_paid.csv",
-    "fileSizeKb": 0.9,
+    "fileSizeKb": 1.0,
     "lastModified": "2026-11-16",
     "exists": true,
     "postsContributed": 0
@@ -48457,7 +48472,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "whirlpool_pll_stadium_status",
@@ -48468,7 +48483,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "orlando_health_brandx",
@@ -48501,7 +48516,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.8,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 6
   },
   {
     "campaignId": "state_street",
@@ -48512,7 +48527,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "just_ingredients_2026",
@@ -48523,7 +48538,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 3
   },
   {
     "campaignId": "jlab_thecomeup",
@@ -48534,7 +48549,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "heinz_stadiumeats",
@@ -48545,7 +48560,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.3,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 1
   },
   {
     "campaignId": "pwc_formula1",
@@ -48567,7 +48582,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 2
   },
   {
     "campaignId": "zoom_fosexplains_mlb",
@@ -48578,7 +48593,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 4
   },
   {
     "campaignId": "sportradar_brandx",
@@ -48600,7 +48615,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 1.0,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 0
+    "postsContributed": 5
   },
   {
     "campaignId": "nylim_fosexplains",
@@ -48611,7 +48626,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 3
   },
   {
     "campaignId": "nylim_fosexplains",
