@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T20:33:21Z";
+window.LAST_REFRESHED = "2026-11-16T20:43:27Z";
 
 
 
@@ -4719,11 +4719,11 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 3391522,
+      "delivered": 3391500,
       "goal": 3850000
     },
     "budget": {
-      "delivered": 8575.9,
+      "delivered": 8575.85,
       "goal": 11225.0
     },
     "color": "ft-1",
@@ -4735,7 +4735,7 @@ window.CAMPAIGNS = [
     "posts": 16,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
     "views": 2718445,
-    "engagements": 71709,
+    "engagements": 71699,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4759,8 +4759,8 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 946797,
-        "eng": 63932,
+        "impressions": 946775,
+        "eng": 63922,
         "er": 6.75,
         "cpm": 3.09,
         "color": "#FF0033",
@@ -4869,7 +4869,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOS News Video",
         "impressions": {
-          "delivered": 1264926,
+          "delivered": 1264904,
           "goal": 1000000
         }
       },
@@ -4884,7 +4884,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-16T20:32:47Z"
+    "lastUpdatedExports": "2026-11-16T20:42:55Z"
   },
   {
     "id": "next_league_future_of_sports",
@@ -7815,8 +7815,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127066301,
-    "eng": 2928755,
+    "impressions": 127066279,
+    "eng": 2928745,
     "er": 2.3,
     "cpm": 1.13,
     "color": "#E00922",
@@ -23978,11 +23978,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "FOS News Video",
       "date": "Sep 2026",
       "total": {
-        "impr": 1264926,
+        "impr": 1264904,
         "views": 1139769,
-        "er": 1.34,
-        "eng": 16892,
-        "spend": 3156.63
+        "er": 1.33,
+        "eng": 16882,
+        "spend": 3156.58
       },
       "perChannel": [
         {
@@ -24003,16 +24003,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 254040,
-          "paidImpr": 252755,
+          "impr": 254018,
+          "paidImpr": 252733,
           "orgImpr": 1285,
           "views": 162602,
-          "eng": 11309,
-          "paidEng": 11229,
+          "eng": 11299,
+          "paidEng": 11219,
           "orgEng": 80,
           "er": 4.45,
           "cpm": 2.89,
-          "spend": 730.15,
+          "spend": 730.1,
           "posts": 2
         },
         {
@@ -24127,13 +24127,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports News",
           "distKind": "organic+boosted",
-          "impr": 132567,
-          "paidImpr": 132174,
+          "impr": 132545,
+          "paidImpr": 132152,
           "orgImpr": 393,
           "views": 41438,
-          "eng": 3687,
-          "er": 2.78,
-          "spend": 312.59,
+          "eng": 3677,
+          "er": 2.77,
+          "spend": 312.54,
           "url": "https://www.youtube.com/shorts/HPc2yu3CYsY",
           "postedAt": "2026-11-09T15:30:00"
         },
@@ -44021,19 +44021,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports News",
       "distKind": "organic+boosted",
-      "impr": 132567,
-      "paidImpr": 132174,
+      "impr": 132545,
+      "paidImpr": 132152,
       "orgImpr": 393,
       "views": 41438,
       "reach": 0,
-      "eng": 3687,
-      "er": 2.78,
-      "spend": 312.59,
+      "eng": 3677,
+      "er": 2.77,
+      "spend": 312.54,
       "watchTimeMin": 3185.0,
       "clicks": null,
       "ctr": 1.26,
       "cpc": 1.87,
-      "cpm": 2.36,
+      "cpm": 2.37,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/HPc2yu3CYsY",
