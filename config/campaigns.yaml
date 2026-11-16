@@ -1922,7 +1922,13 @@ campaigns:
     # X posts: organic impressions / engagements come from MS's organic fields,
     # paid delivery + paid engagements from the X Ads export, added on top.
     x_use_ms_organic_split: true
-    yt_paired_by_sort: true   # fold Google Ads YT rows into their Measure posts (Measure reports YT paid too) so they aren't counted twice
+    yt_paired_by_sort: true   # fallback for any new video; the explicit pairings below win
+    # Google Ads campaign name -> YouTube video ID. Explicit, because sorted-by-
+    # impressions pairing mis-pairs once Video 3 lands between Videos 1 and 2.
+    yt_ads_pairings:
+      "Video 1": mE8cCwSJUSU   # What makes Austin's track so unique?
+      "Video 2": U9iMB78LhQg   # For F1 Academy drivers Alba Larsen and Payton Westcott...
+      "Video 3": z2Z8QGsIJzs   # No woman has raced in Formula One in 50 years...
     sources:
       x_ads:
         - pwc_formula1_x_ads.csv

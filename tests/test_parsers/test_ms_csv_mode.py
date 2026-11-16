@@ -117,7 +117,7 @@ def test_youtube_thumbnail_impressions_are_organic_impressions():
 
 def test_pwc_youtube_google_ads_rows_fold_into_measure_posts():
     """PwC: the 2 Google Ads YT rows pair with their Measure twins (no double count),
-    and the unpaired Video 3 Short keeps Measure's spend in CSV mode."""
+    (no double count)."""
     from pathlib import Path
     from app.parsers.base import Platform
     from app.parsers import measure_studio, google_ads_campaign
@@ -132,4 +132,26 @@ def test_pwc_youtube_google_ads_rows_fold_into_measure_posts():
     )
     yts = [p for p in out if p.platform is Platform.YOUTUBE]
     assert len(yts) == len(yt_before) == 3
-    assert round(sum(p.ad_spend or 0 for p in yts), 2) == round(1249.87 + 1245.08 + 683.76, 2)
+    assert round(sum(p.ad_spend or 0 for p in yts), 2) == round(1249.87 + 1245.07 + 767.92, 2)
+
+
+def test_pwc_youtube_pairings_with_video3_google_ads_row():
+    """Video 3's Google Ads row (320,144) sorts between Videos 1 and 2 — explicit
+    pairings must keep each video on its own paid numbers."""
+    from pathlib import Path
+    from app.parsers.base import Platform
+    from app.parsers import measure_studio, google_ads_campaign
+    from app.viewer.refresh import _merge_youtube_paid_spend_into_ms
+
+    ms = measure_studio.parse(Path("tests/fixtures/pwc_formula1_ms.csv").read_bytes()).rows
+    ga = google_ads_campaign.parse(Path("tests/fixtures/pwc_formula1_yt_paid.csv").read_bytes()).rows
+    out = _merge_youtube_paid_spend_into_ms(
+        [p for p in ms if p.platform is Platform.YOUTUBE] + ga,
+        pair_by_sort=True, keep_ms_spend_if_unpaired=True,
+        manual_pairings={"Video 1": "mE8cCwSJUSU", "Video 2": "U9iMB78LhQg", "Video 3": "z2Z8QGsIJzs"},
+    )
+    by = {p.post_id_native: p for p in out if p.platform is Platform.YOUTUBE}
+    assert len(by) == 3
+    assert (by["mE8cCwSJUSU"].impressions_paid, round(by["mE8cCwSJUSU"].ad_spend, 2)) == (318848, 1249.87)
+    assert (by["U9iMB78LhQg"].impressions_paid, round(by["U9iMB78LhQg"].ad_spend, 2)) == (326504, 1245.07)
+    assert (by["z2Z8QGsIJzs"].impressions_paid, round(by["z2Z8QGsIJzs"].ad_spend, 2)) == (320144, 767.92)
