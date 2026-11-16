@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T19:17:15Z";
+window.LAST_REFRESHED = "2026-11-16T20:00:03Z";
 
 
 
@@ -6630,25 +6630,25 @@ window.CAMPAIGNS = [
     "flight": "Oct 1 \u2014 Nov 30, 2026",
     "elapsedPct": 76.7,
     "daysLeft": 14,
-    "status": "On Track",
-    "statusKind": "on",
+    "status": "Behind Pace",
+    "statusKind": "danger",
     "impressions": {
-      "delivered": 3251930,
+      "delivered": 2606578,
       "goal": 4200000
     },
     "budget": {
-      "delivered": 7592.52,
+      "delivered": 8276.28,
       "goal": 12000.0
     },
     "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 2.29,
-    "cpm": 2.44,
+    "er": 2.86,
+    "cpm": 3.35,
     "episodes": 0,
-    "posts": 15,
+    "posts": 13,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
-    "views": 2055399,
+    "views": 2036536,
     "engagements": 74451,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
@@ -6657,18 +6657,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1578984,
+        "impressions": 933632,
         "eng": 49393,
-        "er": 3.13,
-        "cpm": 1.59,
+        "er": 5.29,
+        "cpm": 3.43,
         "color": "#FF0033",
-        "delta": -84.4,
+        "delta": -73.5,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
         "organicImpressions": 5600,
-        "views": 685878
+        "views": 667015
       },
       {
         "name": "X",
@@ -6797,9 +6797,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "X CPM at $2.92 \u2014 2.7\u00d7 the benchmark.",
-        "body": "$2.92 CPM vs. $1.10 FOS benchmark. At 2.7\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-        "meta": "PwC \u00b7 X"
+        "headline": "On pace for 81% of goal (3.4M of 4.2M) with 14 days left.",
+        "body": "At the current rate the campaign will fall ~802K impressions short of the 4.2M goal. Need to deliver 114K impr/day (2.0\u00d7 the current 57K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "PwC \u00b7 Pacing"
       }
     ],
     "brandxObjective": "",
@@ -7816,18 +7816,18 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127674189,
+    "impressions": 127028837,
     "eng": 2916808,
-    "er": 2.28,
+    "er": 2.3,
     "cpm": 1.13,
     "color": "#E00922",
-    "delta": -88.6,
+    "delta": -88.5,
     "bench": {
       "er": 20.0,
       "cpm": 3.5
     },
     "organicImpressions": 0,
-    "views": 26487665
+    "views": 26468802
   },
   {
     "name": "TikTok",
@@ -8054,11 +8054,20 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "X CPM at $2.92 \u2014 2.7\u00d7 the benchmark.",
-    "body": "$2.92 CPM vs. $1.10 FOS benchmark. At 2.7\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "PwC \u00b7 X",
+    "headline": "On pace for 81% of goal (3.4M of 4.2M) with 14 days left.",
+    "body": "At the current rate the campaign will fall ~802K impressions short of the 4.2M goal. Need to deliver 114K impr/day (2.0\u00d7 the current 57K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "PwC \u00b7 Pacing",
     "campaignId": "pwc_formula1",
     "campaignPartner": "PwC"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "X CPM at $2.28 \u2014 2.1\u00d7 the benchmark.",
+    "body": "$2.28 CPM vs. $1.10 FOS benchmark. At 2.1\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "meta": "New York Life Investment \u00b7 X",
+    "campaignId": "nylim_fosexplains",
+    "campaignPartner": "New York Life Investment"
   },
   {
     "tag": "WIN",
@@ -46199,7 +46208,7 @@ window.POSTS_BY_CAMPAIGN = {
       "reach": 0,
       "eng": 28,
       "er": 0.01,
-      "spend": 0,
+      "spend": 683.76,
       "watchTimeMin": 2168.0,
       "clicks": null,
       "ctr": 0.79,
@@ -48599,7 +48608,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 2
+    "postsContributed": 0
   },
   {
     "campaignId": "pwc_formula1",
