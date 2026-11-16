@@ -1526,6 +1526,11 @@ campaigns:
     yt_ads_pairings:
       "FOSN NIL":    "HPc2yu3CYsY"   # Nov 9 FOS News Short ("College sports has never been more expensive…")
       "FOSN Farah":  "s4yFjzpExt4"   # Oct 12 FOS News Short (Farah O'Keefe)
+    # These two Shorts ran as paid-only; the few stray organic thumbnail
+    # impressions (11 / 22) shouldn't make them read "organic+boosted".
+    paid_only_post_ids:
+      - "zrSQSeQ56s4"   # Aug 12 Preston Stout Short
+      - "Jbnk9DEWmJk"   # Sep 18 DITL Short ("…NIL and sponsorship landscape in Austin")
     blurb: "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. "
     # Four components, each tracked to its own goal (like Heineken). FOS News +
     # correspondent-led are placeholders until those videos publish.
