@@ -155,3 +155,16 @@ def test_pwc_youtube_pairings_with_video3_google_ads_row():
     assert (by["mE8cCwSJUSU"].impressions_paid, round(by["mE8cCwSJUSU"].ad_spend, 2)) == (318848, 1249.87)
     assert (by["U9iMB78LhQg"].impressions_paid, round(by["U9iMB78LhQg"].ad_spend, 2)) == (326504, 1245.07)
     assert (by["z2Z8QGsIJzs"].impressions_paid, round(by["z2Z8QGsIJzs"].ad_spend, 2)) == (320144, 767.92)
+
+
+def test_tiktok_impressions_are_paid_plus_organic_views():
+    """Huntington TikTok: impressions = Impressions-Paid + Views-Organic (matches the API)."""
+    from pathlib import Path
+    from app.parsers.base import Platform
+    from app.parsers.measure_studio import parse
+
+    rows = parse(Path("tests/fixtures/huntington_bank_2026_ms.csv").read_bytes()).rows
+    tt = {p.posted_at.date().isoformat(): p for p in rows if p.platform is Platform.TIKTOK}
+    assert tt["2026-10-12"].impressions_total == 219039 + 57360
+    assert tt["2026-11-09"].impressions_total == 249722 + 97350
+    assert tt["2026-09-18"].impressions_total == 693087   # dark: paid only
