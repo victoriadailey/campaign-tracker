@@ -1763,12 +1763,17 @@ def _merge_x_ads_spend_into_ms(
             # In Measure-export mode MS's X engagements can be far below the X Ads
             # figure (which includes paid link clicks, etc.): use the larger as the
             # floor-correct total and record the paid share.
+            # The ad export can be fresher than the Measure export: if X Ads shows
+            # more paid delivery than MS captured, take X Ads' paid number.
+            if xa_paid > ms_paid:
+                t.impressions_total = (t.impressions_total or 0) + (xa_paid - ms_paid)
+                t.impressions_paid = xa_paid
             if xa_eng > 0:
                 t.engagements_paid = xa_eng
                 t.engagements_total = max(t.engagements_total or 0, xa_eng)
                 t.engagements_organic = max(0, t.engagements_total - xa_eng)
-                if t.impressions_total:
-                    t.er = (t.engagements_total or 0) / t.impressions_total
+            if t.impressions_total and (xa_eng > 0 or xa_paid > ms_paid):
+                t.er = (t.engagements_total or 0) / t.impressions_total
         elif ms_saw_combined and ms_total > 0 and xa_paid > 0:
             # Case 2 — MS marked it Boosted/Dark, so ms_total already reflects
             # the combined delivery. Trust ms_total; derive organic as gap.
