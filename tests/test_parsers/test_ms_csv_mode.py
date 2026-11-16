@@ -113,3 +113,23 @@ def test_youtube_thumbnail_impressions_are_organic_impressions():
     assert {934, 2829, 1837} <= set(by_org)
     for p in yt:
         assert p.impressions_total == (p.impressions_paid or 0) + p.impressions_organic
+
+
+def test_pwc_youtube_google_ads_rows_fold_into_measure_posts():
+    """PwC: the 2 Google Ads YT rows pair with their Measure twins (no double count),
+    and the unpaired Video 3 Short keeps Measure's spend in CSV mode."""
+    from pathlib import Path
+    from app.parsers.base import Platform
+    from app.parsers import measure_studio, google_ads_campaign
+    from app.viewer.refresh import _merge_youtube_paid_spend_into_ms
+
+    ms = measure_studio.parse(Path("tests/fixtures/pwc_formula1_ms.csv").read_bytes()).rows
+    ga = google_ads_campaign.parse(Path("tests/fixtures/pwc_formula1_yt_paid.csv").read_bytes()).rows
+    yt_before = [p for p in ms if p.platform is Platform.YOUTUBE]
+    out = _merge_youtube_paid_spend_into_ms(
+        [p for p in ms if p.platform is Platform.YOUTUBE] + ga,
+        pair_by_sort=True, keep_ms_spend_if_unpaired=True,
+    )
+    yts = [p for p in out if p.platform is Platform.YOUTUBE]
+    assert len(yts) == len(yt_before) == 3
+    assert round(sum(p.ad_spend or 0 for p in yts), 2) == round(1249.87 + 1245.08 + 683.76, 2)

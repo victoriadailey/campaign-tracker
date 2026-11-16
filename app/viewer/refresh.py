@@ -663,6 +663,7 @@ def main() -> int:
             posts_by_campaign[c_id],
             pair_by_sort=bool(c.get("yt_paired_by_sort")),
             manual_pairings=c.get("yt_ads_pairings") or {},
+            keep_ms_spend_if_unpaired=csv_mode,
         )
         # LinkedIn Ads CSV may overlap with an MS-API LinkedIn dark post. MS
         # gives the post's organic-side view count + URN; the LI Ads CSV gives
@@ -764,6 +765,7 @@ def main() -> int:
                 posts_by_campaign[c_id],
                 pair_by_sort=bool(c_cfg.get("yt_paired_by_sort")),
                 manual_pairings=c_cfg.get("yt_ads_pairings") or {},
+                keep_ms_spend_if_unpaired=csv_mode,
             )
         if Platform.LINKEDIN in platforms_added:
             posts_by_campaign[c_id] = _merge_linkedin_ads_into_ms(posts_by_campaign[c_id])
@@ -2320,6 +2322,7 @@ def _merge_youtube_paid_spend_into_ms(
     posts: list[NormalizedPost],
     pair_by_sort: bool = False,
     manual_pairings: dict[str, str] | None = None,
+    keep_ms_spend_if_unpaired: bool = False,
 ) -> list[NormalizedPost]:
     """Pair Google Ads YT campaigns with their corresponding MS YT post and
     copy spend → MS post. Drops matched Google Ads posts.
@@ -2376,11 +2379,25 @@ def _merge_youtube_paid_spend_into_ms(
                and id(p) not in dead_gads]
 
     # Trust GAds as the only YT spend source — zero out MS's partial figure.
+    # Export mode (keep_ms_spend_if_unpaired): the export's spend is accurate,
+    # so a post with no Google Ads twin yet (a brand-new Short) gets it back
+    # instead of showing $0 against real paid delivery.
+    _ms_spend_orig = {id(p): p.ad_spend for p in ms_yt}
     for p in ms_yt:
         p.ad_spend = 0
 
+    def _restore_unpaired_spend(paired_ids):
+        if not keep_ms_spend_if_unpaired:
+            return
+        for p in ms_yt:
+            if id(p) not in paired_ids and not p.ad_spend and _ms_spend_orig.get(id(p)):
+                p.ad_spend = _ms_spend_orig[id(p)]
+                if p.impressions_paid:
+                    p.cpm = p.ad_spend / p.impressions_paid * 1000
+
     # Even if no MS↔GAds merge will happen, dead GAds rows should still drop.
     if not ms_yt or not gads_yt:
+        _restore_unpaired_spend(set())
         return [p for p in posts if id(p) not in dead_gads]
 
     def _ms_subtype(p):
@@ -2804,6 +2821,7 @@ def _merge_youtube_paid_spend_into_ms(
 
     # Drop matched GAds rows AND any dead GAds rows (0 impressions + 0 spend).
     skip = drop_ids | dead_gads
+    _restore_unpaired_spend(matched_ms_ids)
     return [p for p in posts if id(p) not in skip]
 
 

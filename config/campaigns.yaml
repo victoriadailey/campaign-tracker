@@ -1922,6 +1922,7 @@ campaigns:
     # X posts: organic impressions / engagements come from MS's organic fields,
     # paid delivery + paid engagements from the X Ads export, added on top.
     x_use_ms_organic_split: true
+    yt_paired_by_sort: true   # fold Google Ads YT rows into their Measure posts (Measure reports YT paid too) so they aren't counted twice
     sources:
       x_ads:
         - pwc_formula1_x_ads.csv
