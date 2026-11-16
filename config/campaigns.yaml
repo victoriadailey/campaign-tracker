@@ -1870,7 +1870,7 @@ campaigns:
     series_italic: Up
     type: social
     benchmark_category: "Multimedia Reporter-Led - Franchise"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped via dashboard 2026-11-16
     flight_start: 2026-10-01
     flight_end: 2026-10-31
     impression_goal: 3000000
