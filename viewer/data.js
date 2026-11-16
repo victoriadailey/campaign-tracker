@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T20:43:57Z";
+window.LAST_REFRESHED = "2026-11-16T20:47:45Z";
 
 
 
@@ -4719,7 +4719,7 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 3391500,
+      "delivered": 3391467,
       "goal": 3850000
     },
     "budget": {
@@ -4734,8 +4734,8 @@ window.CAMPAIGNS = [
     "episodes": 3,
     "posts": 16,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
-    "views": 2718445,
-    "engagements": 71699,
+    "views": 2070521,
+    "engagements": 71423,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4759,18 +4759,18 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 946775,
-        "eng": 63922,
-        "er": 6.75,
+        "impressions": 946742,
+        "eng": 63646,
+        "er": 6.72,
         "cpm": 3.09,
         "color": "#FF0033",
-        "delta": -66.2,
+        "delta": -66.4,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 1318,
-        "views": 834906
+        "organicImpressions": 1285,
+        "views": 186982
       },
       {
         "name": "Instagram",
@@ -4845,7 +4845,7 @@ window.CAMPAIGNS = [
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace to over-deliver \u2014 $3K (24%) of budget unspent with 14 days left.",
-        "body": "Impressions are 88% delivered while only 76% of budget has been spent \u2014 only 458K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "body": "Impressions are 88% delivered while only 76% of budget has been spent \u2014 only 459K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "Huntington Bank \u00b7 Budget surplus"
       }
     ],
@@ -4855,14 +4855,14 @@ window.CAMPAIGNS = [
       {
         "label": "Preston Stout Interview",
         "impressions": {
-          "delivered": 596059,
+          "delivered": 596048,
           "goal": 500000
         }
       },
       {
         "label": "Day in the Life",
         "impressions": {
-          "delivered": 1530537,
+          "delivered": 1530515,
           "goal": 1500000
         }
       },
@@ -7815,8 +7815,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127066279,
-    "eng": 2928745,
+    "impressions": 127066246,
+    "eng": 2928469,
     "er": 2.3,
     "cpm": 1.13,
     "color": "#E00922",
@@ -7825,8 +7825,8 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 0,
-    "views": 26468802
+    "organicImpressions": -33,
+    "views": 25820878
   },
   {
     "name": "TikTok",
@@ -23700,10 +23700,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Preston Stout Interview",
       "date": "Sep 2026",
       "total": {
-        "impr": 596059,
-        "views": 409794,
-        "er": 2.12,
-        "eng": 12641,
+        "impr": 596048,
+        "views": 227152,
+        "er": 2.11,
+        "eng": 12600,
         "spend": 1467.51
       },
       "perChannel": [
@@ -23724,15 +23724,15 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "name": "YouTube Shorts",
-          "distKind": "organic+boosted",
-          "impr": 201647,
+          "distKind": "paid",
+          "impr": 201636,
           "paidImpr": 201636,
-          "orgImpr": 11,
-          "views": 187695,
-          "eng": 12376,
+          "orgImpr": 0,
+          "views": 5053,
+          "eng": 12335,
           "paidEng": 12335,
-          "orgEng": 41,
-          "er": 6.14,
+          "orgEng": 0,
+          "er": 6.12,
           "cpm": 2.95,
           "spend": 594.6,
           "posts": 1
@@ -23773,13 +23773,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "No. 1 ranked amateur golfer Preston Stout answers some fun golf questions",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 201647,
+          "distKind": "paid",
+          "impr": 201636,
           "paidImpr": 201636,
-          "orgImpr": 11,
-          "views": 187695,
-          "eng": 12376,
-          "er": 6.14,
+          "orgImpr": 0,
+          "views": 5053,
+          "eng": 12335,
+          "er": 6.12,
           "spend": 594.6,
           "url": "https://www.youtube.com/shorts/zrSQSeQ56s4",
           "postedAt": "2026-08-12T10:52:00"
@@ -23839,10 +23839,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Day in the Life",
       "date": "Sep 2026",
       "total": {
-        "impr": 1530537,
-        "views": 1168882,
-        "er": 2.76,
-        "eng": 42176,
+        "impr": 1530515,
+        "views": 703600,
+        "er": 2.74,
+        "eng": 41941,
         "spend": 3951.76
       },
       "perChannel": [
@@ -23863,15 +23863,15 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "name": "YouTube Shorts",
-          "distKind": "organic+boosted",
-          "impr": 491110,
+          "distKind": "paid",
+          "impr": 491088,
           "paidImpr": 491088,
-          "orgImpr": 22,
-          "views": 484609,
-          "eng": 40247,
+          "orgImpr": 0,
+          "views": 19327,
+          "eng": 40012,
           "paidEng": 40012,
-          "orgEng": 235,
-          "er": 8.2,
+          "orgEng": 0,
+          "er": 8.15,
           "cpm": 3.25,
           "spend": 1595.92,
           "posts": 1
@@ -23927,13 +23927,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "Here's what the NIL and sponsorship landscape looked like in Austin last week",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 491110,
+          "distKind": "paid",
+          "impr": 491088,
           "paidImpr": 491088,
-          "orgImpr": 22,
-          "views": 484609,
-          "eng": 40247,
-          "er": 8.2,
+          "orgImpr": 0,
+          "views": 19327,
+          "eng": 40012,
+          "er": 8.15,
           "spend": 1595.92,
           "url": "https://www.youtube.com/shorts/Jbnk9DEWmJk",
           "postedAt": "2026-09-18T13:52:00"
@@ -43721,14 +43721,14 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "No. 1 ranked amateur golfer Preston Stout answers some fun golf questions",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 201647,
+      "distKind": "paid",
+      "impr": 201636,
       "paidImpr": 201636,
-      "orgImpr": 11,
-      "views": 187695,
+      "orgImpr": 0,
+      "views": 5053,
       "reach": 0,
-      "eng": 12376,
-      "er": 6.14,
+      "eng": 12335,
+      "er": 6.12,
       "spend": 594.6,
       "watchTimeMin": 20211.6,
       "clicks": null,
@@ -43836,14 +43836,14 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "Here's what the NIL and sponsorship landscape looked like in Austin last week",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 491110,
+      "distKind": "paid",
+      "impr": 491088,
       "paidImpr": 491088,
-      "orgImpr": 22,
-      "views": 484609,
+      "orgImpr": 0,
+      "views": 19327,
       "reach": 0,
-      "eng": 40247,
-      "er": 8.2,
+      "eng": 40012,
+      "er": 8.15,
       "spend": 1595.92,
       "watchTimeMin": 50710.6,
       "clicks": null,
