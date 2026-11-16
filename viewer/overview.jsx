@@ -15,7 +15,7 @@ function HealthBanner() {
   const orphans = dh.orphanFiles || [];
   const msErrors = dh.msErrors || [];
   const duplicates = dh.potentialDuplicates || [];
-  const frozen = (dh.frozenMs || []).map(f => `${f.partner || f.id}${f.asOf ? ` — Measure data as of ${f.asOf}` : ' — no earlier data'}`);
+  const frozen = (dh.frozenMs || []).filter(f => !f.wrapped).map(f => `${f.partner || f.id}${f.asOf ? ` — Measure data as of ${f.asOf}` : ' — no earlier data'}`);
 
   // Classify the free-text warnings. "excluded N posts" is normal/expected —
   // don't alarm on it. "SKIPPED" = a campaign fell out of the dashboard.

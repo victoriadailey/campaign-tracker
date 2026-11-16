@@ -116,7 +116,9 @@ function CampaignPage({ campaignId, onBack }) {
             )}
             {c.measureFrozenAsOf && (
               <div style={{fontSize:11, lineHeight:1.4, color:'var(--flame)', fontWeight:600}}>
-                Measure data frozen as of {c.measureFrozenAsOf}. Upload a Measure export to update organic numbers.
+                {c.lifecycle === 'wrapped'
+                  ? `Wrapped — final numbers as of ${c.measureFrozenAsOf}.`
+                  : `Measure data frozen as of ${c.measureFrozenAsOf}. Upload a Measure export to update organic numbers.`}
               </div>
             )}
             {c.lastUpdatedExports && (
@@ -1070,7 +1072,9 @@ function BrandXCampaignPage({ c, onBack }) {
             )}
             {c.measureFrozenAsOf && (
               <div style={{fontSize:11, lineHeight:1.4, color:'var(--flame)', fontWeight:600}}>
-                Measure data frozen as of {c.measureFrozenAsOf}. Upload a Measure export to update organic numbers.
+                {c.lifecycle === 'wrapped'
+                  ? `Wrapped — final numbers as of ${c.measureFrozenAsOf}.`
+                  : `Measure data frozen as of ${c.measureFrozenAsOf}. Upload a Measure export to update organic numbers.`}
               </div>
             )}
             {c.lastUpdatedExports && (

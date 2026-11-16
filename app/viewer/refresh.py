@@ -90,12 +90,20 @@ def _carry_forward_frozen(payload, frozen_ids: set, prev_js: str, today) -> list
             d = dict(prev_camps[cid])
             # Keep the ORIGINAL as-of date across consecutive frozen refreshes.
             d.setdefault("measureFrozenAsOf", stamp)
+            # The carried block predates any config change, so re-apply the
+            # current lifecycle (e.g. a campaign wrapped while frozen).
+            lc = getattr(c, "lifecycle", None)
+            if lc:
+                d["lifecycle"] = lc
             new_campaigns.append(d)
             if cid in prev_eps:
                 payload.episodes_by_campaign[cid] = prev_eps[cid]
             if cid in prev_posts:
                 payload.posts_by_campaign[cid] = prev_posts[cid]
-            report.append({"id": cid, "partner": d.get("partner"), "asOf": d["measureFrozenAsOf"]})
+            entry = {"id": cid, "partner": d.get("partner"), "asOf": d["measureFrozenAsOf"]}
+            if d.get("lifecycle") == "wrapped":
+                entry["wrapped"] = True   # intentionally frozen — final numbers, no export needed
+            report.append(entry)
         else:
             new_campaigns.append(c)
             if cid in frozen_ids:
@@ -286,7 +294,13 @@ def main() -> int:
             group_ids = [single, *group_ids]
         if csv_mode:
             _ms_files = c.get("sources", {}).get("measure_studio", []) or []
-            if (group_ids or _ms_files) and not any((exports_root / f).exists() for f in _ms_files):
+            # Wrapped campaigns are final: always frozen at their last published
+            # numbers, even if a Measure file is present. Active campaigns freeze
+            # only until their Measure export is uploaded.
+            _is_wrapped = str(c.get("lifecycle", "active")).strip().lower() == "wrapped"
+            if (group_ids or _ms_files) and (
+                _is_wrapped or not any((exports_root / f).exists() for f in _ms_files)
+            ):
                 frozen_ms[c_id] = True
             group_ids = []   # never call the (ended) API in csv mode
 
@@ -1415,7 +1429,7 @@ def main() -> int:
         # `sources.measure_studio` (netlify upload-csv.js) and un-freezes it.
         if csv_mode and not srcs.get("measure_studio") and (
             srcs.get("measure_studio_group_ids") or srcs.get("measure_studio_group_id")
-        ):
+        ) and str(c.get("lifecycle", "active")).strip().lower() != "wrapped":
             files.insert(0, {"file": f"{c['id']}_ms.csv", "label": "Measure Studio"})
         # Track every filename any campaign reads (across ALL source keys) so we
         # can flag fixture CSVs that no campaign references (orphans).

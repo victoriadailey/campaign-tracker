@@ -168,3 +168,16 @@ def test_tiktok_impressions_are_paid_plus_organic_views():
     assert tt["2026-10-12"].impressions_total == 219039 + 57360
     assert tt["2026-11-09"].impressions_total == 249722 + 97350
     assert tt["2026-09-18"].impressions_total == 693087   # dark: paid only
+
+
+def test_frozen_campaign_takes_current_lifecycle_and_wrapped_is_flagged():
+    wrapped = _Camp("old", "Old", channels=[])
+    wrapped.lifecycle = "wrapped"
+    payload = SimpleNamespace(
+        campaigns=[wrapped], channels=[],
+        episodes_by_campaign={}, posts_by_campaign={},
+        portfolio_cpm_by_channel=[], portfolio_cpm_blend=0.0,
+    )
+    report = _carry_forward_frozen(payload, {"old"}, _prev_js(), dt.date(2026, 11, 17))
+    assert payload.campaigns[0]["lifecycle"] == "wrapped"
+    assert report == [{"id": "old", "partner": "Old", "asOf": "2026-11-16", "wrapped": True}]
