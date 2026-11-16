@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T20:07:21Z";
+window.LAST_REFRESHED = "2026-11-16T20:29:00Z";
 
 
 
@@ -7978,15 +7978,6 @@ window.SIGNALS = [
     "meta": "Heinz \u00b7 Pacing",
     "campaignId": "heinz_stadiumeats",
     "campaignPartner": "Heinz"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 9% of goal (283K of 3.0M) with 0 days left.",
-    "body": "At the current rate the campaign will fall ~2.7M impressions short of the 3.0M goal. Need to ramp delivery significantly to hit the 3.0M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "JLab \u00b7 Pacing",
-    "campaignId": "jlab_thecomeup",
-    "campaignPartner": "JLab"
   },
   {
     "tag": "WATCH",
