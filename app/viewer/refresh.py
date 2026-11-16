@@ -1760,7 +1760,15 @@ def _merge_x_ads_spend_into_ms(
                     if t.impressions_total else None)
         elif ms_paid > 0:
             # Case 1 — MS captured the breakdown. Just add spend.
-            pass
+            # In Measure-export mode MS's X engagements can be far below the X Ads
+            # figure (which includes paid link clicks, etc.): use the larger as the
+            # floor-correct total and record the paid share.
+            if xa_eng > 0:
+                t.engagements_paid = xa_eng
+                t.engagements_total = max(t.engagements_total or 0, xa_eng)
+                t.engagements_organic = max(0, t.engagements_total - xa_eng)
+                if t.impressions_total:
+                    t.er = (t.engagements_total or 0) / t.impressions_total
         elif ms_saw_combined and ms_total > 0 and xa_paid > 0:
             # Case 2 — MS marked it Boosted/Dark, so ms_total already reflects
             # the combined delivery. Trust ms_total; derive organic as gap.
@@ -1797,7 +1805,7 @@ def _merge_x_ads_spend_into_ms(
         # (`views` == `organic_views`, `promoted_views` is empty), so the X Ads
         # export's video views are additive on top of MS's count.
         xa_views = xa.views_paid or 0
-        if xa_views > 0:
+        if xa_views > 0 and not (t.views_paid or 0):   # MS export already counts paid views
             t.views_paid = (t.views_paid or 0) + xa_views
             t.views_total = (t.views_total or 0) + xa_views
 

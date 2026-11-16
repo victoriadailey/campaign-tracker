@@ -1927,8 +1927,8 @@ campaigns:
         - pwc_formula1_x_ads.csv
       youtube_paid:
         - pwc_formula1_yt_paid.csv
-      measure_studio_group_ids:
-        - 9320
+      measure_studio:
+        - pwc_formula1_ms.csv   # Measure export, group 9320 (was API)
 
   - id: zoom_fosexplains_mlb
     partner: Zoom

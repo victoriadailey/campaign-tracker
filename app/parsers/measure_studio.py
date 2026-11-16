@@ -69,6 +69,7 @@ PLATFORM_METRIC_MAPS: dict[Platform, dict[str, str]] = {
         "views_total": "Facebook Views - Total",
         "views_organic": "Facebook Views - Organic",
         "views_paid": "Facebook Views - Paid",
+        "impressions_paid": "Facebook Impressions - Paid",
         "reach_total": "Facebook Reach - Total",
         "reach_organic": "Facebook Reach - Organic",
         "reach_paid": "Facebook Reach - Paid",
@@ -133,6 +134,9 @@ PLATFORM_METRIC_MAPS: dict[Platform, dict[str, str]] = {
 # canonical column is absent/blank on a row, fall back to its current name.
 COLUMN_ALIASES: dict[str, tuple[str, ...]] = {
     "Instagram Views - Total": ("Instagram Views - Instagram - Total",),
+    "Facebook Reach - Total": ("Facebook Reach - Total (Deprecated)",),
+    "Facebook Reach - Organic": ("Facebook Reach - Organic (Deprecated)",),
+    "Facebook Reach - Paid": ("Facebook Reach - Paid (Deprecated)",),
 }
 
 BOOSTING_MAP: dict[str, Boosting] = {
@@ -292,6 +296,27 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
             setattr(post, field_name, _to_float(value))
         else:
             setattr(post, field_name, _to_int(value))
+
+    # X exports carry "X Views" (Measure's delivery count: Total / Organic / Paid)
+    # and, if selected, "X Video Views" (actual video plays). The rollups and the
+    # X Ads merge read impressions_* for delivery and views_* for video plays, so:
+    #   - delivery (impressions_*) <- "X Views - *" (MS's own paid split included,
+    #     which tells the X Ads merge that MS already captured the paid side);
+    #   - video plays (views_*)    <- "X Video Views - *" when present, else left
+    #     empty so delivery counts aren't mislabelled as plays.
+    if platform is Platform.X:
+        def _xi(col: str) -> int | None:
+            v = raw.get(col)
+            return None if v in (None, "") else _to_int(v)
+        if post.impressions_total is None:
+            post.impressions_total = _xi("X Views - Total")
+        if post.impressions_organic is None:
+            post.impressions_organic = _xi("X Views - Organic")
+        if post.impressions_paid is None:
+            post.impressions_paid = _xi("X Views - Paid")
+        post.views_total = _xi("X Video Views - Total")
+        post.views_organic = _xi("X Video Views - Organic")
+        post.views_paid = _xi("X Video Views - Paid")
 
     return post
 

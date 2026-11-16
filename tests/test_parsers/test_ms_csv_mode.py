@@ -62,3 +62,18 @@ def test_frozen_campaign_keeps_last_published_blocks_and_totals():
     # portfolio total drops by exactly that, while the frozen campaign's 100 stays.
     ch = payload.channels[0]
     assert ch["impressions"] == 100 and ch["eng"] == 10 and ch["er"] == 10.0
+
+
+def test_x_export_maps_views_to_delivery_and_video_views_to_plays(tmp_path):
+    hdr = ("Account Name,Post ID,Date Published,Time Published,Post Platform,Post Type,"
+           "Post Title,Post Group(s),Organic / Boosted / Dark,X Views - Total,X Views - Organic,"
+           "X Views - Paid,X Total Engagements - Total")
+    f = tmp_path / "ms.csv"
+    f.write_text(_META + hdr + "\nFOS,9,2026-11-01,10:00,X,Videos,Hi,G,Dark,1000,100,900,5\n")
+    p = parse(str(f)).rows[0]
+    assert (p.impressions_total, p.impressions_organic, p.impressions_paid) == (1000, 100, 900)
+    assert p.views_total is None and p.views_paid is None   # no "X Video Views" columns selected
+    hdr2 = hdr + ",X Video Views - Total,X Video Views - Organic,X Video Views - Paid"
+    f.write_text(_META + hdr2 + "\nFOS,9,2026-11-01,10:00,X,Videos,Hi,G,Dark,1000,100,900,5,300,30,270\n")
+    p = parse(str(f)).rows[0]
+    assert (p.views_total, p.views_organic, p.views_paid) == (300, 30, 270)
