@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T20:00:03Z";
+window.LAST_REFRESHED = "2026-11-16T20:03:44Z";
 
 
 
@@ -6633,23 +6633,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 2606578,
+      "delivered": 2644042,
       "goal": 4200000
     },
     "budget": {
-      "delivered": 8276.28,
+      "delivered": 8360.43,
       "goal": 12000.0
     },
     "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 2.86,
-    "cpm": 3.35,
+    "er": 3.27,
+    "cpm": 3.33,
     "episodes": 0,
     "posts": 13,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
     "views": 2036536,
-    "engagements": 74451,
+    "engagements": 86398,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6657,12 +6657,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 933632,
-        "eng": 49393,
-        "er": 5.29,
-        "cpm": 3.43,
+        "impressions": 971096,
+        "eng": 61340,
+        "er": 6.32,
+        "cpm": 3.38,
         "color": "#FF0033",
-        "delta": -73.5,
+        "delta": -68.4,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -6797,8 +6797,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 81% of goal (3.4M of 4.2M) with 14 days left.",
-        "body": "At the current rate the campaign will fall ~802K impressions short of the 4.2M goal. Need to deliver 114K impr/day (2.0\u00d7 the current 57K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 82% of goal (3.4M of 4.2M) with 14 days left.",
+        "body": "At the current rate the campaign will fall ~753K impressions short of the 4.2M goal. Need to deliver 111K impr/day (1.9\u00d7 the current 57K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "PwC \u00b7 Pacing"
       }
     ],
@@ -6808,7 +6808,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-16T17:31:30Z"
+    "lastUpdatedExports": "2026-11-16T20:03:18Z"
   },
   {
     "id": "zoom_fosexplains_mlb",
@@ -7816,8 +7816,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127028837,
-    "eng": 2916808,
+    "impressions": 127066301,
+    "eng": 2928755,
     "er": 2.3,
     "cpm": 1.13,
     "color": "#E00922",
@@ -8054,8 +8054,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 81% of goal (3.4M of 4.2M) with 14 days left.",
-    "body": "At the current rate the campaign will fall ~802K impressions short of the 4.2M goal. Need to deliver 114K impr/day (2.0\u00d7 the current 57K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 82% of goal (3.4M of 4.2M) with 14 days left.",
+    "body": "At the current rate the campaign will fall ~753K impressions short of the 4.2M goal. Need to deliver 111K impr/day (1.9\u00d7 the current 57K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "PwC \u00b7 Pacing",
     "campaignId": "pwc_formula1",
     "campaignPartner": "PwC"
@@ -46017,19 +46017,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 320685,
-      "paidImpr": 318848,
+      "impr": 321981,
+      "paidImpr": 320144,
       "orgImpr": 1837,
       "views": 318689,
       "reach": 0,
-      "eng": 30294,
-      "er": 9.45,
-      "spend": 1249.87,
+      "eng": 12133,
+      "er": 3.77,
+      "spend": 767.92,
       "watchTimeMin": 30579.5,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.92,
+      "cpm": 2.4,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/mE8cCwSJUSU",
@@ -46132,14 +46132,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 329337,
-      "paidImpr": 326508,
+      "impr": 329333,
+      "paidImpr": 326504,
       "orgImpr": 2829,
       "views": 325621,
       "reach": 0,
       "eng": 19071,
       "er": 5.79,
-      "spend": 1245.08,
+      "spend": 1245.07,
       "watchTimeMin": 26300.1,
       "clicks": null,
       "ctr": 0.0,
@@ -46201,19 +46201,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 283610,
-      "paidImpr": 282676,
+      "impr": 319782,
+      "paidImpr": 318848,
       "orgImpr": 934,
       "views": 22705,
       "reach": 0,
-      "eng": 28,
-      "er": 0.01,
-      "spend": 683.76,
+      "eng": 30136,
+      "er": 9.42,
+      "spend": 1249.87,
       "watchTimeMin": 2168.0,
       "clicks": null,
       "ctr": 0.79,
       "cpc": 3.08,
-      "cpm": 2.42,
+      "cpm": 3.92,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/z2Z8QGsIJzs",
