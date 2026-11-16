@@ -87,3 +87,14 @@ def test_x_organic_engagements_are_summed_from_organic_columns(tmp_path):
     f = tmp_path / "ms.csv"
     f.write_text(_META + hdr + "\nFOS,9,2026-11-01,10:00,X,Videos,Hi,G,Dark,1000,100,900,50,5,1,2,3,4\n")
     assert parse(str(f)).rows[0].engagements_organic == 15
+
+
+def test_meta_impressions_are_paid_plus_organic_views(tmp_path):
+    hdr = ("Account Name,Post ID,Date Published,Time Published,Post Platform,Post Type,Post Title,"
+           "Post Group(s),Organic / Boosted / Dark,Instagram Views - Organic,Instagram Impressions - Paid,"
+           "Facebook Views - Organic,Facebook Impressions - Paid")
+    f = tmp_path / "ms.csv"
+    f.write_text(_META + hdr + "\nFOS,1,2026-11-01,10:00,Instagram,Reels,A,G,Boosted,43481,90608,,\n"
+                 "FOS,2,2026-11-01,10:00,Facebook,Reels,B,G,Boosted,,,409,183589\n")
+    ig, fb = parse(str(f)).rows
+    assert ig.impressions_total == 134089 and fb.impressions_total == 183998

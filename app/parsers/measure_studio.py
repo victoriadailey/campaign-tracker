@@ -297,6 +297,14 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
         else:
             setattr(post, field_name, _to_int(value))
 
+    # Instagram / Facebook exports carry Impressions - Paid but no total-impressions
+    # column. Measure's API reported impressions = paid impressions + organic views
+    # (verified against the API on PwC: FB 183,589 + 409 = 183,998; IG 90,608 +
+    # 43,481 = 134,089), so rebuild that when the total isn't given.
+    if platform in (Platform.FACEBOOK, Platform.INSTAGRAM) and post.impressions_total is None \
+            and post.impressions_paid:
+        post.impressions_total = post.impressions_paid + (post.views_organic or 0)
+
     # X exports carry "X Views" (Measure's delivery count: Total / Organic / Paid)
     # and, if selected, "X Video Views" (actual video plays). The rollups and the
     # X Ads merge read impressions_* for delivery and views_* for video plays, so:
