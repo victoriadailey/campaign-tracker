@@ -98,3 +98,18 @@ def test_meta_impressions_are_paid_plus_organic_views(tmp_path):
                  "FOS,2,2026-11-01,10:00,Facebook,Reels,B,G,Boosted,,,409,183589\n")
     ig, fb = parse(str(f)).rows
     assert ig.impressions_total == 134089 and fb.impressions_total == 183998
+
+
+def test_youtube_thumbnail_impressions_are_organic_impressions():
+    """YouTube 'Thumbnail Impressions - Total' = organic impressions; total = paid + organic."""
+    from pathlib import Path
+    from app.parsers.base import Platform
+    from app.parsers.measure_studio import parse
+
+    res = parse(Path("tests/fixtures/pwc_formula1_ms.csv").read_bytes())
+    yt = [p for p in res.rows if p.platform is Platform.YOUTUBE]
+    assert yt
+    by_org = {p.impressions_organic: p for p in yt}
+    assert {934, 2829, 1837} <= set(by_org)
+    for p in yt:
+        assert p.impressions_total == (p.impressions_paid or 0) + p.impressions_organic

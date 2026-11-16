@@ -37,6 +37,7 @@ PLATFORM_METRIC_MAPS: dict[Platform, dict[str, str]] = {
         "views_organic": "YouTube Views - Organic",
         "views_paid": "YouTube Views - Paid",
         "impressions_paid": "YouTube Impressions - Paid",
+        "impressions_organic": "YouTube Thumbnail Impressions - Total",
         "engagements_total": "YouTube Total Engagements - Total",
         "engagements_organic": "YouTube Total Engagements - Organic",
         "engagements_paid": "YouTube Total Engagements - Paid",
@@ -304,6 +305,12 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
     if platform in (Platform.FACEBOOK, Platform.INSTAGRAM) and post.impressions_total is None \
             and post.impressions_paid:
         post.impressions_total = post.impressions_paid + (post.views_organic or 0)
+
+    # YouTube: "Thumbnail Impressions - Total" is the organic impression count
+    # (same convention as the YouTube Studio export). Delivered impressions =
+    # paid impressions + organic thumbnail impressions.
+    if platform is Platform.YOUTUBE and post.impressions_organic is not None:
+        post.impressions_total = (post.impressions_paid or 0) + post.impressions_organic
 
     # X exports carry "X Views" (Measure's delivery count: Total / Organic / Paid)
     # and, if selected, "X Video Views" (actual video plays). The rollups and the

@@ -1928,7 +1928,7 @@ campaigns:
       youtube_paid:
         - pwc_formula1_yt_paid.csv
       measure_studio:
-        - pwc_formula1_ms.csv   # Measure export, group 9320 (was API)
+        - pwc_formula1_ms.csv   # Measure export (new template, incl. YT thumbnail impressions)
 
   - id: zoom_fosexplains_mlb
     partner: Zoom
