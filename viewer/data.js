@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-16T20:29:00Z";
+window.LAST_REFRESHED = "2026-11-16T20:33:21Z";
 
 
 
@@ -4729,13 +4729,13 @@ window.CAMPAIGNS = [
     "color": "ft-1",
     "leadFormat": "Paid Social",
     "topChannel": "TikTok",
-    "er": 2.12,
+    "er": 2.11,
     "cpm": 2.67,
     "episodes": 3,
     "posts": 16,
     "blurb": "Four paid-only social videos to create awareness for Huntington Bank's NIL banking platform launch. ",
-    "views": 2818291,
-    "engagements": 71793,
+    "views": 2718445,
+    "engagements": 71709,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -4776,17 +4776,17 @@ window.CAMPAIGNS = [
         "name": "Instagram",
         "italic": "gram",
         "impressions": 502434,
-        "eng": 3987,
-        "er": 0.79,
+        "eng": 3903,
+        "er": 0.78,
         "cpm": 3.79,
         "color": "#E4405F",
-        "delta": -76.0,
+        "delta": -76.5,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 18660,
-        "views": 494106
+        "views": 197112
       },
       {
         "name": "Facebook",
@@ -4802,7 +4802,7 @@ window.CAMPAIGNS = [
           "cpm": 4.8
         },
         "organicImpressions": 1557,
-        "views": 0
+        "views": 197148
       },
       {
         "name": "X",
@@ -4829,14 +4829,14 @@ window.CAMPAIGNS = [
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's\u2026",
-        "er": 4.67,
+        "er": 4.75,
         "eng": 3138,
         "reach": 66078,
         "organic": 17,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DfiTTsUDDoA/",
-        "postedAt": "2026-11-09T13:33:07-08:00"
+        "postedAt": "2026-11-09T15:33:00"
       }
     ],
     "topPostsOrganic": [],
@@ -4883,9 +4883,8 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-11-13T20:18:34Z",
-    "measureFrozenAsOf": "2026-11-16"
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": "2026-11-16T20:32:47Z"
   },
   {
     "id": "next_league_future_of_sports",
@@ -7849,7 +7848,7 @@ window.CHANNELS = [
     "name": "Instagram",
     "italic": "gram",
     "impressions": 36757706,
-    "eng": 663920,
+    "eng": 663836,
     "er": 1.81,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -7859,7 +7858,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": -227,
-    "views": 34036575
+    "views": 33739581
   },
   {
     "name": "X",
@@ -7891,7 +7890,7 @@ window.CHANNELS = [
       "cpm": 4.8
     },
     "organicImpressions": 0,
-    "views": 2018342
+    "views": 2215490
   },
   {
     "name": "LinkedIn",
@@ -7987,15 +7986,6 @@ window.SIGNALS = [
     "meta": "Just Ingredients \u00b7 Pacing",
     "campaignId": "just_ingredients_2026",
     "campaignPartner": "Just Ingredients"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 34% of goal (1.3M of 3.9M) with 14 days left.",
-    "body": "At the current rate the campaign will fall ~2.5M impressions short of the 3.9M goal. Need to deliver 193K impr/day (17.9\u00d7 the current 11K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Huntington Bank \u00b7 Pacing",
-    "campaignId": "huntington_bank_2026",
-    "campaignPartner": "Huntington Bank"
   },
   {
     "tag": "WATCH",
@@ -23711,9 +23701,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Sep 2026",
       "total": {
         "impr": 596059,
-        "views": 492666,
-        "er": 2.13,
-        "eng": 12667,
+        "views": 409794,
+        "er": 2.12,
+        "eng": 12641,
         "spend": 1467.51
       },
       "perChannel": [
@@ -23725,7 +23715,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgImpr": 0,
           "views": 208597,
           "eng": 137,
-          "paidEng": 137,
+          "paidEng": 612,
           "orgEng": 0,
           "er": 0.06,
           "cpm": 1.69,
@@ -23753,11 +23743,11 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 98724,
           "paidImpr": 98724,
           "orgImpr": 0,
-          "views": 96374,
-          "eng": 26,
+          "views": 13502,
+          "eng": 0,
           "paidEng": 0,
-          "orgEng": 26,
-          "er": 0.03,
+          "orgEng": 0,
+          "er": 0.0,
           "cpm": 3.03,
           "spend": 299.0,
           "posts": 1
@@ -23792,7 +23782,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 6.14,
           "spend": 594.6,
           "url": "https://www.youtube.com/shorts/zrSQSeQ56s4",
-          "postedAt": "2026-08-12T08:52:35-07:00"
+          "postedAt": "2026-08-12T10:52:00"
         },
         {
           "title": "No. 1 ranked amateur golfer Preston Stout answers some fun golf questions, presented by @huntingtonbank.",
@@ -23802,12 +23792,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 98724,
           "paidImpr": 98724,
           "orgImpr": 0,
-          "views": 96374,
-          "eng": 26,
-          "er": 0.03,
+          "views": 13502,
+          "eng": 0,
+          "er": 0.0,
           "spend": 299.0,
           "url": "https://www.instagram.com/p/Db8j5tAgc1B/",
-          "postedAt": "2026-08-12T09:10:29-07:00"
+          "postedAt": "2026-08-12T11:10:00"
         },
         {
           "title": "",
@@ -23822,7 +23812,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.06,
           "spend": 357.0,
           "url": null,
-          "postedAt": "2026-08-12T16:02:58-07:00"
+          "postedAt": "2026-08-12T18:02:00"
         },
         {
           "title": "Huntington Bank: Preston Stout",
@@ -23850,9 +23840,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Sep 2026",
       "total": {
         "impr": 1530537,
-        "views": 1383004,
+        "views": 1168882,
         "er": 2.76,
-        "eng": 42234,
+        "eng": 42176,
         "spend": 3951.76
       },
       "perChannel": [
@@ -23864,7 +23854,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgImpr": 0,
           "views": 674530,
           "eng": 1369,
-          "paidEng": 1369,
+          "paidEng": 4608,
           "orgEng": 0,
           "er": 0.2,
           "cpm": 1.38,
@@ -23892,11 +23882,11 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 226544,
           "paidImpr": 226544,
           "orgImpr": 0,
-          "views": 223865,
-          "eng": 58,
+          "views": 9743,
+          "eng": 0,
           "paidEng": 0,
-          "orgEng": 58,
-          "er": 0.03,
+          "orgEng": 0,
+          "er": 0.0,
           "cpm": 3.53,
           "spend": 799.0,
           "posts": 1
@@ -23926,12 +23916,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 226544,
           "paidImpr": 226544,
           "orgImpr": 0,
-          "views": 223865,
-          "eng": 58,
-          "er": 0.03,
+          "views": 9743,
+          "eng": 0,
+          "er": 0.0,
           "spend": 799.0,
           "url": "https://www.instagram.com/p/DdcBk2igQqB/",
-          "postedAt": "2026-09-18T10:57:38-07:00"
+          "postedAt": "2026-09-18T12:57:00"
         },
         {
           "title": "Here's what the NIL and sponsorship landscape looked like in Austin last week",
@@ -23946,7 +23936,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 8.2,
           "spend": 1595.92,
           "url": "https://www.youtube.com/shorts/Jbnk9DEWmJk",
-          "postedAt": "2026-09-18T11:52:41-07:00"
+          "postedAt": "2026-09-18T13:52:00"
         },
         {
           "title": "",
@@ -23961,7 +23951,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.2,
           "spend": 957.0,
           "url": null,
-          "postedAt": "2026-09-18T18:51:44-07:00"
+          "postedAt": "2026-09-18T20:51:00"
         },
         {
           "title": "Huntington Bank: DITL",
@@ -23989,7 +23979,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Sep 2026",
       "total": {
         "impr": 1264926,
-        "views": 942621,
+        "views": 1139769,
         "er": 1.34,
         "eng": 16892,
         "spend": 3156.63
@@ -24003,7 +23993,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgImpr": 154710,
           "views": 606152,
           "eng": 262,
-          "paidEng": 202,
+          "paidEng": 1140,
           "orgEng": 60,
           "er": 0.04,
           "cpm": 2.02,
@@ -24031,7 +24021,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 210249,
           "paidImpr": 208692,
           "orgImpr": 1557,
-          "views": 0,
+          "views": 197148,
           "eng": 1418,
           "paidEng": 0,
           "orgEng": 1418,
@@ -24049,7 +24039,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "views": 173867,
           "eng": 3903,
           "paidEng": 0,
-          "orgEng": 3903,
+          "orgEng": 398,
           "er": 2.2,
           "cpm": 4.63,
           "spend": 734.0,
@@ -24070,22 +24060,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.06,
           "spend": 498.0,
           "url": "https://tiktok.com/@frontofficesports/video/7695811765011041549",
-          "postedAt": "2026-10-12T13:30:00-07:00"
-        },
-        {
-          "title": "\u201cIt\u2019s crazy how one event can change your life.\u201d  Texas golfer Farah O'Keefe tells FOS how things have changed since win",
-          "platform": "Facebook",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 92328,
-          "paidImpr": 91243,
-          "orgImpr": 1085,
-          "views": 0,
-          "eng": 1383,
-          "er": 1.5,
-          "spend": 391.92,
-          "url": "https://www.facebook.com/1608521537954097/",
-          "postedAt": "2026-10-12T13:30:14-07:00"
+          "postedAt": "2026-10-12T15:30:00"
         },
         {
           "title": "Texas golfer Farah O'Keefe tells FOS how things have changed since winning a national championship.",
@@ -24100,7 +24075,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 6.27,
           "spend": 417.56,
           "url": "https://www.youtube.com/shorts/s4yFjzpExt4",
-          "postedAt": "2026-10-12T13:30:37-07:00"
+          "postedAt": "2026-10-12T15:30:00"
+        },
+        {
+          "title": "\u201cIt\u2019s crazy how one event can change your life.\u201d  Texas golfer Farah O'Keefe tells FOS how things have changed since win",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 92328,
+          "paidImpr": 91243,
+          "orgImpr": 1085,
+          "views": 86262,
+          "eng": 1383,
+          "er": 1.5,
+          "spend": 391.92,
+          "url": "https://www.facebook.com/1608521537954097/",
+          "postedAt": "2026-10-12T15:30:00"
         },
         {
           "title": "\u201cIt\u2019s crazy how one event can change your life.\u201d\u2060 \u2060 Texas golfer @farah.okeefe tells FOS how things have changed since w",
@@ -24115,7 +24105,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.7,
           "spend": 374.0,
           "url": "https://www.instagram.com/p/DeaGJZtjQEL/",
-          "postedAt": "2026-10-12T13:33:04-07:00"
+          "postedAt": "2026-10-12T15:33:00"
         },
         {
           "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
@@ -24130,27 +24120,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 448.0,
           "url": "https://tiktok.com/@frontofficesports/video/7706287070163045645",
-          "postedAt": "2026-11-09T13:30:02-08:00"
-        },
-        {
-          "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
-          "platform": "Facebook",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 117921,
-          "paidImpr": 117449,
-          "orgImpr": 472,
-          "views": 0,
-          "eng": 35,
-          "er": 0.03,
-          "spend": 354.56,
-          "url": "https://www.facebook.com/1638728601600057/",
-          "postedAt": "2026-11-09T13:30:06-08:00"
+          "postedAt": "2026-11-09T15:30:00"
         },
         {
           "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
           "platform": "YouTube Shorts",
-          "accountName": "Front Office Sports News ",
+          "accountName": "Front Office Sports News",
           "distKind": "organic+boosted",
           "impr": 132567,
           "paidImpr": 132174,
@@ -24160,7 +24135,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.78,
           "spend": 312.59,
           "url": "https://www.youtube.com/shorts/HPc2yu3CYsY",
-          "postedAt": "2026-11-09T13:30:26-08:00"
+          "postedAt": "2026-11-09T15:30:00"
+        },
+        {
+          "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+          "platform": "Facebook",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 117921,
+          "paidImpr": 117449,
+          "orgImpr": 472,
+          "views": 110886,
+          "eng": 35,
+          "er": 0.03,
+          "spend": 354.56,
+          "url": "https://www.facebook.com/1638728601600057/",
+          "postedAt": "2026-11-09T15:30:00"
         },
         {
           "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
@@ -24175,14 +24165,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.67,
           "spend": 360.0,
           "url": "https://www.instagram.com/p/DfiTTsUDDoA/",
-          "postedAt": "2026-11-09T13:33:07-08:00"
+          "postedAt": "2026-11-09T15:33:00"
         }
       ],
       "topPosts": [
         {
           "quote": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FO",
           "platform": "Instagram",
-          "er": 4.67,
+          "er": 4.75,
           "reach": 66078,
           "url": "https://www.instagram.com/p/DfiTTsUDDoA/"
         }
@@ -43741,14 +43731,14 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 6.14,
       "spend": 594.6,
       "watchTimeMin": 20211.6,
-      "clicks": 69,
-      "ctr": 34.22,
+      "clicks": null,
+      "ctr": 0.34,
       "cpc": 8.62,
       "cpm": 2.95,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/zrSQSeQ56s4",
-      "postedAt": "2026-08-12T08:52:35-07:00"
+      "postedAt": "2026-08-12T10:52:00"
     },
     {
       "title": "No. 1 ranked amateur golfer Preston Stout answers some fun golf questions, presented by @huntingtonbank.",
@@ -43758,20 +43748,20 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 98724,
       "paidImpr": 98724,
       "orgImpr": 0,
-      "views": 96374,
-      "reach": 66192,
-      "eng": 26,
-      "er": 0.03,
+      "views": 13502,
+      "reach": 92210,
+      "eng": 0,
+      "er": 0.0,
       "spend": 299.0,
-      "watchTimeMin": 1798.5,
-      "clicks": 54,
-      "ctr": 5.47,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.05,
       "cpc": 5.54,
       "cpm": 3.03,
-      "videoViews100Pct": 58,
-      "videoViews3s": 13502,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/Db8j5tAgc1B/",
-      "postedAt": "2026-08-12T09:10:29-07:00"
+      "postedAt": "2026-08-12T11:10:00"
     },
     {
       "title": "",
@@ -43794,7 +43784,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
-      "postedAt": "2026-08-12T16:02:58-07:00"
+      "postedAt": "2026-08-12T18:02:00"
     },
     {
       "title": "Huntington Bank: Preston Stout",
@@ -43827,20 +43817,20 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 226544,
       "paidImpr": 226544,
       "orgImpr": 0,
-      "views": 223865,
-      "reach": 146184,
-      "eng": 58,
-      "er": 0.03,
+      "views": 9743,
+      "reach": 205839,
+      "eng": 0,
+      "er": 0.0,
       "spend": 799.0,
-      "watchTimeMin": 1532.0,
-      "clicks": 90,
-      "ctr": 3.97,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.04,
       "cpc": 8.88,
       "cpm": 3.53,
-      "videoViews100Pct": 107,
-      "videoViews3s": 9743,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DdcBk2igQqB/",
-      "postedAt": "2026-09-18T10:57:38-07:00"
+      "postedAt": "2026-09-18T12:57:00"
     },
     {
       "title": "Here's what the NIL and sponsorship landscape looked like in Austin last week",
@@ -43856,14 +43846,14 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 8.2,
       "spend": 1595.92,
       "watchTimeMin": 50710.6,
-      "clicks": 16,
-      "ctr": 3.26,
+      "clicks": null,
+      "ctr": 0.03,
       "cpc": 99.75,
       "cpm": 3.25,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/Jbnk9DEWmJk",
-      "postedAt": "2026-09-18T11:52:41-07:00"
+      "postedAt": "2026-09-18T13:52:00"
     },
     {
       "title": "",
@@ -43886,7 +43876,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
-      "postedAt": "2026-09-18T18:51:44-07:00"
+      "postedAt": "2026-09-18T20:51:00"
     },
     {
       "title": "Huntington Bank: DITL",
@@ -43932,30 +43922,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7695811765011041549",
-      "postedAt": "2026-10-12T13:30:00-07:00"
-    },
-    {
-      "title": "\u201cIt\u2019s crazy how one event can change your life.\u201d  Texas golfer Farah O'Keefe tells FOS how things have changed since win",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 92328,
-      "paidImpr": 91243,
-      "orgImpr": 1085,
-      "views": 0,
-      "reach": 0,
-      "eng": 1383,
-      "er": 1.5,
-      "spend": 391.92,
-      "watchTimeMin": 3036.1,
-      "clicks": 1352,
-      "ctr": 1.48,
-      "cpc": 0.29,
-      "cpm": 4.3,
-      "videoViews100Pct": 94,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/1608521537954097/",
-      "postedAt": "2026-10-12T13:30:14-07:00"
+      "postedAt": "2026-10-12T15:30:00"
     },
     {
       "title": "Texas golfer Farah O'Keefe tells FOS how things have changed since winning a national championship.",
@@ -43978,7 +43945,30 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/s4yFjzpExt4",
-      "postedAt": "2026-10-12T13:30:37-07:00"
+      "postedAt": "2026-10-12T15:30:00"
+    },
+    {
+      "title": "\u201cIt\u2019s crazy how one event can change your life.\u201d  Texas golfer Farah O'Keefe tells FOS how things have changed since win",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 92328,
+      "paidImpr": 91243,
+      "orgImpr": 1085,
+      "views": 86262,
+      "reach": 0,
+      "eng": 1383,
+      "er": 1.5,
+      "spend": 391.92,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 1.48,
+      "cpc": 0.29,
+      "cpm": 4.3,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1608521537954097/",
+      "postedAt": "2026-10-12T15:30:00"
     },
     {
       "title": "\u201cIt\u2019s crazy how one event can change your life.\u201d\u2060 \u2060 Texas golfer @farah.okeefe tells FOS how things have changed since w",
@@ -43993,15 +43983,15 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 765,
       "er": 0.7,
       "spend": 374.0,
-      "watchTimeMin": 13.9,
-      "clicks": 48,
-      "ctr": 4.69,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.05,
       "cpc": 7.79,
       "cpm": 3.66,
-      "videoViews100Pct": 54,
-      "videoViews3s": 8152,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DeaGJZtjQEL/",
-      "postedAt": "2026-10-12T13:33:04-07:00"
+      "postedAt": "2026-10-12T15:33:00"
     },
     {
       "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
@@ -44024,35 +44014,12 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7706287070163045645",
-      "postedAt": "2026-11-09T13:30:02-08:00"
-    },
-    {
-      "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
-      "platform": "Facebook",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 117921,
-      "paidImpr": 117449,
-      "orgImpr": 472,
-      "views": 0,
-      "reach": 0,
-      "eng": 35,
-      "er": 0.03,
-      "spend": 354.56,
-      "watchTimeMin": 3203.0,
-      "clicks": 200,
-      "ctr": 17.03,
-      "cpc": 1.77,
-      "cpm": 3.02,
-      "videoViews100Pct": 41,
-      "videoViews3s": null,
-      "url": "https://www.facebook.com/1638728601600057/",
-      "postedAt": "2026-11-09T13:30:06-08:00"
+      "postedAt": "2026-11-09T15:30:00"
     },
     {
       "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era.",
       "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports News ",
+      "accountName": "Front Office Sports News",
       "distKind": "organic+boosted",
       "impr": 132567,
       "paidImpr": 132174,
@@ -44063,14 +44030,37 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 2.78,
       "spend": 312.59,
       "watchTimeMin": 3185.0,
-      "clicks": 167,
+      "clicks": null,
       "ctr": 1.26,
       "cpc": 1.87,
       "cpm": 2.36,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/HPc2yu3CYsY",
-      "postedAt": "2026-11-09T13:30:26-08:00"
+      "postedAt": "2026-11-09T15:30:00"
+    },
+    {
+      "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
+      "platform": "Facebook",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 117921,
+      "paidImpr": 117449,
+      "orgImpr": 472,
+      "views": 110886,
+      "reach": 0,
+      "eng": 35,
+      "er": 0.03,
+      "spend": 354.56,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.17,
+      "cpc": 1.77,
+      "cpm": 3.02,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.facebook.com/1638728601600057/",
+      "postedAt": "2026-11-09T15:30:00"
     },
     {
       "title": "College sports has never been more expensive thanks to the NIL and revenue sharing era. FOS's Amanda Christovich breaks ",
@@ -44085,15 +44075,15 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 3138,
       "er": 4.67,
       "spend": 360.0,
-      "watchTimeMin": 20.4,
-      "clicks": 55,
-      "ctr": 9.78,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.1,
       "cpc": 6.55,
       "cpm": 6.4,
-      "videoViews100Pct": 95,
-      "videoViews3s": 5264,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfiTTsUDDoA/",
-      "postedAt": "2026-11-09T13:33:07-08:00"
+      "postedAt": "2026-11-09T15:33:00"
     }
   ],
   "next_league_future_of_sports": [
@@ -47730,11 +47720,6 @@ window.DATA_HEALTH = {
       "asOf": "2026-11-16"
     },
     {
-      "id": "huntington_bank_2026",
-      "partner": "Huntington Bank",
-      "asOf": "2026-11-16"
-    },
-    {
       "id": "next_league_future_of_sports",
       "partner": "Next League",
       "asOf": "2026-11-16"
@@ -48417,13 +48402,24 @@ window.DATA_ARCHIVE = [
   {
     "campaignId": "huntington_bank_2026",
     "partner": "Huntington Bank",
+    "sourceKind": "measure_studio",
+    "sourceLabel": "Measure Studio",
+    "filename": "huntington_bank_2026_ms.csv",
+    "fileSizeKb": 9.9,
+    "lastModified": "2026-11-16",
+    "exists": true,
+    "postsContributed": 14
+  },
+  {
+    "campaignId": "huntington_bank_2026",
+    "partner": "Huntington Bank",
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "huntington_bank_2026_yt_paid.csv",
     "fileSizeKb": 0.6,
     "lastModified": "2026-11-16",
     "exists": true,
-    "postsContributed": 4
+    "postsContributed": 0
   },
   {
     "campaignId": "huntington_bank_2026",
