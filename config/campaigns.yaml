@@ -1654,7 +1654,7 @@ campaigns:
     series_italic: Status
     type: social
     benchmark_category: "Creator-Led - Franchise"
-    lifecycle: active
+    lifecycle: wrapped     # wrapped 2026-11-17 — final numbers (frozen_rows)
     flight_start: 2026-09-01
     flight_end: 2026-09-30
     impression_goal: 2500000
