@@ -197,3 +197,15 @@ def test_daktronics_frozen_rows_reproduce_last_published_card_with_facebook_tota
     paid = sum(r.get("impressions_paid", 0) for r in rows)
     total = paid + sum(r.get("impressions_organic", 0) for r in rows)
     assert total == 2552284
+
+
+def test_facebook_dark_engagements_from_paid_reaction_columns():
+    """NYLI dark Facebook post: 9 likes + 1 comment + 1 share = 11 engagements; 11 paid link clicks."""
+    from pathlib import Path
+    from app.parsers.base import Platform
+    from app.parsers.measure_studio import parse
+
+    rows = parse(Path("tests/fixtures/nylim_fosexplains_ms.csv").read_bytes()).rows
+    fb = next(p for p in rows if p.platform is Platform.FACEBOOK)
+    assert fb.engagements_total == 11 and fb.engagements_paid == 11
+    assert fb.clicks_paid == 11 and fb.impressions_total == 140482

@@ -307,6 +307,31 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
             and post.impressions_paid:
         post.impressions_total = post.impressions_paid + (post.views_organic or 0)
 
+    # Facebook dark ads: Measure leaves "Total Engagements - Total" blank and
+    # reports the paid interactions piecemeal (reactions, Reels comments, shares).
+    # Engagements = their sum (NYLI "NIL Toolkit": 9 likes + 1 comment + 1 share =
+    # 11, the figure the API reported). Link clicks fill the click count.
+    if platform is Platform.FACEBOOK:
+        if post.engagements_total is None:
+            parts = [
+                _to_int(raw.get(c)) for c in (
+                    "Facebook Likes - Paid", "Facebook Love Reactions - Paid",
+                    "Facebook Wow Reactions - Paid", "Facebook Haha Reactions - Paid",
+                    "Facebook Anger Reactions - Paid", "Facebook Sad Reactions - Paid",
+                    "Facebook Reels Comments - Paid", "Facebook Shares - Paid",
+                )
+            ]
+            if any(v is not None for v in parts):
+                eng = sum(v or 0 for v in parts)
+                post.engagements_paid = post.engagements_paid if post.engagements_paid is not None else eng
+                post.engagements_total = eng
+                if post.impressions_total:
+                    post.er = eng / post.impressions_total * 100
+        _lc = _to_int(raw.get("Facebook Link Clicks - Paid"))
+        if _lc is not None:
+            post.link_clicks_paid = _lc
+            post.clicks_paid = _lc
+
     # YouTube: "Thumbnail Impressions - Total" is the organic impression count
     # (same convention as the YouTube Studio export). Delivered impressions =
     # paid impressions + organic thumbnail impressions.
