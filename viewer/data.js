@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T14:36:53Z";
+window.LAST_REFRESHED = "2026-11-17T14:57:04Z";
 
 
 
@@ -5322,21 +5322,21 @@ window.CAMPAIGNS = [
     "flight": "Sep 1 \u2014 Sep 30, 2026",
     "elapsedPct": 100.0,
     "daysLeft": 0,
-    "status": "Goal Missed",
-    "statusKind": "danger",
+    "status": "Goal Hit",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 2441118,
+      "delivered": 2552284,
       "goal": 2500000
     },
     "budget": {
-      "delivered": 9377.32,
+      "delivered": 9735.38,
       "goal": 6875.0
     },
     "color": "ft-5",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 11.88,
-    "cpm": 4.25,
+    "er": 11.37,
+    "cpm": 4.2,
     "episodes": 0,
     "posts": 5,
     "blurb": "One Stadium Status video about Illinois Football.",
@@ -5363,6 +5363,22 @@ window.CAMPAIGNS = [
         "views": 980985
       },
       {
+        "name": "Facebook",
+        "italic": "book",
+        "impressions": 721234,
+        "eng": 8883,
+        "er": 1.23,
+        "cpm": 4.75,
+        "color": "#1877F2",
+        "delta": -19.5,
+        "bench": {
+          "er": 1.53,
+          "cpm": 4.8
+        },
+        "organicImpressions": 37800,
+        "views": 0
+      },
+      {
         "name": "Instagram",
         "italic": "gram",
         "impressions": 676049,
@@ -5377,22 +5393,6 @@ window.CAMPAIGNS = [
         },
         "organicImpressions": 19722,
         "views": 670802
-      },
-      {
-        "name": "Facebook",
-        "italic": "book",
-        "impressions": 610068,
-        "eng": 8883,
-        "er": 1.46,
-        "cpm": 5.05,
-        "color": "#1877F2",
-        "delta": -4.8,
-        "bench": {
-          "er": 1.53,
-          "cpm": 4.8
-        },
-        "organicImpressions": 37800,
-        "views": 0
       },
       {
         "name": "LinkedIn",
@@ -5476,9 +5476,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-09-25T15:56:42Z",
-    "measureFrozenAsOf": "2026-11-16"
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": ""
   },
   {
     "id": "whirlpool_pll_stadium_status",
@@ -8041,12 +8040,12 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8722331,
+    "impressions": 8833497,
     "eng": 31095,
-    "er": 0.36,
+    "er": 0.35,
     "cpm": 3.71,
     "color": "#1877F2",
-    "delta": -76.5,
+    "delta": -77.1,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
@@ -8157,15 +8156,6 @@ window.SIGNALS = [
     "meta": "Comcast \u00b7 Pacing",
     "campaignId": "comcast_us_squash",
     "campaignPartner": "Comcast"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 39% of goal (976K of 2.5M) with 0 days left.",
-    "body": "At the current rate the campaign will fall ~1.5M impressions short of the 2.5M goal. Need to ramp delivery significantly to hit the 2.5M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Daktronics \u00b7 Pacing",
-    "campaignId": "daktronics_stadiumstatus",
-    "campaignPartner": "Daktronics"
   },
   {
     "tag": "WATCH",
@@ -44898,19 +44888,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Facebook",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 610068,
-      "paidImpr": 572268,
+      "impr": 721234,
+      "paidImpr": 683434,
       "orgImpr": 37800,
       "views": 0,
       "reach": 0,
       "eng": 8883,
-      "er": 1.46,
-      "spend": 2887.24,
+      "er": 1.23,
+      "spend": 3245.3,
       "watchTimeMin": 38598.5,
       "clicks": 8887,
-      "ctr": 1.55,
-      "cpc": 0.32,
-      "cpm": 5.05,
+      "ctr": 1.3,
+      "cpc": 0.37,
+      "cpm": 4.75,
       "videoViews100Pct": 2418,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1577589784380606/",
@@ -47658,16 +47648,7 @@ window.UPLOAD_TARGETS = {
       "label": "Google Ads"
     }
   ],
-  "daktronics_stadiumstatus": [
-    {
-      "file": "daktronics_stadiumstatus_ms.csv",
-      "label": "Measure Studio"
-    },
-    {
-      "file": "daktronics_stadiumstatus_yt_paid.csv",
-      "label": "Google Ads"
-    }
-  ],
+  "daktronics_stadiumstatus": [],
   "whirlpool_pll_stadium_status": [
     {
       "file": "whirlpool_pll_stadium_status_yt_paid.csv",
@@ -47805,7 +47786,7 @@ window.DATA_HEALTH = {
   "generatedWarnings": [],
   "msErrors": [],
   "orphanFiles": [
-    "comcast_us_squash_yt_paid.csv",
+    "daktronics_stadiumstatus_yt_paid.csv",
     "microsoft_copilot_delivery_log.csv",
     "next_league_future_of_sports_meta_ads.csv",
     "portfolio_players_yt_paid.csv"
@@ -47926,11 +47907,6 @@ window.DATA_HEALTH = {
       "wrapped": true
     },
     {
-      "id": "daktronics_stadiumstatus",
-      "partner": "Daktronics",
-      "asOf": "2026-11-16"
-    },
-    {
       "id": "whirlpool_pll_stadium_status",
       "partner": "Whirlpool",
       "asOf": "2026-11-16",
@@ -47996,6 +47972,10 @@ window.PULSE_STATE = {
     {
       "id": "betmgm_brandx",
       "date": "2026-09-01"
+    },
+    {
+      "id": "daktronics_stadiumstatus",
+      "date": "2026-11-17"
     },
     {
       "id": "dow_lpga_impact_award",
@@ -48678,17 +48658,6 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-11-17",
     "exists": true,
     "postsContributed": 0
-  },
-  {
-    "campaignId": "daktronics_stadiumstatus",
-    "partner": "Daktronics",
-    "sourceKind": "youtube_paid",
-    "sourceLabel": "Google Ads (YT Paid)",
-    "filename": "daktronics_stadiumstatus_yt_paid.csv",
-    "fileSizeKb": 0.3,
-    "lastModified": "2026-11-17",
-    "exists": true,
-    "postsContributed": 1
   },
   {
     "campaignId": "whirlpool_pll_stadium_status",
