@@ -2212,5 +2212,7 @@ campaigns:
     # no parser reads, so uploads never showed up. Upload via the card's
     # Measure Studio slot (saves as comcast_us_squash_ms.csv).
     sources:
+      youtube_paid:
+        - comcast_us_squash_yt_paid.csv
       measure_studio:
         - comcast_us_squash_ms.csv
