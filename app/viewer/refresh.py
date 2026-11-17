@@ -2216,7 +2216,13 @@ def _merge_facebook_organic_paid_pairs(posts: list[NormalizedPost]) -> list[Norm
 
     def _norm(text: str | None) -> str:
         # Collapse whitespace + lowercase the first 80 chars for grouping.
-        s = (text or "").replace("\n", " ").strip().lower()
+        # Strip zero-width / word-joiner chars (U+2060, U+200B-D, U+FEFF) — FB
+        # dark-ad captions often carry them, so identical copy otherwise
+        # fails to match its organic twin.
+        s = (text or "")
+        for ch in ("\u2060", "\u200b", "\u200c", "\u200d", "\ufeff"):
+            s = s.replace(ch, "")
+        s = s.replace("\n", " ").strip().lower()
         return " ".join(s.split())[:80]
 
     # Group by (platform, account_handle, normalized description prefix).
@@ -2226,9 +2232,11 @@ def _merge_facebook_organic_paid_pairs(posts: list[NormalizedPost]) -> list[Norm
     from collections import defaultdict as _dd
     groups: dict[tuple, list[NormalizedPost]] = _dd(list)
     for p in candidates:
-        if not p.post_description:
+        # CSV exports carry only a title (no description) — fall back to it.
+        _text = p.post_description or p.post_title
+        if not _text:
             continue  # need text to pair
-        key = (p.platform, p.account_handle or "", _norm(p.post_description))
+        key = (p.platform, p.account_handle or "", _norm(_text))
         groups[key].append(p)
 
     def _has_any_metrics(p: NormalizedPost) -> bool:
@@ -2279,10 +2287,11 @@ def _merge_facebook_organic_paid_pairs(posts: list[NormalizedPost]) -> list[Norm
             if (p.impressions_paid or 0) > 0
             and (p.impressions_organic or 0) <= NOISE_FLOOR
         ]
+        # An organic Reel may report only organic views (no impressions field).
         organic_only = [
             p for p in bucket
             if (p.impressions_paid or 0) == 0
-            and (p.impressions_organic or 0) > 0
+            and ((p.impressions_organic or 0) > 0 or (p.views_organic or 0) > 0)
         ]
         if len(paid_only) != 1 or len(organic_only) != 1:
             continue  # not a clean organic+dark pair
@@ -2293,6 +2302,8 @@ def _merge_facebook_organic_paid_pairs(posts: list[NormalizedPost]) -> list[Norm
         # Merge: keep the ORGANIC post as the surviving row (it has the
         # likes/comments/shares engagement metadata that gets dropped from
         # dark ads). Copy paid impressions/spend/etc. onto it.
+        if org_p.impressions_organic is None and (org_p.views_organic or 0) > 0:
+            org_p.impressions_organic = org_p.views_organic
         org_p.impressions_paid = paid_p.impressions_paid
         org_p.impressions_total = (org_p.impressions_organic or 0) + (paid_p.impressions_paid or 0)
         org_p.views_paid = paid_p.views_paid or 0
