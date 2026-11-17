@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T14:31:32Z";
+window.LAST_REFRESHED = "2026-11-17T14:32:26Z";
 
 
 
@@ -7676,37 +7676,147 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 0,
+      "delivered": 350390,
       "goal": 6500000
     },
     "budget": {
-      "delivered": 0,
+      "delivered": 583.89,
       "goal": 17000.0
     },
     "color": "ft-1",
     "leadFormat": "Short-form Video",
-    "topChannel": "Unknown",
-    "er": 0.0,
-    "cpm": 0.0,
+    "topChannel": "TikTok",
+    "er": 0.74,
+    "cpm": 2.8,
     "episodes": 0,
-    "posts": 0,
+    "posts": 3,
     "blurb": "Comcast Business and U.S. Squash had 1x Stadium Status video and one DITL video hosted by Lauren Withrow",
-    "views": 0,
-    "engagements": 0,
+    "views": 203030,
+    "engagements": 2591,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
-    "channels": [],
-    "topPosts": [],
-    "topPostsOrganic": [],
-    "callouts": [],
+    "channels": [
+      {
+        "name": "TikTok",
+        "italic": "Tok",
+        "impressions": 171902,
+        "eng": 114,
+        "er": 0.07,
+        "cpm": 1.71,
+        "color": "#000000",
+        "delta": -96.7,
+        "bench": {
+          "er": 2.03,
+          "cpm": 2.4
+        },
+        "organicImpressions": 118139,
+        "views": 171284
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 146855,
+        "eng": 7,
+        "er": 0.0,
+        "cpm": 2.18,
+        "color": "#FF0033",
+        "delta": -100.0,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 1213,
+        "views": 163
+      },
+      {
+        "name": "Instagram",
+        "italic": "gram",
+        "impressions": 31633,
+        "eng": 2470,
+        "er": 7.81,
+        "cpm": 19.34,
+        "color": "#E4405F",
+        "delta": 135.9,
+        "bench": {
+          "er": 3.31,
+          "cpm": 5.1
+        },
+        "organicImpressions": 22635,
+        "views": 31583
+      }
+    ],
+    "topPosts": [
+      {
+        "id": "4030504564809392638",
+        "rank": 1,
+        "partner": "Comcast",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside\u2026",
+        "er": 7.82,
+        "eng": 2470,
+        "reach": 31583,
+        "organic": 72,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DfvOowTDeH-/",
+        "postedAt": "2026-11-14T16:03:00"
+      }
+    ],
+    "topPostsOrganic": [
+      {
+        "id": "o1",
+        "rank": 1,
+        "partner": "Comcast",
+        "platform": "TikTok",
+        "format": "Reels/Shorts",
+        "quote": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside\u2026",
+        "organicReach": 118139,
+        "totalReach": 171284,
+        "organicPct": 69.0,
+        "er": 0.07,
+        "insight": "",
+        "url": "https://tiktok.com/@frontofficesports/video/7707768974259408141"
+      }
+    ],
+    "callouts": [
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "Instagram post at 7.8% ER \u2014 2.4\u00d7 the benchmark.",
+        "body": "\"A century-old Philadelphia armory is now the biggest squash facility in the coun\u2026\" \u2014 32K reach, 2K engagements (72% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+        "meta": "Comcast \u00b7 Instagram"
+      },
+      {
+        "tag": "OPPORTUNITY",
+        "kind": "info",
+        "headline": "TikTok resonating \u2014 69% of delivery is organic.",
+        "body": "118K organic impressions on TikTok (0.1% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit TikTok; lean into more of the same.",
+        "meta": "Comcast \u00b7 TikTok"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "On pace for 10% of goal (635K of 6.5M) with 13 days left.",
+        "body": "At the current rate the campaign will fall ~5.9M impressions short of the 6.5M goal. Need to deliver 473K impr/day (21.6\u00d7 the current 22K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "meta": "Comcast \u00b7 Pacing"
+      },
+      {
+        "tag": "WATCH",
+        "kind": "warn",
+        "headline": "Campaign averaging 0.74% ER \u2014 below the 1% floor.",
+        "body": "0.74% engagement rate across 350K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "meta": "Comcast \u00b7 Engagement"
+      }
+    ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": ""
+    "lastUpdatedExports": "2026-11-17T14:31:54Z"
   }
 ];
 
@@ -7808,8 +7918,24 @@ window.TOP_POSTS = [
     "postedAt": "2026-11-11T18:33:00"
   },
   {
-    "id": "4024766821253507849",
+    "id": "4030504564809392638",
     "rank": 7,
+    "partner": "Comcast",
+    "platform": "Instagram",
+    "format": "Reels/Shorts",
+    "quote": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside\u2026",
+    "er": 7.82,
+    "eng": 2470,
+    "reach": 31583,
+    "organic": 72,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.instagram.com/p/DfvOowTDeH-/",
+    "postedAt": "2026-11-14T16:03:00"
+  },
+  {
+    "id": "4024766821253507849",
+    "rank": 8,
     "partner": "Accenture",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7822,22 +7948,6 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
     "postedAt": "2026-11-06T18:03:00"
-  },
-  {
-    "id": "4020357708776465245",
-    "rank": 8,
-    "partner": "PwC",
-    "platform": "Instagram",
-    "format": "Reels/Shorts",
-    "quote": "For F1 Academy drivers Alba Larsen and Payton Westcott, racing is their first priority. Here\u2019s how\u2026",
-    "er": 5.79,
-    "eng": 7660,
-    "reach": 132270,
-    "organic": 33,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.instagram.com/p/DfLLgkNn-Nd/",
-    "postedAt": "2026-10-31T17:03:00"
   }
 ];
 
@@ -7853,14 +7963,29 @@ window.HERO_POST = {
   "organic": "50%"
 };
 
-window.TOP_POSTS_ORGANIC = [];
+window.TOP_POSTS_ORGANIC = [
+  {
+    "id": "o1",
+    "rank": 1,
+    "partner": "Comcast",
+    "platform": "TikTok",
+    "format": "Reels/Shorts",
+    "quote": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside\u2026",
+    "organicReach": 118139,
+    "totalReach": 171284,
+    "organicPct": 69.0,
+    "er": 0.07,
+    "insight": "",
+    "url": "https://tiktok.com/@frontofficesports/video/7707768974259408141"
+  }
+];
 
 window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127066246,
-    "eng": 2928469,
+    "impressions": 127213101,
+    "eng": 2928476,
     "er": 2.3,
     "cpm": 1.13,
     "color": "#E00922",
@@ -7869,14 +7994,14 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": -33,
-    "views": 25820878
+    "organicImpressions": 1180,
+    "views": 25821041
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 41846339,
-    "eng": 71844,
+    "impressions": 42018241,
+    "eng": 71958,
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
@@ -7885,14 +8010,14 @@ window.CHANNELS = [
       "er": 2.03,
       "cpm": 2.4
     },
-    "organicImpressions": 0,
-    "views": 41308921
+    "organicImpressions": 118139,
+    "views": 41480205
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 36757706,
-    "eng": 663836,
+    "impressions": 36789339,
+    "eng": 666306,
     "er": 1.81,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -7901,8 +8026,8 @@ window.CHANNELS = [
       "er": 3.31,
       "cpm": 5.1
     },
-    "organicImpressions": -227,
-    "views": 33739581
+    "organicImpressions": 22408,
+    "views": 33771164
   },
   {
     "name": "X",
@@ -8025,6 +8150,15 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
+    "headline": "On pace for 10% of goal (635K of 6.5M) with 13 days left.",
+    "body": "At the current rate the campaign will fall ~5.9M impressions short of the 6.5M goal. Need to deliver 473K impr/day (21.6\u00d7 the current 22K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Comcast \u00b7 Pacing",
+    "campaignId": "comcast_us_squash",
+    "campaignPartner": "Comcast"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
     "headline": "On pace for 11% of goal (694K of 6.3M) with 0 days left.",
     "body": "At the current rate the campaign will fall ~5.6M impressions short of the 6.3M goal. Need to ramp delivery significantly to hit the 6.3M goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Just Ingredients \u00b7 Pacing",
@@ -8093,6 +8227,15 @@ window.SIGNALS = [
     "meta": "New York Life Investment \u00b7 X",
     "campaignId": "nylim_fosexplains",
     "campaignPartner": "New York Life Investment"
+  },
+  {
+    "tag": "OPPORTUNITY",
+    "kind": "info",
+    "headline": "TikTok resonating \u2014 69% of delivery is organic.",
+    "body": "118K organic impressions on TikTok (0.1% ER) \u2014 the algorithm is rewarding this content. Strong signal that the creative direction and cadence fit TikTok; lean into more of the same.",
+    "meta": "Comcast \u00b7 TikTok",
+    "campaignId": "comcast_us_squash",
+    "campaignPartner": "Comcast"
   },
   {
     "tag": "WIN",
@@ -47176,7 +47319,77 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": null
     }
   ],
-  "comcast_us_squash": []
+  "comcast_us_squash": [
+    {
+      "title": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside the Specter Center with",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 171902,
+      "paidImpr": 53763,
+      "orgImpr": 118139,
+      "views": 171284,
+      "reach": 378,
+      "eng": 114,
+      "er": 0.07,
+      "spend": 92.0,
+      "watchTimeMin": 2395.5,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 1.71,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7707768974259408141",
+      "postedAt": "2026-11-14T16:00:00"
+    },
+    {
+      "title": "A century-old Philadelphia armory is now the biggest squash facility in the country.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 146855,
+      "paidImpr": 145642,
+      "orgImpr": 1213,
+      "views": 163,
+      "reach": 0,
+      "eng": 7,
+      "er": 0.0,
+      "spend": 317.89,
+      "watchTimeMin": 46.0,
+      "clicks": null,
+      "ctr": 0.84,
+      "cpc": 2.58,
+      "cpm": 2.18,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/eOQwM2X_EBo",
+      "postedAt": "2026-11-14T16:00:00"
+    },
+    {
+      "title": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside the Specter Center with",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 31633,
+      "paidImpr": 8998,
+      "orgImpr": 22635,
+      "views": 31583,
+      "reach": 25572,
+      "eng": 2470,
+      "er": 7.81,
+      "spend": 174.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.11,
+      "cpc": 17.4,
+      "cpm": 19.34,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DfvOowTDeH-/",
+      "postedAt": "2026-11-14T16:03:00"
+    }
+  ]
 };
 
 window.UPLOAD_TARGETS = {
@@ -47581,7 +47794,12 @@ window.UPLOAD_TARGETS = {
       "label": "Meta Ads"
     }
   ],
-  "comcast_us_squash": []
+  "comcast_us_squash": [
+    {
+      "file": "comcast_us_squash_ms.csv",
+      "label": "Measure Studio"
+    }
+  ]
 };
 
 window.MS_GROUPS = [];
@@ -48660,6 +48878,17 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-11-17",
     "exists": true,
     "postsContributed": 1
+  },
+  {
+    "campaignId": "comcast_us_squash",
+    "partner": "Comcast",
+    "sourceKind": "measure_studio",
+    "sourceLabel": "Measure Studio",
+    "filename": "comcast_us_squash_ms.csv",
+    "fileSizeKb": 4.5,
+    "lastModified": "2026-11-17",
+    "exists": true,
+    "postsContributed": 3
   }
 ];
 
