@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T15:16:59Z";
+window.LAST_REFRESHED = "2026-11-17T15:20:16Z";
 
 
 
@@ -5733,12 +5733,12 @@ window.CAMPAIGNS = [
     "seriesItalic": "There",
     "type": "social",
     "flight": "Sep 1 \u2014 Dec 31, 2026",
-    "elapsedPct": 62.8,
-    "daysLeft": 45,
+    "elapsedPct": 63.6,
+    "daysLeft": 44,
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 20750066,
+      "delivered": 20750173,
       "goal": 35000000
     },
     "budget": {
@@ -5753,8 +5753,8 @@ window.CAMPAIGNS = [
     "episodes": 3,
     "posts": 19,
     "blurb": "State Street brand campaign \u2014 From Here to There (2 longform episodes + cutdowns), The Come Up (3 videos), and Coach of the Year (static + video).",
-    "views": 9794296,
-    "engagements": 291782,
+    "views": 10171846,
+    "engagements": 291785,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -5762,7 +5762,7 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 9880258,
+        "impressions": 9880282,
         "eng": 53899,
         "er": 0.55,
         "cpm": 0.72,
@@ -5772,7 +5772,7 @@ window.CAMPAIGNS = [
           "er": 0.5,
           "cpm": 0.55
         },
-        "organicImpressions": 5858,
+        "organicImpressions": 5882,
         "views": 69767
       },
       {
@@ -5794,8 +5794,8 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 6878516,
-        "eng": 5466,
+        "impressions": 6878524,
+        "eng": 5465,
         "er": 0.08,
         "cpm": 1.46,
         "color": "#000000",
@@ -5804,14 +5804,14 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 2806138,
-        "views": 6797013
+        "organicImpressions": 2806146,
+        "views": 6797021
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1833532,
-        "eng": 22266,
+        "impressions": 1833563,
+        "eng": 22269,
         "er": 1.21,
         "cpm": 4.36,
         "color": "#E4405F",
@@ -5820,13 +5820,13 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 72222,
-        "views": 1421052
+        "organicImpressions": 72253,
+        "views": 1421083
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1454245,
+        "impressions": 1454282,
         "eng": 121270,
         "er": 8.34,
         "cpm": 3.63,
@@ -5836,8 +5836,8 @@ window.CAMPAIGNS = [
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 5212,
-        "views": 1440113
+        "organicImpressions": 5249,
+        "views": 1440114
       },
       {
         "name": "X",
@@ -5858,7 +5858,7 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 252726,
+        "impressions": 252727,
         "eng": 605,
         "er": 0.24,
         "cpm": 3.24,
@@ -5868,24 +5868,24 @@ window.CAMPAIGNS = [
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 18623,
-        "views": 0
+        "organicImpressions": 18624,
+        "views": 377507
       },
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 6331,
-        "eng": 98,
-        "er": 1.55,
+        "impressions": 6337,
+        "eng": 99,
+        "er": 1.56,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -58.8,
+        "delta": -58.5,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 6331,
-        "views": 2986
+        "organicImpressions": 6337,
+        "views": 2989
       }
     ],
     "topPosts": [
@@ -5896,14 +5896,14 @@ window.CAMPAIGNS = [
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.\u2026",
-        "er": 2.99,
+        "er": 3.03,
         "eng": 11458,
         "reach": 378394,
         "organic": 3,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DefaCdFFKX_/",
-        "postedAt": "2026-10-14T15:03:18-07:00"
+        "postedAt": "2026-10-14T17:03:00"
       },
       {
         "id": "1605251978281053",
@@ -5919,7 +5919,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.facebook.com/1605251978281053/",
-        "postedAt": "2026-10-09T10:30:02-07:00"
+        "postedAt": "2026-10-09T12:30:00"
       }
     ],
     "topPostsOrganic": [
@@ -5930,8 +5930,8 @@ window.CAMPAIGNS = [
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "Is Cheryl Reeve the greatest coach of all-time? Presented by State Street. #wnba #minnesotalynx\u2026",
-        "organicReach": 1598094,
-        "totalReach": 4198262,
+        "organicReach": 1598097,
+        "totalReach": 4198265,
         "organicPct": 38.1,
         "er": 0.07,
         "insight": "",
@@ -5944,8 +5944,8 @@ window.CAMPAIGNS = [
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.\u2026",
-        "organicReach": 847262,
-        "totalReach": 1794713,
+        "organicReach": 847265,
+        "totalReach": 1794716,
         "organicPct": 47.2,
         "er": 0.11,
         "insight": "",
@@ -5972,8 +5972,8 @@ window.CAMPAIGNS = [
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and\u2026",
-        "organicReach": 178420,
-        "totalReach": 401013,
+        "organicReach": 178422,
+        "totalReach": 401015,
         "organicPct": 44.5,
         "er": 0.05,
         "insight": "",
@@ -5995,30 +5995,29 @@ window.CAMPAIGNS = [
       {
         "label": "From Here to There",
         "impressions": {
-          "delivered": 12235527,
+          "delivered": 12235608,
           "goal": 23500000
         }
       },
       {
         "label": "The Come Up",
         "impressions": {
-          "delivered": 2659260,
+          "delivered": 2659274,
           "goal": 6500000
         }
       },
       {
         "label": "Coach of the Year",
         "impressions": {
-          "delivered": 5855279,
+          "delivered": 5855291,
           "goal": 5000000
         }
       }
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-16T14:54:20Z",
-    "lastUpdatedExports": "2026-10-29T17:34:57Z",
-    "measureFrozenAsOf": "2026-11-16"
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": "2026-11-17T15:19:43Z"
   },
   {
     "id": "just_ingredients_2026",
@@ -7959,6 +7958,62 @@ window.TOP_POSTS_ORGANIC = [
   {
     "id": "o1",
     "rank": 1,
+    "partner": "State Street",
+    "platform": "TikTok",
+    "format": "Reels/Shorts",
+    "quote": "Is Cheryl Reeve the greatest coach of all-time? Presented by State Street. #wnba #minnesotalynx\u2026",
+    "organicReach": 1598097,
+    "totalReach": 4198265,
+    "organicPct": 38.1,
+    "er": 0.07,
+    "insight": "",
+    "url": "https://tiktok.com/@frontofficesports/video/7694680428040441101"
+  },
+  {
+    "id": "o2",
+    "rank": 2,
+    "partner": "State Street",
+    "platform": "TikTok",
+    "format": "Reels/Shorts",
+    "quote": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.\u2026",
+    "organicReach": 847265,
+    "totalReach": 1794716,
+    "organicPct": 47.2,
+    "er": 0.11,
+    "insight": "",
+    "url": "https://tiktok.com/@frontofficesports/video/7696583810971995405"
+  },
+  {
+    "id": "o3",
+    "rank": 3,
+    "partner": "State Street",
+    "platform": "TikTok",
+    "format": "Reels/Shorts",
+    "quote": "Nneka Ogwumike on the WNBA\u2019s transformation: \u201cFourteen years later, the success that we\u2019re\u2026",
+    "organicReach": 182362,
+    "totalReach": 403025,
+    "organicPct": 45.2,
+    "er": 0.06,
+    "insight": "",
+    "url": "https://tiktok.com/@frontofficesports/video/7697017818323127565"
+  },
+  {
+    "id": "o4",
+    "rank": 4,
+    "partner": "State Street",
+    "platform": "TikTok",
+    "format": "Reels/Shorts",
+    "quote": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and\u2026",
+    "organicReach": 178422,
+    "totalReach": 401015,
+    "organicPct": 44.5,
+    "er": 0.05,
+    "insight": "",
+    "url": "https://tiktok.com/@frontofficesports/video/7698532998026644749"
+  },
+  {
+    "id": "o5",
+    "rank": 5,
     "partner": "Comcast",
     "platform": "TikTok",
     "format": "Reels/Shorts",
@@ -7976,7 +8031,7 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127278919,
+    "impressions": 127278980,
     "eng": 2932697,
     "er": 2.3,
     "cpm": 1.13,
@@ -7986,14 +8041,14 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 1180,
-    "views": 25821041
+    "organicImpressions": 1241,
+    "views": 25821042
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 42018241,
-    "eng": 71958,
+    "impressions": 42018249,
+    "eng": 71957,
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
@@ -8002,14 +8057,14 @@ window.CHANNELS = [
       "er": 2.03,
       "cpm": 2.4
     },
-    "organicImpressions": 118139,
-    "views": 41480205
+    "organicImpressions": 118147,
+    "views": 41480213
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 36789339,
-    "eng": 666306,
+    "impressions": 36789370,
+    "eng": 666309,
     "er": 1.81,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -8018,8 +8073,8 @@ window.CHANNELS = [
       "er": 3.31,
       "cpm": 5.1
     },
-    "organicImpressions": 22408,
-    "views": 33771164
+    "organicImpressions": 22439,
+    "views": 33771195
   },
   {
     "name": "X",
@@ -8040,7 +8095,7 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8833497,
+    "impressions": 8833498,
     "eng": 31095,
     "er": 0.35,
     "cpm": 3.71,
@@ -8050,14 +8105,14 @@ window.CHANNELS = [
       "er": 1.53,
       "cpm": 4.8
     },
-    "organicImpressions": 0,
-    "views": 2215490
+    "organicImpressions": 1,
+    "views": 2592997
   },
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2741118,
-    "eng": 85328,
+    "impressions": 2741124,
+    "eng": 85329,
     "er": 3.11,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -8066,8 +8121,8 @@ window.CHANNELS = [
       "er": 3.76,
       "cpm": 0.0
     },
-    "organicImpressions": 0,
-    "views": 1052927
+    "organicImpressions": 6,
+    "views": 1052930
   },
   {
     "name": "Snapchat",
@@ -8169,15 +8224,6 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 53% of goal (18.5M of 35.0M) with 44 days left.",
-    "body": "At the current rate the campaign will fall ~16.5M impressions short of the 35.0M goal. Need to deliver 528K impr/day (3.5\u00d7 the current 153K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "State Street \u00b7 Pacing",
-    "campaignId": "state_street",
-    "campaignPartner": "State Street"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
     "headline": "On pace for 74% of goal (147K of 200K) with 13 days left.",
     "body": "At the current rate the campaign will fall ~53K impressions short of the 200K goal. Need to deliver 7K impr/day (2.7\u00d7 the current 2K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Sportradar \u00b7 Pacing",
@@ -8205,11 +8251,11 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "X CPM at $2.28 \u2014 2.1\u00d7 the benchmark.",
-    "body": "$2.28 CPM vs. $1.10 FOS benchmark. At 2.1\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
-    "meta": "New York Life Investment \u00b7 X",
-    "campaignId": "nylim_fosexplains",
-    "campaignPartner": "New York Life Investment"
+    "headline": "X CPM at $4.31 \u2014 3.9\u00d7 the benchmark.",
+    "body": "$4.31 CPM vs. $1.10 FOS benchmark. At 3.9\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+    "meta": "State Street \u00b7 X",
+    "campaignId": "state_street",
+    "campaignPartner": "State Street"
   },
   {
     "tag": "OPPORTUNITY",
@@ -24368,19 +24414,19 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "From Here to There",
       "date": "2026",
       "total": {
-        "impr": 12235527,
-        "views": 2086283,
+        "impr": 12235608,
+        "views": 2447314,
         "er": 0.59,
-        "eng": 158469,
+        "eng": 158472,
         "spend": 14069.21
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 9880258,
+          "impr": 9880282,
           "paidImpr": 9874400,
-          "orgImpr": 5858,
+          "orgImpr": 5882,
           "views": 69767,
           "eng": 53899,
           "paidEng": 53763,
@@ -24393,13 +24439,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 839511,
+          "impr": 839542,
           "paidImpr": 812984,
-          "orgImpr": 26527,
-          "views": 826924,
-          "eng": 2473,
+          "orgImpr": 26558,
+          "views": 826955,
+          "eng": 2476,
           "paidEng": 0,
-          "orgEng": 2473,
+          "orgEng": 2377,
           "er": 0.29,
           "cpm": 3.69,
           "spend": 2999.0,
@@ -24408,12 +24454,12 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic+boosted",
-          "impr": 817739,
+          "impr": 817741,
           "paidImpr": 456957,
-          "orgImpr": 360782,
-          "views": 804038,
+          "orgImpr": 360784,
+          "views": 804040,
           "eng": 456,
-          "paidEng": 264,
+          "paidEng": 1733,
           "orgEng": 192,
           "er": 0.06,
           "cpm": 1.64,
@@ -24423,14 +24469,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 326284,
+          "impr": 326307,
           "paidImpr": 324008,
-          "orgImpr": 2276,
-          "views": 322189,
+          "orgImpr": 2299,
+          "views": 322190,
           "eng": 13949,
           "paidEng": 13759,
           "orgEng": 190,
-          "er": 4.28,
+          "er": 4.27,
           "cpm": 3.85,
           "spend": 1247.08,
           "posts": 2
@@ -24438,10 +24484,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 236216,
+          "impr": 236217,
           "paidImpr": 234103,
-          "orgImpr": 2113,
-          "views": 0,
+          "orgImpr": 2114,
+          "views": 360997,
           "eng": 220,
           "paidEng": 0,
           "orgEng": 220,
@@ -24470,7 +24516,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "distKind": "organic",
           "impr": 6767,
           "paidImpr": 0,
-          "orgImpr": 1714,
+          "orgImpr": 6767,
           "views": 1714,
           "eng": 17,
           "paidEng": 0,
@@ -24487,15 +24533,15 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 9880258,
+          "impr": 9880282,
           "paidImpr": 9874400,
-          "orgImpr": 5858,
+          "orgImpr": 5882,
           "views": 69767,
           "eng": 53899,
           "er": 0.55,
           "spend": 7144.14,
           "url": "https://youtu.be/UQQscvIOetc",
-          "postedAt": "2026-10-15T13:34:54-07:00"
+          "postedAt": "2026-10-15T15:34:00"
         },
         {
           "title": "SSIM From Here to There Nneka Full Ep (pre-roll)",
@@ -24517,45 +24563,30 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Facebook",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 236216,
+          "impr": 236217,
           "paidImpr": 234103,
-          "orgImpr": 2113,
-          "views": 0,
+          "orgImpr": 2114,
+          "views": 360997,
           "eng": 220,
           "er": 0.09,
           "spend": 759.55,
           "url": "https://www.facebook.com/1611663007639950/",
-          "postedAt": "2026-10-15T13:44:21-07:00"
+          "postedAt": "2026-10-15T15:44:00"
         },
         {
           "title": "Nneka Ogwumike on the WNBA\u2019s transformation.",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 163078,
+          "impr": 163081,
           "paidImpr": 161850,
-          "orgImpr": 1228,
+          "orgImpr": 1231,
           "views": 161100,
           "eng": 6403,
           "er": 3.93,
           "spend": 624.44,
           "url": "https://www.youtube.com/shorts/62QGHysIhDY",
-          "postedAt": "2026-10-15T13:48:41-07:00"
-        },
-        {
-          "title": "WNBA legend @nnekaogwumike retired after 15 seasons, but she's not calling it an end.  \"I see it as a transition...a way",
-          "platform": "X",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 6767,
-          "paidImpr": 0,
-          "orgImpr": 6767,
-          "views": 1714,
-          "eng": 17,
-          "er": 0.25,
-          "spend": 0,
-          "url": "https://twitter.com/FOS/status/2110853232780366108",
-          "postedAt": "2026-10-15T15:00:03-07:00"
+          "postedAt": "2026-10-15T15:48:00"
         },
         {
           "title": "Nneka Ogwumike on the WNBA\u2019s transformation: \u00a0 \u201cFourteen years later, the success that we\u2019re experiencing today is far b",
@@ -24570,67 +24601,82 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.06,
           "spend": 375.0,
           "url": "https://tiktok.com/@frontofficesports/video/7697017818323127565",
-          "postedAt": "2026-10-15T15:00:13-07:00"
+          "postedAt": "2026-10-15T17:00:00"
+        },
+        {
+          "title": "WNBA legend @nnekaogwumike retired after 15 seasons, but she's not calling it an end.  \"I see it as a transition...a way",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 6767,
+          "paidImpr": 0,
+          "orgImpr": 6767,
+          "views": 1714,
+          "eng": 17,
+          "er": 0.25,
+          "spend": 0,
+          "url": "https://twitter.com/FOS/status/2110853232780366108",
+          "postedAt": "2026-10-15T17:00:00"
         },
         {
           "title": "Nneka Ogwumike on the WNBA\u2019s transformation:\u2060 \u2060 \u201cFourteen years later, the success that we\u2019re experiencing today is far ",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 430411,
+          "impr": 430441,
           "paidImpr": 413823,
-          "orgImpr": 16588,
-          "views": 424233,
-          "eng": 1927,
+          "orgImpr": 16618,
+          "views": 424263,
+          "eng": 1930,
           "er": 0.45,
           "spend": 1500.0,
           "url": "https://www.instagram.com/p/DeiFq-tDupS/",
-          "postedAt": "2026-10-15T16:03:17-07:00"
+          "postedAt": "2026-10-15T18:03:00"
         },
         {
           "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more \ud83d\udc40 Presented by Stat",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 405694,
+          "impr": 405696,
           "paidImpr": 227274,
-          "orgImpr": 178420,
-          "views": 401013,
+          "orgImpr": 178422,
+          "views": 401015,
           "eng": 215,
           "er": 0.05,
           "spend": 375.0,
           "url": "https://tiktok.com/@frontofficesports/video/7698532998026644749",
-          "postedAt": "2026-10-19T17:00:06-07:00"
+          "postedAt": "2026-10-19T19:00:00"
         },
         {
           "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 163206,
+          "impr": 163226,
           "paidImpr": 162158,
-          "orgImpr": 1048,
-          "views": 161089,
+          "orgImpr": 1068,
+          "views": 161090,
           "eng": 7546,
           "er": 4.62,
           "spend": 622.64,
           "url": "https://www.youtube.com/shorts/CYtFJH2i4fo",
-          "postedAt": "2026-10-19T17:00:06-07:00"
+          "postedAt": "2026-10-19T19:00:00"
         },
         {
           "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more \ud83d\udc40\u2060 \u2060 \u2060 \u2060 \u2060 Presente",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 409100,
+          "impr": 409101,
           "paidImpr": 399161,
-          "orgImpr": 9939,
-          "views": 402691,
+          "orgImpr": 9940,
+          "views": 402692,
           "eng": 546,
           "er": 0.13,
           "spend": 1499.0,
           "url": "https://www.instagram.com/p/DesjIy0iYZM/",
-          "postedAt": "2026-10-19T17:33:11-07:00"
+          "postedAt": "2026-10-19T19:33:00"
         }
       ],
       "topPosts": [],
@@ -24642,8 +24688,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Come Up",
       "date": "2026",
       "total": {
-        "impr": 2659260,
-        "views": 2630872,
+        "impr": 2659274,
+        "views": 2630875,
         "er": 2.84,
         "eng": 75525,
         "spend": 4723.03
@@ -24652,12 +24698,12 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic+boosted",
-          "impr": 1817653,
+          "impr": 1817656,
           "paidImpr": 970391,
-          "orgImpr": 847262,
-          "views": 1794713,
+          "orgImpr": 847265,
+          "views": 1794716,
           "eng": 2021,
-          "paidEng": 1679,
+          "paidEng": 6023,
           "orgEng": 342,
           "er": 0.11,
           "cpm": 1.48,
@@ -24667,9 +24713,9 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 457800,
+          "impr": 457811,
           "paidImpr": 455789,
-          "orgImpr": 2011,
+          "orgImpr": 2022,
           "views": 457765,
           "eng": 62046,
           "paidEng": 61683,
@@ -24688,7 +24734,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "views": 378394,
           "eng": 11458,
           "paidEng": 0,
-          "orgEng": 11458,
+          "orgEng": 255,
           "er": 2.99,
           "cpm": 4.5,
           "spend": 1681.0,
@@ -24701,30 +24747,30 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 1817653,
+          "impr": 1817656,
           "paidImpr": 970391,
-          "orgImpr": 847262,
-          "views": 1794713,
+          "orgImpr": 847265,
+          "views": 1794716,
           "eng": 2021,
           "er": 0.11,
           "spend": 1434.0,
           "url": "https://tiktok.com/@frontofficesports/video/7696583810971995405",
-          "postedAt": "2026-10-14T10:56:20-07:00"
+          "postedAt": "2026-10-14T12:56:00"
         },
         {
           "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 457800,
+          "impr": 457811,
           "paidImpr": 455789,
-          "orgImpr": 2011,
+          "orgImpr": 2022,
           "views": 457765,
           "eng": 62046,
           "er": 13.55,
           "spend": 1608.03,
           "url": "https://www.youtube.com/shorts/sVQtENkIWko",
-          "postedAt": "2026-10-14T11:00:28-07:00"
+          "postedAt": "2026-10-14T13:00:00"
         },
         {
           "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story. #TheComeUp\u2060 \u2060 Presented by @s",
@@ -24739,14 +24785,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.99,
           "spend": 1681.0,
           "url": "https://www.instagram.com/p/DefaCdFFKX_/",
-          "postedAt": "2026-10-14T15:03:18-07:00"
+          "postedAt": "2026-10-14T17:03:00"
         }
       ],
       "topPosts": [
         {
           "quote": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.",
           "platform": "Instagram",
-          "er": 2.99,
+          "er": 3.03,
           "reach": 378394,
           "url": "https://www.instagram.com/p/DefaCdFFKX_/"
         }
@@ -24764,8 +24810,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Coach of the Year",
       "date": "2026",
       "total": {
-        "impr": 5855279,
-        "views": 5077141,
+        "impr": 5855291,
+        "views": 5093657,
         "er": 0.99,
         "eng": 57788,
         "spend": 10460.67
@@ -24774,13 +24820,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic+boosted",
-          "impr": 4243124,
+          "impr": 4243127,
           "paidImpr": 2645030,
-          "orgImpr": 1598094,
-          "views": 4198262,
-          "eng": 2989,
-          "paidEng": 2773,
-          "orgEng": 216,
+          "orgImpr": 1598097,
+          "views": 4198265,
+          "eng": 2988,
+          "paidEng": 13497,
+          "orgEng": 215,
           "er": 0.07,
           "cpm": 1.42,
           "spend": 3747.0,
@@ -24789,9 +24835,9 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 670161,
+          "impr": 670164,
           "paidImpr": 669236,
-          "orgImpr": 925,
+          "orgImpr": 928,
           "views": 660159,
           "eng": 45275,
           "paidEng": 45134,
@@ -24810,7 +24856,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "views": 215734,
           "eng": 8335,
           "paidEng": 0,
-          "orgEng": 8335,
+          "orgEng": 445,
           "er": 1.37,
           "cpm": 5.23,
           "spend": 3007.0,
@@ -24837,7 +24883,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 16510,
           "paidImpr": 0,
           "orgImpr": 16510,
-          "views": 0,
+          "views": 16510,
           "eng": 385,
           "paidEng": 0,
           "orgEng": 385,
@@ -24849,14 +24895,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 6331,
+          "impr": 6337,
           "paidImpr": 0,
-          "orgImpr": 6331,
-          "views": 2986,
-          "eng": 98,
+          "orgImpr": 6337,
+          "views": 2989,
+          "eng": 99,
           "paidEng": 0,
-          "orgEng": 98,
-          "er": 1.55,
+          "orgEng": 99,
+          "er": 1.56,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 1
@@ -24868,30 +24914,30 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 4243124,
+          "impr": 4243127,
           "paidImpr": 2645030,
-          "orgImpr": 1598094,
-          "views": 4198262,
-          "eng": 2989,
+          "orgImpr": 1598097,
+          "views": 4198265,
+          "eng": 2988,
           "er": 0.07,
           "spend": 3747.0,
           "url": "https://tiktok.com/@frontofficesports/video/7694680428040441101",
-          "postedAt": "2026-10-09T10:30:00-07:00"
+          "postedAt": "2026-10-09T12:30:00"
         },
         {
-          "title": "Cheryl Reeve just won her fifth @StateStreetIM SPY WNBA Coach of the Year Award, the most by any coach in major American",
-          "platform": "X",
+          "title": "Is Cheryl Reeve the greatest to ever do it?",
+          "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 308939,
-          "paidImpr": 303414,
-          "orgImpr": 5525,
-          "views": 0,
-          "eng": 706,
-          "er": 0.23,
-          "spend": 1308.4,
-          "url": "https://twitter.com/FOS/status/2108610946516099461",
-          "postedAt": "2026-10-09T10:30:00-07:00"
+          "impr": 670164,
+          "paidImpr": 669236,
+          "orgImpr": 928,
+          "views": 660159,
+          "eng": 45275,
+          "er": 6.76,
+          "spend": 2398.27,
+          "url": "https://www.youtube.com/shorts/V8krVEQFQfc",
+          "postedAt": "2026-10-09T12:30:00"
         },
         {
           "title": "Cheryl Reeve just won her fifth @statestreetim_us SPY WNBA Coach of the Year Award. The WNBA says it\u2019s the most by any c",
@@ -24906,7 +24952,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.37,
           "spend": 3007.0,
           "url": "https://www.instagram.com/p/DeSDLDMDo9U/",
-          "postedAt": "2026-10-09T10:30:02-07:00"
+          "postedAt": "2026-10-09T12:30:00"
+        },
+        {
+          "title": "Cheryl Reeve just won her fifth @StateStreetIM SPY WNBA Coach of the Year Award, the most by any coach in major American",
+          "platform": "X",
+          "accountName": "Front Office Sports",
+          "distKind": "organic+boosted",
+          "impr": 308939,
+          "paidImpr": 303414,
+          "orgImpr": 5525,
+          "views": 0,
+          "eng": 706,
+          "er": 0.23,
+          "spend": 1308.4,
+          "url": "https://twitter.com/FOS/status/2108610946516099461",
+          "postedAt": "2026-10-09T12:30:00"
         },
         {
           "title": "Minnesota Lynx head coach Cheryl Reeve just won her fifth State Street Investment Management SPY WNBA Coach of the Year ",
@@ -24916,42 +24977,27 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 16510,
           "paidImpr": 0,
           "orgImpr": 16510,
-          "views": 0,
+          "views": 16510,
           "eng": 385,
           "er": 2.33,
           "spend": 0,
           "url": "https://www.facebook.com/1605251978281053/",
-          "postedAt": "2026-10-09T10:30:02-07:00"
+          "postedAt": "2026-10-09T12:30:00"
         },
         {
           "title": "Five Coach of the Year awards.  More than Popovich. More than Belichick. More than any coach in major American pro sport",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 6331,
+          "impr": 6337,
           "paidImpr": 0,
-          "orgImpr": 6331,
-          "views": 2986,
-          "eng": 98,
-          "er": 1.55,
+          "orgImpr": 6337,
+          "views": 2989,
+          "eng": 99,
+          "er": 1.56,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514326721861447680",
-          "postedAt": "2026-10-09T10:30:03-07:00"
-        },
-        {
-          "title": "Is Cheryl Reeve the greatest to ever do it?",
-          "platform": "YouTube Shorts",
-          "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 670161,
-          "paidImpr": 669236,
-          "orgImpr": 925,
-          "views": 660159,
-          "eng": 45275,
-          "er": 6.76,
-          "spend": 2398.27,
-          "url": "https://www.youtube.com/shorts/V8krVEQFQfc",
-          "postedAt": "2026-10-09T10:30:21-07:00"
+          "postedAt": "2026-10-09T12:30:00"
         }
       ],
       "topPosts": [
@@ -45103,23 +45149,23 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 9880258,
+      "impr": 9880282,
       "paidImpr": 9874400,
-      "orgImpr": 5858,
+      "orgImpr": 5882,
       "views": 69767,
       "reach": 0,
       "eng": 53899,
       "er": 0.55,
       "spend": 7144.14,
       "watchTimeMin": 164734.4,
-      "clicks": 4315,
-      "ctr": 43.14,
+      "clicks": null,
+      "ctr": 0.43,
       "cpc": 1.93,
       "cpm": 0.72,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/UQQscvIOetc",
-      "postedAt": "2026-10-15T13:34:54-07:00"
+      "postedAt": "2026-10-15T15:34:00"
     },
     {
       "title": "SSIM From Here to There Nneka Full Ep (pre-roll)",
@@ -45149,32 +45195,32 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Facebook",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 236216,
+      "impr": 236217,
       "paidImpr": 234103,
-      "orgImpr": 2113,
-      "views": 0,
+      "orgImpr": 2114,
+      "views": 360997,
       "reach": 0,
       "eng": 220,
       "er": 0.09,
       "spend": 759.55,
-      "watchTimeMin": 17762.0,
-      "clicks": 1970,
-      "ctr": 84.15,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.84,
       "cpc": 0.39,
       "cpm": 3.24,
-      "videoViews100Pct": 73,
+      "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1611663007639950/",
-      "postedAt": "2026-10-15T13:44:21-07:00"
+      "postedAt": "2026-10-15T15:44:00"
     },
     {
       "title": "Nneka Ogwumike on the WNBA\u2019s transformation.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 163078,
+      "impr": 163081,
       "paidImpr": 161850,
-      "orgImpr": 1228,
+      "orgImpr": 1231,
       "views": 161100,
       "reach": 0,
       "eng": 6403,
@@ -45188,7 +45234,30 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/62QGHysIhDY",
-      "postedAt": "2026-10-15T13:48:41-07:00"
+      "postedAt": "2026-10-15T15:48:00"
+    },
+    {
+      "title": "Nneka Ogwumike on the WNBA\u2019s transformation: \u00a0 \u201cFourteen years later, the success that we\u2019re experiencing today is far b",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 412045,
+      "paidImpr": 229683,
+      "orgImpr": 182362,
+      "views": 403025,
+      "reach": 221273,
+      "eng": 241,
+      "er": 0.06,
+      "spend": 375.0,
+      "watchTimeMin": 7949.2,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 1.63,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7697017818323127565",
+      "postedAt": "2026-10-15T17:00:00"
     },
     {
       "title": "WNBA legend @nnekaogwumike retired after 15 seasons, but she's not calling it an end.  \"I see it as a transition...a way",
@@ -45211,68 +45280,45 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2110853232780366108",
-      "postedAt": "2026-10-15T15:00:03-07:00"
-    },
-    {
-      "title": "Nneka Ogwumike on the WNBA\u2019s transformation: \u00a0 \u201cFourteen years later, the success that we\u2019re experiencing today is far b",
-      "platform": "TikTok",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 412045,
-      "paidImpr": 229683,
-      "orgImpr": 182362,
-      "views": 403025,
-      "reach": 221273,
-      "eng": 241,
-      "er": 0.06,
-      "spend": 375.0,
-      "watchTimeMin": 7949.1,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": 0.0,
-      "cpm": 1.63,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://tiktok.com/@frontofficesports/video/7697017818323127565",
-      "postedAt": "2026-10-15T15:00:13-07:00"
+      "postedAt": "2026-10-15T17:00:00"
     },
     {
       "title": "Nneka Ogwumike on the WNBA\u2019s transformation:\u2060 \u2060 \u201cFourteen years later, the success that we\u2019re experiencing today is far ",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 430411,
+      "impr": 430441,
       "paidImpr": 413823,
-      "orgImpr": 16588,
-      "views": 424233,
-      "reach": 327859,
-      "eng": 1927,
+      "orgImpr": 16618,
+      "views": 424263,
+      "reach": 327862,
+      "eng": 1930,
       "er": 0.45,
       "spend": 1500.0,
-      "watchTimeMin": 48.7,
-      "clicks": 212,
-      "ctr": 5.12,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.05,
       "cpc": 7.08,
       "cpm": 3.62,
-      "videoViews100Pct": 96,
-      "videoViews3s": 9044,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DeiFq-tDupS/",
-      "postedAt": "2026-10-15T16:03:17-07:00"
+      "postedAt": "2026-10-15T18:03:00"
     },
     {
       "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more \ud83d\udc40 Presented by Stat",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 405694,
+      "impr": 405696,
       "paidImpr": 227274,
-      "orgImpr": 178420,
-      "views": 401013,
+      "orgImpr": 178422,
+      "views": 401015,
       "reach": 217608,
       "eng": 215,
       "er": 0.05,
       "spend": 375.0,
-      "watchTimeMin": 8834.8,
+      "watchTimeMin": 8836.0,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -45280,17 +45326,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7698532998026644749",
-      "postedAt": "2026-10-19T17:00:06-07:00"
+      "postedAt": "2026-10-19T19:00:00"
     },
     {
       "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 163206,
+      "impr": 163226,
       "paidImpr": 162158,
-      "orgImpr": 1048,
-      "views": 161089,
+      "orgImpr": 1068,
+      "views": 161090,
       "reach": 0,
       "eng": 7546,
       "er": 4.62,
@@ -45303,45 +45349,45 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/CYtFJH2i4fo",
-      "postedAt": "2026-10-19T17:00:06-07:00"
+      "postedAt": "2026-10-19T19:00:00"
     },
     {
       "title": "Nneka Ogwumike on the W\u2019s next cities, her top CBA ask, the investment she\u2019ll never regret, and more \ud83d\udc40\u2060 \u2060 \u2060 \u2060 \u2060 Presente",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 409100,
+      "impr": 409101,
       "paidImpr": 399161,
-      "orgImpr": 9939,
-      "views": 402691,
+      "orgImpr": 9940,
+      "views": 402692,
       "reach": 314138,
       "eng": 546,
       "er": 0.13,
       "spend": 1499.0,
-      "watchTimeMin": 29.5,
-      "clicks": 347,
-      "ctr": 8.69,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.09,
       "cpc": 4.32,
       "cpm": 3.76,
-      "videoViews100Pct": 255,
-      "videoViews3s": 19081,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DesjIy0iYZM/",
-      "postedAt": "2026-10-19T17:33:11-07:00"
+      "postedAt": "2026-10-19T19:33:00"
     },
     {
       "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story. #TheComeUp Presented by State",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1817653,
+      "impr": 1817656,
       "paidImpr": 970391,
-      "orgImpr": 847262,
-      "views": 1794713,
-      "reach": 935983,
+      "orgImpr": 847265,
+      "views": 1794716,
+      "reach": 935989,
       "eng": 2021,
       "er": 0.11,
       "spend": 1434.0,
-      "watchTimeMin": 51266.0,
+      "watchTimeMin": 51266.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -45349,16 +45395,16 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7696583810971995405",
-      "postedAt": "2026-10-14T10:56:20-07:00"
+      "postedAt": "2026-10-14T12:56:00"
     },
     {
       "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 457800,
+      "impr": 457811,
       "paidImpr": 455789,
-      "orgImpr": 2011,
+      "orgImpr": 2022,
       "views": 457765,
       "reach": 0,
       "eng": 62046,
@@ -45372,7 +45418,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/sVQtENkIWko",
-      "postedAt": "2026-10-14T11:00:28-07:00"
+      "postedAt": "2026-10-14T13:00:00"
     },
     {
       "title": "Olivia Miles went from an ACL tear to the No. 2 pick in the WNBA draft, this is her story. #TheComeUp\u2060 \u2060 Presented by @s",
@@ -45387,27 +45433,27 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 11458,
       "er": 2.99,
       "spend": 1681.0,
-      "watchTimeMin": 19.2,
-      "clicks": 399,
-      "ctr": 10.68,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.11,
       "cpc": 4.21,
       "cpm": 4.5,
-      "videoViews100Pct": 1166,
-      "videoViews3s": 44331,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DefaCdFFKX_/",
-      "postedAt": "2026-10-14T15:03:18-07:00"
+      "postedAt": "2026-10-14T17:03:00"
     },
     {
       "title": "Is Cheryl Reeve the greatest coach of all-time? Presented by State Street. #wnba #minnesotalynx #cherylreeve",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 4243124,
+      "impr": 4243127,
       "paidImpr": 2645030,
-      "orgImpr": 1598094,
-      "views": 4198262,
+      "orgImpr": 1598097,
+      "views": 4198265,
       "reach": 2521220,
-      "eng": 2989,
+      "eng": 2988,
       "er": 0.07,
       "spend": 3747.0,
       "watchTimeMin": 108194.4,
@@ -45418,7 +45464,53 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7694680428040441101",
-      "postedAt": "2026-10-09T10:30:00-07:00"
+      "postedAt": "2026-10-09T12:30:00"
+    },
+    {
+      "title": "Is Cheryl Reeve the greatest to ever do it?",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 670164,
+      "paidImpr": 669236,
+      "orgImpr": 928,
+      "views": 660159,
+      "reach": 0,
+      "eng": 45275,
+      "er": 6.76,
+      "spend": 2398.27,
+      "watchTimeMin": 63574.9,
+      "clicks": null,
+      "ctr": 0.01,
+      "cpc": 599.18,
+      "cpm": 3.58,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/V8krVEQFQfc",
+      "postedAt": "2026-10-09T12:30:00"
+    },
+    {
+      "title": "Cheryl Reeve just won her fifth @statestreetim_us SPY WNBA Coach of the Year Award. The WNBA says it\u2019s the most by any c",
+      "platform": "Instagram",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 610214,
+      "paidImpr": 574866,
+      "orgImpr": 35348,
+      "views": 215734,
+      "reach": 502860,
+      "eng": 8335,
+      "er": 1.37,
+      "spend": 3007.0,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.34,
+      "cpc": 1.54,
+      "cpm": 5.23,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.instagram.com/p/DeSDLDMDo9U/",
+      "postedAt": "2026-10-09T12:30:00"
     },
     {
       "title": "Cheryl Reeve just won her fifth @StateStreetIM SPY WNBA Coach of the Year Award, the most by any coach in major American",
@@ -45441,30 +45533,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2108610946516099461",
-      "postedAt": "2026-10-09T10:30:00-07:00"
-    },
-    {
-      "title": "Cheryl Reeve just won her fifth @statestreetim_us SPY WNBA Coach of the Year Award. The WNBA says it\u2019s the most by any c",
-      "platform": "Instagram",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 610214,
-      "paidImpr": 574866,
-      "orgImpr": 35348,
-      "views": 215734,
-      "reach": 502860,
-      "eng": 8335,
-      "er": 1.37,
-      "spend": 3007.0,
-      "watchTimeMin": null,
-      "clicks": 1956,
-      "ctr": 34.03,
-      "cpc": 1.54,
-      "cpm": 5.23,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.instagram.com/p/DeSDLDMDo9U/",
-      "postedAt": "2026-10-09T10:30:02-07:00"
+      "postedAt": "2026-10-09T12:30:00"
     },
     {
       "title": "Minnesota Lynx head coach Cheryl Reeve just won her fifth State Street Investment Management SPY WNBA Coach of the Year ",
@@ -45474,35 +45543,35 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 16510,
       "paidImpr": 0,
       "orgImpr": 16510,
-      "views": 0,
+      "views": 16510,
       "reach": 0,
       "eng": 385,
       "er": 2.33,
       "spend": 0,
       "watchTimeMin": null,
-      "clicks": 462,
-      "ctr": 2.8,
+      "clicks": null,
+      "ctr": null,
       "cpc": null,
       "cpm": null,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1605251978281053/",
-      "postedAt": "2026-10-09T10:30:02-07:00"
+      "postedAt": "2026-10-09T12:30:00"
     },
     {
       "title": "Five Coach of the Year awards.  More than Popovich. More than Belichick. More than any coach in major American pro sport",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 6331,
+      "impr": 6337,
       "paidImpr": 0,
-      "orgImpr": 6331,
-      "views": 2986,
+      "orgImpr": 6337,
+      "views": 2989,
       "reach": 0,
-      "eng": 98,
-      "er": 1.55,
+      "eng": 99,
+      "er": 1.56,
       "spend": 0,
-      "watchTimeMin": 628.0,
+      "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -45510,30 +45579,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514326721861447680",
-      "postedAt": "2026-10-09T10:30:03-07:00"
-    },
-    {
-      "title": "Is Cheryl Reeve the greatest to ever do it?",
-      "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 670161,
-      "paidImpr": 669236,
-      "orgImpr": 925,
-      "views": 660159,
-      "reach": 0,
-      "eng": 45275,
-      "er": 6.76,
-      "spend": 2398.27,
-      "watchTimeMin": 63574.9,
-      "clicks": 4,
-      "ctr": 0.6,
-      "cpc": 599.18,
-      "cpm": 3.58,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/shorts/V8krVEQFQfc",
-      "postedAt": "2026-10-09T10:30:21-07:00"
+      "postedAt": "2026-10-09T12:30:00"
     }
   ],
   "just_ingredients_2026": [
@@ -47913,11 +47959,6 @@ window.DATA_HEALTH = {
       "wrapped": true
     },
     {
-      "id": "state_street",
-      "partner": "State Street",
-      "asOf": "2026-11-16"
-    },
-    {
       "id": "just_ingredients_2026",
       "partner": "Just Ingredients",
       "asOf": "2026-11-16"
@@ -48695,13 +48736,24 @@ window.DATA_ARCHIVE = [
   {
     "campaignId": "state_street",
     "partner": "State Street",
+    "sourceKind": "measure_studio",
+    "sourceLabel": "Measure Studio",
+    "filename": "state_street_ms.csv",
+    "fileSizeKb": 13.0,
+    "lastModified": "2026-11-17",
+    "exists": true,
+    "postsContributed": 18
+  },
+  {
+    "campaignId": "state_street",
+    "partner": "State Street",
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_street_yt_paid.csv",
     "fileSizeKb": 0.8,
     "lastModified": "2026-11-17",
     "exists": true,
-    "postsContributed": 6
+    "postsContributed": 1
   },
   {
     "campaignId": "state_street",
@@ -48712,7 +48764,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 0.4,
     "lastModified": "2026-11-17",
     "exists": true,
-    "postsContributed": 1
+    "postsContributed": 0
   },
   {
     "campaignId": "just_ingredients_2026",
