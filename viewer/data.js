@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T15:27:08Z";
+window.LAST_REFRESHED = "2026-11-17T15:42:19Z";
 
 
 
@@ -5130,13 +5130,13 @@ window.CAMPAIGNS = [
     "color": "ft-4",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 7.95,
+    "er": 8.1,
     "cpm": 3.19,
     "episodes": 0,
     "posts": 16,
     "blurb": "An 8 video series with external creator, Evan Hand",
     "views": 4934377,
-    "engagements": 412949,
+    "engagements": 421041,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -5161,11 +5161,11 @@ window.CAMPAIGNS = [
         "name": "Instagram",
         "italic": "gram",
         "impressions": 1547667,
-        "eng": 109077,
-        "er": 7.05,
+        "eng": 117169,
+        "er": 7.57,
         "cpm": 5.81,
         "color": "#E4405F",
-        "delta": 112.9,
+        "delta": 128.7,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
@@ -5224,8 +5224,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-10-16T15:33:00"
       },
       {
-        "id": "4024766821253507849",
+        "id": "3994220467938265641",
         "rank": 4,
+        "partner": "Accenture",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
+        "er": 11.32,
+        "eng": 9512,
+        "reach": 45506,
+        "organic": 41,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/DduUlpyDgop/",
+        "postedAt": "2026-09-25T15:33:00"
+      },
+      {
+        "id": "4024766821253507849",
+        "rank": 5,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5240,24 +5256,24 @@ window.CAMPAIGNS = [
         "postedAt": "2026-11-06T18:03:00"
       },
       {
-        "id": "3994220467938265641",
-        "rank": 5,
+        "id": "3981838900760154441",
+        "rank": 6,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
-        "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
-        "er": 4.95,
-        "eng": 4161,
-        "reach": 45506,
-        "organic": 41,
+        "quote": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40 Presented by @accenture",
+        "er": 5.71,
+        "eng": 14555,
+        "reach": 211633,
+        "organic": 20,
         "metric": "er",
         "insight": "",
-        "url": "https://www.instagram.com/p/DduUlpyDgop/",
-        "postedAt": "2026-09-25T15:33:00"
+        "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
+        "postedAt": "2026-09-08T13:30:00"
       },
       {
         "id": "4029704284040632917",
-        "rank": 6,
+        "rank": 7,
         "partner": "Accenture",
         "platform": "Instagram",
         "format": "Reels/Shorts",
@@ -5270,22 +5286,6 @@ window.CAMPAIGNS = [
         "insight": "",
         "url": "https://www.instagram.com/p/DfsYrIwHJpV/",
         "postedAt": "2026-11-13T13:33:00"
-      },
-      {
-        "id": "3981838900760154441",
-        "rank": 7,
-        "partner": "Accenture",
-        "platform": "Instagram",
-        "format": "Reels/Shorts",
-        "quote": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40 Presented by @accenture",
-        "er": 4.66,
-        "eng": 11878,
-        "reach": 211633,
-        "organic": 20,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
-        "postedAt": "2026-09-08T13:30:00"
       }
     ],
     "topPostsOrganic": [],
@@ -5293,8 +5293,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WIN",
         "kind": "pos",
-        "headline": "Instagram at 7.0% ER \u2014 2.1\u00d7 the benchmark.",
-        "body": "1.5M impressions, 109K engagements at 7.0% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
+        "headline": "Instagram at 7.6% ER \u2014 2.3\u00d7 the benchmark.",
+        "body": "1.5M impressions, 117K engagements at 7.6% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
         "meta": "Accenture \u00b7 Instagram"
       },
       {
@@ -7449,7 +7449,7 @@ window.CAMPAIGNS = [
     "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
     "views": 1081402,
-    "engagements": 28245,
+    "engagements": 28256,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -7538,11 +7538,11 @@ window.CAMPAIGNS = [
         "name": "Facebook",
         "italic": "book",
         "impressions": 140482,
-        "eng": 0,
-        "er": 0.0,
+        "eng": 11,
+        "er": 0.01,
         "cpm": 2.99,
         "color": "#1877F2",
-        "delta": -100.0,
+        "delta": -99.5,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
@@ -7590,7 +7590,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-17T15:26:36Z"
+    "lastUpdatedExports": "2026-11-17T15:41:42Z"
   },
   {
     "id": "nwsl_championship_brandx",
@@ -7892,8 +7892,24 @@ window.TOP_POSTS = [
     "postedAt": null
   },
   {
-    "id": "4028405747905703070",
+    "id": "3994220467938265641",
     "rank": 6,
+    "partner": "Accenture",
+    "platform": "Instagram",
+    "format": "Reels/Shorts",
+    "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
+    "er": 11.32,
+    "eng": 9512,
+    "reach": 45506,
+    "organic": 41,
+    "metric": "er",
+    "insight": "",
+    "url": "https://www.instagram.com/p/DduUlpyDgop/",
+    "postedAt": "2026-09-25T15:33:00"
+  },
+  {
+    "id": "4028405747905703070",
+    "rank": 7,
     "partner": "PwC",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7909,7 +7925,7 @@ window.TOP_POSTS = [
   },
   {
     "id": "4030504564809392638",
-    "rank": 7,
+    "rank": 8,
     "partner": "Comcast",
     "platform": "Instagram",
     "format": "Reels/Shorts",
@@ -7922,22 +7938,6 @@ window.TOP_POSTS = [
     "insight": "",
     "url": "https://www.instagram.com/p/DfvOowTDeH-/",
     "postedAt": "2026-11-14T16:03:00"
-  },
-  {
-    "id": "4024766821253507849",
-    "rank": 8,
-    "partner": "Accenture",
-    "platform": "Instagram",
-    "format": "Reels/Shorts",
-    "quote": "Real Madrid spent over $1.5 billion transforming the Santiago Bernab\u00e9u, which hosted Spain\u2019s\u2026",
-    "er": 5.81,
-    "eng": 18598,
-    "reach": 319881,
-    "organic": 13,
-    "metric": "er",
-    "insight": "",
-    "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
-    "postedAt": "2026-11-06T18:03:00"
   }
 ];
 
@@ -8063,11 +8063,11 @@ window.CHANNELS = [
     "name": "Instagram",
     "italic": "gram",
     "impressions": 36789370,
-    "eng": 666309,
-    "er": 1.81,
+    "eng": 674401,
+    "er": 1.83,
     "cpm": 4.48,
     "color": "#E4405F",
-    "delta": -45.3,
+    "delta": -44.7,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
@@ -8095,7 +8095,7 @@ window.CHANNELS = [
     "name": "Facebook",
     "italic": "book",
     "impressions": 8833496,
-    "eng": 31084,
+    "eng": 31095,
     "er": 0.35,
     "cpm": 3.71,
     "color": "#1877F2",
@@ -25661,7 +25661,7 @@ window.EPISODES_BY_CAMPAIGN = {
         "impr": 2728396,
         "views": 293997,
         "er": 0.16,
-        "eng": 19107,
+        "eng": 19118,
         "spend": 3031.32
       },
       "perChannel": [
@@ -25702,10 +25702,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 140482,
           "orgImpr": 0,
           "views": 140482,
-          "eng": 0,
-          "paidEng": 0,
+          "eng": 11,
+          "paidEng": 11,
           "orgEng": 0,
-          "er": 0.0,
+          "er": 0.01,
           "cpm": 2.99,
           "spend": 419.95,
           "posts": 1
@@ -25766,8 +25766,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "paidImpr": 140482,
           "orgImpr": 0,
           "views": 140482,
-          "eng": 0,
-          "er": 0.0,
+          "eng": 11,
+          "er": 0.01,
           "spend": 419.95,
           "url": "https://www.facebook.com/1632729282199989/",
           "postedAt": "2026-11-04T09:11:00"
@@ -44522,11 +44522,11 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 43220,
       "views": 211633,
       "reach": 166782,
-      "eng": 11878,
-      "er": 4.66,
+      "eng": 14555,
+      "er": 5.71,
       "spend": 1499.77,
       "watchTimeMin": null,
-      "clicks": null,
+      "clicks": 7,
       "ctr": 0.1,
       "cpc": 7.27,
       "cpm": 7.09,
@@ -44568,11 +44568,11 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 18731,
       "views": 45506,
       "reach": 38163,
-      "eng": 4161,
-      "er": 4.95,
+      "eng": 9512,
+      "er": 11.32,
       "spend": 850.92,
       "watchTimeMin": null,
-      "clicks": null,
+      "clicks": 3,
       "ctr": 0.21,
       "cpc": 6.22,
       "cpm": 13.03,
@@ -44729,11 +44729,11 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 21291,
       "views": 359562,
       "reach": 284926,
-      "eng": 6866,
-      "er": 1.87,
+      "eng": 6930,
+      "er": 1.89,
       "spend": 1399.49,
       "watchTimeMin": null,
-      "clicks": null,
+      "clicks": 0,
       "ctr": 0.04,
       "cpc": 9.98,
       "cpm": 4.05,
@@ -47239,11 +47239,11 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 0,
       "views": 140482,
       "reach": 0,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 11,
+      "er": 0.01,
       "spend": 419.95,
       "watchTimeMin": null,
-      "clicks": null,
+      "clicks": 11,
       "ctr": 0.22,
       "cpc": 1.37,
       "cpm": 2.99,
@@ -48865,7 +48865,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "measure_studio",
     "sourceLabel": "Measure Studio",
     "filename": "nylim_fosexplains_ms.csv",
-    "fileSizeKb": 4.5,
+    "fileSizeKb": 5.0,
     "lastModified": "2026-11-17",
     "exists": true,
     "postsContributed": 4
