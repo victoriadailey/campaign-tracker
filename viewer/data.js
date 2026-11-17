@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T20:42:51Z";
+window.LAST_REFRESHED = "2026-11-17T21:31:47Z";
 
 
 
@@ -50858,8 +50858,7 @@ window.BENCHMARKS_DATA = {
         "program": "Sponsored",
         "platforms": {
           "Instagram": 4.72,
-          "Facebook": 1.84,
-          "TikTok": 3.91
+          "Facebook": 1.84
         },
         "all": 4.69,
         "spend": 253.46,
@@ -52362,7 +52361,6 @@ window.BENCHMARKS_DATA = {
         "platforms": {
           "Instagram": 9.16,
           "Facebook": 7.89,
-          "TikTok": 3.91,
           "LinkedIn": 1.73
         },
         "all": 9.05,
@@ -52578,7 +52576,7 @@ window.BENCHMARKS_DATA = {
         "Instagram": 3.7,
         "Facebook": 1.76,
         "X": 0.85,
-        "TikTok": 1.04,
+        "TikTok": 0.98,
         "LinkedIn": 3.53,
         "YouTube Shorts": 8.93,
         "YouTube": 1.73
