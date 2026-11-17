@@ -181,3 +181,19 @@ def test_frozen_campaign_takes_current_lifecycle_and_wrapped_is_flagged():
     report = _carry_forward_frozen(payload, {"old"}, _prev_js(), dt.date(2026, 11, 17))
     assert payload.campaigns[0]["lifecycle"] == "wrapped"
     assert report == [{"id": "old", "partner": "Old", "asOf": "2026-11-16", "wrapped": True}]
+
+
+def test_daktronics_frozen_rows_reproduce_last_published_card_with_facebook_totals():
+    """Daktronics runs from fixed rows (no Measure). Facebook paid totals come from the Meta export."""
+    import yaml
+    from pathlib import Path
+
+    cfg = yaml.safe_load(Path("config/campaigns.yaml").read_text())
+    c = next(x for x in cfg["campaigns"] if x["id"] == "daktronics_stadiumstatus")
+    rows = c["sources"]["frozen_rows"]
+    assert "measure_studio_group_ids" not in c["sources"] and "youtube_paid" not in c["sources"]
+    fb = next(r for r in rows if r["platform"] == "facebook")
+    assert (fb["impressions_paid"], fb["spend"]) == (683434, 3245.30)
+    paid = sum(r.get("impressions_paid", 0) for r in rows)
+    total = paid + sum(r.get("impressions_organic", 0) for r in rows)
+    assert total == 2552284

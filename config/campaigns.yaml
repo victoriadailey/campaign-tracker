@@ -1662,11 +1662,85 @@ campaigns:
     color: ft-5
     lead_format: Social Video
     blurb: One Stadium Status video about Illinois Football.
+    # FROZEN: final numbers, no Measure export needed. These rows are the last
+    # published figures (Measure API era + the Google Ads YT export), with the
+    # Facebook paid totals replaced by the Meta Ads export of 2026-11-17
+    # (Daktronics Stadium Status: Illinois (FB): 683,434 impressions, $3,245.30).
     sources:
-      youtube_paid:
-        - daktronics_stadiumstatus_yt_paid.csv
-      measure_studio_group_ids:
-        - 8811
+      frozen_rows:
+        - platform: x
+          format: feed_video
+          boosting: organic
+          account_name: Front Office Sports
+          title: "Illinois just introduced the largest video board in college sports, so we went behinds the scenes for a closer look, presented by Daktronics"
+          url: "https://twitter.com/FOS/status/2098479186163761386"
+          post_id: "2098479186163761386"
+          posted_at: "2026-09-11T11:30:00-07:00"
+          impressions_organic: 17100
+          views: 5237
+          engagements: 272
+        - platform: linkedin
+          format: feed_video
+          boosting: organic
+          account_name: Front Office Sports
+          title: "University of Illinois Urbana-Champaign just introduced the largest video board in college sports, so we went behind the scenes"
+          url: "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503819262164103168"
+          post_id: "urn:li:ugcPost:7503819262164103168"
+          posted_at: "2026-09-11T11:30:02-07:00"
+          impressions_organic: 159673
+          views: 86486
+          engagements: 4094
+          watch_time_min: 23453.1
+        - platform: youtube
+          format: reels_shorts
+          boosting: boosted
+          account_name: Front Office Sports
+          title: "The largest video board in college sports"
+          url: "https://www.youtube.com/shorts/5Pp9835__MA"
+          post_id: "5Pp9835__MA"
+          posted_at: "2026-09-11T11:30:23-07:00"
+          impressions_paid: 975700
+          impressions_organic: 2528
+          views: 980985
+          engagements: 257270
+          spend: 3368.08
+          ctr: 0
+          cpc: 0
+          watch_time_min: 217989.4
+        - platform: facebook
+          format: reels_shorts
+          boosting: boosted
+          account_name: Front Office Sports
+          title: "Illinois just introduced the largest video board in college sports, so we went behind the scenes for a closer look, presented by Daktronics"
+          url: "https://www.facebook.com/1577589784380606/"
+          post_id: "1577589784380606"
+          posted_at: "2026-09-11T11:30:32-07:00"
+          impressions_paid: 683434      # Meta Ads export (was 572,268 from Measure)
+          impressions_organic: 37800
+          engagements: 8883
+          spend: 3245.30                # Meta Ads export (was 2,887.24)
+          clicks: 8887
+          watch_time_min: 38598.5
+          video_views_100: 2418
+        - platform: instagram
+          format: reels_shorts
+          boosting: boosted
+          account_name: Front Office Sports
+          title: "Illinois just introduced the largest video board in college sports, so we went behinds the scenes for a closer look, presented by Daktronics"
+          url: "https://www.instagram.com/p/DdMg9Ccjvlq/"
+          post_id: "3984704702319098218"
+          posted_at: "2026-09-12T10:26:14-07:00"
+          impressions_paid: 656327
+          impressions_organic: 19722
+          views: 670802
+          reach: 500455
+          engagements: 19559
+          spend: 3122.0
+          clicks: 460
+          ctr: 7.01
+          watch_time_min: 58.4
+          video_views_100: 7085
+          video_views_3s: 92961
 
   - id: whirlpool_pll_stadium_status
     partner: Whirlpool

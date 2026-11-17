@@ -489,6 +489,78 @@ def main() -> int:
                 raw=dict(row),
             ))
 
+        # ---------- Frozen rows (a finished campaign's final per-post numbers) ----------
+        # For a campaign that no longer reads Measure and never will again: each
+        # YAML row is a complete post (organic, boosted or dark) carrying the last
+        # published figures — optionally corrected, e.g. a placement whose paid
+        # totals came from the platform's own export. Goes through the normal
+        # rollup, so card / channels / status recompute consistently.
+        #   - platform: facebook            # Platform enum value
+        #     format: reels_shorts          # PostFormat value (default reels_shorts)
+        #     boosting: boosted             # organic | boosted | dark
+        #     title / url / post_id / posted_at / account_name
+        #     impressions_paid / impressions_organic
+        #     views / reach / engagements / spend / clicks / watch_time_min
+        #     video_views_100 / video_views_3s
+        #     ctr (percent) / cpc — optional overrides of the derived values
+        for row in c.get("sources", {}).get("frozen_rows", []) or []:
+            from app.parsers.base import Boosting as _FB, PostFormat as _FPF
+            _plat = {p.value: p for p in Platform}.get(
+                str(row.get("platform", "")).strip().lower(), Platform.UNKNOWN)
+            _fmt = {f.value: f for f in _FPF}.get(
+                str(row.get("format", "reels_shorts")).strip().lower(), _FPF.OTHER)
+            _boost = {b.value: b for b in _FB}.get(
+                str(row.get("boosting", "organic")).strip().lower(), _FB.UNKNOWN)
+            _ip = int(row.get("impressions_paid") or 0)
+            _io = int(row.get("impressions_organic") or 0)
+            _impr = _ip + _io
+            _spend = float(row.get("spend") or 0)
+            _eng = row.get("engagements")
+            _eng = int(_eng) if _eng is not None else None
+            _views = row.get("views")
+            _views = int(_views) if _views is not None else None
+            _clicks = row.get("clicks")
+            _clicks = int(_clicks) if _clicks is not None else None
+            _posted = None
+            if row.get("posted_at"):
+                try:
+                    _posted = datetime.fromisoformat(str(row["posted_at"]))
+                except ValueError:
+                    _posted = None
+            posts_by_campaign[c_id].append(NormalizedPost(
+                source=Source.MANUAL,
+                platform=_plat,
+                post_id_native=str(row.get("post_id") or f"frozen:{c_id}:{row.get('title', '')}"),
+                post_url=row.get("url"),
+                account_name=row.get("account_name"),
+                post_title=str(row.get("title") or ""),
+                post_format=_fmt,
+                boosting=_boost,
+                posted_at=_posted,
+                impressions_total=_impr or None,
+                impressions_paid=_ip or None,
+                impressions_organic=_io or None,
+                views_total=_views,
+                views_organic=_views if _boost is _FB.ORGANIC else None,
+                views_paid=_views if _boost in (_FB.BOOSTED, _FB.DARK) else None,
+                reach_total=int(row["reach"]) if row.get("reach") is not None else None,
+                engagements_total=_eng,
+                engagements_organic=_eng if _boost is _FB.ORGANIC else None,
+                engagements_paid=_eng if _boost in (_FB.BOOSTED, _FB.DARK) else None,
+                er=(_eng / _impr * 100) if _impr and _eng is not None else None,
+                watch_time_min=float(row["watch_time_min"]) if row.get("watch_time_min") is not None else None,
+                ad_spend=_spend or None,
+                cpm=(_spend / _ip * 1000) if _ip and _spend else None,
+                cpc=(float(row["cpc"]) if row.get("cpc") is not None
+                     else (_spend / _clicks) if _clicks and _spend else None),
+                ctr=(float(row["ctr"]) / 100 if row.get("ctr") is not None   # row ctr is a percent
+                     else (_clicks / _ip) if _ip and _clicks is not None else None),
+                clicks_paid=_clicks,
+                video_views_p100_paid=int(row["video_views_100"]) if row.get("video_views_100") is not None else None,
+                video_views_3s_paid=int(row["video_views_3s"]) if row.get("video_views_3s") is not None else None,
+                raw=dict(row),
+            ))
+
         # Delivery-log source (presenting-partner campaigns). Each row is a
         # placement; only copilot_tagged rows count toward delivery. Tagged rows
         # become MANUAL posts so the campaign total/budget roll up normally; the
