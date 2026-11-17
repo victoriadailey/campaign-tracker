@@ -1864,10 +1864,8 @@ campaigns:
         - state_street_x_ads.csv
       youtube_paid:
         - state_street_yt_paid.csv
-      # New "State Street" MS group (8908) — empty for now; posts land here once
-      # published. Add youtube_paid / meta_ads / x_ads exports when boosts run.
-      measure_studio_group_ids:
-        - 8908
+      measure_studio:
+        - state_street_ms.csv   # Measure export (was API group 8908)
 
   - id: just_ingredients_2026
     partner: Just Ingredients
