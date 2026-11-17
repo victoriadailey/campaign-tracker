@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T15:24:12Z";
+window.LAST_REFRESHED = "2026-11-17T15:27:08Z";
 
 
 
@@ -7428,12 +7428,12 @@ window.CAMPAIGNS = [
     "seriesItalic": "Explains",
     "type": "social",
     "flight": "Nov 1 \u2014 Dec 31, 2026",
-    "elapsedPct": 25.0,
-    "daysLeft": 45,
+    "elapsedPct": 26.7,
+    "daysLeft": 44,
     "status": "Pacing Ahead",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3973867,
+      "delivered": 3973994,
       "goal": 4250000
     },
     "budget": {
@@ -7448,8 +7448,8 @@ window.CAMPAIGNS = [
     "episodes": 2,
     "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
-    "views": 935257,
-    "engagements": 28255,
+    "views": 1081402,
+    "engagements": 28245,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -7457,8 +7457,8 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 2349463,
-        "eng": 4108,
+        "impressions": 2349592,
+        "eng": 4109,
         "er": 0.17,
         "cpm": 0.78,
         "color": "#E00922",
@@ -7467,8 +7467,8 @@ window.CAMPAIGNS = [
           "er": 0.5,
           "cpm": 0.55
         },
-        "organicImpressions": 4029,
-        "views": 16336
+        "organicImpressions": 4158,
+        "views": 21999
       },
       {
         "name": "YouTube Pre-roll",
@@ -7537,18 +7537,18 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 140484,
-        "eng": 11,
-        "er": 0.01,
+        "impressions": 140482,
+        "eng": 0,
+        "er": 0.0,
         "cpm": 2.99,
         "color": "#1877F2",
-        "delta": -99.5,
+        "delta": -100.0,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 2,
-        "views": 0
+        "organicImpressions": 0,
+        "views": 140482
       }
     ],
     "topPosts": [],
@@ -7575,7 +7575,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Full Episode",
         "impressions": {
-          "delivered": 2728269,
+          "delivered": 2728396,
           "goal": 3250000
         }
       },
@@ -7589,9 +7589,8 @@ window.CAMPAIGNS = [
     ],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-16T14:54:21Z",
-    "lastUpdatedExports": "2026-11-13T14:31:48Z",
-    "measureFrozenAsOf": "2026-11-16"
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": "2026-11-17T15:26:36Z"
   },
   {
     "id": "nwsl_championship_brandx",
@@ -8031,8 +8030,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127278980,
-    "eng": 2932697,
+    "impressions": 127279109,
+    "eng": 2932698,
     "er": 2.3,
     "cpm": 1.13,
     "color": "#E00922",
@@ -8041,8 +8040,8 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 1241,
-    "views": 25821042
+    "organicImpressions": 1370,
+    "views": 25826705
   },
   {
     "name": "TikTok",
@@ -8095,8 +8094,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 8833498,
-    "eng": 31095,
+    "impressions": 8833496,
+    "eng": 31084,
     "er": 0.35,
     "cpm": 3.71,
     "color": "#1877F2",
@@ -8105,8 +8104,8 @@ window.CHANNELS = [
       "er": 1.53,
       "cpm": 4.8
     },
-    "organicImpressions": 1,
-    "views": 2592997
+    "organicImpressions": -1,
+    "views": 2733479
   },
   {
     "name": "LinkedIn",
@@ -25659,23 +25658,23 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "How NIL Deals Really Work",
       "date": "Nov 4",
       "total": {
-        "impr": 2728269,
-        "views": 147852,
+        "impr": 2728396,
+        "views": 293997,
         "er": 0.16,
-        "eng": 19117,
+        "eng": 19107,
         "spend": 3031.32
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 2349463,
+          "impr": 2349592,
           "paidImpr": 2345434,
-          "orgImpr": 4029,
-          "views": 16336,
-          "eng": 4108,
+          "orgImpr": 4158,
+          "views": 21999,
+          "eng": 4109,
           "paidEng": 4072,
-          "orgEng": 36,
+          "orgEng": 37,
           "er": 0.17,
           "cpm": 0.78,
           "spend": 1835.15,
@@ -25698,15 +25697,15 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "name": "Facebook",
-          "distKind": "organic+boosted",
-          "impr": 140484,
+          "distKind": "paid",
+          "impr": 140482,
           "paidImpr": 140482,
-          "orgImpr": 2,
-          "views": 0,
-          "eng": 11,
+          "orgImpr": 0,
+          "views": 140482,
+          "eng": 0,
           "paidEng": 0,
-          "orgEng": 11,
-          "er": 0.01,
+          "orgEng": 0,
+          "er": 0.0,
           "cpm": 2.99,
           "spend": 419.95,
           "posts": 1
@@ -25733,15 +25732,15 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 2349463,
+          "impr": 2349592,
           "paidImpr": 2345434,
-          "orgImpr": 4029,
-          "views": 16336,
-          "eng": 4108,
+          "orgImpr": 4158,
+          "views": 21999,
+          "eng": 4109,
           "er": 0.17,
           "spend": 1835.15,
           "url": "https://youtu.be/QgXx6XEsDiE",
-          "postedAt": "2026-11-04T12:01:41-08:00"
+          "postedAt": "2026-11-04T14:01:00"
         },
         {
           "title": "NYLI: FOS Explains (Pre-roll)",
@@ -25762,16 +25761,16 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "NIL Toolkit",
           "platform": "Facebook",
           "accountName": "Front Office Sports",
-          "distKind": "organic+boosted",
-          "impr": 140484,
+          "distKind": "paid",
+          "impr": 140482,
           "paidImpr": 140482,
-          "orgImpr": 2,
-          "views": 0,
-          "eng": 11,
-          "er": 0.01,
+          "orgImpr": 0,
+          "views": 140482,
+          "eng": 0,
+          "er": 0.0,
           "spend": 419.95,
           "url": "https://www.facebook.com/1632729282199989/",
-          "postedAt": "2026-11-04T07:11:21-08:00"
+          "postedAt": "2026-11-04T09:11:00"
         },
         {
           "title": "NYLI: FOS Explains full ep (copy)",
@@ -25813,7 +25812,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "orgImpr": 0,
           "views": 783559,
           "eng": 257,
-          "paidEng": 257,
+          "paidEng": 1473,
           "orgEng": 0,
           "er": 0.03,
           "cpm": 2.07,
@@ -25850,7 +25849,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.21,
           "spend": 933.48,
           "url": "https://www.youtube.com/shorts/BFFa_l3FbZw",
-          "postedAt": "2026-11-05T12:53:29-08:00"
+          "postedAt": "2026-11-05T14:53:00"
         },
         {
           "title": "",
@@ -25865,7 +25864,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 1749.0,
           "url": null,
-          "postedAt": "2026-11-05T21:05:02-08:00"
+          "postedAt": "2026-11-05T23:05:00"
         }
       ],
       "topPosts": [],
@@ -47189,23 +47188,23 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 2349463,
+      "impr": 2349592,
       "paidImpr": 2345434,
-      "orgImpr": 4029,
-      "views": 16336,
+      "orgImpr": 4158,
+      "views": 21999,
       "reach": 0,
-      "eng": 4108,
+      "eng": 4109,
       "er": 0.17,
       "spend": 1835.15,
-      "watchTimeMin": 40846.3,
-      "clicks": 1636,
-      "ctr": 60.04,
-      "cpc": 1.61,
+      "watchTimeMin": 51667.3,
+      "clicks": null,
+      "ctr": 0.6,
+      "cpc": 1.66,
       "cpm": 0.78,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/QgXx6XEsDiE",
-      "postedAt": "2026-11-04T12:01:41-08:00"
+      "postedAt": "2026-11-04T14:01:00"
     },
     {
       "title": "NYLI: FOS Explains (Pre-roll)",
@@ -47234,24 +47233,24 @@ window.POSTS_BY_CAMPAIGN = {
       "title": "NIL Toolkit",
       "platform": "Facebook",
       "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 140484,
+      "distKind": "paid",
+      "impr": 140482,
       "paidImpr": 140482,
-      "orgImpr": 2,
-      "views": 0,
+      "orgImpr": 0,
+      "views": 140482,
       "reach": 0,
-      "eng": 11,
-      "er": 0.01,
+      "eng": 0,
+      "er": 0.0,
       "spend": 419.95,
-      "watchTimeMin": 4099.8,
-      "clicks": 307,
-      "ctr": 21.85,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": 0.22,
       "cpc": 1.37,
       "cpm": 2.99,
-      "videoViews100Pct": 7,
+      "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1632729282199989/",
-      "postedAt": "2026-11-04T07:11:21-08:00"
+      "postedAt": "2026-11-04T09:11:00"
     },
     {
       "title": "NYLI: FOS Explains full ep (copy)",
@@ -47290,14 +47289,14 @@ window.POSTS_BY_CAMPAIGN = {
       "er": 2.21,
       "spend": 933.48,
       "watchTimeMin": 8491.7,
-      "clicks": 245,
-      "ctr": 60.87,
+      "clicks": null,
+      "ctr": 0.61,
       "cpc": 3.81,
       "cpm": 2.32,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/BFFa_l3FbZw",
-      "postedAt": "2026-11-05T12:53:29-08:00"
+      "postedAt": "2026-11-05T14:53:00"
     },
     {
       "title": "",
@@ -47320,7 +47319,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
-      "postedAt": "2026-11-05T21:05:02-08:00"
+      "postedAt": "2026-11-05T23:05:00"
     }
   ],
   "nwsl_championship_brandx": [
@@ -47982,11 +47981,6 @@ window.DATA_HEALTH = {
     {
       "id": "stifel_fostonight",
       "partner": "Stifel",
-      "asOf": "2026-11-16"
-    },
-    {
-      "id": "nylim_fosexplains",
-      "partner": "New York Life Investment",
       "asOf": "2026-11-16"
     }
   ]
@@ -48868,13 +48862,24 @@ window.DATA_ARCHIVE = [
   {
     "campaignId": "nylim_fosexplains",
     "partner": "New York Life Investment",
+    "sourceKind": "measure_studio",
+    "sourceLabel": "Measure Studio",
+    "filename": "nylim_fosexplains_ms.csv",
+    "fileSizeKb": 4.5,
+    "lastModified": "2026-11-17",
+    "exists": true,
+    "postsContributed": 4
+  },
+  {
+    "campaignId": "nylim_fosexplains",
+    "partner": "New York Life Investment",
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "nylim_fosexplains_yt_paid.csv",
     "fileSizeKb": 0.5,
     "lastModified": "2026-11-17",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 1
   },
   {
     "campaignId": "nylim_fosexplains",
