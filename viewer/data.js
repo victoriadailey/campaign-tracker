@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T14:57:04Z";
+window.LAST_REFRESHED = "2026-11-17T15:02:04Z";
 
 
 
@@ -5344,7 +5344,7 @@ window.CAMPAIGNS = [
     "engagements": 290078,
     "goalSplit": [],
     "benchmarkCategory": "Creator-Led - Franchise",
-    "lifecycle": "active",
+    "lifecycle": "wrapped",
     "channels": [
       {
         "name": "YouTube Shorts",
