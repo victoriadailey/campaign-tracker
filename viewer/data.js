@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T20:36:15Z";
+window.LAST_REFRESHED = "2026-11-17T20:36:48Z";
 
 
 
@@ -6630,23 +6630,23 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 2644042,
+      "delivered": 2764937,
       "goal": 4200000
     },
     "budget": {
-      "delivered": 8360.43,
+      "delivered": 8649.34,
       "goal": 12000.0
     },
     "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 3.27,
-    "cpm": 3.33,
+    "er": 3.26,
+    "cpm": 3.29,
     "episodes": 0,
     "posts": 13,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
     "views": 2036536,
-    "engagements": 86398,
+    "engagements": 90180,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6654,12 +6654,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 971096,
-        "eng": 61340,
-        "er": 6.32,
-        "cpm": 3.38,
+        "impressions": 1091991,
+        "eng": 65122,
+        "er": 5.96,
+        "cpm": 3.27,
         "color": "#FF0033",
-        "delta": -68.4,
+        "delta": -70.2,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -6794,8 +6794,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 80% of goal (3.4M of 4.2M) with 13 days left.",
-        "body": "At the current rate the campaign will fall ~823K impressions short of the 4.2M goal. Need to deliver 120K impr/day (2.1\u00d7 the current 56K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 84% of goal (3.5M of 4.2M) with 13 days left.",
+        "body": "At the current rate the campaign will fall ~669K impressions short of the 4.2M goal. Need to deliver 110K impr/day (1.9\u00d7 the current 59K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "PwC \u00b7 Pacing"
       }
     ],
@@ -6805,7 +6805,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-16T20:03:18Z"
+    "lastUpdatedExports": "2026-11-17T20:35:46Z"
   },
   {
     "id": "zoom_fosexplains_mlb",
@@ -8023,9 +8023,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 127644457,
-    "eng": 2954810,
-    "er": 2.31,
+    "impressions": 127765352,
+    "eng": 2958592,
+    "er": 2.32,
     "cpm": 1.13,
     "color": "#E00922",
     "delta": -88.4,
@@ -8234,8 +8234,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 80% of goal (3.4M of 4.2M) with 13 days left.",
-    "body": "At the current rate the campaign will fall ~823K impressions short of the 4.2M goal. Need to deliver 120K impr/day (2.1\u00d7 the current 56K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 84% of goal (3.5M of 4.2M) with 13 days left.",
+    "body": "At the current rate the campaign will fall ~669K impressions short of the 4.2M goal. Need to deliver 110K impr/day (1.9\u00d7 the current 59K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "PwC \u00b7 Pacing",
     "campaignId": "pwc_formula1",
     "campaignPartner": "PwC"
@@ -46391,14 +46391,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 321078,
-      "paidImpr": 320144,
+      "impr": 441973,
+      "paidImpr": 441039,
       "orgImpr": 934,
       "views": 22705,
       "reach": 0,
-      "eng": 11975,
-      "er": 3.73,
-      "spend": 767.92,
+      "eng": 15757,
+      "er": 3.57,
+      "spend": 1056.83,
       "watchTimeMin": 2168.0,
       "clicks": null,
       "ctr": 0.79,
