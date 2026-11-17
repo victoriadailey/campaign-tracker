@@ -2208,6 +2208,9 @@ campaigns:
     color: ft-1
     lead_format: "Short-form Video"
     blurb: Comcast Business and U.S. Squash had 1x Stadium Status video and one DITL video hosted by Lauren Withrow
+    # Measure export. Was wired as `other: Comcast - Measure - 11.16.csv`, which
+    # no parser reads, so uploads never showed up. Upload via the card's
+    # Measure Studio slot (saves as comcast_us_squash_ms.csv).
     sources:
-      other:
-        - Comcast - Measure - 11.16.csv
+      measure_studio:
+        - comcast_us_squash_ms.csv
