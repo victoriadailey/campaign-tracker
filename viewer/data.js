@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-17T21:31:47Z";
+window.LAST_REFRESHED = "2026-11-17T22:01:03Z";
 
 
 
@@ -51834,11 +51834,11 @@ window.BENCHMARKS_DATA = {
       {
         "campaign": "Ally x NWSL & Fanatics Fest",
         "client": "Ally",
-        "category": "Video: Custom Social (Dark Only)",
+        "category": "Static: Custom Social (Organic + Boosted)",
         "franchise": "None (Custom)",
-        "contentType": "Video",
-        "distribution": "Dark Only",
-        "group": "Dark",
+        "contentType": "Static",
+        "distribution": "Organic + Boosted",
+        "group": "In-feed",
         "tentpoleMoment": "Fanatics Fest",
         "tentpole": "Tentpole",
         "year": "2026",
@@ -52396,13 +52396,13 @@ window.BENCHMARKS_DATA = {
         "name": "Static: Custom Social (Organic + Boosted)",
         "group": "In-feed",
         "platforms": {
-          "Instagram": 10.18,
-          "Facebook": 0.03,
+          "Instagram": 8.15,
+          "Facebook": 0.02,
           "X": 0.8,
           "LinkedIn": 7.03
         },
-        "all": 4.03,
-        "nCampaigns": 4
+        "all": 3.23,
+        "nCampaigns": 5
       },
       {
         "name": "Brand Integration / Sponsored Content (Longform + Cutdowns)",
@@ -52493,14 +52493,14 @@ window.BENCHMARKS_DATA = {
         "name": "Video: Custom Social (Dark Only)",
         "group": "Dark",
         "platforms": {
-          "Instagram": 0.11,
-          "Facebook": 0.06,
+          "Instagram": 0.12,
+          "Facebook": 0.08,
           "X": 0.69,
           "TikTok": 0.89,
           "YouTube Shorts": 8.07
         },
-        "all": 1.94,
-        "nCampaigns": 8
+        "all": 2.21,
+        "nCampaigns": 7
       },
       {
         "name": "Brand Integration / Sponsored Content (Longform), Dark Only",
@@ -52573,16 +52573,16 @@ window.BENCHMARKS_DATA = {
     "allSponsored": {
       "name": "All sponsored campaigns",
       "platforms": {
-        "Instagram": 3.7,
-        "Facebook": 1.76,
+        "Instagram": 3.64,
+        "Facebook": 1.69,
         "X": 0.85,
         "TikTok": 0.98,
         "LinkedIn": 3.53,
         "YouTube Shorts": 8.93,
         "YouTube": 1.73
       },
-      "all": 2.98,
-      "nCampaigns": 65
+      "all": 2.94,
+      "nCampaigns": 66
     },
     "platformSets": [
       {
