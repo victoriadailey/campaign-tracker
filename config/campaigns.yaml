@@ -2240,8 +2240,8 @@ campaigns:
         - nylim_fosexplains_x_ads.csv
       youtube_paid:
         - nylim_fosexplains_yt_paid.csv
-      measure_studio_group_ids:
-        - 9450
+      measure_studio:
+        - nylim_fosexplains_ms.csv   # Measure export (was API group 9450)
 
   - id: nwsl_championship_brandx
     partner: NWSL
