@@ -923,8 +923,19 @@ function detectPlatform(filename, sources) {
   else if (has('google', 'youtube', 'yt_paid', 'yt paid', 'trueview', 'gads', 'demand gen')) label = 'Google Ads';
   else if (has('meta', 'facebook', 'fb ', 'fb_', '_fb', 'instagram', 'ig ', 'ig_', 'ads manager')) label = 'Meta Ads';
   else if (has(' x ', 'x ads', 'x_ads', 'x export', 'x-export', 'twitter', '_x_', '_x.')) label = 'X Ads';
-  else if (has('measure studio', 'measure_studio', '_ms', ' ms ')) label = 'Measure Studio';
+  else if (has('measure')) label = 'Measure Studio';   // "Comcast - Measure - 11.18.csv", "… Measure Studio …"
+  else if (has('_ms', ' ms ')) label = 'Measure Studio';
   return sources.includes(label) ? label : 'Other';
+}
+
+// Measure exports are recognisable by content: they open with "Period,Lifetime"
+// then an "Accounts" row. Used so a Measure file with an unhelpful filename still
+// lands in the Measure slot instead of the unread "Other" one.
+function looksLikeMeasureExport(b64) {
+  try {
+    const head = atob(b64.slice(0, 400)).replace(/^\uFEFF/, '').replace(/^\xEF\xBB\xBF/, '');
+    return /^"?Period"?,"?Lifetime"?/i.test(head) && /Accounts/i.test(head);
+  } catch (e) { return false; }
 }
 
 function CompactDropZone({ queue, onChange, sources }) {
@@ -940,7 +951,9 @@ function CompactDropZone({ queue, onChange, sources }) {
         next.push({
           name: f.name,
           size: f.size,
-          target: detectPlatform(f.name, sources),  // auto-detected; editable per row below
+          target: (looksLikeMeasureExport(b64) && sources.includes('Measure Studio'))
+            ? 'Measure Studio'
+            : detectPlatform(f.name, sources),  // auto-detected; editable per row below
           added: new Date().toISOString().slice(0, 10),
           // Stash the content base64 so the Submit button can POST it.
           content_base64: b64,
