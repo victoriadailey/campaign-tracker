@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-18T16:34:39Z";
+window.LAST_REFRESHED = "2026-11-18T16:36:08Z";
 
 
 
@@ -44559,7 +44559,7 @@ window.POSTS_BY_CAMPAIGN = {
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.38,
+      "cpm": 3.37,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/2qo_l6UJOik",
@@ -44605,7 +44605,7 @@ window.POSTS_BY_CAMPAIGN = {
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 3.77,
+      "cpm": 3.38,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/PbH5UKPNX_4",
@@ -44644,14 +44644,14 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1998,
       "views": 185601,
       "reach": 0,
-      "eng": 26812,
-      "er": 10.63,
-      "spend": 1045.04,
+      "eng": 16961,
+      "er": 9.03,
+      "spend": 699.82,
       "watchTimeMin": 24187.1,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
-      "cpm": 4.18,
+      "cpm": 3.77,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/OgXdqWm4gZI",
