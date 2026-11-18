@@ -633,6 +633,40 @@ def main() -> int:
                     raw=r.raw,
                 ))
 
+        # GA4 app screen Views → feeds a configured impressions channel
+        # (Copilot: "FOS App", the Now & Listen tabs). Dormant unless the
+        # campaign defines a `ga4:` block AND a service-account key is present in
+        # GA4_SA_JSON / GA4_SA_JSON_FILE (never in config). When live, it
+        # supersedes the hand-kept FOS App delivery-log row.
+        ga4_cfg = c.get("ga4") or {}
+        if ga4_cfg.get("property_id") and ga4_cfg.get("screens"):
+            from app.parsers.ga4 import fetch_screen_views, to_delivery_row
+            ga4_res = fetch_screen_views(
+                str(ga4_cfg["property_id"]), list(ga4_cfg["screens"]),
+                str(c.get("flight_start") or "2020-01-01"), "today",
+                dimension=ga4_cfg.get("dimension", "unifiedScreenName"),
+            )
+            if ga4_res.warnings:
+                parse_warnings.extend(f"[{c_id}] GA4: {w}" for w in ga4_res.warnings)
+            # Only supersede the manual row once GA4 actually returned data; a
+            # creds/auth warning leaves any manually entered FOS App row intact.
+            if ga4_res.ok:
+                _chan = ga4_cfg.get("channel", "FOS App")
+                dl = delivery_by_campaign.get(c_id)
+                if dl is None:
+                    dl = _DeliveryLogResult(rows=[])
+                    delivery_by_campaign[c_id] = dl
+                dl.rows = [r for r in dl.rows if r.channel != _chan] + [to_delivery_row(ga4_res, _chan)]
+                from app.parsers.base import Boosting as _GB
+                posts_by_campaign[c_id].append(NormalizedPost(
+                    source=Source.MANUAL, platform=Platform.UNKNOWN,
+                    post_id_native=f"ga4:{c_id}:{_chan}",
+                    post_title=f"{_chan} — GA4 screen views",
+                    boosting=_GB.ORGANIC, impressions_total=ga4_res.total or None,
+                    post_groups=[_chan],
+                    raw={"source": "ga4", "per_screen": ga4_res.per_screen},
+                ))
+
         for tt_file in c.get("sources", {}).get("tiktok_ads", []) or []:
             path = exports_root / tt_file
             if not path.exists():

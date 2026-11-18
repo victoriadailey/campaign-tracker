@@ -9,3 +9,4 @@ openpyxl>=3.1,<4.0   # lets the ad-platform parsers read exports saved as .xlsx
 pyyaml>=6.0,<7.0
 python-dotenv>=1.0,<2.0
 requests>=2.31,<3.0
+google-auth>=2.0,<3.0   # GA4 Data API auth (lazy; only used when a campaign enables ga4:)

@@ -2168,6 +2168,21 @@ campaigns:
       organization_id: f926b7d4-f92f-11ec-99a7-2b87d2fee883
       podcast_slug: FOS5664832205
       podcast_title: Front Office Sports Today
+    # GA4 app-analytics feed for the "FOS App" channel (Now & Listen tabs).
+    # Property 543910325 (front-office-sports-app · GCP project fos-app-analytics).
+    # DORMANT until enabled: uncomment this block AND add a service-account key
+    # with GA4 Viewer on the property as the GA4_SA_JSON GitHub Actions secret
+    # (+ local .env). On refresh it sums Views of the screens below over the
+    # flight window and supersedes the hand-kept "FOS App" delivery-log row.
+    # TODO on first run: confirm `dimension` — these /t/ values may be
+    # `unifiedScreenName` (app screens) or `pagePath`; flip if no rows return.
+    # ga4:
+    #   property_id: "543910325"
+    #   channel: "FOS App"
+    #   dimension: unifiedScreenName
+    #   screens:
+    #     - /t/now/now
+    #     - /t/watch/listen
     sources:
       delivery_log:
         - microsoft_copilot_delivery_log.csv
