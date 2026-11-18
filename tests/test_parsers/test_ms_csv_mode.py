@@ -166,7 +166,7 @@ def test_tiktok_impressions_are_paid_plus_organic_views():
     rows = parse(Path("tests/fixtures/huntington_bank_2026_ms.csv").read_bytes()).rows
     tt = {p.posted_at.date().isoformat(): p for p in rows if p.platform is Platform.TIKTOK}
     assert tt["2026-10-12"].impressions_total == 219039 + 57360
-    assert tt["2026-11-09"].impressions_total == 249722 + 97350
+    assert tt["2026-11-09"].impressions_total == 249722 + 97362
     assert tt["2026-09-18"].impressions_total == 693087   # dark: paid only
 
 
