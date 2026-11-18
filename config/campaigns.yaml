@@ -2236,6 +2236,11 @@ campaigns:
     # "organic+boosted" (same treatment as the Zoom Short).
     paid_only_post_ids:
       - "BFFa_l3FbZw"   # YT Short — "How does an NIL deal come together?"
+    # The X Ads export lists three ad campaigns that all promote the SAME X post
+    # (original, "(copy)" and the Video Views re-run). Show them as one X post.
+    merge_posts:
+      - ids: ["42949897", "43079137", "42949177"]
+        title: "NYLI: FOS Explains full ep"
     sources:
       x_ads:
         - nylim_fosexplains_x_ads.csv
