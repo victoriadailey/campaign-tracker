@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-18T14:56:44Z";
+window.LAST_REFRESHED = "2026-11-18T14:59:17Z";
 
 
 
@@ -7446,7 +7446,7 @@ window.CAMPAIGNS = [
     "er": 1.39,
     "cpm": 1.5,
     "episodes": 2,
-    "posts": 8,
+    "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
     "views": 1115192,
     "engagements": 61141,
@@ -25654,7 +25654,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.1,
           "cpm": 2.27,
           "spend": 559.5,
-          "posts": 3
+          "posts": 1
         },
         {
           "name": "Facebook",
@@ -25734,47 +25734,17 @@ window.EPISODES_BY_CAMPAIGN = {
           "postedAt": "2026-11-04T09:11:00"
         },
         {
-          "title": "NYLI: FOS Explains full ep (copy)",
-          "platform": "X",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 213569,
-          "paidImpr": 213569,
-          "orgImpr": 0,
-          "views": 119526,
-          "eng": 192,
-          "er": 0.09,
-          "spend": 492.0,
-          "url": null,
-          "postedAt": null
-        },
-        {
-          "title": "NYLI: FOS Explains full ep (Video Views)",
-          "platform": "X",
-          "accountName": null,
-          "distKind": "paid",
-          "impr": 29925,
-          "paidImpr": 29925,
-          "orgImpr": 0,
-          "views": 25944,
-          "eng": 44,
-          "er": 0.15,
-          "spend": 65.0,
-          "url": null,
-          "postedAt": null
-        },
-        {
           "title": "NYLI: FOS Explains full ep",
           "platform": "X",
           "accountName": null,
           "distKind": "paid",
-          "impr": 3063,
-          "paidImpr": 3063,
+          "impr": 246557,
+          "paidImpr": 246557,
           "orgImpr": 0,
-          "views": 1502,
-          "eng": 1,
-          "er": 0.03,
-          "spend": 2.5,
+          "views": 146972,
+          "eng": 237,
+          "er": 0.1,
+          "spend": 559.5,
           "url": null,
           "postedAt": null
         }
@@ -47244,69 +47214,23 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-11-04T09:11:00"
     },
     {
-      "title": "NYLI: FOS Explains full ep (copy)",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 213569,
-      "paidImpr": 213569,
-      "orgImpr": 0,
-      "views": 119526,
-      "reach": 0,
-      "eng": 192,
-      "er": 0.09,
-      "spend": 492.0,
-      "watchTimeMin": null,
-      "clicks": 0,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.3,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
-      "title": "NYLI: FOS Explains full ep (Video Views)",
-      "platform": "X",
-      "accountName": null,
-      "distKind": "paid",
-      "impr": 29925,
-      "paidImpr": 29925,
-      "orgImpr": 0,
-      "views": 25944,
-      "reach": 0,
-      "eng": 44,
-      "er": 0.15,
-      "spend": 65.0,
-      "watchTimeMin": null,
-      "clicks": 0,
-      "ctr": null,
-      "cpc": null,
-      "cpm": 2.17,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": null,
-      "postedAt": null
-    },
-    {
       "title": "NYLI: FOS Explains full ep",
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 3063,
-      "paidImpr": 3063,
+      "impr": 246557,
+      "paidImpr": 246557,
       "orgImpr": 0,
-      "views": 1502,
+      "views": 146972,
       "reach": 0,
-      "eng": 1,
-      "er": 0.03,
-      "spend": 2.5,
+      "eng": 237,
+      "er": 0.1,
+      "spend": 559.5,
       "watchTimeMin": null,
       "clicks": 0,
       "ctr": null,
       "cpc": null,
-      "cpm": 0.82,
+      "cpm": 2.27,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -48931,7 +48855,7 @@ window.DATA_ARCHIVE = [
     "fileSizeKb": 6.2,
     "lastModified": "2026-11-18",
     "exists": true,
-    "postsContributed": 3
+    "postsContributed": 1
   },
   {
     "campaignId": "nwsl_championship_brandx",
