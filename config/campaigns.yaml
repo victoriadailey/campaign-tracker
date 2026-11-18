@@ -2110,14 +2110,16 @@ campaigns:
     series_italic: Partner
     type: presenting
     lifecycle: active
-    # Start TBD (~next Monday); brief says Nov 8. ~35 weekday episodes.
-    flight_start: 2026-11-09
+    # Launch Thu Nov 19, 2026 (~28 weekday episodes through Dec 31).
+    # FOS App "Now & Listen" integration went live early on Wed Nov 18 — its
+    # impressions accrue toward the FOS App goal from the 18th.
+    flight_start: 2026-11-19
     flight_end: 2026-12-31
     impression_goal: 14_346_300
     budget_goal: 58_500
     color: ft-copilot  # Microsoft blue hero (pulled from the Copilot logo)
     lead_format: Presenting Partner
-    blurb: "Microsoft Copilot — presenting partner of FOS Today (~35 weekday episodes). Scored on cumulative impressions vs the 14.3M contracted goal across promo + podcast, from the per-episode delivery log."
+    blurb: "Microsoft Copilot — presenting partner of FOS Today (~28 weekday episodes, Nov 19–Dec 31). Scored on cumulative impressions vs the 14.3M contracted goal across promo + podcast, from the per-episode delivery log."
     # Two groups shown as separate sections on the campaign page:
     #   impressions — any placement where Microsoft is mentioned / in the key art
     #                 (promo imps, 14,155,000 total)

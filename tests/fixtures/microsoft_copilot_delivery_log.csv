@@ -1,12 +1,4 @@
 episode_id,episode_date,episode_title,channel,post_type,post_url,published_at,copilot_tagged,paid_boost,paid_spend_usd,impressions,engagements,link_clicks,listens_attributed,notes
-ep-2026-11-09,2026-11-09,FOS Today — Mon Nov 9,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-ep-2026-11-10,2026-11-10,FOS Today — Tue Nov 10,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-ep-2026-11-11,2026-11-11,FOS Today — Wed Nov 11,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-ep-2026-11-12,2026-11-12,FOS Today — Thu Nov 12,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-ep-2026-11-13,2026-11-13,FOS Today — Fri Nov 13,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-ep-2026-11-16,2026-11-16,FOS Today — Mon Nov 16,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-ep-2026-11-17,2026-11-17,FOS Today — Tue Nov 17,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-ep-2026-11-18,2026-11-18,FOS Today — Wed Nov 18,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
 ep-2026-11-19,2026-11-19,FOS Today — Thu Nov 19,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
 ep-2026-11-20,2026-11-20,FOS Today — Fri Nov 20,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
 ep-2026-11-23,2026-11-23,FOS Today — Mon Nov 23,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
@@ -35,7 +27,7 @@ ep-2026-12-28,2026-12-28,FOS Today — Mon Dec 28,Megaphone Listens,podcast,,,TR
 ep-2026-12-29,2026-12-29,FOS Today — Tue Dec 29,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
 ep-2026-12-30,2026-12-30,FOS Today — Wed Dec 30,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
 ep-2026-12-31,2026-12-31,FOS Today — Thu Dec 31,Megaphone Listens,podcast,,,TRUE,,,,,,,NEW in-window episode — listens during flight (incl. tail). paste listens_attributed
-(back catalog),,,Back Catalog,podcast,,,TRUE,,,,,,,"pre-window episodes w/ Copilot ad read — in-flight listens (tracked separately, no goal). = show-level window Downloads MINUS the 36 new-episode rows above"
+(back catalog),,,Back Catalog,podcast,,,TRUE,,,,,,,"pre-window episodes w/ Copilot ad read — in-flight listens (tracked separately, no goal). = show-level window Downloads MINUS the new-episode rows above"
 (flight),,,X,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
 (flight),,,AudienceLift,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
 (flight),,,Spotify/Reddit/Overcast (Paid),,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
@@ -46,7 +38,7 @@ ep-2026-12-31,2026-12-31,FOS Today — Thu Dec 31,Megaphone Listens,podcast,,,TR
 (flight),,,.com homepage,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
 (flight),,,IG Stories,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
 (flight),,,Spotify Discovery Events,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
-(flight),,,FOS App,,,,TRUE,,,,,,,"flight scaffold — enter cumulative impressions here, or split into per-post rows"
+(flight),,,FOS App,,,,TRUE,,,,,,,App integration (Now & Listen tabs) LIVE since 2026-11-18 — enter cumulative impressions here (first channel to accrue).
 (flight),,,AudienceLift Audio,,,,TRUE,,,,,,,"flight scaffold — enter cumulative listens in listens_attributed, or split into per-post rows"
 (flight),,,Paid Promo,,,,TRUE,,,,,,,"flight scaffold — enter cumulative listens in listens_attributed, or split into per-post rows"
 (flight),,,Organic App,,,,TRUE,,,,,,,"flight scaffold — enter cumulative listens in listens_attributed, or split into per-post rows"
