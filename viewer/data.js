@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-18T14:59:17Z";
+window.LAST_REFRESHED = "2026-11-18T16:25:50Z";
 
 
 
@@ -7222,11 +7222,11 @@ window.CAMPAIGNS = [
     "series": "FOS Today Presenting Partner",
     "seriesItalic": "Partner",
     "type": "presenting",
-    "flight": "Nov 9 \u2014 Dec 31, 2026",
-    "elapsedPct": 17.3,
+    "flight": "Nov 19 \u2014 Dec 31, 2026",
+    "elapsedPct": 0.0,
     "daysLeft": 43,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "On Track",
+    "statusKind": "on",
     "impressions": {
       "delivered": 0,
       "goal": 14346300
@@ -7241,8 +7241,8 @@ window.CAMPAIGNS = [
     "er": 0.0,
     "cpm": 0.0,
     "episodes": 0,
-    "posts": 51,
-    "blurb": "Microsoft Copilot \u2014 presenting partner of FOS Today (~35 weekday episodes). Scored on cumulative impressions vs the 14.3M contracted goal across promo + podcast, from the per-episode delivery log.",
+    "posts": 43,
+    "blurb": "Microsoft Copilot \u2014 presenting partner of FOS Today (~28 weekday episodes, Nov 19\u2013Dec 31). Scored on cumulative impressions vs the 14.3M contracted goal across promo + podcast, from the per-episode delivery log.",
     "views": 0,
     "engagements": 0,
     "goalSplit": [],
@@ -7379,7 +7379,7 @@ window.CAMPAIGNS = [
         "label": "Megaphone Listens",
         "group": "listens",
         "card": "Megaphone",
-        "posts": 36,
+        "posts": 28,
         "impressions": {
           "delivered": 0,
           "goal": 63000
@@ -7416,7 +7416,7 @@ window.CAMPAIGNS = [
         }
       }
     ],
-    "placements": 51,
+    "placements": 43,
     "tagCompliancePct": 100.0,
     "lastUpdatedMs": "",
     "lastUpdatedExports": ""
