@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-18T20:56:56Z";
+window.LAST_REFRESHED = "2026-11-18T21:00:47Z";
 
 
 
@@ -1092,11 +1092,11 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 3980069,
+      "delivered": 4015703,
       "goal": 3400000
     },
     "budget": {
-      "delivered": 11071.65,
+      "delivered": 11153.21,
       "goal": 30000.0
     },
     "color": "ft-3",
@@ -1107,8 +1107,8 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 2,
     "blurb": "Performance-focused paid social with E*TRADE. Awareness primary; clicks secondary.",
-    "views": 3980069,
-    "engagements": 5472,
+    "views": 4015703,
+    "engagements": 5546,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
     "lifecycle": "active",
@@ -1116,8 +1116,8 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 3980069,
-        "eng": 5472,
+        "impressions": 4015703,
+        "eng": 5546,
         "er": 0.14,
         "cpm": 2.78,
         "color": "#E4405F",
@@ -1127,7 +1127,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 3980069
+        "views": 4015703
       }
     ],
     "topPosts": [],
@@ -1139,7 +1139,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-13T19:51:15Z"
+    "lastUpdatedExports": "2026-11-18T21:00:18Z"
   },
   {
     "id": "mm",
@@ -8034,8 +8034,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 38738069,
-    "eng": 686400,
+    "impressions": 38773703,
+    "eng": 686474,
     "er": 1.77,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -8045,7 +8045,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 28866,
-    "views": 35716692
+    "views": 35752326
   },
   {
     "name": "X",
@@ -37427,19 +37427,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 386763,
-      "paidImpr": 386763,
+      "impr": 422397,
+      "paidImpr": 422397,
       "orgImpr": 0,
-      "views": 386763,
-      "reach": 142504,
-      "eng": 822,
+      "views": 422397,
+      "reach": 165467,
+      "eng": 896,
       "er": 0.21,
-      "spend": 1018.42,
+      "spend": 1099.98,
       "watchTimeMin": null,
-      "clicks": 143,
-      "ctr": 0.04,
-      "cpc": 7.12,
-      "cpm": 2.63,
+      "clicks": 193,
+      "ctr": 0.05,
+      "cpc": 5.7,
+      "cpm": 2.6,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
