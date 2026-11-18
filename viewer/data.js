@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-18T16:39:12Z";
+window.LAST_REFRESHED = "2026-11-18T18:57:56Z";
 
 
 
@@ -51100,30 +51100,6 @@ window.BENCHMARKS_DATA = {
         "notes": ""
       },
       {
-        "campaign": "Laver Cup",
-        "client": "Laver Cup",
-        "category": "Video: Custom Social (Organic + Boosted)",
-        "franchise": "None (Custom)",
-        "contentType": "Video",
-        "distribution": "Organic + Boosted",
-        "group": "In-feed",
-        "tentpoleMoment": "Laver Cup",
-        "tentpole": "Tentpole",
-        "year": "2025",
-        "program": "Sponsored",
-        "platforms": {
-          "Instagram": 0.3,
-          "X": 7.37,
-          "TikTok": 3.24,
-          "LinkedIn": 1.07
-        },
-        "all": 5.45,
-        "spend": null,
-        "include": true,
-        "tagsToConfirm": "",
-        "notes": ""
-      },
-      {
         "campaign": "Morgan & Morgan x The Case Study",
         "client": "Morgan & Morgan",
         "category": "Video: Custom Social (Organic + Boosted)",
@@ -52347,15 +52323,15 @@ window.BENCHMARKS_DATA = {
         "name": "Video: Custom Social (Organic + Boosted)",
         "group": "In-feed",
         "platforms": {
-          "Instagram": 2.89,
+          "Instagram": 3.04,
           "Facebook": 0.64,
-          "X": 0.91,
-          "TikTok": 0.5,
-          "LinkedIn": 3.13,
+          "X": 0.32,
+          "TikTok": 0.33,
+          "LinkedIn": 3.36,
           "YouTube Shorts": 9.94
         },
-        "all": 2.8,
-        "nCampaigns": 19
+        "all": 2.65,
+        "nCampaigns": 18
       },
       {
         "name": "Video: Custom Social (Organic)",
@@ -52550,16 +52526,16 @@ window.BENCHMARKS_DATA = {
     "allSponsored": {
       "name": "All sponsored campaigns",
       "platforms": {
-        "Instagram": 3.67,
+        "Instagram": 3.73,
         "Facebook": 1.69,
-        "X": 0.85,
-        "TikTok": 1.0,
-        "LinkedIn": 3.54,
+        "X": 0.69,
+        "TikTok": 0.96,
+        "LinkedIn": 3.59,
         "YouTube Shorts": 9.1,
         "YouTube": 1.64
       },
-      "all": 2.94,
-      "nCampaigns": 65
+      "all": 2.9,
+      "nCampaigns": 64
     },
     "platformSets": [
       {
@@ -52697,7 +52673,6 @@ window.BENCHMARKS_DATA = {
         "Huntington Bank",
         "Invesco QQQ",
         "Kaiser Permanente",
-        "Laver Cup",
         "Microsoft",
         "Morgan & Morgan",
         "Next League",
