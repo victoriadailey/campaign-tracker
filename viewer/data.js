@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-19T21:16:13Z";
+window.LAST_REFRESHED = "2026-11-19T21:21:59Z";
 
 
 
@@ -51309,6 +51309,78 @@ window.BENCHMARKS_DATA = {
         "notes": ""
       },
       {
+        "campaign": "Invesco QQQ x 2025 Busines of Bowl Season",
+        "client": "Invesco QQQ",
+        "category": "Social Coverage Partner",
+        "franchise": "None (Alignment)",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "group": "In-feed",
+        "tentpoleMoment": "College Football Bowl Season",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 4.19,
+          "LinkedIn": 4.38
+        },
+        "all": 4.2,
+        "spend": 12989.44,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "US Bank x 2026 NFL Draft",
+        "client": "U.S. Bank",
+        "category": "Social Coverage Partner",
+        "franchise": "None (Custom)",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "group": "In-feed",
+        "tentpoleMoment": "NFL Draft",
+        "tentpole": "Tentpole",
+        "year": "2026",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 4.02,
+          "Facebook": 0.19,
+          "X": 1.28,
+          "LinkedIn": 3.95
+        },
+        "all": 3.69,
+        "spend": null,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
+        "campaign": "Upper Deck x 2025 NHL Draft",
+        "client": "Upper Deck",
+        "category": "Social Coverage Partner",
+        "franchise": "None (Alignment)",
+        "contentType": "Video + Static",
+        "distribution": "Organic + Boosted",
+        "group": "In-feed",
+        "tentpoleMoment": "NHL Draft",
+        "tentpole": "Tentpole",
+        "year": "2025",
+        "program": "Sponsored",
+        "platforms": {
+          "Instagram": 3.06,
+          "Facebook": 0.37,
+          "X": 0.64,
+          "TikTok": 1.8,
+          "LinkedIn": 11.08,
+          "YouTube Shorts": 0.75
+        },
+        "all": 2.32,
+        "spend": 14149.47,
+        "include": true,
+        "tagsToConfirm": "",
+        "notes": ""
+      },
+      {
         "campaign": "Morgan & Morgan x The Case Study (Carousel)",
         "client": "Morgan & Morgan",
         "category": "Static: Custom Social (Organic + Boosted)",
@@ -52615,6 +52687,20 @@ window.BENCHMARKS_DATA = {
     ],
     "categories": [
       {
+        "name": "Social Coverage Partner",
+        "group": "In-feed",
+        "platforms": {
+          "Instagram": 3.76,
+          "Facebook": 0.28,
+          "X": 0.96,
+          "TikTok": 1.8,
+          "LinkedIn": 6.47,
+          "YouTube Shorts": 0.75
+        },
+        "all": 3.4,
+        "nCampaigns": 3
+      },
+      {
         "name": "Video: Social-First IP or Franchise (Organic or Boosted)",
         "group": "In-feed",
         "platforms": {
@@ -52820,16 +52906,16 @@ window.BENCHMARKS_DATA = {
     "allSponsored": {
       "name": "All sponsored campaigns",
       "platforms": {
-        "Instagram": 3.81,
-        "Facebook": 1.81,
-        "X": 0.42,
-        "TikTok": 0.85,
-        "LinkedIn": 3.41,
-        "YouTube Shorts": 9.62,
+        "Instagram": 3.8,
+        "Facebook": 1.69,
+        "X": 0.45,
+        "TikTok": 0.87,
+        "LinkedIn": 3.61,
+        "YouTube Shorts": 9.35,
         "YouTube": 1.64
       },
-      "all": 2.89,
-      "nCampaigns": 59
+      "all": 2.92,
+      "nCampaigns": 62
     },
     "platformSets": [
       {
@@ -52873,6 +52959,7 @@ window.BENCHMARKS_DATA = {
       }
     ],
     "categoryOrder": [
+      "Social Coverage Partner",
       "Video: Social-First IP or Franchise (Organic or Boosted)",
       "Static: Social-First IP or Franchise (Organic or Boosted)",
       "Video: Custom Social (Organic + Boosted)",
@@ -52892,6 +52979,7 @@ window.BENCHMARKS_DATA = {
     ],
     "filters": {
       "category": [
+        "Social Coverage Partner",
         "Video: Social-First IP or Franchise (Organic or Boosted)",
         "Static: Social-First IP or Franchise (Organic or Boosted)",
         "Video: Custom Social (Organic + Boosted)",
@@ -52956,6 +53044,7 @@ window.BENCHMARKS_DATA = {
         "Gatorade",
         "Heineken",
         "Huntington Bank",
+        "Invesco QQQ",
         "Kaiser Permanente",
         "Microsoft",
         "Morgan & Morgan",
@@ -52982,6 +53071,7 @@ window.BENCHMARKS_DATA = {
         "Toyota",
         "U.S. Bank",
         "UBS",
+        "Upper Deck",
         "Whirlpool",
         "Wilson",
         "Zoom"
@@ -52993,6 +53083,7 @@ window.BENCHMARKS_DATA = {
         "FOS Explains",
         "Future of Sports",
         "Huddle in the Hamptons",
+        "None (Alignment)",
         "None (Custom)",
         "Portfolio Players",
         "Second Acts",
