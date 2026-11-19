@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-19T17:11:26Z";
+window.LAST_REFRESHED = "2026-11-19T17:12:11Z";
 
 
 
@@ -7433,11 +7433,11 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 4396778,
+      "delivered": 4402078,
       "goal": 4250000
     },
     "budget": {
-      "delivered": 6766.04,
+      "delivered": 6778.55,
       "goal": 6000.0
     },
     "color": "ft-10",
@@ -7448,8 +7448,8 @@ window.CAMPAIGNS = [
     "episodes": 2,
     "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
-    "views": 1131490,
-    "engagements": 61150,
+    "views": 1136166,
+    "engagements": 61162,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -7521,18 +7521,18 @@ window.CAMPAIGNS = [
       {
         "name": "X",
         "italic": "X",
-        "impressions": 246557,
-        "eng": 237,
+        "impressions": 251857,
+        "eng": 249,
         "er": 0.1,
         "cpm": 2.27,
         "color": "#1d1d1f",
-        "delta": -89.6,
+        "delta": -89.3,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
         "organicImpressions": 0,
-        "views": 146972
+        "views": 151648
       },
       {
         "name": "Facebook",
@@ -7568,7 +7568,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Full Episode",
         "impressions": {
-          "delivered": 3151240,
+          "delivered": 3156540,
           "goal": 3250000
         }
       },
@@ -7583,7 +7583,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-19T17:08:41Z"
+    "lastUpdatedExports": "2026-11-19T17:11:34Z"
   },
   {
     "id": "nwsl_championship_brandx",
@@ -8072,8 +8072,8 @@ window.CHANNELS = [
   {
     "name": "X",
     "italic": "X",
-    "impressions": 31478873,
-    "eng": 651780,
+    "impressions": 31484173,
+    "eng": 651792,
     "er": 2.07,
     "cpm": 1.74,
     "color": "#1d1d1f",
@@ -8083,7 +8083,7 @@ window.CHANNELS = [
       "cpm": 1.1
     },
     "organicImpressions": -108078,
-    "views": 1130113
+    "views": 1134789
   },
   {
     "name": "Facebook",
@@ -26001,11 +26001,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "How NIL Deals Really Work",
       "date": "Nov 4",
       "total": {
-        "impr": 3151240,
-        "views": 344085,
+        "impr": 3156540,
+        "views": 348761,
         "er": 0.16,
-        "eng": 52013,
-        "spend": 4083.69
+        "eng": 52025,
+        "spend": 4096.2
       },
       "perChannel": [
         {
@@ -26026,16 +26026,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "X",
           "distKind": "paid",
-          "impr": 246557,
-          "paidImpr": 246557,
+          "impr": 251857,
+          "paidImpr": 251857,
           "orgImpr": 0,
-          "views": 146972,
-          "eng": 237,
-          "paidEng": 237,
+          "views": 151648,
+          "eng": 249,
+          "paidEng": 249,
           "orgEng": 0,
           "er": 0.1,
           "cpm": 2.27,
-          "spend": 559.5,
+          "spend": 572.01,
           "posts": 1
         },
         {
@@ -26120,13 +26120,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "X",
           "accountName": null,
           "distKind": "paid",
-          "impr": 246557,
-          "paidImpr": 246557,
+          "impr": 251857,
+          "paidImpr": 251857,
           "orgImpr": 0,
-          "views": 146972,
-          "eng": 237,
+          "views": 151648,
+          "eng": 249,
           "er": 0.1,
-          "spend": 559.5,
+          "spend": 572.01,
           "url": null,
           "postedAt": null
         }
@@ -47899,14 +47899,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "X",
       "accountName": null,
       "distKind": "paid",
-      "impr": 246557,
-      "paidImpr": 246557,
+      "impr": 251857,
+      "paidImpr": 251857,
       "orgImpr": 0,
-      "views": 146972,
+      "views": 151648,
       "reach": 0,
-      "eng": 237,
+      "eng": 249,
       "er": 0.1,
-      "spend": 559.5,
+      "spend": 572.01,
       "watchTimeMin": null,
       "clicks": 0,
       "ctr": null,
@@ -49543,7 +49543,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "nylim_fosexplains_x_ads.csv",
-    "fileSizeKb": 6.2,
+    "fileSizeKb": 0.7,
     "lastModified": "2026-11-19",
     "exists": true,
     "postsContributed": 1
