@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-19T19:26:10Z";
+window.LAST_REFRESHED = "2026-11-19T20:24:24Z";
 
 
 
@@ -7667,94 +7667,77 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 1222413,
+      "delivered": 1654373,
       "goal": 6500000
     },
     "budget": {
-      "delivered": 2584.77,
+      "delivered": 3609.77,
       "goal": 17000.0
     },
     "color": "ft-1",
     "leadFormat": "Short-form Video",
-    "topChannel": "YouTube",
-    "er": 1.29,
-    "cpm": 2.56,
+    "topChannel": "TikTok",
+    "er": 1.01,
+    "cpm": 2.58,
     "episodes": 0,
     "posts": 3,
     "blurb": "Comcast Business and U.S. Squash had 1x Stadium Status video and one DITL video hosted by Lauren Withrow",
-    "views": 640352,
-    "engagements": 15716,
+    "views": 1097445,
+    "engagements": 16686,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
     "channels": [
       {
-        "name": "YouTube Shorts",
-        "italic": "YouTube Shorts",
-        "impressions": 575855,
-        "eng": 11107,
-        "er": 1.93,
-        "cpm": 2.21,
-        "color": "#FF0033",
-        "delta": -90.4,
-        "bench": {
-          "er": 20.0,
-          "cpm": 3.25
-        },
-        "organicImpressions": 1828,
-        "views": 380
-      },
-      {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 503996,
-        "eng": 202,
+        "impressions": 806667,
+        "eng": 298,
         "er": 0.04,
-        "cpm": 1.94,
+        "cpm": 1.98,
         "color": "#000000",
-        "delta": -98.0,
+        "delta": -98.2,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 186335,
-        "views": 498729
+        "organicImpressions": 228023,
+        "views": 796495
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 576094,
+        "eng": 11126,
+        "er": 1.93,
+        "cpm": 2.21,
+        "color": "#FF0033",
+        "delta": -90.3,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 2067,
+        "views": 32030
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 142562,
-        "eng": 4407,
-        "er": 3.09,
-        "cpm": 5.89,
+        "impressions": 271612,
+        "eng": 5262,
+        "er": 1.94,
+        "cpm": 4.83,
         "color": "#E4405F",
-        "delta": -6.6,
+        "delta": -41.5,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 23983,
-        "views": 141243
+        "organicImpressions": 24569,
+        "views": 268920
       }
     ],
-    "topPosts": [
-      {
-        "id": "4030504564809392638",
-        "rank": 1,
-        "partner": "Comcast",
-        "platform": "Instagram",
-        "format": "Reels/Shorts",
-        "quote": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside\u2026",
-        "er": 3.12,
-        "eng": 4407,
-        "reach": 141243,
-        "organic": 17,
-        "metric": "er",
-        "insight": "",
-        "url": "https://www.instagram.com/p/DfvOowTDeH-/",
-        "postedAt": "2026-11-14T16:03:00"
-      }
-    ],
+    "topPosts": [],
     "topPostsOrganic": [
       {
         "id": "o1",
@@ -7763,9 +7746,9 @@ window.CAMPAIGNS = [
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside\u2026",
-        "organicReach": 186335,
-        "totalReach": 498729,
-        "organicPct": 37.4,
+        "organicReach": 228023,
+        "totalReach": 796495,
+        "organicPct": 28.6,
         "er": 0.04,
         "insight": "",
         "url": "https://tiktok.com/@frontofficesports/video/7707768974259408141"
@@ -7775,8 +7758,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 30% of goal (2.0M of 6.5M) with 11 days left.",
-        "body": "At the current rate the campaign will fall ~4.5M impressions short of the 6.5M goal. Need to deliver 480K impr/day (7.1\u00d7 the current 68K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 41% of goal (2.7M of 6.5M) with 11 days left.",
+        "body": "At the current rate the campaign will fall ~3.8M impressions short of the 6.5M goal. Need to deliver 441K impr/day (4.8\u00d7 the current 92K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Comcast \u00b7 Pacing"
       }
     ],
@@ -7786,7 +7769,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-18T14:38:33Z"
+    "lastUpdatedExports": "2026-11-19T20:23:50Z"
   }
 ];
 
@@ -8011,9 +7994,9 @@ window.TOP_POSTS_ORGANIC = [
     "platform": "TikTok",
     "format": "Reels/Shorts",
     "quote": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside\u2026",
-    "organicReach": 186335,
-    "totalReach": 498729,
-    "organicPct": 37.4,
+    "organicReach": 228023,
+    "totalReach": 796495,
+    "organicPct": 28.6,
     "er": 0.04,
     "insight": "",
     "url": "https://tiktok.com/@frontofficesports/video/7707768974259408141"
@@ -8024,8 +8007,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 128338461,
-    "eng": 3033740,
+    "impressions": 128338700,
+    "eng": 3033759,
     "er": 2.36,
     "cpm": 1.13,
     "color": "#E00922",
@@ -8034,14 +8017,14 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 4702,
-    "views": 25992298
+    "organicImpressions": 4941,
+    "views": 26023948
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 42351189,
-    "eng": 72114,
+    "impressions": 42653860,
+    "eng": 72210,
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
@@ -8050,14 +8033,14 @@ window.CHANNELS = [
       "er": 2.03,
       "cpm": 2.4
     },
-    "organicImpressions": 187189,
-    "views": 41808504
+    "organicImpressions": 228877,
+    "views": 42106270
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 38830941,
-    "eng": 688263,
+    "impressions": 38959991,
+    "eng": 689118,
     "er": 1.77,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -8066,8 +8049,8 @@ window.CHANNELS = [
       "er": 3.31,
       "cpm": 5.1
     },
-    "organicImpressions": 43776,
-    "views": 35808644
+    "organicImpressions": 44362,
+    "views": 35936321
   },
   {
     "name": "X",
@@ -8199,8 +8182,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 30% of goal (2.0M of 6.5M) with 11 days left.",
-    "body": "At the current rate the campaign will fall ~4.5M impressions short of the 6.5M goal. Need to deliver 480K impr/day (7.1\u00d7 the current 68K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 41% of goal (2.7M of 6.5M) with 11 days left.",
+    "body": "At the current rate the campaign will fall ~3.8M impressions short of the 6.5M goal. Need to deliver 441K impr/day (4.8\u00d7 the current 92K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Comcast \u00b7 Pacing",
     "campaignId": "comcast_us_squash",
     "campaignPartner": "Comcast"
@@ -47991,22 +47974,45 @@ window.POSTS_BY_CAMPAIGN = {
   ],
   "comcast_us_squash": [
     {
+      "title": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside the Specter Center with",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 806667,
+      "paidImpr": 578644,
+      "orgImpr": 228023,
+      "views": 796495,
+      "reach": 264383,
+      "eng": 298,
+      "er": 0.04,
+      "spend": 1147.0,
+      "watchTimeMin": 12047.1,
+      "clicks": null,
+      "ctr": 0.0,
+      "cpc": 1147.0,
+      "cpm": 1.98,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7707768974259408141",
+      "postedAt": "2026-11-14T16:00:00"
+    },
+    {
       "title": "A century-old Philadelphia armory is now the biggest squash facility in the country.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 575855,
+      "impr": 576094,
       "paidImpr": 574027,
-      "orgImpr": 1828,
-      "views": 380,
+      "orgImpr": 2067,
+      "views": 32030,
       "reach": 0,
-      "eng": 11107,
+      "eng": 11126,
       "er": 1.93,
       "spend": 1269.77,
-      "watchTimeMin": 127.0,
+      "watchTimeMin": 1606.0,
       "clicks": null,
-      "ctr": 0.68,
-      "cpc": 3.3,
+      "ctr": 0.56,
+      "cpc": 3.91,
       "cpm": 2.21,
       "videoViews100Pct": null,
       "videoViews3s": null,
@@ -48015,45 +48021,22 @@ window.POSTS_BY_CAMPAIGN = {
     },
     {
       "title": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside the Specter Center with",
-      "platform": "TikTok",
-      "accountName": "Front Office Sports",
-      "distKind": "organic+boosted",
-      "impr": 503996,
-      "paidImpr": 317661,
-      "orgImpr": 186335,
-      "views": 498729,
-      "reach": 404,
-      "eng": 202,
-      "er": 0.04,
-      "spend": 616.0,
-      "watchTimeMin": 7269.6,
-      "clicks": null,
-      "ctr": 0.0,
-      "cpc": 0.0,
-      "cpm": 1.94,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://tiktok.com/@frontofficesports/video/7707768974259408141",
-      "postedAt": "2026-11-14T16:00:00"
-    },
-    {
-      "title": "A century-old Philadelphia armory is now the biggest squash facility in the country. Step inside the Specter Center with",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 142562,
-      "paidImpr": 118579,
-      "orgImpr": 23983,
-      "views": 141243,
-      "reach": 35319,
-      "eng": 4407,
-      "er": 3.09,
-      "spend": 699.0,
+      "impr": 271612,
+      "paidImpr": 247043,
+      "orgImpr": 24569,
+      "views": 268920,
+      "reach": 225542,
+      "eng": 5262,
+      "er": 1.94,
+      "spend": 1193.0,
       "watchTimeMin": null,
       "clicks": null,
-      "ctr": 0.05,
-      "cpc": 12.48,
-      "cpm": 5.89,
+      "ctr": 0.04,
+      "cpc": 12.56,
+      "cpm": 4.83,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfvOowTDeH-/",
