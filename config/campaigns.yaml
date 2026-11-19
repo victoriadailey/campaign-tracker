@@ -1,6 +1,6 @@
 # FOS Campaign Tracker — campaign config
 # Edit and run: python -m app.viewer.refresh
-# (benchmarks live in config/benchmarks_campaigns.csv; edit this file's comments to force a refresh).
+# (benchmarks live in config/benchmarks_campaigns.csv; edit this file's comments to force a refresh)
 
 exports_root: tests/fixtures
 

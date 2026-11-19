@@ -200,15 +200,15 @@ def test_daktronics_frozen_rows_reproduce_last_published_card_with_facebook_tota
 
 
 def test_facebook_dark_engagements_from_paid_reaction_columns():
-    """NYLI dark Facebook post (11.18 export): paid reactions + comments + shares = 15 engagements; 29 paid link clicks."""
+    """NYLI dark Facebook post (11.19 export): paid reactions + comments + shares = 24 engagements; 127 paid link clicks."""
     from pathlib import Path
     from app.parsers.base import Platform
     from app.parsers.measure_studio import parse
 
     rows = parse(Path("tests/fixtures/nylim_fosexplains_ms.csv").read_bytes()).rows
     fb = next(p for p in rows if p.platform is Platform.FACEBOOK)
-    assert fb.engagements_total == 15 and fb.engagements_paid == 15
-    assert fb.clicks_paid == 29 and fb.impressions_total == 142804
+    assert fb.engagements_total == 24 and fb.engagements_paid == 24
+    assert fb.clicks_paid == 127 and fb.impressions_total == 153225
 
 
 def test_pwc_facebook_organic_reel_and_dark_ad_merge():
