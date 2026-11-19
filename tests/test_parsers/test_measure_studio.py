@@ -24,7 +24,7 @@ def adp_full_episode_result() -> ParseResult:
 
 @pytest.fixture()
 def portfolio_players_result() -> ParseResult:
-    return parse(str(FIXTURES / "portfolio_players_ms.csv"))
+    return parse(str(FIXTURES / "pfp_parser_sample_ms.csv"))
 
 
 def test_adp_cutdown_parses(adp_cutdown_result):
@@ -121,9 +121,9 @@ def test_empty_file_error():
 
 def test_organic_only_for_x_reduces_totals_to_organic_share():
     """X posts under organic_only_for={Platform.X} must drop paid from totals."""
-    result_default = parse(str(FIXTURES / "portfolio_players_ms.csv"))
+    result_default = parse(str(FIXTURES / "pfp_parser_sample_ms.csv"))
     result_org_only = parse(
-        str(FIXTURES / "portfolio_players_ms.csv"),
+        str(FIXTURES / "pfp_parser_sample_ms.csv"),
         organic_only_for={Platform.X},
     )
 
@@ -167,10 +167,10 @@ def test_organic_only_for_x_strips_paid_from_ms_totals():
     paid impressions have been removed. This is THE invariant that prevents
     double-counting with the X Ads file."""
     ms_org_only = parse(
-        str(FIXTURES / "portfolio_players_ms.csv"),
+        str(FIXTURES / "pfp_parser_sample_ms.csv"),
         organic_only_for={Platform.X},
     )
-    ms_default = parse(str(FIXTURES / "portfolio_players_ms.csv"))
+    ms_default = parse(str(FIXTURES / "pfp_parser_sample_ms.csv"))
 
     org_only_x_total = sum(
         p.impressions_total or 0

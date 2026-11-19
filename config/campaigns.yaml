@@ -138,6 +138,10 @@ campaigns:
     # it doesn't read as an algorithmic signal when it's actually a
     # client mandate.
     organic_by_design_for: ["tiktok"]
+    # YouTube Shorts: take paid delivery/spend straight from the Measure export
+    # (each Short's numbers already include every Google Ads campaign promoting
+    # it). Google Ads is still used to split long-form in-feed vs pre-roll.
+    yt_shorts_from_measure: true
     # MS provides the full performance numbers for every platform (organic +
     # paid combined). Paid sources (X Ads, Google Ads YT) supply only the
     # spend — refresh.py's merge step pairs each ads row with its matching
@@ -169,8 +173,10 @@ campaigns:
     sources:
       youtube_paid:
         - etrade_yt_paid.csv
-      # MS API = base layer (organic + paid across IG/FB/TT/LI/X/YT).
-      measure_studio_group_id: 6197         # Portfolio Players S3 x E*TRADE
+      # Measure export = base layer (organic + paid across IG/FB/TT/LI/X/YT).
+      # (was API group 6197, Portfolio Players S3 x E*TRADE; the API ended.)
+      measure_studio:
+        - portfolio_players_ms.csv
       # Snapchat was disconnected from Measure (Oct 2026), so these three Ep. 9
       # (Cuban) posts no longer come back from the API. Frozen at their last
       # saved numbers; post_id matches the Ep. 9 manual_posts pins below.
@@ -213,10 +219,9 @@ campaigns:
       # X Ads CSV supplements X paid (MS doesn't track X paid at all).
       x_ads:
         - portfolio_players_x_ads.csv
-      # CSV fallback only if the API call fails:
-      # measure_studio: [portfolio_players_ms.csv]
     # Most reliable attribution signal: MS column M ("User Tags") is tagged by
-    # the social team with `PP Episode N - <Guest>`. Putting that string in the
+    # the social team with `PFP S3 Episode N: <Guest>` (earlier exports used
+    # `PP Episode N - <Guest>`; both are matched below). Putting that string in the
     # match list wins on length/specificity vs any name-based keyword, so cross-
     # posts that use generic narratives still land on the right episode.
     episodes:
@@ -244,7 +249,7 @@ campaigns:
         n: "Ep. 01"
         title: "Mike Repole on Sports Ownership"
         date: "Feb 3"
-        match: ["PP Episode 1 -", "Repole", "Tom Brady", "Billionaire Built Brands", "Kobe"]
+        match: ["PP Episode 1 -", "PFP S3 Episode 1:", "Repole", "Tom Brady", "Billionaire Built Brands", "Kobe"]
         exclude: []
         manual_posts:
           - "xW3fz52xFVg"   # YT Short "Women's Volleyball is THE Next Big Sports Investment #lovb"
@@ -256,7 +261,7 @@ campaigns:
         title: "Jon Patricof on Athletes Unlimited"
         date: "Feb 12"
         # Cutdowns reference Patricof's businesses via @ handles + tags rather than his name
-        match: ["PP Episode 2 -", "Patricof", "Athletes Unlimited", "@AUProSports", "@theAUSLofficial", "AUSL", "Pro Softball"]
+        match: ["PP Episode 2 -", "PFP S3 Episode 2:", "Patricof", "Athletes Unlimited", "@AUProSports", "@theAUSLofficial", "AUSL", "Pro Softball"]
         exclude: []
         manual_posts:
           - "2024266065409098028"   # 2/18 threaded tweet linking to full Patricof episode
@@ -264,7 +269,7 @@ campaigns:
         n: "Ep. 03"
         title: "Leslie Osborne on Women's Soccer"
         date: "Feb 27"
-        match: ["PP Episode 3 -", "Osborne", "@LeslieOsborne12", "@leslieosborne12", "Bay FC", "@wearebayfc", "Female Messi"]
+        match: ["PP Episode 3 -", "PFP S3 Episode 3:", "Osborne", "@LeslieOsborne12", "@leslieosborne12", "Bay FC", "@wearebayfc", "Female Messi"]
         exclude: []
         manual_posts:
           - "2026779233784136168"   # 2/25 threaded tweet linking to full Osborne episode
@@ -272,14 +277,14 @@ campaigns:
         n: "Ep. 04"
         title: "Paul Rabil on PLL Ownership"
         date: "Mar 31"
-        match: ["PP Episode 4 -", "Rabil", "Premier Lacrosse", "PLL", "Capital Is Flooding"]
+        match: ["PP Episode 4 -", "PFP S3 Episode 4:", "Rabil", "Premier Lacrosse", "PLL", "Capital Is Flooding"]
         exclude: []
       - id: ep5
         n: "Ep. 05"
         title: "Assia Grazioli-Venier on Women's Sports Investment"
         date: "Apr 11"
         match: [
-          "PP Episode 5 -",
+          "PP Episode 5 -", "PFP S3 Episode 5:",
           "Grazioli", "Muse Capital", "Muse Sport", "Assia", "@assiagrazioli",
           "AI officiating", "investment bubble", "Michele Kang", "Washington Spirit",
         ]
@@ -292,7 +297,7 @@ campaigns:
         n: "Ep. 06"
         title: "Allyson Felix on Women's Sports Investment"
         date: "Apr 15"
-        match: ["PP Episode 6 -", "Allyson Felix", "Allyson"]
+        match: ["PP Episode 6 -", "PFP S3 Episode 6:", "Allyson Felix", "Allyson"]
         exclude: []
         manual_posts:
           - "3870854760043974001"   # 4/8 IG Story (Allyson Felix — no title/desc/cats)
@@ -307,23 +312,24 @@ campaigns:
         n: "Ep. 07"
         title: "Brandon Marshall on the Athlete Media Empire"
         date: "Apr 21"
-        match: ["PP Episode 7 -", "Brandon Marshall", "Marshall", "TV networks", "Athlete Media", "active player to do TV"]
+        match: ["PP Episode 7 -", "PFP S3 Episode 7:", "Brandon Marshall", "Marshall", "TV networks", "Athlete Media", "active player to do TV"]
         exclude: []
       - id: ep8
         n: "Ep. 08"
         title: "Dave Checketts on Sports Investing"
         date: "May 5"
-        match: ["PP Episode 8 -", "Checketts", "Former Knicks", "Legendary NBA Exec", "Michael Jordan", "David Stern"]
+        match: ["PP Episode 8 -", "PFP S3 Episode 8:", "Checketts", "Former Knicks", "Legendary NBA Exec", "Michael Jordan", "David Stern"]
         exclude: []
       - id: ep9
         n: "Ep. 09"
         title: "Mark Cuban Explains The Business of Owning an NBA Team"
         date: "May 20"
-        match: ["PP Episode 9 -", "Mark Cuban", "Cuban"]
+        match: ["PP Episode 9 -", "PFP S3 Episode 9:", "Mark Cuban", "Cuban"]
         # Excludes still protect against cross-episode posts mentioning Cuban
         # — those land in their original episode (e.g. Repole talking about
         # how he's given more NIL money "than Mark Cuban gives to Indiana").
-        exclude: ["Repole", "Marshall", "Checketts", "Allyson", "PP Episode 1", "PP Episode 7", "PP Episode 8", "PP Episode 6"]
+        exclude: ["Repole", "Marshall", "Checketts", "Allyson", "PP Episode 1", "PP Episode 7", "PP Episode 8", "PP Episode 6",
+                   "PFP S3 Episode 1:", "PFP S3 Episode 7:", "PFP S3 Episode 8:", "PFP S3 Episode 6:"]
         # Posts pinned to Cuban by native ID. The keyword matcher misses
         # them because:
         #   • Snapchat: empty title/description on MS — only `user_tags`
@@ -347,7 +353,7 @@ campaigns:
         n: "Ep. 10"
         title: "Landon Donovan on Soccer in America"
         date: "Jun 5"
-        match: ["PP Episode 10 -", "Landon Donovan", "@landondonovan", "landon donovan"]
+        match: ["PP Episode 10 -", "PFP S3 Episode 10:", "Landon Donovan", "@landondonovan", "landon donovan"]
         exclude: []
       # Upcoming episodes — placeholders so the schedule shows on the campaign card.
       # No keyword matching yet; posts will be added once they go live.
@@ -355,7 +361,7 @@ campaigns:
         n: "Ep. 11"
         title: "Midge Purce"
         date: "Jun 16"
-        match: ["PP Episode 11 -", "Midge Purce", "@midgepurce"]
+        match: ["PP Episode 11 -", "PFP S3 Episode 11:", "Midge Purce", "@midgepurce"]
         exclude: []
         # LinkedIn cutdowns whose copy quotes Midge ("I was envious…", "To give
         # publications like ESPN…") without naming her, so the keyword matcher
@@ -368,7 +374,7 @@ campaigns:
         n: "Ep. 12"
         title: "Josh Childress"
         date: "Jun 30"
-        match: ["PP Episode 12 -", "Josh Childress", "@joshchildress"]
+        match: ["PP Episode 12 -", "PFP S3 Episode 12:", "Josh Childress", "@joshchildress"]
         exclude: []
       - id: ep13
         n: "Ep. 13"
@@ -378,15 +384,17 @@ campaigns:
         # Clase Azul Tequila Founder…"), and spells the name accented ("Lomelí")
         # — accent-folding handles the latter; "Clase Azul"/"tequila founder"
         # catch the descriptive titles.
-        match: ["PP Episode 13 -", "Arturo Lomeli", "@arturolomeli", "Clase Azul", "tequila founder"]
+        match: ["PP Episode 13 -", "PFP S3 Episode 13:", "Arturo Lomeli", "@arturolomeli", "Clase Azul", "tequila founder"]
         exclude: []
       - id: ep14
         n: "Ep. 14"
         title: "Marques Colston"
         date: "Jul 28"
         # "Colston" (single token) also catches the Saints/NIL descriptive titles.
-        match: ["PP Episode 14 -", "Marques Colston", "Colston", "@marquescolston"]
+        match: ["PP Episode 14 -", "PFP S3 Episode 14:", "Marques Colston", "Colston", "@marquescolston"]
         exclude: []
+        manual_posts:
+          - "Y9JBz4QL51Y"   # YT Short "The relationships between athletes and VC firms" (no tags/guest name)
       - id: ep15
         n: "Ep. 15"
         title: "Kerri Walsh Jennings"
@@ -396,7 +404,7 @@ campaigns:
         # fragments too. "beach volleyball" is unique to her in this series.
         # "kerrileewalsh" catches posts that only tag her handle (@kerrileewalsh)
         # without spelling out "Kerri Walsh".
-        match: ["PP Episode 15 -", "Kerri Walsh", "kerrileewalsh", "beach volleyball",
+        match: ["PP Episode 15 -", "PFP S3 Episode 15:", "Kerri Walsh", "kerrileewalsh", "beach volleyball",
                 "sleeping on couches", "only relevant one of those"]
         exclude: []
       - id: ep16
@@ -406,7 +414,7 @@ campaigns:
         # Several cutdowns are quote-titled without his name — match on his
         # firm ("Weatherford Capital") and the episode's themes ("private
         # capital", "global sports market") to catch them too.
-        match: ["PP Episode 16 -", "Weatherford", "private capital", "global sports market"]
+        match: ["PP Episode 16 -", "PFP S3 Episode 16:", "Weatherford", "private capital", "global sports market"]
         exclude: []
       # ---- Upcoming episodes (placeholders) ----
       # Pre-seeded so posts have a home the moment they publish. Each matches
@@ -417,13 +425,13 @@ campaigns:
         n: "Ep. 17"
         title: "Ryan Smith"
         date: "TBD"
-        match: ["PP Episode 17 -", "Ryan Smith"]
+        match: ["PP Episode 17 -", "PFP S3 Episode 17:", "Ryan Smith"]
         exclude: []
       - id: ep18
         n: "Ep. 18"
         title: "Blake Griffin"
         date: "Oct 2026"
-        match: ["PP Episode 18 -", "Blake Griffin", "Griffin"]
+        match: ["PP Episode 18 -", "PFP S3 Episode 18:", "Blake Griffin", "Griffin"]
         exclude: []
       - id: ep19
         n: "Ep. 19"
@@ -432,20 +440,20 @@ campaigns:
         # X Games CEO. Cutdowns are quote-titled ("…value creators…company
         # makers", "…counterculture…") but name him / X Games in the body.
         # Not bare "Bloom" — it would catch Bloomberg.
-        match: ["PP Episode 19 -", "Jeremy Bloom", "X Games"]
+        match: ["PP Episode 19 -", "PFP S3 Episode 19:", "Jeremy Bloom", "X Games"]
         exclude: []
       - id: ep20
         n: "Ep. 20"
-        title: "Theresa Gouw"
-        date: "TBD"
-        match: ["PP Episode 20 -", "Theresa Gouw", "Gouw"]
+        title: "Tracy McGrady"
+        date: "Nov 17"
+        match: ["PP Episode 20 -", "PFP S3 Episode 20:", "Tracy McGrady", "McGrady"]
         exclude: []
       - id: ep21
         n: "Ep. 21"
         title: "Megan Rapinoe"
         date: "TBD"
         # Booking tentative — keywords ready so posts land if/when it airs.
-        match: ["PP Episode 21 -", "Megan Rapinoe", "Rapinoe"]
+        match: ["PP Episode 21 -", "PFP S3 Episode 21:", "Megan Rapinoe", "Rapinoe"]
         exclude: []
 
   - id: spectrum

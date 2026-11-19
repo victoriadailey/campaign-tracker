@@ -228,3 +228,36 @@ def test_pwc_facebook_organic_reel_and_dark_ad_merge():
     r = rows[0]
     assert r.impressions_paid == 80168 and r.impressions_organic == 270
     assert r.impressions_total == 80438 and r.ad_spend == 252.21
+
+
+def _pfp_rows():
+    from pathlib import Path
+    from app.parsers import measure_studio, google_ads_campaign
+    ms = measure_studio.parse(Path("tests/fixtures/portfolio_players_ms.csv").read_bytes()).rows
+    ga = google_ads_campaign.parse("tests/fixtures/etrade_yt_paid.csv").rows
+    return ms, ga
+
+
+def test_youtube_total_engagements_include_paid_when_export_total_is_organic_only():
+    """E*TRADE export: 'YouTube Total Engagements - Total' == Organic, paid is separate."""
+    from app.parsers.base import Platform
+    ms, _ = _pfp_rows()
+    cuban = next(p for p in ms if p.platform is Platform.YOUTUBE and "WTPBx-oZ2ns" in (p.post_url or ""))
+    assert cuban.engagements_paid and cuban.engagements_organic is not None
+    assert cuban.engagements_total == cuban.engagements_organic + cuban.engagements_paid
+
+
+def test_pfp_yt_shorts_from_measure_and_longform_pairs_with_new_episode_tags():
+    """Shorts keep Measure's own paid/spend (Google Ads Shorts rows dropped); long-form
+    still pairs with Google Ads via the 'PFP S3 Episode N: Guest' tag."""
+    from app.parsers.base import Platform, Source, PostFormat
+    from app.viewer.refresh import _merge_youtube_paid_spend_into_ms
+    ms, ga = _pfp_rows()
+    yt = [p for p in ms if p.platform is Platform.YOUTUBE]
+    ms_short_spend = round(sum(p.ad_spend or 0 for p in yt if p.post_format is PostFormat.REELS_SHORTS), 2)
+    out = _merge_youtube_paid_spend_into_ms(yt + ga, keep_ms_spend_if_unpaired=True, shorts_from_measure=True)
+    assert not [p for p in out if p.source is Source.GOOGLE_ADS_CAMPAIGN and p.post_format is PostFormat.REELS_SHORTS]
+    assert round(sum(p.ad_spend or 0 for p in out
+                     if p.source is Source.MEASURE_STUDIO and p.post_format is PostFormat.REELS_SHORTS), 2) == ms_short_spend
+    checketts = next(p for p in out if p.source is Source.MEASURE_STUDIO and "Legendary NBA Exec" in (p.post_title or ""))
+    assert (checketts.impressions_paid, round(checketts.ad_spend, 2)) == (1492287, 796.61)

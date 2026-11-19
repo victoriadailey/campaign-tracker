@@ -338,6 +338,18 @@ def _row_to_post(raw: dict[str, Any], platform: Platform) -> NormalizedPost:
     if platform is Platform.YOUTUBE and post.impressions_organic is not None:
         post.impressions_total = (post.impressions_paid or 0) + post.impressions_organic
 
+    # YouTube engagements: in exports, "Total Engagements - Total" equals the
+    # ORGANIC count (likes/comments/shares) while the paid interaction count
+    # (Google Ads clicks + watch progress) sits in its own "- Paid" column.
+    # Delivered engagements = organic + paid, matching how the Google Ads merge
+    # reports paid YouTube engagements.
+    if (platform is Platform.YOUTUBE and post.engagements_paid
+            and post.engagements_organic is not None
+            and post.engagements_total == post.engagements_organic):
+        post.engagements_total = post.engagements_organic + post.engagements_paid
+        if post.impressions_total:
+            post.er = post.engagements_total / post.impressions_total * 100
+
     # X exports carry "X Views" (Measure's delivery count: Total / Organic / Paid)
     # and, if selected, "X Video Views" (actual video plays). The rollups and the
     # X Ads merge read impressions_* for delivery and views_* for video plays, so:

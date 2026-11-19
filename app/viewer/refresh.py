@@ -784,6 +784,7 @@ def main() -> int:
             pair_by_sort=bool(c.get("yt_paired_by_sort")),
             manual_pairings=c.get("yt_ads_pairings") or {},
             keep_ms_spend_if_unpaired=csv_mode,
+            shorts_from_measure=bool(c.get("yt_shorts_from_measure")),
         )
         # LinkedIn Ads CSV may overlap with an MS-API LinkedIn dark post. MS
         # gives the post's organic-side view count + URN; the LI Ads CSV gives
@@ -886,6 +887,7 @@ def main() -> int:
                 pair_by_sort=bool(c_cfg.get("yt_paired_by_sort")),
                 manual_pairings=c_cfg.get("yt_ads_pairings") or {},
                 keep_ms_spend_if_unpaired=csv_mode,
+                shorts_from_measure=bool(c_cfg.get("yt_shorts_from_measure")),
             )
         if Platform.LINKEDIN in platforms_added:
             posts_by_campaign[c_id] = _merge_linkedin_ads_into_ms(posts_by_campaign[c_id])
@@ -2454,6 +2456,7 @@ def _merge_youtube_paid_spend_into_ms(
     pair_by_sort: bool = False,
     manual_pairings: dict[str, str] | None = None,
     keep_ms_spend_if_unpaired: bool = False,
+    shorts_from_measure: bool = False,
 ) -> list[NormalizedPost]:
     """Pair Google Ads YT campaigns with their corresponding MS YT post and
     copy spend → MS post. Drops matched Google Ads posts.
@@ -2485,6 +2488,17 @@ def _merge_youtube_paid_spend_into_ms(
     from app.parsers.base import PostFormat
     import re as _re
 
+    # `shorts_from_measure`: a Measure export's per-Short paid delivery/spend
+    # already covers every Google Ads campaign promoting that Short, so the
+    # Google Ads Shorts rows are dropped (pairing them double counts) and
+    # Measure's own Shorts spend is kept. Long-form still pairs below.
+    if shorts_from_measure:
+        _drop_shorts = {id(p) for p in posts
+                        if p.platform == Platform.YOUTUBE
+                        and p.source == Source.GOOGLE_ADS_CAMPAIGN
+                        and p.post_format is PostFormat.REELS_SHORTS}
+        posts = [p for p in posts if id(p) not in _drop_shorts]
+
     # All MS YouTube posts — including 0-paid ones. Pre-fix this filter
     # required `impressions_paid > 0`, which excluded freshly-published
     # organic YT Shorts (no paid delivery yet) from being paired with a
@@ -2515,6 +2529,8 @@ def _merge_youtube_paid_spend_into_ms(
     # instead of showing $0 against real paid delivery.
     _ms_spend_orig = {id(p): p.ad_spend for p in ms_yt}
     for p in ms_yt:
+        if shorts_from_measure and p.post_format is PostFormat.REELS_SHORTS:
+            continue   # keep Measure's own spend for Shorts
         p.ad_spend = 0
 
     def _restore_unpaired_spend(paired_ids):
@@ -2614,6 +2630,9 @@ def _merge_youtube_paid_spend_into_ms(
         # 1. CSV-style "PP Episode N - Guest"
         ut_str = raw.get("User Tags") if isinstance(raw.get("User Tags"), str) else ""
         m = _re.search(r"PP Episode\s*\d+\s*-\s*([^,]+)", ut_str or "")
+        if not m:
+            # Newer exports tag episodes "PFP S3 Episode 19: Jeremy Bloom".
+            m = _re.search(r"PFP\s*S\d+\s*Episode\s*\d+\s*:\s*([^,]+)", ut_str or "")
         if m:
             return m.group(1).strip().lower()
 
