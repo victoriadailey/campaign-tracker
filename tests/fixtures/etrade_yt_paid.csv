@@ -1,5 +1,5 @@
-FOS Reporting
-"January 1, 2025 - November 19, 2026"
+FOS Reporting,,,,,,,,,,
+"January 1, 2025 - November 19, 2026",,,,,,,,,,
 Campaign,Currency code,Budget,Campaign status,Campaign type,TrueView avg. CPV,TrueView views,Avg. CPM,Impr.,Cost,Engagements
 Portfolio Players S3 Ep9: Mark Cuban (pre-roll),USD,0,Ended,Video,0.028,"35,351",16.04,"62,153",996.85,"46,845"
 Portfolio Players S3 Ep18 Cutdown1: Blake Griffin (shorts),USD,0,Ended,Video,0.118,848,3.98,"25,074",99.90,"1,865"
@@ -40,8 +40,9 @@ Portfolio Players S3 Ep14 Cutdown2: Marques Colston (shorts),USD,0,Ended,Video,0
 Portfolio Players S3 Ep7: Brandon Marshall (in-feed),USD,0,Ended,Video,0.387,"1,549",0.60,"1,000,530",599.49,"1,773"
 Portfolio Players S3 Ep8: Dave Checketts (in-feed),USD,0,Ended,Video,0.129,"6,184",0.53,"1,492,287",796.61,"10,682"
 Portfolio Players S3 Ep19: Bloom Cutdown 2 (Shorts),USD,0,Ended,Video,0.220,454,4.10,"24,353",99.86,996
-Portfolio Players S3 Ep20: Tracy McGrady (in-feed),USD,0,Eligible,Video,0.887,91,1.28,"63,078",80.67,124
-Portfolio Players S3 Ep20: Tracy McGrady (pre-roll),USD,0,Eligible,Video,0.033,"1,773",6.16,"9,481",58.38,"2,263"
+Portfolio Players S3 Ep20: Tracy McGrady (in-feed),USD,0,Eligible,Video,0.368,597,1.05,"210,088",219.59,"1,022"
+Portfolio Players S3 Ep20: Tracy McGrady (pre-roll),USD,0,Eligible,Video,0.029,"5,072",4.44,"33,080",146.71,"6,739"
+Portfolio Players S3 Ep20: McGrady Cutdown 1 (Shorts),USD,0,Eligible,Video,0.050,323,1.62,"10,067",16.31,762
 Portfolio Players S3 Ep18: Blake Griffin (in-feed),USD,0,Ended,Video,0.209,"3,814",0.62,"1,289,841",797.08,"6,532"
 Portfolio Players S3 Ep17 Cutdown1: Ryan Smith (shorts),USD,0,Ended,Video,0.151,662,3.84,"26,079",100.22,"1,612"
 Portfolio Players S3 Ep8 Cutdown 2: Dave Checketts (Shorts),USD,0,Ended,Video,0.109,"2,271",2.77,"89,173",247.36,"5,091"
