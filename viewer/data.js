@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T21:10:40Z";
+window.LAST_REFRESHED = "2026-11-20T21:15:38Z";
 
 
 
@@ -3300,26 +3300,26 @@ window.CAMPAIGNS = [
     "flight": "Jun 26 \u2014 Dec 31, 2026",
     "elapsedPct": 78.2,
     "daysLeft": 41,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "At Risk",
+    "statusKind": "warn",
     "impressions": {
-      "delivered": 1466710,
+      "delivered": 1492402,
       "goal": 2222222
     },
     "budget": {
-      "delivered": 5510.64,
+      "delivered": 5627.02,
       "goal": 10000.0
     },
     "color": "ft-11",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
-    "er": 1.98,
-    "cpm": 3.76,
+    "er": 2.0,
+    "cpm": 3.77,
     "episodes": 0,
-    "posts": 8,
+    "posts": 10,
     "blurb": "AT&T performance-focused paid social (BrandX). Awareness primary; clicks secondary.",
-    "views": 1466710,
-    "engagements": 28972,
+    "views": 1492402,
+    "engagements": 29854,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
     "lifecycle": "active",
@@ -3327,18 +3327,18 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 1466710,
-        "eng": 28972,
-        "er": 1.98,
-        "cpm": 3.76,
+        "impressions": 1492402,
+        "eng": 29854,
+        "er": 2.0,
+        "cpm": 3.77,
         "color": "#E4405F",
-        "delta": -40.3,
+        "delta": -39.6,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 1466710
+        "views": 1492402
       }
     ],
     "topPosts": [
@@ -3375,8 +3375,24 @@ window.CAMPAIGNS = [
         "postedAt": null
       },
       {
-        "id": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+        "id": "AT&T_ShesConnected_KelleyO'Hara_Clicks",
         "rank": 3,
+        "partner": "AT&T",
+        "platform": "Instagram",
+        "format": "Feed video",
+        "quote": "AT&T_ShesConnected_KelleyO'Hara_Clicks",
+        "er": 9.71,
+        "eng": 865,
+        "reach": 7732,
+        "organic": 0,
+        "metric": "er",
+        "insight": "",
+        "url": null,
+        "postedAt": null
+      },
+      {
+        "id": "AT&T_ShesConnected_BrandX_SarahGorden_Clicks",
+        "rank": 4,
         "partner": "AT&T",
         "platform": "Instagram",
         "format": "Feed video",
@@ -3392,7 +3408,7 @@ window.CAMPAIGNS = [
       },
       {
         "id": "AT&T_ShesConnected_Flau\u2019jae_Clicks",
-        "rank": 4,
+        "rank": 5,
         "partner": "AT&T",
         "platform": "Instagram",
         "format": "Feed video",
@@ -3408,22 +3424,14 @@ window.CAMPAIGNS = [
       }
     ],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace for 84% of goal (1.9M of 2.2M) with 41 days left.",
-        "body": "At the current rate the campaign will fall ~347K impressions short of the 2.2M goal. Need to deliver 18K impr/day (1.8\u00d7 the current 10K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "AT&T \u00b7 Pacing"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "impressions",
     "brandxSecondaryObjective": "clicks",
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-06T20:29:57Z"
+    "lastUpdatedExports": "2026-11-20T21:15:04Z"
   },
   {
     "id": "ally_nwsl",
@@ -7879,20 +7887,20 @@ window.TOP_POSTS = [
     "postedAt": "2026-09-25T16:33:00"
   },
   {
-    "id": "3957272193785158435",
+    "id": "AT&T_ShesConnected_KelleyO'Hara_Clicks",
     "rank": 8,
-    "partner": "E*TRADE",
+    "partner": "AT&T",
     "platform": "Instagram",
-    "format": "Reels/Shorts",
-    "quote": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital\u2026",
-    "er": 8.86,
-    "eng": 3695,
-    "reach": 41710,
-    "organic": 27,
+    "format": "Feed video",
+    "quote": "AT&T_ShesConnected_KelleyO'Hara_Clicks",
+    "er": 9.71,
+    "eng": 865,
+    "reach": 7732,
+    "organic": 0,
     "metric": "er",
     "insight": "",
-    "url": "https://www.instagram.com/p/DbrDhf-GFsj/",
-    "postedAt": "2026-08-05T16:03:00"
+    "url": null,
+    "postedAt": null
   }
 ];
 
@@ -8031,8 +8039,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 39790679,
-    "eng": 697721,
+    "impressions": 39816371,
+    "eng": 698603,
     "er": 1.75,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -8042,7 +8050,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 46422,
-    "views": 36765320
+    "views": 36791012
   },
   {
     "name": "X",
@@ -8188,15 +8196,6 @@ window.SIGNALS = [
     "meta": "PwC \u00b7 Pacing",
     "campaignId": "pwc_formula1",
     "campaignPartner": "PwC"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 84% of goal (1.9M of 2.2M) with 41 days left.",
-    "body": "At the current rate the campaign will fall ~347K impressions short of the 2.2M goal. Need to deliver 18K impr/day (1.8\u00d7 the current 10K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "AT&T \u00b7 Pacing",
-    "campaignId": "att_brandx",
-    "campaignPartner": "AT&T"
   },
   {
     "tag": "WATCH",
@@ -42661,6 +42660,52 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews3s": null,
       "url": null,
       "postedAt": null
+    },
+    {
+      "title": "AT&T_ShesConnected_KelleyOhara_Impressions",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 16785,
+      "paidImpr": 16785,
+      "orgImpr": 0,
+      "views": 16785,
+      "reach": 13215,
+      "eng": 17,
+      "er": 0.1,
+      "spend": 48.53,
+      "watchTimeMin": null,
+      "clicks": 8,
+      "ctr": 0.05,
+      "cpc": 6.07,
+      "cpm": 2.89,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
+    },
+    {
+      "title": "AT&T_ShesConnected_KelleyO'Hara_Clicks",
+      "platform": "Instagram",
+      "accountName": null,
+      "distKind": "paid",
+      "impr": 8907,
+      "paidImpr": 8907,
+      "orgImpr": 0,
+      "views": 8907,
+      "reach": 7732,
+      "eng": 865,
+      "er": 9.71,
+      "spend": 67.85,
+      "watchTimeMin": null,
+      "clicks": 427,
+      "ctr": 4.79,
+      "cpc": 0.16,
+      "cpm": 7.62,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": null,
+      "postedAt": null
     }
   ],
   "ally_nwsl": [
@@ -49124,10 +49169,10 @@ window.DATA_ARCHIVE = [
     "sourceKind": "meta_ads",
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
-    "fileSizeKb": 2.5,
+    "fileSizeKb": 3.0,
     "lastModified": "2026-11-20",
     "exists": true,
-    "postsContributed": 8
+    "postsContributed": 10
   },
   {
     "campaignId": "ally_nwsl",
