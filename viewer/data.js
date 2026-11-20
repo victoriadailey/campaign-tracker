@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T21:36:46Z";
+window.LAST_REFRESHED = "2026-11-20T21:49:07Z";
 
 
 
@@ -385,11 +385,11 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 45006635,
+      "delivered": 45177244,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 69488.79,
+      "delivered": 69716.04,
       "goal": 70000.0
     },
     "color": "ft-3",
@@ -400,8 +400,8 @@ window.CAMPAIGNS = [
     "episodes": 21,
     "posts": 419,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 13028333,
-    "engagements": 1313921,
+    "views": 13028839,
+    "engagements": 1319295,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -409,34 +409,34 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 26094297,
-        "eng": 112577,
+        "impressions": 26241307,
+        "eng": 113475,
         "er": 0.43,
         "cpm": 0.6,
         "color": "#E00922",
-        "delta": -13.7,
+        "delta": -13.5,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 2030846,
-        "views": 507119
+        "views": 504326
       },
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 790037,
-        "eng": 594453,
-        "er": 75.24,
-        "cpm": 12.93,
+        "impressions": 813636,
+        "eng": 598929,
+        "er": 73.61,
+        "cpm": 12.67,
         "color": "#B0061B",
-        "delta": 4.5,
+        "delta": 2.2,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 448033
+        "views": 451332
       },
       {
         "name": "Instagram",
@@ -822,7 +822,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-19T16:49:42Z"
+    "lastUpdatedExports": "2026-11-20T21:48:26Z"
   },
   {
     "id": "spectrum",
@@ -8031,8 +8031,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129187363,
-    "eng": 3062708,
+    "impressions": 129357972,
+    "eng": 3068082,
     "er": 2.37,
     "cpm": 1.13,
     "color": "#E00922",
@@ -8042,7 +8042,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 6947,
-    "views": 26622567
+    "views": 26623073
   },
   {
     "name": "TikTok",
@@ -19583,26 +19583,41 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Tracy McGrady",
       "date": "Nov 17",
       "total": {
-        "impr": 121463,
-        "views": 25825,
-        "er": 0.87,
-        "eng": 3233,
-        "spend": 139.05
+        "impr": 292072,
+        "views": 26331,
+        "er": 0.72,
+        "eng": 8607,
+        "spend": 366.3
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "paid",
-          "impr": 63078,
-          "paidImpr": 63078,
+          "impr": 210088,
+          "paidImpr": 210088,
           "orgImpr": 0,
           "views": 0,
-          "eng": 124,
-          "paidEng": 124,
+          "eng": 1022,
+          "paidEng": 1022,
           "orgEng": 0,
-          "er": 0.2,
-          "cpm": 1.28,
-          "spend": 80.67,
+          "er": 0.49,
+          "cpm": 1.05,
+          "spend": 219.59,
+          "posts": 1
+        },
+        {
+          "name": "YouTube Pre-roll",
+          "distKind": "paid",
+          "impr": 33080,
+          "paidImpr": 33080,
+          "orgImpr": 0,
+          "views": 5072,
+          "eng": 6739,
+          "paidEng": 6739,
+          "orgEng": 0,
+          "er": 20.37,
+          "cpm": 4.44,
+          "spend": 146.71,
           "posts": 1
         },
         {
@@ -19651,21 +19666,6 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 2
         },
         {
-          "name": "YouTube Pre-roll",
-          "distKind": "paid",
-          "impr": 9481,
-          "paidImpr": 9481,
-          "orgImpr": 0,
-          "views": 1773,
-          "eng": 2263,
-          "paidEng": 2263,
-          "orgEng": 0,
-          "er": 23.87,
-          "cpm": 6.16,
-          "spend": 58.38,
-          "posts": 1
-        },
-        {
           "name": "TikTok",
           "distKind": "organic",
           "impr": 762,
@@ -19702,13 +19702,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "paid",
-          "impr": 63078,
-          "paidImpr": 63078,
+          "impr": 210088,
+          "paidImpr": 210088,
           "orgImpr": 0,
           "views": 0,
-          "eng": 124,
-          "er": 0.2,
-          "spend": 80.67,
+          "eng": 1022,
+          "er": 0.49,
+          "spend": 219.59,
           "url": "https://youtu.be/P-yjyUFiZxY",
           "postedAt": "2026-11-17T09:48:00"
         },
@@ -19717,13 +19717,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Pre-roll",
           "accountName": null,
           "distKind": "paid",
-          "impr": 9481,
-          "paidImpr": 9481,
+          "impr": 33080,
+          "paidImpr": 33080,
           "orgImpr": 0,
-          "views": 1773,
-          "eng": 2263,
-          "er": 23.87,
-          "spend": 58.38,
+          "views": 5072,
+          "eng": 6739,
+          "er": 20.37,
+          "spend": 146.71,
           "url": null,
           "postedAt": null
         },
@@ -35212,7 +35212,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 895605,
       "paidImpr": 886996,
       "orgImpr": 8609,
-      "views": 25638,
+      "views": 22339,
       "reach": 0,
       "eng": 3061,
       "er": 0.34,
@@ -37325,19 +37325,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "paid",
-      "impr": 63078,
-      "paidImpr": 63078,
+      "impr": 210088,
+      "paidImpr": 210088,
       "orgImpr": 0,
-      "views": 91,
+      "views": 597,
       "reach": 0,
-      "eng": 124,
-      "er": 0.2,
-      "spend": 80.67,
+      "eng": 1022,
+      "er": 0.49,
+      "spend": 219.59,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": 0.94,
       "cpc": 2.16,
-      "cpm": 1.28,
+      "cpm": 1.05,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/P-yjyUFiZxY",
@@ -37348,19 +37348,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 9481,
-      "paidImpr": 9481,
+      "impr": 33080,
+      "paidImpr": 33080,
       "orgImpr": 0,
-      "views": 1773,
+      "views": 5072,
       "reach": 0,
-      "eng": 2263,
-      "er": 23.87,
-      "spend": 58.38,
+      "eng": 6739,
+      "er": 20.37,
+      "spend": 146.71,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 6.16,
+      "cpm": 4.44,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
@@ -48840,7 +48840,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "youtube_paid",
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "etrade_yt_paid.csv",
-    "fileSizeKb": 10.5,
+    "fileSizeKb": 10.7,
     "lastModified": "2026-11-20",
     "exists": true,
     "postsContributed": 20
