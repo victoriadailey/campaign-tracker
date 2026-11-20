@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T21:36:11Z";
+window.LAST_REFRESHED = "2026-11-20T21:36:46Z";
 
 
 
@@ -5135,11 +5135,11 @@ window.CAMPAIGNS = [
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
-      "delivered": 5596676,
+      "delivered": 5599776,
       "goal": 5600000
     },
     "budget": {
-      "delivered": 17439.12,
+      "delivered": 17452.42,
       "goal": 22634.0
     },
     "color": "ft-4",
@@ -5151,7 +5151,7 @@ window.CAMPAIGNS = [
     "posts": 16,
     "blurb": "An 8 video series with external creator, Evan Hand",
     "views": 5433939,
-    "engagements": 459650,
+    "engagements": 459966,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -5159,8 +5159,8 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 3882874,
-        "eng": 329135,
+        "impressions": 3885974,
+        "eng": 329451,
         "er": 8.48,
         "cpm": 2.39,
         "color": "#FF0033",
@@ -5316,7 +5316,7 @@ window.CAMPAIGNS = [
         "tag": "WATCH",
         "kind": "warn",
         "headline": "On pace to over-deliver \u2014 $5K (23%) of budget unspent with 10 days left.",
-        "body": "Impressions are 100% delivered while only 77% of budget has been spent \u2014 only 3K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
+        "body": "Impressions are 100% delivered while only 77% of budget has been spent \u2014 only 224 impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "Accenture \u00b7 Budget surplus"
       }
     ],
@@ -5326,7 +5326,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-20T21:35:43Z"
+    "lastUpdatedExports": "2026-11-20T21:35:45Z"
   },
   {
     "id": "daktronics_stadiumstatus",
@@ -8031,8 +8031,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129184263,
-    "eng": 3062392,
+    "impressions": 129187363,
+    "eng": 3062708,
     "er": 2.37,
     "cpm": 1.13,
     "color": "#E00922",
@@ -45262,14 +45262,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 161354,
-      "paidImpr": 159224,
+      "impr": 162755,
+      "paidImpr": 160625,
       "orgImpr": 2130,
       "views": 154284,
       "reach": 0,
-      "eng": 16028,
-      "er": 9.93,
-      "spend": 556.89,
+      "eng": 16145,
+      "er": 9.92,
+      "spend": 562.51,
       "watchTimeMin": 17275.8,
       "clicks": null,
       "ctr": 0.0,
@@ -45308,14 +45308,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 194948,
-      "paidImpr": 188631,
+      "impr": 195722,
+      "paidImpr": 189405,
       "orgImpr": 6317,
       "views": 185822,
       "reach": 0,
-      "eng": 24580,
+      "eng": 24684,
       "er": 12.61,
-      "spend": 657.9,
+      "spend": 661.26,
       "watchTimeMin": 31762.2,
       "clicks": null,
       "ctr": 0.0,
@@ -45354,14 +45354,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 198793,
-      "paidImpr": 196792,
+      "impr": 199714,
+      "paidImpr": 197713,
       "orgImpr": 2001,
       "views": 191866,
       "reach": 0,
-      "eng": 17831,
+      "eng": 17919,
       "er": 8.97,
-      "spend": 757.33,
+      "spend": 761.63,
       "watchTimeMin": 24463.2,
       "clicks": null,
       "ctr": 0.0,
@@ -45492,14 +45492,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 344939,
-      "paidImpr": 343430,
+      "impr": 344943,
+      "paidImpr": 343434,
       "orgImpr": 1509,
       "views": 340511,
       "reach": 0,
-      "eng": 36756,
+      "eng": 36763,
       "er": 10.66,
-      "spend": 1453.34,
+      "spend": 1453.36,
       "watchTimeMin": 41971.2,
       "clicks": null,
       "ctr": 0.0,
