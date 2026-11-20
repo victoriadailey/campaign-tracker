@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T21:32:54Z";
+window.LAST_REFRESHED = "2026-11-20T21:36:11Z";
 
 
 
@@ -5204,7 +5204,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
-        "postedAt": "2026-10-09T16:33:00"
+        "postedAt": "2026-10-09T15:33:00"
       },
       {
         "id": "3999294042675348120",
@@ -5220,7 +5220,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
-        "postedAt": "2026-10-02T16:33:00"
+        "postedAt": "2026-10-02T15:33:00"
       },
       {
         "id": "4009440799699985922",
@@ -5236,7 +5236,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DekZSoWE2YC/",
-        "postedAt": "2026-10-16T16:33:00"
+        "postedAt": "2026-10-16T15:33:00"
       },
       {
         "id": "3994220467938265641",
@@ -5252,7 +5252,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DduUlpyDgop/",
-        "postedAt": "2026-09-25T16:33:00"
+        "postedAt": "2026-09-25T15:33:00"
       },
       {
         "id": "4029704284040632917",
@@ -5268,7 +5268,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DfsYrIwHJpV/",
-        "postedAt": "2026-11-13T14:33:00"
+        "postedAt": "2026-11-13T13:33:00"
       },
       {
         "id": "4024766821253507849",
@@ -5284,7 +5284,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
-        "postedAt": "2026-11-06T19:03:00"
+        "postedAt": "2026-11-06T18:03:00"
       },
       {
         "id": "3981838900760154441",
@@ -5300,7 +5300,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
-        "postedAt": "2026-09-08T14:30:00"
+        "postedAt": "2026-09-08T13:30:00"
       }
     ],
     "topPostsOrganic": [],
@@ -5326,7 +5326,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-20T14:41:30Z"
+    "lastUpdatedExports": "2026-11-20T21:35:43Z"
   },
   {
     "id": "daktronics_stadiumstatus",
@@ -7812,7 +7812,7 @@ window.TOP_POSTS = [
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
-    "postedAt": "2026-10-09T16:33:00"
+    "postedAt": "2026-10-09T15:33:00"
   },
   {
     "id": "AT&T_ShesConnected_SabrinaIonescu_Clicks",
@@ -7844,7 +7844,7 @@ window.TOP_POSTS = [
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
-    "postedAt": "2026-10-02T16:33:00"
+    "postedAt": "2026-10-02T15:33:00"
   },
   {
     "id": "4009440799699985922",
@@ -7860,7 +7860,7 @@ window.TOP_POSTS = [
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/DekZSoWE2YC/",
-    "postedAt": "2026-10-16T16:33:00"
+    "postedAt": "2026-10-16T15:33:00"
   },
   {
     "id": "4018213916626610652",
@@ -7908,7 +7908,7 @@ window.TOP_POSTS = [
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/DduUlpyDgop/",
-    "postedAt": "2026-09-25T16:33:00"
+    "postedAt": "2026-09-25T15:33:00"
   },
   {
     "id": "AT&T_ShesConnected_KelleyO'Hara_Clicks",
@@ -45186,7 +45186,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/tXS552RjyZM",
-      "postedAt": "2026-09-08T14:30:00"
+      "postedAt": "2026-09-08T13:30:00"
     },
     {
       "title": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40  Presented by @accenture",
@@ -45209,7 +45209,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
-      "postedAt": "2026-09-08T14:30:00"
+      "postedAt": "2026-09-08T13:30:00"
     },
     {
       "title": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3.",
@@ -45232,7 +45232,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/r10_TEzwiy8",
-      "postedAt": "2026-09-25T12:00:00"
+      "postedAt": "2026-09-25T11:00:00"
     },
     {
       "title": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's everything to know.\u2060",
@@ -45255,7 +45255,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DduUlpyDgop/",
-      "postedAt": "2026-09-25T16:33:00"
+      "postedAt": "2026-09-25T15:33:00"
     },
     {
       "title": "London's NFL home",
@@ -45278,7 +45278,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/2qo_l6UJOik",
-      "postedAt": "2026-10-02T16:30:00"
+      "postedAt": "2026-10-02T15:30:00"
     },
     {
       "title": "Over a decade ago, the NFL set on a mission to bring football to the UK.\u2060 \u2060 Here's how it was brought to life.\u2060 \u2060 Presen",
@@ -45301,7 +45301,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DeAWL4eAAKY/",
-      "postedAt": "2026-10-02T16:33:00"
+      "postedAt": "2026-10-02T15:33:00"
     },
     {
       "title": "The Jaguars have built a second home across the pond, but why London?",
@@ -45324,7 +45324,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/PbH5UKPNX_4",
-      "postedAt": "2026-10-09T16:30:00"
+      "postedAt": "2026-10-09T15:30:00"
     },
     {
       "title": "The Jaguars have built a second home across the pond, but why London? It all started with owner Shahid Khan.\u2060 \u2060 Presente",
@@ -45347,7 +45347,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DeSXzW_Ett-/",
-      "postedAt": "2026-10-09T16:33:00"
+      "postedAt": "2026-10-09T15:33:00"
     },
     {
       "title": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville.",
@@ -45370,7 +45370,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/OgXdqWm4gZI",
-      "postedAt": "2026-10-16T16:30:00"
+      "postedAt": "2026-10-16T15:30:00"
     },
     {
       "title": "The NFL\u2019s most used stadium outside of America is a soccer cathedral 4,000 miles from Jacksonville. Here\u2019s how Wembley b",
@@ -45393,7 +45393,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DekZSoWE2YC/",
-      "postedAt": "2026-10-16T16:33:00"
+      "postedAt": "2026-10-16T15:33:00"
     },
     {
       "title": "France\u2019s biggest stadium has hosted it all. Now the NFL arrives for its first game in the country\u2019s history.\u2060 \u2060 Presente",
@@ -45416,7 +45416,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/De2QlGUFKyr/",
-      "postedAt": "2026-10-23T15:03:00"
+      "postedAt": "2026-10-23T14:03:00"
     },
     {
       "title": "France\u2019s biggest stadium has hosted it all.",
@@ -45439,7 +45439,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/-buDsBSyCkE",
-      "postedAt": "2026-10-23T15:30:00"
+      "postedAt": "2026-10-23T14:30:00"
     },
     {
       "title": "Why the NFL is playing in Madrid ($1.5B stadium renovation)",
@@ -45462,7 +45462,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/hKWFlv_mivw",
-      "postedAt": "2026-11-06T18:00:00"
+      "postedAt": "2026-11-06T17:00:00"
     },
     {
       "title": "Real Madrid spent over $1.5 billion transforming the Santiago Bernab\u00e9u, which hosted Spain\u2019s first-ever NFL game in 2025",
@@ -45485,7 +45485,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dfa2BmMl-sJ/",
-      "postedAt": "2026-11-06T19:03:00"
+      "postedAt": "2026-11-06T18:03:00"
     },
     {
       "title": "The NFL and Germany have a decades-long history, and it all began in 1990. This is how it started.",
@@ -45508,7 +45508,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/ArIThea3SOU",
-      "postedAt": "2026-11-13T14:30:00"
+      "postedAt": "2026-11-13T13:30:00"
     },
     {
       "title": "The NFL and Germany have a decades-long history, and it all began in 1990. This is how it started \ud83c\udde9\ud83c\uddea\u2060 \u2060 Presented by @ac",
@@ -45531,7 +45531,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfsYrIwHJpV/",
-      "postedAt": "2026-11-13T14:33:00"
+      "postedAt": "2026-11-13T13:33:00"
     }
   ],
   "daktronics_stadiumstatus": [
