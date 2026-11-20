@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T21:20:09Z";
+window.LAST_REFRESHED = "2026-11-20T21:20:50Z";
 
 
 
@@ -7433,11 +7433,11 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 4415623,
+      "delivered": 4415470,
       "goal": 4250000
     },
     "budget": {
-      "delivered": 7030.86,
+      "delivered": 7033.01,
       "goal": 6000.0
     },
     "color": "ft-10",
@@ -7449,7 +7449,7 @@ window.CAMPAIGNS = [
     "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
     "views": 1163226,
-    "engagements": 61175,
+    "engagements": 61354,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -7457,7 +7457,7 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 2685360,
+        "impressions": 2684923,
         "eng": 4787,
         "er": 0.18,
         "cpm": 0.78,
@@ -7468,23 +7468,23 @@ window.CAMPAIGNS = [
           "cpm": 0.55
         },
         "organicImpressions": 4821,
-        "views": 24115
+        "views": 23993
       },
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 66442,
-        "eng": 46965,
-        "er": 70.69,
-        "cpm": 11.55,
+        "impressions": 66726,
+        "eng": 47144,
+        "er": 70.65,
+        "cpm": 11.54,
         "color": "#B0061B",
-        "delta": -1.8,
+        "delta": -1.9,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 33632
+        "views": 33754
       },
       {
         "name": "TikTok",
@@ -7585,7 +7585,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Full Episode",
         "impressions": {
-          "delivered": 3170085,
+          "delivered": 3169932,
           "goal": 3250000
         }
       },
@@ -7600,7 +7600,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-20T21:18:52Z"
+    "lastUpdatedExports": "2026-11-20T21:20:17Z"
   },
   {
     "id": "nwsl_championship_brandx",
@@ -8024,8 +8024,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129105335,
-    "eng": 3059761,
+    "impressions": 129105182,
+    "eng": 3059940,
     "er": 2.37,
     "cpm": 1.13,
     "color": "#E00922",
@@ -25983,26 +25983,26 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "How NIL Deals Really Work",
       "date": "Nov 4",
       "total": {
-        "impr": 3170085,
+        "impr": 3169932,
         "views": 375821,
         "er": 0.16,
-        "eng": 52038,
-        "spend": 4348.51
+        "eng": 52217,
+        "spend": 4350.66
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 2685360,
-          "paidImpr": 2680539,
+          "impr": 2684923,
+          "paidImpr": 2680102,
           "orgImpr": 4821,
-          "views": 24115,
+          "views": 23993,
           "eng": 4787,
           "paidEng": 4750,
           "orgEng": 37,
           "er": 0.18,
           "cpm": 0.78,
-          "spend": 2103.62,
+          "spend": 2103.27,
           "posts": 1
         },
         {
@@ -26038,16 +26038,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Pre-roll",
           "distKind": "paid",
-          "impr": 66442,
-          "paidImpr": 66442,
+          "impr": 66726,
+          "paidImpr": 66726,
           "orgImpr": 0,
-          "views": 33632,
-          "eng": 46965,
-          "paidEng": 46965,
+          "views": 33754,
+          "eng": 47144,
+          "paidEng": 47144,
           "orgEng": 0,
-          "er": 70.69,
-          "cpm": 11.55,
-          "spend": 767.25,
+          "er": 70.65,
+          "cpm": 11.54,
+          "spend": 769.75,
           "posts": 1
         }
       ],
@@ -26057,13 +26057,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 2685360,
-          "paidImpr": 2680539,
+          "impr": 2684923,
+          "paidImpr": 2680102,
           "orgImpr": 4821,
-          "views": 24115,
+          "views": 23993,
           "eng": 4787,
           "er": 0.18,
-          "spend": 2103.62,
+          "spend": 2103.27,
           "url": "https://youtu.be/QgXx6XEsDiE",
           "postedAt": "2026-11-04T14:01:00"
         },
@@ -26072,13 +26072,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Pre-roll",
           "accountName": null,
           "distKind": "paid",
-          "impr": 66442,
-          "paidImpr": 66442,
+          "impr": 66726,
+          "paidImpr": 66726,
           "orgImpr": 0,
-          "views": 33632,
-          "eng": 46965,
-          "er": 70.69,
-          "spend": 767.25,
+          "views": 33754,
+          "eng": 47144,
+          "er": 70.65,
+          "spend": 769.75,
           "url": null,
           "postedAt": null
         },
@@ -47866,14 +47866,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 2685360,
-      "paidImpr": 2680539,
+      "impr": 2684923,
+      "paidImpr": 2680102,
       "orgImpr": 4821,
-      "views": 24115,
+      "views": 23993,
       "reach": 0,
       "eng": 4787,
       "er": 0.18,
-      "spend": 2103.62,
+      "spend": 2103.27,
       "watchTimeMin": 97931.2,
       "clicks": null,
       "ctr": 0.6,
@@ -47889,19 +47889,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 66442,
-      "paidImpr": 66442,
+      "impr": 66726,
+      "paidImpr": 66726,
       "orgImpr": 0,
-      "views": 33632,
+      "views": 33754,
       "reach": 0,
-      "eng": 46965,
-      "er": 70.69,
-      "spend": 767.25,
+      "eng": 47144,
+      "er": 70.65,
+      "spend": 769.75,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 11.55,
+      "cpm": 11.54,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
