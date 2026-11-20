@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T21:03:48Z";
+window.LAST_REFRESHED = "2026-11-20T21:10:40Z";
 
 
 
@@ -6982,26 +6982,26 @@ window.CAMPAIGNS = [
     "flight": "Oct 1 \u2014 Nov 30, 2026",
     "elapsedPct": 83.3,
     "daysLeft": 10,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "At Risk",
+    "statusKind": "warn",
     "impressions": {
-      "delivered": 138031,
+      "delivered": 146488,
       "goal": 200000
     },
     "budget": {
-      "delivered": 395.37,
+      "delivered": 420.81,
       "goal": 550.0
     },
     "color": "ft-5",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.14,
-    "cpm": 2.86,
+    "cpm": 2.87,
     "episodes": 0,
     "posts": 1,
     "blurb": "Sportradar BrandX",
-    "views": 138031,
-    "engagements": 194,
+    "views": 146488,
+    "engagements": 209,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -7009,38 +7009,30 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 138031,
-        "eng": 194,
+        "impressions": 146488,
+        "eng": 209,
         "er": 0.14,
-        "cpm": 2.86,
+        "cpm": 2.87,
         "color": "#E4405F",
-        "delta": -95.8,
+        "delta": -95.7,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 138031
+        "views": 146488
       }
     ],
     "topPosts": [],
     "topPostsOrganic": [],
-    "callouts": [
-      {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace for 83% of goal (166K of 200K) with 10 days left.",
-        "body": "At the current rate the campaign will fall ~34K impressions short of the 200K goal. Need to deliver 6K impr/day (2.2\u00d7 the current 3K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "Sportradar \u00b7 Pacing"
-      }
-    ],
+    "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-18T20:55:46Z"
+    "lastUpdatedExports": "2026-11-20T21:10:13Z"
   },
   {
     "id": "stifel_fostonight",
@@ -8039,8 +8031,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 39782222,
-    "eng": 697706,
+    "impressions": 39790679,
+    "eng": 697721,
     "er": 1.75,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -8050,7 +8042,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 46422,
-    "views": 36756863
+    "views": 36765320
   },
   {
     "name": "X",
@@ -8196,15 +8188,6 @@ window.SIGNALS = [
     "meta": "PwC \u00b7 Pacing",
     "campaignId": "pwc_formula1",
     "campaignPartner": "PwC"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 83% of goal (166K of 200K) with 10 days left.",
-    "body": "At the current rate the campaign will fall ~34K impressions short of the 200K goal. Need to deliver 6K impr/day (2.2\u00d7 the current 3K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Sportradar \u00b7 Pacing",
-    "campaignId": "sportradar_brandx",
-    "campaignPartner": "Sportradar"
   },
   {
     "tag": "WATCH",
@@ -47326,19 +47309,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 138031,
-      "paidImpr": 138031,
+      "impr": 146488,
+      "paidImpr": 146488,
       "orgImpr": 0,
-      "views": 138031,
-      "reach": 71272,
-      "eng": 194,
+      "views": 146488,
+      "reach": 75586,
+      "eng": 209,
       "er": 0.14,
-      "spend": 395.37,
+      "spend": 420.81,
       "watchTimeMin": null,
-      "clicks": 150,
+      "clicks": 161,
       "ctr": 0.11,
-      "cpc": 2.64,
-      "cpm": 2.86,
+      "cpc": 2.61,
+      "cpm": 2.87,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
