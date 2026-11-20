@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T14:42:37Z";
+window.LAST_REFRESHED = "2026-11-20T14:43:06Z";
 
 
 
@@ -45384,7 +45384,7 @@ window.POSTS_BY_CAMPAIGN = {
       "clicks": null,
       "ctr": 0.01,
       "cpc": 598.35,
-      "cpm": 4.23,
+      "cpm": 3.62,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/-buDsBSyCkE",
