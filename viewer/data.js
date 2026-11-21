@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-20T21:49:42Z";
+window.LAST_REFRESHED = "2026-11-21T17:55:27Z";
 
 
 
@@ -380,8 +380,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Players",
     "type": "content",
     "flight": "Jan 1 \u2014 Dec 31, 2026",
-    "elapsedPct": 88.7,
-    "daysLeft": 41,
+    "elapsedPct": 89.0,
+    "daysLeft": 40,
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
@@ -3298,8 +3298,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "BrandX",
     "type": "brandx",
     "flight": "Jun 26 \u2014 Dec 31, 2026",
-    "elapsedPct": 78.2,
-    "daysLeft": 41,
+    "elapsedPct": 78.7,
+    "daysLeft": 40,
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
@@ -4729,8 +4729,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Banking",
     "type": "social",
     "flight": "Aug 1 \u2014 Nov 30, 2026",
-    "elapsedPct": 91.7,
-    "daysLeft": 10,
+    "elapsedPct": 92.6,
+    "daysLeft": 9,
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
@@ -4859,7 +4859,7 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $3K (24%) of budget unspent with 10 days left.",
+        "headline": "On pace to over-deliver \u2014 $3K (24%) of budget unspent with 9 days left.",
         "body": "Impressions are 88% delivered while only 76% of budget has been spent \u2014 only 458K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "Huntington Bank \u00b7 Budget surplus"
       }
@@ -5130,8 +5130,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Partner",
     "type": "social",
     "flight": "Sep 1 \u2014 Nov 30, 2026",
-    "elapsedPct": 88.9,
-    "daysLeft": 10,
+    "elapsedPct": 90.0,
+    "daysLeft": 9,
     "status": "On Track",
     "statusKind": "on",
     "impressions": {
@@ -5315,7 +5315,7 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $5K (23%) of budget unspent with 10 days left.",
+        "headline": "On pace to over-deliver \u2014 $5K (23%) of budget unspent with 9 days left.",
         "body": "Impressions are 100% delivered while only 77% of budget has been spent \u2014 only 224 impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
         "meta": "Accenture \u00b7 Budget surplus"
       }
@@ -5748,8 +5748,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "There",
     "type": "social",
     "flight": "Sep 1 \u2014 Dec 31, 2026",
-    "elapsedPct": 66.1,
-    "daysLeft": 41,
+    "elapsedPct": 66.9,
+    "daysLeft": 40,
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
@@ -6640,8 +6640,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "1",
     "type": "social",
     "flight": "Oct 1 \u2014 Nov 30, 2026",
-    "elapsedPct": 83.3,
-    "daysLeft": 10,
+    "elapsedPct": 85.0,
+    "daysLeft": 9,
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
@@ -6995,8 +6995,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "BrandX",
     "type": "brandx",
     "flight": "Oct 1 \u2014 Nov 30, 2026",
-    "elapsedPct": 83.3,
-    "daysLeft": 10,
+    "elapsedPct": 85.0,
+    "daysLeft": 9,
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
@@ -7230,8 +7230,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Partner",
     "type": "presenting",
     "flight": "Nov 19 \u2014 Dec 31, 2026",
-    "elapsedPct": 2.4,
-    "daysLeft": 41,
+    "elapsedPct": 4.8,
+    "daysLeft": 40,
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
@@ -7435,8 +7435,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Explains",
     "type": "social",
     "flight": "Nov 1 \u2014 Dec 31, 2026",
-    "elapsedPct": 31.7,
-    "daysLeft": 41,
+    "elapsedPct": 33.3,
+    "daysLeft": 40,
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
@@ -7616,8 +7616,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "BrandX",
     "type": "brandx",
     "flight": "Nov 11 \u2014 Nov 21, 2026",
-    "elapsedPct": 90.0,
-    "daysLeft": 1,
+    "elapsedPct": 100.0,
+    "daysLeft": 0,
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
@@ -7686,8 +7686,8 @@ window.CAMPAIGNS = [
     "seriesItalic": "Squash",
     "type": "social",
     "flight": "Nov 1 \u2014 Nov 30, 2026",
-    "elapsedPct": 65.5,
-    "daysLeft": 10,
+    "elapsedPct": 69.0,
+    "daysLeft": 9,
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
@@ -7782,8 +7782,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 64% of goal (4.1M of 6.5M) with 10 days left.",
-        "body": "At the current rate the campaign will fall ~2.4M impressions short of the 6.5M goal. Need to deliver 378K impr/day (2.6\u00d7 the current 143K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 61% of goal (3.9M of 6.5M) with 9 days left.",
+        "body": "At the current rate the campaign will fall ~2.6M impressions short of the 6.5M goal. Need to deliver 420K impr/day (3.1\u00d7 the current 136K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Comcast \u00b7 Pacing"
       }
     ],
@@ -8179,8 +8179,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 0% of goal (6K of 2.0M) with 41 days left.",
-    "body": "At the current rate the campaign will fall ~2.0M impressions short of the 2.0M goal. Need to deliver 49K impr/day (933.7\u00d7 the current 52/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 0% of goal (6K of 2.0M) with 40 days left.",
+    "body": "At the current rate the campaign will fall ~2.0M impressions short of the 2.0M goal. Need to deliver 50K impr/day (967.8\u00d7 the current 51/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Stifel \u00b7 Pacing",
     "campaignId": "stifel_fostonight",
     "campaignPartner": "Stifel"
@@ -8188,8 +8188,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 5% of goal (440K of 8.5M) with 41 days left.",
-    "body": "At the current rate the campaign will fall ~8.1M impressions short of the 8.5M goal. Need to deliver 201K impr/day (41.6\u00d7 the current 5K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 5% of goal (431K of 8.5M) with 40 days left.",
+    "body": "At the current rate the campaign will fall ~8.1M impressions short of the 8.5M goal. Need to deliver 206K impr/day (43.5\u00d7 the current 5K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Heinz \u00b7 Pacing",
     "campaignId": "heinz_stadiumeats",
     "campaignPartner": "Heinz"
@@ -8206,8 +8206,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 64% of goal (4.1M of 6.5M) with 10 days left.",
-    "body": "At the current rate the campaign will fall ~2.4M impressions short of the 6.5M goal. Need to deliver 378K impr/day (2.6\u00d7 the current 143K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 61% of goal (3.9M of 6.5M) with 9 days left.",
+    "body": "At the current rate the campaign will fall ~2.6M impressions short of the 6.5M goal. Need to deliver 420K impr/day (3.1\u00d7 the current 136K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Comcast \u00b7 Pacing",
     "campaignId": "comcast_us_squash",
     "campaignPartner": "Comcast"
@@ -48786,7 +48786,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_cutdown_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 16
   },
@@ -48797,7 +48797,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "adp_full_episode_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 16
   },
@@ -48808,7 +48808,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_cutdown_x_ads.csv",
     "fileSizeKb": 2.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 12
   },
@@ -48819,7 +48819,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "adp_full_episode_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 12
   },
@@ -48830,7 +48830,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Measure Studio",
     "filename": "portfolio_players_ms.csv",
     "fileSizeKb": 293.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 416
   },
@@ -48841,7 +48841,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "etrade_yt_paid.csv",
     "fileSizeKb": 10.7,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 20
   },
@@ -48852,7 +48852,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
     "fileSizeKb": 10.3,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 0
   },
@@ -48863,7 +48863,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "spectrum_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -48874,7 +48874,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "spectrum_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -48885,7 +48885,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "spectrum_meta_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -48896,7 +48896,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "etrade_brandx_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -48907,7 +48907,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "morgan_morgan_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -48918,7 +48918,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "morgan_morgan_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -48929,7 +48929,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "sportclips_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -48940,7 +48940,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "sportclips_x_ads.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -48951,7 +48951,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "sportclips_tiktok_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -48962,7 +48962,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "onlocation_fifa_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -48973,7 +48973,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "onlocation_fifa_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -48984,7 +48984,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "onlocation_fifa_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -48995,7 +48995,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "LinkedIn Ads",
     "filename": "onlocation_fifa_linkedin_ads.csv",
     "fileSizeKb": 11.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49006,7 +49006,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "heineken_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 6
   },
@@ -49017,7 +49017,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "heineken_meta_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49028,7 +49028,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "rbc_tst_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 9
   },
@@ -49039,7 +49039,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "rbc_tst_x_ads.csv",
     "fileSizeKb": 1.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 8
   },
@@ -49050,7 +49050,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "thrivent_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49061,7 +49061,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "betmgm_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49072,7 +49072,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "betmgm_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49083,7 +49083,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49094,7 +49094,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_farm_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 5
   },
@@ -49105,7 +49105,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_farm_x_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49116,7 +49116,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "microsoft_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49127,7 +49127,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "microsoft_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 6
   },
@@ -49138,7 +49138,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "microsoft_meta_ads.csv",
     "fileSizeKb": 1.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49149,7 +49149,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "TikTok Ads",
     "filename": "microsoft_tiktok_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49160,7 +49160,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "prudential_yt_paid.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 5
   },
@@ -49171,7 +49171,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "prudential_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49182,7 +49182,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "betmgm_brandx_meta_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49193,7 +49193,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "att_brandx_meta_ads.csv",
     "fileSizeKb": 3.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 10
   },
@@ -49204,7 +49204,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "ally_nwsl_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49215,7 +49215,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "dow_lpga_impact_award_yt_paid.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49226,7 +49226,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "dow_lpga_impact_award_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49237,7 +49237,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "ehp_avp_yt_paid.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49248,7 +49248,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "ehp_avp_x_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49259,7 +49259,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "threem_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 5
   },
@@ -49270,7 +49270,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "apollo_gloabl_brandx_meta_ads.csv",
     "fileSizeKb": 1.1,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49281,7 +49281,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "ssim_wnba_allstar_event_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49292,7 +49292,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "ssim_wnba_allstar_event_x_ads.csv",
     "fileSizeKb": 0.9,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49303,7 +49303,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "ubs_huddleinthehamptons_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 5
   },
@@ -49314,7 +49314,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Measure Studio",
     "filename": "huntington_bank_2026_ms.csv",
     "fileSizeKb": 9.9,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 14
   },
@@ -49325,7 +49325,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "huntington_bank_2026_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 0
   },
@@ -49336,7 +49336,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "huntington_bank_2026_x_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49347,7 +49347,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "next_league_future_of_sports_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49358,7 +49358,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "next_league_future_of_sports_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49369,7 +49369,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Measure Studio",
     "filename": "accenture_external_creator_ms.csv",
     "fileSizeKb": 12.9,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 16
   },
@@ -49380,7 +49380,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "accenture_external_creator_yt_paid.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 0
   },
@@ -49391,7 +49391,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "whirlpool_pll_stadium_status_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49402,7 +49402,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "orlando_health_brandx_meta_ads.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 2
   },
@@ -49413,7 +49413,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "next_league_brandx_meta_ads.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49424,7 +49424,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Measure Studio",
     "filename": "state_street_ms.csv",
     "fileSizeKb": 13.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 18
   },
@@ -49435,7 +49435,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "state_street_yt_paid.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49446,7 +49446,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "state_street_x_ads.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 0
   },
@@ -49457,7 +49457,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "just_ingredients_2026_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49468,7 +49468,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "jlab_thecomeup_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49479,7 +49479,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "heinz_stadiumeats_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49490,7 +49490,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Measure Studio",
     "filename": "pwc_formula1_ms.csv",
     "fileSizeKb": 10.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 13
   },
@@ -49501,7 +49501,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "pwc_formula1_yt_paid.csv",
     "fileSizeKb": 0.4,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 0
   },
@@ -49512,7 +49512,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "pwc_formula1_x_ads.csv",
     "fileSizeKb": 0.8,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 0
   },
@@ -49523,7 +49523,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "zoom_fosexplains_mlb_yt_paid.csv",
     "fileSizeKb": 0.6,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49534,7 +49534,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "sportradar_brandx_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49545,7 +49545,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "YouTube Studio (organic)",
     "filename": "stifel_fostonight_yt_organic.csv",
     "fileSizeKb": 1.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 5
   },
@@ -49556,7 +49556,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Measure Studio",
     "filename": "nylim_fosexplains_ms.csv",
     "fileSizeKb": 5.0,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 4
   },
@@ -49567,7 +49567,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "nylim_fosexplains_yt_paid.csv",
     "fileSizeKb": 0.5,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49578,7 +49578,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "X Ads",
     "filename": "nylim_fosexplains_x_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49589,7 +49589,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Meta Ads",
     "filename": "nwsl_championship_brandx_meta_ads.csv",
     "fileSizeKb": 0.7,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 1
   },
@@ -49600,7 +49600,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Measure Studio",
     "filename": "comcast_us_squash_ms.csv",
     "fileSizeKb": 4.9,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 3
   },
@@ -49611,7 +49611,7 @@ window.DATA_ARCHIVE = [
     "sourceLabel": "Google Ads (YT Paid)",
     "filename": "comcast_us_squash_yt_paid.csv",
     "fileSizeKb": 0.3,
-    "lastModified": "2026-11-20",
+    "lastModified": "2026-11-21",
     "exists": true,
     "postsContributed": 0
   }
