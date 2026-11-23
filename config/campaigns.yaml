@@ -1941,8 +1941,8 @@ campaigns:
     sources:
       youtube_paid:
         - just_ingredients_2026_yt_paid.csv
-      measure_studio_group_ids:
-        - 9135
+      measure_studio:
+        - just_ingredients_2026_ms.csv   # Measure export (uploaded via dashboard 11.23)
     # Same boosted video (Olympic gold / injury comeback) runs as one Meta ad on
     # Instagram + Facebook placements; MS reports the Facebook placement as a
     # separate dark post. Fold it into the Instagram post so it reads as one row.
