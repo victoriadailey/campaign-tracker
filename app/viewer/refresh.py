@@ -760,6 +760,46 @@ def main() -> int:
             base.post_groups = sorted({g for p in bucket for g in (p.post_groups or [])})
             posts_by_campaign[c_id] = rest + [base]
 
+        # `meta_ads_top_up: <post id>` — the campaign's Meta Ads export is a
+        # campaign-level total (no per-placement split) for ONE boosted post.
+        # Measure only sees the placements it can attribute to a post (IG + dark
+        # FB); Meta also bills "uncategorized" placements (Audience Network,
+        # Messenger, …). Rather than show the Meta row as its own post (double
+        # count), lift that post's paid spend / impressions / reach up to Meta's
+        # totals. Never lowers a number: Meta only adds what Measure is missing.
+        _topup_id = c.get("meta_ads_top_up")
+        if _topup_id:
+            _meta_rows = [p for p in posts_by_campaign[c_id] if p.source == Source.META_ADS]
+            _tgt = next((p for p in posts_by_campaign[c_id]
+                         if str(p.post_id_native) == str(_topup_id)
+                         and p.source != Source.META_ADS), None)
+            if _meta_rows and _tgt is not None:
+                posts_by_campaign[c_id] = [p for p in posts_by_campaign[c_id]
+                                           if p.source != Source.META_ADS]
+                def _msum(attr):
+                    return sum(getattr(r, attr) or 0 for r in _meta_rows)
+                _d_spend = _msum("ad_spend") - (_tgt.ad_spend or 0)
+                _d_impr = _msum("impressions_paid") - (_tgt.impressions_paid or 0)
+                if _d_spend > 0:
+                    _tgt.ad_spend = (_tgt.ad_spend or 0) + _d_spend
+                if _d_impr > 0:
+                    _tgt.impressions_paid = (_tgt.impressions_paid or 0) + _d_impr
+                    _tgt.impressions_total = (_tgt.impressions_total or 0) + _d_impr
+                _m_reach = _msum("reach_paid")
+                if _m_reach > (_tgt.reach_paid or 0):
+                    _tgt.reach_total = (_tgt.reach_total or 0) + (_m_reach - (_tgt.reach_paid or 0))
+                    _tgt.reach_paid = _m_reach
+                _m_clicks = _msum("link_clicks_paid")
+                if _m_clicks > (_tgt.link_clicks_paid or 0):
+                    _tgt.link_clicks_paid = _m_clicks
+                _tgt.er = ((_tgt.engagements_total / _tgt.impressions_total)
+                           if _tgt.engagements_total and _tgt.impressions_total else None)
+                _tgt.cpm = ((_tgt.ad_spend / _tgt.impressions_paid * 1000)
+                            if _tgt.ad_spend and _tgt.impressions_paid else None)
+            elif _meta_rows:
+                parse_warnings.append(
+                    f"[{c_id}] meta_ads_top_up: post {_topup_id} not found; Meta rows left as-is")
+
         # Account-name overrides: relabel a post's displayed account (e.g. a
         # paid TikTok that Measure attributes to a shared ad account "fostonight"
         # but actually ran from @fos main). Case-insensitive match on the current

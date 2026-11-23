@@ -2090,11 +2090,17 @@ campaigns:
       # longer read; its Oct 30 impressions overrode Measure's current ones.
       measure_studio:
         - stifel_fostonight_ms.csv   # Measure export 11.23 (incl. FOS Tonight YouTube)
+      meta_ads:
+        - stifel_fostonight_meta_ads.csv   # Meta Ads Manager campaign total (11.23)
     # Meta added a Facebook placement to the boosted Instagram post; MS reports
     # it as a separate dark Facebook post. Fold it into the Instagram post
     # (Instagram id listed first so it keeps the row's identity).
     merge_posts:
       - ids: [4017280430702716484, 3294328294089727]   # Stifel Charity Classic
+    # The Meta Ads export is a campaign total for that one boosted post and
+    # includes uncategorized placements Measure can't attribute (~$176 /
+    # ~49K impressions). Top the merged post up to Meta's totals.
+    meta_ads_top_up: 4017280430702716484
 
   # Presenting-partner campaign — NOT a Measure post group. Scored purely on
   # cumulative impressions vs the 14.3M contracted goal across promo + podcast,
