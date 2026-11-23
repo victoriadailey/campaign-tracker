@@ -742,10 +742,9 @@ def main() -> int:
             base = bucket[0]
             def _sum(attr):
                 vals = [getattr(p, attr) or 0 for p in bucket]
-                if attr == "views_total" and spec.get("views_include_paid"):
-                    # Opt-in (`views_include_paid: true` on the merge spec): a dark
-                    # Facebook ad has only "Views - Paid" (no Total column), so
-                    # without this its views vanish when folded into the IG post.
+                if attr == "views_total":
+                    # A dark Facebook ad has only "Views - Paid" (no Total column),
+                    # so without this its views vanish when folded into another post.
                     vals = [(p.views_total if p.views_total is not None else (p.views_paid or 0))
                             for p in bucket]
                     return sum(vals) if any(v for v in vals) else None
