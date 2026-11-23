@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-23T18:09:56Z";
+window.LAST_REFRESHED = "2026-11-23T18:14:41Z";
 
 
 
@@ -7064,12 +7064,12 @@ window.CAMPAIGNS = [
     "seriesItalic": "Tonight",
     "type": "social",
     "flight": "Sep 1 \u2014 Dec 31, 2026",
-    "elapsedPct": 62.8,
-    "daysLeft": 45,
+    "elapsedPct": 68.6,
+    "daysLeft": 38,
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 543262,
+      "delivered": 543352,
       "goal": 2000000
     },
     "budget": {
@@ -7084,8 +7084,8 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 20,
     "blurb": "Stifel x FOS Tonight native social coverage",
-    "views": 293531,
-    "engagements": 449,
+    "views": 230764,
+    "engagements": 450,
     "goalSplit": [],
     "benchmarkCategory": "Social Coverage Partner",
     "lifecycle": "active",
@@ -7093,7 +7093,7 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 515310,
+        "impressions": 515312,
         "eng": 331,
         "er": 0.06,
         "cpm": 3.61,
@@ -7103,88 +7103,88 @@ window.CAMPAIGNS = [
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 9971,
-        "views": 286372
+        "organicImpressions": 9973,
+        "views": 222937
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 24012,
-        "eng": 60,
+        "impressions": 24020,
+        "eng": 61,
         "er": 0.25,
         "cpm": 0.0,
         "color": "#1d1d1f",
-        "delta": -72.8,
+        "delta": -72.4,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 24012,
-        "views": 4885
+        "organicImpressions": 24020,
+        "views": 4887
       },
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 1474,
+        "impressions": 1508,
         "eng": 4,
         "er": 0.27,
         "cpm": 0.0,
         "color": "#E00922",
-        "delta": -45.7,
+        "delta": -46.9,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
-        "organicImpressions": 1474,
-        "views": 448
+        "organicImpressions": 1508,
+        "views": 451
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 957,
+        "impressions": 997,
         "eng": 6,
-        "er": 0.63,
+        "er": 0.6,
         "cpm": 0.0,
         "color": "#FF0033",
-        "delta": -96.9,
+        "delta": -97.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 957,
-        "views": 973
+        "organicImpressions": 997,
+        "views": 974
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 853,
+        "impressions": 857,
         "eng": 36,
-        "er": 4.22,
+        "er": 4.2,
         "cpm": 0.0,
         "color": "#000000",
-        "delta": 107.9,
+        "delta": 106.9,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 853,
-        "views": 853
+        "organicImpressions": 857,
+        "views": 857
       },
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 656,
+        "impressions": 658,
         "eng": 12,
-        "er": 1.83,
+        "er": 1.82,
         "cpm": 0.0,
         "color": "#1877F2",
-        "delta": 19.6,
+        "delta": 19.2,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 656,
-        "views": 0
+        "organicImpressions": 658,
+        "views": 658
       }
     ],
     "topPosts": [
@@ -7195,14 +7195,14 @@ window.CAMPAIGNS = [
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "Lindsey Vonn shares the incredible news that she is back on the Stifel US Ski Team\u2019s World Cup\u2026",
-        "er": 3.65,
+        "er": 3.64,
         "eng": 59,
-        "reach": 1617,
+        "reach": 1620,
         "organic": 100,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DeR6LBBOLQE/",
-        "postedAt": "2026-10-09T09:12:28-07:00"
+        "postedAt": "2026-10-09T11:12:00"
       }
     ],
     "topPostsOrganic": [],
@@ -7210,8 +7210,8 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 43% of goal (865K of 2.0M) with 45 days left.",
-        "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 32K impr/day (4.5\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 40% of goal (792K of 2.0M) with 38 days left.",
+        "body": "At the current rate the campaign will fall ~1.2M impressions short of the 2.0M goal. Need to deliver 38K impr/day (5.9\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Stifel \u00b7 Pacing"
       },
       {
@@ -7227,9 +7227,8 @@ window.CAMPAIGNS = [
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
-    "lastUpdatedMs": "2026-11-16T14:54:21Z",
-    "lastUpdatedExports": "2026-10-30T15:44:50Z",
-    "measureFrozenAsOf": "2026-11-16"
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": "2026-11-23T18:14:04Z"
   },
   {
     "id": "microsoft_copilot",
@@ -8030,7 +8029,7 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129358151,
+    "impressions": 129358225,
     "eng": 3067969,
     "er": 2.37,
     "cpm": 1.13,
@@ -8040,13 +8039,13 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 7225,
-    "views": 26622983
+    "organicImpressions": 7299,
+    "views": 26622987
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 42950771,
+    "impressions": 42950775,
     "eng": 72294,
     "er": 0.17,
     "cpm": 1.97,
@@ -8056,13 +8055,13 @@ window.CHANNELS = [
       "er": 2.03,
       "cpm": 2.4
     },
-    "organicImpressions": 273579,
-    "views": 42398677
+    "organicImpressions": 273583,
+    "views": 42398681
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 40764662,
+    "impressions": 40764664,
     "eng": 700520,
     "er": 1.72,
     "cpm": 4.48,
@@ -8072,14 +8071,14 @@ window.CHANNELS = [
       "er": 3.31,
       "cpm": 5.1
     },
-    "organicImpressions": 46935,
-    "views": 37739088
+    "organicImpressions": 46937,
+    "views": 37675653
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 31536553,
-    "eng": 651905,
+    "impressions": 31536561,
+    "eng": 651906,
     "er": 2.07,
     "cpm": 1.74,
     "color": "#1d1d1f",
@@ -8088,13 +8087,13 @@ window.CHANNELS = [
       "er": 0.92,
       "cpm": 1.1
     },
-    "organicImpressions": -108014,
-    "views": 1171873
+    "organicImpressions": -108006,
+    "views": 1171875
   },
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 9027699,
+    "impressions": 9027701,
     "eng": 31215,
     "er": 0.35,
     "cpm": 3.71,
@@ -8104,8 +8103,8 @@ window.CHANNELS = [
       "er": 1.53,
       "cpm": 4.8
     },
-    "organicImpressions": 82,
-    "views": 3034430
+    "organicImpressions": 84,
+    "views": 3035088
   },
   {
     "name": "LinkedIn",
@@ -8178,15 +8177,6 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 0% of goal (6K of 2.0M) with 38 days left.",
-    "body": "At the current rate the campaign will fall ~2.0M impressions short of the 2.0M goal. Need to deliver 53K impr/day (1046.1\u00d7 the current 50/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "Stifel \u00b7 Pacing",
-    "campaignId": "stifel_fostonight",
-    "campaignPartner": "Stifel"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
     "headline": "On pace for 5% of goal (415K of 8.5M) with 38 days left.",
     "body": "At the current rate the campaign will fall ~8.1M impressions short of the 8.5M goal. Need to deliver 217K impr/day (47.6\u00d7 the current 5K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Heinz \u00b7 Pacing",
@@ -8201,6 +8191,15 @@ window.SIGNALS = [
     "meta": "Just Ingredients \u00b7 Pacing",
     "campaignId": "just_ingredients_2026",
     "campaignPartner": "Just Ingredients"
+  },
+  {
+    "tag": "WATCH",
+    "kind": "warn",
+    "headline": "On pace for 40% of goal (792K of 2.0M) with 38 days left.",
+    "body": "At the current rate the campaign will fall ~1.2M impressions short of the 2.0M goal. Need to deliver 38K impr/day (5.9\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "meta": "Stifel \u00b7 Pacing",
+    "campaignId": "stifel_fostonight",
+    "campaignPartner": "Stifel"
   },
   {
     "tag": "WATCH",
@@ -47409,15 +47408,15 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 220,
+      "impr": 236,
       "paidImpr": 0,
-      "orgImpr": 220,
-      "views": 365,
+      "orgImpr": 236,
+      "views": 366,
       "reach": 0,
       "eng": 4,
-      "er": 1.82,
+      "er": 1.69,
       "spend": 0,
-      "watchTimeMin": 268.9,
+      "watchTimeMin": 270.0,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -47425,22 +47424,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/q7BSD9-ovkU",
-      "postedAt": "2026-09-18T20:15:29-07:00"
+      "postedAt": "2026-09-18T22:15:00"
     },
     {
       "title": "How the Stifel Charity Classic Is Bringing St. Louis Together For A Great Cause and Great Golf",
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 1254,
+      "impr": 1272,
       "paidImpr": 0,
-      "orgImpr": 1254,
-      "views": 83,
+      "orgImpr": 1272,
+      "views": 85,
       "reach": 0,
       "eng": 0,
       "er": 0.0,
       "spend": 0,
-      "watchTimeMin": 16.9,
+      "watchTimeMin": 21.6,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -47448,22 +47447,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/NE0y0eIvDkk",
-      "postedAt": "2026-10-23T17:15:29-07:00"
+      "postedAt": "2026-10-23T19:15:00"
     },
     {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski about his connection with skiing and his vision for the future.  C",
       "platform": "Instagram",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 4401,
+      "impr": 4404,
       "paidImpr": 0,
-      "orgImpr": 4401,
-      "views": 4401,
+      "orgImpr": 4404,
+      "views": 4404,
       "reach": 3391,
       "eng": 80,
       "er": 1.82,
       "spend": 0,
-      "watchTimeMin": 10.9,
+      "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -47471,30 +47470,30 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Ddcf11Hv5gf/",
-      "postedAt": "2026-09-18T15:22:54-07:00"
+      "postedAt": "2026-09-18T17:22:00"
     },
     {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski about his connection with skiing and his vision for the future.  C",
       "platform": "Facebook",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 364,
+      "impr": 365,
       "paidImpr": 0,
-      "orgImpr": 364,
-      "views": 0,
+      "orgImpr": 365,
+      "views": 365,
       "reach": 0,
       "eng": 2,
       "er": 0.55,
       "spend": 0,
-      "watchTimeMin": 48.6,
-      "clicks": 5,
-      "ctr": 1.37,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
       "cpc": null,
       "cpm": null,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/122176894142804010/",
-      "postedAt": "2026-09-18T15:22:55-07:00"
+      "postedAt": "2026-09-18T17:22:00"
     },
     {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski about his connection with skiing and his vision for the future.  C",
@@ -47517,20 +47516,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2101074654270025835",
-      "postedAt": "2026-09-18T15:23:28-07:00"
+      "postedAt": "2026-09-18T17:23:00"
     },
     {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski...",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 181,
+      "impr": 186,
       "paidImpr": 0,
-      "orgImpr": 181,
+      "orgImpr": 186,
       "views": 110,
       "reach": 0,
       "eng": 1,
-      "er": 0.55,
+      "er": 0.54,
       "spend": 0,
       "watchTimeMin": 25.0,
       "clicks": null,
@@ -47540,20 +47539,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/agq0C-kRF04",
-      "postedAt": "2026-09-18T15:32:48-07:00"
+      "postedAt": "2026-09-18T17:32:00"
     },
     {
       "title": "Mikaela Shiffrin interviews Stifel CEO Ron Kruszewski about his connection with skiing and his vision for the future. Ca",
       "platform": "TikTok",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 251,
+      "impr": 253,
       "paidImpr": 0,
-      "orgImpr": 251,
-      "views": 251,
+      "orgImpr": 253,
+      "views": 253,
       "reach": 219,
       "eng": 8,
-      "er": 3.19,
+      "er": 3.16,
       "spend": 0,
       "watchTimeMin": 34.2,
       "clicks": null,
@@ -47563,7 +47562,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@fostonight/video/7687008867816934670",
-      "postedAt": "2026-09-18T15:40:50-07:00"
+      "postedAt": "2026-09-18T17:40:00"
     },
     {
       "title": "From tonight's episode of Front Office Sports Tonight: Mikaela Shiffrin and Stifel CEO Ron Kruszewski on his connection ",
@@ -47586,22 +47585,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2101151795389075646",
-      "postedAt": "2026-09-18T20:30:00-07:00"
+      "postedAt": "2026-09-18T22:30:00"
     },
     {
       "title": "Lindsey Vonn shares the incredible news that she is back on the Stifel US Ski Team\u2019s World Cup roster after a remarkable",
       "platform": "Instagram",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 1617,
+      "impr": 1620,
       "paidImpr": 0,
-      "orgImpr": 1617,
-      "views": 1617,
+      "orgImpr": 1620,
+      "views": 1620,
       "reach": 1378,
       "eng": 59,
-      "er": 3.65,
+      "er": 3.64,
       "spend": 0,
-      "watchTimeMin": 2.9,
+      "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -47609,7 +47608,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DeR6LBBOLQE/",
-      "postedAt": "2026-10-09T09:12:28-07:00"
+      "postedAt": "2026-10-09T11:12:00"
     },
     {
       "title": "Lindsey Vonn shares the incredible news that she is back on the Stifel US Ski Team\u2019s World Cup roster after a remarkable",
@@ -47632,7 +47631,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@fostonight/video/7694702318532480270",
-      "postedAt": "2026-10-09T09:15:19-07:00"
+      "postedAt": "2026-10-09T11:15:00"
     },
     {
       "title": "Lindsey Vonn shares the incredible news that she is back on the Stifel US Ski Team\u2019s World Cup roster after a remarkable",
@@ -47655,22 +47654,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2108635179212550305",
-      "postedAt": "2026-10-09T12:06:17-07:00"
+      "postedAt": "2026-10-09T14:06:00"
     },
     {
       "title": "Lindsey Vonn shares that she is back on the Stifel US Ski Team's World Cup roster.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 471,
+      "impr": 484,
       "paidImpr": 0,
-      "orgImpr": 471,
-      "views": 833,
+      "orgImpr": 484,
+      "views": 834,
       "reach": 0,
       "eng": 4,
-      "er": 0.85,
+      "er": 0.83,
       "spend": 0,
-      "watchTimeMin": 63.0,
+      "watchTimeMin": 63.4,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -47678,20 +47677,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/DZdl2qc76Is",
-      "postedAt": "2026-10-09T13:30:03-07:00"
+      "postedAt": "2026-10-09T15:30:00"
     },
     {
       "title": "Stifel CEO Ron Kruszewski tells FOS's Pat Dimon how their Charity Classic is bringing St. Louis together for a great cau",
       "platform": "X",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 7730,
+      "impr": 7738,
       "paidImpr": 0,
-      "orgImpr": 7730,
-      "views": 1751,
+      "orgImpr": 7738,
+      "views": 1753,
       "reach": 0,
-      "eng": 11,
-      "er": 0.14,
+      "eng": 12,
+      "er": 0.16,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -47701,22 +47700,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2113786297475301774",
-      "postedAt": "2026-10-23T17:15:00-07:00"
+      "postedAt": "2026-10-23T19:15:00"
     },
     {
       "title": "Stifel CEO Ron Kruszewski tells FOS\u2019s Pat Dimon how their Charity Classic is bringing St. Louis together for a great cau",
       "platform": "Instagram",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 3041,
+      "impr": 3042,
       "paidImpr": 0,
-      "orgImpr": 3041,
-      "views": 3041,
+      "orgImpr": 3042,
+      "views": 3042,
       "reach": 2823,
       "eng": 27,
       "er": 0.89,
       "spend": 0,
-      "watchTimeMin": 2.5,
+      "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -47724,45 +47723,45 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/De20ApmqsnR/",
-      "postedAt": "2026-10-23T17:17:26-07:00"
+      "postedAt": "2026-10-23T19:17:00"
     },
     {
       "title": "Stifel CEO Ron Kruszewski tells FOS\u2019s Pat Dimon how their Charity Classic is bringing St. Louis together for a great cau",
       "platform": "Facebook",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 292,
+      "impr": 293,
       "paidImpr": 0,
-      "orgImpr": 292,
-      "views": 0,
+      "orgImpr": 293,
+      "views": 293,
       "reach": 0,
       "eng": 10,
-      "er": 3.42,
+      "er": 3.41,
       "spend": 0,
-      "watchTimeMin": 88.7,
-      "clicks": 12,
-      "ctr": 4.11,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
       "cpc": null,
       "cpm": null,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/122180642078804010/",
-      "postedAt": "2026-10-23T17:17:30-07:00"
+      "postedAt": "2026-10-23T19:17:00"
     },
     {
       "title": "Stifel CEO Ron Kruszewski tells FOS's Pat Dimon how their Charity Classic is bringing St. Louis together for a great cau",
       "platform": "TikTok",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 190,
+      "impr": 191,
       "paidImpr": 0,
-      "orgImpr": 190,
-      "views": 190,
+      "orgImpr": 191,
+      "views": 191,
       "reach": 164,
       "eng": 7,
-      "er": 3.68,
+      "er": 3.66,
       "spend": 0,
-      "watchTimeMin": 24.3,
+      "watchTimeMin": 24.4,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -47770,7 +47769,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@fostonight/video/7700024018333650190",
-      "postedAt": "2026-10-23T17:26:04-07:00"
+      "postedAt": "2026-10-23T19:26:00"
     },
     {
       "title": "The Stifel Charity Classic drew record crowds to St. Louis again.  Stifel CEO Ron Kruszewski and Baseball Hall of Famer ",
@@ -47793,43 +47792,43 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2115103657884578231",
-      "postedAt": "2026-10-27T08:29:43-07:00"
+      "postedAt": "2026-10-27T10:29:00"
     },
     {
       "title": "The Stifel Charity Classic drew record crowds to St. Louis again.  Stifel CEO Ron Kruszewski and Baseball Hall of Famer ",
       "platform": "Instagram",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic+boosted",
-      "impr": 506251,
+      "impr": 506246,
       "paidImpr": 505339,
-      "orgImpr": 912,
-      "views": 277313,
-      "reach": 209813,
+      "orgImpr": 907,
+      "views": 213871,
+      "reach": 209816,
       "eng": 165,
       "er": 0.03,
       "spend": 1824.15,
-      "watchTimeMin": 2.0,
-      "clicks": 581,
-      "ctr": 3.54,
+      "watchTimeMin": null,
+      "clicks": 1,
+      "ctr": 0.04,
       "cpc": 10.56,
       "cpm": 3.61,
-      "videoViews100Pct": 215,
-      "videoViews3s": 19156,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfAP0RrKeZE/",
-      "postedAt": "2026-10-27T09:06:56-07:00"
+      "postedAt": "2026-10-27T11:06:00"
     },
     {
       "title": "The Stifel Charity Classic drew record crowds to St. Louis again. Stifel CEO Ron Kruszewski and Baseball Hall of Famer O",
       "platform": "TikTok",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 133,
+      "impr": 134,
       "paidImpr": 0,
-      "orgImpr": 133,
-      "views": 133,
+      "orgImpr": 134,
+      "views": 134,
       "reach": 124,
       "eng": 6,
-      "er": 4.51,
+      "er": 4.48,
       "spend": 0,
       "watchTimeMin": 13.5,
       "clicks": null,
@@ -47839,20 +47838,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@fostonight/video/7701379960694377742",
-      "postedAt": "2026-10-27T09:07:44-07:00"
+      "postedAt": "2026-10-27T11:07:00"
     },
     {
       "title": "Stifel CEO Ron Kruszewski and Baseball Hall of Famer Ozzie Smith on the Stifel Charity Classic",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic",
-      "impr": 305,
+      "impr": 327,
       "paidImpr": 0,
-      "orgImpr": 305,
+      "orgImpr": 327,
       "views": 30,
       "reach": 0,
       "eng": 1,
-      "er": 0.33,
+      "er": 0.31,
       "spend": 0,
       "watchTimeMin": 1.0,
       "clicks": null,
@@ -47862,7 +47861,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/yZT7mkD40ko",
-      "postedAt": "2026-10-27T09:11:19-07:00"
+      "postedAt": "2026-10-27T11:11:00"
     }
   ],
   "nylim_fosexplains": [
@@ -48469,10 +48468,6 @@ window.UPLOAD_TARGETS = {
     {
       "file": "stifel_fostonight_ms.csv",
       "label": "Measure Studio"
-    },
-    {
-      "file": "stifel_fostonight_yt_organic.csv",
-      "label": "YouTube Studio"
     }
   ],
   "microsoft_copilot": [],
@@ -48517,7 +48512,8 @@ window.DATA_HEALTH = {
     "daktronics_stadiumstatus_yt_paid.csv",
     "microsoft_copilot_delivery_log.csv",
     "next_league_future_of_sports_meta_ads.csv",
-    "portfolio_players_yt_paid.csv"
+    "portfolio_players_yt_paid.csv",
+    "stifel_fostonight_yt_organic.csv"
   ],
   "potentialDuplicates": [],
   "frozenMs": [
@@ -48654,11 +48650,6 @@ window.DATA_HEALTH = {
     {
       "id": "zoom_fosexplains_mlb",
       "partner": "Zoom",
-      "asOf": "2026-11-16"
-    },
-    {
-      "id": "stifel_fostonight",
-      "partner": "Stifel",
       "asOf": "2026-11-16"
     }
   ]
@@ -49548,13 +49539,13 @@ window.DATA_ARCHIVE = [
   {
     "campaignId": "stifel_fostonight",
     "partner": "Stifel",
-    "sourceKind": "youtube_organic",
-    "sourceLabel": "YouTube Studio (organic)",
-    "filename": "stifel_fostonight_yt_organic.csv",
-    "fileSizeKb": 1.0,
+    "sourceKind": "measure_studio",
+    "sourceLabel": "Measure Studio",
+    "filename": "stifel_fostonight_ms.csv",
+    "fileSizeKb": 13.9,
     "lastModified": "2026-11-23",
     "exists": true,
-    "postsContributed": 5
+    "postsContributed": 20
   },
   {
     "campaignId": "nylim_fosexplains",
