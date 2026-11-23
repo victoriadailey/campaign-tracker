@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-23T15:13:44Z";
+window.LAST_REFRESHED = "2026-11-23T18:09:30Z";
 
 
 
@@ -7448,23 +7448,23 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 4415470,
+      "delivered": 4425330,
       "goal": 4250000
     },
     "budget": {
-      "delivered": 7033.01,
+      "delivered": 7196.98,
       "goal": 6000.0
     },
     "color": "ft-10",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
     "er": 1.39,
-    "cpm": 1.59,
+    "cpm": 1.63,
     "episodes": 2,
     "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
-    "views": 1163226,
-    "engagements": 61354,
+    "views": 1172718,
+    "engagements": 61357,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -7472,7 +7472,7 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 2684923,
+        "impressions": 2685201,
         "eng": 4787,
         "er": 0.18,
         "cpm": 0.78,
@@ -7482,8 +7482,8 @@ window.CAMPAIGNS = [
           "er": 0.5,
           "cpm": 0.55
         },
-        "organicImpressions": 4821,
-        "views": 23993
+        "organicImpressions": 5099,
+        "views": 23903
       },
       {
         "name": "YouTube Pre-roll",
@@ -7552,10 +7552,10 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 166426,
-        "eng": 37,
+        "impressions": 176008,
+        "eng": 40,
         "er": 0.02,
-        "cpm": 5.44,
+        "cpm": 6.08,
         "color": "#1877F2",
         "delta": -98.5,
         "bench": {
@@ -7563,7 +7563,7 @@ window.CAMPAIGNS = [
           "cpm": 4.8
         },
         "organicImpressions": 0,
-        "views": 166426
+        "views": 176008
       }
     ],
     "topPosts": [
@@ -7574,9 +7574,9 @@ window.CAMPAIGNS = [
         "platform": "Facebook",
         "format": "Reels/Shorts",
         "quote": "NIL Toolkit",
-        "er": 2.22,
-        "eng": 37,
-        "reach": 166426,
+        "er": 2.27,
+        "eng": 40,
+        "reach": 176008,
         "organic": 0,
         "metric": "er",
         "insight": "",
@@ -7600,7 +7600,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Full Episode",
         "impressions": {
-          "delivered": 3169932,
+          "delivered": 3179792,
           "goal": 3250000
         }
       },
@@ -7615,7 +7615,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-20T21:20:17Z"
+    "lastUpdatedExports": "2026-11-23T18:08:53Z"
   },
   {
     "id": "nwsl_championship_brandx",
@@ -8030,7 +8030,7 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129357972,
+    "impressions": 129358250,
     "eng": 3068082,
     "er": 2.37,
     "cpm": 1.13,
@@ -8040,8 +8040,8 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 6947,
-    "views": 26623073
+    "organicImpressions": 7225,
+    "views": 26622983
   },
   {
     "name": "TikTok",
@@ -8094,8 +8094,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 9018117,
-    "eng": 31212,
+    "impressions": 9027699,
+    "eng": 31215,
     "er": 0.35,
     "cpm": 3.71,
     "color": "#1877F2",
@@ -8105,7 +8105,7 @@ window.CHANNELS = [
       "cpm": 4.8
     },
     "organicImpressions": 82,
-    "views": 3024848
+    "views": 3034430
   },
   {
     "name": "LinkedIn",
@@ -25988,20 +25988,20 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "How NIL Deals Really Work",
       "date": "Nov 4",
       "total": {
-        "impr": 3169932,
-        "views": 375821,
+        "impr": 3179792,
+        "views": 385313,
         "er": 0.16,
-        "eng": 52217,
-        "spend": 4350.66
+        "eng": 52220,
+        "spend": 4514.63
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 2684923,
+          "impr": 2685201,
           "paidImpr": 2680102,
-          "orgImpr": 4821,
-          "views": 23993,
+          "orgImpr": 5099,
+          "views": 23903,
           "eng": 4787,
           "paidEng": 4750,
           "orgEng": 37,
@@ -26028,16 +26028,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Facebook",
           "distKind": "paid",
-          "impr": 166426,
-          "paidImpr": 166426,
+          "impr": 176008,
+          "paidImpr": 176008,
           "orgImpr": 0,
-          "views": 166426,
-          "eng": 37,
-          "paidEng": 37,
+          "views": 176008,
+          "eng": 40,
+          "paidEng": 40,
           "orgEng": 0,
           "er": 0.02,
-          "cpm": 5.44,
-          "spend": 905.63,
+          "cpm": 6.08,
+          "spend": 1069.6,
           "posts": 1
         },
         {
@@ -26062,10 +26062,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 2684923,
+          "impr": 2685201,
           "paidImpr": 2680102,
-          "orgImpr": 4821,
-          "views": 23993,
+          "orgImpr": 5099,
+          "views": 23903,
           "eng": 4787,
           "er": 0.18,
           "spend": 2103.27,
@@ -26092,13 +26092,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Facebook",
           "accountName": "Front Office Sports",
           "distKind": "paid",
-          "impr": 166426,
-          "paidImpr": 166426,
+          "impr": 176008,
+          "paidImpr": 176008,
           "orgImpr": 0,
-          "views": 166426,
-          "eng": 37,
+          "views": 176008,
+          "eng": 40,
           "er": 0.02,
-          "spend": 905.63,
+          "spend": 1069.6,
           "url": "https://www.facebook.com/1632729282199989/",
           "postedAt": "2026-11-04T09:11:00"
         },
@@ -26122,8 +26122,8 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "quote": "NIL Toolkit",
           "platform": "Facebook",
-          "er": 2.22,
-          "reach": 166426,
+          "er": 2.27,
+          "reach": 176008,
           "url": "https://www.facebook.com/1632729282199989/"
         }
       ],
@@ -47871,15 +47871,15 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 2684923,
+      "impr": 2685201,
       "paidImpr": 2680102,
-      "orgImpr": 4821,
-      "views": 23993,
+      "orgImpr": 5099,
+      "views": 23903,
       "reach": 0,
       "eng": 4787,
       "er": 0.18,
       "spend": 2103.27,
-      "watchTimeMin": 97931.2,
+      "watchTimeMin": 97670.5,
       "clicks": null,
       "ctr": 0.6,
       "cpc": 1.75,
@@ -47917,19 +47917,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Facebook",
       "accountName": "Front Office Sports",
       "distKind": "paid",
-      "impr": 166426,
-      "paidImpr": 166426,
+      "impr": 176008,
+      "paidImpr": 176008,
       "orgImpr": 0,
-      "views": 166426,
+      "views": 176008,
       "reach": 0,
-      "eng": 37,
+      "eng": 40,
       "er": 0.02,
-      "spend": 905.63,
+      "spend": 1069.6,
       "watchTimeMin": null,
-      "clicks": 238,
-      "ctr": 0.37,
-      "cpc": 1.45,
-      "cpm": 5.44,
+      "clicks": 309,
+      "ctr": 0.41,
+      "cpc": 1.47,
+      "cpm": 6.08,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1632729282199989/",
@@ -47971,7 +47971,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 8880,
       "er": 2.21,
       "spend": 933.35,
-      "watchTimeMin": 8526.9,
+      "watchTimeMin": 8527.1,
       "clicks": null,
       "ctr": 0.61,
       "cpc": 3.81,
