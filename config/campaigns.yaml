@@ -2097,6 +2097,7 @@ campaigns:
     # (Instagram id listed first so it keeps the row's identity).
     merge_posts:
       - ids: [4017280430702716484, 3294328294089727]   # Stifel Charity Classic
+        views_include_paid: true   # dark FB has 284,774 paid views and no Total column
     # The Meta Ads export is a campaign total for that one boosted post and
     # includes uncategorized placements Measure can't attribute (~$176 /
     # ~49K impressions). Top the merged post up to Meta's totals.
