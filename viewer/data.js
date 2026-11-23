@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-23T19:43:45Z";
+window.LAST_REFRESHED = "2026-11-23T19:44:20Z";
 
 
 
@@ -385,23 +385,23 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 45643687,
+      "delivered": 45812874,
       "goal": 41700000
     },
     "budget": {
-      "delivered": 70296.86,
+      "delivered": 70868.72,
       "goal": 70000.0
     },
     "color": "ft-3",
     "leadFormat": "Longform Video",
     "topChannel": "YouTube",
-    "er": 2.92,
-    "cpm": 1.89,
+    "er": 2.93,
+    "cpm": 1.9,
     "episodes": 21,
     "posts": 419,
     "blurb": "Sports ownership & investing series. Mark Cuban (Ep. 9) just launched \u2014 Cuban + Donovan upcoming will round out the season.",
-    "views": 13030221,
-    "engagements": 1332845,
+    "views": 13323677,
+    "engagements": 1343773,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -409,8 +409,8 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
-        "impressions": 26651807,
-        "eng": 115641,
+        "impressions": 26656758,
+        "eng": 115682,
         "er": 0.43,
         "cpm": 0.6,
         "color": "#E00922",
@@ -419,8 +419,8 @@ window.CAMPAIGNS = [
           "er": 0.5,
           "cpm": 0.55
         },
-        "organicImpressions": 2030846,
-        "views": 498093
+        "organicImpressions": 2035797,
+        "views": 517025
       },
       {
         "name": "YouTube Pre-roll",
@@ -441,72 +441,72 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 7672124,
-        "eng": 167013,
-        "er": 2.18,
-        "cpm": 5.49,
+        "impressions": 7768283,
+        "eng": 175093,
+        "er": 2.25,
+        "cpm": 5.48,
         "color": "#E4405F",
-        "delta": -34.2,
+        "delta": -31.9,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 1942079,
-        "views": 7586604
+        "organicImpressions": 1952411,
+        "views": 7680972
       },
       {
         "name": "X",
         "italic": "X",
-        "impressions": 5274048,
-        "eng": 17360,
-        "er": 0.33,
-        "cpm": 1.63,
+        "impressions": 5301789,
+        "eng": 17790,
+        "er": 0.34,
+        "cpm": 1.65,
         "color": "#1d1d1f",
-        "delta": -64.2,
+        "delta": -63.5,
         "bench": {
           "er": 0.92,
           "cpm": 1.1
         },
-        "organicImpressions": 1792752,
-        "views": 436281
+        "organicImpressions": 1793793,
+        "views": 436513
       },
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 2621038,
-        "eng": 332365,
-        "er": 12.68,
-        "cpm": 3.06,
+        "impressions": 2652249,
+        "eng": 334299,
+        "er": 12.6,
+        "cpm": 3.05,
         "color": "#FF0033",
-        "delta": -36.6,
+        "delta": -37.0,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
         },
-        "organicImpressions": 220226,
-        "views": 2358260
+        "organicImpressions": 222516,
+        "views": 2376463
       },
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 1564759,
-        "eng": 49096,
-        "er": 3.14,
+        "impressions": 1573648,
+        "eng": 49526,
+        "er": 3.15,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -16.6,
+        "delta": -16.3,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 1564759,
-        "views": 701704
+        "organicImpressions": 1573648,
+        "views": 863189
       },
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 836241,
-        "eng": 34899,
+        "impressions": 836477,
+        "eng": 34912,
         "er": 4.17,
         "cpm": 0.0,
         "color": "#000000",
@@ -515,8 +515,8 @@ window.CAMPAIGNS = [
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 836241,
-        "views": 836241
+        "organicImpressions": 836477,
+        "views": 836477
       },
       {
         "name": "Facebook",
@@ -577,12 +577,12 @@ window.CAMPAIGNS = [
         "quote": "\u201cI think the NBA is sort of the obvious answer.\u201d\u2060 \u2060 Blake Griffin explains why NBA ownership would\u2026",
         "er": 12.34,
         "eng": 11461,
-        "reach": 92882,
+        "reach": 92885,
         "organic": 17,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DfDkESMD2nc/",
-        "postedAt": "2026-10-28T18:03:00"
+        "postedAt": "2026-10-28T19:03:00"
       },
       {
         "id": "3957272193785158435",
@@ -598,27 +598,43 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DbrDhf-GFsj/",
-        "postedAt": "2026-08-05T16:03:00"
+        "postedAt": "2026-08-05T17:03:00"
+      },
+      {
+        "id": "4032603410611740354",
+        "rank": 3,
+        "partner": "E*TRADE",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how\u2026",
+        "er": 8.67,
+        "eng": 7980,
+        "reach": 92088,
+        "organic": 9,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Df2r2-xip7C/",
+        "postedAt": "2026-11-17T14:33:00"
       },
       {
         "id": "3997851164956002592",
-        "rank": 3,
+        "rank": 4,
         "partner": "E*TRADE",
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "\u201cWhat can we do with sports to build the state of Utah?\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about\u2026",
         "er": 6.99,
         "eng": 4622,
-        "reach": 66080,
+        "reach": 66081,
         "organic": 17,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/Dd7OHP4FYkg/",
-        "postedAt": "2026-09-30T15:46:00"
+        "postedAt": "2026-09-30T16:46:00"
       },
       {
         "id": "7636507618525154573",
-        "rank": 4,
+        "rank": 5,
         "partner": "E*TRADE",
         "platform": "TikTok",
         "format": "Reels/Shorts",
@@ -630,43 +646,43 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573",
-        "postedAt": "2026-05-05T15:30:00"
+        "postedAt": "2026-05-05T16:30:00"
       },
       {
         "id": "3987727704740771134",
-        "rank": 5,
+        "rank": 6,
         "partner": "E*TRADE",
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "Drew Weatherford is a big believer in youth sports streaming.\u2060 \u2060 The former FSU quarterback and\u2026",
         "er": 6.01,
         "eng": 4478,
-        "reach": 74560,
+        "reach": 74563,
         "organic": 25,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DdXQTg2DrU-/",
-        "postedAt": "2026-09-16T16:33:00"
+        "postedAt": "2026-09-16T17:33:00"
       },
       {
         "id": "7701810996633128206",
-        "rank": 6,
+        "rank": 7,
         "partner": "E*TRADE",
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "\u201cI think the NBA is sort of the obvious answer.\u201d Blake Griffin explains why NBA ownership would be\u2026",
-        "er": 6.0,
+        "er": 5.98,
         "eng": 106,
-        "reach": 1767,
+        "reach": 1774,
         "organic": 100,
         "metric": "er",
         "insight": "",
         "url": "https://tiktok.com/@frontofficesports/video/7701810996633128206",
-        "postedAt": "2026-10-28T15:00:00"
+        "postedAt": "2026-10-28T16:00:00"
       },
       {
         "id": "4680625025490140",
-        "rank": 7,
+        "rank": 8,
         "partner": "E*TRADE",
         "platform": "Facebook",
         "format": "Feed video",
@@ -678,11 +694,11 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.facebook.com/4680625025490140/",
-        "postedAt": "2026-08-06T08:35:00"
+        "postedAt": "2026-08-06T09:35:00"
       },
       {
         "id": "7670647518274866445",
-        "rank": 8,
+        "rank": 9,
         "partner": "E*TRADE",
         "platform": "TikTok",
         "format": "Reels/Shorts",
@@ -694,39 +710,23 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://tiktok.com/@frontofficesports/video/7670647518274866445",
-        "postedAt": "2026-08-05T15:30:00"
+        "postedAt": "2026-08-05T16:30:00"
       },
       {
         "id": "3972477202378100165",
-        "rank": 9,
+        "rank": 10,
         "partner": "E*TRADE",
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d\u2060 \u2060 3-time Olympic beach volleyball gold\u2026",
         "er": 5.55,
-        "eng": 5581,
-        "reach": 100568,
+        "eng": 5582,
+        "reach": 100569,
         "organic": 26,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DchEvfuFY3F/",
-        "postedAt": "2026-08-26T15:33:00"
-      },
-      {
-        "id": "7639388031488757006",
-        "rank": 10,
-        "partner": "E*TRADE",
-        "platform": "TikTok",
-        "format": "Reels/Shorts",
-        "quote": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\" Former\u2026",
-        "er": 5.4,
-        "eng": 68,
-        "reach": 1259,
-        "organic": 100,
-        "metric": "er",
-        "insight": "",
-        "url": "https://tiktok.com/@frontofficesports/video/7639388031488757006",
-        "postedAt": "2026-05-13T15:30:00"
+        "postedAt": "2026-08-26T16:33:00"
       }
     ],
     "topPostsOrganic": [
@@ -815,14 +815,22 @@ window.CAMPAIGNS = [
         "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573"
       }
     ],
-    "callouts": [],
+    "callouts": [
+      {
+        "tag": "WIN",
+        "kind": "pos",
+        "headline": "Instagram post at 8.7% ER \u2014 2.6\u00d7 the benchmark.",
+        "body": "\"\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over\u2026\" \u2014 92K reach, 8K engagements (9% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+        "meta": "E*TRADE \u00b7 Instagram"
+      }
+    ],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
     "pacingComponents": [],
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-23T19:43:04Z"
+    "lastUpdatedExports": "2026-11-23T19:43:08Z"
   },
   {
     "id": "spectrum",
@@ -7885,12 +7893,12 @@ window.TOP_POSTS = [
     "quote": "\u201cI think the NBA is sort of the obvious answer.\u201d\u2060 \u2060 Blake Griffin explains why NBA ownership would\u2026",
     "er": 12.34,
     "eng": 11461,
-    "reach": 92882,
+    "reach": 92885,
     "organic": 17,
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/DfDkESMD2nc/",
-    "postedAt": "2026-10-28T18:03:00"
+    "postedAt": "2026-10-28T19:03:00"
   },
   {
     "id": "AT&T_ShesConnected_JewellLoyd_Clicks - Copy",
@@ -8029,8 +8037,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129826124,
-    "eng": 3081658,
+    "impressions": 129862286,
+    "eng": 3083633,
     "er": 2.37,
     "cpm": 1.13,
     "color": "#E00922",
@@ -8039,14 +8047,14 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 8235,
-    "views": 26717145
+    "organicImpressions": 15476,
+    "views": 26754280
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 42951303,
-    "eng": 72316,
+    "impressions": 42951539,
+    "eng": 72329,
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
@@ -8055,30 +8063,30 @@ window.CHANNELS = [
       "er": 2.03,
       "cpm": 2.4
     },
-    "organicImpressions": 274111,
-    "views": 42399209
+    "organicImpressions": 274347,
+    "views": 42399445
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 40885191,
-    "eng": 703588,
-    "er": 1.72,
+    "impressions": 40981350,
+    "eng": 711668,
+    "er": 1.74,
     "cpm": 4.48,
     "color": "#E4405F",
-    "delta": -48.0,
+    "delta": -47.4,
     "bench": {
       "er": 3.31,
       "cpm": 5.1
     },
-    "organicImpressions": 106995,
-    "views": 38088876
+    "organicImpressions": 117327,
+    "views": 38183244
   },
   {
     "name": "X",
     "italic": "X",
-    "impressions": 31536561,
-    "eng": 651906,
+    "impressions": 31564302,
+    "eng": 652336,
     "er": 2.07,
     "cpm": 1.74,
     "color": "#1d1d1f",
@@ -8087,8 +8095,8 @@ window.CHANNELS = [
       "er": 0.92,
       "cpm": 1.1
     },
-    "organicImpressions": -108006,
-    "views": 1171875
+    "organicImpressions": -106965,
+    "views": 1172107
   },
   {
     "name": "Facebook",
@@ -8109,8 +8117,8 @@ window.CHANNELS = [
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2950232,
-    "eng": 88440,
+    "impressions": 2959121,
+    "eng": 88870,
     "er": 3.0,
     "cpm": 8.66,
     "color": "#0A66C2",
@@ -8119,8 +8127,8 @@ window.CHANNELS = [
       "er": 3.76,
       "cpm": 0.0
     },
-    "organicImpressions": 209114,
-    "views": 1201934
+    "organicImpressions": 218003,
+    "views": 1363419
   },
   {
     "name": "Snapchat",
@@ -8231,11 +8239,11 @@ window.SIGNALS = [
   {
     "tag": "WIN",
     "kind": "pos",
-    "headline": "Instagram at 7.7% ER \u2014 2.3\u00d7 the benchmark.",
-    "body": "1.7M impressions, 133K engagements at 7.7% ER vs. the 3.3% Instagram FOS benchmark. Strongest channel this campaign \u2014 feature in the partner update.",
-    "meta": "Accenture \u00b7 Instagram",
-    "campaignId": "accenture_external_creator",
-    "campaignPartner": "Accenture"
+    "headline": "Instagram post at 8.7% ER \u2014 2.6\u00d7 the benchmark.",
+    "body": "\"\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over\u2026\" \u2014 92K reach, 8K engagements (9% organic). Strongest single asset on the campaign and well clear of the Instagram benchmark. Feature it in the partner update.",
+    "meta": "E*TRADE \u00b7 Instagram",
+    "campaignId": "etrade",
+    "campaignPartner": "E*TRADE"
   },
   {
     "tag": "WIN",
@@ -10283,7 +10291,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.63,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7420570894995005441",
-          "postedAt": "2026-01-23T14:59:00"
+          "postedAt": "2026-01-23T15:59:00"
         },
         {
           "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
@@ -10298,7 +10306,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.11,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2014810648002040166",
-          "postedAt": "2026-01-23T15:21:00"
+          "postedAt": "2026-01-23T16:21:00"
         },
         {
           "title": "Who are the minds shaping the business of sports? Athletes, team owners, and investors go deep with us on Portfolio Play",
@@ -10313,7 +10321,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.22,
           "spend": 0,
           "url": "https://www.instagram.com/p/DT3mIgPEcdQ/",
-          "postedAt": "2026-01-23T15:43:00"
+          "postedAt": "2026-01-23T16:43:00"
         },
         {
           "title": "Who are the athletes, team owners, and investors shaping the business of sports?",
@@ -10328,7 +10336,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.52,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/LWtCVt9KnqY",
-          "postedAt": "2026-01-23T15:45:00"
+          "postedAt": "2026-01-23T16:45:00"
         }
       ],
       "topPosts": [
@@ -10356,10 +10364,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mike Repole on Sports Ownership",
       "date": "Feb 3",
       "total": {
-        "impr": 2257102,
-        "views": 895530,
+        "impr": 2257254,
+        "views": 895708,
         "er": 2.4,
-        "eng": 82857,
+        "eng": 82860,
         "spend": 3366.67
       },
       "perChannel": [
@@ -10369,7 +10377,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1058041,
           "paidImpr": 1029710,
           "orgImpr": 28331,
-          "views": 21686,
+          "views": 21712,
           "eng": 3603,
           "paidEng": 3413,
           "orgEng": 190,
@@ -10381,13 +10389,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 498645,
+          "impr": 498797,
           "paidImpr": 365044,
-          "orgImpr": 133601,
-          "views": 493421,
-          "eng": 4682,
+          "orgImpr": 133753,
+          "views": 493573,
+          "eng": 4685,
           "paidEng": 0,
-          "orgEng": 2791,
+          "orgEng": 2794,
           "er": 0.94,
           "cpm": 4.19,
           "spend": 1529.0,
@@ -10478,12 +10486,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1058041,
           "paidImpr": 1029710,
           "orgImpr": 28331,
-          "views": 21686,
+          "views": 21712,
           "eng": 3603,
           "er": 0.34,
           "spend": 551.16,
           "url": "https://youtu.be/yzCZ18JnQ2A",
-          "postedAt": "2026-01-27T09:01:00"
+          "postedAt": "2026-01-27T10:01:00"
         },
         {
           "title": "Portfolio Players S3 Ep1: Mike Repole (pre-roll)",
@@ -10513,7 +10521,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.27,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2016202571447157107",
-          "postedAt": "2026-01-27T11:32:00"
+          "postedAt": "2026-01-27T12:32:00"
         },
         {
           "title": "Billionaire Built Brands With Kobe, Tom Brady & The Rock Shares His Secrets #sportsbusiness",
@@ -10528,7 +10536,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.41,
           "spend": 199.15,
           "url": "https://www.youtube.com/shorts/JlshM0PB5VI",
-          "postedAt": "2026-01-27T11:41:00"
+          "postedAt": "2026-01-27T12:41:00"
         },
         {
           "title": "Beverage billionaire, sports entrepreneur, and owner of NOBULL, Mike Repole joins Daniel Roberts for a wide-ranging conv",
@@ -10543,22 +10551,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.71,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7422026339685236736",
-          "postedAt": "2026-01-27T15:23:00"
+          "postedAt": "2026-01-27T16:23:00"
         },
         {
           "title": "Meet Mike Repole - the sports entrepreneur responsible for building billion-dollar brands like Vitamin Water, BodyArmor ",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 23135,
+          "impr": 23287,
           "paidImpr": 0,
-          "orgImpr": 23135,
-          "views": 23135,
-          "eng": 229,
-          "er": 0.99,
+          "orgImpr": 23287,
+          "views": 23287,
+          "eng": 232,
+          "er": 1.0,
           "spend": 0,
           "url": "https://www.instagram.com/p/DUB6GDPjC7W/",
-          "postedAt": "2026-01-27T15:51:00"
+          "postedAt": "2026-01-27T16:51:00"
         },
         {
           "title": "What's the 2nd Biggest Sport in the US?",
@@ -10573,7 +10581,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 9.29,
           "spend": 198.83,
           "url": "https://www.youtube.com/shorts/nkqbJEzlLB4",
-          "postedAt": "2026-01-28T15:10:00"
+          "postedAt": "2026-01-28T16:10:00"
         },
         {
           "title": "What's the number two sport in the United States?   If you said college football, you might be onto something.    United",
@@ -10588,7 +10596,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.28,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7422391055095963648",
-          "postedAt": "2026-01-28T15:32:00"
+          "postedAt": "2026-01-28T16:32:00"
         },
         {
           "title": "Tom Brady's business partner and billionaire entrepreneur @repolestable firmly believes that college football only trail",
@@ -10603,7 +10611,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.48,
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2016629140447797250",
-          "postedAt": "2026-01-28T15:47:00"
+          "postedAt": "2026-01-28T16:47:00"
         },
         {
           "title": "College football stands as a powerhouse in the U.S. sports landscape, second only to the NFL, according to billionaire s",
@@ -10618,7 +10626,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.44,
           "spend": 781.0,
           "url": "https://www.instagram.com/p/DUEsIX2Dr4h/",
-          "postedAt": "2026-01-28T17:45:00"
+          "postedAt": "2026-01-28T18:45:00"
         },
         {
           "title": "\u201c[Tom Brady] ran a faster 40 (yard dash) at 45 years old than he did at the combine\u201d   NOBULL\u2019s Mike Repole explains how",
@@ -10633,7 +10641,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.7,
           "spend": 0,
           "url": "https://www.instagram.com/p/DUHRfuBClok/",
-          "postedAt": "2026-01-29T17:54:00"
+          "postedAt": "2026-01-29T18:54:00"
         },
         {
           "title": "\u201c[Tom Brady] ran a faster 40 (yard dash) at 45 years old than he did at the combine.\u201d   NOBULL\u2019s Mike Repole explains ho",
@@ -10648,7 +10656,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://twitter.com/FOS_News_/status/2017024966185865251",
-          "postedAt": "2026-01-29T18:00:00"
+          "postedAt": "2026-01-29T19:00:00"
         },
         {
           "title": "How much has Mike Repole given in NIL money to St. John\u2019s?   \u201cMore than Mark Cuban gives to Indiana,\u201d he says.   Repole ",
@@ -10663,7 +10671,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.16,
           "spend": 90.0,
           "url": "https://twitter.com/FOS/status/2018791605864370299",
-          "postedAt": "2026-02-03T15:00:00"
+          "postedAt": "2026-02-03T16:00:00"
         },
         {
           "title": "How much has Mike Repole given in NIL money to St. John\u2019s?   \u201cMore than Mark Cuban gives to Indiana,\u201d he says.   Repole ",
@@ -10678,7 +10686,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.42,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7424506289344593920",
-          "postedAt": "2026-02-03T15:30:00"
+          "postedAt": "2026-02-03T16:30:00"
         },
         {
           "title": "How much has Mike Repole given in NIL money to St. John\u2019s?",
@@ -10693,7 +10701,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 35.54,
           "spend": 200.12,
           "url": "https://www.youtube.com/shorts/vqYe6pmoc14",
-          "postedAt": "2026-02-03T16:29:00"
+          "postedAt": "2026-02-03T17:29:00"
         },
         {
           "title": "How much has Mike Repole given in NIL money to St. John\u2019s?  \u201cMore than Mark Cuban gives to Indiana,\u201d he says.  Repole gi",
@@ -10708,7 +10716,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.78,
           "spend": 748.0,
           "url": "https://www.instagram.com/p/DUWomrrCbKM/",
-          "postedAt": "2026-02-04T17:00:00"
+          "postedAt": "2026-02-04T18:00:00"
         },
         {
           "title": "\u201cMore than Mark Cuban gives to Indiana\u2026 it\u2019s millions.\u201d  Vitaminwater cofounder Mike Repole spoke on Portfolio Players a",
@@ -10723,7 +10731,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.29,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2037675354572079447",
-          "postedAt": "2026-03-27T18:37:00"
+          "postedAt": "2026-03-27T19:37:00"
         },
         {
           "title": "Full episode of Portfolio Players with Mike Repole including: - How BodyArmor scaled to an $8B valuation - Why he merged",
@@ -10738,7 +10746,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.07,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2037675616330199473",
-          "postedAt": "2026-03-27T18:38:00"
+          "postedAt": "2026-03-27T19:38:00"
         },
         {
           "title": "Mike Repole wanted to buy a horse when he became successful. Now, he's had a horse in the Kentucky Derby 12 times.  @Rep",
@@ -10753,7 +10761,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.2,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2050615518701223952",
-          "postedAt": "2026-05-02T11:36:00"
+          "postedAt": "2026-05-02T12:36:00"
         },
         {
           "title": "@RepoleStable Watch Mike Repole's full interview on Portfolio Players here \u2b07\ufe0f",
@@ -10768,7 +10776,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.05,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2050615818161963321",
-          "postedAt": "2026-05-02T11:38:00"
+          "postedAt": "2026-05-02T12:38:00"
         },
         {
           "title": "Billionaire Sports Investor Mike Repole Wants to Buy the Jets #nfl",
@@ -10783,7 +10791,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.78,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/U11yD_Kdthw",
-          "postedAt": "2026-05-15T10:50:00"
+          "postedAt": "2026-05-15T11:50:00"
         },
         {
           "title": "Mike Repole says he would help New York Jets owner Woody Johnson out for free. Hear the full story on the latest episode",
@@ -10798,7 +10806,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.62,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7640183004303740173",
-          "postedAt": "2026-05-15T14:00:00"
+          "postedAt": "2026-05-15T15:00:00"
         },
         {
           "title": "Mike Repole says he would help New York Jets owner Woody Johnson out for free. \u2060 \u2060 Hear the full story on the latest epi",
@@ -10813,7 +10821,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.27,
           "spend": 0,
           "url": "https://www.instagram.com/p/DYYEmN_mWl2/",
-          "postedAt": "2026-05-15T17:33:00"
+          "postedAt": "2026-05-15T18:33:00"
         },
         {
           "title": "Women's Volleyball is THE Next Big Sports Investment #lovb",
@@ -10828,7 +10836,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.15,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/xW3fz52xFVg",
-          "postedAt": "2026-05-21T08:04:00"
+          "postedAt": "2026-05-21T09:04:00"
         },
         {
           "title": "BodyArmor cofounder Mike Repole tells FOS that the sport that he'd invest in right now is women's volleyball.\u2060 \u2060 Repole ",
@@ -10843,7 +10851,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.25,
           "spend": 0,
           "url": "https://www.instagram.com/p/DYskF-oCO_2/",
-          "postedAt": "2026-05-23T16:33:00"
+          "postedAt": "2026-05-23T17:33:00"
         }
       ],
       "topPosts": [
@@ -11001,7 +11009,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.34,
           "spend": 597.52,
           "url": "https://youtu.be/nuuTkGxpkqk",
-          "postedAt": "2026-02-10T09:01:00"
+          "postedAt": "2026-02-10T10:01:00"
         },
         {
           "title": "Portfolio Players S3 Ep2: Jon Patricof (pre-roll)",
@@ -11031,7 +11039,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.34,
           "spend": 0,
           "url": "https://www.instagram.com/p/DUlz6l0DbCw/",
-          "postedAt": "2026-02-10T14:30:00"
+          "postedAt": "2026-02-10T15:30:00"
         },
         {
           "title": "Athletes Unlimited co-founder &amp; CEO Jon Patricof joined @readDanwrite on Portfolio Players to discuss: \u2022 why he buil",
@@ -11046,7 +11054,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.34,
           "spend": 75.0,
           "url": "https://twitter.com/FOS/status/2021325755158827063",
-          "postedAt": "2026-02-10T14:49:00"
+          "postedAt": "2026-02-10T15:49:00"
         },
         {
           "title": "Is @AUProSports the future of sports league models?",
@@ -11061,7 +11069,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 20.44,
           "spend": 179.29,
           "url": "https://www.youtube.com/shorts/0xlBGzSHQuM",
-          "postedAt": "2026-02-10T14:54:00"
+          "postedAt": "2026-02-10T15:54:00"
         },
         {
           "title": "@readDanwrite @AUProSports Full episode here:",
@@ -11076,7 +11084,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.11,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2021341778604065173",
-          "postedAt": "2026-02-10T15:53:00"
+          "postedAt": "2026-02-10T16:53:00"
         },
         {
           "title": "Athletes Unlimited CEO Jon Patricof joins FOS editor-in-chief Daniel Roberts on the latest episode of Portfolio Players ",
@@ -11091,7 +11099,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.55,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427112326522236929",
-          "postedAt": "2026-02-10T16:13:00"
+          "postedAt": "2026-02-10T17:13:00"
         },
         {
           "title": "\u201cIf interest in women\u2019s pro basketball doesn\u2019t grow then we\u2019re just going to continue to be a small fish in a big pond.\u201d",
@@ -11106,7 +11114,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.31,
           "spend": 72.26,
           "url": "https://twitter.com/FOS/status/2021696283220627926",
-          "postedAt": "2026-02-11T15:22:00"
+          "postedAt": "2026-02-11T16:22:00"
         },
         {
           "title": "Why @AUProSports needs the WNBA to SUCCEED as well! #womenssports",
@@ -11121,7 +11129,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 33.84,
           "spend": 199.78,
           "url": "https://www.youtube.com/shorts/6tFANIBWyuc",
-          "postedAt": "2026-02-11T15:25:00"
+          "postedAt": "2026-02-11T16:25:00"
         },
         {
           "title": "Athletes Unlimited CEO Jon Patricof joins Portfolio Players",
@@ -11136,7 +11144,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.28,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427465822115205120",
-          "postedAt": "2026-02-11T15:37:00"
+          "postedAt": "2026-02-11T16:37:00"
         },
         {
           "title": "\u201cIf interest in women\u2019s pro basketball doesn\u2019t grow then we\u2019re just going to continue to be a small fish in a big pond.\u201d",
@@ -11151,7 +11159,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.23,
           "spend": 747.0,
           "url": "https://www.instagram.com/p/DUos72TDf9D/",
-          "postedAt": "2026-02-11T17:26:00"
+          "postedAt": "2026-02-11T18:26:00"
         },
         {
           "title": "\u201cIf interest in women\u2019s pro basketball doesn\u2019t grow then we\u2019re just going to continue to be a small fish in a big pond.\u201d",
@@ -11166,7 +11174,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.34,
           "spend": 0,
           "url": "https://www.facebook.com/25640943042265621/",
-          "postedAt": "2026-02-11T17:26:00"
+          "postedAt": "2026-02-11T18:26:00"
         },
         {
           "title": "\u201cIt\u2019s hard to understand historically what it\u2019s like to be a women\u2019s softball fan.\u201d   Co-founder and CEO of @auprosports",
@@ -11181,7 +11189,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.52,
           "spend": 747.0,
           "url": "https://www.instagram.com/p/DU6lia1lzxg/",
-          "postedAt": "2026-02-18T16:07:00"
+          "postedAt": "2026-02-18T17:07:00"
         },
         {
           "title": "\u201cIt\u2019s hard to understand historically what it\u2019s like to be a women\u2019s softball fan.\u201d   Co-founder & CEO of Athletes Unlim",
@@ -11196,7 +11204,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.47,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7430010278588657664",
-          "postedAt": "2026-02-18T16:08:00"
+          "postedAt": "2026-02-18T17:08:00"
         },
         {
           "title": "How @theAUSLofficial is Changing Pro Softball",
@@ -11211,7 +11219,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 25.14,
           "spend": 179.75,
           "url": "https://www.youtube.com/shorts/LOXUkygFBrU",
-          "postedAt": "2026-02-18T17:19:00"
+          "postedAt": "2026-02-18T18:19:00"
         },
         {
           "title": "From @newyorkcityfc to @AUsports, Jon Patricof the CEO &amp; Co-founder of Athletes Unlimited discusses the evolving mod",
@@ -11226,7 +11234,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.21,
           "spend": 100.01,
           "url": "https://twitter.com/FOS/status/2024265914258948319",
-          "postedAt": "2026-02-18T17:32:00"
+          "postedAt": "2026-02-18T18:32:00"
         },
         {
           "title": "",
@@ -11241,7 +11249,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.07,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2024266065409098028",
-          "postedAt": "2026-02-18T17:33:00"
+          "postedAt": "2026-02-18T18:33:00"
         }
       ],
       "topPosts": [
@@ -11399,7 +11407,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.49,
           "spend": 598.02,
           "url": "https://youtu.be/sq0xjYZix24",
-          "postedAt": "2026-02-24T09:01:00"
+          "postedAt": "2026-02-24T10:01:00"
         },
         {
           "title": "Portfolio Players S3 Ep3: Leslie Osborne (pre-roll)",
@@ -11429,7 +11437,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.55,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/_ZV9Bbtigco",
-          "postedAt": "2026-02-24T14:37:00"
+          "postedAt": "2026-02-24T15:37:00"
         },
         {
           "title": "From founding @wearebayfc to investing in @LOVB San Francisco, Leslie Osborne explains how athletes are shaping the futu",
@@ -11444,7 +11452,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.06,
           "spend": 0,
           "url": "https://www.instagram.com/p/DVKL-fCFRpl/",
-          "postedAt": "2026-02-24T17:32:00"
+          "postedAt": "2026-02-24T18:32:00"
         },
         {
           "title": "Bay FC cofounder and former #USWNT star Leslie Osborne Lewis joins Daniel Roberts on the latest episode of Portfolio Pla",
@@ -11459,7 +11467,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.55,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432374634353954816",
-          "postedAt": "2026-02-25T09:00:00"
+          "postedAt": "2026-02-25T10:00:00"
         },
         {
           "title": "Cofounder of @wearebayfc and USWNT alum @leslieosborne12 on women\u2019s sports ownership:  NWSL expansion boom Athletes as i",
@@ -11474,7 +11482,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.31,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2026725130429186291",
-          "postedAt": "2026-02-25T12:25:00"
+          "postedAt": "2026-02-25T13:25:00"
         },
         {
           "title": "@wearebayfc @LeslieOsborne12",
@@ -11489,7 +11497,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.13,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2026725252152352819",
-          "postedAt": "2026-02-25T12:25:00"
+          "postedAt": "2026-02-25T13:25:00"
         },
         {
           "title": "Who is the FEMALE Messi? #nwsl",
@@ -11504,7 +11512,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 43.38,
           "spend": 179.76,
           "url": "https://www.youtube.com/shorts/fc6JZzuQrf4",
-          "postedAt": "2026-02-25T15:46:00"
+          "postedAt": "2026-02-25T16:46:00"
         },
         {
           "title": "Is there a women\u2019s soccer player who has #Messi level appeal? Perhaps not. But according to Bay FC cofounder Leslie Osbo",
@@ -11519,7 +11527,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.73,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432542466571993088",
-          "postedAt": "2026-02-25T15:52:00"
+          "postedAt": "2026-02-25T16:52:00"
         },
         {
           "title": "\u201cIf we would have lost her it would have set us back.\u201d  BayFC founder @LeslieOsborne12 discusses how the NWSL had to do ",
@@ -11534,7 +11542,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.74,
           "spend": 74.41,
           "url": "https://twitter.com/FOS/status/2026779162187329718",
-          "postedAt": "2026-02-25T15:59:00"
+          "postedAt": "2026-02-25T16:59:00"
         },
         {
           "title": "",
@@ -11549,7 +11557,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2026779233784136168",
-          "postedAt": "2026-02-25T15:59:00"
+          "postedAt": "2026-02-25T16:59:00"
         },
         {
           "title": "Is there a female Messi? Perhaps not. But according to @wearebayfc cofounder @leslieosborne12, USWNT and NWSL\u2019s Trinity ",
@@ -11564,7 +11572,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.92,
           "spend": 748.0,
           "url": "https://www.instagram.com/p/DVMmmM3gb35/",
-          "postedAt": "2026-02-25T16:04:00"
+          "postedAt": "2026-02-25T17:04:00"
         },
         {
           "title": "Is there a female Messi? Perhaps not. But according to @wearebayfc cofounder @leslieosborne12, USWNT and NWSL\u2019s Trinity ",
@@ -11579,7 +11587,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.28,
           "spend": 0,
           "url": "https://www.facebook.com/1386982383230632/",
-          "postedAt": "2026-02-25T16:04:00"
+          "postedAt": "2026-02-25T17:04:00"
         },
         {
           "title": "NWSL Owner says \u201cAthletes are an asset class\"",
@@ -11594,7 +11602,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 18.31,
           "spend": 199.88,
           "url": "https://www.youtube.com/shorts/GKQyJWUgHGY",
-          "postedAt": "2026-03-04T16:00:00"
+          "postedAt": "2026-03-04T17:00:00"
         },
         {
           "title": "Are female athletes the most undervalued asset class in sports?  @wearebayfc founder @LeslieOsborne12 makes the case on ",
@@ -11609,7 +11617,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.37,
           "spend": 116.69,
           "url": "https://twitter.com/FOS/status/2029315952056386022",
-          "postedAt": "2026-03-04T16:00:00"
+          "postedAt": "2026-03-04T17:00:00"
         },
         {
           "title": "For years, athletes built value for leagues, sponsors, and media companies. But they weren\u2019t always in the ownership roo",
@@ -11624,7 +11632,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.92,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7435074324270579712",
-          "postedAt": "2026-03-04T16:00:00"
+          "postedAt": "2026-03-04T17:00:00"
         },
         {
           "title": "Athletes aren\u2019t just talent. \u201cThey\u2019re an asset class.\u201d  \u201cTime. Experience. Success. Brand. Image. Likeness.\u201d  That\u2019s how",
@@ -11639,7 +11647,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.89,
           "spend": 797.0,
           "url": "https://www.instagram.com/p/DVen7xvCbF_/",
-          "postedAt": "2026-03-04T16:30:00"
+          "postedAt": "2026-03-04T17:30:00"
         },
         {
           "title": "Athletes aren\u2019t just talent. \u201cThey\u2019re an asset class.\u201d  \u201cTime. Experience. Success. Brand. Image. Likeness.\u201d  That\u2019s how",
@@ -11654,7 +11662,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.29,
           "spend": 0,
           "url": "https://www.facebook.com/1452953592947819/",
-          "postedAt": "2026-03-04T16:30:00"
+          "postedAt": "2026-03-04T17:30:00"
         },
         {
           "title": "Bay FC cofounder Leslie Osborne says her club learned a lot from Angel City's ownership debacle and \"massive cap table.\"",
@@ -11669,7 +11677,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.22,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2029678842479341595",
-          "postedAt": "2026-03-05T16:02:00"
+          "postedAt": "2026-03-05T17:02:00"
         }
       ],
       "topPosts": [
@@ -11827,7 +11835,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.51,
           "spend": 599.53,
           "url": "https://youtu.be/uvSKUmYa6Kg",
-          "postedAt": "2026-03-10T09:07:00"
+          "postedAt": "2026-03-10T10:07:00"
         },
         {
           "title": "Portfolio Players S3 Ep4: Paul Rabil (pre-roll)",
@@ -11857,7 +11865,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.64,
           "spend": 0,
           "url": "https://www.instagram.com/p/DVt9faZgfQ8/",
-          "postedAt": "2026-03-10T15:58:00"
+          "postedAt": "2026-03-10T16:58:00"
         },
         {
           "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Professional Lacrosse League.  PLL President and",
@@ -11872,7 +11880,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://www.facebook.com/950129314064976/",
-          "postedAt": "2026-03-10T15:58:00"
+          "postedAt": "2026-03-10T16:58:00"
         },
         {
           "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Professional Lacrosse League.  PLL President and",
@@ -11887,7 +11895,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.43,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2031478954268254612",
-          "postedAt": "2026-03-10T16:15:00"
+          "postedAt": "2026-03-10T17:15:00"
         },
         {
           "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Premier Lacrosse League.  Premier Lacrosse Leagu",
@@ -11902,7 +11910,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.95,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7437244763872862208",
-          "postedAt": "2026-03-10T16:15:00"
+          "postedAt": "2026-03-10T17:15:00"
         },
         {
           "title": "PLL Founder 50x returns in sports, AI, and the future of PLL",
@@ -11917,7 +11925,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.41,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/CYFnoA2na4A",
-          "postedAt": "2026-03-10T16:15:00"
+          "postedAt": "2026-03-10T17:15:00"
         },
         {
           "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Premier Lacrosse League.  PLL President and Cofo",
@@ -11932,7 +11940,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.19,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2031750744458809546",
-          "postedAt": "2026-03-11T10:15:00"
+          "postedAt": "2026-03-11T11:15:00"
         },
         {
           "title": "Sports ownership has returned 50-100x over the last 35 years. The stock market? 15x over the same period.  Cofounder and",
@@ -11947,7 +11955,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.42,
           "spend": 799.0,
           "url": "https://www.instagram.com/p/DVwgb5wiQz6/",
-          "postedAt": "2026-03-11T15:32:00"
+          "postedAt": "2026-03-11T16:32:00"
         },
         {
           "title": "Sports ownership has returned 50-100x over the last 35 years. The stock market? 15x over the same period.  Cofounder and",
@@ -11962,7 +11970,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.32,
           "spend": 0,
           "url": "https://www.facebook.com/2990168687843991/",
-          "postedAt": "2026-03-11T15:32:00"
+          "postedAt": "2026-03-11T16:32:00"
         },
         {
           "title": "Sports ownership has returned 50-100x over the last 35 years. The stock market? 15x over the same period.   PLL cofounde",
@@ -11977,7 +11985,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.26,
           "spend": 95.96,
           "url": "https://twitter.com/FOS/status/2031837566417113541",
-          "postedAt": "2026-03-11T16:00:00"
+          "postedAt": "2026-03-11T17:00:00"
         },
         {
           "title": "50x returns in 35 years: Why Capital Is Flooding Into Sports Ownership",
@@ -11992,7 +12000,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 43.54,
           "spend": 179.8,
           "url": "https://www.youtube.com/shorts/kis1Vi_DN6M",
-          "postedAt": "2026-03-11T16:00:00"
+          "postedAt": "2026-03-11T17:00:00"
         },
         {
           "title": "Jerry Jones bought the Dallas Cowboys for $140 million in 1989.  The franchise is now worth $11 billion.  That's not an ",
@@ -12007,7 +12015,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.6,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7437592120284299264",
-          "postedAt": "2026-03-11T16:00:00"
+          "postedAt": "2026-03-11T17:00:00"
         },
         {
           "title": "What if AI replaced referees\u2026 and got every call right? PLL president and cofounder @paulrabil argues that might actuall",
@@ -12022,7 +12030,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.56,
           "spend": 798.0,
           "url": "https://www.instagram.com/p/DWCjk0qARin/",
-          "postedAt": "2026-03-18T15:56:00"
+          "postedAt": "2026-03-18T16:56:00"
         },
         {
           "title": "What if AI replaced referees\u2026 and got every call right? PLL president and cofounder @paulrabil argues that might actuall",
@@ -12037,7 +12045,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://www.facebook.com/1651474369182961/",
-          "postedAt": "2026-03-18T15:56:00"
+          "postedAt": "2026-03-18T16:56:00"
         },
         {
           "title": "What if AI replaced referees and got every call right?   @PremierLacrosse president @paulrabil argues that perfect offic",
@@ -12052,7 +12060,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.0,
           "spend": 66.07,
           "url": "https://twitter.com/FOS/status/2034378056400355565",
-          "postedAt": "2026-03-18T16:15:00"
+          "postedAt": "2026-03-18T17:15:00"
         },
         {
           "title": "Is perfect officiating via AI actually bad for sports? Premier Lacrosse League cofounder and President Paul Rabil thinks",
@@ -12067,7 +12075,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.55,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7440145784714518530",
-          "postedAt": "2026-03-18T16:23:00"
+          "postedAt": "2026-03-18T17:23:00"
         },
         {
           "title": "Would AI officiating ruin sports?",
@@ -12082,7 +12090,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 31.4,
           "spend": 179.44,
           "url": "https://www.youtube.com/shorts/hNnQ5SozcU0",
-          "postedAt": "2026-03-18T17:30:00"
+          "postedAt": "2026-03-18T18:30:00"
         }
       ],
       "topPosts": [
@@ -12240,7 +12248,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.55,
           "spend": 698.8,
           "url": "https://youtu.be/R4E1tKfoJy4",
-          "postedAt": "2026-03-24T09:00:00"
+          "postedAt": "2026-03-24T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep5: Assia Grazioli-Venier (pre-roll)",
@@ -12270,7 +12278,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.84,
           "spend": 0,
           "url": "https://www.instagram.com/p/DWR9vNkgRXJ/",
-          "postedAt": "2026-03-24T15:32:00"
+          "postedAt": "2026-03-24T16:32:00"
         },
         {
           "title": "\u201cThere is so much capital that wants to come into sports right now... it is going to burst.\u201d   Assia Grazioli-Venier of ",
@@ -12285,7 +12293,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.47,
           "spend": 0,
           "url": "https://www.facebook.com/1424085823064337/",
-          "postedAt": "2026-03-24T15:32:00"
+          "postedAt": "2026-03-24T16:32:00"
         },
         {
           "title": "\"There is so much capital that wants to come into sports right now... it is going to burst.\"   Assia Grazioli-Venier of ",
@@ -12300,7 +12308,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.14,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576",
-          "postedAt": "2026-03-24T15:34:00"
+          "postedAt": "2026-03-24T16:34:00"
         },
         {
           "title": "\"There is so much capital that wants to come into sports right now... it is going to burst.\"   @assiagrazioli of Muse Ca",
@@ -12315,7 +12323,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.28,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2036548613371748719",
-          "postedAt": "2026-03-24T16:00:00"
+          "postedAt": "2026-03-24T17:00:00"
         },
         {
           "title": "Full episode of Portfolio Players with Assia Grazioli-Venier:",
@@ -12330,7 +12338,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2036549190570967052",
-          "postedAt": "2026-03-24T16:02:00"
+          "postedAt": "2026-03-24T17:02:00"
         },
         {
           "title": "The sports investment bubble is about to burst",
@@ -12345,7 +12353,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.57,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/F9xLnkXdxKc",
-          "postedAt": "2026-03-24T16:30:00"
+          "postedAt": "2026-03-24T17:30:00"
         },
         {
           "title": "\u201cOne of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\u201d  NWS",
@@ -12360,7 +12368,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.84,
           "spend": 798.0,
           "url": "https://www.instagram.com/p/DWUihYhgXqm/",
-          "postedAt": "2026-03-25T15:32:00"
+          "postedAt": "2026-03-25T16:32:00"
         },
         {
           "title": "\u201cOne of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\u201d  NWS",
@@ -12375,7 +12383,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.33,
           "spend": 0,
           "url": "https://www.facebook.com/1425008446305408/",
-          "postedAt": "2026-03-25T15:32:00"
+          "postedAt": "2026-03-25T16:32:00"
         },
         {
           "title": "\"One of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\"  Ass",
@@ -12390,7 +12398,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.69,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442670613099565056",
-          "postedAt": "2026-03-25T15:36:00"
+          "postedAt": "2026-03-25T16:36:00"
         },
         {
           "title": "How Women\u2019s Soccer Is Driving the Sport\u2019s Growth in the U.S.",
@@ -12405,7 +12413,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 28.83,
           "spend": 149.88,
           "url": "https://www.youtube.com/shorts/ChE2w-u4gC0",
-          "postedAt": "2026-03-25T15:43:00"
+          "postedAt": "2026-03-25T16:43:00"
         },
         {
           "title": "\"No judgment for the MLS, but it just hasn\u2019t been able to compete with European soccer.\"  @NWSL investor @assiagrazioli ",
@@ -12420,7 +12428,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.11,
           "spend": 99.02,
           "url": "https://twitter.com/FOS/status/2036911003083170204",
-          "postedAt": "2026-03-25T16:00:00"
+          "postedAt": "2026-03-25T17:00:00"
         },
         {
           "title": "Full conversation with Assia Grazioli-Venier including:  - Why the sports investment bubble will burst - Her Juventus bo",
@@ -12435,7 +12443,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2036913553022607857",
-          "postedAt": "2026-03-25T16:10:00"
+          "postedAt": "2026-03-25T17:10:00"
         },
         {
           "title": "Full conversation with Assia Grazioli-Venier including:  - Why the sports investment bubble will burst  - Her Juventus b",
@@ -12450,7 +12458,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2037903086207795245",
-          "postedAt": "2026-03-28T09:42:00"
+          "postedAt": "2026-03-28T10:42:00"
         },
         {
           "title": "The \"experience prerequisite\" in sports ownership has long been a barrier to entry \u2013 especially for women.   \"If you use",
@@ -12465,7 +12473,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.62,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7445220283348799489",
-          "postedAt": "2026-04-01T16:27:00"
+          "postedAt": "2026-04-01T17:27:00"
         },
         {
           "title": "From $5M to $200M: How Michele Kang Changed Women's Soccer Valuations Forever",
@@ -12480,7 +12488,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 35.36,
           "spend": 179.69,
           "url": "https://www.youtube.com/shorts/U2JW_UdMUZ0",
-          "postedAt": "2026-04-01T16:37:00"
+          "postedAt": "2026-04-01T17:37:00"
         },
         {
           "title": "\"If you use that narrative, then there's no woman that's ever going to own a sports team.\"  NWSL investor @assiagrazioli",
@@ -12495,7 +12503,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.29,
           "spend": 22.98,
           "url": "https://twitter.com/FOS/status/2039459036244942917",
-          "postedAt": "2026-04-01T16:45:00"
+          "postedAt": "2026-04-01T17:45:00"
         },
         {
           "title": "Full conversation with Assia Grazioli-Venier including: - Why the sports investment bubble will burst - Celebrity invest",
@@ -12510,7 +12518,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2039459651511591056",
-          "postedAt": "2026-04-01T16:47:00"
+          "postedAt": "2026-04-01T17:47:00"
         },
         {
           "title": "\u201cIf you use that narrative, then there\u2019s no woman that\u2019s ever going to own a sports team. How do you go from 0 to 1?\u201d   ",
@@ -12525,7 +12533,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.14,
           "spend": 698.0,
           "url": "https://www.instagram.com/p/DWmuQBWJu73/",
-          "postedAt": "2026-04-01T17:00:00"
+          "postedAt": "2026-04-01T18:00:00"
         },
         {
           "title": "\u201cIf you use that narrative, then there\u2019s no woman that\u2019s ever going to own a sports team. How do you go from 0 to 1?\u201d   ",
@@ -12540,7 +12548,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.97,
           "spend": 0,
           "url": "https://www.facebook.com/1431094149030171/",
-          "postedAt": "2026-04-01T17:00:00"
+          "postedAt": "2026-04-01T18:00:00"
         }
       ],
       "topPosts": [
@@ -12571,7 +12579,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Allyson Felix on Women's Sports Investment",
       "date": "Apr 15",
       "total": {
-        "impr": 1773674,
+        "impr": 1773672,
         "views": 429905,
         "er": 2.56,
         "eng": 71500,
@@ -12656,9 +12664,9 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 31693,
+          "impr": 31691,
           "paidImpr": 0,
-          "orgImpr": 31693,
+          "orgImpr": 31691,
           "views": 10466,
           "eng": 973,
           "paidEng": 0,
@@ -12713,7 +12721,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.29,
           "spend": 598.42,
           "url": "https://youtu.be/dSVJU1eYBmI",
-          "postedAt": "2026-04-07T09:00:00"
+          "postedAt": "2026-04-07T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep 6: Allyson Felix (pre-roll) - REDO",
@@ -12743,7 +12751,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.82,
           "spend": 0,
           "url": "https://www.instagram.com/p/DW2AwFaAXG6/",
-          "postedAt": "2026-04-07T15:34:00"
+          "postedAt": "2026-04-07T16:34:00"
         },
         {
           "title": "\u201cAthletes are owning their voice more\u2026 They do have influence and they\u2019re doing something with that.\u201d  11-time Olympic m",
@@ -12758,7 +12766,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.91,
           "spend": 0,
           "url": "https://www.facebook.com/1436091945197058/",
-          "postedAt": "2026-04-07T15:34:00"
+          "postedAt": "2026-04-07T16:34:00"
         },
         {
           "title": "\u201cAthletes are owning their voice more\u2026 They do have influence and they\u2019re doing something with that.\u201d  11-time Olympic m",
@@ -12773,7 +12781,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.24,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7447381866015412224",
-          "postedAt": "2026-04-07T15:37:00"
+          "postedAt": "2026-04-07T16:37:00"
         },
         {
           "title": "Allyson Felix: The world is noticing women's sports",
@@ -12788,7 +12796,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.48,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/dCc__WnE-II",
-          "postedAt": "2026-04-07T15:41:00"
+          "postedAt": "2026-04-07T16:41:00"
         },
         {
           "title": "Full episode of Portfolio Players with Allyson Felix:",
@@ -12803,7 +12811,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2041622255667470416",
-          "postedAt": "2026-04-07T16:00:00"
+          "postedAt": "2026-04-07T17:00:00"
         },
         {
           "title": "\u201cAthletes are owning their voice more\u2026 They do have influence and they\u2019re doing something with that.\u201d  11-time Olympic m",
@@ -12818,7 +12826,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.23,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2041622050297516271",
-          "postedAt": "2026-04-07T16:00:00"
+          "postedAt": "2026-04-07T17:00:00"
         },
         {
           "title": "",
@@ -12833,7 +12841,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": null,
-          "postedAt": "2026-04-08T10:24:00"
+          "postedAt": "2026-04-08T11:24:00"
         },
         {
           "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -12848,7 +12856,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.2,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7447686208534704128",
-          "postedAt": "2026-04-08T11:46:00"
+          "postedAt": "2026-04-08T12:46:00"
         },
         {
           "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -12863,7 +12871,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.23,
           "spend": 44.78,
           "url": "https://twitter.com/FOS/status/2041927804443324872",
-          "postedAt": "2026-04-08T12:15:00"
+          "postedAt": "2026-04-08T13:15:00"
         },
         {
           "title": "Gold medalist Allyson Felix: Investors are noticing the power of women\u2019s sports",
@@ -12878,7 +12886,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 29.47,
           "spend": 179.71,
           "url": "https://www.youtube.com/shorts/9PsLY6IPPTM",
-          "postedAt": "2026-04-08T12:15:00"
+          "postedAt": "2026-04-08T13:15:00"
         },
         {
           "title": "Full conversation with Allyson Felix including:  - What the LA28 Olympics will mean for the city - Why she left Nike and",
@@ -12893,7 +12901,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2041929003536089147",
-          "postedAt": "2026-04-08T12:19:00"
+          "postedAt": "2026-04-08T13:19:00"
         },
         {
           "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -12908,7 +12916,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.18,
           "spend": 798.0,
           "url": "https://www.instagram.com/p/DW4Q6qFJtnD/",
-          "postedAt": "2026-04-08T12:30:00"
+          "postedAt": "2026-04-08T13:30:00"
         },
         {
           "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -12923,7 +12931,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://www.facebook.com/1436805605125692/",
-          "postedAt": "2026-04-08T12:30:00"
+          "postedAt": "2026-04-08T13:30:00"
         },
         {
           "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist @allysonfelix shares the best advice sh",
@@ -12938,22 +12946,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.12,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2044453525787197911",
-          "postedAt": "2026-04-15T11:31:00"
+          "postedAt": "2026-04-15T12:31:00"
         },
         {
           "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist Allyson Felix shares the best advice sh",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 9509,
+          "impr": 9507,
           "paidImpr": 0,
-          "orgImpr": 9509,
+          "orgImpr": 9507,
           "views": 3205,
           "eng": 259,
           "er": 2.72,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7450219668214206464",
-          "postedAt": "2026-04-15T11:33:00"
+          "postedAt": "2026-04-15T12:33:00"
         },
         {
           "title": "Full conversation with Allyson Felix including:  - What the LA28 Olympics will mean for the city  - Why she left Nike an",
@@ -12968,7 +12976,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2044454350672564493",
-          "postedAt": "2026-04-15T11:34:00"
+          "postedAt": "2026-04-15T12:34:00"
         },
         {
           "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist Allyson Felix shares the best advice sh",
@@ -12983,7 +12991,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.06,
           "spend": 849.0,
           "url": "https://www.instagram.com/p/DXKZo6yjqZZ/",
-          "postedAt": "2026-04-15T13:33:00"
+          "postedAt": "2026-04-15T14:33:00"
         },
         {
           "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist Allyson Felix shares the best advice sh",
@@ -12998,7 +13006,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://www.facebook.com/1442561921216727/",
-          "postedAt": "2026-04-15T13:33:00"
+          "postedAt": "2026-04-15T14:33:00"
         },
         {
           "title": "11-time Olympian Allyson Felix shares the best advice she's received",
@@ -13013,7 +13021,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 18.49,
           "spend": 249.29,
           "url": "https://www.youtube.com/shorts/3JR0TKNIsZY",
-          "postedAt": "2026-04-16T08:36:00"
+          "postedAt": "2026-04-16T09:36:00"
         },
         {
           "title": "Allyson Felix told FOS her Nike exit over maternity policies didn\u2019t benefit her, but helped athletes that came after her",
@@ -13028,7 +13036,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.34,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2047401931924988063",
-          "postedAt": "2026-04-23T14:47:00"
+          "postedAt": "2026-04-23T15:47:00"
         },
         {
           "title": "Allyson Felix spoke with FOS last month about the positive impact the 2028 Olympics will have on her hometown of LA.   N",
@@ -13043,7 +13051,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.23,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2048851621145137365",
-          "postedAt": "2026-04-27T14:47:00"
+          "postedAt": "2026-04-27T15:47:00"
         }
       ],
       "topPosts": [
@@ -13220,7 +13228,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.18,
           "spend": 599.49,
           "url": "https://youtu.be/EBH-MSJld_0",
-          "postedAt": "2026-04-21T09:00:00"
+          "postedAt": "2026-04-21T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep7: Brandon Marshall (pre-roll)",
@@ -13250,7 +13258,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.11,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2045126168861405628",
-          "postedAt": "2026-04-17T08:04:00"
+          "postedAt": "2026-04-17T09:04:00"
         },
         {
           "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player's advo",
@@ -13265,7 +13273,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.93,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7452450029144899584",
-          "postedAt": "2026-04-21T15:16:00"
+          "postedAt": "2026-04-21T16:16:00"
         },
         {
           "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player\u2019s advo",
@@ -13280,7 +13288,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.07,
           "spend": 0,
           "url": "https://www.instagram.com/p/DXaHAitgeT3/",
-          "postedAt": "2026-04-21T16:01:00"
+          "postedAt": "2026-04-21T17:01:00"
         },
         {
           "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player\u2019s advo",
@@ -13295,7 +13303,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.9,
           "spend": 0,
           "url": "https://www.facebook.com/1447721270700792/",
-          "postedAt": "2026-04-21T16:01:00"
+          "postedAt": "2026-04-21T17:01:00"
         },
         {
           "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player's advo",
@@ -13310,7 +13318,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.07,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2046703018649739659",
-          "postedAt": "2026-04-21T16:30:00"
+          "postedAt": "2026-04-21T17:30:00"
         },
         {
           "title": "How Brandon Marshall became the first active player to do TV full-time",
@@ -13325,7 +13333,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.24,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/4xSOJ7gVso8",
-          "postedAt": "2026-04-21T16:30:00"
+          "postedAt": "2026-04-21T17:30:00"
         },
         {
           "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player\u2019s advo",
@@ -13340,7 +13348,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://www.facebook.com/1447753270697592/",
-          "postedAt": "2026-04-21T17:00:00"
+          "postedAt": "2026-04-21T18:00:00"
         },
         {
           "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d  Former National Football League \\(NF",
@@ -13355,7 +13363,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.22,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7452816630910382080",
-          "postedAt": "2026-04-22T15:32:00"
+          "postedAt": "2026-04-22T16:32:00"
         },
         {
           "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d   Former NFL All-Pro wide receiver Br",
@@ -13370,7 +13378,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.01,
           "spend": 799.0,
           "url": "https://www.instagram.com/p/DXco1a_gQSQ/",
-          "postedAt": "2026-04-22T15:34:00"
+          "postedAt": "2026-04-22T16:34:00"
         },
         {
           "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d   Former NFL All-Pro wide receiver Br",
@@ -13385,7 +13393,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://www.facebook.com/1448549103951342/",
-          "postedAt": "2026-04-22T15:34:00"
+          "postedAt": "2026-04-22T16:34:00"
         },
         {
           "title": "Brandon Marshall: Athletes should start media career while playing",
@@ -13400,7 +13408,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 42.78,
           "spend": 179.81,
           "url": "https://www.youtube.com/shorts/M1HzM0ri4Ds",
-          "postedAt": "2026-04-22T15:38:00"
+          "postedAt": "2026-04-22T16:38:00"
         },
         {
           "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d  Former @NFL All-Pro wide receiver Br",
@@ -13415,7 +13423,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.26,
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2047056447112986902",
-          "postedAt": "2026-04-22T15:54:00"
+          "postedAt": "2026-04-22T16:54:00"
         },
         {
           "title": "Full episode with Brandon Marshall including:  - How athlete-owned media is competing with traditional TV - The challeng",
@@ -13430,7 +13438,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.05,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2047056448576733533",
-          "postedAt": "2026-04-22T15:54:00"
+          "postedAt": "2026-04-22T16:54:00"
         },
         {
           "title": "Full episode with Brandon Marshall including:  - How athlete-owned media is competing with traditional TV  - The challen",
@@ -13445,7 +13453,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.07,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2049190863448768610",
-          "postedAt": "2026-04-28T13:15:00"
+          "postedAt": "2026-04-28T14:15:00"
         },
         {
           "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -13460,7 +13468,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.34,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7455324891420975106",
-          "postedAt": "2026-04-29T13:39:00"
+          "postedAt": "2026-04-29T14:39:00"
         },
         {
           "title": "Why pro athletes should not join TV networks",
@@ -13475,7 +13483,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 6.04,
           "spend": 179.47,
           "url": "https://www.youtube.com/shorts/Li18hQ8Pt9c",
-          "postedAt": "2026-04-29T13:43:00"
+          "postedAt": "2026-04-29T14:43:00"
         },
         {
           "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -13490,7 +13498,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.22,
           "spend": 96.34,
           "url": "https://twitter.com/FOS/status/2049569125958066285",
-          "postedAt": "2026-04-29T14:18:00"
+          "postedAt": "2026-04-29T15:18:00"
         },
         {
           "title": "Full episode with Brandon Marshall including: - How athlete-owned media is competing with traditional TV - The challenge",
@@ -13505,7 +13513,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2049569127740621093",
-          "postedAt": "2026-04-29T14:18:00"
+          "postedAt": "2026-04-29T15:18:00"
         },
         {
           "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -13520,7 +13528,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.38,
           "spend": 798.0,
           "url": "https://www.instagram.com/p/DXujlLzPhne/",
-          "postedAt": "2026-04-29T14:33:00"
+          "postedAt": "2026-04-29T15:33:00"
         },
         {
           "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -13535,7 +13543,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://www.facebook.com/1454713083334944/",
-          "postedAt": "2026-04-29T14:33:00"
+          "postedAt": "2026-04-29T15:33:00"
         },
         {
           "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d Former All-Pr",
@@ -13550,7 +13558,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.08,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7634276064478514463",
-          "postedAt": "2026-04-29T15:10:00"
+          "postedAt": "2026-04-29T16:10:00"
         },
         {
           "title": "Brandon Marshall walked away from sports talk TV\u2014the six-time Pro Bowl receiver said the pressure landed him in therapy.",
@@ -13565,7 +13573,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.22,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2049972060856955270",
-          "postedAt": "2026-04-30T17:00:00"
+          "postedAt": "2026-04-30T18:00:00"
         },
         {
           "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d Former NFL All-Pro wide receiver Bran",
@@ -13580,7 +13588,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.39,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636503981337955615",
-          "postedAt": "2026-05-06T10:00:00"
+          "postedAt": "2026-05-06T11:00:00"
         },
         {
           "title": "Former all-pro wide receiver Brandon Marshall reacts to NFL salary increases since his retirement in 2019.  \u201c$30 million",
@@ -13595,7 +13603,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.95,
           "spend": 0,
           "url": "https://www.instagram.com/p/DY0MQKch-HH/",
-          "postedAt": "2026-05-26T15:36:00"
+          "postedAt": "2026-05-26T16:36:00"
         },
         {
           "title": "In 2013, Brandon Marshall was the highest paid receiver in the NFL, earning $9.1M per year.  Today, the highest paid rec",
@@ -13610,7 +13618,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.13,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2059390368714834274",
-          "postedAt": "2026-05-26T16:45:00"
+          "postedAt": "2026-05-26T17:45:00"
         }
       ],
       "topPosts": [
@@ -13787,7 +13795,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.71,
           "spend": 796.61,
           "url": "https://youtu.be/l6Gwk_euC6k",
-          "postedAt": "2026-05-05T09:01:00"
+          "postedAt": "2026-05-05T10:01:00"
         },
         {
           "title": "Portfolio Players S3 Ep8: Dave Checketts (pre-roll)",
@@ -13817,7 +13825,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.17,
           "spend": 0,
           "url": "https://www.instagram.com/p/DX95pk0hnoM/",
-          "postedAt": "2026-05-05T13:35:00"
+          "postedAt": "2026-05-05T14:35:00"
         },
         {
           "title": "David Checketts breaks down ownership strategy, league economics, and more.",
@@ -13832,7 +13840,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.73,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/hOjxEJl9wFE",
-          "postedAt": "2026-05-05T13:39:00"
+          "postedAt": "2026-05-05T14:39:00"
         },
         {
           "title": "Dave Checketts has spent decades building and investing in sports franchises. His biggest takeaway? Scarcity is what dri",
@@ -13847,7 +13855,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.52,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636479903872978207",
-          "postedAt": "2026-05-05T13:42:00"
+          "postedAt": "2026-05-05T14:42:00"
         },
         {
           "title": "Dave Checketts has spent decades building and investing in sports franchises. His biggest takeaway? Scarcity is what dri",
@@ -13862,7 +13870,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.12,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7457525245717999616",
-          "postedAt": "2026-05-05T15:23:00"
+          "postedAt": "2026-05-05T16:23:00"
         },
         {
           "title": "Dave Checketts has spent decades building and investing in sports franchises. His biggest takeaway? Scarcity drives valu",
@@ -13877,7 +13885,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.17,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2051760481820369245",
-          "postedAt": "2026-05-05T15:26:00"
+          "postedAt": "2026-05-05T16:26:00"
         },
         {
           "title": "Full episode with Dave Checketts:",
@@ -13892,7 +13900,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2051760609515954595",
-          "postedAt": "2026-05-05T15:27:00"
+          "postedAt": "2026-05-05T16:27:00"
         },
         {
           "title": "Are sports leagues getting too cozy with sportsbooks?   Former Knicks president Dave Checketts tells FOS his concerns ab",
@@ -13907,7 +13915,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.23,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2052048240715989408",
-          "postedAt": "2026-05-06T10:30:00"
+          "postedAt": "2026-05-06T11:30:00"
         },
         {
           "title": "\u201c[NIL money] will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d  Former Knicks president Dave Ch",
@@ -13922,7 +13930,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.19,
           "spend": 200.0,
           "url": "https://twitter.com/FOS/status/2052093377298997683",
-          "postedAt": "2026-05-06T13:29:00"
+          "postedAt": "2026-05-06T14:29:00"
         },
         {
           "title": "\u201c\\[NIL money\\] typically will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d  Former New York Kni",
@@ -13937,7 +13945,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.93,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7457859375047602177",
-          "postedAt": "2026-05-06T13:31:00"
+          "postedAt": "2026-05-06T14:31:00"
         },
         {
           "title": "\u201c[NIL money] typically will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d  Former Knicks preside",
@@ -13952,7 +13960,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.49,
           "spend": 897.0,
           "url": "https://www.instagram.com/p/DYAeKdNB-kB/",
-          "postedAt": "2026-05-06T13:33:00"
+          "postedAt": "2026-05-06T14:33:00"
         },
         {
           "title": "Full episode with Dave Checketts including: - The influx of gambling in pro sports: good or bad? - The time MSG didn't s",
@@ -13967,7 +13975,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2052094995629257023",
-          "postedAt": "2026-05-06T13:35:00"
+          "postedAt": "2026-05-06T14:35:00"
         },
         {
           "title": "\u201c[NIL money] typically will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d Former Knicks presiden",
@@ -13982,7 +13990,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.26,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636849849014422814",
-          "postedAt": "2026-05-06T13:38:00"
+          "postedAt": "2026-05-06T14:38:00"
         },
         {
           "title": "Former Knicks president on NIL: We\u2019re setting them up for disaster",
@@ -13997,7 +14005,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 7.46,
           "spend": 249.47,
           "url": "https://www.youtube.com/shorts/HsUZk3-VWJs",
-          "postedAt": "2026-05-06T13:39:00"
+          "postedAt": "2026-05-06T14:39:00"
         },
         {
           "title": "\u201cThere\u2019s only one New York Knicks.\u201d  Long-time sports executive Dave Checketts explains why the Knicks will always retai",
@@ -14012,7 +14020,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.16,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7459268915508973568",
-          "postedAt": "2026-05-10T13:30:00"
+          "postedAt": "2026-05-10T14:30:00"
         },
         {
           "title": "\u201cThere\u2019s only one New York Knicks.\u201d Long-time sports executive Dave Checketts explains why the #Knicks will always retai",
@@ -14027,7 +14035,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.24,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7638302792347700493",
-          "postedAt": "2026-05-10T13:30:00"
+          "postedAt": "2026-05-10T14:30:00"
         },
         {
           "title": "Long-time sports executive Dave Checketts explains why the #Knicks will always retain their value.",
@@ -14042,7 +14050,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.65,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/HQN_W60ZuPg",
-          "postedAt": "2026-05-10T13:30:00"
+          "postedAt": "2026-05-10T14:30:00"
         },
         {
           "title": "\u201cThere\u2019s only one New York Knicks.\u201d  Long-time sports executive Dave Checketts explains why the Knicks will always retai",
@@ -14057,7 +14065,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.41,
           "spend": 0,
           "url": "https://www.facebook.com/1464378962368356/",
-          "postedAt": "2026-05-10T13:31:00"
+          "postedAt": "2026-05-10T14:31:00"
         },
         {
           "title": "\u201cThere\u2019s only one New York Knicks.\u201d  Long-time sports executive Dave Checketts explains why the Knicks will always retai",
@@ -14072,7 +14080,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.54,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2053546864507822262",
-          "postedAt": "2026-05-10T13:45:00"
+          "postedAt": "2026-05-10T14:45:00"
         },
         {
           "title": "\u201cThere\u2019s only one New York Knicks.\u201d \u2060 \u2060 Long-time sports executive Dave Checketts explains why the Knicks will always re",
@@ -14087,7 +14095,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.24,
           "spend": 0,
           "url": "https://www.instagram.com/p/DYK0mv_DMou/",
-          "postedAt": "2026-05-10T14:03:00"
+          "postedAt": "2026-05-10T15:03:00"
         },
         {
           "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\"  Former Knicks president Dave C",
@@ -14102,7 +14110,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.24,
           "spend": 190.0,
           "url": "https://twitter.com/FOS/status/2054660453456859459",
-          "postedAt": "2026-05-13T15:30:00"
+          "postedAt": "2026-05-13T16:30:00"
         },
         {
           "title": "Why investing in established leagues is safer than startups",
@@ -14117,7 +14125,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.7,
           "spend": 247.36,
           "url": "https://www.youtube.com/shorts/duWUsltNJPk",
-          "postedAt": "2026-05-13T15:30:00"
+          "postedAt": "2026-05-13T16:30:00"
         },
         {
           "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\"  Former Knicks president Dave C",
@@ -14132,7 +14140,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.31,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7460341387914358784",
-          "postedAt": "2026-05-13T15:30:00"
+          "postedAt": "2026-05-13T16:30:00"
         },
         {
           "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\" Former Knicks president Dave Ch",
@@ -14147,7 +14155,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.4,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7639388031488757006",
-          "postedAt": "2026-05-13T15:30:00"
+          "postedAt": "2026-05-13T16:30:00"
         },
         {
           "title": "Full Portfolio Players episode with Dave Checketts:",
@@ -14162,7 +14170,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2054660762317070406",
-          "postedAt": "2026-05-13T15:31:00"
+          "postedAt": "2026-05-13T16:31:00"
         },
         {
           "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\"\u2060 \u2060 Former Knicks president Dave",
@@ -14177,7 +14185,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.0,
           "spend": 899.0,
           "url": "https://www.instagram.com/p/DYTB6aQn79o/",
-          "postedAt": "2026-05-13T18:33:00"
+          "postedAt": "2026-05-13T19:33:00"
         },
         {
           "title": "Full Portfolio Players episode with Dave Checketts:",
@@ -14192,7 +14200,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2056095083166863540",
-          "postedAt": "2026-05-17T14:30:00"
+          "postedAt": "2026-05-17T15:30:00"
         }
       ],
       "topPosts": [
@@ -14227,10 +14235,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
       "date": "May 20",
       "total": {
-        "impr": 7285122,
-        "views": 2933733,
+        "impr": 7285855,
+        "views": 2960940,
         "er": 1.67,
-        "eng": 167246,
+        "eng": 167253,
         "spend": 5630.31
       },
       "perChannel": [
@@ -14240,10 +14248,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 3340171,
           "paidImpr": 2048419,
           "orgImpr": 1291752,
-          "views": 172493,
-          "eng": 11482,
+          "views": 172538,
+          "eng": 11481,
           "paidEng": 9767,
-          "orgEng": 1715,
+          "orgEng": 1714,
           "er": 0.34,
           "cpm": 0.63,
           "spend": 1297.75,
@@ -14297,13 +14305,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 552232,
+          "impr": 552965,
           "paidImpr": 0,
-          "orgImpr": 552232,
-          "views": 256907,
-          "eng": 18062,
+          "orgImpr": 552965,
+          "views": 284069,
+          "eng": 18070,
           "paidEng": 0,
-          "orgEng": 18062,
+          "orgEng": 18070,
           "er": 3.27,
           "cpm": 0.0,
           "spend": 0.0,
@@ -14394,12 +14402,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 3340171,
           "paidImpr": 2048419,
           "orgImpr": 1291752,
-          "views": 172493,
-          "eng": 11482,
+          "views": 172538,
+          "eng": 11481,
           "er": 0.34,
           "spend": 1297.75,
           "url": "https://youtu.be/LurMedA3mdw",
-          "postedAt": "2026-05-19T09:00:00"
+          "postedAt": "2026-05-19T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep9: Mark Cuban (pre-roll)",
@@ -14429,7 +14437,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.5,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2050241423551701249",
-          "postedAt": "2026-05-01T10:50:00"
+          "postedAt": "2026-05-01T11:50:00"
         },
         {
           "title": "Full interview with Mark Cuban on Portfolio Players presented by @etrade coming soon.",
@@ -14444,7 +14452,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2050241424868729023",
-          "postedAt": "2026-05-01T10:50:00"
+          "postedAt": "2026-05-01T11:50:00"
         },
         {
           "title": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying the team back, and he ",
@@ -14459,7 +14467,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.91,
           "spend": 0,
           "url": "https://www.instagram.com/p/DXzcAgBjr4m/",
-          "postedAt": "2026-05-01T12:02:00"
+          "postedAt": "2026-05-01T13:02:00"
         },
         {
           "title": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying the team back, and he ",
@@ -14474,7 +14482,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.14,
           "spend": 0,
           "url": "https://www.facebook.com/1456412083165044/",
-          "postedAt": "2026-05-01T12:02:00"
+          "postedAt": "2026-05-01T13:02:00"
         },
         {
           "title": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying the team back, and he ",
@@ -14489,7 +14497,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.43,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7456039146864803840",
-          "postedAt": "2026-05-01T12:57:00"
+          "postedAt": "2026-05-01T13:57:00"
         },
         {
           "title": "\"I'll put up the money and we can go get Fernando [Mendoza].\"  Mark Cuban tells FOS that he provided the NIL money which",
@@ -14504,7 +14512,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.5,
           "spend": 96.74,
           "url": "https://twitter.com/FOS/status/2051730095446847926",
-          "postedAt": "2026-05-05T13:25:00"
+          "postedAt": "2026-05-05T14:25:00"
         },
         {
           "title": "Full interview with Mark Cuban on Portfolio Players presented by @etrade coming soon.",
@@ -14519,7 +14527,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.18,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2051730096700956895",
-          "postedAt": "2026-05-05T13:25:00"
+          "postedAt": "2026-05-05T14:25:00"
         },
         {
           "title": "Exclusive: Mark Cuban says he paid for Indiana to sign Fernando Mendoza.  Cuban revealed to FOS that once Indiana AD Sco",
@@ -14534,7 +14542,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.19,
           "spend": 0,
           "url": "https://www.instagram.com/p/DX-EczLgTx4/",
-          "postedAt": "2026-05-05T15:08:00"
+          "postedAt": "2026-05-05T16:08:00"
         },
         {
           "title": "Exclusive: Mark Cuban says he paid for Indiana to sign Fernando Mendoza. Cuban revealed to FOS that once Indiana AD Scot",
@@ -14549,7 +14557,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 6.68,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573",
-          "postedAt": "2026-05-05T15:30:00"
+          "postedAt": "2026-05-05T16:30:00"
         },
         {
           "title": "Snapchat Spotlight \u2014 Cuban (5/5)",
@@ -14594,7 +14602,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.29,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2054306944026911003",
-          "postedAt": "2026-05-12T16:05:00"
+          "postedAt": "2026-05-12T17:05:00"
         },
         {
           "title": "More from Portfolio Players with Cuban here:",
@@ -14609,7 +14617,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.07,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2054307057881239724",
-          "postedAt": "2026-05-12T16:05:00"
+          "postedAt": "2026-05-12T17:05:00"
         },
         {
           "title": "Full episode of Portfolio Players presented by @etrade coming next week.",
@@ -14624,7 +14632,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2054307306662138269",
-          "postedAt": "2026-05-12T16:06:00"
+          "postedAt": "2026-05-12T17:06:00"
         },
         {
           "title": "Would Mark Cuban consider buying a different NBA team?\u2060 \u2060 \u201cI would... I wouldn't want a cold-weather team. If it was a w",
@@ -14639,22 +14647,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.04,
           "spend": 349.0,
           "url": "https://www.instagram.com/p/DYQZvUyCYSR/",
-          "postedAt": "2026-05-12T18:03:00"
+          "postedAt": "2026-05-12T19:03:00"
         },
         {
           "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 184131,
+          "impr": 184864,
           "paidImpr": 0,
-          "orgImpr": 184131,
-          "views": 96240,
-          "eng": 3889,
+          "orgImpr": 184864,
+          "views": 122734,
+          "eng": 3897,
           "er": 2.11,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7460128243074117632",
-          "postedAt": "2026-05-13T06:30:00"
+          "postedAt": "2026-05-13T07:30:00"
         },
         {
           "title": "Mark Cuban says the business of sports is changing fast.  The former Mavericks owner joined Portfolio Players presented ",
@@ -14669,7 +14677,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.27,
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2056799927808790803",
-          "postedAt": "2026-05-19T13:11:00"
+          "postedAt": "2026-05-19T14:11:00"
         },
         {
           "title": "Full episode:",
@@ -14684,7 +14692,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.06,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2056800031588389047",
-          "postedAt": "2026-05-19T13:11:00"
+          "postedAt": "2026-05-19T14:11:00"
         },
         {
           "title": "Mark Cuban believes the future of sports will look very different from the past.  The former Mavericks owner joined Port",
@@ -14699,7 +14707,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.93,
           "spend": 0,
           "url": "https://www.instagram.com/p/DYiC0iyvb7H/",
-          "postedAt": "2026-05-19T14:27:00"
+          "postedAt": "2026-05-19T15:27:00"
         },
         {
           "title": "Mark Cuban believes the business of sports is changing faster than ever.  The former Mavericks owner joined Portfolio Pl",
@@ -14714,7 +14722,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.46,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7462568335470231554",
-          "postedAt": "2026-05-19T14:30:00"
+          "postedAt": "2026-05-19T15:30:00"
         },
         {
           "title": "",
@@ -14729,7 +14737,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": null,
-          "postedAt": "2026-05-19T15:09:00"
+          "postedAt": "2026-05-19T16:09:00"
         },
         {
           "title": "Mark Cuban believes the future of sports will look very different from the past. The former Mavericks owner joined Portf",
@@ -14744,7 +14752,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.87,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7641668744560790814",
-          "postedAt": "2026-05-19T16:00:00"
+          "postedAt": "2026-05-19T17:00:00"
         },
         {
           "title": "Mark Cuban tells all: Mavs sale, NIL, NBA expansion, sports betting & more",
@@ -14759,7 +14767,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.12,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/g3MOd3wPsdY",
-          "postedAt": "2026-05-19T16:00:00"
+          "postedAt": "2026-05-19T17:00:00"
         },
         {
           "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d  Mark Cuban breaks down why NIL is great",
@@ -14774,7 +14782,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.95,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7462947888315314178",
-          "postedAt": "2026-05-20T14:30:00"
+          "postedAt": "2026-05-20T15:30:00"
         },
         {
           "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d\u2028\u2028Mark Cuban breaks down his thoughts on ",
@@ -14789,7 +14797,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.8,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7642060320298585375",
-          "postedAt": "2026-05-20T14:37:00"
+          "postedAt": "2026-05-20T15:37:00"
         },
         {
           "title": "Mark Cuban says NIL is great for professional sports",
@@ -14804,7 +14812,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.56,
           "spend": 299.67,
           "url": "https://www.youtube.com/shorts/WTPBx-oZ2ns",
-          "postedAt": "2026-05-20T14:38:00"
+          "postedAt": "2026-05-20T15:38:00"
         },
         {
           "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d  Mark Cuban breaks down his thoughts on ",
@@ -14819,7 +14827,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.38,
           "spend": 0,
           "url": "https://twitter.com/FOS_News_/status/2057200942202663356",
-          "postedAt": "2026-05-20T15:45:00"
+          "postedAt": "2026-05-20T16:45:00"
         },
         {
           "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d\u2028\u2028Mark Cuban breaks down his thoughts on ",
@@ -14834,7 +14842,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.36,
           "spend": 897.0,
           "url": "https://www.instagram.com/p/DYk1xxxJfKq/",
-          "postedAt": "2026-05-20T16:30:00"
+          "postedAt": "2026-05-20T17:30:00"
         },
         {
           "title": "",
@@ -14849,7 +14857,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": null,
-          "postedAt": "2026-05-20T18:08:00"
+          "postedAt": "2026-05-20T19:08:00"
         },
         {
           "title": "Snapchat Spotlight \u2014 Cuban (5/21)",
@@ -14879,7 +14887,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.08,
           "spend": 0,
           "url": "https://www.instagram.com/p/DYnHRy6hDaG/",
-          "postedAt": "2026-05-21T13:44:00"
+          "postedAt": "2026-05-21T14:44:00"
         },
         {
           "title": "Full podcast with Mark Cuban including:  - Why the NBA should cut games to 40 minutes  - Selling the Mavs: the real stor",
@@ -14894,7 +14902,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2057533890911170927",
-          "postedAt": "2026-05-21T13:48:00"
+          "postedAt": "2026-05-21T14:48:00"
         },
         {
           "title": "Mark Cuban builds his dream NBA franchise   He joins us on the new episode of Portfolio Players presented by @etrade.",
@@ -14909,7 +14917,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.17,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2057533889187381507",
-          "postedAt": "2026-05-21T13:48:00"
+          "postedAt": "2026-05-21T14:48:00"
         },
         {
           "title": "Mark Cuban builds his dream NBA franchise  He joins us on the new episode of Portfolio Players presented by E*TRADE from",
@@ -14924,7 +14932,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.35,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7642420066906066207",
-          "postedAt": "2026-05-21T13:53:00"
+          "postedAt": "2026-05-21T14:53:00"
         },
         {
           "title": "Mark Cuban builds his dream NBA franchise",
@@ -14939,7 +14947,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.6,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/PZRyBJUtmDk",
-          "postedAt": "2026-05-21T13:53:00"
+          "postedAt": "2026-05-21T14:53:00"
         },
         {
           "title": "",
@@ -14954,7 +14962,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": null,
-          "postedAt": "2026-05-21T14:14:00"
+          "postedAt": "2026-05-21T15:14:00"
         },
         {
           "title": "Mark Cuban builds his dream NBA franchise   He joins us on the new episode of Portfolio Players presented by E\\*TRADE fr",
@@ -14969,7 +14977,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.51,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463299940665188352",
-          "postedAt": "2026-05-21T14:30:00"
+          "postedAt": "2026-05-21T15:30:00"
         },
         {
           "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d  Mark Cuban breaks down his thoughts on ",
@@ -14984,7 +14992,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.21,
           "spend": 197.79,
           "url": "https://twitter.com/FOS/status/2057921944134078669",
-          "postedAt": "2026-05-22T15:30:00"
+          "postedAt": "2026-05-22T16:30:00"
         },
         {
           "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d\u2028\u2028Mark Cuban shares his t",
@@ -14999,7 +15007,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.5,
           "spend": 897.0,
           "url": "https://www.instagram.com/p/DY2iutDpPZS/",
-          "postedAt": "2026-05-27T13:31:00"
+          "postedAt": "2026-05-27T14:31:00"
         },
         {
           "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d\u2028\u2028Mark Cuban shares his t",
@@ -15014,7 +15022,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.09,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7644641312267914509",
-          "postedAt": "2026-05-27T13:33:00"
+          "postedAt": "2026-05-27T14:33:00"
         },
         {
           "title": "Mark Cuban makes the case for cutting NBA game time from 48 minutes to 40",
@@ -15029,7 +15037,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 9.8,
           "spend": 298.51,
           "url": "https://www.youtube.com/shorts/EZazBmhkTh0",
-          "postedAt": "2026-05-27T13:39:00"
+          "postedAt": "2026-05-27T14:39:00"
         },
         {
           "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d  Mark Cuban shares his t",
@@ -15044,7 +15052,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.49,
           "spend": 200.0,
           "url": "https://twitter.com/FOS/status/2059707458352804252",
-          "postedAt": "2026-05-27T13:45:00"
+          "postedAt": "2026-05-27T14:45:00"
         },
         {
           "title": "Full conversation with @mcuban including:  - How he helped bring Fernando Mendoza to Indiana and his approach to NIL - W",
@@ -15059,7 +15067,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2059708478050931104",
-          "postedAt": "2026-05-27T13:49:00"
+          "postedAt": "2026-05-27T14:49:00"
         },
         {
           "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d  Mark Cuban shares his t",
@@ -15069,12 +15077,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 168198,
           "paidImpr": 0,
           "orgImpr": 168198,
-          "views": 79034,
+          "views": 79702,
           "eng": 6103,
           "er": 3.63,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465470960217960449",
-          "postedAt": "2026-05-27T14:30:00"
+          "postedAt": "2026-05-27T15:30:00"
         }
       ],
       "topPosts": [
@@ -15236,7 +15244,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.66,
           "spend": 736.69,
           "url": "https://youtu.be/j7XTfP-icus",
-          "postedAt": "2026-06-02T09:00:00"
+          "postedAt": "2026-06-02T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep10: Landon Donovan (pre-roll)",
@@ -15266,7 +15274,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.32,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2037159181262750016",
-          "postedAt": "2026-03-26T08:26:00"
+          "postedAt": "2026-03-26T09:26:00"
         },
         {
           "title": "Landon Donovan is one of the greatest players in MLS history\u2014but where would he put his money today? The NWSL.  The form",
@@ -15281,7 +15289,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.39,
           "spend": 0,
           "url": "https://www.instagram.com/p/DZFxwb1hs46/",
-          "postedAt": "2026-06-02T11:30:00"
+          "postedAt": "2026-06-02T12:30:00"
         },
         {
           "title": "Landon Donovan is one of the greatest players in MLS history\u2014but where would he put his money today? The NWSL.  The form",
@@ -15296,7 +15304,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.27,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2061847811784859912",
-          "postedAt": "2026-06-02T11:30:00"
+          "postedAt": "2026-06-02T12:30:00"
         },
         {
           "title": "Landon Donovan shares thoughts on World Cup, MLS, NWSL, and more",
@@ -15311,7 +15319,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.56,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/ATlwBvT6OP0",
-          "postedAt": "2026-06-02T11:30:00"
+          "postedAt": "2026-06-02T12:30:00"
         },
         {
           "title": "Landon Donovan is one of the greatest players in MLS history\u2014but where would he put his money today? The NWSL. The forme",
@@ -15326,7 +15334,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.0,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7646830566779768094",
-          "postedAt": "2026-06-02T11:30:00"
+          "postedAt": "2026-06-02T12:30:00"
         },
         {
           "title": "Full episode of Portfolio Players with Landon Donovan:",
@@ -15341,7 +15349,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2061848719260094891",
-          "postedAt": "2026-06-02T11:33:00"
+          "postedAt": "2026-06-02T12:33:00"
         },
         {
           "title": "Landon Donovan is one of the greatest players in Major League Soccer history\u2014but where would he put his money today? The",
@@ -15356,7 +15364,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.9,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467601236276514817",
-          "postedAt": "2026-06-02T13:30:00"
+          "postedAt": "2026-06-02T14:30:00"
         },
         {
           "title": "\u201cThe best investment you can make probably anywhere in sports right now is the NWSL.\u201d  Former USMNT captain Landon Donov",
@@ -15371,7 +15379,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.24,
           "spend": 150.0,
           "url": "https://twitter.com/FOS/status/2062251723125608506",
-          "postedAt": "2026-06-03T14:15:00"
+          "postedAt": "2026-06-03T15:15:00"
         },
         {
           "title": "\u201cThe best investment you can make probably anywhere in sports right now is the NWSL.\u201d  Former USMNT captain Landon Donov",
@@ -15386,7 +15394,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.05,
           "spend": 749.0,
           "url": "https://www.instagram.com/p/DZIrF86phJx/",
-          "postedAt": "2026-06-03T14:30:00"
+          "postedAt": "2026-06-03T15:30:00"
         },
         {
           "title": "Landon Donovan: NWSL is the best investment you can make in sports",
@@ -15401,7 +15409,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.24,
           "spend": 149.28,
           "url": "https://www.youtube.com/shorts/JDLtPQagBRc",
-          "postedAt": "2026-06-03T15:30:00"
+          "postedAt": "2026-06-03T16:30:00"
         },
         {
           "title": "\u201cThe best investment you can make probably anywhere in sports right now is the National Women's Soccer League \\(NWSL\\).\u201d",
@@ -15416,7 +15424,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.68,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7468011566404157442",
-          "postedAt": "2026-06-03T15:30:00"
+          "postedAt": "2026-06-03T16:30:00"
         },
         {
           "title": "\u201cThe best investment you can make probably anywhere in sports right now is the NWSL.\u201d Former USMNT captain Landon Donova",
@@ -15431,7 +15439,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.73,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7647245586583932190",
-          "postedAt": "2026-06-03T15:30:00"
+          "postedAt": "2026-06-03T16:30:00"
         },
         {
           "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
@@ -15446,7 +15454,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.33,
           "spend": 749.0,
           "url": "https://www.instagram.com/p/DZbIN5jJe58/",
-          "postedAt": "2026-06-10T18:30:00"
+          "postedAt": "2026-06-10T19:30:00"
         },
         {
           "title": "\u201cIt\u2019s really smart for \\[ownership groups\\] to have either former players or agents or people who really understand the ",
@@ -15461,7 +15469,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.01,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7470619853557530624",
-          "postedAt": "2026-06-10T18:36:00"
+          "postedAt": "2026-06-10T19:36:00"
         },
         {
           "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
@@ -15476,7 +15484,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.2,
           "spend": 200.0,
           "url": "https://twitter.com/FOS/status/2064854767822569764",
-          "postedAt": "2026-06-10T18:38:00"
+          "postedAt": "2026-06-10T19:38:00"
         },
         {
           "title": "Full episode of Portfolio Players with Landon Donovan:",
@@ -15491,7 +15499,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2064854894524178930",
-          "postedAt": "2026-06-10T18:39:00"
+          "postedAt": "2026-06-10T19:39:00"
         },
         {
           "title": "Landon Donovan explains what sports ownership groups are missing",
@@ -15506,7 +15514,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.81,
           "spend": 149.56,
           "url": "https://www.youtube.com/shorts/iy5DuxneGJE",
-          "postedAt": "2026-06-10T19:00:00"
+          "postedAt": "2026-06-10T20:00:00"
         },
         {
           "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
@@ -15521,7 +15529,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.28,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7649906738702896414",
-          "postedAt": "2026-06-10T19:00:00"
+          "postedAt": "2026-06-10T20:00:00"
         },
         {
           "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d  Former US",
@@ -15536,7 +15544,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.03,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476335918124040192",
-          "postedAt": "2026-06-26T13:30:00"
+          "postedAt": "2026-06-26T14:30:00"
         },
         {
           "title": "Landon Donovan explains how MLS can become a world-class league",
@@ -15551,7 +15559,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.75,
           "spend": 149.22,
           "url": "https://www.youtube.com/shorts/8HWyGVJDKN4",
-          "postedAt": "2026-06-26T14:30:00"
+          "postedAt": "2026-06-26T15:30:00"
         },
         {
           "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d \u00a0 Former U",
@@ -15566,7 +15574,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.39,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7655788584183598349",
-          "postedAt": "2026-06-26T14:30:00"
+          "postedAt": "2026-06-26T15:30:00"
         },
         {
           "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d\u2060 \u2060 Former ",
@@ -15581,7 +15589,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.49,
           "spend": 399.0,
           "url": "https://www.instagram.com/p/DaD5Y9iir2C/",
-          "postedAt": "2026-06-26T14:33:00"
+          "postedAt": "2026-06-26T15:33:00"
         },
         {
           "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d  Former US",
@@ -15596,7 +15604,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.44,
           "spend": 98.45,
           "url": "https://twitter.com/FOS/status/2070593983877718189",
-          "postedAt": "2026-06-26T14:44:00"
+          "postedAt": "2026-06-26T15:44:00"
         }
       ],
       "topPosts": [
@@ -15632,7 +15640,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Jun 16",
       "total": {
         "impr": 2118295,
-        "views": 503017,
+        "views": 503031,
         "er": 1.15,
         "eng": 55943,
         "spend": 3538.74
@@ -15704,7 +15712,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 67375,
           "paidImpr": 0,
           "orgImpr": 67375,
-          "views": 27243,
+          "views": 27257,
           "eng": 2042,
           "paidEng": 0,
           "orgEng": 2042,
@@ -15758,7 +15766,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.56,
           "spend": 799.29,
           "url": "https://youtu.be/e1XMuNPB57s",
-          "postedAt": "2026-06-16T09:00:00"
+          "postedAt": "2026-06-16T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep11: Midge Purce (pre-roll)",
@@ -15788,7 +15796,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.25,
           "spend": 119.6,
           "url": "https://twitter.com/FOS/status/2066993939307979221",
-          "postedAt": "2026-06-16T16:18:00"
+          "postedAt": "2026-06-16T17:18:00"
         },
         {
           "title": "@etrade Full episode with Midge Purce including:  \u27a1\ufe0f The business of women's soccer \u27a1\ufe0f Player advocacy \u27a1\ufe0f The future of ",
@@ -15803,7 +15811,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2066994673206341659",
-          "postedAt": "2026-06-16T16:21:00"
+          "postedAt": "2026-06-16T17:21:00"
         },
         {
           "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
@@ -15818,7 +15826,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.32,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472761999580463104",
-          "postedAt": "2026-06-16T16:28:00"
+          "postedAt": "2026-06-16T17:28:00"
         },
         {
           "title": "NWSL star Midge Purce says she was \u201cenvious\u201d of WNBA CBA deal",
@@ -15833,7 +15841,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.57,
           "spend": 99.96,
           "url": "https://www.youtube.com/shorts/rzxjU-VvxCc",
-          "postedAt": "2026-06-16T16:33:00"
+          "postedAt": "2026-06-16T17:33:00"
         },
         {
           "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
@@ -15848,7 +15856,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.77,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7652124139129425166",
-          "postedAt": "2026-06-16T17:30:00"
+          "postedAt": "2026-06-16T18:30:00"
         },
         {
           "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
@@ -15863,7 +15871,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.82,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/DZqeDMvEUIe/",
-          "postedAt": "2026-06-16T17:33:00"
+          "postedAt": "2026-06-16T18:33:00"
         },
         {
           "title": "\"To give publications like ESPN [and others] the authority to decide who's worth being paid in a league they don't cover",
@@ -15878,7 +15886,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.27,
           "spend": 124.35,
           "url": "https://twitter.com/FOS/status/2067328928864190716",
-          "postedAt": "2026-06-17T14:30:00"
+          "postedAt": "2026-06-17T15:30:00"
         },
         {
           "title": "\"To give publications like ESPN [and others] the authority to decide who's worth being paid in a league they don't cover",
@@ -15893,7 +15901,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.86,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/DZsuPnem-OQ/",
-          "postedAt": "2026-06-17T14:33:00"
+          "postedAt": "2026-06-17T15:33:00"
         },
         {
           "title": "Full episode of Portfolio Players with Midge Purce:",
@@ -15908,7 +15916,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2067330534900932677",
-          "postedAt": "2026-06-17T14:36:00"
+          "postedAt": "2026-06-17T15:36:00"
         },
         {
           "title": "NWSL star Midge Purce doesn\u2019t think media should decide player pay",
@@ -15923,7 +15931,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.95,
           "spend": 100.0,
           "url": "https://www.youtube.com/shorts/WbIN8qEHs5c",
-          "postedAt": "2026-06-17T15:30:00"
+          "postedAt": "2026-06-17T16:30:00"
         },
         {
           "title": "\"To give publications like ESPN \\[and others\\] the authority to decide who's worth being paid in a league they don't cov",
@@ -15938,7 +15946,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.35,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473079538042826752",
-          "postedAt": "2026-06-17T15:30:00"
+          "postedAt": "2026-06-17T16:30:00"
         },
         {
           "title": "NWSL star Midge Purce shares thoughts on the NWSL\u2019s rival league\u2014the USL",
@@ -15953,7 +15961,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.35,
           "spend": 99.99,
           "url": "https://www.youtube.com/shorts/PsW0M2Ww0_4",
-          "postedAt": "2026-06-24T12:00:00"
+          "postedAt": "2026-06-24T13:00:00"
         },
         {
           "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d NWSL star Midg",
@@ -15968,7 +15976,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.09,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7654663156911869214",
-          "postedAt": "2026-06-24T12:00:00"
+          "postedAt": "2026-06-24T13:00:00"
         },
         {
           "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  NWSL star Mid",
@@ -15983,7 +15991,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.95,
           "spend": 399.0,
           "url": "https://www.instagram.com/p/DZ-oiDahxni/",
-          "postedAt": "2026-06-24T13:29:00"
+          "postedAt": "2026-06-24T14:29:00"
         },
         {
           "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  National Wome",
@@ -15993,12 +16001,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 20699,
           "paidImpr": 0,
           "orgImpr": 20699,
-          "views": 7580,
+          "views": 7594,
           "eng": 482,
           "er": 2.33,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475258225211158528",
-          "postedAt": "2026-06-24T13:30:00"
+          "postedAt": "2026-06-24T14:30:00"
         },
         {
           "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  NWSL star Mid",
@@ -16013,7 +16021,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.3,
           "spend": 99.54,
           "url": "https://twitter.com/FOS/status/2069865642954539163",
-          "postedAt": "2026-06-24T14:30:00"
+          "postedAt": "2026-06-24T15:30:00"
         },
         {
           "title": "Full episode of Portfolio Players with Midge Purce:",
@@ -16028,7 +16036,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.01,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2069866556419371042",
-          "postedAt": "2026-06-24T14:33:00"
+          "postedAt": "2026-06-24T15:33:00"
         },
         {
           "title": "Gotham FC star Midge Purce told FOS in May that the NWSL doesn't \"have the facilities to support us playing in a cold ma",
@@ -16043,7 +16051,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.33,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2074581835045085437",
-          "postedAt": "2026-07-07T14:50:00"
+          "postedAt": "2026-07-07T15:50:00"
         },
         {
           "title": "Full episode of Portfolio Players with Midge Purce:",
@@ -16058,7 +16066,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2074582029304205499",
-          "postedAt": "2026-07-07T14:51:00"
+          "postedAt": "2026-07-07T15:51:00"
         }
       ],
       "topPosts": [
@@ -16090,9 +16098,9 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Jun 30",
       "total": {
         "impr": 2141206,
-        "views": 465279,
+        "views": 465362,
         "er": 1.05,
-        "eng": 53980,
+        "eng": 53981,
         "spend": 3364.58
       },
       "perChannel": [
@@ -16102,10 +16110,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1363351,
           "paidImpr": 1335203,
           "orgImpr": 28148,
-          "views": 19224,
-          "eng": 9092,
+          "views": 19307,
+          "eng": 9093,
           "paidEng": 8973,
-          "orgEng": 119,
+          "orgEng": 120,
           "er": 0.67,
           "cpm": 0.6,
           "spend": 797.82,
@@ -16211,12 +16219,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1363351,
           "paidImpr": 1335203,
           "orgImpr": 28148,
-          "views": 19224,
-          "eng": 9092,
+          "views": 19307,
+          "eng": 9093,
           "er": 0.67,
           "spend": 797.82,
           "url": "https://youtu.be/4JKxqi7gCaM",
-          "postedAt": "2026-06-30T09:00:00"
+          "postedAt": "2026-06-30T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep12: Josh Childress (pre-roll)",
@@ -16246,7 +16254,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.31,
           "spend": 122.34,
           "url": "https://twitter.com/FOS/status/2072039970689167439",
-          "postedAt": "2026-06-30T14:30:00"
+          "postedAt": "2026-06-30T15:30:00"
         },
         {
           "title": "Full conversation with Josh Childress including: - Stanford's move to the ACC - Investing in the Portland Thorns - Priva",
@@ -16261,7 +16269,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.06,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2072046958282244274",
-          "postedAt": "2026-06-30T14:57:00"
+          "postedAt": "2026-06-30T15:57:00"
         },
         {
           "title": "\"The biggest thing for these student athletes but also... the biggest concern, \\[is\\] making sure they are coming into t",
@@ -16276,7 +16284,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.49,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477820291599986689",
-          "postedAt": "2026-06-30T15:28:00"
+          "postedAt": "2026-06-30T16:28:00"
         },
         {
           "title": "\u201cThe biggest thing for these student athletes but also... the biggest concern, [is] making sure they are coming into thi",
@@ -16291,7 +16299,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.52,
           "spend": 549.0,
           "url": "https://www.instagram.com/p/DaOXklDhxD8/",
-          "postedAt": "2026-06-30T16:07:00"
+          "postedAt": "2026-06-30T17:07:00"
         },
         {
           "title": "\"The biggest thing for these student athletes but also... the biggest concern, [is] making sure they are coming into thi",
@@ -16306,7 +16314,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.64,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7657300426361998622",
-          "postedAt": "2026-06-30T16:16:00"
+          "postedAt": "2026-06-30T17:16:00"
         },
         {
           "title": "Former NBA star Josh Childress on NIL\u2019s impact on college athletes",
@@ -16321,7 +16329,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.09,
           "spend": 99.9,
           "url": "https://www.youtube.com/shorts/atVuEQWOHqY",
-          "postedAt": "2026-06-30T16:17:00"
+          "postedAt": "2026-06-30T17:17:00"
         },
         {
           "title": "\"Sports over the last 5-7 years has become an institutionally investable asset class.\"  Former National Basketball Assoc",
@@ -16336,7 +16344,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.87,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478182309989404674",
-          "postedAt": "2026-07-01T15:26:00"
+          "postedAt": "2026-07-01T16:26:00"
         },
         {
           "title": "\"Sports over the last 5-7 years has become an institutionally investable asset class.\"  Former NBA player Josh Childress",
@@ -16351,7 +16359,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.37,
           "spend": 124.08,
           "url": "https://twitter.com/FOS/status/2072420558407417912",
-          "postedAt": "2026-07-01T15:42:00"
+          "postedAt": "2026-07-01T16:42:00"
         },
         {
           "title": "Full conversation with Josh Childress including: - Stanford's move to the ACC - NIL's impact on college and pro athletes",
@@ -16366,7 +16374,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2072420726510862747",
-          "postedAt": "2026-07-01T15:42:00"
+          "postedAt": "2026-07-01T16:42:00"
         },
         {
           "title": "Sports over the last 5-7 years has become an institutionally investable asset class.\" Former NBA player Josh Childress e",
@@ -16381,7 +16389,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.02,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7657680237903334687",
-          "postedAt": "2026-07-01T16:50:00"
+          "postedAt": "2026-07-01T17:50:00"
         },
         {
           "title": "\u201cSports over the last 5-7 years has become an institutionally investable asset class.\u201d  Former NBA player Josh Childress",
@@ -16396,7 +16404,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.75,
           "spend": 499.0,
           "url": "https://www.instagram.com/p/DaRCP0gh0qG/",
-          "postedAt": "2026-07-01T16:58:00"
+          "postedAt": "2026-07-01T17:58:00"
         },
         {
           "title": "Josh Childress on Sports as an Asset Class",
@@ -16411,7 +16419,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.48,
           "spend": 99.94,
           "url": "https://www.youtube.com/shorts/8I6K7nEpSRo",
-          "postedAt": "2026-07-02T08:24:00"
+          "postedAt": "2026-07-02T09:24:00"
         },
         {
           "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d  Former NBA player Josh Childress tells FOS why b",
@@ -16426,7 +16434,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.43,
           "spend": 75.0,
           "url": "https://twitter.com/FOS/status/2074954174073380890",
-          "postedAt": "2026-07-08T15:30:00"
+          "postedAt": "2026-07-08T16:30:00"
         },
         {
           "title": "Women\u2019s sports is such a popular investment",
@@ -16441,7 +16449,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.04,
           "spend": 99.87,
           "url": "https://www.youtube.com/shorts/Wi1aEEMUWIY",
-          "postedAt": "2026-07-08T15:30:00"
+          "postedAt": "2026-07-08T16:30:00"
         },
         {
           "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d  Former National Basketball Association \\(NBA\\) p",
@@ -16456,7 +16464,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.35,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7480697518184398848",
-          "postedAt": "2026-07-08T15:30:00"
+          "postedAt": "2026-07-08T16:30:00"
         },
         {
           "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d Former NBA player Josh Childress tells FOS why br",
@@ -16471,7 +16479,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.03,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7660257075921947917",
-          "postedAt": "2026-07-08T15:30:00"
+          "postedAt": "2026-07-08T16:30:00"
         },
         {
           "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d\u2060 \u2060 Former NBA player Josh Childress tells FOS why",
@@ -16486,7 +16494,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.69,
           "spend": 399.0,
           "url": "https://www.instagram.com/p/Dai5y0SDfJ3/",
-          "postedAt": "2026-07-08T15:33:00"
+          "postedAt": "2026-07-08T16:33:00"
         },
         {
           "title": "Full episode with Josh Childress:",
@@ -16501,7 +16509,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2074956244553547782",
-          "postedAt": "2026-07-08T15:38:00"
+          "postedAt": "2026-07-08T16:38:00"
         }
       ],
       "topPosts": [
@@ -16536,8 +16544,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Arturo Lomeli",
       "date": "Jul 14",
       "total": {
-        "impr": 2056879,
-        "views": 422795,
+        "impr": 2056890,
+        "views": 422806,
         "er": 0.73,
         "eng": 37463,
         "spend": 3240.43
@@ -16636,14 +16644,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 2341,
+          "impr": 2352,
           "paidImpr": 0,
-          "orgImpr": 2341,
-          "views": 2341,
+          "orgImpr": 2352,
+          "views": 2352,
           "eng": 51,
           "paidEng": 0,
           "orgEng": 51,
-          "er": 2.18,
+          "er": 2.17,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -16663,7 +16671,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.36,
           "spend": 797.91,
           "url": "https://youtu.be/RVcA3zXKzPM",
-          "postedAt": "2026-07-14T09:00:00"
+          "postedAt": "2026-07-14T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep13: Arturo Lomeli (pre-roll)",
@@ -16693,7 +16701,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.96,
           "spend": 98.6,
           "url": "https://twitter.com/FOS/status/2077389940850127196",
-          "postedAt": "2026-07-15T08:48:00"
+          "postedAt": "2026-07-15T09:48:00"
         },
         {
           "title": "Full episode of Portfolio Players with Arturo Lomeli:",
@@ -16708,7 +16716,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.01,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2077390164263895198",
-          "postedAt": "2026-07-15T08:49:00"
+          "postedAt": "2026-07-15T09:49:00"
         },
         {
           "title": "Why investors want to own sports teams",
@@ -16723,7 +16731,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.34,
           "spend": 99.86,
           "url": "https://www.youtube.com/shorts/lOVaRLEZu_w",
-          "postedAt": "2026-07-15T08:52:00"
+          "postedAt": "2026-07-15T09:52:00"
         },
         {
           "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d Clase Azul founder Arturo Lomel\u00ed tells FOS w",
@@ -16738,7 +16746,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.39,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7662752105391738142",
-          "postedAt": "2026-07-15T08:52:00"
+          "postedAt": "2026-07-15T09:52:00"
         },
         {
           "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul M\u00e9xico founder Arturo Lomel\u00ed tel",
@@ -16753,7 +16761,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.13,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483171447834710017",
-          "postedAt": "2026-07-15T09:51:00"
+          "postedAt": "2026-07-15T10:51:00"
         },
         {
           "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d  Clase Azul founder Arturo Lo",
@@ -16768,7 +16776,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.7,
           "spend": 124.77,
           "url": "https://twitter.com/FOS/status/2077838176018727005",
-          "postedAt": "2026-07-16T14:30:00"
+          "postedAt": "2026-07-16T15:30:00"
         },
         {
           "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d  Clase Azul founder Arturo Lo",
@@ -16783,7 +16791,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.34,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483601298429358080",
-          "postedAt": "2026-07-16T15:00:00"
+          "postedAt": "2026-07-16T16:00:00"
         },
         {
           "title": "Full episode of Portfolio Players with Arturo Lomel\u00ed:",
@@ -16798,7 +16806,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2077845810868371903",
-          "postedAt": "2026-07-16T15:00:00"
+          "postedAt": "2026-07-16T16:00:00"
         },
         {
           "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d\u2060 \u2060 Clase Azul founder Arturo ",
@@ -16813,7 +16821,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.05,
           "spend": 499.0,
           "url": "https://www.instagram.com/p/Da3nIIxlmf4/",
-          "postedAt": "2026-07-16T16:33:00"
+          "postedAt": "2026-07-16T17:33:00"
         },
         {
           "title": "Clase Azul tequila founder explains why he owns soccer teams",
@@ -16828,22 +16836,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.15,
           "spend": 99.84,
           "url": "https://www.youtube.com/shorts/usOvZFmvF5E",
-          "postedAt": "2026-07-16T17:00:00"
+          "postedAt": "2026-07-16T18:00:00"
         },
         {
           "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d Clase Azul founder Arturo Lom",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 1052,
+          "impr": 1063,
           "paidImpr": 0,
-          "orgImpr": 1052,
-          "views": 1052,
+          "orgImpr": 1063,
+          "views": 1063,
           "eng": 22,
-          "er": 2.09,
+          "er": 2.07,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7663217215004495135",
-          "postedAt": "2026-07-16T17:00:00"
+          "postedAt": "2026-07-16T18:00:00"
         },
         {
           "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul founder Arturo Lomel\u00ed tells FOS ",
@@ -16858,7 +16866,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.17,
           "spend": 499.0,
           "url": "https://www.instagram.com/p/Da038CmhtKK/",
-          "postedAt": "2026-07-18T17:30:00"
+          "postedAt": "2026-07-18T18:30:00"
         },
         {
           "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul fo",
@@ -16873,7 +16881,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.27,
           "spend": 74.34,
           "url": "https://twitter.com/FOS/status/2080019564679614867",
-          "postedAt": "2026-07-22T14:58:00"
+          "postedAt": "2026-07-22T15:58:00"
         },
         {
           "title": "Full conversation with Clase Azul founder Arturo Lomeli: - Owning 2 soccer clubs... and losing money  - How drinking les",
@@ -16888,7 +16896,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2080019654295126180",
-          "postedAt": "2026-07-22T14:58:00"
+          "postedAt": "2026-07-22T15:58:00"
         },
         {
           "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul M\u00e9",
@@ -16903,7 +16911,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.53,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485785389476225024",
-          "postedAt": "2026-07-22T15:30:00"
+          "postedAt": "2026-07-22T16:30:00"
         },
         {
           "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d\u2060 \u2060 Clase Azul ",
@@ -16918,7 +16926,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.43,
           "spend": 349.0,
           "url": "https://www.instagram.com/p/DbG89Q8AEPO/",
-          "postedAt": "2026-07-22T15:33:00"
+          "postedAt": "2026-07-22T16:33:00"
         },
         {
           "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d \u00a0 Clase Azul f",
@@ -16933,7 +16941,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.15,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7665483201086786830",
-          "postedAt": "2026-07-22T17:30:00"
+          "postedAt": "2026-07-22T18:30:00"
         },
         {
           "title": "Clase Azul's founder on why they'll never sell",
@@ -16948,7 +16956,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.54,
           "spend": 99.44,
           "url": "https://www.youtube.com/shorts/WYy-U4T9h_E",
-          "postedAt": "2026-07-22T18:30:00"
+          "postedAt": "2026-07-22T19:30:00"
         }
       ],
       "topPosts": [
@@ -16970,7 +16978,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 2.2% ER on 2.3K impr."
+          "text": "TikTok leading with 2.2% ER on 2.4K impr."
         },
         {
           "kind": "pos",
@@ -16984,7 +16992,7 @@ window.EPISODES_BY_CAMPAIGN = {
       "date": "Jul 28",
       "total": {
         "impr": 2051189,
-        "views": 436014,
+        "views": 436025,
         "er": 1.04,
         "eng": 56999,
         "spend": 3589.06
@@ -16996,7 +17004,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1387687,
           "paidImpr": 1374573,
           "orgImpr": 13114,
-          "views": 22606,
+          "views": 22617,
           "eng": 6174,
           "paidEng": 6100,
           "orgEng": 74,
@@ -17120,12 +17128,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1387687,
           "paidImpr": 1374573,
           "orgImpr": 13114,
-          "views": 22606,
+          "views": 22617,
           "eng": 6174,
           "er": 0.44,
           "spend": 798.52,
           "url": "https://youtu.be/IXPGyVQO8H0",
-          "postedAt": "2026-07-28T13:13:00"
+          "postedAt": "2026-07-28T14:13:00"
         },
         {
           "title": "Portfolio Players S3 Ep14: Marques Colston (pre-roll)",
@@ -17155,7 +17163,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.32,
           "spend": 100.0,
           "url": "https://twitter.com/FOS/status/2082193745852698955",
-          "postedAt": "2026-07-28T14:57:00"
+          "postedAt": "2026-07-28T15:57:00"
         },
         {
           "title": "Full episode of Portfolio Players with Marques Colston:  - Why equity doesn't pay the bills - Investing in an English so",
@@ -17170,7 +17178,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.01,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2082194286599078367",
-          "postedAt": "2026-07-28T14:59:00"
+          "postedAt": "2026-07-28T15:59:00"
         },
         {
           "title": "Marques Colston on the impact of NIL on college athletes",
@@ -17185,7 +17193,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.23,
           "spend": 100.01,
           "url": "https://www.youtube.com/shorts/lom3atKQJyo",
-          "postedAt": "2026-07-28T15:30:00"
+          "postedAt": "2026-07-28T16:30:00"
         },
         {
           "title": "\u201cIf I would\u2019ve had access to \\[NIL\\], I may not have been as hungry as I was.\u201d  Former National Football League \\(NFL\\) ",
@@ -17200,7 +17208,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.54,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487968931329171456",
-          "postedAt": "2026-07-28T15:35:00"
+          "postedAt": "2026-07-28T16:35:00"
         },
         {
           "title": "\u201cIf I would\u2019ve had access to [NIL], I may not have been as hungry as I was.\u201d  Former NFL wide receiver Marques Colston d",
@@ -17215,7 +17223,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.4,
           "spend": 471.0,
           "url": "https://www.instagram.com/p/DbWaaKbhX4e/",
-          "postedAt": "2026-07-28T15:37:00"
+          "postedAt": "2026-07-28T16:37:00"
         },
         {
           "title": "How Marques Colston helps athletes find investment opportunities",
@@ -17230,7 +17238,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.91,
           "spend": 99.96,
           "url": "https://www.youtube.com/shorts/2HvF227vuqc",
-          "postedAt": "2026-07-29T11:11:00"
+          "postedAt": "2026-07-29T12:11:00"
         },
         {
           "title": "\u201cEquity is not paying the bills.\u201d Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest in",
@@ -17245,7 +17253,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.69,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7667983163087441183",
-          "postedAt": "2026-07-29T11:11:00"
+          "postedAt": "2026-07-29T12:11:00"
         },
         {
           "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
@@ -17260,7 +17268,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.28,
           "spend": 0,
           "url": "https://twitter.com/FOSTonight/status/2082507694787977234",
-          "postedAt": "2026-07-29T11:45:00"
+          "postedAt": "2026-07-29T12:45:00"
         },
         {
           "title": "\u201cEquity is not paying the bills.\u201d\u2060 \u2060 Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest",
@@ -17275,7 +17283,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.62,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/DbYwxQLE6F-/",
-          "postedAt": "2026-07-29T13:33:00"
+          "postedAt": "2026-07-29T14:33:00"
         },
         {
           "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
@@ -17290,7 +17298,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.85,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488267229667631104",
-          "postedAt": "2026-07-29T15:30:00"
+          "postedAt": "2026-07-29T16:30:00"
         },
         {
           "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
@@ -17305,7 +17313,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.23,
           "spend": 99.93,
           "url": "https://twitter.com/FOS/status/2084376258108944495",
-          "postedAt": "2026-08-03T15:30:00"
+          "postedAt": "2026-08-03T16:30:00"
         },
         {
           "title": "\u201cIf I would\u2019ve had access to [NIL], I may not have been as hungry as I was.\u201d Former NFL wide receiver Marques Colston di",
@@ -17320,7 +17328,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.59,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7669906121053719821",
-          "postedAt": "2026-08-03T15:33:00"
+          "postedAt": "2026-08-03T16:33:00"
         },
         {
           "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d  Former NFL wi",
@@ -17335,7 +17343,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.14,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2085101033051533572",
-          "postedAt": "2026-08-05T15:30:00"
+          "postedAt": "2026-08-05T16:30:00"
         },
         {
           "title": "The relationships between athletes and VC firms",
@@ -17350,7 +17358,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.92,
           "spend": 99.99,
           "url": "https://www.youtube.com/shorts/Y9JBz4QL51Y",
-          "postedAt": "2026-08-05T15:30:00"
+          "postedAt": "2026-08-05T16:30:00"
         },
         {
           "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in \\[venture capital deals\\].\u201d  Former Nati",
@@ -17365,7 +17373,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.13,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490850987524435968",
-          "postedAt": "2026-08-05T15:30:00"
+          "postedAt": "2026-08-05T16:30:00"
         },
         {
           "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d \u00a0 Former NFL w",
@@ -17380,7 +17388,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.64,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7670647518274866445",
-          "postedAt": "2026-08-05T15:30:00"
+          "postedAt": "2026-08-05T16:30:00"
         },
         {
           "title": "Full conversation with Marques Colston: - Soccer fandom vs. NFL fandom - Is there unlimited demand for football? - Why m",
@@ -17395,7 +17403,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2085101317911986286",
-          "postedAt": "2026-08-05T15:31:00"
+          "postedAt": "2026-08-05T16:31:00"
         },
         {
           "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d\u2060 \u2060 Former NFL ",
@@ -17410,7 +17418,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 8.99,
           "spend": 421.0,
           "url": "https://www.instagram.com/p/DbrDhf-GFsj/",
-          "postedAt": "2026-08-05T16:03:00"
+          "postedAt": "2026-08-05T17:03:00"
         },
         {
           "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d\u2060 \u2060 Former NFL ",
@@ -17425,7 +17433,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.91,
           "spend": 176.9,
           "url": "https://www.facebook.com/4680625025490140/",
-          "postedAt": "2026-08-06T08:35:00"
+          "postedAt": "2026-08-06T09:35:00"
         }
       ],
       "topPosts": [
@@ -17460,10 +17468,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Kerri Walsh Jennings",
       "date": "Aug 2026",
       "total": {
-        "impr": 1688792,
-        "views": 595741,
+        "impr": 1688789,
+        "views": 595774,
         "er": 1.76,
-        "eng": 63841,
+        "eng": 63843,
         "spend": 3766.99
       },
       "perChannel": [
@@ -17473,10 +17481,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 895605,
           "paidImpr": 886996,
           "orgImpr": 8609,
-          "views": 20791,
-          "eng": 3061,
+          "views": 20805,
+          "eng": 3062,
           "paidEng": 3011,
-          "orgEng": 50,
+          "orgEng": 51,
           "er": 0.34,
           "cpm": 0.9,
           "spend": 797.72,
@@ -17485,13 +17493,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 266124,
+          "impr": 266126,
           "paidImpr": 173344,
-          "orgImpr": 92780,
-          "views": 267145,
-          "eng": 14122,
+          "orgImpr": 92782,
+          "views": 267147,
+          "eng": 14123,
           "paidEng": 0,
-          "orgEng": 3034,
+          "orgEng": 3035,
           "er": 5.31,
           "cpm": 8.83,
           "spend": 1531.0,
@@ -17515,10 +17523,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 116079,
+          "impr": 116074,
           "paidImpr": 0,
-          "orgImpr": 116079,
-          "views": 55094,
+          "orgImpr": 116074,
+          "views": 55111,
           "eng": 3229,
           "paidEng": 0,
           "orgEng": 3229,
@@ -17597,12 +17605,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 895605,
           "paidImpr": 886996,
           "orgImpr": 8609,
-          "views": 20791,
-          "eng": 3061,
+          "views": 20805,
+          "eng": 3062,
           "er": 0.34,
           "spend": 797.72,
           "url": "https://youtu.be/F-4_BOOmYjU",
-          "postedAt": "2026-08-25T09:00:00"
+          "postedAt": "2026-08-25T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep15: Kerri Walsh Jennings (pre-roll)",
@@ -17632,7 +17640,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.92,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2092622775097622858",
-          "postedAt": "2026-08-26T09:38:00"
+          "postedAt": "2026-08-26T10:38:00"
         },
         {
           "title": "Full conversation with Kerri Walsh Jennings:  \u2022 Bringing beach volleyball to a new audience \u2022 Why college sports are at ",
@@ -17647,7 +17655,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.07,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2092622930064671169",
-          "postedAt": "2026-08-26T09:39:00"
+          "postedAt": "2026-08-26T10:39:00"
         },
         {
           "title": "Kerri Walsh Jennings says the Olympics are \u201climiting\u201d",
@@ -17662,7 +17670,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 7.83,
           "spend": 99.99,
           "url": "https://www.youtube.com/shorts/c_sg-5e0JWQ",
-          "postedAt": "2026-08-26T13:19:00"
+          "postedAt": "2026-08-26T14:19:00"
         },
         {
           "title": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d 3-time Olympic beach volleyball gold medalist Kerri Walsh Jenning",
@@ -17677,37 +17685,37 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.56,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7678409299374230815",
-          "postedAt": "2026-08-26T13:29:00"
+          "postedAt": "2026-08-26T14:29:00"
         },
         {
           "title": "\u201cYou\u2019re literally only relevant one of those four years.\u201d  3-time Olympic beach volleyball gold medalist Kerri Walsh Jen",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 54556,
+          "impr": 54555,
           "paidImpr": 0,
-          "orgImpr": 54556,
-          "views": 26450,
+          "orgImpr": 54555,
+          "views": 26462,
           "eng": 1878,
           "er": 3.44,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498389105878155264",
-          "postedAt": "2026-08-26T13:30:00"
+          "postedAt": "2026-08-26T14:30:00"
         },
         {
           "title": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d\u2060 \u2060 3-time Olympic beach volleyball gold medalist Kerri Walsh Jenn",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 99937,
+          "impr": 99938,
           "paidImpr": 73878,
-          "orgImpr": 26059,
-          "views": 100568,
-          "eng": 5581,
-          "er": 5.58,
+          "orgImpr": 26060,
+          "views": 100569,
+          "eng": 5582,
+          "er": 5.59,
           "spend": 598.0,
           "url": "https://www.instagram.com/p/DchEvfuFY3F/",
-          "postedAt": "2026-08-26T15:33:00"
+          "postedAt": "2026-08-26T16:33:00"
         },
         {
           "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game, and it\u2019s really har",
@@ -17722,7 +17730,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.82,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7678766465503317261",
-          "postedAt": "2026-08-27T12:35:00"
+          "postedAt": "2026-08-27T13:35:00"
         },
         {
           "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game and it\u2019s really hard",
@@ -17737,7 +17745,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.42,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2093051778174464487",
-          "postedAt": "2026-08-27T14:03:00"
+          "postedAt": "2026-08-27T15:03:00"
         },
         {
           "title": "Full episode of Portfolio Players with @kerrileewalsh:",
@@ -17752,37 +17760,37 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2093066238926684619",
-          "postedAt": "2026-08-27T15:00:00"
+          "postedAt": "2026-08-27T16:00:00"
         },
         {
           "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game, and it\u2019s really har",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 12104,
+          "impr": 12103,
           "paidImpr": 0,
-          "orgImpr": 12104,
+          "orgImpr": 12103,
           "views": 4822,
           "eng": 285,
           "er": 2.35,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498793273092669441",
-          "postedAt": "2026-08-27T15:30:00"
+          "postedAt": "2026-08-27T16:30:00"
         },
         {
           "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game, and it\u2019s really har",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 85423,
+          "impr": 85424,
           "paidImpr": 60206,
-          "orgImpr": 25217,
-          "views": 85752,
+          "orgImpr": 25218,
+          "views": 85753,
           "eng": 4565,
           "er": 5.34,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/Dcjpi2XAdtN/",
-          "postedAt": "2026-08-27T15:33:00"
+          "postedAt": "2026-08-27T16:33:00"
         },
         {
           "title": "Kerri Walsh Jennings on how beach volleyball can grow as a sport",
@@ -17797,22 +17805,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 6.56,
           "spend": 99.88,
           "url": "https://www.youtube.com/shorts/vJJ24AZ1iIU",
-          "postedAt": "2026-08-27T17:00:00"
+          "postedAt": "2026-08-27T18:00:00"
         },
         {
           "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist Kerri Walsh Jennings speaks on ",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 49419,
+          "impr": 49416,
           "paidImpr": 0,
-          "orgImpr": 49419,
-          "views": 23822,
+          "orgImpr": 49416,
+          "views": 23827,
           "eng": 1066,
           "er": 2.16,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500998951442227201",
-          "postedAt": "2026-09-02T14:32:00"
+          "postedAt": "2026-09-02T15:32:00"
         },
         {
           "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist @kerrileewalsh speaks on why ma",
@@ -17827,7 +17835,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.36,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2095233559455809749",
-          "postedAt": "2026-09-02T14:33:00"
+          "postedAt": "2026-09-02T15:33:00"
         },
         {
           "title": "@kerrileewalsh @etrade Full episode with Kerri Walsh Jennings including:  - The state of Olympic volleyball - Why early ",
@@ -17842,7 +17850,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.0,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2095234771538293121",
-          "postedAt": "2026-09-02T14:37:00"
+          "postedAt": "2026-09-02T15:37:00"
         },
         {
           "title": "Why college sports are at risk of being cut",
@@ -17857,7 +17865,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 8.19,
           "spend": 99.75,
           "url": "https://www.youtube.com/shorts/vYxt25swhhI",
-          "postedAt": "2026-09-02T14:43:00"
+          "postedAt": "2026-09-02T15:43:00"
         },
         {
           "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d 3-time Olympic gold medalist Kerri Walsh Jennings speaks on w",
@@ -17872,7 +17880,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.12,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7681026245643078942",
-          "postedAt": "2026-09-02T14:45:00"
+          "postedAt": "2026-09-02T15:45:00"
         },
         {
           "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d\u2060 \u2060 3-time Olympic gold medalist Kerri Walsh Jennings speaks o",
@@ -17887,7 +17895,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.92,
           "spend": 334.0,
           "url": "https://www.instagram.com/p/Dc11aw_jxWT/",
-          "postedAt": "2026-09-03T17:03:00"
+          "postedAt": "2026-09-03T18:03:00"
         },
         {
           "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d\u2060 \u2060 3-time Olympic gold medalist Kerri Walsh Jennings speaks o",
@@ -17902,7 +17910,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.03,
           "spend": 265.17,
           "url": "https://www.facebook.com/1801605754351309/",
-          "postedAt": "2026-09-08T09:01:00"
+          "postedAt": "2026-09-08T10:01:00"
         },
         {
           "title": "\"We are positioned so well to be in the pole position because our structure is sound, the franchises are independent, an",
@@ -17917,7 +17925,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.24,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2102463823667925201",
-          "postedAt": "2026-09-22T13:23:00"
+          "postedAt": "2026-09-22T14:23:00"
         }
       ],
       "topPosts": [
@@ -17925,14 +17933,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "quote": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d\u2060 \u2060 3-time Olympic beach volleyball ",
           "platform": "Instagram",
           "er": 5.55,
-          "reach": 100568,
+          "reach": 100569,
           "url": "https://www.instagram.com/p/DchEvfuFY3F/"
         },
         {
           "quote": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play ",
           "platform": "Instagram",
           "er": 5.32,
-          "reach": 85752,
+          "reach": 85753,
           "url": "https://www.instagram.com/p/Dcjpi2XAdtN/"
         }
       ],
@@ -17952,10 +17960,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Drew Weatherford",
       "date": "Sep 2026",
       "total": {
-        "impr": 2016996,
-        "views": 540498,
+        "impr": 2016999,
+        "views": 540537,
         "er": 0.82,
-        "eng": 48686,
+        "eng": 48687,
         "spend": 3763.3
       },
       "perChannel": [
@@ -17965,10 +17973,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1355148,
           "paidImpr": 1318291,
           "orgImpr": 36857,
-          "views": 20467,
-          "eng": 3360,
+          "views": 20489,
+          "eng": 3361,
           "paidEng": 3266,
-          "orgEng": 94,
+          "orgEng": 95,
           "er": 0.25,
           "cpm": 0.61,
           "spend": 797.98,
@@ -17977,10 +17985,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 398421,
+          "impr": 398426,
           "paidImpr": 357516,
-          "orgImpr": 40905,
-          "views": 392554,
+          "orgImpr": 40910,
+          "views": 392559,
           "eng": 7473,
           "paidEng": 0,
           "orgEng": 1301,
@@ -18037,10 +18045,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 29535,
+          "impr": 29532,
           "paidImpr": 0,
-          "orgImpr": 29535,
-          "views": 10071,
+          "orgImpr": 29532,
+          "views": 10082,
           "eng": 713,
           "paidEng": 0,
           "orgEng": 713,
@@ -18052,10 +18060,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 2047,
+          "impr": 2048,
           "paidImpr": 0,
-          "orgImpr": 2047,
-          "views": 2047,
+          "orgImpr": 2048,
+          "views": 2048,
           "eng": 51,
           "paidEng": 0,
           "orgEng": 51,
@@ -18074,12 +18082,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1355148,
           "paidImpr": 1318291,
           "orgImpr": 36857,
-          "views": 20467,
-          "eng": 3360,
+          "views": 20489,
+          "eng": 3361,
           "er": 0.25,
           "spend": 797.98,
           "url": "https://youtu.be/CceP_Z7pKEw",
-          "postedAt": "2026-09-08T09:00:00"
+          "postedAt": "2026-09-08T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep16: Drew Weatherford (pre-roll)",
@@ -18109,7 +18117,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.43,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2097361822927995178",
-          "postedAt": "2026-09-08T11:30:00"
+          "postedAt": "2026-09-08T12:30:00"
         },
         {
           "title": "Drew Weatherford on where private capital is headed in sports",
@@ -18124,22 +18132,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.53,
           "spend": 99.94,
           "url": "https://www.youtube.com/shorts/ahvPhHf9SnQ",
-          "postedAt": "2026-09-08T11:30:00"
+          "postedAt": "2026-09-08T12:30:00"
         },
         {
           "title": "\"The global sports market is massive and under penetrated from a private capital standpoint.\"  Drew Weatherford, former ",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 10612,
+          "impr": 10609,
           "paidImpr": 0,
-          "orgImpr": 10612,
-          "views": 3499,
+          "orgImpr": 10609,
+          "views": 3504,
           "eng": 313,
           "er": 2.95,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503119102698233856",
-          "postedAt": "2026-09-08T11:30:00"
+          "postedAt": "2026-09-08T12:30:00"
         },
         {
           "title": "Drew Weatherford, former FSU QB and founding partner at Weatherford Capital, shares his take on where private capital is",
@@ -18154,37 +18162,37 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.21,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7683205933631032606",
-          "postedAt": "2026-09-08T11:43:00"
+          "postedAt": "2026-09-08T12:43:00"
         },
         {
           "title": "\"The global sports market is massive and under penetrated from a private capital standpoint.\"\u2060 \u2060 Drew Weatherford, forme",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 166996,
+          "impr": 166998,
           "paidImpr": 150480,
-          "orgImpr": 16516,
-          "views": 163534,
+          "orgImpr": 16518,
+          "views": 163536,
           "eng": 1992,
           "er": 1.19,
           "spend": 598.0,
           "url": "https://www.instagram.com/p/DdCp9EMionL/",
-          "postedAt": "2026-09-08T16:33:00"
+          "postedAt": "2026-09-08T17:33:00"
         },
         {
           "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer. Drew Weatherfor",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 718,
+          "impr": 719,
           "paidImpr": 0,
-          "orgImpr": 718,
-          "views": 718,
+          "orgImpr": 719,
+          "views": 719,
           "eng": 17,
-          "er": 2.37,
+          "er": 2.36,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7683579064992451871",
-          "postedAt": "2026-09-09T11:51:00"
+          "postedAt": "2026-09-09T12:51:00"
         },
         {
           "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer.  Drew Weatherfo",
@@ -18199,7 +18207,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.35,
           "spend": 99.49,
           "url": "https://twitter.com/FOS/status/2097731761040175385",
-          "postedAt": "2026-09-09T12:00:00"
+          "postedAt": "2026-09-09T13:00:00"
         },
         {
           "title": "Drew Weatherford on what US soccer leagues and teams need to unlock",
@@ -18214,7 +18222,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.79,
           "spend": 99.62,
           "url": "https://www.youtube.com/shorts/K8lZ7FyNMqU",
-          "postedAt": "2026-09-09T13:30:00"
+          "postedAt": "2026-09-09T14:30:00"
         },
         {
           "title": "The Men\u2019s FIFA World Cup 2026\u2122 - Canada, Mexico and the United States, Olympics, and FIFA Women's World Cup\u2122 in 2031 are",
@@ -18224,12 +18232,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 8298,
           "paidImpr": 0,
           "orgImpr": 8298,
-          "views": 2597,
+          "views": 2601,
           "eng": 120,
           "er": 1.45,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503484588363665408",
-          "postedAt": "2026-09-09T13:30:00"
+          "postedAt": "2026-09-09T14:30:00"
         },
         {
           "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer.\u2060 \u2060 Drew Weather",
@@ -18244,7 +18252,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.64,
           "spend": 626.0,
           "url": "https://www.instagram.com/p/DdHe87ACA8z/",
-          "postedAt": "2026-09-10T13:33:00"
+          "postedAt": "2026-09-10T14:33:00"
         },
         {
           "title": "Drew Weatherford is a big believer in youth sports streaming.  The former FSU QB and founding partner at Weatherford Cap",
@@ -18259,7 +18267,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.45,
           "spend": 124.14,
           "url": "https://twitter.com/FOS/status/2100321323826528539",
-          "postedAt": "2026-09-16T15:30:00"
+          "postedAt": "2026-09-16T16:30:00"
         },
         {
           "title": "Drew Weatherford is a big believer in youth sports streaming.  The former Florida State University quarterback and found",
@@ -18269,12 +18277,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 10625,
           "paidImpr": 0,
           "orgImpr": 10625,
-          "views": 3975,
+          "views": 3977,
           "eng": 280,
           "er": 2.64,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7506040149395365890",
-          "postedAt": "2026-09-16T15:30:00"
+          "postedAt": "2026-09-16T16:30:00"
         },
         {
           "title": "Drew Weatherford is a big believer in youth sports streaming",
@@ -18289,7 +18297,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 5.06,
           "spend": 99.77,
           "url": "https://www.youtube.com/shorts/oAeMm-FGaa8",
-          "postedAt": "2026-09-16T16:30:00"
+          "postedAt": "2026-09-16T17:30:00"
         },
         {
           "title": "Drew Weatherford is a big believer in youth sports streaming.\u2028\u2028The former FSU quarterback and founding partner at Weathe",
@@ -18304,22 +18312,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.08,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7686186199052045599",
-          "postedAt": "2026-09-16T16:30:00"
+          "postedAt": "2026-09-16T17:30:00"
         },
         {
           "title": "Drew Weatherford is a big believer in youth sports streaming.\u2060 \u2060 The former FSU quarterback and founding partner at Weat",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 74180,
+          "impr": 74183,
           "paidImpr": 55789,
-          "orgImpr": 18391,
-          "views": 74560,
+          "orgImpr": 18394,
+          "views": 74563,
           "eng": 4478,
           "er": 6.04,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/DdXQTg2DrU-/",
-          "postedAt": "2026-09-16T16:33:00"
+          "postedAt": "2026-09-16T17:33:00"
         }
       ],
       "topPosts": [
@@ -18327,14 +18335,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "quote": "Drew Weatherford is a big believer in youth sports streaming.\u2060 \u2060 The former FSU quarterbac",
           "platform": "Instagram",
           "er": 6.01,
-          "reach": 74560,
+          "reach": 74563,
           "url": "https://www.instagram.com/p/DdXQTg2DrU-/"
         },
         {
           "quote": "\"The global sports market is massive and under penetrated from a private capital standpoin",
           "platform": "LinkedIn",
           "er": 2.95,
-          "reach": 3499,
+          "reach": 3504,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503119102698233856"
         }
       ],
@@ -18354,10 +18362,10 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Ryan Smith",
       "date": "TBD",
       "total": {
-        "impr": 1968133,
-        "views": 475685,
+        "impr": 1968153,
+        "views": 475847,
         "er": 1.08,
-        "eng": 51095,
+        "eng": 51096,
         "spend": 3733.31
       },
       "perChannel": [
@@ -18367,7 +18375,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1363201,
           "paidImpr": 1245305,
           "orgImpr": 117896,
-          "views": 30219,
+          "views": 30263,
           "eng": 3898,
           "paidEng": 3630,
           "orgEng": 268,
@@ -18379,10 +18387,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 326429,
+          "impr": 326434,
           "paidImpr": 266271,
-          "orgImpr": 60158,
-          "views": 324699,
+          "orgImpr": 60163,
+          "views": 324704,
           "eng": 10711,
           "paidEng": 0,
           "orgEng": 1930,
@@ -18412,10 +18420,10 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 86076,
           "paidImpr": 78653,
           "orgImpr": 7423,
-          "views": 82364,
-          "eng": 4974,
+          "views": 82370,
+          "eng": 4975,
           "paidEng": 4874,
-          "orgEng": 100,
+          "orgEng": 101,
           "er": 5.78,
           "cpm": 3.82,
           "spend": 300.08,
@@ -18439,10 +18447,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 26358,
+          "impr": 26364,
           "paidImpr": 0,
-          "orgImpr": 26358,
-          "views": 8609,
+          "orgImpr": 26364,
+          "views": 8707,
           "eng": 506,
           "paidEng": 0,
           "orgEng": 506,
@@ -18454,14 +18462,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 3079,
+          "impr": 3088,
           "paidImpr": 0,
-          "orgImpr": 3079,
-          "views": 3079,
+          "orgImpr": 3088,
+          "views": 3088,
           "eng": 67,
           "paidEng": 0,
           "orgEng": 67,
-          "er": 2.18,
+          "er": 2.17,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -18476,12 +18484,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 1363201,
           "paidImpr": 1245305,
           "orgImpr": 117896,
-          "views": 30219,
+          "views": 30263,
           "eng": 3898,
           "er": 0.29,
           "spend": 797.5,
           "url": "https://youtu.be/3adoVU_UAEs",
-          "postedAt": "2026-09-22T09:00:00"
+          "postedAt": "2026-09-22T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep17: Ryan Smith (pre-roll)",
@@ -18503,15 +18511,15 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 1570,
+          "impr": 1577,
           "paidImpr": 0,
-          "orgImpr": 1570,
-          "views": 1570,
+          "orgImpr": 1577,
+          "views": 1577,
           "eng": 29,
-          "er": 1.85,
+          "er": 1.84,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7688395751696682253",
-          "postedAt": "2026-09-22T11:22:00"
+          "postedAt": "2026-09-22T12:22:00"
         },
         {
           "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Jazz owner @RyanQualtrics tells FOS about h",
@@ -18526,22 +18534,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.96,
           "spend": 97.7,
           "url": "https://twitter.com/FOS/status/2102435253906497559",
-          "postedAt": "2026-09-22T11:30:00"
+          "postedAt": "2026-09-22T12:30:00"
         },
         {
           "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Utah Jazz owner Ryan Smith tells FOS about ",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 11530,
+          "impr": 11535,
           "paidImpr": 0,
-          "orgImpr": 11530,
-          "views": 4092,
+          "orgImpr": 11535,
+          "views": 4181,
           "eng": 190,
           "er": 1.65,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508193098477240321",
-          "postedAt": "2026-09-22T11:30:00"
+          "postedAt": "2026-09-22T12:30:00"
         },
         {
           "title": "Why NBA valuations aren\u2019t the only thing that matter for owners",
@@ -18556,22 +18564,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 6.06,
           "spend": 100.21,
           "url": "https://www.youtube.com/shorts/ya7r5eTcyVQ",
-          "postedAt": "2026-09-22T13:16:00"
+          "postedAt": "2026-09-22T14:16:00"
         },
         {
           "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about his",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 125015,
+          "impr": 125016,
           "paidImpr": 102342,
-          "orgImpr": 22673,
-          "views": 124932,
+          "orgImpr": 22674,
+          "views": 124933,
           "eng": 1975,
           "er": 1.58,
           "spend": 596.0,
           "url": "https://www.instagram.com/p/DdmmNOtjA4x/",
-          "postedAt": "2026-09-22T15:33:00"
+          "postedAt": "2026-09-22T16:33:00"
         },
         {
           "title": "\u201cIt required different timing than I thought.\u201d  Jazz owner @RyanQualtrics tells FOS that he almost bought the Timberwolv",
@@ -18586,7 +18594,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.6,
           "spend": 121.7,
           "url": "https://twitter.com/FOS/status/2102865592688480557",
-          "postedAt": "2026-09-23T16:00:00"
+          "postedAt": "2026-09-23T17:00:00"
         },
         {
           "title": "Why the Jazz owner almost bought the Timberwolves",
@@ -18596,12 +18604,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 29151,
           "paidImpr": 25112,
           "orgImpr": 4039,
-          "views": 26730,
-          "eng": 1949,
+          "views": 26736,
+          "eng": 1950,
           "er": 6.69,
           "spend": 100.0,
           "url": "https://www.youtube.com/shorts/hVNo0i4Tbk4",
-          "postedAt": "2026-09-23T16:08:00"
+          "postedAt": "2026-09-23T17:08:00"
         },
         {
           "title": "\u201cIt required different timing than I thought.\u201d  Utah Jazz owner Ryan Smith tells FOS that he almost bought the Minnesota",
@@ -18611,12 +18619,12 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 10267,
           "paidImpr": 0,
           "orgImpr": 10267,
-          "views": 3289,
+          "views": 3297,
           "eng": 260,
           "er": 2.53,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508628468633538560",
-          "postedAt": "2026-09-23T17:30:00"
+          "postedAt": "2026-09-23T18:30:00"
         },
         {
           "title": "\u201cIt required different timing than I thought.\u201d Jazz owner Ryan Smith tells FOS that he almost bought the Timberwolves, b",
@@ -18631,37 +18639,37 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.19,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7688841263205911839",
-          "postedAt": "2026-09-23T18:00:00"
+          "postedAt": "2026-09-23T19:00:00"
         },
         {
           "title": "\u201cIt required different timing than I thought.\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS that he almost bought the Timberwolves",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 135306,
+          "impr": 135309,
           "paidImpr": 109368,
-          "orgImpr": 25938,
-          "views": 133687,
+          "orgImpr": 25941,
+          "views": 133690,
           "eng": 4114,
           "er": 3.04,
           "spend": 597.0,
           "url": "https://www.instagram.com/p/Ddr6HWHCX9g/",
-          "postedAt": "2026-09-24T17:03:00"
+          "postedAt": "2026-09-24T18:03:00"
         },
         {
           "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about the ability you have w",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 66108,
+          "impr": 66109,
           "paidImpr": 54561,
-          "orgImpr": 11547,
-          "views": 66080,
+          "orgImpr": 11548,
+          "views": 66081,
           "eng": 4622,
           "er": 6.99,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/Dd7OHP4FYkg/",
-          "postedAt": "2026-09-30T15:46:00"
+          "postedAt": "2026-09-30T16:46:00"
         },
         {
           "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Jazz owner Ryan Smith tells FOS about the ability you have wit",
@@ -18676,7 +18684,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.34,
           "spend": 124.5,
           "url": "https://twitter.com/FOS/status/2105399786555969702",
-          "postedAt": "2026-09-30T15:50:00"
+          "postedAt": "2026-09-30T16:50:00"
         },
         {
           "title": "How the Jazz are revitalizing Utah",
@@ -18691,37 +18699,37 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.64,
           "spend": 99.87,
           "url": "https://www.youtube.com/shorts/Xtiv6e_5hfA",
-          "postedAt": "2026-09-30T16:00:00"
+          "postedAt": "2026-09-30T17:00:00"
         },
         {
           "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d Jazz owner Ryan Smith tells FOS about the ability you have with",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 825,
+          "impr": 827,
           "paidImpr": 0,
-          "orgImpr": 825,
-          "views": 825,
+          "orgImpr": 827,
+          "views": 827,
           "eng": 23,
-          "er": 2.79,
+          "er": 2.78,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7691430981110091038",
-          "postedAt": "2026-09-30T16:10:00"
+          "postedAt": "2026-09-30T17:10:00"
         },
         {
           "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Utah Jazz owner Ryan Smith tells FOS about the ability you hav",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 4561,
+          "impr": 4562,
           "paidImpr": 0,
-          "orgImpr": 4561,
-          "views": 1228,
+          "orgImpr": 4562,
+          "views": 1229,
           "eng": 56,
           "er": 1.23,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511163880371417088",
-          "postedAt": "2026-09-30T17:30:00"
+          "postedAt": "2026-09-30T18:30:00"
         }
       ],
       "topPosts": [
@@ -18729,14 +18737,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "quote": "\u201cWhat can we do with sports to build the state of Utah?\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FO",
           "platform": "Instagram",
           "er": 6.99,
-          "reach": 66080,
+          "reach": 66081,
           "url": "https://www.instagram.com/p/Dd7OHP4FYkg/"
         },
         {
           "quote": "\u201cIt required different timing than I thought.\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS that he ",
           "platform": "Instagram",
           "er": 3.08,
-          "reach": 133687,
+          "reach": 133690,
           "url": "https://www.instagram.com/p/Ddr6HWHCX9g/"
         }
       ],
@@ -18756,23 +18764,23 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Blake Griffin",
       "date": "Oct 2026",
       "total": {
-        "impr": 2140621,
-        "views": 639570,
+        "impr": 2141354,
+        "views": 712539,
         "er": 1.62,
-        "eng": 64373,
+        "eng": 64378,
         "spend": 4049.33
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 1301656,
+          "impr": 1302308,
           "paidImpr": 1289841,
-          "orgImpr": 11815,
-          "views": 21160,
-          "eng": 6566,
+          "orgImpr": 12467,
+          "views": 21247,
+          "eng": 6570,
           "paidEng": 6532,
-          "orgEng": 34,
+          "orgEng": 38,
           "er": 0.5,
           "cpm": 0.62,
           "spend": 797.08,
@@ -18781,10 +18789,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 394646,
+          "impr": 394653,
           "paidImpr": 364727,
-          "orgImpr": 29919,
-          "views": 389717,
+          "orgImpr": 29926,
+          "views": 389724,
           "eng": 16751,
           "paidEng": 0,
           "orgEng": 432,
@@ -18811,10 +18819,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 132427,
+          "impr": 132487,
           "paidImpr": 127991,
-          "orgImpr": 4436,
-          "views": 129365,
+          "orgImpr": 4496,
+          "views": 129367,
           "eng": 8930,
           "paidEng": 8848,
           "orgEng": 82,
@@ -18826,13 +18834,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 58483,
+          "impr": 58486,
           "paidImpr": 0,
-          "orgImpr": 58483,
-          "views": 69482,
-          "eng": 1163,
+          "orgImpr": 58486,
+          "views": 142344,
+          "eng": 1164,
           "paidEng": 0,
-          "orgEng": 1163,
+          "orgEng": 1164,
           "er": 1.99,
           "cpm": 0.0,
           "spend": 0.0,
@@ -18856,14 +18864,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 3271,
+          "impr": 3282,
           "paidImpr": 0,
-          "orgImpr": 3271,
-          "views": 3271,
+          "orgImpr": 3282,
+          "views": 3282,
           "eng": 169,
           "paidEng": 0,
           "orgEng": 169,
-          "er": 5.17,
+          "er": 5.15,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -18875,15 +18883,15 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 1301656,
+          "impr": 1302308,
           "paidImpr": 1289841,
-          "orgImpr": 11815,
-          "views": 21160,
-          "eng": 6566,
+          "orgImpr": 12467,
+          "views": 21247,
+          "eng": 6570,
           "er": 0.5,
           "spend": 797.08,
           "url": "https://youtu.be/jeFmhcOtRzo",
-          "postedAt": "2026-10-20T14:00:00"
+          "postedAt": "2026-10-20T15:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep18: Blake Griffin (pre-roll)",
@@ -18913,52 +18921,52 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.21,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2112642511302783167",
-          "postedAt": "2026-10-20T15:30:00"
+          "postedAt": "2026-10-20T16:30:00"
         },
         {
           "title": "\u201cI think it's incredible that athletes are getting paid. I think that's the right move.\u201d  Former National Basketball Ass",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 38606,
+          "impr": 38603,
           "paidImpr": 0,
-          "orgImpr": 38606,
-          "views": 48643,
+          "orgImpr": 38603,
+          "views": 96850,
           "eng": 808,
           "er": 2.09,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518401003914678272",
-          "postedAt": "2026-10-20T15:30:00"
+          "postedAt": "2026-10-20T16:30:00"
         },
         {
           "title": "Blake Griffin on NIL and College Sports",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 27056,
+          "impr": 27071,
           "paidImpr": 25074,
-          "orgImpr": 1982,
+          "orgImpr": 1997,
           "views": 26098,
           "eng": 1899,
-          "er": 7.02,
+          "er": 7.01,
           "spend": 99.89,
           "url": "https://www.youtube.com/shorts/GTdq6MgvvL4",
-          "postedAt": "2026-10-20T15:30:00"
+          "postedAt": "2026-10-20T16:30:00"
         },
         {
           "title": "\u201cI think it's incredible that athletes are getting paid. I think that's the right move.\u201d Blake Griffin shares his perspe",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 1004,
+          "impr": 1005,
           "paidImpr": 0,
-          "orgImpr": 1004,
-          "views": 1004,
+          "orgImpr": 1005,
+          "views": 1005,
           "eng": 53,
-          "er": 5.28,
+          "er": 5.27,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7698849938096016654",
-          "postedAt": "2026-10-20T15:30:00"
+          "postedAt": "2026-10-20T16:30:00"
         },
         {
           "title": "Full episode of Portfolio Players with Blake Griffin:",
@@ -18973,22 +18981,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.05,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2112643972724400487",
-          "postedAt": "2026-10-20T15:35:00"
+          "postedAt": "2026-10-20T16:35:00"
         },
         {
           "title": "\u201cI think it's incredible that athletes are getting paid. I think that's the right move.\u201d\u2060 \u2060 Blake Griffin shares his per",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 185573,
+          "impr": 185577,
           "paidImpr": 177734,
-          "orgImpr": 7839,
-          "views": 182992,
+          "orgImpr": 7843,
+          "views": 182996,
           "eng": 3030,
           "er": 1.63,
           "spend": 749.0,
           "url": "https://www.instagram.com/p/DevBEFREf_Y/",
-          "postedAt": "2026-10-20T18:33:00"
+          "postedAt": "2026-10-20T19:33:00"
         },
         {
           "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
@@ -19003,22 +19011,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.95,
           "spend": 553.0,
           "url": "https://www.instagram.com/p/DexDh3llHo-/",
-          "postedAt": "2026-10-21T13:33:00"
+          "postedAt": "2026-10-21T14:33:00"
         },
         {
           "title": "How Blake Griffin Got Into Investing",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 81022,
+          "impr": 81025,
           "paidImpr": 80140,
-          "orgImpr": 882,
+          "orgImpr": 885,
           "views": 80140,
           "eng": 5511,
           "er": 6.8,
           "spend": 293.78,
           "url": "https://www.youtube.com/shorts/gEnNlT_DxoA",
-          "postedAt": "2026-10-21T15:30:00"
+          "postedAt": "2026-10-21T16:30:00"
         },
         {
           "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
@@ -19033,37 +19041,37 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.12,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2113004898543419667",
-          "postedAt": "2026-10-21T15:30:00"
+          "postedAt": "2026-10-21T16:30:00"
         },
         {
           "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 5485,
+          "impr": 5487,
           "paidImpr": 0,
-          "orgImpr": 5485,
-          "views": 4296,
-          "eng": 48,
-          "er": 0.88,
+          "orgImpr": 5487,
+          "views": 6891,
+          "eng": 49,
+          "er": 0.89,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518724332781576192",
-          "postedAt": "2026-10-21T15:30:00"
+          "postedAt": "2026-10-21T16:30:00"
         },
         {
           "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 500,
+          "impr": 503,
           "paidImpr": 0,
-          "orgImpr": 500,
-          "views": 500,
+          "orgImpr": 503,
+          "views": 503,
           "eng": 10,
-          "er": 2.0,
+          "er": 1.99,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7699176537957960974",
-          "postedAt": "2026-10-21T15:30:00"
+          "postedAt": "2026-10-21T16:30:00"
         },
         {
           "title": "Full conversation with Blake Griffin:  - Year 2 with Amazon's NBA crew - NIL chaos in college sports - Golf, pickleball,",
@@ -19078,7 +19086,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.05,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2113008739091415228",
-          "postedAt": "2026-10-21T15:45:00"
+          "postedAt": "2026-10-21T16:45:00"
         },
         {
           "title": "\u201cI think the NBA is sort of the obvious answer.\u201d  @blakegriffin23 explains why NBA ownership would be a natural fit and ",
@@ -19093,67 +19101,67 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.25,
           "spend": 111.92,
           "url": "https://twitter.com/FOS/status/2115534070222328255",
-          "postedAt": "2026-10-28T15:00:00"
+          "postedAt": "2026-10-28T16:00:00"
         },
         {
           "title": "\u201cI think the NBA is sort of the obvious answer.\u201d \u00a0 Blake Griffin explains why NBA ownership would be a natural fit and h",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 1767,
+          "impr": 1774,
           "paidImpr": 0,
-          "orgImpr": 1767,
-          "views": 1767,
+          "orgImpr": 1774,
+          "views": 1774,
           "eng": 106,
-          "er": 6.0,
+          "er": 5.98,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7701810996633128206",
-          "postedAt": "2026-10-28T15:00:00"
+          "postedAt": "2026-10-28T16:00:00"
         },
         {
           "title": "Why Blake Griffin Wants to Own an NBA Team",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 24349,
+          "impr": 24391,
           "paidImpr": 22777,
-          "orgImpr": 1572,
-          "views": 23127,
+          "orgImpr": 1614,
+          "views": 23129,
           "eng": 1520,
-          "er": 6.24,
+          "er": 6.23,
           "spend": 99.71,
           "url": "https://www.youtube.com/shorts/evpDnlTLq-w",
-          "postedAt": "2026-10-28T15:30:00"
+          "postedAt": "2026-10-28T16:30:00"
         },
         {
           "title": "\u201cI think the NBA is sort of the obvious answer.\u201d  Blake Griffin discusses the appeal of National Basketball Association ",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 14392,
+          "impr": 14396,
           "paidImpr": 0,
-          "orgImpr": 14392,
-          "views": 16543,
+          "orgImpr": 14396,
+          "views": 38603,
           "eng": 307,
           "er": 2.13,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7521295458787545088",
-          "postedAt": "2026-10-28T15:30:00"
+          "postedAt": "2026-10-28T16:30:00"
         },
         {
           "title": "\u201cI think the NBA is sort of the obvious answer.\u201d\u2060 \u2060 Blake Griffin explains why NBA ownership would be a natural fit and ",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 93432,
+          "impr": 93435,
           "paidImpr": 77225,
-          "orgImpr": 16207,
-          "views": 92882,
+          "orgImpr": 16210,
+          "views": 92885,
           "eng": 11461,
           "er": 12.27,
           "spend": 598.0,
           "url": "https://www.instagram.com/p/DfDkESMD2nc/",
-          "postedAt": "2026-10-28T18:03:00"
+          "postedAt": "2026-10-28T19:03:00"
         }
       ],
       "topPosts": [
@@ -19161,14 +19169,14 @@ window.EPISODES_BY_CAMPAIGN = {
           "quote": "\u201cI think the NBA is sort of the obvious answer.\u201d\u2060 \u2060 Blake Griffin explains why NBA ownersh",
           "platform": "Instagram",
           "er": 12.34,
-          "reach": 92882,
+          "reach": 92885,
           "url": "https://www.instagram.com/p/DfDkESMD2nc/"
         },
         {
           "quote": "\u201cI think the NBA is sort of the obvious answer.\u201d \u00a0 Blake Griffin explains why NBA ownershi",
           "platform": "TikTok",
-          "er": 6.0,
-          "reach": 1767,
+          "er": 5.98,
+          "reach": 1774,
           "url": "https://tiktok.com/@frontofficesports/video/7701810996633128206"
         }
       ],
@@ -19188,20 +19196,20 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Jeremy Bloom",
       "date": "Nov 3",
       "total": {
-        "impr": 1789376,
-        "views": 489270,
+        "impr": 1790153,
+        "views": 522750,
         "er": 1.12,
-        "eng": 57671,
-        "spend": 3666.89
+        "eng": 57678,
+        "spend": 3666.82
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
           "distKind": "organic+boosted",
-          "impr": 1098430,
+          "impr": 1098728,
           "paidImpr": 1094315,
-          "orgImpr": 4115,
-          "views": 13929,
+          "orgImpr": 4413,
+          "views": 15905,
           "eng": 3017,
           "paidEng": 2984,
           "orgEng": 33,
@@ -19213,14 +19221,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 384850,
+          "impr": 385024,
           "paidImpr": 358616,
-          "orgImpr": 26234,
-          "views": 379470,
+          "orgImpr": 26408,
+          "views": 379644,
           "eng": 13724,
           "paidEng": 0,
           "orgEng": 618,
-          "er": 3.57,
+          "er": 3.56,
           "cpm": 5.01,
           "spend": 1796.0,
           "posts": 3
@@ -19243,16 +19251,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 64618,
-          "paidImpr": 63318,
-          "orgImpr": 1300,
-          "views": 41652,
-          "eng": 2117,
+          "impr": 64682,
+          "paidImpr": 63280,
+          "orgImpr": 1402,
+          "views": 48804,
+          "eng": 2119,
           "paidEng": 2085,
-          "orgEng": 32,
+          "orgEng": 34,
           "er": 3.28,
           "cpm": 3.16,
-          "spend": 200.12,
+          "spend": 200.05,
           "posts": 3
         },
         {
@@ -19273,13 +19281,13 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 18527,
+          "impr": 18761,
           "paidImpr": 0,
-          "orgImpr": 18527,
-          "views": 17855,
-          "eng": 369,
+          "orgImpr": 18761,
+          "views": 42026,
+          "eng": 373,
           "paidEng": 0,
-          "orgEng": 369,
+          "orgEng": 373,
           "er": 1.99,
           "cpm": 0.0,
           "spend": 0.0,
@@ -19288,14 +19296,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 1546,
+          "impr": 1553,
           "paidImpr": 0,
-          "orgImpr": 1546,
-          "views": 1546,
-          "eng": 46,
+          "orgImpr": 1553,
+          "views": 1553,
+          "eng": 47,
           "paidEng": 0,
-          "orgEng": 46,
-          "er": 2.98,
+          "orgEng": 47,
+          "er": 3.03,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -19307,15 +19315,15 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 1098430,
+          "impr": 1098728,
           "paidImpr": 1094315,
-          "orgImpr": 4115,
-          "views": 13929,
+          "orgImpr": 4413,
+          "views": 15905,
           "eng": 3017,
           "er": 0.27,
           "spend": 798.21,
           "url": "https://youtu.be/5ui3ZgEZczg",
-          "postedAt": "2026-11-03T09:00:00"
+          "postedAt": "2026-11-03T10:00:00"
         },
         {
           "title": "Portfolio Players S3 Ep19: Jeremy Bloom (pre-roll)",
@@ -19337,30 +19345,30 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 1195,
+          "impr": 1199,
           "paidImpr": 0,
-          "orgImpr": 1195,
-          "views": 1195,
-          "eng": 21,
-          "er": 1.76,
+          "orgImpr": 1199,
+          "views": 1199,
+          "eng": 22,
+          "er": 1.83,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7704058224474918175",
-          "postedAt": "2026-11-03T15:20:00"
+          "postedAt": "2026-11-03T16:20:00"
         },
         {
           "title": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d  X Games CEO Jeremy Bloom explains ",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 6369,
+          "impr": 6376,
           "paidImpr": 0,
-          "orgImpr": 6369,
-          "views": 5771,
+          "orgImpr": 6376,
+          "views": 13483,
           "eng": 72,
           "er": 1.13,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523495901143912448",
-          "postedAt": "2026-11-03T15:27:00"
+          "postedAt": "2026-11-03T16:27:00"
         },
         {
           "title": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d  X Games CEO @JeremyBloom11 explain",
@@ -19375,52 +19383,52 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.15,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2117731042731680181",
-          "postedAt": "2026-11-03T15:30:00"
+          "postedAt": "2026-11-03T16:30:00"
         },
         {
           "title": "Why X Games Athletes Are Becoming Owners",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 399,
+          "impr": 413,
           "paidImpr": 24,
-          "orgImpr": 375,
-          "views": 541,
+          "orgImpr": 389,
+          "views": 544,
           "eng": 6,
-          "er": 1.5,
+          "er": 1.45,
           "spend": 0.19,
           "url": "https://www.youtube.com/shorts/GzXJpnhZMrE",
-          "postedAt": "2026-11-03T15:30:00"
+          "postedAt": "2026-11-03T16:30:00"
         },
         {
           "title": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d\u2060 \u2060 X Games CEO Jeremy Bloom explain",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 139326,
+          "impr": 139331,
           "paidImpr": 132936,
-          "orgImpr": 6390,
-          "views": 137798,
+          "orgImpr": 6395,
+          "views": 137803,
           "eng": 6033,
           "er": 4.33,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/DfTA3a-CcvL/",
-          "postedAt": "2026-11-03T17:03:00"
+          "postedAt": "2026-11-03T18:03:00"
         },
         {
           "title": "\u201cThese are value creators, these are company makers.\u201d X Games CEO Jeremy Bloom explains how the right investment partner",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 351,
+          "impr": 354,
           "paidImpr": 0,
-          "orgImpr": 351,
-          "views": 351,
+          "orgImpr": 354,
+          "views": 354,
           "eng": 25,
-          "er": 7.12,
+          "er": 7.06,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7704426053241965838",
-          "postedAt": "2026-11-04T15:08:00"
+          "postedAt": "2026-11-04T16:08:00"
         },
         {
           "title": "\u201cThese are value creators, these are company makers.\u201d  X Games CEO Jeremy Bloom explains how the right investment partne",
@@ -19435,67 +19443,67 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.15,
           "spend": 125.0,
           "url": "https://twitter.com/FOS/status/2118093431343817109",
-          "postedAt": "2026-11-04T15:30:00"
+          "postedAt": "2026-11-04T16:30:00"
         },
         {
           "title": "How Jeremy Bloom Is Building the Future of the X Games",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 24764,
+          "impr": 24786,
           "paidImpr": 24353,
-          "orgImpr": 411,
-          "views": 24391,
+          "orgImpr": 433,
+          "views": 24350,
           "eng": 1006,
           "er": 4.06,
           "spend": 99.86,
           "url": "https://www.youtube.com/shorts/rreY3i2GsDo",
-          "postedAt": "2026-11-04T15:30:00"
+          "postedAt": "2026-11-04T16:30:00"
         },
         {
           "title": "\u201cThese are value creators, these are company makers.\u201d  X Games CEO Jeremy Bloom explains how the right investment partne",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 6380,
+          "impr": 6389,
           "paidImpr": 0,
-          "orgImpr": 6380,
-          "views": 6261,
+          "orgImpr": 6389,
+          "views": 14686,
           "eng": 145,
           "er": 2.27,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523847654628462592",
-          "postedAt": "2026-11-04T15:30:00"
+          "postedAt": "2026-11-04T16:30:00"
         },
         {
           "title": "\u201cThese are value creators, these are company makers.\u201d\u2060 \u2060 X Games CEO Jeremy Bloom explains how the right investment part",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 123056,
+          "impr": 123061,
           "paidImpr": 115505,
-          "orgImpr": 7551,
-          "views": 121496,
+          "orgImpr": 7556,
+          "views": 121501,
           "eng": 3547,
           "er": 2.88,
           "spend": 598.0,
           "url": "https://www.instagram.com/p/DfVbRLuCKld/",
-          "postedAt": "2026-11-04T15:33:00"
+          "postedAt": "2026-11-04T16:33:00"
         },
         {
           "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand\u2019s influence on ",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 122468,
+          "impr": 122632,
           "paidImpr": 110175,
-          "orgImpr": 12293,
-          "views": 120176,
+          "orgImpr": 12457,
+          "views": 120340,
           "eng": 4144,
           "er": 3.38,
           "spend": 599.0,
           "url": "https://www.instagram.com/p/DfnAO9Thm25/",
-          "postedAt": "2026-11-11T11:21:00"
+          "postedAt": "2026-11-11T12:21:00"
         },
         {
           "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO @JeremyBloom11 discusses the brand's influence o",
@@ -19510,22 +19518,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.27,
           "spend": 124.87,
           "url": "https://twitter.com/FOS/status/2120592398799520113",
-          "postedAt": "2026-11-11T13:00:00"
+          "postedAt": "2026-11-11T14:00:00"
         },
         {
           "title": "How the X Games Is Bringing Fans Back to Action Sports",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 39455,
-          "paidImpr": 38941,
-          "orgImpr": 514,
-          "views": 16720,
-          "eng": 1105,
+          "impr": 39483,
+          "paidImpr": 38903,
+          "orgImpr": 580,
+          "views": 23910,
+          "eng": 1107,
           "er": 2.8,
-          "spend": 100.07,
+          "spend": 100.0,
           "url": "https://www.youtube.com/shorts/M1lRk0Tu4WY",
-          "postedAt": "2026-11-11T13:30:00"
+          "postedAt": "2026-11-11T14:30:00"
         },
         {
           "title": "Full episode with Bloom including:  - The future of the X Games  - Why he won\u2019t donate to college NIL programs  - What t",
@@ -19540,22 +19548,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.02,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2120603893830955065",
-          "postedAt": "2026-11-11T13:45:00"
+          "postedAt": "2026-11-11T14:45:00"
         },
         {
           "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand's influence on ",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 5778,
+          "impr": 5996,
           "paidImpr": 0,
-          "orgImpr": 5778,
-          "views": 5823,
-          "eng": 152,
-          "er": 2.63,
+          "orgImpr": 5996,
+          "views": 13857,
+          "eng": 156,
+          "er": 2.6,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526333834255253504",
-          "postedAt": "2026-11-11T15:30:00"
+          "postedAt": "2026-11-11T16:30:00"
         }
       ],
       "topPosts": [
@@ -19563,25 +19571,25 @@ window.EPISODES_BY_CAMPAIGN = {
           "quote": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d\u2060 \u2060 X ",
           "platform": "Instagram",
           "er": 4.38,
-          "reach": 137798,
+          "reach": 137803,
           "url": "https://www.instagram.com/p/DfTA3a-CcvL/"
         },
         {
           "quote": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discu",
           "platform": "Instagram",
-          "er": 3.45,
-          "reach": 120176,
+          "er": 3.44,
+          "reach": 120340,
           "url": "https://www.instagram.com/p/DfnAO9Thm25/"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "Instagram leading with 3.6% ER on 384.9K impr."
+          "text": "Instagram leading with 3.6% ER on 385.0K impr."
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 18.5K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 18.8K impr."
         }
       ]
     },
@@ -19590,27 +19598,42 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Tracy McGrady",
       "date": "Nov 17",
       "total": {
-        "impr": 758581,
-        "views": 27713,
-        "er": 0.6,
-        "eng": 22167,
-        "spend": 947.28
+        "impr": 925344,
+        "views": 186982,
+        "er": 1.79,
+        "eng": 33068,
+        "spend": 1519.21
       },
       "perChannel": [
         {
           "name": "YouTube In-feed",
-          "distKind": "paid",
-          "impr": 620643,
+          "distKind": "organic+boosted",
+          "impr": 624644,
           "paidImpr": 620643,
-          "orgImpr": 0,
-          "views": 0,
-          "eng": 3188,
+          "orgImpr": 4001,
+          "views": 5906,
+          "eng": 3223,
           "paidEng": 3188,
-          "orgEng": 0,
-          "er": 0.51,
+          "orgEng": 35,
+          "er": 0.52,
           "cpm": 0.93,
           "spend": 577.86,
           "posts": 1
+        },
+        {
+          "name": "Instagram",
+          "distKind": "organic+boosted",
+          "impr": 109838,
+          "paidImpr": 85827,
+          "orgImpr": 24011,
+          "views": 108047,
+          "eng": 8474,
+          "paidEng": 0,
+          "orgEng": 705,
+          "er": 7.71,
+          "cpm": 4.84,
+          "spend": 415.0,
+          "posts": 2
         },
         {
           "name": "YouTube Pre-roll",
@@ -19628,46 +19651,46 @@ window.EPISODES_BY_CAMPAIGN = {
           "posts": 1
         },
         {
+          "name": "X",
+          "distKind": "organic+boosted",
+          "impr": 41191,
+          "paidImpr": 26700,
+          "orgImpr": 14491,
+          "views": 2051,
+          "eng": 466,
+          "paidEng": 419,
+          "orgEng": 53,
+          "er": 1.13,
+          "cpm": 3.48,
+          "spend": 92.94,
+          "posts": 2
+        },
+        {
+          "name": "YouTube Shorts",
+          "distKind": "organic+boosted",
+          "impr": 31087,
+          "paidImpr": 28959,
+          "orgImpr": 2128,
+          "views": 11043,
+          "eng": 1931,
+          "paidEng": 1809,
+          "orgEng": 122,
+          "er": 6.21,
+          "cpm": 2.21,
+          "spend": 63.99,
+          "posts": 2
+        },
+        {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 20668,
+          "impr": 28591,
           "paidImpr": 0,
-          "orgImpr": 20668,
-          "views": 9129,
-          "eng": 344,
+          "orgImpr": 28591,
+          "views": 46279,
+          "eng": 761,
           "paidEng": 0,
-          "orgEng": 344,
-          "er": 1.66,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 2
-        },
-        {
-          "name": "Instagram",
-          "distKind": "organic",
-          "impr": 14024,
-          "paidImpr": 0,
-          "orgImpr": 14024,
-          "views": 14024,
-          "eng": 398,
-          "paidEng": 0,
-          "orgEng": 398,
-          "er": 2.84,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 2
-        },
-        {
-          "name": "X",
-          "distKind": "organic",
-          "impr": 13450,
-          "paidImpr": 0,
-          "orgImpr": 13450,
-          "views": 1819,
-          "eng": 36,
-          "paidEng": 0,
-          "orgEng": 42,
-          "er": 0.27,
+          "orgEng": 761,
+          "er": 2.66,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -19675,29 +19698,14 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic",
-          "impr": 762,
+          "impr": 959,
           "paidImpr": 0,
-          "orgImpr": 762,
-          "views": 762,
-          "eng": 68,
+          "orgImpr": 959,
+          "views": 959,
+          "eng": 80,
           "paidEng": 0,
-          "orgEng": 68,
-          "er": 8.92,
-          "cpm": 0.0,
-          "spend": 0.0,
-          "posts": 2
-        },
-        {
-          "name": "YouTube Shorts",
-          "distKind": "organic",
-          "impr": 0,
-          "paidImpr": 0,
-          "orgImpr": 0,
-          "views": 0,
-          "eng": 0,
-          "paidEng": 0,
-          "orgEng": 0,
-          "er": 0.0,
+          "orgEng": 80,
+          "er": 8.34,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
@@ -19708,16 +19716,16 @@ window.EPISODES_BY_CAMPAIGN = {
           "title": "How Tracy McGrady Is Building a Basketball Business Empire",
           "platform": "YouTube In-feed",
           "accountName": "Front Office Sports",
-          "distKind": "paid",
-          "impr": 620643,
+          "distKind": "organic+boosted",
+          "impr": 624644,
           "paidImpr": 620643,
-          "orgImpr": 0,
-          "views": 0,
-          "eng": 3188,
-          "er": 0.51,
+          "orgImpr": 4001,
+          "views": 5906,
+          "eng": 3223,
+          "er": 0.52,
           "spend": 577.86,
           "url": "https://youtu.be/P-yjyUFiZxY",
-          "postedAt": "2026-11-17T09:48:00"
+          "postedAt": "2026-11-17T10:48:00"
         },
         {
           "title": "Portfolio Players S3 Ep20: Tracy McGrady (pre-roll)",
@@ -19736,179 +19744,179 @@ window.EPISODES_BY_CAMPAIGN = {
         },
         {
           "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d  Tracy ",
-          "platform": "LinkedIn",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 9524,
-          "paidImpr": 0,
-          "orgImpr": 9524,
-          "views": 5771,
-          "eng": 153,
-          "er": 1.61,
-          "spend": 0,
-          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528511170287271938",
-          "postedAt": "2026-11-17T13:30:00"
-        },
-        {
-          "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d  Tracy ",
           "platform": "X",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 6796,
-          "paidImpr": 0,
-          "orgImpr": 6796,
-          "views": 855,
-          "eng": 5,
-          "er": 0.07,
-          "spend": 0,
+          "distKind": "organic+boosted",
+          "impr": 33547,
+          "paidImpr": 26700,
+          "orgImpr": 6847,
+          "views": 861,
+          "eng": 424,
+          "er": 1.26,
+          "spend": 92.94,
           "url": "https://twitter.com/FOS/status/2122774273903243626",
-          "postedAt": "2026-11-17T13:30:00"
+          "postedAt": "2026-11-17T14:30:00"
         },
         {
           "title": "Tracy McGrady on basketball\u2019s growth in China",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 0,
-          "paidImpr": 0,
-          "orgImpr": 0,
-          "views": 0,
-          "eng": 0,
-          "er": 0.0,
-          "spend": 0,
+          "distKind": "organic+boosted",
+          "impr": 29646,
+          "paidImpr": 28959,
+          "orgImpr": 687,
+          "views": 7959,
+          "eng": 1858,
+          "er": 6.27,
+          "spend": 63.99,
           "url": "https://www.youtube.com/shorts/BZgjKP90TO8",
-          "postedAt": "2026-11-17T13:30:00"
+          "postedAt": "2026-11-17T14:30:00"
+        },
+        {
+          "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d  Tracy ",
+          "platform": "LinkedIn",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 10470,
+          "paidImpr": 0,
+          "orgImpr": 10470,
+          "views": 20143,
+          "eng": 186,
+          "er": 1.78,
+          "spend": 0,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528511170287271938",
+          "postedAt": "2026-11-17T14:30:00"
         },
         {
           "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d\u2060 \u2060 Trac",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 6774,
-          "paidImpr": 0,
-          "orgImpr": 6774,
-          "views": 6774,
-          "eng": 175,
-          "er": 2.58,
-          "spend": 0,
+          "distKind": "organic+boosted",
+          "impr": 93879,
+          "paidImpr": 85827,
+          "orgImpr": 8052,
+          "views": 92088,
+          "eng": 7980,
+          "er": 8.5,
+          "spend": 415.0,
           "url": "https://www.instagram.com/p/Df2r2-xip7C/",
-          "postedAt": "2026-11-17T13:33:00"
+          "postedAt": "2026-11-17T14:33:00"
         },
         {
           "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d Tracy M",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 411,
+          "impr": 465,
           "paidImpr": 0,
-          "orgImpr": 411,
-          "views": 411,
-          "eng": 42,
-          "er": 10.22,
+          "orgImpr": 465,
+          "views": 465,
+          "eng": 43,
+          "er": 9.25,
           "spend": 0,
           "url": "https://tiktok.com/@frontofficesports/video/7709271452536671519",
-          "postedAt": "2026-11-17T16:30:00"
+          "postedAt": "2026-11-17T17:30:00"
         },
         {
           "title": "\u201cThe opportunity came \\[to own\\] the Bills. I was like yes, this is perfect.\u201d  Tracy McGrady shares how he became a part",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 11144,
+          "impr": 18121,
           "paidImpr": 0,
-          "orgImpr": 11144,
-          "views": 3358,
-          "eng": 191,
-          "er": 1.71,
+          "orgImpr": 18121,
+          "views": 26136,
+          "eng": 575,
+          "er": 3.17,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528835081348530176",
-          "postedAt": "2026-11-18T13:30:00"
+          "postedAt": "2026-11-18T14:30:00"
         },
         {
           "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d  Tracy McGrady shares how he became a part-o",
           "platform": "X",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 6654,
+          "impr": 7644,
           "paidImpr": 0,
-          "orgImpr": 6654,
-          "views": 964,
-          "eng": 31,
-          "er": 0.47,
+          "orgImpr": 7644,
+          "views": 1190,
+          "eng": 42,
+          "er": 0.55,
           "spend": 0,
           "url": "https://twitter.com/FOS/status/2123136659348987957",
-          "postedAt": "2026-11-18T13:30:00"
-        },
-        {
-          "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d Tracy McGrady shares how he became a part-ow",
-          "platform": "TikTok",
-          "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 351,
-          "paidImpr": 0,
-          "orgImpr": 351,
-          "views": 351,
-          "eng": 26,
-          "er": 7.41,
-          "spend": 0,
-          "url": "https://tiktok.com/@frontofficesports/video/7709527517534637342",
-          "postedAt": "2026-11-18T13:30:00"
+          "postedAt": "2026-11-18T14:30:00"
         },
         {
           "title": "How Tracy McGrady became an owner of the Bills",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 0,
+          "impr": 1441,
           "paidImpr": 0,
-          "orgImpr": 0,
-          "views": 0,
-          "eng": 0,
-          "er": 0.0,
+          "orgImpr": 1441,
+          "views": 3084,
+          "eng": 73,
+          "er": 5.07,
           "spend": 0,
           "url": "https://www.youtube.com/shorts/S1EM3NnyPoo",
-          "postedAt": "2026-11-18T13:30:00"
+          "postedAt": "2026-11-18T14:30:00"
+        },
+        {
+          "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d Tracy McGrady shares how he became a part-ow",
+          "platform": "TikTok",
+          "accountName": "Front Office Sports",
+          "distKind": "organic",
+          "impr": 494,
+          "paidImpr": 0,
+          "orgImpr": 494,
+          "views": 494,
+          "eng": 37,
+          "er": 7.49,
+          "spend": 0,
+          "url": "https://tiktok.com/@frontofficesports/video/7709527517534637342",
+          "postedAt": "2026-11-18T14:30:00"
         },
         {
           "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d\u2060 \u2060 Tracy McGrady shares how he became a part",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 7250,
+          "impr": 15959,
           "paidImpr": 0,
-          "orgImpr": 7250,
-          "views": 7250,
-          "eng": 223,
-          "er": 3.08,
+          "orgImpr": 15959,
+          "views": 15959,
+          "eng": 494,
+          "er": 3.1,
           "spend": 0,
           "url": "https://www.instagram.com/p/Df5y-1xnFmd/",
-          "postedAt": "2026-11-18T18:33:00"
+          "postedAt": "2026-11-18T19:33:00"
         }
       ],
       "topPosts": [
         {
-          "quote": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d\u2060 \u2060 Tracy McGra",
-          "platform": "Instagram",
-          "er": 3.08,
-          "reach": 7250,
-          "url": "https://www.instagram.com/p/Df5y-1xnFmd/"
-        },
-        {
           "quote": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and",
           "platform": "Instagram",
-          "er": 2.58,
-          "reach": 6774,
+          "er": 8.67,
+          "reach": 92088,
           "url": "https://www.instagram.com/p/Df2r2-xip7C/"
+        },
+        {
+          "quote": "\u201cThe opportunity came \\[to own\\] the Bills. I was like yes, this is perfect.\u201d  Tracy McGra",
+          "platform": "LinkedIn",
+          "er": 3.17,
+          "reach": 26136,
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528835081348530176"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "TikTok leading with 8.9% ER on 762 impr."
+          "text": "TikTok leading with 8.3% ER on 959 impr."
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 20.7K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 28.6K impr."
         }
       ]
     }
@@ -27624,7 +27632,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7420570894995005441",
-      "postedAt": "2026-01-23T14:59:00"
+      "postedAt": "2026-01-23T15:59:00"
     },
     {
       "title": "The conversations with those who are reshaping the business of sports happen here.   Season 3 of Portfolio Players prese",
@@ -27647,7 +27655,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2014810648002040166",
-      "postedAt": "2026-01-23T15:21:00"
+      "postedAt": "2026-01-23T16:21:00"
     },
     {
       "title": "Who are the minds shaping the business of sports? Athletes, team owners, and investors go deep with us on Portfolio Play",
@@ -27670,7 +27678,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DT3mIgPEcdQ/",
-      "postedAt": "2026-01-23T15:43:00"
+      "postedAt": "2026-01-23T16:43:00"
     },
     {
       "title": "Who are the athletes, team owners, and investors shaping the business of sports?",
@@ -27693,7 +27701,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/LWtCVt9KnqY",
-      "postedAt": "2026-01-23T15:45:00"
+      "postedAt": "2026-01-23T16:45:00"
     },
     {
       "title": "Mike Repole: How I Built Billion-Dollar Brands, Teamed With Tom Brady & Bet Big on Spring Football",
@@ -27703,12 +27711,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 1058041,
       "paidImpr": 1029710,
       "orgImpr": 28331,
-      "views": 43455,
+      "views": 43481,
       "reach": 0,
       "eng": 3603,
       "er": 0.34,
       "spend": 551.16,
-      "watchTimeMin": 216055.3,
+      "watchTimeMin": 216146.7,
       "clicks": null,
       "ctr": 0.34,
       "cpc": 2.92,
@@ -27716,7 +27724,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/yzCZ18JnQ2A",
-      "postedAt": "2026-01-27T09:01:00"
+      "postedAt": "2026-01-27T10:01:00"
     },
     {
       "title": "Portfolio Players S3 Ep1: Mike Repole (pre-roll)",
@@ -27762,7 +27770,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2016202571447157107",
-      "postedAt": "2026-01-27T11:32:00"
+      "postedAt": "2026-01-27T12:32:00"
     },
     {
       "title": "Billionaire Built Brands With Kobe, Tom Brady & The Rock Shares His Secrets #sportsbusiness",
@@ -27785,7 +27793,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/JlshM0PB5VI",
-      "postedAt": "2026-01-27T11:41:00"
+      "postedAt": "2026-01-27T12:41:00"
     },
     {
       "title": "Beverage billionaire, sports entrepreneur, and owner of NOBULL, Mike Repole joins Daniel Roberts for a wide-ranging conv",
@@ -27808,20 +27816,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7422026339685236736",
-      "postedAt": "2026-01-27T15:23:00"
+      "postedAt": "2026-01-27T16:23:00"
     },
     {
       "title": "Meet Mike Repole - the sports entrepreneur responsible for building billion-dollar brands like Vitamin Water, BodyArmor ",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 23135,
+      "impr": 23287,
       "paidImpr": 0,
-      "orgImpr": 23135,
-      "views": 23135,
-      "reach": 19901,
-      "eng": 229,
-      "er": 0.99,
+      "orgImpr": 23287,
+      "views": 23287,
+      "reach": 19947,
+      "eng": 232,
+      "er": 1.0,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -27831,7 +27839,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DUB6GDPjC7W/",
-      "postedAt": "2026-01-27T15:51:00"
+      "postedAt": "2026-01-27T16:51:00"
     },
     {
       "title": "What's the 2nd Biggest Sport in the US?",
@@ -27854,7 +27862,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/nkqbJEzlLB4",
-      "postedAt": "2026-01-28T15:10:00"
+      "postedAt": "2026-01-28T16:10:00"
     },
     {
       "title": "What's the number two sport in the United States?   If you said college football, you might be onto something.    United",
@@ -27877,7 +27885,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7422391055095963648",
-      "postedAt": "2026-01-28T15:32:00"
+      "postedAt": "2026-01-28T16:32:00"
     },
     {
       "title": "Tom Brady's business partner and billionaire entrepreneur @repolestable firmly believes that college football only trail",
@@ -27900,7 +27908,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2016629140447797250",
-      "postedAt": "2026-01-28T15:47:00"
+      "postedAt": "2026-01-28T16:47:00"
     },
     {
       "title": "College football stands as a powerhouse in the U.S. sports landscape, second only to the NFL, according to billionaire s",
@@ -27923,7 +27931,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DUEsIX2Dr4h/",
-      "postedAt": "2026-01-28T17:45:00"
+      "postedAt": "2026-01-28T18:45:00"
     },
     {
       "title": "\u201c[Tom Brady] ran a faster 40 (yard dash) at 45 years old than he did at the combine\u201d   NOBULL\u2019s Mike Repole explains how",
@@ -27946,7 +27954,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DUHRfuBClok/",
-      "postedAt": "2026-01-29T17:54:00"
+      "postedAt": "2026-01-29T18:54:00"
     },
     {
       "title": "\u201c[Tom Brady] ran a faster 40 (yard dash) at 45 years old than he did at the combine.\u201d   NOBULL\u2019s Mike Repole explains ho",
@@ -27969,7 +27977,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS_News_/status/2017024966185865251",
-      "postedAt": "2026-01-29T18:00:00"
+      "postedAt": "2026-01-29T19:00:00"
     },
     {
       "title": "How much has Mike Repole given in NIL money to St. John\u2019s?   \u201cMore than Mark Cuban gives to Indiana,\u201d he says.   Repole ",
@@ -27992,7 +28000,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2018791605864370299",
-      "postedAt": "2026-02-03T15:00:00"
+      "postedAt": "2026-02-03T16:00:00"
     },
     {
       "title": "How much has Mike Repole given in NIL money to St. John\u2019s?   \u201cMore than Mark Cuban gives to Indiana,\u201d he says.   Repole ",
@@ -28015,7 +28023,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7424506289344593920",
-      "postedAt": "2026-02-03T15:30:00"
+      "postedAt": "2026-02-03T16:30:00"
     },
     {
       "title": "How much has Mike Repole given in NIL money to St. John\u2019s?",
@@ -28038,7 +28046,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/vqYe6pmoc14",
-      "postedAt": "2026-02-03T16:29:00"
+      "postedAt": "2026-02-03T17:29:00"
     },
     {
       "title": "How much has Mike Repole given in NIL money to St. John\u2019s?  \u201cMore than Mark Cuban gives to Indiana,\u201d he says.  Repole gi",
@@ -28061,7 +28069,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DUWomrrCbKM/",
-      "postedAt": "2026-02-04T17:00:00"
+      "postedAt": "2026-02-04T18:00:00"
     },
     {
       "title": "\u201cMore than Mark Cuban gives to Indiana\u2026 it\u2019s millions.\u201d  Vitaminwater cofounder Mike Repole spoke on Portfolio Players a",
@@ -28084,7 +28092,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2037675354572079447",
-      "postedAt": "2026-03-27T18:37:00"
+      "postedAt": "2026-03-27T19:37:00"
     },
     {
       "title": "Full episode of Portfolio Players with Mike Repole including: - How BodyArmor scaled to an $8B valuation - Why he merged",
@@ -28107,7 +28115,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2037675616330199473",
-      "postedAt": "2026-03-27T18:38:00"
+      "postedAt": "2026-03-27T19:38:00"
     },
     {
       "title": "Mike Repole wanted to buy a horse when he became successful. Now, he's had a horse in the Kentucky Derby 12 times.  @Rep",
@@ -28130,7 +28138,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2050615518701223952",
-      "postedAt": "2026-05-02T11:36:00"
+      "postedAt": "2026-05-02T12:36:00"
     },
     {
       "title": "@RepoleStable Watch Mike Repole's full interview on Portfolio Players here \u2b07\ufe0f",
@@ -28153,7 +28161,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2050615818161963321",
-      "postedAt": "2026-05-02T11:38:00"
+      "postedAt": "2026-05-02T12:38:00"
     },
     {
       "title": "Billionaire Sports Investor Mike Repole Wants to Buy the Jets #nfl",
@@ -28176,7 +28184,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/U11yD_Kdthw",
-      "postedAt": "2026-05-15T10:50:00"
+      "postedAt": "2026-05-15T11:50:00"
     },
     {
       "title": "Mike Repole says he would help New York Jets owner Woody Johnson out for free. Hear the full story on the latest episode",
@@ -28199,7 +28207,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7640183004303740173",
-      "postedAt": "2026-05-15T14:00:00"
+      "postedAt": "2026-05-15T15:00:00"
     },
     {
       "title": "Mike Repole says he would help New York Jets owner Woody Johnson out for free. \u2060 \u2060 Hear the full story on the latest epi",
@@ -28222,7 +28230,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYYEmN_mWl2/",
-      "postedAt": "2026-05-15T17:33:00"
+      "postedAt": "2026-05-15T18:33:00"
     },
     {
       "title": "Women's Volleyball is THE Next Big Sports Investment #lovb",
@@ -28245,7 +28253,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/xW3fz52xFVg",
-      "postedAt": "2026-05-21T08:04:00"
+      "postedAt": "2026-05-21T09:04:00"
     },
     {
       "title": "BodyArmor cofounder Mike Repole tells FOS that the sport that he'd invest in right now is women's volleyball.\u2060 \u2060 Repole ",
@@ -28268,7 +28276,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYskF-oCO_2/",
-      "postedAt": "2026-05-23T16:33:00"
+      "postedAt": "2026-05-23T17:33:00"
     },
     {
       "title": "How Athletes Unlimited Is Rewriting the Business Model of Women\u2019s Sports",
@@ -28291,7 +28299,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/nuuTkGxpkqk",
-      "postedAt": "2026-02-10T09:01:00"
+      "postedAt": "2026-02-10T10:01:00"
     },
     {
       "title": "Portfolio Players S3 Ep2: Jon Patricof (pre-roll)",
@@ -28337,7 +28345,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DUlz6l0DbCw/",
-      "postedAt": "2026-02-10T14:30:00"
+      "postedAt": "2026-02-10T15:30:00"
     },
     {
       "title": "Athletes Unlimited co-founder &amp; CEO Jon Patricof joined @readDanwrite on Portfolio Players to discuss: \u2022 why he buil",
@@ -28360,7 +28368,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2021325755158827063",
-      "postedAt": "2026-02-10T14:49:00"
+      "postedAt": "2026-02-10T15:49:00"
     },
     {
       "title": "Is @AUProSports the future of sports league models?",
@@ -28383,7 +28391,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/0xlBGzSHQuM",
-      "postedAt": "2026-02-10T14:54:00"
+      "postedAt": "2026-02-10T15:54:00"
     },
     {
       "title": "@readDanwrite @AUProSports Full episode here:",
@@ -28406,7 +28414,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2021341778604065173",
-      "postedAt": "2026-02-10T15:53:00"
+      "postedAt": "2026-02-10T16:53:00"
     },
     {
       "title": "Athletes Unlimited CEO Jon Patricof joins FOS editor-in-chief Daniel Roberts on the latest episode of Portfolio Players ",
@@ -28429,7 +28437,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427112326522236929",
-      "postedAt": "2026-02-10T16:13:00"
+      "postedAt": "2026-02-10T17:13:00"
     },
     {
       "title": "\u201cIf interest in women\u2019s pro basketball doesn\u2019t grow then we\u2019re just going to continue to be a small fish in a big pond.\u201d",
@@ -28452,7 +28460,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2021696283220627926",
-      "postedAt": "2026-02-11T15:22:00"
+      "postedAt": "2026-02-11T16:22:00"
     },
     {
       "title": "Why @AUProSports needs the WNBA to SUCCEED as well! #womenssports",
@@ -28475,7 +28483,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/6tFANIBWyuc",
-      "postedAt": "2026-02-11T15:25:00"
+      "postedAt": "2026-02-11T16:25:00"
     },
     {
       "title": "Athletes Unlimited CEO Jon Patricof joins Portfolio Players",
@@ -28498,7 +28506,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427465822115205120",
-      "postedAt": "2026-02-11T15:37:00"
+      "postedAt": "2026-02-11T16:37:00"
     },
     {
       "title": "\u201cIf interest in women\u2019s pro basketball doesn\u2019t grow then we\u2019re just going to continue to be a small fish in a big pond.\u201d",
@@ -28521,7 +28529,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DUos72TDf9D/",
-      "postedAt": "2026-02-11T17:26:00"
+      "postedAt": "2026-02-11T18:26:00"
     },
     {
       "title": "\u201cIf interest in women\u2019s pro basketball doesn\u2019t grow then we\u2019re just going to continue to be a small fish in a big pond.\u201d",
@@ -28544,7 +28552,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/25640943042265621/",
-      "postedAt": "2026-02-11T17:26:00"
+      "postedAt": "2026-02-11T18:26:00"
     },
     {
       "title": "\u201cIt\u2019s hard to understand historically what it\u2019s like to be a women\u2019s softball fan.\u201d   Co-founder and CEO of @auprosports",
@@ -28567,7 +28575,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DU6lia1lzxg/",
-      "postedAt": "2026-02-18T16:07:00"
+      "postedAt": "2026-02-18T17:07:00"
     },
     {
       "title": "\u201cIt\u2019s hard to understand historically what it\u2019s like to be a women\u2019s softball fan.\u201d   Co-founder & CEO of Athletes Unlim",
@@ -28590,7 +28598,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7430010278588657664",
-      "postedAt": "2026-02-18T16:08:00"
+      "postedAt": "2026-02-18T17:08:00"
     },
     {
       "title": "How @theAUSLofficial is Changing Pro Softball",
@@ -28613,7 +28621,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/LOXUkygFBrU",
-      "postedAt": "2026-02-18T17:19:00"
+      "postedAt": "2026-02-18T18:19:00"
     },
     {
       "title": "From @newyorkcityfc to @AUsports, Jon Patricof the CEO &amp; Co-founder of Athletes Unlimited discusses the evolving mod",
@@ -28636,7 +28644,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2024265914258948319",
-      "postedAt": "2026-02-18T17:32:00"
+      "postedAt": "2026-02-18T18:32:00"
     },
     {
       "title": "",
@@ -28659,7 +28667,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2024266065409098028",
-      "postedAt": "2026-02-18T17:33:00"
+      "postedAt": "2026-02-18T18:33:00"
     },
     {
       "title": "Leslie Osborne: From USWNT Star to NWSL Team Owner",
@@ -28682,7 +28690,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/sq0xjYZix24",
-      "postedAt": "2026-02-24T09:01:00"
+      "postedAt": "2026-02-24T10:01:00"
     },
     {
       "title": "Portfolio Players S3 Ep3: Leslie Osborne (pre-roll)",
@@ -28728,7 +28736,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/_ZV9Bbtigco",
-      "postedAt": "2026-02-24T14:37:00"
+      "postedAt": "2026-02-24T15:37:00"
     },
     {
       "title": "From founding @wearebayfc to investing in @LOVB San Francisco, Leslie Osborne explains how athletes are shaping the futu",
@@ -28751,7 +28759,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DVKL-fCFRpl/",
-      "postedAt": "2026-02-24T17:32:00"
+      "postedAt": "2026-02-24T18:32:00"
     },
     {
       "title": "Bay FC cofounder and former #USWNT star Leslie Osborne Lewis joins Daniel Roberts on the latest episode of Portfolio Pla",
@@ -28774,7 +28782,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432374634353954816",
-      "postedAt": "2026-02-25T09:00:00"
+      "postedAt": "2026-02-25T10:00:00"
     },
     {
       "title": "Cofounder of @wearebayfc and USWNT alum @leslieosborne12 on women\u2019s sports ownership:  NWSL expansion boom Athletes as i",
@@ -28797,7 +28805,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2026725130429186291",
-      "postedAt": "2026-02-25T12:25:00"
+      "postedAt": "2026-02-25T13:25:00"
     },
     {
       "title": "@wearebayfc @LeslieOsborne12",
@@ -28820,7 +28828,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2026725252152352819",
-      "postedAt": "2026-02-25T12:25:00"
+      "postedAt": "2026-02-25T13:25:00"
     },
     {
       "title": "Who is the FEMALE Messi? #nwsl",
@@ -28843,7 +28851,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/fc6JZzuQrf4",
-      "postedAt": "2026-02-25T15:46:00"
+      "postedAt": "2026-02-25T16:46:00"
     },
     {
       "title": "Is there a women\u2019s soccer player who has #Messi level appeal? Perhaps not. But according to Bay FC cofounder Leslie Osbo",
@@ -28866,7 +28874,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432542466571993088",
-      "postedAt": "2026-02-25T15:52:00"
+      "postedAt": "2026-02-25T16:52:00"
     },
     {
       "title": "\u201cIf we would have lost her it would have set us back.\u201d  BayFC founder @LeslieOsborne12 discusses how the NWSL had to do ",
@@ -28889,7 +28897,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2026779162187329718",
-      "postedAt": "2026-02-25T15:59:00"
+      "postedAt": "2026-02-25T16:59:00"
     },
     {
       "title": "",
@@ -28912,7 +28920,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2026779233784136168",
-      "postedAt": "2026-02-25T15:59:00"
+      "postedAt": "2026-02-25T16:59:00"
     },
     {
       "title": "Is there a female Messi? Perhaps not. But according to @wearebayfc cofounder @leslieosborne12, USWNT and NWSL\u2019s Trinity ",
@@ -28935,7 +28943,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DVMmmM3gb35/",
-      "postedAt": "2026-02-25T16:04:00"
+      "postedAt": "2026-02-25T17:04:00"
     },
     {
       "title": "Is there a female Messi? Perhaps not. But according to @wearebayfc cofounder @leslieosborne12, USWNT and NWSL\u2019s Trinity ",
@@ -28958,7 +28966,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1386982383230632/",
-      "postedAt": "2026-02-25T16:04:00"
+      "postedAt": "2026-02-25T17:04:00"
     },
     {
       "title": "NWSL Owner says \u201cAthletes are an asset class\"",
@@ -28981,7 +28989,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/GKQyJWUgHGY",
-      "postedAt": "2026-03-04T16:00:00"
+      "postedAt": "2026-03-04T17:00:00"
     },
     {
       "title": "Are female athletes the most undervalued asset class in sports?  @wearebayfc founder @LeslieOsborne12 makes the case on ",
@@ -29004,7 +29012,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2029315952056386022",
-      "postedAt": "2026-03-04T16:00:00"
+      "postedAt": "2026-03-04T17:00:00"
     },
     {
       "title": "For years, athletes built value for leagues, sponsors, and media companies. But they weren\u2019t always in the ownership roo",
@@ -29027,7 +29035,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7435074324270579712",
-      "postedAt": "2026-03-04T16:00:00"
+      "postedAt": "2026-03-04T17:00:00"
     },
     {
       "title": "Athletes aren\u2019t just talent. \u201cThey\u2019re an asset class.\u201d  \u201cTime. Experience. Success. Brand. Image. Likeness.\u201d  That\u2019s how",
@@ -29050,7 +29058,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DVen7xvCbF_/",
-      "postedAt": "2026-03-04T16:30:00"
+      "postedAt": "2026-03-04T17:30:00"
     },
     {
       "title": "Athletes aren\u2019t just talent. \u201cThey\u2019re an asset class.\u201d  \u201cTime. Experience. Success. Brand. Image. Likeness.\u201d  That\u2019s how",
@@ -29073,7 +29081,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1452953592947819/",
-      "postedAt": "2026-03-04T16:30:00"
+      "postedAt": "2026-03-04T17:30:00"
     },
     {
       "title": "Bay FC cofounder Leslie Osborne says her club learned a lot from Angel City's ownership debacle and \"massive cap table.\"",
@@ -29096,7 +29104,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2029678842479341595",
-      "postedAt": "2026-03-05T16:02:00"
+      "postedAt": "2026-03-05T17:02:00"
     },
     {
       "title": "Paul Rabil: Why Owning a Team Is a 100x Bet",
@@ -29119,7 +29127,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/uvSKUmYa6Kg",
-      "postedAt": "2026-03-10T09:07:00"
+      "postedAt": "2026-03-10T10:07:00"
     },
     {
       "title": "Portfolio Players S3 Ep4: Paul Rabil (pre-roll)",
@@ -29165,7 +29173,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DVt9faZgfQ8/",
-      "postedAt": "2026-03-10T15:58:00"
+      "postedAt": "2026-03-10T16:58:00"
     },
     {
       "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Professional Lacrosse League.  PLL President and",
@@ -29188,7 +29196,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/950129314064976/",
-      "postedAt": "2026-03-10T15:58:00"
+      "postedAt": "2026-03-10T16:58:00"
     },
     {
       "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Professional Lacrosse League.  PLL President and",
@@ -29211,7 +29219,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2031478954268254612",
-      "postedAt": "2026-03-10T16:15:00"
+      "postedAt": "2026-03-10T17:15:00"
     },
     {
       "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Premier Lacrosse League.  Premier Lacrosse Leagu",
@@ -29234,7 +29242,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7437244763872862208",
-      "postedAt": "2026-03-10T16:15:00"
+      "postedAt": "2026-03-10T17:15:00"
     },
     {
       "title": "PLL Founder 50x returns in sports, AI, and the future of PLL",
@@ -29257,7 +29265,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/CYFnoA2na4A",
-      "postedAt": "2026-03-10T16:15:00"
+      "postedAt": "2026-03-10T17:15:00"
     },
     {
       "title": "50-100x returns in sports ownership. AI-proof assets. The future of the Premier Lacrosse League.  PLL President and Cofo",
@@ -29280,7 +29288,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2031750744458809546",
-      "postedAt": "2026-03-11T10:15:00"
+      "postedAt": "2026-03-11T11:15:00"
     },
     {
       "title": "Sports ownership has returned 50-100x over the last 35 years. The stock market? 15x over the same period.  Cofounder and",
@@ -29303,7 +29311,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DVwgb5wiQz6/",
-      "postedAt": "2026-03-11T15:32:00"
+      "postedAt": "2026-03-11T16:32:00"
     },
     {
       "title": "Sports ownership has returned 50-100x over the last 35 years. The stock market? 15x over the same period.  Cofounder and",
@@ -29326,7 +29334,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/2990168687843991/",
-      "postedAt": "2026-03-11T15:32:00"
+      "postedAt": "2026-03-11T16:32:00"
     },
     {
       "title": "Sports ownership has returned 50-100x over the last 35 years. The stock market? 15x over the same period.   PLL cofounde",
@@ -29349,7 +29357,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2031837566417113541",
-      "postedAt": "2026-03-11T16:00:00"
+      "postedAt": "2026-03-11T17:00:00"
     },
     {
       "title": "50x returns in 35 years: Why Capital Is Flooding Into Sports Ownership",
@@ -29372,7 +29380,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/kis1Vi_DN6M",
-      "postedAt": "2026-03-11T16:00:00"
+      "postedAt": "2026-03-11T17:00:00"
     },
     {
       "title": "Jerry Jones bought the Dallas Cowboys for $140 million in 1989.  The franchise is now worth $11 billion.  That's not an ",
@@ -29395,7 +29403,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7437592120284299264",
-      "postedAt": "2026-03-11T16:00:00"
+      "postedAt": "2026-03-11T17:00:00"
     },
     {
       "title": "What if AI replaced referees\u2026 and got every call right? PLL president and cofounder @paulrabil argues that might actuall",
@@ -29418,7 +29426,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DWCjk0qARin/",
-      "postedAt": "2026-03-18T15:56:00"
+      "postedAt": "2026-03-18T16:56:00"
     },
     {
       "title": "What if AI replaced referees\u2026 and got every call right? PLL president and cofounder @paulrabil argues that might actuall",
@@ -29441,7 +29449,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1651474369182961/",
-      "postedAt": "2026-03-18T15:56:00"
+      "postedAt": "2026-03-18T16:56:00"
     },
     {
       "title": "What if AI replaced referees and got every call right?   @PremierLacrosse president @paulrabil argues that perfect offic",
@@ -29464,7 +29472,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2034378056400355565",
-      "postedAt": "2026-03-18T16:15:00"
+      "postedAt": "2026-03-18T17:15:00"
     },
     {
       "title": "Is perfect officiating via AI actually bad for sports? Premier Lacrosse League cofounder and President Paul Rabil thinks",
@@ -29487,7 +29495,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7440145784714518530",
-      "postedAt": "2026-03-18T16:23:00"
+      "postedAt": "2026-03-18T17:23:00"
     },
     {
       "title": "Would AI officiating ruin sports?",
@@ -29510,7 +29518,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/hNnQ5SozcU0",
-      "postedAt": "2026-03-18T17:30:00"
+      "postedAt": "2026-03-18T18:30:00"
     },
     {
       "title": "How Women\u2019s Soccer Became the Smartest Bet in Sports",
@@ -29533,7 +29541,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/R4E1tKfoJy4",
-      "postedAt": "2026-03-24T09:00:00"
+      "postedAt": "2026-03-24T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep5: Assia Grazioli-Venier (pre-roll)",
@@ -29579,7 +29587,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DWR9vNkgRXJ/",
-      "postedAt": "2026-03-24T15:32:00"
+      "postedAt": "2026-03-24T16:32:00"
     },
     {
       "title": "\u201cThere is so much capital that wants to come into sports right now... it is going to burst.\u201d   Assia Grazioli-Venier of ",
@@ -29602,7 +29610,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1424085823064337/",
-      "postedAt": "2026-03-24T15:32:00"
+      "postedAt": "2026-03-24T16:32:00"
     },
     {
       "title": "\"There is so much capital that wants to come into sports right now... it is going to burst.\"   Assia Grazioli-Venier of ",
@@ -29625,7 +29633,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442307804297752576",
-      "postedAt": "2026-03-24T15:34:00"
+      "postedAt": "2026-03-24T16:34:00"
     },
     {
       "title": "\"There is so much capital that wants to come into sports right now... it is going to burst.\"   @assiagrazioli of Muse Ca",
@@ -29648,7 +29656,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2036548613371748719",
-      "postedAt": "2026-03-24T16:00:00"
+      "postedAt": "2026-03-24T17:00:00"
     },
     {
       "title": "Full episode of Portfolio Players with Assia Grazioli-Venier:",
@@ -29671,7 +29679,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2036549190570967052",
-      "postedAt": "2026-03-24T16:02:00"
+      "postedAt": "2026-03-24T17:02:00"
     },
     {
       "title": "The sports investment bubble is about to burst",
@@ -29694,7 +29702,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/F9xLnkXdxKc",
-      "postedAt": "2026-03-24T16:30:00"
+      "postedAt": "2026-03-24T17:30:00"
     },
     {
       "title": "\u201cOne of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\u201d  NWS",
@@ -29717,7 +29725,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DWUihYhgXqm/",
-      "postedAt": "2026-03-25T15:32:00"
+      "postedAt": "2026-03-25T16:32:00"
     },
     {
       "title": "\u201cOne of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\u201d  NWS",
@@ -29740,7 +29748,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1425008446305408/",
-      "postedAt": "2026-03-25T15:32:00"
+      "postedAt": "2026-03-25T16:32:00"
     },
     {
       "title": "\"One of the things that has grown the attention and interest in soccer in this country is actually women\u2019s soccer.\"  Ass",
@@ -29763,7 +29771,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442670613099565056",
-      "postedAt": "2026-03-25T15:36:00"
+      "postedAt": "2026-03-25T16:36:00"
     },
     {
       "title": "How Women\u2019s Soccer Is Driving the Sport\u2019s Growth in the U.S.",
@@ -29786,7 +29794,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/ChE2w-u4gC0",
-      "postedAt": "2026-03-25T15:43:00"
+      "postedAt": "2026-03-25T16:43:00"
     },
     {
       "title": "\"No judgment for the MLS, but it just hasn\u2019t been able to compete with European soccer.\"  @NWSL investor @assiagrazioli ",
@@ -29809,7 +29817,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2036911003083170204",
-      "postedAt": "2026-03-25T16:00:00"
+      "postedAt": "2026-03-25T17:00:00"
     },
     {
       "title": "Full conversation with Assia Grazioli-Venier including:  - Why the sports investment bubble will burst - Her Juventus bo",
@@ -29832,7 +29840,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2036913553022607857",
-      "postedAt": "2026-03-25T16:10:00"
+      "postedAt": "2026-03-25T17:10:00"
     },
     {
       "title": "Full conversation with Assia Grazioli-Venier including:  - Why the sports investment bubble will burst  - Her Juventus b",
@@ -29855,7 +29863,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2037903086207795245",
-      "postedAt": "2026-03-28T09:42:00"
+      "postedAt": "2026-03-28T10:42:00"
     },
     {
       "title": "The \"experience prerequisite\" in sports ownership has long been a barrier to entry \u2013 especially for women.   \"If you use",
@@ -29878,7 +29886,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7445220283348799489",
-      "postedAt": "2026-04-01T16:27:00"
+      "postedAt": "2026-04-01T17:27:00"
     },
     {
       "title": "From $5M to $200M: How Michele Kang Changed Women's Soccer Valuations Forever",
@@ -29901,7 +29909,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/U2JW_UdMUZ0",
-      "postedAt": "2026-04-01T16:37:00"
+      "postedAt": "2026-04-01T17:37:00"
     },
     {
       "title": "\"If you use that narrative, then there's no woman that's ever going to own a sports team.\"  NWSL investor @assiagrazioli",
@@ -29924,7 +29932,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2039459036244942917",
-      "postedAt": "2026-04-01T16:45:00"
+      "postedAt": "2026-04-01T17:45:00"
     },
     {
       "title": "Full conversation with Assia Grazioli-Venier including: - Why the sports investment bubble will burst - Celebrity invest",
@@ -29947,7 +29955,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2039459651511591056",
-      "postedAt": "2026-04-01T16:47:00"
+      "postedAt": "2026-04-01T17:47:00"
     },
     {
       "title": "\u201cIf you use that narrative, then there\u2019s no woman that\u2019s ever going to own a sports team. How do you go from 0 to 1?\u201d   ",
@@ -29970,7 +29978,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DWmuQBWJu73/",
-      "postedAt": "2026-04-01T17:00:00"
+      "postedAt": "2026-04-01T18:00:00"
     },
     {
       "title": "\u201cIf you use that narrative, then there\u2019s no woman that\u2019s ever going to own a sports team. How do you go from 0 to 1?\u201d   ",
@@ -29993,7 +30001,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1431094149030171/",
-      "postedAt": "2026-04-01T17:00:00"
+      "postedAt": "2026-04-01T18:00:00"
     },
     {
       "title": "From Olympic Gold to Founder: Allyson Felix\u2019s Next Chapter",
@@ -30016,7 +30024,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/dSVJU1eYBmI",
-      "postedAt": "2026-04-07T09:00:00"
+      "postedAt": "2026-04-07T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep 6: Allyson Felix (pre-roll) - REDO",
@@ -30062,7 +30070,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DW2AwFaAXG6/",
-      "postedAt": "2026-04-07T15:34:00"
+      "postedAt": "2026-04-07T16:34:00"
     },
     {
       "title": "\u201cAthletes are owning their voice more\u2026 They do have influence and they\u2019re doing something with that.\u201d  11-time Olympic m",
@@ -30085,7 +30093,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1436091945197058/",
-      "postedAt": "2026-04-07T15:34:00"
+      "postedAt": "2026-04-07T16:34:00"
     },
     {
       "title": "\u201cAthletes are owning their voice more\u2026 They do have influence and they\u2019re doing something with that.\u201d  11-time Olympic m",
@@ -30108,7 +30116,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7447381866015412224",
-      "postedAt": "2026-04-07T15:37:00"
+      "postedAt": "2026-04-07T16:37:00"
     },
     {
       "title": "Allyson Felix: The world is noticing women's sports",
@@ -30131,7 +30139,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/dCc__WnE-II",
-      "postedAt": "2026-04-07T15:41:00"
+      "postedAt": "2026-04-07T16:41:00"
     },
     {
       "title": "Full episode of Portfolio Players with Allyson Felix:",
@@ -30154,7 +30162,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2041622255667470416",
-      "postedAt": "2026-04-07T16:00:00"
+      "postedAt": "2026-04-07T17:00:00"
     },
     {
       "title": "\u201cAthletes are owning their voice more\u2026 They do have influence and they\u2019re doing something with that.\u201d  11-time Olympic m",
@@ -30177,7 +30185,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2041622050297516271",
-      "postedAt": "2026-04-07T16:00:00"
+      "postedAt": "2026-04-07T17:00:00"
     },
     {
       "title": "",
@@ -30200,7 +30208,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
-      "postedAt": "2026-04-08T10:24:00"
+      "postedAt": "2026-04-08T11:24:00"
     },
     {
       "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -30223,7 +30231,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7447686208534704128",
-      "postedAt": "2026-04-08T11:46:00"
+      "postedAt": "2026-04-08T12:46:00"
     },
     {
       "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -30246,7 +30254,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2041927804443324872",
-      "postedAt": "2026-04-08T12:15:00"
+      "postedAt": "2026-04-08T13:15:00"
     },
     {
       "title": "Gold medalist Allyson Felix: Investors are noticing the power of women\u2019s sports",
@@ -30269,7 +30277,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/9PsLY6IPPTM",
-      "postedAt": "2026-04-08T12:15:00"
+      "postedAt": "2026-04-08T13:15:00"
     },
     {
       "title": "Full conversation with Allyson Felix including:  - What the LA28 Olympics will mean for the city - Why she left Nike and",
@@ -30292,7 +30300,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2041929003536089147",
-      "postedAt": "2026-04-08T12:19:00"
+      "postedAt": "2026-04-08T13:19:00"
     },
     {
       "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -30315,7 +30323,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DW4Q6qFJtnD/",
-      "postedAt": "2026-04-08T12:30:00"
+      "postedAt": "2026-04-08T13:30:00"
     },
     {
       "title": "\u201cWe\u2019ve been shouting from the rooftops a long time\u2026 and it does feel like the world is taking notice.\u201d  11-time Olympic ",
@@ -30338,7 +30346,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1436805605125692/",
-      "postedAt": "2026-04-08T12:30:00"
+      "postedAt": "2026-04-08T13:30:00"
     },
     {
       "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist @allysonfelix shares the best advice sh",
@@ -30361,16 +30369,16 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2044453525787197911",
-      "postedAt": "2026-04-15T11:31:00"
+      "postedAt": "2026-04-15T12:31:00"
     },
     {
       "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist Allyson Felix shares the best advice sh",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 9509,
+      "impr": 9507,
       "paidImpr": 0,
-      "orgImpr": 9509,
+      "orgImpr": 9507,
       "views": 3205,
       "reach": 0,
       "eng": 259,
@@ -30384,7 +30392,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7450219668214206464",
-      "postedAt": "2026-04-15T11:33:00"
+      "postedAt": "2026-04-15T12:33:00"
     },
     {
       "title": "Full conversation with Allyson Felix including:  - What the LA28 Olympics will mean for the city  - Why she left Nike an",
@@ -30407,7 +30415,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2044454350672564493",
-      "postedAt": "2026-04-15T11:34:00"
+      "postedAt": "2026-04-15T12:34:00"
     },
     {
       "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist Allyson Felix shares the best advice sh",
@@ -30430,7 +30438,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DXKZo6yjqZZ/",
-      "postedAt": "2026-04-15T13:33:00"
+      "postedAt": "2026-04-15T14:33:00"
     },
     {
       "title": "\u201cJust bet on myself\u2026 Go after some of the big dreams.\u201d  11-time Olympic medalist Allyson Felix shares the best advice sh",
@@ -30453,7 +30461,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1442561921216727/",
-      "postedAt": "2026-04-15T13:33:00"
+      "postedAt": "2026-04-15T14:33:00"
     },
     {
       "title": "11-time Olympian Allyson Felix shares the best advice she's received",
@@ -30476,7 +30484,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/3JR0TKNIsZY",
-      "postedAt": "2026-04-16T08:36:00"
+      "postedAt": "2026-04-16T09:36:00"
     },
     {
       "title": "Allyson Felix told FOS her Nike exit over maternity policies didn\u2019t benefit her, but helped athletes that came after her",
@@ -30499,7 +30507,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2047401931924988063",
-      "postedAt": "2026-04-23T14:47:00"
+      "postedAt": "2026-04-23T15:47:00"
     },
     {
       "title": "Allyson Felix spoke with FOS last month about the positive impact the 2028 Olympics will have on her hometown of LA.   N",
@@ -30522,7 +30530,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2048851621145137365",
-      "postedAt": "2026-04-27T14:47:00"
+      "postedAt": "2026-04-27T15:47:00"
     },
     {
       "title": "Inside Brandon Marshall\u2019s Athlete Media Empire",
@@ -30545,7 +30553,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/EBH-MSJld_0",
-      "postedAt": "2026-04-21T09:00:00"
+      "postedAt": "2026-04-21T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep7: Brandon Marshall (pre-roll)",
@@ -30591,7 +30599,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2045126168861405628",
-      "postedAt": "2026-04-17T08:04:00"
+      "postedAt": "2026-04-17T09:04:00"
     },
     {
       "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player's advo",
@@ -30614,7 +30622,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7452450029144899584",
-      "postedAt": "2026-04-21T15:16:00"
+      "postedAt": "2026-04-21T16:16:00"
     },
     {
       "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player\u2019s advo",
@@ -30637,7 +30645,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DXaHAitgeT3/",
-      "postedAt": "2026-04-21T16:01:00"
+      "postedAt": "2026-04-21T17:01:00"
     },
     {
       "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player\u2019s advo",
@@ -30660,7 +30668,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1447721270700792/",
-      "postedAt": "2026-04-21T16:01:00"
+      "postedAt": "2026-04-21T17:01:00"
     },
     {
       "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player's advo",
@@ -30683,7 +30691,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2046703018649739659",
-      "postedAt": "2026-04-21T16:30:00"
+      "postedAt": "2026-04-21T17:30:00"
     },
     {
       "title": "How Brandon Marshall became the first active player to do TV full-time",
@@ -30706,7 +30714,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/4xSOJ7gVso8",
-      "postedAt": "2026-04-21T16:30:00"
+      "postedAt": "2026-04-21T17:30:00"
     },
     {
       "title": "Brandon Marshall was the first active NFL player to do full-time broadcasting. His strategy? Always be the player\u2019s advo",
@@ -30729,7 +30737,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1447753270697592/",
-      "postedAt": "2026-04-21T17:00:00"
+      "postedAt": "2026-04-21T18:00:00"
     },
     {
       "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d  Former National Football League \\(NF",
@@ -30752,7 +30760,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7452816630910382080",
-      "postedAt": "2026-04-22T15:32:00"
+      "postedAt": "2026-04-22T16:32:00"
     },
     {
       "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d   Former NFL All-Pro wide receiver Br",
@@ -30775,7 +30783,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DXco1a_gQSQ/",
-      "postedAt": "2026-04-22T15:34:00"
+      "postedAt": "2026-04-22T16:34:00"
     },
     {
       "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d   Former NFL All-Pro wide receiver Br",
@@ -30798,7 +30806,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1448549103951342/",
-      "postedAt": "2026-04-22T15:34:00"
+      "postedAt": "2026-04-22T16:34:00"
     },
     {
       "title": "Brandon Marshall: Athletes should start media career while playing",
@@ -30821,7 +30829,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/M1HzM0ri4Ds",
-      "postedAt": "2026-04-22T15:38:00"
+      "postedAt": "2026-04-22T16:38:00"
     },
     {
       "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d  Former @NFL All-Pro wide receiver Br",
@@ -30844,7 +30852,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2047056447112986902",
-      "postedAt": "2026-04-22T15:54:00"
+      "postedAt": "2026-04-22T16:54:00"
     },
     {
       "title": "Full episode with Brandon Marshall including:  - How athlete-owned media is competing with traditional TV - The challeng",
@@ -30867,7 +30875,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2047056448576733533",
-      "postedAt": "2026-04-22T15:54:00"
+      "postedAt": "2026-04-22T16:54:00"
     },
     {
       "title": "Full episode with Brandon Marshall including:  - How athlete-owned media is competing with traditional TV  - The challen",
@@ -30890,7 +30898,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2049190863448768610",
-      "postedAt": "2026-04-28T13:15:00"
+      "postedAt": "2026-04-28T14:15:00"
     },
     {
       "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -30913,7 +30921,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7455324891420975106",
-      "postedAt": "2026-04-29T13:39:00"
+      "postedAt": "2026-04-29T14:39:00"
     },
     {
       "title": "Why pro athletes should not join TV networks",
@@ -30936,7 +30944,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/Li18hQ8Pt9c",
-      "postedAt": "2026-04-29T13:43:00"
+      "postedAt": "2026-04-29T14:43:00"
     },
     {
       "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -30959,7 +30967,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2049569125958066285",
-      "postedAt": "2026-04-29T14:18:00"
+      "postedAt": "2026-04-29T15:18:00"
     },
     {
       "title": "Full episode with Brandon Marshall including: - How athlete-owned media is competing with traditional TV - The challenge",
@@ -30982,7 +30990,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2049569127740621093",
-      "postedAt": "2026-04-29T14:18:00"
+      "postedAt": "2026-04-29T15:18:00"
     },
     {
       "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -31005,7 +31013,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DXujlLzPhne/",
-      "postedAt": "2026-04-29T14:33:00"
+      "postedAt": "2026-04-29T15:33:00"
     },
     {
       "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d  Former All-P",
@@ -31028,7 +31036,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1454713083334944/",
-      "postedAt": "2026-04-29T14:33:00"
+      "postedAt": "2026-04-29T15:33:00"
     },
     {
       "title": "\u201cWe have more reach than 90% of these linear shows. We got to a million subscribers in less than 2 years.\u201d Former All-Pr",
@@ -31051,7 +31059,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7634276064478514463",
-      "postedAt": "2026-04-29T15:10:00"
+      "postedAt": "2026-04-29T16:10:00"
     },
     {
       "title": "Brandon Marshall walked away from sports talk TV\u2014the six-time Pro Bowl receiver said the pressure landed him in therapy.",
@@ -31074,7 +31082,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2049972060856955270",
-      "postedAt": "2026-04-30T17:00:00"
+      "postedAt": "2026-04-30T18:00:00"
     },
     {
       "title": "\u201cIf I wait until the end of my days, post-career... I\u2019m not going to be relevant.\u201d Former NFL All-Pro wide receiver Bran",
@@ -31097,7 +31105,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7636503981337955615",
-      "postedAt": "2026-05-06T10:00:00"
+      "postedAt": "2026-05-06T11:00:00"
     },
     {
       "title": "Former all-pro wide receiver Brandon Marshall reacts to NFL salary increases since his retirement in 2019.  \u201c$30 million",
@@ -31120,7 +31128,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DY0MQKch-HH/",
-      "postedAt": "2026-05-26T15:36:00"
+      "postedAt": "2026-05-26T16:36:00"
     },
     {
       "title": "In 2013, Brandon Marshall was the highest paid receiver in the NFL, earning $9.1M per year.  Today, the highest paid rec",
@@ -31143,7 +31151,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2059390368714834274",
-      "postedAt": "2026-05-26T16:45:00"
+      "postedAt": "2026-05-26T17:45:00"
     },
     {
       "title": "Legendary NBA Exec Dishes on Michael Jordan, David Stern, Knicks & More",
@@ -31166,7 +31174,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/l6Gwk_euC6k",
-      "postedAt": "2026-05-05T09:01:00"
+      "postedAt": "2026-05-05T10:01:00"
     },
     {
       "title": "Portfolio Players S3 Ep8: Dave Checketts (pre-roll)",
@@ -31212,7 +31220,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DX95pk0hnoM/",
-      "postedAt": "2026-05-05T13:35:00"
+      "postedAt": "2026-05-05T14:35:00"
     },
     {
       "title": "David Checketts breaks down ownership strategy, league economics, and more.",
@@ -31235,7 +31243,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/hOjxEJl9wFE",
-      "postedAt": "2026-05-05T13:39:00"
+      "postedAt": "2026-05-05T14:39:00"
     },
     {
       "title": "Dave Checketts has spent decades building and investing in sports franchises. His biggest takeaway? Scarcity is what dri",
@@ -31258,7 +31266,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7636479903872978207",
-      "postedAt": "2026-05-05T13:42:00"
+      "postedAt": "2026-05-05T14:42:00"
     },
     {
       "title": "Dave Checketts has spent decades building and investing in sports franchises. His biggest takeaway? Scarcity is what dri",
@@ -31281,7 +31289,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7457525245717999616",
-      "postedAt": "2026-05-05T15:23:00"
+      "postedAt": "2026-05-05T16:23:00"
     },
     {
       "title": "Dave Checketts has spent decades building and investing in sports franchises. His biggest takeaway? Scarcity drives valu",
@@ -31304,7 +31312,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2051760481820369245",
-      "postedAt": "2026-05-05T15:26:00"
+      "postedAt": "2026-05-05T16:26:00"
     },
     {
       "title": "Full episode with Dave Checketts:",
@@ -31327,7 +31335,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2051760609515954595",
-      "postedAt": "2026-05-05T15:27:00"
+      "postedAt": "2026-05-05T16:27:00"
     },
     {
       "title": "Are sports leagues getting too cozy with sportsbooks?   Former Knicks president Dave Checketts tells FOS his concerns ab",
@@ -31350,7 +31358,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2052048240715989408",
-      "postedAt": "2026-05-06T10:30:00"
+      "postedAt": "2026-05-06T11:30:00"
     },
     {
       "title": "\u201c[NIL money] will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d  Former Knicks president Dave Ch",
@@ -31373,7 +31381,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2052093377298997683",
-      "postedAt": "2026-05-06T13:29:00"
+      "postedAt": "2026-05-06T14:29:00"
     },
     {
       "title": "\u201c\\[NIL money\\] typically will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d  Former New York Kni",
@@ -31396,7 +31404,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7457859375047602177",
-      "postedAt": "2026-05-06T13:31:00"
+      "postedAt": "2026-05-06T14:31:00"
     },
     {
       "title": "\u201c[NIL money] typically will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d  Former Knicks preside",
@@ -31419,7 +31427,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYAeKdNB-kB/",
-      "postedAt": "2026-05-06T13:33:00"
+      "postedAt": "2026-05-06T14:33:00"
     },
     {
       "title": "Full episode with Dave Checketts including: - The influx of gambling in pro sports: good or bad? - The time MSG didn't s",
@@ -31442,7 +31450,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2052094995629257023",
-      "postedAt": "2026-05-06T13:35:00"
+      "postedAt": "2026-05-06T14:35:00"
     },
     {
       "title": "\u201c[NIL money] typically will take any person\u2014the best person\u2014and it will lessen their motivation.\u201d Former Knicks presiden",
@@ -31465,7 +31473,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7636849849014422814",
-      "postedAt": "2026-05-06T13:38:00"
+      "postedAt": "2026-05-06T14:38:00"
     },
     {
       "title": "Former Knicks president on NIL: We\u2019re setting them up for disaster",
@@ -31488,7 +31496,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/HsUZk3-VWJs",
-      "postedAt": "2026-05-06T13:39:00"
+      "postedAt": "2026-05-06T14:39:00"
     },
     {
       "title": "\u201cThere\u2019s only one New York Knicks.\u201d  Long-time sports executive Dave Checketts explains why the Knicks will always retai",
@@ -31511,7 +31519,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7459268915508973568",
-      "postedAt": "2026-05-10T13:30:00"
+      "postedAt": "2026-05-10T14:30:00"
     },
     {
       "title": "\u201cThere\u2019s only one New York Knicks.\u201d Long-time sports executive Dave Checketts explains why the #Knicks will always retai",
@@ -31534,7 +31542,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7638302792347700493",
-      "postedAt": "2026-05-10T13:30:00"
+      "postedAt": "2026-05-10T14:30:00"
     },
     {
       "title": "Long-time sports executive Dave Checketts explains why the #Knicks will always retain their value.",
@@ -31557,7 +31565,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/HQN_W60ZuPg",
-      "postedAt": "2026-05-10T13:30:00"
+      "postedAt": "2026-05-10T14:30:00"
     },
     {
       "title": "\u201cThere\u2019s only one New York Knicks.\u201d  Long-time sports executive Dave Checketts explains why the Knicks will always retai",
@@ -31580,7 +31588,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1464378962368356/",
-      "postedAt": "2026-05-10T13:31:00"
+      "postedAt": "2026-05-10T14:31:00"
     },
     {
       "title": "\u201cThere\u2019s only one New York Knicks.\u201d  Long-time sports executive Dave Checketts explains why the Knicks will always retai",
@@ -31603,7 +31611,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2053546864507822262",
-      "postedAt": "2026-05-10T13:45:00"
+      "postedAt": "2026-05-10T14:45:00"
     },
     {
       "title": "\u201cThere\u2019s only one New York Knicks.\u201d \u2060 \u2060 Long-time sports executive Dave Checketts explains why the Knicks will always re",
@@ -31626,7 +31634,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYK0mv_DMou/",
-      "postedAt": "2026-05-10T14:03:00"
+      "postedAt": "2026-05-10T15:03:00"
     },
     {
       "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\"  Former Knicks president Dave C",
@@ -31649,7 +31657,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2054660453456859459",
-      "postedAt": "2026-05-13T15:30:00"
+      "postedAt": "2026-05-13T16:30:00"
     },
     {
       "title": "Why investing in established leagues is safer than startups",
@@ -31672,7 +31680,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/duWUsltNJPk",
-      "postedAt": "2026-05-13T15:30:00"
+      "postedAt": "2026-05-13T16:30:00"
     },
     {
       "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\"  Former Knicks president Dave C",
@@ -31695,7 +31703,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7460341387914358784",
-      "postedAt": "2026-05-13T15:30:00"
+      "postedAt": "2026-05-13T16:30:00"
     },
     {
       "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\" Former Knicks president Dave Ch",
@@ -31718,7 +31726,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7639388031488757006",
-      "postedAt": "2026-05-13T15:30:00"
+      "postedAt": "2026-05-13T16:30:00"
     },
     {
       "title": "Full Portfolio Players episode with Dave Checketts:",
@@ -31741,7 +31749,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2054660762317070406",
-      "postedAt": "2026-05-13T15:31:00"
+      "postedAt": "2026-05-13T16:31:00"
     },
     {
       "title": "\"That's a different kind of investment with a lot of risk... I don't like losing money.\"\u2060 \u2060 Former Knicks president Dave",
@@ -31764,7 +31772,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYTB6aQn79o/",
-      "postedAt": "2026-05-13T18:33:00"
+      "postedAt": "2026-05-13T19:33:00"
     },
     {
       "title": "Full Portfolio Players episode with Dave Checketts:",
@@ -31787,7 +31795,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2056095083166863540",
-      "postedAt": "2026-05-17T14:30:00"
+      "postedAt": "2026-05-17T15:30:00"
     },
     {
       "title": "Mark Cuban Explains The Business of Owning an NBA Team",
@@ -31799,10 +31807,10 @@ window.POSTS_BY_CAMPAIGN = {
       "orgImpr": 1291752,
       "views": 0,
       "reach": 0,
-      "eng": 11482,
+      "eng": 11481,
       "er": 0.34,
       "spend": 1297.75,
-      "watchTimeMin": 1242549.4,
+      "watchTimeMin": 1242700.1,
       "clicks": null,
       "ctr": 0.28,
       "cpc": 3.89,
@@ -31810,7 +31818,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/LurMedA3mdw",
-      "postedAt": "2026-05-19T09:00:00"
+      "postedAt": "2026-05-19T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep9: Mark Cuban (pre-roll)",
@@ -31856,7 +31864,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2050241423551701249",
-      "postedAt": "2026-05-01T10:50:00"
+      "postedAt": "2026-05-01T11:50:00"
     },
     {
       "title": "Full interview with Mark Cuban on Portfolio Players presented by @etrade coming soon.",
@@ -31879,7 +31887,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2050241424868729023",
-      "postedAt": "2026-05-01T10:50:00"
+      "postedAt": "2026-05-01T11:50:00"
     },
     {
       "title": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying the team back, and he ",
@@ -31902,7 +31910,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DXzcAgBjr4m/",
-      "postedAt": "2026-05-01T12:02:00"
+      "postedAt": "2026-05-01T13:02:00"
     },
     {
       "title": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying the team back, and he ",
@@ -31925,7 +31933,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1456412083165044/",
-      "postedAt": "2026-05-01T12:02:00"
+      "postedAt": "2026-05-01T13:02:00"
     },
     {
       "title": "Mark Cuban says he was approached by people unhappy with new Mavs ownership about possibly buying the team back, and he ",
@@ -31948,7 +31956,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7456039146864803840",
-      "postedAt": "2026-05-01T12:57:00"
+      "postedAt": "2026-05-01T13:57:00"
     },
     {
       "title": "\"I'll put up the money and we can go get Fernando [Mendoza].\"  Mark Cuban tells FOS that he provided the NIL money which",
@@ -31971,7 +31979,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2051730095446847926",
-      "postedAt": "2026-05-05T13:25:00"
+      "postedAt": "2026-05-05T14:25:00"
     },
     {
       "title": "Full interview with Mark Cuban on Portfolio Players presented by @etrade coming soon.",
@@ -31994,7 +32002,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2051730096700956895",
-      "postedAt": "2026-05-05T13:25:00"
+      "postedAt": "2026-05-05T14:25:00"
     },
     {
       "title": "Exclusive: Mark Cuban says he paid for Indiana to sign Fernando Mendoza.  Cuban revealed to FOS that once Indiana AD Sco",
@@ -32017,7 +32025,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DX-EczLgTx4/",
-      "postedAt": "2026-05-05T15:08:00"
+      "postedAt": "2026-05-05T16:08:00"
     },
     {
       "title": "Exclusive: Mark Cuban says he paid for Indiana to sign Fernando Mendoza. Cuban revealed to FOS that once Indiana AD Scot",
@@ -32040,7 +32048,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7636507618525154573",
-      "postedAt": "2026-05-05T15:30:00"
+      "postedAt": "2026-05-05T16:30:00"
     },
     {
       "title": "Snapchat Spotlight \u2014 Cuban (5/5)",
@@ -32109,7 +32117,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2054306944026911003",
-      "postedAt": "2026-05-12T16:05:00"
+      "postedAt": "2026-05-12T17:05:00"
     },
     {
       "title": "More from Portfolio Players with Cuban here:",
@@ -32132,7 +32140,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2054307057881239724",
-      "postedAt": "2026-05-12T16:05:00"
+      "postedAt": "2026-05-12T17:05:00"
     },
     {
       "title": "Full episode of Portfolio Players presented by @etrade coming next week.",
@@ -32155,7 +32163,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2054307306662138269",
-      "postedAt": "2026-05-12T16:06:00"
+      "postedAt": "2026-05-12T17:06:00"
     },
     {
       "title": "Would Mark Cuban consider buying a different NBA team?\u2060 \u2060 \u201cI would... I wouldn't want a cold-weather team. If it was a w",
@@ -32178,19 +32186,19 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYQZvUyCYSR/",
-      "postedAt": "2026-05-12T18:03:00"
+      "postedAt": "2026-05-12T19:03:00"
     },
     {
       "title": "Would Mark Cuban consider buying a different NBA team?  \u201cI would... I wouldn't want a cold-weather team. If it was a war",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 184131,
+      "impr": 184864,
       "paidImpr": 0,
-      "orgImpr": 184131,
-      "views": 96240,
+      "orgImpr": 184864,
+      "views": 122734,
       "reach": 0,
-      "eng": 3889,
+      "eng": 3897,
       "er": 2.11,
       "spend": 0,
       "watchTimeMin": null,
@@ -32201,7 +32209,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7460128243074117632",
-      "postedAt": "2026-05-13T06:30:00"
+      "postedAt": "2026-05-13T07:30:00"
     },
     {
       "title": "Mark Cuban says the business of sports is changing fast.  The former Mavericks owner joined Portfolio Players presented ",
@@ -32224,7 +32232,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2056799927808790803",
-      "postedAt": "2026-05-19T13:11:00"
+      "postedAt": "2026-05-19T14:11:00"
     },
     {
       "title": "Full episode:",
@@ -32247,7 +32255,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2056800031588389047",
-      "postedAt": "2026-05-19T13:11:00"
+      "postedAt": "2026-05-19T14:11:00"
     },
     {
       "title": "Mark Cuban believes the future of sports will look very different from the past.  The former Mavericks owner joined Port",
@@ -32270,7 +32278,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYiC0iyvb7H/",
-      "postedAt": "2026-05-19T14:27:00"
+      "postedAt": "2026-05-19T15:27:00"
     },
     {
       "title": "Mark Cuban believes the business of sports is changing faster than ever.  The former Mavericks owner joined Portfolio Pl",
@@ -32293,7 +32301,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7462568335470231554",
-      "postedAt": "2026-05-19T14:30:00"
+      "postedAt": "2026-05-19T15:30:00"
     },
     {
       "title": "",
@@ -32316,7 +32324,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
-      "postedAt": "2026-05-19T15:09:00"
+      "postedAt": "2026-05-19T16:09:00"
     },
     {
       "title": "Mark Cuban believes the future of sports will look very different from the past. The former Mavericks owner joined Portf",
@@ -32339,7 +32347,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7641668744560790814",
-      "postedAt": "2026-05-19T16:00:00"
+      "postedAt": "2026-05-19T17:00:00"
     },
     {
       "title": "Mark Cuban tells all: Mavs sale, NIL, NBA expansion, sports betting & more",
@@ -32362,7 +32370,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/g3MOd3wPsdY",
-      "postedAt": "2026-05-19T16:00:00"
+      "postedAt": "2026-05-19T17:00:00"
     },
     {
       "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d  Mark Cuban breaks down why NIL is great",
@@ -32385,7 +32393,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7462947888315314178",
-      "postedAt": "2026-05-20T14:30:00"
+      "postedAt": "2026-05-20T15:30:00"
     },
     {
       "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d\u2028\u2028Mark Cuban breaks down his thoughts on ",
@@ -32408,7 +32416,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7642060320298585375",
-      "postedAt": "2026-05-20T14:37:00"
+      "postedAt": "2026-05-20T15:37:00"
     },
     {
       "title": "Mark Cuban says NIL is great for professional sports",
@@ -32431,7 +32439,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/WTPBx-oZ2ns",
-      "postedAt": "2026-05-20T14:38:00"
+      "postedAt": "2026-05-20T15:38:00"
     },
     {
       "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d  Mark Cuban breaks down his thoughts on ",
@@ -32454,7 +32462,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS_News_/status/2057200942202663356",
-      "postedAt": "2026-05-20T15:45:00"
+      "postedAt": "2026-05-20T16:45:00"
     },
     {
       "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d\u2028\u2028Mark Cuban breaks down his thoughts on ",
@@ -32477,7 +32485,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYk1xxxJfKq/",
-      "postedAt": "2026-05-20T16:30:00"
+      "postedAt": "2026-05-20T17:30:00"
     },
     {
       "title": "",
@@ -32500,7 +32508,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
-      "postedAt": "2026-05-20T18:08:00"
+      "postedAt": "2026-05-20T19:08:00"
     },
     {
       "title": "Snapchat Spotlight \u2014 Cuban (5/21)",
@@ -32546,7 +32554,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DYnHRy6hDaG/",
-      "postedAt": "2026-05-21T13:44:00"
+      "postedAt": "2026-05-21T14:44:00"
     },
     {
       "title": "Full podcast with Mark Cuban including:  - Why the NBA should cut games to 40 minutes  - Selling the Mavs: the real stor",
@@ -32569,7 +32577,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2057533890911170927",
-      "postedAt": "2026-05-21T13:48:00"
+      "postedAt": "2026-05-21T14:48:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise   He joins us on the new episode of Portfolio Players presented by @etrade.",
@@ -32592,7 +32600,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2057533889187381507",
-      "postedAt": "2026-05-21T13:48:00"
+      "postedAt": "2026-05-21T14:48:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise  He joins us on the new episode of Portfolio Players presented by E*TRADE from",
@@ -32615,7 +32623,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7642420066906066207",
-      "postedAt": "2026-05-21T13:53:00"
+      "postedAt": "2026-05-21T14:53:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise",
@@ -32638,7 +32646,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/PZRyBJUtmDk",
-      "postedAt": "2026-05-21T13:53:00"
+      "postedAt": "2026-05-21T14:53:00"
     },
     {
       "title": "",
@@ -32661,7 +32669,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
-      "postedAt": "2026-05-21T14:14:00"
+      "postedAt": "2026-05-21T15:14:00"
     },
     {
       "title": "Mark Cuban builds his dream NBA franchise   He joins us on the new episode of Portfolio Players presented by E\\*TRADE fr",
@@ -32684,7 +32692,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463299940665188352",
-      "postedAt": "2026-05-21T14:30:00"
+      "postedAt": "2026-05-21T15:30:00"
     },
     {
       "title": "\u201cIt\u2019s great for the players. It forces them to be smarter about money earlier.\u201d  Mark Cuban breaks down his thoughts on ",
@@ -32707,7 +32715,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2057921944134078669",
-      "postedAt": "2026-05-22T15:30:00"
+      "postedAt": "2026-05-22T16:30:00"
     },
     {
       "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d\u2028\u2028Mark Cuban shares his t",
@@ -32730,7 +32738,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DY2iutDpPZS/",
-      "postedAt": "2026-05-27T13:31:00"
+      "postedAt": "2026-05-27T14:31:00"
     },
     {
       "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d\u2028\u2028Mark Cuban shares his t",
@@ -32753,7 +32761,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7644641312267914509",
-      "postedAt": "2026-05-27T13:33:00"
+      "postedAt": "2026-05-27T14:33:00"
     },
     {
       "title": "Mark Cuban makes the case for cutting NBA game time from 48 minutes to 40",
@@ -32776,7 +32784,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/EZazBmhkTh0",
-      "postedAt": "2026-05-27T13:39:00"
+      "postedAt": "2026-05-27T14:39:00"
     },
     {
       "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d  Mark Cuban shares his t",
@@ -32799,7 +32807,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2059707458352804252",
-      "postedAt": "2026-05-27T13:45:00"
+      "postedAt": "2026-05-27T14:45:00"
     },
     {
       "title": "Full conversation with @mcuban including:  - How he helped bring Fernando Mendoza to Indiana and his approach to NIL - W",
@@ -32822,7 +32830,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2059708478050931104",
-      "postedAt": "2026-05-27T13:49:00"
+      "postedAt": "2026-05-27T14:49:00"
     },
     {
       "title": "\u201cIf the NBA went from 48 minutes to 40 minutes, it would change it 180 degrees for the better.\u201d  Mark Cuban shares his t",
@@ -32832,7 +32840,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 168198,
       "paidImpr": 0,
       "orgImpr": 168198,
-      "views": 79034,
+      "views": 79702,
       "reach": 0,
       "eng": 6103,
       "er": 3.63,
@@ -32845,7 +32853,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465470960217960449",
-      "postedAt": "2026-05-27T14:30:00"
+      "postedAt": "2026-05-27T15:30:00"
     },
     {
       "title": "Landon Donovan: What Soccer in America Still Needs",
@@ -32868,7 +32876,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/j7XTfP-icus",
-      "postedAt": "2026-06-02T09:00:00"
+      "postedAt": "2026-06-02T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep10: Landon Donovan (pre-roll)",
@@ -32914,7 +32922,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2037159181262750016",
-      "postedAt": "2026-03-26T08:26:00"
+      "postedAt": "2026-03-26T09:26:00"
     },
     {
       "title": "Landon Donovan is one of the greatest players in MLS history\u2014but where would he put his money today? The NWSL.  The form",
@@ -32937,7 +32945,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DZFxwb1hs46/",
-      "postedAt": "2026-06-02T11:30:00"
+      "postedAt": "2026-06-02T12:30:00"
     },
     {
       "title": "Landon Donovan is one of the greatest players in MLS history\u2014but where would he put his money today? The NWSL.  The form",
@@ -32960,7 +32968,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2061847811784859912",
-      "postedAt": "2026-06-02T11:30:00"
+      "postedAt": "2026-06-02T12:30:00"
     },
     {
       "title": "Landon Donovan shares thoughts on World Cup, MLS, NWSL, and more",
@@ -32983,7 +32991,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/ATlwBvT6OP0",
-      "postedAt": "2026-06-02T11:30:00"
+      "postedAt": "2026-06-02T12:30:00"
     },
     {
       "title": "Landon Donovan is one of the greatest players in MLS history\u2014but where would he put his money today? The NWSL. The forme",
@@ -33006,7 +33014,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7646830566779768094",
-      "postedAt": "2026-06-02T11:30:00"
+      "postedAt": "2026-06-02T12:30:00"
     },
     {
       "title": "Full episode of Portfolio Players with Landon Donovan:",
@@ -33029,7 +33037,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2061848719260094891",
-      "postedAt": "2026-06-02T11:33:00"
+      "postedAt": "2026-06-02T12:33:00"
     },
     {
       "title": "Landon Donovan is one of the greatest players in Major League Soccer history\u2014but where would he put his money today? The",
@@ -33052,7 +33060,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467601236276514817",
-      "postedAt": "2026-06-02T13:30:00"
+      "postedAt": "2026-06-02T14:30:00"
     },
     {
       "title": "\u201cThe best investment you can make probably anywhere in sports right now is the NWSL.\u201d  Former USMNT captain Landon Donov",
@@ -33075,7 +33083,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2062251723125608506",
-      "postedAt": "2026-06-03T14:15:00"
+      "postedAt": "2026-06-03T15:15:00"
     },
     {
       "title": "\u201cThe best investment you can make probably anywhere in sports right now is the NWSL.\u201d  Former USMNT captain Landon Donov",
@@ -33098,7 +33106,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DZIrF86phJx/",
-      "postedAt": "2026-06-03T14:30:00"
+      "postedAt": "2026-06-03T15:30:00"
     },
     {
       "title": "Landon Donovan: NWSL is the best investment you can make in sports",
@@ -33121,7 +33129,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/JDLtPQagBRc",
-      "postedAt": "2026-06-03T15:30:00"
+      "postedAt": "2026-06-03T16:30:00"
     },
     {
       "title": "\u201cThe best investment you can make probably anywhere in sports right now is the National Women's Soccer League \\(NWSL\\).\u201d",
@@ -33144,7 +33152,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7468011566404157442",
-      "postedAt": "2026-06-03T15:30:00"
+      "postedAt": "2026-06-03T16:30:00"
     },
     {
       "title": "\u201cThe best investment you can make probably anywhere in sports right now is the NWSL.\u201d Former USMNT captain Landon Donova",
@@ -33167,7 +33175,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7647245586583932190",
-      "postedAt": "2026-06-03T15:30:00"
+      "postedAt": "2026-06-03T16:30:00"
     },
     {
       "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
@@ -33190,7 +33198,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DZbIN5jJe58/",
-      "postedAt": "2026-06-10T18:30:00"
+      "postedAt": "2026-06-10T19:30:00"
     },
     {
       "title": "\u201cIt\u2019s really smart for \\[ownership groups\\] to have either former players or agents or people who really understand the ",
@@ -33213,7 +33221,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7470619853557530624",
-      "postedAt": "2026-06-10T18:36:00"
+      "postedAt": "2026-06-10T19:36:00"
     },
     {
       "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
@@ -33236,7 +33244,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2064854767822569764",
-      "postedAt": "2026-06-10T18:38:00"
+      "postedAt": "2026-06-10T19:38:00"
     },
     {
       "title": "Full episode of Portfolio Players with Landon Donovan:",
@@ -33259,7 +33267,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2064854894524178930",
-      "postedAt": "2026-06-10T18:39:00"
+      "postedAt": "2026-06-10T19:39:00"
     },
     {
       "title": "Landon Donovan explains what sports ownership groups are missing",
@@ -33282,7 +33290,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/iy5DuxneGJE",
-      "postedAt": "2026-06-10T19:00:00"
+      "postedAt": "2026-06-10T20:00:00"
     },
     {
       "title": "\u201cIt\u2019s really smart for [ownership groups] to have either former players or agents or people who really understand the sp",
@@ -33305,7 +33313,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7649906738702896414",
-      "postedAt": "2026-06-10T19:00:00"
+      "postedAt": "2026-06-10T20:00:00"
     },
     {
       "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d  Former US",
@@ -33328,7 +33336,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476335918124040192",
-      "postedAt": "2026-06-26T13:30:00"
+      "postedAt": "2026-06-26T14:30:00"
     },
     {
       "title": "Landon Donovan explains how MLS can become a world-class league",
@@ -33351,7 +33359,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/8HWyGVJDKN4",
-      "postedAt": "2026-06-26T14:30:00"
+      "postedAt": "2026-06-26T15:30:00"
     },
     {
       "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d \u00a0 Former U",
@@ -33374,7 +33382,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7655788584183598349",
-      "postedAt": "2026-06-26T14:30:00"
+      "postedAt": "2026-06-26T15:30:00"
     },
     {
       "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d\u2060 \u2060 Former ",
@@ -33397,7 +33405,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DaD5Y9iir2C/",
-      "postedAt": "2026-06-26T14:33:00"
+      "postedAt": "2026-06-26T15:33:00"
     },
     {
       "title": "\u201cYou\u2019re not competing just against sports in our country\u2014you\u2019re also competing with soccer around the world.\u201d  Former US",
@@ -33420,7 +33428,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2070593983877718189",
-      "postedAt": "2026-06-26T14:44:00"
+      "postedAt": "2026-06-26T15:44:00"
     },
     {
       "title": "Midge Purce: The NWSL Needs to Listen to Players",
@@ -33443,7 +33451,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/e1XMuNPB57s",
-      "postedAt": "2026-06-16T09:00:00"
+      "postedAt": "2026-06-16T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep11: Midge Purce (pre-roll)",
@@ -33489,7 +33497,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2066993939307979221",
-      "postedAt": "2026-06-16T16:18:00"
+      "postedAt": "2026-06-16T17:18:00"
     },
     {
       "title": "@etrade Full episode with Midge Purce including:  \u27a1\ufe0f The business of women's soccer \u27a1\ufe0f Player advocacy \u27a1\ufe0f The future of ",
@@ -33512,7 +33520,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2066994673206341659",
-      "postedAt": "2026-06-16T16:21:00"
+      "postedAt": "2026-06-16T17:21:00"
     },
     {
       "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
@@ -33535,7 +33543,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472761999580463104",
-      "postedAt": "2026-06-16T16:28:00"
+      "postedAt": "2026-06-16T17:28:00"
     },
     {
       "title": "NWSL star Midge Purce says she was \u201cenvious\u201d of WNBA CBA deal",
@@ -33558,7 +33566,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/rzxjU-VvxCc",
-      "postedAt": "2026-06-16T16:33:00"
+      "postedAt": "2026-06-16T17:33:00"
     },
     {
       "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
@@ -33581,7 +33589,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7652124139129425166",
-      "postedAt": "2026-06-16T17:30:00"
+      "postedAt": "2026-06-16T18:30:00"
     },
     {
       "title": "\u201cI was envious... I actually wish that in my sport, we were more unified in saying, 'we\u2019re not going to do this. We don\u2019",
@@ -33604,7 +33612,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DZqeDMvEUIe/",
-      "postedAt": "2026-06-16T17:33:00"
+      "postedAt": "2026-06-16T18:33:00"
     },
     {
       "title": "\"To give publications like ESPN [and others] the authority to decide who's worth being paid in a league they don't cover",
@@ -33627,7 +33635,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2067328928864190716",
-      "postedAt": "2026-06-17T14:30:00"
+      "postedAt": "2026-06-17T15:30:00"
     },
     {
       "title": "\"To give publications like ESPN [and others] the authority to decide who's worth being paid in a league they don't cover",
@@ -33650,7 +33658,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DZsuPnem-OQ/",
-      "postedAt": "2026-06-17T14:33:00"
+      "postedAt": "2026-06-17T15:33:00"
     },
     {
       "title": "Full episode of Portfolio Players with Midge Purce:",
@@ -33673,7 +33681,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2067330534900932677",
-      "postedAt": "2026-06-17T14:36:00"
+      "postedAt": "2026-06-17T15:36:00"
     },
     {
       "title": "NWSL star Midge Purce doesn\u2019t think media should decide player pay",
@@ -33696,7 +33704,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/WbIN8qEHs5c",
-      "postedAt": "2026-06-17T15:30:00"
+      "postedAt": "2026-06-17T16:30:00"
     },
     {
       "title": "\"To give publications like ESPN \\[and others\\] the authority to decide who's worth being paid in a league they don't cov",
@@ -33719,7 +33727,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473079538042826752",
-      "postedAt": "2026-06-17T15:30:00"
+      "postedAt": "2026-06-17T16:30:00"
     },
     {
       "title": "NWSL star Midge Purce shares thoughts on the NWSL\u2019s rival league\u2014the USL",
@@ -33742,7 +33750,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/PsW0M2Ww0_4",
-      "postedAt": "2026-06-24T12:00:00"
+      "postedAt": "2026-06-24T13:00:00"
     },
     {
       "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d NWSL star Midg",
@@ -33765,7 +33773,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7654663156911869214",
-      "postedAt": "2026-06-24T12:00:00"
+      "postedAt": "2026-06-24T13:00:00"
     },
     {
       "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  NWSL star Mid",
@@ -33788,7 +33796,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DZ-oiDahxni/",
-      "postedAt": "2026-06-24T13:29:00"
+      "postedAt": "2026-06-24T14:29:00"
     },
     {
       "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  National Wome",
@@ -33798,7 +33806,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 20699,
       "paidImpr": 0,
       "orgImpr": 20699,
-      "views": 7580,
+      "views": 7594,
       "reach": 0,
       "eng": 482,
       "er": 2.33,
@@ -33811,7 +33819,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475258225211158528",
-      "postedAt": "2026-06-24T13:30:00"
+      "postedAt": "2026-06-24T14:30:00"
     },
     {
       "title": "\u201cI hate that the attention is split, but I love that so many players are getting an opportunity to play.\u201d  NWSL star Mid",
@@ -33834,7 +33842,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2069865642954539163",
-      "postedAt": "2026-06-24T14:30:00"
+      "postedAt": "2026-06-24T15:30:00"
     },
     {
       "title": "Full episode of Portfolio Players with Midge Purce:",
@@ -33857,7 +33865,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2069866556419371042",
-      "postedAt": "2026-06-24T14:33:00"
+      "postedAt": "2026-06-24T15:33:00"
     },
     {
       "title": "Gotham FC star Midge Purce told FOS in May that the NWSL doesn't \"have the facilities to support us playing in a cold ma",
@@ -33880,7 +33888,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2074581835045085437",
-      "postedAt": "2026-07-07T14:50:00"
+      "postedAt": "2026-07-07T15:50:00"
     },
     {
       "title": "Full episode of Portfolio Players with Midge Purce:",
@@ -33903,7 +33911,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2074582029304205499",
-      "postedAt": "2026-07-07T14:51:00"
+      "postedAt": "2026-07-07T15:51:00"
     },
     {
       "title": "NBA Alum Josh Childress on European Expansion, Stanford NIL Funding",
@@ -33913,12 +33921,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 1363351,
       "paidImpr": 1335203,
       "orgImpr": 28148,
-      "views": 43397,
+      "views": 43480,
       "reach": 0,
-      "eng": 9092,
+      "eng": 9093,
       "er": 0.67,
       "spend": 797.82,
-      "watchTimeMin": 215702.5,
+      "watchTimeMin": 215788.5,
       "clicks": null,
       "ctr": 0.35,
       "cpc": 2.71,
@@ -33926,7 +33934,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/4JKxqi7gCaM",
-      "postedAt": "2026-06-30T09:00:00"
+      "postedAt": "2026-06-30T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep12: Josh Childress (pre-roll)",
@@ -33972,7 +33980,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2072039970689167439",
-      "postedAt": "2026-06-30T14:30:00"
+      "postedAt": "2026-06-30T15:30:00"
     },
     {
       "title": "Full conversation with Josh Childress including: - Stanford's move to the ACC - Investing in the Portland Thorns - Priva",
@@ -33995,7 +34003,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2072046958282244274",
-      "postedAt": "2026-06-30T14:57:00"
+      "postedAt": "2026-06-30T15:57:00"
     },
     {
       "title": "\"The biggest thing for these student athletes but also... the biggest concern, \\[is\\] making sure they are coming into t",
@@ -34018,7 +34026,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477820291599986689",
-      "postedAt": "2026-06-30T15:28:00"
+      "postedAt": "2026-06-30T16:28:00"
     },
     {
       "title": "\u201cThe biggest thing for these student athletes but also... the biggest concern, [is] making sure they are coming into thi",
@@ -34041,7 +34049,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DaOXklDhxD8/",
-      "postedAt": "2026-06-30T16:07:00"
+      "postedAt": "2026-06-30T17:07:00"
     },
     {
       "title": "\"The biggest thing for these student athletes but also... the biggest concern, [is] making sure they are coming into thi",
@@ -34064,7 +34072,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7657300426361998622",
-      "postedAt": "2026-06-30T16:16:00"
+      "postedAt": "2026-06-30T17:16:00"
     },
     {
       "title": "Former NBA star Josh Childress on NIL\u2019s impact on college athletes",
@@ -34087,7 +34095,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/atVuEQWOHqY",
-      "postedAt": "2026-06-30T16:17:00"
+      "postedAt": "2026-06-30T17:17:00"
     },
     {
       "title": "\"Sports over the last 5-7 years has become an institutionally investable asset class.\"  Former National Basketball Assoc",
@@ -34110,7 +34118,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478182309989404674",
-      "postedAt": "2026-07-01T15:26:00"
+      "postedAt": "2026-07-01T16:26:00"
     },
     {
       "title": "\"Sports over the last 5-7 years has become an institutionally investable asset class.\"  Former NBA player Josh Childress",
@@ -34133,7 +34141,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2072420558407417912",
-      "postedAt": "2026-07-01T15:42:00"
+      "postedAt": "2026-07-01T16:42:00"
     },
     {
       "title": "Full conversation with Josh Childress including: - Stanford's move to the ACC - NIL's impact on college and pro athletes",
@@ -34156,7 +34164,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2072420726510862747",
-      "postedAt": "2026-07-01T15:42:00"
+      "postedAt": "2026-07-01T16:42:00"
     },
     {
       "title": "Sports over the last 5-7 years has become an institutionally investable asset class.\" Former NBA player Josh Childress e",
@@ -34179,7 +34187,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7657680237903334687",
-      "postedAt": "2026-07-01T16:50:00"
+      "postedAt": "2026-07-01T17:50:00"
     },
     {
       "title": "\u201cSports over the last 5-7 years has become an institutionally investable asset class.\u201d  Former NBA player Josh Childress",
@@ -34202,7 +34210,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DaRCP0gh0qG/",
-      "postedAt": "2026-07-01T16:58:00"
+      "postedAt": "2026-07-01T17:58:00"
     },
     {
       "title": "Josh Childress on Sports as an Asset Class",
@@ -34225,7 +34233,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/8I6K7nEpSRo",
-      "postedAt": "2026-07-02T08:24:00"
+      "postedAt": "2026-07-02T09:24:00"
     },
     {
       "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d  Former NBA player Josh Childress tells FOS why b",
@@ -34248,7 +34256,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2074954174073380890",
-      "postedAt": "2026-07-08T15:30:00"
+      "postedAt": "2026-07-08T16:30:00"
     },
     {
       "title": "Women\u2019s sports is such a popular investment",
@@ -34271,7 +34279,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/Wi1aEEMUWIY",
-      "postedAt": "2026-07-08T15:30:00"
+      "postedAt": "2026-07-08T16:30:00"
     },
     {
       "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d  Former National Basketball Association \\(NBA\\) p",
@@ -34294,7 +34302,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7480697518184398848",
-      "postedAt": "2026-07-08T15:30:00"
+      "postedAt": "2026-07-08T16:30:00"
     },
     {
       "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d Former NBA player Josh Childress tells FOS why br",
@@ -34317,7 +34325,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7660257075921947917",
-      "postedAt": "2026-07-08T15:30:00"
+      "postedAt": "2026-07-08T16:30:00"
     },
     {
       "title": "\u201cYou\u2019re starting to see a shift in where marketing dollars are going.\u201d\u2060 \u2060 Former NBA player Josh Childress tells FOS why",
@@ -34340,7 +34348,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dai5y0SDfJ3/",
-      "postedAt": "2026-07-08T15:33:00"
+      "postedAt": "2026-07-08T16:33:00"
     },
     {
       "title": "Full episode with Josh Childress:",
@@ -34363,7 +34371,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2074956244553547782",
-      "postedAt": "2026-07-08T15:38:00"
+      "postedAt": "2026-07-08T16:38:00"
     },
     {
       "title": "How the Clase Azul Tequila Founder Runs His Soccer Clubs",
@@ -34386,7 +34394,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/RVcA3zXKzPM",
-      "postedAt": "2026-07-14T09:00:00"
+      "postedAt": "2026-07-14T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep13: Arturo Lomeli (pre-roll)",
@@ -34432,7 +34440,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2077389940850127196",
-      "postedAt": "2026-07-15T08:48:00"
+      "postedAt": "2026-07-15T09:48:00"
     },
     {
       "title": "Full episode of Portfolio Players with Arturo Lomeli:",
@@ -34455,7 +34463,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2077390164263895198",
-      "postedAt": "2026-07-15T08:49:00"
+      "postedAt": "2026-07-15T09:49:00"
     },
     {
       "title": "Why investors want to own sports teams",
@@ -34478,7 +34486,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/lOVaRLEZu_w",
-      "postedAt": "2026-07-15T08:52:00"
+      "postedAt": "2026-07-15T09:52:00"
     },
     {
       "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d Clase Azul founder Arturo Lomel\u00ed tells FOS w",
@@ -34501,7 +34509,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7662752105391738142",
-      "postedAt": "2026-07-15T08:52:00"
+      "postedAt": "2026-07-15T09:52:00"
     },
     {
       "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul M\u00e9xico founder Arturo Lomel\u00ed tel",
@@ -34524,7 +34532,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483171447834710017",
-      "postedAt": "2026-07-15T09:51:00"
+      "postedAt": "2026-07-15T10:51:00"
     },
     {
       "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d  Clase Azul founder Arturo Lo",
@@ -34547,7 +34555,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2077838176018727005",
-      "postedAt": "2026-07-16T14:30:00"
+      "postedAt": "2026-07-16T15:30:00"
     },
     {
       "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d  Clase Azul founder Arturo Lo",
@@ -34570,7 +34578,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483601298429358080",
-      "postedAt": "2026-07-16T15:00:00"
+      "postedAt": "2026-07-16T16:00:00"
     },
     {
       "title": "Full episode of Portfolio Players with Arturo Lomel\u00ed:",
@@ -34593,7 +34601,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2077845810868371903",
-      "postedAt": "2026-07-16T15:00:00"
+      "postedAt": "2026-07-16T16:00:00"
     },
     {
       "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d\u2060 \u2060 Clase Azul founder Arturo ",
@@ -34616,7 +34624,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Da3nIIxlmf4/",
-      "postedAt": "2026-07-16T16:33:00"
+      "postedAt": "2026-07-16T17:33:00"
     },
     {
       "title": "Clase Azul tequila founder explains why he owns soccer teams",
@@ -34639,22 +34647,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/usOvZFmvF5E",
-      "postedAt": "2026-07-16T17:00:00"
+      "postedAt": "2026-07-16T18:00:00"
     },
     {
       "title": "\u201cWe\u2019ve been losing money for 10 years\u2026 We do it because we feel responsible to give back.\u201d Clase Azul founder Arturo Lom",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 1052,
+      "impr": 1063,
       "paidImpr": 0,
-      "orgImpr": 1052,
-      "views": 1052,
+      "orgImpr": 1063,
+      "views": 1063,
       "reach": 844,
       "eng": 22,
-      "er": 2.09,
+      "er": 2.07,
       "spend": 0,
-      "watchTimeMin": 123.4,
+      "watchTimeMin": 126.0,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -34662,7 +34670,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7663217215004495135",
-      "postedAt": "2026-07-16T17:00:00"
+      "postedAt": "2026-07-16T18:00:00"
     },
     {
       "title": "\u201cInvestors are looking for the equity in the long term, not the cash flow.\u201d  Clase Azul founder Arturo Lomel\u00ed tells FOS ",
@@ -34685,7 +34693,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Da038CmhtKK/",
-      "postedAt": "2026-07-18T17:30:00"
+      "postedAt": "2026-07-18T18:30:00"
     },
     {
       "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul fo",
@@ -34708,7 +34716,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2080019564679614867",
-      "postedAt": "2026-07-22T14:58:00"
+      "postedAt": "2026-07-22T15:58:00"
     },
     {
       "title": "Full conversation with Clase Azul founder Arturo Lomeli: - Owning 2 soccer clubs... and losing money  - How drinking les",
@@ -34731,7 +34739,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2080019654295126180",
-      "postedAt": "2026-07-22T14:58:00"
+      "postedAt": "2026-07-22T15:58:00"
     },
     {
       "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d  Clase Azul M\u00e9",
@@ -34754,7 +34762,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485785389476225024",
-      "postedAt": "2026-07-22T15:30:00"
+      "postedAt": "2026-07-22T16:30:00"
     },
     {
       "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d\u2060 \u2060 Clase Azul ",
@@ -34777,7 +34785,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DbG89Q8AEPO/",
-      "postedAt": "2026-07-22T15:33:00"
+      "postedAt": "2026-07-22T16:33:00"
     },
     {
       "title": "\u201cWe\u2019re never going to sell\u2026 We like to create where there is nothing, bring our magic, and make it work.\u201d \u00a0 Clase Azul f",
@@ -34800,7 +34808,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7665483201086786830",
-      "postedAt": "2026-07-22T17:30:00"
+      "postedAt": "2026-07-22T18:30:00"
     },
     {
       "title": "Clase Azul's founder on why they'll never sell",
@@ -34823,7 +34831,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/WYy-U4T9h_E",
-      "postedAt": "2026-07-22T18:30:00"
+      "postedAt": "2026-07-22T19:30:00"
     },
     {
       "title": "Saints Great Marques Colston Turns to Ownership",
@@ -34838,7 +34846,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 6174,
       "er": 0.44,
       "spend": 798.52,
-      "watchTimeMin": 233595.9,
+      "watchTimeMin": 233598.2,
       "clicks": null,
       "ctr": 0.45,
       "cpc": 2.04,
@@ -34846,7 +34854,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/IXPGyVQO8H0",
-      "postedAt": "2026-07-28T13:13:00"
+      "postedAt": "2026-07-28T14:13:00"
     },
     {
       "title": "Portfolio Players S3 Ep14: Marques Colston (pre-roll)",
@@ -34892,7 +34900,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2082193745852698955",
-      "postedAt": "2026-07-28T14:57:00"
+      "postedAt": "2026-07-28T15:57:00"
     },
     {
       "title": "Full episode of Portfolio Players with Marques Colston:  - Why equity doesn't pay the bills - Investing in an English so",
@@ -34915,7 +34923,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2082194286599078367",
-      "postedAt": "2026-07-28T14:59:00"
+      "postedAt": "2026-07-28T15:59:00"
     },
     {
       "title": "Marques Colston on the impact of NIL on college athletes",
@@ -34938,7 +34946,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/lom3atKQJyo",
-      "postedAt": "2026-07-28T15:30:00"
+      "postedAt": "2026-07-28T16:30:00"
     },
     {
       "title": "\u201cIf I would\u2019ve had access to \\[NIL\\], I may not have been as hungry as I was.\u201d  Former National Football League \\(NFL\\) ",
@@ -34961,7 +34969,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487968931329171456",
-      "postedAt": "2026-07-28T15:35:00"
+      "postedAt": "2026-07-28T16:35:00"
     },
     {
       "title": "\u201cIf I would\u2019ve had access to [NIL], I may not have been as hungry as I was.\u201d  Former NFL wide receiver Marques Colston d",
@@ -34984,7 +34992,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DbWaaKbhX4e/",
-      "postedAt": "2026-07-28T15:37:00"
+      "postedAt": "2026-07-28T16:37:00"
     },
     {
       "title": "How Marques Colston helps athletes find investment opportunities",
@@ -35007,7 +35015,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/2HvF227vuqc",
-      "postedAt": "2026-07-29T11:11:00"
+      "postedAt": "2026-07-29T12:11:00"
     },
     {
       "title": "\u201cEquity is not paying the bills.\u201d Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest in",
@@ -35030,7 +35038,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7667983163087441183",
-      "postedAt": "2026-07-29T11:11:00"
+      "postedAt": "2026-07-29T12:11:00"
     },
     {
       "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
@@ -35053,7 +35061,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOSTonight/status/2082507694787977234",
-      "postedAt": "2026-07-29T11:45:00"
+      "postedAt": "2026-07-29T12:45:00"
     },
     {
       "title": "\u201cEquity is not paying the bills.\u201d\u2060 \u2060 Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest",
@@ -35076,7 +35084,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DbYwxQLE6F-/",
-      "postedAt": "2026-07-29T13:33:00"
+      "postedAt": "2026-07-29T14:33:00"
     },
     {
       "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
@@ -35099,7 +35107,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488267229667631104",
-      "postedAt": "2026-07-29T15:30:00"
+      "postedAt": "2026-07-29T16:30:00"
     },
     {
       "title": "\u201cEquity is not paying the bills.\u201d  Former NFL wide receiver Marques Colston tells FOS how he\u2019s helping athletes invest i",
@@ -35122,7 +35130,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2084376258108944495",
-      "postedAt": "2026-08-03T15:30:00"
+      "postedAt": "2026-08-03T16:30:00"
     },
     {
       "title": "\u201cIf I would\u2019ve had access to [NIL], I may not have been as hungry as I was.\u201d Former NFL wide receiver Marques Colston di",
@@ -35145,7 +35153,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7669906121053719821",
-      "postedAt": "2026-08-03T15:33:00"
+      "postedAt": "2026-08-03T16:33:00"
     },
     {
       "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d  Former NFL wi",
@@ -35168,7 +35176,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2085101033051533572",
-      "postedAt": "2026-08-05T15:30:00"
+      "postedAt": "2026-08-05T16:30:00"
     },
     {
       "title": "The relationships between athletes and VC firms",
@@ -35191,7 +35199,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/Y9JBz4QL51Y",
-      "postedAt": "2026-08-05T15:30:00"
+      "postedAt": "2026-08-05T16:30:00"
     },
     {
       "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in \\[venture capital deals\\].\u201d  Former Nati",
@@ -35214,7 +35222,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490850987524435968",
-      "postedAt": "2026-08-05T15:30:00"
+      "postedAt": "2026-08-05T16:30:00"
     },
     {
       "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d \u00a0 Former NFL w",
@@ -35237,7 +35245,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7670647518274866445",
-      "postedAt": "2026-08-05T15:30:00"
+      "postedAt": "2026-08-05T16:30:00"
     },
     {
       "title": "Full conversation with Marques Colston: - Soccer fandom vs. NFL fandom - Is there unlimited demand for football? - Why m",
@@ -35260,7 +35268,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2085101317911986286",
-      "postedAt": "2026-08-05T15:31:00"
+      "postedAt": "2026-08-05T16:31:00"
     },
     {
       "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d\u2060 \u2060 Former NFL ",
@@ -35283,7 +35291,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DbrDhf-GFsj/",
-      "postedAt": "2026-08-05T16:03:00"
+      "postedAt": "2026-08-05T17:03:00"
     },
     {
       "title": "\u201cVisibility has always been the biggest driver for athletes getting involved in [venture capital deals].\u201d\u2060 \u2060 Former NFL ",
@@ -35306,7 +35314,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/4680625025490140/",
-      "postedAt": "2026-08-06T08:35:00"
+      "postedAt": "2026-08-06T09:35:00"
     },
     {
       "title": "Kerri Walsh Jennings Wants to Build Volleyball\u2019s Next Era",
@@ -35316,12 +35324,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 895605,
       "paidImpr": 886996,
       "orgImpr": 8609,
-      "views": 14724,
+      "views": 46315,
       "reach": 0,
-      "eng": 3061,
+      "eng": 3062,
       "er": 0.34,
       "spend": 797.72,
-      "watchTimeMin": 216975.7,
+      "watchTimeMin": 217099.4,
       "clicks": null,
       "ctr": 0.6,
       "cpc": 2.31,
@@ -35329,7 +35337,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/F-4_BOOmYjU",
-      "postedAt": "2026-08-25T09:00:00"
+      "postedAt": "2026-08-25T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep15: Kerri Walsh Jennings (pre-roll)",
@@ -35375,7 +35383,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2092622775097622858",
-      "postedAt": "2026-08-26T09:38:00"
+      "postedAt": "2026-08-26T10:38:00"
     },
     {
       "title": "Full conversation with Kerri Walsh Jennings:  \u2022 Bringing beach volleyball to a new audience \u2022 Why college sports are at ",
@@ -35398,7 +35406,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2092622930064671169",
-      "postedAt": "2026-08-26T09:39:00"
+      "postedAt": "2026-08-26T10:39:00"
     },
     {
       "title": "Kerri Walsh Jennings says the Olympics are \u201climiting\u201d",
@@ -35421,7 +35429,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/c_sg-5e0JWQ",
-      "postedAt": "2026-08-26T13:19:00"
+      "postedAt": "2026-08-26T14:19:00"
     },
     {
       "title": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d 3-time Olympic beach volleyball gold medalist Kerri Walsh Jenning",
@@ -35444,17 +35452,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7678409299374230815",
-      "postedAt": "2026-08-26T13:29:00"
+      "postedAt": "2026-08-26T14:29:00"
     },
     {
       "title": "\u201cYou\u2019re literally only relevant one of those four years.\u201d  3-time Olympic beach volleyball gold medalist Kerri Walsh Jen",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 54556,
+      "impr": 54555,
       "paidImpr": 0,
-      "orgImpr": 54556,
-      "views": 26450,
+      "orgImpr": 54555,
+      "views": 26462,
       "reach": 0,
       "eng": 1878,
       "er": 3.44,
@@ -35467,20 +35475,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498389105878155264",
-      "postedAt": "2026-08-26T13:30:00"
+      "postedAt": "2026-08-26T14:30:00"
     },
     {
       "title": "\u201cYou\u2019re literally only relevant one of those 4 years.\u201d\u2060 \u2060 3-time Olympic beach volleyball gold medalist Kerri Walsh Jenn",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 99937,
+      "impr": 99938,
       "paidImpr": 73878,
-      "orgImpr": 26059,
-      "views": 100568,
+      "orgImpr": 26060,
+      "views": 100569,
       "reach": 84385,
-      "eng": 5581,
-      "er": 5.58,
+      "eng": 5582,
+      "er": 5.59,
       "spend": 598.0,
       "watchTimeMin": null,
       "clicks": null,
@@ -35490,7 +35498,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DchEvfuFY3F/",
-      "postedAt": "2026-08-26T15:33:00"
+      "postedAt": "2026-08-26T16:33:00"
     },
     {
       "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game, and it\u2019s really har",
@@ -35513,7 +35521,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7678766465503317261",
-      "postedAt": "2026-08-27T12:35:00"
+      "postedAt": "2026-08-27T13:35:00"
     },
     {
       "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game and it\u2019s really hard",
@@ -35536,7 +35544,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2093051778174464487",
-      "postedAt": "2026-08-27T14:03:00"
+      "postedAt": "2026-08-27T15:03:00"
     },
     {
       "title": "Full episode of Portfolio Players with @kerrileewalsh:",
@@ -35559,16 +35567,16 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2093066238926684619",
-      "postedAt": "2026-08-27T15:00:00"
+      "postedAt": "2026-08-27T16:00:00"
     },
     {
       "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game, and it\u2019s really har",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 12104,
+      "impr": 12103,
       "paidImpr": 0,
-      "orgImpr": 12104,
+      "orgImpr": 12103,
       "views": 4822,
       "reach": 0,
       "eng": 285,
@@ -35582,17 +35590,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498793273092669441",
-      "postedAt": "2026-08-27T15:30:00"
+      "postedAt": "2026-08-27T16:30:00"
     },
     {
       "title": "\u201cThey\u2019re 30+ years old, sleeping on couches just trying to get around the country to play this game, and it\u2019s really har",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 85423,
+      "impr": 85424,
       "paidImpr": 60206,
-      "orgImpr": 25217,
-      "views": 85752,
+      "orgImpr": 25218,
+      "views": 85753,
       "reach": 72737,
       "eng": 4565,
       "er": 5.34,
@@ -35605,7 +35613,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dcjpi2XAdtN/",
-      "postedAt": "2026-08-27T15:33:00"
+      "postedAt": "2026-08-27T16:33:00"
     },
     {
       "title": "Kerri Walsh Jennings on how beach volleyball can grow as a sport",
@@ -35628,17 +35636,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/vJJ24AZ1iIU",
-      "postedAt": "2026-08-27T17:00:00"
+      "postedAt": "2026-08-27T18:00:00"
     },
     {
       "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist Kerri Walsh Jennings speaks on ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 49419,
+      "impr": 49416,
       "paidImpr": 0,
-      "orgImpr": 49419,
-      "views": 23822,
+      "orgImpr": 49416,
+      "views": 23827,
       "reach": 0,
       "eng": 1066,
       "er": 2.16,
@@ -35651,7 +35659,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500998951442227201",
-      "postedAt": "2026-09-02T14:32:00"
+      "postedAt": "2026-09-02T15:32:00"
     },
     {
       "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d  3-time Olympic gold medalist @kerrileewalsh speaks on why ma",
@@ -35674,7 +35682,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2095233559455809749",
-      "postedAt": "2026-09-02T14:33:00"
+      "postedAt": "2026-09-02T15:33:00"
     },
     {
       "title": "@kerrileewalsh @etrade Full episode with Kerri Walsh Jennings including:  - The state of Olympic volleyball - Why early ",
@@ -35697,7 +35705,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2095234771538293121",
-      "postedAt": "2026-09-02T14:37:00"
+      "postedAt": "2026-09-02T15:37:00"
     },
     {
       "title": "Why college sports are at risk of being cut",
@@ -35712,7 +35720,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 2925,
       "er": 8.19,
       "spend": 99.75,
-      "watchTimeMin": 3048.5,
+      "watchTimeMin": 3049.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -35720,7 +35728,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/vYxt25swhhI",
-      "postedAt": "2026-09-02T14:43:00"
+      "postedAt": "2026-09-02T15:43:00"
     },
     {
       "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d 3-time Olympic gold medalist Kerri Walsh Jennings speaks on w",
@@ -35743,7 +35751,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7681026245643078942",
-      "postedAt": "2026-09-02T14:45:00"
+      "postedAt": "2026-09-02T15:45:00"
     },
     {
       "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d\u2060 \u2060 3-time Olympic gold medalist Kerri Walsh Jennings speaks o",
@@ -35766,7 +35774,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dc11aw_jxWT/",
-      "postedAt": "2026-09-03T17:03:00"
+      "postedAt": "2026-09-03T18:03:00"
     },
     {
       "title": "\u201cWe really need to find a way to fund the Olympic sports.\u201d\u2060 \u2060 3-time Olympic gold medalist Kerri Walsh Jennings speaks o",
@@ -35789,7 +35797,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1801605754351309/",
-      "postedAt": "2026-09-08T09:01:00"
+      "postedAt": "2026-09-08T10:01:00"
     },
     {
       "title": "\"We are positioned so well to be in the pole position because our structure is sound, the franchises are independent, an",
@@ -35812,7 +35820,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2102463823667925201",
-      "postedAt": "2026-09-22T13:23:00"
+      "postedAt": "2026-09-22T14:23:00"
     },
     {
       "title": "Why Private Capital Is Coming for Youth Sports",
@@ -35822,12 +35830,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 1355148,
       "paidImpr": 1318291,
       "orgImpr": 36857,
-      "views": 45235,
+      "views": 45257,
       "reach": 0,
-      "eng": 3360,
+      "eng": 3361,
       "er": 0.25,
       "spend": 797.98,
-      "watchTimeMin": 205813.2,
+      "watchTimeMin": 205898.0,
       "clicks": null,
       "ctr": 0.51,
       "cpc": 1.88,
@@ -35835,7 +35843,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/CceP_Z7pKEw",
-      "postedAt": "2026-09-08T09:00:00"
+      "postedAt": "2026-09-08T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep16: Drew Weatherford (pre-roll)",
@@ -35881,7 +35889,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2097361822927995178",
-      "postedAt": "2026-09-08T11:30:00"
+      "postedAt": "2026-09-08T12:30:00"
     },
     {
       "title": "Drew Weatherford on where private capital is headed in sports",
@@ -35896,7 +35904,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 1263,
       "er": 4.53,
       "spend": 99.94,
-      "watchTimeMin": 2752.9,
+      "watchTimeMin": 2753.1,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -35904,17 +35912,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/ahvPhHf9SnQ",
-      "postedAt": "2026-09-08T11:30:00"
+      "postedAt": "2026-09-08T12:30:00"
     },
     {
       "title": "\"The global sports market is massive and under penetrated from a private capital standpoint.\"  Drew Weatherford, former ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 10612,
+      "impr": 10609,
       "paidImpr": 0,
-      "orgImpr": 10612,
-      "views": 3499,
+      "orgImpr": 10609,
+      "views": 3504,
       "reach": 0,
       "eng": 313,
       "er": 2.95,
@@ -35927,7 +35935,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503119102698233856",
-      "postedAt": "2026-09-08T11:30:00"
+      "postedAt": "2026-09-08T12:30:00"
     },
     {
       "title": "Drew Weatherford, former FSU QB and founding partner at Weatherford Capital, shares his take on where private capital is",
@@ -35950,17 +35958,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7683205933631032606",
-      "postedAt": "2026-09-08T11:43:00"
+      "postedAt": "2026-09-08T12:43:00"
     },
     {
       "title": "\"The global sports market is massive and under penetrated from a private capital standpoint.\"\u2060 \u2060 Drew Weatherford, forme",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 166996,
+      "impr": 166998,
       "paidImpr": 150480,
-      "orgImpr": 16516,
-      "views": 163534,
+      "orgImpr": 16518,
+      "views": 163536,
       "reach": 117890,
       "eng": 1992,
       "er": 1.19,
@@ -35973,20 +35981,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DdCp9EMionL/",
-      "postedAt": "2026-09-08T16:33:00"
+      "postedAt": "2026-09-08T17:33:00"
     },
     {
       "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer. Drew Weatherfor",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 718,
+      "impr": 719,
       "paidImpr": 0,
-      "orgImpr": 718,
-      "views": 718,
+      "orgImpr": 719,
+      "views": 719,
       "reach": 653,
       "eng": 17,
-      "er": 2.37,
+      "er": 2.36,
       "spend": 0,
       "watchTimeMin": 50.0,
       "clicks": null,
@@ -35996,7 +36004,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7683579064992451871",
-      "postedAt": "2026-09-09T11:51:00"
+      "postedAt": "2026-09-09T12:51:00"
     },
     {
       "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer.  Drew Weatherfo",
@@ -36019,7 +36027,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2097731761040175385",
-      "postedAt": "2026-09-09T12:00:00"
+      "postedAt": "2026-09-09T13:00:00"
     },
     {
       "title": "Drew Weatherford on what US soccer leagues and teams need to unlock",
@@ -36042,7 +36050,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/K8lZ7FyNMqU",
-      "postedAt": "2026-09-09T13:30:00"
+      "postedAt": "2026-09-09T14:30:00"
     },
     {
       "title": "The Men\u2019s FIFA World Cup 2026\u2122 - Canada, Mexico and the United States, Olympics, and FIFA Women's World Cup\u2122 in 2031 are",
@@ -36052,7 +36060,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 8298,
       "paidImpr": 0,
       "orgImpr": 8298,
-      "views": 2597,
+      "views": 2601,
       "reach": 0,
       "eng": 120,
       "er": 1.45,
@@ -36065,7 +36073,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503484588363665408",
-      "postedAt": "2026-09-09T13:30:00"
+      "postedAt": "2026-09-09T14:30:00"
     },
     {
       "title": "The Men\u2019s World Cup, Olympics, and Women's World Cup in 2031 are all positive tailwinds for U.S. soccer.\u2060 \u2060 Drew Weather",
@@ -36088,7 +36096,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DdHe87ACA8z/",
-      "postedAt": "2026-09-10T13:33:00"
+      "postedAt": "2026-09-10T14:33:00"
     },
     {
       "title": "Drew Weatherford is a big believer in youth sports streaming.  The former FSU QB and founding partner at Weatherford Cap",
@@ -36111,7 +36119,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2100321323826528539",
-      "postedAt": "2026-09-16T15:30:00"
+      "postedAt": "2026-09-16T16:30:00"
     },
     {
       "title": "Drew Weatherford is a big believer in youth sports streaming.  The former Florida State University quarterback and found",
@@ -36121,7 +36129,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 10625,
       "paidImpr": 0,
       "orgImpr": 10625,
-      "views": 3975,
+      "views": 3977,
       "reach": 0,
       "eng": 280,
       "er": 2.64,
@@ -36134,7 +36142,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7506040149395365890",
-      "postedAt": "2026-09-16T15:30:00"
+      "postedAt": "2026-09-16T16:30:00"
     },
     {
       "title": "Drew Weatherford is a big believer in youth sports streaming",
@@ -36149,7 +36157,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 1444,
       "er": 5.06,
       "spend": 99.77,
-      "watchTimeMin": 2721.9,
+      "watchTimeMin": 2722.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36157,7 +36165,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/oAeMm-FGaa8",
-      "postedAt": "2026-09-16T16:30:00"
+      "postedAt": "2026-09-16T17:30:00"
     },
     {
       "title": "Drew Weatherford is a big believer in youth sports streaming.\u2028\u2028The former FSU quarterback and founding partner at Weathe",
@@ -36180,17 +36188,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7686186199052045599",
-      "postedAt": "2026-09-16T16:30:00"
+      "postedAt": "2026-09-16T17:30:00"
     },
     {
       "title": "Drew Weatherford is a big believer in youth sports streaming.\u2060 \u2060 The former FSU quarterback and founding partner at Weat",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 74180,
+      "impr": 74183,
       "paidImpr": 55789,
-      "orgImpr": 18391,
-      "views": 74560,
+      "orgImpr": 18394,
+      "views": 74563,
       "reach": 54356,
       "eng": 4478,
       "er": 6.04,
@@ -36203,7 +36211,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DdXQTg2DrU-/",
-      "postedAt": "2026-09-16T16:33:00"
+      "postedAt": "2026-09-16T17:33:00"
     },
     {
       "title": "How Ryan Smith Is Building the Future of Sports in Utah",
@@ -36218,7 +36226,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 3898,
       "er": 0.29,
       "spend": 797.5,
-      "watchTimeMin": 181750.3,
+      "watchTimeMin": 181893.4,
       "clicks": null,
       "ctr": 0.34,
       "cpc": 2.98,
@@ -36226,7 +36234,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/3adoVU_UAEs",
-      "postedAt": "2026-09-22T09:00:00"
+      "postedAt": "2026-09-22T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep17: Ryan Smith (pre-roll)",
@@ -36256,15 +36264,15 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 1570,
+      "impr": 1577,
       "paidImpr": 0,
-      "orgImpr": 1570,
-      "views": 1570,
+      "orgImpr": 1577,
+      "views": 1577,
       "reach": 1321,
       "eng": 29,
-      "er": 1.85,
+      "er": 1.84,
       "spend": 0,
-      "watchTimeMin": 251.1,
+      "watchTimeMin": 251.8,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -36272,7 +36280,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7688395751696682253",
-      "postedAt": "2026-09-22T11:22:00"
+      "postedAt": "2026-09-22T12:22:00"
     },
     {
       "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Jazz owner @RyanQualtrics tells FOS about h",
@@ -36295,17 +36303,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2102435253906497559",
-      "postedAt": "2026-09-22T11:30:00"
+      "postedAt": "2026-09-22T12:30:00"
     },
     {
       "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d  Utah Jazz owner Ryan Smith tells FOS about ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 11530,
+      "impr": 11535,
       "paidImpr": 0,
-      "orgImpr": 11530,
-      "views": 4092,
+      "orgImpr": 11535,
+      "views": 4181,
       "reach": 0,
       "eng": 190,
       "er": 1.65,
@@ -36318,7 +36326,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508193098477240321",
-      "postedAt": "2026-09-22T11:30:00"
+      "postedAt": "2026-09-22T12:30:00"
     },
     {
       "title": "Why NBA valuations aren\u2019t the only thing that matter for owners",
@@ -36333,7 +36341,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 1637,
       "er": 6.06,
       "spend": 100.21,
-      "watchTimeMin": 2561.5,
+      "watchTimeMin": 2563.6,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36341,17 +36349,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/ya7r5eTcyVQ",
-      "postedAt": "2026-09-22T13:16:00"
+      "postedAt": "2026-09-22T14:16:00"
     },
     {
       "title": "\u201cThis is my childhood team that I grew up cheering for\u2026 It\u2019s not for sale.\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about his",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 125015,
+      "impr": 125016,
       "paidImpr": 102342,
-      "orgImpr": 22673,
-      "views": 124932,
+      "orgImpr": 22674,
+      "views": 124933,
       "reach": 108595,
       "eng": 1975,
       "er": 1.58,
@@ -36364,7 +36372,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DdmmNOtjA4x/",
-      "postedAt": "2026-09-22T15:33:00"
+      "postedAt": "2026-09-22T16:33:00"
     },
     {
       "title": "\u201cIt required different timing than I thought.\u201d  Jazz owner @RyanQualtrics tells FOS that he almost bought the Timberwolv",
@@ -36387,7 +36395,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2102865592688480557",
-      "postedAt": "2026-09-23T16:00:00"
+      "postedAt": "2026-09-23T17:00:00"
     },
     {
       "title": "Why the Jazz owner almost bought the Timberwolves",
@@ -36397,12 +36405,12 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 29151,
       "paidImpr": 25112,
       "orgImpr": 4039,
-      "views": 26730,
+      "views": 26736,
       "reach": 0,
-      "eng": 1949,
+      "eng": 1950,
       "er": 6.69,
       "spend": 100.0,
-      "watchTimeMin": 2325.8,
+      "watchTimeMin": 2329.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36410,7 +36418,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/hVNo0i4Tbk4",
-      "postedAt": "2026-09-23T16:08:00"
+      "postedAt": "2026-09-23T17:08:00"
     },
     {
       "title": "\u201cIt required different timing than I thought.\u201d  Utah Jazz owner Ryan Smith tells FOS that he almost bought the Minnesota",
@@ -36420,7 +36428,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 10267,
       "paidImpr": 0,
       "orgImpr": 10267,
-      "views": 3289,
+      "views": 3297,
       "reach": 0,
       "eng": 260,
       "er": 2.53,
@@ -36433,7 +36441,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508628468633538560",
-      "postedAt": "2026-09-23T17:30:00"
+      "postedAt": "2026-09-23T18:30:00"
     },
     {
       "title": "\u201cIt required different timing than I thought.\u201d Jazz owner Ryan Smith tells FOS that he almost bought the Timberwolves, b",
@@ -36456,17 +36464,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7688841263205911839",
-      "postedAt": "2026-09-23T18:00:00"
+      "postedAt": "2026-09-23T19:00:00"
     },
     {
       "title": "\u201cIt required different timing than I thought.\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS that he almost bought the Timberwolves",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 135306,
+      "impr": 135309,
       "paidImpr": 109368,
-      "orgImpr": 25938,
-      "views": 133687,
+      "orgImpr": 25941,
+      "views": 133690,
       "reach": 114594,
       "eng": 4114,
       "er": 3.04,
@@ -36479,17 +36487,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Ddr6HWHCX9g/",
-      "postedAt": "2026-09-24T17:03:00"
+      "postedAt": "2026-09-24T18:03:00"
     },
     {
       "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d\u2060 \u2060 Jazz owner Ryan Smith tells FOS about the ability you have w",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 66108,
+      "impr": 66109,
       "paidImpr": 54561,
-      "orgImpr": 11547,
-      "views": 66080,
+      "orgImpr": 11548,
+      "views": 66081,
       "reach": 45674,
       "eng": 4622,
       "er": 6.99,
@@ -36502,7 +36510,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dd7OHP4FYkg/",
-      "postedAt": "2026-09-30T15:46:00"
+      "postedAt": "2026-09-30T16:46:00"
     },
     {
       "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Jazz owner Ryan Smith tells FOS about the ability you have wit",
@@ -36525,7 +36533,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2105399786555969702",
-      "postedAt": "2026-09-30T15:50:00"
+      "postedAt": "2026-09-30T16:50:00"
     },
     {
       "title": "How the Jazz are revitalizing Utah",
@@ -36540,7 +36548,7 @@ window.POSTS_BY_CAMPAIGN = {
       "eng": 1388,
       "er": 4.64,
       "spend": 99.87,
-      "watchTimeMin": 2904.0,
+      "watchTimeMin": 2904.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36548,22 +36556,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/Xtiv6e_5hfA",
-      "postedAt": "2026-09-30T16:00:00"
+      "postedAt": "2026-09-30T17:00:00"
     },
     {
       "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d Jazz owner Ryan Smith tells FOS about the ability you have with",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 825,
+      "impr": 827,
       "paidImpr": 0,
-      "orgImpr": 825,
-      "views": 825,
+      "orgImpr": 827,
+      "views": 827,
       "reach": 645,
       "eng": 23,
-      "er": 2.79,
+      "er": 2.78,
       "spend": 0,
-      "watchTimeMin": 107.0,
+      "watchTimeMin": 107.1,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -36571,17 +36579,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7691430981110091038",
-      "postedAt": "2026-09-30T16:10:00"
+      "postedAt": "2026-09-30T17:10:00"
     },
     {
       "title": "\u201cWhat can we do with sports to build the state of Utah?\u201d  Utah Jazz owner Ryan Smith tells FOS about the ability you hav",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 4561,
+      "impr": 4562,
       "paidImpr": 0,
-      "orgImpr": 4561,
-      "views": 1228,
+      "orgImpr": 4562,
+      "views": 1229,
       "reach": 0,
       "eng": 56,
       "er": 1.23,
@@ -36594,22 +36602,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511163880371417088",
-      "postedAt": "2026-09-30T17:30:00"
+      "postedAt": "2026-09-30T18:30:00"
     },
     {
       "title": "Blake Griffin on Life After the NBA",
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1301656,
+      "impr": 1302308,
       "paidImpr": 1289841,
-      "orgImpr": 11815,
-      "views": 44400,
+      "orgImpr": 12467,
+      "views": 44487,
       "reach": 0,
-      "eng": 6566,
+      "eng": 6570,
       "er": 0.5,
       "spend": 797.08,
-      "watchTimeMin": 174985.6,
+      "watchTimeMin": 175272.9,
       "clicks": null,
       "ctr": 0.38,
       "cpc": 2.57,
@@ -36617,7 +36625,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/jeFmhcOtRzo",
-      "postedAt": "2026-10-20T14:00:00"
+      "postedAt": "2026-10-20T15:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep18: Blake Griffin (pre-roll)",
@@ -36663,17 +36671,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2112642511302783167",
-      "postedAt": "2026-10-20T15:30:00"
+      "postedAt": "2026-10-20T16:30:00"
     },
     {
       "title": "\u201cI think it's incredible that athletes are getting paid. I think that's the right move.\u201d  Former National Basketball Ass",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 38606,
+      "impr": 38603,
       "paidImpr": 0,
-      "orgImpr": 38606,
-      "views": 48643,
+      "orgImpr": 38603,
+      "views": 96850,
       "reach": 0,
       "eng": 808,
       "er": 2.09,
@@ -36686,22 +36694,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518401003914678272",
-      "postedAt": "2026-10-20T15:30:00"
+      "postedAt": "2026-10-20T16:30:00"
     },
     {
       "title": "Blake Griffin on NIL and College Sports",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 27056,
+      "impr": 27071,
       "paidImpr": 25074,
-      "orgImpr": 1982,
+      "orgImpr": 1997,
       "views": 26098,
       "reach": 0,
       "eng": 1899,
-      "er": 7.02,
+      "er": 7.01,
       "spend": 99.89,
-      "watchTimeMin": 3672.1,
+      "watchTimeMin": 3672.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36709,20 +36717,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/GTdq6MgvvL4",
-      "postedAt": "2026-10-20T15:30:00"
+      "postedAt": "2026-10-20T16:30:00"
     },
     {
       "title": "\u201cI think it's incredible that athletes are getting paid. I think that's the right move.\u201d Blake Griffin shares his perspe",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 1004,
+      "impr": 1005,
       "paidImpr": 0,
-      "orgImpr": 1004,
-      "views": 1004,
+      "orgImpr": 1005,
+      "views": 1005,
       "reach": 859,
       "eng": 53,
-      "er": 5.28,
+      "er": 5.27,
       "spend": 0,
       "watchTimeMin": 130.9,
       "clicks": null,
@@ -36732,7 +36740,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7698849938096016654",
-      "postedAt": "2026-10-20T15:30:00"
+      "postedAt": "2026-10-20T16:30:00"
     },
     {
       "title": "Full episode of Portfolio Players with Blake Griffin:",
@@ -36755,17 +36763,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2112643972724400487",
-      "postedAt": "2026-10-20T15:35:00"
+      "postedAt": "2026-10-20T16:35:00"
     },
     {
       "title": "\u201cI think it's incredible that athletes are getting paid. I think that's the right move.\u201d\u2060 \u2060 Blake Griffin shares his per",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 185573,
+      "impr": 185577,
       "paidImpr": 177734,
-      "orgImpr": 7839,
-      "views": 182992,
+      "orgImpr": 7843,
+      "views": 182996,
       "reach": 139806,
       "eng": 3030,
       "er": 1.63,
@@ -36778,7 +36786,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DevBEFREf_Y/",
-      "postedAt": "2026-10-20T18:33:00"
+      "postedAt": "2026-10-20T19:33:00"
     },
     {
       "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
@@ -36801,22 +36809,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DexDh3llHo-/",
-      "postedAt": "2026-10-21T13:33:00"
+      "postedAt": "2026-10-21T14:33:00"
     },
     {
       "title": "How Blake Griffin Got Into Investing",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 81022,
+      "impr": 81025,
       "paidImpr": 80140,
-      "orgImpr": 882,
+      "orgImpr": 885,
       "views": 80140,
       "reach": 0,
       "eng": 5511,
       "er": 6.8,
       "spend": 293.78,
-      "watchTimeMin": 8557.1,
+      "watchTimeMin": 8557.8,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36824,7 +36832,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/gEnNlT_DxoA",
-      "postedAt": "2026-10-21T15:30:00"
+      "postedAt": "2026-10-21T16:30:00"
     },
     {
       "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
@@ -36847,20 +36855,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2113004898543419667",
-      "postedAt": "2026-10-21T15:30:00"
+      "postedAt": "2026-10-21T16:30:00"
     },
     {
       "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 5485,
+      "impr": 5487,
       "paidImpr": 0,
-      "orgImpr": 5485,
-      "views": 4296,
+      "orgImpr": 5487,
+      "views": 6891,
       "reach": 0,
-      "eng": 48,
-      "er": 0.88,
+      "eng": 49,
+      "er": 0.89,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -36870,20 +36878,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518724332781576192",
-      "postedAt": "2026-10-21T15:30:00"
+      "postedAt": "2026-10-21T16:30:00"
     },
     {
       "title": "\u201cWhat\u2019s so fun about being in the investing world is just seeing the things that come across our desk and seeing what\u2019s ",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 500,
+      "impr": 503,
       "paidImpr": 0,
-      "orgImpr": 500,
-      "views": 500,
+      "orgImpr": 503,
+      "views": 503,
       "reach": 450,
       "eng": 10,
-      "er": 2.0,
+      "er": 1.99,
       "spend": 0,
       "watchTimeMin": 47.4,
       "clicks": null,
@@ -36893,7 +36901,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7699176537957960974",
-      "postedAt": "2026-10-21T15:30:00"
+      "postedAt": "2026-10-21T16:30:00"
     },
     {
       "title": "Full conversation with Blake Griffin:  - Year 2 with Amazon's NBA crew - NIL chaos in college sports - Golf, pickleball,",
@@ -36916,7 +36924,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2113008739091415228",
-      "postedAt": "2026-10-21T15:45:00"
+      "postedAt": "2026-10-21T16:45:00"
     },
     {
       "title": "\u201cI think the NBA is sort of the obvious answer.\u201d  @blakegriffin23 explains why NBA ownership would be a natural fit and ",
@@ -36939,22 +36947,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2115534070222328255",
-      "postedAt": "2026-10-28T15:00:00"
+      "postedAt": "2026-10-28T16:00:00"
     },
     {
       "title": "\u201cI think the NBA is sort of the obvious answer.\u201d \u00a0 Blake Griffin explains why NBA ownership would be a natural fit and h",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 1767,
+      "impr": 1774,
       "paidImpr": 0,
-      "orgImpr": 1767,
-      "views": 1767,
-      "reach": 1577,
+      "orgImpr": 1774,
+      "views": 1774,
+      "reach": 1594,
       "eng": 106,
-      "er": 6.0,
+      "er": 5.98,
       "spend": 0,
-      "watchTimeMin": 334.4,
+      "watchTimeMin": 335.2,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -36962,22 +36970,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7701810996633128206",
-      "postedAt": "2026-10-28T15:00:00"
+      "postedAt": "2026-10-28T16:00:00"
     },
     {
       "title": "Why Blake Griffin Wants to Own an NBA Team",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 24349,
+      "impr": 24391,
       "paidImpr": 22777,
-      "orgImpr": 1572,
-      "views": 23127,
+      "orgImpr": 1614,
+      "views": 23129,
       "reach": 0,
       "eng": 1520,
-      "er": 6.24,
+      "er": 6.23,
       "spend": 99.71,
-      "watchTimeMin": 2140.0,
+      "watchTimeMin": 2142.4,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -36985,17 +36993,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/evpDnlTLq-w",
-      "postedAt": "2026-10-28T15:30:00"
+      "postedAt": "2026-10-28T16:30:00"
     },
     {
       "title": "\u201cI think the NBA is sort of the obvious answer.\u201d  Blake Griffin discusses the appeal of National Basketball Association ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 14392,
+      "impr": 14396,
       "paidImpr": 0,
-      "orgImpr": 14392,
-      "views": 16543,
+      "orgImpr": 14396,
+      "views": 38603,
       "reach": 0,
       "eng": 307,
       "er": 2.13,
@@ -37008,17 +37016,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7521295458787545088",
-      "postedAt": "2026-10-28T15:30:00"
+      "postedAt": "2026-10-28T16:30:00"
     },
     {
       "title": "\u201cI think the NBA is sort of the obvious answer.\u201d\u2060 \u2060 Blake Griffin explains why NBA ownership would be a natural fit and ",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 93432,
+      "impr": 93435,
       "paidImpr": 77225,
-      "orgImpr": 16207,
-      "views": 92882,
+      "orgImpr": 16210,
+      "views": 92885,
       "reach": 68008,
       "eng": 11461,
       "er": 12.27,
@@ -37031,30 +37039,30 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfDkESMD2nc/",
-      "postedAt": "2026-10-28T18:03:00"
+      "postedAt": "2026-10-28T19:03:00"
     },
     {
       "title": "How Jeremy Bloom Is Reinventing the X Games",
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1098430,
+      "impr": 1098728,
       "paidImpr": 1094315,
-      "orgImpr": 4115,
-      "views": 44451,
+      "orgImpr": 4413,
+      "views": 14950,
       "reach": 0,
       "eng": 3017,
       "er": 0.27,
       "spend": 798.21,
-      "watchTimeMin": 256481.8,
+      "watchTimeMin": 255661.7,
       "clicks": null,
-      "ctr": 0.76,
+      "ctr": 0.77,
       "cpc": 1.48,
       "cpm": 0.73,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/5ui3ZgEZczg",
-      "postedAt": "2026-11-03T09:00:00"
+      "postedAt": "2026-11-03T10:00:00"
     },
     {
       "title": "Portfolio Players S3 Ep19: Jeremy Bloom (pre-roll)",
@@ -37084,15 +37092,15 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 1195,
+      "impr": 1199,
       "paidImpr": 0,
-      "orgImpr": 1195,
-      "views": 1195,
+      "orgImpr": 1199,
+      "views": 1199,
       "reach": 1072,
-      "eng": 21,
-      "er": 1.76,
+      "eng": 22,
+      "er": 1.83,
       "spend": 0,
-      "watchTimeMin": 72.0,
+      "watchTimeMin": 72.8,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -37100,17 +37108,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7704058224474918175",
-      "postedAt": "2026-11-03T15:20:00"
+      "postedAt": "2026-11-03T16:20:00"
     },
     {
       "title": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d  X Games CEO Jeremy Bloom explains ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 6369,
+      "impr": 6376,
       "paidImpr": 0,
-      "orgImpr": 6369,
-      "views": 5771,
+      "orgImpr": 6376,
+      "views": 13483,
       "reach": 0,
       "eng": 72,
       "er": 1.13,
@@ -37123,7 +37131,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523495901143912448",
-      "postedAt": "2026-11-03T15:27:00"
+      "postedAt": "2026-11-03T16:27:00"
     },
     {
       "title": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d  X Games CEO @JeremyBloom11 explain",
@@ -37146,22 +37154,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2117731042731680181",
-      "postedAt": "2026-11-03T15:30:00"
+      "postedAt": "2026-11-03T16:30:00"
     },
     {
       "title": "Why X Games Athletes Are Becoming Owners",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 399,
+      "impr": 413,
       "paidImpr": 24,
-      "orgImpr": 375,
-      "views": 541,
+      "orgImpr": 389,
+      "views": 544,
       "reach": 0,
       "eng": 6,
-      "er": 1.5,
+      "er": 1.45,
       "spend": 0.19,
-      "watchTimeMin": 104.7,
+      "watchTimeMin": 106.8,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37169,18 +37177,18 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/GzXJpnhZMrE",
-      "postedAt": "2026-11-03T15:30:00"
+      "postedAt": "2026-11-03T16:30:00"
     },
     {
       "title": "\u201cThe X Games has always been counterculture, and that's part of the beauty of this.\u201d\u2060 \u2060 X Games CEO Jeremy Bloom explain",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 139326,
+      "impr": 139331,
       "paidImpr": 132936,
-      "orgImpr": 6390,
-      "views": 137798,
-      "reach": 101632,
+      "orgImpr": 6395,
+      "views": 137803,
+      "reach": 101638,
       "eng": 6033,
       "er": 4.33,
       "spend": 599.0,
@@ -37192,22 +37200,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfTA3a-CcvL/",
-      "postedAt": "2026-11-03T17:03:00"
+      "postedAt": "2026-11-03T18:03:00"
     },
     {
       "title": "\u201cThese are value creators, these are company makers.\u201d X Games CEO Jeremy Bloom explains how the right investment partner",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 351,
+      "impr": 354,
       "paidImpr": 0,
-      "orgImpr": 351,
-      "views": 351,
+      "orgImpr": 354,
+      "views": 354,
       "reach": 287,
       "eng": 25,
-      "er": 7.12,
+      "er": 7.06,
       "spend": 0,
-      "watchTimeMin": 31.7,
+      "watchTimeMin": 31.8,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -37215,7 +37223,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7704426053241965838",
-      "postedAt": "2026-11-04T15:08:00"
+      "postedAt": "2026-11-04T16:08:00"
     },
     {
       "title": "\u201cThese are value creators, these are company makers.\u201d  X Games CEO Jeremy Bloom explains how the right investment partne",
@@ -37238,22 +37246,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2118093431343817109",
-      "postedAt": "2026-11-04T15:30:00"
+      "postedAt": "2026-11-04T16:30:00"
     },
     {
       "title": "How Jeremy Bloom Is Building the Future of the X Games",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 24764,
+      "impr": 24786,
       "paidImpr": 24353,
-      "orgImpr": 411,
-      "views": 24391,
+      "orgImpr": 433,
+      "views": 24350,
       "reach": 0,
       "eng": 1006,
       "er": 4.06,
       "spend": 99.86,
-      "watchTimeMin": 1597.2,
+      "watchTimeMin": 1602.9,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -37261,17 +37269,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/rreY3i2GsDo",
-      "postedAt": "2026-11-04T15:30:00"
+      "postedAt": "2026-11-04T16:30:00"
     },
     {
       "title": "\u201cThese are value creators, these are company makers.\u201d  X Games CEO Jeremy Bloom explains how the right investment partne",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 6380,
+      "impr": 6389,
       "paidImpr": 0,
-      "orgImpr": 6380,
-      "views": 6261,
+      "orgImpr": 6389,
+      "views": 14686,
       "reach": 0,
       "eng": 145,
       "er": 2.27,
@@ -37284,18 +37292,18 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523847654628462592",
-      "postedAt": "2026-11-04T15:30:00"
+      "postedAt": "2026-11-04T16:30:00"
     },
     {
       "title": "\u201cThese are value creators, these are company makers.\u201d\u2060 \u2060 X Games CEO Jeremy Bloom explains how the right investment part",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 123056,
+      "impr": 123061,
       "paidImpr": 115505,
-      "orgImpr": 7551,
-      "views": 121496,
-      "reach": 85663,
+      "orgImpr": 7556,
+      "views": 121501,
+      "reach": 85670,
       "eng": 3547,
       "er": 2.88,
       "spend": 598.0,
@@ -37307,18 +37315,18 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfVbRLuCKld/",
-      "postedAt": "2026-11-04T15:33:00"
+      "postedAt": "2026-11-04T16:33:00"
     },
     {
       "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand\u2019s influence on ",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 122468,
+      "impr": 122632,
       "paidImpr": 110175,
-      "orgImpr": 12293,
-      "views": 120176,
-      "reach": 88617,
+      "orgImpr": 12457,
+      "views": 120340,
+      "reach": 88710,
       "eng": 4144,
       "er": 3.38,
       "spend": 599.0,
@@ -37330,7 +37338,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfnAO9Thm25/",
-      "postedAt": "2026-11-11T11:21:00"
+      "postedAt": "2026-11-11T12:21:00"
     },
     {
       "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO @JeremyBloom11 discusses the brand's influence o",
@@ -37353,22 +37361,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2120592398799520113",
-      "postedAt": "2026-11-11T13:00:00"
+      "postedAt": "2026-11-11T14:00:00"
     },
     {
       "title": "How the X Games Is Bringing Fans Back to Action Sports",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 39455,
-      "paidImpr": 38941,
-      "orgImpr": 514,
-      "views": 16720,
+      "impr": 39483,
+      "paidImpr": 38903,
+      "orgImpr": 580,
+      "views": 23910,
       "reach": 0,
-      "eng": 1105,
+      "eng": 1107,
       "er": 2.8,
-      "spend": 100.07,
-      "watchTimeMin": 933.0,
+      "spend": 100.0,
+      "watchTimeMin": 1285.1,
       "clicks": null,
       "ctr": 0.62,
       "cpc": 4.17,
@@ -37376,7 +37384,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/M1lRk0Tu4WY",
-      "postedAt": "2026-11-11T13:30:00"
+      "postedAt": "2026-11-11T14:30:00"
     },
     {
       "title": "Full episode with Bloom including:  - The future of the X Games  - Why he won\u2019t donate to college NIL programs  - What t",
@@ -37399,20 +37407,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2120603893830955065",
-      "postedAt": "2026-11-11T13:45:00"
+      "postedAt": "2026-11-11T14:45:00"
     },
     {
       "title": "\u201cThe X Games has always been bigger than just the sports.\u201d  X Games CEO Jeremy Bloom discusses the brand's influence on ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 5778,
+      "impr": 5996,
       "paidImpr": 0,
-      "orgImpr": 5778,
-      "views": 5823,
+      "orgImpr": 5996,
+      "views": 13857,
       "reach": 0,
-      "eng": 152,
-      "er": 2.63,
+      "eng": 156,
+      "er": 2.6,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -37422,30 +37430,30 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526333834255253504",
-      "postedAt": "2026-11-11T15:30:00"
+      "postedAt": "2026-11-11T16:30:00"
     },
     {
       "title": "How Tracy McGrady Is Building a Basketball Business Empire",
       "platform": "YouTube In-feed",
       "accountName": "Front Office Sports",
-      "distKind": "paid",
-      "impr": 620643,
+      "distKind": "organic+boosted",
+      "impr": 624644,
       "paidImpr": 620643,
-      "orgImpr": 0,
-      "views": 1979,
+      "orgImpr": 4001,
+      "views": 18603,
       "reach": 0,
-      "eng": 3188,
-      "er": 0.51,
+      "eng": 3223,
+      "er": 0.52,
       "spend": 577.86,
-      "watchTimeMin": null,
+      "watchTimeMin": 24756.0,
       "clicks": null,
-      "ctr": 0.94,
-      "cpc": 2.16,
+      "ctr": 0.32,
+      "cpc": 4.13,
       "cpm": 0.93,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://youtu.be/P-yjyUFiZxY",
-      "postedAt": "2026-11-17T09:48:00"
+      "postedAt": "2026-11-17T10:48:00"
     },
     {
       "title": "Portfolio Players S3 Ep20: Tracy McGrady (pre-roll)",
@@ -37472,16 +37480,62 @@ window.POSTS_BY_CAMPAIGN = {
     },
     {
       "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d  Tracy ",
+      "platform": "X",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 33547,
+      "paidImpr": 26700,
+      "orgImpr": 6847,
+      "views": 861,
+      "reach": 0,
+      "eng": 424,
+      "er": 1.26,
+      "spend": 92.94,
+      "watchTimeMin": null,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 3.48,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://twitter.com/FOS/status/2122774273903243626",
+      "postedAt": "2026-11-17T14:30:00"
+    },
+    {
+      "title": "Tracy McGrady on basketball\u2019s growth in China",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 29646,
+      "paidImpr": 28959,
+      "orgImpr": 687,
+      "views": 7959,
+      "reach": 0,
+      "eng": 1858,
+      "er": 6.27,
+      "spend": 63.99,
+      "watchTimeMin": 1893.0,
+      "clicks": null,
+      "ctr": 0.66,
+      "cpc": 3.37,
+      "cpm": 2.21,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/BZgjKP90TO8",
+      "postedAt": "2026-11-17T14:30:00"
+    },
+    {
+      "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d  Tracy ",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 9524,
+      "impr": 10470,
       "paidImpr": 0,
-      "orgImpr": 9524,
-      "views": 5771,
+      "orgImpr": 10470,
+      "views": 20143,
       "reach": 0,
-      "eng": 153,
-      "er": 1.61,
+      "eng": 186,
+      "er": 1.78,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -37491,91 +37545,45 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528511170287271938",
-      "postedAt": "2026-11-17T13:30:00"
-    },
-    {
-      "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d  Tracy ",
-      "platform": "X",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 6796,
-      "paidImpr": 0,
-      "orgImpr": 6796,
-      "views": 855,
-      "reach": 0,
-      "eng": 5,
-      "er": 0.07,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://twitter.com/FOS/status/2122774273903243626",
-      "postedAt": "2026-11-17T13:30:00"
-    },
-    {
-      "title": "Tracy McGrady on basketball\u2019s growth in China",
-      "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 0,
-      "paidImpr": 0,
-      "orgImpr": 0,
-      "views": 0,
-      "reach": 0,
-      "eng": 0,
-      "er": 0.0,
-      "spend": 0,
-      "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/shorts/BZgjKP90TO8",
-      "postedAt": "2026-11-17T13:30:00"
+      "postedAt": "2026-11-17T14:30:00"
     },
     {
       "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d\u2060 \u2060 Trac",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 6774,
-      "paidImpr": 0,
-      "orgImpr": 6774,
-      "views": 6774,
-      "reach": 5365,
-      "eng": 175,
-      "er": 2.58,
-      "spend": 0,
+      "distKind": "organic+boosted",
+      "impr": 93879,
+      "paidImpr": 85827,
+      "orgImpr": 8052,
+      "views": 92088,
+      "reach": 71474,
+      "eng": 7980,
+      "er": 8.5,
+      "spend": 415.0,
       "watchTimeMin": null,
       "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
+      "ctr": 0.17,
+      "cpc": 2.86,
+      "cpm": 4.84,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Df2r2-xip7C/",
-      "postedAt": "2026-11-17T13:33:00"
+      "postedAt": "2026-11-17T14:33:00"
     },
     {
       "title": "\u201cI\u2019ve been going to China since 1998\u2026 I\u2019ve seen the evolution of basketball over there and just how it changed.\u201d Tracy M",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 411,
+      "impr": 465,
       "paidImpr": 0,
-      "orgImpr": 411,
-      "views": 411,
-      "reach": 252,
-      "eng": 42,
-      "er": 10.22,
+      "orgImpr": 465,
+      "views": 465,
+      "reach": 431,
+      "eng": 43,
+      "er": 9.25,
       "spend": 0,
-      "watchTimeMin": 80.7,
+      "watchTimeMin": 91.0,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -37583,20 +37591,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7709271452536671519",
-      "postedAt": "2026-11-17T16:30:00"
+      "postedAt": "2026-11-17T17:30:00"
     },
     {
       "title": "\u201cThe opportunity came \\[to own\\] the Bills. I was like yes, this is perfect.\u201d  Tracy McGrady shares how he became a part",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 11144,
+      "impr": 18121,
       "paidImpr": 0,
-      "orgImpr": 11144,
-      "views": 3358,
+      "orgImpr": 18121,
+      "views": 26136,
       "reach": 0,
-      "eng": 191,
-      "er": 1.71,
+      "eng": 575,
+      "er": 3.17,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -37606,20 +37614,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528835081348530176",
-      "postedAt": "2026-11-18T13:30:00"
+      "postedAt": "2026-11-18T14:30:00"
     },
     {
       "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d  Tracy McGrady shares how he became a part-o",
       "platform": "X",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 6654,
+      "impr": 7644,
       "paidImpr": 0,
-      "orgImpr": 6654,
-      "views": 964,
+      "orgImpr": 7644,
+      "views": 1190,
       "reach": 0,
-      "eng": 31,
-      "er": 0.47,
+      "eng": 42,
+      "er": 0.55,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -37629,45 +37637,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2123136659348987957",
-      "postedAt": "2026-11-18T13:30:00"
-    },
-    {
-      "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d Tracy McGrady shares how he became a part-ow",
-      "platform": "TikTok",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 351,
-      "paidImpr": 0,
-      "orgImpr": 351,
-      "views": 351,
-      "reach": 0,
-      "eng": 26,
-      "er": 7.41,
-      "spend": 0,
-      "watchTimeMin": 84.2,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://tiktok.com/@frontofficesports/video/7709527517534637342",
-      "postedAt": "2026-11-18T13:30:00"
+      "postedAt": "2026-11-18T14:30:00"
     },
     {
       "title": "How Tracy McGrady became an owner of the Bills",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 0,
+      "impr": 1441,
       "paidImpr": 0,
-      "orgImpr": 0,
-      "views": 0,
+      "orgImpr": 1441,
+      "views": 3084,
       "reach": 0,
-      "eng": 0,
-      "er": 0.0,
+      "eng": 73,
+      "er": 5.07,
       "spend": 0,
-      "watchTimeMin": null,
+      "watchTimeMin": 2301.0,
       "clicks": null,
       "ctr": null,
       "cpc": null,
@@ -37675,20 +37660,43 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/S1EM3NnyPoo",
-      "postedAt": "2026-11-18T13:30:00"
+      "postedAt": "2026-11-18T14:30:00"
+    },
+    {
+      "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d Tracy McGrady shares how he became a part-ow",
+      "platform": "TikTok",
+      "accountName": "Front Office Sports",
+      "distKind": "organic",
+      "impr": 494,
+      "paidImpr": 0,
+      "orgImpr": 494,
+      "views": 494,
+      "reach": 460,
+      "eng": 37,
+      "er": 7.49,
+      "spend": 0,
+      "watchTimeMin": 140.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": null,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://tiktok.com/@frontofficesports/video/7709527517534637342",
+      "postedAt": "2026-11-18T14:30:00"
     },
     {
       "title": "\u201cThe opportunity came [to own] the Bills. I was like yes, this is perfect.\u201d\u2060 \u2060 Tracy McGrady shares how he became a part",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 7250,
+      "impr": 15959,
       "paidImpr": 0,
-      "orgImpr": 7250,
-      "views": 7250,
-      "reach": 5524,
-      "eng": 223,
-      "er": 3.08,
+      "orgImpr": 15959,
+      "views": 15959,
+      "reach": 12068,
+      "eng": 494,
+      "er": 3.1,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -37698,7 +37706,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Df5y-1xnFmd/",
-      "postedAt": "2026-11-18T18:33:00"
+      "postedAt": "2026-11-18T19:33:00"
     }
   ],
   "spectrum": [
@@ -49089,7 +49097,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "measure_studio",
     "sourceLabel": "Measure Studio",
     "filename": "portfolio_players_ms.csv",
-    "fileSizeKb": 293.8,
+    "fileSizeKb": 294.1,
     "lastModified": "2026-11-23",
     "exists": true,
     "postsContributed": 416
@@ -49111,7 +49119,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "x_ads",
     "sourceLabel": "X Ads",
     "filename": "portfolio_players_x_ads.csv",
-    "fileSizeKb": 10.3,
+    "fileSizeKb": 10.5,
     "lastModified": "2026-11-23",
     "exists": true,
     "postsContributed": 0
