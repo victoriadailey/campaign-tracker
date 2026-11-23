@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-23T18:26:53Z";
+window.LAST_REFRESHED = "2026-11-23T18:28:51Z";
 
 
 
@@ -5158,7 +5158,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 16,
     "blurb": "An 8 video series with external creator, Evan Hand",
-    "views": 5433939,
+    "views": 5516304,
     "engagements": 459966,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
@@ -5194,7 +5194,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 280561,
-        "views": 1605970
+        "views": 1688335
       }
     ],
     "topPosts": [
@@ -5255,8 +5255,8 @@ window.CAMPAIGNS = [
         "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
         "er": 11.32,
         "eng": 9511,
-        "reach": 45506,
-        "organic": 41,
+        "reach": 83999,
+        "organic": 22,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DduUlpyDgop/",
@@ -5303,8 +5303,8 @@ window.CAMPAIGNS = [
         "quote": "Everything you need to know about the Rams vs. 49ers game in Australia \ud83d\udc40 Presented by @accenture",
         "er": 5.71,
         "eng": 14553,
-        "reach": 211634,
-        "organic": 20,
+        "reach": 255176,
+        "organic": 17,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DdCVWIwpBFJ/",
@@ -7901,8 +7901,8 @@ window.TOP_POSTS = [
     "quote": "Brazil's iconic Maracan\u00e3 Stadium is hosting its first NFL game for Ravens-Cowboys in Week 3. Here's\u2026",
     "er": 11.32,
     "eng": 9511,
-    "reach": 45506,
-    "organic": 41,
+    "reach": 83999,
+    "organic": 22,
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/DduUlpyDgop/",
@@ -8072,7 +8072,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 46937,
-    "views": 37960427
+    "views": 38042792
   },
   {
     "name": "X",
@@ -45202,7 +45202,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 254825,
       "paidImpr": 211604,
       "orgImpr": 43221,
-      "views": 211634,
+      "views": 255176,
       "reach": 166782,
       "eng": 14553,
       "er": 5.71,
@@ -45248,7 +45248,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 84031,
       "paidImpr": 65300,
       "orgImpr": 18731,
-      "views": 45506,
+      "views": 83999,
       "reach": 38163,
       "eng": 9511,
       "er": 11.32,
@@ -45409,7 +45409,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 366424,
       "paidImpr": 345132,
       "orgImpr": 21292,
-      "views": 359563,
+      "views": 359893,
       "reach": 284926,
       "eng": 6930,
       "er": 1.89,
