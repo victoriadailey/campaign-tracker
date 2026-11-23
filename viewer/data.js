@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-23T18:21:38Z";
+window.LAST_REFRESHED = "2026-11-23T18:26:53Z";
 
 
 
@@ -7084,7 +7084,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 20,
     "blurb": "Stifel x FOS Tonight native social coverage",
-    "views": 230764,
+    "views": 515538,
     "engagements": 450,
     "goalSplit": [],
     "benchmarkCategory": "Social Coverage Partner",
@@ -7104,7 +7104,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 9973,
-        "views": 222937
+        "views": 507711
       },
       {
         "name": "X",
@@ -8072,7 +8072,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 46937,
-    "views": 37675653
+    "views": 37960427
   },
   {
     "name": "X",
@@ -47802,7 +47802,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 555506,
       "paidImpr": 554599,
       "orgImpr": 907,
-      "views": 213871,
+      "views": 498645,
       "reach": 473132,
       "eng": 165,
       "er": 0.03,
