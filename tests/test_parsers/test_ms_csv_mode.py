@@ -110,7 +110,7 @@ def test_youtube_thumbnail_impressions_are_organic_impressions():
     yt = [p for p in res.rows if p.platform is Platform.YOUTUBE]
     assert yt
     by_org = {p.impressions_organic: p for p in yt}
-    assert {1147, 1852, 2924} <= set(by_org)
+    assert {1535, 1896, 3197} <= set(by_org)
     for p in yt:
         assert p.impressions_total == (p.impressions_paid or 0) + p.impressions_organic
 
@@ -132,7 +132,7 @@ def test_pwc_youtube_google_ads_rows_fold_into_measure_posts():
     )
     yts = [p for p in out if p.platform is Platform.YOUTUBE]
     assert len(yts) == len(yt_before) == 3
-    assert round(sum(p.ad_spend or 0 for p in yts), 2) == round(1249.87 + 1245.07 + 1056.83, 2)
+    assert round(sum(p.ad_spend or 0 for p in yts), 2) == round(1249.87 + 1245.07 + 1242.49, 2)
 
 
 def test_pwc_youtube_pairings_with_video3_google_ads_row():
@@ -154,7 +154,7 @@ def test_pwc_youtube_pairings_with_video3_google_ads_row():
     assert len(by) == 3
     assert (by["mE8cCwSJUSU"].impressions_paid, round(by["mE8cCwSJUSU"].ad_spend, 2)) == (318848, 1249.87)
     assert (by["U9iMB78LhQg"].impressions_paid, round(by["U9iMB78LhQg"].ad_spend, 2)) == (326504, 1245.07)
-    assert (by["z2Z8QGsIJzs"].impressions_paid, round(by["z2Z8QGsIJzs"].ad_spend, 2)) == (441039, 1056.83)
+    assert (by["z2Z8QGsIJzs"].impressions_paid, round(by["z2Z8QGsIJzs"].ad_spend, 2)) == (519415, 1242.49)
 
 
 def test_tiktok_impressions_are_paid_plus_organic_views():
@@ -200,15 +200,15 @@ def test_daktronics_frozen_rows_reproduce_last_published_card_with_facebook_tota
 
 
 def test_facebook_dark_engagements_from_paid_reaction_columns():
-    """NYLI dark Facebook post (11.19 export): paid reactions + comments + shares = 24 engagements; 127 paid link clicks."""
+    """NYLI dark Facebook post (latest export): paid reactions + comments + shares = 40 engagements; 309 paid link clicks."""
     from pathlib import Path
     from app.parsers.base import Platform
     from app.parsers.measure_studio import parse
 
     rows = parse(Path("tests/fixtures/nylim_fosexplains_ms.csv").read_bytes()).rows
     fb = next(p for p in rows if p.platform is Platform.FACEBOOK)
-    assert fb.engagements_total == 24 and fb.engagements_paid == 24
-    assert fb.clicks_paid == 127 and fb.impressions_total == 153225
+    assert fb.engagements_total == 40 and fb.engagements_paid == 40
+    assert fb.clicks_paid == 309 and fb.impressions_total == 176008
 
 
 def test_pwc_facebook_organic_reel_and_dark_ad_merge():
@@ -226,8 +226,8 @@ def test_pwc_facebook_organic_reel_and_dark_ad_merge():
             and "no woman" in (p.post_title or "").lower()]
     assert len(rows) == 1
     r = rows[0]
-    assert r.impressions_paid == 80168 and r.impressions_organic == 270
-    assert r.impressions_total == 80438 and r.ad_spend == 252.21
+    assert r.impressions_paid == 158594 and r.impressions_organic == 318
+    assert r.impressions_total == 158912 and r.ad_spend == 498.29
 
 
 def _pfp_rows():
