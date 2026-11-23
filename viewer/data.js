@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-23T18:14:41Z";
+window.LAST_REFRESHED = "2026-11-23T18:21:38Z";
 
 
 
@@ -7069,11 +7069,11 @@ window.CAMPAIGNS = [
     "status": "Behind Pace",
     "statusKind": "danger",
     "impressions": {
-      "delivered": 543352,
+      "delivered": 592612,
       "goal": 2000000
     },
     "budget": {
-      "delivered": 1824.15,
+      "delivered": 1999.79,
       "goal": 10000.0
     },
     "color": "ft-11",
@@ -7093,12 +7093,12 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 515312,
+        "impressions": 564572,
         "eng": 331,
         "er": 0.06,
         "cpm": 3.61,
         "color": "#E4405F",
-        "delta": -98.1,
+        "delta": -98.2,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
@@ -7210,15 +7210,15 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 40% of goal (792K of 2.0M) with 38 days left.",
-        "body": "At the current rate the campaign will fall ~1.2M impressions short of the 2.0M goal. Need to deliver 38K impr/day (5.9\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+        "headline": "On pace for 43% of goal (864K of 2.0M) with 38 days left.",
+        "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 37K impr/day (5.2\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
         "meta": "Stifel \u00b7 Pacing"
       },
       {
         "tag": "WATCH",
         "kind": "warn",
         "headline": "Campaign averaging 0.08% ER \u2014 below the 1% floor.",
-        "body": "0.08% engagement rate across 543K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
+        "body": "0.08% engagement rate across 593K impressions is under the 1% threshold FOS uses as a healthy baseline. If engagement is a partner priority, consider reallocating spend toward the highest-ER channels (or pausing the lowest-ER placements) before the next push.",
         "meta": "Stifel \u00b7 Engagement"
       }
     ],
@@ -7228,7 +7228,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-23T18:14:04Z"
+    "lastUpdatedExports": "2026-11-23T18:20:59Z"
   },
   {
     "id": "microsoft_copilot",
@@ -8061,7 +8061,7 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 40764664,
+    "impressions": 40813924,
     "eng": 700520,
     "er": 1.72,
     "cpm": 4.48,
@@ -8195,8 +8195,8 @@ window.SIGNALS = [
   {
     "tag": "WATCH",
     "kind": "warn",
-    "headline": "On pace for 40% of goal (792K of 2.0M) with 38 days left.",
-    "body": "At the current rate the campaign will fall ~1.2M impressions short of the 2.0M goal. Need to deliver 38K impr/day (5.9\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
+    "headline": "On pace for 43% of goal (864K of 2.0M) with 38 days left.",
+    "body": "At the current rate the campaign will fall ~1.1M impressions short of the 2.0M goal. Need to deliver 37K impr/day (5.2\u00d7 the current 7K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
     "meta": "Stifel \u00b7 Pacing",
     "campaignId": "stifel_fostonight",
     "campaignPartner": "Stifel"
@@ -47799,14 +47799,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": "Front Office Sports Tonight",
       "distKind": "organic+boosted",
-      "impr": 506246,
-      "paidImpr": 505339,
+      "impr": 555506,
+      "paidImpr": 554599,
       "orgImpr": 907,
       "views": 213871,
-      "reach": 209816,
+      "reach": 473132,
       "eng": 165,
       "er": 0.03,
-      "spend": 1824.15,
+      "spend": 1999.79,
       "watchTimeMin": null,
       "clicks": 1,
       "ctr": 0.04,
@@ -48468,6 +48468,10 @@ window.UPLOAD_TARGETS = {
     {
       "file": "stifel_fostonight_ms.csv",
       "label": "Measure Studio"
+    },
+    {
+      "file": "stifel_fostonight_meta_ads.csv",
+      "label": "Meta Ads"
     }
   ],
   "microsoft_copilot": [],
@@ -49546,6 +49550,17 @@ window.DATA_ARCHIVE = [
     "lastModified": "2026-11-23",
     "exists": true,
     "postsContributed": 20
+  },
+  {
+    "campaignId": "stifel_fostonight",
+    "partner": "Stifel",
+    "sourceKind": "meta_ads",
+    "sourceLabel": "Meta Ads",
+    "filename": "stifel_fostonight_meta_ads.csv",
+    "fileSizeKb": 0.7,
+    "lastModified": "2026-11-23",
+    "exists": true,
+    "postsContributed": 0
   },
   {
     "campaignId": "nylim_fosexplains",
