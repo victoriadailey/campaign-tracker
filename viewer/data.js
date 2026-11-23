@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-23T18:09:30Z";
+window.LAST_REFRESHED = "2026-11-23T18:09:56Z";
 
 
 
@@ -7448,23 +7448,23 @@ window.CAMPAIGNS = [
     "status": "Goal Hit",
     "statusKind": "on",
     "impressions": {
-      "delivered": 4425330,
+      "delivered": 4425231,
       "goal": 4250000
     },
     "budget": {
-      "delivered": 7196.98,
+      "delivered": 7195.16,
       "goal": 6000.0
     },
     "color": "ft-10",
     "leadFormat": "Social Video",
     "topChannel": "YouTube",
-    "er": 1.39,
+    "er": 1.38,
     "cpm": 1.63,
     "episodes": 2,
     "posts": 6,
     "blurb": "1x FOS Explains video posted in-feed and 1 cutdown posted dark",
     "views": 1172718,
-    "engagements": 61357,
+    "engagements": 61244,
     "goalSplit": [],
     "benchmarkCategory": "Original Content",
     "lifecycle": "active",
@@ -7473,33 +7473,33 @@ window.CAMPAIGNS = [
         "name": "YouTube In-feed",
         "italic": "YouTube In-feed",
         "impressions": 2685201,
-        "eng": 4787,
+        "eng": 4784,
         "er": 0.18,
         "cpm": 0.78,
         "color": "#E00922",
-        "delta": -64.3,
+        "delta": -64.4,
         "bench": {
           "er": 0.5,
           "cpm": 0.55
         },
         "organicImpressions": 5099,
-        "views": 23903
+        "views": 24009
       },
       {
         "name": "YouTube Pre-roll",
         "italic": "YouTube Pre-roll",
-        "impressions": 66726,
-        "eng": 47144,
-        "er": 70.65,
-        "cpm": 11.54,
+        "impressions": 66627,
+        "eng": 47034,
+        "er": 70.59,
+        "cpm": 11.53,
         "color": "#B0061B",
-        "delta": -1.9,
+        "delta": -2.0,
         "bench": {
           "er": 72.0,
           "cpm": 14.0
         },
         "organicImpressions": 0,
-        "views": 33754
+        "views": 33648
       },
       {
         "name": "TikTok",
@@ -7600,7 +7600,7 @@ window.CAMPAIGNS = [
       {
         "label": "FOS Explains Full Episode",
         "impressions": {
-          "delivered": 3179792,
+          "delivered": 3179693,
           "goal": 3250000
         }
       },
@@ -7615,7 +7615,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-23T18:08:53Z"
+    "lastUpdatedExports": "2026-11-23T18:08:55Z"
   },
   {
     "id": "nwsl_championship_brandx",
@@ -8030,8 +8030,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129358250,
-    "eng": 3068082,
+    "impressions": 129358151,
+    "eng": 3067969,
     "er": 2.37,
     "cpm": 1.13,
     "color": "#E00922",
@@ -25988,11 +25988,11 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "How NIL Deals Really Work",
       "date": "Nov 4",
       "total": {
-        "impr": 3179792,
+        "impr": 3179693,
         "views": 385313,
         "er": 0.16,
-        "eng": 52220,
-        "spend": 4514.63
+        "eng": 52107,
+        "spend": 4512.81
       },
       "perChannel": [
         {
@@ -26001,9 +26001,9 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 2685201,
           "paidImpr": 2680102,
           "orgImpr": 5099,
-          "views": 23903,
-          "eng": 4787,
-          "paidEng": 4750,
+          "views": 24009,
+          "eng": 4784,
+          "paidEng": 4747,
           "orgEng": 37,
           "er": 0.18,
           "cpm": 0.78,
@@ -26043,16 +26043,16 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Pre-roll",
           "distKind": "paid",
-          "impr": 66726,
-          "paidImpr": 66726,
+          "impr": 66627,
+          "paidImpr": 66627,
           "orgImpr": 0,
-          "views": 33754,
-          "eng": 47144,
-          "paidEng": 47144,
+          "views": 33648,
+          "eng": 47034,
+          "paidEng": 47034,
           "orgEng": 0,
-          "er": 70.65,
-          "cpm": 11.54,
-          "spend": 769.75,
+          "er": 70.59,
+          "cpm": 11.53,
+          "spend": 767.93,
           "posts": 1
         }
       ],
@@ -26065,8 +26065,8 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 2685201,
           "paidImpr": 2680102,
           "orgImpr": 5099,
-          "views": 23903,
-          "eng": 4787,
+          "views": 24009,
+          "eng": 4784,
           "er": 0.18,
           "spend": 2103.27,
           "url": "https://youtu.be/QgXx6XEsDiE",
@@ -26077,13 +26077,13 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "YouTube Pre-roll",
           "accountName": null,
           "distKind": "paid",
-          "impr": 66726,
-          "paidImpr": 66726,
+          "impr": 66627,
+          "paidImpr": 66627,
           "orgImpr": 0,
-          "views": 33754,
-          "eng": 47144,
-          "er": 70.65,
-          "spend": 769.75,
+          "views": 33648,
+          "eng": 47034,
+          "er": 70.59,
+          "spend": 767.93,
           "url": null,
           "postedAt": null
         },
@@ -47874,9 +47874,9 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 2685201,
       "paidImpr": 2680102,
       "orgImpr": 5099,
-      "views": 23903,
+      "views": 24009,
       "reach": 0,
-      "eng": 4787,
+      "eng": 4784,
       "er": 0.18,
       "spend": 2103.27,
       "watchTimeMin": 97670.5,
@@ -47894,19 +47894,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Pre-roll",
       "accountName": null,
       "distKind": "paid",
-      "impr": 66726,
-      "paidImpr": 66726,
+      "impr": 66627,
+      "paidImpr": 66627,
       "orgImpr": 0,
-      "views": 33754,
+      "views": 33648,
       "reach": 0,
-      "eng": 47144,
-      "er": 70.65,
-      "spend": 769.75,
+      "eng": 47034,
+      "er": 70.59,
+      "spend": 767.93,
       "watchTimeMin": null,
       "clicks": null,
       "ctr": null,
       "cpc": null,
-      "cpm": 11.54,
+      "cpm": 11.53,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
