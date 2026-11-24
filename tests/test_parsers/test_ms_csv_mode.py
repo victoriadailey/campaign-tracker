@@ -106,7 +106,7 @@ def test_youtube_thumbnail_impressions_are_organic_impressions():
     from app.parsers.base import Platform
     from app.parsers.measure_studio import parse
 
-    res = parse(Path("tests/fixtures/pwc_formula1_ms.csv").read_bytes())
+    res = parse(Path("tests/fixtures/pwc_parser_sample_ms.csv").read_bytes())
     yt = [p for p in res.rows if p.platform is Platform.YOUTUBE]
     assert yt
     by_org = {p.impressions_organic: p for p in yt}
@@ -123,8 +123,8 @@ def test_pwc_youtube_google_ads_rows_fold_into_measure_posts():
     from app.parsers import measure_studio, google_ads_campaign
     from app.viewer.refresh import _merge_youtube_paid_spend_into_ms
 
-    ms = measure_studio.parse(Path("tests/fixtures/pwc_formula1_ms.csv").read_bytes()).rows
-    ga = google_ads_campaign.parse(Path("tests/fixtures/pwc_formula1_yt_paid.csv").read_bytes()).rows
+    ms = measure_studio.parse(Path("tests/fixtures/pwc_parser_sample_ms.csv").read_bytes()).rows
+    ga = google_ads_campaign.parse(Path("tests/fixtures/pwc_parser_sample_gads_campaign.csv").read_bytes()).rows
     yt_before = [p for p in ms if p.platform is Platform.YOUTUBE]
     out = _merge_youtube_paid_spend_into_ms(
         [p for p in ms if p.platform is Platform.YOUTUBE] + ga,
@@ -143,8 +143,8 @@ def test_pwc_youtube_pairings_with_video3_google_ads_row():
     from app.parsers import measure_studio, google_ads_campaign
     from app.viewer.refresh import _merge_youtube_paid_spend_into_ms
 
-    ms = measure_studio.parse(Path("tests/fixtures/pwc_formula1_ms.csv").read_bytes()).rows
-    ga = google_ads_campaign.parse(Path("tests/fixtures/pwc_formula1_yt_paid.csv").read_bytes()).rows
+    ms = measure_studio.parse(Path("tests/fixtures/pwc_parser_sample_ms.csv").read_bytes()).rows
+    ga = google_ads_campaign.parse(Path("tests/fixtures/pwc_parser_sample_gads_campaign.csv").read_bytes()).rows
     out = _merge_youtube_paid_spend_into_ms(
         [p for p in ms if p.platform is Platform.YOUTUBE] + ga,
         pair_by_sort=True, keep_ms_spend_if_unpaired=True,
@@ -163,7 +163,7 @@ def test_tiktok_impressions_are_paid_plus_organic_views():
     from app.parsers.base import Platform
     from app.parsers.measure_studio import parse
 
-    rows = parse(Path("tests/fixtures/huntington_bank_2026_ms.csv").read_bytes()).rows
+    rows = parse(Path("tests/fixtures/huntington_parser_sample_ms.csv").read_bytes()).rows
     tt = {p.posted_at.date().isoformat(): p for p in rows if p.platform is Platform.TIKTOK}
     assert tt["2026-10-12"].impressions_total == 219039 + 57360
     assert tt["2026-11-09"].impressions_total == 249722 + 97362
@@ -205,7 +205,7 @@ def test_facebook_dark_engagements_from_paid_reaction_columns():
     from app.parsers.base import Platform
     from app.parsers.measure_studio import parse
 
-    rows = parse(Path("tests/fixtures/nylim_fosexplains_ms.csv").read_bytes()).rows
+    rows = parse(Path("tests/fixtures/nylim_parser_sample_ms.csv").read_bytes()).rows
     fb = next(p for p in rows if p.platform is Platform.FACEBOOK)
     assert fb.engagements_total == 40 and fb.engagements_paid == 40
     assert fb.clicks_paid == 309 and fb.impressions_total == 176008
@@ -216,7 +216,7 @@ def test_pwc_facebook_organic_reel_and_dark_ad_merge():
     word-joiner chars in its caption) — it must render as ONE row."""
     from app.viewer.refresh import _merge_facebook_organic_paid_pairs
     from app.parsers.measure_studio import parse
-    res = parse("tests/fixtures/pwc_formula1_ms.csv")
+    res = parse("tests/fixtures/pwc_parser_sample_ms.csv")
     posts = [v for v in vars(res).values() if isinstance(v, list)][0]
     fb = [p for p in posts if p.platform.value.lower() == "facebook"]
     n = len([p for p in fb if "no woman" in (p.post_title or "").lower()])
@@ -233,8 +233,8 @@ def test_pwc_facebook_organic_reel_and_dark_ad_merge():
 def _pfp_rows():
     from pathlib import Path
     from app.parsers import measure_studio, google_ads_campaign
-    ms = measure_studio.parse(Path("tests/fixtures/portfolio_players_ms.csv").read_bytes()).rows
-    ga = google_ads_campaign.parse("tests/fixtures/etrade_yt_paid.csv").rows
+    ms = measure_studio.parse(Path("tests/fixtures/etrade_parser_sample_ms.csv").read_bytes()).rows
+    ga = google_ads_campaign.parse("tests/fixtures/etrade_parser_sample_gads_campaign.csv").rows
     return ms, ga
 
 

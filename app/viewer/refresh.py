@@ -748,6 +748,20 @@ def main() -> int:
                     vals = [(p.views_total if p.views_total is not None else (p.views_paid or 0))
                             for p in bucket]
                     return sum(vals) if any(v for v in vals) else None
+                if attr in ("impressions_total", "impressions_paid", "impressions_organic"):
+                    # Facebook ad copies can come through with views only (no
+                    # impressions / spend); Facebook views == impressions, so
+                    # use the matching views stat rather than dropping them.
+                    _vf = {"impressions_total": ("views_total", "views_paid"),
+                           "impressions_paid": ("views_paid",),
+                           "impressions_organic": ("views_organic",)}[attr]
+                    vals = []
+                    for p in bucket:
+                        v = getattr(p, attr)
+                        if v is None and p.platform == Platform.FACEBOOK:
+                            v = next((getattr(p, f) for f in _vf if getattr(p, f)), None)
+                        vals.append(v or 0)
+                    return sum(vals) if any(vals) else None
                 return sum(vals) if any(getattr(p, attr) is not None for p in bucket) else None
             for attr in ("impressions_total", "impressions_paid", "impressions_organic",
                          "views_total", "views_paid", "views_organic",

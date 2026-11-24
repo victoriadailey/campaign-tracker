@@ -2022,6 +2022,11 @@ campaigns:
         - pwc_formula1_yt_paid.csv
       measure_studio:
         - pwc_formula1_ms.csv   # Measure export (new template, incl. YT thumbnail impressions)
+    # Video 4 (11/21 "F1 generated more money for Vegas…"): when the Facebook
+    # Reel was boosted, Measure reported the organic Reel plus TWO dark-ad
+    # copies (11/23) as three rows. Fold all three into the Reel's row.
+    merge_posts:
+      - ids: [1652793586860225, 1121395430602296, 1841174237139970]
 
   - id: zoom_fosexplains_mlb
     partner: Zoom
