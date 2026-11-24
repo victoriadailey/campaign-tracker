@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-24T21:03:33Z";
+window.LAST_REFRESHED = "2026-11-24T22:20:04Z";
 
 
 
@@ -6678,23 +6678,23 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 3227927,
+      "delivered": 3335068,
       "goal": 4200000
     },
     "budget": {
-      "delivered": 10288.63,
+      "delivered": 11023.81,
       "goal": 12000.0
     },
     "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 3.02,
-    "cpm": 3.35,
+    "er": 3.17,
+    "cpm": 3.47,
     "episodes": 0,
     "posts": 17,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
     "views": 2557058,
-    "engagements": 97466,
+    "engagements": 105887,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6702,12 +6702,12 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 1172479,
-        "eng": 67639,
-        "er": 5.77,
-        "cpm": 3.21,
+        "impressions": 1279620,
+        "eng": 76060,
+        "er": 5.94,
+        "cpm": 3.52,
         "color": "#FF0033",
-        "delta": -71.2,
+        "delta": -70.3,
         "bench": {
           "er": 20.0,
           "cpm": 3.25
@@ -6862,7 +6862,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-24T17:06:31Z"
+    "lastUpdatedExports": "2026-11-24T22:19:36Z"
   },
   {
     "id": "zoom_fosexplains_mlb",
@@ -8063,9 +8063,9 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129918513,
-    "eng": 3084590,
-    "er": 2.37,
+    "impressions": 130025654,
+    "eng": 3093011,
+    "er": 2.38,
     "cpm": 1.13,
     "color": "#E00922",
     "delta": -88.1,
@@ -47374,14 +47374,14 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 521039,
-      "paidImpr": 519267,
+      "impr": 533530,
+      "paidImpr": 531758,
       "orgImpr": 1772,
       "views": 195486,
       "reach": 0,
-      "eng": 18255,
-      "er": 3.5,
-      "spend": 1242.14,
+      "eng": 18264,
+      "er": 3.42,
+      "spend": 1271.17,
       "watchTimeMin": 17723.0,
       "clicks": null,
       "ctr": 0.71,
@@ -47485,6 +47485,29 @@ window.POSTS_BY_CAMPAIGN = {
       "postedAt": "2026-11-12T11:00:00"
     },
     {
+      "title": "F1 generated more money for Vegas than the Super Bowl did in 2023.",
+      "platform": "YouTube Shorts",
+      "accountName": "Front Office Sports",
+      "distKind": "organic+boosted",
+      "impr": 95021,
+      "paidImpr": 94650,
+      "orgImpr": 371,
+      "views": 1386,
+      "reach": 0,
+      "eng": 8429,
+      "er": 8.87,
+      "spend": 706.15,
+      "watchTimeMin": 343.6,
+      "clicks": null,
+      "ctr": null,
+      "cpc": null,
+      "cpm": 7.46,
+      "videoViews100Pct": null,
+      "videoViews3s": null,
+      "url": "https://www.youtube.com/shorts/cIScp2VlWnQ",
+      "postedAt": "2026-11-21T13:00:00"
+    },
+    {
       "title": "F1 generated more money for Vegas than the Super Bowl did in 2023. Here\u2019s the history behind its growth \ud83c\udfce\ufe0f  Presented by",
       "platform": "X",
       "accountName": "Front Office Sports",
@@ -47505,29 +47528,6 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2124216274402062723",
-      "postedAt": "2026-11-21T13:00:00"
-    },
-    {
-      "title": "F1 generated more money for Vegas than the Super Bowl did in 2023.",
-      "platform": "YouTube Shorts",
-      "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 371,
-      "paidImpr": 0,
-      "orgImpr": 371,
-      "views": 1386,
-      "reach": 0,
-      "eng": 17,
-      "er": 4.58,
-      "spend": 0,
-      "watchTimeMin": 343.6,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
-      "videoViews100Pct": null,
-      "videoViews3s": null,
-      "url": "https://www.youtube.com/shorts/cIScp2VlWnQ",
       "postedAt": "2026-11-21T13:00:00"
     },
     {
