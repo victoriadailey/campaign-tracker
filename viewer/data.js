@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-24T15:55:20Z";
+window.LAST_REFRESHED = "2026-11-24T17:07:05Z";
 
 
 
@@ -6675,26 +6675,26 @@ window.CAMPAIGNS = [
     "flight": "Oct 1 \u2014 Nov 30, 2026",
     "elapsedPct": 90.0,
     "daysLeft": 6,
-    "status": "Behind Pace",
-    "statusKind": "danger",
+    "status": "At Risk",
+    "statusKind": "warn",
     "impressions": {
-      "delivered": 3194047,
+      "delivered": 3227927,
       "goal": 4200000
     },
     "budget": {
-      "delivered": 10185.9,
+      "delivered": 10288.63,
       "goal": 12000.0
     },
     "color": "ft-10",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 3.05,
+    "er": 3.02,
     "cpm": 3.35,
     "episodes": 0,
     "posts": 17,
     "blurb": "4 unique videos breaking down news during the Formula 1 race season",
-    "views": 2523178,
-    "engagements": 97462,
+    "views": 2557058,
+    "engagements": 97466,
     "goalSplit": [],
     "benchmarkCategory": "Custom Multimedia Reporter-Led - Non-Franchise (Tentpole Event, Custom Series, etc.)",
     "lifecycle": "active",
@@ -6734,18 +6734,18 @@ window.CAMPAIGNS = [
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 624890,
-        "eng": 280,
+        "impressions": 658770,
+        "eng": 284,
         "er": 0.04,
-        "cpm": 2.95,
+        "cpm": 2.96,
         "color": "#1877F2",
-        "delta": -97.1,
+        "delta": -97.2,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
         "organicImpressions": 1821,
-        "views": 573784
+        "views": 607664
       },
       {
         "name": "Instagram",
@@ -6795,7 +6795,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/Dfnxa8vD6ye/",
-        "postedAt": "2026-11-11T19:33:00"
+        "postedAt": "2026-11-11T18:33:00"
       },
       {
         "id": "4020357708776465245",
@@ -6811,7 +6811,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DfLLgkNn-Nd/",
-        "postedAt": "2026-10-31T18:03:00"
+        "postedAt": "2026-10-31T17:03:00"
       },
       {
         "id": "4035608657647535773",
@@ -6827,7 +6827,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DgBXLFLkoad/",
-        "postedAt": "2026-11-21T18:03:00"
+        "postedAt": "2026-11-21T17:03:00"
       },
       {
         "id": "4015193727022958860",
@@ -6843,7 +6843,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/De41WvblIkM/",
-        "postedAt": "2026-10-24T15:03:00"
+        "postedAt": "2026-10-24T14:03:00"
       }
     ],
     "topPostsOrganic": [],
@@ -6851,9 +6851,9 @@ window.CAMPAIGNS = [
       {
         "tag": "WATCH",
         "kind": "warn",
-        "headline": "On pace for 84% of goal (3.5M of 4.2M) with 6 days left.",
-        "body": "At the current rate the campaign will fall ~651K impressions short of the 4.2M goal. Need to deliver 168K impr/day (2.8\u00d7 the current 59K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-        "meta": "PwC \u00b7 Pacing"
+        "headline": "X CPM at $3.22 \u2014 2.9\u00d7 the benchmark.",
+        "body": "$3.22 CPM vs. $1.10 FOS benchmark. At 2.9\u00d7 over, this is on track to throw the campaign budget off. Tighten targeting or pause the highest-CPM creative now.",
+        "meta": "PwC \u00b7 X"
       }
     ],
     "brandxObjective": "",
@@ -6862,7 +6862,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-24T15:50:59Z"
+    "lastUpdatedExports": "2026-11-24T17:06:31Z"
   },
   {
     "id": "zoom_fosexplains_mlb",
@@ -8127,18 +8127,18 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 9077078,
-    "eng": 31416,
-    "er": 0.35,
+    "impressions": 9110958,
+    "eng": 31420,
+    "er": 0.34,
     "cpm": 3.71,
     "color": "#1877F2",
-    "delta": -77.1,
+    "delta": -77.8,
     "bench": {
       "er": 1.53,
       "cpm": 4.8
     },
     "organicImpressions": 4723,
-    "views": 3904431
+    "views": 3938311
   },
   {
     "name": "LinkedIn",
@@ -8243,15 +8243,6 @@ window.SIGNALS = [
     "meta": "AT&T \u00b7 Pacing",
     "campaignId": "att_brandx",
     "campaignPartner": "AT&T"
-  },
-  {
-    "tag": "WATCH",
-    "kind": "warn",
-    "headline": "On pace for 84% of goal (3.5M of 4.2M) with 6 days left.",
-    "body": "At the current rate the campaign will fall ~651K impressions short of the 4.2M goal. Need to deliver 168K impr/day (2.8\u00d7 the current 59K/day) to hit goal. Optimize the highest-efficiency channels or extend the flight before launch slots disappear.",
-    "meta": "PwC \u00b7 Pacing",
-    "campaignId": "pwc_formula1",
-    "campaignPartner": "PwC"
   },
   {
     "tag": "WATCH",
@@ -47215,7 +47206,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/mE8cCwSJUSU",
-      "postedAt": "2026-10-24T15:00:00"
+      "postedAt": "2026-10-24T14:00:00"
     },
     {
       "title": "What makes Austin\u2019s track so unique?   F1 Academy drivers Alba Larsen, Payton Westcott, and Natalia Granada weigh in.  P",
@@ -47238,7 +47229,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2114069415495131304",
-      "postedAt": "2026-10-24T15:00:00"
+      "postedAt": "2026-10-24T14:00:00"
     },
     {
       "title": "What makes Austin\u2019s track so unique? F1 Academy drivers Alba Larsen, Payton Westcott, and Natalia Granada weigh in.\u2060 \u2060 P",
@@ -47261,7 +47252,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/De41WvblIkM/",
-      "postedAt": "2026-10-24T15:03:00"
+      "postedAt": "2026-10-24T14:03:00"
     },
     {
       "title": "What makes Austin\u2019s track so unique? F1 Academy drivers Alba Larsen, Payton Westcott, and Natalia Granada weigh in.\u2060 \u2060 P",
@@ -47284,7 +47275,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1622603646545886/",
-      "postedAt": "2026-10-26T10:47:00"
+      "postedAt": "2026-10-26T09:47:00"
     },
     {
       "title": "For F1 Academy drivers Alba Larsen and Payton Westcott, racing is their first priority. Here\u2019s how they balance it with ",
@@ -47307,7 +47298,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2116636334555070822",
-      "postedAt": "2026-10-31T17:00:00"
+      "postedAt": "2026-10-31T16:00:00"
     },
     {
       "title": "For F1 Academy drivers Alba Larsen and Payton Westcott, racing is their first priority.",
@@ -47330,7 +47321,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/U9iMB78LhQg",
-      "postedAt": "2026-10-31T17:00:00"
+      "postedAt": "2026-10-31T16:00:00"
     },
     {
       "title": "For F1 Academy drivers Alba Larsen and Payton Westcott, racing is their first priority. Here\u2019s how they balance it with ",
@@ -47353,7 +47344,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1628672562605661/",
-      "postedAt": "2026-10-31T18:00:00"
+      "postedAt": "2026-10-31T17:00:00"
     },
     {
       "title": "For F1 Academy drivers Alba Larsen and Payton Westcott, racing is their first priority. Here\u2019s how they balance it with ",
@@ -47376,7 +47367,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DfLLgkNn-Nd/",
-      "postedAt": "2026-10-31T18:03:00"
+      "postedAt": "2026-10-31T17:03:00"
     },
     {
       "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.",
@@ -47399,7 +47390,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/z2Z8QGsIJzs",
-      "postedAt": "2026-11-11T16:30:00"
+      "postedAt": "2026-11-11T15:30:00"
     },
     {
       "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.  Presented by PwC",
@@ -47422,7 +47413,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1641025261370391/",
-      "postedAt": "2026-11-11T16:30:00"
+      "postedAt": "2026-11-11T15:30:00"
     },
     {
       "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that. Presented by @PwC US  #f1 #racing ",
@@ -47445,7 +47436,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7706561803471326477",
-      "postedAt": "2026-11-11T16:30:00"
+      "postedAt": "2026-11-11T15:30:00"
     },
     {
       "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.\u2060 \u2060 Presented by @pwcus",
@@ -47468,7 +47459,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dfnxa8vD6ye/",
-      "postedAt": "2026-11-11T19:33:00"
+      "postedAt": "2026-11-11T18:33:00"
     },
     {
       "title": "No woman has raced in Formula One in 50 years, so F1 built a pipeline to change that.  Presented by @PwC",
@@ -47491,7 +47482,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2120924591375937801",
-      "postedAt": "2026-11-12T12:00:00"
+      "postedAt": "2026-11-12T11:00:00"
     },
     {
       "title": "F1 generated more money for Vegas than the Super Bowl did in 2023. Here\u2019s the history behind its growth \ud83c\udfce\ufe0f  Presented by",
@@ -47514,7 +47505,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://twitter.com/FOS/status/2124216274402062723",
-      "postedAt": "2026-11-21T14:00:00"
+      "postedAt": "2026-11-21T13:00:00"
     },
     {
       "title": "F1 generated more money for Vegas than the Super Bowl did in 2023.",
@@ -47537,30 +47528,30 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/cIScp2VlWnQ",
-      "postedAt": "2026-11-21T14:00:00"
+      "postedAt": "2026-11-21T13:00:00"
     },
     {
       "title": "F1 generated more money for Vegas than the Super Bowl did in 2023. Here\u2019s the history behind its growth.  Presented by P",
       "platform": "Facebook",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 489,
-      "paidImpr": 0,
+      "distKind": "organic+boosted",
+      "impr": 34369,
+      "paidImpr": 33880,
       "orgImpr": 489,
-      "views": 489,
+      "views": 34369,
       "reach": 0,
-      "eng": 3,
-      "er": 0.61,
-      "spend": 0,
+      "eng": 7,
+      "er": 0.02,
+      "spend": 102.73,
       "watchTimeMin": null,
-      "clicks": null,
+      "clicks": 0,
       "ctr": null,
       "cpc": null,
-      "cpm": null,
+      "cpm": 3.03,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1652793586860225/",
-      "postedAt": "2026-11-21T18:00:00"
+      "postedAt": "2026-11-21T17:00:00"
     },
     {
       "title": "F1 generated more money for Vegas than the Super Bowl did in 2023. Here\u2019s the history behind its growth \ud83c\udfce\ufe0f\u2060 \u2060 Presented ",
@@ -47583,7 +47574,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DgBXLFLkoad/",
-      "postedAt": "2026-11-21T18:03:00"
+      "postedAt": "2026-11-21T17:03:00"
     }
   ],
   "zoom_fosexplains_mlb": [
@@ -49900,7 +49891,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "measure_studio",
     "sourceLabel": "Measure Studio",
     "filename": "pwc_formula1_ms.csv",
-    "fileSizeKb": 11.8,
+    "fileSizeKb": 12.7,
     "lastModified": "2026-11-24",
     "exists": true,
     "postsContributed": 17
