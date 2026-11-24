@@ -2015,6 +2015,7 @@ campaigns:
       "Video 1": mE8cCwSJUSU   # What makes Austin's track so unique?
       "Video 2": U9iMB78LhQg   # For F1 Academy drivers Alba Larsen and Payton Westcott...
       "Video 3": z2Z8QGsIJzs   # No woman has raced in Formula One in 50 years...
+      "Video 4": cIScp2VlWnQ   # F1 generated more money for Vegas than the Super Bowl did in 2023.
     sources:
       x_ads:
         - pwc_formula1_x_ads.csv
