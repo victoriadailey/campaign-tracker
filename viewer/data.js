@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-24T15:39:56Z";
+window.LAST_REFRESHED = "2026-11-24T15:40:32Z";
 
 
 
@@ -6060,26 +6060,26 @@ window.CAMPAIGNS = [
     "flight": "Sep 1 \u2014 Oct 31, 2026",
     "elapsedPct": 100.0,
     "daysLeft": 0,
-    "status": "Goal Missed",
-    "statusKind": "danger",
+    "status": "Goal Exceeded",
+    "statusKind": "on",
     "impressions": {
-      "delivered": 6086661,
+      "delivered": 6728710,
       "goal": 6300000
     },
     "budget": {
-      "delivered": 10743.11,
+      "delivered": 11239.58,
       "goal": 14774.0
     },
     "color": "ft-9",
     "leadFormat": "Short-form Video",
     "topChannel": "TikTok",
-    "er": 2.39,
-    "cpm": 2.84,
+    "er": 2.24,
+    "cpm": 2.83,
     "episodes": 4,
     "posts": 25,
     "blurb": "The Come Up and Breaking Barriers \u2014 bringing Just Ingredients' athlete roster to life through creator-led video and static storytelling",
-    "views": 5289676,
-    "engagements": 145764,
+    "views": 5594471,
+    "engagements": 150919,
     "goalSplit": [],
     "benchmarkCategory": "Multimedia Reporter-Led - Franchise",
     "lifecycle": "active",
@@ -6087,82 +6087,82 @@ window.CAMPAIGNS = [
       {
         "name": "TikTok",
         "italic": "Tok",
-        "impressions": 3213031,
-        "eng": 3989,
+        "impressions": 3410925,
+        "eng": 4068,
         "er": 0.12,
-        "cpm": 1.68,
+        "cpm": 1.69,
         "color": "#000000",
-        "delta": -93.9,
+        "delta": -94.1,
         "bench": {
           "er": 2.03,
           "cpm": 2.4
         },
-        "organicImpressions": 1414405,
-        "views": 3164367
+        "organicImpressions": 1508814,
+        "views": 3360886
       },
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 846554,
-        "eng": 34020,
-        "er": 4.02,
-        "cpm": 5.13,
+        "impressions": 899723,
+        "eng": 35880,
+        "er": 3.99,
+        "cpm": 5.15,
         "color": "#E4405F",
-        "delta": 21.4,
+        "delta": 20.5,
         "bench": {
           "er": 3.31,
           "cpm": 5.1
         },
-        "organicImpressions": 207397,
-        "views": 521903
+        "organicImpressions": 223406,
+        "views": 561872
       },
       {
         "name": "Facebook",
         "italic": "book",
-        "impressions": 808923,
-        "eng": 5053,
-        "er": 0.62,
-        "cpm": 2.73,
+        "impressions": 854808,
+        "eng": 5239,
+        "er": 0.61,
+        "cpm": 2.69,
         "color": "#1877F2",
-        "delta": -59.2,
+        "delta": -59.9,
         "bench": {
           "er": 1.53,
           "cpm": 4.8
         },
-        "organicImpressions": 206595,
-        "views": 812986
-      },
-      {
-        "name": "YouTube Shorts",
-        "italic": "YouTube Shorts",
-        "impressions": 753869,
-        "eng": 94631,
-        "er": 12.55,
-        "cpm": 3.74,
-        "color": "#FF0033",
-        "delta": -37.2,
-        "bench": {
-          "er": 20.0,
-          "cpm": 3.25
-        },
-        "organicImpressions": 4587,
-        "views": 702202
+        "organicImpressions": 207742,
+        "views": 868753
       },
       {
         "name": "LinkedIn",
         "italic": "LinkedIn",
-        "impressions": 464284,
-        "eng": 8071,
-        "er": 1.74,
+        "impressions": 809043,
+        "eng": 11088,
+        "er": 1.37,
         "cpm": 0.0,
         "color": "#0A66C2",
-        "delta": -53.8,
+        "delta": -63.6,
         "bench": {
           "er": 3.76,
           "cpm": 0.0
         },
-        "organicImpressions": 464284,
-        "views": 88218
+        "organicImpressions": 809043,
+        "views": 100423
+      },
+      {
+        "name": "YouTube Shorts",
+        "italic": "YouTube Shorts",
+        "impressions": 754211,
+        "eng": 94644,
+        "er": 12.55,
+        "cpm": 3.74,
+        "color": "#FF0033",
+        "delta": -37.3,
+        "bench": {
+          "er": 20.0,
+          "cpm": 3.25
+        },
+        "organicImpressions": 4929,
+        "views": 702537
       }
     ],
     "topPosts": [
@@ -6174,13 +6174,13 @@ window.CAMPAIGNS = [
         "format": "Reels/Shorts",
         "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
         "er": 16.95,
-        "eng": 13115,
-        "reach": 72623,
+        "eng": 13116,
+        "reach": 72632,
         "organic": 15,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-        "postedAt": "2026-10-26T13:33:00"
+        "postedAt": "2026-10-26T14:33:00"
       },
       {
         "id": "4008625389639110372",
@@ -6196,7 +6196,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
-        "postedAt": "2026-10-15T12:33:00"
+        "postedAt": "2026-10-15T13:33:00"
       },
       {
         "id": "urn:li:ugcPost:7529681990372081664",
@@ -6205,46 +6205,62 @@ window.CAMPAIGNS = [
         "platform": "LinkedIn",
         "format": "Feed video",
         "quote": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide\u2026",
-        "er": 5.18,
-        "eng": 391,
-        "reach": 6015,
+        "er": 4.95,
+        "eng": 470,
+        "reach": 9977,
         "organic": 100,
         "metric": "er",
         "insight": "",
         "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529681990372081664",
-        "postedAt": "2026-11-20T17:08:00"
+        "postedAt": "2026-11-20T18:08:00"
+      },
+      {
+        "id": "4034898520011881746",
+        "rank": 4,
+        "partner": "Just Ingredients",
+        "platform": "Instagram",
+        "format": "Reels/Shorts",
+        "quote": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide\u2026",
+        "er": 3.35,
+        "eng": 1180,
+        "reach": 35275,
+        "organic": 36,
+        "metric": "er",
+        "insight": "",
+        "url": "https://www.instagram.com/p/Df-1tN-Dr0S/",
+        "postedAt": "2026-11-20T18:33:00"
       },
       {
         "id": "4011600101781087647",
-        "rank": 4,
+        "rank": 5,
         "partner": "Just Ingredients",
         "platform": "Instagram",
         "format": "Reels/Shorts",
         "quote": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp\u2026",
         "er": 3.12,
         "eng": 4347,
-        "reach": 136826,
+        "reach": 136828,
         "organic": 11,
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DesEQnHlSWf/",
-        "postedAt": "2026-10-19T15:03:00"
+        "postedAt": "2026-10-19T16:03:00"
       },
       {
         "id": "urn:li:ugcPost:7516530023617470464",
-        "rank": 5,
+        "rank": 6,
         "partner": "Just Ingredients",
         "platform": "LinkedIn",
         "format": "Feed video",
         "quote": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet\u2026",
         "er": 2.8,
         "eng": 537,
-        "reach": 14408,
+        "reach": 14769,
         "organic": 100,
         "metric": "er",
         "insight": "",
         "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
-        "postedAt": "2026-10-15T15:30:00"
+        "postedAt": "2026-10-15T16:30:00"
       }
     ],
     "topPostsOrganic": [
@@ -6255,8 +6271,8 @@ window.CAMPAIGNS = [
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet\u2026",
-        "organicReach": 562055,
-        "totalReach": 1298753,
+        "organicReach": 562057,
+        "totalReach": 1298755,
         "organicPct": 43.3,
         "er": 0.08,
         "insight": "",
@@ -6269,8 +6285,8 @@ window.CAMPAIGNS = [
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp\u2026",
-        "organicReach": 460424,
-        "totalReach": 970594,
+        "organicReach": 460443,
+        "totalReach": 970613,
         "organicPct": 47.4,
         "er": 0.1,
         "insight": "",
@@ -6283,8 +6299,8 @@ window.CAMPAIGNS = [
         "platform": "TikTok",
         "format": "Reels/Shorts",
         "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-        "organicReach": 391622,
-        "totalReach": 894716,
+        "organicReach": 391625,
+        "totalReach": 894719,
         "organicPct": 43.8,
         "er": 0.22,
         "insight": "",
@@ -6297,8 +6313,8 @@ window.CAMPAIGNS = [
         "platform": "Facebook",
         "format": "Image post",
         "quote": "No one in NCAA softball history has ever thrown a pitch as fast as Karlyn Pickens. She set the\u2026",
-        "organicReach": 193158,
-        "totalReach": 495261,
+        "organicReach": 193163,
+        "totalReach": 495266,
         "organicPct": 39.0,
         "er": 0.9,
         "insight": "",
@@ -6307,11 +6323,12 @@ window.CAMPAIGNS = [
     ],
     "callouts": [
       {
-        "tag": "WATCH",
-        "kind": "warn",
-        "headline": "On pace to over-deliver \u2014 $4K (27%) of budget unspent with 0 days left.",
-        "body": "Impressions are 97% delivered while only 73% of budget has been spent \u2014 only 213K impressions left to hit goal. Pause boosting on the lowest-performing cutdowns once the impression goal hits to bank the surplus instead of overspending into already-delivered territory.",
-        "meta": "Just Ingredients \u00b7 Budget surplus"
+        "tag": "WIN",
+        "kind": "pos",
+        "milestone": true,
+        "headline": "Goal hit with $4K (24%) of budget still unspent.",
+        "body": "Delivered 107% of the 6.3M impression goal on only 76% of the $15K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+        "meta": "Just Ingredients \u00b7 Goal hit"
       }
     ],
     "brandxObjective": "",
@@ -6320,28 +6337,28 @@ window.CAMPAIGNS = [
       {
         "label": "Breaking Barriers \u2014 Static",
         "impressions": {
-          "delivered": 706883,
+          "delivered": 706888,
           "goal": 450000
         }
       },
       {
         "label": "Breaking Barriers \u2014 Video",
         "impressions": {
-          "delivered": 1777905,
+          "delivered": 1777937,
           "goal": 1250000
         }
       },
       {
         "label": "The Come Up \u2014 Static",
         "impressions": {
-          "delivered": 1006130,
+          "delivered": 1424129,
           "goal": 850000
         }
       },
       {
         "label": "The Come Up \u2014 Video",
         "impressions": {
-          "delivered": 2595743,
+          "delivered": 2819756,
           "goal": 3750000
         }
       }
@@ -6349,7 +6366,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-24T15:39:14Z"
+    "lastUpdatedExports": "2026-11-24T15:39:16Z"
   },
   {
     "id": "jlab_thecomeup",
@@ -7844,13 +7861,13 @@ window.TOP_POSTS = [
     "format": "Reels/Shorts",
     "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
     "er": 16.95,
-    "eng": 13115,
-    "reach": 72623,
+    "eng": 13116,
+    "reach": 72632,
     "organic": 15,
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-    "postedAt": "2026-10-26T13:33:00"
+    "postedAt": "2026-10-26T14:33:00"
   },
   {
     "id": "3999294042675348120",
@@ -7982,8 +7999,8 @@ window.TOP_POSTS_ORGANIC = [
     "platform": "TikTok",
     "format": "Reels/Shorts",
     "quote": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet\u2026",
-    "organicReach": 562055,
-    "totalReach": 1298753,
+    "organicReach": 562057,
+    "totalReach": 1298755,
     "organicPct": 43.3,
     "er": 0.08,
     "insight": "",
@@ -7996,8 +8013,8 @@ window.TOP_POSTS_ORGANIC = [
     "platform": "TikTok",
     "format": "Reels/Shorts",
     "quote": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp\u2026",
-    "organicReach": 460424,
-    "totalReach": 970594,
+    "organicReach": 460443,
+    "totalReach": 970613,
     "organicPct": 47.4,
     "er": 0.1,
     "insight": "",
@@ -8024,8 +8041,8 @@ window.TOP_POSTS_ORGANIC = [
     "platform": "TikTok",
     "format": "Reels/Shorts",
     "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won\u2026",
-    "organicReach": 391622,
-    "totalReach": 894716,
+    "organicReach": 391625,
+    "totalReach": 894719,
     "organicPct": 43.8,
     "er": 0.22,
     "insight": "",
@@ -8037,8 +8054,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 129917087,
-    "eng": 3084565,
+    "impressions": 129917429,
+    "eng": 3084578,
     "er": 2.37,
     "cpm": 1.13,
     "color": "#E00922",
@@ -8047,14 +8064,14 @@ window.CHANNELS = [
       "er": 20.0,
       "cpm": 3.5
     },
-    "organicImpressions": 15476,
-    "views": 26754280
+    "organicImpressions": 15818,
+    "views": 26754615
   },
   {
     "name": "TikTok",
     "italic": "Tok",
-    "impressions": 42951539,
-    "eng": 72329,
+    "impressions": 43149433,
+    "eng": 72408,
     "er": 0.17,
     "cpm": 1.97,
     "color": "#000000",
@@ -8063,14 +8080,14 @@ window.CHANNELS = [
       "er": 2.03,
       "cpm": 2.4
     },
-    "organicImpressions": 274347,
-    "views": 42399445
+    "organicImpressions": 368756,
+    "views": 42595964
   },
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 40981350,
-    "eng": 711668,
+    "impressions": 41034519,
+    "eng": 713528,
     "er": 1.74,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -8079,8 +8096,8 @@ window.CHANNELS = [
       "er": 3.31,
       "cpm": 5.1
     },
-    "organicImpressions": 117327,
-    "views": 38183244
+    "organicImpressions": 133336,
+    "views": 38223213
   },
   {
     "name": "X",
@@ -8101,8 +8118,8 @@ window.CHANNELS = [
   {
     "name": "Facebook",
     "italic": "book",
-    "impressions": 9030647,
-    "eng": 31225,
+    "impressions": 9076532,
+    "eng": 31411,
     "er": 0.35,
     "cpm": 3.71,
     "color": "#1877F2",
@@ -8111,24 +8128,24 @@ window.CHANNELS = [
       "er": 1.53,
       "cpm": 4.8
     },
-    "organicImpressions": 3030,
-    "views": 3848118
+    "organicImpressions": 4177,
+    "views": 3903885
   },
   {
     "name": "LinkedIn",
     "italic": "LinkedIn",
-    "impressions": 2959121,
-    "eng": 88870,
-    "er": 3.0,
+    "impressions": 3303880,
+    "eng": 91887,
+    "er": 2.78,
     "cpm": 8.66,
     "color": "#0A66C2",
-    "delta": -20.2,
+    "delta": -26.1,
     "bench": {
       "er": 3.76,
       "cpm": 0.0
     },
-    "organicImpressions": 218003,
-    "views": 1363419
+    "organicImpressions": 562762,
+    "views": 1375624
   },
   {
     "name": "Snapchat",
@@ -8254,6 +8271,16 @@ window.SIGNALS = [
     "meta": "Accenture \u00b7 Goal hit",
     "campaignId": "accenture_external_creator",
     "campaignPartner": "Accenture"
+  },
+  {
+    "tag": "WIN",
+    "kind": "pos",
+    "milestone": true,
+    "headline": "Goal hit with $4K (24%) of budget still unspent.",
+    "body": "Delivered 107% of the 6.3M impression goal on only 76% of the $15K budget \u2014 $4K in savings that can shift to other components of the campaign or be banked. Strong efficiency win; call it out in the partner update.",
+    "meta": "Just Ingredients \u00b7 Goal hit",
+    "campaignId": "just_ingredients_2026",
+    "campaignPartner": "Just Ingredients"
   }
 ];
 
@@ -25361,8 +25388,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Breaking Barriers \u2014 Karlyn Pickens",
       "date": "Sep 2026",
       "total": {
-        "impr": 706883,
-        "views": 557203,
+        "impr": 706888,
+        "views": 557208,
         "er": 1.5,
         "eng": 10629,
         "spend": 1448.58
@@ -25371,10 +25398,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 493505,
+          "impr": 493510,
           "paidImpr": 300347,
-          "orgImpr": 193158,
-          "views": 495261,
+          "orgImpr": 193163,
+          "views": 495266,
           "eng": 4443,
           "paidEng": 0,
           "orgEng": 4443,
@@ -25428,22 +25455,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.18,
           "spend": 665.0,
           "url": "https://www.instagram.com/p/DePlY1GHRtQ/",
-          "postedAt": "2026-10-08T13:31:00"
+          "postedAt": "2026-10-08T14:31:00"
         },
         {
           "title": "No one in NCAA softball history has ever thrown a pitch as fast as Karlyn Pickens.  She set the record at 78.2 mph in Ma",
           "platform": "Facebook",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 493505,
+          "impr": 493510,
           "paidImpr": 300347,
-          "orgImpr": 193158,
-          "views": 495261,
+          "orgImpr": 193163,
+          "views": 495266,
           "eng": 4443,
           "er": 0.9,
           "spend": 783.58,
           "url": "https://www.facebook.com/1604316345041283/",
-          "postedAt": "2026-10-08T13:36:00"
+          "postedAt": "2026-10-08T14:36:00"
         },
         {
           "title": "Karlyn Pickens holds the NCAA record for the fastest pitch ever recorded\u201479.4 mph, set by breaking her own previous mark",
@@ -25458,7 +25485,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.81,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:share:7514024176131690497",
-          "postedAt": "2026-10-08T15:30:00"
+          "postedAt": "2026-10-08T16:30:00"
         }
       ],
       "topPosts": [],
@@ -25479,8 +25506,8 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "Breaking Barriers \u2014 Dearica Hamby",
       "date": "Sep 2026",
       "total": {
-        "impr": 1777905,
-        "views": 1749600,
+        "impr": 1777937,
+        "views": 1749964,
         "er": 3.96,
         "eng": 70485,
         "spend": 3315.15
@@ -25489,10 +25516,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "TikTok",
           "distKind": "organic+boosted",
-          "impr": 1319288,
+          "impr": 1319290,
           "paidImpr": 757233,
-          "orgImpr": 562055,
-          "views": 1298753,
+          "orgImpr": 562057,
+          "views": 1298755,
           "eng": 1051,
           "paidEng": 3398,
           "orgEng": 128,
@@ -25504,10 +25531,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 320226,
+          "impr": 320257,
           "paidImpr": 318189,
-          "orgImpr": 2037,
-          "views": 318858,
+          "orgImpr": 2068,
+          "views": 318859,
           "eng": 60357,
           "paidEng": 59946,
           "orgEng": 411,
@@ -25534,10 +25561,10 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 19165,
+          "impr": 19164,
           "paidImpr": 0,
-          "orgImpr": 19165,
-          "views": 14408,
+          "orgImpr": 19164,
+          "views": 14769,
           "eng": 537,
           "paidEng": 0,
           "orgEng": 537,
@@ -25553,30 +25580,30 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 1319288,
+          "impr": 1319290,
           "paidImpr": 757233,
-          "orgImpr": 562055,
-          "views": 1298753,
+          "orgImpr": 562057,
+          "views": 1298755,
           "eng": 1051,
           "er": 0.08,
           "spend": 1409.0,
           "url": "https://tiktok.com/@frontofficesports/video/7696926297116937485",
-          "postedAt": "2026-10-15T12:30:00"
+          "postedAt": "2026-10-15T13:30:00"
         },
         {
           "title": "This WNBA player won a championship then announced she was pregnant, and everything changed.",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 320226,
+          "impr": 320257,
           "paidImpr": 318189,
-          "orgImpr": 2037,
-          "views": 318858,
+          "orgImpr": 2068,
+          "views": 318859,
           "eng": 60357,
           "er": 18.85,
           "spend": 1236.15,
           "url": "https://www.youtube.com/shorts/IXp2DUsENVw",
-          "postedAt": "2026-10-15T12:30:00"
+          "postedAt": "2026-10-15T13:30:00"
         },
         {
           "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
@@ -25591,22 +25618,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 7.16,
           "spend": 670.0,
           "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
-          "postedAt": "2026-10-15T12:33:00"
+          "postedAt": "2026-10-15T13:33:00"
         },
         {
           "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 19165,
+          "impr": 19164,
           "paidImpr": 0,
-          "orgImpr": 19165,
-          "views": 14408,
+          "orgImpr": 19164,
+          "views": 14769,
           "eng": 537,
           "er": 2.8,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
-          "postedAt": "2026-10-15T15:30:00"
+          "postedAt": "2026-10-15T16:30:00"
         }
       ],
       "topPosts": [
@@ -25621,7 +25648,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "quote": "This WNBA player won a championship then announced she was pregnant, and everything change",
           "platform": "LinkedIn",
           "er": 2.8,
-          "reach": 14408,
+          "reach": 14769,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464"
         }
       ],
@@ -25642,56 +25669,56 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Come Up \u2014 AJ Green & Reed Blankenship",
       "date": "TBD",
       "total": {
-        "impr": 1006130,
-        "views": 438764,
-        "er": 0.89,
-        "eng": 8976,
-        "spend": 1642.66
+        "impr": 1424129,
+        "views": 511101,
+        "er": 0.91,
+        "eng": 12979,
+        "spend": 1815.13
       },
       "perChannel": [
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 362204,
+          "impr": 705005,
           "paidImpr": 0,
-          "orgImpr": 362204,
+          "orgImpr": 705005,
           "views": 0,
-          "eng": 5950,
+          "eng": 8888,
           "paidEng": 0,
-          "orgEng": 5950,
-          "er": 1.64,
+          "orgEng": 8888,
+          "er": 1.26,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 2
         },
         {
-          "name": "Instagram",
+          "name": "Facebook",
           "distKind": "organic+boosted",
-          "impr": 328508,
-          "paidImpr": 207469,
-          "orgImpr": 121039,
-          "views": 121039,
-          "eng": 2416,
+          "impr": 361298,
+          "paidImpr": 346719,
+          "orgImpr": 14579,
+          "views": 373487,
+          "eng": 796,
           "paidEng": 0,
-          "orgEng": 2126,
-          "er": 0.74,
-          "cpm": 3.77,
-          "spend": 782.0,
+          "orgEng": 796,
+          "er": 0.22,
+          "cpm": 2.77,
+          "spend": 960.13,
           "posts": 2
         },
         {
-          "name": "Facebook",
+          "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 315418,
-          "paidImpr": 301981,
-          "orgImpr": 13437,
-          "views": 317725,
-          "eng": 610,
+          "impr": 357826,
+          "paidImpr": 221463,
+          "orgImpr": 136363,
+          "views": 137614,
+          "eng": 3295,
           "paidEng": 0,
-          "orgEng": 610,
-          "er": 0.19,
-          "cpm": 2.85,
-          "spend": 860.66,
+          "orgEng": 2314,
+          "er": 0.92,
+          "cpm": 3.86,
+          "spend": 855.0,
           "posts": 2
         }
       ],
@@ -25709,22 +25736,22 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.58,
           "spend": 782.0,
           "url": "https://www.instagram.com/p/DezoXyYldLo/",
-          "postedAt": "2026-10-22T15:30:00"
+          "postedAt": "2026-10-22T16:30:00"
         },
         {
           "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 182652,
+          "impr": 182656,
           "paidImpr": 0,
-          "orgImpr": 182652,
+          "orgImpr": 182656,
           "views": 0,
           "eng": 3587,
           "er": 1.96,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121",
-          "postedAt": "2026-10-22T15:30:00"
+          "postedAt": "2026-10-22T16:30:00"
         },
         {
           "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
@@ -25739,59 +25766,59 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.19,
           "spend": 860.66,
           "url": "https://www.facebook.com/1618801963592721/",
-          "postedAt": "2026-10-22T15:42:00"
+          "postedAt": "2026-10-22T16:42:00"
         },
         {
           "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 179552,
+          "impr": 522349,
           "paidImpr": 0,
-          "orgImpr": 179552,
+          "orgImpr": 522349,
           "views": 0,
-          "eng": 2363,
-          "er": 1.32,
+          "eng": 5301,
+          "er": 1.01,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:share:7529591827616858112",
-          "postedAt": "2026-11-22T11:00:00"
+          "postedAt": "2026-11-22T12:00:00"
         },
         {
           "title": "Reed Blankenship passed on the 2021 NFL Draft to return to Middle Tennessee. Nobody drafted him in 2022. This year, he s",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 47610,
-          "paidImpr": 0,
-          "orgImpr": 47610,
-          "views": 47610,
-          "eng": 784,
-          "er": 1.65,
-          "spend": 0,
+          "distKind": "organic+boosted",
+          "impr": 76928,
+          "paidImpr": 13994,
+          "orgImpr": 62934,
+          "views": 64185,
+          "eng": 1663,
+          "er": 2.16,
+          "spend": 73.0,
           "url": "https://www.instagram.com/p/DgDZmFmFV1U/",
-          "postedAt": "2026-11-22T12:00:00"
+          "postedAt": "2026-11-22T13:00:00"
         },
         {
           "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
           "platform": "Facebook",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 2801,
-          "paidImpr": 0,
-          "orgImpr": 2801,
-          "views": 2801,
-          "eng": 13,
-          "er": 0.46,
-          "spend": 0,
+          "distKind": "organic+boosted",
+          "impr": 48681,
+          "paidImpr": 44738,
+          "orgImpr": 3943,
+          "views": 58563,
+          "eng": 199,
+          "er": 0.41,
+          "spend": 99.47,
           "url": "https://www.facebook.com/1653713863434864/",
-          "postedAt": "2026-11-22T12:00:00"
+          "postedAt": "2026-11-22T13:00:00"
         }
       ],
       "topPosts": [],
       "callouts": [
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 362.2K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 705.0K impr."
         }
       ],
       "impressionGoal": 850000
@@ -25801,38 +25828,38 @@ window.EPISODES_BY_CAMPAIGN = {
       "title": "The Come Up \u2014 McAvoy, Stafford, Smith",
       "date": "Sep 2026",
       "total": {
-        "impr": 2595743,
-        "views": 2544109,
-        "er": 2.14,
-        "eng": 55674,
-        "spend": 4336.72
+        "impr": 2819756,
+        "views": 2776198,
+        "er": 2.02,
+        "eng": 56826,
+        "spend": 4660.72
       },
       "perChannel": [
         {
           "name": "TikTok",
           "distKind": "organic+boosted",
-          "impr": 1893743,
-          "paidImpr": 1041393,
-          "orgImpr": 852350,
-          "views": 1865614,
-          "eng": 2938,
-          "paidEng": 5477,
-          "orgEng": 810,
-          "er": 0.16,
-          "cpm": 1.55,
-          "spend": 1609.0,
+          "impr": 2091635,
+          "paidImpr": 1144878,
+          "orgImpr": 946757,
+          "views": 2062131,
+          "eng": 3017,
+          "paidEng": 5756,
+          "orgEng": 841,
+          "er": 0.14,
+          "cpm": 1.57,
+          "spend": 1802.0,
           "posts": 3
         },
         {
           "name": "YouTube Shorts",
           "distKind": "organic+boosted",
-          "impr": 433643,
+          "impr": 433954,
           "paidImpr": 431093,
-          "orgImpr": 2550,
-          "views": 383344,
-          "eng": 34274,
+          "orgImpr": 2861,
+          "views": 383678,
+          "eng": 34287,
           "paidEng": 33998,
-          "orgEng": 276,
+          "orgEng": 289,
           "er": 7.9,
           "cpm": 3.62,
           "spend": 1562.71,
@@ -25841,29 +25868,29 @@ window.EPISODES_BY_CAMPAIGN = {
         {
           "name": "Instagram",
           "distKind": "organic+boosted",
-          "impr": 228782,
-          "paidImpr": 191423,
-          "orgImpr": 37359,
-          "views": 221341,
-          "eng": 17662,
+          "impr": 252633,
+          "paidImpr": 214589,
+          "orgImpr": 38044,
+          "views": 244735,
+          "eng": 18643,
           "paidEng": 2568,
-          "orgEng": 1092,
-          "er": 7.72,
-          "cpm": 6.09,
-          "spend": 1165.01,
+          "orgEng": 1096,
+          "er": 7.38,
+          "cpm": 6.04,
+          "spend": 1296.01,
           "posts": 3
         },
         {
           "name": "LinkedIn",
           "distKind": "organic",
-          "impr": 39575,
+          "impr": 41534,
           "paidImpr": 0,
-          "orgImpr": 39575,
-          "views": 73810,
-          "eng": 800,
+          "orgImpr": 41534,
+          "views": 85654,
+          "eng": 879,
           "paidEng": 0,
-          "orgEng": 800,
-          "er": 2.02,
+          "orgEng": 879,
+          "er": 2.12,
           "cpm": 0.0,
           "spend": 0.0,
           "posts": 3
@@ -25875,45 +25902,45 @@ window.EPISODES_BY_CAMPAIGN = {
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 139509,
+          "impr": 139511,
           "paidImpr": 125134,
-          "orgImpr": 14375,
-          "views": 136826,
+          "orgImpr": 14377,
+          "views": 136828,
           "eng": 4347,
           "er": 3.12,
           "spend": 582.85,
           "url": "https://www.instagram.com/p/DesEQnHlSWf/",
-          "postedAt": "2026-10-19T15:03:00"
+          "postedAt": "2026-10-19T16:03:00"
         },
         {
           "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story. Presented by @Just",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 981067,
+          "impr": 981086,
           "paidImpr": 520643,
-          "orgImpr": 460424,
-          "views": 970594,
-          "eng": 1004,
+          "orgImpr": 460443,
+          "views": 970613,
+          "eng": 1007,
           "er": 0.1,
           "spend": 804.0,
           "url": "https://tiktok.com/@frontofficesports/video/7698372281726274830",
-          "postedAt": "2026-10-19T15:30:00"
+          "postedAt": "2026-10-19T16:30:00"
         },
         {
           "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 199770,
+          "impr": 199773,
           "paidImpr": 198604,
-          "orgImpr": 1166,
+          "orgImpr": 1169,
           "views": 197437,
           "eng": 15803,
           "er": 7.91,
           "spend": 709.15,
           "url": "https://www.youtube.com/shorts/pVTqIH5z5TA",
-          "postedAt": "2026-10-19T15:30:00"
+          "postedAt": "2026-10-19T16:30:00"
         },
         {
           "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.  Presented by Just",
@@ -25923,42 +25950,42 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 13791,
           "paidImpr": 0,
           "orgImpr": 13791,
-          "views": 14878,
+          "views": 15199,
           "eng": 142,
           "er": 1.03,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7517939051824345089",
-          "postedAt": "2026-10-19T15:30:00"
+          "postedAt": "2026-10-19T16:30:00"
         },
         {
           "title": "Matthew Stafford took his HS to a 15-0 season, was drafted No. 1 overall in 2009, and won SB LVI.",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 178730,
+          "impr": 178746,
           "paidImpr": 177612,
-          "orgImpr": 1118,
-          "views": 185286,
-          "eng": 17513,
+          "orgImpr": 1134,
+          "views": 185288,
+          "eng": 17512,
           "er": 9.8,
           "spend": 710.25,
           "url": "https://www.youtube.com/shorts/pi_iobeoPB0",
-          "postedAt": "2026-10-26T11:00:00"
+          "postedAt": "2026-10-26T12:00:00"
         },
         {
           "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 77381,
+          "impr": 77390,
           "paidImpr": 66289,
-          "orgImpr": 11092,
-          "views": 72623,
-          "eng": 13115,
+          "orgImpr": 11101,
+          "views": 72632,
+          "eng": 13116,
           "er": 16.95,
           "spend": 582.16,
           "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-          "postedAt": "2026-10-26T13:33:00"
+          "postedAt": "2026-10-26T14:33:00"
         },
         {
           "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -25968,87 +25995,87 @@ window.EPISODES_BY_CAMPAIGN = {
           "impr": 18241,
           "paidImpr": 0,
           "orgImpr": 18241,
-          "views": 52917,
+          "views": 60478,
           "eng": 267,
           "er": 1.46,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520558288988536832",
-          "postedAt": "2026-10-26T13:53:00"
+          "postedAt": "2026-10-26T14:53:00"
         },
         {
           "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 912372,
+          "impr": 912375,
           "paidImpr": 520750,
-          "orgImpr": 391622,
-          "views": 894716,
+          "orgImpr": 391625,
+          "views": 894719,
           "eng": 1924,
           "er": 0.21,
           "spend": 805.0,
           "url": "https://tiktok.com/@frontofficesports/video/7701074129377594637",
-          "postedAt": "2026-10-26T16:00:00"
+          "postedAt": "2026-10-26T17:00:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver",
           "platform": "YouTube Shorts",
           "accountName": "Front Office Sports",
           "distKind": "organic+boosted",
-          "impr": 55143,
+          "impr": 55435,
           "paidImpr": 54877,
-          "orgImpr": 266,
-          "views": 621,
-          "eng": 958,
-          "er": 1.74,
+          "orgImpr": 558,
+          "views": 953,
+          "eng": 972,
+          "er": 1.75,
           "spend": 143.31,
           "url": "https://www.youtube.com/shorts/7xhVnh4y0uE",
-          "postedAt": "2026-11-20T14:58:00"
+          "postedAt": "2026-11-20T15:58:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
           "platform": "TikTok",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 304,
-          "paidImpr": 0,
-          "orgImpr": 304,
-          "views": 304,
-          "eng": 10,
-          "er": 3.29,
-          "spend": 0,
+          "distKind": "organic+boosted",
+          "impr": 198174,
+          "paidImpr": 103485,
+          "orgImpr": 94689,
+          "views": 196799,
+          "eng": 86,
+          "er": 0.04,
+          "spend": 193.0,
           "url": "https://tiktok.com/@frontofficesports/video/7710393729038748942",
-          "postedAt": "2026-11-20T17:05:00"
+          "postedAt": "2026-11-20T18:05:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
           "platform": "LinkedIn",
           "accountName": "Front Office Sports",
           "distKind": "organic",
-          "impr": 7543,
+          "impr": 9502,
           "paidImpr": 0,
-          "orgImpr": 7543,
-          "views": 6015,
-          "eng": 391,
-          "er": 5.18,
+          "orgImpr": 9502,
+          "views": 9977,
+          "eng": 470,
+          "er": 4.95,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529681990372081664",
-          "postedAt": "2026-11-20T17:08:00"
+          "postedAt": "2026-11-20T18:08:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
           "platform": "Instagram",
           "accountName": "Front Office Sports",
-          "distKind": "organic",
-          "impr": 11892,
-          "paidImpr": 0,
-          "orgImpr": 11892,
-          "views": 11892,
-          "eng": 200,
-          "er": 1.68,
-          "spend": 0,
+          "distKind": "organic+boosted",
+          "impr": 35732,
+          "paidImpr": 23166,
+          "orgImpr": 12566,
+          "views": 35275,
+          "eng": 1180,
+          "er": 3.3,
+          "spend": 131.0,
           "url": "https://www.instagram.com/p/Df-1tN-Dr0S/",
-          "postedAt": "2026-11-20T17:33:00"
+          "postedAt": "2026-11-20T18:33:00"
         }
       ],
       "topPosts": [
@@ -26056,25 +26083,25 @@ window.EPISODES_BY_CAMPAIGN = {
           "quote": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009,",
           "platform": "Instagram",
           "er": 16.95,
-          "reach": 72623,
+          "reach": 72632,
           "url": "https://www.instagram.com/p/De97gIHD6Cd/"
         },
         {
           "quote": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide",
           "platform": "LinkedIn",
-          "er": 5.18,
-          "reach": 6015,
+          "er": 4.95,
+          "reach": 9977,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529681990372081664"
         }
       ],
       "callouts": [
         {
           "kind": "pos",
-          "text": "Instagram leading with 7.7% ER on 228.8K impr."
+          "text": "Instagram leading with 7.4% ER on 252.6K impr."
         },
         {
           "kind": "pos",
-          "text": "LinkedIn resonating \u2014 100% organic share on 39.6K impr."
+          "text": "LinkedIn resonating \u2014 100% organic share on 41.5K impr."
         }
       ],
       "impressionGoal": 3750000
@@ -46391,17 +46418,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DePlY1GHRtQ/",
-      "postedAt": "2026-10-08T13:31:00"
+      "postedAt": "2026-10-08T14:31:00"
     },
     {
       "title": "No one in NCAA softball history has ever thrown a pitch as fast as Karlyn Pickens.  She set the record at 78.2 mph in Ma",
       "platform": "Facebook",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 493505,
+      "impr": 493510,
       "paidImpr": 300347,
-      "orgImpr": 193158,
-      "views": 495261,
+      "orgImpr": 193163,
+      "views": 495266,
       "reach": 0,
       "eng": 4443,
       "er": 0.9,
@@ -46414,7 +46441,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1604316345041283/",
-      "postedAt": "2026-10-08T13:36:00"
+      "postedAt": "2026-10-08T14:36:00"
     },
     {
       "title": "Karlyn Pickens holds the NCAA record for the fastest pitch ever recorded\u201479.4 mph, set by breaking her own previous mark",
@@ -46437,18 +46464,18 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7514024176131690497",
-      "postedAt": "2026-10-08T15:30:00"
+      "postedAt": "2026-10-08T16:30:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 1319288,
+      "impr": 1319290,
       "paidImpr": 757233,
-      "orgImpr": 562055,
-      "views": 1298753,
-      "reach": 695564,
+      "orgImpr": 562057,
+      "views": 1298755,
+      "reach": 695565,
       "eng": 1051,
       "er": 0.08,
       "spend": 1409.0,
@@ -46460,17 +46487,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7696926297116937485",
-      "postedAt": "2026-10-15T12:30:00"
+      "postedAt": "2026-10-15T13:30:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 320226,
+      "impr": 320257,
       "paidImpr": 318189,
-      "orgImpr": 2037,
-      "views": 318858,
+      "orgImpr": 2068,
+      "views": 318859,
       "reach": 0,
       "eng": 60357,
       "er": 18.85,
@@ -46483,7 +46510,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/IXp2DUsENVw",
-      "postedAt": "2026-10-15T12:30:00"
+      "postedAt": "2026-10-15T13:30:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
@@ -46506,17 +46533,17 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
-      "postedAt": "2026-10-15T12:33:00"
+      "postedAt": "2026-10-15T13:33:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 19165,
+      "impr": 19164,
       "paidImpr": 0,
-      "orgImpr": 19165,
-      "views": 14408,
+      "orgImpr": 19164,
+      "views": 14769,
       "reach": 0,
       "eng": 537,
       "er": 2.8,
@@ -46529,7 +46556,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
-      "postedAt": "2026-10-15T15:30:00"
+      "postedAt": "2026-10-15T16:30:00"
     },
     {
       "title": "AJ Green went from undrafted to a $45 million contract extension and two Bucks franchise records. #TheComeUp  Presented ",
@@ -46552,16 +46579,16 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DezoXyYldLo/",
-      "postedAt": "2026-10-22T15:30:00"
+      "postedAt": "2026-10-22T16:30:00"
     },
     {
       "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 182652,
+      "impr": 182656,
       "paidImpr": 0,
-      "orgImpr": 182652,
+      "orgImpr": 182656,
       "views": 0,
       "reach": 0,
       "eng": 3587,
@@ -46575,7 +46602,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121",
-      "postedAt": "2026-10-22T15:30:00"
+      "postedAt": "2026-10-22T16:30:00"
     },
     {
       "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
@@ -46598,20 +46625,20 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1618801963592721/",
-      "postedAt": "2026-10-22T15:42:00"
+      "postedAt": "2026-10-22T16:42:00"
     },
     {
       "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 179552,
+      "impr": 522349,
       "paidImpr": 0,
-      "orgImpr": 179552,
+      "orgImpr": 522349,
       "views": 0,
       "reach": 0,
-      "eng": 2363,
-      "er": 1.32,
+      "eng": 5301,
+      "er": 1.01,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -46621,63 +46648,63 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7529591827616858112",
-      "postedAt": "2026-11-22T11:00:00"
+      "postedAt": "2026-11-22T12:00:00"
     },
     {
       "title": "Reed Blankenship passed on the 2021 NFL Draft to return to Middle Tennessee. Nobody drafted him in 2022. This year, he s",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 47610,
-      "paidImpr": 0,
-      "orgImpr": 47610,
-      "views": 47610,
-      "reach": 22295,
-      "eng": 784,
-      "er": 1.65,
-      "spend": 0,
+      "distKind": "organic+boosted",
+      "impr": 76928,
+      "paidImpr": 13994,
+      "orgImpr": 62934,
+      "views": 64185,
+      "reach": 42620,
+      "eng": 1663,
+      "er": 2.16,
+      "spend": 73.0,
       "watchTimeMin": null,
       "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
+      "ctr": 0.96,
+      "cpc": 0.54,
+      "cpm": 5.22,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DgDZmFmFV1U/",
-      "postedAt": "2026-11-22T12:00:00"
+      "postedAt": "2026-11-22T13:00:00"
     },
     {
       "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
       "platform": "Facebook",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 2801,
-      "paidImpr": 0,
-      "orgImpr": 2801,
-      "views": 2801,
+      "distKind": "organic+boosted",
+      "impr": 48681,
+      "paidImpr": 44738,
+      "orgImpr": 3943,
+      "views": 58563,
       "reach": 0,
-      "eng": 13,
-      "er": 0.46,
-      "spend": 0,
+      "eng": 199,
+      "er": 0.41,
+      "spend": 99.47,
       "watchTimeMin": null,
-      "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
+      "clicks": 0,
+      "ctr": 6.6,
+      "cpc": 0.03,
+      "cpm": 2.22,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1653713863434864/",
-      "postedAt": "2026-11-22T12:00:00"
+      "postedAt": "2026-11-22T13:00:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.\u2060 \u2060 Presented by @j",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 139509,
+      "impr": 139511,
       "paidImpr": 125134,
-      "orgImpr": 14375,
-      "views": 136826,
+      "orgImpr": 14377,
+      "views": 136828,
       "reach": 99117,
       "eng": 4347,
       "er": 3.12,
@@ -46690,22 +46717,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DesEQnHlSWf/",
-      "postedAt": "2026-10-19T15:03:00"
+      "postedAt": "2026-10-19T16:03:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story. Presented by @Just",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 981067,
+      "impr": 981086,
       "paidImpr": 520643,
-      "orgImpr": 460424,
-      "views": 970594,
+      "orgImpr": 460443,
+      "views": 970613,
       "reach": 505654,
-      "eng": 1004,
+      "eng": 1007,
       "er": 0.1,
       "spend": 804.0,
-      "watchTimeMin": 25174.6,
+      "watchTimeMin": 25178.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -46713,16 +46740,16 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7698372281726274830",
-      "postedAt": "2026-10-19T15:30:00"
+      "postedAt": "2026-10-19T16:30:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 199770,
+      "impr": 199773,
       "paidImpr": 198604,
-      "orgImpr": 1166,
+      "orgImpr": 1169,
       "views": 197437,
       "reach": 0,
       "eng": 15803,
@@ -46736,7 +46763,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/pVTqIH5z5TA",
-      "postedAt": "2026-10-19T15:30:00"
+      "postedAt": "2026-10-19T16:30:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.  Presented by Just",
@@ -46746,7 +46773,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 13791,
       "paidImpr": 0,
       "orgImpr": 13791,
-      "views": 14878,
+      "views": 15199,
       "reach": 0,
       "eng": 142,
       "er": 1.03,
@@ -46759,22 +46786,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7517939051824345089",
-      "postedAt": "2026-10-19T15:30:00"
+      "postedAt": "2026-10-19T16:30:00"
     },
     {
       "title": "Matthew Stafford took his HS to a 15-0 season, was drafted No. 1 overall in 2009, and won SB LVI.",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 178730,
+      "impr": 178746,
       "paidImpr": 177612,
-      "orgImpr": 1118,
-      "views": 185286,
+      "orgImpr": 1134,
+      "views": 185288,
       "reach": 0,
-      "eng": 17513,
+      "eng": 17512,
       "er": 9.8,
       "spend": 710.25,
-      "watchTimeMin": 25368.5,
+      "watchTimeMin": 25369.9,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -46782,19 +46809,19 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/pi_iobeoPB0",
-      "postedAt": "2026-10-26T11:00:00"
+      "postedAt": "2026-10-26T12:00:00"
     },
     {
       "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 77381,
+      "impr": 77390,
       "paidImpr": 66289,
-      "orgImpr": 11092,
-      "views": 72623,
+      "orgImpr": 11101,
+      "views": 72632,
       "reach": 58431,
-      "eng": 13115,
+      "eng": 13116,
       "er": 16.95,
       "spend": 582.16,
       "watchTimeMin": null,
@@ -46805,7 +46832,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-      "postedAt": "2026-10-26T13:33:00"
+      "postedAt": "2026-10-26T14:33:00"
     },
     {
       "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -46815,7 +46842,7 @@ window.POSTS_BY_CAMPAIGN = {
       "impr": 18241,
       "paidImpr": 0,
       "orgImpr": 18241,
-      "views": 52917,
+      "views": 60478,
       "reach": 0,
       "eng": 267,
       "er": 1.46,
@@ -46828,22 +46855,22 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520558288988536832",
-      "postedAt": "2026-10-26T13:53:00"
+      "postedAt": "2026-10-26T14:53:00"
     },
     {
       "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 912372,
+      "impr": 912375,
       "paidImpr": 520750,
-      "orgImpr": 391622,
-      "views": 894716,
+      "orgImpr": 391625,
+      "views": 894719,
       "reach": 493636,
       "eng": 1924,
       "er": 0.21,
       "spend": 805.0,
-      "watchTimeMin": 36593.4,
+      "watchTimeMin": 36595.2,
       "clicks": null,
       "ctr": 0.0,
       "cpc": 0.0,
@@ -46851,66 +46878,66 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7701074129377594637",
-      "postedAt": "2026-10-26T16:00:00"
+      "postedAt": "2026-10-26T17:00:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver",
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "organic+boosted",
-      "impr": 55143,
+      "impr": 55435,
       "paidImpr": 54877,
-      "orgImpr": 266,
-      "views": 621,
+      "orgImpr": 558,
+      "views": 953,
       "reach": 0,
-      "eng": 958,
-      "er": 1.74,
+      "eng": 972,
+      "er": 1.75,
       "spend": 143.31,
-      "watchTimeMin": 123.0,
+      "watchTimeMin": 229.2,
       "clicks": null,
-      "ctr": null,
-      "cpc": null,
+      "ctr": 1.34,
+      "cpc": 1.89,
       "cpm": 2.61,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/7xhVnh4y0uE",
-      "postedAt": "2026-11-20T14:58:00"
+      "postedAt": "2026-11-20T15:58:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
       "platform": "TikTok",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 304,
-      "paidImpr": 0,
-      "orgImpr": 304,
-      "views": 304,
-      "reach": 247,
-      "eng": 10,
-      "er": 3.29,
-      "spend": 0,
-      "watchTimeMin": 32.6,
+      "distKind": "organic+boosted",
+      "impr": 198174,
+      "paidImpr": 103485,
+      "orgImpr": 94689,
+      "views": 196799,
+      "reach": 265,
+      "eng": 86,
+      "er": 0.04,
+      "spend": 193.0,
+      "watchTimeMin": 2739.3,
       "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
+      "ctr": 0.0,
+      "cpc": 0.0,
+      "cpm": 1.87,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7710393729038748942",
-      "postedAt": "2026-11-20T17:05:00"
+      "postedAt": "2026-11-20T18:05:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
       "platform": "LinkedIn",
       "accountName": "Front Office Sports",
       "distKind": "organic",
-      "impr": 7543,
+      "impr": 9502,
       "paidImpr": 0,
-      "orgImpr": 7543,
-      "views": 6015,
+      "orgImpr": 9502,
+      "views": 9977,
       "reach": 0,
-      "eng": 391,
-      "er": 5.18,
+      "eng": 470,
+      "er": 4.95,
       "spend": 0,
       "watchTimeMin": null,
       "clicks": null,
@@ -46920,30 +46947,30 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529681990372081664",
-      "postedAt": "2026-11-20T17:08:00"
+      "postedAt": "2026-11-20T18:08:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
       "platform": "Instagram",
       "accountName": "Front Office Sports",
-      "distKind": "organic",
-      "impr": 11892,
-      "paidImpr": 0,
-      "orgImpr": 11892,
-      "views": 11892,
-      "reach": 9331,
-      "eng": 200,
-      "er": 1.68,
-      "spend": 0,
+      "distKind": "organic+boosted",
+      "impr": 35732,
+      "paidImpr": 23166,
+      "orgImpr": 12566,
+      "views": 35275,
+      "reach": 31000,
+      "eng": 1180,
+      "er": 3.3,
+      "spend": 131.0,
       "watchTimeMin": null,
       "clicks": null,
-      "ctr": null,
-      "cpc": null,
-      "cpm": null,
+      "ctr": 0.14,
+      "cpc": 4.09,
+      "cpm": 5.65,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Df-1tN-Dr0S/",
-      "postedAt": "2026-11-20T17:33:00"
+      "postedAt": "2026-11-20T18:33:00"
     }
   ],
   "jlab_thecomeup": [
@@ -48972,6 +48999,10 @@ window.PULSE_STATE = {
       "date": "2026-10-27"
     },
     {
+      "id": "just_ingredients_2026",
+      "date": "2026-11-24"
+    },
+    {
       "id": "microsoft",
       "date": "2026-09-01"
     },
@@ -49724,7 +49755,7 @@ window.DATA_ARCHIVE = [
     "sourceKind": "measure_studio",
     "sourceLabel": "Measure Studio",
     "filename": "just_ingredients_2026_ms.csv",
-    "fileSizeKb": 20.1,
+    "fileSizeKb": 20.4,
     "lastModified": "2026-11-24",
     "exists": true,
     "postsContributed": 25
