@@ -2356,22 +2356,66 @@ campaigns:
     lifecycle: active
     flight_start: 2026-11-25
     flight_end: 2026-12-31
-    impression_goal: 30000000
+    impression_goal: 27000000
     budget_goal: 40000
     color: ft-1
     lead_format: Longform Video
     sources:
       other:
         - State Farm - Measure - 11.25.csv
+    # Goals: 2 longform videos (12M each) + a made-for-social cut for each
+    # (1.5M each) = 27M. The Kristyn Cook added-value episode + cutdown has no
+    # contracted goal, so its card is tracked (counts toward total) only.
+    pacing_components:
+      - label: "Justin Tuck — Longform Video"
+        impression_goal: 12_000_000
+        episode_ids: [tuck_long]
+      - label: "Brandon Copeland — Longform Video"
+        impression_goal: 12_000_000
+        episode_ids: [copeland_long]
+      - label: "Justin Tuck — Made for Social Cut"
+        impression_goal: 1_500_000
+        episode_ids: [tuck_social]
+      - label: "Brandon Copeland — Made for Social Cut"
+        impression_goal: 1_500_000
+        episode_ids: [copeland_social]
+      - label: "Added Value — Kristyn Cook (Episode + Cutdown)"
+        impression_goal: 0
+        episode_ids: [cook_added]
     episodes:
-      - id: ep1
+      - id: tuck_long
         n: Ep 01
         title: How Justin Tuck Went From the New York Giants to Goldman Sachs
         date: Nov 25
         match: [Justin Tuck]
         exclude: []
-      - id: ep2
+        impression_goal: 12_000_000
+      - id: copeland_long
         n: Ep 02
         title: Brandon Copeland
         match: [Brandon Copeland]
+        exclude: []
+        impression_goal: 12_000_000
+      # Made-for-social cuts: no keyword match on purpose (the cut shares the
+      # guest's name with the longform, so name matching would land it in the
+      # longform card). Pin each cut by native post id in manual_posts once
+      # the cut is live in Measure.
+      - id: tuck_social
+        n: Cut 01
+        title: Justin Tuck — Made for Social Cut
+        match: []
+        exclude: []
+        manual_posts: []
+        impression_goal: 1_500_000
+      - id: copeland_social
+        n: Cut 02
+        title: Brandon Copeland — Made for Social Cut
+        match: []
+        exclude: []
+        manual_posts: []
+        impression_goal: 1_500_000
+      - id: cook_added
+        n: Added Value
+        title: Kristyn Cook — Added Value Episode + Cutdown
+        match: [Kristyn Cook]
         exclude: []
