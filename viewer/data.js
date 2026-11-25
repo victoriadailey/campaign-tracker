@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-25T20:26:25Z";
+window.LAST_REFRESHED = "2026-11-25T20:30:13Z";
 
 
 
@@ -7913,7 +7913,7 @@ window.CAMPAIGNS = [
     "statusKind": "on",
     "impressions": {
       "delivered": 0,
-      "goal": 30000000
+      "goal": 27000000
     },
     "budget": {
       "delivered": 0,
@@ -7938,7 +7938,43 @@ window.CAMPAIGNS = [
     "callouts": [],
     "brandxObjective": "",
     "brandxSecondaryObjective": "",
-    "pacingComponents": [],
+    "pacingComponents": [
+      {
+        "label": "Justin Tuck \u2014 Longform Video",
+        "impressions": {
+          "delivered": 0,
+          "goal": 12000000
+        }
+      },
+      {
+        "label": "Brandon Copeland \u2014 Longform Video",
+        "impressions": {
+          "delivered": 0,
+          "goal": 12000000
+        }
+      },
+      {
+        "label": "Justin Tuck \u2014 Made for Social Cut",
+        "impressions": {
+          "delivered": 0,
+          "goal": 1500000
+        }
+      },
+      {
+        "label": "Brandon Copeland \u2014 Made for Social Cut",
+        "impressions": {
+          "delivered": 0,
+          "goal": 1500000
+        }
+      },
+      {
+        "label": "Added Value \u2014 Kristyn Cook (Episode + Cutdown)",
+        "impressions": {
+          "delivered": 0,
+          "goal": 0
+        }
+      }
+    ],
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
