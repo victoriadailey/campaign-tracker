@@ -2321,3 +2321,18 @@ campaigns:
         - comcast_us_squash_yt_paid.csv
       measure_studio:
         - comcast_us_squash_ms.csv
+
+  - id: spectrum_fueling_dreams
+    partner: Spectrum
+    series: Fueling Dreams
+    series_italic: Dreams
+    type: social
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-11-25
+    flight_end: 2026-12-31
+    impression_goal: 11400000
+    budget_goal: 26000
+    color: ft-7
+    lead_format: Social Video
+    blurb: Two Fueling Dreams videos for Spectrum Business
