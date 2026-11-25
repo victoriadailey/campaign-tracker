@@ -2363,13 +2363,13 @@ campaigns:
     sources:
       measure_studio:
         - state_farm_football_q4_ms.csv
-    # Goals: 2 longform videos (12M each) + a made-for-social cut for each
+    # Goals: 2 full eps + cutdowns (12M each) + a made-for-social cut for each
     # (1.5M each) + the Kristyn Cook added-value episode + cutdown (3M) = 30M.
     pacing_components:
-      - label: "Justin Tuck — Longform Video"
+      - label: "Justin Tuck — Full Ep + Cutdowns"
         impression_goal: 12_000_000
         episode_ids: [tuck_long]
-      - label: "Brandon Copeland — Longform Video"
+      - label: "Brandon Copeland — Full Ep + Cutdowns"
         impression_goal: 12_000_000
         episode_ids: [copeland_long]
       - label: "Justin Tuck — Made for Social Cut"
@@ -2388,7 +2388,8 @@ campaigns:
         date: Nov 25
         match: [Justin Tuck]
         exclude: []
-        # Pin the Tuck posts from the Measure export (YouTube longform + X video).
+        # Pin the Tuck posts from the Measure export: YouTube longform + the first
+        # cutdown (X video), which counts toward this Full Ep + Cutdowns card.
         manual_posts:
           - "FrdiLz0Admo"
           - "2125661849102545096"
