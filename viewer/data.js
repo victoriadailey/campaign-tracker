@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-25T20:03:16Z";
+window.LAST_REFRESHED = "2026-11-25T20:09:13Z";
 
 
 
@@ -6164,7 +6164,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-        "postedAt": "2026-10-26T14:33:00"
+        "postedAt": "2026-10-26T13:33:00"
       },
       {
         "id": "4008625389639110372",
@@ -6180,7 +6180,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
-        "postedAt": "2026-10-15T13:33:00"
+        "postedAt": "2026-10-15T12:33:00"
       },
       {
         "id": "urn:li:ugcPost:7529681990372081664",
@@ -6196,7 +6196,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529681990372081664",
-        "postedAt": "2026-11-20T18:08:00"
+        "postedAt": "2026-11-20T17:08:00"
       },
       {
         "id": "4034898520011881746",
@@ -6212,7 +6212,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/Df-1tN-Dr0S/",
-        "postedAt": "2026-11-20T18:33:00"
+        "postedAt": "2026-11-20T17:33:00"
       },
       {
         "id": "4011600101781087647",
@@ -6228,7 +6228,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.instagram.com/p/DesEQnHlSWf/",
-        "postedAt": "2026-10-19T16:03:00"
+        "postedAt": "2026-10-19T15:03:00"
       },
       {
         "id": "urn:li:ugcPost:7516530023617470464",
@@ -6244,7 +6244,7 @@ window.CAMPAIGNS = [
         "metric": "er",
         "insight": "",
         "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
-        "postedAt": "2026-10-15T16:30:00"
+        "postedAt": "2026-10-15T15:30:00"
       }
     ],
     "topPostsOrganic": [
@@ -6355,7 +6355,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-25T14:09:05Z"
+    "lastUpdatedExports": "2026-11-25T20:08:42Z"
   },
   {
     "id": "jlab_thecomeup",
@@ -7949,7 +7949,7 @@ window.TOP_POSTS = [
     "metric": "er",
     "insight": "",
     "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-    "postedAt": "2026-10-26T14:33:00"
+    "postedAt": "2026-10-26T13:33:00"
   },
   {
     "id": "3999294042675348120",
@@ -25518,7 +25518,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.18,
           "spend": 665.0,
           "url": "https://www.instagram.com/p/DePlY1GHRtQ/",
-          "postedAt": "2026-10-08T14:31:00"
+          "postedAt": "2026-10-08T13:31:00"
         },
         {
           "title": "No one in NCAA softball history has ever thrown a pitch as fast as Karlyn Pickens.  She set the record at 78.2 mph in Ma",
@@ -25533,7 +25533,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.9,
           "spend": 783.58,
           "url": "https://www.facebook.com/1604316345041283/",
-          "postedAt": "2026-10-08T14:36:00"
+          "postedAt": "2026-10-08T13:36:00"
         },
         {
           "title": "Karlyn Pickens holds the NCAA record for the fastest pitch ever recorded\u201479.4 mph, set by breaking her own previous mark",
@@ -25548,7 +25548,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.81,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:share:7514024176131690497",
-          "postedAt": "2026-10-08T16:30:00"
+          "postedAt": "2026-10-08T15:30:00"
         }
       ],
       "topPosts": [],
@@ -25651,7 +25651,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.08,
           "spend": 1409.0,
           "url": "https://tiktok.com/@frontofficesports/video/7696926297116937485",
-          "postedAt": "2026-10-15T13:30:00"
+          "postedAt": "2026-10-15T12:30:00"
         },
         {
           "title": "This WNBA player won a championship then announced she was pregnant, and everything changed.",
@@ -25666,7 +25666,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 18.85,
           "spend": 1236.15,
           "url": "https://www.youtube.com/shorts/IXp2DUsENVw",
-          "postedAt": "2026-10-15T13:30:00"
+          "postedAt": "2026-10-15T12:30:00"
         },
         {
           "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
@@ -25681,7 +25681,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 7.16,
           "spend": 670.0,
           "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
-          "postedAt": "2026-10-15T13:33:00"
+          "postedAt": "2026-10-15T12:33:00"
         },
         {
           "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
@@ -25696,7 +25696,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 2.8,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
-          "postedAt": "2026-10-15T16:30:00"
+          "postedAt": "2026-10-15T15:30:00"
         }
       ],
       "topPosts": [
@@ -25799,7 +25799,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.58,
           "spend": 782.0,
           "url": "https://www.instagram.com/p/DezoXyYldLo/",
-          "postedAt": "2026-10-22T16:30:00"
+          "postedAt": "2026-10-22T15:30:00"
         },
         {
           "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
@@ -25814,7 +25814,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.96,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121",
-          "postedAt": "2026-10-22T16:30:00"
+          "postedAt": "2026-10-22T15:30:00"
         },
         {
           "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
@@ -25829,7 +25829,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.19,
           "spend": 860.66,
           "url": "https://www.facebook.com/1618801963592721/",
-          "postedAt": "2026-10-22T16:42:00"
+          "postedAt": "2026-10-22T15:42:00"
         },
         {
           "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
@@ -25844,7 +25844,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.01,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:share:7529591827616858112",
-          "postedAt": "2026-11-22T12:00:00"
+          "postedAt": "2026-11-22T11:00:00"
         },
         {
           "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
@@ -25859,7 +25859,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.3,
           "spend": 364.48,
           "url": "https://www.facebook.com/1653713863434864/",
-          "postedAt": "2026-11-22T13:00:00"
+          "postedAt": "2026-11-22T12:00:00"
         },
         {
           "title": "Reed Blankenship passed on the 2021 NFL Draft to return to Middle Tennessee. Nobody drafted him in 2022. This year, he s",
@@ -25874,7 +25874,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.36,
           "spend": 411.0,
           "url": "https://www.instagram.com/p/DgDZmFmFV1U/",
-          "postedAt": "2026-11-22T13:00:00"
+          "postedAt": "2026-11-22T12:00:00"
         }
       ],
       "topPosts": [],
@@ -25973,7 +25973,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 3.12,
           "spend": 582.85,
           "url": "https://www.instagram.com/p/DesEQnHlSWf/",
-          "postedAt": "2026-10-19T16:03:00"
+          "postedAt": "2026-10-19T15:03:00"
         },
         {
           "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story. Presented by @Just",
@@ -25988,7 +25988,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.1,
           "spend": 804.0,
           "url": "https://tiktok.com/@frontofficesports/video/7698372281726274830",
-          "postedAt": "2026-10-19T16:30:00"
+          "postedAt": "2026-10-19T15:30:00"
         },
         {
           "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story",
@@ -26003,7 +26003,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 7.91,
           "spend": 709.15,
           "url": "https://www.youtube.com/shorts/pVTqIH5z5TA",
-          "postedAt": "2026-10-19T16:30:00"
+          "postedAt": "2026-10-19T15:30:00"
         },
         {
           "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.  Presented by Just",
@@ -26018,7 +26018,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.03,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7517939051824345089",
-          "postedAt": "2026-10-19T16:30:00"
+          "postedAt": "2026-10-19T15:30:00"
         },
         {
           "title": "Matthew Stafford took his HS to a 15-0 season, was drafted No. 1 overall in 2009, and won SB LVI.",
@@ -26033,7 +26033,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 9.8,
           "spend": 710.25,
           "url": "https://www.youtube.com/shorts/pi_iobeoPB0",
-          "postedAt": "2026-10-26T12:00:00"
+          "postedAt": "2026-10-26T11:00:00"
         },
         {
           "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -26048,7 +26048,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 16.95,
           "spend": 582.16,
           "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-          "postedAt": "2026-10-26T14:33:00"
+          "postedAt": "2026-10-26T13:33:00"
         },
         {
           "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -26063,7 +26063,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 1.46,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520558288988536832",
-          "postedAt": "2026-10-26T14:53:00"
+          "postedAt": "2026-10-26T13:53:00"
         },
         {
           "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -26078,7 +26078,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.21,
           "spend": 805.0,
           "url": "https://tiktok.com/@frontofficesports/video/7701074129377594637",
-          "postedAt": "2026-10-26T17:00:00"
+          "postedAt": "2026-10-26T16:00:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver",
@@ -26093,7 +26093,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.22,
           "spend": 425.6,
           "url": "https://www.youtube.com/shorts/7xhVnh4y0uE",
-          "postedAt": "2026-11-20T15:58:00"
+          "postedAt": "2026-11-20T14:58:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
@@ -26108,7 +26108,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 0.04,
           "spend": 564.0,
           "url": "https://tiktok.com/@frontofficesports/video/7710393729038748942",
-          "postedAt": "2026-11-20T18:05:00"
+          "postedAt": "2026-11-20T17:05:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
@@ -26123,7 +26123,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.43,
           "spend": 0,
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529681990372081664",
-          "postedAt": "2026-11-20T18:08:00"
+          "postedAt": "2026-11-20T17:08:00"
         },
         {
           "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
@@ -26138,7 +26138,7 @@ window.EPISODES_BY_CAMPAIGN = {
           "er": 4.18,
           "spend": 412.0,
           "url": "https://www.instagram.com/p/Df-1tN-Dr0S/",
-          "postedAt": "2026-11-20T18:33:00"
+          "postedAt": "2026-11-20T17:33:00"
         }
       ],
       "topPosts": [
@@ -46482,7 +46482,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DePlY1GHRtQ/",
-      "postedAt": "2026-10-08T14:31:00"
+      "postedAt": "2026-10-08T13:31:00"
     },
     {
       "title": "No one in NCAA softball history has ever thrown a pitch as fast as Karlyn Pickens.  She set the record at 78.2 mph in Ma",
@@ -46505,7 +46505,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1604316345041283/",
-      "postedAt": "2026-10-08T14:36:00"
+      "postedAt": "2026-10-08T13:36:00"
     },
     {
       "title": "Karlyn Pickens holds the NCAA record for the fastest pitch ever recorded\u201479.4 mph, set by breaking her own previous mark",
@@ -46528,7 +46528,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7514024176131690497",
-      "postedAt": "2026-10-08T16:30:00"
+      "postedAt": "2026-10-08T15:30:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
@@ -46551,7 +46551,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7696926297116937485",
-      "postedAt": "2026-10-15T13:30:00"
+      "postedAt": "2026-10-15T12:30:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed.",
@@ -46574,7 +46574,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/IXp2DUsENVw",
-      "postedAt": "2026-10-15T13:30:00"
+      "postedAt": "2026-10-15T12:30:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
@@ -46597,7 +46597,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Dehf42jDQ7k/",
-      "postedAt": "2026-10-15T13:33:00"
+      "postedAt": "2026-10-15T12:33:00"
     },
     {
       "title": "This WNBA player won a championship then announced she was pregnant, and everything changed. Meet Dearica Hamby. #Breaki",
@@ -46620,7 +46620,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516530023617470464",
-      "postedAt": "2026-10-15T16:30:00"
+      "postedAt": "2026-10-15T15:30:00"
     },
     {
       "title": "AJ Green went from undrafted to a $45 million contract extension and two Bucks franchise records. #TheComeUp  Presented ",
@@ -46643,7 +46643,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DezoXyYldLo/",
-      "postedAt": "2026-10-22T16:30:00"
+      "postedAt": "2026-10-22T15:30:00"
     },
     {
       "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
@@ -46666,7 +46666,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7519028969510277121",
-      "postedAt": "2026-10-22T16:30:00"
+      "postedAt": "2026-10-22T15:30:00"
     },
     {
       "title": "AJ Green went undrafted in 2022. Three years later, he signed a four-year, $45 million extension with the Milwaukee Buck",
@@ -46689,7 +46689,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1618801963592721/",
-      "postedAt": "2026-10-22T16:42:00"
+      "postedAt": "2026-10-22T15:42:00"
     },
     {
       "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
@@ -46712,7 +46712,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7529591827616858112",
-      "postedAt": "2026-11-22T12:00:00"
+      "postedAt": "2026-11-22T11:00:00"
     },
     {
       "title": "Reed Blankenship was projected as a mid-round pick in the 2021 NFL Draft. He returned to Middle Tennessee for a fifth ye",
@@ -46735,7 +46735,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.facebook.com/1653713863434864/",
-      "postedAt": "2026-11-22T13:00:00"
+      "postedAt": "2026-11-22T12:00:00"
     },
     {
       "title": "Reed Blankenship passed on the 2021 NFL Draft to return to Middle Tennessee. Nobody drafted him in 2022. This year, he s",
@@ -46758,7 +46758,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DgDZmFmFV1U/",
-      "postedAt": "2026-11-22T13:00:00"
+      "postedAt": "2026-11-22T12:00:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.\u2060 \u2060 Presented by @j",
@@ -46781,7 +46781,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/DesEQnHlSWf/",
-      "postedAt": "2026-10-19T16:03:00"
+      "postedAt": "2026-10-19T15:03:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story. Presented by @Just",
@@ -46804,7 +46804,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7698372281726274830",
-      "postedAt": "2026-10-19T16:30:00"
+      "postedAt": "2026-10-19T15:30:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story",
@@ -46827,7 +46827,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/pVTqIH5z5TA",
-      "postedAt": "2026-10-19T16:30:00"
+      "postedAt": "2026-10-19T15:30:00"
     },
     {
       "title": "From battling through a major injury to winning Olympic gold, this is Charlie McAvoy\u2019s #ComeUp story.  Presented by Just",
@@ -46850,7 +46850,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7517939051824345089",
-      "postedAt": "2026-10-19T16:30:00"
+      "postedAt": "2026-10-19T15:30:00"
     },
     {
       "title": "Matthew Stafford took his HS to a 15-0 season, was drafted No. 1 overall in 2009, and won SB LVI.",
@@ -46873,7 +46873,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/pi_iobeoPB0",
-      "postedAt": "2026-10-26T12:00:00"
+      "postedAt": "2026-10-26T11:00:00"
     },
     {
       "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -46896,7 +46896,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/De97gIHD6Cd/",
-      "postedAt": "2026-10-26T14:33:00"
+      "postedAt": "2026-10-26T13:33:00"
     },
     {
       "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -46919,7 +46919,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520558288988536832",
-      "postedAt": "2026-10-26T14:53:00"
+      "postedAt": "2026-10-26T13:53:00"
     },
     {
       "title": "Matthew Stafford took his high school to a 15-0 season, was drafted No. 1 overall in 2009, and won Super Bowl LVI. In 20",
@@ -46942,7 +46942,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7701074129377594637",
-      "postedAt": "2026-10-26T17:00:00"
+      "postedAt": "2026-10-26T16:00:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver",
@@ -46965,7 +46965,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/7xhVnh4y0uE",
-      "postedAt": "2026-11-20T15:58:00"
+      "postedAt": "2026-11-20T14:58:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
@@ -46988,7 +46988,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://tiktok.com/@frontofficesports/video/7710393729038748942",
-      "postedAt": "2026-11-20T18:05:00"
+      "postedAt": "2026-11-20T17:05:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
@@ -47011,7 +47011,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529681990372081664",
-      "postedAt": "2026-11-20T18:08:00"
+      "postedAt": "2026-11-20T17:08:00"
     },
     {
       "title": "Nick Saban once told Devonta Smith he was too small and now he\u2019s a Super Bowl-winning wide receiver. This is his #ComeUp",
@@ -47034,7 +47034,7 @@ window.POSTS_BY_CAMPAIGN = {
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.instagram.com/p/Df-1tN-Dr0S/",
-      "postedAt": "2026-11-20T18:33:00"
+      "postedAt": "2026-11-20T17:33:00"
     }
   ],
   "jlab_thecomeup": [
