@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-25T20:32:53Z";
+window.LAST_REFRESHED = "2026-11-25T20:34:40Z";
 
 
 
@@ -7973,14 +7973,14 @@ window.CAMPAIGNS = [
     "brandxSecondaryObjective": "",
     "pacingComponents": [
       {
-        "label": "Justin Tuck \u2014 Longform Video",
+        "label": "Justin Tuck \u2014 Full Ep + Cutdowns",
         "impressions": {
           "delivered": 0,
           "goal": 12000000
         }
       },
       {
-        "label": "Brandon Copeland \u2014 Longform Video",
+        "label": "Brandon Copeland \u2014 Full Ep + Cutdowns",
         "impressions": {
           "delivered": 0,
           "goal": 12000000
