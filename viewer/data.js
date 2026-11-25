@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-25T14:13:26Z";
+window.LAST_REFRESHED = "2026-11-25T16:06:33Z";
 
 
 
@@ -7039,23 +7039,23 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 163383,
+      "delivered": 174102,
       "goal": 200000
     },
     "budget": {
-      "delivered": 473.1,
+      "delivered": 507.03,
       "goal": 550.0
     },
     "color": "ft-5",
     "leadFormat": "Paid Social",
     "topChannel": "Instagram",
     "er": 0.15,
-    "cpm": 2.9,
+    "cpm": 2.91,
     "episodes": 0,
     "posts": 1,
     "blurb": "Sportradar BrandX",
-    "views": 163383,
-    "engagements": 237,
+    "views": 174102,
+    "engagements": 255,
     "goalSplit": [],
     "benchmarkCategory": "Branded Content",
     "lifecycle": "active",
@@ -7063,10 +7063,10 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 163383,
-        "eng": 237,
+        "impressions": 174102,
+        "eng": 255,
         "er": 0.15,
-        "cpm": 2.9,
+        "cpm": 2.91,
         "color": "#E4405F",
         "delta": -95.6,
         "bench": {
@@ -7074,7 +7074,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 163383
+        "views": 174102
       }
     ],
     "topPosts": [],
@@ -7086,7 +7086,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-23T15:12:45Z"
+    "lastUpdatedExports": "2026-11-25T16:06:00Z"
   },
   {
     "id": "stifel_fostonight",
@@ -8092,8 +8092,8 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 41178557,
-    "eng": 720236,
+    "impressions": 41189276,
+    "eng": 720254,
     "er": 1.75,
     "cpm": 4.48,
     "color": "#E4405F",
@@ -8103,7 +8103,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 145622,
-    "views": 38312685
+    "views": 38323404
   },
   {
     "name": "X",
@@ -47765,19 +47765,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 163383,
-      "paidImpr": 163383,
+      "impr": 174102,
+      "paidImpr": 174102,
       "orgImpr": 0,
-      "views": 163383,
-      "reach": 85473,
-      "eng": 237,
+      "views": 174102,
+      "reach": 91662,
+      "eng": 255,
       "er": 0.15,
-      "spend": 473.1,
+      "spend": 507.03,
       "watchTimeMin": null,
-      "clicks": 187,
-      "ctr": 0.11,
-      "cpc": 2.53,
-      "cpm": 2.9,
+      "clicks": 205,
+      "ctr": 0.12,
+      "cpc": 2.47,
+      "cpm": 2.91,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": null,
