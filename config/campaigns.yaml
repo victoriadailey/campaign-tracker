@@ -2316,6 +2316,16 @@ campaigns:
     # Measure export. Was wired as `other: Comcast - Measure - 11.16.csv`, which
     # no parser reads, so uploads never showed up. Upload via the card's
     # Measure Studio slot (saves as comcast_us_squash_ms.csv).
+    # Google Ads campaign name -> YouTube video ID. The DITL campaign is paid
+    # support for the "Come along for the 2026 U.S. Open Squash" Short, which
+    # Measure lists as organic with a partial paid slice; pairing folds the
+    # Google Ads row into that one post instead of showing it twice.
+    yt_ads_pairings:
+      "Stadium Status": eOQwM2X_EBo   # "A century-old Philadelphia armory..."
+      "DITL":           mpH0rqVJU-M   # "Come along for the 2026 U.S. Open Squash..."
+    # The Come along Short ran paid-only (no organic delivery).
+    paid_only_post_ids:
+      - "mpH0rqVJU-M"
     sources:
       youtube_paid:
         - comcast_us_squash_yt_paid.csv
