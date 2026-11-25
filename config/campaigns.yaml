@@ -2361,8 +2361,8 @@ campaigns:
     color: ft-1
     lead_format: Longform Video
     sources:
-      other:
-        - State Farm - Measure - 11.25.csv
+      measure_studio:
+        - state_farm_football_q4_ms.csv
     # Goals: 2 longform videos (12M each) + a made-for-social cut for each
     # (1.5M each) + the Kristyn Cook added-value episode + cutdown (3M) = 30M.
     pacing_components:
@@ -2388,6 +2388,10 @@ campaigns:
         date: Nov 25
         match: [Justin Tuck]
         exclude: []
+        # Pin the Tuck posts from the Measure export (YouTube longform + X video).
+        manual_posts:
+          - "FrdiLz0Admo"
+          - "2125661849102545096"
         impression_goal: 12_000_000
       - id: copeland_long
         n: Ep 02
