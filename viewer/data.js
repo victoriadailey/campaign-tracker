@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-25T16:53:39Z";
+window.LAST_REFRESHED = "2026-11-25T19:37:22Z";
 
 
 
@@ -7815,6 +7815,50 @@ window.CAMPAIGNS = [
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
     "lastUpdatedExports": "2026-11-20T14:37:06Z"
+  },
+  {
+    "id": "spectrum_fueling_dreams",
+    "partner": "Spectrum",
+    "series": "Fueling Dreams",
+    "seriesItalic": "Dreams",
+    "type": "social",
+    "flight": "Nov 25 \u2014 Dec 31, 2026",
+    "elapsedPct": 0.0,
+    "daysLeft": 36,
+    "status": "On Track",
+    "statusKind": "on",
+    "impressions": {
+      "delivered": 0,
+      "goal": 11400000
+    },
+    "budget": {
+      "delivered": 0,
+      "goal": 26000.0
+    },
+    "color": "ft-7",
+    "leadFormat": "Social Video",
+    "topChannel": "Unknown",
+    "er": 0.0,
+    "cpm": 0.0,
+    "episodes": 0,
+    "posts": 0,
+    "blurb": "Two Fueling Dreams videos for Spectrum Business",
+    "views": 0,
+    "engagements": 0,
+    "goalSplit": [],
+    "benchmarkCategory": "Branded Content",
+    "lifecycle": "active",
+    "channels": [],
+    "topPosts": [],
+    "topPostsOrganic": [],
+    "callouts": [],
+    "brandxObjective": "",
+    "brandxSecondaryObjective": "",
+    "pacingComponents": [],
+    "placements": 0,
+    "tagCompliancePct": null,
+    "lastUpdatedMs": "",
+    "lastUpdatedExports": ""
   }
 ];
 
@@ -26322,7 +26366,8 @@ window.EPISODES_BY_CAMPAIGN = {
     }
   ],
   "nwsl_championship_brandx": [],
-  "comcast_us_squash": []
+  "comcast_us_squash": [],
+  "spectrum_fueling_dreams": []
 };
 
 window.POSTS_BY_CAMPAIGN = {
@@ -48464,7 +48509,8 @@ window.POSTS_BY_CAMPAIGN = {
       "url": "https://www.instagram.com/p/DfvOowTDeH-/",
       "postedAt": "2026-11-14T17:03:00"
     }
-  ]
+  ],
+  "spectrum_fueling_dreams": []
 };
 
 window.UPLOAD_TARGETS = {
@@ -48869,7 +48915,8 @@ window.UPLOAD_TARGETS = {
       "file": "comcast_us_squash_yt_paid.csv",
       "label": "Google Ads"
     }
-  ]
+  ],
+  "spectrum_fueling_dreams": []
 };
 
 window.MS_GROUPS = [];
