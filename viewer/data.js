@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-25T20:30:13Z";
+window.LAST_REFRESHED = "2026-11-25T20:31:29Z";
 
 
 
@@ -7913,7 +7913,7 @@ window.CAMPAIGNS = [
     "statusKind": "on",
     "impressions": {
       "delivered": 0,
-      "goal": 27000000
+      "goal": 30000000
     },
     "budget": {
       "delivered": 0,
@@ -7971,7 +7971,7 @@ window.CAMPAIGNS = [
         "label": "Added Value \u2014 Kristyn Cook (Episode + Cutdown)",
         "impressions": {
           "delivered": 0,
-          "goal": 0
+          "goal": 3000000
         }
       }
     ],
