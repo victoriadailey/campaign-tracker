@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-25T16:45:02Z";
+window.LAST_REFRESHED = "2026-11-25T16:46:31Z";
 
 
 
@@ -1091,7 +1091,7 @@ window.CAMPAIGNS = [
     "status": "Goal Exceeded",
     "statusKind": "on",
     "impressions": {
-      "delivered": 4015703,
+      "delivered": 4015704,
       "goal": 3400000
     },
     "budget": {
@@ -1106,7 +1106,7 @@ window.CAMPAIGNS = [
     "episodes": 0,
     "posts": 2,
     "blurb": "Performance-focused paid social with E*TRADE. Awareness primary; clicks secondary.",
-    "views": 4015703,
+    "views": 4015704,
     "engagements": 5546,
     "goalSplit": [],
     "benchmarkCategory": "Paid Social - Performance",
@@ -1115,7 +1115,7 @@ window.CAMPAIGNS = [
       {
         "name": "Instagram",
         "italic": "gram",
-        "impressions": 4015703,
+        "impressions": 4015704,
         "eng": 5546,
         "er": 0.14,
         "cpm": 2.78,
@@ -1126,7 +1126,7 @@ window.CAMPAIGNS = [
           "cpm": 5.1
         },
         "organicImpressions": 0,
-        "views": 4015703
+        "views": 4015704
       }
     ],
     "topPosts": [],
@@ -1138,7 +1138,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-18T21:00:18Z"
+    "lastUpdatedExports": "2026-11-25T16:45:54Z"
   },
   {
     "id": "mm",
@@ -8084,7 +8084,7 @@ window.CHANNELS = [
   {
     "name": "Instagram",
     "italic": "gram",
-    "impressions": 41256165,
+    "impressions": 41256166,
     "eng": 722497,
     "er": 1.75,
     "cpm": 4.48,
@@ -8095,7 +8095,7 @@ window.CHANNELS = [
       "cpm": 5.1
     },
     "organicImpressions": 145622,
-    "views": 38390293
+    "views": 38390294
   },
   {
     "name": "X",
@@ -38229,10 +38229,10 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "Instagram",
       "accountName": null,
       "distKind": "paid",
-      "impr": 422397,
-      "paidImpr": 422397,
+      "impr": 422398,
+      "paidImpr": 422398,
       "orgImpr": 0,
-      "views": 422397,
+      "views": 422398,
       "reach": 165467,
       "eng": 896,
       "er": 0.21,
