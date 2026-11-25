@@ -2346,3 +2346,32 @@ campaigns:
     color: ft-7
     lead_format: Social Video
     blurb: Two Fueling Dreams videos for Spectrum Business
+
+  - id: state_farm_football_q4
+    partner: State Farm
+    series: Ahead of the Game
+    series_italic: Game
+    type: content
+    benchmark_category: Branded Content
+    lifecycle: active
+    flight_start: 2026-11-25
+    flight_end: 2026-12-31
+    impression_goal: 30000000
+    budget_goal: 40000
+    color: ft-1
+    lead_format: Longform Video
+    sources:
+      other:
+        - State Farm - Measure - 11.25.csv
+    episodes:
+      - id: ep1
+        n: Ep 01
+        title: How Justin Tuck Went From the New York Giants to Goldman Sachs
+        date: Nov 25
+        match: [Justin Tuck]
+        exclude: []
+      - id: ep2
+        n: Ep 02
+        title: Brandon Copeland
+        match: [Brandon Copeland]
+        exclude: []
