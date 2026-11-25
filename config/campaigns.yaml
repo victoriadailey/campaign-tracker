@@ -2356,7 +2356,7 @@ campaigns:
     lifecycle: active
     flight_start: 2026-11-25
     flight_end: 2026-12-31
-    impression_goal: 27000000
+    impression_goal: 30000000
     budget_goal: 40000
     color: ft-1
     lead_format: Longform Video
@@ -2364,8 +2364,7 @@ campaigns:
       other:
         - State Farm - Measure - 11.25.csv
     # Goals: 2 longform videos (12M each) + a made-for-social cut for each
-    # (1.5M each) = 27M. The Kristyn Cook added-value episode + cutdown has no
-    # contracted goal, so its card is tracked (counts toward total) only.
+    # (1.5M each) + the Kristyn Cook added-value episode + cutdown (3M) = 30M.
     pacing_components:
       - label: "Justin Tuck — Longform Video"
         impression_goal: 12_000_000
@@ -2380,7 +2379,7 @@ campaigns:
         impression_goal: 1_500_000
         episode_ids: [copeland_social]
       - label: "Added Value — Kristyn Cook (Episode + Cutdown)"
-        impression_goal: 0
+        impression_goal: 3_000_000
         episode_ids: [cook_added]
     episodes:
       - id: tuck_long
@@ -2419,3 +2418,4 @@ campaigns:
         title: Kristyn Cook — Added Value Episode + Cutdown
         match: [Kristyn Cook]
         exclude: []
+        impression_goal: 3_000_000
