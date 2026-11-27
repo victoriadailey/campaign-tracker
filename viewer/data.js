@@ -8,7 +8,7 @@
 
 
 
-window.LAST_REFRESHED = "2026-11-27T21:52:01Z";
+window.LAST_REFRESHED = "2026-11-27T21:53:58Z";
 
 
 
@@ -7712,23 +7712,23 @@ window.CAMPAIGNS = [
     "status": "At Risk",
     "statusKind": "warn",
     "impressions": {
-      "delivered": 5113771,
+      "delivered": 5227853,
       "goal": 6500000
     },
     "budget": {
-      "delivered": 13005.71,
+      "delivered": 13298.75,
       "goal": 17000.0
     },
     "color": "ft-1",
     "leadFormat": "Short-form Video",
     "topChannel": "YouTube",
-    "er": 1.31,
+    "er": 1.35,
     "cpm": 2.69,
     "episodes": 0,
     "posts": 7,
     "blurb": "Comcast Business and U.S. Squash had 1x Stadium Status video and one DITL video hosted by Lauren Withrow",
-    "views": 3065501,
-    "engagements": 67071,
+    "views": 3066560,
+    "engagements": 70347,
     "goalSplit": [],
     "benchmarkCategory": "Custom Creator-Led - Non-Franchise",
     "lifecycle": "active",
@@ -7736,10 +7736,10 @@ window.CAMPAIGNS = [
       {
         "name": "YouTube Shorts",
         "italic": "YouTube Shorts",
-        "impressions": 2272476,
-        "eng": 58471,
-        "er": 2.57,
-        "cpm": 2.4,
+        "impressions": 2386558,
+        "eng": 61747,
+        "er": 2.59,
+        "cpm": 2.41,
         "color": "#FF0033",
         "delta": -87.1,
         "bench": {
@@ -7747,7 +7747,7 @@ window.CAMPAIGNS = [
           "cpm": 3.25
         },
         "organicImpressions": 2624,
-        "views": 459370
+        "views": 460429
       },
       {
         "name": "TikTok",
@@ -7847,7 +7847,7 @@ window.CAMPAIGNS = [
     "placements": 0,
     "tagCompliancePct": null,
     "lastUpdatedMs": "",
-    "lastUpdatedExports": "2026-11-27T15:34:19Z"
+    "lastUpdatedExports": "2026-11-27T21:53:34Z"
   },
   {
     "id": "spectrum_fueling_dreams",
@@ -8242,8 +8242,8 @@ window.CHANNELS = [
   {
     "name": "YouTube",
     "italic": "Tube",
-    "impressions": 131573048,
-    "eng": 3155661,
+    "impressions": 131687130,
+    "eng": 3158937,
     "er": 2.4,
     "cpm": 1.13,
     "color": "#E00922",
@@ -8253,7 +8253,7 @@ window.CHANNELS = [
       "cpm": 3.5
     },
     "organicImpressions": 18547,
-    "views": 27428154
+    "views": 27429213
   },
   {
     "name": "TikTok",
@@ -48778,19 +48778,19 @@ window.POSTS_BY_CAMPAIGN = {
       "platform": "YouTube Shorts",
       "accountName": "Front Office Sports",
       "distKind": "paid",
-      "impr": 995730,
-      "paidImpr": 995730,
+      "impr": 1109812,
+      "paidImpr": 1109812,
       "orgImpr": 0,
-      "views": 9779,
+      "views": 10838,
       "reach": 0,
-      "eng": 32607,
-      "er": 3.27,
-      "spend": 2594.34,
+      "eng": 35883,
+      "er": 3.23,
+      "spend": 2887.38,
       "watchTimeMin": 14194.4,
       "clicks": null,
       "ctr": 0.66,
       "cpc": 3.96,
-      "cpm": 2.61,
+      "cpm": 2.6,
       "videoViews100Pct": null,
       "videoViews3s": null,
       "url": "https://www.youtube.com/shorts/mpH0rqVJU-M",
